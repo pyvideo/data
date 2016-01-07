@@ -73,10 +73,34 @@ def main(args):
                 print('      404')
                 continue
 
+            # if this video is a "draft", then skip it
+            if video['state'] == 2:
+                print '   ... skipping: draft'
+                continue
+
             # ditch embed because that's gross
             del video['embed']
 
-            video_fn = os.path.join(videos_path, video['slug']) + '.json'
+            # if the language is None, then set it to English which is
+            # probably right.
+            if not video['language']:
+                video['language'] = 'English'
+
+            # ditch the slug because we don't need those anymore.
+            slug = video['slug']
+            del video['slug']
+
+            # ditch the id because we don't need that anymore, either.
+            del video['id']
+
+            # delete added and updated since we don't need those anymore.
+            del video['added']
+            del video['updated']
+
+            # ditch state
+            del video['state']
+
+            video_fn = os.path.join(videos_path, slug) + '.json'
             with open(video_fn, 'w') as fp:
                 fp.write(json.dumps(video))
 
