@@ -2,4 +2,19 @@
 CONTRIBUTING
 ============
 
-FIXME: Fill this in.
+Bug reports
+===========
+
+FIXME
+
+
+Adding new data
+===============
+
+FIXME
+
+
+Editing existing data
+=====================
+
+FIXME
