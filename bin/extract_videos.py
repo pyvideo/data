@@ -32,6 +32,7 @@ try:
     from steve import richardapi
 except ImportError:
     print('Requires: steve')
+    print('Run: pip install steve')
     raise
 
 
@@ -44,11 +45,17 @@ def get_video_id(richard_url):
 
 def main(args):
     categories = richardapi.get_all_categories(API_URL)
+    data_path = os.path.join(os.getcwd(), 'data')
+
+    try:
+        os.mkdir(data_path)
+    except OSError:
+        pass
 
     for cat in categories:
         print('Working on %s...' % cat['title'])
         # make the category directory
-        path = os.path.join(os.getcwd(), cat['slug'])
+        path = os.path.join(data_path, cat['slug'])
         try:
             os.mkdir(path)
         except OSError:
