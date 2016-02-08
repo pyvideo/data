@@ -1,1 +1,36 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Victor Stinner"], "title": "Status of Unicode in Python 3", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "The talk will focus on the recent issues fixed in Python 3.1 and 3.2:\n\n  * Use the PEP 383 (error handler to store undecodable bytes) everywhere \n  * Encoding of the command line arguments: utf-8 on Mac OS X, locale encoding on UNIX/BSD, unicode on Windows \n  * Environment variables: creation of os.environb \n  * Filenames: huge work to support the PEP 383 everywhere, creation of os.fsencode() and os.fsdecode() \n  * Python source code encoding: use tokenize.detect_encoding() instead of the locale encoding \n  * some library examples: email, ftp, ... \n  * etc. \n\nThe talk will present not only the changes in Python, but also in the C API.\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.m4v", "tags": ["pycon", "pycon2011", "python3", "unicode"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 173547130, "video_ogv_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.ogv", "language": "English", "video_webm_length": null, "summary": "Introduced in Python 2.0, unicode became the default string type in Python\n3.0. It took 8 years to switch to unicode, and since Python 3.0, a lot of bugs\nhas been fixed. The switch to unicode opened many questions. Should Python\nsupport both bytes and characters for filenames? What to do with undecodable\nbytes? etc.\n\n", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011StatusOfUnicodeInPython3393.png", "video_flv_url": null}
+{
+  "id": 364, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--status-of-unicode-in-python-3", 
+  "title": "Status of Unicode in Python 3", 
+  "summary": "Introduced in Python 2.0, unicode became the default string type in Python\n3.0. It took 8 years to switch to unicode, and since Python 3.0, a lot of bugs\nhas been fixed. The switch to unicode opened many questions. Should Python\nsupport both bytes and characters for filenames? What to do with undecodable\nbytes? etc.\n\n", 
+  "description": "The talk will focus on the recent issues fixed in Python 3.1 and 3.2:\n\n  * Use the PEP 383 (error handler to store undecodable bytes) everywhere \n  * Encoding of the command line arguments: utf-8 on Mac OS X, locale encoding on UNIX/BSD, unicode on Windows \n  * Environment variables: creation of os.environb \n  * Filenames: huge work to support the PEP 383 everywhere, creation of os.fsencode() and os.fsdecode() \n  * Python source code encoding: use tokenize.detect_encoding() instead of the locale encoding \n  * some library examples: email, ftp, ... \n  * etc. \n\nThe talk will present not only the changes in Python, but also in the C API.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011StatusOfUnicodeInPython3393.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.m4v", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.ogv", 
+      "length": 173547130, 
+      "type": "ogv"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "pycon", 
+    "pycon2011", 
+    "python3", 
+    "unicode"
+  ], 
+  "speakers": [
+    "Victor Stinner"
+  ], 
+  "recorded": "2011-03-11"
+}

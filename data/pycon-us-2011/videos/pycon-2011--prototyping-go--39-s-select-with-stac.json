@@ -1,1 +1,34 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Andrew Francis"], "title": "Prototyping Go's Select with stackless.py for Stackless Python", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Prototyping Go's Select with stackless.py for Stackless Python\n\nPresented by Andrew Francis\n\nShowing how to use Python to prototype powerful concurrency features for\nStackless Python. We do want you to try this at home.\n\nAbstract\n\nGoogle\u2019s introduction of the Go language raised eyebrows in the Stackless\nPython community. Although very different languages, Go and Stackless Python\u2019s\nconcurrency model share a common ancestor: the Bell Labs family of languages\n(i.e., Newsqueak, Limbo). The common feature are channels: a synchronous\nmessage passing mechanism based on Tony Hoare\u2019s Communicating Sequential\nProcesses (CSP).\n\nBoth Go and Python have channels. However with the select language statement,\nGo has the ability to wait on multiple channels simultaneously. Select greatly\nsimplifies many concurrent programming problems. Stackless Python does not\nhave this feature. Other channel based languages also feature powerful\nconcurrency constructs. How hard would these constructs be to implement for\nStackless Python?\n\nThis talk explores the prototyping potential of stackless.py, the PyPy's\nframework's implementation of Stackless Python. The beauty of stackless.py is\nthat it is written in Python and implements much of Stackless Python's API!\nThe \"case study\" involves prototyping Go's select in stackless.py before\nreimplementing select in C based Stackless Python.\n\nDuring this talk, it will be shown how stackless.py can be used with CPython\nand the greenlet package (no need to install another Python). The audience\nwill also get an in depth look at how channels are implemented. Channels are\nat the heart of Stackless Python's message based concurrency model. Finally\nthe audience will gain insights into future directions of Stackless Python.\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/438_prototyping-go-s-select-with-stackless-py-for-stackless-python.mp4", "tags": ["csp", "go", "greenlets", "pycon", "pycon2011", "pypy", "stackless"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 128259672, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011PrototypingGosSelectWithStacklesspyForStackless735.png", "video_flv_url": null}
+{
+  "id": 438, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--prototyping-go--39-s-select-with-stac", 
+  "title": "Prototyping Go's Select with stackless.py for Stackless Python", 
+  "summary": "", 
+  "description": "Prototyping Go's Select with stackless.py for Stackless Python\n\nPresented by Andrew Francis\n\nShowing how to use Python to prototype powerful concurrency features for\nStackless Python. We do want you to try this at home.\n\nAbstract\n\nGoogle\u2019s introduction of the Go language raised eyebrows in the Stackless\nPython community. Although very different languages, Go and Stackless Python\u2019s\nconcurrency model share a common ancestor: the Bell Labs family of languages\n(i.e., Newsqueak, Limbo). The common feature are channels: a synchronous\nmessage passing mechanism based on Tony Hoare\u2019s Communicating Sequential\nProcesses (CSP).\n\nBoth Go and Python have channels. However with the select language statement,\nGo has the ability to wait on multiple channels simultaneously. Select greatly\nsimplifies many concurrent programming problems. Stackless Python does not\nhave this feature. Other channel based languages also feature powerful\nconcurrency constructs. How hard would these constructs be to implement for\nStackless Python?\n\nThis talk explores the prototyping potential of stackless.py, the PyPy's\nframework's implementation of Stackless Python. The beauty of stackless.py is\nthat it is written in Python and implements much of Stackless Python's API!\nThe \"case study\" involves prototyping Go's select in stackless.py before\nreimplementing select in C based Stackless Python.\n\nDuring this talk, it will be shown how stackless.py can be used with CPython\nand the greenlet package (no need to install another Python). The audience\nwill also get an in depth look at how channels are implemented. Channels are\nat the heart of Stackless Python's message based concurrency model. Finally\nthe audience will gain insights into future directions of Stackless Python.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011PrototypingGosSelectWithStacklesspyForStackless735.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/438_prototyping-go-s-select-with-stackless-py-for-stackless-python.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "csp", 
+    "go", 
+    "greenlets", 
+    "pycon", 
+    "pycon2011", 
+    "pypy", 
+    "stackless"
+  ], 
+  "speakers": [
+    "Andrew Francis"
+  ], 
+  "recorded": "2011-03-11"
+}

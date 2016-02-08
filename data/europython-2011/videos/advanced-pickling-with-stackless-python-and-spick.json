@@ -1,1 +1,31 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2011", "speakers": ["Anselm Kruis"], "title": "Advanced Pickling with Stackless Python and sPickle", "quality_notes": "", "video_flv_length": null, "recorded": "2011-07-07", "video_mp4_length": null, "description": "Stackless Python supports pickling of a wider range of types than conventional\nC-Python, including stack frames and code objects. On this basis it is\npossible to extend further the pickle.Pickler class in order to serialise\nclasses, modules, packages up to certain limits. The [sPickle\npackage](http://pypi.python.org/pypi/sPickle) provides such an extended\nPickler. The code was developed as part of a commercial project and recently\nreleased as free software by science + computing ag. Currently it requires\nStackless Python 2.7.\n\nIn my presentation, I'll first demonstrate some applications of the sPickle\npackage including serialisation of modules and executing parts of a program on\na remote computer using RPyC and Paramiko.\n\nIn the second part of my speech, I'll give some insight in the internal\noperations of sPickle and the lessons learned during its development.\nExtending the Pickler showed to be like opening a can of worms. You have take\ncare of many odds and ends to get it right. I'll point out some weak points in\nthe implementation of the conventional pickling code and I'll also show the\nlimits of the current sPickle implementation.\n\n", "video_mp4_url": null, "tags": ["packages", "pickling", "science", "stackless"], "copyright_text": "Standard YouTube License", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=rwhZ4joMLsI", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "[EuroPython 2011] Anselm Kruis - 24 June 2011 in \"Track Tagliatelle \"\n\n", "thumbnail_url": "http://i.ytimg.com/vi/rwhZ4joMLsI/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1166, 
+  "category": "EuroPython 2011", 
+  "slug": "advanced-pickling-with-stackless-python-and-spick", 
+  "title": "Advanced Pickling with Stackless Python and sPickle", 
+  "summary": "[EuroPython 2011] Anselm Kruis - 24 June 2011 in \"Track Tagliatelle \"\n\n", 
+  "description": "Stackless Python supports pickling of a wider range of types than conventional\nC-Python, including stack frames and code objects. On this basis it is\npossible to extend further the pickle.Pickler class in order to serialise\nclasses, modules, packages up to certain limits. The [sPickle\npackage](http://pypi.python.org/pypi/sPickle) provides such an extended\nPickler. The code was developed as part of a commercial project and recently\nreleased as free software by science + computing ag. Currently it requires\nStackless Python 2.7.\n\nIn my presentation, I'll first demonstrate some applications of the sPickle\npackage including serialisation of modules and executing parts of a program on\na remote computer using RPyC and Paramiko.\n\nIn the second part of my speech, I'll give some insight in the internal\noperations of sPickle and the lessons learned during its development.\nExtending the Pickler showed to be like opening a can of worms. You have take\ncare of many odds and ends to get it right. I'll point out some weak points in\nthe implementation of the conventional pickling code and I'll also show the\nlimits of the current sPickle implementation.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Standard YouTube License", 
+  "thumbnail_url": "http://i.ytimg.com/vi/rwhZ4joMLsI/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=rwhZ4joMLsI", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=rwhZ4joMLsI", 
+  "tags": [
+    "packages", 
+    "pickling", 
+    "science", 
+    "stackless"
+  ], 
+  "speakers": [
+    "Anselm Kruis"
+  ], 
+  "recorded": "2011-07-07"
+}

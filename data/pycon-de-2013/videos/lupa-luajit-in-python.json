@@ -1,1 +1,30 @@
-{"whiteboard": "", "video_mp4_download_only": true, "video_webm_download_only": false, "duration": 30, "video_ogv_download_only": false, "category": "PyCon DE 2013", "speakers": ["Stefan Behnel"], "title": "Lupa - LuaJIT in Python", "quality_notes": "", "video_flv_length": null, "recorded": "2013-10-17", "video_mp4_length": null, "description": "", "video_mp4_url": "", "tags": ["lua", "luajit", "lupa"], "copyright_text": "", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=JreLvRxOF9M", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "German", "video_webm_length": null, "summary": "Der Python-Interpreter hat den Ruf, eine ausgereifte und grandios einfach zu verwendende dynamische Sprache und Laufzeitumgebung zu bieten, die f\u00fcr jede noch so [exotische Anforderung](https://xkcd.com/413/) eine L\u00f6sung bereit h\u00e4lt.\r\n\r\nEin oft genanntes Manko ist jedoch die begrenzte Performance des Interpreters f\u00fcr stark algorithmisch gepr\u00e4gte, kritische Teile von Anwendungen. Insbesondere hochdynamischer und generierter Code kommt hier schnell an seine Grenzen.\r\n\r\nAuf der anderen Seite existiert mit LuaJIT2 eine sehr schnelle JIT-kompilierte Laufzeitumgebung der dynamischen Programmiersprache Lua, die bereits so manche Performance-Rekorde gebrochen hat und sich durch ihre geringe Gr\u00f6\u00dfe leicht in andere Programme einbinden l\u00e4sst. Das gro\u00dfe Manko von Lua ist jedoch das Fehlen von Standard-Bibliotheken, die extrem begrenzten Sprach-Features und der daraus resultierende hohe Aufwand bei der Entwicklung gr\u00f6\u00dferer Anwendungen.\r\n\r\nMit [Lupa](https://github.com/scoder/lupa) steht eine Verbindung der beiden Programmiersprachen bereit, die es erm\u00f6glicht, aus Python heraus Lua-Code auszuf\u00fchren und direkt mit diesem zu kommunizieren und Daten auszutauschen. So kann der gr\u00f6\u00dfte Teil einer Anwendung in Python implementiert werden, und einzelne Aufgaben k\u00f6nnen von der schnellen LuaJIT-Umgebung \u00fcbernommen werden.\r\n\r\nDieser Vortrag stellt das Projekt vor und gibt Einblicke in die Integration der beiden Programmiersprachen.", "thumbnail_url": "http://i1.ytimg.com/vi/JreLvRxOF9M/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 2433, 
+  "category": "PyCon DE 2013", 
+  "slug": "lupa-luajit-in-python", 
+  "title": "Lupa - LuaJIT in Python", 
+  "summary": "Der Python-Interpreter hat den Ruf, eine ausgereifte und grandios einfach zu verwendende dynamische Sprache und Laufzeitumgebung zu bieten, die f\u00fcr jede noch so [exotische Anforderung](https://xkcd.com/413/) eine L\u00f6sung bereit h\u00e4lt.\r\n\r\nEin oft genanntes Manko ist jedoch die begrenzte Performance des Interpreters f\u00fcr stark algorithmisch gepr\u00e4gte, kritische Teile von Anwendungen. Insbesondere hochdynamischer und generierter Code kommt hier schnell an seine Grenzen.\r\n\r\nAuf der anderen Seite existiert mit LuaJIT2 eine sehr schnelle JIT-kompilierte Laufzeitumgebung der dynamischen Programmiersprache Lua, die bereits so manche Performance-Rekorde gebrochen hat und sich durch ihre geringe Gr\u00f6\u00dfe leicht in andere Programme einbinden l\u00e4sst. Das gro\u00dfe Manko von Lua ist jedoch das Fehlen von Standard-Bibliotheken, die extrem begrenzten Sprach-Features und der daraus resultierende hohe Aufwand bei der Entwicklung gr\u00f6\u00dferer Anwendungen.\r\n\r\nMit [Lupa](https://github.com/scoder/lupa) steht eine Verbindung der beiden Programmiersprachen bereit, die es erm\u00f6glicht, aus Python heraus Lua-Code auszuf\u00fchren und direkt mit diesem zu kommunizieren und Daten auszutauschen. So kann der gr\u00f6\u00dfte Teil einer Anwendung in Python implementiert werden, und einzelne Aufgaben k\u00f6nnen von der schnellen LuaJIT-Umgebung \u00fcbernommen werden.\r\n\r\nDieser Vortrag stellt das Projekt vor und gibt Einblicke in die Integration der beiden Programmiersprachen.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "German", 
+  "copyright_text": "", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/JreLvRxOF9M/hqdefault.jpg", 
+  "duration": 30, 
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=JreLvRxOF9M", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=JreLvRxOF9M", 
+  "tags": [
+    "lua", 
+    "luajit", 
+    "lupa"
+  ], 
+  "speakers": [
+    "Stefan Behnel"
+  ], 
+  "recorded": "2013-10-17"
+}

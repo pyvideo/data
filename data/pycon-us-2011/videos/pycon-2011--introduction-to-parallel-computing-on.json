@@ -1,1 +1,32 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Roy Hyunjin Han"], "title": "Introduction to Parallel Computing on an NVIDIA GPU using PyCUDA", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Introduction to Parallel Computing on an NVIDIA GPU using PyCUDA\n\nPresented by Roy Hyunjin Han\n\nWith Andreas Kl\u00f6ckner's PyCUDA, you can harness the massively parallel\nsupercomputing power of your NVIDIA graphics card to crunch numerically\nintensive scientific computing applications in a fraction of the runtime it\nwould take on a CPU and at a fraction of the development cost of C++. We'll\ncover hardware architecture, API fundamentals and several examples to get you\nstarted.\n\nAbstract\n\nThere are two approaches to parallelizing a computationally heavy procedure:\nuse a messaging queue such as AMQP to distribute tasks among a networked\ncluster or increase the number of processors in a single machine. This talk\nfocuses on techniques for adapting mathematical code to run on specialized\nmulti-core graphic processors.\n\nModern graphic processors have hard-coded transistors for common vector and\nmatrix operations, making them ideal for general scientific computing.\nHowever, the NVIDIA CUDA's unique design requires knowledge of its hardware to\nadapt algorithms effectively. This talk covers basic CUDA architecture, API\nfunctions and several examples to illustrate the different kinds of problems\nthat will benefit from parallelization.\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/436_introduction-to-parallel-computing-on-an-nvidia-gpu-using-pycuda.mp4", "tags": ["nvidia", "parallel", "pycon", "pycon2011", "pycuda"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 155224241, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011IntroductionToParallelComputingOnAnNVIDIAGPUU724.png", "video_flv_url": null}
+{
+  "id": 436, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--introduction-to-parallel-computing-on", 
+  "title": "Introduction to Parallel Computing on an NVIDIA GPU using PyCUDA", 
+  "summary": "", 
+  "description": "Introduction to Parallel Computing on an NVIDIA GPU using PyCUDA\n\nPresented by Roy Hyunjin Han\n\nWith Andreas Kl\u00f6ckner's PyCUDA, you can harness the massively parallel\nsupercomputing power of your NVIDIA graphics card to crunch numerically\nintensive scientific computing applications in a fraction of the runtime it\nwould take on a CPU and at a fraction of the development cost of C++. We'll\ncover hardware architecture, API fundamentals and several examples to get you\nstarted.\n\nAbstract\n\nThere are two approaches to parallelizing a computationally heavy procedure:\nuse a messaging queue such as AMQP to distribute tasks among a networked\ncluster or increase the number of processors in a single machine. This talk\nfocuses on techniques for adapting mathematical code to run on specialized\nmulti-core graphic processors.\n\nModern graphic processors have hard-coded transistors for common vector and\nmatrix operations, making them ideal for general scientific computing.\nHowever, the NVIDIA CUDA's unique design requires knowledge of its hardware to\nadapt algorithms effectively. This talk covers basic CUDA architecture, API\nfunctions and several examples to illustrate the different kinds of problems\nthat will benefit from parallelization.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011IntroductionToParallelComputingOnAnNVIDIAGPUU724.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/436_introduction-to-parallel-computing-on-an-nvidia-gpu-using-pycuda.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "nvidia", 
+    "parallel", 
+    "pycon", 
+    "pycon2011", 
+    "pycuda"
+  ], 
+  "speakers": [
+    "Roy Hyunjin Han"
+  ], 
+  "recorded": "2011-03-11"
+}

@@ -1,1 +1,30 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Clark C. Evans"], "title": "HTSQL - an insanely good WSGI / REST interface to your favorite database", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "The HTSQL processor is a high-level URI-based query language for relational\ndatabases such as SQLite, PostgreSQL or MySQL. Since it's written in Python,\nit is easy to integrate and generates immediate value as the core of your\napplication's custom reporting engine. HTSQL is like the Django or SQLAlchemy\nORMs in that it generates SQL, but unlike an ORM in that its design center is\ncompletely different -- it was created for hard core reporting and not object\nto relational mapping. Hence, it is a wonderful complement to existing WSGI-\nbased applications to easily create dashboards, complex reports. We use HTSQL\nas a REST reporting interface for data integration and ad-hoc queries.\n\nThis talk will have two parts. In the first part we'll give a brief overview\nof the rationale and design of the query language. In the second part, we'll\nshow how to hook the HTSQL processor into your WSGI application and how to\nmake custom commands, such as a simple calendar output from a table containing\na date column.\n\nThe talk will be presented by Clark Evans, HTSQL was developed by Kyrylo\nSimonov. The main HTSQL site is [http://htsql.org](http://htsql.org) and the\ncode is at [http://bitbucket.org/prometheus/htsql](http://bitbucket.org/promet\nheus/htsql). It'll be similar to previous talks, such as\n[http://htsql.org/talks/20101103.html](http://htsql.org/talks/20101103.html).\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/365_htsql-an-insanely-good-wsgi-rest-interface-to-your-favorite-database.mp4", "tags": ["htsql", "pycon", "pycon2011"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 176555453, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "HTSQL is a URI-based high-level query language for relational databases; it is\nwritten in the Python language. HTSQL is a wonderful complement existing WSGI-\nbased applications, making it trivial to create interactive dashboards,\ncomplex reports. We use HTSQL as a REST query interface for data integration\nand ad-hoc reporting by technical users or ``accidental programmers``.\n\n", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011HTSQLAnInsanelyGoodWSGIRESTInterfaceToYour159.png", "video_flv_url": null}
+{
+  "id": 365, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--htsql---an-insanely-good-wsgi---rest-", 
+  "title": "HTSQL - an insanely good WSGI / REST interface to your favorite database", 
+  "summary": "HTSQL is a URI-based high-level query language for relational databases; it is\nwritten in the Python language. HTSQL is a wonderful complement existing WSGI-\nbased applications, making it trivial to create interactive dashboards,\ncomplex reports. We use HTSQL as a REST query interface for data integration\nand ad-hoc reporting by technical users or ``accidental programmers``.\n\n", 
+  "description": "The HTSQL processor is a high-level URI-based query language for relational\ndatabases such as SQLite, PostgreSQL or MySQL. Since it's written in Python,\nit is easy to integrate and generates immediate value as the core of your\napplication's custom reporting engine. HTSQL is like the Django or SQLAlchemy\nORMs in that it generates SQL, but unlike an ORM in that its design center is\ncompletely different -- it was created for hard core reporting and not object\nto relational mapping. Hence, it is a wonderful complement to existing WSGI-\nbased applications to easily create dashboards, complex reports. We use HTSQL\nas a REST reporting interface for data integration and ad-hoc queries.\n\nThis talk will have two parts. In the first part we'll give a brief overview\nof the rationale and design of the query language. In the second part, we'll\nshow how to hook the HTSQL processor into your WSGI application and how to\nmake custom commands, such as a simple calendar output from a table containing\na date column.\n\nThe talk will be presented by Clark Evans, HTSQL was developed by Kyrylo\nSimonov. The main HTSQL site is [http://htsql.org](http://htsql.org) and the\ncode is at [http://bitbucket.org/prometheus/htsql](http://bitbucket.org/promet\nheus/htsql). It'll be similar to previous talks, such as\n[http://htsql.org/talks/20101103.html](http://htsql.org/talks/20101103.html).\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011HTSQLAnInsanelyGoodWSGIRESTInterfaceToYour159.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/365_htsql-an-insanely-good-wsgi-rest-interface-to-your-favorite-database.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "htsql", 
+    "pycon", 
+    "pycon2011"
+  ], 
+  "speakers": [
+    "Clark C. Evans"
+  ], 
+  "recorded": "2011-03-11"
+}

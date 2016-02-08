@@ -1,1 +1,28 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": 2219, "video_ogv_download_only": false, "category": "PyCon ZA 2015", "speakers": ["Gideon Redelinghuys"], "title": "Python @ CloudFlare", "quality_notes": "", "video_flv_length": null, "recorded": "2015-10-01", "video_mp4_length": null, "description": "CloudFlare protects and accelerates any website online. Whether it's protecting large customers from 160Gbps DDOS attacks, dealing with normal Reddit traffic, Universal SSL or providing one of the fastest DNS servers in the world we need to stay up, work fast and deploy fast.\r\n\r\nTo this end we have two large Python projects we use at CloudFlare. One is the popular configuration manager Salt. We provide patches, features and bug reports on regular intervals to the Salt project. The other is an internal tool called CFSetup. CFSetup allows us to do the following with a few simple commands: spin up Docker containers that reflect machines in production, spin up a tightly coupled stack of Docker containers that reflect our software and hardware stacks, run build environments inside of well defined Docker containers to ensure that the compiled end-product was built using the same libraries that are on the production machines, and various other utility features.\r\n\r\nThis talk will cover how Salt works, how we've extended it to scale up and how we've had to debug it. It also cover how we've managed to build a layer on top of Docker to make it easier to use for ad-hoc testing and developing and what it's like interacting with Docker using Python.", "video_mp4_url": null, "tags": ["Room 215"], "copyright_text": "", "related_urls": [], "video_flv_download_only": false, "source_url": "http://youtu.be/lrLV93EFO0g", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "https://i.ytimg.com/vi/lrLV93EFO0g/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 3925, 
+  "category": "PyCon ZA 2015", 
+  "slug": "python-cloudflare", 
+  "title": "Python @ CloudFlare", 
+  "summary": "", 
+  "description": "CloudFlare protects and accelerates any website online. Whether it's protecting large customers from 160Gbps DDOS attacks, dealing with normal Reddit traffic, Universal SSL or providing one of the fastest DNS servers in the world we need to stay up, work fast and deploy fast.\r\n\r\nTo this end we have two large Python projects we use at CloudFlare. One is the popular configuration manager Salt. We provide patches, features and bug reports on regular intervals to the Salt project. The other is an internal tool called CFSetup. CFSetup allows us to do the following with a few simple commands: spin up Docker containers that reflect machines in production, spin up a tightly coupled stack of Docker containers that reflect our software and hardware stacks, run build environments inside of well defined Docker containers to ensure that the compiled end-product was built using the same libraries that are on the production machines, and various other utility features.\r\n\r\nThis talk will cover how Salt works, how we've extended it to scale up and how we've had to debug it. It also cover how we've managed to build a layer on top of Docker to make it easier to use for ad-hoc testing and developing and what it's like interacting with Docker using Python.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "", 
+  "thumbnail_url": "https://i.ytimg.com/vi/lrLV93EFO0g/hqdefault.jpg", 
+  "duration": 2219, 
+  "videos": [
+    {
+      "url": "http://youtu.be/lrLV93EFO0g", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtu.be/lrLV93EFO0g", 
+  "tags": [
+    "Room 215"
+  ], 
+  "speakers": [
+    "Gideon Redelinghuys"
+  ], 
+  "recorded": "2015-10-01"
+}

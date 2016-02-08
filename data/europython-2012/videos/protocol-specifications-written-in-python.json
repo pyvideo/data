@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2012", "speakers": ["F Haard"], "title": "Protocol specifications written in python", "quality_notes": "", "video_flv_length": null, "recorded": "2012-07-04", "video_mp4_length": null, "description": "Rapidly updating the requirements and implementation of a machine-to-machine\ncommunication protocol is hard in itself, and keeping a protocol specification\nand documentation up-to-date is always a burden, and sometimes becomes an\nimpossibility. At Visual Units, when this became a problem with the protocol\nbetween the embedded software and the fleet management server, we changed the\napproach and specified the protocol in Python. This allows us to use the\nspecification directly when generating and parsing messages, as well as making\nit possible to generate protocol documentation, and source code for our Java\n(J2ME) client software. We implemented everything from scratch, and found it\nsurprisingly easy to do without documentation and specifications external to\nThe Code. This talk will focus on lessons learned and pitfalls found during\nthe implementation of this solution, with code examples from our current state\nof art as well as showcases of some of the mistakes we made and the types of\nmagic used in different iterations - most notably metaclasses and the inspect\nand imp modules. It will follow the evolution from the first (quite horrible)\nattempts, to our current implementation. I will also discuss what has been\ngained by adopting this solution and the tradeoffs that we have made. The\nintended audience is developers and designers who work with and design\nprotocols, as well as developers with a general interest in code as\nspecification. This is not a presentation of a framework for use in any\napplication (although code is available), but an in-depth look at how far you\ncan go with custom-built tools.\n\n", "video_mp4_url": null, "tags": [], "copyright_text": "Standard YouTube License", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=Cgf73JmuINU", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "[EuroPython 2012] F Haard - 4 JULY 2012 in \"Track Ravioli\"\n\n", "thumbnail_url": "http://i.ytimg.com/vi/Cgf73JmuINU/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1310, 
+  "category": "EuroPython 2012", 
+  "slug": "protocol-specifications-written-in-python", 
+  "title": "Protocol specifications written in python", 
+  "summary": "[EuroPython 2012] F Haard - 4 JULY 2012 in \"Track Ravioli\"\n\n", 
+  "description": "Rapidly updating the requirements and implementation of a machine-to-machine\ncommunication protocol is hard in itself, and keeping a protocol specification\nand documentation up-to-date is always a burden, and sometimes becomes an\nimpossibility. At Visual Units, when this became a problem with the protocol\nbetween the embedded software and the fleet management server, we changed the\napproach and specified the protocol in Python. This allows us to use the\nspecification directly when generating and parsing messages, as well as making\nit possible to generate protocol documentation, and source code for our Java\n(J2ME) client software. We implemented everything from scratch, and found it\nsurprisingly easy to do without documentation and specifications external to\nThe Code. This talk will focus on lessons learned and pitfalls found during\nthe implementation of this solution, with code examples from our current state\nof art as well as showcases of some of the mistakes we made and the types of\nmagic used in different iterations - most notably metaclasses and the inspect\nand imp modules. It will follow the evolution from the first (quite horrible)\nattempts, to our current implementation. I will also discuss what has been\ngained by adopting this solution and the tradeoffs that we have made. The\nintended audience is developers and designers who work with and design\nprotocols, as well as developers with a general interest in code as\nspecification. This is not a presentation of a framework for use in any\napplication (although code is available), but an in-depth look at how far you\ncan go with custom-built tools.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Standard YouTube License", 
+  "thumbnail_url": "http://i.ytimg.com/vi/Cgf73JmuINU/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=Cgf73JmuINU", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=Cgf73JmuINU", 
+  "tags": [], 
+  "speakers": [
+    "F Haard"
+  ], 
+  "recorded": "2012-07-04"
+}

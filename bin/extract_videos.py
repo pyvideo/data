@@ -26,6 +26,7 @@ Usage::
 import json
 import os
 import sys
+from collections import OrderedDict
 
 try:
     from steve import restapi
@@ -41,6 +42,16 @@ API_URL = 'http://pyvideo.org/api/v2/'
 
 def get_video_id(richard_url):
     return int(richard_url.split('/video/')[1].split('/')[0])
+
+
+def reorder_dict(data):
+    new_dict = OrderedDict()
+    for key in ('id', 'category', 'slug', 'title', 'summary', 'description',
+                'quality_notes', 'language', 'copyright_text', 'thumbnail_url',
+                'duration', 'videos', 'source_url', 'tags', 'speakers',
+                'recorded'):
+        new_dict[key] = data[key]
+    return new_dict
 
 
 def main(args):
@@ -63,15 +74,14 @@ def main(args):
 
         # save category data
         with open(os.path.join(path, 'category.json'), 'w') as fp:
-            fp.write(
-                json.dumps({
-                    'title': cat['title'],
-                    'description': cat['description'],
-                    'url': cat['url'],
-                    'slug': cat['slug'],
-                    'start_date': cat['start_date']
-                })
-            )
+            cat_data = OrderedDict((
+                ('title', cat['title']),
+                ('description', cat['description']),
+                ('url', cat['url']),
+                ('slug', cat['slug']),
+                ('start_date', cat['start_date']),
+            ))
+            json.dump(cat_data, fp, sort_keys=False, indent=2)
 
         videos_path = os.path.join(path, 'videos')
         try:
@@ -97,7 +107,7 @@ def main(args):
 
             # if this video is a "draft", then skip it
             if video['state'] == 2:
-                print '   ... skipping: draft'
+                print('   ... skipping: draft')
                 continue
 
             # ditch embed because that's gross
@@ -108,13 +118,6 @@ def main(args):
             if not video['language']:
                 video['language'] = 'English'
 
-            # ditch the slug because we don't need those anymore.
-            slug = video['slug']
-            del video['slug']
-
-            # ditch the id because we don't need that anymore, either.
-            del video['id']
-
             # delete added and updated since we don't need those anymore.
             del video['added']
             del video['updated']
@@ -122,9 +125,33 @@ def main(args):
             # ditch state
             del video['state']
 
-            video_fn = os.path.join(videos_path, slug) + '.json'
+            videos = []
+            for fmt in ['mp4', 'webm', 'flv', 'ogv']:
+                if not video.get(('video_%s_url' % fmt)):
+                    continue
+
+                videos.append({
+                    'length': video.get(('video_%s_length' % fmt), 0),
+                    'url': video['video_%s_url' % fmt],
+                    'type': fmt
+                })
+
+                for key in [key for key in video.keys()
+                            if key.startswith('video_%s' % fmt)]:
+                    del video[key]
+
+            if video['source_url'] and 'youtu' in video['source_url']:
+                videos.append({
+                    'length': 0,
+                    'url': video['source_url'],
+                    'type': 'youtube'
+                })
+
+            video['videos'] = videos
+
+            video_fn = os.path.join(videos_path, video['slug']) + '.json'
             with open(video_fn, 'w') as fp:
-                fp.write(json.dumps(video))
+                json.dump(reorder_dict(video), fp, sort_keys=False, indent=2)
 
     return
 

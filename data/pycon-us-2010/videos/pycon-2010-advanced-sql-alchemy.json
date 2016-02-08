@@ -1,1 +1,32 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2010", "speakers": ["Michael Bayer"], "title": "PyCon 2010:Advanced SQL Alchemy", "quality_notes": "", "video_flv_length": null, "recorded": "2010-02-19", "video_mp4_length": null, "description": "Advanced SQLAlchemy\n\nPresented by Michael Bayer\n\nSQLAlchemy is the premier SQL toolkit for Python. SQLAlchemy exposes the full\npower of SQL while remaining easy to use for the basics, and is flexible\nenough to work with existing database schemas as well as fresh designs.\nSQLAlchemy is used in production by leading Python web frameworks Pylons and\nTurboGears as well as many other web and non-web developers.\n\nThis tutorial discusses current data mapping techniques, advanced Query\ntechniques, Session/transaction usage, and maximizing schema usage with\nSQLAlchemy's event model.\n\nIntended Audience\n\nPython experience: intermediate. You should already have some hands-on\nexperience with Python and be comfortable reading modern Python code.\n\nSQL experience: intermediate. We will use subselects and outer joins as part\nof the SQL layer.\n\nORM experience: prior experience with SQLAlchemy is recommended.\n\nClass Outline\n\nDeclarative Mapping\n\n  * Initial configuration \n  * Basic mapping \n  * Building a many-to-many relation \n  * Using late-evaluated configuration arguments \n\nAdvanced queries\n\n  * Selecting objects, selecting columns \n  * Thinking generatively \n  * Joining like a Pro \n  * Power Eager Loading \n  * Selecting from Anything \n\nSession Techniques\n\n  * Transaction lifecycle \n  * Scoping objects in and out of caches using merge() \n\nInheritance Mapping\n\n  * Single Table Inheritance \n  * Joined Table Inheritance \n  * High Level/Low Level Joined Queries \n\nExtending SQL\n\n  * Creating new SQL constructs \n  * Creating new DDL constructs \n\nExtending the ORM\n\n  * Using SessionExtension to populate denormalized views \n  * Subclassing Query to Suit Your Needs \n\n", "video_mp4_url": null, "tags": ["advanced", "pycon", "pycon2010", "sqlalchemy", "tutorial"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 926558095, "video_ogv_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/246_pycon-2010-advanced-sql-alchemy.ogv", "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010AdvancedSQLAlchemy724-474.jpg", "video_flv_url": null}
+{
+  "id": 246, 
+  "category": "PyCon US 2010", 
+  "slug": "pycon-2010-advanced-sql-alchemy", 
+  "title": "PyCon 2010:Advanced SQL Alchemy", 
+  "summary": "", 
+  "description": "Advanced SQLAlchemy\n\nPresented by Michael Bayer\n\nSQLAlchemy is the premier SQL toolkit for Python. SQLAlchemy exposes the full\npower of SQL while remaining easy to use for the basics, and is flexible\nenough to work with existing database schemas as well as fresh designs.\nSQLAlchemy is used in production by leading Python web frameworks Pylons and\nTurboGears as well as many other web and non-web developers.\n\nThis tutorial discusses current data mapping techniques, advanced Query\ntechniques, Session/transaction usage, and maximizing schema usage with\nSQLAlchemy's event model.\n\nIntended Audience\n\nPython experience: intermediate. You should already have some hands-on\nexperience with Python and be comfortable reading modern Python code.\n\nSQL experience: intermediate. We will use subselects and outer joins as part\nof the SQL layer.\n\nORM experience: prior experience with SQLAlchemy is recommended.\n\nClass Outline\n\nDeclarative Mapping\n\n  * Initial configuration \n  * Basic mapping \n  * Building a many-to-many relation \n  * Using late-evaluated configuration arguments \n\nAdvanced queries\n\n  * Selecting objects, selecting columns \n  * Thinking generatively \n  * Joining like a Pro \n  * Power Eager Loading \n  * Selecting from Anything \n\nSession Techniques\n\n  * Transaction lifecycle \n  * Scoping objects in and out of caches using merge() \n\nInheritance Mapping\n\n  * Single Table Inheritance \n  * Joined Table Inheritance \n  * High Level/Low Level Joined Queries \n\nExtending SQL\n\n  * Creating new SQL constructs \n  * Creating new DDL constructs \n\nExtending the ORM\n\n  * Using SessionExtension to populate denormalized views \n  * Subclassing Query to Suit Your Needs \n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010AdvancedSQLAlchemy724-474.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/246_pycon-2010-advanced-sql-alchemy.ogv", 
+      "length": 926558095, 
+      "type": "ogv"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "advanced", 
+    "pycon", 
+    "pycon2010", 
+    "sqlalchemy", 
+    "tutorial"
+  ], 
+  "speakers": [
+    "Michael Bayer"
+  ], 
+  "recorded": "2010-02-19"
+}

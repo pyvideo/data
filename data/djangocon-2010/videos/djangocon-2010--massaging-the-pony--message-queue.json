@@ -1,1 +1,33 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "DjangoCon 2010", "speakers": ["Shawn Rider"], "title": "Massaging the Pony: Message Queues and You", "quality_notes": "", "video_flv_length": null, "recorded": null, "video_mp4_length": null, "description": "Massaging the Pony: Message Queues and You\n\nPresented by Shawn Rider\n\nMessage queues are a potential solution for any site that needs to facilitate\nrobust asynchronous operations on your website including carrying out\nintensive or long-running actions or synchronizing off-site services. We will\nlook at how PBS has used Celery and RabbitMQ to provide more reliable service\nand how to set up a robust message queue solution in a cloud hosting\nenvironment.\n\nAbstract\n\nIn maintaining several different site projects written in Django over the past\nfour years, the PBS Education team repeatedly found the need for the ability\nto create asynchronous processes that could handle long-running actions and\nmission-critical synchronization. We needed a way to handle tasks such as\ngenerating reports on large data sets and executing remote processes on fussy\nthird-party services. The clear solution to the problems we encountered was to\nimplement a robust message queue solution.\n\nMessage queues allow sites to execute processes outside the normal HTTP\nrequest cycle and then deliver the results of those processes in a variety of\nways. After a survey of all available message queue solutions we settled on a\ncombination of Celery and RabbitMQ to create a reliable, always-available\nsystem that can handle mission-critical tasks. We can easily develop against a\nmessage queue in our development builds, and we have an infrastucture based in\na cloud hosting service that allows us to rely on the message queue without\nreservation.\n\nIn this talk will will look at what a message queue does for your site, how to\nimplement a message queue in your Django code, and how to set up a reliable\nmessage queue infrastructure on your servers. We will show examples from some\nof our sites at PBS so it is clear how message queues work and to present some\ncommon use cases that warrant a message queue solution. We will also discuss\nsome of the design patterns that made it easy to switch to message queue based\nprocessing for discreet tasks, as well as some of the things we learned that\nhave made the solution even easier to implement for new tasks.\n\n", "video_mp4_url": null, "tags": ["celery", "djangocon", "djangocon2010", "messagequeues", "queues", "rabbitmq"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 178474360, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Robertlofthouse-MassagingThePonyMessageQueuesAndYou879.png", "video_flv_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/39_massaging-the-pony-message-queues-and-you.flv"}
+{
+  "id": 39, 
+  "category": "DjangoCon 2010", 
+  "slug": "djangocon-2010--massaging-the-pony--message-queue", 
+  "title": "Massaging the Pony: Message Queues and You", 
+  "summary": "", 
+  "description": "Massaging the Pony: Message Queues and You\n\nPresented by Shawn Rider\n\nMessage queues are a potential solution for any site that needs to facilitate\nrobust asynchronous operations on your website including carrying out\nintensive or long-running actions or synchronizing off-site services. We will\nlook at how PBS has used Celery and RabbitMQ to provide more reliable service\nand how to set up a robust message queue solution in a cloud hosting\nenvironment.\n\nAbstract\n\nIn maintaining several different site projects written in Django over the past\nfour years, the PBS Education team repeatedly found the need for the ability\nto create asynchronous processes that could handle long-running actions and\nmission-critical synchronization. We needed a way to handle tasks such as\ngenerating reports on large data sets and executing remote processes on fussy\nthird-party services. The clear solution to the problems we encountered was to\nimplement a robust message queue solution.\n\nMessage queues allow sites to execute processes outside the normal HTTP\nrequest cycle and then deliver the results of those processes in a variety of\nways. After a survey of all available message queue solutions we settled on a\ncombination of Celery and RabbitMQ to create a reliable, always-available\nsystem that can handle mission-critical tasks. We can easily develop against a\nmessage queue in our development builds, and we have an infrastucture based in\na cloud hosting service that allows us to rely on the message queue without\nreservation.\n\nIn this talk will will look at what a message queue does for your site, how to\nimplement a message queue in your Django code, and how to set up a reliable\nmessage queue infrastructure on your servers. We will show examples from some\nof our sites at PBS so it is clear how message queues work and to present some\ncommon use cases that warrant a message queue solution. We will also discuss\nsome of the design patterns that made it easy to switch to message queue based\nprocessing for discreet tasks, as well as some of the things we learned that\nhave made the solution even easier to implement for new tasks.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Robertlofthouse-MassagingThePonyMessageQueuesAndYou879.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/39_massaging-the-pony-message-queues-and-you.flv", 
+      "length": null, 
+      "type": "flv"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "celery", 
+    "djangocon", 
+    "djangocon2010", 
+    "messagequeues", 
+    "queues", 
+    "rabbitmq"
+  ], 
+  "speakers": [
+    "Shawn Rider"
+  ], 
+  "recorded": null
+}

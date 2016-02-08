@@ -1,1 +1,30 @@
-{"whiteboard": "needs editing", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "DjangoCon 2012", "speakers": ["Kyle Rimkus", "Mike Biglan"], "title": "Where Django Caching Busts at the Seams", "quality_notes": "", "video_flv_length": null, "recorded": "2012-09-06", "video_mp4_length": null, "description": "Most mid-sized Django websites thrive by relying on memcached. Though what\nhappens when basic memcached is not enough? And how can one identify when the\ncaching architecture is becoming a bottleneck? We'll cover the problems we've\nencountered and solutions we've put in place.\n\nThe following highlight the issues we'll discuss during the talk:\n\n  * Cache Warming. For content that will likely be in demand, getting it ready in cache before use is a helpful start. \n  * Two-tier caching. In multi-server environments, certain content that changes infrequently and has high-demand can be cached locally on each server. In these cases, having methods to burn the cache on each server becomes critical.\n  * Categorizing Cache. If good estimates exist for the expected demand of certain cache as well as the frequency of change, this can lead to better insight into when to warm that content as well as whether to cache it locally.\n  * Caching comparison with memcached vs. reddis vs. mongo\n  * Cachemodel. Our open-source, mini-framework for simplifying caching in Django. \n  * Adding servers to memcached. And consistent hashing algorithms to avoid having to burn all cache when the cache cluster changes in size.\n  * Elasticache on AWS.\n\nAs caching problems become more common, better layers and mini-frameworks will\nhelp simplify and elegantly solve some of these problems.\n\n", "video_mp4_url": null, "tags": ["caching", "django"], "copyright_text": "Creative Commons Attribution license (reuse allowed", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=dXDLWGY0Tro", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "Most mid-sized Django websites thrive by relying on memcached. Though what\nhappens when basic memcached is not enough? And how can one identify when the\ncaching architecture is becoming a bottleneck? We'll cover the problems we've\nencountered and solutions we've put in place.\n\n", "thumbnail_url": "http://i.ytimg.com/vi/dXDLWGY0Tro/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1405, 
+  "category": "DjangoCon 2012", 
+  "slug": "where-django-caching-busts-at-the-seams", 
+  "title": "Where Django Caching Busts at the Seams", 
+  "summary": "Most mid-sized Django websites thrive by relying on memcached. Though what\nhappens when basic memcached is not enough? And how can one identify when the\ncaching architecture is becoming a bottleneck? We'll cover the problems we've\nencountered and solutions we've put in place.\n\n", 
+  "description": "Most mid-sized Django websites thrive by relying on memcached. Though what\nhappens when basic memcached is not enough? And how can one identify when the\ncaching architecture is becoming a bottleneck? We'll cover the problems we've\nencountered and solutions we've put in place.\n\nThe following highlight the issues we'll discuss during the talk:\n\n  * Cache Warming. For content that will likely be in demand, getting it ready in cache before use is a helpful start. \n  * Two-tier caching. In multi-server environments, certain content that changes infrequently and has high-demand can be cached locally on each server. In these cases, having methods to burn the cache on each server becomes critical.\n  * Categorizing Cache. If good estimates exist for the expected demand of certain cache as well as the frequency of change, this can lead to better insight into when to warm that content as well as whether to cache it locally.\n  * Caching comparison with memcached vs. reddis vs. mongo\n  * Cachemodel. Our open-source, mini-framework for simplifying caching in Django. \n  * Adding servers to memcached. And consistent hashing algorithms to avoid having to burn all cache when the cache cluster changes in size.\n  * Elasticache on AWS.\n\nAs caching problems become more common, better layers and mini-frameworks will\nhelp simplify and elegantly solve some of these problems.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution license (reuse allowed", 
+  "thumbnail_url": "http://i.ytimg.com/vi/dXDLWGY0Tro/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=dXDLWGY0Tro", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=dXDLWGY0Tro", 
+  "tags": [
+    "caching", 
+    "django"
+  ], 
+  "speakers": [
+    "Kyle Rimkus", 
+    "Mike Biglan"
+  ], 
+  "recorded": "2012-09-06"
+}

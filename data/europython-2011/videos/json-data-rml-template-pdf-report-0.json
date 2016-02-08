@@ -1,1 +1,30 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2011", "speakers": ["Stefano Cotta Ramusino"], "title": "JSON data + RML template = PDF report", "quality_notes": "", "video_flv_length": null, "recorded": "2011-07-13", "video_mp4_length": null, "description": "The main problem with reports generated in Python is how to separate the\ncontent from the style using ReportLab library, because all informations\nshould be saved in a single source file that, by example, is impossible to\nunderstand for your graphic designer.\n\nSo the solution: just modularizes all components you need and identify simple\ncontainer formats for your data input (JSON) and document template (ReportLab\nRML).\n\nNow with the power of Genshi and XInclude we will create dynamic templates\nthat include specific snippets (e.g., to generate on the fly a decent graph\nwith matplotlib or cairoplot to fill some lacks of ReportLab) and we will\ndetach the stylesheet from the template structure.\n\nAnd at the end you can also have the internationalization service in the PDF\nreport generation!\n\n", "video_mp4_url": null, "tags": ["internationalization", "json", "matplotlib"], "copyright_text": "Standard YouTube License", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=9Cq_Zmr0OgM", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "[EuroPython 2011] Stefano Cotta Ramusino - 23 June 2011 in \"Track Ravioli\"\n\n", "thumbnail_url": "http://i.ytimg.com/vi/9Cq_Zmr0OgM/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1132, 
+  "category": "EuroPython 2011", 
+  "slug": "json-data-rml-template-pdf-report-0", 
+  "title": "JSON data + RML template = PDF report", 
+  "summary": "[EuroPython 2011] Stefano Cotta Ramusino - 23 June 2011 in \"Track Ravioli\"\n\n", 
+  "description": "The main problem with reports generated in Python is how to separate the\ncontent from the style using ReportLab library, because all informations\nshould be saved in a single source file that, by example, is impossible to\nunderstand for your graphic designer.\n\nSo the solution: just modularizes all components you need and identify simple\ncontainer formats for your data input (JSON) and document template (ReportLab\nRML).\n\nNow with the power of Genshi and XInclude we will create dynamic templates\nthat include specific snippets (e.g., to generate on the fly a decent graph\nwith matplotlib or cairoplot to fill some lacks of ReportLab) and we will\ndetach the stylesheet from the template structure.\n\nAnd at the end you can also have the internationalization service in the PDF\nreport generation!\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Standard YouTube License", 
+  "thumbnail_url": "http://i.ytimg.com/vi/9Cq_Zmr0OgM/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=9Cq_Zmr0OgM", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=9Cq_Zmr0OgM", 
+  "tags": [
+    "internationalization", 
+    "json", 
+    "matplotlib"
+  ], 
+  "speakers": [
+    "Stefano Cotta Ramusino"
+  ], 
+  "recorded": "2011-07-13"
+}

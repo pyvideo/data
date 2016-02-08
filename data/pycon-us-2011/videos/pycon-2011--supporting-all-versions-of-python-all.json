@@ -1,1 +1,33 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Kumar McMillan"], "title": "Supporting All Versions of Python All The Time With Tox", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Supporting All Versions of Python All The Time With Tox\n\nPresented by Kumar McMillan\n\nThis talk explains the modern techniques that every module maintainer needs to\nknow in order to support all major versions of Python. You probably already\nhave a massive test suite using a tool like nosetests, py.test, unittest, or a\ncustom runner. Using the tox command line tool, you'll see how to run your\ntests in Python 2.x, 3.x, Jython, and whatever else in parallel.\n\nAbstract\n\ntox is a new tool that lets you set up isolated virtual environments to test\nyour module's deployment and compatibility with all major versions of Python.\nIt's easy to install and is flexible enough that it probably already supports\nyour existing test suite. With one simple command you can execute your test\nsuite in each version of Python, you can build its documentation with Sphinx,\nand get a nice printout of the results. It has also been designed from the\nground up to integrate into continuous integration (CI) tools like Hudson.\n\nUsing practical examples, this talk will show you how to toxify your existing\ntest suite and trick it out with the tox.ini config file. You'll also see how\nto leverage Hudson's matrix build so that each code checkin will run tests in\nall versions of Python and report detailed failures.\n\nYour app supports Python 3, right? No? Tox is the best way to develop in\nparallel with 2.x and 3.x. We'll go over how to set up tox for that.\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/435_supporting-all-versions-of-python-all-the-time-with-tox.mp4", "tags": ["ci", "hudson", "pycon", "pycon2011", "testing", "tox"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 112153712, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011SupportingAllVersionsOfPythonAllTheTimeWithT333.png", "video_flv_url": null}
+{
+  "id": 435, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--supporting-all-versions-of-python-all", 
+  "title": "Supporting All Versions of Python All The Time With Tox", 
+  "summary": "", 
+  "description": "Supporting All Versions of Python All The Time With Tox\n\nPresented by Kumar McMillan\n\nThis talk explains the modern techniques that every module maintainer needs to\nknow in order to support all major versions of Python. You probably already\nhave a massive test suite using a tool like nosetests, py.test, unittest, or a\ncustom runner. Using the tox command line tool, you'll see how to run your\ntests in Python 2.x, 3.x, Jython, and whatever else in parallel.\n\nAbstract\n\ntox is a new tool that lets you set up isolated virtual environments to test\nyour module's deployment and compatibility with all major versions of Python.\nIt's easy to install and is flexible enough that it probably already supports\nyour existing test suite. With one simple command you can execute your test\nsuite in each version of Python, you can build its documentation with Sphinx,\nand get a nice printout of the results. It has also been designed from the\nground up to integrate into continuous integration (CI) tools like Hudson.\n\nUsing practical examples, this talk will show you how to toxify your existing\ntest suite and trick it out with the tox.ini config file. You'll also see how\nto leverage Hudson's matrix build so that each code checkin will run tests in\nall versions of Python and report detailed failures.\n\nYour app supports Python 3, right? No? Tox is the best way to develop in\nparallel with 2.x and 3.x. We'll go over how to set up tox for that.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011SupportingAllVersionsOfPythonAllTheTimeWithT333.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/435_supporting-all-versions-of-python-all-the-time-with-tox.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "ci", 
+    "hudson", 
+    "pycon", 
+    "pycon2011", 
+    "testing", 
+    "tox"
+  ], 
+  "speakers": [
+    "Kumar McMillan"
+  ], 
+  "recorded": "2011-03-11"
+}

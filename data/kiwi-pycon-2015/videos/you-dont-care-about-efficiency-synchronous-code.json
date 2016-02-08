@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": 2041, "video_ogv_download_only": false, "category": "Kiwi PyCon 2015", "speakers": ["Cory Benfield"], "title": "You Don\u2019t Care About Efficiency: Synchronous Code Is Dying", "quality_notes": "", "video_flv_length": null, "recorded": "2015-09-06", "video_mp4_length": null, "description": "If you write blocking code, you don\u2019t care about efficiency.\r\n\r\nThere, I said it.\r\n\r\nIt\u2019s 2015, and still the vast majority of Python programmers write essentially synchronous code that blocks on network I/O. This approach, while simple to reason about, struggles mightily with scaling up and out into software that does a lot of network I/O. Worse, it makes it difficult to write code that reacts rapidly to changing conditions.\r\n\r\nThe writing is on the wall for this kind of software, as the community shifts towards writing software that embraces asynchronicity. In this talk we\u2019ll discuss why synchronous software is a problem, what your options are to move away from it, and what challenges are being faced by the Python ecosystem as we try to move towards a brave new asynchronous world.", "video_mp4_url": "", "tags": [], "copyright_text": "CC BY-SA", "related_urls": [], "video_flv_download_only": false, "source_url": "http://youtu.be/7b4z7y6Lohw", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "https://i.ytimg.com/vi/7b4z7y6Lohw/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 3851, 
+  "category": "Kiwi PyCon 2015", 
+  "slug": "you-dont-care-about-efficiency-synchronous-code", 
+  "title": "You Don\u2019t Care About Efficiency: Synchronous Code Is Dying", 
+  "summary": "", 
+  "description": "If you write blocking code, you don\u2019t care about efficiency.\r\n\r\nThere, I said it.\r\n\r\nIt\u2019s 2015, and still the vast majority of Python programmers write essentially synchronous code that blocks on network I/O. This approach, while simple to reason about, struggles mightily with scaling up and out into software that does a lot of network I/O. Worse, it makes it difficult to write code that reacts rapidly to changing conditions.\r\n\r\nThe writing is on the wall for this kind of software, as the community shifts towards writing software that embraces asynchronicity. In this talk we\u2019ll discuss why synchronous software is a problem, what your options are to move away from it, and what challenges are being faced by the Python ecosystem as we try to move towards a brave new asynchronous world.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "https://i.ytimg.com/vi/7b4z7y6Lohw/hqdefault.jpg", 
+  "duration": 2041, 
+  "videos": [
+    {
+      "url": "http://youtu.be/7b4z7y6Lohw", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtu.be/7b4z7y6Lohw", 
+  "tags": [], 
+  "speakers": [
+    "Cory Benfield"
+  ], 
+  "recorded": "2015-09-06"
+}

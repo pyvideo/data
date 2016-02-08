@@ -1,1 +1,33 @@
-{"whiteboard": "", "video_mp4_download_only": true, "video_webm_download_only": false, "duration": 30, "video_ogv_download_only": false, "category": "PyCon DE 2013", "speakers": ["Christopher Arndt"], "title": "MIDI-Ger\u00e4te drahtlos steuern mit OSC, Raspberry Pi und python-rtmidi", "quality_notes": "", "video_flv_length": null, "recorded": "2013-10-16", "video_mp4_length": null, "description": "", "video_mp4_url": "", "tags": ["diy", "midi", "musik", "osc", "raspberry pi", "remote control"], "copyright_text": "", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=ZNsfvjeQ8cY", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "German", "video_webm_length": null, "summary": "Mit der [python-rtmidi](https://pypi.python.org/pypi/python-rtmidi) Bibliothek l\u00e4sst sich mit Python unter den drei g\u00e4ngigsten Betriebssystemen Windows, OS X und Linux auf MIDI-Schnittstellen zugreifen und MIDI-Daten senden und empfangen. Viele elektronische Musikinstrumente und anderes Soundequipment werden noch immer vorwiegend \u00fcber das MIDI-Protokoll gesteuert und besitzen nur herk\u00f6mmliche MIDI-Interfaces. Mit Hilfe einer auf *python-rtmidi* und [pyliblo](http://das.nasophon.de/pyliblo/) aufsetzenden Software, der *OSC-MIDI-Bridge*, einem Raspberry Pi und je einem billigen WLAN- und USB-MIDI-Interface, lassen sich solche Ger\u00e4te kosteng\u00fcnstig in ein drahtloses Netzwerk einbinden und z.B. \u00fcber Tablet-Computer steuern, auf denen entsprechende Software installiert ist, die OSC ([Open Sound Control](http://opensoundcontrol.org/)) unterst\u00fctzt (z.B. [TouchOSC](http://hexler.net/software/touchosc) oder [TB MIDI Stuff](http://www.thiburce.com/TBStuff/)). Dies ist insbesondere f\u00fcr Situationen praktisch, in denen kein sperriger Desktop-Computer oder Laptop mit MIDI-Schnittstelle vor Ort vorhanden oder gew\u00fcnscht ist.\r\n\r\nMit einer \"Live\"-Demonstration zeigt der Referent diese von ihm implementierte Software in Aktion (ca. 4 min) und erl\u00e4utert dann kurz die dabei benutzten Protokolle (MIDI und OSC) (5 min), stellt die verwendeten Python-Bibliotheken *python-rtmidi* und *pyliblo* vor (4 min) und erl\u00e4utert die eingesetzten Software-Techniken. Dabei wird insbesondere auf die asynchrone Behandlung von MIDI-Input und Output via des *multiprocessing*-Moduls der Standardbibliothek eingegangen (5 min). Abschliessend werden noch einige Anregungen f\u00fcr weitere Einsatzzwecke von *python-rtmidi* und der OSC-MIDI-Bridge gegeben (2 min).\r\n\r\n*python-rtmidi* ist ein Python-Bindung f\u00fcr die C++-Bibliothek [RtMidi](http://www.music.mcgill.ca/~gary/rtmidi/index.html) und wurde mit [Cython](http://cython.org) realisiert. Die Software befindet sich noch im Alpha-Status, da momentan noch die Unterst\u00fctzung der Kernel Streaming API unter Windows fehlt (Windows wird aber \u00fcber das WinMM-Framework unterst\u00fctzt). Die vorhandene Funktionalit\u00e4t ist jedoch stabil und es ist geplant, vor der PyCon.DE eine Beta-Version zu ver\u00f6ffentlichen. Die darauf aufsetzende OSC-MIDI Bridge ist bisher nur als Beispielskript in der *python-rtmidi*-Distribution verf\u00fcgbar, wird aber stetig weiterentwickelt und voraussichtlich demn\u00e4chst in ein eigenes Projekt ausgegliedert.", "thumbnail_url": "http://i1.ytimg.com/vi/ZNsfvjeQ8cY/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 2393, 
+  "category": "PyCon DE 2013", 
+  "slug": "midi-gerate-drahtlos-steuern-mit-osc-raspberry-p", 
+  "title": "MIDI-Ger\u00e4te drahtlos steuern mit OSC, Raspberry Pi und python-rtmidi", 
+  "summary": "Mit der [python-rtmidi](https://pypi.python.org/pypi/python-rtmidi) Bibliothek l\u00e4sst sich mit Python unter den drei g\u00e4ngigsten Betriebssystemen Windows, OS X und Linux auf MIDI-Schnittstellen zugreifen und MIDI-Daten senden und empfangen. Viele elektronische Musikinstrumente und anderes Soundequipment werden noch immer vorwiegend \u00fcber das MIDI-Protokoll gesteuert und besitzen nur herk\u00f6mmliche MIDI-Interfaces. Mit Hilfe einer auf *python-rtmidi* und [pyliblo](http://das.nasophon.de/pyliblo/) aufsetzenden Software, der *OSC-MIDI-Bridge*, einem Raspberry Pi und je einem billigen WLAN- und USB-MIDI-Interface, lassen sich solche Ger\u00e4te kosteng\u00fcnstig in ein drahtloses Netzwerk einbinden und z.B. \u00fcber Tablet-Computer steuern, auf denen entsprechende Software installiert ist, die OSC ([Open Sound Control](http://opensoundcontrol.org/)) unterst\u00fctzt (z.B. [TouchOSC](http://hexler.net/software/touchosc) oder [TB MIDI Stuff](http://www.thiburce.com/TBStuff/)). Dies ist insbesondere f\u00fcr Situationen praktisch, in denen kein sperriger Desktop-Computer oder Laptop mit MIDI-Schnittstelle vor Ort vorhanden oder gew\u00fcnscht ist.\r\n\r\nMit einer \"Live\"-Demonstration zeigt der Referent diese von ihm implementierte Software in Aktion (ca. 4 min) und erl\u00e4utert dann kurz die dabei benutzten Protokolle (MIDI und OSC) (5 min), stellt die verwendeten Python-Bibliotheken *python-rtmidi* und *pyliblo* vor (4 min) und erl\u00e4utert die eingesetzten Software-Techniken. Dabei wird insbesondere auf die asynchrone Behandlung von MIDI-Input und Output via des *multiprocessing*-Moduls der Standardbibliothek eingegangen (5 min). Abschliessend werden noch einige Anregungen f\u00fcr weitere Einsatzzwecke von *python-rtmidi* und der OSC-MIDI-Bridge gegeben (2 min).\r\n\r\n*python-rtmidi* ist ein Python-Bindung f\u00fcr die C++-Bibliothek [RtMidi](http://www.music.mcgill.ca/~gary/rtmidi/index.html) und wurde mit [Cython](http://cython.org) realisiert. Die Software befindet sich noch im Alpha-Status, da momentan noch die Unterst\u00fctzung der Kernel Streaming API unter Windows fehlt (Windows wird aber \u00fcber das WinMM-Framework unterst\u00fctzt). Die vorhandene Funktionalit\u00e4t ist jedoch stabil und es ist geplant, vor der PyCon.DE eine Beta-Version zu ver\u00f6ffentlichen. Die darauf aufsetzende OSC-MIDI Bridge ist bisher nur als Beispielskript in der *python-rtmidi*-Distribution verf\u00fcgbar, wird aber stetig weiterentwickelt und voraussichtlich demn\u00e4chst in ein eigenes Projekt ausgegliedert.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "German", 
+  "copyright_text": "", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/ZNsfvjeQ8cY/hqdefault.jpg", 
+  "duration": 30, 
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=ZNsfvjeQ8cY", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=ZNsfvjeQ8cY", 
+  "tags": [
+    "diy", 
+    "midi", 
+    "musik", 
+    "osc", 
+    "raspberry pi", 
+    "remote control"
+  ], 
+  "speakers": [
+    "Christopher Arndt"
+  ], 
+  "recorded": "2013-10-16"
+}

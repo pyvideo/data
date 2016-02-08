@@ -1,1 +1,31 @@
-{"whiteboard": "", "video_mp4_download_only": true, "video_webm_download_only": false, "duration": 30, "video_ogv_download_only": false, "category": "PyCon DE 2013", "speakers": ["Christian Kauhaus"], "title": "File-I/O ist doch ganz einfach, oder?", "quality_notes": "", "video_flv_length": null, "recorded": "2013-10-16", "video_mp4_length": null, "description": "", "video_mp4_url": "", "tags": ["acid", "plattformunabh\u00e4ngigkeit", "systemprogrammierung", "zuverl\u00e4ssigkeit"], "copyright_text": "", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=Qi8bXJ6b4vo", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "German", "video_webm_length": null, "summary": "Der Vortrag soll Bewusstsein daf\u00fcr schaffen, wann man sich aus einer komfortablen Umgebung (z.B. einem Application-Framework) in eine systemspezifische Dom\u00e4ne begibt. Aus meiner Erfahrung im DevOps-Umfeld sind mir viele F\u00e4lle bekannt, in denen Code auf Entwickler-Maschinen keine Probleme macht, sich aber auf produktiven Servern nicht ausreichend robust verh\u00e4lt. Die Eigenschaften von File-I/O in Python dienen dabei als durchgehendes Anwendungsbeispiel.\r\n\r\nDer Vortrag gliedert sich in zwei Teile. Im ersten Teil m\u00f6chte ich anhand von ausgew\u00e4hlten \"Pannen\" zeigen, wann ein *with open(...)* allein nicht ausreicht, da z.B. die Python-Standardfunktionen keine Zuverl\u00e4ssigkeit im Sinne der ACID-Eigenschaften gew\u00e4hrleisten. Im zweiten Teil geht um konkrete Programmiertechniken wie Write-Replace-Updates, Locking oder fsync, die die Robustheit von I/O ggf. unter Einschr\u00e4nkung der Plattformunabh\u00e4ngigkeit erh\u00f6hen. \r\n\r\nDer Anwendungsteil des Vortrags basiert auf Material aus meinem [Blogpost](http://blog.gocept.com/2013/07/15/reliable-file-updates-with-python/) zum gleich Thema.", "thumbnail_url": "http://i1.ytimg.com/vi/Qi8bXJ6b4vo/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 2404, 
+  "category": "PyCon DE 2013", 
+  "slug": "file-io-ist-doch-ganz-einfach-oder", 
+  "title": "File-I/O ist doch ganz einfach, oder?", 
+  "summary": "Der Vortrag soll Bewusstsein daf\u00fcr schaffen, wann man sich aus einer komfortablen Umgebung (z.B. einem Application-Framework) in eine systemspezifische Dom\u00e4ne begibt. Aus meiner Erfahrung im DevOps-Umfeld sind mir viele F\u00e4lle bekannt, in denen Code auf Entwickler-Maschinen keine Probleme macht, sich aber auf produktiven Servern nicht ausreichend robust verh\u00e4lt. Die Eigenschaften von File-I/O in Python dienen dabei als durchgehendes Anwendungsbeispiel.\r\n\r\nDer Vortrag gliedert sich in zwei Teile. Im ersten Teil m\u00f6chte ich anhand von ausgew\u00e4hlten \"Pannen\" zeigen, wann ein *with open(...)* allein nicht ausreicht, da z.B. die Python-Standardfunktionen keine Zuverl\u00e4ssigkeit im Sinne der ACID-Eigenschaften gew\u00e4hrleisten. Im zweiten Teil geht um konkrete Programmiertechniken wie Write-Replace-Updates, Locking oder fsync, die die Robustheit von I/O ggf. unter Einschr\u00e4nkung der Plattformunabh\u00e4ngigkeit erh\u00f6hen. \r\n\r\nDer Anwendungsteil des Vortrags basiert auf Material aus meinem [Blogpost](http://blog.gocept.com/2013/07/15/reliable-file-updates-with-python/) zum gleich Thema.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "German", 
+  "copyright_text": "", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/Qi8bXJ6b4vo/hqdefault.jpg", 
+  "duration": 30, 
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=Qi8bXJ6b4vo", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=Qi8bXJ6b4vo", 
+  "tags": [
+    "acid", 
+    "plattformunabh\u00e4ngigkeit", 
+    "systemprogrammierung", 
+    "zuverl\u00e4ssigkeit"
+  ], 
+  "speakers": [
+    "Christian Kauhaus"
+  ], 
+  "recorded": "2013-10-16"
+}

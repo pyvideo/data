@@ -1,1 +1,32 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Jim Baker"], "title": "Jython Concurrency", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Jython Concurrency\n\nPresented by Jim Baker\n\nJython is arguably the best Python implementation to target concurrent code.\nJython has no GIL, it leverages the Java platform to provide robust support\nfor concurrency in its runtime, and it enables access to a set of high-level\nabstractions from Java. This talk will walk through at the extreme level\npertinent Jython implementation details and a series of examples, including\nJava integration.\n\nAbstract\n\nJython implements the Python language, but we leverage the underlying Java\nplatform to provide an opionated alternative to CPython in our support of\nconcurrency.\n\nBecause of the GIL and related infrastructure, CPython cannot use a model in\nwhich threads perform concurrent computation defined in Python on shared\nobjects in the same process. (Of course, there are workarounds, such as\nmultiprocessing or using C extensions.)\n\nIn contrast, there's no GIL in Jython. Jython instead embraces threads,\nprovides extensive support for managing their execution and coordination\nthrough standard Java platform functionality (java.util.concurrent), and\nthreaded code works well with Jython's implementation of standard mutable\ncollection types. Lastly, the underlying JVM provides extensive\ninstrumentation as well as the ability to set a variety of parameters,\nincluding choice of GC. There are also the inevitable pitfalls that might be\nseen in complex architectures, such as around the use of ClassLoaders.\n\nThis talk will go into a detailed discussion of some of the interesting\nramifications of these design points and how they can be effectively applied\nto write concurrent code, as illustrated through a variety of short examples.\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/388_jython-concurrency.mp4", "tags": ["concurrency", "java", "jython", "pycon", "pycon2011"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 158021961, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011JythonConcurrency940.png", "video_flv_url": null}
+{
+  "id": 388, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--jython-concurrency", 
+  "title": "Jython Concurrency", 
+  "summary": "", 
+  "description": "Jython Concurrency\n\nPresented by Jim Baker\n\nJython is arguably the best Python implementation to target concurrent code.\nJython has no GIL, it leverages the Java platform to provide robust support\nfor concurrency in its runtime, and it enables access to a set of high-level\nabstractions from Java. This talk will walk through at the extreme level\npertinent Jython implementation details and a series of examples, including\nJava integration.\n\nAbstract\n\nJython implements the Python language, but we leverage the underlying Java\nplatform to provide an opionated alternative to CPython in our support of\nconcurrency.\n\nBecause of the GIL and related infrastructure, CPython cannot use a model in\nwhich threads perform concurrent computation defined in Python on shared\nobjects in the same process. (Of course, there are workarounds, such as\nmultiprocessing or using C extensions.)\n\nIn contrast, there's no GIL in Jython. Jython instead embraces threads,\nprovides extensive support for managing their execution and coordination\nthrough standard Java platform functionality (java.util.concurrent), and\nthreaded code works well with Jython's implementation of standard mutable\ncollection types. Lastly, the underlying JVM provides extensive\ninstrumentation as well as the ability to set a variety of parameters,\nincluding choice of GC. There are also the inevitable pitfalls that might be\nseen in complex architectures, such as around the use of ClassLoaders.\n\nThis talk will go into a detailed discussion of some of the interesting\nramifications of these design points and how they can be effectively applied\nto write concurrent code, as illustrated through a variety of short examples.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011JythonConcurrency940.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/388_jython-concurrency.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "concurrency", 
+    "java", 
+    "jython", 
+    "pycon", 
+    "pycon2011"
+  ], 
+  "speakers": [
+    "Jim Baker"
+  ], 
+  "recorded": "2011-03-11"
+}

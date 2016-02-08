@@ -1,1 +1,31 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Michael Foord"], "title": "Testing with mock", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Testing with mock\n\nPresented by Michael Foord\n\nmock is a Python testing library. It has the goal of making mocking in tests\nbrain dead simple! mock provides the Mock class and the patch decorator for\nsafely patching out the objects you are mocking in your tests. This talk will\ncover standard mocking patterns. We'll also look at some of the newer features\nin the latest release, including support for mocking magic methods.\n\nAbstract\n\nmock provides a core Mock class that removes the need to create a host of\ntrivial stubs throughout your test suite. After performing an action, you can\nmake assertions about which methods / attributes were used and arguments they\nwere called with. You can also specify return values and set specific\nattributes in the normal way.\n\n  * [http://www.voidspace.org.uk/python/mock/](http://www.voidspace.org.uk/python/mock/)\n  * [http://pypi.python.org/pypi/mock/](http://pypi.python.org/pypi/mock/)\n\nThe mock module also provides a patch() decorator that handles safely patching\nout the things you are mocking during your test.\n\nWe'll cover standard mocking patterns, and how mock makes them easy. We'll\nalso be looking at some of the newer features in the latest release, including\nthe magic method support that can be used (for example) for mocking out\nobjects used as context managers.\n\nmock is designed for \"unit test style\" testing, but is used with Python\ntesting libraries like nose and py.test.\n\nThere will be some emphasis on how *not* to use mocking in testing, and why\n'over mocking' is bad (and makes for brittle tests).\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/392_testing-with-mock.mp4", "tags": ["mock", "pycon", "pycon2011", "testing"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 171633013, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011TestingWithMock498.png", "video_flv_url": null}
+{
+  "id": 392, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--testing-with-mock", 
+  "title": "Testing with mock", 
+  "summary": "", 
+  "description": "Testing with mock\n\nPresented by Michael Foord\n\nmock is a Python testing library. It has the goal of making mocking in tests\nbrain dead simple! mock provides the Mock class and the patch decorator for\nsafely patching out the objects you are mocking in your tests. This talk will\ncover standard mocking patterns. We'll also look at some of the newer features\nin the latest release, including support for mocking magic methods.\n\nAbstract\n\nmock provides a core Mock class that removes the need to create a host of\ntrivial stubs throughout your test suite. After performing an action, you can\nmake assertions about which methods / attributes were used and arguments they\nwere called with. You can also specify return values and set specific\nattributes in the normal way.\n\n  * [http://www.voidspace.org.uk/python/mock/](http://www.voidspace.org.uk/python/mock/)\n  * [http://pypi.python.org/pypi/mock/](http://pypi.python.org/pypi/mock/)\n\nThe mock module also provides a patch() decorator that handles safely patching\nout the things you are mocking during your test.\n\nWe'll cover standard mocking patterns, and how mock makes them easy. We'll\nalso be looking at some of the newer features in the latest release, including\nthe magic method support that can be used (for example) for mocking out\nobjects used as context managers.\n\nmock is designed for \"unit test style\" testing, but is used with Python\ntesting libraries like nose and py.test.\n\nThere will be some emphasis on how *not* to use mocking in testing, and why\n'over mocking' is bad (and makes for brittle tests).\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011TestingWithMock498.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/392_testing-with-mock.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "mock", 
+    "pycon", 
+    "pycon2011", 
+    "testing"
+  ], 
+  "speakers": [
+    "Michael Foord"
+  ], 
+  "recorded": "2011-03-11"
+}

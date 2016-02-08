@@ -1,1 +1,31 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["JIm Fulton"], "title": "Deploying Applications with zc.buildout", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Deploying Applications with zc.buildout\n\nPresented by JIm Fulton\n\nThis talk described using zc.buildout for application deployment to production\nenvironments. It presents building self-contained source releases, and using\nthese to create RPM distributions. It shows how to use buildout to configure\nservices, including web servers, cron jobs, monitoring and so on. Finally, it\npresents ongoing efforts to deploy applications that span many machines.\n\nAbstract\n\nWe build and deploy large Python applications for our customers. These\napplications are built from many component parts including Python packages and\nnon-python applications and tools. Assembling these pieces can be a tedious\nand error-prone process. The zc.buildout (Buildout) package was developed to\nautomate this process.\n\nAs our use of buildout has matured, we've integrated it with system packaging\ntools and developed techniques for managing software deployemnt and service\nconfiguration. I'll provide a detailed description of the techniques and tools\nused.\n\nOutline:\n\n  * Buildout \n    * Motivation \n    * History \n    * Configuration files \n    * Recipes \n  * Deployment pholisophy: keeping software and service configuration separate \n  * System Packaging \n    * Making self-contained source releases (tar balls) \n    * Creating system packages from source releases with RPM \n  * Service configuration -- system build outs \n    * Scope: Python processes, cron, log rotation, run scripts, monitoring, etc. \n    * Place files in \"standard\" locations. \n    * Run by root \n    * examples \n  * Meta recipes \n    * Goal: provide only essential information. \n    * Recipes provide basic level of abstraction. \n    * Buildout provides basic tools to build on these abstractions, but these tools only scale so far. \n    * Buildout configuration language is *not* a programming language. \n    * Meta-recipes provide a much more powerful way to build high-level abstractions over basic recipes. \n  * Next step: Make me a ... \n    * Model based definition of complete systems spanning multiple hosts with interlocking services \n    * Automatic management of resources \n    * Implemented with ssh, system packaging tools (e.g. yum) and buildout-based tools. \n    * Four levels of abstraction \n    * Current status \n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/426_deploying-applications-with-zc-buildout.mp4", "tags": ["deployment", "pycon", "pycon2011", "zc.buildout"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 155307917, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011DeployingApplicationsWithZcbuildout710.png", "video_flv_url": null}
+{
+  "id": 426, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--deploying-applications-with-zc-buildo", 
+  "title": "Deploying Applications with zc.buildout", 
+  "summary": "", 
+  "description": "Deploying Applications with zc.buildout\n\nPresented by JIm Fulton\n\nThis talk described using zc.buildout for application deployment to production\nenvironments. It presents building self-contained source releases, and using\nthese to create RPM distributions. It shows how to use buildout to configure\nservices, including web servers, cron jobs, monitoring and so on. Finally, it\npresents ongoing efforts to deploy applications that span many machines.\n\nAbstract\n\nWe build and deploy large Python applications for our customers. These\napplications are built from many component parts including Python packages and\nnon-python applications and tools. Assembling these pieces can be a tedious\nand error-prone process. The zc.buildout (Buildout) package was developed to\nautomate this process.\n\nAs our use of buildout has matured, we've integrated it with system packaging\ntools and developed techniques for managing software deployemnt and service\nconfiguration. I'll provide a detailed description of the techniques and tools\nused.\n\nOutline:\n\n  * Buildout \n    * Motivation \n    * History \n    * Configuration files \n    * Recipes \n  * Deployment pholisophy: keeping software and service configuration separate \n  * System Packaging \n    * Making self-contained source releases (tar balls) \n    * Creating system packages from source releases with RPM \n  * Service configuration -- system build outs \n    * Scope: Python processes, cron, log rotation, run scripts, monitoring, etc. \n    * Place files in \"standard\" locations. \n    * Run by root \n    * examples \n  * Meta recipes \n    * Goal: provide only essential information. \n    * Recipes provide basic level of abstraction. \n    * Buildout provides basic tools to build on these abstractions, but these tools only scale so far. \n    * Buildout configuration language is *not* a programming language. \n    * Meta-recipes provide a much more powerful way to build high-level abstractions over basic recipes. \n  * Next step: Make me a ... \n    * Model based definition of complete systems spanning multiple hosts with interlocking services \n    * Automatic management of resources \n    * Implemented with ssh, system packaging tools (e.g. yum) and buildout-based tools. \n    * Four levels of abstraction \n    * Current status \n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011DeployingApplicationsWithZcbuildout710.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/426_deploying-applications-with-zc-buildout.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "deployment", 
+    "pycon", 
+    "pycon2011", 
+    "zc.buildout"
+  ], 
+  "speakers": [
+    "JIm Fulton"
+  ], 
+  "recorded": "2011-03-11"
+}

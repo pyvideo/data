@@ -1,1 +1,31 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Carl Meyer"], "title": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv\n\nPresented by Carl Meyer\n\nPip and virtualenv: many use them; not so many understand just how they work\ntheir magic. If you're a pip/virtualenv user but haven't yet dared crack the\nlid (or you have, and found it a bit difficult to follow), come along for a\nfast-paced guided tour. Knowing these tools will help you make more effective\nuse of them, and might also turn you into a contributor.\n\nAbstract\n\nPip and virtualenv are widely used in the Python world, but for the size of\ntheir user base don't receive many code contributions, and many users have\nmisconceptions about how they actually work.\n\nThis talk will cover a bit of advanced use of pip and virtualenv, but mostly\nwe'll dive into the source code, mapping it out with a high-level view and\ndiving into the guts of particularly interesting bits. By the end of the talk,\nyou'll have a good idea exactly how pip and virtualenv do their magic, and\nwhere to go looking in the source for particular behaviors or bug fixes. We'll\nwalk through the creation of a virtualenv step-by-step, and trace a typical\n\"pip install -r requirements.txt\" and \"pip uninstall\" through the code paths\nthey follow.\n\nI'll know the talk was a success when I see the pull requests!\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/389_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.mp4", "tags": ["pip", "pycon", "pycon2011", "virtualenv"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 151377423, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011ReverseengineeringIanBickingsBrainInsidePipAnd764.png", "video_flv_url": null}
+{
+  "id": 389, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--reverse-engineering-ian-bicking--39-s", 
+  "title": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv", 
+  "summary": "", 
+  "description": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv\n\nPresented by Carl Meyer\n\nPip and virtualenv: many use them; not so many understand just how they work\ntheir magic. If you're a pip/virtualenv user but haven't yet dared crack the\nlid (or you have, and found it a bit difficult to follow), come along for a\nfast-paced guided tour. Knowing these tools will help you make more effective\nuse of them, and might also turn you into a contributor.\n\nAbstract\n\nPip and virtualenv are widely used in the Python world, but for the size of\ntheir user base don't receive many code contributions, and many users have\nmisconceptions about how they actually work.\n\nThis talk will cover a bit of advanced use of pip and virtualenv, but mostly\nwe'll dive into the source code, mapping it out with a high-level view and\ndiving into the guts of particularly interesting bits. By the end of the talk,\nyou'll have a good idea exactly how pip and virtualenv do their magic, and\nwhere to go looking in the source for particular behaviors or bug fixes. We'll\nwalk through the creation of a virtualenv step-by-step, and trace a typical\n\"pip install -r requirements.txt\" and \"pip uninstall\" through the code paths\nthey follow.\n\nI'll know the talk was a success when I see the pull requests!\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011ReverseengineeringIanBickingsBrainInsidePipAnd764.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/389_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "pip", 
+    "pycon", 
+    "pycon2011", 
+    "virtualenv"
+  ], 
+  "speakers": [
+    "Carl Meyer"
+  ], 
+  "recorded": "2011-03-11"
+}

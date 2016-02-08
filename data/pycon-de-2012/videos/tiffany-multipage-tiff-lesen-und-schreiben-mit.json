@@ -1,1 +1,36 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon DE 2012", "speakers": ["Christian Tismer"], "title": "Tiffany - Multipage-Tiff Lesen und Schreiben mit PIL ohne PIL ", "quality_notes": "", "video_flv_length": null, "recorded": "2012-11-01", "video_mp4_length": null, "description": "", "video_mp4_url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Tiffany_MultipageTiff_.mp4?Signature=LzhUSulO8gTQB6EW%2FAwKRe4t5Rs%3D&Expires=1351854127&AWSAccessKeyId=FEWGReWX3QbNk0h3", "tags": [" distributed document capture", " monkey-patching", "multipage-tiff", " pil"], "copyright_text": "", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=qiZS1b_XFGs", "video_webm_url": "", "video_ogv_length": null, "video_ogv_url": null, "language": "German", "video_webm_length": null, "summary": "Tiffany steht f\u00fcr beliebiges Tiff. Das kleine Modul l\u00f6st eine grosse Menge\n\nvon Problemen, hat keine Abh\u00e4ngigkeiten, keine Binaries und l\u00e4uft\n\n\u00fcberall wo Python l\u00e4uft.\n\nBei der Entwicklung von Pydica (Distributed Document Capture) wurden wir\n\nmit dem Problem konfrontiert, mehrseitige Tiff-Dateien anzuzeigen. Das\n\nGUI-Toolkit PySide (Qt) unterst\u00fctzt zwar Tiff, zeigt jedoch nur die erste\nSeite.\n\nZudem behandeln wir Fax-komprimierte Dateien, was Qt aber unterst\u00fctzt.\n\nPIL verf\u00fcgt \u00fcber eine Bereinigung der Tiff-Tags, kommt aber nicht mit der\n\nFax-Kompression zurecht. Es gibt seit langem einen Patch daf\u00fcr, jedoch ist\n\nder Build-Prozess erschwert und zieht mit libtiff eine Kette von\nAbh\u00e4ngigkeiten\n\nnach sich.\n\nDaher benutzt Tiffany einige wenige Dateien aus PIL ohne diese zu ver\u00e4ndern\nund t\u00e4uscht\n\nvor, die Tiff-Dateien zu entpacken, tut es aber nicht. Es werden lediglich die\n\nTiff-Tags ordentlich aufbereitet. Die komprimierten Daten werden so \u00fcbernommen\n\nwie sie sind. Beim Schreiben von Dateien werden daher lediglich die\nvorhandenen\n\nDaten in anderer Reihenfolge wieder zusammengesetzt.\n\nIm Vortrag werde ich die Implementierung vorstellen sowie weitere\nAlternativen,\n\ndie Zukunft von PIL sowie auf weitere Tips und Kniffe in unserem Projekt\neingehen.\n\n", "thumbnail_url": "http://i2.ytimg.com/vi/qiZS1b_XFGs/hqdefault.jpg", "video_flv_url": ""}
+{
+  "id": 1445, 
+  "category": "PyCon DE 2012", 
+  "slug": "tiffany-multipage-tiff-lesen-und-schreiben-mit", 
+  "title": "Tiffany - Multipage-Tiff Lesen und Schreiben mit PIL ohne PIL ", 
+  "summary": "Tiffany steht f\u00fcr beliebiges Tiff. Das kleine Modul l\u00f6st eine grosse Menge\n\nvon Problemen, hat keine Abh\u00e4ngigkeiten, keine Binaries und l\u00e4uft\n\n\u00fcberall wo Python l\u00e4uft.\n\nBei der Entwicklung von Pydica (Distributed Document Capture) wurden wir\n\nmit dem Problem konfrontiert, mehrseitige Tiff-Dateien anzuzeigen. Das\n\nGUI-Toolkit PySide (Qt) unterst\u00fctzt zwar Tiff, zeigt jedoch nur die erste\nSeite.\n\nZudem behandeln wir Fax-komprimierte Dateien, was Qt aber unterst\u00fctzt.\n\nPIL verf\u00fcgt \u00fcber eine Bereinigung der Tiff-Tags, kommt aber nicht mit der\n\nFax-Kompression zurecht. Es gibt seit langem einen Patch daf\u00fcr, jedoch ist\n\nder Build-Prozess erschwert und zieht mit libtiff eine Kette von\nAbh\u00e4ngigkeiten\n\nnach sich.\n\nDaher benutzt Tiffany einige wenige Dateien aus PIL ohne diese zu ver\u00e4ndern\nund t\u00e4uscht\n\nvor, die Tiff-Dateien zu entpacken, tut es aber nicht. Es werden lediglich die\n\nTiff-Tags ordentlich aufbereitet. Die komprimierten Daten werden so \u00fcbernommen\n\nwie sie sind. Beim Schreiben von Dateien werden daher lediglich die\nvorhandenen\n\nDaten in anderer Reihenfolge wieder zusammengesetzt.\n\nIm Vortrag werde ich die Implementierung vorstellen sowie weitere\nAlternativen,\n\ndie Zukunft von PIL sowie auf weitere Tips und Kniffe in unserem Projekt\neingehen.\n\n", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "German", 
+  "copyright_text": "", 
+  "thumbnail_url": "http://i2.ytimg.com/vi/qiZS1b_XFGs/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Tiffany_MultipageTiff_.mp4?Signature=LzhUSulO8gTQB6EW%2FAwKRe4t5Rs%3D&Expires=1351854127&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "https://www.youtube.com/watch?v=qiZS1b_XFGs", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=qiZS1b_XFGs", 
+  "tags": [
+    " distributed document capture", 
+    " monkey-patching", 
+    "multipage-tiff", 
+    " pil"
+  ], 
+  "speakers": [
+    "Christian Tismer"
+  ], 
+  "recorded": "2012-11-01"
+}

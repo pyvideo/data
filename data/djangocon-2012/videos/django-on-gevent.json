@@ -1,1 +1,29 @@
-{"whiteboard": "needs editing", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "DjangoCon 2012", "speakers": ["Cody Soyland"], "title": "Django on Gevent", "quality_notes": "", "video_flv_length": null, "recorded": "2012-09-04", "video_mp4_length": null, "description": "Gevent is an ultra-fast networking library built on top of the greenlet\nmodule. Greenlets are the ideal solution to making Django's synchronous API\ncalls possible in a cooperative concurrency environment.\n\nI'll begin with an overview of the models of network programming, including\nthreading, callbacks, and coroutines. I'll explain how greenlets (coroutines)\nwork in harmony to provide simple blocking network APIs while not blocking\nexecution of the entire thread. I'll show how easy it is to integrate other\nnetwork services into your app.\n\nAs an exploration into using realtime features in Django, I'll demonstrate a\nsimple realtime collaboration app that uses websockets for communication. I\nwill show how to integrate ZeroMQ to allow the app to scale beyond a single\nserver. I will also show how to attach to and monitor your web app using\ngevent.backdoor.\n\n", "video_mp4_url": null, "tags": ["django", "gevent"], "copyright_text": "Creative Commons Attribution license (reuse allowed", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=nocGRsytBkk", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "This is an introduction to using the Gevent networking library to empower your\nDjango application with realtime features and resource-efficient cooperative\nconcurrency. Django's synchronous APIs make it impractical to use in a\ncallback-based networking library, but fast single-threaded concurrency is\nstill possible using the mind-blowing capabilities of coroutines.\n\n", "thumbnail_url": "http://i.ytimg.com/vi/nocGRsytBkk/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1393, 
+  "category": "DjangoCon 2012", 
+  "slug": "django-on-gevent", 
+  "title": "Django on Gevent", 
+  "summary": "This is an introduction to using the Gevent networking library to empower your\nDjango application with realtime features and resource-efficient cooperative\nconcurrency. Django's synchronous APIs make it impractical to use in a\ncallback-based networking library, but fast single-threaded concurrency is\nstill possible using the mind-blowing capabilities of coroutines.\n\n", 
+  "description": "Gevent is an ultra-fast networking library built on top of the greenlet\nmodule. Greenlets are the ideal solution to making Django's synchronous API\ncalls possible in a cooperative concurrency environment.\n\nI'll begin with an overview of the models of network programming, including\nthreading, callbacks, and coroutines. I'll explain how greenlets (coroutines)\nwork in harmony to provide simple blocking network APIs while not blocking\nexecution of the entire thread. I'll show how easy it is to integrate other\nnetwork services into your app.\n\nAs an exploration into using realtime features in Django, I'll demonstrate a\nsimple realtime collaboration app that uses websockets for communication. I\nwill show how to integrate ZeroMQ to allow the app to scale beyond a single\nserver. I will also show how to attach to and monitor your web app using\ngevent.backdoor.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution license (reuse allowed", 
+  "thumbnail_url": "http://i.ytimg.com/vi/nocGRsytBkk/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=nocGRsytBkk", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=nocGRsytBkk", 
+  "tags": [
+    "django", 
+    "gevent"
+  ], 
+  "speakers": [
+    "Cody Soyland"
+  ], 
+  "recorded": "2012-09-04"
+}

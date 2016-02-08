@@ -1,1 +1,32 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Gary Bernhardt"], "title": "Units Need Testing Too", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Units Need Testing Too\n\nPresented by Gary Bernhardt\n\nPython's long history of testing has focused primarily on integration- and\nsystem-level tests: slow-running tests executing lots of code. These are a\ngreat start, but many of them can be transformed into unit-level tests. True\nunit tests are orders of magnitude faster (about 1ms each), providing quicker\nfeedback and better failure localization. We'll look at why and how to write\nthem.\n\nAbstract\n\nPython has a wonderful legacy in testing: PyUnit has been in the standard\nlibrary since March, 2001, and it was already a year old by then. We adopted\nbrowser driving quickly, and we do it at huge scale with great test\nparallelization infrastructure.\n\nBig tests aren't everything, though. In the Python world, true unit tests are\nsomewhat rare, and even most tests written with the unittest library are\nintegration tests. These tests are slow to execute and don't localize failure\nas well as smaller, focused tests. They leave us with two options: either run\nthem rarely, sacrificing feedback, or run them often, sacrificing speed.\n\nWriting true unit tests removes that particular trade-off. When your tests\nexecute in a millisecond each, you can afford to run a thousand of them every\ntime you save a source file. This talk will discuss what unit tests really\nare, why they matter, and how to write them in Python.\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/422_units-need-testing-too.mp4", "tags": ["pycon", "pycon2011", "pyunit", "testing", "unittests"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 176895138, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011UnitsNeedTestingToo863.png", "video_flv_url": null}
+{
+  "id": 422, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--units-need-testing-too", 
+  "title": "Units Need Testing Too", 
+  "summary": "", 
+  "description": "Units Need Testing Too\n\nPresented by Gary Bernhardt\n\nPython's long history of testing has focused primarily on integration- and\nsystem-level tests: slow-running tests executing lots of code. These are a\ngreat start, but many of them can be transformed into unit-level tests. True\nunit tests are orders of magnitude faster (about 1ms each), providing quicker\nfeedback and better failure localization. We'll look at why and how to write\nthem.\n\nAbstract\n\nPython has a wonderful legacy in testing: PyUnit has been in the standard\nlibrary since March, 2001, and it was already a year old by then. We adopted\nbrowser driving quickly, and we do it at huge scale with great test\nparallelization infrastructure.\n\nBig tests aren't everything, though. In the Python world, true unit tests are\nsomewhat rare, and even most tests written with the unittest library are\nintegration tests. These tests are slow to execute and don't localize failure\nas well as smaller, focused tests. They leave us with two options: either run\nthem rarely, sacrificing feedback, or run them often, sacrificing speed.\n\nWriting true unit tests removes that particular trade-off. When your tests\nexecute in a millisecond each, you can afford to run a thousand of them every\ntime you save a source file. This talk will discuss what unit tests really\nare, why they matter, and how to write them in Python.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011UnitsNeedTestingToo863.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/422_units-need-testing-too.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "pycon", 
+    "pycon2011", 
+    "pyunit", 
+    "testing", 
+    "unittests"
+  ], 
+  "speakers": [
+    "Gary Bernhardt"
+  ], 
+  "recorded": "2011-03-11"
+}

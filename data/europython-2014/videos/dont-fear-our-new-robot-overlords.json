@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2014", "speakers": ["Philip Brechler"], "title": "Don't fear our new robot overlords!", "quality_notes": "", "video_flv_length": null, "recorded": "2014-07-23", "video_mp4_length": null, "description": "GoldenEye is our solution for mobile front end tests. Testing on mobile devices can be quite devastating: On iOS you can write front test in JavaScript in Instruments but it is quite impossible to connect Instruments to you CI solution of choice. On Android the situation isn't much better.\r\nOther front end test frameworks can work with mobile devices (or simulators) but they lack the ability to see. Of course you can check if a color is set correctly, if a frame has the right x and y coordinates but in a world of different screen sizes writing these tests can be quite challenging as well.\r\nIn the end you will always need to look on your screen again and again trying to spot any issues. \r\n\r\nGoldenEye takes a different approach. It does not need to run on your development computer, you don't need a Mac for running tests on iOS devices and you can have real touches on your controls. This is archived by using openCV and it's python bindings, Pythons's unittest module and the Tapsterbot, an OpenSource delta robot made with 3D printing and an Arduino controller. To write a test you just take some screenshots on your device, cut out the icons you need to tap or inspect and write a very simple unit test using a high-level API that takes away the hard parts.\r\n\r\nWARNING: This talk features a real robot. In case of machine world-domination: RUN!", "video_mp4_url": "", "tags": [], "copyright_text": "http://creativecommons.org/licenses/by/3.0/", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=KaPUo3G9JWk", "video_webm_url": "", "video_ogv_length": null, "video_ogv_url": "", "language": "English", "video_webm_length": null, "summary": "This talk will show you GoldenEye. A setup of a robot, image recognition and Python. What could be better?\r\n\r\nGoldenEye uses computer vision to detect icons on an attached mobile device and then tells a robot to tap them. All off these tests are written in python's unittest module and the API is as easy as possible to make writing complex tests an ease.", "thumbnail_url": "http://i.ytimg.com/vi/KaPUo3G9JWk/hqdefault.jpg", "video_flv_url": ""}
+{
+  "id": 3003, 
+  "category": "EuroPython 2014", 
+  "slug": "dont-fear-our-new-robot-overlords", 
+  "title": "Don't fear our new robot overlords!", 
+  "summary": "This talk will show you GoldenEye. A setup of a robot, image recognition and Python. What could be better?\r\n\r\nGoldenEye uses computer vision to detect icons on an attached mobile device and then tells a robot to tap them. All off these tests are written in python's unittest module and the API is as easy as possible to make writing complex tests an ease.", 
+  "description": "GoldenEye is our solution for mobile front end tests. Testing on mobile devices can be quite devastating: On iOS you can write front test in JavaScript in Instruments but it is quite impossible to connect Instruments to you CI solution of choice. On Android the situation isn't much better.\r\nOther front end test frameworks can work with mobile devices (or simulators) but they lack the ability to see. Of course you can check if a color is set correctly, if a frame has the right x and y coordinates but in a world of different screen sizes writing these tests can be quite challenging as well.\r\nIn the end you will always need to look on your screen again and again trying to spot any issues. \r\n\r\nGoldenEye takes a different approach. It does not need to run on your development computer, you don't need a Mac for running tests on iOS devices and you can have real touches on your controls. This is archived by using openCV and it's python bindings, Pythons's unittest module and the Tapsterbot, an OpenSource delta robot made with 3D printing and an Arduino controller. To write a test you just take some screenshots on your device, cut out the icons you need to tap or inspect and write a very simple unit test using a high-level API that takes away the hard parts.\r\n\r\nWARNING: This talk features a real robot. In case of machine world-domination: RUN!", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
+  "thumbnail_url": "http://i.ytimg.com/vi/KaPUo3G9JWk/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=KaPUo3G9JWk", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=KaPUo3G9JWk", 
+  "tags": [], 
+  "speakers": [
+    "Philip Brechler"
+  ], 
+  "recorded": "2014-07-23"
+}

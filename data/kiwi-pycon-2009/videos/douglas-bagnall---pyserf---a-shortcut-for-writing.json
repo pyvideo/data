@@ -1,1 +1,31 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "Kiwi PyCon 2009", "speakers": ["Douglas Bagnall"], "title": "Douglas Bagnall - pyserf - a shortcut for writing C extensions in C", "quality_notes": "", "video_flv_length": null, "recorded": null, "video_mp4_length": null, "description": "pyserf - a shortcut for writing C extensions in C\n\nPresented by Douglas Bagnall\n\nAbstract\n\nThere are many clever ways of connecting Python and C code together, and\npyserf is one of those. It is just a short script that parses a module outline\nand produces an idiomatic template for a C extension providing the same\nsignatures, so all you need to do is write the bits that actually do stuff.\n\nOutline\n\nPyserf is a tiny project that I wrote for my own use years ago and never\nreleased because it is so obvious that dozens of better versions must exist.\nThe idea is simple -- you write an outline of a module like this:\n\n    \n    \n    \"\"\"module documentation\"\"\"\n    def top_level_function(int_a, float_b):\n       \"function documentation\"\n       return float_c\n    \n    class SomeModule:\n       \"\"\"class documentation\"\"\"\n       def foo(self, int_ants obj_zoo):\n          \"\"\"method documentation\"\"\"\n          return float_frogs\n    \n\nand pyserf uses the parsing modules in the standard library to generate a C\nfile that will compile to an extension providing the interface it describes,\nwith the documentation appearing in the right place and the type conversions\nall properly handled. The generated file is not a hideous unreadable mess,\nrather it is within a few characters of best practise according to the\nofficial tutorial. Once you have this template, you abandon your outline and\nwrite the middles of each function in C. In describing what pyserf does, this\ntalk will demonstrate what is required to write an extension in C by hand, and\nshow you some ways of using the standard libraries parsing modules.\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n", "video_mp4_url": null, "tags": ["extensions", "kiwipycon", "kiwipycon2009", "pyserf"], "copyright_text": "No license (All rights reserved)", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Kiwipycon-DouglasBagnallPyserfAShortcutForWritingCExtensionsIn519-861.jpg", "video_flv_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/109_douglas-bagnall-pyserf-a-shortcut-for-writing-c-extensions-in-c.flv"}
+{
+  "id": 109, 
+  "category": "Kiwi PyCon 2009", 
+  "slug": "douglas-bagnall---pyserf---a-shortcut-for-writing", 
+  "title": "Douglas Bagnall - pyserf - a shortcut for writing C extensions in C", 
+  "summary": "", 
+  "description": "pyserf - a shortcut for writing C extensions in C\n\nPresented by Douglas Bagnall\n\nAbstract\n\nThere are many clever ways of connecting Python and C code together, and\npyserf is one of those. It is just a short script that parses a module outline\nand produces an idiomatic template for a C extension providing the same\nsignatures, so all you need to do is write the bits that actually do stuff.\n\nOutline\n\nPyserf is a tiny project that I wrote for my own use years ago and never\nreleased because it is so obvious that dozens of better versions must exist.\nThe idea is simple -- you write an outline of a module like this:\n\n    \n    \n    \"\"\"module documentation\"\"\"\n    def top_level_function(int_a, float_b):\n       \"function documentation\"\n       return float_c\n    \n    class SomeModule:\n       \"\"\"class documentation\"\"\"\n       def foo(self, int_ants obj_zoo):\n          \"\"\"method documentation\"\"\"\n          return float_frogs\n    \n\nand pyserf uses the parsing modules in the standard library to generate a C\nfile that will compile to an extension providing the interface it describes,\nwith the documentation appearing in the right place and the type conversions\nall properly handled. The generated file is not a hideous unreadable mess,\nrather it is within a few characters of best practise according to the\nofficial tutorial. Once you have this template, you abandon your outline and\nwrite the middles of each function in C. In describing what pyserf does, this\ntalk will demonstrate what is required to write an extension in C by hand, and\nshow you some ways of using the standard libraries parsing modules.\n\n[VIDEO HAS ISSUES: Sound and video are poor. Slides are hard to read.]\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "No license (All rights reserved)", 
+  "thumbnail_url": "http://a.images.blip.tv/Kiwipycon-DouglasBagnallPyserfAShortcutForWritingCExtensionsIn519-861.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/kiwi-pycon-2009/109_douglas-bagnall-pyserf-a-shortcut-for-writing-c-extensions-in-c.flv", 
+      "length": null, 
+      "type": "flv"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "extensions", 
+    "kiwipycon", 
+    "kiwipycon2009", 
+    "pyserf"
+  ], 
+  "speakers": [
+    "Douglas Bagnall"
+  ], 
+  "recorded": null
+}

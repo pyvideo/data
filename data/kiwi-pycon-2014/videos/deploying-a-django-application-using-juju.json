@@ -1,1 +1,31 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": 1800, "video_ogv_download_only": false, "category": "Kiwi PyCon 2014", "speakers": ["Tim Penhey"], "title": "Deploying a Django application using Juju", "quality_notes": "", "video_flv_length": null, "recorded": "2014-09-14", "video_mp4_length": null, "description": "Juju is a service orchestration tool for deploying services into public or private clouds. The services that Juju deploys are described in Charms. A Charm should use the \"best practice\" for deploying the service. In the case of Django, this would be using gunicorn and nginx. I explain how the postgresql charm communicates with the django charm, and how I had to change my application's settings and urls to work with the django charm. The application that is deployed is a \"proprietary\" app, and as such, the deployment of the application itself is done with another charm. The interaction between the subordinate charms and the principal django charm are explained, and how the data is exchanged between the charms. As well as the deployment story, I also explain how application updates are deployed very simply.", "video_mp4_url": "", "tags": ["deploying", "deployment", "django", "juju"], "copyright_text": "CC", "related_urls": [{"url": "https://speakerdeck.com/nzpug/tim-penhey-deploying-a-django-application-using-juju", "description": "slides"}], "video_flv_download_only": false, "source_url": "http://youtu.be/6hc8VkFeHjA", "video_webm_url": "", "video_ogv_length": null, "video_ogv_url": "", "language": "English", "video_webm_length": null, "summary": "Juju is a service orchestration tool for deploying services into public or private clouds. I will talk about how I deployed my Django application using Juju.", "thumbnail_url": "http://i.ytimg.com/vi/6hc8VkFeHjA/hqdefault.jpg", "video_flv_url": ""}
+{
+  "id": 3215, 
+  "category": "Kiwi PyCon 2014", 
+  "slug": "deploying-a-django-application-using-juju", 
+  "title": "Deploying a Django application using Juju", 
+  "summary": "Juju is a service orchestration tool for deploying services into public or private clouds. I will talk about how I deployed my Django application using Juju.", 
+  "description": "Juju is a service orchestration tool for deploying services into public or private clouds. The services that Juju deploys are described in Charms. A Charm should use the \"best practice\" for deploying the service. In the case of Django, this would be using gunicorn and nginx. I explain how the postgresql charm communicates with the django charm, and how I had to change my application's settings and urls to work with the django charm. The application that is deployed is a \"proprietary\" app, and as such, the deployment of the application itself is done with another charm. The interaction between the subordinate charms and the principal django charm are explained, and how the data is exchanged between the charms. As well as the deployment story, I also explain how application updates are deployed very simply.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC", 
+  "thumbnail_url": "http://i.ytimg.com/vi/6hc8VkFeHjA/hqdefault.jpg", 
+  "duration": 1800, 
+  "videos": [
+    {
+      "url": "http://youtu.be/6hc8VkFeHjA", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtu.be/6hc8VkFeHjA", 
+  "tags": [
+    "deploying", 
+    "deployment", 
+    "django", 
+    "juju"
+  ], 
+  "speakers": [
+    "Tim Penhey"
+  ], 
+  "recorded": "2014-09-14"
+}

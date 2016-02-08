@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": 1230, "video_ogv_download_only": false, "category": "PyCon Italia 2015", "speakers": ["Alessandro Molina"], "title": "Messing up with PyMongo for fun and profit", "quality_notes": "", "video_flv_length": null, "recorded": "2015-05-30", "video_mp4_length": null, "description": "BSON (Binary JSON) \u00e8 il formato di rappresentazione dei dati usato internamente da MongoDB per la trasmissione e rappresentazione dei documenti salvati nel database.\nOgni volta che si implementano delle API HTTP basate su MongoDB il driver (pymongo) riceve i dati in formato BSON e li deve convertire in un formato comprensibile da Python. Successivamente questi dati dovranno essere re-encodati nel formato usato dalle nostre API, solitamente JSON.\nPer qualcosa come una API REST che solitamente \u00e8 solo un proxy ai dati effettivi, l\u2019encoding/decoding dance pu\u00f2 arrivare a pesare pesantemente sulle performance riducendo il throughput del nostro API Server.\nLa presentazione mira a mostrare come studiando il funzionamento interno di PyMONGO ed alterandone alcuni flussi si pu\u00f2 evitare in molti casi questo balletto e guadagnare sensibilmente in numero di richieste al secondo servite dal nostro ambiente.\n", "video_mp4_url": null, "tags": [], "copyright_text": "", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=CQfPq6wXyJI", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "Italian", "video_webm_length": null, "summary": "", "thumbnail_url": "https://i.ytimg.com/vi/CQfPq6wXyJI/maxresdefault.jpg", "video_flv_url": null}
+{
+  "id": 3583, 
+  "category": "PyCon Italia 2015", 
+  "slug": "messing-up-with-pymongo-for-fun-and-profit", 
+  "title": "Messing up with PyMongo for fun and profit", 
+  "summary": "", 
+  "description": "BSON (Binary JSON) \u00e8 il formato di rappresentazione dei dati usato internamente da MongoDB per la trasmissione e rappresentazione dei documenti salvati nel database.\nOgni volta che si implementano delle API HTTP basate su MongoDB il driver (pymongo) riceve i dati in formato BSON e li deve convertire in un formato comprensibile da Python. Successivamente questi dati dovranno essere re-encodati nel formato usato dalle nostre API, solitamente JSON.\nPer qualcosa come una API REST che solitamente \u00e8 solo un proxy ai dati effettivi, l\u2019encoding/decoding dance pu\u00f2 arrivare a pesare pesantemente sulle performance riducendo il throughput del nostro API Server.\nLa presentazione mira a mostrare come studiando il funzionamento interno di PyMONGO ed alterandone alcuni flussi si pu\u00f2 evitare in molti casi questo balletto e guadagnare sensibilmente in numero di richieste al secondo servite dal nostro ambiente.\n", 
+  "quality_notes": "", 
+  "language": "Italian", 
+  "copyright_text": "", 
+  "thumbnail_url": "https://i.ytimg.com/vi/CQfPq6wXyJI/maxresdefault.jpg", 
+  "duration": 1230, 
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=CQfPq6wXyJI", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=CQfPq6wXyJI", 
+  "tags": [], 
+  "speakers": [
+    "Alessandro Molina"
+  ], 
+  "recorded": "2015-05-30"
+}

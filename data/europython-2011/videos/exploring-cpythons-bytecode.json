@@ -1,1 +1,30 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2011", "speakers": ["Floris Bruynooghe"], "title": "Exploring CPython's bytecode", "quality_notes": "", "video_flv_length": null, "recorded": "2011-07-21", "video_mp4_length": null, "description": "The CPython interpreter always compiles your source code to bytecode, usually\nstored in .pyc files. This bytecode is then loaded and executed in the CPython\nvirtual machine.\n\nThis talk will explore the bytecode from the outside in. Starting with how to\nread a .pyc file, following the steps the interpreter takes to arrive and a\nusable python module. It then dives into the structure of the bytecode itself\nand the principles of the virtual machine, detailing how the VM executes this\nbytecode to do useful work.\n\nHaving seen all these details you should have a good idea of the various\ninnards of CPython and how to manipulate these to create weird, wonderful,\ndangerous and occasional useful hacks.\n\n", "video_mp4_url": null, "tags": ["bytecode", "cpython", "vm"], "copyright_text": "Standard YouTube License", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=c08Ee2gQ3pY", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "[EuroPython 2011] Floris Bruynooghe - 22 June 2011 in \"Track Lasagne\"\n\n", "thumbnail_url": "http://i.ytimg.com/vi/c08Ee2gQ3pY/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1050, 
+  "category": "EuroPython 2011", 
+  "slug": "exploring-cpythons-bytecode", 
+  "title": "Exploring CPython's bytecode", 
+  "summary": "[EuroPython 2011] Floris Bruynooghe - 22 June 2011 in \"Track Lasagne\"\n\n", 
+  "description": "The CPython interpreter always compiles your source code to bytecode, usually\nstored in .pyc files. This bytecode is then loaded and executed in the CPython\nvirtual machine.\n\nThis talk will explore the bytecode from the outside in. Starting with how to\nread a .pyc file, following the steps the interpreter takes to arrive and a\nusable python module. It then dives into the structure of the bytecode itself\nand the principles of the virtual machine, detailing how the VM executes this\nbytecode to do useful work.\n\nHaving seen all these details you should have a good idea of the various\ninnards of CPython and how to manipulate these to create weird, wonderful,\ndangerous and occasional useful hacks.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Standard YouTube License", 
+  "thumbnail_url": "http://i.ytimg.com/vi/c08Ee2gQ3pY/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=c08Ee2gQ3pY", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=c08Ee2gQ3pY", 
+  "tags": [
+    "bytecode", 
+    "cpython", 
+    "vm"
+  ], 
+  "speakers": [
+    "Floris Bruynooghe"
+  ], 
+  "recorded": "2011-07-21"
+}

@@ -1,1 +1,33 @@
-{"whiteboard": "", "video_mp4_download_only": true, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2013", "speakers": ["Armin Rigo"], "title": "PyPy without the GIL", "quality_notes": "", "video_flv_length": null, "recorded": "2013-03-15", "video_mp4_length": null, "description": "", "video_mp4_url": "http://s3.us.archive.org/nextdayvideo/psf/pycon2013/PyPy_without_the_GIL.mp4?Signature=KVTyOTkBFyh7X56EKD2W5BHb8cY%3D&Expires=1363659535&AWSAccessKeyId=FEWGReWX3QbNk0h3", "tags": ["talk"], "copyright_text": "CC", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=Q9wf63flICs", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "PyPy has a version without the Global Interpreter Lock (GIL).  It can run multiple threads concurrently.  But the real benefit is that you have other, new ways of using all your cores.  In this talk I will describe how it is possible (STM) and then focus on some of these new opportunities, e.g. show how we used multiple cores in a single really big program without adding thread locks everywhere.", "thumbnail_url": "http://i2.ytimg.com/vi/Q9wf63flICs/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1739, 
+  "category": "PyCon US 2013", 
+  "slug": "pypy-without-the-gil", 
+  "title": "PyPy without the GIL", 
+  "summary": "PyPy has a version without the Global Interpreter Lock (GIL).  It can run multiple threads concurrently.  But the real benefit is that you have other, new ways of using all your cores.  In this talk I will describe how it is possible (STM) and then focus on some of these new opportunities, e.g. show how we used multiple cores in a single really big program without adding thread locks everywhere.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC", 
+  "thumbnail_url": "http://i2.ytimg.com/vi/Q9wf63flICs/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/psf/pycon2013/PyPy_without_the_GIL.mp4?Signature=KVTyOTkBFyh7X56EKD2W5BHb8cY%3D&Expires=1363659535&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "https://www.youtube.com/watch?v=Q9wf63flICs", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=Q9wf63flICs", 
+  "tags": [
+    "talk"
+  ], 
+  "speakers": [
+    "Armin Rigo"
+  ], 
+  "recorded": "2013-03-15"
+}

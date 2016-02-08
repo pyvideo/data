@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2014", "speakers": ["Sarah Mount"], "title": "Message-passing concurrency for Python", "quality_notes": "", "video_flv_length": null, "recorded": "2014-07-22", "video_mp4_length": null, "description": "Concurrency and parallelism in Python are always hot topics. Early Python versions had a threading library to perform concurrency over operating system threads, Python version 2.6 introduced the multiprocessing library and Python 3.2 has introduced a futures library for asynchronous tasks. In addition to the modules in the standard library a number of packages such as gevent exist on PyPI to implement concurrency with \"green threads\". \r\n\r\nThis talk will look the variety of forms of concurrency and parallelism. When are the different libraries useful and how does their performance compare? Why do programmers want to \"remove the GIL\" and why is it so hard to do? In particular this talk will give an overview of various forms of message-passing concurrency which have become popular in languages like Scala and Go. A Python library called python-csp which implements similar ideas in a Pythonic way will be introduced and we will look at how this style of programming can be used to avoid deadlocks, race hazards and \"callback hell\".", "video_mp4_url": "", "tags": [], "copyright_text": "http://creativecommons.org/licenses/by/3.0/", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=EsSdtvIGWAA", "video_webm_url": "", "video_ogv_length": null, "video_ogv_url": "", "language": "English", "video_webm_length": null, "summary": "Concurrency and parallelism in Python are always hot topics. This talk will look the variety of forms of concurrency and parallelism. In particular this talk will give an overview of various forms of message-passing concurrency which have become popular in languages like Scala and Go. A Python library called python-csp which implements similar ideas in a Pythonic way will be introduced and we will look at how this style of programming can be used to avoid deadlocks, race hazards and \"callback hell\".", "thumbnail_url": "http://i.ytimg.com/vi/EsSdtvIGWAA/hqdefault.jpg", "video_flv_url": ""}
+{
+  "id": 3032, 
+  "category": "EuroPython 2014", 
+  "slug": "message-passing-concurrency-for-python", 
+  "title": "Message-passing concurrency for Python", 
+  "summary": "Concurrency and parallelism in Python are always hot topics. This talk will look the variety of forms of concurrency and parallelism. In particular this talk will give an overview of various forms of message-passing concurrency which have become popular in languages like Scala and Go. A Python library called python-csp which implements similar ideas in a Pythonic way will be introduced and we will look at how this style of programming can be used to avoid deadlocks, race hazards and \"callback hell\".", 
+  "description": "Concurrency and parallelism in Python are always hot topics. Early Python versions had a threading library to perform concurrency over operating system threads, Python version 2.6 introduced the multiprocessing library and Python 3.2 has introduced a futures library for asynchronous tasks. In addition to the modules in the standard library a number of packages such as gevent exist on PyPI to implement concurrency with \"green threads\". \r\n\r\nThis talk will look the variety of forms of concurrency and parallelism. When are the different libraries useful and how does their performance compare? Why do programmers want to \"remove the GIL\" and why is it so hard to do? In particular this talk will give an overview of various forms of message-passing concurrency which have become popular in languages like Scala and Go. A Python library called python-csp which implements similar ideas in a Pythonic way will be introduced and we will look at how this style of programming can be used to avoid deadlocks, race hazards and \"callback hell\".", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
+  "thumbnail_url": "http://i.ytimg.com/vi/EsSdtvIGWAA/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=EsSdtvIGWAA", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=EsSdtvIGWAA", 
+  "tags": [], 
+  "speakers": [
+    "Sarah Mount"
+  ], 
+  "recorded": "2014-07-22"
+}

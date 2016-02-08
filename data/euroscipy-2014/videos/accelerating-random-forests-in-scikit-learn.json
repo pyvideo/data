@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroScipy 2014", "speakers": ["Gilles Louppe"], "title": "Accelerating Random Forests in Scikit Learn", "quality_notes": "", "video_flv_length": null, "recorded": "2014-10-22", "video_mp4_length": null, "description": "Random Forests are without contest one of the most robust, accurate and versatile tools for solving machine learning tasks. Implementing this algorithm properly and efficiently remains however a challenging task involving issues that are easily overlooked if not considered with care. In this talk, we present the Random Forests implementation developed within the Scikit-Learn machine learning library. In particular, we describe the iterative team efforts that led us to gradually improve our codebase and eventually make Scikit-Learn's Random Forests one of the most efficient implementations in the scientific ecosystem, across all libraries and programming languages. Algorithmic and technical optimizations that have made this possible include:\r\n\r\n* An efficient formulation of the decision tree algorithm, tailored for Random Forests;\r\n* Cythonization of the tree induction algorithm;\r\n* CPU cache optimizations, through low-level organization of data into contiguous memory blocks;\r\n* Efficient multi-threading through GIL-free routines;\r\n* A dedicated sorting procedure, taking into account the properties of data;\r\n* Shared pre-computations whenever critical.\r\n\r\nOverall, we believe that lessons learned from this case study extend to a broad range of scientific applications and may be of interest to anybody doing data analysis in Python.", "video_mp4_url": "", "tags": [], "copyright_text": "youtube", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=TqF0rKzvjm4", "video_webm_url": "", "video_ogv_length": null, "video_ogv_url": "", "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "https://i.ytimg.com/vi/TqF0rKzvjm4/hqdefault.jpg", "video_flv_url": ""}
+{
+  "id": 3334, 
+  "category": "EuroScipy 2014", 
+  "slug": "accelerating-random-forests-in-scikit-learn", 
+  "title": "Accelerating Random Forests in Scikit Learn", 
+  "summary": "", 
+  "description": "Random Forests are without contest one of the most robust, accurate and versatile tools for solving machine learning tasks. Implementing this algorithm properly and efficiently remains however a challenging task involving issues that are easily overlooked if not considered with care. In this talk, we present the Random Forests implementation developed within the Scikit-Learn machine learning library. In particular, we describe the iterative team efforts that led us to gradually improve our codebase and eventually make Scikit-Learn's Random Forests one of the most efficient implementations in the scientific ecosystem, across all libraries and programming languages. Algorithmic and technical optimizations that have made this possible include:\r\n\r\n* An efficient formulation of the decision tree algorithm, tailored for Random Forests;\r\n* Cythonization of the tree induction algorithm;\r\n* CPU cache optimizations, through low-level organization of data into contiguous memory blocks;\r\n* Efficient multi-threading through GIL-free routines;\r\n* A dedicated sorting procedure, taking into account the properties of data;\r\n* Shared pre-computations whenever critical.\r\n\r\nOverall, we believe that lessons learned from this case study extend to a broad range of scientific applications and may be of interest to anybody doing data analysis in Python.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "youtube", 
+  "thumbnail_url": "https://i.ytimg.com/vi/TqF0rKzvjm4/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=TqF0rKzvjm4", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=TqF0rKzvjm4", 
+  "tags": [], 
+  "speakers": [
+    "Gilles Louppe"
+  ], 
+  "recorded": "2014-10-22"
+}

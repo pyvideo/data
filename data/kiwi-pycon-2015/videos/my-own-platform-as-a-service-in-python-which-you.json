@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": 1774, "video_ogv_download_only": false, "category": "Kiwi PyCon 2015", "speakers": ["Lee Begg"], "title": "My own Platform as a Service in Python, which you can do too", "quality_notes": "", "video_flv_length": null, "recorded": "2015-09-05", "video_mp4_length": null, "description": "Over the last couple of years I have evolved my own Platform as a Service (PaaS) for hosting Django apps, and you can run it too.\r\n\r\nI use Nginx, Circus, Chaussette, and Django, with some support from Django-environ and deployment automation using Fabric. All of that except Nginx are written in Python. Systemd is a new init process coming.\r\n\r\n* Circus is a process and socket manager, and gives a nice way to scale processes. \r\n* Chaussette WSGI server works well with Circus, as Circus can pass the socket to it.\r\n* Django-environ it's a library that parses environment variables or files with key-value pairs. Environment variables are used on some PaaS, but the file support I find very useful.\r\n* Fabric is a framework for writing system commands to be run on remote hosts, and is great for automating system administration.\r\n* Systemd is a new \"init\" process for Linux and offers some interesting possibilities for hosting Python webapps.", "video_mp4_url": null, "tags": [], "copyright_text": "CC BY-SA", "related_urls": [], "video_flv_download_only": false, "source_url": "http://youtu.be/AxTeVemFBkQ", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "https://i.ytimg.com/vi/AxTeVemFBkQ/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 3864, 
+  "category": "Kiwi PyCon 2015", 
+  "slug": "my-own-platform-as-a-service-in-python-which-you", 
+  "title": "My own Platform as a Service in Python, which you can do too", 
+  "summary": "", 
+  "description": "Over the last couple of years I have evolved my own Platform as a Service (PaaS) for hosting Django apps, and you can run it too.\r\n\r\nI use Nginx, Circus, Chaussette, and Django, with some support from Django-environ and deployment automation using Fabric. All of that except Nginx are written in Python. Systemd is a new init process coming.\r\n\r\n* Circus is a process and socket manager, and gives a nice way to scale processes. \r\n* Chaussette WSGI server works well with Circus, as Circus can pass the socket to it.\r\n* Django-environ it's a library that parses environment variables or files with key-value pairs. Environment variables are used on some PaaS, but the file support I find very useful.\r\n* Fabric is a framework for writing system commands to be run on remote hosts, and is great for automating system administration.\r\n* Systemd is a new \"init\" process for Linux and offers some interesting possibilities for hosting Python webapps.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "https://i.ytimg.com/vi/AxTeVemFBkQ/hqdefault.jpg", 
+  "duration": 1774, 
+  "videos": [
+    {
+      "url": "http://youtu.be/AxTeVemFBkQ", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtu.be/AxTeVemFBkQ", 
+  "tags": [], 
+  "speakers": [
+    "Lee Begg"
+  ], 
+  "recorded": "2015-09-05"
+}

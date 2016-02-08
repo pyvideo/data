@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2012", "speakers": ["V Maggio"], "title": "Clone detection in python", "quality_notes": "", "video_flv_length": null, "recorded": "2012-07-05", "video_mp4_length": null, "description": "The clone detection is a longstanding and very active research area in the\nfield of Software Maintenance aimed at identifying duplications in source\ncode. The presence of clones may affect maintenance activities. For example,\nerrors in the \u201coriginal\u201d fragment of code have to be fixed in every clone. To\nmake things worse, code clones are usually not documented and so their\nlocation in the source code is not known. In case of small-size software\nsystems the clone detection may be manually performed, but on large software\nsystems it can be accomplished only by means of automatic techniques. In this\ntalk an approach that exploits structural (i.e., AST) and lexical information\nof the code (e.g., name of methods, variables) for the identification of\nclones will be presented. The main innovation of such approach is represented\nby the adoption of a Machine Learning technique based on (Tree) Kernel\nfunctions. Some insights on mathematical properties of these Kernel-based\nmethod along with its corresponding (efficient) Python implementation (Numpy,\nScipy) will be presented. Afterwards the talk will be focused on the\nexplanation of some detection results gathered on well-known Python systems\n(Eric, Plone, networkx, Zope), compared with other non-Python ones (Eclipse-\nJdtcore, JHotDraw). The aim of this part will be to analyze what are the\nPython features that could possibly avoid (or allow) duplications w.r.t. other\nOO languages. Some snippets for analyzing the Python code \u201cby itself\u201d will be\nalso presented, emphasizing the powerful Python built-in reflection\ncapabilities, extremely useful in this specific code analysis task. Basic\nmaths skill and basic knowledge of the Python language are the only suggested\nprerequisites for the talk.\n\n", "video_mp4_url": null, "tags": [], "copyright_text": "Standard YouTube License", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=xmsK1geCDq4", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "[EuroPython 2012] V Maggio - 4 JULY 2012 in \"Track Spaghetti\"\n\n", "thumbnail_url": "http://i.ytimg.com/vi/xmsK1geCDq4/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1308, 
+  "category": "EuroPython 2012", 
+  "slug": "clone-detection-in-python", 
+  "title": "Clone detection in python", 
+  "summary": "[EuroPython 2012] V Maggio - 4 JULY 2012 in \"Track Spaghetti\"\n\n", 
+  "description": "The clone detection is a longstanding and very active research area in the\nfield of Software Maintenance aimed at identifying duplications in source\ncode. The presence of clones may affect maintenance activities. For example,\nerrors in the \u201coriginal\u201d fragment of code have to be fixed in every clone. To\nmake things worse, code clones are usually not documented and so their\nlocation in the source code is not known. In case of small-size software\nsystems the clone detection may be manually performed, but on large software\nsystems it can be accomplished only by means of automatic techniques. In this\ntalk an approach that exploits structural (i.e., AST) and lexical information\nof the code (e.g., name of methods, variables) for the identification of\nclones will be presented. The main innovation of such approach is represented\nby the adoption of a Machine Learning technique based on (Tree) Kernel\nfunctions. Some insights on mathematical properties of these Kernel-based\nmethod along with its corresponding (efficient) Python implementation (Numpy,\nScipy) will be presented. Afterwards the talk will be focused on the\nexplanation of some detection results gathered on well-known Python systems\n(Eric, Plone, networkx, Zope), compared with other non-Python ones (Eclipse-\nJdtcore, JHotDraw). The aim of this part will be to analyze what are the\nPython features that could possibly avoid (or allow) duplications w.r.t. other\nOO languages. Some snippets for analyzing the Python code \u201cby itself\u201d will be\nalso presented, emphasizing the powerful Python built-in reflection\ncapabilities, extremely useful in this specific code analysis task. Basic\nmaths skill and basic knowledge of the Python language are the only suggested\nprerequisites for the talk.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Standard YouTube License", 
+  "thumbnail_url": "http://i.ytimg.com/vi/xmsK1geCDq4/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=xmsK1geCDq4", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=xmsK1geCDq4", 
+  "tags": [], 
+  "speakers": [
+    "V Maggio"
+  ], 
+  "recorded": "2012-07-05"
+}

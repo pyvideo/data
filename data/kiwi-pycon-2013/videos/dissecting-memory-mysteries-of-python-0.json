@@ -1,1 +1,27 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "Kiwi PyCon 2013", "speakers": ["Chetan Giridhar", "Vishal Kanaujia"], "title": "Dissecting memory mysteries of Python", "quality_notes": "", "video_flv_length": null, "recorded": "2013-09-12", "video_mp4_length": null, "description": "@ Kiwi PyCon 2013 - Saturday, 07 Sep 2013 - Track 2\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Abstract**\r\n\r\nPython is a dynamically typed language. Applications leave task of object memory management to Python VM. Python automatically manages memory using reference counting and garbage collection. But, Python memory manager may bloat the VM size, and sometimes it may consume complete main memory. It causes applications to deliver low performance and encounter unexpected memory errors.\r\n\r\nThis talk dissects the internals of CPython memory manager, its limitations and negative impact on application behavior. We demonstrate the problem of memory leaks by learning Python heap pattern, object graphs and memory profiling. Next, we suggest solutions to reduce memory footprints of applications, tools to diagnose and fix memory leaks and lesson learned as best development practices.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/vishal-kanaujia-dissecting-memory-mysteries-of-python", "video_mp4_url": "", "tags": [], "copyright_text": "", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=7glw_5YFU-Q", "video_webm_url": "", "video_ogv_length": null, "video_ogv_url": "", "language": "English", "video_webm_length": null, "summary": "Memory leak has been perennial problem for Python applications. This causes application to behave erroneously with Memory error and very slow operation. What is wrong with the application? How to find out the cause and fix it? This is the motivation for this talk.\r\n", "thumbnail_url": "http://i1.ytimg.com/vi/7glw_5YFU-Q/hqdefault.jpg", "video_flv_url": ""}
+{
+  "id": 2359, 
+  "category": "Kiwi PyCon 2013", 
+  "slug": "dissecting-memory-mysteries-of-python-0", 
+  "title": "Dissecting memory mysteries of Python", 
+  "summary": "Memory leak has been perennial problem for Python applications. This causes application to behave erroneously with Memory error and very slow operation. What is wrong with the application? How to find out the cause and fix it? This is the motivation for this talk.\r\n", 
+  "description": "@ Kiwi PyCon 2013 - Saturday, 07 Sep 2013 - Track 2\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Abstract**\r\n\r\nPython is a dynamically typed language. Applications leave task of object memory management to Python VM. Python automatically manages memory using reference counting and garbage collection. But, Python memory manager may bloat the VM size, and sometimes it may consume complete main memory. It causes applications to deliver low performance and encounter unexpected memory errors.\r\n\r\nThis talk dissects the internals of CPython memory manager, its limitations and negative impact on application behavior. We demonstrate the problem of memory leaks by learning Python heap pattern, object graphs and memory profiling. Next, we suggest solutions to reduce memory footprints of applications, tools to diagnose and fix memory leaks and lesson learned as best development practices.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/vishal-kanaujia-dissecting-memory-mysteries-of-python", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/7glw_5YFU-Q/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=7glw_5YFU-Q", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=7glw_5YFU-Q", 
+  "tags": [], 
+  "speakers": [
+    "Chetan Giridhar", 
+    "Vishal Kanaujia"
+  ], 
+  "recorded": "2013-09-12"
+}

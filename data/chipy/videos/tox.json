@@ -1,1 +1,35 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "ChiPy", "speakers": ["Kumar McMillan"], "title": "Tox", "quality_notes": "", "video_flv_length": null, "recorded": "2010-11-11", "video_mp4_length": null, "description": "Here's our Hudson matrix setup w/ tox: [http://hudson.testrun.org/job/nose-\nunstable/](http://hudson.testrun.org/job/nose-unstable/) (we just set this up\nrecently which is why most builds were broken in one or two envs) I can also\nspend some time going over how we are currently maintaining a test suite that\nruns in both 2.x and 3.x simultaneously.\n\nThis will be our Best Meeting Ever!\n\n[http://codespeak.net/tox/](http://codespeak.net/tox/)\n\n[http://chipy.org/](http://chipy.org/)\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.m4v", "tags": ["chipy", "testing", "tox"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": "", "video_ogv_length": 208440025, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "It's a great new open source tool that helps you support all versions of\npython with your existing automated tests. It's not a test runner, it's a\nsuper test runner runner! Or something. There is no easy way to describe it\nwhich is why the front page of the website is sort of confusing, IMO. We use\ntox on the Nose project to make sure each code change doesn't break the tests\nin Python 2.4, 2.5, 2.6, 2.7, 3.0 or Jython. Not everybody targets so many\nenvironments but if you want to maintain a widely used module then you\nprobably will want to use tox someday.\n\n", "thumbnail_url": "http://a.images.blip.tv/CarlFK-Tox172.png", "video_flv_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.flv"}
+{
+  "id": 572, 
+  "category": "ChiPy", 
+  "slug": "tox", 
+  "title": "Tox", 
+  "summary": "It's a great new open source tool that helps you support all versions of\npython with your existing automated tests. It's not a test runner, it's a\nsuper test runner runner! Or something. There is no easy way to describe it\nwhich is why the front page of the website is sort of confusing, IMO. We use\ntox on the Nose project to make sure each code change doesn't break the tests\nin Python 2.4, 2.5, 2.6, 2.7, 3.0 or Jython. Not everybody targets so many\nenvironments but if you want to maintain a widely used module then you\nprobably will want to use tox someday.\n\n", 
+  "description": "Here's our Hudson matrix setup w/ tox: [http://hudson.testrun.org/job/nose-\nunstable/](http://hudson.testrun.org/job/nose-unstable/) (we just set this up\nrecently which is why most builds were broken in one or two envs) I can also\nspend some time going over how we are currently maintaining a test suite that\nruns in both 2.x and 3.x simultaneously.\n\nThis will be our Best Meeting Ever!\n\n[http://codespeak.net/tox/](http://codespeak.net/tox/)\n\n[http://chipy.org/](http://chipy.org/)\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/CarlFK-Tox172.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.m4v", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.flv", 
+      "length": null, 
+      "type": "flv"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "chipy", 
+    "testing", 
+    "tox"
+  ], 
+  "speakers": [
+    "Kumar McMillan"
+  ], 
+  "recorded": "2010-11-11"
+}

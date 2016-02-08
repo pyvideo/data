@@ -1,1 +1,32 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Jimmy Retzlaff"], "title": "mrjob: Distributed Computing for Everyone", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "mrjob: Distributed Computing for Everyone\n\nPresented by Jimmy Retzlaff\n\nHave tons of data that needs analysis? Now it's as easy as 1-2-3! 1) Sign up\nfor an Amazon Web Services account. 2) Install Yelp's mrjob. 3) Write as few\nas a dozen lines of Python code. This talk will show you how to use mrjob and\nAmazon's Elastic MapReduce to easily process lots of data in parallel on a\npotentially large cluster of computers that you can rent for a dime per\ncomputer per hour.\n\nAbstract\n\nIn their 2004 paper, Google outlined MapReduce - one of the programming models\nthey use to process large data sets. MapReduce is a relatively simple model to\ndevelop for that allows the underlying framework to automatically parallelize\nthe job, add fault tolerance, and scale the job to many commodity computers.\n\nIn 2009, Amazon Web Services introduced their Elastic MapReduce (EMR) product.\nIt layers the Hadoop open source package on top of their Elastic Compute Cloud\n(EC2) to allow anyone to rent a cluster of computers by the hour, starting at\nabout a dime per computer per hour, in order to run MapReduce jobs.\n\nSome of the significant issues with Amazon's solution involve starting up\nmachine instances, replicating your code and its dependancies to EMR, running\nand monitoring the job, and gathering the results.\n\nSo Yelp developed mrjob, which takes care of these details and lets the\ndeveloper focus on working with their data. Yelp uses mrjob to power many\ninternal jobs that work with its very large log files, for example:\n\n  * People Who Viewed This Also Viewed... \n  * A user clicked an ad over and over, but we only want to charge the advertiser once \n  * We're thinking of a change, but want to simulate how that will affect ad revenue \n\nNow you can use that same power with just a few lines of Python.\n\nUseful links:\n\n  * Install mrjob: sudo easy_install mrjob \n  * Documentation: [http://packages.python.org/mrjob/](http://packages.python.org/mrjob/)\n  * PyPI: [http://pypi.python.org/pypi/mrjob](http://pypi.python.org/pypi/mrjob)\n  * Development is hosted at github: [http://github.com/Yelp/mrjob](http://github.com/Yelp/mrjob)\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/404_mrjob-distributed-computing-for-everyone.mp4", "tags": ["distributed", "distributedcomputing", "mrjob", "pycon", "pycon2011"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 142384088, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011MrjobDistributedComputingForEveryone940.png", "video_flv_url": null}
+{
+  "id": 404, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--mrjob--distributed-computing-for-ever", 
+  "title": "mrjob: Distributed Computing for Everyone", 
+  "summary": "", 
+  "description": "mrjob: Distributed Computing for Everyone\n\nPresented by Jimmy Retzlaff\n\nHave tons of data that needs analysis? Now it's as easy as 1-2-3! 1) Sign up\nfor an Amazon Web Services account. 2) Install Yelp's mrjob. 3) Write as few\nas a dozen lines of Python code. This talk will show you how to use mrjob and\nAmazon's Elastic MapReduce to easily process lots of data in parallel on a\npotentially large cluster of computers that you can rent for a dime per\ncomputer per hour.\n\nAbstract\n\nIn their 2004 paper, Google outlined MapReduce - one of the programming models\nthey use to process large data sets. MapReduce is a relatively simple model to\ndevelop for that allows the underlying framework to automatically parallelize\nthe job, add fault tolerance, and scale the job to many commodity computers.\n\nIn 2009, Amazon Web Services introduced their Elastic MapReduce (EMR) product.\nIt layers the Hadoop open source package on top of their Elastic Compute Cloud\n(EC2) to allow anyone to rent a cluster of computers by the hour, starting at\nabout a dime per computer per hour, in order to run MapReduce jobs.\n\nSome of the significant issues with Amazon's solution involve starting up\nmachine instances, replicating your code and its dependancies to EMR, running\nand monitoring the job, and gathering the results.\n\nSo Yelp developed mrjob, which takes care of these details and lets the\ndeveloper focus on working with their data. Yelp uses mrjob to power many\ninternal jobs that work with its very large log files, for example:\n\n  * People Who Viewed This Also Viewed... \n  * A user clicked an ad over and over, but we only want to charge the advertiser once \n  * We're thinking of a change, but want to simulate how that will affect ad revenue \n\nNow you can use that same power with just a few lines of Python.\n\nUseful links:\n\n  * Install mrjob: sudo easy_install mrjob \n  * Documentation: [http://packages.python.org/mrjob/](http://packages.python.org/mrjob/)\n  * PyPI: [http://pypi.python.org/pypi/mrjob](http://pypi.python.org/pypi/mrjob)\n  * Development is hosted at github: [http://github.com/Yelp/mrjob](http://github.com/Yelp/mrjob)\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011MrjobDistributedComputingForEveryone940.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/404_mrjob-distributed-computing-for-everyone.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "distributed", 
+    "distributedcomputing", 
+    "mrjob", 
+    "pycon", 
+    "pycon2011"
+  ], 
+  "speakers": [
+    "Jimmy Retzlaff"
+  ], 
+  "recorded": "2011-03-11"
+}

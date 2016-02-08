@@ -1,1 +1,33 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Alex Gaynor", "Maciej Fijalkowski"], "title": "Why is Python slow and how PyPy can help?", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Why is Python slow and how PyPy can help?\n\nPresented by Maciej Fijalkowski and Alex Gaynor\n\nPyPy is a virtual machine for Python, featuring an advanced just in time\ncompiler, which can deliver exceptional performance. This talk is going to be\na deep dive into what exactly makes Python such a hard language to optimize,\nhow PyPy is organized, and what optimizations our JIT can do (and what it\ncan't do) for your code.\n\nAbstract\n\nThe talk will detail how a python interpreter works internally and why some\noperations are costly. We'll go through several python features, how they\nwork, why they're slow in CPython and how we're fixing it.\n\nThe list of mentioned features is not exhaustive, however we will try to focus\nat least on the following:\n\n  * Dynamic language - In Python code we have no known types, like a statically typed language. Even operations like \"a + b\" can do anything, unless we know more about the code, and the types it is operating on.\n\n  * Frame introspection - Frame objects need to be allocated for every function call, and all local variables are stored on the frame, and must be accessible from further down the call stack.\n\nPyPy uses a novel approach called \"virtualizables\" which makes it possible to\navoid frame allocation in most common cases.\n\n  * Object model - All user defined Python objects have a dictionary which stores their attributes, as does every type. When Python does an attribute lookup this requires at least two dictionary lookups.\n\nIn PyPy we use an approach similar to the one used by V8 with hidden classes\n(except more PyPy specific) called map dictionaries and other optimizations.\n\n  * FFI calls - Calling C from Python is costly and hard to optimize. In PyPy we expose C APIs to Python code via ctypes. This part explains how we can optimize ctypes calls.\n\n  * array module - Users of CPython's array module probably know it can save them quite a bit of memory, however it's also slower than using a list, due to the overhead of boxing and unboxing on every operations. Here we will tie everything together and describe how the array module is much faster with PyPy's JIT, combining our optimizations to: unbox values, remove the dynamicism within traces, and deliver great performance.\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/427_why-is-python-slow-and-how-pypy-can-help.mp4", "tags": ["jit", "pycon", "pycon2011", "pypy", "vm"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": "", "video_ogv_length": 154529169, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011WhyIsPythonSlowAndHowPyPyCanHelp525.png", "video_flv_url": ""}
+{
+  "id": 427, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--why-is-python-slow-and-how-pypy-can-h", 
+  "title": "Why is Python slow and how PyPy can help?", 
+  "summary": "", 
+  "description": "Why is Python slow and how PyPy can help?\n\nPresented by Maciej Fijalkowski and Alex Gaynor\n\nPyPy is a virtual machine for Python, featuring an advanced just in time\ncompiler, which can deliver exceptional performance. This talk is going to be\na deep dive into what exactly makes Python such a hard language to optimize,\nhow PyPy is organized, and what optimizations our JIT can do (and what it\ncan't do) for your code.\n\nAbstract\n\nThe talk will detail how a python interpreter works internally and why some\noperations are costly. We'll go through several python features, how they\nwork, why they're slow in CPython and how we're fixing it.\n\nThe list of mentioned features is not exhaustive, however we will try to focus\nat least on the following:\n\n  * Dynamic language - In Python code we have no known types, like a statically typed language. Even operations like \"a + b\" can do anything, unless we know more about the code, and the types it is operating on.\n\n  * Frame introspection - Frame objects need to be allocated for every function call, and all local variables are stored on the frame, and must be accessible from further down the call stack.\n\nPyPy uses a novel approach called \"virtualizables\" which makes it possible to\navoid frame allocation in most common cases.\n\n  * Object model - All user defined Python objects have a dictionary which stores their attributes, as does every type. When Python does an attribute lookup this requires at least two dictionary lookups.\n\nIn PyPy we use an approach similar to the one used by V8 with hidden classes\n(except more PyPy specific) called map dictionaries and other optimizations.\n\n  * FFI calls - Calling C from Python is costly and hard to optimize. In PyPy we expose C APIs to Python code via ctypes. This part explains how we can optimize ctypes calls.\n\n  * array module - Users of CPython's array module probably know it can save them quite a bit of memory, however it's also slower than using a list, due to the overhead of boxing and unboxing on every operations. Here we will tie everything together and describe how the array module is much faster with PyPy's JIT, combining our optimizations to: unbox values, remove the dynamicism within traces, and deliver great performance.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011WhyIsPythonSlowAndHowPyPyCanHelp525.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/427_why-is-python-slow-and-how-pypy-can-help.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "jit", 
+    "pycon", 
+    "pycon2011", 
+    "pypy", 
+    "vm"
+  ], 
+  "speakers": [
+    "Alex Gaynor", 
+    "Maciej Fijalkowski"
+  ], 
+  "recorded": "2011-03-11"
+}

@@ -1,1 +1,34 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2011", "speakers": ["Magnus Hagander"], "title": "Data Driven Cache Invalidation", "quality_notes": "", "video_flv_length": null, "recorded": "2011-07-24", "video_mp4_length": null, "description": "In todays world, nobody (should) deploy a web application facing the internet\nwithout having a proper caching system in place. There are many different\nsolutions to choose from, from manual use of memcached through framework\nintegrated caching to external caches like Squid or Varnish. Most modern\nframeworks come with integrated functionality for at least one of these\nmethods, and often more than one.\n\nHowever, they often relies on all traffic going through the same framework to\nwork properly - a caching layer in Rails is hard to share with one in Django.\nThis talk will show a way to break the design rules of these frameworks just a\nlittle, and have the database help solve this problem.\n\nThis talk will use a small application written in Python using Django to\nillustrate the examples, but the method is language independent.\nUnsurprisingly, the database used is PostgreSQL.\n\n", "video_mp4_url": null, "tags": ["cache", "database", "deploy", "design", "django", "framework", "web"], "copyright_text": "Standard YouTube License", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=U_IZVEZImq4", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "[EuroPython 2011] Magnus Hagander - 23 June 2011 in \"Track Ravioli\"\n\n", "thumbnail_url": "http://i.ytimg.com/vi/U_IZVEZImq4/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1027, 
+  "category": "EuroPython 2011", 
+  "slug": "data-driven-cache-invalidation", 
+  "title": "Data Driven Cache Invalidation", 
+  "summary": "[EuroPython 2011] Magnus Hagander - 23 June 2011 in \"Track Ravioli\"\n\n", 
+  "description": "In todays world, nobody (should) deploy a web application facing the internet\nwithout having a proper caching system in place. There are many different\nsolutions to choose from, from manual use of memcached through framework\nintegrated caching to external caches like Squid or Varnish. Most modern\nframeworks come with integrated functionality for at least one of these\nmethods, and often more than one.\n\nHowever, they often relies on all traffic going through the same framework to\nwork properly - a caching layer in Rails is hard to share with one in Django.\nThis talk will show a way to break the design rules of these frameworks just a\nlittle, and have the database help solve this problem.\n\nThis talk will use a small application written in Python using Django to\nillustrate the examples, but the method is language independent.\nUnsurprisingly, the database used is PostgreSQL.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Standard YouTube License", 
+  "thumbnail_url": "http://i.ytimg.com/vi/U_IZVEZImq4/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=U_IZVEZImq4", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=U_IZVEZImq4", 
+  "tags": [
+    "cache", 
+    "database", 
+    "deploy", 
+    "design", 
+    "django", 
+    "framework", 
+    "web"
+  ], 
+  "speakers": [
+    "Magnus Hagander"
+  ], 
+  "recorded": "2011-07-24"
+}

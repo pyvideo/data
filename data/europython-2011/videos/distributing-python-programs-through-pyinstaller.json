@@ -1,1 +1,30 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2011", "speakers": ["Giovanni Bajo"], "title": "Distributing Python programs through PyInstaller", "quality_notes": "", "video_flv_length": null, "recorded": "2011-07-20", "video_mp4_length": null, "description": "The talk will focus on how to distribute multi-platform proprietary Python\napplications, using [PyInstaller](http://www.pyinstaller.org).\n\nPyInstaller takes a program written in Python and turns it into a static\nexecutable (binary) that does not depend upon an existing Python installation,\nnor third party library. The executable can then be packed and shipped in many\ndifferent ways (through installer wizards, deb/rpm packages, etc.).\n\nPyInstaller is a good multi-platform alternative to tools like py2exe and\npy2app, but it found troubles to gain acceptance in a market that seems\nstrongly tied to older tools. Instead, PyInstaller puts forward important new\nfeatures: for instance, it works on the most important desktop platforms\n(Windows, Linux/UNIX, Mac), and it has got an automatic and fully transparent\nsupport for all the workarounds needed to make applications using complex\nlibraries like Matplotlib or PyQt work within a static executable.\n\nIn detail, the following points will be discussed:\n\n  * Distribution of a priopriertary software: initial requests\n  * PyInstaller: how it works (basic tutorial)\n  * The secrets of PyInstaller: technical details\n  * Import hooks: effectively handling third party extensions\n  * Flexibility with PyInstaller: what goes in and what stays out\n  * Linux: static binaries for a single distribution or cross-distributions\n  * Mac: creation of bundles for graphic applications\n\n", "video_mp4_url": null, "tags": ["matplotlib", "py2exe", "pyqt"], "copyright_text": "Standard YouTube License", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=MoL2nDYcW1U", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "[EuroPython 2011] Giovanni Bajo - 22 June 2011 in \"Track Lasagne\"\n\n", "thumbnail_url": "http://i.ytimg.com/vi/MoL2nDYcW1U/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1054, 
+  "category": "EuroPython 2011", 
+  "slug": "distributing-python-programs-through-pyinstaller", 
+  "title": "Distributing Python programs through PyInstaller", 
+  "summary": "[EuroPython 2011] Giovanni Bajo - 22 June 2011 in \"Track Lasagne\"\n\n", 
+  "description": "The talk will focus on how to distribute multi-platform proprietary Python\napplications, using [PyInstaller](http://www.pyinstaller.org).\n\nPyInstaller takes a program written in Python and turns it into a static\nexecutable (binary) that does not depend upon an existing Python installation,\nnor third party library. The executable can then be packed and shipped in many\ndifferent ways (through installer wizards, deb/rpm packages, etc.).\n\nPyInstaller is a good multi-platform alternative to tools like py2exe and\npy2app, but it found troubles to gain acceptance in a market that seems\nstrongly tied to older tools. Instead, PyInstaller puts forward important new\nfeatures: for instance, it works on the most important desktop platforms\n(Windows, Linux/UNIX, Mac), and it has got an automatic and fully transparent\nsupport for all the workarounds needed to make applications using complex\nlibraries like Matplotlib or PyQt work within a static executable.\n\nIn detail, the following points will be discussed:\n\n  * Distribution of a priopriertary software: initial requests\n  * PyInstaller: how it works (basic tutorial)\n  * The secrets of PyInstaller: technical details\n  * Import hooks: effectively handling third party extensions\n  * Flexibility with PyInstaller: what goes in and what stays out\n  * Linux: static binaries for a single distribution or cross-distributions\n  * Mac: creation of bundles for graphic applications\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Standard YouTube License", 
+  "thumbnail_url": "http://i.ytimg.com/vi/MoL2nDYcW1U/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=MoL2nDYcW1U", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=MoL2nDYcW1U", 
+  "tags": [
+    "matplotlib", 
+    "py2exe", 
+    "pyqt"
+  ], 
+  "speakers": [
+    "Giovanni Bajo"
+  ], 
+  "recorded": "2011-07-20"
+}

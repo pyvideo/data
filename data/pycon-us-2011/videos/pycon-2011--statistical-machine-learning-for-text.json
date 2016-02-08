@@ -1,1 +1,33 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Olivier Grisel"], "title": "Statistical machine learning for text classification with scikit-learn", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Statistical machine learning for text classification with scikit-learn\n\nPresented by Olivier Grisel\n\nThe goal of this talk is to give a state-of-the-art overview of machine\nlearning algorithms applied to text classification tasks ranging from language\nand topic detection in tweets and web pages to sentiment analysis in consumer\nproducts reviews.\n\nAbstract\n\nUnstructured or semi-structured text data is ubiquitous thanks to the read-\nwrite nature of the web. However human authors are often lazy and don't fill-\nin structured metadata forms in web applications. It is however possible to\nautomate some structured knowledge extraction with simple and scalable\nstatistical learning tools implemented in python. For instance:\n\n  * guessing the language and topic of tweets and web pages \n  * analyze the sentiment (positive or negative) in consumer products reviews in blogs or customer emails \n\nThis talk will introduce the main operational steps of supervised learning:\n\n  * extracting the relevant features from text documents \n  * selecting the right machine learning algorithm to train a model for the task at hand \n  * using the trained model on previously unseen documents \n  * evaluating the predictive accuracy of the trained model \n\nWe will also demonstrate the results obtained for above tasks using the\n[scikit-learn](http://scikit-learn.sourceforge.net/) package and compare it to\nother implementations such as [nltk](http://nltk.org/) and the [Google\nPrediction API](http://code.google.com/apis/predict/).\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/417_statistical-machine-learning-for-text-classification-with-scikit-learn.mp4", "tags": ["googlepredictionapi", "machinelearning", "nltk", "pycon", "pycon2011", "scikit-learn"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 168176911, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011StatisticalMachineLearningForTextClassification447.png", "video_flv_url": null}
+{
+  "id": 417, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--statistical-machine-learning-for-text", 
+  "title": "Statistical machine learning for text classification with scikit-learn", 
+  "summary": "", 
+  "description": "Statistical machine learning for text classification with scikit-learn\n\nPresented by Olivier Grisel\n\nThe goal of this talk is to give a state-of-the-art overview of machine\nlearning algorithms applied to text classification tasks ranging from language\nand topic detection in tweets and web pages to sentiment analysis in consumer\nproducts reviews.\n\nAbstract\n\nUnstructured or semi-structured text data is ubiquitous thanks to the read-\nwrite nature of the web. However human authors are often lazy and don't fill-\nin structured metadata forms in web applications. It is however possible to\nautomate some structured knowledge extraction with simple and scalable\nstatistical learning tools implemented in python. For instance:\n\n  * guessing the language and topic of tweets and web pages \n  * analyze the sentiment (positive or negative) in consumer products reviews in blogs or customer emails \n\nThis talk will introduce the main operational steps of supervised learning:\n\n  * extracting the relevant features from text documents \n  * selecting the right machine learning algorithm to train a model for the task at hand \n  * using the trained model on previously unseen documents \n  * evaluating the predictive accuracy of the trained model \n\nWe will also demonstrate the results obtained for above tasks using the\n[scikit-learn](http://scikit-learn.sourceforge.net/) package and compare it to\nother implementations such as [nltk](http://nltk.org/) and the [Google\nPrediction API](http://code.google.com/apis/predict/).\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011StatisticalMachineLearningForTextClassification447.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/417_statistical-machine-learning-for-text-classification-with-scikit-learn.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "googlepredictionapi", 
+    "machinelearning", 
+    "nltk", 
+    "pycon", 
+    "pycon2011", 
+    "scikit-learn"
+  ], 
+  "speakers": [
+    "Olivier Grisel"
+  ], 
+  "recorded": "2011-03-11"
+}

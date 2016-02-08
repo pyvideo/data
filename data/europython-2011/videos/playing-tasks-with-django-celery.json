@@ -1,1 +1,35 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "EuroPython 2011", "speakers": ["Mauro Rocco"], "title": "Playing tasks with Django-Celery", "quality_notes": "", "video_flv_length": null, "recorded": "2011-07-21", "video_mp4_length": null, "description": "Celery is an open source task queueing system based on distributed message\npassing.\n\nI will talk about the tools that Celery offers for task distribution and how\nto monitor and manage the system using a Django web interface. This talk will\nalso focus on how we use Celery at Jamendo and our real solutions to some\ncommon issues you may encounter when developing a back-office based on Celery.\n\nThe talk will cover the following topics:\n\n  * A brief overview of Celery and the AMPQ protocol AMPQ protocol overview, Celery introduction: Celery, RabbitMQ code examples\n\n  * The impact of Celery on the Jamendo work-flow; examples with real tasks. Here I will talk about the Jamendo back-office infrastructure and some of our common tasks. I will discuss the improvements made by introducing a new back-office system based on Celery. I will show some code snippets and go over some real scenarios.\n\n  * Overview of the Django Celery admin interface and some Jamendo extensions. Let's talk about the Django-Celery interface that allows one to monitor or schedule tasks directly from the Django admin. I will explain which common additional features are necessary and how to add them.\n\n  * Common \"gotchas\" we encountered while working with Celery and how we solved them.\n\n  * Global task locks\n\n  * Centralized logging: be able to read all the logs of all celery workers on different servers and filter them for real-time debugging\n\n", "video_mp4_url": null, "tags": ["celery", "distributed", "django", "infrastructure", "queueing", "rabbitmq", "real-time", "web"], "copyright_text": "Standard YouTube License", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=HgN8rOstPjc", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "[EuroPython 2011] Mauro Rocco - 22 June 2011 in \"Track Tagliatelle \"\n\n", "thumbnail_url": "http://i.ytimg.com/vi/HgN8rOstPjc/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1039, 
+  "category": "EuroPython 2011", 
+  "slug": "playing-tasks-with-django-celery", 
+  "title": "Playing tasks with Django-Celery", 
+  "summary": "[EuroPython 2011] Mauro Rocco - 22 June 2011 in \"Track Tagliatelle \"\n\n", 
+  "description": "Celery is an open source task queueing system based on distributed message\npassing.\n\nI will talk about the tools that Celery offers for task distribution and how\nto monitor and manage the system using a Django web interface. This talk will\nalso focus on how we use Celery at Jamendo and our real solutions to some\ncommon issues you may encounter when developing a back-office based on Celery.\n\nThe talk will cover the following topics:\n\n  * A brief overview of Celery and the AMPQ protocol AMPQ protocol overview, Celery introduction: Celery, RabbitMQ code examples\n\n  * The impact of Celery on the Jamendo work-flow; examples with real tasks. Here I will talk about the Jamendo back-office infrastructure and some of our common tasks. I will discuss the improvements made by introducing a new back-office system based on Celery. I will show some code snippets and go over some real scenarios.\n\n  * Overview of the Django Celery admin interface and some Jamendo extensions. Let's talk about the Django-Celery interface that allows one to monitor or schedule tasks directly from the Django admin. I will explain which common additional features are necessary and how to add them.\n\n  * Common \"gotchas\" we encountered while working with Celery and how we solved them.\n\n  * Global task locks\n\n  * Centralized logging: be able to read all the logs of all celery workers on different servers and filter them for real-time debugging\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Standard YouTube License", 
+  "thumbnail_url": "http://i.ytimg.com/vi/HgN8rOstPjc/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=HgN8rOstPjc", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=HgN8rOstPjc", 
+  "tags": [
+    "celery", 
+    "distributed", 
+    "django", 
+    "infrastructure", 
+    "queueing", 
+    "rabbitmq", 
+    "real-time", 
+    "web"
+  ], 
+  "speakers": [
+    "Mauro Rocco"
+  ], 
+  "recorded": "2011-07-21"
+}

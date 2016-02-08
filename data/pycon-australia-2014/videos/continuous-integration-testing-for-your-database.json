@@ -1,1 +1,31 @@
-{"whiteboard": "needs editing", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon AU 2014", "speakers": ["Joshua Hesketh"], "title": "Continuous Integration Testing for Your Database Migrations by Joshua Hesketh", "quality_notes": "", "video_flv_length": null, "recorded": "2014-08-11", "video_mp4_length": null, "description": "This is a talk about how OpenStack does database migration continuous integration, and how other projects might be able to learn from what we've done.\r\n\r\nOpenStack is an interesting project in that it runs in a variety of different scale scenarios. There are very small deployments of only a few machines, and large public clouds with thousands of machines. The OpenStack project takes Continuous Integration (CI) very seriously, and runs a suite of unit and integration tests on all proposed patches.\r\n\r\nOne thing we weren't very good at testing though, was database upgrades. We have unit tests for many of them, but we don't know how these upgrades affect real users in the field. As a response, we worked on adding database migration testing to our CI environment. This new test infrastructure is open source (https://github.com/stackforge/turbo-hipster), and extensible. It currently runs tests on smaller databases, as well as a largish real user database. It has already caught two significant performance problems in database migrations.\r\n\r\nThis talk will cover how we built the test infrastructure (in python!). It will cover what we've learned from the 12 months of running it - time that we'll have had by the conference day. It will tell a story about some of the bugs we've found and how we fixed them.\r\n..", "video_mp4_url": "", "tags": [], "copyright_text": "http://www.youtube.com/t/terms", "related_urls": [], "video_flv_download_only": false, "source_url": "http://www.youtube.com/watch?v=z_q5BaniZH0", "video_webm_url": "", "video_ogv_length": null, "video_ogv_url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/65-out.ogv", "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://i.ytimg.com/vi/z_q5BaniZH0/hqdefault.jpg", "video_flv_url": ""}
+{
+  "id": 3094, 
+  "category": "PyCon AU 2014", 
+  "slug": "continuous-integration-testing-for-your-database", 
+  "title": "Continuous Integration Testing for Your Database Migrations by Joshua Hesketh", 
+  "summary": "", 
+  "description": "This is a talk about how OpenStack does database migration continuous integration, and how other projects might be able to learn from what we've done.\r\n\r\nOpenStack is an interesting project in that it runs in a variety of different scale scenarios. There are very small deployments of only a few machines, and large public clouds with thousands of machines. The OpenStack project takes Continuous Integration (CI) very seriously, and runs a suite of unit and integration tests on all proposed patches.\r\n\r\nOne thing we weren't very good at testing though, was database upgrades. We have unit tests for many of them, but we don't know how these upgrades affect real users in the field. As a response, we worked on adding database migration testing to our CI environment. This new test infrastructure is open source (https://github.com/stackforge/turbo-hipster), and extensible. It currently runs tests on smaller databases, as well as a largish real user database. It has already caught two significant performance problems in database migrations.\r\n\r\nThis talk will cover how we built the test infrastructure (in python!). It will cover what we've learned from the 12 months of running it - time that we'll have had by the conference day. It will tell a story about some of the bugs we've found and how we fixed them.\r\n..", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i.ytimg.com/vi/z_q5BaniZH0/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/65-out.ogv", 
+      "length": null, 
+      "type": "ogv"
+    }, 
+    {
+      "url": "http://www.youtube.com/watch?v=z_q5BaniZH0", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=z_q5BaniZH0", 
+  "tags": [], 
+  "speakers": [
+    "Joshua Hesketh"
+  ], 
+  "recorded": "2014-08-11"
+}

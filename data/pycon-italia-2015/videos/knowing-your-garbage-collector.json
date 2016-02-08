@@ -1,1 +1,26 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": 2110, "video_ogv_download_only": false, "category": "PyCon Italia 2015", "speakers": ["Francisco Fern\u00e1ndez Casta\u00f1o"], "title": "Knowing your Garbage collector", "quality_notes": "", "video_flv_length": null, "recorded": "2015-05-29", "video_mp4_length": null, "description": "As Python programmers we\u2019re used to program without taking care about allocating memory for our objects and later on freeing them, Python garbage collector takes care of this task automatically for us.\nGarbage collection is one of the most challenging topics in computer science, there are a lot of research around the topic and different ways to tackle the problem.\nKnowing how our language does this process give us a better understanding of underlying interpreter and allow us to know why problems like cycles can happen in CPython interpreters.\nSo, this talk aims to be and introduction to the topic and a walkaround through different approaches followed in CPython and PyPy:\n\nGenerational Reference counting with cycles detector on CPython.\nIncremental version of the MiniMark GC on PyPy.\n\n", "video_mp4_url": null, "tags": [], "copyright_text": "", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=MaeS8VI_nvk", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "Italian", "video_webm_length": null, "summary": "", "thumbnail_url": "https://i.ytimg.com/vi/MaeS8VI_nvk/maxresdefault.jpg", "video_flv_url": null}
+{
+  "id": 3620, 
+  "category": "PyCon Italia 2015", 
+  "slug": "knowing-your-garbage-collector", 
+  "title": "Knowing your Garbage collector", 
+  "summary": "", 
+  "description": "As Python programmers we\u2019re used to program without taking care about allocating memory for our objects and later on freeing them, Python garbage collector takes care of this task automatically for us.\nGarbage collection is one of the most challenging topics in computer science, there are a lot of research around the topic and different ways to tackle the problem.\nKnowing how our language does this process give us a better understanding of underlying interpreter and allow us to know why problems like cycles can happen in CPython interpreters.\nSo, this talk aims to be and introduction to the topic and a walkaround through different approaches followed in CPython and PyPy:\n\nGenerational Reference counting with cycles detector on CPython.\nIncremental version of the MiniMark GC on PyPy.\n\n", 
+  "quality_notes": "", 
+  "language": "Italian", 
+  "copyright_text": "", 
+  "thumbnail_url": "https://i.ytimg.com/vi/MaeS8VI_nvk/maxresdefault.jpg", 
+  "duration": 2110, 
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=MaeS8VI_nvk", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=MaeS8VI_nvk", 
+  "tags": [], 
+  "speakers": [
+    "Francisco Fern\u00e1ndez Casta\u00f1o"
+  ], 
+  "recorded": "2015-05-29"
+}

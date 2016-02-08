@@ -1,1 +1,40 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2010", "speakers": ["Donovan Preston"], "title": "Actors: What, Why, and How (#161)", "quality_notes": "", "video_flv_length": null, "recorded": "2010-02-19", "video_mp4_length": null, "description": "Actors: What, Why and How\n\n  \nPresented by Donovan Preston\n\n  \nSince the dawn of concurrency research, there have been two camps: shared\neverything, and shared nothing. Most modern applications use threads for\nconcurrency, a shared everything architecture.\n\n  \nActors, however, use a shared nothing architecture where lightweight processes\ncommunicate with each other using message passing. Actors can change their\nstate, create a new Actor, send a message to any Actor it has the Address of,\nand wait for a specific kind of message to arrive in it's mailbox.\n\n  \nWe will discuss the benefits of using the Actor architecture and strategies\nfor implementing an Actor system in Python.\n\n  \n[http://bitbucket.org/fzzzy/python-actors/](http://bitbucket.org/fzzzy/python-\nactors/)\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/352_actors-what-why-and-how-161.m4v", "tags": ["concurrency", "eventlet", "infrastructure", "pycon", "pycon2010", "rest", "scaling", "wsgi"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 160241933, "video_ogv_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/352_actors-what-why-and-how-161.ogv", "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010ActorsWhatWhyAndHow161560.png", "video_flv_url": null}
+{
+  "id": 352, 
+  "category": "PyCon US 2010", 
+  "slug": "pycon-2010--actors--what--why--and-how---161", 
+  "title": "Actors: What, Why, and How (#161)", 
+  "summary": "", 
+  "description": "Actors: What, Why and How\n\n  \nPresented by Donovan Preston\n\n  \nSince the dawn of concurrency research, there have been two camps: shared\neverything, and shared nothing. Most modern applications use threads for\nconcurrency, a shared everything architecture.\n\n  \nActors, however, use a shared nothing architecture where lightweight processes\ncommunicate with each other using message passing. Actors can change their\nstate, create a new Actor, send a message to any Actor it has the Address of,\nand wait for a specific kind of message to arrive in it's mailbox.\n\n  \nWe will discuss the benefits of using the Actor architecture and strategies\nfor implementing an Actor system in Python.\n\n  \n[http://bitbucket.org/fzzzy/python-actors/](http://bitbucket.org/fzzzy/python-\nactors/)\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010ActorsWhatWhyAndHow161560.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/352_actors-what-why-and-how-161.m4v", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/352_actors-what-why-and-how-161.ogv", 
+      "length": 160241933, 
+      "type": "ogv"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "concurrency", 
+    "eventlet", 
+    "infrastructure", 
+    "pycon", 
+    "pycon2010", 
+    "rest", 
+    "scaling", 
+    "wsgi"
+  ], 
+  "speakers": [
+    "Donovan Preston"
+  ], 
+  "recorded": "2010-02-19"
+}

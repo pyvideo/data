@@ -1,1 +1,33 @@
-{"whiteboard": "", "video_mp4_download_only": true, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2013", "speakers": ["Luciano Ramalho"], "title": "Encapsulation with descriptors", "quality_notes": "", "video_flv_length": null, "recorded": "2013-03-15", "video_mp4_length": null, "description": "", "video_mp4_url": "http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Encapsulation_with_descriptors.mp4?Signature=1nnn6X5f%2FI1zj0WkCpi1PRk8xlQ%3D&Expires=1363664022&AWSAccessKeyId=FEWGReWX3QbNk0h3", "tags": ["talk"], "copyright_text": "CC", "related_urls": [], "video_flv_download_only": false, "source_url": "https://www.youtube.com/watch?v=5GG4jBxj4Ys", "video_webm_url": null, "video_ogv_length": null, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "Python has no private fields, but the property decorator lets you replace public attributes with getters and setters without breaking client code. And the descriptor mechanism, used in Django for model field declarations, enables wide reuse of getter/setter logic via composition instead of inheritance. This talk explains how properties and descriptors work by refactoring a practical example.", "thumbnail_url": "http://i2.ytimg.com/vi/5GG4jBxj4Ys/hqdefault.jpg", "video_flv_url": null}
+{
+  "id": 1760, 
+  "category": "PyCon US 2013", 
+  "slug": "encapsulation-with-descriptors", 
+  "title": "Encapsulation with descriptors", 
+  "summary": "Python has no private fields, but the property decorator lets you replace public attributes with getters and setters without breaking client code. And the descriptor mechanism, used in Django for model field declarations, enables wide reuse of getter/setter logic via composition instead of inheritance. This talk explains how properties and descriptors work by refactoring a practical example.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC", 
+  "thumbnail_url": "http://i2.ytimg.com/vi/5GG4jBxj4Ys/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/psf/pycon2013/Encapsulation_with_descriptors.mp4?Signature=1nnn6X5f%2FI1zj0WkCpi1PRk8xlQ%3D&Expires=1363664022&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "https://www.youtube.com/watch?v=5GG4jBxj4Ys", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=5GG4jBxj4Ys", 
+  "tags": [
+    "talk"
+  ], 
+  "speakers": [
+    "Luciano Ramalho"
+  ], 
+  "recorded": "2013-03-15"
+}

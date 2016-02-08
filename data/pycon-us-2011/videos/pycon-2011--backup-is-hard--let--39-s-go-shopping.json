@@ -1,1 +1,32 @@
-{"whiteboard": "", "video_mp4_download_only": false, "video_webm_download_only": false, "duration": null, "video_ogv_download_only": false, "category": "PyCon US 2011", "speakers": ["Gary Bernhardt"], "title": "Backup Is Hard; Let's Go Shopping", "quality_notes": "", "video_flv_length": null, "recorded": "2011-03-11", "video_mp4_length": null, "description": "Backup Is Hard; Let's Go Shopping\n\nPresented by Gary Bernhardt\n\nWe'll fly through the most clever bits of BitBacker, an online backup app\ndeveloped as a startup for three years and eventually abandoned. Highlights: a\nhacked-up httplib/asyncore HTTP client; a real-life, HATEOAS-respecting\nRESTful API, and an encryption scheme that can quickly diff a file system\nagainst the server while leaking no information \u2013 not even file timestamps.\n\nAbstract\n\nThis is the story of a solution to a huge problem: fast, secure online backup.\nA single client generates a hundred gigabytes, millions of data chunks, and\nthousands of file system snapshots. To appreciate the problem's scale,\nconsider that a Python array holding content hashes for 1,000,000 files\nconsumes 100 MB of memory. File hashes are only a portion of the required per-\nfile metadata, and that's only one for snapshot of thousands.\n\nWe'll tour the hard parts of this system with no apology for their difficulty.\nThe httplib/asyncore hybrid monster that served millions of parallel requests,\ntransparently retrying on failures and timeouts, with only 300 lines of\npython. The RESTful API \u2013 fully respecting hypertext, with every request\nsafely repeatable, even POSTs, and not a single hard-coded URL in the client.\nThe encryption scheme that leaked nothing \u2013 not even modification times \u2013 but\ncould quickly diff local file systems against the server. And, that one time\nthat a client accidentally requested a 4.76 megabyte URL in production.\n\n", "video_mp4_url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/424_backup-is-hard-let-s-go-shopping.mp4", "tags": ["backup", "bigdata", "bitbacker", "pycon", "pycon2011"], "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", "related_urls": [], "video_flv_download_only": false, "source_url": "", "video_webm_url": null, "video_ogv_length": 169795828, "video_ogv_url": null, "language": "English", "video_webm_length": null, "summary": "", "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011BackupIsHardLetsGoShopping206.png", "video_flv_url": null}
+{
+  "id": 424, 
+  "category": "PyCon US 2011", 
+  "slug": "pycon-2011--backup-is-hard--let--39-s-go-shopping", 
+  "title": "Backup Is Hard; Let's Go Shopping", 
+  "summary": "", 
+  "description": "Backup Is Hard; Let's Go Shopping\n\nPresented by Gary Bernhardt\n\nWe'll fly through the most clever bits of BitBacker, an online backup app\ndeveloped as a startup for three years and eventually abandoned. Highlights: a\nhacked-up httplib/asyncore HTTP client; a real-life, HATEOAS-respecting\nRESTful API, and an encryption scheme that can quickly diff a file system\nagainst the server while leaking no information \u2013 not even file timestamps.\n\nAbstract\n\nThis is the story of a solution to a huge problem: fast, secure online backup.\nA single client generates a hundred gigabytes, millions of data chunks, and\nthousands of file system snapshots. To appreciate the problem's scale,\nconsider that a Python array holding content hashes for 1,000,000 files\nconsumes 100 MB of memory. File hashes are only a portion of the required per-\nfile metadata, and that's only one for snapshot of thousands.\n\nWe'll tour the hard parts of this system with no apology for their difficulty.\nThe httplib/asyncore hybrid monster that served millions of parallel requests,\ntransparently retrying on failures and timeouts, with only 300 lines of\npython. The RESTful API \u2013 fully respecting hypertext, with every request\nsafely repeatable, even POSTs, and not a single hard-coded URL in the client.\nThe encryption scheme that leaked nothing \u2013 not even modification times \u2013 but\ncould quickly diff local file systems against the server. And, that one time\nthat a client accidentally requested a 4.76 megabyte URL in production.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011BackupIsHardLetsGoShopping206.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/424_backup-is-hard-let-s-go-shopping.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "backup", 
+    "bigdata", 
+    "bitbacker", 
+    "pycon", 
+    "pycon2011"
+  ], 
+  "speakers": [
+    "Gary Bernhardt"
+  ], 
+  "recorded": "2011-03-11"
+}
