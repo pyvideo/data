@@ -2,56 +2,82 @@
 CONTRIBUTING
 ============
 
-Bug reports
-===========
+Contributions are welcome, and they are greatly appreciated! Every little bit
+helps, and credit will always be given.
 
-File issues about incorrect data, things to add, etc here:
+You can contribute in many ways:
+
+
+Types of Contributions
+======================
+
+Bug reports
+-----------
+
+Report bugs at:
 
 https://github.com/pyvideo/pyvideo-data/issues
 
+If you are reporting a bug about incorrect data, please include:
+
+* The directory, file or files that are relevant.
+* The data that is incorrect.
+* Values for the corrected data if you can provide them.
+
+If you are reporting a bug about things to add, please include:
+
+* The name of the thing to add (the conference name, the user group name, etc).
+* A description of the thing.
+* Any urls where we can find additional details about the thing.
+* The url for the video material.
+
+If you are reporting a bug about clive, please include:
+
+* Your operating system name and version.
+* Any details about your local setup that might be helpful in troubleshooting.
+* Detailed steps to reproduce the bug.
+
 .. Note::
 
+   Please remember that this is a volunteer-driven project!
+
    All work is done on a volunteer basis, so if you write up an issue, it may
-   sit there forever.
+   sit there for a while.
+
+   If you see an issue you can help with, please pitch in! If you don't, don't
+   expect anyone else to, either.
 
 
-Working on issues in the issue tracker
-======================================
+Write Documentation
+-------------------
 
-Before working on issues in the issue tracker, please add a comment to the issue
-stating that you're planning to work on it and any other details you think are
-helpful to communicate with everyone else.
+Our documentation can always be better. What questions did you have that you
+think other people might have that aren't answered in the documentation? Were
+you able to find what you were looking for? Was documentation in weird
+unexpected places? Are there typos? Are examples helpful? Are examples missing?
+
+We could always use more documentation whether that's part of the official
+docs, comments and docstrings in the code or even elsewhere on the web in
+blog posts, articles, tweets and other things like that.
+
+
+Fix bugs and implement new things in the software
+-------------------------------------------------
+
+Look through the issue tracker for bugs and features to work on. Anything that
+is not assigned to someone is open to work on. Please comment in the issue about
+your plans.
 
 For example::
 
-    I'd like to work on this issue. If I don't hear from anyone in the next
-    couple of days, I'll work on it and submit a pull request.
+    I'd like to work on this issue. I think it should be fixed like this ...
+
+    <explanation>
+
+    If I don't hear from anyone in the next couple of days, I'll work on it and
+    submit a pull request.
 
 
-Then work on the task and produce a pull request.
-
-Someone with authority will review the pull request and you'll go back and
-forth with that person honing the data until it's good enough. At that point,
-the person will merge it.
-
-
-Adding new conferences/files
-============================
-
-Before adding any new data, please create an issue for it in the issue tracker.
-
-Data is located in ``data/``.
-
-The top level of directories are by user group or conference. Directory names
-are slugs.
-
-Inside those directories, create one JSON file for each individual video.
-
-
-Editing existing data
-=====================
-
-Before editing any data, please create an issue for it in the issue tracker.
-
-Files can be edited with any editor. You can also write scripts. Make sure
-any changes you make aren't destructive.
+Want to work on something that isn't covered in an issue, yet? Please write one
+up first. We don't want you to waste your time working on things that won't be
+accepted.
