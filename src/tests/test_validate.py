@@ -15,6 +15,19 @@ from clive.validate import (
 )
 
 
+def sort_results(results):
+    """Converts results to strings and sorts them
+
+    This makes it easier to compare two Result lists that's irrespective of
+    order.
+
+    """
+    return sorted([
+        '%3d:%3d:%s:%s' % (res.line, res.col, res.name, res.msg)
+        for res in results
+    ])
+
+
 class TestT:
     def test_required_with_none(self):
         assert (
@@ -245,23 +258,26 @@ class TestDictOfT:
             DictOfT({'foo': DictOfT({'bar': IntT()})}).validate({'foo': {'bar': 'baz'}}, 'TOP') ==
             [Result(0, 0, 'TOP:foo:bar', 'value is not a valid int: %r' % 'baz')]
         )
-        # This is kind of gross to look at--sorry.
+
+        req = DictOfT({
+            'foo': IntT(),
+            'bar': IntT(),
+            'baz': DictOfT({
+                'key': IntT(),
+            })
+        })
+        data = {
+            'foo': 5,
+            'bar': 'foo1',
+            'baz': {
+                'key': 'foo2'
+            }
+        }
+
         assert (
-            DictOfT({
-                'foo': IntT(),
-                'bar': IntT(),
-                'baz': DictOfT({
-                    'key': IntT(),
-                })
-            }).validate({
-                'foo': 5,
-                'bar': 'foo1',
-                'baz': {
-                    'key': 'foo2'
-                }
-            }, 'TOP') ==
-            [
+            sort_results(req.validate(data, 'TOP')) ==
+            sort_results([
                 Result(0, 0, 'TOP:bar', 'value is not a valid int: %r' % 'foo1'),
                 Result(0, 0, 'TOP:baz:key', 'value is not a valid int: %r' % 'foo2'),
-            ]
+            ])
         )
