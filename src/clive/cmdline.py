@@ -49,14 +49,16 @@ def validate(ctx, paths):
 
     for path in paths:
         data = load_json_data(path)
-        print('Looking at %d items...' % len(data))
+        click.echo('Looking at %d items...' % len(data))
         for fn, item in data:
-            try:
-                validate_item(fn, item)
-            except ValueError as ve:
-                click.echo('Error: %s:' % fn, err=True)
-                click.echo(ve, err=True)
-                error_count += 1
+            errors = validate_item(fn, item)
+            if errors:
+                error_count += len(errors)
+                for err in errors:
+                    click.echo(
+                        '%(fn)s: E:%(name)s:%(msg)s' % {'fn': fn, 'name': err.name, 'msg': err.msg},
+                        err=True
+                    )
 
     # FIXME: Validate things that need to be unique across the
     # dataset here.

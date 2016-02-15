@@ -15,35 +15,38 @@
 
 import re
 import time
+from collections import namedtuple
+
+Result = namedtuple('Result', ('line', 'col', 'name', 'msg'))
 
 
 class T:
     def __init__(self, required=False, *args, **kwargs):
         self.required = required
 
-    def validate(self, val):
+    def validate(self, val, depth, results):
         if self.required and val is None:
-            raise ValueError('value required')
+            results.append(Result(0, 0, depth, 'value required'))
 
 
 class IntT(T):
-    def validate(self, val):
-        super().validate(val)
+    def validate(self, val, depth, results):
+        super().validate(val, depth, results)
         if val is None:
             return
 
         if not isinstance(val, int):
-            raise ValueError('value is not a valid int: %r' % val)
+            results.append(Result(0, 0, depth, 'value is not a valid int: %r' % val))
 
 
 class BoolT(T):
-    def validate(self, val):
-        super().validate(val)
+    def validate(self, val, depth, results):
+        super().validate(val, depth, results)
         if val is None:
             return
 
         if val not in (True, False):
-            raise ValueError('value is not a valid bool: %r' % val)
+            results.append(Result(0, 0, depth, 'value is not a valid bool: %r' % val))
 
 
 SLUG_RE = re.compile(r'^[a-zA-Z0-9_-]+$')
@@ -57,33 +60,34 @@ class TextT(T):
         self.slug = slug
         self.url = url
 
-    def validate(self, val):
-        super().validate(val)
+    def validate(self, val, depth, results):
+        super().validate(val, depth, results)
         if val is None:
             return
 
         if not isinstance(val, str):
-            raise ValueError('value is not a valid text value: %r' % val)
+            results.append(Result(0, 0, depth, 'value is not a valid text value: %r' % val))
+            return
 
         # FIXME: markdown check here
 
         # FIXME: slug check here
         if self.slug and not SLUG_RE.match(val):
-            raise ValueError('value is not a valid slug: %r' % val)
+            results.append(Result(0, 0, depth, 'value is not a valid slug: %r' % val))
+            return
 
         # FIXME: url check here
 
 
 class DateT(T):
-    def validate(self, val):
-        super().validate(val)
+    def validate(self, val, depth, results):
+        super().validate(val, depth, results)
         if val is None:
             return
         try:
             time.strptime(val, '%Y-%m-%d')
-            return True
         except ValueError:
-            raise ValueError('value is not date in YYYY-MM-DD format: %r' % val)
+            results.append(Result(0, 0, depth, 'value is not date in YYYY-MM-DD format: %r' % val))
 
 
 class ListOfT(T):
@@ -91,13 +95,14 @@ class ListOfT(T):
         super().__init__(required=required, *args, **kwargs)
         self.subtype = subtype
 
-    def validate(self, val):
-        super().validate(val)
+    def validate(self, val, depth, results):
+        super().validate(val, depth, results)
         if not isinstance(val, (tuple, list)):
-            raise ValueError('value is not a list: %r' % val)
+            results.append(Result(0, 0, depth, 'value is not a list: %r' % val))
+            return
 
-        for item in val:
-            self.subtype.validate(item)
+        for i, item in enumerate(val):
+            self.subtype.validate(item, '%s[%s]' % (depth, i), results)
 
 
 class DictOfT(T):
@@ -106,23 +111,17 @@ class DictOfT(T):
         self.keyvals = keyvals
         self.all_keys = set(self.keyvals.keys())
 
-    def validate(self, val):
+    def validate(self, val, depth, results):
         if not isinstance(val, dict):
-            raise ValueError('value is not a dict: %r' % val)
+            results.append(Result(0, 0, depth, 'value is not a dict: %r' % val))
 
         # Verify all keys are known
         if not set(val.keys()).issubset(self.all_keys):
-            raise ValueError('unknown keys: %s' % repr(
-                set(val.keys()) - self.all_keys
-            ))
+            results.append(Result(0, 0, depth, 'unknown keys: %s' % repr(set(val.keys()) - self.all_keys)))
 
         # Verify values
         for key, item in val.items():
-            try:
-                self.keyvals[key].validate(item)
-            except ValueError as ve:
-                # FIXME: Need to include the key here, but this is gross.
-                raise ValueError('%s: %s' % (key, repr(ve)))
+            self.keyvals[key].validate(item, '%s:%s' % (depth, key), results)
 
 
 REQS = {
@@ -176,15 +175,14 @@ def validate_item(fn, json_data):
     # FIXME: This is kind of cheating. Need a better way to distinguish data
     # types.
     type_ = 'category' if fn.endswith('category.json') else 'video'
-    REQS[type_].validate(json_data)
+    results = []
+    REQS[type_].validate(json_data, 'TOP', results)
+    return results
 
 
 def validate_items(items):
-    errors = []
+    all_results = []
     for fn, data in items:
-        try:
-            validate_item(data)
-        except ValueError as ve:
-            errors.append((fn, str(ve)))
+        all_results.extend(validate_item(data))
 
-    return errors
+    return all_results
