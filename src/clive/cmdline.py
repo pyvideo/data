@@ -13,6 +13,8 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import importlib
+import os
 import sys
 import traceback
 from textwrap import dedent
@@ -20,7 +22,8 @@ from textwrap import dedent
 import click
 
 from clive import __version__
-from clive.lib import load_json_data
+from clive.lib import load_json_data, save_json_data
+from clive.scrapers import scrape_videos
 from clive.validate import validate_item
 
 
@@ -42,6 +45,7 @@ def cli():
 @click.argument('paths', nargs=-1, type=click.Path(exists=True))
 @click.pass_context
 def validate(ctx, paths):
+    """Validates JSON file data located in PATHS."""
     if not paths:
         raise click.UsageError('No files or directories specified.')
 
@@ -64,6 +68,58 @@ def validate(ctx, paths):
     # dataset here.
 
     # FIXME: Validate file format? i.e. 2-space indents? Sort order?
+
+    print('Done!')
+    ctx.exit(code=1 if error_count else 0)
+
+
+@cli.command()
+@click.option('--transform', '-t', type=str, multiple=True)
+@click.argument('url', nargs=1)
+@click.argument('path', nargs=1)
+@click.pass_context
+def fetch(ctx, transform, url, path):
+    """Scrapes video data at URL and saves it as JSON files in the PATH
+    directory.
+
+    """
+    error_count = 0
+    path = os.path.abspath(path)
+
+    # Summarize what we're going to do to the user.
+    click.echo('Fetching videos from:     %s' % url)
+    click.echo('Saving video data to:     %s' % path)
+    click.echo('Applying transforms from: %s' % ', '.join(transform))
+    click.echo('')
+    click.confirm('Do you want to continue?', abort=True)
+
+    if not os.path.exists(path):
+        click.echo('Creating %s...' % path)
+        os.makedirs(path)
+
+    # Scrape the data from wherever.
+    click.echo('Fetching data... (this can take a long time)')
+    # FIXME: Add some kind of progress bar here
+    data = scrape_videos(url)
+
+    click.echo('Found %d items.' % len(data))
+    for tr in transform:
+        # FIXME: We might want to change how this works so that it's more
+        # flexible.
+        click.echo('Applying transform %s' % tr)
+        module, name = tr.rsplit('.', 1)
+        module = importlib.import_module(module)
+        tr_callable = getattr(module, name)
+        data = tr_callable(data)
+
+    # FIXME: Go through and fix the slugs so they're unique for this data set?
+
+    # Save the data to the path specified.
+    data = [
+        (os.path.join(path, item['slug'] + '.json'), item)
+        for item in data
+    ]
+    save_json_data(data)
 
     print('Done!')
     ctx.exit(code=1 if error_count else 0)

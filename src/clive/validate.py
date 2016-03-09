@@ -140,7 +140,7 @@ class DictOfT(T):
             return results
 
         # Verify values
-        for key, item in val.items():
+        for key, item in sorted(val.items()):
             # For unknown keys, print an error
             if key not in self.keyvals.keys():
                 results.append(Result(0, 0, depth, 'unknown key: %r' % key))

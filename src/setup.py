@@ -16,6 +16,8 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'click',
+    'youtube-dl',
+    'awesome-slugify',
 ]
 
 setup(
