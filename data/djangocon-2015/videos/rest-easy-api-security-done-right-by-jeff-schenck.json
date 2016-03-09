@@ -1,0 +1,25 @@
+{
+  "category": "",
+  "slug": "rest-easy-api-security-done-right-by-jeff-schenck",
+  "title": "- REST Easy \u2014 API Security Done Right by Jeff Schenck",
+  "summary": "REST Easy \u2014 API Security Done Right by Jeff Schenck\n\nWhy REST\nMore and more of our web development is shifting to frontend web frameworks like Angular, Ember, and Backbone. And this is great! These frameworks can provide an amazing, responsive, beautiful experience to our users \u2014 and the only price we pay is having to write JavaScript. Well, having to write JavaScript and having to maintain a seriously robust, battle-hardened API for the frontend framework to talk to.\n\nState of REST\nDjango REST Framework has clearly broken away with a ton of momentum, and with good reason. It's a solid framework, and the tools it provides right out of the box \u2014 serialization, validation, nested relationships \u2014 are splendid. It even provides basic authentication and authorization baked right in, which works great in the very simple cases.\n\nHowever, when you start encountering slightly more complicated API permission setups, things start to get messy.\n\nREST Security\nThere's a big tectonic shift when trading in your traditional request-response-Django site for a frontend-framework-API-Django site. Your application logic used to reside almost entirely server-side, but now it's split \u2014 half server-side, half browser-side. And the trick with browser-side code is it runs in a completely untrusted environment. So we're faced with a much more complicated security situation to batten down.\n\nYou need different authentication strategies: session auth, JWT token auth, API keys, signed URLs, and combinations thereof. You have different permission strategies: table-level, row-level, column-level, and combinations thereof. It gets real complicated.\n\nREST Easy\nI'll show how to use the tools at our disposal \u2014 Django groups and permissions, REST Frameworks's permission classes, third-party libraries \u2014 to cobble together a passable security setup for your API. You'll get plenty of code samples, detailing the kinds of setups we put together for our site and the custom tooling we built to do it.\n\nNext-Level REST\nWe'll end by talking about how our tools can serve us better in the future. If Django is going to have a strong place in the future of the web, we need strong tooling for building APIs. This is how we'll get there.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HGSf/",
+  "description": "",
+  "quality_notes": "",
+  "language": "",
+  "copyright_text": "",
+  "thumbnail_url": "https://i.ytimg.com/vi/2LWheXmsmHg/maxresdefault.jpg",
+  "duration": 1316,
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2LWheXmsmHg"
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=2LWheXmsmHg",
+  "tags": [
+    "Science & Technology"
+  ],
+  "speakers": [],
+  "recorded": "2015-09-16"
+}

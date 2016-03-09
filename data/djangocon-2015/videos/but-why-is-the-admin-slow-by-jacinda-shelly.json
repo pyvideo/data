@@ -1,0 +1,25 @@
+{
+  "category": "",
+  "slug": "but-why-is-the-admin-slow-by-jacinda-shelly",
+  "title": "- But, why is the admin slow? by Jacinda Shelly",
+  "summary": "But, why is the admin slow?\n\nThis is the general outline I'm working from so far. I think this could change slightly as I develop the talk, but this outline conveys the general theme.\n\nIntroduction and display of basic django-debug-toolbar usage (2 min)\n\nThings the admin does well (3 min)\n\nMakes development very fast\nFor many use cases, it \"does the right thing\" automatically. For example, modifying the HTML in a callable won't cause new queries.\nWhat can sneak up on you (5 min)\n\nHaving lots of related items visible in the list view\nUsing list_select_related\nOverriding queryset for additional select_related and prefetch_related options\nWhat to avoid in callables (3 min)\n\nQueries that will be executed on every row\nThe default widgets for many-to-many and foreign key fields (3 min)\n\nWhat widgets to use to replace the defaults based on how many options you have in your database\nCustom aggregates in the list view (i.e. custom querysets) (3 min)\n\nWhen this is a good idea\nWhen this is too slow and you need other options\nMore general performance improvements through caching (3-5 min)\n\nDjango's caching framework\nCaching with third-party packages / tools\nCustom caching with Redis\nQuestions (Remaining time)",
+  "description": "",
+  "quality_notes": "",
+  "language": "",
+  "copyright_text": "",
+  "thumbnail_url": "https://i.ytimg.com/vi/vdlZmbJcAvI/maxresdefault.jpg",
+  "duration": 1687,
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vdlZmbJcAvI"
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=vdlZmbJcAvI",
+  "tags": [
+    "Science & Technology"
+  ],
+  "speakers": [],
+  "recorded": "2015-09-18"
+}
