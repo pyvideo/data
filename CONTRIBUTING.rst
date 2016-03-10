@@ -78,6 +78,8 @@ For example::
     submit a pull request.
 
 
+Issues marked with the "help wanted" label are good ones to look at.
+
 Want to work on something that isn't covered in an issue, yet? Please write one
 up first. We don't want you to waste your time working on things that won't be
 accepted.
