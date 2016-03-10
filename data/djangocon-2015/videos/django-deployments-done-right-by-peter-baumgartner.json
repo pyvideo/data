@@ -1,0 +1,23 @@
+{
+  "category": "",
+  "slug": "django-deployments-done-right-by-peter-baumgartner",
+  "title": "Django Deployments Done Right by Peter Baumgartner",
+  "summary": "Django Deployments Done Right\n\nThere's no single standard toolkit for deploying Django sites. In our years of consulting, we've seen lots of deployment systems in the wild and where they break down or cause pain. Independent of the system you use (Salt, Ansible, Fabric, Chef, Docker, etc.), there are a few principles a good deployment should follow:\n\nDeployments don't take the site down or interrupt active users on the site.\nDeployments don't involve more than one step or are completely automated.\nDeployments are fast.\nA failed deployment never takes down the current running version of the code.\nRolling back to a previous deployment is a single step.\nBy following these principles, deployments go from being error-prone, nerve-wracking experiences to trivial non-events in your daily development cycle. This talk will walk you through the steps necessary to create a better deployment process.",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "https://i.ytimg.com/vi/SUczHTa7WmQ/maxresdefault.jpg",
+  "duration": 2450,
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=SUczHTa7WmQ",
+      "type": "youtube",
+      "length": 0
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=SUczHTa7WmQ",
+  "tags": [],
+  "speakers": [],
+  "recorded": "2015-09-18"
+}
