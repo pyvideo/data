@@ -1,0 +1,23 @@
+{
+  "category": "DjangoCon 2013",
+  "slug": "writing-fast-and-efficient-unit-tests-for-django",
+  "title": "Writing Fast and Efficient Unit Tests for Django",
+  "summary": "Writing Fast and Efficient Unit Tests for Django\nCasey Kinsey\nTuesday 4:45 p.m.--5:30 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nMany developers have difficulty finding clear guidelines and best practices for how to test efficiently, leading to a flimsy, slow, and ineffective test suite. This talk will cover some basic (but oft overlooked) principles of unit and integration testing, and dive into more advanced topics such as testing with read only data and using Mock ultra-focused and fast testing.\nAbstract\n\nBorrowing from recent real-world experiences, Casey will discuss how a sub-par test suite began to cause delays and negatively affect a large production project with a national audience. He'll share what his team learned after deciding to dive head-first into faster and more effective testing, including:     The key differences between unit tests and integration tests, and how to distribute them appropriately     Dropping the Django framework's fixture system in favor of read-only test data to create a test suite that adapts alongside a complex and changing data model     Using the python Mock library to:     Mock object instances     Mock python modules for very precise feature testing     Mock very complex testing situations (such as overridden class methods, etc)\n\nWe'll look at real code samples and the tests used to vet them, demonstrating the ways Casey's team was able to update their tests to use these standards and quantify the benefits. And finally, we'll discuss how the quest for faster tests lead to a full blown testing philosophy and better code.",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "https://i.ytimg.com/vi/bsmFVb8guMU/hqdefault.jpg",
+  "duration": 2573,
+  "videos": [
+    {
+      "length": 0,
+      "url": "https://www.youtube.com/watch?v=bsmFVb8guMU",
+      "type": "youtube"
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=bsmFVb8guMU",
+  "tags": [],
+  "speakers": [],
+  "recorded": "2013-10-01"
+}
