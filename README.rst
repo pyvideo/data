@@ -29,3 +29,11 @@ What is the licensing information?
 
 See COPYING.rst for licensing information and source code.
 
+
+What's here
+===========
+
+::
+
+    data/      Python-related conference video data
+    src/       source code for clive tool
