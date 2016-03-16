@@ -15,7 +15,10 @@ The data and tool are volunteer-managed.
 Community
 =========
 
-We hang out on IRC in ``#pyvideo`` on irc.freenode.net.
+Dicsussions occur on the `pyvideo-data mailing list
+<https://mail.python.org/mailman/listinfo/pyvideo-data>`_
+
+We also hang out on IRC in ``#pyvideo`` on irc.freenode.net.
 
 
 How to add data and edit data
