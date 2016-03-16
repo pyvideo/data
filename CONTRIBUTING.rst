@@ -11,7 +11,7 @@ You can contribute in many ways:
 Types of Contributions
 ======================
 
-Bug reports
+Report Bugs
 -----------
 
 Report bugs at:
@@ -56,9 +56,9 @@ think other people might have that aren't answered in the documentation? Were
 you able to find what you were looking for? Was documentation in weird
 unexpected places? Are there typos? Are examples helpful? Are examples missing?
 
-We could always use more documentation whether that's part of the official
-docs, comments and docstrings in the code or even elsewhere on the web in
-blog posts, articles, tweets and other things like that.
+We could always use more documentation whether that's part of the official docs,
+comments and docstrings in the code or even elsewhere on the web in blog posts,
+articles, tweets and other things like that.
 
 
 Fix bugs and implement new things in the software
@@ -80,6 +80,6 @@ For example::
 
 Issues marked with the "help wanted" label are good ones to look at.
 
-Want to work on something that isn't covered in an issue, yet? Please write one
-up first. We don't want you to waste your time working on things that won't be
-accepted.
+Want to work on something that isn't covered in an issue, yet? Please write an
+issue first. We don't want you to waste your time working on things that won't
+be accepted.
