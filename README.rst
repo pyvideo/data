@@ -26,6 +26,9 @@ How to add data and edit data
 
 See CONTRIBUTING.rst for adding issues, adding data and editing data.
 
+Note: We plan to write better documentation for this as we work out better
+process. Join the mailing list if you want to help with that.
+
 
 What is the licensing information?
 ==================================
