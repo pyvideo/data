@@ -1,0 +1,26 @@
+{
+  "id": 2170, 
+  "category": "SciPy 2013", 
+  "slug": "anatomy-of-matplotlib-scipy2013-tutorial-part-2-1", 
+  "title": "Anatomy of Matplotlib, SciPy2013 Tutorial, Part 2 of 3", 
+  "summary": "Presenter: Benjamin Root\n\nDescription\n\nThis tutorial will be the introduction to matplotlib, intended for users who want to become familiar with python's predominate scientific plotting package. First, the plotting functions that are available will be introduced so users will know what kinds of graphs can be done. We will then cover the fundamental concepts and terminologies, starting from the figure object down to the artists. In an organized and logical fashion, the components of a matplotlib figure are introduced, such as the axes, axis, tickers, and labels. We will explain what an Artist is for, as well as explain the purpose behind Collections. Finally, we will take an overview of the major toolkits available to use, particularly AxesGrid, mplot3d and basemap.\n\nOutline\n\nOutline:\n\nIntroduction\n\nPurpose of matplotlib\nOnline Documentation\nExamples Page\nGallery Page\nFAQs\nAPI documentation\nMailing Lists\nGithub Repository\nBug Reports & Feature Requests\nWhat is this \"backend\" thing I keep hearing about?\n\nPlotting Functions\n\nGraphs (plot, scatter, bar, stem, etc.)\nImages (imshow, pcolor, pcolormesh, contour[f], etc.)\nLesser Knowns: (pie, acorr, hexbin, etc.)\nBrand New: streamplot()\nWhat goes in a Figure?\n\nAxes\nAxis\nticks (and ticklines and ticklabels) (both major & minor)\naxis labels\naxes title\nfigure suptitle\naxis spines\ncolorbars (and the oddities thereof)\naxis scale\naxis gridlines\nlegend\n(Throughout the aforementioned section, I will be guiding audience members through the creation and manipulation of each of these components to produce a fully customized graph)\n\nIntroducing matplotlibrc\n\nHands-On: Have users try making some changes to the settings and see how a resulting figure changes\nWhat is an Artist?\n\nHands-On: Have audience members create some and see if they can get them displayed\nWhat is a Collection?\n\nHands-On: Have audience members create some, manipulate the properties and display them\nProperties:\n\ncolor (and edgecolor, linecolor, facecolor, etc...)\nlinewidth and edgewidth and markeredgewidth (and the oddity that happens in errorbar())\nlinestyle\nzorder\nvisible\nWhat are toolkits?\n\naxes_grid1\nmplot3d\nbasemap\nRequired Packages\n\nNumPy\n\nMatplotlib (version 1.2.1 or later is preferred, but earlier version should still be sufficient for most of the tutorial)\n\nipython v0.13\n\nDocumentation\n\nhttps://dl.dropbox.com/u/7325604/AnatomyOfMatplotlib.ipynb", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/c553uCRmEVc/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=c553uCRmEVc", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=c553uCRmEVc", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-06-27"
+}

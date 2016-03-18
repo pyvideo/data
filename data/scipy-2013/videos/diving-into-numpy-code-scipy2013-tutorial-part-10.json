@@ -1,0 +1,26 @@
+{
+  "id": 2161, 
+  "category": "SciPy 2013", 
+  "slug": "diving-into-numpy-code-scipy2013-tutorial-part-10", 
+  "title": "Diving into NumPy Code, SciPy2013 Tutorial, Part 4 of 4", 
+  "summary": "Presenters: David Cournapeau, Stefan Van der Walt\n\nDescription\n\nDo you want to contribute to NumPy but find the codebase daunting ? Do you want to extend NumPy (e.g. adding support for decimal, or arbitrary precision) ? Are you curious to understand how NumPy works at all ? Then this tutorial is for you.\n\nThe goal of this tutorial is do dive into NumPy codebase, in particular the core C implementation. You will learn how to build NumPy from sources, how some of the core concepts such as data types and ufuncs are implemented at the C level and how it is hooked up to the Python runtime. You will also learn how to add a new ufunc and a new data type.\n\nDuring the tutorial, we will also have a look at various tools (unix-oriented) that can help tracking bugs or follow a particular numpy expression from its python representation to its low-level implementation.\n\nWhile a working knowledge of C and Python is required, we do not assume a preliminary knowledge of the NumPy codebase. An understanding of Python C extensions is a plus, but not required either.\n\nOutline\n\nThe tutorial will be divided in 3 main sections:\n\nIntroduction:\nWhy extending numpy in C ? (and perhaps more importantly, when you should not)\nbeing ready to develop on NumPy: building from sources, and building with different flags (optimisation and debug)\nSource code organisation: description of the numpy source tree and high-level description of what belongs where: core vs the rest, core.multiarray, core.ufunc, scalar arrays and support libraries (npysort, npymath)\n\nThe main data structures around ndarray:\n\nthe arrayobject and data type descriptor, and how they relate to each other.\nexercise to add a simple array method to the array object\ndealing with arbitrary array memory layout with iterators\nAdding a new dtype:\nAnatomy of the dtype: from a + a to a core C loop\nSimple example to wrap a software implementation of quadruple precision (revised version of IEEE 754 software)\nThe current set of planned hand-on tasks/exercises:\n\nbuilding from sources with debug symbols\nadding an array method to compute a simple statistic (e.g. kurtosis)\nadding a new type to handle quadruple precision type\nRequired Packages\n\nYou will need a working C compiler (gcc on unix/os x, Visual Studio 2008 on windows), and be familiar how to use it on your platform\ngit\nif possible, gdb and cgdb on unix\nif possible: valgrind and kcachegrind for supported platforms (linux)\nVagrant VM available here: https://s3.amazonaws.com/scipy-2013/divingintonumpy/numpy-tuto.box (use vagrant 1.2.1, as 1.2.2 has a serious bug for sharing files)", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/7WTE3GkYYLI/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=7WTE3GkYYLI", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=7WTE3GkYYLI", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-06-27"
+}

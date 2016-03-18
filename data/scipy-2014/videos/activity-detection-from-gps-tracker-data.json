@@ -1,0 +1,26 @@
+{
+  "id": 2806, 
+  "category": "SciPy 2014", 
+  "slug": "activity-detection-from-gps-tracker-data", 
+  "title": "Activity Detection from GPS Tracker Data", 
+  "summary": "Data gathered by personal GPS trackers are becoming a major source of information pertaining to human activity and behaviour. This presentation will include python work flows which aim to accurately and efficiently carry out the necessary computation required to process volunteered GPS trajectories into useful spatial information.", 
+  "description": "Most modern GPS processing techniques started to utilise the time interval between points as a major indicator for finding POIs in a user's trajectories. We are taking step back in this process, and only account for the spatial distribution of measured points in order to extract POIs. Time is solely used as a secondary indicator and for ordering purposes.\r\n\r\nPoints are first cleaned of any highly inaccurate data and stored in a PostGIS environment. Using developed python module, we extract the point data and order them by time into one large trajectory. Then, for each point, we begin selecting its neighbours (both previous and following) until we reach one within a specified distance of 50m from the first point.The number of the selected points is added to the original point as a new attribute.Continuing with the process the newly calculated values create an imitation of signal, reflecting a point density.\r\n\r\nShift in strength of the signal signifies a change in a user's travel mode which can be used for segmentation of the trajectory into homogeneous parts. Identification of these parts is currently based on the decision tree, where individual aspects of the segment (like average speed, signal strength, time elapsed or centroid) are evaluated and the segment is categorized.\r\n\r\nCurrent work seeks to incorporate neural networks into the processing framework. Since the signal pattern of the each mode of transportation (car, bus, walk, etc.) is independent from the user behaviour, a properly trained model should classify more accurately activities for a broad range of users.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/8t__23WhJ1U/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=8t__23WhJ1U", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=8t__23WhJ1U", 
+  "tags": [], 
+  "speakers": [
+    "Jan Vandrol"
+  ], 
+  "recorded": "2014-07-13"
+}

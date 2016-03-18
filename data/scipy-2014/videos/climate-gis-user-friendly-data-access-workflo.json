@@ -1,0 +1,28 @@
+{
+  "id": 2783, 
+  "category": "SciPy 2014", 
+  "slug": "climate-gis-user-friendly-data-access-workflo", 
+  "title": "Climate & GIS: User Friendly Data Access, Workflows, Manipulation, Analysis and Visualization of Climate Data", 
+  "summary": "Understanding environmental and climate change requires data fusion, format conversions, processing and visualization to gain insight into the data. Our open source scientific Python and JavaScript based tools makes it easy to manipulate geo-spatial and climate data, create and execute workflows, and produce visualizations over the web for scientific and decision making tools.", 
+  "description": "The impact of climate change will resonate through a broad range of fields\r\nincluding public health, infrastructure, water resources, and many others.\r\nLong-term coordinated planning, funding, and action are required for climate\r\nchange adaptation and mitigation. Unfortunately, widespread use of climate data\r\n(simulated and observed) in non-climate science communities is impeded by\r\nfactors such as large data size, lack of adequate metadata, poor documentation,\r\nand lack of sufficient computational and visualization resources. Additionally,\r\nworking with climate data in its native format is not ideal for all types of\r\nanalyses and use cases often requiring technical skills (and software)\r\nunnecessary to work with other geospatial data formats. \r\n\r\nWe present open source tools developed as part of ClimatePipes and\r\nOpenClimateGIS to address many of these challenges by creating an open source\r\nplatform that provides state-of-the-art user-friendly data access,\r\nprocessing, analysis, and visualization for climate and other relevant\r\ngeospatial datasets making the climate and other geospatial data\r\navailable to non-researchers, decision-makers, and other stakeholders.\r\n\r\nThe overarching goals are: \r\n\r\n* Enable users to explore real-world questions related to environment and climate change.\r\n* Provide tools for data access, geo-processing, analysis, and visualization.\r\n* Facilitate collaboration by enabling users to share datasets, workflows, and visualization. \r\n\r\nSome of the key technical features include\r\n\r\n1. Support for multiprocessing for large datasets using Python-celery distributed task queuing system\r\n2. Generic iterators allowing data to be streamed to arbitrary formats (relatively) easily (e.g. ESRI Shapefile, CSV, keyed ESRI Shapefile, CSV, NetCDF)\r\n3. NumPy based array computations allowing calculations such as monthly means or heat indices optionally on temporally grouped data slices\r\n4. Decorators to expose existing Python API as a RESTful API\r\n5. Simple to use, lightweight Web-framework and JavaScript libraries for analyzing and visualizing geospatial datasets using D3 and WebGL.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/0SnB6C-Ixso/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=0SnB6C-Ixso", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=0SnB6C-Ixso", 
+  "tags": [
+    "climate"
+  ], 
+  "speakers": [
+    "Aashish Chaudhary"
+  ], 
+  "recorded": "2014-07-13"
+}

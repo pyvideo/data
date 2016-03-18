@@ -1,0 +1,26 @@
+{
+  "id": 2784, 
+  "category": "SciPy 2014", 
+  "slug": "prototyping-a-geophysical-algorithm-in-python", 
+  "title": "Prototyping a Geophysical Algorithm in Python", 
+  "summary": "Spitz' paper on FX pattern recognition contains a long paragraph that describes a model, an algorithm, and the results of applying the algorithm to the model.  The algorithm requires Fourier transforms, convolutional filtering, matrix multiplication, and solving linear equations.  I describe how to use numpy, scipy, and mapplotlib to prototype the algorithm and display the processed model.", 
+  "description": "A geophysics paper by Spitz has a long paragraph that describes a model, an algorithm, and the results of applying the algorithm to the model.  I wanted to implement and test the algorithm to ensure I fully understood the method.  This is a good illustration of Python for geophysics because the implementation requires:\r\n\r\n1. Fourier transforms provided by numpy.fft\r\n2. Setting up linear equations using numpy.array and numpy.matrix\r\n3. solving the linear equations using scipy.linalg.solve\r\n4. Applying convolutional filters using scipy.signal.lfilter\r\n\r\nA bandlimited flat event model is created using array slicing in numpy and is bandlimited in the frequency domain.  Another component of the model is created by convolving a short derivative filter on a similar flat event model.  After Fourier transform, linear equations are set up to compute a prediction filter in the FX domain.  These equations are created using data slicing,  conjugate transpose, matrix multiple (all available in numpy).  Scipy.linalg.solve is used to solve for the prediction error filter.  A final filter is computed using the recursive filter capability in scipy.signal.lfilter.  Results are displayed using matplotlib.\r\n\r\nThis is quite a tour of scipy and numpy to implement an algorithm described in a single paragraph.  Many operations commonly used in geophysics are illustrated in the program.  The resulting program is less than 200 lines of code.  I will describe the algorithm and share the prototype code.\r\n\r\nReferences:\r\n\r\nSpitz, S. (1999). Pattern recognition, spatial predictability, and subtraction of multiple events. The Leading Edge, 18(1), 55-58. [doi: 10.1190/1.1438154](http://dx.doi.org/10.1190/1.1438154)\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/kFXVOaZZr-E/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=kFXVOaZZr-E", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=kFXVOaZZr-E", 
+  "tags": [], 
+  "speakers": [
+    "Karl Schleicher"
+  ], 
+  "recorded": "2014-07-13"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 2802, 
+  "category": "SciPy 2014", 
+  "slug": "plasticity-in-oof", 
+  "title": "Plasticity in OOF", 
+  "summary": "We discuss recent advances in the Object Oriented Finite-Element project at NIST, a Python and C++ tool designed to bring sophisticated numerical modeling capabilities to users in the field of Materials Science.", 
+  "description": "We discuss recent advances in the Object Oriented Finite-Element project at\r\nNIST (also called [OOF](http://www.ctcms.nist.gov/oof/oof2)), a Python and C++\r\ntool designed to bring sophisticated numerical modeling capabilities to users\r\nin the field of Materials Science.\r\n\r\nAs part of the effort to expand the solid-mechanics capabilities of the code,\r\nthe solver has been extended to include the ability to handle history-dependent\r\nproperties, such as occur in viscoplastic systems, and inequality constraints,\r\nwhich are present in conventional isotropic plasticity, as well as surface\r\ninteractions.\r\n\r\nThis software provides numerous tools for constructing finite-element meshes from microstructural images, and for implementing material properties from a very broad class which includes elasticity, chemical and thermal diffusion, and electrostatics.\r\n\r\nThe code is a hybrid of Python and C++ code, with the high level user interface and control code in Python, and the heavy numeric work being done in C++. Numerous tools are provided for constructing finite-element meshes from microstructural images, and for implementing material properties from a very broad class which includes elasticity, chemical and thermal diffusion, and electrostatics. The software can be operated either as an interactive, GUI-driven application, as a scripted command-line tool, or as a supporting library, providing useful access to users of varying levels of expertise. At every level, the user-interface objects are intended to be familiar to the materials-science user.\r\n\r\nThe modular object-oriented design of the code, and the strategy of separating the finite-element infrastructure from the material constitutive rules proved itself in implementing the new solid-mechanics capabilities.\r\n\r\nDevelopment on a fully-3D version of the code has also made significant progress, overcoming several challenges associated with user-interface issues. A nontrivial, solved 3D problem will be presented.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/VzXiPmR_wQk/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=VzXiPmR_wQk", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=VzXiPmR_wQk", 
+  "tags": [], 
+  "speakers": [
+    "Andrew Reid"
+  ], 
+  "recorded": "2014-07-13"
+}

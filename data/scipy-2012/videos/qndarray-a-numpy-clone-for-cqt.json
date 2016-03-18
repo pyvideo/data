@@ -1,0 +1,33 @@
+{
+  "id": 1203, 
+  "category": "SciPy 2012", 
+  "slug": "qndarray-a-numpy-clone-for-cqt", 
+  "title": "QNDArray: A Numpy Clone for C++/Qt", 
+  "summary": "", 
+  "description": "While Numpy/Scipy is an attractive implementation platform for many\nalgorithms, in some cases C++ is mandated by a customer. However, a foundation\nof numpy's behavior is the notion of reference-counted instances, and\nimplementing an efficient, cross-platform mechanism for reference counting is\nno trivial prerequisite.\n\nThe reference counting mechanisms already implemented in the Qt C++ toolkit\nprovide a cross-platform foundation upon which a numpy-like array class can be\nbuilt. In this talk one such implementation is discussed, QNDArray. In fact,\nby mimicking the numpy behaviors, the job of implementing QNDArray became much\neasier, as the task of \"defining the behavior\" became \"adopting the behavior,\"\nto include function names.\n\nIn particular, the following aspects of the implementation were found to be\ntricky and deserve discussion in this presentation:\n\n    \n\n  * slicing multidimensional arrays given the limitations of operator[] in C++,\n  * const\n  * partial specialization\n  * implicit vs. explicit data sharing in Qt\nQNDArray has been deployed in scientific research applications and currently\nhas the following features:\n\n    \n\n  * bit-packed boolean arrays\n  * nascent masked array support\n  * unit test suite that validates QNDArray behavior against numpy behavior\n  * bounds checking with Q_ASSERT() (becomes a no-op in release mode)\n  * memmap()ed arrays via QFile::map()\n  * easily integrated as a QVariant value, leading to a natural mapping from QVariantMap to Python dict.\n  * float16 implementation including in-place compare\n\nThe author has approval from his management to submit the source code for\nQNDArray to the Qt Project and plans to have it freely available for download\nvia [http://qt.gitorious.org/](http://qt.gitorious.org/) before the SciPy\nconference begins.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/PLqIRtpUHGk/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/QNDArray_A_Numpy_Clone_for_CQt.mp4?Signature=ODStHEG40%2FmQ5sV78j11L%2FYj%2Fks%3D&Expires=1346381293&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=PLqIRtpUHGk", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=PLqIRtpUHGk", 
+  "tags": [
+    "General"
+  ], 
+  "speakers": [
+    "Glen W. Mabey"
+  ], 
+  "recorded": "2012-07-18"
+}

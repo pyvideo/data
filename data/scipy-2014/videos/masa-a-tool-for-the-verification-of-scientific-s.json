@@ -1,0 +1,26 @@
+{
+  "id": 2796, 
+  "category": "SciPy 2014", 
+  "slug": "masa-a-tool-for-the-verification-of-scientific-s", 
+  "title": "MASA: A Tool for the Verification of Scientific Software", 
+  "summary": "Numerical simulations have a broad range of application, from aircraft design to drug discovery. However, any prediction from a computer must be tested to ensure its reliability. Verification ensures the outputs of a computation accurately reflect the underlying model. This talks covers MASA, a tool for the verification of software used in a large class of problems in applied mathematics.", 
+  "description": "Numerical simulations have an incredibly broad range of applicability, from computer aided aircraft design to drug discovery. However, any prediction arising from a computer model must be rigorously tested to ensure its reliability. Verification is a process that ensures that the outputs of a computation accurately reflect the solution of the mathematical models. \r\n\r\nThis talk will first provide an introduction to the method of manufactured solutions (MMS), which is a powerful approach for verification of model problems in which a solution cannot be determined analytically. However, verifying computational science software using manufactured\r\n\r\nsolutions requires the generation of the solutions with associated forcing terms and their reliable implementation in software. There are several issues that arise in generating solutions, including ensuring that they are meaningful, and the algebraic complexity of the forcing terms. After briefly discussing these issues, the talk will introduce MASA, the Manufactured Analytical Solution Abstraction library. MASA is an open-source library written in C++ (with python interfaces) which is designed for the veri?cation of software used for solving a large class of problems stemming from numerical methods in applied mathematics including nonlinear equations, systems of algebraic equations, and ordinary and partial differential equations.\r\n\r\nExample formulations in MASA include the Heat Equation, Laplace's Equation, and the Navier-Stokes Equations, but in principle MASA supports instantiating any model that can be written down mathematically. This talk will end with details on two methods to import manufactured solutions into the library, either by generate the source terms, or using the automatic differentiation capabilities provided in MASA.\r\n\r\nThe library is available at: [https://github.com/manufactured-solutions/MASA](https://github.com/manufactured-solutions/MASA)\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/OvyqO4fxdKs/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=OvyqO4fxdKs", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=OvyqO4fxdKs", 
+  "tags": [], 
+  "speakers": [
+    "Nicholas Malaya"
+  ], 
+  "recorded": "2014-07-13"
+}

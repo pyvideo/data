@@ -1,0 +1,33 @@
+{
+  "id": 1227, 
+  "category": "SciPy 2012", 
+  "slug": "pythontex-fast-access-to-python-from-within-late", 
+  "title": "PythonTeX: Fast Access to Python from within LaTeX", 
+  "summary": "", 
+  "description": "The LaTeX document preparation system is frequently used to create scientific\ndocuments and presentations. This process is often inefficient. The user must\nswitch back and forth between the document and external scientific software\nthat is used for performing calculations and creating figures.\n[PythonTeX](https://github.com/gpoore/pythontex) is a LaTeX package that\nallows Python code to be entered directly within a LaTeX document. The code is\nautomatically executed and its output is included within the original\ndocument. The code may also be typeset within the document with syntax\nhighlighting provided by Pygments.\n\nPythonTeX is fast and user-friendly. Python code is separated into user-\ndefined sessions, and each session is only executed when its code is modified.\nWhen code is executed, sessions run in parallel. The contents of stdout and\nstderr are synchronized with the LaTeX document, so that printed content is\neasily accessible and error messages have meaningful line numbering.\n\nPythonTeX greatly simplifies scientific document creation with LaTeX. For\nexample, SymPy can be used to automatically solve and typeset step-by-step\nmathematical derivations. It can also be used to automate the creation of\nmathematical tables. Plots can be created with matplotlib and then easily\ncustomized in place. Python code and its output can be typeset side by side.\nThe full power of Python is conveniently available for programming LaTeX\nmacros and customizing and automating LaTeX documents.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i2.ytimg.com/vi/yIO4l0zHGjw/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/PythonTeX_Fast_Access_to_Pytho.mp4?Signature=WkwvorcGsMXORDJuJodc52xIzKc%3D&Expires=1346382731&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=yIO4l0zHGjw", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=yIO4l0zHGjw", 
+  "tags": [
+    "General"
+  ], 
+  "speakers": [
+    "Geoffrey M. Poore"
+  ], 
+  "recorded": "2012-07-19"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 2721, 
+  "category": "SciPy 2014", 
+  "slug": "creating-a-browser-based-virtual-computer-lab-for", 
+  "title": "Creating a browser based virtual computer lab for classroom instruction", 
+  "summary": "With laptops and tablets becoming more powerful and more ubiquitous in the classroom, traditional computer labs with rows of expensive desktops are beginning to lose their relevance. This presentation will discuss browser-based virtual computer labs for teaching Python, using a notebook interface, as an alternative approach to classroom instruction.", 
+  "description": "One of the difficulties in using Python for scientific applications is that one needs a fairly complete set of Python data processing and visualization packages to be installed, beyond the standard Python distribution. Freely available scientific Python distributions like Enthought Canopy and Anaconda address this problem. A typical approach to teaching Python is to use a dedicated computer lab, where one of these distributions is installed on a set of machines with identical computing environments for use by students. With laptop computers becoming cheap and ubiquitous, an alternative approach is to allow students to use their own computers, where they install one of the scientific Python distributions by themselves. This approach requires more set-up time, because the software often requires some minor tweaking for each software platform, but requires no dedicated hardware and has the advantage of allowing students to easily run programs after class on their own computers. This presentation discusses a third approach that involves creating a software environment for Python using \u201ccloud computing\u201d. There are already commercial products available that provide well-supported Python computing environments in the cloud. This presentation focuses on alternative \u201croll your own\u201d solutions using open-source software that are specifically targeted for use in an interactive classroom instruction setting.\r\n\r\nCreating a virtual computing lab usually involves instantiating a server using a cloud infrastructure provider, such as Amazon Web Services. A new server can be set-up within minutes, with a scientific Python distribution automatically installed during set-up. Students can then login to their own accounts on the server using a browser-based interface to execute Python programs and visualize graphical output. Typically, each student would use a notebook interface to work on lessons.\r\n\r\nDifferent approaches can be used to create separate accounts for multiple users. The simplest would be to create different user accounts on a Linux virtual machine. If greater isolation is required, lightweight linux containers can be created on-demand for each user. Although IPython Notebook can currently be run as a public server to work with multiple notebooks simultaneously, true multi-user support is expected to be implemented further down the road. However, there are a few open-source projects, such as JiffyLab, that already support a multi-user IPython Notebook environment. Another option is to use the open-source GraphTerm server, which supports a multi-user  \u201cgraphical terminal\u201d environment with a notebook interface. The pros and cons of these different approaches to building a virtual computer lab will be discussed.\r\n\r\nAlso discussed will be additional features that could be useful in a virtual computing lab such as the capability for the instructor to chat with the students and monitor their individual progress using a \u201cdashboard\u201d. Allowing students to collaborate in groups, with ability to view and edit each others\u2019 code, can help promote classroom interaction. Enhancements to the notebook interface, such as \u201cfill in the blanks\u201d notebooks, can facilitate more structured instruction. The implementation of some of these features in the GraphTerm server will be discussed.\r\n\r\nLINKS:\r\n\r\n[JiffyLab source](https://github.com/ptone/jiffylab)\r\n\r\n[GraphTerm source](https://github.com/mitotic/graphterm)\r\n\r\n[GraphTerm talk from SciPy 2013](http://conference.scipy.org/proceedings/scipy2013/pdfs/saravanan.pdf)\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/LiZJMYxvJbQ/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=LiZJMYxvJbQ", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=LiZJMYxvJbQ", 
+  "tags": [], 
+  "speakers": [
+    "Ramalingam Saravanan"
+  ], 
+  "recorded": "2014-07-09"
+}

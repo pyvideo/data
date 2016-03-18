@@ -1,0 +1,33 @@
+{
+  "id": 1236, 
+  "category": "SciPy 2012", 
+  "slug": "nmrglue-a-python-module-for-working-with-nmr-dat", 
+  "title": "nmrglue: a Python Module for Working with NMR Data.", 
+  "summary": "", 
+  "description": "Nuclear magnetic resonance (NMR) spectroscopy is a key analytical technique in\nthe biomedical field, finding uses in drug discovery, metabolomics, and\nimaging as well as being the primary method for the determination of the\nstructures of biological macromolecules in solution. In the course of a modern\nNMR structural or dynamic study of proteins and other biomolecules,\nexperiments typically generate multiple gigabytes of 2D, 3D and even 4D data\nsets which must be collected, processed, analyzed, and visualized to extract\nuseful information. The field has developed a number of software products to\nperform these functions, but few software suites exist that can perform all of\nthe tasks which a typical scientist requires. For example, it is not uncommon\nfor NMR data to be collected using software provided by the spectrometer\nvendor, processed and visualized using software from the NIH, and analyzed\nusing software from a University, collaborator or developed in house.\nComplicating this process is the lack of a standard format for storing NMR\ndata; each software program typically uses its own format for data storage.\n\nnmrglue is an open source Python module for working with NMR data which acts\nas the \"glue\" to tie together existing NMR programs, and can be used to\nrapidly develop new NMR processing, analysis or visualization methods. With\nnmrglue, spectral data from a number of common NMR file formats can be\naccessed as numpy arrays. This data can be sliced, rearranged or modified as\nneeded and written out to any of the supported file formats for later use in\nexisting NMR software programs. In this way, nmrglue can act as the \"glue\" to\ntie together NMR workflows which employ existing NMR software.\n\nIn addition, nmrglue can be used in conjunction with other scientific python\nlibraries to rapidly test, prototype, and develop new methods for processing,\nanalyzing, and visualizing NMR data. The nmrglue package provides a number of\ncommon NMR processing functions, as well as implementation of scientific\nroutines which may be of interest to other Python projects including peak\npickers, multidimensional lineshape fitting routines, linear prediction\nfunctions, and a bounded least squares optimization. These functions together,\nwith the ability to read, write and convert between a number of common file\nformats, allow developers to harness nmrglue for established routines while\nfocusing on the novel portion of the new method being created. In addition,\nthe numerical routines in numpy and scipy can be used to further speed this\nprocess. If these packages are used with the Ipython shell and matplotlib, a\nrobust, interpreted environment for exploring and visualizing NMR data can be\ncreated using only open source software.\n\nnmrglue is distributed under the New BSD license. Documentation, tutorials,\nexamples, and downloadable install files and source code are available at\n[http://code.google.com/p/nmrglue/](http://code.google.com/p/nmrglue/).\nDespite a limited exposure in the scientific field, nmrglue is already used in\na number of university research labs and portions of the package have been\nadapted for use in VeSPA, a software suite for magnetic resonance\nspectroscopy.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/pTxJFvLhHhI/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/nmrglue_a_Python_Module_for_Wo.mp4?Signature=9xiNcp6ricFFFA5M%2BrG6qgsWQ%2BU%3D&Expires=1346383171&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "https://www.youtube.com/watch?v=pTxJFvLhHhI", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=pTxJFvLhHhI", 
+  "tags": [
+    "Computational Bioinformatics"
+  ], 
+  "speakers": [
+    "Jonathan J. Helmus"
+  ], 
+  "recorded": "2012-07-19"
+}

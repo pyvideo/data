@@ -1,0 +1,26 @@
+{
+  "id": 2115, 
+  "category": "SciPy 2013", 
+  "slug": "graphterm-a-notebook-like-graphical-terminal-int-1", 
+  "title": "GraphTerm: A notebook-like graphical terminal interface; SciPy 2013 Presentation", 
+  "summary": "GraphTerm: A notebook-like graphical terminal interface for collaboration and inline data visualization\n\nAuthors: Ramalingam Saravanan, Texas A&M University\n\nTrack: Reproducible Science\n\nThe notebook interface, which blends text and graphics, has been in use for a number of years in commercial mathematical software and is now finding more widespread usage in scientific Python with the availability browser-based front-ends like the Sage and IPython notebooks. This talk will describe a new open-source Python project, GraphTerm, that takes a slightly different approach to blending text and graphics to create a notebook-like interface. Rather than operating at the application level, it works at the unix shell level by extending the command line interface to incorporate elements of the graphical user interface. The xterm terminal escape sequences are augmented to allow any program to interactively display inline graphics (or other HTML content) simply by writing to standard output.\n\nGraphTerm is designed to be a drop-in replacement for the standard unix terminal, with additional features for multiplexing sessions and easy deployment in the cloud. The interface aims to be tablet-friendly, with features like clickable/tappable directory listings for navigating folders etc. The user can switch, as needed, between standard a-line-at-a-time shell mode and the notebook mode, where multiple lines of code are entered in cells, allowing for in-place editing and re-execution. Multiple users can share terminal sessions for collaborative computing.\n\nGraphTerm is implemented in Python, using the Tornado web framework for the server component and HTML+Javascript for the browser client. The presentation will discuss the architecture of GraphTerm as well as provide specific usage examples, such as inline visualization of meteorological data using matplotlib, and collaborative presentations using Landslide, a python-based slideshow tool.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/nO0ceHmTlDQ/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=nO0ceHmTlDQ", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=nO0ceHmTlDQ", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-01"
+}

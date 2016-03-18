@@ -1,0 +1,31 @@
+{
+  "id": 2739, 
+  "category": "SciPy 2014", 
+  "slug": "astropy-and-astronomical-tools-part-i", 
+  "title": "Astropy and astronomical tools Part I", 
+  "summary": "The introductory session will start with an overview of the astropy project and the goals of the tutorial, followed by the basics on accessing astronomical data and the associated attributes of such data, including the units and coordinates. Also covered is how to use the new and powerful quantities facility, which allows physical quantities to be explicitly bound to the units they are defined in.", 
+  "description": "**Outline**\r\n\r\n* Overview of astropy (15 minutes) [Greenfield]\r\n    - Exercise: Import astropy, demonstrate that tools are present and echo simple examples given. (15 minutes: allowing for typical start-up problems)\r\n* Units/quantities (15 minutes) [Droettboom]\r\n    - Exercise: Solve problems using standard units; define new unit; use unit equivalencies; define blackbody function using quantities/units (15 minutes)\r\n* Tables (20 minutes) [Aldcroft]\r\n    - Exercise: read in provided table files and apply requested table manipulations (20 minutes)\r\n* Break (15 minutes)\r\n* Accessing and updating data\r\n    - FITS (30 minutes) [Bray]\r\n        + Exercise: Open supplied data files; manipulate header information; manipulate data; write results; update and append to existing file (30 minutes)\r\n    - ascii tables (15 minutes) [Aldcroft]\r\n        + Exercise: Open supplied ascii files, modify and convert into csv files (15 minutes) \r\n* coordinates (sky/time) (15 minutes) [Robitaille]\r\n    - Exercises: solve coordinate/time conversion problems; read in various string representations for coordinates/times; print alternate string representations (15 minutes)\r\n\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/eiSg1enFFV4/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=eiSg1enFFV4", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=eiSg1enFFV4", 
+  "tags": [
+    "astropy"
+  ], 
+  "speakers": [
+    "Erik Bray", 
+    "Perry Greenfield", 
+    "Thomas Robitaille", 
+    "Tom Aldcroft"
+  ], 
+  "recorded": "2014-07-09"
+}

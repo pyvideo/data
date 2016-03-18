@@ -1,0 +1,26 @@
+{
+  "id": 2074, 
+  "category": "SciPy 2013", 
+  "slug": "larvamap-a-python-powered-larval-transport-mode-1", 
+  "title": "LarvaMap - A python powered larval transport modeling system; SciPy 2013 Presentation", 
+  "summary": "Authors: Wilcox, Kyle, Applied Science Associates (ASA); Crosby, Alex, Applied Science Associates (ASA)\n\nTrack: GIS - Geospatial Data Analysis\n\nLarvaMap is an open-access larval transport modeling tool. The idea behind LarvaMap is to make it easy for researchers everywhere to use sophisticated larval transport models to explore and test hypotheses about the early life of marine organisms.\n\nLarvaMap integrates four components: an ocean circulation model, a larval behavior library, a python Lagrangian particle model, and a web-system for running the transport models.\n\nAn open-source particle transport model was written in python to support LarvaMap. The model utilizes a parallel multi-process architecture. Remote data are cached to a local file in small chunks when a process requires data, and the local data are shared between all of the active processes as the model runs. The caching approach improves performance and reduces the load on data servers by limiting the frequency and total number of web requests as well as the size of the data being moved over the internet.\n\nModel outputs include particle trajectories in common formats (i.e. netCDF-CF and ESRI Shapefile), a web accessible geojson representation of the particle centroid trajectory, and a stochastic GeoTIFF representation of the probabilities associated with a collection of modeling runs. The common interoperable data formats allow a variety of tools to be used for in-depth analysis of the model results.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/fbQExUiJXrk/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=fbQExUiJXrk", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=fbQExUiJXrk", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-01"
+}

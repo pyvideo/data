@@ -1,0 +1,26 @@
+{
+  "id": 2801, 
+  "category": "SciPy 2014", 
+  "slug": "synthesis-and-analysis-of-circuits-in-the-ipython", 
+  "title": "Synthesis and analysis of circuits in the IPython notebook", 
+  "summary": "Building on the new IPython 2.0 widget model and the jsPlumb package we create a schematic capture tool that allows graphically editing a circuit as well as its components' parameters and then instantly updating a domain specific modeling backend. This allows for an integrated circuit modeling workflow and to extend widget-based user interfaces for engineering and research projects.", 
+  "description": "Circuits, i.e., a network of interconnected components with ports, have found application in various scientific and engineering domains, ranging from applications close to the physical implementation, such as electrical circuits, photonic circuits for optical information processing, superconducting quantum circuits for quantum information applications to more abstract circuit representations of dynamical systems, biological processes or even software algorithms.\r\n\r\nThis has already led to the development of quite general domain-independent circuit modeling toolkits such as [Modelica](https://www.modelica.org/), but to date, there exist very few open source graphical general circuit editing environments that can be tightly integrated with custom, domain-specific implementation simulation or analysis backends as well as [IPython](http://ipython.org).\r\n\r\nHere we present our first attempt at creating such a tool as well as some applications from our own research on nano-photonic quantum circuit models. Our existing [QNET](http://mabuchilab.github.io/QNET/) software package allows to model these circuits in a purely symbolic fashion and interfaces with various codes for numerical simulation. \r\n\r\nWe demonstrate that the extension of our package with a visual circuit editor leads to a rich integrated simulation and analysis workflow in which an engineer or researcher can receive very fast feedback when making changes to his model.\r\n\r\nAs a consequence, it is much easier to build intuition for the particular kinds of circuit models and find novel and creative solutions to an engineering task.\r\n\r\nFinally, given the broad range of applications for circuit models and representations, we outline how our visual circuit editor can be adapted to export a circuit for interfacing with other domain specific software such as Modelica.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/-kUzWdKOgqc/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=-kUzWdKOgqc", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=-kUzWdKOgqc", 
+  "tags": [], 
+  "speakers": [
+    "Nikolas Tezak"
+  ], 
+  "recorded": "2014-07-13"
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1201, 
+  "category": "SciPy 2012", 
+  "slug": "solving-the-import-problem-scalable-dynamic-load", 
+  "title": "Solving the import problem: Scalable Dynamic Loading Network File Systems", 
+  "summary": "", 
+  "description": "The most common programming paradigm for scientific computing, SPMD (Single\r\nProgram Multiple Data), catastrophically interacts with the loading strategies\r\nof dynamically linked executables and network-attached file systems on even\r\nmoderately sized high performance computing clusters. This difficulty is\r\nfurther exacerbated by \"function-shipped\" I/O on modern supercomputer compute\r\nnodes, preventing the deployment of simple solutions. In this talk, we\r\nintroduce a two-component solution: collfs, a set of low-level MPI-collective\r\nfile operations that can selectively shadow file system access in a library,\r\nand walla, a set of Python import hooks for seamlessly enabling parallel\r\ndynamic loading scalable to tens of thousands of cores.\r\n\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i3.ytimg.com/vi/BpuykTOy4a0/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Solving_the_import_problem_Scalable_Dynamic_Loading_Network_File_Systems.mp4?Signature=03ccbsvqMA%2B2aqWka6hHeqFwiKI%3D&Expires=1346381205&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=BpuykTOy4a0", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=BpuykTOy4a0", 
+  "tags": [
+    "hpc"
+  ], 
+  "speakers": [
+    "Aron Ahmadia", 
+    "Jed Brown", 
+    "William Scullin"
+  ], 
+  "recorded": "2012-07-18"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 2109, 
+  "category": "SciPy 2013", 
+  "slug": "mystic-a-framework-for-predictive-science-scipy-1", 
+  "title": "Mystic: a framework for predictive science; SciPy 2013 Presentation", 
+  "summary": "Authors: Michael McKerns @ California Institute of Technology, Houman Owhadi @ California Institute of Technology\n\nTrack: Machine Learning\n\nWe have built a robust framework (mystic) that lowers the barrier to solving complex problems in predictive science. Mystic is built to rigorously solve high-dimensional non-convex optimization problems with highly nonlinear complex constraints. Mystic is capable of solving global optimization problems with thousands of parameters and thousands of constraints, and makes it almost trivial to leverage high-performance parallel computing. Mystic's unique ability to apply highly complex and statistical constraints can be used to find optimal probability distributions, calculate risk, uncertainty, sensitivity, and probability of failure in real-world inverse problems. Mystic is easy to use, open source, and pure python.\n\nBy providing a simple interface to a lot of underlying complexity, mystic enables a non-specialist user unprecedented access to optimizer configurability. Typically, both termination conditions and initial conditions are hard-coded into an optimization algorithm -- however, in mystic, conditionals are both dynamic and dynamically configurable, and thus enable tuning of the optimizer to solve a much broader range of problems. Mystic provides box constraints and penalty functions, as well as an advanced toolkit that can directly utilize all available information as constraints. With the ability to scale up to thousands of parameters, mystic can solve optimization problems that are orders of magnitude larger and of greater complexity than conventional solvers are capable of. In mystic, it's easy to create new algorithms to couple optimizers or launch multiple optimizers in parallel, thus allowing highly efficient local search algorithms to provide fast global optimization.\n\nCalculations of uncertainty, risk, probability of failure, certification, and experiment design are formulated as global optimizations -- and are used to directly provide optimal scenarios for success or failure. Mystic has been used in calculations of materials failure under hypervelocity impact, elasto-plastic failure in structures under seismic ground acceleration, structure prediction in nanomaterials, and risk in financial portfolios.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/o-nwSnLC6DU/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=o-nwSnLC6DU", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=o-nwSnLC6DU", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-01"
+}

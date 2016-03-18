@@ -1,0 +1,26 @@
+{
+  "id": 2808, 
+  "category": "SciPy 2014", 
+  "slug": "scientific-knowledge-management-with-web-of-trail", 
+  "title": "Scientific Knowledge Management with Web of Trails", 
+  "summary": "Do you hate repeating yourself?  Want to know when your publication is repeating someone else?  The Web of Trails project is a solution to knowledge management that empowers users to quickly find repetition of key phrases.  Using syntactic indexing, as opposed to lexical techniques, this approach is capable of representing the literature using less space while providing high value results.", 
+  "description": "Web of Trails (WOT) is an open source project that uses context-free grammars (CFG's) as the basic building block for search. Current search technology relies upon the presence of words on a page, sometimes augmented with statistical correlations among words. Even with these restrictions, maintenance of an index requires storage much greater than the input size (a polynomial function of it). CFG's have been used for decades in compilation and language tools, and more recently in data compression.\r\n\r\nThe primary advantage of this CFG approach, based upon the Sequitur algorithm, is that it indexes content in linear-space, not polynomial-space. The secondary advantage is that combined with research in inference, grammars can express human concepts and connections rather than just correlations. This project uses grammar and syntactic analysis to replace lexical and word-based approaches to the problem of searching collections of digital artifacts. Benchmarking in web content indexing will be shown relative to popular alternatives such Apache Lucene and Amazon Cloud Search.\r\n\r\nIn addition to implementing content indexing with Sequitur, this project will enable domain-specific extensions of WOT. Once complete, we will research novel techniques for generalizing the grammars inferred by Sequitur. As this fundamental research develops, it will inform later framework development and increase search precision. This is a big leap in the state of the art, as text artifacts are no longer represented as bags of words, but as bags on non-terminals in a growing and adapting grammar.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/oEkKxHQb8iA/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=oEkKxHQb8iA", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=oEkKxHQb8iA", 
+  "tags": [], 
+  "speakers": [
+    "Jon Riehl"
+  ], 
+  "recorded": "2014-07-13"
+}

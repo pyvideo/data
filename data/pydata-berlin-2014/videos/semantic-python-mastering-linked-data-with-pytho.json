@@ -1,0 +1,31 @@
+{
+  "id": 3076, 
+  "category": "PyData Berlin 2014", 
+  "slug": "semantic-python-mastering-linked-data-with-pytho", 
+  "title": "Semantic Python: Mastering Linked Data with Python", 
+  "summary": "", 
+  "description": "Tim Berners-Lee defined the Semantic Web as a web of data that can be processed directly and indirectly by machines. More precisely, the Semantic Web can be defined as a set of standards and best practices for sharing data and the semantics of that data over the Web to be used by applications [DuCharme, 2013].\r\n\r\nIn particular, the Semantic Web is built on top of three main pillars: the RDF (i.e., Resource Description Framework) data model, the SPARQL query language, and the OWL standard for storing vocabularies and ontologies. These standards allows the huge amount of data on the Web to be available in a unique and unified standard format, contributing to the definition of the Web of Data (WoD) [1].\r\n\r\nThe WoD makes the web data to be reachable and easily manageable by Semantic Web tools, providing also the relationships among these data (thus practically setting up the \u201cWeb\u201d). This collection of interrelated datasets on the Web can also be referred to as Linked Data [1].\r\n\r\nTwo typical examples of large Linked Dataset are FreeBase, and DBPedia, which essentially provides the so called Common sense Knowledge in RDF format. Python offers a very powerful and easy to use library to work with Linked Data: rdflib. RDFLib is a lightweight and functionally complete RDF library, allowing applications to access, create and manage RDF graphs in a very Pythonic fashion.\r\n\r\nIn this talk, a general overview of the main features provided by the rdflib package will be presented. To this end, several code examples will be discussed, along with a case study concerning the analysis of a (semantic) social graph. This case study will be focused on the integration between the networkx module and the rdflib library in order to crawl, access (via SPARQL), and analyze a Social Linked Data Graph represented using the FOAF (Friend of a Friend) schema.\r\n\r\nThis talk is intended for an Novice level audience, assuming a good knowledge of the Python language.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
+  "thumbnail_url": "http://i.ytimg.com/vi/5DCS9LE-8rE/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://video.ep14.c3voc.de/20244.mp4", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://www.youtube.com/watch?v=5DCS9LE-8rE", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=5DCS9LE-8rE", 
+  "tags": [], 
+  "speakers": [
+    "Valerio Maggio"
+  ], 
+  "recorded": "2014-07-26"
+}

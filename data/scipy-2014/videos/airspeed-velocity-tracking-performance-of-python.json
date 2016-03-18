@@ -1,0 +1,29 @@
+{
+  "id": 2732, 
+  "category": "SciPy 2014", 
+  "slug": "airspeed-velocity-tracking-performance-of-python", 
+  "title": "Airspeed Velocity: Tracking Performance of Python Projects Over Their Lifetime", 
+  "summary": "Presenting \"airspeed velocity\", a new tool for benchmarking Python software projects over their lifetime.", 
+  "description": "As software projects mature and become more robust against bugs, they may also lose some of their runtime performance and memory efficiency.  Airspeed velocity (asv) is a new tool to help find those performance degradations before they get out to end users.  It automatically runs a benchmark suite over a range of commits in a project's repository, as well as in a matrix of configurations of Python versions and other dependencies.  The results, possibly from multiple machines, are then collated and published in a web-based report.\r\n\r\nWhile filling a similar role as projects such as \"codespeed\" and \"vbench\", airspeed velocity is designed to be easier to set up and deploy, since it uses only a DVCS repository as its database and the report is deployable to any static web server.\r\n\r\nAirspeed velocity provides an easy way to write benchmarks, inspired by \"nosetests\" and \"py.test\".  It is possible to benchmark runtime, memory usage, or any user-defined metric.\r\n\r\nOther features either implemented or in the planning stages include:\r\n\r\n1. tight integration with existing profiling tools, such as RunSnakeRun\r\n2. parameterized benchmarks to investigate how an algorithm scales with data size\r\n3. automatic search for degrading commits\r\n\r\nThe presentation will provide a demo of airspeed velocity, and discuss its early usage for benchmarking the astropy project.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/OsxJ5O6h8s0/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=OsxJ5O6h8s0", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=OsxJ5O6h8s0", 
+  "tags": [
+    "benchmarking", 
+    "performance"
+  ], 
+  "speakers": [
+    "Michael Droettboom"
+  ], 
+  "recorded": "2014-07-09"
+}

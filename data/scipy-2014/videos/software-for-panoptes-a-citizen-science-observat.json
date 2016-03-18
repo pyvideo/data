@@ -1,0 +1,27 @@
+{
+  "id": 2776, 
+  "category": "SciPy 2014", 
+  "slug": "software-for-panoptes-a-citizen-science-observat", 
+  "title": "Software for Panoptes: A Citizen Science Observatory", 
+  "summary": "In this presentation, we describe the current status of software for Project Panoptes.  Our goal is to build low cost, reliable, robotic telescopes which can be used to detect transiting exoplanets.  Panoptes is designed from the ground up to be a citizen science project which will involve the public in all aspects of the science, from data acquisition to data reduction.", 
+  "description": "The goal of Project Panoptes (Panoptic Astronomical Networked OPtical observatory for Transiting Exoplanets Survey, see http://projectpanoptes.org/) is to build low cost, reliable, robotic telescopes which can be used to detect transiting exoplanets.  The hardware is designed to be standardized, using as many commercial off the shelf components as possible so that a Panoptes \"unit\" can be reproduced quickly and easily by students or amateurs.  In this way, many units can be deployed at many different sites to provide continuous and redundant sky coverage.  Panoptes is designed from the ground up to be a citizen science project which will involve the public in all aspects of the science, from data acquisition to data reduction.\r\n\r\nIn this presentation, we describe the current status of the Panoptes Observatory Control System (POCS, see https://github.com/panoptes/POCS), an open source, collaborative, python-based software package.  POCS is designed to be a simple as possible in order to make it accessible to non-experts.  As such, POCS is a state machine which transitions between a few well defined operating states.  We make extensive use of existing modules (notably astropy and pyephem).  The challenge we face in writing POCS to to balance our desire for simplicity and accessibility against capability.\r\n\r\nWe will also briefly describe the other software challenges of our project, specifically an algorithm designed to extract accurate photometry from DSLR images (color images obtained using a Bayer color filter array) rather than from the more traditional filtered monochrome CCD image.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/VDWXJQggFH8/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=VDWXJQggFH8", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=VDWXJQggFH8", 
+  "tags": [], 
+  "speakers": [
+    "Josh Walawender", 
+    "Michael Butterfield"
+  ], 
+  "recorded": "2014-07-14"
+}

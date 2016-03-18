@@ -1,0 +1,35 @@
+{
+  "id": 2737, 
+  "category": "SciPy 2014", 
+  "slug": "reproducible-science-walking-the-walk-part-2", 
+  "title": "Reproducible Science: Walking the Walk Part 2", 
+  "summary": "This tutorial will train reproducible research warriors on the practices and tools that make experimental verification possible with an end-to-end data analysis workflow. \u00a0The tutorial will expose attendees to open science methods during data gathering, storage, analysis up to publication into a reproducible article. \u00a0Attendees are expected to have basic familiarity with scientific Python and Git.", 
+  "description": "The tutorial will cover four hours with the following topics\r\n\r\n\r\n* Introduction (10min)\r\n   * History of scientific societies and publications\r\n      * Leeuwenhoek was the Man !\r\n      * The Invisible College \r\n      * Nullius in Verba\r\n* Replication of the early microscope experiments by Leeuwenhoek[a][b]\r\n   * Image Acquisition (15 min)\r\n      * Hands on: Cell camera phone microscope \r\n         * With drop of water\r\n      * Hands on: Each pair acquires images\r\n   * Data Sharing (45min)\r\n      * Image gathering, storage, and sharing (15min)\r\n         * GitHub (www.github.com)\r\n         * Figshare (www.figshare.com)\r\n         * Midas (www.midasplatform.com) \r\n         * Hands on: Upload the images\r\n      * Metadata Identifiers (15 min)\r\n         * Citable\r\n         * Machine Readable\r\n         * Hands on: Create data citation and machine readable metadata\r\n      * Hands on: Download data via RESTful API (15min)\r\n         * Provenance and \r\n         * Python scripts\r\n         * Hands on: Download the data via HTTP\r\n   * Break (10min)\r\n   * Local processing (60min)\r\n      * Replication Enablement (20min)\r\n         * Package versioning\r\n         * Virtual Machines\r\n         * Docker\r\n         * Cloud services\r\n         * Hands on: \r\n            * Create a virtualenv\r\n            * Run our tutorial package verification script\r\n      * Revision Control with Git (20min)\r\n         * Keeping track of changes\r\n         * Unique hashes\r\n         * Hands on:\r\n            * Forking a repository in GitHub\r\n            * Cloning a repository\r\n            * Creating a branch\r\n            * Making a commit\r\n            * Pushing a branch\r\n            * Diffing\r\n            * Merging \r\n            * Pushing again        \r\n            * Create pull request\r\n      * Python scripts (20min)\r\n         * Data analysis, particle counting.\r\n         * Hands on:\r\n            * Run scripts on new data\r\n            * Generate histogram for the data\r\n   * Testing (30min)\r\n      * Unit testing with known data\r\n      * Regression testing with known data\r\n      * Hands on: \r\n         * Run tests\r\n         * Add coverage for another method to the unit tests\r\n   * Break (10min)\r\n   * Publication Tools (30min)\r\n      * Article generation \r\n      * RST to HTML\r\n      * GitHub replication and sharing\r\n      * Hands on: \r\n         * Run dexy to generate the document\r\n   * Reproducibility Verification (30min)\r\n      * Reproducing Works\r\n      * Publication of Positive and Negative results\r\n      * Hands on:\r\n         * Create Open Science Framework (OSF) project\r\n         * Connect Figshare and Github to OSF project\r\n         * Fork or link another group\u2019s project in the OSF to run dexy on their work\r\n\r\n\r\nInfrastructure:\r\n\r\nAttendees will use software installed in their laptops to gather and  process data, then publish and share a reproducible report.\r\n\r\nThey will access repositories in GitHub, upload data to a repository and publish materials necessary to replicate their data analysis.\r\n\r\nWe expect that wireless network will be have moderate bandwidth to allow all attendees to move data, source code and publications between their laptops and hosting servers.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/HCyHn_by3N0/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=HCyHn_by3N0", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=HCyHn_by3N0", 
+  "tags": [
+    "open science", 
+    "reproducible research", 
+    "tutorial"
+  ], 
+  "speakers": [
+    "Aashish Chaudhary", 
+    "Ana Nelson", 
+    "Arfon Smith", 
+    "Jean-Christophe Fillion-Robin", 
+    "Luis Ibanez", 
+    "Matthew McCormick"
+  ], 
+  "recorded": "2014-07-09"
+}

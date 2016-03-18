@@ -1,0 +1,34 @@
+{
+  "id": 1228, 
+  "category": "SciPy 2012", 
+  "slug": "pythons-role-in-visit", 
+  "title": "Python's role in VisIt", 
+  "summary": "", 
+  "description": "VisIt is an open source, turnkey application for scientific data analysis and\nvisualization that runs on a wide variety of platforms from desktops to\npetascale class supercomputers. This talk will provide an overview of Python\u2019s\nrole in VisIt with a focus on use cases of scripted rendering, data analysis,\nand custom application development.\n\nPython is the foundation of VisIt\u2019s primary scripting interface, which is\navailable from both a standard python interpreter and a custom command line\nclient. The interface provides access to all features available through\nVisIt\u2019s GUI. It also includes support for macro recording of GUI actions to\npython snippets and full control of windowless batch processing.\n\nWhile Python has always played an important scripting role in VisIt, two\nrecent development efforts have greatly expanded VisIt\u2019s python capabilities:\n\n  1. We recently enhanced VisIt by embedding python interpreters into our data flow network pipelines. This provides fine grained access, allowing users to write custom algorithms in python that manipulate mesh data via VTK\u2019s python wrappers and leverage packages such as numpy and scipy. Current support includes the ability to create derived mesh quantities and execute data summarization operations.\n  2. We now support custom GUI development using Qt via PySide. This allows users to embed VisIt\u2019s visualization windows into their own python applications. This provides a path to extend VisIt\u2019s existing GUI and for rapid development of streamlined GUIs for specific use cases.\n\nThe ultimate goal of this work is to evolve Python into a true peer to our\ncore C++ plugin infrastructure.\n\nThis work performed under the auspices of the U.S. Department of Energy by\nLawrence Livermore National Laboratory under Contract DE-AC52-07NA27344 (LLNL-\nABS-552316).\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/0e4TTcswqLg/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Pythonu2019s_role_in_VisIt.mp4?Signature=syBSoJjkdBb1x58V850wn21fP04%3D&Expires=1346382780&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=0e4TTcswqLg", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=0e4TTcswqLg", 
+  "tags": [
+    "visualization"
+  ], 
+  "speakers": [
+    "Cyrus Harrison", 
+    "Harinarayan Krishnan"
+  ], 
+  "recorded": "2012-07-19"
+}
