@@ -1,0 +1,26 @@
+{
+  "id": 1970, 
+  "category": "SciPy 2013", 
+  "slug": "automating-quantitative-confocal-microscopy-analy", 
+  "title": "Automating Quantitative Confocal Microscopy Analysis; SciPy 2013 Presentation", 
+  "summary": "Authors: Fenner, Mark; Fenner, Barbara, King's College, Wilkes-Barre, PA\n\nTrack: Medical Imaging\n\nConfocal microscopy is a qualitative analytical tool used to visualize the associations between cellular processes and anatomical structures. Quantitative analysis of confocal images uses domain expertise, in the form of background correction, and statistical calculations to give semi-quantitative comparisons among experimental conditions. Extended automation of quantitative confocal methods will (1) reduce the time consuming effort of manual background correction and (2) give a fully quantitative method to associate cellular process with structure.\n\nThe purpose of this project is: (1) to develop automated methods to quantitatively assess colocalization of multiple fluorescent labels within confocal images and (2) to apply these methods to assess colocalization of trkB.t1 and BDNF to three types of organelles: endosomes, lysosomes, and transport organelles. Computing quantitative colocalization values requires image correction for background noise. We perform background correction in three ways: (1) manual, (2) automated heuristic analysis of the label intensity histograms, and (3) application of a regression model developed from a subset of manually corrected images. Using the corrected images, we compute a set of domain specific correlations: Pearson's and Mander's coefficients, the 'colocalization coefficients' (M1, M2, m1, and m2), and the 'overlap coefficients' (k1 and k2).\n\nThe project is implemented, end-to-end, in Python. Pure Python is used for managing file access, input parameters, and initial processing of the repository of 933 images. NumPy is used to apply manual background correction, compute the automated background corrections (reducing false positive results and manual labor), and to calculate the domain specific coefficients. We visualize the raw intensity values and computed coefficient values with Tufte-style panel plots created in matplotlib. A longer term goal of this work is to explore plausible extensions of dual-label coefficients to triple-label coefficients.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/ar5YtgiXfNI/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=ar5YtgiXfNI", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=ar5YtgiXfNI", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-02"
+}

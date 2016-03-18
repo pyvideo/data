@@ -1,0 +1,26 @@
+{
+  "id": 2764, 
+  "category": "SciPy 2014", 
+  "slug": "multi-purpose-particle-tracking", 
+  "title": "Multi Purpose Particle Tracking", 
+  "summary": "In many scientific contexts it is necessary to identify and track features in video. Several labs with separate projects and priorities collaborated to develop a common, novice-accessible package of standard algorithms. The package manages optional high-performance components, such as numba, and interactive tools to tackle challenging data, while prioritizing testing and easy adoption by novices.", 
+  "description": "Tracking the motion of many particles is an established technique [[Crocker, J.C., Grier, D.G.](http://dx.doi.org/10.1006/jcis.1996.0217)], but many physicists, biologists, and chemical engineers still (make their undergraduates) do it by hand. [Trackpy](https://github.com/soft-matter/trackpy), is a flexible, high-performance implementation of these algorithms in Python using the scientific stack -- including pandas, numba, the IPython notebook, and mpld3 -- which scales well to track, filter, and analyze tens of thousands of feature trajectories.  It was developed collaboratively by research groups at U. Chicago, U.  Penn, Johns Hopkins, and others.\r\n\r\nResearchers with very different requirements for performance and precision collaborate on the same package. Some original \"magic\" manages high-performance components, including numba, using them if they are available and beneficial; however, the package is still fully functional without these features.   Accessibility to new programmers is a high priority.\r\n\r\nBiological data and video with significant background variation can confound standard feature identification algorithms, and manual curation is unavoidable. Here, the high-performance group operations in pandas and the cutting-edge notebook ecosystem, in particular the interactive IPython tools and mpld3, enable detailed examination and discrimination.\r\n\r\nThe infrastructure developed for this project can be applied to other work. Large video data sets can be processed frame by frame, out of core. Image sequences and video are managed through an abstract class that treats all formats alike through a handy, idiomatic interface in a companion project dubbed [PIMS](https://github.com/soft-matter/pims).\r\n\r\nA suite of over 150 unit tests with automated continuous integration testing has ensured stability and accuracy during the collaborative process. In our experience, this is an unusual but worthwhile level of testing for a niche codebase from an academic lab.\r\n\r\nIn general, we have lessons to share from developing shared tools for researchers with separate priorities and varied levels of programming skill and interest.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/MxK7Fe4xfXM/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=MxK7Fe4xfXM", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=MxK7Fe4xfXM", 
+  "tags": [], 
+  "speakers": [
+    "Daniel B. Allan"
+  ], 
+  "recorded": "2014-07-14"
+}

@@ -1,0 +1,28 @@
+{
+  "id": 2012, 
+  "category": "SciPy 2013", 
+  "slug": "a-comprehensive-look-at-representing-physical-qua", 
+  "title": "A comprehensive look at representing physical quantities in Python", 
+  "summary": "Why tracking physical quantities is an essential function for any programming language heavily used in science and a possible unification of the existing packages that enable the majority of use cases.", 
+  "description": "Authors: Bekolay, Trevor, University of Waterloo\r\n\r\nTrack: General\r\n\r\nCode that properly tracks the units associated with physical quantities is self-documenting and far more robust to unit conversion errors. Unit conversion errors are common in any program that deal with physical quantities, and have been responsible for several expensive and dangerous software errors, like the Mars Climate Orbiter crash. Support for tracking units is lacking in commonly used packages like NumPy and SciPy. As a result, a whole host of packages have been created to fill this gap, with varying implementations. Some build on top of the commonly used scientific packages, adding to their data structures the ability to track units. Others packages track units separately, and store a mapping between units and the data structures containing magnitudes.\r\n\r\nI will discuss why tracking physical quantities is an essential function for any programming language heavily used in science. I will then compare and contrast all of the packages that currently exist for tracking quantities in terms of their functionality, syntax, underlying implementation, and performance. Finally, I will present a possible unification of the existing packages that enables the majority of use cases, and I will discuss where that unified implementation fits into the current scientific Python environment.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/N-edLdxiM40/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=N-edLdxiM40", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=N-edLdxiM40", 
+  "tags": [
+    "scipy"
+  ], 
+  "speakers": [
+    "Trevor Bekolay"
+  ], 
+  "recorded": "2013-07-02"
+}

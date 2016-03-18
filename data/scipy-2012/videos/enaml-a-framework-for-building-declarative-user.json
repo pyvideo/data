@@ -1,0 +1,33 @@
+{
+  "id": 1231, 
+  "category": "SciPy 2012", 
+  "slug": "enaml-a-framework-for-building-declarative-user", 
+  "title": "Enaml - A Framework for Building Declarative User Interfaces", 
+  "summary": "", 
+  "description": "## Overview\n\nEnaml is a new domain specific declarative language for specifying user\ninterfaces in Python applications. Its syntax, a strict superset of the Python\nlanguage, provides a clean and compact representation of UI layout and\nstyling, and uses dynamic expressions to bind a view's logic with an\napplication's underlying computational model.\n\n## Design Goals\n\nA number of considerations were given during the design of Enaml with the\nultimate goal being the creation of a dynamic UI framework that has a low\nbarrier of entry and can scale in complexity and capability according to the\nneeds of the developer.\n\n**Influence** Enaml improves upon existing technologies and ideas for specifying user interfaces. Much of Enaml's inspiration comes from Qt's QML, a declarative UI language derived from ECMAScript and designed specifically for developing mobile applications with the Qt toolkit. In contrast, Enaml is designed for the development of scientific and enterprise level applications, and makes use of a Python derived syntax and standard desktop-style widget elements. For layout, Enaml raises the bar by providing a system based on symbolic constraints. The underyling technology is the same which powers the Cocoa Auto-Layout system in OSX 10.7, however in Enaml, the constraints are exposed in a friendly Pythonic fashion.\n\n**Toolkit Independence** In large projects, the costs of changing infrastructure can be extremely high. Instead of forcing an application to be tied to a single underlying toolkit, Enaml is designed to be completely toolkit agnostic. This decoupling provides the benefit of being able to migrate an entire project from one gui library to another by changing only a single line of code or setting an environment variable. Enaml currently supports both Qt (via Pyside or PyQt4) and WxPython backends with plans for HTML 5 in the future. The authoring of new toolkit backends has been designed to be a simple affair. Adding new or custom widgets to an existing toolkit is trivial.\n\n**Extensibility** A good framework should be useable by a wide variety of audiences and should be able to adapt to work with technologies not yet invented. Enaml can provide the UI layer for any Python application, with few limitations placed on the architecture of the underlying computational model. While Enaml understands Enthought's Traits based models by default, it provides simple hooks that the developer can use to extend its functionality to any model architecture that provides some form of notification mechanism. Possibilities include, but are not limited to, models built upon databases, sockets, and pub-sub mechanisms.\n\n**Continuity** No matter how easy it is to get started with a new framework, it will not be adopted if the cost of switching is exceedingly high. Enaml is positioned to become the next generation of TraitsUI, the user interface layer of the Traits library. Enaml can both include existing TraitsUI views in an application as well as itself be embedded within a TraitsUI. Enaml also interacts seamlessly with the Chaco plotting library, allowing easy integration of interactive graphics. Enaml cleanly exposes the toolkit specific objects that it manages, allowing a user with a large amount of toolkit specific code to continue to use that code with little or no changes. This provides a path forward for both TraitsUI and non-TraitsUI applications.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i2.ytimg.com/vi/ycFEwz_hAxk/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Enaml_A_Framework_for_Building.mp4?Signature=08ekMtS%2FwDm0cg0G84k%2FIsD378g%3D&Expires=1346382959&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=ycFEwz_hAxk", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=ycFEwz_hAxk", 
+  "tags": [
+    "visualization"
+  ], 
+  "speakers": [
+    "S. Chris Colbert"
+  ], 
+  "recorded": "2012-07-19"
+}

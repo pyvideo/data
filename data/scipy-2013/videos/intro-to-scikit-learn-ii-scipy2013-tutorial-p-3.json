@@ -1,0 +1,26 @@
+{
+  "id": 2144, 
+  "category": "SciPy 2013", 
+  "slug": "intro-to-scikit-learn-ii-scipy2013-tutorial-p-3", 
+  "title": "Intro to scikit-learn (II), SciPy2013 Tutorial, Part 2 of 2", 
+  "summary": "Presenters: Ga\u00ebl Varoquaux, Jake Vanderplas, Olivier Grisel\n\nDescription\n\nMachine Learning is the branch of computer science concerned with the development of algorithms which can learn from previously-seen data in order to make predictions about future data, and has become an important part of research in many scientific fields. This set of tutorials will introduce the basics of machine learning, and how these learning tasks can be accomplished using Scikit-Learn, a machine learning library written in Python and built on NumPy, SciPy, and Matplotlib. By the end of the tutorials, participants will be poised to take advantage of Scikit-learn's wide variety of machine learning algorithms to explore their own data sets. The tutorial will comprise two sessions, Session I in the morning (intermediate track), and Session II in the afternoon (advanced track). Participants are free to attend either one or both, but to get the most out of the material, we encourage those attending in the afternoon to attend in the morning as well.\n\nSession II will build upon Session I, and assume familiarity with the concepts covered there. The goals of Session II are to introduce more involved algorithms and techniques which are vital for successfully applying machine learning in practice. It will cover cross-validation and hyperparameter optimization, unsupervised algorithms, pipelines, and go into depth on a few extremely powerful learning algorithms available in Scikit-learn: Support Vector Machines, Random Forests, and Sparse Models. We will finish with an extended exercise applying scikit-learn to a real-world problem.\n\nOutline\n\nTutorial 2 (advanced track)\n\n0:00 - 0:30 -- Model validation and testing\nBias, Variance, Over-fitting, Under-fitting\nUsing validation curves & learning to improve your model\nExercise: Tuning a random forest for the digits data\n0:30 - 1:30 -- In depth with a few learners\nSVMs and kernels\nTrees and forests\nSparse and non-sparse linear models\n1:30 - 2:00 -- Unsupervised Learning\nExample of Dimensionality Reduction: hand-written digits\nExample of Clustering: Olivetti Faces\n2:00 - 2:15 -- Pipelining learners\nExamples of unsupervised data reduction followed by supervised learning.\n2:15 - 2:30 -- Break (possibly in the middle of the previous section)\n2:30 - 3:00 -- Learning on big data\nOnline learning:\nMiniBatchKmeans\nStochastic Gradient Descent for linear models\nData-reducing transforms: random-projections\n3:00 - 4:00 -- Parallel Machine Learning with IPython\nIPython.parallel, a short primer\nParallel Model Assessment and Selection\nRunning a cluster on the EC2 cloud using StarCluster\n\nhttps://github.com/jakevdp/sklearn_scipy2013\n\nRequired Packages\n\nThis tutorial will use Python 2.6 / 2.7, and require recent versions of numpy (version 1.5+), scipy (version 0.10+), matplotlib (version 1.1+), scikit-learn (version 0.13.1+), and IPython (version 0.13.1+) with notebook support. The final requirement is particularly important: participants should be able to run IPython notebook and create & manipulate notebooks in their web browser. The easiest way to install these requirements is to use a packaged distribution: we recommend Anaconda CE, a free package provided by Continuum Analytics: http://continuum.io/downloads.html or the Enthought Python Distribution: http://www.enthought.com/products/epd_free.php", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/kTLyp10FD60/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=kTLyp10FD60", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=kTLyp10FD60", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-06-27"
+}

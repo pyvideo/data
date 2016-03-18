@@ -1,0 +1,26 @@
+{
+  "id": 2132, 
+  "category": "SciPy 2013", 
+  "slug": "pyop2-a-framework-for-performance-portable-unstr-1", 
+  "title": "PyOP2: a Framework for Performance-Portable Unstructured Mesh-based Simulations, SciPy 2013", 
+  "summary": "Authors: Rathgeber, Florian, Imperial College London, UK; Markall, Graham R., Imperial College London, UK; Mi\n\nTrack: General\n\nWe present PyOP2, a high-level domain-specific language embedded in Python for mesh-based simulation codes. Through a simple interface, numerical kernels are efficiently scheduled and executed over unstructured meshes in parallel. Without any code changes required, an application can run on a range of hardware platforms, while implementation details of the parallel execution are abstracted from the programmer. Performance portability is achieved by generating optimized low-level OpenMP, MPI, CUDA or OpenCL code for multi-core CPUs or GPUs at runtime and just-in-time compiling the generated code.\n\nPyOP2 is suitable as an intermediate representation for scientific computations, which we demonstrate with a finite-element tool chain using the domain-specific Unified Form Language UFL and the form compiler FFC from the FEniCS project. Finite-element methods are widely used to approximately solve partial differential equations on unstructured domains. The local assembly operation executes the same kernel for every entity of the mesh and is therefore a natural fit for the PyOP2 computation model. We show how these kernels are generated automatically from the weak form of an equation given in UFL. Global assembly and linear solves are passed through to platform-specific linear algebra backends integrated into PyOP2 through a modular interface. Using this tool chain, scientists can drive finite-element computations from an input notation very close to the mathematical model and transparently benefit from performance-portable parallel execution on their hardware architecture of choice without requiring specialist knowledge in numerical analysis or parallel programming.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/W0u4vW_eJc4/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=W0u4vW_eJc4", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=W0u4vW_eJc4", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-01"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 2010, 
+  "category": "SciPy 2013", 
+  "slug": "the-dynd-library-scipy-2013-presentation", 
+  "title": "The DyND Library; SciPy 2013 Presentation", 
+  "summary": "Authors: Wiebe, Mark, Continuum Analytics\n\nTrack: General\n\nThe DyND library is a component of Blaze, providing an in-memory data structure which is dynamic, multidimensional, and array-oriented. It generalizes the data model of NumPy and Python's buffer protocol by dynamically composing data types and associated metadata like dimension sizes and strides. This adds flexibility to the system without requiring significant performance compromises. For example, variable-sized dimensions can be used to create ragged arrays, operated on just like fixed-size dimensions. DyND supports the NumPy set of data types, together with a growing list of additions like variable-sized strings, pointers, and a categorical type. Expression data types allow for both reading and writing from one type stored as another type under the hood. A date, with all its associated functions and properties, may be stored as a string or a struct. Expressions are evaluated in a lazy fashion, so multiple element-wise operations are fused similar to the numexpr library. DyND is written as a pure C++ library, with bindings for Python as a separate component. Its usage syntax is quite similar in Python and C++, making it easier for programmers to switch between the languages with code in the same high level style, only delving into the lower level details when necessary.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/BduIKN5mgvU/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=BduIKN5mgvU", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=BduIKN5mgvU", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-02"
+}

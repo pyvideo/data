@@ -1,0 +1,30 @@
+{
+  "id": 2708, 
+  "category": "SciPy 2014", 
+  "slug": "hdf5-is-for-lovers-part-2", 
+  "title": "HDF5 is for Lovers part 2", 
+  "summary": "HDF5 is a hierarchical, binary database format that has become the de facto standard for \r\nscientific computing. While the spec may be used in a relatively simple way it also supports several high-level features that prove invaluable. HDF5 bindings exist for almost every language - including two Python libraries (PyTables and h5py). This tutorial will cover HDF5 through the lens of PyTables.", 
+  "description": "Description\r\n------------\r\nHDF5 is a hierarchical, binary database format that has become the de facto standard for \r\nscientific computing.  While the specification may be used in a relatively simple way \r\n(persistence of static arrays) it also supports several high-level features that prove \r\ninvaluable.  These include chunking, ragged data, extensible data, parallel I/O, \r\ncompression, complex selection, and in-core calculations.  Moreover, HDF5 bindings\r\nexist for almost every language - including two Python libraries (PyTables and h5py). This tutorial will cover HDF5 itself through the lens of PyTables.\r\n\r\nThis tutorial will discuss tools, strategies, and hacks for really squeezing every ounce\r\nof performance out of HDF5 in new or existing projects.  It will also go over fundamental \r\nlimitations in the specification and provide creative and subtle strategies for getting around \r\nthem.  Overall, this tutorial will show how HDF5 plays nicely with all parts of an application \r\nmaking the code and data both faster and smaller.  With such powerful features at the \r\ndeveloper's disposal, what is not to love?!\r\n\r\nKnowledge of Python, NumPy, C or C++, and basic HDF5 is recommended but not required.\r\n\r\nOutline\r\n--------------\r\n* Meaning in layout (20 min)\r\n\r\n    - Tips for choosing your hierarchy\r\n\r\n* Advanced datatypes (20 min)\r\n\r\n    - Tables\r\n    - Nested types\r\n    - Tricks with malloc() and byte-counting\r\n\r\n* **Exercise on above topics** (20 min)\r\n\r\n* Chunking (20 min)\r\n\r\n    - How it works\r\n    - How to properly select your chunksize\r\n\r\n* Queries and Selections (20 min)\r\n\r\n    - In-core vs Out-of-core calculations\r\n    - PyTables.where()\r\n    - Datasets vs Dataspaces\r\n\r\n* **Exercise on above topics** (20 min)\r\n\r\n* The Starving CPU Problem (1 hr)\r\n\r\n    - Why you should always use compression\r\n    - Compression algorithms available\r\n    - Choosing the correct one\r\n    - Exercise\r\n\r\n* Integration with other databases (1 hr)\r\n\r\n    - Migrating to/from SQL\r\n    - HDF5 in other databases (JSON example)\r\n    - Other Databases in HDF5 (JSON example)\r\n    - Exercise\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/EcM6g9Yp004/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=EcM6g9Yp004", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=EcM6g9Yp004", 
+  "tags": [
+    "HDF5", 
+    "PyTables", 
+    "tutorial"
+  ], 
+  "speakers": [
+    "Anthony Scopatz"
+  ], 
+  "recorded": "2014-07-09"
+}

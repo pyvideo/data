@@ -1,0 +1,26 @@
+{
+  "id": 2782, 
+  "category": "SciPy 2014", 
+  "slug": "cartopy", 
+  "title": "Cartopy", 
+  "summary": "Cartopy is a Python package which builds on Proj.4 to define coordinate reference systems for the transformation and visualisation of geospatial data. It has a simple matplotlib interface for publication quality visualisation. This talk will outline some of cartopy's functionality and demonstrate some practical applications within the realm of scientific presentation of geospatial data.", 
+  "description": "The practice of representing geospatial data upon a flat surface is known as\r\ncartography, and the topological implications of projecting fundamentally 3D\r\ndata onto a 2 dimensional surface has been the challenge of map-makers since\r\ntime immemorial. Geospatial visualisation software is often implemented without\r\nconsideration for the 3rd dimension and this commonly results in problems\r\naround the dateline or at the poles. For small areas these problems are often\r\nnot apparent and mostly surmountable, but at a global scale, such as when\r\nvisualising output from GCMs (General circulation models), the underlying\r\nrepresentation must be addressed head-on in order to visualise the data\r\n\"impact free\".\r\n\r\nCartopy is a Python package which builds on top of\r\nProj.4 to define coordinate reference systems for the transformation and\r\nvisualisation of geospatial data. As well as the fundamental transformations\r\nthere is also a matplotlib interface allowing easy generation of maps with the\r\nsame publication quiality expected of matplotlib. Cartopy employs several\r\ntechniques to handle geospatial data correctly, including true spherical\r\ninterpolation for raster data, and Shapely geometry interpolate-and-cut\r\ntransformations for geospatial vector data.\r\n\r\nThis talk will outline some\r\nof the capabilities of cartopy, and continue onto its practical application\r\nwithin the realm of scientific presentation of geospatial data.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/Ax75kA4_kRo/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=Ax75kA4_kRo", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=Ax75kA4_kRo", 
+  "tags": [], 
+  "speakers": [
+    "Richard Hattersley"
+  ], 
+  "recorded": "2014-07-14"
+}

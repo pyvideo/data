@@ -1,0 +1,26 @@
+{
+  "id": 1993, 
+  "category": "SciPy 2013", 
+  "slug": "dmtcp-bringing-checkpoint-restart-to-python-sci", 
+  "title": "DMTCP: Bringing Checkpoint-Restart to Python; SciPy 2013 Presentation", 
+  "summary": "Authors: Arya, Kapil, Northeastern University; Cooperman, Gene, Northeastern University\n\nTrack: General\n\nDMTCP[1] is a mature user-space checkpoint-restart package. One can think of checkpoint-restart as a generalization of pickling. Instead of saving an object to a file, one saves the entire Python session to a file. Checkpointing Python visualization software is as easy as checkpointing a VNC session with Python running inside.\n\nA DMTCP plugin can be built in the form of a Python module. This Python module provides functions by which a Python session can checkpoint itself to disk. The same ideas extend to IPython.\n\nTwo classical uses of this feature are a saveWorkspace function (including visualization and the distributed processes of IPython). In addition, at least three novel uses of DMTCP for helping debug Python are demonstrated.\n\nFReD[2] --- a Fast Reversible Debugger that works closely with the Python pdb debugger, as well as other Python debuggers.\n\nReverse Expression Watchpoint --- A bug occurred in the past. It is associated with the point in time when a certain expression changed. Bring the user back to a pdb session at the step before the bug occurred.\n\nFast/Slow Computation[3] --- Cython provides both traditional interpreted functions and compiled C functions. Interpreted functions are slow, but correct. Compiled functions are fast, but users sometimes define them incorrectly, whereupon the compiled function silently returns a wrong answer. The idea of fast/slow computation is to run the compiled version on one core, with checkpoints at frequent intervals, and to copy a checkpoint to another core. The second core re-runs the computation over that interval, but in interpreted mode.\n\n[1]DMTCP: Transparent Checkpointing for Cluster Computations and the Desktop. Ansel, Arya, Cooperman. IPDPS-2009 http://dmtcp.sourceforge.net/ [2]FReD: Automated Debugging via Binary Search through a Process Lifetime http://arxiv.org/abs/1212.5204 [3]Distributed Speculative Parallelization using Checkpoint Restart, Ghoshal et al. Procedia Computer Science, 2011.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/1l_wGZz0JEE/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=1l_wGZz0JEE", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=1l_wGZz0JEE", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-02"
+}

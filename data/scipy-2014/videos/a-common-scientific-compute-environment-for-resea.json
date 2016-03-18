@@ -1,0 +1,29 @@
+{
+  "id": 2718, 
+  "category": "SciPy 2014", 
+  "slug": "a-common-scientific-compute-environment-for-resea", 
+  "title": "A Common Scientific Compute Environment for Research and Education", 
+  "summary": "I provide an overview of the challenges we\u2019ve tackled at UC Berkeley deploying scientific compute environments in both educational and research contexts. After a discussion of how these needs can be served by devops tools like Docker and Ansible, I argue that a coherent, easy-to-understand philosophy around reproducible compute environments is fundamental.\r\n", 
+  "description": "As the line between developer and researcher becomes ever more blurred, the challenge of sharing your compute environment with students and colleagues becomes ever more complex. Large, private organizations have been grappling with this issue for a while, spawning a great deal of enthusiasm around tools like Docker, Puppet, Vagrant, and Packer. And let\u2019s not forget notable python-based upstarts, Ansible and Salt! These tools can generate immense enthusiasm, followed by the question, \u201cWhy are we doing this?\u201d\r\n\r\nThe problem is that researcher / developers can become overwhelmed by the complexity and variety inherent in devops tools - all the while losing sight of the real reason for using these tools: a philosophy of documenting your research compute environments in a reproducible fashion, with a focus on scripting as much as is reasonable.\r\n\r\nAt UC Berkeley, members of the D-Lab, the Statistical Compute Facility, Computer Science and Research IT have organized a project to develop the Berkeley Common Environment (BCE). I\u2019ll provide an overview of the challenges we\u2019ve tackled in both educational and research contexts, and the needs served by the above-mentioned devops tools. In the end, I argue that a coherent, easy-to-understand philosophy around scientific compute environments is fundamental - the tools are just a way to make your collaboration architecture a little easier for the people building these environments a few times a year. What we should focus on, though, is end-user experience and research community buy-in.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/e7jaZ5SFvFk/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=e7jaZ5SFvFk", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=e7jaZ5SFvFk", 
+  "tags": [
+    "devops", 
+    "reproducible research"
+  ], 
+  "speakers": [
+    "Dav Clark"
+  ], 
+  "recorded": "2014-07-09"
+}

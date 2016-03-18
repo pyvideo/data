@@ -1,0 +1,31 @@
+{
+  "id": 505, 
+  "category": "PyOhio 2010", 
+  "slug": "pyohio-2010--building-your-own-kind-of-dictionary", 
+  "title": "PyOhio 2010: Building your own kind of dictionary", 
+  "summary": "", 
+  "description": "Building your own kind of dictionary\n\nPresented by W. Matthew Wilson\n\nMy talk is based on a project that seemed very simple at first. I wanted an\nobject like the regular python dictionary, but with a few small tweaks:\n\n  * values for some keys should be restricted to elements of a set \n  * values for some keys should be restricted to instances of a type \n\nFor example, pretend I want a dictionary called favorites, and I want the\nvalue for the \"color\" key to be any instance of my Color class. Meanwhile, for\nthe \"movie\" key, I want to make sure that the value belongs to my set of\nmovies.\n\nIn the talk, I'll walk through how I used tests to validate my different\nimplementations until I came up with a winner.\n\nUnlike my talk last year on metaclass tomfoolery, and the year before that on\nfun with decorators (and decorator factories) I'm hoping to make this talk\nstraightforward and friendly to beginning programmers.\n\nYou'll see:\n\n  * how I use tests to solve a real-world problem \n  * a few little gotchas with the super keyword \n  * a little about how python works under the hood. \n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
+  "thumbnail_url": "http://a.images.blip.tv/Pyohio-BuildingYourOwnKindOfDictionary566.png", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pyohio-2010/505_pyohio-2010-building-your-own-kind-of-dictionary.flv", 
+      "length": null, 
+      "type": "flv"
+    }
+  ], 
+  "source_url": "", 
+  "tags": [
+    "dict", 
+    "dictionaries", 
+    "pyohio", 
+    "pyohio2010"
+  ], 
+  "speakers": [
+    "W. Matthew Wilson"
+  ], 
+  "recorded": null
+}

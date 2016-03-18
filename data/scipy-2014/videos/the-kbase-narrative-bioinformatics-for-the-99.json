@@ -1,0 +1,28 @@
+{
+  "id": 2762, 
+  "category": "SciPy 2014", 
+  "slug": "the-kbase-narrative-bioinformatics-for-the-99", 
+  "title": "The KBase Narrative Bioinformatics for the 99%", 
+  "summary": "The KBase Narrative builds on the IPython Notebook to provide a multi-user, virtualized Bioinformatics Laboratory Notebook that brings Experimental/Wetlab Biologists, students and the bio-curious into the world of Computational Biology. Tools for genome annotation, visualization, metabolic modeling and more are made available in a collaborative and educational web interface.", 
+  "description": "Computional Biology and Experimental Biology are two specialities that would deeply\r\nbenefit from more interaction - computationalists need access to data, biologists in\r\nwetlabs need computational tools. The KBase Narrative is a computerized laboratory\r\nnotebook that puts the power of the KBase predictive biology platform into the hands of\r\nexperimentalists and students. KBase provides cluster computation, analysis and modeling pipelines,\r\nlarge public datasets and a \"pluggable\" architecture for future services. The Narrative\r\nis an interface enabling the sharing of data, approaches and workflows on KBase. It\r\nalso serves as a teaching tool and publishing platform, allowing other scientists and\r\nstudents to observe and reproduce the processes that led to the published result.\r\n\r\nThe KBase Narrative is based on the IPython Notebook, extended in the following ways:\r\n\r\n* Notebooks are stored in a remote object store that enables versioning, provenance and sharing\r\n* Support for multiple users has been added, based on OAuth authentication against a \"cloud\" authentication service (Globus Online)\r\n* A framework for dynamically building form inputs for services using Python introspection and the IPython Traitlets package (a version of Traits) and displaying the output in JS visualization widgets\r\n* A Docker based provisioning system that builds and tears down sandboxed IPython Notebook servers on demand, providing a scalable, reasonable safe and easy to use environment for running hosted IPython notebooks with much smaller overhead than VM's\r\n* A heavily modified user interface that has been designed to support computational biology workflows\r\n\r\nThe current KBase Narrative was developed over the span of roughly 6 months by a small\r\nteam of developers and user interface experts - the short time scale was possible due to the\r\nhuge amount of functionality already provided by the IPython Notebook, and taking advantage\r\nof the productivity and power of the Python language.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/52uP6NZa8rE/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=52uP6NZa8rE", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=52uP6NZa8rE", 
+  "tags": [
+    "bioinformatics"
+  ], 
+  "speakers": [
+    "Bill Rihl"
+  ], 
+  "recorded": "2014-07-14"
+}

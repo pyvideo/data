@@ -1,0 +1,30 @@
+{
+  "id": 2735, 
+  "category": "SciPy 2014", 
+  "slug": "conda-a-cross-platform-package-manager-for-any-b", 
+  "title": "Conda: A Cross Platform Package Manager for any Binary Distribution", 
+  "summary": "Conda is an open source package manager, which can be used to manage binary packages and virtual environments on any platform. It is the package manager of the Anaconda Python distribution, although it can be used independently of Anaconda.  We will look at how conda solves many of the problems that have plagued Python packaging in the past, followed by a demonstration of its features.", 
+  "description": "We will look at the issues that have plagued packaging in the Python ecosystem in the past, and discuss how Conda solves these problems. We will show how to use conda to manage multiple environments. Finally, we will look at how to build your own conda packages. \r\n\r\n- What is the packaging problem? We will briefly look at the history of the problem and the various solutions to it.  There are two sides to the packaging problem: the problem of installing existing packages and the problem of building packages to be installed. We look at the history of distutils, setuptools, distribute, and pip, the some of the problems they solved, and issues that arose, particularly for the scientific Python community. \r\n\r\n- We will look at the conda package format, the design decisions that guided the format, and the implications of those decisions. A conda package is a bz2 compressed tarfile of all the files installed in a prefix, along with a metadata directory for the package. A conda package is typically installed by hard linking these files into the install prefix. Conda packages should be relocatable, so that they can be installed into any prefix. This allows conda packages to be installed into many virtual environments at once. A conda package is not Python specific. \r\n\r\n- We will look at how basic commands for installation and environment management. Conda uses a SAT solver to solve package dependency constraints, which is a simple, rigorous, and modern way to ensure that the set of packages that are installed are consistent with one another. \r\n\r\n- Conda has an extensive build framework which allows anybody to build their own conda packages. We will show how to use these tools and how to upload them to Binstar, a free packaging hosting service.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/UaIvrDWrIWM/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=UaIvrDWrIWM", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=UaIvrDWrIWM", 
+  "tags": [
+    "conda", 
+    "packaging"
+  ], 
+  "speakers": [
+    "Aaron Meurer", 
+    "Ilan Schnell"
+  ], 
+  "recorded": "2014-07-09"
+}

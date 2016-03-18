@@ -1,0 +1,28 @@
+{
+  "id": 2790, 
+  "category": "SciPy 2014", 
+  "slug": "geopandas-geospatial-data-pandas", 
+  "title": "GeoPandas: Geospatial Data + Pandas", 
+  "summary": "GeoPandas extends the pandas data analysis library to work with geographic objects.", 
+  "description": "[GeoPandas](https://github.com/kjordahl/geopandas) is a library built on top of pandas to extend its capabilities to allow spatial calculations.  The two main datatypes are `GeoSeries` and `GeoDataFrame`, extending pandas `Series` and `DataFrame`, respectively.  A `GeoSeries` contains a collection of geometric objects (such as `Point`, `LineString`, or `Polygon`) and implements nearly all `Shapely` operations.  These include unary operations (e.g. `centroid`), binary operations (e.g. `distance`, either elementwise to another `GeoSeries` or to a single geometry), and cumulative operations (e.g. `unary_union` to combine all items to a single geometry).\r\n\r\nA `GeoDataFrame` object contains a column of geometries (itself a `GeoSeries`) that has special meaning.  GeoDataFrames can be easily created from spatial data in other formats, such as shapefiles.  Rows in the `GeoDataFrame` represent features, and columns represent attributes.  Pandas' grouping and aggregation methods are also supported.\r\n\r\nGeoPandas objects can optionally be aware of coordinate reference systems (by adding a `crs` attribute) and transformed between map projections.  Basic support for plotting is included with GeoPandas.  Other features include geocoding, export to GeoJSON, and retrieving data from a PostGIS spatial database.\r\n\r\nThis talk will describe the main features of GeoPandas and show examples of its use.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/IJY6duEQVy0/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=IJY6duEQVy0", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=IJY6duEQVy0", 
+  "tags": [
+    "gis"
+  ], 
+  "speakers": [
+    "Kelsey Jordahl"
+  ], 
+  "recorded": "2014-07-13"
+}

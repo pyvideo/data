@@ -1,0 +1,29 @@
+{
+  "id": 2759, 
+  "category": "SciPy 2014", 
+  "slug": "bayesian-statistical-analysis-using-python-part-0", 
+  "title": "Bayesian Statistical Analysis using Python - Part 2", 
+  "summary": "This hands-on tutorial will introduce statistical analysis in Python using Bayesian methods. Bayesian statistics offer a flexible & powerful way of  analyzing data, but are computationally-intensive, for which Python is ideal. As a gentle introduction, we will solve simple problems using NumPy and SciPy, before moving on to Markov chain Monte Carlo methods to build more complex models using PyMC.", 
+  "description": "The aim of this course is to introduce new users to the Bayesian approach of statistical modeling and analysis, so that they can use Python packages such as NumPy, SciPy and [PyMC](https://github.com/pymc-devs/pymc) effectively to analyze their own data. It is designed to get users quickly up and running with Bayesian methods, incorporating just enough statistical background to allow users to understand, in general terms, what they are implementing. The tutorial will be example-driven, with illustrative case studies using real data. Selected methods will include approximation methods, importance sampling, Markov chain Monte Carlo (MCMC) methods such as Metropolis-Hastings and Slice sampling. In addition to model fitting, the tutorial will address important techniques for model checking, model comparison, and steps for preparing data and processing model output. Tutorial content will be derived from the instructor's book *Bayesian Statistical Computing using Python*, to be published by Springer in late 2014.\r\n\r\n![PyMC forest plot](http://d.pr/i/pqWT+)\r\n\r\n![DAG](http://d.pr/i/AHZV+)\r\n\r\nAll course content will be available as a GitHub repository, including IPython notebooks and example data.\r\n\r\n## Tutorial Outline\r\n\r\n1.  Overview of Bayesian statistics.\r\n2.  Bayesian Inference with NumPy and SciPy\r\n3.  Markov chain Monte Carlo (MCMC)\r\n4.  The Essentials of PyMC\r\n5.  Fitting Linear Regression Models\r\n6.  Hierarchical Modeling\r\n7.  Model Checking and Validation\r\n\r\n## Installation Instructions\r\n\r\nThe easiest way to install the Python packages required for this tutorial is via [Anaconda](https://store.continuum.io/cshop/anaconda/), a scientific Python distribution offered by Continuum analytics. Several other tutorials will be recommending a similar setup. \r\n\r\nOne of the key features of Anaconda is a command line utility called `conda` that can be used to manage third party packages. We have built a PyMC package for `conda` that can be installed from your terminal via the following command:\r\n\r\n    conda install -c https://conda.binstar.org/pymc pymc\r\n\r\nThis should install any prerequisite packages that are required to run PyMC.\r\n\r\nOne caveat is that conda does not yet have a build of PyMC for **Python 3**. Therefore, you would have to build it yourself via pip:\r\n\r\n    pip install git+git://github.com/pymc-devs/pymc.git@2.3\r\n\r\nFor those of you on Mac OS X that are already using the [Homebrew](http://brew.sh) package manager, I have prepared a script that will install the entire Python scientific stack, including PyMC 2.3. You can download the script [here](https://gist.github.com/fonnesbeck/7de008b05e670d919b71) and run it via:\r\n\r\n    sh install_superpack_brew.sh", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/gFYPCdWB2-w/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=gFYPCdWB2-w", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=gFYPCdWB2-w", 
+  "tags": [
+    "bayesian", 
+    "statistics"
+  ], 
+  "speakers": [
+    "Chris Fonnesbeck"
+  ], 
+  "recorded": "2014-07-09"
+}

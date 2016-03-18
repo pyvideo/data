@@ -1,0 +1,26 @@
+{
+  "id": 2107, 
+  "category": "SciPy 2013", 
+  "slug": "skdata-data-seets-and-algorithm-evaluation-proto-1", 
+  "title": "Skdata: Data seets and algorithm evaluation protocols in Python; SciPy 2013 Presentation", 
+  "summary": "Authors: Bergstra, James, University of Waterloo: Pinto, Nicolas, Massachusetts Institute of Technology; Cox, David D., Harvard University\n\nTrack: Machine Learning\n\nMachine learning benchmark data sets come in all shapes and sizes, yet classification algorithm implementations often insist on operating on sanitized input, such as (x, y) pairs with vector-valued input x and integer class label y. Researchers and practitioners are well aware of how much work (and even sometimes judgement) is required to get from the URL of a new data set to an ndarray fit for e.g. pandas or sklearn. The skdata library [1] handles that work for a growing number of benchmark data sets, so that one-off in-house scripts for downloading and parsing data sets can be replaced with library code that is reliable, community-tested, and documented.\n\nSkdata consists primarily of independent submodules that deal with individual data sets. Each [new-style] submodule has three important sub-sub-module files:\n\na 'dataset' file with the nitty-gritty details of how to download, extract, and parse a particular data set;\n\na 'view' file with any standard evaluation protocols from relevant literature; and\n\na 'main' file with CLI entry points for e.g. downloading and visualizing the data set.\n\nVarious skdata utilities help to manage the data sets themselves, which are stored in the user's \"~/.skdata\" directory.\n\nThe evaluation protocols represent the logic that turns parsed (but potentially ideosyncratic) data into one or more standardized learning tasks. The basic approach has been developed over years of combined experience by the authors, and used extensively in recent work (e.g. [2]). The presentation will cover the design of data set submodules, and the basic interactions between a learning algorithm and an evaluation protocol.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/u5amehIiImo/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=u5amehIiImo", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=u5amehIiImo", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-01"
+}

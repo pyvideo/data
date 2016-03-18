@@ -1,0 +1,26 @@
+{
+  "id": 1999, 
+  "category": "SciPy 2013", 
+  "slug": "high-performance-reproducible-computing-scipy-20", 
+  "title": "High Performance Reproducible Computing; SciPy 2013 Presentation", 
+  "summary": "Authors: Zhang, Zhang, Intel Corporation; Rosenquist, Todd, Intel Corporation; Moffat, Kent, Intel Corporation\n\nTrack: General\n\nThe call for reproducible computational results in scientific research areas has increasingly resonated in recent years. Given that a lot of research work uses mathematical tools and relies on modern high performance computers for numerical computation, obtaining reproducible floating-point computation results becomes fundamentally important in ensuring that research work is reproducible.\n\nIt is well understood that, generally, operations involving IEEE floating-point numbers are not associative. For example, (a+b)+c may not equal a+(b+c). Different orders of operations may lead to different results. But exploiting parallelism in modern performance-oriented computer systems has typically implied out-of-order execution. This poses a great challenge to researchers who need exactly the same numerical results from run to run, and across different systems.\n\nThis talk describes how to use tools such as Intel\u00ae Math Kernel Library (Intel\u00ae MKL) and Intel\u00ae compilers to build numerical reproducibility into Python based tools. Intel\u00ae MKL includes a feature called Conditional Numerical Reproducibility that allows users to get reproducible floating-point results when calling functions from the library. Intel\u00ae compilers provide broader solutions to ensure the compiler-generated code produces reproducible results. We demonstrate that scientific computing with Python can be numerically reproducible without losing much of the performance offered by modern computers. Our discussion focuses on providing different levels of controls to obtain reproducibility on the same system, across multiple generations of Intel architectures, and across Intel architectures and Intel-compatible architectures. Performance impact of each level of controls is discussed in detail. Our conclusion is that, there is usually a certain degree of trade-off between reproducibility and performance. The approach we take gives the end users many choices of balancing the requirement of reproducible results with the speed of computing.\n\nThis talk uses NumPy/SciPy as an example, but the principles and the methodologies presented apply to any Python tools for scientific computing.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/GIlp4rubv8U/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=GIlp4rubv8U", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=GIlp4rubv8U", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-02"
+}

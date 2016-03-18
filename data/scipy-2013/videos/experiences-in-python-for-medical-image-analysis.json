@@ -1,0 +1,26 @@
+{
+  "id": 1968, 
+  "category": "SciPy 2013", 
+  "slug": "experiences-in-python-for-medical-image-analysis", 
+  "title": "Experiences in Python for Medical Image Analysis; SciPy 2013 Presentation", 
+  "summary": "Authors: Warner, Joshua, Mayo Clinic Department of Biomedical Engineering\n\nTrack: Medical Imaging\n\nUpon entering graduate school and selecting radiology informatics as my topic of study, a broad survey of open source options for scientific work was conducted. There were three main criteria:\n\nrobust numerical and scientific capability,\nstrong user community with continuing updates and long term support, and\nease of use for students transitioning from other languages.\nAmong several strong options that satisfied criteria #1, Python with NumPy and SciPy was the clear winner due to the latter two criteria.\n\nMy work focuses on supervised segmentation of soft-tissue abdominal MRI images, extracting novel image features from these segmented regions of interest, and applying machine learning techniques to evaluate features for predictive ability. This presentation will provide an overview of the key computational tasks required for this work, and outline the challenges facing a medical image researcher using Python. Most notably, medical image volumes are rarely isotropic, yet often algorithms for 3-D NumPy arrays inherently assume isotropic sampling. Thus, generalizing or extending various algorithms to handle anisotropic rectangular sampled data is necessary. Our improvements to one such algorithm were recently contributed back to the community, and are presently incorporated in the random walker segmentation algorithm in Scikit-Image.\n\nAnother significant challenge is visualization of algorithm output for large volumetric datasets. An extensible tool we call volview was developed, allowing fast visualization of an entire volume and an arbitrary number of colored, alpha-blended overlays, combining the abilities of NumPy, Pyglet, and PygArrayImage. This improved speed and quality of algorithm development, and facilitated review of our results by clinicians.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/1_0JILf0ufg/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=1_0JILf0ufg", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=1_0JILf0ufg", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-02"
+}

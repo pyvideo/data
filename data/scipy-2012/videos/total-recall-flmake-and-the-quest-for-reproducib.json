@@ -1,0 +1,33 @@
+{
+  "id": 1223, 
+  "category": "SciPy 2012", 
+  "slug": "total-recall-flmake-and-the-quest-for-reproducib", 
+  "title": "Total Recall: flmake and the Quest for Reproducibility", 
+  "summary": "", 
+  "description": "[FLASH](http://flash.uchicago.edu/site/) is a high-performance computing (HPC)\nmulti-physics code which is used to perform astrophysical and high-energy\ndensity physics simulations. It runs on the full range of systems from laptops\nto workstations to 100,000 processor super computers - such as the Blue Gene/P\nat Argonne National Laboratory.\n\nHistorically, FLASH was born from a collection of unconnected legacy codes\nwritten primarily in Fortran and merged into a single project. Over the past\n13 years major sections have been rewritten in other languages. For instance,\nI/O is now implemented in C. However building, testing, and documentation are\nall performed in Python.\n\nFLASH has a unique architecture which compiles _simulation specific_\nexecutables for each new type of run. This is aided by an object-oriented-\nesque inheritance model that is implemented by inspecting the file system's\ndirectory hierarchy. This allows FLASH to compile to faster machine code than\na compile-once strategy. However it also places a greater importance on the\nPython build system.\n\nTo run a FLASH simulation, the user must go through three basic steps: setup,\nbuild, and execution. Canonically, each of these tasks are independently\nhandled by the user. However, with the recent advent of [flmake](http://flash.\nuchicago.edu/site/flashcode/user_support/tools4b/usersguide/flmake/index.htm)\n- a Python workflow management utility for FLASH - such tasks may now be\nperformed in a repeatable way.\n\nPrevious workflow management tools have been written for FLASH. (For example,\nthe \"Milad system\" was implemented entirely in Makefiles.) However, none of\nthe priorattempts have placed reproducibility as their primary concern. This\nis in part becausefully capturing the setup metadata requires alterations to\nthe build system.\n\nThe development of flmake started by rewriting the existing build systemto\nallow FLASH to be run outside of the main line subversion repository. It\nseparates outproject and simulation directories independent of the FLASH\nsource directory. Thesedirectories are typically under their own version\ncontrol.\n\nMoreover for each of the important tasks (setup, build, run, etc), a sidecar\nmetadata _description_ file is either written or appended to. This is a simple\ndictionary-of-dictionaries JSON file which stores the environment of the\nsystem and the state of the code when each flmake command is run. This\nmetadata includes the version information of both the FLASH main line and\nproject repositories. However, it also may include _all_ local modifications\nsince the last commit. A patch is automatically generated using the Python\nstandard library `difflib` module and stored directly in the description.\n\nAlong with universally unique identifiers, logging, and Python run control\nfiles, the flmake utility may use the description files to fully reproduce a\nsimulation by re-executing each command in its original environment and state.\nWhile `flmake reproduce` makes a useful debugging tool, it fundamentally\nincreases the scientific merit of FLASH simulations.\n\nThe methods described above may be used whenever source code itself is\ndistributed. While this is true for FLASH (uncommon amongst compiledcodes),\nmost Python packages also distribute their source. Therefore the same\nreproducibility strategy is applicable and highly recommended for Python\nsimulation codes. Thus flmake shows that reproducibility - which is notably\nabsent from most computational science projects - is easily attainable using\nonly version control and standard library modules.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i4.ytimg.com/vi/ce4UU0ltbPA/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Total_Recall_flmake_and_the_Quest_for_Reproducibility.mp4?Signature=RXHp35B0p8ekEKA0Uds%2F6w73sRs%3D&Expires=1346382337&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=ce4UU0ltbPA", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=ce4UU0ltbPA", 
+  "tags": [
+    "General"
+  ], 
+  "speakers": [
+    "Anthony Scopatz"
+  ], 
+  "recorded": "2012-07-19"
+}

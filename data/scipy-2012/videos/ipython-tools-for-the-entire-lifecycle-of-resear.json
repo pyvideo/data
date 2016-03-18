@@ -1,0 +1,37 @@
+{
+  "id": 1221, 
+  "category": "SciPy 2012", 
+  "slug": "ipython-tools-for-the-entire-lifecycle-of-resear", 
+  "title": "IPython: tools for the entire lifecycle of research computing", 
+  "summary": "", 
+  "description": "IPython started as a better interactive Python interpreter in 2001, but over\r\nthe last decade it has grown into a rich and powerful set of interlocking\r\ntools aimed at enabling an efficient, fluid and productive workflow in the\r\ntypical use cases encountered by scientists in everyday research.\r\n\r\nToday, IPython consists of a kernel executing user code and capable of\r\ncommunicating with a variety of clients, using ZeroMQ for networking via a\r\nwell-documented protocol. This enables IPython to support, from a single\r\ncodebase, a rich variety of usage scenarios through user-facing applications\r\nand an API for embedding:\r\n\r\n  * An interactive, terminal-based shell with many capabilities far beyond the default Python interactive interpreter (this is the default application opened by the `ipython` command that most users are familiar with).\r\n  * A Qt console that provides the look and feel of a terminal, but adds support for inline figures, graphical calltips, a persistent session that can survive crashes of the kernel process, and more.\r\n  * A web-based notebook that can execute code and also contain rich text and figures, mathematical equations and arbitrary HTML. This notebook presents a document-like view with cells where code is executed but that can be edited in-place, reordered, mixed with explanatory text and figures, etc.\r\n  * A high-performance, low-latency system for parallel computing that supports the control of a cluster of IPython engines communicating over ZeroMQ, with optimizations that minimize unnecessary copying of large objects (especially numpy arrays).\r\n\r\nIn this talk we will show how IPython supports all stages in the lifecycle of\r\na scientific idea: individual exploration, collaborative development, large-\r\nscale production using parallel resources, publication and education. In\r\nparticular, the IPython Notebook supports multiuser collaboration and allows\r\nscientists to share their work in an open document format that is a true\r\n\"executable paper\": notebooks can be version controlled, exported to HTML or\r\nPDF for publication, and used for teaching. We will demonstrate the key\r\nfeatures of the system,\r\n\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i2.ytimg.com/vi/iwVvqwLDsJo/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/IPython_tools_for_the_entire_lifecycle_of_research_computing.mp4?Signature=AgDUtK60kAvr4De7J2V6xj%2FZSxU%3D&Expires=1346382215&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=iwVvqwLDsJo", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=iwVvqwLDsJo", 
+  "tags": [
+    "General"
+  ], 
+  "speakers": [
+    "Brian Granger", 
+    "Evan Patterson", 
+    "Fernando P\u00e9rez", 
+    "Min Ragan-Kelley", 
+    "Thomas Kluyver"
+  ], 
+  "recorded": "2012-07-19"
+}

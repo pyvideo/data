@@ -1,0 +1,26 @@
+{
+  "id": 2864, 
+  "category": "SciPy 2014", 
+  "slug": "time-series-analysis-network-security", 
+  "title": "Time Series Analysis for Network Security", 
+  "summary": "Endgame seeks to develop products that allow customers to gain visibility into their networks and discover anomalies. I will describe how Endgame brings together various Python packages (scipy, pandas, statsmodels, kairos, etc...) in order to collect, record, and then analyze time series that are collected from network security data feeds.", 
+  "description": "In this talk, I will describe how Endgame has brought together many different Python tools in order to solve the problem of detecting outliers in network security data.\r\n\r\nThe first step in this process is collecting and storing the metrics that will form a time series. Here, I will describe how Endgame plugs into the flow of network data and then stores that data. (Python packages: elasticsearch, pyspark, kairos)\r\n\r\nThe next step is applying a Fourier transform in order to classify time series that exhibit daily and weekly patterns. This information is especially useful in deciding how to characterize a time series's past behavior and thus judge how unusual new data is. (Python package: numpy)\r\n\r\nFinally, exponentially weighted moving averages and standard deviations are calculated in different ways depending on how the time series was classified. For example, if strong daily patterns are present, the data is stacked by daily time bin and moving averages are calculated within each time bin. Corrections for weekend and weekday behavior are also applied if necessary. Autoregressive moving average models are also used and the performance of each algorithm is gauged and compared (Python packages: pandas, scikits.statsmodels).\r\n\r\nThe final result of this process is a list of outliers and their severity. Further algorithms will judge what outliers are serious enough to present to users.", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i.ytimg.com/vi/ZSM-tmbBZ5E/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=ZSM-tmbBZ5E", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=ZSM-tmbBZ5E", 
+  "tags": [], 
+  "speakers": [
+    "Phil Roth"
+  ], 
+  "recorded": null
+}

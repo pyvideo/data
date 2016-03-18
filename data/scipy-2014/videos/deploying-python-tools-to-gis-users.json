@@ -1,0 +1,28 @@
+{
+  "id": 2775, 
+  "category": "SciPy 2014", 
+  "slug": "deploying-python-tools-to-gis-users", 
+  "title": "Deploying Python Tools to GIS Users", 
+  "summary": "The geospatial community has coalesced around Python, both in the commercial and open source spaces. In this talk, I'll show how Python tools can be shared with users of ArcGIS, a commercial GIS system which uses Python as its primary development environment. By constructing small Python wrappers, code can be shared in graphical tools which enable non-programmers to use what you've built.", 
+  "description": "Geospatial data is frequently manipulated directly using Python tools, commonly\r\nbuilt on top of powerful libraries such as GDAL, GEOS and NetCDF. Delivering\r\nmodel results to end users in many instances requires providing tools in\r\nfamiliar graphical environments, such as desktop GIS systems, which can permit\r\nusers without programming knowledge to integrate models and results into their\r\nexisting scientific workflows. This talk discusses how to construct simple\r\nwrappers around existing Python programs to enable their use by ArcGIS, a\r\ncommonly used commercial GIS.\r\n\r\nTwo separate approaches will be\r\nillustrated: creating Python toolboxes, or collections of tools embeddable in\r\nworkflows, and creating customized Python graphical add-ins, which can control\r\nthe graphical environment provided within ArcGIS. Building contextual help,\r\ninteractive widgets, and leveraging `numpy` for direct data integration will be\r\ndiscussed. While ArcGIS exposes much of its functionality via the `ArcPy`\r\npackage, this talk instead focuses on integrating code from other environments,\r\nand doesn't presume existing ArcGIS expertise.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/_rMNUAtLnPw/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=_rMNUAtLnPw", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=_rMNUAtLnPw", 
+  "tags": [
+    "gis"
+  ], 
+  "speakers": [
+    "Shaun Walbridge"
+  ], 
+  "recorded": "2014-07-14"
+}

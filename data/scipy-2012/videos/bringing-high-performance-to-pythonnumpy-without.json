@@ -1,0 +1,36 @@
+{
+  "id": 1209, 
+  "category": "SciPy 2012", 
+  "slug": "bringing-high-performance-to-pythonnumpy-without", 
+  "title": "Bringing High Performance to Python/Numpy Without Changing a Single Line of Code.", 
+  "summary": "", 
+  "description": "Recent years have provided a wealth of projects showing that using Python for\nscientific applications outperforms even popular choices such as Matlab. A\nmajor factor driving these successes is the efficient utilization of multi-\ncores, GPUs for general-purpose computation and scaling computations to\nclusters.\n\nHowever, often these advances sacrifice some of the high-productivity features\nof Python by introducing new language constructs, enforcing new language\nsemantics and/or enforcing explicit data types. The result is that the user\nwill have to rewrite existing Python applications to use the Python extension.\n\nIn order to use GPGPUs in Python, a popular approach is to embed CUDA/OpenCL\ncode kernels directly in the Python application. The programming productivity\nof this approach is better and more readable than C/C++ applications but it is\nstill inferior to native Python code. Furthermore, the approach enforces\nhardware specific programming and thus requires intimate knowledge of the\nunderlying hardware and the CUDA/OpenCL programming model.\n\nCopenhagen Vector Byte Code (cphVB) strives to provide a high-performance\nback-end for Numerical Python (NumPy) without reducing the high-productivity\nof Python/NumPy. Without any involvement of the user, cphVB will transform\nregular sequential Python/NumPy applications into high-performance\napplications. The cphVB runtime system is capable of utilizing a broad range\nof computing platforms efficiently, e.g. Multi-core CPUs, GPGPUs and clusters\nof such machines.\n\ncphVB consists of a bridge that translates NumPy array operations into cphVB\nvector operations. The bridge will send these vector operations to a Vector\nEngine that performs the actual execution of the operations. cphVB comes with\na broad range of Vector Engines optimized to specific hardware architectures,\nsuch as multi-core CPUs, GPGPU and clusters of said architectures. Thus, cphVB\nprovides a high-productivity, high-performance framework that support legacy\nNumPy applications without changing a single line of code.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/HFxn3mSp9ww/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Bringing_High_Performance_to_P.mp4?Signature=w983Dyy%2Fzuho%2FUZhUhfx1A0vcAY%3D&Expires=1346444523&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "https://www.youtube.com/watch?v=HFxn3mSp9ww", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "https://www.youtube.com/watch?v=HFxn3mSp9ww", 
+  "tags": [
+    "hpc"
+  ], 
+  "speakers": [
+    "Brian Vinter", 
+    "Mads Ruben Burgdorff Kristensen", 
+    "Simon Andreas Frimann Lund", 
+    "Troels Blum"
+  ], 
+  "recorded": "2012-07-18"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 2797, 
+  "category": "SciPy 2014", 
+  "slug": "putting-the-v-in-ipython-vim-ipython-and-ipython", 
+  "title": "Putting the v in IPython: vim-ipython and ipython-vimception", 
+  "summary": "This talk will explain how to intimately integrate IPython with your favorite text editor, as well as how to customize the IPython Notebook interface to behave in a way that makes sense to *you*. Though the concrete examples are centered around the world-view of a particular text editor, the content will be valuable to anyone wishing to extend and customize IPython for their own purposes.\r\n", 
+  "description": "This talk will cover two projects: [vim-ipython](https://github.com/ivanov/vim-ipython) (1) and [ipython-vimception](https://github.com/ivanov/ipython-vimception) (2)\r\n\r\n**1.** Most people think of IPython as an application - but much of it is written as a\r\nlibrary, making it possible to integrate with other tools.\r\n\r\nvim-ipython is a Vim plugin that was first written during the sprints at SciPy\r\n2011 as a two-way interface between the Vim text editor and a running IPython\r\nkernel. It turns vim into a frontend for IPython kernels, like the qtconsole\r\nand the notebook interface. It allows you to send lines or whole files for\r\nIPython to execute, and also get back object introspection and word completions\r\nin Vim, like what you get with: object?`<enter>` and object.`<tab>` in IPython.  It\r\ncurrently has over 430 star gazers on GitHub.  Because vim-ipython simply\r\nleverages much of existing IPython machinery, it allows users to interact with\r\nnon-Python kernels (such as IJulia and IHaskell) in the same manner from the\r\nconvenience of their favorite text editor. More recently, vim-ipython has\r\ngained the ability to conveniently view and edit IPython notebooks (.ipynb\r\nfiles) without a running an IPython Notebook server. \r\n\r\nvim-ipython has a small and accessible code base (13 people have contributed\r\npatches to the project), which has frequently made it *the* reference example\r\nfor how to implement and utilize the IPython messaging protocol that allows for\r\nthe language-independent communication between frontends and kernels.\r\n\r\n**2.** The IPython Notebook user interface has become highly customizable, and\r\nauthoring code and content in the Notebook can be more pleasant and productive\r\nexperience if you take the time to make it yours.\r\n\r\nIPython 2.0 brings a modal notion to the Notebook interface.  There are two\r\nmodes: edit and mode command mode. In command mode, many single-key keyboard\r\nshortcuts are available. For example, `m` changes the current cell type to\r\nMarkdown, `a` and `b` will insert a new cell above and below the current one,\r\nand so on. Edit mode removes these single key shortcuts so that new code and\r\ntext can be typed in, but still retains a few familiar shortcuts, such as\r\n`Ctrl-Enter`, `Alt-Enter`, and `Shift-Enter` for cell execution (with some nuanced\r\ndifferences). \r\n\r\nPart of the motivation behind the introduction of this modal interface was that\r\nperforming operations on notebook cells became a tedious and awkward, as most\r\noperations required `Ctrl-m` to be typed too many times. For example, inserting 3 cells involved\r\n`Ctrl-m a Ctrl-m a Ctrl-m a`, whereas now it's just `aaa` in Command mode. But\r\nthe other major reason for the modal refactor was to make it possible to add\r\nand remove shortcuts. For example, a user who finds it annoying that `a` stands\r\nfor \"insert above\" and `b` for \"insert below\" and thinks that `a` for \"insert\r\nafter\" and `b` for \"insert before\" makes more sense will now be able to make\r\nthat change for herself.\r\n\r\nSome of the keyboard shortcuts in command mode are already vi-like (`j` and `k`\r\nto move up and down between cells) but many are not, and a few are confusingly\r\nplaced. ipython-vimception aims to be a reference implementation for how to\r\nperform shortcut and user interface customization in the notebook. In\r\nparticular, along with vim-ipython's new ability to edit .ipynb files,\r\nipython-vimception addresses the concerns of many die-hard vim aficionados.\r\nMany of them have otherwise shied away form the notebook interface as it\r\noffends their sensibilities for how text editing and document manipulation\r\nshould be done. However, with the new customizable shortcut system in IPython,\r\nalong with a vim emulation mode in cell text input areas, they finally will\r\nhave a way to stay productive without having to change their ways.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/p9gnhmX1sPo/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=p9gnhmX1sPo", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=p9gnhmX1sPo", 
+  "tags": [], 
+  "speakers": [
+    "Paul Ivanov"
+  ], 
+  "recorded": "2014-07-13"
+}

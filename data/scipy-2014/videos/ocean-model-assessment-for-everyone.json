@@ -1,0 +1,26 @@
+{
+  "id": 2795, 
+  "category": "SciPy 2014", 
+  "slug": "ocean-model-assessment-for-everyone", 
+  "title": "Ocean Model Assessment for Everyone", 
+  "summary": "An end-to-end workflow for assessing storm-driven water levels predicted by coastal ocean models will be discussed which uses `OWSLib` for CSW Catalog access, `Iris` for ocean model access and `pyoos` for Sensor Observation Service data access. Analysis and visualization is done with `Pandas` and `Cartopy`, and the entire workflow is shared as in IPython Notebook with custom environment in Wakari.", 
+  "description": "To assess how well ocean models are performing, the model products need to be compared with data. Finding what models and data exist has historically been challenging because this information is held and distributed by numerous providers.  Accessing data has been challenging because ocean models produce gigabytes or terabytes of information, is usually stored in scientific data formats like HDF or NetCDF, while ocean observations are often stored in scientific data formats or in databases.\r\n\r\nTo solve this problem, the Integrated Ocean Observing System (IOOS) has been building a distributed information system based on standard web services for discovery and access.  IOOS is now embarking on a nationwide system-test using python to formulate queries, process responses, and analyze and visualize the data. An end-to-end (search-access-analyze-visualize) workflow for assessing storm-driven water levels predicted by coastal ocean models will be discussed, which uses `OWSLib` for OGC CSW service catalog access, `Iris` for ocean model access and `pyoos` (which wraps OWSLib) for Sensor Observation Service data access. Analysis and visualization is done with `Pandas` and `Cartopy`, and the entire end-to-end workflow is shared as in IPython Notebook with custom environment in Wakari.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/WHjU_rg81BI/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=WHjU_rg81BI", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=WHjU_rg81BI", 
+  "tags": [], 
+  "speakers": [
+    "Richard Signell"
+  ], 
+  "recorded": "2014-07-13"
+}

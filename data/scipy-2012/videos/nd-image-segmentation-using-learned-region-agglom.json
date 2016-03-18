@@ -1,0 +1,33 @@
+{
+  "id": 1225, 
+  "category": "SciPy 2012", 
+  "slug": "nd-image-segmentation-using-learned-region-agglom", 
+  "title": "nD image segmentation using learned region agglomeration with the Ray Python library", 
+  "summary": "", 
+  "description": "One of the principal goals of the Janelia Farm Research Campus is the\nreconstruction of complete neuronal circuits. This involves 3D electron-\nmicroscopy (EM) volumes many microns across with better than 10nm resolution,\nresulting in gigavoxel scale images. From these, individual neurons must be\nsegmented out. Although image segmentation is a well-studied problem, these\ndata present unique challenges in addition to scale: neurons have an\nelongated, irregular branching structure, with processes up to 50nm thin but\nhundreds of micrometers long); one neuron looks much like the next, with only\na thin cellular boundary separating densely packed neurons; and internal\nneuronal structures can look similar to the cellular boundary. The first\nproblem in particular means that small errors in segment boundary predictions\ncan lead to large errors in neuron shape and neuronal network connectivity.\n\nOur segmentation workflow has three main steps: a voxelwise edge\nclassification, a fine-grained segmentation into supervoxels (which can\nreasonably be assumed to be atomic groups of voxels), and hierarchical region\nagglomeration.\n\nFor the first step, we use Ilastik, a pixel-level interactive learning\nprogram. Ilastik uses the output of various image filters as features to\nclassify voxels as labeled by the user. We then use the watershed algorithm on\nthe resulting edge probability map to obtain supervoxels. For the last step,\nwe developed a new machine learning algorithm (Nunez-Iglesias et al, in\npreparation).\n\nPrior work has used the mean voxel-level edge-probability along the boundaries\nbetween regions to agglomerate them. This strategy works extremely well\nbecause boundaries get longer as agglomeration proceeds, resulting in ever-\nimproving estimates of the mean probability. We hypothesized that we could\nimprove agglomeration accuracy by using a classifier (which can use many more\nfeatures than the mean). However, a classifier can perform poorly because\nthroughout agglomeration we may visit a part of the feature space that has not\nyet been sampled. In our approach, we use active learning to ensure that we\nhave examples from all parts of the space we are likely to encounter.\n\nWe implemented our algorithm in arbitrary dimensions in an open-source, MIT-\nlicensed Python library, Ray\n([https://github.com/jni/ray](https://github.com/jni/ray)). Ray combines\nleading scientific computing Python libraries, including NumPy, SciPy,\nNetworkX, and scikits-learn to deliver state of the art segmentation accuracy\nin Python.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i2.ytimg.com/vi/-cQpExBrh74/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/nD_image_segmentation_using_le.mp4?Signature=c9cvY2RhvdhwqRDhvE48%2BgY%2Ftp4%3D&Expires=1346444687&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=-cQpExBrh74", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=-cQpExBrh74", 
+  "tags": [
+    "General"
+  ], 
+  "speakers": [
+    "Juan Nunez-Iglesias"
+  ], 
+  "recorded": "2012-07-19"
+}

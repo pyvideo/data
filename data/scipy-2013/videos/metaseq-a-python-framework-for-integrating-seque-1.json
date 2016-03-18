@@ -1,0 +1,26 @@
+{
+  "id": 2081, 
+  "category": "SciPy 2013", 
+  "slug": "metaseq-a-python-framework-for-integrating-seque-1", 
+  "title": "metaseq: a Python framework for integrating sequencing analyses; SciPy 2013 Presentation", 
+  "summary": "metaseq: a Python framework for integrating high-throughput sequencing analyses\n\nAuthors: Dale, Ryan, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of\n\nTrack: Bioinformatics\n\nmetaseq is a Python package that ties together a growing ecosystem of bioinformatics Python tools and file formats, focusing on flexibility and interactive exploration of high-throughput sequencing data (e.g., ChIP-seq, RNA-seq, and RIP-seq).\n\nThis talk will use a worked example to illustrate some practical bioinformatics applications of metaseq's features. For example, its filetype adapters provide random-access, uniform support for commonly-used formats (BAM, bigBed/bigWig, and, via tabix, any tab-delimited format). Combined with multiprocessing and a rebinning routine compiled by Cython, this allows relatively rapid population of NumPy arrays of binned signal over thousands of genes (or other features of interest).\n\nmetaseq's \"mini-browser\" framework connects these arrays -- or any other plot that considers genomic intervals, such as scatterplots of control vs treatment RNA-seq signal -- via callbacks to interactive creation of matplotlib figures that show the local genomic signal and gene models.\nAlternatively, callbacks can upload data and display them in the UCSC genome browser for further visualization alongside the wealth of publicly available data.", 
+  "description": "", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/w7wgIZJsUUI/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=w7wgIZJsUUI", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=w7wgIZJsUUI", 
+  "tags": [
+    "Tech"
+  ], 
+  "speakers": [], 
+  "recorded": "2013-07-01"
+}

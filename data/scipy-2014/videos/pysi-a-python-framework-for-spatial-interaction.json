@@ -1,0 +1,26 @@
+{
+  "id": 2789, 
+  "category": "SciPy 2014", 
+  "slug": "pysi-a-python-framework-for-spatial-interaction", 
+  "title": "pySI  A Python Framework for Spatial Interaction Modelling", 
+  "summary": "Spatial Interaction Modelling is a method for calibrating parameters for components within a system of flows, such as migration or trade, and then using those parameters to estimate new flows. Despite their popularity, a unified Python framework to employ them does not exist. In response, pySI was created as a coherent tool for calibrating models and simulating flows for a variety of models.", 
+  "description": "Functions from libraries such as scipy.optimize, scipy.spatial, statsmodels,\r\nand numdifftools comprise the core of the pySI.calibrate routines, which are\r\nautomatically constructed depending upon the specified model inputs. As a\r\nresult, the user can focus on identifying different flow systems  and\r\nunderstanding the associated spatial processes, rather than the algorithmic\r\ndivergences which emerge between different models. After calibration is\r\ncompleted, the estimated parameters and their diagnostic statistics can be\r\nreported in a uniform fashion.  Using functions within pySI.simulate, the\r\nparameter estimates can act as inputs in order to predict new flows. More\r\nrecently developed models, which do not require input parameters, are also made\r\navailable, allowing comparisons amongst results from differing conceptual\r\nformulations. Finally, results may be visualized with plots and networks via\r\nmatplotlib, igraph, and networkx. Overall, the pySI framework will increase the\r\naccessibility of spatial interaction modelling while also serving as a tool\r\nwhich can help new users understand the associated methodological intricacies. \r\n\r\nWithin this presentation, the concept of spatial interaction and a few key\r\nmodelling terms will first be introduced, along with several example\r\napplications. Next, two traditional techniques for calibrating spatial\r\ninteraction models, Poisson generalized linear regression and direct maximum\r\nlikelihood estimation will be contrasted. It will then be demonstrated how this\r\nnew framework will allow users to execute either form of calibration using\r\nidentical input variables, which are based upon a pandas DataFrame\r\nspecification, without any significant mathematical or statistical training.\r\nResults from two different conceptual models will be compared to illustrate how\r\npySI can be used to explore different methods and models of spatial\r\ninteraction.\r\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "http://www.youtube.com/t/terms", 
+  "thumbnail_url": "http://i1.ytimg.com/vi/VokeBZarsNM/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://www.youtube.com/watch?v=VokeBZarsNM", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://www.youtube.com/watch?v=VokeBZarsNM", 
+  "tags": [], 
+  "speakers": [
+    "Taylor Oshan"
+  ], 
+  "recorded": "2014-07-13"
+}

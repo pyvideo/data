@@ -1,0 +1,34 @@
+{
+  "id": 1205, 
+  "category": "SciPy 2012", 
+  "slug": "openmg-a-new-multigrid-implementation-in-python", 
+  "title": "OpenMG: A New Multigrid Implementation in Python", 
+  "summary": "", 
+  "description": "Here, include a talk summary of no longer than 500 words. Aspects such as\nrelevance to Python in science, applicability, and novelty will be considered\nby the program committee.\n\nIn most large-scale computations, systems of equations arise in the form Au=b,\nwhere A is a linear operation to be performed on the unknown data u, producing\nthe known right-hand-side, b, which represents some constraint of known or\nassumed behavior of the system being modeled. Since u can have a many millions\nto billions elements, direct solution is too slow. A multigrid solver solves\npartially at full resolution, and then solves directly only at low resolution.\nThis creates a correction vector, which is then interpolated to full\nresolution, where it corrects the partial solution.\n\nThis project aims to create an open-source multigrid solver library, written\nonly in Python. The existing PyAMG multigrid implementation\u2013a highly\nversatile, highly configurable, black-box solver\u2013is fully sequential, and is\ndifficult to read and modify due to its C core. OpenMG is a pure Python\nexperimentation environment for developing multigrid optimizations, not a new\nproduction solver library. By making the code simple and modular, we make the\nalogrithmic details clear. We thereby create an opportunity for education and\nexperimental optimization of the partial solver (Jacobi, Gauss Seidel, SOR,\netc.), the restriction mechanism, the prolongation mechanism, and the direct\nsolver, using GPGPU, multiple CPUs, MPI, or grid computing. The resulting\nsolver is tested on an implicit pressure reservoir simulation problem with\nsatisfactory results.\n\n", 
+  "quality_notes": "", 
+  "language": "English", 
+  "copyright_text": "CC BY-SA", 
+  "thumbnail_url": "http://i3.ytimg.com/vi/R-FO_PX7a_I/hqdefault.jpg", 
+  "duration": null, 
+  "videos": [
+    {
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/OpenMG_A_New_Multigrid_Implementation_in_Python.mp4?Signature=kNN3vhu1YxcbCBNjVmWtEKMogcg%3D&Expires=1346381424&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
+      "length": null, 
+      "type": "mp4"
+    }, 
+    {
+      "url": "http://youtube.com/watch?v=R-FO_PX7a_I", 
+      "length": 0, 
+      "type": "youtube"
+    }
+  ], 
+  "source_url": "http://youtube.com/watch?v=R-FO_PX7a_I", 
+  "tags": [
+    "hpc"
+  ], 
+  "speakers": [
+    "Akand W. Islam", 
+    "Tom Bertalan"
+  ], 
+  "recorded": "2012-07-18"
+}
