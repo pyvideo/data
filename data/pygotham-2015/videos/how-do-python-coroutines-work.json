@@ -1,31 +1,31 @@
 {
-  "id": 3765, 
-  "category": "PyGotham 2015", 
-  "slug": "how-do-python-coroutines-work", 
-  "title": "How Do Python Coroutines Work?", 
-  "summary": "", 
-  "description": "Python 3's new \u201casyncio\u201d module is an efficient async framework similar to Node. But unlike Node, it emphasizes a modern idiom called \"coroutines\", rather than callbacks. Coroutines promise the best of two worlds: the efficiency of callbacks, but with a natural and robust coding style similar to synchronous programming.\r\n\r\nIn barely 30 minutes I live-code a Python 3 async framework. First, I show how an async framework uses non-blocking sockets, callbacks, and an event loop. This version of the framework is very efficient, but callbacks make a mess of the code. Therefore, I implement coroutines using Python generators and two classes called Future and Task, and update my little framework to use coroutines instead of callbacks.\r\n\r\nThe live-coding demo isn't just a magic trick: watch to see how simply a coroutine-based async framework can be implemented, and gain a deep understanding of this miraculous new programming idiom in the Python 3 standard library.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC BY-SA", 
-  "thumbnail_url": "https://i.ytimg.com/vi/idLtMISlgy8/hqdefault.jpg", 
-  "duration": 1959, 
+  "id": 3765,
+  "category": "PyGotham 2015",
+  "slug": "how-do-python-coroutines-work",
+  "title": "How Do Python Coroutines Work?",
+  "summary": "",
+  "description": "Python 3's new \u201casyncio\u201d module is an efficient async framework similar\nto Node. But unlike Node, it emphasizes a modern idiom called\n\"coroutines\", rather than callbacks. Coroutines promise the best of two\nworlds: the efficiency of callbacks, but with a natural and robust\ncoding style similar to synchronous programming.\n\nIn barely 30 minutes I live-code a Python 3 async framework. First, I\nshow how an async framework uses non-blocking sockets, callbacks, and an\nevent loop. This version of the framework is very efficient, but\ncallbacks make a mess of the code. Therefore, I implement coroutines\nusing Python generators and two classes called Future and Task, and\nupdate my little framework to use coroutines instead of callbacks.\n\nThe live-coding demo isn't just a magic trick: watch to see how simply a\ncoroutine-based async framework can be implemented, and gain a deep\nunderstanding of this miraculous new programming idiom in the Python 3\nstandard library.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC BY-SA",
+  "thumbnail_url": "https://i.ytimg.com/vi/idLtMISlgy8/hqdefault.jpg",
+  "duration": 1959,
   "videos": [
     {
-      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pygotham-2015/3765_How_Do_Python_Coroutines_Work.mp4", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pygotham-2015/3765_How_Do_Python_Coroutines_Work.mp4",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://youtu.be/idLtMISlgy8", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://youtu.be/idLtMISlgy8",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://youtu.be/idLtMISlgy8", 
-  "tags": [], 
+  ],
+  "source_url": "http://youtu.be/idLtMISlgy8",
+  "tags": [],
   "speakers": [
     "A. Jesse Jiryu Davis"
-  ], 
+  ],
   "recorded": "2015-08-16"
 }
