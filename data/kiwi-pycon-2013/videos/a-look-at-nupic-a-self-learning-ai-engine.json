@@ -1,26 +1,26 @@
 {
-  "id": 2379, 
-  "category": "Kiwi PyCon 2013", 
-  "slug": "a-look-at-nupic-a-self-learning-ai-engine", 
-  "title": "A look at NuPIC - A self-learning AI engine", 
-  "summary": "NuPIC is an open source platform for building prediction models from data streams, such as sensor data. Two models will be discussed, an earthquake damage predictor built from from GeoNet data and a flood level warning system.\r\n", 
-  "description": "@ Kiwi PyCon 2013 - Saturday, 07 Sep 2013 - Track 1\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Abstract**\r\n\r\nThis talk will discuss the speaker's experience with NuPIC - http://numenta.org/nupic.html - for building useful artificial intelligence applications. In particular, the author will discuss developing damage and flood prediction models based on public sensor data.\r\n\r\nAbout the tool\r\n\r\nNuPIC is an open source implementation of algorithms which are inspired heavily by our understanding of how the neocortex organises information. NuPIC uses online (or continuous) learning, providing a prediction after every input is received. This is intended to mirror how human brains operate, by acting quickly on new information based on prior knowledge, while being able to adapt to it for the next bit of information. The other main features are the inclusion of a temporal dimension to learning, partitioning models into hierarchies of sub-models and representing knowledge within a sparse, distributed matrix modelled after the brain.\r\n\r\nAbout the talk\r\n\r\nThe claims made in the documentation of NuPIC are very bold. The developers claim that models are able to be developed without needing to create training and testing sets. The models that are developed in this manner are supposedly self-learning. Surely, this must be exaggeration! This talk is a presentation of an evaluation of building models for two sets of input data, one relating to earthquakes and the other relating to flood levels.\r\n\r\nThe anticipated case studies\r\n\r\nGeoNet provides an extensive archive of seismic data, along with associated damage reports from people affected by particular shakes. In principle, we could feed this historical data to NuPIC and then ask it to tell us how likely and how intense damage will be for any particular quake. Perhaps we could even use NuPIC to model predict the likelihood of multiple quakes within a cluster.\r\n\r\nWith information about rain levels available in near-real time from NIWA's climate database (Cliflo) and information about river catchments and historical from district councils, it is (in principle) possible to create a flood risk prediction model for one's own use.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/tim-mcnamara-a-look-at-nupic-a-self-learning-ai-engine", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/rY7GLyxINFY/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2379,
+  "category": "Kiwi PyCon 2013",
+  "slug": "a-look-at-nupic-a-self-learning-ai-engine",
+  "title": "A look at NuPIC - A self-learning AI engine",
+  "summary": "NuPIC is an open source platform for building prediction models from\ndata streams, such as sensor data. Two models will be discussed, an\nearthquake damage predictor built from from GeoNet data and a flood\nlevel warning system.\n",
+  "description": "@ Kiwi PyCon 2013 - Saturday, 07 Sep 2013 - Track 1\n\n**Audience level**\n\nIntermediate\n\n**Abstract**\n\nThis talk will discuss the speaker's experience with NuPIC -\nhttp://numenta.org/nupic.html - for building useful artificial\nintelligence applications. In particular, the author will discuss\ndeveloping damage and flood prediction models based on public sensor\ndata.\n\nAbout the tool\n\nNuPIC is an open source implementation of algorithms which are inspired\nheavily by our understanding of how the neocortex organises information.\nNuPIC uses online (or continuous) learning, providing a prediction after\nevery input is received. This is intended to mirror how human brains\noperate, by acting quickly on new information based on prior knowledge,\nwhile being able to adapt to it for the next bit of information. The\nother main features are the inclusion of a temporal dimension to\nlearning, partitioning models into hierarchies of sub-models and\nrepresenting knowledge within a sparse, distributed matrix modelled\nafter the brain.\n\nAbout the talk\n\nThe claims made in the documentation of NuPIC are very bold. The\ndevelopers claim that models are able to be developed without needing to\ncreate training and testing sets. The models that are developed in this\nmanner are supposedly self-learning. Surely, this must be exaggeration!\nThis talk is a presentation of an evaluation of building models for two\nsets of input data, one relating to earthquakes and the other relating\nto flood levels.\n\nThe anticipated case studies\n\nGeoNet provides an extensive archive of seismic data, along with\nassociated damage reports from people affected by particular shakes. In\nprinciple, we could feed this historical data to NuPIC and then ask it\nto tell us how likely and how intense damage will be for any particular\nquake. Perhaps we could even use NuPIC to model predict the likelihood\nof multiple quakes within a cluster.\n\nWith information about rain levels available in near-real time from\nNIWA's climate database (Cliflo) and information about river catchments\nand historical from district councils, it is (in principle) possible to\ncreate a flood risk prediction model for one's own use.\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/tim-mcnamara-a-look-at-nupic-a-self-learning-ai-engine\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "http://i1.ytimg.com/vi/rY7GLyxINFY/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=rY7GLyxINFY", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=rY7GLyxINFY",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=rY7GLyxINFY", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=rY7GLyxINFY",
+  "tags": [],
   "speakers": [
     "Tim McNamara"
-  ], 
+  ],
   "recorded": "2013-09-14"
 }

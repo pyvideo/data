@@ -1,26 +1,26 @@
 {
-  "id": 2366, 
-  "category": "Kiwi PyCon 2013", 
-  "slug": "computational-advertising-billions-of-records-a", 
-  "title": "Computational Advertising, Billions of records, and AWS - Lessons Learned", 
-  "summary": "Lessons learned while setting up a computational advertising platform on AWS with emphasis on experimental data analysis and scaling.\r\n", 
-  "description": "@ Kiwi PyCon 2013 - Sunday, 08 Sep 2013 - Track 2\r\n\r\n**Audience level**\r\n\r\nExperienced\r\n\r\n**Abstract**\r\n\r\nOverview - hope this will be useful, but caveat emptor - not a how-to, that's well covered elsewhere - problem - recovering value from large web logs - user targeting\r\n\r\nIs this Big Data? - When should you think about Hadoop - AWS servers available with 244 GB of memory - Twitter WTF paper, Microsoft cluster utilisation paper\r\n\r\nLogging, Storing, and Munging - Looked at EMR but (1) it's hard to log (2) versioning issues. - For on-demand use CM is good - For automated use, combination of CDH, whirr, and boto. - backing up HBase and HDFS to S3\r\n\r\nProcessing the data - hadoop as solving distributed IO - Pig + udfs - hadoop streaming\r\n\r\nLearning on the data - difficult data - latest machine learning algorithms, not just existing mapreduce algorithms (mahout) - frameworks are starting to appear - Graphlab, or the Berkeley Spark ecosystem. - want to experiment on smaller data to reduce iteration time.\r\n\r\nPrototype Learning Algorithm - loading text files into numpy arrays when memory constrained - JIT python compilation - scikit-learn - logistic regression - spectral clustering and the FEAST algorithm - nearest neighbors (output to gephi) - read/write binary formats\r\n\r\nImplementation at scale - shoehorn into map-reduce - Port successful algorithms to GraphLab, C++ and MPI or Boost Graph Library etc. - MIT Starcluster .. - Numba, Blaze, Theano, KDT - Anaconda", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/CxK-v0pSpjo/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2366,
+  "category": "Kiwi PyCon 2013",
+  "slug": "computational-advertising-billions-of-records-a",
+  "title": "Computational Advertising, Billions of records, and AWS - Lessons Learned",
+  "summary": "Lessons learned while setting up a computational advertising platform on\nAWS with emphasis on experimental data analysis and scaling.\n",
+  "description": "@ Kiwi PyCon 2013 - Sunday, 08 Sep 2013 - Track 2\n\n**Audience level**\n\nExperienced\n\n**Abstract**\n\nOverview - hope this will be useful, but caveat emptor - not a how-to,\nthat's well covered elsewhere - problem - recovering value from large\nweb logs - user targeting\n\nIs this Big Data? - When should you think about Hadoop - AWS servers\navailable with 244 GB of memory - Twitter WTF paper, Microsoft cluster\nutilisation paper\n\nLogging, Storing, and Munging - Looked at EMR but (1) it's hard to log\n(2) versioning issues. - For on-demand use CM is good - For automated\nuse, combination of CDH, whirr, and boto. - backing up HBase and HDFS to\nS3\n\nProcessing the data - hadoop as solving distributed IO - Pig + udfs -\nhadoop streaming\n\nLearning on the data - difficult data - latest machine learning\nalgorithms, not just existing mapreduce algorithms (mahout) - frameworks\nare starting to appear - Graphlab, or the Berkeley Spark ecosystem. -\nwant to experiment on smaller data to reduce iteration time.\n\nPrototype Learning Algorithm - loading text files into numpy arrays when\nmemory constrained - JIT python compilation - scikit-learn - logistic\nregression - spectral clustering and the FEAST algorithm - nearest\nneighbors (output to gephi) - read/write binary formats\n\nImplementation at scale - shoehorn into map-reduce - Port successful\nalgorithms to GraphLab, C++ and MPI or Boost Graph Library etc. - MIT\nStarcluster .. - Numba, Blaze, Theano, KDT - Anaconda\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "http://i1.ytimg.com/vi/CxK-v0pSpjo/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=CxK-v0pSpjo", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=CxK-v0pSpjo",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=CxK-v0pSpjo", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=CxK-v0pSpjo",
+  "tags": [],
   "speakers": [
     "Alan Williams"
-  ], 
+  ],
   "recorded": "2013-09-12"
 }
