@@ -1,31 +1,31 @@
 {
-  "id": 2243, 
-  "category": "DjangoCon AU 2013", 
-  "slug": "unleash-the-ponies-using-feincms-to-add-content", 
-  "title": "Unleash the ponies! Using FeinCMS to add content tools that users love to any Django model", 
-  "summary": "Site editors often struggle with editing rich content and managing variations in layout in Django admin. By rich content we mean text, images, video, tables, and so on. Trying to squeeze all this content into a single rich-text editor is like trying to jam a magical pony into a dog kennel. A better approach is to use a rich content framework like FeinCMS. FeinCMS is a sensible, flexible framework which allows rich content of any shape to be manipulated within any Django model in your project.\r\n\r\nThis talk describes what FeinCMS does and how it works, and most importantly whether it should be pronounced to rhyme with \"Vein\" or \"Vine\". The talk is supported with working example code that shows the progression of a FeinCMS project through several levels of functionality, plus some real-world demonstrations of fully-developed functionality.\r\n\r\nA FeinCMS Document model is just like any Django model, except it has one or more 'templates'. Each 'template' has one or more regions, and each region is a place where an unlimited amount of rich content types can be added, removed or rearranged to form the content in that region. This is all wrapped up in a nifty lightweight Javascript interface for Django's admin, and a surprisingly simple implementation at the database level.\r\n\r\nThe types of content available in a given region is defined by a collection of abstract Django models (e.g. one model to represent a passage of text, another model to represent an image, and so on). Developers are free to define their own FeinCMS content types, using all the usual features of Django models.\r\n\r\nAt the HTML template level, each FeinCMS content item renders a standard template, and can optionally render different templates in different circumstances.\r\n\r\nThis flexibility allows Django developers to quickly design and build CMSes that match the content and layout perfectly, meaning happier content editors, fewer maintenance headaches and greater magical pony freedom.", 
-  "description": "", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC-BY-SA", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/RnMsobX3soE/hqdefault.jpg", 
-  "duration": 45, 
+  "id": 2243,
+  "category": "DjangoCon AU 2013",
+  "slug": "unleash-the-ponies-using-feincms-to-add-content",
+  "title": "Unleash the ponies! Using FeinCMS to add content tools that users love to any Django model",
+  "summary": "Site editors often struggle with editing rich content and managing\nvariations in layout in Django admin. By rich content we mean text,\nimages, video, tables, and so on. Trying to squeeze all this content\ninto a single rich-text editor is like trying to jam a magical pony into\na dog kennel. A better approach is to use a rich content framework like\nFeinCMS. FeinCMS is a sensible, flexible framework which allows rich\ncontent of any shape to be manipulated within any Django model in your\nproject.\n\nThis talk describes what FeinCMS does and how it works, and most\nimportantly whether it should be pronounced to rhyme with \"Vein\" or\n\"Vine\". The talk is supported with working example code that shows the\nprogression of a FeinCMS project through several levels of\nfunctionality, plus some real-world demonstrations of fully-developed\nfunctionality.\n\nA FeinCMS Document model is just like any Django model, except it has\none or more 'templates'. Each 'template' has one or more regions, and\neach region is a place where an unlimited amount of rich content types\ncan be added, removed or rearranged to form the content in that region.\nThis is all wrapped up in a nifty lightweight Javascript interface for\nDjango's admin, and a surprisingly simple implementation at the database\nlevel.\n\nThe types of content available in a given region is defined by a\ncollection of abstract Django models (e.g. one model to represent a\npassage of text, another model to represent an image, and so on).\nDevelopers are free to define their own FeinCMS content types, using all\nthe usual features of Django models.\n\nAt the HTML template level, each FeinCMS content item renders a standard\ntemplate, and can optionally render different templates in different\ncircumstances.\n\nThis flexibility allows Django developers to quickly design and build\nCMSes that match the content and layout perfectly, meaning happier\ncontent editors, fewer maintenance headaches and greater magical pony\nfreedom.\n",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC-BY-SA",
+  "thumbnail_url": "http://i1.ytimg.com/vi/RnMsobX3soE/hqdefault.jpg",
+  "duration": 45,
   "videos": [
     {
-      "url": "http://s3.us.archive.org/ndvpyconau2013/Unleash_the_ponies_Using_FeinC.mp4", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://s3.us.archive.org/ndvpyconau2013/Unleash_the_ponies_Using_FeinC.mp4",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "https://www.youtube.com/watch?v=RnMsobX3soE", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "https://www.youtube.com/watch?v=RnMsobX3soE",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "https://www.youtube.com/watch?v=RnMsobX3soE", 
-  "tags": [], 
+  ],
+  "source_url": "https://www.youtube.com/watch?v=RnMsobX3soE",
+  "tags": [],
   "speakers": [
     "Greg Turner"
-  ], 
+  ],
   "recorded": "2013-07-05"
 }
