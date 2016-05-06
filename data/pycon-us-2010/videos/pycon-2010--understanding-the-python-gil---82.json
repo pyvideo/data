@@ -1,37 +1,37 @@
 {
-  "id": 353, 
-  "category": "PyCon US 2010", 
-  "slug": "pycon-2010--understanding-the-python-gil---82", 
-  "title": "Understanding the Python GIL (#82)", 
-  "summary": "", 
-  "description": "Understanding the Python GIL\n\n  \nPresented by David Beazley\n\n  \nThe Python Global Interpreter Lock (GIL) is a frequent source of debate and\nconcern for programmers working with threads and concurrency. Although most\nPython programmers generally know that the GIL restricts Python's ability to\nutilize multiple CPUs, few know the inner details of how it actually works and\nhow it impacts applications. This talk will dive into the inner workings of\nthe GIL like you've never seen before. Topics include details about the\nexecution of the Python interpreter, thread implementation, the GILs\nsurprising behavior on multicore CPUs, and more.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010UnderstandingThePythonGIL82660.png", 
-  "duration": null, 
+  "id": 353,
+  "category": "PyCon US 2010",
+  "slug": "pycon-2010--understanding-the-python-gil---82",
+  "title": "Understanding the Python GIL (#82)",
+  "summary": "",
+  "description": "Understanding the Python GIL\n\nPresented by David Beazley\n\nThe Python Global Interpreter Lock (GIL) is a frequent source of debate\nand concern for programmers working with threads and concurrency.\nAlthough most Python programmers generally know that the GIL restricts\nPython's ability to utilize multiple CPUs, few know the inner details of\nhow it actually works and how it impacts applications. This talk will\ndive into the inner workings of the GIL like you've never seen before.\nTopics include details about the execution of the Python interpreter,\nthread implementation, the GILs surprising behavior on multicore CPUs,\nand more.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010UnderstandingThePythonGIL82660.png",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/353_understanding-the-python-gil-82.m4v", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/353_understanding-the-python-gil-82.m4v",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/353_understanding-the-python-gil-82.ogv", 
-      "length": 303360649, 
-      "type": "ogv"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/353_understanding-the-python-gil-82.ogv",
+      "type": "ogv",
+      "length": 303360649
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "concurrency", 
-    "gil", 
-    "pycon", 
-    "pycon2010", 
+    "concurrency",
+    "gil",
+    "pycon",
+    "pycon2010",
     "threads"
-  ], 
+  ],
   "speakers": [
     "David Beazley"
-  ], 
+  ],
   "recorded": "2010-02-19"
 }

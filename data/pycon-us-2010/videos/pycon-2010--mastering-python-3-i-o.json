@@ -1,37 +1,37 @@
 {
-  "id": 289, 
-  "category": "PyCon US 2010", 
-  "slug": "pycon-2010--mastering-python-3-i-o", 
-  "title": "Mastering Python 3 I/O (part 1)", 
-  "summary": "", 
-  "description": "Mastering Python 3 I/O\r\n\r\n  \r\nPresented by David Beazley\r\n\r\n  \r\nAs most Python programmers know, Python 3 breaks backwards compatibility with\r\nPython 2 in a number of significant ways. Although guides to Python 3 tend to\r\nfocus on superficial incompatibilities such as the new print function, changes\r\nto exception handling, or new language features, the most substantial changes\r\nconcern the strict separation of Unicode and bytes as well as the new I/O\r\nstack. Not only do these changes have far-reaching effects throughout the\r\nstandard library, but changes to I/O are likely to be the most major source of\r\nproblems for anyone porting an existing Python application to Python 3. In\r\nthis tutorial, we're going to take a top-to-bottom tour of the entire Python 3\r\nI/O system. We'll focus on how to properly handle both text and binary data,\r\nchanges to standard library modules, examine advanced features such as the\r\nbuffer API, perform some performance experiments, and end with practical\r\nadvice for programmers working on porting applications from Python 2 to 3.\r\nIntended Audience\r\n\r\n  \r\nIntermediate to advanced Python programmers who are either developing new\r\napplications or contemplating a migration to Python 3. Attendees should\r\nalready be familiar with the basics of Python programming including standard\r\ndatatypes and commonly used library modules. A background in systems\r\nprogramming topics such as file handling, subprocesses, and socket programming\r\nis also recommended. Class Outline\r\n\r\n  * Introducing Python 3 (with a focus on I/O) \r\n  * Text Processing \r\n  * Binary Data Handling \r\n  * Dealing with System Interfaces and External Programs \r\n  * The New io library \r\n  * Network programming \r\n  * The revised buffer API and direct I/O \r\n  * Porting from Python 2 to 3. \r\n\r\n", 
-  "quality_notes": "This is the first part of a two-part tutorial. The second part doesn't seem to be available. (If you have a copy of the second part, please let us know.)", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010MasteringPython3IO499.png", 
-  "duration": null, 
+  "id": 289,
+  "category": "PyCon US 2010",
+  "slug": "pycon-2010--mastering-python-3-i-o",
+  "title": "Mastering Python 3 I/O (part 1)",
+  "summary": "",
+  "description": "Mastering Python 3 I/O\n\nPresented by David Beazley\n\nAs most Python programmers know, Python 3 breaks backwards compatibility\nwith Python 2 in a number of significant ways. Although guides to Python\n3 tend to focus on superficial incompatibilities such as the new print\nfunction, changes to exception handling, or new language features, the\nmost substantial changes concern the strict separation of Unicode and\nbytes as well as the new I/O stack. Not only do these changes have\nfar-reaching effects throughout the standard library, but changes to I/O\nare likely to be the most major source of problems for anyone porting an\nexisting Python application to Python 3. In this tutorial, we're going\nto take a top-to-bottom tour of the entire Python 3 I/O system. We'll\nfocus on how to properly handle both text and binary data, changes to\nstandard library modules, examine advanced features such as the buffer\nAPI, perform some performance experiments, and end with practical advice\nfor programmers working on porting applications from Python 2 to 3.\nIntended Audience\n\nIntermediate to advanced Python programmers who are either developing\nnew applications or contemplating a migration to Python 3. Attendees\nshould already be familiar with the basics of Python programming\nincluding standard datatypes and commonly used library modules. A\nbackground in systems programming topics such as file handling,\nsubprocesses, and socket programming is also recommended. Class Outline\n\n-  Introducing Python 3 (with a focus on I/O)\n-  Text Processing\n-  Binary Data Handling\n-  Dealing with System Interfaces and External Programs\n-  The New io library\n-  Network programming\n-  The revised buffer API and direct I/O\n-  Porting from Python 2 to 3.\n\n",
+  "quality_notes": "This is the first part of a two-part tutorial. The second part doesn't seem to be available. (If you have a copy of the second part, please let us know.)",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010MasteringPython3IO499.png",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/289_mastering-python-3-i-o.m4v", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/289_mastering-python-3-i-o.m4v",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/289_mastering-python-3-i-o.ogv", 
-      "length": 411662419, 
-      "type": "ogv"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/289_mastering-python-3-i-o.ogv",
+      "type": "ogv",
+      "length": 411662419
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "io", 
-    "pycon", 
-    "pycon2010", 
-    "python3", 
+    "io",
+    "pycon",
+    "pycon2010",
+    "python3",
     "tutorial"
-  ], 
+  ],
   "speakers": [
     "David Beazley"
-  ], 
+  ],
   "recorded": "2010-02-19"
 }

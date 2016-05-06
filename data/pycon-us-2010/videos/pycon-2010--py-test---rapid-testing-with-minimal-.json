@@ -1,36 +1,36 @@
 {
-  "id": 259, 
-  "category": "PyCon US 2010", 
-  "slug": "pycon-2010--py-test---rapid-testing-with-minimal-", 
-  "title": "py.test - Rapid Testing with Minimal Effort", 
-  "summary": "", 
-  "description": "py.test I - rapid testing with minimal effort\n\nPresented by Holger Krekel\n\nWant to learn writing tests in Python? This tutorial introduces basic\npractises using the popular py.test ([http://pytest.org](http://pytest.org))\ntool. We start with an overview on testing and tools in Python and then\ndiscuss and exercise basic idioms in a step-by-step manner. We cover the basic\nwriting, organisation and running of tests and debugging options. In the\nsecond part we discuss setup and teardown of test state, usage and\nconfiguration of test functions arguments and introduce coverage testing. We\nwill close with time to answer questions and discuss topics from the\nparticipants.\n\nIntended Audience\n\nbeginner programmers\n\nPerequisites/knowledge: basic knowledge of python programming\n\nRequirements: Laptop with Python 2.4 or greater installed. Pairing welcome.\noutline\n\n  * why automated testing? \n  * Developer oriented automated tests \n  * The test tool question \n  * py.test basics \n  * py.test fundamental features \n  * cross-project test tool \n  * A Typical Python test layout \n  * Another typical test layout \n  * Choosing a test layout \n  * automatic test discovery \n  * mind the __init__.py files \n  * no boilerplate python test code \n  * assert introspection \n  * asserting expected exceptions \n  * print() debugging / output capturing \n  * Getting Started, basic usage [0] \n  * Failure / Traceback Demo [0] \n  * Skipping tests \n  * Dynamically skipping tests \n  * Marking test functions \n  * Marking a test for conditional skip \n  * Marking a test as expected to fail \n  * Conditional expected to fail \n  * Marking / Skipping exercise [0] \n  * Applying Marks to classes or modules \n  * break \n  * warm up: boilerplate test code \n  * \"myscan\" Exercises of this tutorial \n  * sketching our \"myscan\" project \n  * Starting Exercise [1] \n  * The example Solution [1] \n  * The \"test setup\" and fixture Problem \n  * test functions and funcargs \n  * How do funcargs work? \n  * funcarg factory notes \n  * builtin funcargs \n  * usage example: per-test temporary directory \n  * next step: adding more tests [2] \n  * observation on new tmpdir-using tests \n  * The mysetup pattern \n  * How the mysetup pattern works \n  * next step: introducing \"mysetup\" pattern [3] \n  * The new test function using \"mysetup\" \n  * a simple hook: adding a command line opt \n  * the py.test config object \n  * exercise: implement a new command line option [4] \n  * myscan example completed \n  * py.test hooks and plugins \n  * Installing \"global\" plugins \n  * exercise: use the \"figleaf\" plugin \n  * local plugins: conftest.py \n  * a simple config: ignoring directories \n  * a simple default option: verbose \n  * quick discussion of advanced usages \n  * Summary / questions and answers \n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010pytestRapidTestingWithMinimalEffort216-303.jpg", 
-  "duration": null, 
+  "id": 259,
+  "category": "PyCon US 2010",
+  "slug": "pycon-2010--py-test---rapid-testing-with-minimal-",
+  "title": "py.test - Rapid Testing with Minimal Effort",
+  "summary": "",
+  "description": "py.test I - rapid testing with minimal effort\n\nPresented by Holger Krekel\n\nWant to learn writing tests in Python? This tutorial introduces basic\npractises using the popular py.test (http://pytest.org) tool. We start\nwith an overview on testing and tools in Python and then discuss and\nexercise basic idioms in a step-by-step manner. We cover the basic\nwriting, organisation and running of tests and debugging options. In the\nsecond part we discuss setup and teardown of test state, usage and\nconfiguration of test functions arguments and introduce coverage\ntesting. We will close with time to answer questions and discuss topics\nfrom the participants.\n\nIntended Audience\n\nbeginner programmers\n\nPerequisites/knowledge: basic knowledge of python programming\n\nRequirements: Laptop with Python 2.4 or greater installed. Pairing\nwelcome. outline\n\n-  why automated testing?\n-  Developer oriented automated tests\n-  The test tool question\n-  py.test basics\n-  py.test fundamental features\n-  cross-project test tool\n-  A Typical Python test layout\n-  Another typical test layout\n-  Choosing a test layout\n-  automatic test discovery\n-  mind the **init**.py files\n-  no boilerplate python test code\n-  assert introspection\n-  asserting expected exceptions\n-  print() debugging / output capturing\n-  Getting Started, basic usage [0]\n-  Failure / Traceback Demo [0]\n-  Skipping tests\n-  Dynamically skipping tests\n-  Marking test functions\n-  Marking a test for conditional skip\n-  Marking a test as expected to fail\n-  Conditional expected to fail\n-  Marking / Skipping exercise [0]\n-  Applying Marks to classes or modules\n-  break\n-  warm up: boilerplate test code\n-  \"myscan\" Exercises of this tutorial\n-  sketching our \"myscan\" project\n-  Starting Exercise [1]\n-  The example Solution [1]\n-  The \"test setup\" and fixture Problem\n-  test functions and funcargs\n-  How do funcargs work?\n-  funcarg factory notes\n-  builtin funcargs\n-  usage example: per-test temporary directory\n-  next step: adding more tests [2]\n-  observation on new tmpdir-using tests\n-  The mysetup pattern\n-  How the mysetup pattern works\n-  next step: introducing \"mysetup\" pattern [3]\n-  The new test function using \"mysetup\"\n-  a simple hook: adding a command line opt\n-  the py.test config object\n-  exercise: implement a new command line option [4]\n-  myscan example completed\n-  py.test hooks and plugins\n-  Installing \"global\" plugins\n-  exercise: use the \"figleaf\" plugin\n-  local plugins: conftest.py\n-  a simple config: ignoring directories\n-  a simple default option: verbose\n-  quick discussion of advanced usages\n-  Summary / questions and answers\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010pytestRapidTestingWithMinimalEffort216-303.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/259_py-test-rapid-testing-with-minimal-effort.m4v", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/259_py-test-rapid-testing-with-minimal-effort.m4v",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/259_py-test-rapid-testing-with-minimal-effort.ogv", 
-      "length": 981861155, 
-      "type": "ogv"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/259_py-test-rapid-testing-with-minimal-effort.ogv",
+      "type": "ogv",
+      "length": 981861155
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "pycon", 
-    "pycon2010", 
-    "py.test", 
+    "pycon",
+    "pycon2010",
+    "py.test",
     "tutorial"
-  ], 
+  ],
   "speakers": [
     "Holger Krekel"
-  ], 
+  ],
   "recorded": "2010-02-19"
 }

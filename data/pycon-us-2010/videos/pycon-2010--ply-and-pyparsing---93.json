@@ -1,36 +1,36 @@
 {
-  "id": 265, 
-  "category": "PyCon US 2010", 
-  "slug": "pycon-2010--ply-and-pyparsing---93", 
-  "title": "PLY and PyParsing (#93)", 
-  "summary": "", 
-  "description": "PLY and PyParsing\n\n  \nPresented by Andrew Dalke\n\n  \nGot a text parsing problem? In most cases using string manipulation and\nregular expressions will solve it for you. But when the input is complex, try\nreaching for a parsing system to help out.\n\n  \nThe two most popular in Python are PLY and PyParsing. PLY follows the lex/yacc\ntradition with a domain specific language to describe the tokens and grammar.\nIt was built with both error diagnostics and performance in mind. PyParsing is\na recursive descent parser which expresses the format as a Python data\nstructure. It make no distinction between lexer and grammar and has a uniform\ncallback system which makes certain types of data extraction very easy.\n\n  \nIn my talk I'll show the basics of how to use both systems for several\ndifferent format parsing tasks, of different complexity. This will let you see\nhow to use the parsers and understand more of the tradeoffs between\ncomplexity, readability, error handling, and performance.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010PLYAndPyParsing93735-488.jpg", 
-  "duration": null, 
+  "id": 265,
+  "category": "PyCon US 2010",
+  "slug": "pycon-2010--ply-and-pyparsing---93",
+  "title": "PLY and PyParsing (#93)",
+  "summary": "",
+  "description": "PLY and PyParsing\n\nPresented by Andrew Dalke\n\nGot a text parsing problem? In most cases using string manipulation and\nregular expressions will solve it for you. But when the input is\ncomplex, try reaching for a parsing system to help out.\n\nThe two most popular in Python are PLY and PyParsing. PLY follows the\nlex/yacc tradition with a domain specific language to describe the\ntokens and grammar. It was built with both error diagnostics and\nperformance in mind. PyParsing is a recursive descent parser which\nexpresses the format as a Python data structure. It make no distinction\nbetween lexer and grammar and has a uniform callback system which makes\ncertain types of data extraction very easy.\n\nIn my talk I'll show the basics of how to use both systems for several\ndifferent format parsing tasks, of different complexity. This will let\nyou see how to use the parsers and understand more of the tradeoffs\nbetween complexity, readability, error handling, and performance.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010PLYAndPyParsing93735-488.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/265_ply-and-pyparsing-93.m4v", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/265_ply-and-pyparsing-93.m4v",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/265_ply-and-pyparsing-93.ogv", 
-      "length": 163502409, 
-      "type": "ogv"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/265_ply-and-pyparsing-93.ogv",
+      "type": "ogv",
+      "length": 163502409
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "ply", 
-    "pycon", 
-    "pycon2010", 
+    "ply",
+    "pycon",
+    "pycon2010",
     "pyparsing"
-  ], 
+  ],
   "speakers": [
     "Andrew Dalke"
-  ], 
+  ],
   "recorded": "2010-02-19"
 }
