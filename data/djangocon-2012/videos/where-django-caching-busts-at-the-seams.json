@@ -1,30 +1,30 @@
 {
-  "id": 1405, 
-  "category": "DjangoCon 2012", 
-  "slug": "where-django-caching-busts-at-the-seams", 
-  "title": "Where Django Caching Busts at the Seams", 
-  "summary": "Most mid-sized Django websites thrive by relying on memcached. Though what\nhappens when basic memcached is not enough? And how can one identify when the\ncaching architecture is becoming a bottleneck? We'll cover the problems we've\nencountered and solutions we've put in place.\n\n", 
-  "description": "Most mid-sized Django websites thrive by relying on memcached. Though what\nhappens when basic memcached is not enough? And how can one identify when the\ncaching architecture is becoming a bottleneck? We'll cover the problems we've\nencountered and solutions we've put in place.\n\nThe following highlight the issues we'll discuss during the talk:\n\n  * Cache Warming. For content that will likely be in demand, getting it ready in cache before use is a helpful start. \n  * Two-tier caching. In multi-server environments, certain content that changes infrequently and has high-demand can be cached locally on each server. In these cases, having methods to burn the cache on each server becomes critical.\n  * Categorizing Cache. If good estimates exist for the expected demand of certain cache as well as the frequency of change, this can lead to better insight into when to warm that content as well as whether to cache it locally.\n  * Caching comparison with memcached vs. reddis vs. mongo\n  * Cachemodel. Our open-source, mini-framework for simplifying caching in Django. \n  * Adding servers to memcached. And consistent hashing algorithms to avoid having to burn all cache when the cache cluster changes in size.\n  * Elasticache on AWS.\n\nAs caching problems become more common, better layers and mini-frameworks will\nhelp simplify and elegantly solve some of these problems.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution license (reuse allowed", 
-  "thumbnail_url": "http://i.ytimg.com/vi/dXDLWGY0Tro/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1405,
+  "category": "DjangoCon 2012",
+  "slug": "where-django-caching-busts-at-the-seams",
+  "title": "Where Django Caching Busts at the Seams",
+  "summary": "Most mid-sized Django websites thrive by relying on memcached. Though\nwhat happens when basic memcached is not enough? And how can one\nidentify when the caching architecture is becoming a bottleneck? We'll\ncover the problems we've encountered and solutions we've put in place.\n",
+  "description": "Most mid-sized Django websites thrive by relying on memcached. Though\nwhat happens when basic memcached is not enough? And how can one\nidentify when the caching architecture is becoming a bottleneck? We'll\ncover the problems we've encountered and solutions we've put in place.\n\nThe following highlight the issues we'll discuss during the talk:\n\n-  Cache Warming. For content that will likely be in demand, getting it\n   ready in cache before use is a helpful start.\n-  Two-tier caching. In multi-server environments, certain content that\n   changes infrequently and has high-demand can be cached locally on\n   each server. In these cases, having methods to burn the cache on each\n   server becomes critical.\n-  Categorizing Cache. If good estimates exist for the expected demand\n   of certain cache as well as the frequency of change, this can lead to\n   better insight into when to warm that content as well as whether to\n   cache it locally.\n-  Caching comparison with memcached vs. reddis vs. mongo\n-  Cachemodel. Our open-source, mini-framework for simplifying caching\n   in Django.\n-  Adding servers to memcached. And consistent hashing algorithms to\n   avoid having to burn all cache when the cache cluster changes in\n   size.\n-  Elasticache on AWS.\n\nAs caching problems become more common, better layers and\nmini-frameworks will help simplify and elegantly solve some of these\nproblems.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution license (reuse allowed",
+  "thumbnail_url": "http://i.ytimg.com/vi/dXDLWGY0Tro/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=dXDLWGY0Tro", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=dXDLWGY0Tro",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=dXDLWGY0Tro", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=dXDLWGY0Tro",
   "tags": [
-    "caching", 
+    "caching",
     "django"
-  ], 
+  ],
   "speakers": [
-    "Kyle Rimkus", 
+    "Kyle Rimkus",
     "Mike Biglan"
-  ], 
+  ],
   "recorded": "2012-09-06"
 }

@@ -1,29 +1,29 @@
 {
-  "id": 1395, 
-  "category": "DjangoCon 2012", 
-  "slug": "debugging-live-python-web-applications", 
-  "title": "Debugging Live Python Web Applications", 
-  "summary": "Monitoring tools record the result of what happened to your web application\nwhen a problem arises, but for some classes of problems, monitoring systems\nare only a starting point. Sometimes it is necessary to take more intrusive\nsteps to plan for the unexpected by embedding mechanisms that will allow you\nto interact with a live deployed web application and extract even more\ndetailed information.\n\n", 
-  "description": "This talk will go over some of the ways in which a monitoring system such as\nNew Relic can be used to focus in on where problems are arising in a Python\nweb application using a framework such as Django. It will also describe how\nyou can then use that information to drill down even further by applying\nseparate debugging tools and techniques rather than monitoring systems.\nDebugging tools aren't generally associated with production systems however\nand even mentioning them in relation to production systems often makes DevOps\npeople rather nervous.\n\nThe main purpose of the talk therefore is to look at a range of debugging\ntools and techniques which can be applied to web applications but also\nseparate them into what might and might not be realistically used on live\nproduction web applications. It will then describe the use of an embedded\ninteractive console port as a gateway into a live web application, how one may\nsetup a set of predefined commands that could be issued against a live web\napplication, or for the brave, how it could be used to fire up an embedded\nPython interpreter prompt or pdb session.\n\nTopics to be touched on would include:\n\n  * Browser viewable error pages.\n  * Browser based debuggers.\n  * Python interactive debuggers.\n  * Post-mortem exception analysis.\n  * Methods for dumping Python stack traces\n  * Methods for dumping C stack traces.\n  * Methods for analyzing thread utilization.\n  * Interactive process introspection tools.\n  * Error reporting and logging services.\n  * Performance monitoring services.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution license (reuse allowed", 
-  "thumbnail_url": "http://i.ytimg.com/vi/YM4F6sSAu9k/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1395,
+  "category": "DjangoCon 2012",
+  "slug": "debugging-live-python-web-applications",
+  "title": "Debugging Live Python Web Applications",
+  "summary": "Monitoring tools record the result of what happened to your web\napplication when a problem arises, but for some classes of problems,\nmonitoring systems are only a starting point. Sometimes it is necessary\nto take more intrusive steps to plan for the unexpected by embedding\nmechanisms that will allow you to interact with a live deployed web\napplication and extract even more detailed information.\n",
+  "description": "This talk will go over some of the ways in which a monitoring system\nsuch as New Relic can be used to focus in on where problems are arising\nin a Python web application using a framework such as Django. It will\nalso describe how you can then use that information to drill down even\nfurther by applying separate debugging tools and techniques rather than\nmonitoring systems. Debugging tools aren't generally associated with\nproduction systems however and even mentioning them in relation to\nproduction systems often makes DevOps people rather nervous.\n\nThe main purpose of the talk therefore is to look at a range of\ndebugging tools and techniques which can be applied to web applications\nbut also separate them into what might and might not be realistically\nused on live production web applications. It will then describe the use\nof an embedded interactive console port as a gateway into a live web\napplication, how one may setup a set of predefined commands that could\nbe issued against a live web application, or for the brave, how it could\nbe used to fire up an embedded Python interpreter prompt or pdb session.\n\nTopics to be touched on would include:\n\n-  Browser viewable error pages.\n-  Browser based debuggers.\n-  Python interactive debuggers.\n-  Post-mortem exception analysis.\n-  Methods for dumping Python stack traces\n-  Methods for dumping C stack traces.\n-  Methods for analyzing thread utilization.\n-  Interactive process introspection tools.\n-  Error reporting and logging services.\n-  Performance monitoring services.\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution license (reuse allowed",
+  "thumbnail_url": "http://i.ytimg.com/vi/YM4F6sSAu9k/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=YM4F6sSAu9k", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=YM4F6sSAu9k",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=YM4F6sSAu9k", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=YM4F6sSAu9k",
   "tags": [
-    "debugging", 
+    "debugging",
     "django"
-  ], 
+  ],
   "speakers": [
     "Amjith Ramanujam"
-  ], 
+  ],
   "recorded": "2012-09-04"
 }
