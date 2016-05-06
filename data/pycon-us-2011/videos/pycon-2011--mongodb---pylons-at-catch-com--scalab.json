@@ -1,34 +1,34 @@
 {
-  "id": 399, 
-  "category": "PyCon US 2011", 
-  "slug": "pycon-2011--mongodb---pylons-at-catch-com--scalab", 
-  "title": "MongoDB + Pylons at Catch.com: Scalable Web Apps with Python and NoSQL", 
-  "summary": "", 
-  "description": "MongoDB + Pylons at Catch.com: Scalable Web Apps with Python and NoSQL\n\nPresented by Niall O'Higgins\n\nThe Catch.com backend provides an API for publishing and querying your\npersonal data - used by many hugely popular Android, iOS and Web clients. We\nported this system to Python and MongoDB, using the Pylons Web framework. This\ntalk details our reasoning for choosing - and experiences with - these\ncutting-edge Web and NoSQL database technologies in a high-traffic, real-world\nproduction system.\n\nAbstract\n\nFaced with the limits of our initial Catch.com Java/BDB backend implemention,\nwe evaluated various alternative technologies including Amazon SimpleDB,\nMySQL, Cassandra and MongoDB. Eventually we settled on Python, Pylons and\nMongoDB.\n\nWe found Python and MongoDB gave us unique flexibility with our data model,\nallowed us to scale for increased reliability and performance and decreased\nfeature development time - and in this talk we'll describe exactly how.\n\nWhile there are many advantages, Python/Pylons and MongoDB (as a relative\nnewcomer on the database scene) certainly have issues and limitations which\nmust be taken into careful consideration for any real-world production\ndeployment.\n\nWe compare MongoDB with other database technologies such as more traditional\nRDBMS like MySQL and competing NoSQL options such as Cassandra, CouchDB and\nBDB.\n\nWe give a detailed introducton to data modeling in MongoDB - with special\nattention paid to how this differs from a traditional relational system - the\noperators provided by its rich query language and utilizing advanced features\nsuch as GeoSpatial indexing, Replica Sets, Sharding - and how to deal with\nsome of the more publicized limitations of the system (such as single-server\ndurability).\n\nWhile much of this talk will be about using MongoDB with Python, we will also\ntouch on issues surrounding production deployment of the Pylons Web framework,\nincluding how we work around the GIL to take advantage of multi-core machines.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011MongoDBPylonsAtCatchcomScalableWebAppsWithPy842-535.jpg", 
-  "duration": null, 
+  "id": 399,
+  "category": "PyCon US 2011",
+  "slug": "pycon-2011--mongodb---pylons-at-catch-com--scalab",
+  "title": "MongoDB + Pylons at Catch.com: Scalable Web Apps with Python and NoSQL",
+  "summary": "",
+  "description": "MongoDB + Pylons at Catch.com: Scalable Web Apps with Python and NoSQL\n\nPresented by Niall O'Higgins\n\nThe Catch.com backend provides an API for publishing and querying your\npersonal data - used by many hugely popular Android, iOS and Web\nclients. We ported this system to Python and MongoDB, using the Pylons\nWeb framework. This talk details our reasoning for choosing - and\nexperiences with - these cutting-edge Web and NoSQL database\ntechnologies in a high-traffic, real-world production system.\n\nAbstract\n\nFaced with the limits of our initial Catch.com Java/BDB backend\nimplemention, we evaluated various alternative technologies including\nAmazon SimpleDB, MySQL, Cassandra and MongoDB. Eventually we settled on\nPython, Pylons and MongoDB.\n\nWe found Python and MongoDB gave us unique flexibility with our data\nmodel, allowed us to scale for increased reliability and performance and\ndecreased feature development time - and in this talk we'll describe\nexactly how.\n\nWhile there are many advantages, Python/Pylons and MongoDB (as a\nrelative newcomer on the database scene) certainly have issues and\nlimitations which must be taken into careful consideration for any\nreal-world production deployment.\n\nWe compare MongoDB with other database technologies such as more\ntraditional RDBMS like MySQL and competing NoSQL options such as\nCassandra, CouchDB and BDB.\n\nWe give a detailed introducton to data modeling in MongoDB - with\nspecial attention paid to how this differs from a traditional relational\nsystem - the operators provided by its rich query language and utilizing\nadvanced features such as GeoSpatial indexing, Replica Sets, Sharding -\nand how to deal with some of the more publicized limitations of the\nsystem (such as single-server durability).\n\nWhile much of this talk will be about using MongoDB with Python, we will\nalso touch on issues surrounding production deployment of the Pylons Web\nframework, including how we work around the GIL to take advantage of\nmulti-core machines.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011MongoDBPylonsAtCatchcomScalableWebAppsWithPy842-535.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/399_mongodb-pylons-at-catch-com-scalable-web-apps-with-python-and-nosql.mp4", 
-      "length": null, 
-      "type": "mp4"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/399_mongodb-pylons-at-catch-com-scalable-web-apps-with-python-and-nosql.mp4",
+      "type": "mp4",
+      "length": null
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "casestudy", 
-    "mongodb", 
-    "nosql", 
-    "pycon", 
-    "pycon2011", 
-    "pylons", 
+    "casestudy",
+    "mongodb",
+    "nosql",
+    "pycon",
+    "pycon2011",
+    "pylons",
     "scalable"
-  ], 
+  ],
   "speakers": [
     "Niall O'Higgins"
-  ], 
+  ],
   "recorded": "2011-03-11"
 }

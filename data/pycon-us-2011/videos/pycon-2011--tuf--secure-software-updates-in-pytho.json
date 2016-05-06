@@ -1,32 +1,32 @@
 {
-  "id": 412, 
-  "category": "PyCon US 2011", 
-  "slug": "pycon-2011--tuf--secure-software-updates-in-pytho", 
-  "title": "TUF: Secure Software Updates in Python", 
-  "summary": "", 
-  "description": "TUF: Secure Software Updates in Python\n\nPresented by Geremy Condra\n\nFrom an attacker's point of view there are few entry points with as much to\noffer as a vulnerable software updater, yet history tells us that such\nvulnerabilities are common. In this talk we'll demonstrate a number of\nattacks, explain how common approaches fail to defend against them, and\ndemonstrate a pure Python library (TUF) that provides both robust protection\nand extreme ease of use.\n\nAbstract\n\nVulnerabilities in software update systems expose users to huge range of\npotential security risks, including:\n\n  * Freeze attacks, \n  * Mix-and-match attacks, \n  * Rollback attacks, and \n  * Endless data attacks \n\nIn the first part of this talk, we'll demonstrate each of these against real-\nworld software updaters and explain how commonly used countermeasures fail in\napplication. We'll then move on to the second part of the talk, demonstrating\nTUF, its internals, and the mechanisms it uses to additionally defend against\nkey compromise. Finally, we'll demonstrate how easy it is to integrate TUF\ninto your application and its lifecycle.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011TUFSecureSoftwareUpdatesInPython643-944.jpg", 
-  "duration": null, 
+  "id": 412,
+  "category": "PyCon US 2011",
+  "slug": "pycon-2011--tuf--secure-software-updates-in-pytho",
+  "title": "TUF: Secure Software Updates in Python",
+  "summary": "",
+  "description": "TUF: Secure Software Updates in Python\n\nPresented by Geremy Condra\n\nFrom an attacker's point of view there are few entry points with as much\nto offer as a vulnerable software updater, yet history tells us that\nsuch vulnerabilities are common. In this talk we'll demonstrate a number\nof attacks, explain how common approaches fail to defend against them,\nand demonstrate a pure Python library (TUF) that provides both robust\nprotection and extreme ease of use.\n\nAbstract\n\nVulnerabilities in software update systems expose users to huge range of\npotential security risks, including:\n\n-  Freeze attacks,\n-  Mix-and-match attacks,\n-  Rollback attacks, and\n-  Endless data attacks\n\nIn the first part of this talk, we'll demonstrate each of these against\nreal- world software updaters and explain how commonly used\ncountermeasures fail in application. We'll then move on to the second\npart of the talk, demonstrating TUF, its internals, and the mechanisms\nit uses to additionally defend against key compromise. Finally, we'll\ndemonstrate how easy it is to integrate TUF into your application and\nits lifecycle.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011TUFSecureSoftwareUpdatesInPython643-944.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/412_tuf-secure-software-updates-in-python.mp4", 
-      "length": null, 
-      "type": "mp4"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/412_tuf-secure-software-updates-in-python.mp4",
+      "type": "mp4",
+      "length": null
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "pycon", 
-    "pycon2011", 
-    "security", 
-    "tuf", 
+    "pycon",
+    "pycon2011",
+    "security",
+    "tuf",
     "updates"
-  ], 
+  ],
   "speakers": [
     "Geremy Condra"
-  ], 
+  ],
   "recorded": "2011-03-11"
 }

@@ -1,31 +1,31 @@
 {
-  "id": 443, 
-  "category": "PyCon US 2011", 
-  "slug": "pycon-2011--using-python-3-to-build-a-cloud-compu", 
-  "title": "Using Python 3 to Build a Cloud Computing Service for my Superboard II", 
-  "summary": "", 
-  "description": "Using Python 3 to Build a Cloud Computing Service for my Superboard II\n\nPresented by David Beazley\n\nThe OSI Superboard II was the computer on which I first learned to program\nback in 1979. Python is why programming remains fun today. In this tale of old\nmeets new, I describe how I have used Python 3 to create a cloud computing\nservice for my still-working Superboard--a problem complicated by it only\nhaving 8Kb of RAM and 300-baud cassette tape audio ports for I/O.\n\nAbstract\n\nPython 3, what good is it? Cloud computing? Bah! In this talk, I describe how\nI have used Python 3 to build a distributed cloud-computing service for my\nSuperboard II system. Originally built in 1978, the Superboard is an obvious\ncandidate for cloud computing due to its extremely constrained memory (8Kb),\nslow processor (a 1Mhz 6502), crippled I/O (300 baud over audio), and retro\nprogramming environment (Microsoft Basic 1.0). The only question is how to do\nit?\n\nTo answer that question, this talk consist of two main parts. In the first\npart, I discuss the problem of building a communications stack between the\nSuperboard and a Mac using nothing but audio line-in/line-out ports--a problem\ninvolving a tricky I/O handling, real-time audio signal processing, and the\ncreation of a data-link layer communication protocol. In the second part, I\ndiscuss the creation of a distributed cloud-computing service and related\ntopics including messaging systems, key-value stores, map-reduce, etc.\n\nThe primary implementation language for all of this work is Python 3.\nThroughout the talk, I will mention interesting Python 3 programming idioms\nalong with pros and cons. I'll conclude by summarizing my experience trying to\nbuild a significant project entirely in Python 3.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011UsingPython3ToBuildACloudComputingServiceFor438.png", 
-  "duration": null, 
+  "id": 443,
+  "category": "PyCon US 2011",
+  "slug": "pycon-2011--using-python-3-to-build-a-cloud-compu",
+  "title": "Using Python 3 to Build a Cloud Computing Service for my Superboard II",
+  "summary": "",
+  "description": "Using Python 3 to Build a Cloud Computing Service for my Superboard II\n\nPresented by David Beazley\n\nThe OSI Superboard II was the computer on which I first learned to\nprogram back in 1979. Python is why programming remains fun today. In\nthis tale of old meets new, I describe how I have used Python 3 to\ncreate a cloud computing service for my still-working Superboard--a\nproblem complicated by it only having 8Kb of RAM and 300-baud cassette\ntape audio ports for I/O.\n\nAbstract\n\nPython 3, what good is it? Cloud computing? Bah! In this talk, I\ndescribe how I have used Python 3 to build a distributed cloud-computing\nservice for my Superboard II system. Originally built in 1978, the\nSuperboard is an obvious candidate for cloud computing due to its\nextremely constrained memory (8Kb), slow processor (a 1Mhz 6502),\ncrippled I/O (300 baud over audio), and retro programming environment\n(Microsoft Basic 1.0). The only question is how to do it?\n\nTo answer that question, this talk consist of two main parts. In the\nfirst part, I discuss the problem of building a communications stack\nbetween the Superboard and a Mac using nothing but audio\nline-in/line-out ports--a problem involving a tricky I/O handling,\nreal-time audio signal processing, and the creation of a data-link layer\ncommunication protocol. In the second part, I discuss the creation of a\ndistributed cloud-computing service and related topics including\nmessaging systems, key-value stores, map-reduce, etc.\n\nThe primary implementation language for all of this work is Python 3.\nThroughout the talk, I will mention interesting Python 3 programming\nidioms along with pros and cons. I'll conclude by summarizing my\nexperience trying to build a significant project entirely in Python 3.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011UsingPython3ToBuildACloudComputingServiceFor438.png",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/443_using-python-3-to-build-a-cloud-computing-service-for-my-superboard-ii.mp4", 
-      "length": null, 
-      "type": "mp4"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/443_using-python-3-to-build-a-cloud-computing-service-for-my-superboard-ii.mp4",
+      "type": "mp4",
+      "length": null
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "pycon", 
-    "pycon2011", 
-    "soawesome", 
+    "pycon",
+    "pycon2011",
+    "soawesome",
     "superboard"
-  ], 
+  ],
   "speakers": [
     "David Beazley"
-  ], 
+  ],
   "recorded": "2011-03-11"
 }

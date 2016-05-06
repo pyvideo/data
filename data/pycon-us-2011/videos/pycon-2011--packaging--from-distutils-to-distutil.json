@@ -1,32 +1,32 @@
 {
-  "id": 409, 
-  "category": "PyCon US 2011", 
-  "slug": "pycon-2011--packaging--from-distutils-to-distutil", 
-  "title": "Packaging, from Distutils to Distutils2", 
-  "summary": "", 
-  "description": "Packaging, from Distutils to Distutils2\n\nTarek Ziad\u00e9\n\nPackaging or installing a Python application can be extremely painful. This\ntalk will deep-dive into the new Distutils2 features and explain how you can\nuse them in your project *today* to make life easier for everyone (users, OS\npackage managers, developers, etc.).\n\nAbstract\n\n  1. Distutils2 presentation and goals \n    1. Framework \n    2. Command-driven packaging system \n    3. Changes from Distutils1 \n      1. R.I.P. setup.py \n      2. The new metadata fields (PEP 345) \n      3. versions for your project (PEP 386) \n      4. PyPI goodies \n        1. browsing \n        2. uploading docs \n      5. What's installed ? what to install ? (PEP 376) \n        1. The Dependency graph tool \n      6. Extensibility ! \n        1. commands \n        2. compilers \n    4. Pysetup, one command to rule them all \n      1. install ! \n      2. remove \n      3. do other things \n    5. Examples \n      1. Example 1: A simple Distutils2 project \n      2. Example 2: Porting your project to Distutils2, and keep it working in Distutils/Setuptools/zc.buildout environments. \n      3. Example 3: Creating and releasing your own commands and compilers \n      4. Example 4: Developement process made simple with Distutils2 \n    6. Conclusion \n      1. Roadmap \n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011PackagingFromDistutilsToDistutils2901.png", 
-  "duration": null, 
+  "id": 409,
+  "category": "PyCon US 2011",
+  "slug": "pycon-2011--packaging--from-distutils-to-distutil",
+  "title": "Packaging, from Distutils to Distutils2",
+  "summary": "",
+  "description": "Packaging, from Distutils to Distutils2\n\nTarek Ziad\u00e9\n\nPackaging or installing a Python application can be extremely painful.\nThis talk will deep-dive into the new Distutils2 features and explain\nhow you can use them in your project *today* to make life easier for\neveryone (users, OS package managers, developers, etc.).\n\nAbstract\n\n1. Distutils2 presentation and goals\n\n   1.  Framework\n   2.  Command-driven packaging system\n   3.  Changes from Distutils1\n   4.  R.I.P. setup.py\n   5.  The new metadata fields (PEP 345)\n   6.  versions for your project (PEP 386)\n   7.  PyPI goodies\n\n       1. browsing\n       2. uploading docs\n\n   8.  What's installed ? what to install ? (PEP 376)\n\n       1. The Dependency graph tool\n\n   9.  Extensibility !\n\n       1. commands\n       2. compilers\n\n   10. Pysetup, one command to rule them all\n   11. install !\n   12. remove\n   13. do other things\n   14. Examples\n   15. Example 1: A simple Distutils2 project\n   16. Example 2: Porting your project to Distutils2, and keep it\n       working in Distutils/Setuptools/zc.buildout environments.\n   17. Example 3: Creating and releasing your own commands and compilers\n   18. Example 4: Developement process made simple with Distutils2\n   19. Conclusion\n   20. Roadmap\n\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011PackagingFromDistutilsToDistutils2901.png",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/409_packaging-from-distutils-to-distutils2.mp4", 
-      "length": null, 
-      "type": "mp4"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/409_packaging-from-distutils-to-distutils2.mp4",
+      "type": "mp4",
+      "length": null
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "distutils", 
-    "distutils2", 
-    "pycon", 
-    "pycon2011", 
-    "setup.py", 
-    "setuptools", 
+    "distutils",
+    "distutils2",
+    "pycon",
+    "pycon2011",
+    "setup.py",
+    "setuptools",
     "zc.buildout"
-  ], 
-  "speakers": [], 
+  ],
+  "speakers": [],
   "recorded": "2011-03-11"
 }
