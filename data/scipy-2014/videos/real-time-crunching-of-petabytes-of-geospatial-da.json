@@ -1,26 +1,26 @@
 {
-  "id": 2772, 
-  "category": "SciPy 2014", 
-  "slug": "real-time-crunching-of-petabytes-of-geospatial-da", 
-  "title": "Real time Crunching of Petabytes of Geospatial Data with Google Earth Engine", 
-  "summary": "Google Earth Engine is a platform designed to enable petabyte-scale scientific analysis and visualization of geospatial datasets.  Earth Engine provides a consolidated environment including a massive data catalog co-located with thousands of computers for analysis. This talk will discuss products that Earth Engine has produced, and how to access Earth Engine via its Python API.", 
-  "description": "Background\r\n==========\r\n\r\n* What is [Earth Engine](https://earthengine.google.org) at a high level?\r\n* Why did the Earth Engine (EE) project start? [To monitor global deforestation.](http://blog.google.org/2010/12/introducing-google-earth-engine.html)\r\n* What architecture design decisions were made, and why?\r\n    - Just-in-time computation model\r\n    - Lazy evaluation for real-time feedback\r\n\r\nThe Earth Engine Python API\r\n===========================\r\n\r\n* PyPI package: [earthengine-api](https://pypi.python.org/pypi/earthengine-api)\r\n* OAuth authentication\r\n* Using IPython Notebooks for algorithm development\r\n    - Special display methods for interactive maps\r\n\r\nPhilosophical goals and how they are manifested\r\n===============================================\r\n\r\n* Organize the world's (geospatial) information and make it universally accessible and useful\r\n* Facilitate open transparent science\r\n* Speed up science by reducing the effort required to test hypotheses\r\n* Enable collaborative algorithm development\r\n\r\nSelected Results\r\n================\r\n\r\n* Consumer-grade visualizations\r\n    - Time-lapse global scale interactive video - [blog post](http://googleblog.blogspot.com/2013/05/a-picture-of-earth-through-time.html), [interactive viewer (centered on Austin)](https://earthengine.google.org/#timelapse/v=30.27632,-97.74597,10.812,latLng&t=1.67)\r\n* Science-grade Data Products\r\n    - High-Resolution Global Maps of 21st-Century Forest Cover Change - [Science journal publication](http://www.sciencemag.org/content/342/6160/850), [blog post](http://googleresearch.blogspot.com/2013/11/the-first-detailed-maps-of-global.html), [interactive viewer](http://earthenginepartners.appspot.com/science-2013-global-forest)\r\n\r\nThe Future\r\n==========\r\n\r\n* Global-scale analysis challenges\r\n* An invitation for developers\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/8LZGBL4U3F4/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2772,
+  "category": "SciPy 2014",
+  "slug": "real-time-crunching-of-petabytes-of-geospatial-da",
+  "title": "Real time Crunching of Petabytes of Geospatial Data with Google Earth Engine",
+  "summary": "Google Earth Engine is a platform designed to enable petabyte-scale\nscientific analysis and visualization of geospatial datasets. Earth\nEngine provides a consolidated environment including a massive data\ncatalog co-located with thousands of computers for analysis. This talk\nwill discuss products that Earth Engine has produced, and how to access\nEarth Engine via its Python API.\n",
+  "description": "Background\n==========\n\n-  What is `Earth Engine <https://earthengine.google.org>`__ at a high\n   level?\n-  Why did the Earth Engine (EE) project start? `To monitor global\n   deforestation. <http://blog.google.org/2010/12/introducing-google-earth-engine.html>`__\n-  What architecture design decisions were made, and why?\n\n   -  Just-in-time computation model\n   -  Lazy evaluation for real-time feedback\n\nThe Earth Engine Python API\n===========================\n\n-  PyPI package:\n   `earthengine-api <https://pypi.python.org/pypi/earthengine-api>`__\n-  OAuth authentication\n-  Using IPython Notebooks for algorithm development\n\n   -  Special display methods for interactive maps\n\nPhilosophical goals and how they are manifested\n===============================================\n\n-  Organize the world's (geospatial) information and make it universally\n   accessible and useful\n-  Facilitate open transparent science\n-  Speed up science by reducing the effort required to test hypotheses\n-  Enable collaborative algorithm development\n\nSelected Results\n================\n\n-  Consumer-grade visualizations\n\n   -  Time-lapse global scale interactive video - `blog\n      post <http://googleblog.blogspot.com/2013/05/a-picture-of-earth-through-time.html>`__,\n      `interactive viewer (centered on\n      Austin) <https://earthengine.google.org/#timelapse/v=30.27632,-97.74597,10.812,latLng&t=1.67>`__\n\n-  Science-grade Data Products\n\n   -  High-Resolution Global Maps of 21st-Century Forest Cover Change -\n      `Science journal\n      publication <http://www.sciencemag.org/content/342/6160/850>`__,\n      `blog\n      post <http://googleresearch.blogspot.com/2013/11/the-first-detailed-maps-of-global.html>`__,\n      `interactive\n      viewer <http://earthenginepartners.appspot.com/science-2013-global-forest>`__\n\nThe Future\n==========\n\n-  Global-scale analysis challenges\n-  An invitation for developers\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/8LZGBL4U3F4/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=8LZGBL4U3F4", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=8LZGBL4U3F4",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=8LZGBL4U3F4", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=8LZGBL4U3F4",
+  "tags": [],
   "speakers": [
     "Randy Sargent"
-  ], 
+  ],
   "recorded": "2014-07-14"
 }

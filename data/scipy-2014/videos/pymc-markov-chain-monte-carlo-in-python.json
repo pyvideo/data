@@ -1,29 +1,29 @@
 {
-  "id": 2734, 
-  "category": "SciPy 2014", 
-  "slug": "pymc-markov-chain-monte-carlo-in-python", 
-  "title": "PyMC: Markov Chain Monte Carlo in Python", 
-  "summary": "PyMC is a Python module that implements Bayesian statistical models and fitting algorithms, including Markov chain Monte Carlo (MCMC). Its flexibility, extensibility, and clean interface make it applicable to a large suite of statistical modeling applications. The upcoming release of PyMC 3 features an expanded set of MCMC samplers, including Hamiltonian Monte Carlo.", 
-  "description": "[PyMC](http://pymc-devs.github.io/pymc/) is a Python module that implements Bayesian statistical models and fitting algorithms, including Markov chain Monte Carlo (MCMC). Its flexibility and extensibility make it applicable to a large suite of problems. Along with core sampling functionality, PyMC includes methods for summarizing output, plotting, goodness-of-fit and convergence diagnostics. PyMC seeks to make Bayesian analysis as painless as possible, so that it may be used by a range of data analysts. Its key features include:\r\n\r\n* Fits Bayesian statistical models with Markov chain Monte Carlo and other algorithms.\r\n* Includes a large suite of well-documented statistical distributions.\r\n* Uses NumPy for numerics wherever possible.\r\n* Includes a module for modeling Gaussian processes.\r\n* Sampling loops can be paused and tuned manually, or saved and restarted later.\r\n* Creates summaries including tables and plots.\r\n* Traces can be saved to the disk as plain text, Python pickles, SQLite or MySQL database, or hdf5 archives.\r\n* Several convergence diagnostics are available.\r\n* Extensible: easily incorporates custom step methods and unusual probability distributions.\r\n* MCMC loops can be embedded in larger programs, and results can be analyzed with the full power of Python.\r\n\r\nThe upcoming release of [PyMC 3](https://github.com/pymc-devs/pymc) features an expanded set of MCMC samplers, including Hamiltonian Monte Carlo. For this, we tap into the power of Theano to provide automatic evaluation of mathematical expressions, including gradients used by modern MCMC samplers.\r\n\r\nThe [source](https://github.com/pymc-devs/pymc) and [documentation](http://pymc-devs.github.io/pymc/) for PyMC can be found on GitHub.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/XbxIo7ScVzc/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2734,
+  "category": "SciPy 2014",
+  "slug": "pymc-markov-chain-monte-carlo-in-python",
+  "title": "PyMC: Markov Chain Monte Carlo in Python",
+  "summary": "PyMC is a Python module that implements Bayesian statistical models and\nfitting algorithms, including Markov chain Monte Carlo (MCMC). Its\nflexibility, extensibility, and clean interface make it applicable to a\nlarge suite of statistical modeling applications. The upcoming release\nof PyMC 3 features an expanded set of MCMC samplers, including\nHamiltonian Monte Carlo.\n",
+  "description": "`PyMC <http://pymc-devs.github.io/pymc/>`__ is a Python module that\nimplements Bayesian statistical models and fitting algorithms, including\nMarkov chain Monte Carlo (MCMC). Its flexibility and extensibility make\nit applicable to a large suite of problems. Along with core sampling\nfunctionality, PyMC includes methods for summarizing output, plotting,\ngoodness-of-fit and convergence diagnostics. PyMC seeks to make Bayesian\nanalysis as painless as possible, so that it may be used by a range of\ndata analysts. Its key features include:\n\n-  Fits Bayesian statistical models with Markov chain Monte Carlo and\n   other algorithms.\n-  Includes a large suite of well-documented statistical distributions.\n-  Uses NumPy for numerics wherever possible.\n-  Includes a module for modeling Gaussian processes.\n-  Sampling loops can be paused and tuned manually, or saved and\n   restarted later.\n-  Creates summaries including tables and plots.\n-  Traces can be saved to the disk as plain text, Python pickles, SQLite\n   or MySQL database, or hdf5 archives.\n-  Several convergence diagnostics are available.\n-  Extensible: easily incorporates custom step methods and unusual\n   probability distributions.\n-  MCMC loops can be embedded in larger programs, and results can be\n   analyzed with the full power of Python.\n\nThe upcoming release of `PyMC 3 <https://github.com/pymc-devs/pymc>`__\nfeatures an expanded set of MCMC samplers, including Hamiltonian Monte\nCarlo. For this, we tap into the power of Theano to provide automatic\nevaluation of mathematical expressions, including gradients used by\nmodern MCMC samplers.\n\nThe `source <https://github.com/pymc-devs/pymc>`__ and\n`documentation <http://pymc-devs.github.io/pymc/>`__ for PyMC can be\nfound on GitHub.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/XbxIo7ScVzc/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=XbxIo7ScVzc", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=XbxIo7ScVzc",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=XbxIo7ScVzc", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=XbxIo7ScVzc",
   "tags": [
-    "markov", 
+    "markov",
     "monte carlo"
-  ], 
+  ],
   "speakers": [
     "Chris Fonnesbeck"
-  ], 
+  ],
   "recorded": "2014-07-09"
 }

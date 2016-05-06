@@ -1,27 +1,27 @@
 {
-  "id": 2810, 
-  "category": "SciPy 2014", 
-  "slug": "zero-dependency-python", 
-  "title": "Zero Dependency Python", 
-  "summary": "We present a new method for distributing and using Python that requires no dependencies beyond the Google Chrome web browser based on Portable Native Client (PNaCl).  We will demonstrate an IPython notebook run completely client side with no out-of-browser components, backed by Google Drive, an HTML5 File System, and able to pass numpy arrays as typed arrays without serialization as JSON.", 
-  "description": "We present a new method for distributing and using Python that requires no\r\ndependencies beyond the Google Chrome web browser.  By combining the static\r\nlinking methodology of traditional supercomputer-style deployments of Python\r\nwith the technology Portable Native Client (PNaCl) we have constructed a method\r\nfor building, deploying, and sharing fully-sandboxed scientific python stacks\r\nthat require no client-side installation: the entire IPython notebook and\r\nscientific python stack, in a website, at native speeds.  We will present this\r\ntechnology, along with some of its potential applications, describing its\r\nshortcomings and future extensibility.  We will conclude by demonstrating an\r\nIPython notebook run completely client side with no out-of-browser components,\r\nbacked by Google Drive and an HTML5 File System, and able to pass numpy arrays\r\nas typed arrays into the browser without serialization as JSON.\r\n\r\n1. We will begin by briefly describing the problems with deploying scientific python\r\nas a stack, particularly the dependency graph, installation time, and so\r\non.\r\n\r\n2. We'll describe the PNaCl technology and build system for\r\nscientific python, including how individuals can create their own .pexes with\r\ntheir own application stack\r\n\r\n3. We'll describe potential applications,\r\nsuch as bundling safe, sandboxed executables with scripts and lessons\r\n\r\n4. We will demonstrate a complete system for running the IPython notebook in a\r\nsandboxed, Google Chrome window\r\n\r\n5. We'll conclude by describing methods that this system could be extended to run sandboxed python executables on any\r\nsystem, independent of the Chrome web browser, such as supercomputers and\r\nnon-virtualized hosting providers\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/bITvUUyvUAY/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2810,
+  "category": "SciPy 2014",
+  "slug": "zero-dependency-python",
+  "title": "Zero Dependency Python",
+  "summary": "We present a new method for distributing and using Python that requires\nno dependencies beyond the Google Chrome web browser based on Portable\nNative Client (PNaCl). We will demonstrate an IPython notebook run\ncompletely client side with no out-of-browser components, backed by\nGoogle Drive, an HTML5 File System, and able to pass numpy arrays as\ntyped arrays without serialization as JSON.\n",
+  "description": "We present a new method for distributing and using Python that requires\nno dependencies beyond the Google Chrome web browser. By combining the\nstatic linking methodology of traditional supercomputer-style\ndeployments of Python with the technology Portable Native Client (PNaCl)\nwe have constructed a method for building, deploying, and sharing\nfully-sandboxed scientific python stacks that require no client-side\ninstallation: the entire IPython notebook and scientific python stack,\nin a website, at native speeds. We will present this technology, along\nwith some of its potential applications, describing its shortcomings and\nfuture extensibility. We will conclude by demonstrating an IPython\nnotebook run completely client side with no out-of-browser components,\nbacked by Google Drive and an HTML5 File System, and able to pass numpy\narrays as typed arrays into the browser without serialization as JSON.\n\n1. We will begin by briefly describing the problems with deploying\n   scientific python as a stack, particularly the dependency graph,\n   installation time, and so on.\n\n2. We'll describe the PNaCl technology and build system for scientific\n   python, including how individuals can create their own .pexes with\n   their own application stack\n\n3. We'll describe potential applications, such as bundling safe,\n   sandboxed executables with scripts and lessons\n\n4. We will demonstrate a complete system for running the IPython\n   notebook in a sandboxed, Google Chrome window\n\n5. We'll conclude by describing methods that this system could be\n   extended to run sandboxed python executables on any system,\n   independent of the Chrome web browser, such as supercomputers and\n   non-virtualized hosting providers\n\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/bITvUUyvUAY/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=bITvUUyvUAY", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=bITvUUyvUAY",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=bITvUUyvUAY", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=bITvUUyvUAY",
+  "tags": [],
   "speakers": [
-    "Kester Tong", 
+    "Kester Tong",
     "Matthew Turk"
-  ], 
+  ],
   "recorded": "2014-07-10"
 }

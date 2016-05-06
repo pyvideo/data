@@ -1,28 +1,28 @@
 {
-  "id": 2757, 
-  "category": "SciPy 2014", 
-  "slug": "anatomy-of-matplotlib-part-1", 
-  "title": "Anatomy of Matplotlib - Part 1", 
-  "summary": "This tutorial will be the introduction to matplotlib. Users will learn the types of plots and experiment with them. Then the fundamental concepts and terminologies of matplotlib are introduced. Next, we will learn how to change the \"look and feel\" of their plots. Finally, users will be introduced to other toolkits that extends matplotlib.", 
-  "description": "Introduction\r\n============\r\n\r\nPurpose of matplotlib\r\n---------------------\r\n\r\nOnline Documentation\r\n--------------------\r\n### [matplotlib.org](http://matplotlib.org \"\")\r\n### Mailing Lists and StackOverflow\r\n### Github Repository\r\n### Bug Reports & Feature Requests\r\n\r\nWhat is this \"backend\" thing I keep hearing about?\r\n==================================================\r\n### Interactive versus non-interactive\r\n### Agg\r\n### Tk, Qt, GTK, MacOSX, Wx, Cairo\r\n\r\nPlotting Functions\r\n==================\r\n### Graphs (plot, scatter, bar, stem, etc.)\r\n### Images (imshow, pcolor, pcolormesh, contour[f], etc.)\r\n### Lesser Knowns: (pie, acorr, hexbin, streamplot, etc.)\r\n\r\nWhat goes in a Figure?\r\n======================\r\n### Axes\r\n### Axis\r\n### ticks (and ticklines and ticklabels) (both major & minor)\r\n### axis labels\r\n### axes title\r\n### figure suptitle\r\n### axis spines\r\n### colorbars (and the oddities thereof)\r\n### axis scale\r\n### axis gridlines\r\n### legend\r\n\r\nManipulating the \"Look-and-Feel\"\r\n================================\r\n\r\n### Introducing matplotlibrc\r\n### Properties\r\n- color (and edgecolor, linecolor, facecolor, etc...)\r\n- linewidth and edgewidth and markeredgewidth (and the oddity that happens in errorbar())\r\n- linestyle\r\n- fonts\r\n- zorder\r\n- visible\r\n\r\nWhat are toolkits?\r\n==================\r\n### axes_grid1\r\n### mplot3d\r\n### basemap\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/A2adyFMsut0/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2757,
+  "category": "SciPy 2014",
+  "slug": "anatomy-of-matplotlib-part-1",
+  "title": "Anatomy of Matplotlib - Part 1",
+  "summary": "This tutorial will be the introduction to matplotlib. Users will learn\nthe types of plots and experiment with them. Then the fundamental\nconcepts and terminologies of matplotlib are introduced. Next, we will\nlearn how to change the \"look and feel\" of their plots. Finally, users\nwill be introduced to other toolkits that extends matplotlib.\n",
+  "description": "Introduction\n============\n\nPurpose of matplotlib\n---------------------\n\nOnline Documentation\n--------------------\n\n`matplotlib.org <http://matplotlib.org>`__\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nMailing Lists and StackOverflow\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nGithub Repository\n~~~~~~~~~~~~~~~~~\n\nBug Reports & Feature Requests\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nWhat is this \"backend\" thing I keep hearing about?\n==================================================\n\nInteractive versus non-interactive\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nAgg\n~~~\n\nTk, Qt, GTK, MacOSX, Wx, Cairo\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nPlotting Functions\n==================\n\nGraphs (plot, scatter, bar, stem, etc.)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nImages (imshow, pcolor, pcolormesh, contour[f], etc.)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nLesser Knowns: (pie, acorr, hexbin, streamplot, etc.)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nWhat goes in a Figure?\n======================\n\nAxes\n~~~~\n\nAxis\n~~~~\n\nticks (and ticklines and ticklabels) (both major & minor)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\naxis labels\n~~~~~~~~~~~\n\naxes title\n~~~~~~~~~~\n\nfigure suptitle\n~~~~~~~~~~~~~~~\n\naxis spines\n~~~~~~~~~~~\n\ncolorbars (and the oddities thereof)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\naxis scale\n~~~~~~~~~~\n\naxis gridlines\n~~~~~~~~~~~~~~\n\nlegend\n~~~~~~\n\nManipulating the \"Look-and-Feel\"\n================================\n\nIntroducing matplotlibrc\n~~~~~~~~~~~~~~~~~~~~~~~~\n\nProperties\n~~~~~~~~~~\n\n-  color (and edgecolor, linecolor, facecolor, etc...)\n-  linewidth and edgewidth and markeredgewidth (and the oddity that\n   happens in errorbar())\n-  linestyle\n-  fonts\n-  zorder\n-  visible\n\nWhat are toolkits?\n==================\n\naxes\\_grid1\n~~~~~~~~~~~\n\nmplot3d\n~~~~~~~\n\nbasemap\n~~~~~~~\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/A2adyFMsut0/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=A2adyFMsut0", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=A2adyFMsut0",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=A2adyFMsut0", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=A2adyFMsut0",
   "tags": [
     "matplotlib"
-  ], 
+  ],
   "speakers": [
     "Benjamin Root"
-  ], 
+  ],
   "recorded": "2014-07-09"
 }
