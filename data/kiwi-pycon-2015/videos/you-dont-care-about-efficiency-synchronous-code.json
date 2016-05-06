@@ -1,26 +1,26 @@
 {
-  "id": 3851, 
-  "category": "Kiwi PyCon 2015", 
-  "slug": "you-dont-care-about-efficiency-synchronous-code", 
-  "title": "You Don\u2019t Care About Efficiency: Synchronous Code Is Dying", 
-  "summary": "", 
-  "description": "If you write blocking code, you don\u2019t care about efficiency.\r\n\r\nThere, I said it.\r\n\r\nIt\u2019s 2015, and still the vast majority of Python programmers write essentially synchronous code that blocks on network I/O. This approach, while simple to reason about, struggles mightily with scaling up and out into software that does a lot of network I/O. Worse, it makes it difficult to write code that reacts rapidly to changing conditions.\r\n\r\nThe writing is on the wall for this kind of software, as the community shifts towards writing software that embraces asynchronicity. In this talk we\u2019ll discuss why synchronous software is a problem, what your options are to move away from it, and what challenges are being faced by the Python ecosystem as we try to move towards a brave new asynchronous world.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC BY-SA", 
-  "thumbnail_url": "https://i.ytimg.com/vi/7b4z7y6Lohw/hqdefault.jpg", 
-  "duration": 2041, 
+  "id": 3851,
+  "category": "Kiwi PyCon 2015",
+  "slug": "you-dont-care-about-efficiency-synchronous-code",
+  "title": "You Don\u2019t Care About Efficiency: Synchronous Code Is Dying",
+  "summary": "",
+  "description": "If you write blocking code, you don\u2019t care about efficiency.\n\nThere, I said it.\n\nIt\u2019s 2015, and still the vast majority of Python programmers write\nessentially synchronous code that blocks on network I/O. This approach,\nwhile simple to reason about, struggles mightily with scaling up and out\ninto software that does a lot of network I/O. Worse, it makes it\ndifficult to write code that reacts rapidly to changing conditions.\n\nThe writing is on the wall for this kind of software, as the community\nshifts towards writing software that embraces asynchronicity. In this\ntalk we\u2019ll discuss why synchronous software is a problem, what your\noptions are to move away from it, and what challenges are being faced by\nthe Python ecosystem as we try to move towards a brave new asynchronous\nworld.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC BY-SA",
+  "thumbnail_url": "https://i.ytimg.com/vi/7b4z7y6Lohw/hqdefault.jpg",
+  "duration": 2041,
   "videos": [
     {
-      "url": "http://youtu.be/7b4z7y6Lohw", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://youtu.be/7b4z7y6Lohw",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://youtu.be/7b4z7y6Lohw", 
-  "tags": [], 
+  ],
+  "source_url": "http://youtu.be/7b4z7y6Lohw",
+  "tags": [],
   "speakers": [
     "Cory Benfield"
-  ], 
+  ],
   "recorded": "2015-09-06"
 }
