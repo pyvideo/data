@@ -1,28 +1,28 @@
 {
-  "id": 3239, 
-  "category": "Kiwi PyCon 2014", 
-  "slug": "tardis-an-interpreter-for-command-line-parallel", 
-  "title": "tardis - an interpreter for command-line parallel execution ", 
-  "summary": "", 
-  "description": "= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nAlan McCulloch:\r\ntardis - an interpreter for command-line parallel execution\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 2\r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nThis talk is about simplifying the command line interface to local or cluster based parallel computing.\r\n\r\n**Abstract**\r\n\r\nIdeally the user of a command shell would be unaware whether their commands were executed as a single process on the local machine, or as many concurrent processes on either their local machine or a remote cluster, apart from the reduced time taken to complete the command if executed as concurrent processes. We have developed an approach which we call \u201ccommand conditioning\u201d in which the user marks up a command with hints to the interpreter which are used to transform the marked-up command into \u201c(re)conditioned\u201d native shell commands which the interpreter then launches concurrently and monitors, collects and collates output and termination status. We have implemented an initial python based command-conditioning interpreter called tardis. We describe tardis, give examples of the class of compute tasks for which it is suited, and briefly outline key compute-cluster design characteristics which support this approach. We also touch on future work such as potential integration with Galaxy, a popular python based workflow system.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/alan-mcculloch-tardis-an-interpreter-for-command-line-parallel-execution", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC", 
-  "thumbnail_url": "http://i.ytimg.com/vi/Kf8Dy8Dt6YM/hqdefault.jpg", 
-  "duration": 1800, 
+  "id": 3239,
+  "category": "Kiwi PyCon 2014",
+  "slug": "tardis-an-interpreter-for-command-line-parallel",
+  "title": "tardis - an interpreter for command-line parallel execution ",
+  "summary": "",
+  "description": "= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = Alan\nMcCulloch: tardis - an interpreter for command-line parallel execution =\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = @ Kiwi\nPyCon 2014 - Saturday, 13 Sep 2014 - Track 2 http://kiwi.pycon.org/\n\n**Audience level**\n\nIntermediate\n\n**Description**\n\nThis talk is about simplifying the command line interface to local or\ncluster based parallel computing.\n\n**Abstract**\n\nIdeally the user of a command shell would be unaware whether their\ncommands were executed as a single process on the local machine, or as\nmany concurrent processes on either their local machine or a remote\ncluster, apart from the reduced time taken to complete the command if\nexecuted as concurrent processes. We have developed an approach which we\ncall \u201ccommand conditioning\u201d in which the user marks up a command with\nhints to the interpreter which are used to transform the marked-up\ncommand into \u201c(re)conditioned\u201d native shell commands which the\ninterpreter then launches concurrently and monitors, collects and\ncollates output and termination status. We have implemented an initial\npython based command-conditioning interpreter called tardis. We describe\ntardis, give examples of the class of compute tasks for which it is\nsuited, and briefly outline key compute-cluster design characteristics\nwhich support this approach. We also touch on future work such as\npotential integration with Galaxy, a popular python based workflow\nsystem.\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/alan-mcculloch-tardis-an-interpreter-for-command-line-parallel-execution\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC",
+  "thumbnail_url": "http://i.ytimg.com/vi/Kf8Dy8Dt6YM/hqdefault.jpg",
+  "duration": 1800,
   "videos": [
     {
-      "url": "http://youtu.be/Kf8Dy8Dt6YM", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://youtu.be/Kf8Dy8Dt6YM",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://youtu.be/Kf8Dy8Dt6YM", 
+  ],
+  "source_url": "http://youtu.be/Kf8Dy8Dt6YM",
   "tags": [
     "talk"
-  ], 
+  ],
   "speakers": [
     "Alan McCulloch"
-  ], 
+  ],
   "recorded": "2014-09-13"
 }
