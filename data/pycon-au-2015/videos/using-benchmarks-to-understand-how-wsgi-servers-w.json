@@ -1,26 +1,26 @@
 {
-  "id": 4049, 
-  "category": "PyCon AU 2015", 
-  "slug": "using-benchmarks-to-understand-how-wsgi-servers-w", 
-  "title": "Using benchmarks to understand how WSGI servers work", 
-  "summary": "", 
-  "description": "During the development of a Python web application the inbuilt development web server provided by the web framework is often what is used. When moving to a production environment, one has to choose a more capable production grade WSGI deployment mechanism. Which of the various WSGI servers available is going to be the most suitable is going to depend on a range of criteria related to your specific web applications requirements.\r\n\r\nUnfortunately, rather than look at the bigger picture and what would be the most suitable across such criteria, many people will simply rush to trying to run an overly simplistic benchmark on the various WSGI servers and make the decision based purely on perceptions of whether one WSGI server is faster than the alternatives. Worse, they don't even attempt to do the benchmarks themselves and instead rely on benchmarks published on some public blog site.\r\n\r\nSuch public benchmarks as are available are often flawed, or cover such a narrow use case as to in no way be relevant to that users own specific situation.\r\n\r\nA further problem with such benchmarks is that they try and evaluate the performance of a WSGI server as if they are a black box. As such, there is no attempt to try and work out what is actually going on within the WSGI server and why it is exhibiting the behaviour it is.\r\n\r\nThe purpose of this talk is to explore a number of different micro benchmarks, using them to work out what is actually going on within a WSGI server when they are run. The analysis will delve down into, and look at the different ways that WSGI servers are implemented and deployed. The behaviour under the different benchmarks will be determined using fine grained metrics captured from hooking instrumentation into the WSGI servers themselves.\r\n\r\nAs there are many factors which could be investigated, the talk cannot be entirely comprehensive, but selected benchmarks drawing from a sub set of the following areas will be presented:\r\n\r\n* multithreading\r\n* CPU intensive tasks\r\n* long running requests\r\n* combination of short and long running requests\r\n* large request content uploads\r\n* large amounts of response content\r\n* blocking on back end services\r\n* slow HTTP clients\r\n\r\nThe tests will look not just at response times, but also server capacity utilisation, CPU and memory utilisation.\r\n\r\nAlthough the discussion will primarily revolve around WSGI servers, a comparison will also be made for some tests were one instead to use an ASYNC web application framework alone, or in conjunction with a WSGI adapter.\r\n\r\nTo conclude, an attempt will be made to summarise what you should be looking at in a WSGI server to determine if it is the right choice for your use case.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "creativeCommon", 
-  "thumbnail_url": "https://i.ytimg.com/vi/SGleKfigMsk/hqdefault.jpg", 
-  "duration": null, 
+  "id": 4049,
+  "category": "PyCon AU 2015",
+  "slug": "using-benchmarks-to-understand-how-wsgi-servers-w",
+  "title": "Using benchmarks to understand how WSGI servers work",
+  "summary": "",
+  "description": "During the development of a Python web application the inbuilt\ndevelopment web server provided by the web framework is often what is\nused. When moving to a production environment, one has to choose a more\ncapable production grade WSGI deployment mechanism. Which of the various\nWSGI servers available is going to be the most suitable is going to\ndepend on a range of criteria related to your specific web applications\nrequirements.\n\nUnfortunately, rather than look at the bigger picture and what would be\nthe most suitable across such criteria, many people will simply rush to\ntrying to run an overly simplistic benchmark on the various WSGI servers\nand make the decision based purely on perceptions of whether one WSGI\nserver is faster than the alternatives. Worse, they don't even attempt\nto do the benchmarks themselves and instead rely on benchmarks published\non some public blog site.\n\nSuch public benchmarks as are available are often flawed, or cover such\na narrow use case as to in no way be relevant to that users own specific\nsituation.\n\nA further problem with such benchmarks is that they try and evaluate the\nperformance of a WSGI server as if they are a black box. As such, there\nis no attempt to try and work out what is actually going on within the\nWSGI server and why it is exhibiting the behaviour it is.\n\nThe purpose of this talk is to explore a number of different micro\nbenchmarks, using them to work out what is actually going on within a\nWSGI server when they are run. The analysis will delve down into, and\nlook at the different ways that WSGI servers are implemented and\ndeployed. The behaviour under the different benchmarks will be\ndetermined using fine grained metrics captured from hooking\ninstrumentation into the WSGI servers themselves.\n\nAs there are many factors which could be investigated, the talk cannot\nbe entirely comprehensive, but selected benchmarks drawing from a sub\nset of the following areas will be presented:\n\n-  multithreading\n-  CPU intensive tasks\n-  long running requests\n-  combination of short and long running requests\n-  large request content uploads\n-  large amounts of response content\n-  blocking on back end services\n-  slow HTTP clients\n\nThe tests will look not just at response times, but also server capacity\nutilisation, CPU and memory utilisation.\n\nAlthough the discussion will primarily revolve around WSGI servers, a\ncomparison will also be made for some tests were one instead to use an\nASYNC web application framework alone, or in conjunction with a WSGI\nadapter.\n\nTo conclude, an attempt will be made to summarise what you should be\nlooking at in a WSGI server to determine if it is the right choice for\nyour use case.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "creativeCommon",
+  "thumbnail_url": "https://i.ytimg.com/vi/SGleKfigMsk/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "https://www.youtube.com/watch?v=SGleKfigMsk", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "https://www.youtube.com/watch?v=SGleKfigMsk",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "https://www.youtube.com/watch?v=SGleKfigMsk", 
-  "tags": [], 
+  ],
+  "source_url": "https://www.youtube.com/watch?v=SGleKfigMsk",
+  "tags": [],
   "speakers": [
     "Graham Dumpleton"
-  ], 
+  ],
   "recorded": "2015-08-03"
 }
