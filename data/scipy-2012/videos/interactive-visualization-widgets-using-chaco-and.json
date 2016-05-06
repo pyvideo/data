@@ -1,33 +1,33 @@
 {
-  "id": 1222, 
-  "category": "SciPy 2012", 
-  "slug": "interactive-visualization-widgets-using-chaco-and", 
-  "title": "Interactive Visualization Widgets Using Chaco and Enable", 
-  "summary": "", 
-  "description": "Interactivity is an important part of computer visualization of data, but all\ntoo often the user interfaces to control the visualization are far from\noptimal. This talk will show how you can use the Enable and the Chaco to build\ninteractive visualization widgets which give much better user feedback than\nsliders or text fields.\n\nChaco is an open-source interactive 2D plotting library that is part of the\nEnthought tool-suite, which is in turn built upon the Enable interactive 2D\ndrawing library that are compatible with PyQt, WxPython, Pyglet and VTK. These\nlibraries are written in Python and are key tools that Enthought uses to\ndeliver scientific applications to our clients.\n\nThis talk will show how to use these tools to build UI widgets that can be\nused to control visualizations interactively. Rather than building a complex,\nmonolithic control, the approach that we will demonstrate builds the control\nour of many smaller interactions, each controlling a small piece of the\noverall state of a visualization, with a high level of reusability.\n\nAs a simple but useful case-study, we'll show how we built an interactive\nhistogram widget that can be use to adjust the brightness, contrast, gamma and\nother attributes of an image in real-time. We'll also discuss some of the\ntricks we used to keep the user interactions responsive in the face of having\nto visualize larger images.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC BY-SA", 
-  "thumbnail_url": "http://i4.ytimg.com/vi/we6sHcxbG-I/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1222,
+  "category": "SciPy 2012",
+  "slug": "interactive-visualization-widgets-using-chaco-and",
+  "title": "Interactive Visualization Widgets Using Chaco and Enable",
+  "summary": "",
+  "description": "Interactivity is an important part of computer visualization of data,\nbut all too often the user interfaces to control the visualization are\nfar from optimal. This talk will show how you can use the Enable and the\nChaco to build interactive visualization widgets which give much better\nuser feedback than sliders or text fields.\n\nChaco is an open-source interactive 2D plotting library that is part of\nthe Enthought tool-suite, which is in turn built upon the Enable\ninteractive 2D drawing library that are compatible with PyQt, WxPython,\nPyglet and VTK. These libraries are written in Python and are key tools\nthat Enthought uses to deliver scientific applications to our clients.\n\nThis talk will show how to use these tools to build UI widgets that can\nbe used to control visualizations interactively. Rather than building a\ncomplex, monolithic control, the approach that we will demonstrate\nbuilds the control our of many smaller interactions, each controlling a\nsmall piece of the overall state of a visualization, with a high level\nof reusability.\n\nAs a simple but useful case-study, we'll show how we built an\ninteractive histogram widget that can be use to adjust the brightness,\ncontrast, gamma and other attributes of an image in real-time. We'll\nalso discuss some of the tricks we used to keep the user interactions\nresponsive in the face of having to visualize larger images.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC BY-SA",
+  "thumbnail_url": "http://i4.ytimg.com/vi/we6sHcxbG-I/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Interactive_Visualization_Widgets_Using_Chaco_and_Enable.mp4?Signature=ibuWV9xw9hjHwm4RIn0z53XayBY%3D&Expires=1346382274&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Interactive_Visualization_Widgets_Using_Chaco_and_Enable.mp4?Signature=ibuWV9xw9hjHwm4RIn0z53XayBY%3D&Expires=1346382274&AWSAccessKeyId=FEWGReWX3QbNk0h3",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://youtube.com/watch?v=we6sHcxbG-I", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://youtube.com/watch?v=we6sHcxbG-I",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://youtube.com/watch?v=we6sHcxbG-I", 
+  ],
+  "source_url": "http://youtube.com/watch?v=we6sHcxbG-I",
   "tags": [
     "visualization"
-  ], 
+  ],
   "speakers": [
     "Corran Webster"
-  ], 
+  ],
   "recorded": "2012-07-19"
 }

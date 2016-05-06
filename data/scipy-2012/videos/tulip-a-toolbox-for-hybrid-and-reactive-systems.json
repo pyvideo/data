@@ -1,34 +1,34 @@
 {
-  "id": 1235, 
-  "category": "SciPy 2012", 
-  "slug": "tulip-a-toolbox-for-hybrid-and-reactive-systems", 
-  "title": "TuLiP: a toolbox for hybrid and reactive systems research", 
-  "summary": "", 
-  "description": "We present a toolbox for the creation and study of controllers for hybrid\nsystems. It contains modules for\n\n>   * working with n-dimensional polytopes,\n\n>   * refining continuous state space partitions to satisfy reachability\nproperties,\n\n>   * synthesizing, manipulating, and visualizing finite automata as winning\nstrategies for a class of temporal logic-based games,\n\n>   * simulating hybrid executions, and\n\n>   * reading and writing problem solutions to an XML format.\n\nThe toolbox is named TuLiP (for \"Temporal Logic Planning\") and written almost\nentirely in Python, making critical use of NumPy, SciPy, CVXOPT, and\nmatplotlib. While software for hybrid systems research is commonly written in\nMatlab scripts or otherwise requires the end-user to build from source for her\nparticular platform, TuLiP requires neither. For a standard scientific Python\nenvironment, the only additional library may be CVXOPT. Code (re)use and\nexperimentation are easy, and because of this, TuLiP has provided a natural\nbasis for further research and development.\n\nSource code and documentation are currently available at [http://tulip-\ncontrol.sourceforge.net](http://tulip-control.sourceforge.net)\n\nIn this talk we will describe the problem domain addressed by TuLiP, various\nuse cases, and lessons learning in the Python implementation. We shall include\na full example making use of all components and show ways that individual\nmodules are useful more broadly. Major items of the talk will be\n\n>   1. related work, and the paucity of Python use in hybrid control research,\nwhich we argue is a matter of inheritance rather than best practices;\n\n>   2. overview of the type of hybrid systems represented in TuLiP and\nrelevance to other fields;\n\n>   3. summary of the major steps going from problem statement to solution;\n\n>   4. using only the \"polytope computations\" module;\n\n>   5. using only \"discrete reactive synthesis\" related modules, with a brief\ndescription about temporal logic synthesis to provide background for those not\nworking on computer aided verification;\n\n>   6. snippets about recent research using and building on TuLiP; and\n\n>   7. discussion about the Python-based implementation and lessons learned.\n\nFor the last item, we will describe challenges faced while developing TuLiP,\ngiven its role of \"stitching together\" several external tools, e.g., Gephi\n<[http://gephi.org/](http://gephi.org/)> for large graph visualization and\ngr1c <[http://scottman.net/2012/gr1c](http://scottman.net/2012/gr1c)> for game\nsolving. We will also touch on liberation from a Matlab-only tool (Mult-\nParametric Toolbox; see\n[http://control.ee.ethz.ch/~mpt/](http://control.ee.ethz.ch/~mpt/)), achieved\nby creating our own Python module for working with polytopes, using NumPy and\nCVXOPT for computations and matplotlib for visualization.\n\nA tool paper describing an earlier version of TuLiP was presented at the\nconference Hybrid Systems: Computation and Control (HSCC) in April 2011. There\nhave since been substantial additions and improvements. Furthermore, a broader\naudience can be reached at SciPy 2012, with new opportunity to address designs\nissues likely shared by other scientific Python developers.\n\nDevelopment of TuLiP has been supported in part by the AFOSR through the MURI\nprogram, the Multiscale Systems Center (MuSyC) and the Boeing Company.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC BY-SA", 
-  "thumbnail_url": "http://i2.ytimg.com/vi/AprLua-TIXs/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1235,
+  "category": "SciPy 2012",
+  "slug": "tulip-a-toolbox-for-hybrid-and-reactive-systems",
+  "title": "TuLiP: a toolbox for hybrid and reactive systems research",
+  "summary": "",
+  "description": "We present a toolbox for the creation and study of controllers for\nhybrid systems. It contains modules for\n\n    -  working with n-dimensional polytopes,\n\n    -  refining continuous state space partitions to satisfy\n       reachability properties,\n\n    -  synthesizing, manipulating, and visualizing finite automata as\n       winning strategies for a class of temporal logic-based games,\n\n    -  simulating hybrid executions, and\n\n    -  reading and writing problem solutions to an XML format.\n\nThe toolbox is named TuLiP (for \"Temporal Logic Planning\") and written\nalmost entirely in Python, making critical use of NumPy, SciPy, CVXOPT,\nand matplotlib. While software for hybrid systems research is commonly\nwritten in Matlab scripts or otherwise requires the end-user to build\nfrom source for her particular platform, TuLiP requires neither. For a\nstandard scientific Python environment, the only additional library may\nbe CVXOPT. Code (re)use and experimentation are easy, and because of\nthis, TuLiP has provided a natural basis for further research and\ndevelopment.\n\nSource code and documentation are currently available at `http://tulip-\ncontrol.sourceforge.net <http://tulip-control.sourceforge.net>`__\n\nIn this talk we will describe the problem domain addressed by TuLiP,\nvarious use cases, and lessons learning in the Python implementation. We\nshall include a full example making use of all components and show ways\nthat individual modules are useful more broadly. Major items of the talk\nwill be\n\n    1. related work, and the paucity of Python use in hybrid control\n       research, which we argue is a matter of inheritance rather than\n       best practices;\n\n    2. overview of the type of hybrid systems represented in TuLiP and\n       relevance to other fields;\n\n    3. summary of the major steps going from problem statement to\n       solution;\n\n    4. using only the \"polytope computations\" module;\n\n    5. using only \"discrete reactive synthesis\" related modules, with a\n       brief description about temporal logic synthesis to provide\n       background for those not working on computer aided verification;\n\n    6. snippets about recent research using and building on TuLiP; and\n\n    7. discussion about the Python-based implementation and lessons\n       learned.\n\nFor the last item, we will describe challenges faced while developing\nTuLiP, given its role of \"stitching together\" several external tools,\ne.g., Gephi <http://gephi.org/\\ > for large graph visualization and gr1c\n<http://scottman.net/2012/gr1c\\ > for game solving. We will also touch\non liberation from a Matlab-only tool (Mult- Parametric Toolbox; see\nhttp://control.ee.ethz.ch/~mpt/), achieved by creating our own Python\nmodule for working with polytopes, using NumPy and CVXOPT for\ncomputations and matplotlib for visualization.\n\nA tool paper describing an earlier version of TuLiP was presented at the\nconference Hybrid Systems: Computation and Control (HSCC) in April 2011.\nThere have since been substantial additions and improvements.\nFurthermore, a broader audience can be reached at SciPy 2012, with new\nopportunity to address designs issues likely shared by other scientific\nPython developers.\n\nDevelopment of TuLiP has been supported in part by the AFOSR through the\nMURI program, the Multiscale Systems Center (MuSyC) and the Boeing\nCompany.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC BY-SA",
+  "thumbnail_url": "http://i2.ytimg.com/vi/AprLua-TIXs/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/TuLiP_a_toolbox_for_hybrid_and.mp4?Signature=jHwzNH0JYM75lVn8tBMA7WgqM%2FM%3D&Expires=1346383122&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/TuLiP_a_toolbox_for_hybrid_and.mp4?Signature=jHwzNH0JYM75lVn8tBMA7WgqM%2FM%3D&Expires=1346383122&AWSAccessKeyId=FEWGReWX3QbNk0h3",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://youtube.com/watch?v=AprLua-TIXs", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://youtube.com/watch?v=AprLua-TIXs",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://youtube.com/watch?v=AprLua-TIXs", 
+  ],
+  "source_url": "http://youtube.com/watch?v=AprLua-TIXs",
   "tags": [
     "General"
-  ], 
+  ],
   "speakers": [
-    "Richard M. Murray", 
+    "Richard M. Murray",
     "Scott C. Livingston"
-  ], 
+  ],
   "recorded": "2012-07-19"
 }
