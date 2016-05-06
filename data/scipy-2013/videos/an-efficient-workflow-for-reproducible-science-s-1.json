@@ -1,26 +1,26 @@
 {
-  "id": 2110, 
-  "category": "SciPy 2013", 
-  "slug": "an-efficient-workflow-for-reproducible-science-s-1", 
-  "title": "An efficient workflow for reproducible science; SciPy 2013 Presentation", 
-  "summary": "Authors: Bekolay, Trevor, University of Waterloo\n\nTrack: Reproducible Science\n\nEvery scientist should be able to regenerate the figures in a paper. However, all too often the correct version of a script goes missing, or the original raw data is filtered by hand and the filtering process undocumented, or the student who has the data or code has switched labs.\n\nIn this talk, I will describe a workflow for a complete end-to-end analysis pipeline, going from raw data to analysis to plotting, using existing tools to make each step of the pipeline reproducible, documented, and efficient, while requiring few sacrifices in terms of a scientist's time and effort.\n\nThe key insight is to decouple each analysis step and each plotting step, in order to do several analyses or plots in parallel. Each step can be cached if it is costly, with the code that produces the cached data serving as the documentation for how it is produced.\n\nI will discuss a way to organize code in order to make analyzing and plotting large data sets efficient, parallelizable, and cacheable. Once completed, source code can be uploaded to a hosting service like Github or Bitbucket, and data can be uploaded to a data store like Amazon S3 or figshare. The end result is that readers can completely regenerate the figures in your paper at no or nearly no cost to you.", 
-  "description": "", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/Y-XFNg0QS14/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2110,
+  "category": "SciPy 2013",
+  "slug": "an-efficient-workflow-for-reproducible-science-s-1",
+  "title": "An efficient workflow for reproducible science; SciPy 2013 Presentation",
+  "summary": "Authors: Bekolay, Trevor, University of Waterloo\n\nTrack: Reproducible Science\n\nEvery scientist should be able to regenerate the figures in a paper.\nHowever, all too often the correct version of a script goes missing, or\nthe original raw data is filtered by hand and the filtering process\nundocumented, or the student who has the data or code has switched labs.\n\nIn this talk, I will describe a workflow for a complete end-to-end\nanalysis pipeline, going from raw data to analysis to plotting, using\nexisting tools to make each step of the pipeline reproducible,\ndocumented, and efficient, while requiring few sacrifices in terms of a\nscientist's time and effort.\n\nThe key insight is to decouple each analysis step and each plotting\nstep, in order to do several analyses or plots in parallel. Each step\ncan be cached if it is costly, with the code that produces the cached\ndata serving as the documentation for how it is produced.\n\nI will discuss a way to organize code in order to make analyzing and\nplotting large data sets efficient, parallelizable, and cacheable. Once\ncompleted, source code can be uploaded to a hosting service like Github\nor Bitbucket, and data can be uploaded to a data store like Amazon S3 or\nfigshare. The end result is that readers can completely regenerate the\nfigures in your paper at no or nearly no cost to you.\n",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/Y-XFNg0QS14/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=Y-XFNg0QS14", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=Y-XFNg0QS14",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=Y-XFNg0QS14", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=Y-XFNg0QS14",
   "tags": [
     "Tech"
-  ], 
-  "speakers": [], 
+  ],
+  "speakers": [],
   "recorded": "2013-07-01"
 }

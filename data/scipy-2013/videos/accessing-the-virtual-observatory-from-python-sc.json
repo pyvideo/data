@@ -1,26 +1,26 @@
 {
-  "id": 1962, 
-  "category": "SciPy 2013", 
-  "slug": "accessing-the-virtual-observatory-from-python-sc", 
-  "title": "Accessing the Virtual Observatory from Python; SciPy 2013 Presentation", 
-  "summary": "Authors: Plante, Raymond, NCSA/UofIL; Fitzpatrick, Mike, NOAO; Graham, Matthew, Caltech; Tody, Doug, NRAO\n\nTrack: Astronomy and Astrophysics\n\nOne of the goals of the Virtual Astronomical Observatory (VAO) project is to enable developers to integrate access to astronomical archives and services into applications through standardized interfaces. As part of this effort, we have developed two packages for accessing the Virtual Observatory through Python. The first tool, VAOpy, is a package built on AstroPy which provides enables discovery of data archive services through the VAO registry service as well as the searching of the archives for individual datasets such as images, spectra, and source catalogs. The purpose of this module is to provide the developer an easy to use interface that reflects knowledge of the standards upon which services are based. The second tool, VOClient, supports the same low-level API provided by VAOpy but adds additional higher-level capabilities and \"book-keeping\" that make it easier to develop sophisticated applications. This includes support for searching multiple archives, finding data for a list of sources, and collaborating with other desktop tools. Long running tasks are supported through asynchronous access to the underlying services and data caching. VOClient can send retrieved data records and datasets to other applications on the desktop through VO standard protocol known as SAMP.", 
-  "description": "", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/gm7p5ztkOZs/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1962,
+  "category": "SciPy 2013",
+  "slug": "accessing-the-virtual-observatory-from-python-sc",
+  "title": "Accessing the Virtual Observatory from Python; SciPy 2013 Presentation",
+  "summary": "Authors: Plante, Raymond, NCSA/UofIL; Fitzpatrick, Mike, NOAO; Graham,\nMatthew, Caltech; Tody, Doug, NRAO\n\nTrack: Astronomy and Astrophysics\n\nOne of the goals of the Virtual Astronomical Observatory (VAO) project\nis to enable developers to integrate access to astronomical archives and\nservices into applications through standardized interfaces. As part of\nthis effort, we have developed two packages for accessing the Virtual\nObservatory through Python. The first tool, VAOpy, is a package built on\nAstroPy which provides enables discovery of data archive services\nthrough the VAO registry service as well as the searching of the\narchives for individual datasets such as images, spectra, and source\ncatalogs. The purpose of this module is to provide the developer an easy\nto use interface that reflects knowledge of the standards upon which\nservices are based. The second tool, VOClient, supports the same\nlow-level API provided by VAOpy but adds additional higher-level\ncapabilities and \"book-keeping\" that make it easier to develop\nsophisticated applications. This includes support for searching multiple\narchives, finding data for a list of sources, and collaborating with\nother desktop tools. Long running tasks are supported through\nasynchronous access to the underlying services and data caching.\nVOClient can send retrieved data records and datasets to other\napplications on the desktop through VO standard protocol known as SAMP.\n",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/gm7p5ztkOZs/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=gm7p5ztkOZs", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=gm7p5ztkOZs",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=gm7p5ztkOZs", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=gm7p5ztkOZs",
   "tags": [
     "Tech"
-  ], 
-  "speakers": [], 
+  ],
+  "speakers": [],
   "recorded": "2013-07-02"
 }

@@ -1,31 +1,31 @@
 {
-  "id": 1976, 
-  "category": "SciPy 2013", 
-  "slug": "detection-and-characterization-of-interactions-of-", 
-  "title": "Detection and characterization of interactions of genetic risk factors", 
-  "summary": "Much attention has been focused on the application of machine learning approaches to detection of gene interactions. Our method is based upon training a supervised learning algorithm to detect disease, and then quantifying the effect on prediction accuracy when alleles of two or more genes are perturbed to unmutated in patterns so as to reveal and characterize gene interactions.", 
-  "description": "Detection and characterization of interactions of genetic risk factors in disease\n\nAuthors: Francis-Lyon, Patricia, University of San Francisco; Belvadi, Shashank, University of San Francisco; Wang, Lin, University of San Francisco\n\nTrack: Bioinformatics\n\nIt is well known that two or more genes can interact so as to enhance or suppress incidence of disease, such that the observed phenotype differs from when the genes act independently. The effect of a gene allele at one locus can mask or modify the effect of alleles at one or more other loci. Discovery and characterization of such gene interactions is pursued as a valuable aid in early diagnosis and treatment of disease. Also it is hoped that the characterization of such interactions will shed light on biological and biochemical pathways that are involved in a specific disease, leading to new therapeutic treatments.\n\nMuch attention has been focused on the application of machine learning approaches to detection of gene interactions. Our method is based upon training a supervised learning algorithm to detect disease, and then quantifying the effect on prediction accuracy when alleles of two or more genes are perturbed to unmutated in patterns so as to reveal and characterize gene interactions. We utilize this approach with both a neural network and a support vector machine.\n\nWe test the versatility of our approach using seven disease models, some of which model gene interactions and some of which model biological independence. In every disease model we correctly detect the presence or absence of 2-way and 3-way gene interactions using our method with both neural network and support vector machine. We also correctly characterize all of the interactions as to the epistatic effect of gene alleles in both 2-way and 3-way gene interactions. We conclude that machine learning approaches can be used to successfully detect and also characterize gene interactions in disease.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/IA09mZRCCA8/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1976,
+  "category": "SciPy 2013",
+  "slug": "detection-and-characterization-of-interactions-of-",
+  "title": "Detection and characterization of interactions of genetic risk factors",
+  "summary": "Much attention has been focused on the application of machine learning\napproaches to detection of gene interactions. Our method is based upon\ntraining a supervised learning algorithm to detect disease, and then\nquantifying the effect on prediction accuracy when alleles of two or\nmore genes are perturbed to unmutated in patterns so as to reveal and\ncharacterize gene interactions.\n",
+  "description": "Detection and characterization of interactions of genetic risk factors\nin disease\n\nAuthors: Francis-Lyon, Patricia, University of San Francisco; Belvadi,\nShashank, University of San Francisco; Wang, Lin, University of San\nFrancisco\n\nTrack: Bioinformatics\n\nIt is well known that two or more genes can interact so as to enhance or\nsuppress incidence of disease, such that the observed phenotype differs\nfrom when the genes act independently. The effect of a gene allele at\none locus can mask or modify the effect of alleles at one or more other\nloci. Discovery and characterization of such gene interactions is\npursued as a valuable aid in early diagnosis and treatment of disease.\nAlso it is hoped that the characterization of such interactions will\nshed light on biological and biochemical pathways that are involved in a\nspecific disease, leading to new therapeutic treatments.\n\nMuch attention has been focused on the application of machine learning\napproaches to detection of gene interactions. Our method is based upon\ntraining a supervised learning algorithm to detect disease, and then\nquantifying the effect on prediction accuracy when alleles of two or\nmore genes are perturbed to unmutated in patterns so as to reveal and\ncharacterize gene interactions. We utilize this approach with both a\nneural network and a support vector machine.\n\nWe test the versatility of our approach using seven disease models, some\nof which model gene interactions and some of which model biological\nindependence. In every disease model we correctly detect the presence or\nabsence of 2-way and 3-way gene interactions using our method with both\nneural network and support vector machine. We also correctly\ncharacterize all of the interactions as to the epistatic effect of gene\nalleles in both 2-way and 3-way gene interactions. We conclude that\nmachine learning approaches can be used to successfully detect and also\ncharacterize gene interactions in disease.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/IA09mZRCCA8/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=IA09mZRCCA8", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=IA09mZRCCA8",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=IA09mZRCCA8", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=IA09mZRCCA8",
   "tags": [
-    "bioinformatics", 
+    "bioinformatics",
     "machine learning"
-  ], 
+  ],
   "speakers": [
-    "Lin Wang", 
-    "Patricia Francis-Lyon", 
+    "Lin Wang",
+    "Patricia Francis-Lyon",
     "Shashank Belvadi"
-  ], 
+  ],
   "recorded": "2013-07-01"
 }

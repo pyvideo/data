@@ -1,26 +1,26 @@
 {
-  "id": 2134, 
-  "category": "SciPy 2013", 
-  "slug": "import-without-a-filesystem-scipy-2013-presentat-1", 
-  "title": "Import without a filesystem, SciPy 2013 Presentation", 
-  "summary": "Presenter: Pat Marion\n\nAuthors: Pat Marion, Kitware; Aron Ahmadia; Bradley M. Froehle, University of California, Berkeley\n\nTrack: General\n\nScientific Python is growing in popularity among HPC and supercomputing communities, but suffers from a seemingly simple and fundamental problem: importing modules from a shared network filesystem at extreme scale will cripple the performance of a parallel Python program.\n\nAt SciPy '12, the presentation titled \"Solving the import problem: Scalable Dynamic Loading Network File Systems\" analyzed the issue and proposed several remedies, but concluded there was more work to be done. Now, this talk introduces a new technique that leverages the linker to embed C-extension modules, and uses Python freeze to embed pure python modules. The result is a program that imports the Python standard library and scientific Python modules such as NumPy without accessing the filesystem. It achieves near-instant, and always-constant, import time even at full machine scale on today's largest supercomputers. The same technique is also relevant to Python app developers on mobile and embedded systems where filesystem access and dynamic loading inflate app startup time.\n\nThis talk will discuss the concepts involved using a simple hello-world demonstration, and overview a real-world example where Python was used to compute at full machine scale on Argonne's Intrepid BlueGene/P supercomputer.", 
-  "description": "", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/EOiEIWMYkwE/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2134,
+  "category": "SciPy 2013",
+  "slug": "import-without-a-filesystem-scipy-2013-presentat-1",
+  "title": "Import without a filesystem, SciPy 2013 Presentation",
+  "summary": "Presenter: Pat Marion\n\nAuthors: Pat Marion, Kitware; Aron Ahmadia; Bradley M. Froehle,\nUniversity of California, Berkeley\n\nTrack: General\n\nScientific Python is growing in popularity among HPC and supercomputing\ncommunities, but suffers from a seemingly simple and fundamental\nproblem: importing modules from a shared network filesystem at extreme\nscale will cripple the performance of a parallel Python program.\n\nAt SciPy '12, the presentation titled \"Solving the import problem:\nScalable Dynamic Loading Network File Systems\" analyzed the issue and\nproposed several remedies, but concluded there was more work to be done.\nNow, this talk introduces a new technique that leverages the linker to\nembed C-extension modules, and uses Python freeze to embed pure python\nmodules. The result is a program that imports the Python standard\nlibrary and scientific Python modules such as NumPy without accessing\nthe filesystem. It achieves near-instant, and always-constant, import\ntime even at full machine scale on today's largest supercomputers. The\nsame technique is also relevant to Python app developers on mobile and\nembedded systems where filesystem access and dynamic loading inflate app\nstartup time.\n\nThis talk will discuss the concepts involved using a simple hello-world\ndemonstration, and overview a real-world example where Python was used\nto compute at full machine scale on Argonne's Intrepid BlueGene/P\nsupercomputer.\n",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/EOiEIWMYkwE/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=EOiEIWMYkwE", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=EOiEIWMYkwE",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=EOiEIWMYkwE", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=EOiEIWMYkwE",
   "tags": [
     "Tech"
-  ], 
-  "speakers": [], 
+  ],
+  "speakers": [],
   "recorded": "2013-07-01"
 }
