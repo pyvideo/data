@@ -1,27 +1,27 @@
 {
-  "id": 3332, 
-  "category": "EuroScipy 2014", 
-  "slug": "pyfai-a-python-library-for-high-performance-azim", 
-  "title": "PyFAI: a Python library for high performance azimuthal integration on GPU", 
-  "summary": "", 
-  "description": "In the field of X-Ray diffraction, 2D area detectors like ccd or pixel detectors have become popular in the last 15 years for diffraction experiments thanks to the large solid-angle coverage and to their better signal linearity. These detectors have a large sensitive area of millions of pixels with high spatial resolution and are getting fast: one kilo-Hertz is expected this year. The software package pyFAI we present here has been designed to reduce X-ray 2D-diffraction images into 1D curves (azimuthal integration) usable by other software for in-depth analysis such as Rietveld refinement, ... Other averaging patterns like 2D integration, image distortion, ... are also available. PyFAI is a library featuring a clean pythonic interface and aiming at being integrated into other software. But it also needs to cope with the data deluge coming from the detector...\r\n\r\nIn this contribution, we would like to highlight the performance reached by this library. To get today\u2019s computers best performances, one needs to have parallelized code and azimuthal integration is not directly parallelizable. After a scatter-to-gather transformation of the algorithm, it got parallel (Cython implementation). Other optimizations have been used to get the best performances out of GPU (compensated summation, partial parallel reductions, ...). ", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "youtube", 
-  "thumbnail_url": "https://i.ytimg.com/vi/QSlo_Nyzeig/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3332,
+  "category": "EuroScipy 2014",
+  "slug": "pyfai-a-python-library-for-high-performance-azim",
+  "title": "PyFAI: a Python library for high performance azimuthal integration on GPU",
+  "summary": "",
+  "description": "In the field of X-Ray diffraction, 2D area detectors like ccd or pixel\ndetectors have become popular in the last 15 years for diffraction\nexperiments thanks to the large solid-angle coverage and to their better\nsignal linearity. These detectors have a large sensitive area of\nmillions of pixels with high spatial resolution and are getting fast:\none kilo-Hertz is expected this year. The software package pyFAI we\npresent here has been designed to reduce X-ray 2D-diffraction images\ninto 1D curves (azimuthal integration) usable by other software for\nin-depth analysis such as Rietveld refinement, ... Other averaging\npatterns like 2D integration, image distortion, ... are also available.\nPyFAI is a library featuring a clean pythonic interface and aiming at\nbeing integrated into other software. But it also needs to cope with the\ndata deluge coming from the detector...\n\nIn this contribution, we would like to highlight the performance reached\nby this library. To get today\u2019s computers best performances, one needs\nto have parallelized code and azimuthal integration is not directly\nparallelizable. After a scatter-to-gather transformation of the\nalgorithm, it got parallel (Cython implementation). Other optimizations\nhave been used to get the best performances out of GPU (compensated\nsummation, partial parallel reductions, ...).\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "youtube",
+  "thumbnail_url": "https://i.ytimg.com/vi/QSlo_Nyzeig/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "https://www.youtube.com/watch?v=QSlo_Nyzeig", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "https://www.youtube.com/watch?v=QSlo_Nyzeig",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "https://www.youtube.com/watch?v=QSlo_Nyzeig", 
-  "tags": [], 
+  ],
+  "source_url": "https://www.youtube.com/watch?v=QSlo_Nyzeig",
+  "tags": [],
   "speakers": [
-    "Giannis Ashiotis", 
+    "Giannis Ashiotis",
     "Jerome Kieffer"
-  ], 
+  ],
   "recorded": "2014-10-22"
 }
