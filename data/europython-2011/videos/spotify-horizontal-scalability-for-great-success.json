@@ -1,29 +1,29 @@
 {
-  "id": 1096, 
-  "category": "EuroPython 2011", 
-  "slug": "spotify-horizontal-scalability-for-great-success", 
-  "title": "Spotify: Horizontal scalability for great success", 
-  "summary": "[EuroPython 2011] Nick Barkas - 22 June 2011 in \"Track Spaghetti\"\n\n", 
-  "description": "If you run on CPython, it's not possible to get a single-process,\nmultithreaded Python program to use more than one CPU core at a time because\nof the Global Interpreter Lock (GIL). A common way of dealing with this is to\nrun one instance of a Python program for each core a machine has and spread\nthe load amongst those processes. This forces developers to write simple,\nstateless programs that naturally scale out to many many servers when needed,\nwhile also not having to think about things like locking and thread\nscheduling.\n\nI'll discuss some tools and methods Spotify's backend uses for managing\nmultiple identical server processes as well as load balancing with DNS, proxy\nservers, and using hashing to send repeated requests to the same process. I\nwill also talk about the difficulties that arise when you really need to share\ndata or state between processes, and how they can be dealt with.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/BBAfIYpDMX4/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1096,
+  "category": "EuroPython 2011",
+  "slug": "spotify-horizontal-scalability-for-great-success",
+  "title": "Spotify: Horizontal scalability for great success",
+  "summary": "[EuroPython 2011] Nick Barkas - 22 June 2011 in \"Track Spaghetti\"\n",
+  "description": "If you run on CPython, it's not possible to get a single-process,\nmultithreaded Python program to use more than one CPU core at a time\nbecause of the Global Interpreter Lock (GIL). A common way of dealing\nwith this is to run one instance of a Python program for each core a\nmachine has and spread the load amongst those processes. This forces\ndevelopers to write simple, stateless programs that naturally scale out\nto many many servers when needed, while also not having to think about\nthings like locking and thread scheduling.\n\nI'll discuss some tools and methods Spotify's backend uses for managing\nmultiple identical server processes as well as load balancing with DNS,\nproxy servers, and using hashing to send repeated requests to the same\nprocess. I will also talk about the difficulties that arise when you\nreally need to share data or state between processes, and how they can\nbe dealt with.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/BBAfIYpDMX4/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=BBAfIYpDMX4", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=BBAfIYpDMX4",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=BBAfIYpDMX4", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=BBAfIYpDMX4",
   "tags": [
-    "requests", 
+    "requests",
     "scalability"
-  ], 
+  ],
   "speakers": [
     "Nick Barkas"
-  ], 
+  ],
   "recorded": "2011-07-13"
 }

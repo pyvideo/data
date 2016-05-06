@@ -1,33 +1,33 @@
 {
-  "id": 1052, 
-  "category": "EuroPython 2011", 
-  "slug": "emulating-stackless-and-greenlet-with-each-other", 
-  "title": "Emulating Stackless and greenlet with each other", 
-  "summary": "[EuroPython 2011] Peter Szabo - 20 June 2011 in \"Track Ravioli\"\n\n", 
-  "description": "Stackless Python and the greenlet package for CPython are two different\nimplementations of coroutine support for Python. (Coroutines are fundamental\nbuilding blocks of I/O frameworks like gevent, Eventlet, Concurrence and\nSyncless to conveniently handle thousands of socket connections at a time\nwithout creating threads.) Stackless and greenlet implement a different\ninterface. However, each is powerful enough so that it can be used to emulate\nthe other one. In this talk we explore the differences and discuss design\ndecisions and testing strategies of the emulations we have implemented.\n\n[Slides](http://syncless.googlecode.com/svn/trunk/doc/slides_2011-06-20/pts_em\nu_coro_2011-06-20.html)\n\n[Slides for the bonus sub-talk](http://syncless.googlecode.com/svn/trunk/doc/s\nlides_2010-11-29/pts_coro_2010-11-29.html)\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/aNl7GrnKTcs/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1052,
+  "category": "EuroPython 2011",
+  "slug": "emulating-stackless-and-greenlet-with-each-other",
+  "title": "Emulating Stackless and greenlet with each other",
+  "summary": "[EuroPython 2011] Peter Szabo - 20 June 2011 in \"Track Ravioli\"\n",
+  "description": "Stackless Python and the greenlet package for CPython are two different\nimplementations of coroutine support for Python. (Coroutines are\nfundamental building blocks of I/O frameworks like gevent, Eventlet,\nConcurrence and Syncless to conveniently handle thousands of socket\nconnections at a time without creating threads.) Stackless and greenlet\nimplement a different interface. However, each is powerful enough so\nthat it can be used to emulate the other one. In this talk we explore\nthe differences and discuss design decisions and testing strategies of\nthe emulations we have implemented.\n\n`Slides <http://syncless.googlecode.com/svn/trunk/doc/slides_2011-06-20/pts_em%20u_coro_2011-06-20.html>`__\n\n`Slides for the bonus\nsub-talk <http://syncless.googlecode.com/svn/trunk/doc/s%20lides_2010-11-29/pts_coro_2010-11-29.html>`__\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/aNl7GrnKTcs/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=aNl7GrnKTcs", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=aNl7GrnKTcs",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=aNl7GrnKTcs", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=aNl7GrnKTcs",
   "tags": [
-    "concurrence", 
-    "cpython", 
-    "design", 
-    "greenlet", 
-    "stackless", 
+    "concurrence",
+    "cpython",
+    "design",
+    "greenlet",
+    "stackless",
     "testing"
-  ], 
+  ],
   "speakers": [
     "P\u00e9ter Szab\u00f3"
-  ], 
+  ],
   "recorded": "2011-07-21"
 }

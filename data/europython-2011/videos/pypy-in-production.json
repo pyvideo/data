@@ -1,34 +1,34 @@
 {
-  "id": 1113, 
-  "category": "EuroPython 2011", 
-  "slug": "pypy-in-production", 
-  "title": "PyPy in production", 
-  "summary": "[EuroPython 2011] Antonio Cuni,Armin Rigo - 23 June 2011 in \"Track Lasagne\"\n\n", 
-  "description": "The PyPy project has recently gathered a lot of attention for its progress in\nspeeding up the Python language - it is the fastest Python interpreter, and\nthe most compatible and most stable 'alternative\u00b4 one. No longer merely a\nresearch project, PyPy is now suitable for production use. We are working on\nimprovements on calling into C libraries and generally integrating with the\nexisting Python extensions ecosystem.\n\nWe will give an overview on how the tracing Just-in-Time compiler works in\nPyPy. From there, we will then focus on what the PyPy project has achieved,\nparticularly in the past two years:\n\n  * most Python benchmarks run much faster than with CPython or Psyco\n\n  * the real-world PyPy compiler toolchain itself (200 KLocs) runs twice as fast\n\n  * already supports 32 and 64bit x86 and is in the process of supporting ARM\n\n  * full compatibility with CPython (more than Jython/IronPython)\n\n  * full (and JIT-ed) ctypes support to call C libraries from Python\n\n  * supports Stackless Python (in-progress)\n\n  * new \"cpyext\" layer which integrates existing CPython C extensions\n\n  * an experimental super-fast JIT-compilation of calls to C++ libraries\n\nWe want to reserve time for discussing potential future work like SWIG and/or\nCython compatibility and other areas brought up by the audience. There are\nmany interesting details that can be explored further; we will focus on the\npoints the audience is most interested in.\n\nFor more info:\n\n  * [http://pypy.org/](http://pypy.org/)\n\n  * Our blog: [http://morepypy.blogspot.com/](http://morepypy.blogspot.com/)\n\n  * Eureka program: [http://www.eurostars-eureka.eu/](http://www.eurostars-eureka.eu/)\n\n_Eurostars Eureka is our funding source since 2009. It is a cross-European\nfunding collaboration that targets small firms which produce research._\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/nTpte3_jNO0/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1113,
+  "category": "EuroPython 2011",
+  "slug": "pypy-in-production",
+  "title": "PyPy in production",
+  "summary": "[EuroPython 2011] Antonio Cuni,Armin Rigo - 23 June 2011 in \"Track\nLasagne\"\n",
+  "description": "The PyPy project has recently gathered a lot of attention for its\nprogress in speeding up the Python language - it is the fastest Python\ninterpreter, and the most compatible and most stable 'alternative\u00b4 one.\nNo longer merely a research project, PyPy is now suitable for production\nuse. We are working on improvements on calling into C libraries and\ngenerally integrating with the existing Python extensions ecosystem.\n\nWe will give an overview on how the tracing Just-in-Time compiler works\nin PyPy. From there, we will then focus on what the PyPy project has\nachieved, particularly in the past two years:\n\n-  most Python benchmarks run much faster than with CPython or Psyco\n\n-  the real-world PyPy compiler toolchain itself (200 KLocs) runs twice\n   as fast\n\n-  already supports 32 and 64bit x86 and is in the process of supporting\n   ARM\n\n-  full compatibility with CPython (more than Jython/IronPython)\n\n-  full (and JIT-ed) ctypes support to call C libraries from Python\n\n-  supports Stackless Python (in-progress)\n\n-  new \"cpyext\" layer which integrates existing CPython C extensions\n\n-  an experimental super-fast JIT-compilation of calls to C++ libraries\n\nWe want to reserve time for discussing potential future work like SWIG\nand/or Cython compatibility and other areas brought up by the audience.\nThere are many interesting details that can be explored further; we will\nfocus on the points the audience is most interested in.\n\nFor more info:\n\n-  http://pypy.org/\n\n-  Our blog: http://morepypy.blogspot.com/\n\n-  Eureka program: http://www.eurostars-eureka.eu/\n\n*Eurostars Eureka is our funding source since 2009. It is a\ncross-European funding collaboration that targets small firms which\nproduce research.*\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/nTpte3_jNO0/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=nTpte3_jNO0", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=nTpte3_jNO0",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=nTpte3_jNO0", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=nTpte3_jNO0",
   "tags": [
-    "cpython", 
-    "ctypes", 
-    "cython", 
-    "extensions", 
-    "pypy", 
+    "cpython",
+    "ctypes",
+    "cython",
+    "extensions",
+    "pypy",
     "stackless"
-  ], 
+  ],
   "speakers": [
-    "Antonio Cuni", 
+    "Antonio Cuni",
     "Armin Rigo"
-  ], 
+  ],
   "recorded": "2011-07-13"
 }

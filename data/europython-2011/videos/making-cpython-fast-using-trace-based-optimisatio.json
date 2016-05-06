@@ -1,31 +1,31 @@
 {
-  "id": 1130, 
-  "category": "EuroPython 2011", 
-  "slug": "making-cpython-fast-using-trace-based-optimisatio", 
-  "title": "Making CPython Fast Using Trace-based Optimisations", 
-  "summary": "[EuroPython 2011] Mark Shannon - 24 June 2011 in \"Track Lasagne\"\n\n", 
-  "description": "CPython can be made faster by implementing the sort of optimizations used in\nthe PyPy VM, and in my HotPy VM. All the necessary changes can be made without\nmodifying the language or the API.\n\nThe CPython VM can be modified to support optimizations by adding an effective\ngarbage collector and by separating the virtual-machine state from the real-\nmachine state (like Stackless).\n\nOptimizations can be implemented incrementally. Since almost all of the\noptimizations are implemented in the interpreter, all hardware platforms can\nbenefit. JIT compiler(s) can then be added for common platforms (intel, ARM,\netc.).\n\nFor more information see\n[http://hotpy.blogspot.com/](http://hotpy.blogspot.com/)\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/3uTnXITm-kA/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1130,
+  "category": "EuroPython 2011",
+  "slug": "making-cpython-fast-using-trace-based-optimisatio",
+  "title": "Making CPython Fast Using Trace-based Optimisations",
+  "summary": "[EuroPython 2011] Mark Shannon - 24 June 2011 in \"Track Lasagne\"\n",
+  "description": "CPython can be made faster by implementing the sort of optimizations\nused in the PyPy VM, and in my HotPy VM. All the necessary changes can\nbe made without modifying the language or the API.\n\nThe CPython VM can be modified to support optimizations by adding an\neffective garbage collector and by separating the virtual-machine state\nfrom the real- machine state (like Stackless).\n\nOptimizations can be implemented incrementally. Since almost all of the\noptimizations are implemented in the interpreter, all hardware platforms\ncan benefit. JIT compiler(s) can then be added for common platforms\n(intel, ARM, etc.).\n\nFor more information see http://hotpy.blogspot.com/\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/3uTnXITm-kA/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=3uTnXITm-kA", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=3uTnXITm-kA",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=3uTnXITm-kA", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=3uTnXITm-kA",
   "tags": [
-    "cpython", 
-    "jit", 
-    "pypy", 
+    "cpython",
+    "jit",
+    "pypy",
     "vm"
-  ], 
+  ],
   "speakers": [
     "Mark Shannon"
-  ], 
+  ],
   "recorded": "2011-07-13"
 }

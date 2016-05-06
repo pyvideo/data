@@ -1,34 +1,34 @@
 {
-  "id": 1048, 
-  "category": "EuroPython 2011", 
-  "slug": "high-performance-computing-on-gamer-pcs", 
-  "title": "High-performance computing on gamer PCs", 
-  "summary": "[EuroPython 2011] Yann Le Du - 20 June 2011 in \"Track Lasagne\"\n\n", 
-  "description": "In Electron Paramagnetic Resonance Imaging, we are faced with a deconvolution\nproblem that has a strong impact on the image actually reconstructed. Faced\nwith the need of mapping the distribution of organic matter in Terrestrial and\nMartian rock samples for applications in exobiology, we needed to see how to\nextract a maximum amount of information from our data: our approach uses\nreservoir computing artificial neural networks coupled to a particle swarm\nalgorithm that evolves the reservoirs\u2019 weights.\n\nThe code runs on the Hybrid Processing Units for Science (HPU4Science) cluster\nlocated at the Laboratoire de Chimie de la Mati\u00e8re Condens\u00e9e de Paris (LCMCP).\nThe cluster is composed of a central data storage machine and a heterogeneous\nensemble of 6 decentralized nodes. Each node is equipped with a Core2 Quad or\ni7 CPU and 3-7 NVIDIA Graphical Processing Units (GPUs) including the GF110\nseries. Each of the 28 GPUs independently explores a different parameter space\nsphere of the same problem. Our application shows a sustained real performance\nof 15.6 TFLOPS. The HPU4Science cluster cost $36,090 resulting in a 432.3\nMFLOPS/$ cost performance.\n\nThat talk is meant to demonstrate on a practical case how consumer grade\ncomputer hardware coupled to a very popular computer language can be used to\ntackle a difficult yet very elementary scientific problem: how do you go from\nformulating the problem, to choosing the right hardware and software, and all\nthe way to programming the algorithms using the appropriate development tools\nand methodologies (notably Literate Programming). On the math side, the talk\nrequires a basic understanding of matrix algebra and of the discretization\nprocess involved when computing integrals.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/5epAiVgitL0/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1048,
+  "category": "EuroPython 2011",
+  "slug": "high-performance-computing-on-gamer-pcs",
+  "title": "High-performance computing on gamer PCs",
+  "summary": "[EuroPython 2011] Yann Le Du - 20 June 2011 in \"Track Lasagne\"\n",
+  "description": "In Electron Paramagnetic Resonance Imaging, we are faced with a\ndeconvolution problem that has a strong impact on the image actually\nreconstructed. Faced with the need of mapping the distribution of\norganic matter in Terrestrial and Martian rock samples for applications\nin exobiology, we needed to see how to extract a maximum amount of\ninformation from our data: our approach uses reservoir computing\nartificial neural networks coupled to a particle swarm algorithm that\nevolves the reservoirs\u2019 weights.\n\nThe code runs on the Hybrid Processing Units for Science (HPU4Science)\ncluster located at the Laboratoire de Chimie de la Mati\u00e8re Condens\u00e9e de\nParis (LCMCP). The cluster is composed of a central data storage machine\nand a heterogeneous ensemble of 6 decentralized nodes. Each node is\nequipped with a Core2 Quad or i7 CPU and 3-7 NVIDIA Graphical Processing\nUnits (GPUs) including the GF110 series. Each of the 28 GPUs\nindependently explores a different parameter space sphere of the same\nproblem. Our application shows a sustained real performance of 15.6\nTFLOPS. The HPU4Science cluster cost\n:math:`36,090 resulting in a 432.3 MFLOPS/` cost performance.\n\nThat talk is meant to demonstrate on a practical case how consumer grade\ncomputer hardware coupled to a very popular computer language can be\nused to tackle a difficult yet very elementary scientific problem: how\ndo you go from formulating the problem, to choosing the right hardware\nand software, and all the way to programming the algorithms using the\nappropriate development tools and methodologies (notably Literate\nProgramming). On the math side, the talk requires a basic understanding\nof matrix algebra and of the discretization process involved when\ncomputing integrals.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/5epAiVgitL0/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=5epAiVgitL0", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=5epAiVgitL0",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=5epAiVgitL0", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=5epAiVgitL0",
   "tags": [
-    "image", 
-    "mapping", 
-    "nvidia", 
-    "performance", 
-    "processing", 
-    "science", 
+    "image",
+    "mapping",
+    "nvidia",
+    "performance",
+    "processing",
+    "science",
     "scientific"
-  ], 
+  ],
   "speakers": [
     "Yann Le Du"
-  ], 
+  ],
   "recorded": "2011-07-21"
 }
