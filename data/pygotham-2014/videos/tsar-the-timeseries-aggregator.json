@@ -1,26 +1,26 @@
 {
-  "id": 3307, 
-  "category": "PyGotham 2014", 
-  "slug": "tsar-the-timeseries-aggregator", 
-  "title": "TSAR (the TimeSeries AggregatoR)", 
-  "summary": "", 
-  "description": "Twitter depends heavily on real-time event aggregation. Classic timeseries applications include site traffic, service health, and user engagement monitoring; these are increasingly complemented by a range of products and features that surface aggregated timeseries data directly to end users. Services that power such features need to be resilient enough to ensure a consistent user experience, flexible enough to accommodate a rapidly changing product roadmap, and able to scale to tens of billions of events per day.\r\n\r\nExperience has shown that truly robust real-time aggregation services are hard to build; scaling and evolving them gracefully is even harder; and, moreover, many timeseries applications call for essentially the same architecture, with slight variations in the data model. Solving this broad class of problems at Twitter has been a multiyear effort. In previous talks we have introduced Summingbird, a high-level abstraction library for generalized distributed computation, which provides an elegant descriptive framework for complex aggregation problems. In this talk, I will describe how we built a flexible, reusable, end-to-end service architecture on top of Summingbird, called TSAR (the TimeSeries AggregatoR).\r\n\r\nTSAR uses Python to provide an service toolkit that integrates with essential services that provide data processing, data warehousing, query capability, observability, and alerting, automatically configuring and orchestrating its components.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "youtube", 
-  "thumbnail_url": "https://i.ytimg.com/vi/XzHokP3NZu4/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3307,
+  "category": "PyGotham 2014",
+  "slug": "tsar-the-timeseries-aggregator",
+  "title": "TSAR (the TimeSeries AggregatoR)",
+  "summary": "",
+  "description": "Twitter depends heavily on real-time event aggregation. Classic\ntimeseries applications include site traffic, service health, and user\nengagement monitoring; these are increasingly complemented by a range of\nproducts and features that surface aggregated timeseries data directly\nto end users. Services that power such features need to be resilient\nenough to ensure a consistent user experience, flexible enough to\naccommodate a rapidly changing product roadmap, and able to scale to\ntens of billions of events per day.\n\nExperience has shown that truly robust real-time aggregation services\nare hard to build; scaling and evolving them gracefully is even harder;\nand, moreover, many timeseries applications call for essentially the\nsame architecture, with slight variations in the data model. Solving\nthis broad class of problems at Twitter has been a multiyear effort. In\nprevious talks we have introduced Summingbird, a high-level abstraction\nlibrary for generalized distributed computation, which provides an\nelegant descriptive framework for complex aggregation problems. In this\ntalk, I will describe how we built a flexible, reusable, end-to-end\nservice architecture on top of Summingbird, called TSAR (the TimeSeries\nAggregatoR).\n\nTSAR uses Python to provide an service toolkit that integrates with\nessential services that provide data processing, data warehousing, query\ncapability, observability, and alerting, automatically configuring and\norchestrating its components.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "youtube",
+  "thumbnail_url": "https://i.ytimg.com/vi/XzHokP3NZu4/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "https://www.youtube.com/watch?v=XzHokP3NZu4", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "https://www.youtube.com/watch?v=XzHokP3NZu4",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "https://www.youtube.com/watch?v=XzHokP3NZu4", 
-  "tags": [], 
+  ],
+  "source_url": "https://www.youtube.com/watch?v=XzHokP3NZu4",
+  "tags": [],
   "speakers": [
     "Anirudh Todi"
-  ], 
+  ],
   "recorded": "2014-09-17"
 }
