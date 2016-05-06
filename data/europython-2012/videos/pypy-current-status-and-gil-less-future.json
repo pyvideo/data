@@ -1,28 +1,28 @@
 {
-  "id": 1340, 
-  "category": "EuroPython 2012", 
-  "slug": "pypy-current-status-and-gil-less-future", 
-  "title": "Pypy: current status and gil-less future", 
-  "summary": "[EuroPython 2012] A. Rigo, A. Cuni, M. Fijalkowski - 2 JULY 2012 in \"Track\nSpaghetti\"\n\n", 
-  "description": "In the first part of the keynote we will present the current status of PyPy,\nwith a particular focus on what happened in the last year. We will give a\nbrief overview of the current speed and the on-going development efforts. The\nsecond part of the keynote is about one particular feature whose development\nis in progress in PyPy: Automatic Mutual Exclusion. What it is needs some\nexplanation: The GIL, or Global Interpreter Lock, is a well-known issue for\nPython programmers that want to have a single program using the multiple cores\nof today\u2019s machines. This keynote is not about writing a GIL-less Python\ninterpreter; although hard, this has been done before, notably in Jython. The\nreal issue is that writing each and every multi-threaded Python programs is\nhard too. The threading module offers locks in several variants, conditions,\nevents, semaphores\u2026 But using them correctly without missing one case is\ndifficult, impossible to seriously test, often impossible to retrofit into\nexisting programs, and arguably doesn\u2019t scale. (Other solutions like the\nmultiprocessing module are at best workarounds, suffering some of the same\nissues plus their own ones.) Instead, this keynote is about an alternate\nsolution: a minimal thread-less API that lets programs use multiple cores,\nwithout worrying about races. This may sound impossible, but is in fact\nsimilar to the API simplification of using a garbage collected language over\nan explicitly managed one \u2014 what is not minimal is \u201cjust\u201d the internal\nimplementation of that API. I will explain how it can actually be done using\nAutomatic Mutual Exclusion, a technique based on Transactional Memory. I will\ngive preliminary results on a modified version of the PyPy Python interpreter\nthat show that it can actually work. I will also explain how the API is used,\ne.g. in a modified Twisted reactor that gives multi-core capability to any\nexisting, non-thread-based Twisted program.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/x6OL88pzjHQ/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1340,
+  "category": "EuroPython 2012",
+  "slug": "pypy-current-status-and-gil-less-future",
+  "title": "Pypy: current status and gil-less future",
+  "summary": "[EuroPython 2012] A. Rigo, A. Cuni, M. Fijalkowski - 2 JULY 2012 in\n\"Track Spaghetti\"\n",
+  "description": "In the first part of the keynote we will present the current status of\nPyPy, with a particular focus on what happened in the last year. We will\ngive a brief overview of the current speed and the on-going development\nefforts. The second part of the keynote is about one particular feature\nwhose development is in progress in PyPy: Automatic Mutual Exclusion.\nWhat it is needs some explanation: The GIL, or Global Interpreter Lock,\nis a well-known issue for Python programmers that want to have a single\nprogram using the multiple cores of today\u2019s machines. This keynote is\nnot about writing a GIL-less Python interpreter; although hard, this has\nbeen done before, notably in Jython. The real issue is that writing each\nand every multi-threaded Python programs is hard too. The threading\nmodule offers locks in several variants, conditions, events, semaphores\u2026\nBut using them correctly without missing one case is difficult,\nimpossible to seriously test, often impossible to retrofit into existing\nprograms, and arguably doesn\u2019t scale. (Other solutions like the\nmultiprocessing module are at best workarounds, suffering some of the\nsame issues plus their own ones.) Instead, this keynote is about an\nalternate solution: a minimal thread-less API that lets programs use\nmultiple cores, without worrying about races. This may sound impossible,\nbut is in fact similar to the API simplification of using a garbage\ncollected language over an explicitly managed one \u2014 what is not minimal\nis \u201cjust\u201d the internal implementation of that API. I will explain how it\ncan actually be done using Automatic Mutual Exclusion, a technique based\non Transactional Memory. I will give preliminary results on a modified\nversion of the PyPy Python interpreter that show that it can actually\nwork. I will also explain how the API is used, e.g. in a modified\nTwisted reactor that gives multi-core capability to any existing,\nnon-thread-based Twisted program.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/x6OL88pzjHQ/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=x6OL88pzjHQ", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=x6OL88pzjHQ",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=x6OL88pzjHQ", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=x6OL88pzjHQ",
+  "tags": [],
   "speakers": [
-    "A Cuni", 
-    "Armin Rigo", 
+    "A Cuni",
+    "Armin Rigo",
     "M Fijalkowski"
-  ], 
+  ],
   "recorded": "2012-07-04"
 }

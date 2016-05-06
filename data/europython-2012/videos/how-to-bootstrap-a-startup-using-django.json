@@ -1,27 +1,27 @@
 {
-  "id": 1325, 
-  "category": "EuroPython 2012", 
-  "slug": "how-to-bootstrap-a-startup-using-django", 
-  "title": "How to bootstrap a startup using django", 
-  "summary": "[EuroPython 2012] J Leidel -P Wassibauer - 3 JULY 2012\n\n", 
-  "description": "Based on our (Philipp Wassibauer and Jannis Leidel) experiences building\nGidsy.com this talk will give you valuable insight as to how your\ninfrastructure will evolve and how to set up the basic components\n(Loadbalancer, Webservers, DB, Caching, Celery, CDN, \u2026) of your site. Outline:\nBasic project layout - How to handle different configurations and package your\nproject to make it easy to deploy and install. A basic timeline of how your\ninfrastructure needs will evolve - Starting from the initial 1 server setup we\nwill talk about how and when to scale out your servers. Replicate production\nenvironments in development - We developed a way to have all your services\n(Webserver, Celeryd, Solr, Cache, Compass compiler, \u2026) running using one\nmanagement command. Setting up Chef recipes to provision your servers. Dealing\nwith cloud based servers - Tips and tricks on how to manage your cloud based\nserver using tools like Instagrams ec2-ssh. Automating deploying to a bigger\ninfrastructure (5+ servers) - Once the infrastructure becomes larger the\ndeployments become more tedious. There are a few automation tools for these\nscenarios like the Etsy Deployinator. Tips on performance - How to find and\nremove performance bottlenecks.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/gmIG56Hf9dc/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1325,
+  "category": "EuroPython 2012",
+  "slug": "how-to-bootstrap-a-startup-using-django",
+  "title": "How to bootstrap a startup using django",
+  "summary": "[EuroPython 2012] J Leidel -P Wassibauer - 3 JULY 2012\n",
+  "description": "Based on our (Philipp Wassibauer and Jannis Leidel) experiences building\nGidsy.com this talk will give you valuable insight as to how your\ninfrastructure will evolve and how to set up the basic components\n(Loadbalancer, Webservers, DB, Caching, Celery, CDN, \u2026) of your site.\nOutline: Basic project layout - How to handle different configurations\nand package your project to make it easy to deploy and install. A basic\ntimeline of how your infrastructure needs will evolve - Starting from\nthe initial 1 server setup we will talk about how and when to scale out\nyour servers. Replicate production environments in development - We\ndeveloped a way to have all your services (Webserver, Celeryd, Solr,\nCache, Compass compiler, \u2026) running using one management command.\nSetting up Chef recipes to provision your servers. Dealing with cloud\nbased servers - Tips and tricks on how to manage your cloud based server\nusing tools like Instagrams ec2-ssh. Automating deploying to a bigger\ninfrastructure (5+ servers) - Once the infrastructure becomes larger the\ndeployments become more tedious. There are a few automation tools for\nthese scenarios like the Etsy Deployinator. Tips on performance - How to\nfind and remove performance bottlenecks.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/gmIG56Hf9dc/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=gmIG56Hf9dc", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=gmIG56Hf9dc",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=gmIG56Hf9dc", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=gmIG56Hf9dc",
+  "tags": [],
   "speakers": [
-    "J Leidel", 
+    "J Leidel",
     "P Wassibauer"
-  ], 
+  ],
   "recorded": "2012-07-04"
 }

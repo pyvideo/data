@@ -1,26 +1,26 @@
 {
-  "id": 1249, 
-  "category": "EuroPython 2012", 
-  "slug": "fully-test-driven-django-with-selenium-part-1", 
-  "title": "Fully Test-driven Django with selenium part 1", 
-  "summary": "[EuroPython 2012] H Percival - 5 JULY 2012 in \"Pizza Napoli\"\n\n", 
-  "description": "tl; dr: The concept: run through the official Django tutorial, but with full\nTDD Includes browser-based testing with Selenium, using the new WebDriver API\nIn-depth unit-testing, including the Django Test Client and tools like Mock\nDiscussions of TDD philosophy: what to test, what not to test, how to test\n[http://www.tdd-django-tutorial.com/](http://www.tdd-django-tutorial.com/)\n[https://github.com/hjwp/Test-Driven-Django-Tutorial](https://github.com/hjwp\n/Test-Driven-Django-Tutorial) come prepared! you\u2019ll need git, firefox,\npython2.7, django1.4 and selenium installed. Fully Test-Driven Django with\nSelenium AKA \u201cThe Django Pony vs The Testing Goat\u201d This tutorial is aimed\nprimarily at people who want to learn about one or many of: Django Selenium\nTest-Driven-Development So it\u2019s aimed at beginners of one kind or another \u2013 if\nyou are already well versed in all three, then you may not get much out of it.\nThe idea is to run through the steps covered by the official Django tutorial,\ncovering the essentials of Django from a beginner\u2019s point of view. However, at\neach stage, instead of \u201cjust\u201d writing the Django code required to build our\nsite, we first write tests. And we don\u2019t just write unit tests! We start by\nwriting \u201cfunctional\u201d or \u201cacceptance\u201d tests, using Selenium - which means\ndriving a real browser, and checking the actual behaviour of the site as it is\nrendered, from the user\u2019s point of view. Why should you listen to me, I hear\nyou ask? Well, I was lucky enough to get my first \u201cproper\u201d software\ndevelopment job about two years ago with a bunch of Extreme Programming\nfanatics, who\u2019ve thoroughly inculcated me into their cult of Test-Driven\ndevelopment. Believe me when I say I\u2019m contrary enough to have questioned\nevery single practice, challenged every single decision, moaned about every\nextra minute spent doing \u201cpointless\u201d tests instead of writing \u201cproper\u201d code.\nBut I\u2019ve come round to the idea now, and whenever I\u2019ve had to go back to some\nof my old projects which don\u2019t have tests, boy have I ever realised the wisdom\nof the approach. So, I\u2019ve learnt from some really good people, and the\nlearning process is still fresh in my mind, and most importantly, I still have\nthe passion of a recent convert! Pre-requisites Come with the following pre-\ninstalled on your laptop please: Git Firefox Python 2.7\nsetuptools/easy_install/pip then: pip install django pip install selenium pip\ninstall mock PS - I don\u2019t have a preview of my TDD talk, but there is one\nvideo of me giving a lightning talk at last year\u2019s Pycon UK. It\u2019s on a totally\ndifferent topic, but it gives a hit of my \u201cdynamic\u201d presentation \u201cskills\": - [\nhttps://www.youtube.com/watch?v=e6NLAbgmRZ4](https://www.youtube.com/watch?v=e\n6NLAbgmRZ4)\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/WfyoC0h9QKA/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1249,
+  "category": "EuroPython 2012",
+  "slug": "fully-test-driven-django-with-selenium-part-1",
+  "title": "Fully Test-driven Django with selenium part 1",
+  "summary": "[EuroPython 2012] H Percival - 5 JULY 2012 in \"Pizza Napoli\"\n",
+  "description": "tl; dr: The concept: run through the official Django tutorial, but with\nfull TDD Includes browser-based testing with Selenium, using the new\nWebDriver API In-depth unit-testing, including the Django Test Client\nand tools like Mock Discussions of TDD philosophy: what to test, what\nnot to test, how to test http://www.tdd-django-tutorial.com/\n`https://github.com/hjwp/Test-Driven-Django-Tutorial <https://github.com/hjwp%20/Test-Driven-Django-Tutorial>`__\ncome prepared! you\u2019ll need git, firefox, python2.7, django1.4 and\nselenium installed. Fully Test-Driven Django with Selenium AKA \u201cThe\nDjango Pony vs The Testing Goat\u201d This tutorial is aimed primarily at\npeople who want to learn about one or many of: Django Selenium\nTest-Driven-Development So it\u2019s aimed at beginners of one kind or\nanother \u2013 if you are already well versed in all three, then you may not\nget much out of it. The idea is to run through the steps covered by the\nofficial Django tutorial, covering the essentials of Django from a\nbeginner\u2019s point of view. However, at each stage, instead of \u201cjust\u201d\nwriting the Django code required to build our site, we first write\ntests. And we don\u2019t just write unit tests! We start by writing\n\u201cfunctional\u201d or \u201cacceptance\u201d tests, using Selenium - which means driving\na real browser, and checking the actual behaviour of the site as it is\nrendered, from the user\u2019s point of view. Why should you listen to me, I\nhear you ask? Well, I was lucky enough to get my first \u201cproper\u201d software\ndevelopment job about two years ago with a bunch of Extreme Programming\nfanatics, who\u2019ve thoroughly inculcated me into their cult of Test-Driven\ndevelopment. Believe me when I say I\u2019m contrary enough to have\nquestioned every single practice, challenged every single decision,\nmoaned about every extra minute spent doing \u201cpointless\u201d tests instead of\nwriting \u201cproper\u201d code. But I\u2019ve come round to the idea now, and whenever\nI\u2019ve had to go back to some of my old projects which don\u2019t have tests,\nboy have I ever realised the wisdom of the approach. So, I\u2019ve learnt\nfrom some really good people, and the learning process is still fresh in\nmy mind, and most importantly, I still have the passion of a recent\nconvert! Pre-requisites Come with the following pre- installed on your\nlaptop please: Git Firefox Python 2.7 setuptools/easy\\_install/pip then:\npip install django pip install selenium pip install mock PS - I don\u2019t\nhave a preview of my TDD talk, but there is one video of me giving a\nlightning talk at last year\u2019s Pycon UK. It\u2019s on a totally different\ntopic, but it gives a hit of my \u201cdynamic\u201d presentation \u201cskills\": -\n`https://www.youtube.com/watch?v=e6NLAbgmRZ4 <https://www.youtube.com/watch?v=e%206NLAbgmRZ4>`__\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/WfyoC0h9QKA/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=WfyoC0h9QKA", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=WfyoC0h9QKA",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=WfyoC0h9QKA", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=WfyoC0h9QKA",
+  "tags": [],
   "speakers": [
     "H Percival"
-  ], 
+  ],
   "recorded": "2012-07-06"
 }

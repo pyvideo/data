@@ -1,26 +1,26 @@
 {
-  "id": 1257, 
-  "category": "EuroPython 2012", 
-  "slug": "sys_current_frames-take-real-time-x-rays-of-y", 
-  "title": "sys._current_frames(): take real-time X-rays of your software for fun and performance", 
-  "summary": "[EuroPython 2012] Leonardo Almeida - 5 JULY 2012 in \"Track Spaghetti\"\n\n", 
-  "description": "Profiling is hard. Trying to understand what is making your system slow can be\nvery frustrating. Specially when it happens only when your clients are\nlooking, but not you. Python comes with elaborate profiling tools, but\nunderstanding the output of profile/cProfile can be a daunting task, specially\non complex frameworks, and these modules might be impractical in a production\nenvironment where their performance toll can make the system unusable. But\nPython is a very reflexive language, allowing extensive investigation of its\nown state during runtime, and one of its lesser known tools is the\nsys._current_frames() function. It can be used to take an X-ray of what all\nthe threads in your running Python program are doing. It can also be used for\na kind of \u201cstatistical\u201d profiling, with little impact on your running system.\nIn this talk we\u2019ll investigate how this function can be used to tell what your\nprogram is doing, exactly at the moment when it is misbehaving. We\u2019ll learn\nhow looking at a series of tracebacks, instead of a bunch of calling\nstatistics, can help zooming quickly into code hot spots. We\u2019ll also show some\ncase studies of real world server-side slowdowns that were solved by the use\nof this technique which were caused by complex interactions of different\ncomponents, including a case where a serious performance issue was diagnosed\nin a production deployment of ERP5 in a corporate client of Nexedi\u2019s.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/MFqP03EfT4I/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1257,
+  "category": "EuroPython 2012",
+  "slug": "sys_current_frames-take-real-time-x-rays-of-y",
+  "title": "sys._current_frames(): take real-time X-rays of your software for fun and performance",
+  "summary": "[EuroPython 2012] Leonardo Almeida - 5 JULY 2012 in \"Track Spaghetti\"\n",
+  "description": "Profiling is hard. Trying to understand what is making your system slow\ncan be very frustrating. Specially when it happens only when your\nclients are looking, but not you. Python comes with elaborate profiling\ntools, but understanding the output of profile/cProfile can be a\ndaunting task, specially on complex frameworks, and these modules might\nbe impractical in a production environment where their performance toll\ncan make the system unusable. But Python is a very reflexive language,\nallowing extensive investigation of its own state during runtime, and\none of its lesser known tools is the sys.\\ *current*\\ frames() function.\nIt can be used to take an X-ray of what all the threads in your running\nPython program are doing. It can also be used for a kind of\n\u201cstatistical\u201d profiling, with little impact on your running system. In\nthis talk we\u2019ll investigate how this function can be used to tell what\nyour program is doing, exactly at the moment when it is misbehaving.\nWe\u2019ll learn how looking at a series of tracebacks, instead of a bunch of\ncalling statistics, can help zooming quickly into code hot spots. We\u2019ll\nalso show some case studies of real world server-side slowdowns that\nwere solved by the use of this technique which were caused by complex\ninteractions of different components, including a case where a serious\nperformance issue was diagnosed in a production deployment of ERP5 in a\ncorporate client of Nexedi\u2019s.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/MFqP03EfT4I/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=MFqP03EfT4I", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=MFqP03EfT4I",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=MFqP03EfT4I", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=MFqP03EfT4I",
+  "tags": [],
   "speakers": [
     "Leonardo Almeida"
-  ], 
+  ],
   "recorded": "2012-07-06"
 }

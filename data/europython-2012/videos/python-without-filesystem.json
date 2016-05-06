@@ -1,26 +1,26 @@
 {
-  "id": 1332, 
-  "category": "EuroPython 2012", 
-  "slug": "python-without-filesystem", 
-  "title": "Python without filesystem", 
-  "summary": "[EuroPython 2012] Arnaud Fontaine - 3 JULY 2012 in \"Track Lasagne\"\n\n", 
-  "description": "Recent cloud architecture are heavily based on key-value storage databases\nrather than distributed filesystems. While the data itself is usually stored\nin scalable database, the source code is mainly kept on the filesystem.\nHowever, having the source code on filesystem raises a lot of issues for cloud\napplications and more generally for transactional web applications supposed to\nbe deployed on a large number of servers: Everytime the source code is\nmodified, it has to be synchronized on all the nodes somehow and the\napplication server must be restarted, therefore implying downtime or\ninconsistency. Usually, the developer cannot directly modify the source code\nas this task is left to the administrator. This talk will show how source\ncode, including modules and their classes, can be migrated away from\nfilesystem, thanks to import hooks, meta classes, reflection and\nmetaprogramming provided by Python, and the different challenges involved:\nTechnical: modules and classes must be loaded and reset while carefully\nconsidering concurrency and database issues and ensuring that the system will\nstay usable whatever happens and without breaking existing class instances.\nAlso, developers must be efficient with the new system, including convenient\nsource code edition and meaningful backtraces. Performance: having dynamic\nmodules and classes involved a performance tradeoff which should be kept to\nthe minimum. Security: as the source code is dynamically loaded from the\ndatabase, extra care must be taken care of compared to filesystem source code\nwhere the source code is never supposed to change once the applications has\nbeen started. In order to give practical examples of how this migration can be\nachieved, two examples will be studied and explain thoroughly, based on the\nexperience I have acquired through the implementation for ERP5 I have worked\non during the past year: First, through a basic WSGI application based on a\nlightweight web application framework to explain the basics behind having\nPython source code available in a transactional key-value storage database and\nmore precisely how modules and their classes can be dynamically loaded and\nreset on-demand upon modifications while keeping good performances. This\nusually involved specific features from the database point of view which will\nalso be discussed. Secondly, through ERP5 which is mainly known as an open\nsource ERP based on Zope and thus ZODB, and as such it provides features an\nERP typically provides, but it is also used for a wide range of other\npurposes. Therefore, this will give a more real-world example on how this\nmigration has been performed on a complex web application where 90% of the\ncode is going to be moved away from filesystem into the ZODB.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/xWY0UQn3dcA/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1332,
+  "category": "EuroPython 2012",
+  "slug": "python-without-filesystem",
+  "title": "Python without filesystem",
+  "summary": "[EuroPython 2012] Arnaud Fontaine - 3 JULY 2012 in \"Track Lasagne\"\n",
+  "description": "Recent cloud architecture are heavily based on key-value storage\ndatabases rather than distributed filesystems. While the data itself is\nusually stored in scalable database, the source code is mainly kept on\nthe filesystem. However, having the source code on filesystem raises a\nlot of issues for cloud applications and more generally for\ntransactional web applications supposed to be deployed on a large number\nof servers: Everytime the source code is modified, it has to be\nsynchronized on all the nodes somehow and the application server must be\nrestarted, therefore implying downtime or inconsistency. Usually, the\ndeveloper cannot directly modify the source code as this task is left to\nthe administrator. This talk will show how source code, including\nmodules and their classes, can be migrated away from filesystem, thanks\nto import hooks, meta classes, reflection and metaprogramming provided\nby Python, and the different challenges involved: Technical: modules and\nclasses must be loaded and reset while carefully considering concurrency\nand database issues and ensuring that the system will stay usable\nwhatever happens and without breaking existing class instances. Also,\ndevelopers must be efficient with the new system, including convenient\nsource code edition and meaningful backtraces. Performance: having\ndynamic modules and classes involved a performance tradeoff which should\nbe kept to the minimum. Security: as the source code is dynamically\nloaded from the database, extra care must be taken care of compared to\nfilesystem source code where the source code is never supposed to change\nonce the applications has been started. In order to give practical\nexamples of how this migration can be achieved, two examples will be\nstudied and explain thoroughly, based on the experience I have acquired\nthrough the implementation for ERP5 I have worked on during the past\nyear: First, through a basic WSGI application based on a lightweight web\napplication framework to explain the basics behind having Python source\ncode available in a transactional key-value storage database and more\nprecisely how modules and their classes can be dynamically loaded and\nreset on-demand upon modifications while keeping good performances. This\nusually involved specific features from the database point of view which\nwill also be discussed. Secondly, through ERP5 which is mainly known as\nan open source ERP based on Zope and thus ZODB, and as such it provides\nfeatures an ERP typically provides, but it is also used for a wide range\nof other purposes. Therefore, this will give a more real-world example\non how this migration has been performed on a complex web application\nwhere 90% of the code is going to be moved away from filesystem into the\nZODB.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/xWY0UQn3dcA/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=xWY0UQn3dcA", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=xWY0UQn3dcA",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=xWY0UQn3dcA", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=xWY0UQn3dcA",
+  "tags": [],
   "speakers": [
     "Arnaud Fontaine"
-  ], 
+  ],
   "recorded": "2012-07-04"
 }
