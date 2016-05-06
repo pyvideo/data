@@ -1,26 +1,26 @@
 {
-  "id": 3011, 
-  "category": "EuroPython 2014", 
-  "slug": "how-we-switched-our-800-projects-from-apache-to", 
-  "title": "How we switched our 800+ projects from Apache to uWSGI", 
-  "summary": "During the last 7 years the company I am working for developed more than 800 projects in PHP and Python. All this time we were using Apache+nginx for hosting this projects. In this talk I will explain why we decided to switch all our projects from Apache+nginx to uWSGI+nginx and how we did that.", 
-  "description": "The talk will start from describing the setup we had for the last 7 years, i.e. Apache with mod_wsgi for Python projects and mod_php4/5 for PHP projects + nginx. I will explain why we used this setup for so long time, what problems we faced with this setup and what solutions we tried to solve them before switching to uWSGI.\r\n\r\nThen I will tell about uWSGI, what it is, how it works and what features it has. I will show the comparison of configuration files, how simple it is to configure uWSGI compared to Apache.\r\n\r\nLastly I will explain how we managed to switch all our 800+ projects developed over the years in 2 different languages with 2 major versions changed (PHP4/5 and Python2/3), how this switch simplified our development and administration of this projects, the improvements we got in memory management and other areas.\r\n\r\nOf course I will concentrate mainly on our Python projects because it is EuroPython after all and not EuroPHP ;-)", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/e8Fz3bxPFC4/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3011,
+  "category": "EuroPython 2014",
+  "slug": "how-we-switched-our-800-projects-from-apache-to",
+  "title": "How we switched our 800+ projects from Apache to uWSGI",
+  "summary": "During the last 7 years the company I am working for developed more than\n800 projects in PHP and Python. All this time we were using Apache+nginx\nfor hosting this projects. In this talk I will explain why we decided to\nswitch all our projects from Apache+nginx to uWSGI+nginx and how we did\nthat.\n",
+  "description": "The talk will start from describing the setup we had for the last 7\nyears, i.e. Apache with mod\\_wsgi for Python projects and mod\\_php4/5\nfor PHP projects + nginx. I will explain why we used this setup for so\nlong time, what problems we faced with this setup and what solutions we\ntried to solve them before switching to uWSGI.\n\nThen I will tell about uWSGI, what it is, how it works and what features\nit has. I will show the comparison of configuration files, how simple it\nis to configure uWSGI compared to Apache.\n\nLastly I will explain how we managed to switch all our 800+ projects\ndeveloped over the years in 2 different languages with 2 major versions\nchanged (PHP4/5 and Python2/3), how this switch simplified our\ndevelopment and administration of this projects, the improvements we got\nin memory management and other areas.\n\nOf course I will concentrate mainly on our Python projects because it is\nEuroPython after all and not EuroPHP ;-)\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/e8Fz3bxPFC4/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=e8Fz3bxPFC4", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=e8Fz3bxPFC4",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=e8Fz3bxPFC4", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=e8Fz3bxPFC4",
+  "tags": [],
   "speakers": [
     "Max Tepkeev"
-  ], 
+  ],
   "recorded": "2014-07-23"
 }

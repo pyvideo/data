@@ -1,26 +1,26 @@
 {
-  "id": 2974, 
-  "category": "EuroPython 2014", 
-  "slug": "support-python-2-and-3-with-the-same-code", 
-  "title": "Support Python 2 and 3 with the same code", 
-  "summary": "Your library supports only Python 2, - but your users keep nagging you about Python 3 support?\r\n\r\nAs Python 3 gets adopted more and more, users ask for Python 3 support in existing libraries for Python 2. Although there are several approaches, this talk focuses on using the very same code for a Python 2 and a Python 3 version.\r\n\r\nThe talk discusses the main problems when supporting Python 3 and best practices to apply for compatibility with Python 2 and 3.", 
-  "description": "Your library supports only Python 2, - but your users keep nagging you about Python 3 support?\r\n\r\nAs Python 3 gets adopted more and more, users ask for Python 3 support in existing libraries for Python 2. This talk mentions some approaches for giving users a Python 3 version, but will quickly focus on using the very same code for a Python 2 and a Python 3 version.\r\n\r\nThis is much easier if you require Python 2.6 and up, and yet a bit easier if you require Python 3.3 as the minimum Python 3 version.\r\n\r\nThe talk discusses main problems when supporting Python 3 (some are easily solved):\r\n\r\n* `print` is a function.\r\n\r\n* More Python APIs return iterators that used to return lists.\r\n\r\n* There's now a clear distinction between bytes and unicode (text) strings.\r\n\r\n* Files are opened as text by default, requiring an encoding to apply on reading and writing.\r\n\r\n\r\nThe talk also explains some best practices:\r\n\r\n* Start with a good automatic test coverage.\r\n\r\n* Deal with many automatic conversions with a one-time 2to3 run.\r\n\r\n* Think about how your library should handle bytes and unicode strings. (Rule of thumb: Decode bytes as early as possible; encode unicode text as late as possible.)\r\n\r\n* Should you break compatibility with your existing Python 2 API? (Yes, if there's no other way to design a sane API for Python 2 and 3. If you do it, raise the first part of the version number.)\r\n\r\n* Try to keep code that's different for Python 2 and 3 minimal. Put code that needs to be different for Python 2 and 3 into a `compat` module. Or use third-party libraries like `six` or `future`.\r\n\r\n\r\nFinally, the talk will mention some helpful resources on the web.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/elAV6aZDMvg/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2974,
+  "category": "EuroPython 2014",
+  "slug": "support-python-2-and-3-with-the-same-code",
+  "title": "Support Python 2 and 3 with the same code",
+  "summary": "Your library supports only Python 2, - but your users keep nagging you\nabout Python 3 support?\n\nAs Python 3 gets adopted more and more, users ask for Python 3 support\nin existing libraries for Python 2. Although there are several\napproaches, this talk focuses on using the very same code for a Python 2\nand a Python 3 version.\n\nThe talk discusses the main problems when supporting Python 3 and best\npractices to apply for compatibility with Python 2 and 3.\n",
+  "description": "Your library supports only Python 2, - but your users keep nagging you\nabout Python 3 support?\n\nAs Python 3 gets adopted more and more, users ask for Python 3 support\nin existing libraries for Python 2. This talk mentions some approaches\nfor giving users a Python 3 version, but will quickly focus on using the\nvery same code for a Python 2 and a Python 3 version.\n\nThis is much easier if you require Python 2.6 and up, and yet a bit\neasier if you require Python 3.3 as the minimum Python 3 version.\n\nThe talk discusses main problems when supporting Python 3 (some are\neasily solved):\n\n-  ``print`` is a function.\n\n-  More Python APIs return iterators that used to return lists.\n\n-  There's now a clear distinction between bytes and unicode (text)\n   strings.\n\n-  Files are opened as text by default, requiring an encoding to apply\n   on reading and writing.\n\nThe talk also explains some best practices:\n\n-  Start with a good automatic test coverage.\n\n-  Deal with many automatic conversions with a one-time 2to3 run.\n\n-  Think about how your library should handle bytes and unicode strings.\n   (Rule of thumb: Decode bytes as early as possible; encode unicode\n   text as late as possible.)\n\n-  Should you break compatibility with your existing Python 2 API? (Yes,\n   if there's no other way to design a sane API for Python 2 and 3. If\n   you do it, raise the first part of the version number.)\n\n-  Try to keep code that's different for Python 2 and 3 minimal. Put\n   code that needs to be different for Python 2 and 3 into a ``compat``\n   module. Or use third-party libraries like ``six`` or ``future``.\n\nFinally, the talk will mention some helpful resources on the web.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/elAV6aZDMvg/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=elAV6aZDMvg", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=elAV6aZDMvg",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=elAV6aZDMvg", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=elAV6aZDMvg",
+  "tags": [],
   "speakers": [
     "Stefan Schwarzer"
-  ], 
+  ],
   "recorded": "2014-07-24"
 }

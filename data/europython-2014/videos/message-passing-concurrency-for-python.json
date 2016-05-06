@@ -1,26 +1,26 @@
 {
-  "id": 3032, 
-  "category": "EuroPython 2014", 
-  "slug": "message-passing-concurrency-for-python", 
-  "title": "Message-passing concurrency for Python", 
-  "summary": "Concurrency and parallelism in Python are always hot topics. This talk will look the variety of forms of concurrency and parallelism. In particular this talk will give an overview of various forms of message-passing concurrency which have become popular in languages like Scala and Go. A Python library called python-csp which implements similar ideas in a Pythonic way will be introduced and we will look at how this style of programming can be used to avoid deadlocks, race hazards and \"callback hell\".", 
-  "description": "Concurrency and parallelism in Python are always hot topics. Early Python versions had a threading library to perform concurrency over operating system threads, Python version 2.6 introduced the multiprocessing library and Python 3.2 has introduced a futures library for asynchronous tasks. In addition to the modules in the standard library a number of packages such as gevent exist on PyPI to implement concurrency with \"green threads\". \r\n\r\nThis talk will look the variety of forms of concurrency and parallelism. When are the different libraries useful and how does their performance compare? Why do programmers want to \"remove the GIL\" and why is it so hard to do? In particular this talk will give an overview of various forms of message-passing concurrency which have become popular in languages like Scala and Go. A Python library called python-csp which implements similar ideas in a Pythonic way will be introduced and we will look at how this style of programming can be used to avoid deadlocks, race hazards and \"callback hell\".", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/EsSdtvIGWAA/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3032,
+  "category": "EuroPython 2014",
+  "slug": "message-passing-concurrency-for-python",
+  "title": "Message-passing concurrency for Python",
+  "summary": "Concurrency and parallelism in Python are always hot topics. This talk\nwill look the variety of forms of concurrency and parallelism. In\nparticular this talk will give an overview of various forms of\nmessage-passing concurrency which have become popular in languages like\nScala and Go. A Python library called python-csp which implements\nsimilar ideas in a Pythonic way will be introduced and we will look at\nhow this style of programming can be used to avoid deadlocks, race\nhazards and \"callback hell\".\n",
+  "description": "Concurrency and parallelism in Python are always hot topics. Early\nPython versions had a threading library to perform concurrency over\noperating system threads, Python version 2.6 introduced the\nmultiprocessing library and Python 3.2 has introduced a futures library\nfor asynchronous tasks. In addition to the modules in the standard\nlibrary a number of packages such as gevent exist on PyPI to implement\nconcurrency with \"green threads\".\n\nThis talk will look the variety of forms of concurrency and parallelism.\nWhen are the different libraries useful and how does their performance\ncompare? Why do programmers want to \"remove the GIL\" and why is it so\nhard to do? In particular this talk will give an overview of various\nforms of message-passing concurrency which have become popular in\nlanguages like Scala and Go. A Python library called python-csp which\nimplements similar ideas in a Pythonic way will be introduced and we\nwill look at how this style of programming can be used to avoid\ndeadlocks, race hazards and \"callback hell\".\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/EsSdtvIGWAA/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=EsSdtvIGWAA", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=EsSdtvIGWAA",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=EsSdtvIGWAA", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=EsSdtvIGWAA",
+  "tags": [],
   "speakers": [
     "Sarah Mount"
-  ], 
+  ],
   "recorded": "2014-07-22"
 }
