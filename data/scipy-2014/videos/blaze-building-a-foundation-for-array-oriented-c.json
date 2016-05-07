@@ -1,27 +1,27 @@
 {
-  "id": 2811, 
-  "category": "SciPy 2014", 
-  "slug": "blaze-building-a-foundation-for-array-oriented-c", 
-  "title": "Blaze: Building a Foundation for Array-Oriented Computing in Python", 
-  "summary": "The Blaze project is a collection of libraries being built towards the goal of generalizing NumPy's data model and working on distributed data. This talk covers each of these libraries, and how they work together to accomplish this goal.", 
-  "description": "Python's scientific computing and data analysis ecosystem, built around NumPy, SciPy, Matplotlib, Pandas, and a host of other libraries, is a tremendous success. NumPy provides an array object, the array-oriented ufunc primitive, and standard practices for exposing and writing numerical libraries to Python all of which have assisted in making it a solid foundation for the community. Over time, however, it has become clear that there are some limitations of NumPy that are difficult to address via evolution from within. Notably, the way NumPy arrays are restricted to data with regularly strided memory structure on a single machine is not easy to change.\r\n\r\nBlaze is a project being built with the goal of addressing these limitations, and becoming a foundation to grow Python's success in array-oriented computing long into the future. It consists of a small collection of libraries being built to generalize NumPy's notions of array, dtype, and ufuncs to be more extensible, and to represent data and computation that is distributed or does not fit in main memory.\r\n\r\nDatashape is the array type system that describes the structure of data, including a specification of a grammar and set of basic types, and a library for working with them. LibDyND is an in-memory array programming library, written in C++ and exposed to Python to provide the local representation of memory supporting the datashape array types. BLZ is a chunked column-oriented persistence storage format for storing Blaze data, well-suited for out of core computations. Finally, the Blaze library ties these components together with a deferred execution graph and execution engine, which can analyze desired computations together with the location and size of input data, and carry out an execution plan in memory, out of core, or in a distributed fashion as is needed.\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/9HPR-1PdZUk/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2811,
+  "category": "SciPy 2014",
+  "slug": "blaze-building-a-foundation-for-array-oriented-c",
+  "title": "Blaze: Building a Foundation for Array-Oriented Computing in Python",
+  "summary": "The Blaze project is a collection of libraries being built towards the\ngoal of generalizing NumPy's data model and working on distributed data.\nThis talk covers each of these libraries, and how they work together to\naccomplish this goal.\n",
+  "description": "Python's scientific computing and data analysis ecosystem, built around\nNumPy, SciPy, Matplotlib, Pandas, and a host of other libraries, is a\ntremendous success. NumPy provides an array object, the array-oriented\nufunc primitive, and standard practices for exposing and writing\nnumerical libraries to Python all of which have assisted in making it a\nsolid foundation for the community. Over time, however, it has become\nclear that there are some limitations of NumPy that are difficult to\naddress via evolution from within. Notably, the way NumPy arrays are\nrestricted to data with regularly strided memory structure on a single\nmachine is not easy to change.\n\nBlaze is a project being built with the goal of addressing these\nlimitations, and becoming a foundation to grow Python's success in\narray-oriented computing long into the future. It consists of a small\ncollection of libraries being built to generalize NumPy's notions of\narray, dtype, and ufuncs to be more extensible, and to represent data\nand computation that is distributed or does not fit in main memory.\n\nDatashape is the array type system that describes the structure of data,\nincluding a specification of a grammar and set of basic types, and a\nlibrary for working with them. LibDyND is an in-memory array programming\nlibrary, written in C++ and exposed to Python to provide the local\nrepresentation of memory supporting the datashape array types. BLZ is a\nchunked column-oriented persistence storage format for storing Blaze\ndata, well-suited for out of core computations. Finally, the Blaze\nlibrary ties these components together with a deferred execution graph\nand execution engine, which can analyze desired computations together\nwith the location and size of input data, and carry out an execution\nplan in memory, out of core, or in a distributed fashion as is needed.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/9HPR-1PdZUk/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=9HPR-1PdZUk", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=9HPR-1PdZUk",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=9HPR-1PdZUk", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=9HPR-1PdZUk",
+  "tags": [],
   "speakers": [
-    "Mark Wiebe", 
+    "Mark Wiebe",
     "Matthew Rocklin"
-  ], 
+  ],
   "recorded": "2014-07-10"
 }

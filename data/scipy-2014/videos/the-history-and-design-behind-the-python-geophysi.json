@@ -1,26 +1,26 @@
 {
-  "id": 2780, 
-  "category": "SciPy 2014", 
-  "slug": "the-history-and-design-behind-the-python-geophysi", 
-  "title": "The History and Design Behind the Python Geophysical Modelling and Interpretation (PyGMI) Package", 
-  "summary": "The development of geophysical software by individual scientists is achievable through languages such as Python. All goals behind developing a geophysical potential field interpretation and modelling software have been achieved to date. The implication of this is that innovation can be a driving force in projects, rather than waiting for commercial vendors to provide appropriate scientific tools.", 
-  "description": "The Council for Geoscience (CGS) is the so called \"Geological Survey\"\r\nof South Africa. Like many similar institutions around the world, financial\r\nrestrictions play a significant role in limiting what tools are available to\r\nscientists. It was from this need to stay scientifically current, while keeping\r\nthe software inexpensive, that the examination of Python first started and\r\nultimately ended up in the PyGMI project.\r\n\r\nThe origins of PyGMI started with two separate projects. The first was a joint\r\nproject where the CGS was responsible for the creation of a software interface\r\nfor cluster analysis code, developed by the University of Potsdam (Paasche et\r\nal 2009). The resulting project was done entirely in Python. Data could be\r\nimported, filtered, analyzed and displayed in graph form using Matplotlib.\r\n\r\nThe second project stemmed from the need to perform 3D modelling on geophysical\r\ndata. The creation of 3D models can be extremely time-consuming. Packages\r\navailable tend to follow either the modelling of individual 2.5D profiles,\r\nwhich are then joined up into 3D sections, or modelling fully in\r\nthree dimensions using polygonal based models. The initial idea was to use the\r\nVTK library as the means to create, display and interrogate the model, while\r\nusing the Scipy and Numpy libraries to perform the actual potential field\r\ncalculations. It soon became apparent that editing the resulting mesh quickly\r\nbecame complex and time consuming. The ability to easily create and change a\r\nmodel is the very basis of forward modelling and for this reason a new approach\r\nwas adopted. The newer 3D modelling package was designed to allow the user to\r\nmodel simply by drawing the model, in the same way one would draw views of a\r\nhouse using a paint program. This implies the need to have a front view, as\r\nwell as a top view. The model is therefore voxel based rather than polygonal.\r\nThe final model can be displayed either within the PyGMI software, or exported\r\nto Google Earth for examination.\r\n\r\nUltimately these two projects formed the basis of what is now the actual PyGMI\r\npackage -- which is a modular collection of various techniques, including\r\nmultivariate statistical analysis and potential field modelling. The interface\r\nfollows a flow diagram approach and the individual modules are independent\r\nenough to ensure that they do not interfere with code which has preceded them\r\nin previous modules.\r\n\r\nThe PyGMI software is available for free download at: [https://code.google.com/p/pygmi/](https://code.google.com/p/pygmi/)\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/5kM3tKkjoSw/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2780,
+  "category": "SciPy 2014",
+  "slug": "the-history-and-design-behind-the-python-geophysi",
+  "title": "The History and Design Behind the Python Geophysical Modelling and Interpretation (PyGMI) Package",
+  "summary": "The development of geophysical software by individual scientists is\nachievable through languages such as Python. All goals behind developing\na geophysical potential field interpretation and modelling software have\nbeen achieved to date. The implication of this is that innovation can be\na driving force in projects, rather than waiting for commercial vendors\nto provide appropriate scientific tools.\n",
+  "description": "The Council for Geoscience (CGS) is the so called \"Geological Survey\" of\nSouth Africa. Like many similar institutions around the world, financial\nrestrictions play a significant role in limiting what tools are\navailable to scientists. It was from this need to stay scientifically\ncurrent, while keeping the software inexpensive, that the examination of\nPython first started and ultimately ended up in the PyGMI project.\n\nThe origins of PyGMI started with two separate projects. The first was a\njoint project where the CGS was responsible for the creation of a\nsoftware interface for cluster analysis code, developed by the\nUniversity of Potsdam (Paasche et al 2009). The resulting project was\ndone entirely in Python. Data could be imported, filtered, analyzed and\ndisplayed in graph form using Matplotlib.\n\nThe second project stemmed from the need to perform 3D modelling on\ngeophysical data. The creation of 3D models can be extremely\ntime-consuming. Packages available tend to follow either the modelling\nof individual 2.5D profiles, which are then joined up into 3D sections,\nor modelling fully in three dimensions using polygonal based models. The\ninitial idea was to use the VTK library as the means to create, display\nand interrogate the model, while using the Scipy and Numpy libraries to\nperform the actual potential field calculations. It soon became apparent\nthat editing the resulting mesh quickly became complex and time\nconsuming. The ability to easily create and change a model is the very\nbasis of forward modelling and for this reason a new approach was\nadopted. The newer 3D modelling package was designed to allow the user\nto model simply by drawing the model, in the same way one would draw\nviews of a house using a paint program. This implies the need to have a\nfront view, as well as a top view. The model is therefore voxel based\nrather than polygonal. The final model can be displayed either within\nthe PyGMI software, or exported to Google Earth for examination.\n\nUltimately these two projects formed the basis of what is now the actual\nPyGMI package -- which is a modular collection of various techniques,\nincluding multivariate statistical analysis and potential field\nmodelling. The interface follows a flow diagram approach and the\nindividual modules are independent enough to ensure that they do not\ninterfere with code which has preceded them in previous modules.\n\nThe PyGMI software is available for free download at:\nhttps://code.google.com/p/pygmi/\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/5kM3tKkjoSw/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=5kM3tKkjoSw", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=5kM3tKkjoSw",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=5kM3tKkjoSw", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=5kM3tKkjoSw",
+  "tags": [],
   "speakers": [
     "Patrick Cole"
-  ], 
+  ],
   "recorded": "2014-07-14"
 }

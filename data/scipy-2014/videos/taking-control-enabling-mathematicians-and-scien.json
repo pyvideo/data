@@ -1,26 +1,26 @@
 {
-  "id": 2712, 
-  "category": "SciPy 2014", 
-  "slug": "taking-control-enabling-mathematicians-and-scien", 
-  "title": "Taking Control: Enabling Mathematicians and Scientists", 
-  "summary": "Good solutions to hard problems require both domain and algorithmic expertise.\r\nDomain experts know what to do and computer scientists know how to do it\r\nwell. This talk discusses challenges and experiences trying to reconcile these\r\ntwo groups, particularly within SymPy. It proposes concrete approaches\r\nincluding multiple dispatch, pattern matching, and programmatic strategies.\r\n", 
-  "description": "Good solutions to hard problems require both domain and algorithmic expertise.\r\nDomain experts know *what* to do and computer scientists know *how* to do it\r\nwell.  Coordination between the algorithmic and domain programmer is \r\nchallenging to do well and difficult to scale.  It is also arguably one of the\r\nmost relevant blocks to scientific progress today.\r\n\r\nThis talk draws from experience supporting mathematical programmers in the\r\nSymPy project.  SymPy is a computer algebra system, a complex problem that\r\nrequires the graph manipulation algorithms of a modern compiler alongside the           mathematics of several PhD theses.  SymPy draws from a broad developer base\r\nwith experienced and novice developers alike and so struggles to maintain a\r\ncohesive organized codebase.\r\n\r\nWe approach this development problem by separating software engineering\r\ninto a collection of small functions, written by domain experts, alongside an\r\nabstract control system, written by algorithmic programmers.  We facilitate\r\nthis division with techniques taken from other languages and compiler \r\ntechnologies.  Notably we motivate the use of a few general purpose libraries\r\nfor multiple dispatch, pattern matching, and programmatic control.\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/QldxygVVj-s/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2712,
+  "category": "SciPy 2014",
+  "slug": "taking-control-enabling-mathematicians-and-scien",
+  "title": "Taking Control: Enabling Mathematicians and Scientists",
+  "summary": "Good solutions to hard problems require both domain and algorithmic\nexpertise. Domain experts know what to do and computer scientists know\nhow to do it well. This talk discusses challenges and experiences trying\nto reconcile these two groups, particularly within SymPy. It proposes\nconcrete approaches including multiple dispatch, pattern matching, and\nprogrammatic strategies.\n",
+  "description": "Good solutions to hard problems require both domain and algorithmic\nexpertise. Domain experts know *what* to do and computer scientists know\n*how* to do it well. Coordination between the algorithmic and domain\nprogrammer is challenging to do well and difficult to scale. It is also\narguably one of the most relevant blocks to scientific progress today.\n\nThis talk draws from experience supporting mathematical programmers in\nthe SymPy project. SymPy is a computer algebra system, a complex problem\nthat requires the graph manipulation algorithms of a modern compiler\nalongside the mathematics of several PhD theses. SymPy draws from a\nbroad developer base with experienced and novice developers alike and so\nstruggles to maintain a cohesive organized codebase.\n\nWe approach this development problem by separating software engineering\ninto a collection of small functions, written by domain experts,\nalongside an abstract control system, written by algorithmic\nprogrammers. We facilitate this division with techniques taken from\nother languages and compiler technologies. Notably we motivate the use\nof a few general purpose libraries for multiple dispatch, pattern\nmatching, and programmatic control.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/QldxygVVj-s/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=QldxygVVj-s", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=QldxygVVj-s",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=QldxygVVj-s", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=QldxygVVj-s",
+  "tags": [],
   "speakers": [
     "Matthew Rocklin"
-  ], 
+  ],
   "recorded": "2014-07-09"
 }

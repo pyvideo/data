@@ -1,28 +1,28 @@
 {
-  "id": 2731, 
-  "category": "SciPy 2014", 
-  "slug": "intergrating-pylearn2-and-hyperopt-taking-deep-l", 
-  "title": "Intergrating Pylearn2 and Hyperopt: Taking Deep Learning Further with Hyperparamter Optimization", 
-  "summary": "This talk/poster will outline and present recent work in integrating Hyperopt, a package for the optimization of the hyperparameters of machine learning algorithms, with Pylearn2, a machine learning research and prototyping framework focused on \"deep learning\" algorithms, the technical challenges we faced and how we addressed them.", 
-  "description": "Deep learning algorithms have recently garnered much attention for their successes in solving very difficult industrial machine perception problems. However, for many practical purposes, these algorithms are unwieldy due to the rapid proliferation of \"hyperparameters\" in their specification -- architectural and optimization constants which ordinarily must be specified a priori by the practitioner. There is a growing interest within the machine learning community, and acutely so amongst deep learning researchers, in intelligently automating the selection of hyperparameters for machine learning algorithms by through the use of sequential model-based optimization techniques. [Hyperopt][http://hyperopt.github.io/hyperopt/] is software package designed for this purpose, architected as a general framework for hyperparameter optimization algorithms with support for complicated, awkward hyperparameter spaces that, e.g., involve many hyperparameters that are only meaningful in the context of certain values of other hyperparameters.\r\n\r\n[Pylearn2][http://deeplearning.net/software/pylearn2] is a framework for machine learning developed by the LISA laboratory at Universit\u00e9 de Montr\u00e9al; it is a research and prototyping library aimed primarily at machine learning researchers, with a focus on \"deep learning\" algorithms. Despite being far from a stable release, it has had considerable impact and developed a very active user community outside of the laboratory that birthed it.\r\n\r\nThis talk will deecribe recent efforts in building a flexible, user-friendly bridge between Pylearn2 and Hyperopt for the purpose of optimizing the hyperparameters of deep learning algorithms. Briefly, it will outline the relevant problem domain and the two packages, the technical challenges we've met in adapting the two for use with one another and our solutions to them, in particular the development of a novel common deferred evaluation/call-graph description language based on `functools.partial`, which we hope to make available in the near future as a standalone package.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/t50CGzbtcrY/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2731,
+  "category": "SciPy 2014",
+  "slug": "intergrating-pylearn2-and-hyperopt-taking-deep-l",
+  "title": "Intergrating Pylearn2 and Hyperopt: Taking Deep Learning Further with Hyperparamter Optimization",
+  "summary": "This talk/poster will outline and present recent work in integrating\nHyperopt, a package for the optimization of the hyperparameters of\nmachine learning algorithms, with Pylearn2, a machine learning research\nand prototyping framework focused on \"deep learning\" algorithms, the\ntechnical challenges we faced and how we addressed them.\n",
+  "description": "Deep learning algorithms have recently garnered much attention for their\nsuccesses in solving very difficult industrial machine perception\nproblems. However, for many practical purposes, these algorithms are\nunwieldy due to the rapid proliferation of \"hyperparameters\" in their\nspecification -- architectural and optimization constants which\nordinarily must be specified a priori by the practitioner. There is a\ngrowing interest within the machine learning community, and acutely so\namongst deep learning researchers, in intelligently automating the\nselection of hyperparameters for machine learning algorithms by through\nthe use of sequential model-based optimization techniques.\n[Hyperopt][http://hyperopt.github.io/hyperopt/] is software package\ndesigned for this purpose, architected as a general framework for\nhyperparameter optimization algorithms with support for complicated,\nawkward hyperparameter spaces that, e.g., involve many hyperparameters\nthat are only meaningful in the context of certain values of other\nhyperparameters.\n\n[Pylearn2][http://deeplearning.net/software/pylearn2] is a framework for\nmachine learning developed by the LISA laboratory at Universit\u00e9 de\nMontr\u00e9al; it is a research and prototyping library aimed primarily at\nmachine learning researchers, with a focus on \"deep learning\"\nalgorithms. Despite being far from a stable release, it has had\nconsiderable impact and developed a very active user community outside\nof the laboratory that birthed it.\n\nThis talk will deecribe recent efforts in building a flexible,\nuser-friendly bridge between Pylearn2 and Hyperopt for the purpose of\noptimizing the hyperparameters of deep learning algorithms. Briefly, it\nwill outline the relevant problem domain and the two packages, the\ntechnical challenges we've met in adapting the two for use with one\nanother and our solutions to them, in particular the development of a\nnovel common deferred evaluation/call-graph description language based\non ``functools.partial``, which we hope to make available in the near\nfuture as a standalone package.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/t50CGzbtcrY/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=t50CGzbtcrY", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=t50CGzbtcrY",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=t50CGzbtcrY", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=t50CGzbtcrY",
   "tags": [
     "machine learning"
-  ], 
+  ],
   "speakers": [
     "David Warde-Farley"
-  ], 
+  ],
   "recorded": "2014-07-09"
 }

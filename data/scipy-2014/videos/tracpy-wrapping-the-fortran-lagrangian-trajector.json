@@ -1,26 +1,26 @@
 {
-  "id": 2805, 
-  "category": "SciPy 2014", 
-  "slug": "tracpy-wrapping-the-fortran-lagrangian-trajector", 
-  "title": "TracPy: Wrapping the FORTRAN Lagrangian trajectory model TRACMASS", 
-  "summary": "An example of a Python wrapper of a FORTRAN code, applications of a Lagrangian trajectory model, and lessons learned about code development.", 
-  "description": "Numerical Lagrangian tracking is a way to follow parcels of fluid as they are advected by a numerical circulation model. This is a natural method to investigate transport in a system and understand the physics on the wide range of length scales that are actually experienced by a drifter. TRACMASS is a tool for Lagrangian trajectory modeling that has been developed over the past two decades. It has been used to better understand physics and its applications to real-world problems in many areas around the world, in both atmospheric and oceanic settings. TRACMASS is written in FORTRAN, which is great for speed but not as great for ease of use. This code has been wrapped in Python to run batches of simulations and improve accessibility --- and dubbed TracPy. \r\n\r\nIn this talk, I will outline some of the interesting features of the TRACMASS algorithm and several applications, then discuss the layout of the TracPy code. The code setup and organization have been a learning process and I will also share some of my hard-earned lessons.\r\n\r\nTracPy is continually in development and is available [on GitHub](https://github.com/kthyng/tracpy).\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/8poLWacun50/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2805,
+  "category": "SciPy 2014",
+  "slug": "tracpy-wrapping-the-fortran-lagrangian-trajector",
+  "title": "TracPy: Wrapping the FORTRAN Lagrangian trajectory model TRACMASS",
+  "summary": "An example of a Python wrapper of a FORTRAN code, applications of a\nLagrangian trajectory model, and lessons learned about code development.\n",
+  "description": "Numerical Lagrangian tracking is a way to follow parcels of fluid as\nthey are advected by a numerical circulation model. This is a natural\nmethod to investigate transport in a system and understand the physics\non the wide range of length scales that are actually experienced by a\ndrifter. TRACMASS is a tool for Lagrangian trajectory modeling that has\nbeen developed over the past two decades. It has been used to better\nunderstand physics and its applications to real-world problems in many\nareas around the world, in both atmospheric and oceanic settings.\nTRACMASS is written in FORTRAN, which is great for speed but not as\ngreat for ease of use. This code has been wrapped in Python to run\nbatches of simulations and improve accessibility --- and dubbed TracPy.\n\nIn this talk, I will outline some of the interesting features of the\nTRACMASS algorithm and several applications, then discuss the layout of\nthe TracPy code. The code setup and organization have been a learning\nprocess and I will also share some of my hard-earned lessons.\n\nTracPy is continually in development and is available `on\nGitHub <https://github.com/kthyng/tracpy>`__.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/8poLWacun50/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=8poLWacun50", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=8poLWacun50",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=8poLWacun50", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=8poLWacun50",
+  "tags": [],
   "speakers": [
     "Kristen Thyng"
-  ], 
+  ],
   "recorded": "2014-07-13"
 }
