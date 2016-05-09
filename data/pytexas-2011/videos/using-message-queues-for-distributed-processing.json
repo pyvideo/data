@@ -1,26 +1,26 @@
 {
-  "id": 562, 
-  "category": "PyTexas 2011", 
-  "slug": "using-message-queues-for-distributed-processing", 
-  "title": "Using Message Queues for Distributed Processing", 
-  "summary": "Message queues provide a reliable, language agnostic method for sharing data\nbetween processes for distributed processing, and to manage work flows. This\ntalk will examine the role of message queues in a redesign of the provisioning\nprocess for Texas A&M; University's enterprise directory.\n\n", 
-  "description": "About six months ago we moved our account provisioning process from a\nmonolithic Perl script to a set of distributed, interconnected python scripts.\nBy using message queues (specifically beanstalkd) to pass messages between the\nprocesses, we were able to build a system that was much faster, more reliable\nand more flexible.\n\nI will walk through the process that led us to choose beanstalkd, look at some\nalternatives that are available, and describe some use cases for message\nqueues.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "", 
-  "thumbnail_url": "http://a.images.blip.tv/Nextdayvideo-UsingMessageQueuesForDistributedProcessing897-27.jpg", 
-  "duration": null, 
+  "id": 562,
+  "category": "PyTexas 2011",
+  "slug": "using-message-queues-for-distributed-processing",
+  "title": "Using Message Queues for Distributed Processing",
+  "summary": "Message queues provide a reliable, language agnostic method for sharing\ndata between processes for distributed processing, and to manage work\nflows. This talk will examine the role of message queues in a redesign\nof the provisioning process for Texas A&M; University's enterprise\ndirectory.\n",
+  "description": "About six months ago we moved our account provisioning process from a\nmonolithic Perl script to a set of distributed, interconnected python\nscripts. By using message queues (specifically beanstalkd) to pass\nmessages between the processes, we were able to build a system that was\nmuch faster, more reliable and more flexible.\n\nI will walk through the process that led us to choose beanstalkd, look\nat some alternatives that are available, and describe some use cases for\nmessage queues.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "http://a.images.blip.tv/Nextdayvideo-UsingMessageQueuesForDistributedProcessing897-27.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/562_using-message-queues-for-distributed-processing.m4v", 
-      "length": null, 
-      "type": "mp4"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/562_using-message-queues-for-distributed-processing.m4v",
+      "type": "mp4",
+      "length": null
     }
-  ], 
-  "source_url": "", 
-  "tags": [], 
+  ],
+  "source_url": "",
+  "tags": [],
   "speakers": [
     "Jason Zylks"
-  ], 
+  ],
   "recorded": null
 }
