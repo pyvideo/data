@@ -1,37 +1,37 @@
 {
-  "id": 307, 
-  "category": "PyCon US 2010", 
-  "slug": "pycon-2010--mastering-team-play--four-powerful-ex", 
-  "title": "Mastering Team Play: Four powerful examples of composing Python tools (#184)", 
-  "summary": "", 
-  "description": "Mastering Team Play: Four powerful examples of composing Python tools\n\n  \nPresented by Raymond Hettinger\n\n  \nStarts with a quick review of the performance characteristics of major\nindividual tools in Python: bisect, heapq, lists, deques, sets, frozensets,\nclass structures, sorts, and weakreferences. Show how these tools can be\npowerfully combined to create elegant solutions to four hard problems.\n\n  1. Random sampling: when one data structure isn't enough. Discuss how the nature of the problem dictates when to use one of two alternate data structures. \n  2. Ordered dictionaries: with the right compostion of dictionaries, linked lists, and weak references, a dictionary can remember its insertion order without any impact on its big-Oh running times. \n  3. NFA to DFA conversion. The classic, but difficult, algorithm for lexical analysis becomes simple when composing Python's dicts and frozensets. \n  4. Running median: the obvious approaches are horribly slow. The problem centers around how to efficiently maintain sorted data while advancing a large sliding window one value at a time. A list of deques provides a dramatic and scalable improvement in running time. \n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010MasteringTeamPlayFourPowerfulExamplesOfComposin150.png", 
-  "duration": null, 
+  "id": 307,
+  "category": "PyCon US 2010",
+  "slug": "pycon-2010--mastering-team-play--four-powerful-ex",
+  "title": "Mastering Team Play: Four powerful examples of composing Python tools (#184)",
+  "summary": "",
+  "description": "Mastering Team Play: Four powerful examples of composing Python tools\n\nPresented by Raymond Hettinger\n\nStarts with a quick review of the performance characteristics of major\nindividual tools in Python: bisect, heapq, lists, deques, sets,\nfrozensets, class structures, sorts, and weakreferences. Show how these\ntools can be powerfully combined to create elegant solutions to four\nhard problems.\n\n1. Random sampling: when one data structure isn't enough. Discuss how\n   the nature of the problem dictates when to use one of two alternate\n   data structures.\n2. Ordered dictionaries: with the right compostion of dictionaries,\n   linked lists, and weak references, a dictionary can remember its\n   insertion order without any impact on its big-Oh running times.\n3. NFA to DFA conversion. The classic, but difficult, algorithm for\n   lexical analysis becomes simple when composing Python's dicts and\n   frozensets.\n4. Running median: the obvious approaches are horribly slow. The problem\n   centers around how to efficiently maintain sorted data while\n   advancing a large sliding window one value at a time. A list of\n   deques provides a dramatic and scalable improvement in running time.\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010MasteringTeamPlayFourPowerfulExamplesOfComposin150.png",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/307_mastering-team-play-four-powerful-examples-of-composing-python-tools-184.ogv", 
-      "length": 492820610, 
-      "type": "ogv"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/307_mastering-team-play-four-powerful-examples-of-composing-python-tools-184.ogv",
+      "type": "ogv",
+      "length": 492820610
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "bisect", 
-    "dequeues", 
-    "frozensets", 
-    "heapq", 
-    "lists", 
-    "pycon", 
-    "pycon2010", 
-    "sets", 
-    "sorts", 
+    "bisect",
+    "dequeues",
+    "frozensets",
+    "heapq",
+    "lists",
+    "pycon",
+    "pycon2010",
+    "sets",
+    "sorts",
     "weakreferences"
-  ], 
+  ],
   "speakers": [
     "Raymond Hettinger"
-  ], 
+  ],
   "recorded": "2010-02-19"
 }
