@@ -1,35 +1,35 @@
 {
-  "id": 572, 
-  "category": "ChiPy", 
-  "slug": "tox", 
-  "title": "Tox", 
-  "summary": "It's a great new open source tool that helps you support all versions of\npython with your existing automated tests. It's not a test runner, it's a\nsuper test runner runner! Or something. There is no easy way to describe it\nwhich is why the front page of the website is sort of confusing, IMO. We use\ntox on the Nose project to make sure each code change doesn't break the tests\nin Python 2.4, 2.5, 2.6, 2.7, 3.0 or Jython. Not everybody targets so many\nenvironments but if you want to maintain a widely used module then you\nprobably will want to use tox someday.\n\n", 
-  "description": "Here's our Hudson matrix setup w/ tox: [http://hudson.testrun.org/job/nose-\nunstable/](http://hudson.testrun.org/job/nose-unstable/) (we just set this up\nrecently which is why most builds were broken in one or two envs) I can also\nspend some time going over how we are currently maintaining a test suite that\nruns in both 2.x and 3.x simultaneously.\n\nThis will be our Best Meeting Ever!\n\n[http://codespeak.net/tox/](http://codespeak.net/tox/)\n\n[http://chipy.org/](http://chipy.org/)\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/CarlFK-Tox172.png", 
-  "duration": null, 
+  "id": 572,
+  "category": "ChiPy",
+  "slug": "tox",
+  "title": "Tox",
+  "summary": "It's a great new open source tool that helps you support all versions of\npython with your existing automated tests. It's not a test runner, it's\na super test runner runner! Or something. There is no easy way to\ndescribe it which is why the front page of the website is sort of\nconfusing, IMO. We use tox on the Nose project to make sure each code\nchange doesn't break the tests in Python 2.4, 2.5, 2.6, 2.7, 3.0 or\nJython. Not everybody targets so many environments but if you want to\nmaintain a widely used module then you probably will want to use tox\nsomeday.\n",
+  "description": "Here's our Hudson matrix setup w/ tox:\n`http://hudson.testrun.org/job/nose-\nunstable/ <http://hudson.testrun.org/job/nose-unstable/>`__ (we just set\nthis up recently which is why most builds were broken in one or two\nenvs) I can also spend some time going over how we are currently\nmaintaining a test suite that runs in both 2.x and 3.x simultaneously.\n\nThis will be our Best Meeting Ever!\n\nhttp://codespeak.net/tox/\n\nhttp://chipy.org/\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/CarlFK-Tox172.png",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.m4v", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.m4v",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.flv", 
-      "length": null, 
-      "type": "flv"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.flv",
+      "type": "flv",
+      "length": null
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "chipy", 
-    "testing", 
+    "chipy",
+    "testing",
     "tox"
-  ], 
+  ],
   "speakers": [
     "Kumar McMillan"
-  ], 
+  ],
   "recorded": "2010-11-11"
 }
