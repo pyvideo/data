@@ -1,33 +1,33 @@
 {
-  "id": 381, 
-  "category": "PyCon US 2011", 
-  "slug": "pycon-2011--algorithmic-generation-of-opengl-geom", 
-  "title": "Algorithmic Generation of OpenGL Geometry", 
-  "summary": "", 
-  "description": "Algorithmic Generation of OpenGL Geometry\n\nPresented by Jonathan Hartley\n\nStarting from a basic 'hello world' OpenGL app, a simple and Pythonic model of\n3D polyhedra is presented, with neat generators to convert these into ctype\narrays for OpenGL. Geometric algorithms then generate some fun geometry, and\nthese are compounded to produce successively more complex and interesting\nshapes.\n\nAbstract\n\nThe author's intent is to demonstrate that effective stylistic 3D graphics can\nbe achieved using surprisingly small amounts of code. This hopefully makes the\ntopic amenable to 3D beginners, while possibly suggesting some alternative\napproaches to those with 3D experience.\n\nTalk Outline\n\nThroughout, discussion of ideas and code dissection alternates with live\nanimated demos, at 60fps on very modest hardware.\n\n  1. Inspirations - Effective non-photo-realistic work in gaming, movies and the demo scene. (1m) \n  2. A convenient & Pythonic way to model 3D polyhedra, and some neat generators to convert these into OpenGL arrays at runtime. (7m) \n  3. Composition of polyhedra to create more complex shapes. (3m) \n  4. The resulting performance characteristics: What works well from Python, and what doesn't. (2m) \n  5. Koch tetrahedron & tetrix, aka Sierpinski tetrahedron. (1m) \n  6. Surprisingly effective 3D models created from small bitmaps. (1m) \n  7. Automatic generation of trees, mazes, complex spaces. (3m) \n  8. Algorithmic modification of existing shapes, such as bevels, geometric duals, and polyhedron stellation. (2m) \n  9. Shapes that morph: Rearranging vertices on the fly (5m) \n  10. Questions (5m) \n\nThe ideas demonstrated in the talk are written against OpenGL 2.1, but written\nin a 'mostly OpenGL 3' style, using vertex buffer objects or vertex arrays.\n\nThe demo code uses pyglet to create a window and handle GUI events, and uses\nPyOpenGL for the majority of OpenGL calls, since it provides a more friendly\nand Pythonic interface. In the performance-sensitive inner render loop,\nhowever, I use pyglet's slightly more bare-bones OpenGL bindings.\n\nHowever, the majority of the talk focuses on the manipulation of abstract data\nstructures to represent geometry, which is not affected by these or other\nOpenGL library choices.\n\nThis is a substantially improved version of the talk 'Flying High: Hobbyist\nOpenGL from Python', previously presented at EuroPython 2010.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011AlgorithmicGenerationOfOpenGLGeometry275-566.jpg", 
-  "duration": null, 
+  "id": 381,
+  "category": "PyCon US 2011",
+  "slug": "pycon-2011--algorithmic-generation-of-opengl-geom",
+  "title": "Algorithmic Generation of OpenGL Geometry",
+  "summary": "",
+  "description": "Algorithmic Generation of OpenGL Geometry\n\nPresented by Jonathan Hartley\n\nStarting from a basic 'hello world' OpenGL app, a simple and Pythonic\nmodel of 3D polyhedra is presented, with neat generators to convert\nthese into ctype arrays for OpenGL. Geometric algorithms then generate\nsome fun geometry, and these are compounded to produce successively more\ncomplex and interesting shapes.\n\nAbstract\n\nThe author's intent is to demonstrate that effective stylistic 3D\ngraphics can be achieved using surprisingly small amounts of code. This\nhopefully makes the topic amenable to 3D beginners, while possibly\nsuggesting some alternative approaches to those with 3D experience.\n\nTalk Outline\n\nThroughout, discussion of ideas and code dissection alternates with live\nanimated demos, at 60fps on very modest hardware.\n\n1.  Inspirations - Effective non-photo-realistic work in gaming, movies\n    and the demo scene. (1m)\n2.  A convenient & Pythonic way to model 3D polyhedra, and some neat\n    generators to convert these into OpenGL arrays at runtime. (7m)\n3.  Composition of polyhedra to create more complex shapes. (3m)\n4.  The resulting performance characteristics: What works well from\n    Python, and what doesn't. (2m)\n5.  Koch tetrahedron & tetrix, aka Sierpinski tetrahedron. (1m)\n6.  Surprisingly effective 3D models created from small bitmaps. (1m)\n7.  Automatic generation of trees, mazes, complex spaces. (3m)\n8.  Algorithmic modification of existing shapes, such as bevels,\n    geometric duals, and polyhedron stellation. (2m)\n9.  Shapes that morph: Rearranging vertices on the fly (5m)\n10. Questions (5m)\n\nThe ideas demonstrated in the talk are written against OpenGL 2.1, but\nwritten in a 'mostly OpenGL 3' style, using vertex buffer objects or\nvertex arrays.\n\nThe demo code uses pyglet to create a window and handle GUI events, and\nuses PyOpenGL for the majority of OpenGL calls, since it provides a more\nfriendly and Pythonic interface. In the performance-sensitive inner\nrender loop, however, I use pyglet's slightly more bare-bones OpenGL\nbindings.\n\nHowever, the majority of the talk focuses on the manipulation of\nabstract data structures to represent geometry, which is not affected by\nthese or other OpenGL library choices.\n\nThis is a substantially improved version of the talk 'Flying High:\nHobbyist OpenGL from Python', previously presented at EuroPython 2010.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011AlgorithmicGenerationOfOpenGLGeometry275-566.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/381_algorithmic-generation-of-opengl-geometry.mp4", 
-      "length": null, 
-      "type": "mp4"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/381_algorithmic-generation-of-opengl-geometry.mp4",
+      "type": "mp4",
+      "length": null
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "3d", 
-    "opengl", 
-    "pycon", 
-    "pycon2011", 
-    "pyglet", 
+    "3d",
+    "opengl",
+    "pycon",
+    "pycon2011",
+    "pyglet",
     "pyopengl"
-  ], 
+  ],
   "speakers": [
     "Jonathan Hartley"
-  ], 
+  ],
   "recorded": "2011-03-11"
 }

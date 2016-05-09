@@ -1,32 +1,32 @@
 {
-  "id": 380, 
-  "category": "PyCon US 2011", 
-  "slug": "pycon-2011--optimal-aircraft-engine-tuner-selecti", 
-  "title": "Optimal Aircraft Engine Tuner Selection in Python", 
-  "summary": "", 
-  "description": "Optimal Aircraft Engine Tuner Selection in Python\n\nPresented by Jeffrey Armstrong\n\nA numerical algorithm for designing on-board aircraft engine diagnostics has\nbeen implemented in Python. Employing the optimization techniques within\nSciPy, the code performs a search for an optimal vector of parameters for\nestimating engine variables, including exhaust temperatures and thrust. The\nalgorithm exploits the numerical strengths of Python and SciPy for speed and\ninteroperability.\n\nAbstract\n\nAn emerging field of aircraft engine diagnostics is the inclusion of on-board\nengine performance tracking algorithms. These algorithms utilize data provided\nby a limited number of engine sensors to determine the current engine\nperformance, which tends to degrade over time. However, estimating engine\nperformance instantaneously is problematic due to the limited number of\nsensors normally available on a commercial aircraft engine.\n\nOne common practice is to estimate and track engine performance in software\nusing a Kalman filter, a mathematical construct for tuning a numerical model\nto better track actual measurements (1). A new technique has been devised to\noptimize the design of this filter in aircraft engine applications (2). An\noptimization procedure to aid in the design of the filter has been implemented\nin Python and exercised against the significant number of minimization and\noptimization strategies available in SciPy. The talk focuses on the design of\nthis optimization procedure in Python. The object-oriented nature of Python\noffers benefits over alternative numerical languages; speed, availability, and\nmaintainability played central roles in the selection of Python as the\nimplementation language. The availability of the multiprocessing module\nallowed for full utilization of modern multi-core CPUs, in contrast with often\nlimited commercial numerical computing packages, further improving\ncomputational speed.\n\nSome difficulties were encountered during this design exercise. Discussion of\nthese obstacles and their eventual solution is presented. Specifically,\niterative solvers for the discrete algebraic Riccati equation and the discrete\nLyapunov equation had to be authored in Python (3,4). Additional framework for\nworking with discrete state-space control systems was created, exploiting the\nobject-oriented features of the language (5).\n\nThe Python implementation was able to verify the solution of the optimization\nproblem. Comparison with an alternative, reference MATLAB implementation will\nbe presented briefly. The results of this research is planned to be presented\nat the American Society for Mechanical Engineers Turbo Expo 2011 Conference in\nJune, 2011 (6). The algorithm design in Python is meant to showcase the\nability to perform controls engineering tasks in the Python language\nefficiently.\n\n1. \u201cKalman Filter,\u201d Wikipedia: [http://en.wikipedia.org/wiki/Kalman_filter](ht\ntp://en.wikipedia.org/wiki/Kalman_filter)\n\n2. Simon, D. L. and Garg, S., \u201cOptimal Tuner Selection for Kalman Filter-Based\nAircraft Engine Performance Estimation\u201d. Journal of Engineering for Gas\nTurbines and Power. March 2010, Vol. 132.\n\n3. \u201cAlgebraic Riccati Equation,\u201d Wikipedia: [http://en.wikipedia.org/wiki/Alge\nbraic_Riccati_equation](http://en.wikipedia.org/wiki/Algebraic_Riccati_equatio\nn)\n\n4. \u201cLyapunov Equation,\u201d Wikipedia: [http://en.wikipedia.org/wiki/Lyapunov_equa\ntion](http://en.wikipedia.org/wiki/Lyapunov_equation)\n\n5. \u201cState Space,\u201d Wikipedia: [http://en.wikipedia.org/wiki/State-\nspace](http://en.wikipedia.org/wiki/State-space)\n\n6. Simon, D. L., Armstrong, J. B., \"Application of an Optimal Tuner Selection\nApproach for On-Board Self-Tuning Engine Models,\" Proceedings of the ASME\nTurbo Expo 2011, GT2011-46408, 2011 (To Be Published).\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011OptimalAircraftEngineTunerSelectionInPython133-714.jpg", 
-  "duration": null, 
+  "id": 380,
+  "category": "PyCon US 2011",
+  "slug": "pycon-2011--optimal-aircraft-engine-tuner-selecti",
+  "title": "Optimal Aircraft Engine Tuner Selection in Python",
+  "summary": "",
+  "description": "Optimal Aircraft Engine Tuner Selection in Python\n\nPresented by Jeffrey Armstrong\n\nA numerical algorithm for designing on-board aircraft engine diagnostics\nhas been implemented in Python. Employing the optimization techniques\nwithin SciPy, the code performs a search for an optimal vector of\nparameters for estimating engine variables, including exhaust\ntemperatures and thrust. The algorithm exploits the numerical strengths\nof Python and SciPy for speed and interoperability.\n\nAbstract\n\nAn emerging field of aircraft engine diagnostics is the inclusion of\non-board engine performance tracking algorithms. These algorithms\nutilize data provided by a limited number of engine sensors to determine\nthe current engine performance, which tends to degrade over time.\nHowever, estimating engine performance instantaneously is problematic\ndue to the limited number of sensors normally available on a commercial\naircraft engine.\n\nOne common practice is to estimate and track engine performance in\nsoftware using a Kalman filter, a mathematical construct for tuning a\nnumerical model to better track actual measurements (1). A new technique\nhas been devised to optimize the design of this filter in aircraft\nengine applications (2). An optimization procedure to aid in the design\nof the filter has been implemented in Python and exercised against the\nsignificant number of minimization and optimization strategies available\nin SciPy. The talk focuses on the design of this optimization procedure\nin Python. The object-oriented nature of Python offers benefits over\nalternative numerical languages; speed, availability, and\nmaintainability played central roles in the selection of Python as the\nimplementation language. The availability of the multiprocessing module\nallowed for full utilization of modern multi-core CPUs, in contrast with\noften limited commercial numerical computing packages, further improving\ncomputational speed.\n\nSome difficulties were encountered during this design exercise.\nDiscussion of these obstacles and their eventual solution is presented.\nSpecifically, iterative solvers for the discrete algebraic Riccati\nequation and the discrete Lyapunov equation had to be authored in Python\n(3,4). Additional framework for working with discrete state-space\ncontrol systems was created, exploiting the object-oriented features of\nthe language (5).\n\nThe Python implementation was able to verify the solution of the\noptimization problem. Comparison with an alternative, reference MATLAB\nimplementation will be presented briefly. The results of this research\nis planned to be presented at the American Society for Mechanical\nEngineers Turbo Expo 2011 Conference in June, 2011 (6). The algorithm\ndesign in Python is meant to showcase the ability to perform controls\nengineering tasks in the Python language efficiently.\n\n1. \u201cKalman Filter,\u201d Wikipedia:\n   `http://en.wikipedia.org/wiki/Kalman\\_filter <ht%20tp://en.wikipedia.org/wiki/Kalman_filter>`__\n\n2. Simon, D. L. and Garg, S., \u201cOptimal Tuner Selection for Kalman\n   Filter-Based Aircraft Engine Performance Estimation\u201d. Journal of\n   Engineering for Gas Turbines and Power. March 2010, Vol. 132.\n\n3. \u201cAlgebraic Riccati Equation,\u201d Wikipedia:\n   `http://en.wikipedia.org/wiki/Alge\n   braic\\_Riccati\\_equation <http://en.wikipedia.org/wiki/Algebraic_Riccati_equatio%20n>`__\n\n4. \u201cLyapunov Equation,\u201d Wikipedia:\n   `http://en.wikipedia.org/wiki/Lyapunov\\_equa\n   tion <http://en.wikipedia.org/wiki/Lyapunov_equation>`__\n\n5. \u201cState Space,\u201d Wikipedia: `http://en.wikipedia.org/wiki/State-\n   space <http://en.wikipedia.org/wiki/State-space>`__\n\n6. Simon, D. L., Armstrong, J. B., \"Application of an Optimal Tuner\n   Selection Approach for On-Board Self-Tuning Engine Models,\"\n   Proceedings of the ASME Turbo Expo 2011, GT2011-46408, 2011 (To Be\n   Published).\n\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011OptimalAircraftEngineTunerSelectionInPython133-714.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/380_optimal-aircraft-engine-tuner-selection-in-python.mp4", 
-      "length": null, 
-      "type": "mp4"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/380_optimal-aircraft-engine-tuner-selection-in-python.mp4",
+      "type": "mp4",
+      "length": null
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "aircraftenginetuning", 
-    "casestudy", 
-    "pycon", 
-    "pycon2011", 
+    "aircraftenginetuning",
+    "casestudy",
+    "pycon",
+    "pycon2011",
     "scipy"
-  ], 
+  ],
   "speakers": [
     "Jeffrey Armstrong"
-  ], 
+  ],
   "recorded": "2011-03-11"
 }
