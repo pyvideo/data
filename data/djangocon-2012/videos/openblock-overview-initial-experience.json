@@ -1,30 +1,30 @@
 {
-  "id": 1401, 
-  "category": "DjangoCon 2012", 
-  "slug": "openblock-overview-initial-experience", 
-  "title": "OpenBlock: Overview & Initial Experience", 
-  "summary": "OpenBlock is an open-source project aiming to provide a framework for \"hyper-\nlocal\" civic data. We've been using OpenBlock in a project focused on\nincreasing access to public records in rural North Carolina communities. In\nthis talk we provide an overview of OpenBlock and how to get started using it,\nwe describe our experience using it, and discuss some extensions we have made\nto it.\n\n", 
-  "description": "# Abstract\n\nWhat do you do if EveryBlock isn't available in your city? OpenBlock, released\nto the community from the Knight-funded project, EveryBlock.com, is a\nneighborhood news project aiming to provide a framework for \"hyper-local\"\ncivic data. Over the past few years, the open source project has been\nmaintained by the non-profit OpenPlans. Their goal was to simplify and\naccelerate adoption of OpenBlock by making it easier to use. Today, Caktus is\nworking with Ryan Thornburg of the UNC School of Journalism and Mass\nCommunication to bring OpenBlock to rural North Carolina newspapers. Open\nRural aims to leverage OpenBlock to increase access to public records in small\ncommunities. This talk focuses on our experience with OpenBlock as we work to\ndeploy OpenRural in North Carolina.\n\n# Outline\n\n## Introduction\n\n  * What is OpenBlock?\n  * How does it relate to/compare to EveryBock?\n  * When/why might you want to incorporate OpenBlock into a site?\n  * What have we (Caktus) be doing with OpenBlock?\n\n## Geocoding\n\n  * Geocoding is a hard problem to solve\n  * String parsing\n  * Places and locations\n  * Street/block data\n  * 3rd-party geocoder comparison\n\n## Getting Started: Choosing Source for Street/Block Data\n\n  * Pros and Cons of Census (Tiger) Data\n  * Pros and Cons of Other Data Sources\n  * Differences with county data and OpenBlocks preference for cities\n  * Our Experience with Columbus County, NC\n\n## Scrapers\n\n  * What are they?\n  * How do you write them?\n  * Our Experience with Some Scrapers for Columbus County, NC\n  * How we improve data accessibility with ScraperWiki\n\n## The Missing Piece: Data Review and Analysis\n\n  * OpenBlock handles scraping and public viewing, but is missing review and analysis\n  * How successful was the geocoder?\n  * How many news items were added this past week?\n  * Why is my scraper failing to run?\n  * Why did this address fail to geocode? How can I correct it?\n  * Data Dashboard\n\n## Adding OpenBlock to an Existing Site\n\n  * Out-of-the-box views/templates\n  * Our experience integrating with local online newspapers\n  * Our OpenRural deployment setup\n\n## Conclusion\n\n  * State of the OpenBlock community\n  * Our plans in North Carolina\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution license (reuse allowed", 
-  "thumbnail_url": "http://i.ytimg.com/vi/nwr_G6Nln3s/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1401,
+  "category": "DjangoCon 2012",
+  "slug": "openblock-overview-initial-experience",
+  "title": "OpenBlock: Overview & Initial Experience",
+  "summary": "OpenBlock is an open-source project aiming to provide a framework for\n\"hyper- local\" civic data. We've been using OpenBlock in a project\nfocused on increasing access to public records in rural North Carolina\ncommunities. In this talk we provide an overview of OpenBlock and how to\nget started using it, we describe our experience using it, and discuss\nsome extensions we have made to it.\n",
+  "description": "Abstract\n========\n\nWhat do you do if EveryBlock isn't available in your city? OpenBlock,\nreleased to the community from the Knight-funded project,\nEveryBlock.com, is a neighborhood news project aiming to provide a\nframework for \"hyper-local\" civic data. Over the past few years, the\nopen source project has been maintained by the non-profit OpenPlans.\nTheir goal was to simplify and accelerate adoption of OpenBlock by\nmaking it easier to use. Today, Caktus is working with Ryan Thornburg of\nthe UNC School of Journalism and Mass Communication to bring OpenBlock\nto rural North Carolina newspapers. Open Rural aims to leverage\nOpenBlock to increase access to public records in small communities.\nThis talk focuses on our experience with OpenBlock as we work to deploy\nOpenRural in North Carolina.\n\nOutline\n=======\n\nIntroduction\n------------\n\n-  What is OpenBlock?\n-  How does it relate to/compare to EveryBock?\n-  When/why might you want to incorporate OpenBlock into a site?\n-  What have we (Caktus) be doing with OpenBlock?\n\nGeocoding\n---------\n\n-  Geocoding is a hard problem to solve\n-  String parsing\n-  Places and locations\n-  Street/block data\n-  3rd-party geocoder comparison\n\nGetting Started: Choosing Source for Street/Block Data\n------------------------------------------------------\n\n-  Pros and Cons of Census (Tiger) Data\n-  Pros and Cons of Other Data Sources\n-  Differences with county data and OpenBlocks preference for cities\n-  Our Experience with Columbus County, NC\n\nScrapers\n--------\n\n-  What are they?\n-  How do you write them?\n-  Our Experience with Some Scrapers for Columbus County, NC\n-  How we improve data accessibility with ScraperWiki\n\nThe Missing Piece: Data Review and Analysis\n-------------------------------------------\n\n-  OpenBlock handles scraping and public viewing, but is missing review\n   and analysis\n-  How successful was the geocoder?\n-  How many news items were added this past week?\n-  Why is my scraper failing to run?\n-  Why did this address fail to geocode? How can I correct it?\n-  Data Dashboard\n\nAdding OpenBlock to an Existing Site\n------------------------------------\n\n-  Out-of-the-box views/templates\n-  Our experience integrating with local online newspapers\n-  Our OpenRural deployment setup\n\nConclusion\n----------\n\n-  State of the OpenBlock community\n-  Our plans in North Carolina\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution license (reuse allowed",
+  "thumbnail_url": "http://i.ytimg.com/vi/nwr_G6Nln3s/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=nwr_G6Nln3s", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=nwr_G6Nln3s",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=nwr_G6Nln3s", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=nwr_G6Nln3s",
   "tags": [
-    "django", 
+    "django",
     "openblock"
-  ], 
+  ],
   "speakers": [
-    "Colin Copeland", 
+    "Colin Copeland",
     "Karen Tracey"
-  ], 
+  ],
   "recorded": "2012-09-04"
 }

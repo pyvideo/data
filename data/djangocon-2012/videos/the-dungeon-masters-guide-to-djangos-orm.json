@@ -1,29 +1,29 @@
 {
-  "id": 1380, 
-  "category": "DjangoCon 2012", 
-  "slug": "the-dungeon-masters-guide-to-djangos-orm", 
-  "title": "The Dungeon Master's guide to Django's ORM", 
-  "summary": "If you've ever been curious about Django's ORM implementation, you will have\nnoticed the required learning curve. Some of the code is fairly complicated.\nOther bits are worse. Here comes a 30 or 40 minute guided tour of the\nuncharted realms: how the pieces fit together, where to look for things, why\nthe current design is what it is. A portion of this is my fault; I should\nprobably explain myself.\n\n", 
-  "description": "Django's database layer is a necessarily complicated piece of code. It is a\nvery powerful API that works more or less seamlessly across multiple database\nstorage systems, smoothing over many of the inconsistencies and implementation\ndifferences that go with the territory. This is great for developers who use\nDjango.\n\nIt's a little less awesome for the maintainers of that code; working in that\nenvironment is fairly difficult. Still, we all like a challenge. Problem is:\nwhere to start? Coming to grips with the ORM code isn't easy. The code is well\nwritten and documented, but the entry points are particularly well highlighted\nand, really, the sheer mass of code is an obstacle to be overcome.\n\nThis talk will look at the various layers of the ORM, from the public\ngateways, to the semi-public doors into the implementation, to the deeper\ninternals and down to the interaction with databases. In effect, following the\njourney of a couple of adventurous young queries as they traverse the pathways\nto bring back some data, smelted into just the right format.\n\nThe goal is to provide some kind of mental map of the code. Some tips for\norienting yourself in the future and how to examine new nooks and corners\nwithout losing your mind. We obviously cannot cover everything, but let's go\nover the common paths and show how the other pieces hang off that backbone.\n\nAlong the way, we'll put some of the details into historical perspective.\nGetting inside the mind of previous adventurers might help understand why\nthings are the way they are.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution license (reuse allowed", 
-  "thumbnail_url": "http://i.ytimg.com/vi/bgV39DlmZ2U/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1380,
+  "category": "DjangoCon 2012",
+  "slug": "the-dungeon-masters-guide-to-djangos-orm",
+  "title": "The Dungeon Master's guide to Django's ORM",
+  "summary": "If you've ever been curious about Django's ORM implementation, you will\nhave noticed the required learning curve. Some of the code is fairly\ncomplicated. Other bits are worse. Here comes a 30 or 40 minute guided\ntour of the uncharted realms: how the pieces fit together, where to look\nfor things, why the current design is what it is. A portion of this is\nmy fault; I should probably explain myself.\n",
+  "description": "Django's database layer is a necessarily complicated piece of code. It\nis a very powerful API that works more or less seamlessly across\nmultiple database storage systems, smoothing over many of the\ninconsistencies and implementation differences that go with the\nterritory. This is great for developers who use Django.\n\nIt's a little less awesome for the maintainers of that code; working in\nthat environment is fairly difficult. Still, we all like a challenge.\nProblem is: where to start? Coming to grips with the ORM code isn't\neasy. The code is well written and documented, but the entry points are\nparticularly well highlighted and, really, the sheer mass of code is an\nobstacle to be overcome.\n\nThis talk will look at the various layers of the ORM, from the public\ngateways, to the semi-public doors into the implementation, to the\ndeeper internals and down to the interaction with databases. In effect,\nfollowing the journey of a couple of adventurous young queries as they\ntraverse the pathways to bring back some data, smelted into just the\nright format.\n\nThe goal is to provide some kind of mental map of the code. Some tips\nfor orienting yourself in the future and how to examine new nooks and\ncorners without losing your mind. We obviously cannot cover everything,\nbut let's go over the common paths and show how the other pieces hang\noff that backbone.\n\nAlong the way, we'll put some of the details into historical\nperspective. Getting inside the mind of previous adventurers might help\nunderstand why things are the way they are.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution license (reuse allowed",
+  "thumbnail_url": "http://i.ytimg.com/vi/bgV39DlmZ2U/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=bgV39DlmZ2U", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=bgV39DlmZ2U",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=bgV39DlmZ2U", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=bgV39DlmZ2U",
   "tags": [
-    "django", 
+    "django",
     "django-orm"
-  ], 
+  ],
   "speakers": [
     "Malcolm Tredinnick"
-  ], 
+  ],
   "recorded": "2012-09-05"
 }
