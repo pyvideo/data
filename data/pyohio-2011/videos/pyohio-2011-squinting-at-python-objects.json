@@ -1,34 +1,34 @@
 {
-  "id": 524, 
-  "category": "PyOhio 2011", 
-  "slug": "pyohio-2011-squinting-at-python-objects", 
-  "title": "PyOhio 2011: Squinting at Python Objects", 
-  "summary": "", 
-  "description": "Squinting at Python Objects\n\nPresented by Brandon Craig Rhodes\n\nPython classes can gain attributes as if by magic. Thanks to properties,\ndescriptors, and (if all else fails) __getattr__() and __getattribute__(), the\nattempt to access obj.something can result in arbitrary code execution. If you\nare wondering how your Python program is using memory, this can result in a\nproblem: each time you look to see if something is there, it **is**, because\nit is pulled in dynamically the moment you look for it. In this talk, you will\nlearn how to prod Python objects gently, and hopefully learn their secrets -\nand their memory usage - without actually invoking code.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Creative Commons Attribution 2.0", 
-  "thumbnail_url": "http://a.images.blip.tv/Pyohio-SquintingAtPythonObjects698.png", 
-  "duration": null, 
+  "id": 524,
+  "category": "PyOhio 2011",
+  "slug": "pyohio-2011-squinting-at-python-objects",
+  "title": "PyOhio 2011: Squinting at Python Objects",
+  "summary": "",
+  "description": "Squinting at Python Objects\n\nPresented by Brandon Craig Rhodes\n\nPython classes can gain attributes as if by magic. Thanks to properties,\ndescriptors, and (if all else fails) **getattr**\\ () and\n**getattribute**\\ (), the attempt to access obj.something can result in\narbitrary code execution. If you are wondering how your Python program\nis using memory, this can result in a problem: each time you look to see\nif something is there, it **is**, because it is pulled in dynamically\nthe moment you look for it. In this talk, you will learn how to prod\nPython objects gently, and hopefully learn their secrets - and their\nmemory usage - without actually invoking code.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Creative Commons Attribution 2.0",
+  "thumbnail_url": "http://a.images.blip.tv/Pyohio-SquintingAtPythonObjects698.png",
+  "duration": null,
   "videos": [
     {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pyohio-2011/524_pyohio-2011-squinting-at-python-objects.m4v", 
-      "length": null, 
-      "type": "mp4"
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pyohio-2011/524_pyohio-2011-squinting-at-python-objects.m4v",
+      "type": "mp4",
+      "length": null
     }
-  ], 
-  "source_url": "", 
+  ],
+  "source_url": "",
   "tags": [
-    "descriptors", 
-    "getattr", 
-    "getattribute", 
-    "optimizing", 
-    "properties", 
-    "pyohio", 
+    "descriptors",
+    "getattr",
+    "getattribute",
+    "optimizing",
+    "properties",
+    "pyohio",
     "pyohio2011"
-  ], 
+  ],
   "speakers": [
     "Brandon Rhodes"
-  ], 
+  ],
   "recorded": null
 }
