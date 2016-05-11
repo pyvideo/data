@@ -1,28 +1,28 @@
 {
-  "id": 3229, 
-  "category": "Kiwi PyCon 2014", 
-  "slug": "the-full-monty-ci-on-openstack", 
-  "title": "The Full Monty - CI on OpenStack", 
-  "summary": "", 
-  "description": "= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\nDanny Adair:\r\nThe Full Monty - CI on OpenStack\r\n= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \r\n@ Kiwi PyCon 2014 - Saturday, 13 Sep 2014 - Track 1 \r\nhttp://kiwi.pycon.org/\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Description**\r\n\r\nAre you continuously \"integrating\", or just running some unit tests inside a virtualenv?\r\n\r\nLet's go the Full Monty with OpenStack!\r\n\r\nProtagonists, in order of appearance: Gerrit, Jenkins, OpenStack, Puppet, Odoo (formerly OpenERP). Enjoy the ride!\r\n\r\n**Abstract**\r\n\r\nI'll show how we configured our CI tools to automatically build and destroy entire servers on OpenStack. We'll have Gerrit for code review, Jenkins for coordinating and monitoring the build process, OpenStack and its tools to build servers on their own subnet, Puppet for configuring said servers. The example project is an installation of Odoo (formely OpenERP) with a web server and PostgreSQL database.\r\n\r\nAt Catalyst, my team works with Odoo (formerly known as OpenERP), a modular Open Source suite of business applications. It has a very large and complex codebase and \"Regression\" is its middle name. It is under very active development on github, and customisations are generally brought in via plugins that override or extend default functionality. Basically, reasonable work on this requires continuous integration, it's not a luxury.\r\n\r\nWe could have a fat build server with multiple virtualenvs and multiple databases on the same PostgreSQL server, and just run some Python tests and be done with it. We could improve that with something like LXC, Vagrant etc. all happening on said build server. But why stop there - why not go all the way and create a more realistic setup? After all, another team is able to provide us with OpenStack. Let's go the Full Monty!\r\n\r\nLet's go hog wild and create and destroy entire servers just for the purpose of testing. Let's have separate application and database servers, just like in production.\r\n\r\nLet's also keep some servers alive for other purposes, e.g., user acceptance testing. Just sit in an IRC channel and after changes are committed for review, wait for a bot to post the URL of the newly built web server to click on. A nicely readable URL on a separate subdomain that is, of course!\r\n\r\nAs a bonus, I'll show how active upstream development on github fits into all this, and how your Ubuntu \"Precise Pangolin\" server can easily rehearse an upgrade to \"Trusty Tahr\".\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/danny-adair-the-full-monty-ci-on-openstack", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC", 
-  "thumbnail_url": "http://i.ytimg.com/vi/265Sqo7cgbM/hqdefault.jpg", 
-  "duration": 1800, 
+  "id": 3229,
+  "category": "Kiwi PyCon 2014",
+  "slug": "the-full-monty-ci-on-openstack",
+  "title": "The Full Monty - CI on OpenStack",
+  "summary": "",
+  "description": "= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = Danny\nAdair: The Full Monty - CI on OpenStack = = = = = = = = = = = = = = = =\n= = = = = = = = = = = = = = = = = @ Kiwi PyCon 2014 - Saturday, 13 Sep\n2014 - Track 1 http://kiwi.pycon.org/\n\n**Audience level**\n\nIntermediate\n\n**Description**\n\nAre you continuously \"integrating\", or just running some unit tests\ninside a virtualenv?\n\nLet's go the Full Monty with OpenStack!\n\nProtagonists, in order of appearance: Gerrit, Jenkins, OpenStack,\nPuppet, Odoo (formerly OpenERP). Enjoy the ride!\n\n**Abstract**\n\nI'll show how we configured our CI tools to automatically build and\ndestroy entire servers on OpenStack. We'll have Gerrit for code review,\nJenkins for coordinating and monitoring the build process, OpenStack and\nits tools to build servers on their own subnet, Puppet for configuring\nsaid servers. The example project is an installation of Odoo (formely\nOpenERP) with a web server and PostgreSQL database.\n\nAt Catalyst, my team works with Odoo (formerly known as OpenERP), a\nmodular Open Source suite of business applications. It has a very large\nand complex codebase and \"Regression\" is its middle name. It is under\nvery active development on github, and customisations are generally\nbrought in via plugins that override or extend default functionality.\nBasically, reasonable work on this requires continuous integration, it's\nnot a luxury.\n\nWe could have a fat build server with multiple virtualenvs and multiple\ndatabases on the same PostgreSQL server, and just run some Python tests\nand be done with it. We could improve that with something like LXC,\nVagrant etc. all happening on said build server. But why stop there -\nwhy not go all the way and create a more realistic setup? After all,\nanother team is able to provide us with OpenStack. Let's go the Full\nMonty!\n\nLet's go hog wild and create and destroy entire servers just for the\npurpose of testing. Let's have separate application and database\nservers, just like in production.\n\nLet's also keep some servers alive for other purposes, e.g., user\nacceptance testing. Just sit in an IRC channel and after changes are\ncommitted for review, wait for a bot to post the URL of the newly built\nweb server to click on. A nicely readable URL on a separate subdomain\nthat is, of course!\n\nAs a bonus, I'll show how active upstream development on github fits\ninto all this, and how your Ubuntu \"Precise Pangolin\" server can easily\nrehearse an upgrade to \"Trusty Tahr\".\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/danny-adair-the-full-monty-ci-on-openstack\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC",
+  "thumbnail_url": "http://i.ytimg.com/vi/265Sqo7cgbM/hqdefault.jpg",
+  "duration": 1800,
   "videos": [
     {
-      "url": "http://youtu.be/265Sqo7cgbM", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://youtu.be/265Sqo7cgbM",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://youtu.be/265Sqo7cgbM", 
+  ],
+  "source_url": "http://youtu.be/265Sqo7cgbM",
   "tags": [
     "talk"
-  ], 
+  ],
   "speakers": [
     "Danny Adair"
-  ], 
+  ],
   "recorded": "2014-09-13"
 }
