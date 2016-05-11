@@ -1,26 +1,26 @@
 {
-  "id": 2439, 
-  "category": "Kiwi PyCon 2013", 
-  "slug": "fake-it-till-you-make-it", 
-  "title": "Fake it till you make it", 
-  "summary": "A practical introduction to unit testing decoupled, service-oriented, Python applications using with Mock library. A three-tiered (server, client, and view) Flask web application is used as a motivating example across the talk. Mock helps to isolate functionality specific to a layer to facilitate fast, compact, unit testing while avoiding writing specific mock classes or using fixtures.", 
-  "description": "@ Kiwi PyCon 2013 - Saturday, 07 Sep 2013 - Track 1\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Abstract**\r\n\r\nIn practise most of us have found testing to be much harder to achieve in the \"real world\". That is often because the application architecture is modular with some level of service abstraction, and the ensuing layers of code.\r\n\r\nThe premise of this talk is: do not test someone else's code. They are a good developer. They would have tested it so it must work.\r\n\r\nTaking this perspective allows us to develop fast and compact unit tests for our application functionality while ignoring bigger picture integration issues (these can be addresses using other types of tests!). In our experience this unburdens developers so they can really practice test-driven development much more diligently.\r\n\r\nImplementation of this approach is simplified thanks to the mock library. Mock provides a core MagicMock class that obviates the need for custom stubs throughout the code. Moreover, its supports patching specific methods, properties, and more. Mocking is used to patch calls to external code within our unit tests, since we don't need to test them, in a non-non-invasive way to our application.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/ravi-chandra-fake-it-till-you-make-it", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/HbJZu2qcC-s/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2439,
+  "category": "Kiwi PyCon 2013",
+  "slug": "fake-it-till-you-make-it",
+  "title": "Fake it till you make it",
+  "summary": "A practical introduction to unit testing decoupled, service-oriented,\nPython applications using with Mock library. A three-tiered (server,\nclient, and view) Flask web application is used as a motivating example\nacross the talk. Mock helps to isolate functionality specific to a layer\nto facilitate fast, compact, unit testing while avoiding writing\nspecific mock classes or using fixtures.\n",
+  "description": "@ Kiwi PyCon 2013 - Saturday, 07 Sep 2013 - Track 1\n\n**Audience level**\n\nIntermediate\n\n**Abstract**\n\nIn practise most of us have found testing to be much harder to achieve\nin the \"real world\". That is often because the application architecture\nis modular with some level of service abstraction, and the ensuing\nlayers of code.\n\nThe premise of this talk is: do not test someone else's code. They are a\ngood developer. They would have tested it so it must work.\n\nTaking this perspective allows us to develop fast and compact unit tests\nfor our application functionality while ignoring bigger picture\nintegration issues (these can be addresses using other types of tests!).\nIn our experience this unburdens developers so they can really practice\ntest-driven development much more diligently.\n\nImplementation of this approach is simplified thanks to the mock\nlibrary. Mock provides a core MagicMock class that obviates the need for\ncustom stubs throughout the code. Moreover, its supports patching\nspecific methods, properties, and more. Mocking is used to patch calls\nto external code within our unit tests, since we don't need to test\nthem, in a non-non-invasive way to our application.\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/ravi-chandra-fake-it-till-you-make-it\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "http://i1.ytimg.com/vi/HbJZu2qcC-s/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=HbJZu2qcC-s", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=HbJZu2qcC-s",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=HbJZu2qcC-s", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=HbJZu2qcC-s",
+  "tags": [],
   "speakers": [
     "Ravi Chandra"
-  ], 
+  ],
   "recorded": "2013-09-14"
 }

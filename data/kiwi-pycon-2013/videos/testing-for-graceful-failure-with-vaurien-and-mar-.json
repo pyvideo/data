@@ -1,26 +1,26 @@
 {
-  "id": 2378, 
-  "category": "Kiwi PyCon 2013", 
-  "slug": "testing-for-graceful-failure-with-vaurien-and-mar-", 
-  "title": "Testing for Graceful Failure with Vaurien and Marteau", 
-  "summary": "This talk shows how the Mozilla Services team test failure scenarios in their web services with two python-based tools: Marteau, a web-based UI for easily running load tests, and Vaurien, a misbehaving TCP proxy that can simulate various backend failures. Used together, these tools help ensure a service will not only scale up to meet demand, but will fail gracefully if it reaches breaking point.\r\n", 
-  "description": "@ Kiwi PyCon 2013 - Sunday, 08 Sep 2013 - Track 2\r\n\r\n**Audience level**\r\n\r\nIntermediate\r\n\r\n**Abstract**\r\n\r\nSo you've built an awesome webapp, put it through its paces, and assured yourself that it does what it's supposed to do. Great! Now how does it behave when things start to go wrong?\r\n\r\nThis talk will demonstrate how the Mozilla Services team tests for failure scenarios in our web services, focusing on two key python-based tools: Marteau, a web-based frontend for easily running load-tests and analyzing the results, and Vaurien, a misbehaving TCP proxy that can simulate a variety of backend failure modes.\r\n\r\nUsed together, these tools can help ensure that a web service will not only scale up to meet its expected demand, but will fail gracefully when it finally reaches breaking point.\r\n\r\nThe talk will cover:\r\n\r\n * Real-life examples of bugs that only show up when your app is under load; bugs that can turn a brief partial outage into a cascading whole-system failure.\r\n * The basics of writing a load-testing suite for your app.\r\n * How to set up Marteau for easy on-demand load testing.\r\n * How to use Vaurien to simulate various kinds of backend failure, such as an overloaded database, misconfigured DNS, or a suddenly-disappearing job queue.\r\n * Some tips for systematically applying these tools to your own setup.\r\n\r\n**Slides**\r\n\r\nhttps://speakerdeck.com/nzpug/ryan-kelly-testing-for-graceful-failure-with-vaurien-and-marteau", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/WSdyU5s-SMI/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2378,
+  "category": "Kiwi PyCon 2013",
+  "slug": "testing-for-graceful-failure-with-vaurien-and-mar-",
+  "title": "Testing for Graceful Failure with Vaurien and Marteau",
+  "summary": "This talk shows how the Mozilla Services team test failure scenarios in\ntheir web services with two python-based tools: Marteau, a web-based UI\nfor easily running load tests, and Vaurien, a misbehaving TCP proxy that\ncan simulate various backend failures. Used together, these tools help\nensure a service will not only scale up to meet demand, but will fail\ngracefully if it reaches breaking point.\n",
+  "description": "@ Kiwi PyCon 2013 - Sunday, 08 Sep 2013 - Track 2\n\n**Audience level**\n\nIntermediate\n\n**Abstract**\n\nSo you've built an awesome webapp, put it through its paces, and assured\nyourself that it does what it's supposed to do. Great! Now how does it\nbehave when things start to go wrong?\n\nThis talk will demonstrate how the Mozilla Services team tests for\nfailure scenarios in our web services, focusing on two key python-based\ntools: Marteau, a web-based frontend for easily running load-tests and\nanalyzing the results, and Vaurien, a misbehaving TCP proxy that can\nsimulate a variety of backend failure modes.\n\nUsed together, these tools can help ensure that a web service will not\nonly scale up to meet its expected demand, but will fail gracefully when\nit finally reaches breaking point.\n\nThe talk will cover:\n\n-  Real-life examples of bugs that only show up when your app is under\n   load; bugs that can turn a brief partial outage into a cascading\n   whole-system failure.\n-  The basics of writing a load-testing suite for your app.\n-  How to set up Marteau for easy on-demand load testing.\n-  How to use Vaurien to simulate various kinds of backend failure, such\n   as an overloaded database, misconfigured DNS, or a\n   suddenly-disappearing job queue.\n-  Some tips for systematically applying these tools to your own setup.\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/ryan-kelly-testing-for-graceful-failure-with-vaurien-and-marteau\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "http://i1.ytimg.com/vi/WSdyU5s-SMI/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=WSdyU5s-SMI", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=WSdyU5s-SMI",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=WSdyU5s-SMI", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=WSdyU5s-SMI",
+  "tags": [],
   "speakers": [
     "Ryan Kelly"
-  ], 
+  ],
   "recorded": "2013-09-12"
 }
