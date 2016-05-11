@@ -1,26 +1,26 @@
 {
-  "id": 3864, 
-  "category": "Kiwi PyCon 2015", 
-  "slug": "my-own-platform-as-a-service-in-python-which-you", 
-  "title": "My own Platform as a Service in Python, which you can do too", 
-  "summary": "", 
-  "description": "Over the last couple of years I have evolved my own Platform as a Service (PaaS) for hosting Django apps, and you can run it too.\r\n\r\nI use Nginx, Circus, Chaussette, and Django, with some support from Django-environ and deployment automation using Fabric. All of that except Nginx are written in Python. Systemd is a new init process coming.\r\n\r\n* Circus is a process and socket manager, and gives a nice way to scale processes. \r\n* Chaussette WSGI server works well with Circus, as Circus can pass the socket to it.\r\n* Django-environ it's a library that parses environment variables or files with key-value pairs. Environment variables are used on some PaaS, but the file support I find very useful.\r\n* Fabric is a framework for writing system commands to be run on remote hosts, and is great for automating system administration.\r\n* Systemd is a new \"init\" process for Linux and offers some interesting possibilities for hosting Python webapps.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC BY-SA", 
-  "thumbnail_url": "https://i.ytimg.com/vi/AxTeVemFBkQ/hqdefault.jpg", 
-  "duration": 1774, 
+  "id": 3864,
+  "category": "Kiwi PyCon 2015",
+  "slug": "my-own-platform-as-a-service-in-python-which-you",
+  "title": "My own Platform as a Service in Python, which you can do too",
+  "summary": "",
+  "description": "Over the last couple of years I have evolved my own Platform as a\nService (PaaS) for hosting Django apps, and you can run it too.\n\nI use Nginx, Circus, Chaussette, and Django, with some support from\nDjango-environ and deployment automation using Fabric. All of that\nexcept Nginx are written in Python. Systemd is a new init process\ncoming.\n\n-  Circus is a process and socket manager, and gives a nice way to scale\n   processes.\n-  Chaussette WSGI server works well with Circus, as Circus can pass the\n   socket to it.\n-  Django-environ it's a library that parses environment variables or\n   files with key-value pairs. Environment variables are used on some\n   PaaS, but the file support I find very useful.\n-  Fabric is a framework for writing system commands to be run on remote\n   hosts, and is great for automating system administration.\n-  Systemd is a new \"init\" process for Linux and offers some interesting\n   possibilities for hosting Python webapps.\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC BY-SA",
+  "thumbnail_url": "https://i.ytimg.com/vi/AxTeVemFBkQ/hqdefault.jpg",
+  "duration": 1774,
   "videos": [
     {
-      "url": "http://youtu.be/AxTeVemFBkQ", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://youtu.be/AxTeVemFBkQ",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://youtu.be/AxTeVemFBkQ", 
-  "tags": [], 
+  ],
+  "source_url": "http://youtu.be/AxTeVemFBkQ",
+  "tags": [],
   "speakers": [
     "Lee Begg"
-  ], 
+  ],
   "recorded": "2015-09-05"
 }
