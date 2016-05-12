@@ -1,31 +1,31 @@
 {
-  "id": 3098, 
-  "category": "PyCon AU 2014", 
-  "slug": "how-do-debug-tool-bars-for-web-applications-work", 
-  "title": "How do debug tool bars for web applications work? by Graham Dumpleton", 
-  "summary": "", 
-  "description": "When your production web application breaks, working out what went wrong can be hard. Information from log messages and details of any Python exceptions which occurred, along with other application performance data can help to identify the issue, but not always. Often you will need to fall back to a development or test environment and hope you can replicate the problem and then debug the issue from there.\r\n\r\nThe purpose of this talk is to dive in and look at one class of tools that can be used in helping debug web applications. Specifically, it will look at web application tools such as the Django debug tool bar.\r\n\r\nRather than simply look at how you might use such a tool though, this talk will look at how these debug tool bars are actually implemented, how they hook into your web application, how they capture the information that they do, as well as how they can be extended to add new functionality.\r\n\r\nThe limitations on these tools as far as performance overhead, security of data etc, which nearly aways lead to them only being recommended for development environments, will also be discussed.\r\n\r\nAt the same time though, this notion that they are only suitable for development environments will also be challenged by looking at how a tool such as the New Relic Python agent, which implements application performance monitoring, overcomes such limitations to provide a production grade solution.\r\n\r\nAre there lessons to be learnt from how the New Relic Python agent works which could drive improvements to existing web application debug tool bars? Could the New Relic Python agent itself be used as a base for a new generation of debug tool bars which combine an ability to debug a web application, even in a production environment, with the ability to monitor the performance of the web application over time?", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i.ytimg.com/vi/Yk5EE0Us0DE/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3098,
+  "category": "PyCon AU 2014",
+  "slug": "how-do-debug-tool-bars-for-web-applications-work",
+  "title": "How do debug tool bars for web applications work? by Graham Dumpleton",
+  "summary": "",
+  "description": "When your production web application breaks, working out what went wrong\ncan be hard. Information from log messages and details of any Python\nexceptions which occurred, along with other application performance data\ncan help to identify the issue, but not always. Often you will need to\nfall back to a development or test environment and hope you can\nreplicate the problem and then debug the issue from there.\n\nThe purpose of this talk is to dive in and look at one class of tools\nthat can be used in helping debug web applications. Specifically, it\nwill look at web application tools such as the Django debug tool bar.\n\nRather than simply look at how you might use such a tool though, this\ntalk will look at how these debug tool bars are actually implemented,\nhow they hook into your web application, how they capture the\ninformation that they do, as well as how they can be extended to add new\nfunctionality.\n\nThe limitations on these tools as far as performance overhead, security\nof data etc, which nearly aways lead to them only being recommended for\ndevelopment environments, will also be discussed.\n\nAt the same time though, this notion that they are only suitable for\ndevelopment environments will also be challenged by looking at how a\ntool such as the New Relic Python agent, which implements application\nperformance monitoring, overcomes such limitations to provide a\nproduction grade solution.\n\nAre there lessons to be learnt from how the New Relic Python agent works\nwhich could drive improvements to existing web application debug tool\nbars? Could the New Relic Python agent itself be used as a base for a\nnew generation of debug tool bars which combine an ability to debug a\nweb application, even in a production environment, with the ability to\nmonitor the performance of the web application over time?\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i.ytimg.com/vi/Yk5EE0Us0DE/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/51-out.ogv", 
-      "length": null, 
-      "type": "ogv"
-    }, 
+      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/51-out.ogv",
+      "type": "ogv",
+      "length": null
+    },
     {
-      "url": "http://www.youtube.com/watch?v=Yk5EE0Us0DE", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=Yk5EE0Us0DE",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=Yk5EE0Us0DE", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=Yk5EE0Us0DE",
+  "tags": [],
   "speakers": [
     "Graham Dumpleton"
-  ], 
+  ],
   "recorded": "2014-08-11"
 }

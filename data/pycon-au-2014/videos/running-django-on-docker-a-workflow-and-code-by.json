@@ -1,32 +1,32 @@
 {
-  "id": 3136, 
-  "category": "PyCon AU 2014", 
-  "slug": "running-django-on-docker-a-workflow-and-code-by", 
-  "title": "Running Django on Docker: a workflow and code", 
-  "summary": "", 
-  "description": "Docker (http://docker.io) is the hot-new-thing out there for running your application in development and in production. Here at Infoxchange, we are extremely excited about how Docker allows a build-once, run-anywhere approach to moving applications from testing through to production. We are one of the first organisations to be using Docker in production on high-SLA applications.\r\n\r\nIn this talk we will present:\r\n\r\n- a quick intro to Docker and how it solves our problems at Infoxchange;\r\n- our interface for hosting applications on Docker (\"pallet\");\r\n- how to build and develop a Python app on Docker;\r\n- Infoxchange's Django settings module for the pallet interface;\r\n- Forklift (https://github.com/infoxchange/docker-forklift), a tool we've developed for running and developing apps that use the pallet interface, in and out of a Docker container; and\r\n- Extending forklift for your services.\r\n\r\nIf time permits we will try and cover the additional bonus topics:\r\n\r\n- How to host your legacy mod_python application on Apache inside Docker with minimal changes; and\r\n- Using Forklift to do automated full-stack integration testing of apps by spinning up containers of other apps (which we do in a container that is testing the built app that is running in a container that is our CI server... inception is possible).\r\n\r\nThe talk will be presented by Danielle Madeley and Alexey Kotlyarov.", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/SgL8r--p97s/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3136,
+  "category": "PyCon AU 2014",
+  "slug": "running-django-on-docker-a-workflow-and-code-by",
+  "title": "Running Django on Docker: a workflow and code",
+  "summary": "",
+  "description": "Docker (http://docker.io) is the hot-new-thing out there for running\nyour application in development and in production. Here at Infoxchange,\nwe are extremely excited about how Docker allows a build-once,\nrun-anywhere approach to moving applications from testing through to\nproduction. We are one of the first organisations to be using Docker in\nproduction on high-SLA applications.\n\nIn this talk we will present:\n\n-  a quick intro to Docker and how it solves our problems at\n   Infoxchange;\n-  our interface for hosting applications on Docker (\"pallet\");\n-  how to build and develop a Python app on Docker;\n-  Infoxchange's Django settings module for the pallet interface;\n-  Forklift (https://github.com/infoxchange/docker-forklift), a tool\n   we've developed for running and developing apps that use the pallet\n   interface, in and out of a Docker container; and\n-  Extending forklift for your services.\n\nIf time permits we will try and cover the additional bonus topics:\n\n-  How to host your legacy mod\\_python application on Apache inside\n   Docker with minimal changes; and\n-  Using Forklift to do automated full-stack integration testing of apps\n   by spinning up containers of other apps (which we do in a container\n   that is testing the built app that is running in a container that is\n   our CI server... inception is possible).\n\nThe talk will be presented by Danielle Madeley and Alexey Kotlyarov.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/SgL8r--p97s/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/19-out.ogv", 
-      "length": null, 
-      "type": "ogv"
-    }, 
+      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/19-out.ogv",
+      "type": "ogv",
+      "length": null
+    },
     {
-      "url": "http://www.youtube.com/watch?v=SgL8r--p97s", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=SgL8r--p97s",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=SgL8r--p97s", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=SgL8r--p97s",
+  "tags": [],
   "speakers": [
-    "Alexey Kotlyarov", 
+    "Alexey Kotlyarov",
     "Danielle Madeley"
-  ], 
+  ],
   "recorded": "2014-08-09"
 }
