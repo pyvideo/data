@@ -1,26 +1,26 @@
 {
-  "id": 2970, 
-  "category": "EuroPython 2014", 
-  "slug": "elasticsearch-from-the-bottom-up", 
-  "title": "Elasticsearch from the bottom up", 
-  "summary": "This talk will teach you about Elasticsearch and Lucene's architecture.\r\n\r\nThe key data structure in search is the powerful inverted index, which is actually simple to understand. We start there, then ascend through abstraction layers to get an overview of how a distributed search cluster processes searches and changes.", 
-  "description": "## Who I am and motivation\r\nI work with hosted Elasticsearch and have interacted with lots of developers. We see what many struggle with.\r\n\r\nSome relevant theory helps a lot. What follows has already lead to many \"Aha!\"-moments and developers piecing things together herself.\r\n\r\n## The inverted index\r\nThe most important index structure is actually very simple. It is essentially a sorted dictionary of terms, with a list of postings per term.\r\n\r\nWe show three simple sample documents and the resulting inverted index.\r\n\r\n## The index term\r\nThe index term is the \"unit of search\", and the terms we make decide how we can search.\r\n\r\nWith the inverted index and its sorted dictionary, we can quickly search for terms given their prefix.\r\n\r\n## Importance of text analysis\r\nThus, we need to transform our search problems into string prefix problems.\r\n\r\nThis is done with text analysis, which is the process of making of index terms. It is highly important when implementing search.\r\n\r\n## Building indexes\r\nThe way indexes are built must balance how compact an index is, how easily we can search in it, how fast we can index documents - and the time it takes for changes to be visible.\r\n\r\nLucene, and thus Elasticsearch, builds them in segments.\r\n\r\n## Index segments\r\nA Lucene index consists of index segments, i.e. immutable mini-indexes.\r\n\r\nA search on an index is done by doing the search on all segments and merging the results.\r\n\r\nSegments are immutable:\r\n\r\nThis enables important compression techniques.\r\nDeletes are not immediate, just a marker.\r\nSegments are occasionally merged to larger segments. Then documents are finally deleted.\r\nNew segments are made by buffering changes in memory, and written when flushing happens. Flushes are largely caused by refreshing every second, due to real time needs.\r\n\r\n## Caches\r\nCaches like filter- and field caches are managed per segment. They are essential for performance.\r\n\r\nImmutable segments make for simple reasoning about caches. New segments only cause partial cache invalidations.\r\n\r\n## Elasticsearch indexes\r\nMuch like a Lucene index is made up of many segments, an Elasticsearch index is made up of many Lucene indexes.\r\n\r\nTwo Elasticsearch indexes with 1 shard is essentially the same as one Elasticsearch index with 2 shards.\r\n\r\nSearch all shards and merge. Much like segments, but this time possibly across machines.\r\n\r\nShard / Index routing enables various partitioning strategies. Simpler than it sounds, so one important example:\r\n\r\nEssential for time based data, like logs: can efficiently skip searching entire indexes - and roll out old data by deleting the entire index.\r\n\r\n## Common pitfalls\r\nWe must design our indexing for how we search - not the searches for how things are indexed. Be careful with wildcards and regexes.\r\n\r\nSince segments are immutable, deleting documents is expensive while deleting an entire index is cheap.\r\n\r\nUpdating documents is essentially a delete and re-index. Heavy updating might cause problems.\r\n\r\nHave enough memory and then some. Elasticsearch is very reliant on its caches.\r\n\r\n## Summary\r\nWe've seen how index structures are used, and why proper text processing is essential for performant searches.\r\n\r\nAlso, you now know what index segments are, and how they affect both indexing and searching strategies.\r\n\r\n## Questions", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/PpX7J-G2PEo/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2970,
+  "category": "EuroPython 2014",
+  "slug": "elasticsearch-from-the-bottom-up",
+  "title": "Elasticsearch from the bottom up",
+  "summary": "This talk will teach you about Elasticsearch and Lucene's architecture.\n\nThe key data structure in search is the powerful inverted index, which\nis actually simple to understand. We start there, then ascend through\nabstraction layers to get an overview of how a distributed search\ncluster processes searches and changes.\n",
+  "description": "Who I am and motivation\n-----------------------\n\nI work with hosted Elasticsearch and have interacted with lots of\ndevelopers. We see what many struggle with.\n\nSome relevant theory helps a lot. What follows has already lead to many\n\"Aha!\"-moments and developers piecing things together herself.\n\nThe inverted index\n------------------\n\nThe most important index structure is actually very simple. It is\nessentially a sorted dictionary of terms, with a list of postings per\nterm.\n\nWe show three simple sample documents and the resulting inverted index.\n\nThe index term\n--------------\n\nThe index term is the \"unit of search\", and the terms we make decide how\nwe can search.\n\nWith the inverted index and its sorted dictionary, we can quickly search\nfor terms given their prefix.\n\nImportance of text analysis\n---------------------------\n\nThus, we need to transform our search problems into string prefix\nproblems.\n\nThis is done with text analysis, which is the process of making of index\nterms. It is highly important when implementing search.\n\nBuilding indexes\n----------------\n\nThe way indexes are built must balance how compact an index is, how\neasily we can search in it, how fast we can index documents - and the\ntime it takes for changes to be visible.\n\nLucene, and thus Elasticsearch, builds them in segments.\n\nIndex segments\n--------------\n\nA Lucene index consists of index segments, i.e. immutable mini-indexes.\n\nA search on an index is done by doing the search on all segments and\nmerging the results.\n\nSegments are immutable:\n\nThis enables important compression techniques. Deletes are not\nimmediate, just a marker. Segments are occasionally merged to larger\nsegments. Then documents are finally deleted. New segments are made by\nbuffering changes in memory, and written when flushing happens. Flushes\nare largely caused by refreshing every second, due to real time needs.\n\nCaches\n------\n\nCaches like filter- and field caches are managed per segment. They are\nessential for performance.\n\nImmutable segments make for simple reasoning about caches. New segments\nonly cause partial cache invalidations.\n\nElasticsearch indexes\n---------------------\n\nMuch like a Lucene index is made up of many segments, an Elasticsearch\nindex is made up of many Lucene indexes.\n\nTwo Elasticsearch indexes with 1 shard is essentially the same as one\nElasticsearch index with 2 shards.\n\nSearch all shards and merge. Much like segments, but this time possibly\nacross machines.\n\nShard / Index routing enables various partitioning strategies. Simpler\nthan it sounds, so one important example:\n\nEssential for time based data, like logs: can efficiently skip searching\nentire indexes - and roll out old data by deleting the entire index.\n\nCommon pitfalls\n---------------\n\nWe must design our indexing for how we search - not the searches for how\nthings are indexed. Be careful with wildcards and regexes.\n\nSince segments are immutable, deleting documents is expensive while\ndeleting an entire index is cheap.\n\nUpdating documents is essentially a delete and re-index. Heavy updating\nmight cause problems.\n\nHave enough memory and then some. Elasticsearch is very reliant on its\ncaches.\n\nSummary\n-------\n\nWe've seen how index structures are used, and why proper text processing\nis essential for performant searches.\n\nAlso, you now know what index segments are, and how they affect both\nindexing and searching strategies.\n\nQuestions\n---------\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/PpX7J-G2PEo/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=PpX7J-G2PEo", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=PpX7J-G2PEo",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=PpX7J-G2PEo", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=PpX7J-G2PEo",
+  "tags": [],
   "speakers": [
     "Alex Brasetvik"
-  ], 
+  ],
   "recorded": "2014-07-24"
 }

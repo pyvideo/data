@@ -1,26 +1,26 @@
 {
-  "id": 3036, 
-  "category": "EuroPython 2014", 
-  "slug": "rethinking-packaging-development-and-deployment", 
-  "title": "Rethinking packaging, development and deployment", 
-  "summary": "In Python, we're trying to solve packaging problems in our own domain, but maybe someone else already solved most our problems. In the talk I'll show how I develop and deploy Python projects that can be easily mixed with non-Python dependencies.\r\nhttp://nixos.org/nix/ will be demonstrated to replace technologies in our stack: pip, virtualenv, buildout, ansible, jenkins.", 
-  "description": "Python is often mixed with other languages in development stack, nowadays it's hard to escape any JavaScript dependencies. If you add some C dependencies such as GStreamer to the stack, packaging becomes a burden.\r\n\r\nWhile tweaking our packaging infrastructure will make things better, it's hard to fix fundamental problem of packaging with current ad-hoc solutions in Python domain.\r\n\r\nUsing Nix (http://nixos.org/nix/) for about a year gave me an insight that solving packaging problem at operating system level (bottom-up) is a better approach.\r\n\r\nFor example, wouldn't it be cool to have \"virtualenv\" implemented inside your package manager, so you could isolate also non-Python dependencies and not just Python packages for your project and not worry if system was updated?\r\n\r\nWe'll also show what benefits do we get by using the same tool for development and deployment and how little we have to do to deploy our application.\r\n\r\nTo see how Haskell community is touching the same subject, see blog post http://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html\r\n\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/Eis-WqHda20/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3036,
+  "category": "EuroPython 2014",
+  "slug": "rethinking-packaging-development-and-deployment",
+  "title": "Rethinking packaging, development and deployment",
+  "summary": "In Python, we're trying to solve packaging problems in our own domain,\nbut maybe someone else already solved most our problems. In the talk\nI'll show how I develop and deploy Python projects that can be easily\nmixed with non-Python dependencies. http://nixos.org/nix/ will be\ndemonstrated to replace technologies in our stack: pip, virtualenv,\nbuildout, ansible, jenkins.\n",
+  "description": "Python is often mixed with other languages in development stack,\nnowadays it's hard to escape any JavaScript dependencies. If you add\nsome C dependencies such as GStreamer to the stack, packaging becomes a\nburden.\n\nWhile tweaking our packaging infrastructure will make things better,\nit's hard to fix fundamental problem of packaging with current ad-hoc\nsolutions in Python domain.\n\nUsing Nix (http://nixos.org/nix/) for about a year gave me an insight\nthat solving packaging problem at operating system level (bottom-up) is\na better approach.\n\nFor example, wouldn't it be cool to have \"virtualenv\" implemented inside\nyour package manager, so you could isolate also non-Python dependencies\nand not just Python packages for your project and not worry if system\nwas updated?\n\nWe'll also show what benefits do we get by using the same tool for\ndevelopment and deployment and how little we have to do to deploy our\napplication.\n\nTo see how Haskell community is touching the same subject, see blog post\nhttp://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/Eis-WqHda20/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=Eis-WqHda20", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=Eis-WqHda20",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=Eis-WqHda20", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=Eis-WqHda20",
+  "tags": [],
   "speakers": [
     "Domen Ko\u017ear"
-  ], 
+  ],
   "recorded": "2014-07-22"
 }

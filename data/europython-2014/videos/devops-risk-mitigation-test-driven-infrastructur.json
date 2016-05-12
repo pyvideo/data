@@ -1,26 +1,26 @@
 {
-  "id": 3000, 
-  "category": "EuroPython 2014", 
-  "slug": "devops-risk-mitigation-test-driven-infrastructur", 
-  "title": "DevOps Risk Mitigation: Test Driven Infrastructure", 
-  "summary": "The (perceived) risk of the DevOps is that too many people get the right to \"break\" the platform.\r\n\r\nTest Driven Infrastructure is about adapting proven ideas from our developer colleagues to the development and operations of Infrastructure services like virtualization, OS provisioning, postfix configuration, httpd configuration, ssh tuning, SAN LUN mounting and others.\r\n\r\nThis talk shows how ImmobilienScout24 utilizes more and more test driven development in IT operations to increase quality and to mitigate the risk of opening up the infrastructure developmen to all developers.", 
-  "description": "Common wisdom has it that the test effort should be related to the risk of a change. However, the reality is different: Developers build elaborate automated test chains to test every single commit of their application. Admins regularly \u201ctest\u201d changes on the live platform in production. But which change carries a higher risk of taking the live platform down?\r\n\r\nWhat about the software that runs at the \u201clower levels\u201d of your platform, e.g. systems automation, provisioning, proxy configuration, mail server configuration, database systems etc. An outage of any of those systems can have a financial impact that is as severe as a bug in the \u201cmain\u201d software!\r\nOne of the biggest learnings that any Ops person can learn from a Dev person is Test Driven Development. Easy to say - difficult to apply is my personal experience with the TDD challenge.\r\n\r\nThis talk throws some light on recent developments at ImmobilienScout24 that help us to develop the core of our infrastructure services with a test driven approach:\r\n\r\n* How to do unit tests, integration tests and systems tests for infrastructure services?\r\n* How to automatically verify Proxy, DNS, Postfix configurations before deploying them on live servers?\r\n* How to test \u201cdangerous\u201d services like our PXE boot environment or the automated SAN mounting scripts?\r\n* How to add a little bit of test coverage to everything we do.\r\n* Test Driven: First write a failing test and then the code that fixes it.\r\n\r\nThe tools that we use are Bash, Python, Unit Test frameworks and Teamcity for build and test automation.\r\n\r\nSee http://blog.schlomo.schapiro.org/2013/12/test-driven-infrastructure.html for more about this topic.\r\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/L6TtXrLmdKA/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3000,
+  "category": "EuroPython 2014",
+  "slug": "devops-risk-mitigation-test-driven-infrastructur",
+  "title": "DevOps Risk Mitigation: Test Driven Infrastructure",
+  "summary": "The (perceived) risk of the DevOps is that too many people get the right\nto \"break\" the platform.\n\nTest Driven Infrastructure is about adapting proven ideas from our\ndeveloper colleagues to the development and operations of Infrastructure\nservices like virtualization, OS provisioning, postfix configuration,\nhttpd configuration, ssh tuning, SAN LUN mounting and others.\n\nThis talk shows how ImmobilienScout24 utilizes more and more test driven\ndevelopment in IT operations to increase quality and to mitigate the\nrisk of opening up the infrastructure developmen to all developers.\n",
+  "description": "Common wisdom has it that the test effort should be related to the risk\nof a change. However, the reality is different: Developers build\nelaborate automated test chains to test every single commit of their\napplication. Admins regularly \u201ctest\u201d changes on the live platform in\nproduction. But which change carries a higher risk of taking the live\nplatform down?\n\nWhat about the software that runs at the \u201clower levels\u201d of your\nplatform, e.g. systems automation, provisioning, proxy configuration,\nmail server configuration, database systems etc. An outage of any of\nthose systems can have a financial impact that is as severe as a bug in\nthe \u201cmain\u201d software! One of the biggest learnings that any Ops person\ncan learn from a Dev person is Test Driven Development. Easy to say -\ndifficult to apply is my personal experience with the TDD challenge.\n\nThis talk throws some light on recent developments at ImmobilienScout24\nthat help us to develop the core of our infrastructure services with a\ntest driven approach:\n\n-  How to do unit tests, integration tests and systems tests for\n   infrastructure services?\n-  How to automatically verify Proxy, DNS, Postfix configurations before\n   deploying them on live servers?\n-  How to test \u201cdangerous\u201d services like our PXE boot environment or the\n   automated SAN mounting scripts?\n-  How to add a little bit of test coverage to everything we do.\n-  Test Driven: First write a failing test and then the code that fixes\n   it.\n\nThe tools that we use are Bash, Python, Unit Test frameworks and\nTeamcity for build and test automation.\n\nSee\nhttp://blog.schlomo.schapiro.org/2013/12/test-driven-infrastructure.html\nfor more about this topic.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/L6TtXrLmdKA/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=L6TtXrLmdKA", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=L6TtXrLmdKA",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=L6TtXrLmdKA", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=L6TtXrLmdKA",
+  "tags": [],
   "speakers": [
     "Schlomo Schapiro"
-  ], 
+  ],
   "recorded": "2014-07-23"
 }

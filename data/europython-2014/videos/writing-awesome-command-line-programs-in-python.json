@@ -1,26 +1,26 @@
 {
-  "id": 2971, 
-  "category": "EuroPython 2014", 
-  "slug": "writing-awesome-command-line-programs-in-python", 
-  "title": "Writing Awesome Command-Line Programs in Python", 
-  "summary": "Command-Line programs can have a lot to them - usually more than you think, yet often suffer from a lack of thought.\r\n\r\nThis is a tour through how to structure your code, tools in the standard library and some 3rd party libraries. Take your command-line programs to the next level!", 
-  "description": "Python is a great language for writing command-line tools - which is why so much of Linux is secretly written in Python these days. Unfortunately, what starts as a simple script can quickly get out of hand as more features are added and more people start using it!\r\n\r\nThe talk will consist of a tour through various useful libraries and practical code showing how each can be used, and include advice on how to best structure simple and complex command-line tools.\r\n\r\nThings to consider when writing command-line apps:\r\n\r\n* Single-file vs Multiple-file\r\n* Standard library only vs. 3rd party requirements\r\n* Installation - setup.py vs. native packaging\r\n\r\nThe different parts of a command-line program:\r\n\r\n* Option Parsing:\r\n    * Libraries: getopt, optparse, argparse, docopt\r\n    * Sub-commands\r\n* Configuration:\r\n    * Formats: Ini file, JSON, YAML\r\n    * Where should it be stored (cross-platform);\r\n    * Having multiple configuration files, and allowing user config to override global config\r\n* Output:\r\n    * Colour - colorama\r\n    * Formatting output for the user\r\n    * Formatting output for other programs\r\n    * How do you know when your output is being piped to another program?\r\n    * Managing logging and verbosity\r\n* Managing streamed input\r\n* Exit values: What are the conventions?\r\n* Interactive apps - REPL\r\n* Structuring a bunch of programs/commands around a shared codebase.\r\n* Command-line frameworks: clint, compago & cliff\r\n* Testing command-line apps\r\n* Writing command-line tools in Python 3 vs Python 2", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/gR73nLbbgqY/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2971,
+  "category": "EuroPython 2014",
+  "slug": "writing-awesome-command-line-programs-in-python",
+  "title": "Writing Awesome Command-Line Programs in Python",
+  "summary": "Command-Line programs can have a lot to them - usually more than you\nthink, yet often suffer from a lack of thought.\n\nThis is a tour through how to structure your code, tools in the standard\nlibrary and some 3rd party libraries. Take your command-line programs to\nthe next level!\n",
+  "description": "Python is a great language for writing command-line tools - which is why\nso much of Linux is secretly written in Python these days.\nUnfortunately, what starts as a simple script can quickly get out of\nhand as more features are added and more people start using it!\n\nThe talk will consist of a tour through various useful libraries and\npractical code showing how each can be used, and include advice on how\nto best structure simple and complex command-line tools.\n\nThings to consider when writing command-line apps:\n\n-  Single-file vs Multiple-file\n-  Standard library only vs. 3rd party requirements\n-  Installation - setup.py vs. native packaging\n\nThe different parts of a command-line program:\n\n-  Option Parsing:\n\n   -  Libraries: getopt, optparse, argparse, docopt\n   -  Sub-commands\n\n-  Configuration:\n\n   -  Formats: Ini file, JSON, YAML\n   -  Where should it be stored (cross-platform);\n   -  Having multiple configuration files, and allowing user config to\n      override global config\n\n-  Output:\n\n   -  Colour - colorama\n   -  Formatting output for the user\n   -  Formatting output for other programs\n   -  How do you know when your output is being piped to another\n      program?\n   -  Managing logging and verbosity\n\n-  Managing streamed input\n-  Exit values: What are the conventions?\n-  Interactive apps - REPL\n-  Structuring a bunch of programs/commands around a shared codebase.\n-  Command-line frameworks: clint, compago & cliff\n-  Testing command-line apps\n-  Writing command-line tools in Python 3 vs Python 2\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/gR73nLbbgqY/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=gR73nLbbgqY", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=gR73nLbbgqY",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=gR73nLbbgqY", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=gR73nLbbgqY",
+  "tags": [],
   "speakers": [
     "Mark Smith"
-  ], 
+  ],
   "recorded": "2014-07-24"
 }

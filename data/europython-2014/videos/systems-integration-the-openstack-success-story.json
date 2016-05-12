@@ -1,26 +1,26 @@
 {
-  "id": 3002, 
-  "category": "EuroPython 2014", 
-  "slug": "systems-integration-the-openstack-success-story", 
-  "title": "Systems Integration: The OpenStack success story", 
-  "summary": "OpenStack is a huge, open-source cloud provider. One of the main tenets of OpenStack is the (Shared Nothing Architecture) to which all modules stick very closely. In order to do that, services within OpenStack have adopted different strategies to integrate themselves and share data without sacrificing performance nor moving away from SNA.\r\n\r\nThis strategies are not applicable just to OpenStack but to any distributed system. Sharing data, regardless what that data is, is a must-have requirement of any successful cloud service.\r\n\r\nThis talk will present some of the existing integration strategies that are applicable to cloud infrastructures and enterprise services. The talk will be based on the strategies that have helped OpenStack to be successful and most importantly, scalable.", 
-  "description": "Abstract\r\n=======\r\n\r\nOpenStack is a huge, open-source cloud provider. One of the main tenets of OpenStack is the (Shared Nothing Architecture) to which all modules stick very closely. In order to do that, services within OpenStack have adopted different strategies to integrate themselves and share data without sacrificing performance nor moving away from SNA.\r\n\r\nThis strategies are not applicable just to OpenStack but to any distributed system. Sharing data, regardless what that data is, is a must-have requirement of any successful cloud service.\r\n\r\nThis talk will present some of the existing integration strategies that are applicable to cloud infrastructures and enterprise services. The talk will be based on the strategies that have helped OpenStack to be successful and most importantly, scalable.\r\n\r\nDetails\r\n======\r\n\r\nAlong the lines of what I've described in the abstract, the presentation will walk the audience through the state of the art of existing system integration solutions, the ones that have been adopted by OpenStack and the benefits of those solutions. At the end of the talk, a set of solutions under development, ideas and improvements to the existing ones will be presented.\r\n\r\nThe presentation is oriented to distributed services, fault-tolerance and replica determinism. It's based on a software completely written in python and running successfully on several production environments.\r\n\r\nThe presentation will be split in 3 main topics:\r\n\r\nDistributed System integration\r\n-----------------------------------\r\n\r\n* What's it ?\r\n* Why is it essential for cloud infrastructures?\r\n* Existing methods and strategies\r\n\r\nOpenStack success story\r\n----------------------------\r\n\r\n* Which methods did OpenStack adopt?\r\n* How / Why do they work?\r\n* What else could be done?\r\n\r\nComing Next\r\n---------------\r\n\r\n* Some issues of existing solutions\r\n* What are we doing to improve that?\r\n* Other solutions coming up", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://creativecommons.org/licenses/by/3.0/", 
-  "thumbnail_url": "http://i.ytimg.com/vi/pYzIOrAkb-A/hqdefault.jpg", 
-  "duration": null, 
+  "id": 3002,
+  "category": "EuroPython 2014",
+  "slug": "systems-integration-the-openstack-success-story",
+  "title": "Systems Integration: The OpenStack success story",
+  "summary": "OpenStack is a huge, open-source cloud provider. One of the main tenets\nof OpenStack is the (Shared Nothing Architecture) to which all modules\nstick very closely. In order to do that, services within OpenStack have\nadopted different strategies to integrate themselves and share data\nwithout sacrificing performance nor moving away from SNA.\n\nThis strategies are not applicable just to OpenStack but to any\ndistributed system. Sharing data, regardless what that data is, is a\nmust-have requirement of any successful cloud service.\n\nThis talk will present some of the existing integration strategies that\nare applicable to cloud infrastructures and enterprise services. The\ntalk will be based on the strategies that have helped OpenStack to be\nsuccessful and most importantly, scalable.\n",
+  "description": "Abstract\n========\n\nOpenStack is a huge, open-source cloud provider. One of the main tenets\nof OpenStack is the (Shared Nothing Architecture) to which all modules\nstick very closely. In order to do that, services within OpenStack have\nadopted different strategies to integrate themselves and share data\nwithout sacrificing performance nor moving away from SNA.\n\nThis strategies are not applicable just to OpenStack but to any\ndistributed system. Sharing data, regardless what that data is, is a\nmust-have requirement of any successful cloud service.\n\nThis talk will present some of the existing integration strategies that\nare applicable to cloud infrastructures and enterprise services. The\ntalk will be based on the strategies that have helped OpenStack to be\nsuccessful and most importantly, scalable.\n\nDetails\n=======\n\nAlong the lines of what I've described in the abstract, the presentation\nwill walk the audience through the state of the art of existing system\nintegration solutions, the ones that have been adopted by OpenStack and\nthe benefits of those solutions. At the end of the talk, a set of\nsolutions under development, ideas and improvements to the existing ones\nwill be presented.\n\nThe presentation is oriented to distributed services, fault-tolerance\nand replica determinism. It's based on a software completely written in\npython and running successfully on several production environments.\n\nThe presentation will be split in 3 main topics:\n\nDistributed System integration\n------------------------------\n\n-  What's it ?\n-  Why is it essential for cloud infrastructures?\n-  Existing methods and strategies\n\nOpenStack success story\n-----------------------\n\n-  Which methods did OpenStack adopt?\n-  How / Why do they work?\n-  What else could be done?\n\nComing Next\n-----------\n\n-  Some issues of existing solutions\n-  What are we doing to improve that?\n-  Other solutions coming up\n\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "thumbnail_url": "http://i.ytimg.com/vi/pYzIOrAkb-A/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=pYzIOrAkb-A", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=pYzIOrAkb-A",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=pYzIOrAkb-A", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=pYzIOrAkb-A",
+  "tags": [],
   "speakers": [
     "Flavio Percoco"
-  ], 
+  ],
   "recorded": "2014-07-23"
 }
