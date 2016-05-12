@@ -1,31 +1,31 @@
 {
-  "id": 2209, 
-  "category": "PyCon AU 2013", 
-  "slug": "limiting-execution-time-through-interrupt-driven", 
-  "title": "Limiting Execution Time Through Interrupt Driven Programming", 
-  "summary": "This talk explores the challenges of ensuring responsiveness of applications under varying conditions like suddenly increased load, code regressions and problematic user data that reveal code paths with unusually high time complexity.\r\n\r\nI'll be looking at interrupt-driven techniques to help bring the 95 percentile of the response times of your application closer to the (usually much lower) mean.\r\n\r\nIn this talk, we'll go beyond traditional tricks like caching, sharding and data denormalization and instead look at tools that can interrupt execution of overly expensive code paths, such that you can guarantee an upper bound in response time.\r\n\r\nInterruptingcow and django-timelimit will be some of the tools that will be covered in this talk.\r\n\r\nThe context for most of this is web applications, and I'll be drawing many examples from our ongoing experiences with running and scaling Bitbucket, which is entirely written in Python.\r\n\r\nHaving said that though, many of the tools and techniques demonstrates will apply just as well to other types of applications and situations.\r\n", 
-  "description": "", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC-BY-SA", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/Hv2pl7B1pZw/hqdefault.jpg", 
-  "duration": 30, 
+  "id": 2209,
+  "category": "PyCon AU 2013",
+  "slug": "limiting-execution-time-through-interrupt-driven",
+  "title": "Limiting Execution Time Through Interrupt Driven Programming",
+  "summary": "This talk explores the challenges of ensuring responsiveness of\napplications under varying conditions like suddenly increased load, code\nregressions and problematic user data that reveal code paths with\nunusually high time complexity.\n\nI'll be looking at interrupt-driven techniques to help bring the 95\npercentile of the response times of your application closer to the\n(usually much lower) mean.\n\nIn this talk, we'll go beyond traditional tricks like caching, sharding\nand data denormalization and instead look at tools that can interrupt\nexecution of overly expensive code paths, such that you can guarantee an\nupper bound in response time.\n\nInterruptingcow and django-timelimit will be some of the tools that will\nbe covered in this talk.\n\nThe context for most of this is web applications, and I'll be drawing\nmany examples from our ongoing experiences with running and scaling\nBitbucket, which is entirely written in Python.\n\nHaving said that though, many of the tools and techniques demonstrates\nwill apply just as well to other types of applications and situations.\n",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC-BY-SA",
+  "thumbnail_url": "http://i1.ytimg.com/vi/Hv2pl7B1pZw/hqdefault.jpg",
+  "duration": 30,
   "videos": [
     {
-      "url": "http://s3.us.archive.org/ndvpyconau2013/Limiting_Execution_Time_Throug.mp4", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://s3.us.archive.org/ndvpyconau2013/Limiting_Execution_Time_Throug.mp4",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "https://www.youtube.com/watch?v=Hv2pl7B1pZw", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "https://www.youtube.com/watch?v=Hv2pl7B1pZw",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "https://www.youtube.com/watch?v=Hv2pl7B1pZw", 
-  "tags": [], 
+  ],
+  "source_url": "https://www.youtube.com/watch?v=Hv2pl7B1pZw",
+  "tags": [],
   "speakers": [
     "Erik van Zijst"
-  ], 
+  ],
   "recorded": "2013-07-06"
 }
