@@ -1,26 +1,26 @@
 {
-  "id": 1319, 
-  "category": "EuroPython 2012", 
-  "slug": "tornado-in-depth", 
-  "title": "Tornado in Depth", 
-  "summary": "[EuroPython 2012] O Vilaplana - 3 JULY 2012 in \"Track Tagliatelle\"\n\n", 
-  "description": "Tornado is a non-blocking light-weight web server and framework. There\u2019s been\nmany introductory talks about it, and it\u2019s time to look deeper into it: not\njust what Tornado does, but how it does it and what can we learn from it when\ndesigning our own concurrent systems. We\u2019ll cover each topic in two parts:\nfirst we\u2019ll see how to use a certain feature in our applications; then, we\u2019ll\ndig into Tornado\u2019s source code to see how it really works. How much time we\u2019ll\nspend in the \u201chow to use\u201d will depend on the audience\u2019s knowledge of Tornado.\nGetting Started: quickly get a simple Tornado application up and running.\nWe\u2019ll keep digging into, changing and poking this Application for most of the\ntalk. An Application Listens: what an Application is, how does Tornado start\nit and how does it process its requests. Application and IOLoop: we\u2019ll look at\nhow the IOLoop receives the connections from the users and passes them on to\nthe Applications. Scheduled Tasks: we\u2019ll see how to schedule tasks and how the\nIOLoop will run them. Generators: we\u2019ll learn to use generators to handle the\nresponses of our asynchronous calls, and how they work with the IOLoop.\nWebsockets: how to use them and how they work. IOStream: how do Tornado\u2019s non-\nblocking sockets work. Database: how to use non-blocking sockets to connect to\na MySQL or MongoDB database.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/4Ztq-Yz1ero/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1319,
+  "category": "EuroPython 2012",
+  "slug": "tornado-in-depth",
+  "title": "Tornado in Depth",
+  "summary": "[EuroPython 2012] O Vilaplana - 3 JULY 2012 in \"Track Tagliatelle\"\n",
+  "description": "Tornado is a non-blocking light-weight web server and framework. There\u2019s\nbeen many introductory talks about it, and it\u2019s time to look deeper into\nit: not just what Tornado does, but how it does it and what can we learn\nfrom it when designing our own concurrent systems. We\u2019ll cover each\ntopic in two parts: first we\u2019ll see how to use a certain feature in our\napplications; then, we\u2019ll dig into Tornado\u2019s source code to see how it\nreally works. How much time we\u2019ll spend in the \u201chow to use\u201d will depend\non the audience\u2019s knowledge of Tornado. Getting Started: quickly get a\nsimple Tornado application up and running. We\u2019ll keep digging into,\nchanging and poking this Application for most of the talk. An\nApplication Listens: what an Application is, how does Tornado start it\nand how does it process its requests. Application and IOLoop: we\u2019ll look\nat how the IOLoop receives the connections from the users and passes\nthem on to the Applications. Scheduled Tasks: we\u2019ll see how to schedule\ntasks and how the IOLoop will run them. Generators: we\u2019ll learn to use\ngenerators to handle the responses of our asynchronous calls, and how\nthey work with the IOLoop. Websockets: how to use them and how they\nwork. IOStream: how do Tornado\u2019s non- blocking sockets work. Database:\nhow to use non-blocking sockets to connect to a MySQL or MongoDB\ndatabase.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/4Ztq-Yz1ero/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=4Ztq-Yz1ero", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=4Ztq-Yz1ero",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=4Ztq-Yz1ero", 
-  "tags": [], 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=4Ztq-Yz1ero",
+  "tags": [],
   "speakers": [
     "O Vilaplana"
-  ], 
+  ],
   "recorded": "2012-07-04"
 }
