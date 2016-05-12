@@ -1,33 +1,33 @@
 {
-  "id": 1208, 
-  "category": "SciPy 2012", 
-  "slug": "sympy-stats-uncertainty-modeling", 
-  "title": "SymPy Stats - Uncertainty Modeling", 
-  "summary": "", 
-  "description": "SymPy is a symbolic algebra package for Python. In SymPy.Stats we add a\nstochastic variable type to this package to form a language for uncertainty\nmodeling. This allows engineers and scientists to symbolically declare the\nuncertainty in their mathematical models and to make probabilistic queries. We\nprovide transformations from probabilistic statements like $P(X*Y > 3)$ or\n$E(X**2)$ into deterministic integrals. These integrals are then solved using\nSymPy's integration routines or through numeric sampling.\n\nThis talk touches on a few rising themes:\n\n    \n\n  * The rise in interest in uncertainty quantification and\n  * The use of symbolics in scientific computing\n  * Intermediate representation layers and multi-stage compilation\n\nHistorically solutions to uncertainty quantification problems have been\nexpressed by writing Monte Carlo codes around individual problems. By creating\na symbolic uncertainty language we allow the expression of the problem-to-be-\nsolved to be written separately from the numerical technique. SymPy.stats\nserves as an interface layer. The statistical programmer doesn't need to think\nabout the details of numerical techniques and the computational methods\nprogrammer doesn't need to think about the particular domain-specific\nquestions to be solved.\n\nWe have implemented multiple comptuational backends including purely symbolic\n(using SymPy's integration engine), sampling, and code generation.\n\nIn the talk we discuss these ideas with a few illustrative examples taken from\nbasic probability and engineering. The following is one such example\n\n[http://sympystats.wordpress.com/2011/07/02/a-lesson-in-data-assimilation-\nusing-sympy/](http://sympystats.wordpress.com/2011/07/02/a-lesson-in-data-\nassimilation-using-sympy/)\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "CC BY-SA", 
-  "thumbnail_url": "http://i3.ytimg.com/vi/27su3TQ3BvQ/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1208,
+  "category": "SciPy 2012",
+  "slug": "sympy-stats-uncertainty-modeling",
+  "title": "SymPy Stats - Uncertainty Modeling",
+  "summary": "",
+  "description": "SymPy is a symbolic algebra package for Python. In SymPy.Stats we add a\nstochastic variable type to this package to form a language for\nuncertainty modeling. This allows engineers and scientists to\nsymbolically declare the uncertainty in their mathematical models and to\nmake probabilistic queries. We provide transformations from\nprobabilistic statements like :math:`P(X*Y > 3)` or :math:`E(X**2)` into\ndeterministic integrals. These integrals are then solved using SymPy's\nintegration routines or through numeric sampling.\n\nThis talk touches on a few rising themes:\n\n-  The rise in interest in uncertainty quantification and\n-  The use of symbolics in scientific computing\n-  Intermediate representation layers and multi-stage compilation\n\nHistorically solutions to uncertainty quantification problems have been\nexpressed by writing Monte Carlo codes around individual problems. By\ncreating a symbolic uncertainty language we allow the expression of the\nproblem-to-be- solved to be written separately from the numerical\ntechnique. SymPy.stats serves as an interface layer. The statistical\nprogrammer doesn't need to think about the details of numerical\ntechniques and the computational methods programmer doesn't need to\nthink about the particular domain-specific questions to be solved.\n\nWe have implemented multiple comptuational backends including purely\nsymbolic (using SymPy's integration engine), sampling, and code\ngeneration.\n\nIn the talk we discuss these ideas with a few illustrative examples\ntaken from basic probability and engineering. The following is one such\nexample\n\n`http://sympystats.wordpress.com/2011/07/02/a-lesson-in-data-assimilation-\nusing-sympy/ <http://sympystats.wordpress.com/2011/07/02/a-lesson-in-data-%20assimilation-using-sympy/>`__\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "CC BY-SA",
+  "thumbnail_url": "http://i3.ytimg.com/vi/27su3TQ3BvQ/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/SymPy_Stats_Uncertainty_Modeling.mp4?Signature=rl3GFBy%2FFvQFU4vEkWldM59hlQA%3D&Expires=1346381534&AWSAccessKeyId=FEWGReWX3QbNk0h3", 
-      "length": null, 
-      "type": "mp4"
-    }, 
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/SymPy_Stats_Uncertainty_Modeling.mp4?Signature=rl3GFBy%2FFvQFU4vEkWldM59hlQA%3D&Expires=1346381534&AWSAccessKeyId=FEWGReWX3QbNk0h3",
+      "type": "mp4",
+      "length": null
+    },
     {
-      "url": "http://youtube.com/watch?v=27su3TQ3BvQ", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://youtube.com/watch?v=27su3TQ3BvQ",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://youtube.com/watch?v=27su3TQ3BvQ", 
+  ],
+  "source_url": "http://youtube.com/watch?v=27su3TQ3BvQ",
   "tags": [
     "General"
-  ], 
+  ],
   "speakers": [
     "Matthew Rocklin"
-  ], 
+  ],
   "recorded": "2012-07-18"
 }
