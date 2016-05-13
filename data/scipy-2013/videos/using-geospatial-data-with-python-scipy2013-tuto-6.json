@@ -1,26 +1,26 @@
 {
-  "id": 2071, 
-  "category": "SciPy 2013", 
-  "slug": "using-geospatial-data-with-python-scipy2013-tuto-6", 
-  "title": "Using Geospatial Data with Python, SciPy2013 Tutorial, Part 5 of 6", 
-  "summary": "Presenter: Kelsey Jordahl\n\nDescription\n\nGeographically referenced data is important in many scientific fields, and working with spatial data has become widespread in other domains as well (e.g. Google Maps, geolocated tweets, 4square checkins). Python has become an increasingly important language for working with geospatial data. In this tutorial, students will get experience in working with common geospatial formats in open source python libraries.\n\nPython bindings are available for (nearly) all the standard libraries for working with geospatial data (proprietary and open source). Some of these libraries (including PROJ.4 and GDAL) will be discussed and used in this tutorial, along with more \"pythonic\" packages for accessing them, such as Shapely. Using spatially-aware databases will be discussed, with examples and an exercise using PostGIS, an extension to PostgreSQL. Python scripting extensions to Geographic Information Systems (GIS) packages such as QGIS and ArcView will be briefly discussed.\n\nThis tutorial should be accessible to anyone who has a basic understanding of NumPy and matplotlib. Prior familiarity with SQL database queries and the python DB API will be helpful for the PostGIS section.\n\nOutline\n\n1 map projections ~~~~~~~~~~~~~~~~~~ /10 min/\n\n1.1 pyproj\n/10 min + 15 min exercise/\n\n1.2 baseplot\n/10 min + 10 min exercise/\n\n\n1.3 cartopy\n/5 min/\n\n2 geographical data ~~~~~~~~~~~~~~~~~~~~\n\n2.1 data formats\n/20 min intro/\n\n\n2.2 GDAL/OGR\n/10 min + 10 min exercise/\n\n2.3 Shapely\n/15 min + 30 min exercise/\n\n2.4 PostGIS\n\n/30 min + 30 min exercise/\n\n2.4.1 Connecting to a PostGIS database with psycopg2\n\n2.4.2 Converting latitude and longitude fields to geographical points\n\n2.4.3 Setting and converting coordinate systems\n\n2.4.4 Aggregation and geographic calculations with queries\n\n2.4.5 GEOMETRY and GEOGRAPHY data types\n\n3 plugins for GIS software ~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n3.1 QGIS /15 min/\n\n3.2 ArcGIS /10 min/\n\n4 Conclusion ~~~~~~~~~~~~~ /10 min/\n\n\nRequired Packages\n\nrequired packages pyproj, gdal, shapely, psycopg2\noptional packages PostGIS, QGIS, cartopy", 
-  "description": "", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/HJO8OzmFIYU/hqdefault.jpg", 
-  "duration": null, 
+  "id": 2071,
+  "category": "SciPy 2013",
+  "slug": "using-geospatial-data-with-python-scipy2013-tuto-6",
+  "title": "Using Geospatial Data with Python, SciPy2013 Tutorial, Part 5 of 6",
+  "summary": "Presenter: Kelsey Jordahl\n\nDescription\n\nGeographically referenced data is important in many scientific fields,\nand working with spatial data has become widespread in other domains as\nwell (e.g. Google Maps, geolocated tweets, 4square checkins). Python has\nbecome an increasingly important language for working with geospatial\ndata. In this tutorial, students will get experience in working with\ncommon geospatial formats in open source python libraries.\n\nPython bindings are available for (nearly) all the standard libraries\nfor working with geospatial data (proprietary and open source). Some of\nthese libraries (including PROJ.4 and GDAL) will be discussed and used\nin this tutorial, along with more \"pythonic\" packages for accessing\nthem, such as Shapely. Using spatially-aware databases will be\ndiscussed, with examples and an exercise using PostGIS, an extension to\nPostgreSQL. Python scripting extensions to Geographic Information\nSystems (GIS) packages such as QGIS and ArcView will be briefly\ndiscussed.\n\nThis tutorial should be accessible to anyone who has a basic\nunderstanding of NumPy and matplotlib. Prior familiarity with SQL\ndatabase queries and the python DB API will be helpful for the PostGIS\nsection.\n\nOutline\n\n1 map projections :sub:`:sub:`~`\\ :sub:`:sub:`:sub:`:sub:`~`````\\ ~~ /10\nmin/\n\n1.1 pyproj /10 min + 15 min exercise/\n\n1.2 baseplot /10 min + 10 min exercise/\n\n1.3 cartopy /5 min/\n\n2 geographical data\n:sub:`:sub:`:sub:`:sub:`~```\\ :sub:`:sub:`~```\\ ~\\ :sub:`~`\n\n2.1 data formats /20 min intro/\n\n2.2 GDAL/OGR /10 min + 10 min exercise/\n\n2.3 Shapely /15 min + 30 min exercise/\n\n2.4 PostGIS\n\n/30 min + 30 min exercise/\n\n2.4.1 Connecting to a PostGIS database with psycopg2\n\n2.4.2 Converting latitude and longitude fields to geographical points\n\n2.4.3 Setting and converting coordinate systems\n\n2.4.4 Aggregation and geographic calculations with queries\n\n2.4.5 GEOMETRY and GEOGRAPHY data types\n\n3 plugins for GIS software\n:sub:`:sub:`:sub:`:sub:`:sub:`:sub:`:sub:`:sub:`:sub:`:sub:`:sub:`~```````````\\ ~\\ :sub:`~`\n\n3.1 QGIS /15 min/\n\n3.2 ArcGIS /10 min/\n\n4 Conclusion :sub:`:sub:`:sub:`:sub:`:sub:`~`````\\ ~~ /10 min/\n\nRequired Packages\n\nrequired packages pyproj, gdal, shapely, psycopg2 optional packages\nPostGIS, QGIS, cartopy\n",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/HJO8OzmFIYU/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=HJO8OzmFIYU", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=HJO8OzmFIYU",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=HJO8OzmFIYU", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=HJO8OzmFIYU",
   "tags": [
     "Tech"
-  ], 
-  "speakers": [], 
+  ],
+  "speakers": [],
   "recorded": "2013-06-27"
 }

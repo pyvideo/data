@@ -1,26 +1,26 @@
 {
-  "id": 1984, 
-  "category": "SciPy 2013", 
-  "slug": "oil-spill-modeling-and-uncertainty-forecasts-with", 
-  "title": "Oil spill modeling and uncertainty forecasts with Python; SciPy 2013 Presentation", 
-  "summary": "Authors: Hou,Xianlong, University of Texas at Austin; Hodges,Ben, University of Texas at Austin\n\nTrack: Meteorology, Climatology, Atmospheric and Oceanic Science\n\nA new method is presented to provide automatic sequencing of multiple hydrodynamic models and automated analysis of model forecast uncertainty. The Hydrodynamic and Oil Spill model Python (hyospy) wrapper was developed to run a hydrodynamic model, link with the oil spill, and visualize results. Hyospy completes the following steps automatically: (1) downloads wind and tide data (nowcast, forecast and historical); (2) converts data to hydrodynamic model input; (3) initializes a sequence of hydrodynamic models starting at pre-defined intervals on multi-processor workstation, and (4) provides visualization on Google Earth. Each model starts from the latest observed data, so that the multiple models provide a range of forecast hydrodynamics with different initial and boundary conditions reflecting different forecast horizons. As a simple testbed for integration and visualization strategies, a Runge-Kutta 4th order (RK4) particle transport method is used for spill transport. The model forecast uncertainty is estimated by the difference between forecasts in the sequenced model runs. The hyospy integrative system shows that challenges in operational oil spill modeling can be met by leveraging existing models and web-visualization methods to provide tools for emergency managers.", 
-  "description": "", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "http://www.youtube.com/t/terms", 
-  "thumbnail_url": "http://i1.ytimg.com/vi/lorRZWM-dSc/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1984,
+  "category": "SciPy 2013",
+  "slug": "oil-spill-modeling-and-uncertainty-forecasts-with",
+  "title": "Oil spill modeling and uncertainty forecasts with Python; SciPy 2013 Presentation",
+  "summary": "Authors: Hou,Xianlong, University of Texas at Austin; Hodges,Ben,\nUniversity of Texas at Austin\n\nTrack: Meteorology, Climatology, Atmospheric and Oceanic Science\n\nA new method is presented to provide automatic sequencing of multiple\nhydrodynamic models and automated analysis of model forecast\nuncertainty. The Hydrodynamic and Oil Spill model Python (hyospy)\nwrapper was developed to run a hydrodynamic model, link with the oil\nspill, and visualize results. Hyospy completes the following steps\nautomatically: (1) downloads wind and tide data (nowcast, forecast and\nhistorical); (2) converts data to hydrodynamic model input; (3)\ninitializes a sequence of hydrodynamic models starting at pre-defined\nintervals on multi-processor workstation, and (4) provides visualization\non Google Earth. Each model starts from the latest observed data, so\nthat the multiple models provide a range of forecast hydrodynamics with\ndifferent initial and boundary conditions reflecting different forecast\nhorizons. As a simple testbed for integration and visualization\nstrategies, a Runge-Kutta 4th order (RK4) particle transport method is\nused for spill transport. The model forecast uncertainty is estimated by\nthe difference between forecasts in the sequenced model runs. The hyospy\nintegrative system shows that challenges in operational oil spill\nmodeling can be met by leveraging existing models and web-visualization\nmethods to provide tools for emergency managers.\n",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "thumbnail_url": "http://i1.ytimg.com/vi/lorRZWM-dSc/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=lorRZWM-dSc", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=lorRZWM-dSc",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=lorRZWM-dSc", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=lorRZWM-dSc",
   "tags": [
     "Tech"
-  ], 
-  "speakers": [], 
+  ],
+  "speakers": [],
   "recorded": "2013-07-02"
 }
