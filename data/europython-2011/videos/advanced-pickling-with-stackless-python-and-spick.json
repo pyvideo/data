@@ -1,31 +1,31 @@
 {
-  "id": 1166, 
-  "category": "EuroPython 2011", 
-  "slug": "advanced-pickling-with-stackless-python-and-spick", 
-  "title": "Advanced Pickling with Stackless Python and sPickle", 
-  "summary": "[EuroPython 2011] Anselm Kruis - 24 June 2011 in \"Track Tagliatelle \"\n\n", 
-  "description": "Stackless Python supports pickling of a wider range of types than conventional\nC-Python, including stack frames and code objects. On this basis it is\npossible to extend further the pickle.Pickler class in order to serialise\nclasses, modules, packages up to certain limits. The [sPickle\npackage](http://pypi.python.org/pypi/sPickle) provides such an extended\nPickler. The code was developed as part of a commercial project and recently\nreleased as free software by science + computing ag. Currently it requires\nStackless Python 2.7.\n\nIn my presentation, I'll first demonstrate some applications of the sPickle\npackage including serialisation of modules and executing parts of a program on\na remote computer using RPyC and Paramiko.\n\nIn the second part of my speech, I'll give some insight in the internal\noperations of sPickle and the lessons learned during its development.\nExtending the Pickler showed to be like opening a can of worms. You have take\ncare of many odds and ends to get it right. I'll point out some weak points in\nthe implementation of the conventional pickling code and I'll also show the\nlimits of the current sPickle implementation.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/rwhZ4joMLsI/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1166,
+  "category": "EuroPython 2011",
+  "slug": "advanced-pickling-with-stackless-python-and-spick",
+  "title": "Advanced Pickling with Stackless Python and sPickle",
+  "summary": "[EuroPython 2011] Anselm Kruis - 24 June 2011 in \"Track Tagliatelle \"\n",
+  "description": "Stackless Python supports pickling of a wider range of types than\nconventional C-Python, including stack frames and code objects. On this\nbasis it is possible to extend further the pickle.Pickler class in order\nto serialise classes, modules, packages up to certain limits. The\n`sPickle package <http://pypi.python.org/pypi/sPickle>`__ provides such\nan extended Pickler. The code was developed as part of a commercial\nproject and recently released as free software by science + computing\nag. Currently it requires Stackless Python 2.7.\n\nIn my presentation, I'll first demonstrate some applications of the\nsPickle package including serialisation of modules and executing parts\nof a program on a remote computer using RPyC and Paramiko.\n\nIn the second part of my speech, I'll give some insight in the internal\noperations of sPickle and the lessons learned during its development.\nExtending the Pickler showed to be like opening a can of worms. You have\ntake care of many odds and ends to get it right. I'll point out some\nweak points in the implementation of the conventional pickling code and\nI'll also show the limits of the current sPickle implementation.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/rwhZ4joMLsI/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=rwhZ4joMLsI", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=rwhZ4joMLsI",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=rwhZ4joMLsI", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=rwhZ4joMLsI",
   "tags": [
-    "packages", 
-    "pickling", 
-    "science", 
+    "packages",
+    "pickling",
+    "science",
     "stackless"
-  ], 
+  ],
   "speakers": [
     "Anselm Kruis"
-  ], 
+  ],
   "recorded": "2011-07-07"
 }

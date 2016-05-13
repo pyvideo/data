@@ -1,29 +1,29 @@
 {
-  "id": 1030, 
-  "category": "EuroPython 2011", 
-  "slug": "beyond-python-enhanced-generators", 
-  "title": "Beyond Python Enhanced Generators", 
-  "summary": "[EuroPython 2011] Erik Groeneveld - 23 June 2011 in \"Track Spaghetti\"\n\n", 
-  "description": "Right after the introduction of PEP342 (Enhanced Generators) we started to\ndecompose programs into generators. It was soon discovered that for real-life\nproblems one would need something like \"yield from\", as is described in\nPEP380. At that time, we already had a similar solution called\n'[compose](http://weightless.io/compose)', which we adapted to PEP380.\n\nAfter 5 years working with 'compose', we found a small set of other features\nthat are essential if you want to use Enhanced Generators not only as a way of\nlightweight command scheduling, but also a a pipe-line, or parser. Indeed, the\nlatter concepts are what real co-routines are about.\n\nThis talk introduces what is needed on top of PEPs 342 and 380 based on\nexperience with decomposing big enterprise search engines into co-routines.\nParts of it have been presented on SPA (2008) and EuroPython (2010).\nUnderstanding of Enhanced Generators is a prerequisite.\n\nExperience has shown that the topic is subtle enough to require quite some\ntime for full understanding, hence the suggestion for a 90 min slot.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/yWR00Y6tkC8/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1030,
+  "category": "EuroPython 2011",
+  "slug": "beyond-python-enhanced-generators",
+  "title": "Beyond Python Enhanced Generators",
+  "summary": "[EuroPython 2011] Erik Groeneveld - 23 June 2011 in \"Track Spaghetti\"\n",
+  "description": "Right after the introduction of PEP342 (Enhanced Generators) we started\nto decompose programs into generators. It was soon discovered that for\nreal-life problems one would need something like \"yield from\", as is\ndescribed in PEP380. At that time, we already had a similar solution\ncalled '`compose <http://weightless.io/compose>`__\\ ', which we adapted\nto PEP380.\n\nAfter 5 years working with 'compose', we found a small set of other\nfeatures that are essential if you want to use Enhanced Generators not\nonly as a way of lightweight command scheduling, but also a a pipe-line,\nor parser. Indeed, the latter concepts are what real co-routines are\nabout.\n\nThis talk introduces what is needed on top of PEPs 342 and 380 based on\nexperience with decomposing big enterprise search engines into\nco-routines. Parts of it have been presented on SPA (2008) and\nEuroPython (2010). Understanding of Enhanced Generators is a\nprerequisite.\n\nExperience has shown that the topic is subtle enough to require quite\nsome time for full understanding, hence the suggestion for a 90 min\nslot.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/yWR00Y6tkC8/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=yWR00Y6tkC8", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=yWR00Y6tkC8",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=yWR00Y6tkC8", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=yWR00Y6tkC8",
   "tags": [
-    "generators", 
+    "generators",
     "search"
-  ], 
+  ],
   "speakers": [
     "Erik Groeneveld"
-  ], 
+  ],
   "recorded": "2011-07-24"
 }

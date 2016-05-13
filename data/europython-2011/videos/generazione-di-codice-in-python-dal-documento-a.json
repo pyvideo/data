@@ -1,29 +1,29 @@
 {
-  "id": 1185, 
-  "category": "EuroPython 2011", 
-  "slug": "generazione-di-codice-in-python-dal-documento-a", 
-  "title": "Generazione di codice in Python : dal documento al codice C++ passando per la modellizzazione UML.", 
-  "summary": "[EuroPython 2011] Francesco Bochicchio - 24 June 2011 in \"Track Italiana Big\nMac \"\n\n", 
-  "description": "Intendo presentare un programma di utilit\u00e0 che ho sviluppato per aiutare me e\ni miei colleghi nel nostro attuale progetto.Space Software Italia Questo\nprogramma esegue le seguenti attivit\u00e0: - Analizza un documento Microsoft Word\n- generato automaticamente - allo scopo di estrarne le informazioni relative\nalle strutture dati da usare per comunicare con dispositivi e/o programmi\nsoftware. Tali informazioni sono memorizzate in un modello UML, generato\ninterfacciandosi con il CASE tool usato in azienda (Rational Rose). - Utilizza\ni dati in un modello UML - di solito una versione migliorata a mano di quello\ngenerato automaticamente - per generare un set di classi C++, una per\nmessaggio, che forniscono i metodi per serializzare/deserializzare i messaggi\nusando le API specifiche del progetto. Il programma \u00e8 stato scritto in Python\n2.x ed utilizza i seguenti moduli esterni: - pywin32: per interfacciare sia MS\nWord che il tool CASE usando lo standard COM. - ply : per analizzare il file\nin cui il tool CASE memorizza il modello,\n\n", 
-  "quality_notes": "", 
-  "language": "Italian", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/jfBGt_g0Z4M/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1185,
+  "category": "EuroPython 2011",
+  "slug": "generazione-di-codice-in-python-dal-documento-a",
+  "title": "Generazione di codice in Python : dal documento al codice C++ passando per la modellizzazione UML.",
+  "summary": "[EuroPython 2011] Francesco Bochicchio - 24 June 2011 in \"Track Italiana\nBig Mac \"\n",
+  "description": "Intendo presentare un programma di utilit\u00e0 che ho sviluppato per aiutare\nme e i miei colleghi nel nostro attuale progetto.Space Software Italia\nQuesto programma esegue le seguenti attivit\u00e0: - Analizza un documento\nMicrosoft Word - generato automaticamente - allo scopo di estrarne le\ninformazioni relative alle strutture dati da usare per comunicare con\ndispositivi e/o programmi software. Tali informazioni sono memorizzate\nin un modello UML, generato interfacciandosi con il CASE tool usato in\nazienda (Rational Rose). - Utilizza i dati in un modello UML - di solito\nuna versione migliorata a mano di quello generato automaticamente - per\ngenerare un set di classi C++, una per messaggio, che forniscono i\nmetodi per serializzare/deserializzare i messaggi usando le API\nspecifiche del progetto. Il programma \u00e8 stato scritto in Python 2.x ed\nutilizza i seguenti moduli esterni: - pywin32: per interfacciare sia MS\nWord che il tool CASE usando lo standard COM. - ply : per analizzare il\nfile in cui il tool CASE memorizza il modello,\n",
+  "quality_notes": "",
+  "language": "Italian",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/jfBGt_g0Z4M/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=jfBGt_g0Z4M", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=jfBGt_g0Z4M",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=jfBGt_g0Z4M", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=jfBGt_g0Z4M",
   "tags": [
-    "api", 
+    "api",
     "ply"
-  ], 
+  ],
   "speakers": [
     "Francesco Bochicchio"
-  ], 
+  ],
   "recorded": "2011-07-13"
 }

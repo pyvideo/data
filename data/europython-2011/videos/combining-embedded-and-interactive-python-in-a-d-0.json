@@ -1,29 +1,29 @@
 {
-  "id": 1160, 
-  "category": "EuroPython 2011", 
-  "slug": "combining-embedded-and-interactive-python-in-a-d-0", 
-  "title": "Combining Embedded and Interactive Python in a Debugger:  A Case Study", 
-  "summary": "[EuroPython 2011] Caroline Tice - 23 June 2011 in \"Track Ravioli\"\n\n", 
-  "description": "LLDB is an open source compiler currently under development. LLDB incorporates\nPython in several different ways: From the command line, one can drop into an\ninteractive Python script interpreter, entering normal Python interactive\ncommands and having them interpreted and executed. In addition, the LLDB\ndebugger has a programming API that allows users to call actual debugger\nfunctions and access real debugger objects. This API is run through SWIG and\nconverted into a Python module that gets automatically imported into the\ninteractive interpreter inside LLDB. The upshot of this is that, in the Python\nmode, users can call the API functions as if they were regular Python\nfunctions. This is turn means that users can do things like hit a breakpoint,\ncall the appropriate API functions to get the actual current frame object,\ncheck to see if the caller function several frames up the stack is a\nparticular function, and if so, perform some other interesting action. LLDB\nalso allows for breakpoint commands to be written in Python (which therefore\nallows them to call the API functions), as well as having a command that\ninterprets and executes a single line of Python.\n\nBecause the API and all of the debugger functionality is available in a Python\nmodule, it is also possible to write a debugger front end completely in Python\nand have it import the LLDB module and call the LLDB API functions (which\ncalls into the LLDB shared library), to create a new debugger front end. Our\ntest suite takes advantage of this to run tests on the LLDB library without\nhaving to start up an interactive LLDB debubgger session.\n\nThere were many interesting problems encountered and overcome in getting all\nof this to work. LLDB combines both interactive Python and embedded Python.\nThere were some interesting things worked out so that a single Python\nenvironment dictionary is used for the entire debugger session: A user can pop\ninto and out of the interactive interpreter and have access at any time to\nanything defined in any previous visit to the interactive interpreter (within\nthe same debug session); breakpoint commands have access to everything defined\nin the interactive session; so do embedded script commands. It gets even more\ncomplicated, because LLDB can have multiple debugger sessions alive at once,\nand each debugger session has its own Python interpreter with its own\ndictionary and must not be allowed to interfere with another session's state.\nIn this talk I will discuss how we implemented many of these features in LLDB,\npointing out some of the more interesting problems we encountered and how we\novercame them, and demonstrate it all working in LLDB.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/e0QaqrVbNMY/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1160,
+  "category": "EuroPython 2011",
+  "slug": "combining-embedded-and-interactive-python-in-a-d-0",
+  "title": "Combining Embedded and Interactive Python in a Debugger:  A Case Study",
+  "summary": "[EuroPython 2011] Caroline Tice - 23 June 2011 in \"Track Ravioli\"\n",
+  "description": "LLDB is an open source compiler currently under development. LLDB\nincorporates Python in several different ways: From the command line,\none can drop into an interactive Python script interpreter, entering\nnormal Python interactive commands and having them interpreted and\nexecuted. In addition, the LLDB debugger has a programming API that\nallows users to call actual debugger functions and access real debugger\nobjects. This API is run through SWIG and converted into a Python module\nthat gets automatically imported into the interactive interpreter inside\nLLDB. The upshot of this is that, in the Python mode, users can call the\nAPI functions as if they were regular Python functions. This is turn\nmeans that users can do things like hit a breakpoint, call the\nappropriate API functions to get the actual current frame object, check\nto see if the caller function several frames up the stack is a\nparticular function, and if so, perform some other interesting action.\nLLDB also allows for breakpoint commands to be written in Python (which\ntherefore allows them to call the API functions), as well as having a\ncommand that interprets and executes a single line of Python.\n\nBecause the API and all of the debugger functionality is available in a\nPython module, it is also possible to write a debugger front end\ncompletely in Python and have it import the LLDB module and call the\nLLDB API functions (which calls into the LLDB shared library), to create\na new debugger front end. Our test suite takes advantage of this to run\ntests on the LLDB library without having to start up an interactive LLDB\ndebubgger session.\n\nThere were many interesting problems encountered and overcome in getting\nall of this to work. LLDB combines both interactive Python and embedded\nPython. There were some interesting things worked out so that a single\nPython environment dictionary is used for the entire debugger session: A\nuser can pop into and out of the interactive interpreter and have access\nat any time to anything defined in any previous visit to the interactive\ninterpreter (within the same debug session); breakpoint commands have\naccess to everything defined in the interactive session; so do embedded\nscript commands. It gets even more complicated, because LLDB can have\nmultiple debugger sessions alive at once, and each debugger session has\nits own Python interpreter with its own dictionary and must not be\nallowed to interfere with another session's state. In this talk I will\ndiscuss how we implemented many of these features in LLDB, pointing out\nsome of the more interesting problems we encountered and how we overcame\nthem, and demonstrate it all working in LLDB.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/e0QaqrVbNMY/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=e0QaqrVbNMY", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=e0QaqrVbNMY",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=e0QaqrVbNMY", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=e0QaqrVbNMY",
   "tags": [
-    "api", 
+    "api",
     "embedded"
-  ], 
+  ],
   "speakers": [
     "Caroline Tice"
-  ], 
+  ],
   "recorded": "2011-07-07"
 }

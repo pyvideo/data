@@ -1,34 +1,34 @@
 {
-  "id": 1064, 
-  "category": "EuroPython 2011", 
-  "slug": "pythons-other-collection-types-and-algorithms", 
-  "title": "Python's other collection types and algorithms", 
-  "summary": "[EuroPython 2011] Andrew Dalke - 21 June 2011 in \"Track Spaghetti\"\n\n", 
-  "description": "It's impossible to use Python without learning about lists, dictionaries and\ntuples, and most people have at least heard about sets. These four collection\ntypes are so important and useful that Python has special syntax for creating\nthem.\n\nFewer people know about Python's other built-in collection data types and\nalgorithms. A deque supports fast appends and pops from both ends and is great\nfor breath-first searches, the heapq module helps you construct a priority\nqueue on top of lists, and the bisect module is handy for quick binary\nsearches of an already sorted list.\n\nThe defaultdict uses the dict **missing** hook as a better solution to\nsetdefault, OrderedDict is a dictionary that preserves insertion order, and\nCounter is a dictionary specialized for counting hashable objects. A\nnamedtuple is handy if you want to support both index and attribute lookups\nfor the same item, and a frozenset is a hashable form of a set which can be\nused as keys in a dictionary or set.\n\nMy talk will go over these 8 different classes and modules. I'll give concrete\nexamples of how to use them and why they are useful. The target audience is\nintermediate programmers who are familiar with the Python's standard data\ntypes and with data types in general, but who don't know all of the\nfunctionality available in modern Python.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/7QiuxqEpq2o/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1064,
+  "category": "EuroPython 2011",
+  "slug": "pythons-other-collection-types-and-algorithms",
+  "title": "Python's other collection types and algorithms",
+  "summary": "[EuroPython 2011] Andrew Dalke - 21 June 2011 in \"Track Spaghetti\"\n",
+  "description": "It's impossible to use Python without learning about lists, dictionaries\nand tuples, and most people have at least heard about sets. These four\ncollection types are so important and useful that Python has special\nsyntax for creating them.\n\nFewer people know about Python's other built-in collection data types\nand algorithms. A deque supports fast appends and pops from both ends\nand is great for breath-first searches, the heapq module helps you\nconstruct a priority queue on top of lists, and the bisect module is\nhandy for quick binary searches of an already sorted list.\n\nThe defaultdict uses the dict **missing** hook as a better solution to\nsetdefault, OrderedDict is a dictionary that preserves insertion order,\nand Counter is a dictionary specialized for counting hashable objects. A\nnamedtuple is handy if you want to support both index and attribute\nlookups for the same item, and a frozenset is a hashable form of a set\nwhich can be used as keys in a dictionary or set.\n\nMy talk will go over these 8 different classes and modules. I'll give\nconcrete examples of how to use them and why they are useful. The target\naudience is intermediate programmers who are familiar with the Python's\nstandard data types and with data types in general, but who don't know\nall of the functionality available in modern Python.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/7QiuxqEpq2o/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=7QiuxqEpq2o", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=7QiuxqEpq2o",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=7QiuxqEpq2o", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=7QiuxqEpq2o",
   "tags": [
-    "bisect", 
-    "dictionaries", 
-    "frozenset", 
-    "heapq", 
-    "learning", 
-    "namedtuple", 
+    "bisect",
+    "dictionaries",
+    "frozenset",
+    "heapq",
+    "learning",
+    "namedtuple",
     "ordereddict"
-  ], 
+  ],
   "speakers": [
     "Andrew Dalke"
-  ], 
+  ],
   "recorded": "2011-07-18"
 }

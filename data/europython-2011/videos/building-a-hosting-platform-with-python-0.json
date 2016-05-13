@@ -1,34 +1,34 @@
 {
-  "id": 1161, 
-  "category": "EuroPython 2011", 
-  "slug": "building-a-hosting-platform-with-python-0", 
-  "title": "Building a hosting platform with Python", 
-  "summary": "[EuroPython 2011] Andrew Godwin - 20 June 2011 in \"Track Lasagne\"\n\n", 
-  "description": "At ep.io we built a Python hosting platform from the ground up, designed to\nrun large numbers of web applications on a small number of physical machines\nboth securely and in a reasonably scalable way. This talk will show you how we\nbuilt our infrastructure - using Redis, eventlet, PostgreSQL and more - and\nwhat lessons we learnt from our first few thousand deploys.\n\nSee how we split services into multiple processes and greenthreads; the pains\nof building a cooperatively-multitasking PTY module; how Redis isn't the\nanswer to everything, but is still very useful; how to persuade third-party\nsoftware to work securely in a shared environment; and how important it is to\nhave good logging, especially when you have more than five servers.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/hAqtC_c2x1s/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1161,
+  "category": "EuroPython 2011",
+  "slug": "building-a-hosting-platform-with-python-0",
+  "title": "Building a hosting platform with Python",
+  "summary": "[EuroPython 2011] Andrew Godwin - 20 June 2011 in \"Track Lasagne\"\n",
+  "description": "At ep.io we built a Python hosting platform from the ground up, designed\nto run large numbers of web applications on a small number of physical\nmachines both securely and in a reasonably scalable way. This talk will\nshow you how we built our infrastructure - using Redis, eventlet,\nPostgreSQL and more - and what lessons we learnt from our first few\nthousand deploys.\n\nSee how we split services into multiple processes and greenthreads; the\npains of building a cooperatively-multitasking PTY module; how Redis\nisn't the answer to everything, but is still very useful; how to\npersuade third-party software to work securely in a shared environment;\nand how important it is to have good logging, especially when you have\nmore than five servers.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/hAqtC_c2x1s/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=hAqtC_c2x1s", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=hAqtC_c2x1s",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=hAqtC_c2x1s", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=hAqtC_c2x1s",
   "tags": [
-    "ep.io", 
-    "hosting", 
-    "infrastructure", 
-    "postgresql", 
-    "redis", 
-    "scalable", 
+    "ep.io",
+    "hosting",
+    "infrastructure",
+    "postgresql",
+    "redis",
+    "scalable",
     "web"
-  ], 
+  ],
   "speakers": [
     "Andrew Godwin"
-  ], 
+  ],
   "recorded": "2011-07-07"
 }

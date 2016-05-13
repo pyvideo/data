@@ -1,34 +1,34 @@
 {
-  "id": 1158, 
-  "category": "EuroPython 2011", 
-  "slug": "data-driven-cache-invalidation-0", 
-  "title": "Data Driven Cache Invalidation", 
-  "summary": "[EuroPython 2011] Magnus Hagander - 23 June 2011 in \"Track Ravioli\"\n\n", 
-  "description": "In todays world, nobody (should) deploy a web application facing the internet\nwithout having a proper caching system in place. There are many different\nsolutions to choose from, from manual use of memcached through framework\nintegrated caching to external caches like Squid or Varnish. Most modern\nframeworks come with integrated functionality for at least one of these\nmethods, and often more than one.\n\nHowever, they often relies on all traffic going through the same framework to\nwork properly - a caching layer in Rails is hard to share with one in Django.\nThis talk will show a way to break the design rules of these frameworks just a\nlittle, and have the database help solve this problem.\n\nThis talk will use a small application written in Python using Django to\nillustrate the examples, but the method is language independent.\nUnsurprisingly, the database used is PostgreSQL.\n\n", 
-  "quality_notes": "", 
-  "language": "English", 
-  "copyright_text": "Standard YouTube License", 
-  "thumbnail_url": "http://i.ytimg.com/vi/QCXwsQp8rmM/hqdefault.jpg", 
-  "duration": null, 
+  "id": 1158,
+  "category": "EuroPython 2011",
+  "slug": "data-driven-cache-invalidation-0",
+  "title": "Data Driven Cache Invalidation",
+  "summary": "[EuroPython 2011] Magnus Hagander - 23 June 2011 in \"Track Ravioli\"\n",
+  "description": "In todays world, nobody (should) deploy a web application facing the\ninternet without having a proper caching system in place. There are many\ndifferent solutions to choose from, from manual use of memcached through\nframework integrated caching to external caches like Squid or Varnish.\nMost modern frameworks come with integrated functionality for at least\none of these methods, and often more than one.\n\nHowever, they often relies on all traffic going through the same\nframework to work properly - a caching layer in Rails is hard to share\nwith one in Django. This talk will show a way to break the design rules\nof these frameworks just a little, and have the database help solve this\nproblem.\n\nThis talk will use a small application written in Python using Django to\nillustrate the examples, but the method is language independent.\nUnsurprisingly, the database used is PostgreSQL.\n",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube License",
+  "thumbnail_url": "http://i.ytimg.com/vi/QCXwsQp8rmM/hqdefault.jpg",
+  "duration": null,
   "videos": [
     {
-      "url": "http://www.youtube.com/watch?v=QCXwsQp8rmM", 
-      "length": 0, 
-      "type": "youtube"
+      "url": "http://www.youtube.com/watch?v=QCXwsQp8rmM",
+      "type": "youtube",
+      "length": 0
     }
-  ], 
-  "source_url": "http://www.youtube.com/watch?v=QCXwsQp8rmM", 
+  ],
+  "source_url": "http://www.youtube.com/watch?v=QCXwsQp8rmM",
   "tags": [
-    "cache", 
-    "database", 
-    "deploy", 
-    "design", 
-    "django", 
-    "framework", 
+    "cache",
+    "database",
+    "deploy",
+    "design",
+    "django",
+    "framework",
     "web"
-  ], 
+  ],
   "speakers": [
     "Magnus Hagander"
-  ], 
+  ],
   "recorded": "2011-07-07"
 }
