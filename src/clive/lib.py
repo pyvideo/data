@@ -83,4 +83,5 @@ def save_json_data(data_items):
     for fn, data in data_items:
         with open(fn, 'w') as fp:
             json.dump(reorder_dict(data), fp, indent=2, sort_keys=False,
-                      default=json_convert)
+                      default=json_convert,
+                      separators=(',', ': '))
