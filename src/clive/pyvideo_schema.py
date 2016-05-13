@@ -47,9 +47,9 @@ SCHEMAS = {
                 ]))
             ),
             ('source_url', TextT(url=True)),
-            ('recorded', DateT()),
             ('tags', ListOfT(TextT())),
             ('speakers', ListOfT(TextT())),
+            ('recorded', DateT()),
         ]),
 
         'category': DictOfT([

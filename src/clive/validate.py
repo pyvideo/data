@@ -14,13 +14,14 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from clive.pyvideo_schema import SCHEMAS
+from clive.schemalib import get_version
 
 
 def validate_item(fn, json_data):
     # FIXME: This is kind of cheating. Need a better way to distinguish data
     # types.
     type_ = 'category' if fn.endswith('category.json') else 'video'
-    vers = json_data.get('schema_version', '1')
+    vers = get_version(json_data)
     return SCHEMAS[vers][type_].validate(json_data, 'TOP')
 
 

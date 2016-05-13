@@ -153,3 +153,16 @@ class DictOfT(T):
                 self.keyval_dict[key].validate(item, '%s:%s' % (depth, key))
             )
         return results
+
+
+def get_type(json_data):
+    return json_data.get('schema_type', 'video')
+
+
+def get_version(json_data):
+    """Returns the schema version for this data object
+
+    :returns: version as a string
+
+    """
+    return json_data.get('schema_version', '1')

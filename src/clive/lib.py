@@ -18,6 +18,9 @@ import datetime
 import json
 import os
 
+from clive.pyvideo_schema import SCHEMAS
+from clive.schemalib import get_version
+
 
 def load_json_data(path):
     """Parses and returns all video files for a path
@@ -60,17 +63,22 @@ def json_convert(obj):
     return obj
 
 
-def reorder_dict(data):
+def reorder_dict(object_type, json_data):
+    """Converts dict to OrderedDict using schema order
+
+    This reorders the data in a dict using the order the item is defined in the
+    schema.
+
+    """
+    version = get_version(json_data)
+    schema = SCHEMAS[version][object_type]
+
     new_dict = OrderedDict()
-    # FIXME: Change this to use the structure in validate rather than
-    # have the set of information in two places.
-    # FIXME: This needs to reorder videos, too.
-    for key in ('id', 'category', 'slug', 'title', 'summary', 'description',
-                'quality_notes', 'language', 'copyright_text', 'thumbnail_url',
-                'duration', 'videos', 'source_url', 'tags', 'speakers',
-                'recorded'):
-        if key in data:
-            new_dict[key] = data[key]
+
+    for key, val in schema.keyvals:
+        if key in json_data:
+            new_dict[key] = json_data[key]
+
     return new_dict
 
 
@@ -82,6 +90,13 @@ def save_json_data(data_items):
     """
     for fn, data in data_items:
         with open(fn, 'w') as fp:
-            json.dump(reorder_dict(data), fp, indent=2, sort_keys=False,
-                      default=json_convert,
-                      separators=(',', ': '))
+            type_ = 'category' if fn.endswith('category.json') else 'video'
+            data = reorder_dict(type_, data)
+            json.dump(
+                data,
+                fp,
+                indent=2,
+                sort_keys=False,
+                default=json_convert,
+                separators=(',', ': ')
+            )
