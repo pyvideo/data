@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "overcoming-troubles-with-class-based-generic-views",
   "title": "Overcoming Troubles with Class-based Generic Views",
-  "summary": "OVERCOMING TROUBLES WITH CLASS-BASED GENERIC VIEWS\nAndrew Pinkham\nThursday 2:45 p.m.--3:30 p.m.\n\nAudience level: Intermediate\n\nDESCRIPTION\nThis talk will introduce both Class-based Views (CBV) and Class-based Generic Views (CBGV), before moving into how to customize CBGV, focusing in particular on data generation at the view and form level. The talk will further involve the source code for CBGV, Validation, and Python's Method Resolution Order.\n\nABSTRACT\nWhen tasked with building a Banking website, I set out to build the the site using Class-based Generic View (CBGV). As I built the features, I quickly discovered that assumptions I had made about Validation and CBGV were wrong, circumventing data generation and propagation in the banking app. In this talk, I will detail the solutions I came up with to the various problems I encountered while building the site. As such, this talk is an in-depth look at CBGV, that will involve a short tutorial in both Class-based Views (CBV) and CBGV. We will then examine the source code of CBGV, allowing for customization of the project's views. Notably, these customizations allow for data generation in Forms and Views, instead of Models. This talk will also offer a short analysis of Validation, and quickly look at Python's Method Resolution Order.\n\nBy the end of the talk, you will have a fundamental understanding of both CBV and CBGV, and you will know which functions to override in Models, Forms, and Views to automatically generate data.",
+  "summary": "OVERCOMING TROUBLES WITH CLASS-BASED GENERIC VIEWS\n\nThursday 2:45 p.m.--3:30 p.m.\n\nAudience level: Intermediate\n\nDESCRIPTION\nThis talk will introduce both Class-based Views (CBV) and Class-based Generic Views (CBGV), before moving into how to customize CBGV, focusing in particular on data generation at the view and form level. The talk will further involve the source code for CBGV, Validation, and Python's Method Resolution Order.\n\nABSTRACT\nWhen tasked with building a Banking website, I set out to build the the site using Class-based Generic View (CBGV). As I built the features, I quickly discovered that assumptions I had made about Validation and CBGV were wrong, circumventing data generation and propagation in the banking app. In this talk, I will detail the solutions I came up with to the various problems I encountered while building the site. As such, this talk is an in-depth look at CBGV, that will involve a short tutorial in both Class-based Views (CBV) and CBGV. We will then examine the source code of CBGV, allowing for customization of the project's views. Notably, these customizations allow for data generation in Forms and Views, instead of Models. This talk will also offer a short analysis of Validation, and quickly look at Python's Method Resolution Order.\n\nBy the end of the talk, you will have a fundamental understanding of both CBV and CBGV, and you will know which functions to override in Models, Forms, and Views to automatically generate data.",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 2757,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=8eEjTwflGlw",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=8eEjTwflGlw",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Andrew Pinkham"
+  ],
   "recorded": "2013-10-01"
 }

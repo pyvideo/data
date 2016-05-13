@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "database-sharding-with-django",
   "title": "Database Sharding with Django",
-  "summary": "Database Sharding with Django\nAsh Christopher\nWednesday 4 p.m.--4:45 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nDjango works great for single database webapps, but did you know they give us the tools to create webapps with sharded data right out of the box? This talk will go over how we leveraged Django's features to add sharding to our webapp infrastructure.\nAbstract\n\nTopics to cover:\n1. Why do you need to shard your data?     lots of data     lots of writes\n\n2. What should you do before sharding?     Scale up - throw money at it.     Feature partitioning - split feature data on different databases     Sharded databases.\n\n3. How to set up multiple databases in Django     tools that we used at Wave.     talk about what Django gives us right out of the box (DB Routers)     How database routers work.     Gotchas when using South for DB migrations.\n\n4. The downsides of multi-database systems.     what we lose (ForeignKeys, Transactions management, select_related(), prefetch_related())\n\n5. Scaling the database via sharding.     what does this mean?     how do I pick a key to shard on?     what makes a good and bad sharding key?\n\n6. Database routers for sharding.\n7. New tooling that needs to be written to deal with database migrations.     deal with database migrations\n\n8. How to interact with your data through the ORM when it's sharded.\n9. Need to start using Globally Unique PK's     go over a few different strategies used by other companies.     strategy for unique ID generation in Python.\n\n10. Transactions + Sharded data.     transactions are only useful on same-shard\n\n11. Balancing sharded data across servers     we chose multiple DB's per node.     make db migration a DevOps task.     downsides (limited db connections).",
+  "summary": "Database Sharding with Django\n\nWednesday 4 p.m.--4:45 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nDjango works great for single database webapps, but did you know they give us the tools to create webapps with sharded data right out of the box? This talk will go over how we leveraged Django's features to add sharding to our webapp infrastructure.\nAbstract\n\nTopics to cover:\n1. Why do you need to shard your data?     lots of data     lots of writes\n\n2. What should you do before sharding?     Scale up - throw money at it.     Feature partitioning - split feature data on different databases     Sharded databases.\n\n3. How to set up multiple databases in Django     tools that we used at Wave.     talk about what Django gives us right out of the box (DB Routers)     How database routers work.     Gotchas when using South for DB migrations.\n\n4. The downsides of multi-database systems.     what we lose (ForeignKeys, Transactions management, select_related(), prefetch_related())\n\n5. Scaling the database via sharding.     what does this mean?     how do I pick a key to shard on?     what makes a good and bad sharding key?\n\n6. Database routers for sharding.\n7. New tooling that needs to be written to deal with database migrations.     deal with database migrations\n\n8. How to interact with your data through the ORM when it's sharded.\n9. Need to start using Globally Unique PK's     go over a few different strategies used by other companies.     strategy for unique ID generation in Python.\n\n10. Transactions + Sharded data.     transactions are only useful on same-shard\n\n11. Balancing sharded data across servers     we chose multiple DB's per node.     make db migration a DevOps task.     downsides (limited db connections).",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 2368,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=bAaoSAoACEI",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=bAaoSAoACEI",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Ash Christopher"
+  ],
   "recorded": "2013-10-03"
 }

@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "epic-south-disasters-or-why-you-actually-need-to",
   "title": "Epic South Disasters: or, Why You Actually Need to Pay Attention to your DBMS",
-  "summary": "Epic South Disasters: or, Why You Actually Need to Pay Attention to your DBMS\nChristopher Adams\nWednesday 2 p.m.--2:45 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nUsing South has its gotchas. I'll go over some of them by using colorful examples involving data loss and hard-to-recover states.\nAbstract\n\nEpic South Disasters: or, why you actually need to pay attention to your DBMS\n\nA lot of people use South to manage database migrations. It's a great addition to the Django space that allows you to iterate quickly, without spending a lot of time writing and testing schema migrations. But what happens when South does things you didn't expect it to do? From the quibbles of differing database backends to phantom post_save signals sent during data migrations, this talk will offer a set of warnings illustrated by example. Prepare to be horrified.",
+  "summary": "Epic South Disasters: or, Why You Actually Need to Pay Attention to your DBMS\n\nWednesday 2 p.m.--2:45 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nUsing South has its gotchas. I'll go over some of them by using colorful examples involving data loss and hard-to-recover states.\nAbstract\n\nEpic South Disasters: or, why you actually need to pay attention to your DBMS\n\nA lot of people use South to manage database migrations. It's a great addition to the Django space that allows you to iterate quickly, without spending a lot of time writing and testing schema migrations. But what happens when South does things you didn't expect it to do? From the quibbles of differing database backends to phantom post_save signals sent during data migrations, this talk will offer a set of warnings illustrated by example. Prepare to be horrified.",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 2715,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=cYEGwb2ANto",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=cYEGwb2ANto",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Christopher Adams"
+  ],
   "recorded": "2013-10-03"
 }

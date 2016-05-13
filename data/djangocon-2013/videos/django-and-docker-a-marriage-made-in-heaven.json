@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "django-and-docker-a-marriage-made-in-heaven",
   "title": "Django and Docker: a Marriage Made in Heaven",
-  "summary": "Django and Docker: a Marriage Made in Heaven\nKen Cochrane\nTuesday 11:30 a.m.--12:15 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nDocker is a new tool that makes it easy to bundle and deploy your applications to any host running Docker. In this talk I'll show you how to get started with Docker, and how to use it to deploy your Django apps to your different server environments.\nAbstract\nOverview:\n\nThe goal of this talk is to show you how you can use Docker to make your life easier when developing Django apps. Developing Django apps is fun, but there is a lot of other stuff you need to do in your day to day work, that isn't fun. Let me show you how to let Docker help you make those tasks more fun, and take less time, so you can get back to doing the stuff you love.\nOutline:     Intro to docker for the people who have never heard of it.     Show how easy it is to setup a docker server     Explain a little how docker works under the covers.     Go over the steps that are needed to convert a django application to use docker     Show how easy it is to deploy your newly converted docker application to any number of docker servers (EC2, Rackspace, digital Ocean, local server, etc) with a few easy commands.     Go over the different use cases for using Docker in your development environment (testing, deployment, etc)     Questions",
+  "summary": "Django and Docker: a Marriage Made in Heaven\n\nTuesday 11:30 a.m.--12:15 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nDocker is a new tool that makes it easy to bundle and deploy your applications to any host running Docker. In this talk I'll show you how to get started with Docker, and how to use it to deploy your Django apps to your different server environments.\nAbstract\nOverview:\n\nThe goal of this talk is to show you how you can use Docker to make your life easier when developing Django apps. Developing Django apps is fun, but there is a lot of other stuff you need to do in your day to day work, that isn't fun. Let me show you how to let Docker help you make those tasks more fun, and take less time, so you can get back to doing the stuff you love.\nOutline:     Intro to docker for the people who have never heard of it.     Show how easy it is to setup a docker server     Explain a little how docker works under the covers.     Go over the steps that are needed to convert a django application to use docker     Show how easy it is to deploy your newly converted docker application to any number of docker servers (EC2, Rackspace, digital Ocean, local server, etc) with a few easy commands.     Go over the different use cases for using Docker in your development environment (testing, deployment, etc)     Questions",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 2516,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=_Q9YlJV-wgQ",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=_Q9YlJV-wgQ",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Ken Cochrane"
+  ],
   "recorded": "2013-10-01"
 }
