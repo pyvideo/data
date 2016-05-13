@@ -2,7 +2,7 @@
 
 import pytest
 
-from clive.validate import (
+from clive.schemalib import (
     BoolT,
     DateT,
     DictOfT,
@@ -11,7 +11,6 @@ from clive.validate import (
     Result,
     T,
     TextT,
-    validate_item,
 )
 
 
