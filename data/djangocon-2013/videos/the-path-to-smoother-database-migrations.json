@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "the-path-to-smoother-database-migrations",
   "title": "The Path to Smoother Database Migrations",
-  "summary": "The Path to Smoother Database Migrations\nNathan Duthoit\nTuesday 4:45 p.m.--5:30 p.m.\n\nAudience level: Experienced\n\nDescription\n\nMigrations are often applied as part of the deploy process. For most Django applications, this is fine. However, when your data becomes large, slow migrations and locked tables can result in downtime. Running migrations outside of the deploy process helps minimize the impact. This talk will go over this and other strategies I have found successful in minimizing downtime during database migrations.\nAbstract\nThe common approach and its challenges\nThe first step: running migrations out-of-band\nWhat it means\n\nCode deployed should work both before and after the migration is applied\nStep by step examples:     adding a new model     adding a required field to an existing model     changing an existing field\n\nThe challenges introduced:     More process and discipline required when developing     Continuous deployment becomes more challenging\n\nSpeeding up schema migrations\nWhen running the migration with south is too slow\n\nA showcase of pt-online-schema-change: how it works, its challenges\nHandling long data migrations:\n\nThe issue with running long data migrations using south: takes too long, ssh connection could be lost, no measure of progress\nOptions (advantages and challenges of each):     management command in screen     background (celery) tasks:     monitoring progress     throttling to reduce impact on the system",
+  "summary": "The Path to Smoother Database Migrations\n\nTuesday 4:45 p.m.--5:30 p.m.\n\nAudience level: Experienced\n\nDescription\n\nMigrations are often applied as part of the deploy process. For most\nDjango applications, this is fine. However, when your data becomes\nlarge, slow migrations and locked tables can result in downtime. Running\nmigrations outside of the deploy process helps minimize the impact. This\ntalk will go over this and other strategies I have found successful in\nminimizing downtime during database migrations. Abstract The common\napproach and its challenges The first step: running migrations\nout-of-band What it means\n\nCode deployed should work both before and after the migration is applied\nStep by step examples: adding a new model adding a required field to an\nexisting model changing an existing field\n\nThe challenges introduced: More process and discipline required when\ndeveloping Continuous deployment becomes more challenging\n\nSpeeding up schema migrations When running the migration with south is\ntoo slow\n\nA showcase of pt-online-schema-change: how it works, its challenges\nHandling long data migrations:\n\nThe issue with running long data migrations using south: takes too long,\nssh connection could be lost, no measure of progress Options (advantages\nand challenges of each): management command in screen background\n(celery) tasks: monitoring progress throttling to reduce impact on the\nsystem\n",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 2310,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=-z6bKWmiAiQ",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=-z6bKWmiAiQ",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Nathan Duthoit"
+  ],
   "recorded": "2013-10-01"
 }

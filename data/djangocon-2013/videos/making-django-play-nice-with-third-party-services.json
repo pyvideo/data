@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "making-django-play-nice-with-third-party-services",
   "title": "Making Django Play Nice with Third Party Services",
-  "summary": "MAKING DJANGO PLAY NICE WITH THIRD PARTY SERVICES\nMatt Makai\nThursday 10 a.m.--10:45 a.m.\n\nAudience level: Intermediate\n\nDESCRIPTION\nModern Django projects combine custom apps with third party services, such as Twilio and Stripe, to create a complete product. Choosing the right services for your application can make or break its usefulness to users as well as your sanity during maintenance. This talk will show you how to properly evaluate, integrate, and maximize what you get out of SaaS products in your Django projects.\n\nABSTRACT\nTHE FOUR STEPS: IDENTIFY, EVALUATE, INTEGRATE, AND MAINTAIN\nIdentify\n\nWhat problem needs to be solved?\nFinding services and their competitors\nCost model fit - are they successful when you're successful?\nIdentify Checklist\nEvaluate\n\nInstructions and walkthroughs - Stripe example\nTheir platform technology - Twilio example\nOpen source community and dev team responsiveness - Urban Airship example\nLong term viability and future service plans - Intercom.io example\nEvaluation checklist\nIntegrate\n\nSettings best practices, environment variables (SECRET_KEY)\nTest versus production (functional testing)\nLimiting coupling (code examples)\nWhen it breaks, how will you break?\nIntegration checklist\nMaintain\n\nKeeping up with security updates\nRegression testing\nMaintenance checklist\nConclude\n\nCombined Four Steps Checklist Review\nTakeaway story: SimpleGeo",
+  "summary": "MAKING DJANGO PLAY NICE WITH THIRD PARTY SERVICES\n\nThursday 10 a.m.--10:45 a.m.\n\nAudience level: Intermediate\n\nDESCRIPTION Modern Django projects combine custom apps with third party\nservices, such as Twilio and Stripe, to create a complete product.\nChoosing the right services for your application can make or break its\nusefulness to users as well as your sanity during maintenance. This talk\nwill show you how to properly evaluate, integrate, and maximize what you\nget out of SaaS products in your Django projects.\n\nABSTRACT THE FOUR STEPS: IDENTIFY, EVALUATE, INTEGRATE, AND MAINTAIN\nIdentify\n\nWhat problem needs to be solved? Finding services and their competitors\nCost model fit - are they successful when you're successful? Identify\nChecklist Evaluate\n\nInstructions and walkthroughs - Stripe example Their platform technology\n- Twilio example Open source community and dev team responsiveness -\nUrban Airship example Long term viability and future service plans -\nIntercom.io example Evaluation checklist Integrate\n\nSettings best practices, environment variables (SECRET\\_KEY) Test versus\nproduction (functional testing) Limiting coupling (code examples) When\nit breaks, how will you break? Integration checklist Maintain\n\nKeeping up with security updates Regression testing Maintenance\nchecklist Conclude\n\nCombined Four Steps Checklist Review Takeaway story: SimpleGeo\n",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 1954,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=iGP8DQIqxXs",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=iGP8DQIqxXs",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Matt Makai"
+  ],
   "recorded": "2013-10-01"
 }

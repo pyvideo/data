@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "rapid-prototyping-and-communicating-with-clients",
   "title": "Rapid Prototyping and Communicating with Clients",
-  "summary": "Rapid Prototyping and Communicating with Clients\nKatherine Chuang\nWednesday 2:45 p.m.--3:30 p.m.\n\nAudience level: Novice\n\nDescription\n\nThis talk will focus on the conversations around rapid prototyping. Miscommunication between developers and clients can occur because of different perspectives and work styles. In this talk I'll introduce interaction design concepts and templating with Django to show how easy it is to set up a minimally viable UI and explain the value in letting users feel that they have creative control.\nAbstract\n\nTalk will begin with an overview of some common communication problems between developers and non-technical clients. For example, the client may want to see a particular font but want to see how it looks before making a final decision. Allowing them the flexibility to edit this setting in the admin offsets some of the back and forth dialog and editing CSS files numerous times. (2 mins)\n\nIntro to Interaction Design (5 mins) - Wireframing and design pattern libraries - Screen sizes and responsive design\n\nIntro to Django Templates (8 mins) - Talk about the common template elements (such as include tag for DRY design) - Tips on structuring templates\n\nViewing web applications as data flow diagrams (5 mins) - Describe DFD diagrams - Organizing templates based on DFD components\n\nExample of apps with different UIs for same data (10 mins) - Picture dictionary (showing text, images, links) (github.com/katychuang/django-snapbook) - Interactive reports on statistics (github.com/katychuang/techsummitpr)\n\nExample of an app with pseudo apps (5 mins) - Using cloud hosted console for prototyping with django (katychuang.pythonanywhere.com)\n\nRecap on design patterns and templates (1 min)\n\nQuestions & Discussion (rest of the time)",
+  "summary": "Rapid Prototyping and Communicating with Clients\n\nWednesday 2:45 p.m.--3:30 p.m.\n\nAudience level: Novice\n\nDescription\n\nThis talk will focus on the conversations around rapid prototyping.\nMiscommunication between developers and clients can occur because of\ndifferent perspectives and work styles. In this talk I'll introduce\ninteraction design concepts and templating with Django to show how easy\nit is to set up a minimally viable UI and explain the value in letting\nusers feel that they have creative control. Abstract\n\nTalk will begin with an overview of some common communication problems\nbetween developers and non-technical clients. For example, the client\nmay want to see a particular font but want to see how it looks before\nmaking a final decision. Allowing them the flexibility to edit this\nsetting in the admin offsets some of the back and forth dialog and\nediting CSS files numerous times. (2 mins)\n\nIntro to Interaction Design (5 mins) - Wireframing and design pattern\nlibraries - Screen sizes and responsive design\n\nIntro to Django Templates (8 mins) - Talk about the common template\nelements (such as include tag for DRY design) - Tips on structuring\ntemplates\n\nViewing web applications as data flow diagrams (5 mins) - Describe DFD\ndiagrams - Organizing templates based on DFD components\n\nExample of apps with different UIs for same data (10 mins) - Picture\ndictionary (showing text, images, links)\n(github.com/katychuang/django-snapbook) - Interactive reports on\nstatistics (github.com/katychuang/techsummitpr)\n\nExample of an app with pseudo apps (5 mins) - Using cloud hosted console\nfor prototyping with django (katychuang.pythonanywhere.com)\n\nRecap on design patterns and templates (1 min)\n\nQuestions & Discussion (rest of the time)\n",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 2036,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=Ym6aCKFujA0",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=Ym6aCKFujA0",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Katherine Chuang"
+  ],
   "recorded": "2013-10-03"
 }

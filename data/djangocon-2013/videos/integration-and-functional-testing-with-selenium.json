@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "integration-and-functional-testing-with-selenium",
   "title": "Integration and Functional Testing with LiveServerTestCase, Selenium and More",
-  "summary": "INTEGRATION AND FUNCTIONAL TESTING WITH LIVESERVERTESTCASE, SELENIUM AND MORE\nJulien Phalip\nThursday 2:45 p.m.--3:30 p.m.\n\nAudience level: Intermediate\n\nDESCRIPTION\nIn this talk, I will present LiveServerTestCase, a feature recently added to Django to enable new, comprehensive forms of testing. I will in particular show how to use LiveServerTestCase with browser automators like Selenium to perform integration and functional tests for your Django applications.\n\nABSTRACT\nThe Django ecosystem has always placed a strong emphasis on testing, partly thanks to a wide range of tools available in Django's own testing framework. One of the most used from those tools is the dummy web client, which allows to emit mock HTTP requests directly to your codebase and to inspect the responses' contents. However, as useful as it is, this dummy client is limited as it does not exercise the full HTTP specification and it cannot effectively reproduce actual user interactions. With the recent introduction of LiveServerTestCase, it is now possible to use sophisticated HTTP libraries like python-requests and browser automators like Selenium to perform your tests in a more comprehensive way. By automatically running a live HTTP server in the background, LiveServerTestCase allows you to write tests ensuring that all layers of your web application properly fit together and that user interactions function well from end to end.\n\nThis talk will cover a range of topics to help you get started with the writing of integration and functional tests for your Django applications, including:\n\nA brief history of when and how LiveServerTestCase was added to Django core.\nA brief review of different browser automators (Selenium, Ghost.py, etc.).\nTips for writing, accelerating and debugging Selenium tests.\nTesting interactive Javascript-based front-ends and user workflows.\nA demo of the Django core Selenium test suite.\nTesting RESTful APIs with python-requests.\nRunning Selenium tests in headless mode for continuous integration.\nThoughts on when to use, and when not to use, integration and functional tests.",
+  "summary": "INTEGRATION AND FUNCTIONAL TESTING WITH LIVESERVERTESTCASE, SELENIUM AND\nMORE\n\nThursday 2:45 p.m.--3:30 p.m.\n\nAudience level: Intermediate\n\nDESCRIPTION In this talk, I will present LiveServerTestCase, a feature\nrecently added to Django to enable new, comprehensive forms of testing.\nI will in particular show how to use LiveServerTestCase with browser\nautomators like Selenium to perform integration and functional tests for\nyour Django applications.\n\nABSTRACT The Django ecosystem has always placed a strong emphasis on\ntesting, partly thanks to a wide range of tools available in Django's\nown testing framework. One of the most used from those tools is the\ndummy web client, which allows to emit mock HTTP requests directly to\nyour codebase and to inspect the responses' contents. However, as useful\nas it is, this dummy client is limited as it does not exercise the full\nHTTP specification and it cannot effectively reproduce actual user\ninteractions. With the recent introduction of LiveServerTestCase, it is\nnow possible to use sophisticated HTTP libraries like python-requests\nand browser automators like Selenium to perform your tests in a more\ncomprehensive way. By automatically running a live HTTP server in the\nbackground, LiveServerTestCase allows you to write tests ensuring that\nall layers of your web application properly fit together and that user\ninteractions function well from end to end.\n\nThis talk will cover a range of topics to help you get started with the\nwriting of integration and functional tests for your Django\napplications, including:\n\nA brief history of when and how LiveServerTestCase was added to Django\ncore. A brief review of different browser automators (Selenium,\nGhost.py, etc.). Tips for writing, accelerating and debugging Selenium\ntests. Testing interactive Javascript-based front-ends and user\nworkflows. A demo of the Django core Selenium test suite. Testing\nRESTful APIs with python-requests. Running Selenium tests in headless\nmode for continuous integration. Thoughts on when to use, and when not\nto use, integration and functional tests.\n",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 2119,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=BSYg9-sxSjM",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=BSYg9-sxSjM",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Julien Phalip"
+  ],
   "recorded": "2013-10-01"
 }

@@ -2,7 +2,7 @@
   "category": "DjangoCon 2013",
   "slug": "http-for-great-good",
   "title": "HTTP for Great Good",
-  "summary": "HTTP FOR GREAT GOOD\nMatt Robenolt\nThursday 11:30 a.m.--12:15 p.m.\n\nAudience level: Intermediate\n\nDESCRIPTION\nI will be explaining some of the tricks and details about how Disqus uses HTTP techniques to scale our Django backends by harnessing upstream caches.\n\nABSTRACT\nI will be providing a brief introduction into tools that work along-side Django, such as Varnish, and explaining how these critical components work together to make a fast user experience. \"The fastest HTTP request is no HTTP request at all.\"\n\nWhat tools does Django provide for working with this?\nWhat are things we can look out for?\nHow can we rearchitect something to be more \"cacheable\"?\nWhat do all of these HTTP headers even mean?!",
+  "summary": "HTTP FOR GREAT GOOD\n\nThursday 11:30 a.m.--12:15 p.m.\n\nAudience level: Intermediate\n\nDESCRIPTION I will be explaining some of the tricks and details about\nhow Disqus uses HTTP techniques to scale our Django backends by\nharnessing upstream caches.\n\nABSTRACT I will be providing a brief introduction into tools that work\nalong-side Django, such as Varnish, and explaining how these critical\ncomponents work together to make a fast user experience. \"The fastest\nHTTP request is no HTTP request at all.\"\n\nWhat tools does Django provide for working with this? What are things we\ncan look out for? How can we rearchitect something to be more\n\"cacheable\"? What do all of these HTTP headers even mean?!\n",
   "description": "",
   "quality_notes": "",
   "language": "English",
@@ -11,13 +11,15 @@
   "duration": 2477,
   "videos": [
     {
-      "length": 0,
       "url": "https://www.youtube.com/watch?v=HAjOQ09I1UY",
+      "length": 0,
       "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=HAjOQ09I1UY",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Matt Robenolt"
+  ],
   "recorded": "2013-10-01"
 }
