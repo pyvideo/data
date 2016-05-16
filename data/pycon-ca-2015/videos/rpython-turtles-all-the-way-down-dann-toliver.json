@@ -2,7 +2,7 @@
   "category": "",
   "slug": "rpython-turtles-all-the-way-down-dann-toliver",
   "title": "RPython: turtles all the way down (Dann Toliver)",
-  "summary": "PyCon Canada 2015: https://2015.pycon.ca/en/schedule/34/\n\nTalk Description:\nWe'll describe a small Logo-inspired language for communicating with turtles, and talk about the implementation of that language in RPython -- a toolkit for building interpreters for dynamic languages, and part of the PyPy project.\n\nOf particular interest are the performance characteristics of building the interpreter with RPython instead of running it directly, and where that performance increase originates: RPython's meta-tracing framework creates a custom tracing JIT VM for our interpreter. This gives us compiler-like performance for the cost of an interpreter, which is a pretty great bargain, and stands to permanently alter the dynamics of building dynamic languages.",
+  "summary": "We'll describe a small Logo-inspired language for communicating with turtles, and talk about the implementation of that language in RPython -- a toolkit for building interpreters for dynamic languages, and part of the PyPy project.\n\nOf particular interest are the performance characteristics of building the interpreter with RPython instead of running it directly, and where that performance increase originates: RPython's meta-tracing framework creates a custom tracing JIT VM for our interpreter. This gives us compiler-like performance for the cost of an interpreter, which is a pretty great bargain, and stands to permanently alter the dynamics of building dynamic languages.",
   "description": "",
   "quality_notes": "",
   "language": "English",
