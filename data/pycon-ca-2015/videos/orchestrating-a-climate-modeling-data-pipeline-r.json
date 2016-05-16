@@ -1,0 +1,23 @@
+{
+  "category": "",
+  "slug": "orchestrating-a-climate-modeling-data-pipeline-r",
+  "title": "Orchestrating a climate modeling data pipeline (Andre R. Erler)",
+  "summary": "PyCon Canada 2015:\n\nTalk Description:\nIn order to run high-resolution regional climate models, it is necessary to interpolate and pre-process large amounts of data from a global climate model at the boundaries of the regional model. Several C and Fortran tools are available in the scientific community to achieve different aspects of this task, but communication between these tools is limited to the filesystem (the program/tool reads input from a file and writes output to a file). In a High Performance Computing (HPC) environment, filesystem access is a bottleneck and temporary files should be avoided.\n\nIn this talk I will show how a Python driver module and an in-memory filesystem (RAM disk) can be used to orchestrate the data flow between various tools without creating temporary files on disk and fully automate the entire process.\nExcept for the first input and the last output step, all file I/O is redirected to the RAM disk. The process can also be parallelized in the Python driver module by distributing different input files to different processes using Python multiprocessing.\nThe use of this technique leads to a speed-up of 800% compared to traditional methods, and requires no human intervention.\n\nDifferent input datasets are supported and new datasets can be added easily due to the object oriented implementation: at every stage of the pre-processing pipeline a dataset method can be overloaded and a different tool can be used, depending on the input dataset.\nThis would not have been possible in a simple scripting language that might otherwise be used to automate such a process.\n\nThis module (called PyWPS), is part of the WRF Tools package, a set of Python modules and shell scripts designed to facilitate the operation of a regional climate model (the Weather Research and Forecasting model - WRF) in a HPC environment. It is capable of autonomously running the model over extended periods of time (including automatic crash handling and restarts), automatic pre- and post-processing and archiving.\n\nIn the presentation I will first provide some context on regional climate modeling and its computational challenges, before detailing the main design features of the Python WRF pre-processing system (PyWPS).\n\nThe package is available on GitHub: https://github.com/aerler/WRF-Tools",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "https://i.ytimg.com/vi/_h4dfyNHKtc/maxresdefault.jpg",
+  "duration": 573,
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_h4dfyNHKtc",
+      "length": 0
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=_h4dfyNHKtc",
+  "tags": [],
+  "speakers": [],
+  "recorded": "2015-11-23"
+}

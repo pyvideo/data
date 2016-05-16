@@ -1,0 +1,23 @@
+{
+  "category": "",
+  "slug": "using-python-and-docker-to-create-a-novel-and",
+  "title": "Using Python and Docker to create a novel and scalable development environment solution",
+  "summary": "PyCon Canada 2015: https://2015.pycon.ca/en/schedule/20/\n\nTalk Description:\nLocal development environments are essential tools which help us run code on our own machines. Good development environments help us efficiently manage our workflow as we make code changes, and they can be adapted to fit a changing stack and team. In this talk, we\u2019ll look at shortcomings of different development environment solutions, and how we\u2019ve attempted to solve them with Python and Docker.\n\nThe simplest solution is to just run your app on the command line - for example with python my_app.py. This is easy and works well if your setup is simple.  But as you scale your stack, adding apps and developers, this approach becomes problematic.  When you have more than one app to run, you can run into dependency conflicts between apps.  When you add more developers, it becomes a challenge to reproduce your system configuration so that each app runs smoothly on each developer\u2019s machine. Virtualenvs help these issues by providing a measure of isolation and reproducibility.  However they only partly solve the problem; environment variables, system libraries, and other system configuration all hamper reproducibility and isolation.\n\nA common approach to these problems is to run code in a virtual machine.  This does increase the portability of an environment, but still comes with some issues.  Changing dependencies and configuration over time can prompt changes in the VM system state, which can create the same reproducibility issues as before.  Configuration management software can help, but comes with its own set of issues.  Additionally, virtual machines come with performance penalties; shared folders have poor performance, and the VM will consume tons of memory if you have a large stack.  Finally, apps running on the same VM can still suffer from lack of isolation. Conflicting system dependencies, apps that want to listen on the same port, and other issues will require workarounds.\n\nDocker containers provide an opportunity to improve on these shortcomings.  Containers are by nature isolated and portable, and they come without the performance overhead that\u2019s associated with virtual machines. However there are still problems to solve before containers can be managed easily in a development environment workflow. How are the containers launched in a reproducible way?  How are containers connected so that they can communicate as needed?  What happens when we need to make changes to the stack being run? We\u2019ve built a Python app which manages docker containers and abstracts these processes.  Dusty (dusty.gc.com) knows how to run an arbitrarily complex stack based on a set of defined specs, and provides other workflow management features. We think that this approach is more portable, more scalable, and easier to use than other development environment solutions capable of running complex stacks.",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "https://i.ytimg.com/vi/1f5inndAxEU/maxresdefault.jpg",
+  "duration": 1717,
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1f5inndAxEU",
+      "length": 0
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=1f5inndAxEU",
+  "tags": [],
+  "speakers": [],
+  "recorded": "2016-01-15"
+}

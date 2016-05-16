@@ -1,0 +1,23 @@
+{
+  "category": "",
+  "slug": "python-gui-tools-for-editing-initial-and-boundary",
+  "title": "Python GUI tools for editing initial and boundary conditions for climate simulations",
+  "summary": "PyCon Canada 2015: https://2015.pycon.ca/en/schedule/55/\n\nTalk Description:\nResearchers working in the fields of atmospheric sciences and earth sciences often have to modify gridded data at select points as part of their research workflow. This could be because they want to manually fix spurious artifacts, or more commonly because they want to generate custom initial and boundary conditions for climate simulations. The typical researcher would accomplish making the changes by specifying the grid points to change within a script (shell script, python script, NCL script etc.) and then repeat this iteratively until all the changes have been made. This process is not only time consuming and inefficient, but it is also prone to errors that might be introduced if the wrong grid points are accidentally specified. In this talk, we describe a collection of open source graphical programs written in python and built upon the PyQt and matplotlib libraries that expose a very efficient and informative interface to modifying boundary conditions for climate simulations to be performed with the widely used Community Earth System Model (CESM). With these portable programs the effort required by a researcher to modify boundary conditions for a new simulation is greatly reduced. The visual editing also ensures that the researcher is always sure that she is editing the grid points she intends to change. Finally, although the programs were created for a specific purpose, for a specific climate model, they can be nevertheless readily adapted to suit the needs of other researchers.",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "https://i.ytimg.com/vi/EcDp1JV5hD4/maxresdefault.jpg",
+  "duration": 532,
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EcDp1JV5hD4",
+      "length": 0
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=EcDp1JV5hD4",
+  "tags": [],
+  "speakers": [],
+  "recorded": "2015-11-24"
+}
