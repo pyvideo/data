@@ -1,7 +1,7 @@
 {
   "category": "",
   "slug": "full-stack-django-application-monitoring-with",
-  "title": "Full-stack Django application monitoring with django-watchman (Michael Warkentin)",
+  "title": "Full-stack Django application monitoring with django-watchman",
   "summary": "Monitoring your websites can be tricky. Many people set up a Pingdom endpoint on their home page, and call it a day; however this doesn't guarantee that all of the back end systems required for a functioning site are actually working.\n\nThis talk will dive into how to use django-watchman to enhance your monitoring coverage. Topics include:\n\n* How to install and configure django-watchman\n* What monitoring checks it provides out of the box\n* How authentication works\n* The three ways to use django-watchman: API, dashboard, and management command\n* How to integrate django-watchman with automated tools like Pingdom\n* How to write your own custom django-watchman checks",
   "description": "",
   "quality_notes": "",
@@ -11,13 +11,15 @@
   "duration": 652,
   "videos": [
     {
-      "type": "youtube",
       "url": "https://www.youtube.com/watch?v=iEgOCY7_zGI",
-      "length": 0
+      "length": 0,
+      "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=iEgOCY7_zGI",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Michael Warkentin"
+  ],
   "recorded": "2015-11-24"
 }
