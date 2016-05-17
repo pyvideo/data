@@ -1,7 +1,7 @@
 {
   "category": "",
   "slug": "building-theatlantic-com-homepages-wysiwyg-admin",
-  "title": "Building theatlantic.com homepage\u2019s WYSIWYG admin with... by Frankie Dintino",
+  "title": "Building theatlantic.com homepage’s WYSIWYG admin with Django and Knockout",
   "summary": "Building theatlantic.com homepage\u2019s WYSIWYG admin with Django and\nKnockout by Frankie Dintino\n\nWhile the front-end of theatlantic.com was written in PHP up until its\nrecent rewrite, we have relied on a robust Django-powered admin to\nmanage content for nearly two years. At the time when we began coding\nthe redesign we had already developed an adequate solution for curating\ncontent into modules on our site: a combination of Grappelli\u2019s\ndrag-and-drop sortable inline feature and django-nested-admin, a project\nwe wrote for nested InlineModelAdmins. However, it soon became clear\nthat our current system would not meet the needs of editors managing The\nAtlantic\u2019s new responsive and visually-striking homepage. The workflow\nemployed by the editors with our sortable nested inlines\u2014edit, save,\npreview; adjust, save again, preview; \u2026\u2014would have been too burdensome.\n\nThis challenge led me to propose we build a new tool that could\n\u201clive-edit\u201d the homepage in a WYSIWYG interface. It occurred to me that,\nif we could find a way to bind the ModelAdmin\u2019s formsets to a javascript\nmodel, and used one of the many MVC javascript frameworks, we could\nbuild the interface using two-way data binding to sync changes with a\nhidden form. A project that would have taken months could, with the\nright framework, be built in just a few weeks.\n\nSo why Knockout.js? I evaluated most of the popular options. Though I\ninitially adopted AngularJS, I later abandoned it because, while it is a\nfine framework, it is not ideal for integrating with DOM elements that\nlive outside angular. I stumbled through quite a few angular controllers\nand directives (violating their best practices every step along the way)\nbefore changing direction. Knockout, by comparison, turned out to be\nabsolutely perfect for the task at hand.\n\nThis talk will discuss what was involved in using Knockout to build\ntwo-way data binding with django formsets, and how we implemented\nsorting with drag-and-drop functionality, inline editing of html, and\nimage uploads and cropping. It will also touch briefly on the challenges\nwe faced making everything testable, and feature a live demo of updating\ntheatlantic.com homepage using our new modular Django CMS.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HH6g/\n",
   "description": "",
   "quality_notes": "",
@@ -12,12 +12,14 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=RWLQTCUpyWw",
-      "type": "youtube",
-      "length": 0
+      "length": 0,
+      "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=RWLQTCUpyWw",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Frankie Dintino"
+  ],
   "recorded": "2015-09-21"
 }

@@ -1,7 +1,7 @@
 {
   "category": "",
   "slug": "django-views-functions-classes-and-generics-by",
-  "title": "Django Views: Functions, Classes, and Generics by Andrew Pinkham",
+  "title": "Django Views: Functions, Classes, and Generics",
   "summary": "Django Views: Functions, Classes, and Generics\n\nThe goal of this talk is to make views and HTTP as clear as daylight.\nThis talk is for you if you're confused about:\n\nhow function views compare to class-based views when to use generic\nclass-based views- the difference between class-based views and generic\nclass-based views- or when to use any of these This talk will start with\nan introduction to HTTP and how Django handles HTTP. We will then look\nat each kind of view in Django, focusing on how each works and why\nDjango implements it that way. This will allow us to look at the\nadvantages and shortcomings of each type of view. Finally, with a full\nunderstanding of Django views, we will be able to easily determine when\nto use each type of view.\n\nTable of Contents:\n\nWhat is HTTP, anyway? Django's HTTP Request/Response Cycle What is a\ncallable? History of View Functions Functions Generics Classes and\nGenerics View Functions (or How I Learned to Stop Worrying and Love\nNon-Compliance) Class Based Views (or As DRY as the Sahara) Generic\nClass Based Views (or Oh For The Love of Graph Theory) Enhancing Views\n(or 1-Size fits no-one) Fixing Your Views When to Use What\n",
   "description": "",
   "quality_notes": "",
@@ -12,12 +12,14 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=BJiOERA49ZQ",
-      "type": "youtube",
-      "length": 0
+      "length": 0,
+      "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=BJiOERA49ZQ",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Andrew Pinkham"
+  ],
   "recorded": "2015-09-18"
 }

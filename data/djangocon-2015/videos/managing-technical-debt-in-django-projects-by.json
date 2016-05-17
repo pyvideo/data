@@ -1,7 +1,7 @@
 {
   "category": "",
   "slug": "managing-technical-debt-in-django-projects-by",
-  "title": "Managing technical debt in (Django) Projects by Chris Chang",
+  "title": "Managing technical debt in (Django) Projects",
   "summary": "Managing technical debt in (Django) Projects by Chris Chang\n\nWe talk about testing, code quality, and coverage. But why? Because we\nwant to spend less time dealing with technical debt and more time\ncreating new technical debt (aka new features). Many times, we think we\nmade the obvious smart decision only to regret it later; you discovered\nyou\u2019re damned if you do, damned if you don\u2019t. Should you write a\nmonolithic app or tangle of microservices? They\u2019re all terrible worlds\nwe\u2019ve made for ourselves. Having maintained, inherited, and created\nseveral large Django projects, I hope to share my experience so you\ndon\u2019t have to go through the same pains I did.\n\nWe\u2019ll start off with a few minutes covering basics like testing,\ncoverage and how they relate to the long term health of a project. Now,\neveryone knowing the same terminology, we move on to learning to\nrecognize the many early warning signs and smells of excessive technical\ndebt. The most important thing, and most of the material is about\nsetting up the organizational structure for dealing with technical debt:\ncode review, continuous integration, rotating developers (no silos),\ntradeoffs, making sure you have processes for onboarding new developers,\nand strategies for documentation. It\u2019s changes like these that end up\nkeeping things moving, not writing \u201cbetter\u201d code.\n\nFinally, we\u2019ll wrap up with a few minutes talking about Django specific\ntips: don\u2019t customize the admin, tricks for naming things, signals,\norganizing tests, and more. Much of this comes from my time at The Texas\nTribune, where we needed Django projects launched the next day, all\nwhile maintaining a 6 year old Django project.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HHp4/\n",
   "description": "",
   "quality_notes": "",
@@ -12,12 +12,14 @@
   "videos": [
     {
       "url": "https://www.youtube.com/watch?v=6uzVKpjVaPc",
-      "type": "youtube",
-      "length": 0
+      "length": 0,
+      "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=6uzVKpjVaPc",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Chris Chang"
+  ],
   "recorded": "2015-09-22"
 }
