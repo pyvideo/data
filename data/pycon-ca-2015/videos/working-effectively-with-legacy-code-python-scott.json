@@ -1,7 +1,7 @@
 {
-  "category": "",
+  "category": "PyCon CA 2015",
   "slug": "working-effectively-with-legacy-code-python-scott",
-  "title": "Working effectively with legacy code - Python edition (Scott Triglia)",
+  "title": "Working effectively with legacy code - Python edition",
   "summary": "Legacy code is that terrifying monster lurking in almost every long-lived codebase. You may not understand it, you may wonder how it works at all! It is the type of code most developers do their best to stay away from, and for good reason. So what is there to do when you inherit such a system for the first time? How can you take it from unknown mess to gleaming example of excellent engineering? What is unique about legacy systems written in Python?\n\nThis talk will present a series of tools, both technical and social, for rehabilitating unknown, untested, and maybe even unloved systems. Approaches to improving these systems will primarily focus on refactoring and testing, with sidebars on engineering culture and personal motivation. We will reference Michael Feathers's excellent book on the topic, but also depart significantly to discuss particular challenges and opportunities presented by the Python language. After all, much of the written literature on this topic assumes a fairly Java-centric view of the world, and offers little support when you realize that object you thought was a dict is actually an ORM model that just happens to support getattr lookup.\n\nThe intended audience is someone relatively new to professional programming, who is encountering their first legacy codebase. This talk will be a crash course in how to handle your unknown adversary.",
   "description": "",
   "quality_notes": "",
@@ -11,13 +11,15 @@
   "duration": 1771,
   "videos": [
     {
-      "type": "youtube",
       "url": "https://www.youtube.com/watch?v=RMt43wyg-zg",
-      "length": 0
+      "length": 0,
+      "type": "youtube"
     }
   ],
   "source_url": "https://www.youtube.com/watch?v=RMt43wyg-zg",
   "tags": [],
-  "speakers": [],
+  "speakers": [
+    "Scott Triglia"
+  ],
   "recorded": "2015-11-24"
 }
