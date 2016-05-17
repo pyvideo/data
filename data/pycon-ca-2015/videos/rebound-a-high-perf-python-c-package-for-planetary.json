@@ -1,5 +1,5 @@
 {
-  "category": "",
+  "category": "PyCon CA 2015",
   "slug": "rebound-a-high-perf-python-c-package-for-planetary",
   "title": "REBOUND, a high-perf Python/C package for simulating planetary & satellite orbits",
   "summary": "I will present REBOUND, an open-source package that can be used to simulate the motion of bodies in the Solar System, extra-solar planetary systems and Saturn\u2019s rings. REBOUND has been developed by a group of astrophysicists at the University of Toronto. My talk will focus on several design challenges that we faced during the development, finding a balance between efficiency and usability that might be of wide interest to people working on high performance python code.\n\nWe opted for a design where all time-consuming algorithms are implemented in C. However, to easily setup and manipulate simulations, we developed a Python module to interface with REBOUND. This makes REBOUND very easy to use and allows us to leverage the power of Python and its supporting libraries to analyze and visualize simulation results.\n\nI will do a live demo and show how one can use REBOUND to simulate the Solar System with initial positions of planets, moons and spacecraft from a NASA database in just a few minutes.",
