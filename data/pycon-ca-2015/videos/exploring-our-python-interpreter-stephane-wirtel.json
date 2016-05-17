@@ -1,0 +1,25 @@
+{
+  "category": "PyCon CA 2015",
+  "slug": "exploring-our-python-interpreter-stephane-wirtel",
+  "title": "Exploring our Python interpreter",
+  "summary": "During my last CPython sprint, I started to contribute to the CPython code, and I wanted to understand the beast.\n\nIn this case, there is only one solution, trace the code from the beginning. From the command line to the interpreter, we will take part to an adventure.\n\n* Overview of the structure of the Project and the directories.\n* From the Py_Main function, to the interpreter\n* the used technics for the Lexer, Parser and the generation of the AST and of course of the Byte Code.\n* we will see some byte codes with the dis module\n* How does VM works, it\u2019s a stack machine.\n* the Interpreter and its main loop of the Virtual Machine.\n\nThe idea behind is just to show how CPython works for a new contributor to CPython",
+  "description": "",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "",
+  "thumbnail_url": "https://i.ytimg.com/vi/pEwewgHQr74/maxresdefault.jpg",
+  "duration": 1252,
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=pEwewgHQr74",
+      "length": 0,
+      "type": "youtube"
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=pEwewgHQr74",
+  "tags": [],
+  "speakers": [
+    "Stephane Wirtel"
+  ],
+  "recorded": "2015-11-17"
+}
