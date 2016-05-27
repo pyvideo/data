@@ -132,6 +132,10 @@ class DictOfT(T):
         self.keyval_dict = dict(keyvals)
         self.keyvals = keyvals
 
+    # FIXME: Might want to make this more dict-like
+    def __getitem__(self, name):
+        return self.keyval_dict.__getitem__(name)
+
     def validate(self, val, depth):
         results = []
         results.extend(super().validate(val, depth))
@@ -150,7 +154,7 @@ class DictOfT(T):
                 continue
 
             results.extend(
-                self.keyval_dict[key].validate(item, '%s:%s' % (depth, key))
+                self[key].validate(item, '%s:%s' % (depth, key))
             )
         return results
 

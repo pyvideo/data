@@ -63,23 +63,36 @@ def json_convert(obj):
     return obj
 
 
-def reorder_dict(object_type, json_data):
+def reorder(object_type, data):
     """Converts dict to OrderedDict using schema order
 
     This reorders the data in a dict using the order the item is defined in the
     schema.
 
+    :arg object_type: string specifying the type of object
+    :arg json_data: the data to reorder
+
+    :returns: data ordered according to the schema
+
     """
-    version = get_version(json_data)
-    schema = SCHEMAS[version][object_type]
+    schema = SCHEMAS[get_version(data)][object_type]
 
-    new_dict = OrderedDict()
+    def _reorder(data, schema):
+        if isinstance(data, dict):
+            new_dict = OrderedDict()
+            for key, val in schema.keyvals:
+                if key in data:
+                    new_dict[key] = _reorder(data[key], schema[key])
+            # FIXME: Add a check here for things that were in data that aren't
+            # in the schema and print out warnings.
+            return new_dict
 
-    for key, val in schema.keyvals:
-        if key in json_data:
-            new_dict[key] = json_data[key]
+        if isinstance(data, list):
+            return [_reorder(item, schema.subtype) for item in data]
 
-    return new_dict
+        return data
+
+    return _reorder(data, schema)
 
 
 def save_json_data(data_items):
@@ -91,7 +104,7 @@ def save_json_data(data_items):
     for fn, data in data_items:
         with open(fn, 'w') as fp:
             type_ = 'category' if fn.endswith('category.json') else 'video'
-            data = reorder_dict(type_, data)
+            data = reorder(type_, data)
             json.dump(
                 data,
                 fp,
