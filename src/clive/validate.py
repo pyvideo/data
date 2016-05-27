@@ -14,7 +14,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from clive.pyvideo_schema import SCHEMAS
-from clive.schemalib import get_version
+from clive.schemalib import ERROR, WARNING, get_version
 
 
 def validate_item(fn, json_data):

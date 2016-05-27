@@ -18,6 +18,7 @@ requirements = [
     'click',
     'youtube-dl',
     'awesome-slugify',
+    'restructuredtext_lint',
 ]
 
 setup(

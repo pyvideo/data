@@ -19,7 +19,13 @@ import re
 import time
 from collections import namedtuple
 
-Result = namedtuple('Result', ('line', 'col', 'name', 'msg'))
+import restructuredtext_lint
+
+
+WARNING, ERROR = range(2)
+
+
+Result = namedtuple('Result', ('level', 'line', 'col', 'name', 'msg'))
 
 
 class T:
@@ -28,7 +34,7 @@ class T:
 
     def validate(self, val, depth):
         if self.required and val is None:
-            return [Result(0, 0, depth, 'value required')]
+            return [Result(ERROR, 0, 0, depth, 'value required')]
         return []
 
 
@@ -41,7 +47,7 @@ class IntT(T):
             return results
 
         if not isinstance(val, int) or isinstance(val, bool):
-            results.append(Result(0, 0, depth, 'value is not a valid int: %r' % val))
+            results.append(Result(ERROR, 0, 0, depth, 'value is not a valid int: %r' % (val,)))
 
         return results
 
@@ -54,7 +60,7 @@ class BoolT(T):
             return results
 
         if not isinstance(val, bool):
-            results.append(Result(0, 0, depth, 'value is not a valid bool: %r' % val))
+            results.append(Result(ERROR, 0, 0, depth, 'value is not a valid bool: %r' % (val,)))
 
         return results
 
@@ -63,10 +69,10 @@ SLUG_RE = re.compile(r'^[a-zA-Z0-9_-]+$')
 
 
 class TextT(T):
-    def __init__(self, required=False, slug=False, markdown=False, url=False,
+    def __init__(self, required=False, slug=False, is_reST=False, url=False,
                  *args, **kwargs):
         super().__init__(required=required, *args, **kwargs)
-        self.markdown = markdown
+        self.is_reST = is_reST
         self.slug = slug
         self.url = url
 
@@ -77,13 +83,15 @@ class TextT(T):
             return results
 
         if not isinstance(val, str):
-            results.append(Result(0, 0, depth, 'value is not a valid text value: %r' % val))
+            results.append(Result(ERROR, 0, 0, depth, 'value is not a valid text value: %r' % (val,)))
 
-        # FIXME: markdown check here
+        if self.is_reST:
+            rest_errors = restructuredtext_lint.lint(val)
+            for error in rest_errors:
+                results.append(Result(WARNING, 0, 0, depth, 'reST error:%s' % (error.astext())))
 
-        # FIXME: slug check here
         if self.slug and not SLUG_RE.match(val):
-            results.append(Result(0, 0, depth, 'value is not a valid slug: %r' % val))
+            results.append(Result(ERROR, 0, 0, depth, 'value is not a valid slug: %r' % (val,)))
 
         # FIXME: url check here
         return results
@@ -99,7 +107,7 @@ class DateT(T):
         try:
             time.strptime(val, '%Y-%m-%d')
         except ValueError:
-            results.append(Result(0, 0, depth, 'value is not date in YYYY-MM-DD format: %r' % val))
+            results.append(Result(ERROR, 0, 0, depth, 'value is not date in YYYY-MM-DD format: %r' % (val,)))
 
         return results
 
@@ -116,7 +124,7 @@ class ListOfT(T):
             return results
 
         if not isinstance(val, (tuple, list)):
-            results.append(Result(0, 0, depth, 'value is not a list: %r' % val))
+            results.append(Result(ERROR, 0, 0, depth, 'value is not a list: %r' % (val,)))
             return results
 
         for i, item in enumerate(val):
@@ -143,18 +151,18 @@ class DictOfT(T):
             return results
 
         if not isinstance(val, dict):
-            results.append(Result(0, 0, depth, 'value is not a dict: %r' % val))
+            results.append(Result(ERROR, 0, 0, depth, 'value is not a dict: %r' % (val,)))
             return results
 
         # Verify values
         for key, item in sorted(val.items()):
             # For unknown keys, print an error
             if key not in self.keyval_dict.keys():
-                results.append(Result(0, 0, depth, 'unknown key: %r' % key))
+                results.append(Result(ERROR, 0, 0, depth, 'unknown key: %r' % (key,)))
                 continue
 
             results.extend(
-                self[key].validate(item, '%s:%s' % (depth, key))
+                self[key].validate(item, '%s->%s' % (depth, key))
             )
         return results
 

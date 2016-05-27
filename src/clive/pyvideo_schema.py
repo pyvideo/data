@@ -30,9 +30,9 @@ SCHEMAS = {
             ('slug', TextT(required=True, slug=True)),
 
             ('title', TextT(required=True)),
-            ('summary', TextT(required=True, markdown=True)),
-            ('description', TextT(markdown=True)),
-            ('quality_notes', TextT(markdown=True)),
+            ('summary', TextT(required=True, is_reST=True)),
+            ('description', TextT(is_reST=True)),
+            ('quality_notes', TextT(is_reST=True)),
             ('language', TextT(required=True)),
             ('copyright_text', TextT(required=True)),
             ('thumbnail_url', TextT(url=True)),
@@ -54,7 +54,7 @@ SCHEMAS = {
 
         'category': DictOfT([
             ('title', TextT(required=True)),
-            ('description', TextT(markdown=True)),
+            ('description', TextT(is_reST=True)),
             ('url', TextT(url=True)),
             ('start_date', DateT()),
 

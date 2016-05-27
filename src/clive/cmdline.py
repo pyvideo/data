@@ -24,7 +24,7 @@ import click
 from clive import __version__
 from clive.lib import load_json_data, save_json_data
 from clive.scrapers import scrape_videos
-from clive.validate import validate_item
+from clive.validate import ERROR, WARNING, validate_item
 
 
 USAGE = '%prog [options] [command] [command-options]'
@@ -42,35 +42,56 @@ def cli():
 
 
 @cli.command()
+@click.option('--errorsonly/--no-errorsonly', default=False, help='Only print errors.')
 @click.argument('paths', nargs=-1, type=click.Path(exists=True))
 @click.pass_context
-def validate(ctx, paths):
+def validate(ctx, errorsonly, paths):
     """Validates JSON file data located in PATHS."""
     if not paths:
         raise click.UsageError('No files or directories specified.')
 
-    error_count = 0
+    errors_count = 0
+    warnings_count = 0
 
     for path in paths:
         data = load_json_data(path)
         click.echo('Looking at %d items...' % len(data))
         for fn, item in data:
-            errors = validate_item(fn, item)
-            if errors:
-                error_count += len(errors)
+            results = validate_item(fn, item)
+            if results:
+                errors = [res for res in results if res.level == ERROR]
+                errors_count += len(errors)
+
                 for err in errors:
                     click.echo(
-                        '%(fn)s: E:%(name)s:%(msg)s' % {'fn': fn, 'name': err.name, 'msg': err.msg},
+                        '%(fn)s ERROR:%(name)s:%(msg)s' % {
+                            'fn': fn, 'name': err.name, 'msg': err.msg
+                        },
                         err=True
                     )
+
+                if not errorsonly:
+                    warnings = [res for res in results if res.level == WARNING]
+                    warnings_count += len(warnings)
+
+                    for warn in warnings:
+                        click.echo(
+                            '%(fn)s WARN:%(name)s:%(msg)s' % {
+                                'fn': fn, 'name': warn.name, 'msg': warn.msg
+                            }
+                        )
 
     # FIXME: Validate things that need to be unique across the
     # dataset here.
 
     # FIXME: Validate file format? i.e. 2-space indents? Sort order?
 
+    if not errorsonly:
+        print('%d warnings found.' % warnings_count)
+    print('%d errors found.' % errors_count)
+
     print('Done!')
-    ctx.exit(code=1 if error_count else 0)
+    ctx.exit(code=1 if errors_count else 0)
 
 
 @cli.command()

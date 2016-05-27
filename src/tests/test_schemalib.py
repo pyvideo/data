@@ -3,6 +3,8 @@
 import pytest
 
 from clive.schemalib import (
+    ERROR,
+    WARNING,
     BoolT,
     DateT,
     DictOfT,
@@ -31,7 +33,7 @@ class TestT:
     def test_required_with_none(self):
         assert (
             T(required=True).validate(None, '') ==
-            [Result(0, 0, '', 'value required')]
+            [Result(ERROR, 0, 0, '', 'value required')]
         )
 
     @pytest.mark.parametrize('test_input', [
@@ -61,7 +63,7 @@ class TestIntT:
     def test_required(self):
         assert (
             IntT(required=True).validate(None, '') ==
-            [Result(0, 0, '', 'value required')]
+            [Result(ERROR, 0, 0, '', 'value required')]
         )
         assert IntT(required=True).validate(0, '') == []
         assert IntT(required=True).validate(1, '') == []
@@ -78,7 +80,7 @@ class TestIntT:
     def test_non_int(self, test_input):
         assert (
             IntT().validate(test_input, '') ==
-            [Result(0, 0, '', 'value is not a valid int: %r' % test_input)]
+            [Result(ERROR, 0, 0, '', 'value is not a valid int: %r' % test_input)]
         )
 
 
@@ -86,7 +88,7 @@ class TestBoolT:
     def test_required(self):
         assert (
             BoolT(required=True).validate(None, '') ==
-            [Result(0, 0, '', 'value required')]
+            [Result(ERROR, 0, 0, '', 'value required')]
         )
         assert BoolT(required=True).validate(True, '') == []
         assert BoolT(required=True).validate(False, '') == []
@@ -103,7 +105,7 @@ class TestBoolT:
     def test_non_bool(self, test_input):
         assert (
             BoolT().validate(test_input, '') ==
-            [Result(0, 0, '', 'value is not a valid bool: %r' % test_input)]
+            [Result(ERROR, 0, 0, '', 'value is not a valid bool: %r' % test_input)]
         )
 
 
@@ -111,7 +113,7 @@ class TestTextT:
     def test_required(self):
         assert (
             TextT(required=True).validate(None, '') ==
-            [Result(0, 0, '', 'value required')]
+            [Result(ERROR, 0, 0, '', 'value required')]
         )
         assert TextT(required=True).validate('', '') == []
         assert TextT(required=True).validate('foo', '') == []
@@ -123,7 +125,7 @@ class TestTextT:
     def test_non_text(self):
         assert (
             TextT().validate(0, '') ==
-            [Result(0, 0, '', 'value is not a valid text value: 0')]
+            [Result(ERROR, 0, 0, '', 'value is not a valid text value: 0')]
         )
 
     @pytest.mark.parametrize('test_input', [
@@ -142,7 +144,7 @@ class TestTextT:
     def test_non_slug(self, test_input):
         assert (
             TextT(slug=True).validate(test_input, '') ==
-            [Result(0, 0, '', 'value is not a valid slug: %r' % test_input)]
+            [Result(ERROR, 0, 0, '', 'value is not a valid slug: %r' % test_input)]
         )
 
 
@@ -150,7 +152,7 @@ class TestDateT:
     def test_required(self):
         assert (
             DateT(required=True).validate(None, '') ==
-            [Result(0, 0, '', 'value required')]
+            [Result(ERROR, 0, 0, '', 'value required')]
         )
         assert DateT(required=True).validate('2016-02-14', '') == []
 
@@ -166,7 +168,7 @@ class TestDateT:
     def test_non_date(self, test_input):
         assert (
             DateT(required=True).validate(test_input, '') ==
-            [Result(0, 0, '', 'value is not date in YYYY-MM-DD format: %r' % test_input)]
+            [Result(ERROR, 0, 0, '', 'value is not date in YYYY-MM-DD format: %r' % test_input)]
         )
 
 
@@ -174,7 +176,7 @@ class TestListOfT:
     def test_required(self):
         assert (
             ListOfT(IntT(), required=True).validate(None, '') ==
-            [Result(0, 0, '', 'value required')]
+            [Result(ERROR, 0, 0, '', 'value required')]
         )
         assert ListOfT(IntT(), required=True).validate([], '') == []
 
@@ -186,30 +188,30 @@ class TestListOfT:
     def test_bad_subtype(self):
         assert (
             ListOfT(IntT()).validate(['foo'], '') ==
-            [Result(0, 0, '[0]', 'value is not a valid int: %r' % 'foo')]
+            [Result(ERROR, 0, 0, '[0]', 'value is not a valid int: %r' % 'foo')]
         )
         assert (
             ListOfT(IntT()).validate([10, 'foo'], '') ==
-            [Result(0, 0, '[1]', 'value is not a valid int: %r' % 'foo')]
+            [Result(ERROR, 0, 0, '[1]', 'value is not a valid int: %r' % 'foo')]
         )
 
     def test_depth(self):
         assert (
             ListOfT(IntT()).validate([10, 'foo'], 'TOP') ==
-            [Result(0, 0, 'TOP[1]', 'value is not a valid int: %r' % 'foo')]
+            [Result(ERROR, 0, 0, 'TOP[1]', 'value is not a valid int: %r' % 'foo')]
         )
 
     def test_recursion(self):
         assert ListOfT(ListOfT(IntT())).validate([[10, 2], [1, 2, 3]], 'TOP') == []
         assert (
             ListOfT(ListOfT(IntT())).validate([[10, 2], [1, 'foo', 3]], 'TOP') ==
-            [Result(0, 0, 'TOP[1][1]', 'value is not a valid int: %r' % 'foo')]
+            [Result(ERROR, 0, 0, 'TOP[1][1]', 'value is not a valid int: %r' % 'foo')]
         )
         assert (
             ListOfT(ListOfT(IntT())).validate([[10, 2], [1, 'foo', 'bar', 3]], 'TOP') ==
             [
-                Result(0, 0, 'TOP[1][1]', 'value is not a valid int: %r' % 'foo'),
-                Result(0, 0, 'TOP[1][2]', 'value is not a valid int: %r' % 'bar'),
+                Result(ERROR, 0, 0, 'TOP[1][1]', 'value is not a valid int: %r' % 'foo'),
+                Result(ERROR, 0, 0, 'TOP[1][2]', 'value is not a valid int: %r' % 'bar'),
             ]
         )
 
@@ -218,14 +220,14 @@ class TestDictOfT:
     def test_required(self):
         assert (
             DictOfT({'foo': IntT()}, required=True).validate(None, '') ==
-            [Result(0, 0, '', 'value required')]
+            [Result(ERROR, 0, 0, '', 'value required')]
         )
         assert DictOfT({'foo': IntT()}, required=True).validate({}, '') == []
 
     def test_bad_value(self):
         assert (
             DictOfT({'foo': IntT()}).validate(5, '') ==
-            [Result(0, 0, '', 'value is not a dict: %r' % 5)]
+            [Result(ERROR, 0, 0, '', 'value is not a dict: %r' % 5)]
         )
 
     def test_subtype(self):
@@ -236,26 +238,26 @@ class TestDictOfT:
     def test_bad_subtype(self):
         assert (
             DictOfT({'foo': IntT()}).validate({'foo': 'bar'}, '') ==
-            [Result(0, 0, ':foo', 'value is not a valid int: %r' % 'bar')]
+            [Result(ERROR, 0, 0, ':foo', 'value is not a valid int: %r' % 'bar')]
         )
 
     def test_unknown_keys(self):
         assert (
             DictOfT({'foo': IntT()}).validate({'bar': 5}, '') ==
-            [Result(0, 0, '', 'unknown key: %r' % 'bar')]
+            [Result(ERROR, 0, 0, '', 'unknown key: %r' % 'bar')]
         )
 
     def test_depth(self):
         assert (
             DictOfT({'foo': IntT()}).validate({'foo': 'bar'}, 'TOP') ==
-            [Result(0, 0, 'TOP:foo', 'value is not a valid int: %r' % 'bar')]
+            [Result(ERROR, 0, 0, 'TOP:foo', 'value is not a valid int: %r' % 'bar')]
         )
 
     def test_recursion(self):
         assert DictOfT({'foo': DictOfT({'bar': IntT()})}).validate({'foo': {'bar': 5}}, 'TOP') == []
         assert (
             DictOfT({'foo': DictOfT({'bar': IntT()})}).validate({'foo': {'bar': 'baz'}}, 'TOP') ==
-            [Result(0, 0, 'TOP:foo:bar', 'value is not a valid int: %r' % 'baz')]
+            [Result(ERROR, 0, 0, 'TOP:foo:bar', 'value is not a valid int: %r' % 'baz')]
         )
 
         req = DictOfT({
@@ -276,7 +278,7 @@ class TestDictOfT:
         assert (
             sort_results(req.validate(data, 'TOP')) ==
             sort_results([
-                Result(0, 0, 'TOP:bar', 'value is not a valid int: %r' % 'foo1'),
-                Result(0, 0, 'TOP:baz:key', 'value is not a valid int: %r' % 'foo2'),
+                Result(ERROR, 0, 0, 'TOP:bar', 'value is not a valid int: %r' % 'foo1'),
+                Result(ERROR, 0, 0, 'TOP:baz:key', 'value is not a valid int: %r' % 'foo2'),
             ])
         )
