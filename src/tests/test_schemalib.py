@@ -238,7 +238,7 @@ class TestDictOfT:
     def test_bad_subtype(self):
         assert (
             DictOfT({'foo': IntT()}).validate({'foo': 'bar'}, '') ==
-            [Result(ERROR, 0, 0, ':foo', 'value is not a valid int: %r' % 'bar')]
+            [Result(ERROR, 0, 0, '->foo', 'value is not a valid int: %r' % 'bar')]
         )
 
     def test_unknown_keys(self):
@@ -250,14 +250,14 @@ class TestDictOfT:
     def test_depth(self):
         assert (
             DictOfT({'foo': IntT()}).validate({'foo': 'bar'}, 'TOP') ==
-            [Result(ERROR, 0, 0, 'TOP:foo', 'value is not a valid int: %r' % 'bar')]
+            [Result(ERROR, 0, 0, 'TOP->foo', 'value is not a valid int: %r' % 'bar')]
         )
 
     def test_recursion(self):
         assert DictOfT({'foo': DictOfT({'bar': IntT()})}).validate({'foo': {'bar': 5}}, 'TOP') == []
         assert (
             DictOfT({'foo': DictOfT({'bar': IntT()})}).validate({'foo': {'bar': 'baz'}}, 'TOP') ==
-            [Result(ERROR, 0, 0, 'TOP:foo:bar', 'value is not a valid int: %r' % 'baz')]
+            [Result(ERROR, 0, 0, 'TOP->foo->bar', 'value is not a valid int: %r' % 'baz')]
         )
 
         req = DictOfT({
@@ -278,7 +278,7 @@ class TestDictOfT:
         assert (
             sort_results(req.validate(data, 'TOP')) ==
             sort_results([
-                Result(ERROR, 0, 0, 'TOP:bar', 'value is not a valid int: %r' % 'foo1'),
-                Result(ERROR, 0, 0, 'TOP:baz:key', 'value is not a valid int: %r' % 'foo2'),
+                Result(ERROR, 0, 0, 'TOP->bar', 'value is not a valid int: %r' % 'foo1'),
+                Result(ERROR, 0, 0, 'TOP->baz->key', 'value is not a valid int: %r' % 'foo2'),
             ])
         )
