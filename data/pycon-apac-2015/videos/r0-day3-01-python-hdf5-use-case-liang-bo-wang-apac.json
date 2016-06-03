@@ -1,25 +1,25 @@
 {
+  "category": "PyCon APAC 2015",
+  "slug": "r0-day3-01-python-hdf5-use-case-liang-bo-wang-apac",
+  "title": "R0 DAY3-01 Python HDF5 Use Case - Liang Bo Wang (PyCon APAC 2015)",
   "summary": "",
+  "description": "Speaker: Liang Bo Wang \n\nHDF5 \u662f\u4e00\u500b\u7528\u4f86\u5b58\u53d6\u6578\u64da\u7684\u51fd\u5f0f\u5eab\uff0cMatlab \u7684\u5132\u5b58\u683c\u5f0f (.mat) \u5373\u57fa\u65bc\u8a72\u683c\u5f0f\u8a2d\u8a08\u3002\u76f8\u8f03\u65bc\u591a\u6578\u4eba\u719f\u6089\u7684 Database\uff0cHDF5 \u7684\u529f\u80fd\u66f4\u70ba\u55ae\u7d14\uff0c\u5b83\u53ea\u8ca0\u8cac\u505a\u597d\u8b80\u53d6\u3001 \u5132\u5b58\u8cc7\u6599\u800c\u4e26\u4e0d\u63d0\u4f9b Query\u3001Join \u7b49\u64cd\u4f5c\uff0c\u4f46\u4e5f\u56e0\u6b64\u5728 I/O \u8868\u73fe\u4e0a\u66f4\u70ba\u51fa\u8272\u3002\u5e38\u898b\u7684\u61c9\u7528\u70ba sensor\u3001\u5be6\u9a57\u6578\u64da\u8a18\u9304\u8207\u50b3\u8f38\u3001\u5927\u77e9\u9663\u7684\u64cd\u4f5c\u7b49\u3002HDF5 \u5728 Python \u7684\u63a5\u53e3\u5be6\u4f5c\u4e3b\u8981\u6709 PyTables \u53ca h5py\uff0c\u5169\u8005\u91dd\u5c0d\u4e0d\u540c\u7684\u4f7f\u7528\u60c5\u5883\u6709\u4e0d\u540c\u7684\u8a2d\u8a08\u3002\n\n\u5728\u672c talk \u4e2d\uff0c\u6703\u5148\u4ecb\u7d39 HDF5 \u683c\u5f0f\u8207\u7279\u8272\uff0c\u5728 Python \u4e2d\u5982\u4f55\u7528 PyTables\u3001h5py \u5b58\u53d6 \u8207\u7570\u540c\uff0c\u4ee5\u53ca\u8207\u4e3b\u6d41\u8cc7\u6599\u5eab\u3001pickle \u7269\u4ef6\u4e32\u6d41\u5316\u7684\u6bd4\u8f03\u3002\u6700\u5f8c\u793a\u7bc4 HDF5 \u5982\u4f55\u6709\u6548\u7684\u5b8c\u6210 \u4ee5\u4e0b\u5e7e\u500b\u60c5\u5883\u4e2d\u7684\u554f\u984c\uff1a\u5b58\u53d6 pandas DataFrame \u7269\u4ef6\u3001\u5728\u5927\u578b\u77e9\u9663\u9032\u884c\u5340\u57df\u8a08\u7b97\u3001\u8ffd\u8e64 Deep Learning \u5b78\u7fd2\u8a18\u9304\u3002\n\nAbout the speaker\n\nA master student active in Taipei Python and R meetups. His research topic focuses on network analysis of cancer genetics. After his intern in MSRA, he's currently working on digital histopathology analysis using convolutional neural network (CNN).\n\n\u500b\u4eba\u7db2\u9801\u9023\u7d50 http://liang2.tw/\nTwitter @ccwang002\n\u7d44\u7e54/\u516c\u53f8 Bioinfo & Biostat Core Lab, NTU CGM\n\u982d\u929c Student\n\nhttps://tw.pycon.org/2015apac/zh/program/24",
+  "quality_notes": "",
+  "language": "English",
+  "copyright_text": "Standard YouTube Licence",
+  "thumbnail_url": "https://i.ytimg.com/vi/XLyDMtFKRcM/sddefault.jpg",
+  "duration": 2113,
+  "videos": [
+    {
+      "length": 2113,
+      "url": "https://www.youtube.com/watch?v=XLyDMtFKRcM",
+      "type": "youtube"
+    }
+  ],
+  "source_url": "https://www.youtube.com/watch?v=XLyDMtFKRcM",
+  "tags": [],
   "speakers": [
     "Liang Bo Wang"
   ],
-  "source_url": "https://www.youtube.com/watch?v=XLyDMtFKRcM",
-  "description": "Speaker: Liang Bo Wang \n\nHDF5 是一個用來存取數據的函式庫，Matlab 的儲存格式 (.mat) 即基於該格式設計。相較於多數人熟悉的 Database，HDF5 的功能更為單純，它只負責做好讀取、 儲存資料而並不提供 Query、Join 等操作，但也因此在 I/O 表現上更為出色。常見的應用為 sensor、實驗數據記錄與傳輸、大矩陣的操作等。HDF5 在 Python 的接口實作主要有 PyTables 及 h5py，兩者針對不同的使用情境有不同的設計。\n\n在本 talk 中，會先介紹 HDF5 格式與特色，在 Python 中如何用 PyTables、h5py 存取 與異同，以及與主流資料庫、pickle 物件串流化的比較。最後示範 HDF5 如何有效的完成 以下幾個情境中的問題：存取 pandas DataFrame 物件、在大型矩陣進行區域計算、追蹤 Deep Learning 學習記錄。\n\nAbout the speaker\n\nA master student active in Taipei Python and R meetups. His research topic focuses on network analysis of cancer genetics. After his intern in MSRA, he's currently working on digital histopathology analysis using convolutional neural network (CNN).\n\n個人網頁連結 http://liang2.tw/\nTwitter @ccwang002\n組織/公司 Bioinfo & Biostat Core Lab, NTU CGM\n頭銜 Student\n\nhttps://tw.pycon.org/2015apac/zh/program/24",
-  "title": "R0 DAY3-01 Python HDF5 Use Case - Liang Bo Wang (PyCon APAC 2015)",
-  "thumbnail_url": "https://i.ytimg.com/vi/XLyDMtFKRcM/sddefault.jpg",
-  "quality_notes": "hd",
-  "tags": [],
-  "duration": 2113,
-  "copyright_text": "Standard YouTube Licence",
-  "language": "en",
-  "recorded": "2015-08-24",
-  "category": "PyCon APAC 2015",
-  "videos": [
-    {
-      "type": "youtube",
-      "length": 2113,
-      "url": "https://www.youtube.com/watch?v=XLyDMtFKRcM"
-    }
-  ],
-  "slug": "r0-day3-01-python-hdf5-use-case-liang-bo-wang-apac"
+  "recorded": "2015-08-24"
 }
