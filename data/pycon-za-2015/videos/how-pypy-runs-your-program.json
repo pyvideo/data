@@ -3,6 +3,7 @@
   "category": "PyCon ZA 2015",
   "slug": "how-pypy-runs-your-program",
   "title": "How PyPy runs your program",
+  "alias": "video/3932/how-pypy-runs-your-program",
   "summary": "",
   "description": "In this talk we would like to have a short introduction on how Python\nprograms are compiled and executed, with special attention towards\njust-in-time compilation done by PyPy. PyPy is the most advanced Python\ninterpreter around, and while it should generally just speed up your\nprograms, there is a wide range of performance that you can get out of\nPyPy, ranging from slightly faster than CPython to C speeds, depending\non how you write your programs.\n\nWe will split the talk in two parts. In the first part we will explain\nhow things work, and what can and cannot be optimized, as well as\ndescribe the basic heuristics of the JIT compiler and optimizer. In the\nnext part we will do a brief survey of existing tools for looking at\nperformance of Python programs, with a specific focus on PyPy. We'll\nmostly focus on vmprof with a brief mention of others.\n\nAs a result of this talk, an audience member should be better equipped\nwith the tools to write new software and improve existing software with\nperformance in mind.\n",
   "quality_notes": "",

@@ -3,6 +3,7 @@
   "category": "EuroPython 2011",
   "slug": "json-data-rml-template-pdf-report",
   "title": "JSON data + RML template = PDF report",
+  "alias": "video/1019/json-data-rml-template-pdf-report",
   "summary": "[EuroPython 2011] Stefano Cotta Ramusino - 23 June 2011 in \"Track\nRavioli\"\n",
   "description": "The main problem with reports generated in Python is how to separate the\ncontent from the style using ReportLab library, because all informations\nshould be saved in a single source file that, by example, is impossible\nto understand for your graphic designer.\n\nSo the solution: just modularizes all components you need and identify\nsimple container formats for your data input (JSON) and document\ntemplate (ReportLab RML).\n\nNow with the power of Genshi and XInclude we will create dynamic\ntemplates that include specific snippets (e.g., to generate on the fly a\ndecent graph with matplotlib or cairoplot to fill some lacks of\nReportLab) and we will detach the stylesheet from the template\nstructure.\n\nAnd at the end you can also have the internationalization service in the\nPDF report generation!\n",
   "quality_notes": "",

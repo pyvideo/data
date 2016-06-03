@@ -3,6 +3,7 @@
   "category": "PyCon AU 2015",
   "slug": "many-to-many-minus-the-middleman",
   "title": "Many-to-many, minus the middleman",
+  "alias": "video/3996/many-to-many-minus-the-middleman",
   "summary": "",
   "description": "This talk is about an alternative Django ManyToManyField implementation\nthat uses (abuses?) PostgreSQL's full-text search engine instead of an\nintermediary table to store its relationships. As well as showing off\nsome handy things you can do with this field, we'll talk along the way\nabout full-text search in Postgres, inverted indexes, and how Django's\nManyToManyField is implemented.\n\nBehind the scenes, ManyToManyField uses an intermediary table to record\nits relationships \u2013\u00a0a classic relational database technique you most\nlikely mastered in Databases 101. But to believe some present-day\ncommentators, classic relational databases with their fixed schemas and\ntheir ACID habit belong back in the 70s where they came from.\n\nEnter Postgres, the hip, switched-on parent who works as a public\ndefender and gets on uncomfortably well with your friends. Postgres\nbuilds on a wealth of relational history while embracing modern\nnon-relational ideas in a thoughtful, sane way.\n\nIn this talk, we'll press full-text search, one of Postgres' repertoire\nof many useful features, into a service it performs remarkably well\ndespite being designed for quite a different purpose. Code and\nbenchmarks provided!\n",
   "quality_notes": "",

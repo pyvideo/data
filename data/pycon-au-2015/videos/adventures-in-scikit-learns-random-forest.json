@@ -3,6 +3,7 @@
   "category": "PyCon AU 2015",
   "slug": "adventures-in-scikit-learns-random-forest",
   "title": "Adventures in scikit-learn's Random Forest",
+  "alias": "video/4051/adventures-in-scikit-learns-random-forest",
   "summary": "",
   "description": "Scikit-learn's Random Forests are a great first choice for tackling a\nmachine-learning problem. They are easy to use with only a handful of\ntuning parameters but nevertheless produce good results. Additionally, a\nseparate cross-validation step can be avoided using the out-of-bag\nsample predictions generated during the construction of the forest, and\nfinally they make it relatively easy to identify and extract the most\nimportant features of the sample data.\n\nIn this talk we\u2019ll go through the process of using scikit-learn\u2019s random\nforests using a financial data-set (of ASX equities) as an example.\nWe\u2019ll begin with a basic overview of the random forest algorithm and of\nthe tuning parameters available and their impact on the effectiveness of\nthe forest. Secondly we\u2019ll go over the basic usage of scikit-learn\u2019s\nrandom forests and in the process trouble-shoot some common problems\nsuch as dealing with missing sample data. Next we\u2019ll discuss the use of\nout-of-bag sample predictions as a method for quickly performing\ncross-validation and optimising the tuning parameters. Finally we\u2019ll\nlook at how to extract information from the model that scikit-learn has\ngenerated, most notably the relative importances of the features in the\nsample data.\n",
   "quality_notes": "",

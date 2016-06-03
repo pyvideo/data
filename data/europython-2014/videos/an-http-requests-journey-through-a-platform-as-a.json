@@ -3,6 +3,7 @@
   "category": "EuroPython 2014",
   "slug": "an-http-requests-journey-through-a-platform-as-a",
   "title": "An HTTP request's journey through a platform-as-a-service",
+  "alias": "video/2994/an-http-requests-journey-through-a-platform-as-a",
   "summary": "PythonAnywhere hosts tens of thousands of Python web applications, with\ntraffic ranging from a couple of hits a week to dozens of hits a second.\nHosting this many sites reliably at a reasonable cost requires a\nwell-designed infrastructure, but it uses the same standard components\nas many other Python-based websites. We've built our stack on GNU/Linux,\nnginx, uWSGI, Redis, and Lua -- all managed with Python. In this talk\nwe'll give a high-level overview of how it all works, by tracing how a\nrequest goes from the browser to the Python application and its response\ngoes back again. As well as showing how a fairly large deployment works,\nwe'll give tips on scaling and share a few insights that may help people\nrunning smaller sites discover how they can speed things up.\n",
   "description": "",
   "quality_notes": "",

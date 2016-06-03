@@ -3,6 +3,7 @@
   "category": "PyCon ZA 2014",
   "slug": "monkeying-around-with-twisted",
   "title": "Monkeying around with Twisted",
+  "alias": "video/3835/monkeying-around-with-twisted",
   "summary": "Twisted is an open source framework for writing network based services.\nIt utilises an asynchronous, event driven model which allows the rapid\ndevelopment of custom network protocols. While Twisted makes\nimplementing network services much easier, it comes with its own set of\nchallenges. One of these challenges involves tracking the context of\nmultiple requests. In a traditional web server the thread ID could be\nused to track a particular request and modify log entries appropriately.\nHowever, this does not work in Twisted as it utilises a single thread\n(generally speaking). We have chosen to tackle this issue, amongst\nothers, by monkey patching some of the Twisted subsystems. Through this\ntalk we will introduce Twisted as a viable option for programming\nnetwork based services. No previous Twisted knowledge is required, and\nthe concepts introduced will be explained through real world examples of\nrestful controllers implemented in Twisted. This primer will be followed\nby a discussion on our solution to the context tracking problem as well\nas some of the other areas in which we have found monkey patching to be\nbeneficial.\n",
   "description": "",
   "quality_notes": "",

@@ -3,6 +3,7 @@
   "category": "EuroPython 2011",
   "slug": "openstack-computes-automated-testing",
   "title": "OpenStack Compute's automated testing",
+  "alias": "video/1121/openstack-computes-automated-testing",
   "summary": "[EuroPython 2011] Soren Hansen - 24 June 2011 in \"Track Tagliatelle \"\n",
   "description": "When a patch is propoed against OpenStack compute (a.k.a. Nova) and it\nmakes it through our peer review process, our automated test system\ntakes over:\n\n-  It finds the approved patch on Launchpad;\n\n-  An attempt to merge the patch is performed;\n\n-  The unit tests are run;\n\n-  A PEP-8 check is run;\n\n-  The merge is completed, applying the patch to our trunk;\n\n-  A tarball is built and published;\n\n-  An Ubuntu source package is built for several editions of Ubuntu;\n\n-  The source packages get uploaded to a PPA;\n\n-  Once built, the packages are installed on a test setup;\n\n-  A test battery is run against the installed \"cloud\".\n\nI'll explain the various steps, showing how it works and attempt to\ndemonstrate it (Murphy's law permitting), and then I'll speak about the\nbenefits we've gotten from PPA's and working closely with Ubuntu.\n",
   "quality_notes": "",

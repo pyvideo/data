@@ -3,6 +3,7 @@
   "category": "Kiwi PyCon 2013",
   "slug": "dissecting-memory-mysteries-of-python-0",
   "title": "Dissecting memory mysteries of Python",
+  "alias": "video/2359/dissecting-memory-mysteries-of-python-0",
   "summary": "Memory leak has been perennial problem for Python applications. This\ncauses application to behave erroneously with Memory error and very slow\noperation. What is wrong with the application? How to find out the cause\nand fix it? This is the motivation for this talk.\n",
   "description": "@ Kiwi PyCon 2013 - Saturday, 07 Sep 2013 - Track 2\n\n**Audience level**\n\nIntermediate\n\n**Abstract**\n\nPython is a dynamically typed language. Applications leave task of\nobject memory management to Python VM. Python automatically manages\nmemory using reference counting and garbage collection. But, Python\nmemory manager may bloat the VM size, and sometimes it may consume\ncomplete main memory. It causes applications to deliver low performance\nand encounter unexpected memory errors.\n\nThis talk dissects the internals of CPython memory manager, its\nlimitations and negative impact on application behavior. We demonstrate\nthe problem of memory leaks by learning Python heap pattern, object\ngraphs and memory profiling. Next, we suggest solutions to reduce memory\nfootprints of applications, tools to diagnose and fix memory leaks and\nlesson learned as best development practices.\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/vishal-kanaujia-dissecting-memory-mysteries-of-python\n",
   "quality_notes": "",
