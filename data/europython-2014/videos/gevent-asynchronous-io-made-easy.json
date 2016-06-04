@@ -3,6 +3,7 @@
   "category": "EuroPython 2014",
   "slug": "gevent-asynchronous-io-made-easy",
   "title": "gevent: asynchronous I/O made easy",
+  "alias": "video/3005/gevent-asynchronous-io-made-easy",
   "summary": "gevent provides highly scalable asynchronous I/O without becoming a nest\nof callbacks, or even needing code changes.\n\nDaniel will explain how to get started with gevent, discuss patterns for\nits use and describe the differences with Twisted, Tornado and\nTulip/asyncio.\n",
   "description": "It has been claimed \"Callbacks are the new GOTO\". Most asynchronous IO\nlibraries use callbacks extensively.\n\ngevent (http://www.gevent.org) uses coroutines to provide highly\nscalable asynchronous I/O with a synchronous programming model that\ndoesn't need code changes and callbacks. By elegantly monkey patching\nthe Python standard library, both your code and all pure Python\nlibraries become asynchronous too, making a separate collection of\nprotocol implementations (in the style of Twisted) unnecessary.\n\nCode written like this is easier to understand, particularly for more\njunior developers. Crucially, IO errors can be raised at the right\nplaces.\n\nI will be introducing gevent's programming model, why it's easier, walk\nthrough simple code samples, and discuss experiences and metaphors for\nprogramming with it.\n",
   "quality_notes": "",

@@ -3,6 +3,7 @@
   "category": "SciPy 2012",
   "slug": "solving-the-import-problem-scalable-dynamic-load",
   "title": "Solving the import problem: Scalable Dynamic Loading Network File Systems",
+  "alias": "video/1201/solving-the-import-problem-scalable-dynamic-load",
   "summary": "",
   "description": "The most common programming paradigm for scientific computing, SPMD\n(Single Program Multiple Data), catastrophically interacts with the\nloading strategies of dynamically linked executables and\nnetwork-attached file systems on even moderately sized high performance\ncomputing clusters. This difficulty is further exacerbated by\n\"function-shipped\" I/O on modern supercomputer compute nodes, preventing\nthe deployment of simple solutions. In this talk, we introduce a\ntwo-component solution: collfs, a set of low-level MPI-collective file\noperations that can selectively shadow file system access in a library,\nand walla, a set of Python import hooks for seamlessly enabling parallel\ndynamic loading scalable to tens of thousands of cores.\n",
   "quality_notes": "",

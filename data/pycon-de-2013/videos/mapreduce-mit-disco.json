@@ -3,6 +3,7 @@
   "category": "PyCon DE 2013",
   "slug": "mapreduce-mit-disco",
   "title": "MapReduce mit Disco",
+  "alias": "video/2428/mapreduce-mit-disco",
   "summary": "Mit dem MapReduce-Verfahren k\u00f6nnen massive Datenmengen auf einem\nRechencluster verarbeitet werden. Namensgeber und wichtige Bestandteile\nsind eine Map- und eine Reduce-Phase. Diese werden jeweils\nparallelisiert ausgef\u00fchrt und erm\u00f6glichen somit eine optimale Auslastung\nder vorhandenen Ressourcen. Im Vergleich zu einer entsprechenden\nsequentiellen Implementierung k\u00f6nnen dadurch gro\u00dfe Zeiteinsparungen\nerreicht werden.\n\nMit dem freien Disco-Framework k\u00f6nnen MapReduce-Aufgaben leicht in\nPython erstellt werden. Beim Zugriff auf die Eingabedaten werden\nverschiedene Protokolle unterst\u00fctzt. W\u00e4hrend der Ausf\u00fchrung kann der\nZustand des Rechenclusters sowie der Fortschritt der einzelnen Aufgaben\nmit Hilfe einer Weboberfl\u00e4che \u00fcberwacht werden. Ein verteiltes\nDateisystem, das Disco Distributed Filesystem (DDFS), wird zur\nSpeicherung der Zwischen- und Endergebnisse verwendet.\n",
   "description": "",
   "quality_notes": "",

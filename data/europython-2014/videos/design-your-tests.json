@@ -3,6 +3,7 @@
   "category": "EuroPython 2014",
   "slug": "design-your-tests",
   "title": "Design Your Tests",
+  "alias": "video/2997/design-your-tests",
   "summary": "While getting started testing often provides noticeable immediate\nimprovement for any developer, it's often not until the realization that\ntests are things that need *design* to provide maximal benefit that\ndevelopers begin to appreciate or even *enjoy* them.\n\nWe'll investigate how building shallow, transparent layers for your\ntests makes for better failures, clearer tests, and quicker diagnoses.\n",
   "description": "-  Life span of a test\n\n   -  5 minute - why does this fail?\n   -  5 day - what is this missing?\n   -  5 week - do I have coverage for this?\n   -  5 month - what's *not* causing this bug?\n\n-  Transparent simplicity\n\n   -  one or two \"iceberg\" layers for meaning\n\n      -  Higher-order assertions - build collections of state that have\n         meaning for the domain in the tests\n      -  bulk of the details are in the code itself\n\n      -  show an example\n\n   -  grouping for organization\n\n      -  Mixins\n\n      -  show an example\n\n-  unittest issues\n\n   -  assertion/mixin clutter\n   -  setUp/tearDown tie grouping to the class layer or to inheritance\n      via super\n\n      -  addCleanup\n\n   -  weak association / lookup-ability between code and its tests\n\n      -  package layout\n      -  other conventions\n\n-  Alternative approaches\n\n   -  testtools' matchers\n   -  py.test ``assert`` magic\n\n\n",
   "quality_notes": "",

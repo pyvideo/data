@@ -3,6 +3,7 @@
   "category": "PyCon AU 2015",
   "slug": "privsep-a-new-security-isolation-mechanism-for-o",
   "title": "Privsep: A New Security Isolation Mechanism for OpenStack",
+  "alias": "video/4034/privsep-a-new-security-isolation-mechanism-for-o",
   "summary": "",
   "description": "OpenStack listens to requests over the network, and (when appropriate)\nperforms operations on the host that require root superpowers. Following\nbest-practice design, most of the code runs as an unprivileged user and\nonly the code that needs additional powers runs as root using a tool\ncalled \"rootwrap\".\n\nThis talk discusses the evolution that led to the current rootwrap\ndesign, why it has proven to be completely inadequate in practice, and\npresents a new \"privsep\" alternative currently being worked on within\nOslo.\n",
   "quality_notes": "",

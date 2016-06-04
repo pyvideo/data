@@ -3,6 +3,7 @@
   "category": "PyCon FR 2013",
   "slug": "les-effets-de-bord-du-global-interpreter-lock",
   "title": "Les effets de bord du Global Interpreter Lock",
+  "alias": "video/3750/les-effets-de-bord-du-global-interpreter-lock",
   "summary": "\"C'est seulement dans le cas de programmes multi-thread\u00e9s qui passent\nbeaucoup de temps au sein du GIL \u00e0 interpr\u00e9ter du bytecode CPython que\nle GIL devient un goulot d'\u00e9tranglement\"\n\nC'est ainsi que le GIL est pr\u00e9sent\u00e9 sur wiki.python.org jusqu'en 2009.\nSuite aux travaux de David Beazley (http://www.dabeaz.com) en 2009 et\n2010, la communaut\u00e9 Python d\u00e9couvre que les effets du GIL vont au del\u00e0.\n\nEn effet, l'impl\u00e9mentation du GIL met en oeuvre une m\u00e9canique complexe\nqui ajoute un overhead important d'appels syst\u00e8mes, particuli\u00e8rement sur\nles processeurs multi-coeurs. De plus, le GIL pertube la livraison des\nsignaux. Enfin, le GIL peut provoquer le scheduling de threads CPU bound\navant celui de threads I/O bound, provoquant une d\u00e9gradation des\nperformances.\n\nCe talk s'appuyant sur les travaux de David Beazley (avec son aimable\nautorisation) tentera de donner une explication claire et d\u00e9taill\u00e9e aux\neffets de bord du GIL mentionn\u00e9s ci-dessus.\n",
   "description": "",
   "quality_notes": "",

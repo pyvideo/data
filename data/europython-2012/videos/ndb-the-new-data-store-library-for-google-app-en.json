@@ -3,6 +3,7 @@
   "category": "EuroPython 2012",
   "slug": "ndb-the-new-data-store-library-for-google-app-en",
   "title": "NDB: the new data store library for Google App Engine",
+  "alias": "video/1266/ndb-the-new-data-store-library-for-google-app-en",
   "summary": "None\n",
   "description": "NDB is a new Python client library for the Google App Engine Datastore.\nNDB has an integrated multi-level cache, supports synchronous and\nasynchronous calls, automatically batches requests, and several ways of\nstoring structured data. The thrust for developing NDB was the\nrealization that the original Python datastore client library, \u201cdb\u201d, had\nsome architectural and design flaws which were hard to fix due to strict\nbackward compatibility requirements. But in the process, NDB became much\nmore than an improved db library. NDB offers a new paradigm for\nasynchronous APIs, based on coroutines implemented using Python\u2019s\n\u201cyield\u201d expression (and a simple event loop). It also supports a\nflexible way to create new Property classes by subclassing existing\nProperty classes.\n",
   "quality_notes": "",

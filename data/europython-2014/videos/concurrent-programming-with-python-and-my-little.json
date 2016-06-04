@@ -3,6 +3,7 @@
   "category": "EuroPython 2014",
   "slug": "concurrent-programming-with-python-and-my-little",
   "title": "Concurrent programming with Python and my little experiment",
+  "alias": "video/2941/concurrent-programming-with-python-and-my-little",
   "summary": "Concurrent programming in Python may be hard. A lot of solutions exists\nthough. Most of them are based on an eventloop. This talk will present\nwhat I discovered and tested along the time and my little\n`experiment <http://github.com/benoitc/offset>`__ in porting the Go\nconcurrency model in Python.\n",
   "description": "Concurrent programming in Python may be hard. A lot of solutions exists\nthough. Most of them are based on an eventloop. This talk will present\nwhat I discovered and tested along the time with code examples, from\nasyncore to asyncio, passing by gevent, eventlet, twisted and some new\nalternatives like evergreen or gruvi. It will also present my little\nexperiment in porting the Go concurrency model in Python named\n`offset <http://github.com/benoitc/offset>`__, how it progressed in 1\nyear and how it became a fully usable library .\n\nThis presentation will be an update of the presentation I gave at the\nFOSDEM 2014. It will introduce to the concurrency concepts and how they\nare implemented in the different libraries.\n",
   "quality_notes": "",

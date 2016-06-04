@@ -3,6 +3,7 @@
   "category": "PyCon US 2011",
   "slug": "pycon-2011--status-of-unicode-in-python-3",
   "title": "Status of Unicode in Python 3",
+  "alias": "video/364/pycon-2011--status-of-unicode-in-python-3",
   "summary": "Introduced in Python 2.0, unicode became the default string type in\nPython 3.0. It took 8 years to switch to unicode, and since Python 3.0,\na lot of bugs has been fixed. The switch to unicode opened many\nquestions. Should Python support both bytes and characters for\nfilenames? What to do with undecodable bytes? etc.\n",
   "description": "The talk will focus on the recent issues fixed in Python 3.1 and 3.2:\n\n-  Use the PEP 383 (error handler to store undecodable bytes) everywhere\n-  Encoding of the command line arguments: utf-8 on Mac OS X, locale\n   encoding on UNIX/BSD, unicode on Windows\n-  Environment variables: creation of os.environb\n-  Filenames: huge work to support the PEP 383 everywhere, creation of\n   os.fsencode() and os.fsdecode()\n-  Python source code encoding: use tokenize.detect\\_encoding() instead\n   of the locale encoding\n-  some library examples: email, ftp, ...\n-  etc.\n\nThe talk will present not only the changes in Python, but also in the C\nAPI.\n",
   "quality_notes": "",

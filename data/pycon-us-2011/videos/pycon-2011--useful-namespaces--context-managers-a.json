@@ -3,6 +3,7 @@
   "category": "PyCon US 2011",
   "slug": "pycon-2011--useful-namespaces--context-managers-a",
   "title": "Useful Namespaces: Context Managers and Decorators",
+  "alias": "video/395/pycon-2011--useful-namespaces--context-managers-a",
   "summary": "",
   "description": "Useful Namespaces: Context Managers and Decorators\n\nPresented by Jack Diederich\n\nPython has two useful conventions for \"I mean it, but only here\" and you\ncan say it with Context Managers and Decorators. Both give you the power\nto define a push/pop of a resource for a set period inside a namespace,\nbe it a function or a level of indentation. This talk is a list of\npatterns that are implemented by one or the other (including some clever\nfunctions that are both).\n\nAbstract\n\n-  Decorators, formal definition.\n-  Context Managers, formal definition.\n-  Informal definition: both have the opportunity to do and then undo. -\n   very similar to C++ RIIA \"Resource Acquisition Is Initialization.\" -\n   Context Managers were designed to do that but decorators are\n   frequently just as good.\n-  Which one to use use when is all about namespaces. - Context Managers\n   manipulate at the block level. - Function Decorators manipulate the\n   function level. - Class Decorators manipulate at the class level.\n-  Recipes on writing decorators and context managers - Familiar\n   examples from Django and Mock.\n\n",
   "quality_notes": "",

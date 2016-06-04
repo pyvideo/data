@@ -3,6 +3,7 @@
   "category": "PyCon ZA 2015",
   "slug": "the-road-to-continuous-deploys",
   "title": "The Road to Continuous Deployment",
+  "alias": "video/3935/the-road-to-continuous-deploys",
   "summary": "",
   "description": "How do we get work from a developer's laptop to a production server? How\ndo we do this repeatedly? How do we avoid releasing bad patches? How do\nwe get changes out as fast as possible? And what happens to requests\nduring a deploy? If you want continuous deployment, you have to solve\nthese problems.\n\nHow do you handle configuration, so that the same code can run in\nmultiple environment? From a developers laptop, to QA environments, to\nproduction. What about the quirks of each machine in production?\n\nThis talk will look at the path Yola took, with Jenkins, yoconfigurator,\nyodeploy. It's by no means a complete solution, but it's good enough\nthat I rarely find myself working on it, these days.\n\nWe will cover the pros and cons of each path one can take. The whole\nplatform architecture is really affected by this. We can talk about:\nBare hardware, virtualization, containerization, build systems, linux\ndistributions packages, language package ecosystems, configuration\nmanagement systems, notifications, secret distribution, and much more.\n",
   "quality_notes": "",

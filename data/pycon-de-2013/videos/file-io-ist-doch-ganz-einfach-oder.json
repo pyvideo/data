@@ -3,6 +3,7 @@
   "category": "PyCon DE 2013",
   "slug": "file-io-ist-doch-ganz-einfach-oder",
   "title": "File-I/O ist doch ganz einfach, oder?",
+  "alias": "video/2404/file-io-ist-doch-ganz-einfach-oder",
   "summary": "Der Vortrag soll Bewusstsein daf\u00fcr schaffen, wann man sich aus einer\nkomfortablen Umgebung (z.B. einem Application-Framework) in eine\nsystemspezifische Dom\u00e4ne begibt. Aus meiner Erfahrung im DevOps-Umfeld\nsind mir viele F\u00e4lle bekannt, in denen Code auf Entwickler-Maschinen\nkeine Probleme macht, sich aber auf produktiven Servern nicht\nausreichend robust verh\u00e4lt. Die Eigenschaften von File-I/O in Python\ndienen dabei als durchgehendes Anwendungsbeispiel.\n\nDer Vortrag gliedert sich in zwei Teile. Im ersten Teil m\u00f6chte ich\nanhand von ausgew\u00e4hlten \"Pannen\" zeigen, wann ein *with open(...)*\nallein nicht ausreicht, da z.B. die Python-Standardfunktionen keine\nZuverl\u00e4ssigkeit im Sinne der ACID-Eigenschaften gew\u00e4hrleisten. Im\nzweiten Teil geht um konkrete Programmiertechniken wie\nWrite-Replace-Updates, Locking oder fsync, die die Robustheit von I/O\nggf. unter Einschr\u00e4nkung der Plattformunabh\u00e4ngigkeit erh\u00f6hen.\n\nDer Anwendungsteil des Vortrags basiert auf Material aus meinem\n`Blogpost <http://blog.gocept.com/2013/07/15/reliable-file-updates-with-python/>`__\nzum gleich Thema.\n",
   "description": "",
   "quality_notes": "",

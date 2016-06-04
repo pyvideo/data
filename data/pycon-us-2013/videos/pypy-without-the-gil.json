@@ -3,6 +3,7 @@
   "category": "PyCon US 2013",
   "slug": "pypy-without-the-gil",
   "title": "PyPy without the GIL",
+  "alias": "video/1739/pypy-without-the-gil",
   "summary": "PyPy has a version without the Global Interpreter Lock (GIL). It can run\nmultiple threads concurrently. But the real benefit is that you have\nother, new ways of using all your cores. In this talk I will describe\nhow it is possible (STM) and then focus on some of these new\nopportunities, e.g. show how we used multiple cores in a single really\nbig program without adding thread locks everywhere.\n",
   "description": "",
   "quality_notes": "",

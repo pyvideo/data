@@ -3,6 +3,7 @@
   "category": "PyGotham 2015",
   "slug": "untangling-twisted-how-we-scaled-a-python-servic",
   "title": "Untangling Twisted: How We Scaled a Python Service for Online Publishers",
+  "alias": "video/3782/untangling-twisted-how-we-scaled-a-python-servic",
   "summary": "",
   "description": "At OpBandit, we built a Python Twisted service that renders different\nversions of news content for rendering on top publishers across six\ncountries. At a high level, whenever a reader requests a page on a\npublisher's website, our service selects from various versions of\nheadlines and photos to deliver the collection of versions that we think\na user is most likely to click. This requires decision making on the fly\nfor each request with hard requirements for speed and reliability. This\ntalk will cover how we used Twisted to scale our service to provide\nhundreds of millions of optimized pages / month for readers, as well as\nwhat it's like to attempt to scale real-time data science recommendation\nalgorithms within Python.\n",
   "quality_notes": "",

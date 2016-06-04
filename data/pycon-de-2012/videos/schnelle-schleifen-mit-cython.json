@@ -3,6 +3,7 @@
   "category": "PyCon DE 2012",
   "slug": "schnelle-schleifen-mit-cython",
   "title": "Schnelle Schleifen mit Cython",
+  "alias": "video/1424/schnelle-schleifen-mit-cython",
   "summary": "Keine PyCon(-DE) ohne Cython, die de-facto Standarderweiterungssprache\nf\u00fcr Python. Diesmal geht es um ein paar neuere Spracherweiterungen zur\nPython- Syntax, die den Cython-Compiler besonders attraktiv f\u00fcr\nHigh-Performance- Computing machen: Parallele Schleifen mit OpenMP,\neffizientes Slicing mit Memory-Views und generische Funktionen.\n\n`Cython <http://cython.org>`__ ist eine Programmiersprache, die die\nSprache Python um zus\u00e4tzliche Features erg\u00e4nzt. Sie macht das Schreiben\nvon schnellen Erweiterungsmodulen f\u00fcr CPython und das Anbinden von\nexternen nativen Bibliotheken (C/C++/Fortran/...) so einfach wie Python\nselbst.\n\nDieser Vortrag gibt einen kurzen Einblick in Cython und speziell in die\nOptimierung von schleifenbasierten Algorithmen \u00fcber NumPy Arrays, mit\ndenen gro\u00dfe Datenmengen effizient verarbeitet werden k\u00f6nnen. Dazu werden\nMemory- Views verwendet, die mit Version 0.16 in Cython Einzug gehalten\nhaben. Hinzu gesellen sich parallele Schleifen, sowie generische\nFunktionen, die es dem Compiler erlauben, einmal geschriebenen Code f\u00fcr\nverschiedene native Datentypen zu optimieren.\n\nEine ausf\u00fchrliche Version dieses Vortrags mit entsprechenden \u00dcbungen\nwird zus\u00e4tzlich als Tutorial angeboten.\n",
   "description": "",
   "quality_notes": "",

@@ -3,6 +3,7 @@
   "category": "SciPy 2012",
   "slug": "surface-subdivision-schemes-for-python",
   "title": "Surface Subdivision Schemes for Python",
+  "alias": "video/1233/surface-subdivision-schemes-for-python",
   "summary": "",
   "description": "There exist two very powerful geometric surface subdivision schemes that\ndo not yet exist for python users: Catmul-Clark subdivision surfaces,\nand Nira Dyn's Butterfly subdivision surface scheme. These schemes are\nuseful in creating C2-continuous (under ideal conditions) surfaces from\na control mesh of points. The later scheme interpolates the control mesh\npoints, which makes it useful for scientific applications.\n\nWe plan on providing some background on the schemes detailing usecases\nand visualizing the results. We also plan on discussing the various\ntechniques we use to overcome performance bottlenecks\n(numpy/cython/etc.)\n",
   "quality_notes": "",

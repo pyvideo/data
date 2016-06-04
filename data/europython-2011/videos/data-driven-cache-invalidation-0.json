@@ -3,6 +3,7 @@
   "category": "EuroPython 2011",
   "slug": "data-driven-cache-invalidation-0",
   "title": "Data Driven Cache Invalidation",
+  "alias": "video/1158/data-driven-cache-invalidation-0",
   "summary": "[EuroPython 2011] Magnus Hagander - 23 June 2011 in \"Track Ravioli\"\n",
   "description": "In todays world, nobody (should) deploy a web application facing the\ninternet without having a proper caching system in place. There are many\ndifferent solutions to choose from, from manual use of memcached through\nframework integrated caching to external caches like Squid or Varnish.\nMost modern frameworks come with integrated functionality for at least\none of these methods, and often more than one.\n\nHowever, they often relies on all traffic going through the same\nframework to work properly - a caching layer in Rails is hard to share\nwith one in Django. This talk will show a way to break the design rules\nof these frameworks just a little, and have the database help solve this\nproblem.\n\nThis talk will use a small application written in Python using Django to\nillustrate the examples, but the method is language independent.\nUnsurprisingly, the database used is PostgreSQL.\n",
   "quality_notes": "",

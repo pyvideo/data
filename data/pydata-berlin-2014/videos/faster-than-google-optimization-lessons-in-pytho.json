@@ -3,6 +3,7 @@
   "category": "PyData Berlin 2014",
   "slug": "faster-than-google-optimization-lessons-in-pytho",
   "title": "Faster than Google? Optimization lessons in Python.",
+  "alias": "video/3061/faster-than-google-optimization-lessons-in-pytho",
   "summary": "",
   "description": "Lessons from translating Google's deep learning algorithm into Python.\nCan a Python port compete with Google's tightly optimized C code?\nSpoiler: making use of Python and its vibrant ecosystem (generators,\nNumPy, Cython...), the optimized Python port is cleaner, more readable\nand clocks in\u2014somewhat astonishingly\u20144x faster than Google's C. This is\n12,000x faster than a naive, pure Python implementation and 100x faster\nthan an optimized NumPy implementation. The talk will go over what went\nwell (data streaming to process humongous datasets, parallelization and\navoiding GIL with Cython, plugging into BLAS) as well as trouble along\nthe way (BLAS idiosyncrasies, Cython issues, dead ends). The quest is\nalso documented on my blog.\n",
   "quality_notes": "",

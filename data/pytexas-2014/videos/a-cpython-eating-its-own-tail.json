@@ -3,6 +3,7 @@
   "category": "PyTexas 2014",
   "slug": "a-cpython-eating-its-own-tail",
   "title": "A CPython Eating Its Own Tail",
+  "alias": "video/3205/a-cpython-eating-its-own-tail",
   "summary": "",
   "description": "This is an expert-level talk that dives into CPython and discusses\nvarious ways to embed Python interpreters. It starts with the \"very high\nlevel\" embedding & the \"pure\" embedding, shows a fairly novel \"zero\ninterpreter\" embedding using Cython, a few attempts at a ctypes/cffi\nembedding, and builds to a finish with a source-filter embedding of a\nPython interpreter into itself.\u00a0\n\nThe purpose of this talk is to have some fun diving into CPython\ninternals while looking practical approaches to embedding CPython\ninterpreters into other (C/C++) processes. The final result, a Python 3\ninterpreter embedded into a Python 2 interpreter as an extension model,\nis novel but may be of fairly limited actual use. It is, however, pretty\nwild and a lot of fun!\n",
   "quality_notes": "",

@@ -3,6 +3,7 @@
   "category": "PyCon US 2010",
   "slug": "pycon-2010--actors--what--why--and-how---161",
   "title": "Actors: What, Why, and How (#161)",
+  "alias": "video/352/pycon-2010--actors--what--why--and-how---161",
   "summary": "",
   "description": "Actors: What, Why and How\n\nPresented by Donovan Preston\n\nSince the dawn of concurrency research, there have been two camps:\nshared everything, and shared nothing. Most modern applications use\nthreads for concurrency, a shared everything architecture.\n\nActors, however, use a shared nothing architecture where lightweight\nprocesses communicate with each other using message passing. Actors can\nchange their state, create a new Actor, send a message to any Actor it\nhas the Address of, and wait for a specific kind of message to arrive in\nit's mailbox.\n\nWe will discuss the benefits of using the Actor architecture and\nstrategies for implementing an Actor system in Python.\n\n`http://bitbucket.org/fzzzy/python-actors/ <http://bitbucket.org/fzzzy/python-%20actors/>`__\n",
   "quality_notes": "",

@@ -3,6 +3,7 @@
   "category": "PyCon AU 2015",
   "slug": "the-one-true-way-of-doing-django-deployments",
   "title": "The one true way of doing Django deployments...",
+  "alias": "video/4035/the-one-true-way-of-doing-django-deployments",
   "summary": "",
   "description": "...doesn't exist. (Sorry)\n\nThe power and flexibility of Django comes with drawbacks. One of the\ntoughest for project management is working out how to deploy your Django\napplication. If you ask five different authorities on how you should do\nit, you'll get six different answers.\n\nAnd if someone says \"Just use fabric!\": they're not helping.\n\nRelease management, dependency wrangling, virtualenv care and feeding;\nto .whl or .deb? To containerize or Heroku-ize? Do you really have to\nallow your servers unconstrained Internet access just to build your\nvirtualenv?\n\nAs a Django user, you might end up writing more deployment solutions\nthan Django projects. I know I have.\n\nThere's no one true way of doing Django deployments, but some work\nbetter than others. Maybe I can show you.\n",
   "quality_notes": "",

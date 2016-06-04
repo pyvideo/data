@@ -3,6 +3,7 @@
   "category": "Kiwi PyCon 2014",
   "slug": "deploying-a-django-application-using-juju",
   "title": "Deploying a Django application using Juju",
+  "alias": "video/3215/deploying-a-django-application-using-juju",
   "summary": "Juju is a service orchestration tool for deploying services into public\nor private clouds. I will talk about how I deployed my Django\napplication using Juju.\n",
   "description": "Juju is a service orchestration tool for deploying services into public\nor private clouds. The services that Juju deploys are described in\nCharms. A Charm should use the \"best practice\" for deploying the\nservice. In the case of Django, this would be using gunicorn and nginx.\nI explain how the postgresql charm communicates with the django charm,\nand how I had to change my application's settings and urls to work with\nthe django charm. The application that is deployed is a \"proprietary\"\napp, and as such, the deployment of the application itself is done with\nanother charm. The interaction between the subordinate charms and the\nprincipal django charm are explained, and how the data is exchanged\nbetween the charms. As well as the deployment story, I also explain how\napplication updates are deployed very simply.\n",
   "quality_notes": "",

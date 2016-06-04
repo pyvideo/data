@@ -3,6 +3,7 @@
   "category": "SciPy 2012",
   "slug": "rofl-a-functional-python-dialect-for-science",
   "title": "ROFL: a functional Python dialect for science",
+  "alias": "video/1191/rofl-a-functional-python-dialect-for-science",
   "summary": "",
   "description": "Current parallel programming models leave a lot to be desired and fail\nto maintain pace with improvements in hardware architecture. For many\nscientific research groups these models only widen the gap between\nequations and scalable parallel code. The Resilient Optimizing Flow\nLanguage (ROFL) is a data-flow language designed with the purpose of\nsolving the problems of both domain abstraction and efficient\nparallelism. Using a functional, declarative variant of the Python\nlanguage, ROFL takes scientific equations and optimizes for both scalar\nand parallel execution.\n\nROFL is closely tied to Python and the SciPy libraries. ROFL uses Python\nexpression syntax, is implemented in Python, and emits optimized Python\ncode. ROFL's implementation in Python allows ROFL to be embedded in\nPython. Using Python as a target language makes ROFL extensible and\nportable. By removing imperative loop constructs and focusing on\nintegration with the NumPy and SciPy libraries, ROFL both supports and\nencourages data parallelism.\n\nIn this presentation, we introduce the ROFL language, and demonstrate by\nexample how ROFL enables scientists to focus more on the equations they\nare solving, and less on task and data parallelism.\n",
   "quality_notes": "",
