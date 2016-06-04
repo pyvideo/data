@@ -9,3 +9,4 @@ Credits
 * Paul Tremberth
 * Piotr Bulinski
 * David Baumgold
+* Horst Gutmann
