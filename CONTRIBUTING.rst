@@ -16,7 +16,7 @@ Report Bugs
 
 Report bugs at:
 
-https://github.com/pyvideo/pyvideo-data/issues
+https://github.com/pytube/pyvideo-data/issues
 
 If you are reporting a bug about incorrect data, please include:
 
@@ -30,12 +30,6 @@ If you are reporting a bug about things to add, please include:
 * A description of the thing.
 * Any urls where we can find additional details about the thing.
 * The url for the video material.
-
-If you are reporting a bug about clive, please include:
-
-* Your operating system name and version.
-* Any details about your local setup that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
 
 .. Note::
 
