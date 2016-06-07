@@ -16,7 +16,7 @@ Report Bugs
 
 Report bugs at:
 
-https://github.com/pytube/pyvideo-data/issues
+https://github.com/pytube/data/issues
 
 If you are reporting a bug about incorrect data, please include:
 
@@ -54,26 +54,3 @@ We could always use more documentation whether that's part of the official docs,
 comments and docstrings in the code or even elsewhere on the web in blog posts,
 articles, tweets and other things like that.
 
-
-Fix bugs and implement new things in the software
--------------------------------------------------
-
-Look through the issue tracker for bugs and features to work on. Anything that
-is not assigned to someone is open to work on. Please comment in the issue about
-your plans.
-
-For example::
-
-    I'd like to work on this issue. I think it should be fixed like this ...
-
-    <explanation>
-
-    If I don't hear from anyone in the next couple of days, I'll work on it and
-    submit a pull request.
-
-
-Issues marked with the "help wanted" label are good ones to look at.
-
-Want to work on something that isn't covered in an issue, yet? Please write an
-issue first. We don't want you to waste your time working on things that won't
-be accepted.
