@@ -1,5 +1,5 @@
 {
-  "category": "",
+  "category": "DjangoCon 2015",
   "slug": "beyond-the-basics-with-elasticsearch-by-honza-kral",
   "title": "Beyond the basics with Elasticsearch",
   "summary": "Beyond the basics with Elasticsearch\n\nElasticsearch has many use cases, some of them fairly obvious and widely\nused, like plain searching through documents or analytics. In this talk\nI would like to go through some of the more advanced scenarios we have\nseen in the wild. Some examples of what we will cover:\n\nTrend detection - how you can use the aggregation framework to go beyond\nsimple \"counting\" and make use of the full-text properties of\nElasticsearch. Percolator - percolator is reversed search and many\npeople use it as such to drive alerts or \"stored search\" functionality\nfor their website, let's look at how we can use it to detect languages,\ngeo locations or drive live search. If we end up with some time to spare\nwe can explore some other ideas about how we can utilize the features of\na search engine to drive non-trivial data analysis.\n",
