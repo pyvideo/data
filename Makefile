@@ -1,8 +1,9 @@
 PY?=python3
 
 BASEDIR=$(CURDIR)
-TESTSDIR=$(BASEDIR)/.tests
-SCHEMASDIR=$(BASEDIR)/.schemas
+TESTSDIR=$(BASEDIR)/tests
+SCHEMASDIR=$(BASEDIR)/schemas
+PYTHONPATH=$(TESTSDIR)
 
 VERBOSE ?= 0
 
@@ -20,12 +21,11 @@ help:
 	@echo 'e.g. make VERBOSE=1 test                                           '
 	@echo '                                                                   '
 
-
 install-deps:
 	pip install -r $(TESTSDIR)/requirements.txt
 
 test-schemas: install-deps
-	$(PY) $(TESTSDIR)/schemas.py -d $(BASEDIR)
+	$(PY) $(TESTSDIR)/schemas.py -d $(BASEDIR) -s $(SCHEMASDIR)
 
 test-dir-structure: install-deps
 	$(PY) $(TESTSDIR)/dir_structure.py -d $(BASEDIR)

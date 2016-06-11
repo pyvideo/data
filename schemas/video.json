@@ -58,7 +58,7 @@
     },
     "thumbnail_url":{
       "format":"uri",
-      "type":"string"
+      "enum":["string", null]
     },
     "title":{
       "type":"string"
