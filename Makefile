@@ -15,6 +15,7 @@ help:
 	@echo '   make test-schemas           run schema validation tests         '
 	@echo '   make test-dir-structure     run direcotry structure tests       '
 	@echo '   make test-ids-unique        run "unique IDs" test               '
+	@echo '   make test-slugs-unique      run "unique slugs" test             '
 	@echo '   make test-render-rest       run ReST rendering test             '
 	@echo '                                                                   '
 	@echo 'Set the VERBOSE variable to 1 to enable more verbose output.       '
@@ -33,10 +34,13 @@ test-dir-structure: install-deps
 test-ids-unique: install-deps
 	$(PY) $(TESTSDIR)/ids_unique.py -d $(BASEDIR)
 
+test-slugs-unique: install-deps
+	$(PY) $(TESTSDIR)/slugs_unique.py -d $(BASEDIR)
+
 test-render-rest: install-deps
 	$(PY) $(TESTSDIR)/render_rest.py -d $(BASEDIR)
 
-test: test-schemas test-dir-structure test-ids-unique test-render-rest
+test: test-schemas test-dir-structure test-ids-unique test-slugs-unique test-render-rest
 
-.PHONY: help test test-schemas test-dir-structure test-ids-unique test-render-rest
+.PHONY: help test test-schemas test-dir-structure test-ids-unique test-slugs-unique test-render-rest
 
