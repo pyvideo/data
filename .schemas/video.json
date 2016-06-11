@@ -1,85 +1,86 @@
 {
   "$schema":"http://json-schema.org/draft-04/schema#",
-  "description":"A video in pytube/data",
+  "description":"The schema for a video record in pytube/data",
   "properties":{
     "alias":{
-      "type": "string",
-      "minLength": 0
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "category":{
       "description":"",
-      "type": "string",
-      "minLength": 0
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "copyright_text":{
-      "type": "string",
-      "minLength": 0
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "description":{
-      "type": "string",
-      "minLength": 0
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "duration":{
-      "type": "integer"
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "integer"}]
     },
     "id":{
       "description":"A unique identifier for a particular video",
-      "type": "integer"
+      "anyOf": [{"type": "null"}, {"type": "integer"}]
     },
     "language":{
-      "type": "string",
-      "minLength": 0
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "quality_notes":{
-      "type": "string",
-      "minLength": 0
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "recorded":{
       "format":"date-time",
-      "type": "string",
-      "minLength": 0
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "slug":{
-      "type": "string",
-      "minLength": 0
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "source_url":{
       "format":"uri",
-      "type": "string",
-      "minLength": 0
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "speakers":{
+      "description":"",
       "items":{
+        "description":"",
         "type":"string"
       },
-      "minItems": 1,
       "type":"array",
       "uniqueItems":true
     },
     "summary":{
-      "type": "string",
-      "minLength": 0
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "tags":{
+      "description":"",
       "items":{
+        "description":"",
         "type":"string"
       },
       "type": "array",
-      "uniqueItems":true,
-      "minLength": 0
+      "uniqueItems":true
     },
     "thumbnail_url":{
+      "description":"",
       "format":"uri",
-      "type": "string",
-      "minLength": 0
+      "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "title":{
+      "description":"",
       "type":"string"
     },
     "videos":{
-      "description":"Video location records",
+      "description":"Array of video locations",
       "items":{
-        "description":"A video location record",
+        "description":"A video location",
         "properties":{
           "type":{
             "type":"string"
@@ -89,7 +90,7 @@
             "type":"string"
           },
           "length":{
-            "type": "integer"
+            "anyOf": [{"type": "null"}, {"type": "integer"}]
           }
         },
         "required":[
@@ -103,8 +104,8 @@
   },
   "required":[
     "title",
-    "source_url",
-    "speakers"
+    "speakers",
+    "videos"
   ],
   "title":"Video",
   "type":"object"

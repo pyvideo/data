@@ -1,0 +1,28 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "description":"The schema for a category of videos in pytube/data",
+  "properties":{
+    "alias":{
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "description":{
+      "description":"",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "slug":{
+      "description":"",
+      "type":"string"
+    },
+    "title":{
+      "description":"",
+      "type":"string"
+    }
+  },
+  "required":[
+    "slug",
+    "title"
+  ],
+  "title":"Video",
+  "type":"object"
+}

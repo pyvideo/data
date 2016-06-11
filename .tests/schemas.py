@@ -8,28 +8,23 @@ from utils import get_json_files
 
 
 def check_schemas(data_root, schemas_dir):
-    cateory_files, video_files = get_json_files(data_root)
+    schemas = ('category.json', 'video.json')
+    all_file_paths = get_json_files(data_root)
 
-    #with open(os.path.join(schemas_dir, 'category.json'), encoding='UTF-8') as fp:
-    #    category_schema = json.load(fp)
+    for schema, file_paths in zip(schemas, all_file_paths):
+        schema_path = os.path.join(schemas_dir, schema)
+        with open(schema_path, encoding='UTF-8') as fp:
+            schema_blob = json.load(fp)
 
-    #for category in cateory_files:
-    #    with open(category, encoding='UTF-8') as fp:
-    #        blob = json.load(fp)
-    #        validate(blob, category_schema)
-
-    with open(os.path.join(schemas_dir, 'video.json'), encoding='UTF-8') as fp:
-        video_schema = json.load(fp)
-
-    for video in video_files:
-        with open(video, encoding='UTF-8') as fp:
-            blob = json.load(fp)
-            try:
-                jsonschema.validate(blob, video_schema)
-            except jsonschema.exceptions.ValidationError as e:
-                print(video)
-                if True:
-                    print(e)
+        for file_path in file_paths:
+            with open(file_path, encoding='UTF-8') as fp:
+                blob = json.load(fp)
+                try:
+                    jsonschema.validate(blob, schema_blob)
+                except jsonschema.exceptions.ValidationError as e:
+                    print(file_path)
+                    if True:
+                        print(e)
 
 
 def main():
