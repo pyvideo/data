@@ -25,7 +25,7 @@ install-deps:
 	pip install -r $(TESTSDIR)/requirements.txt
 
 test-schemas: install-deps
-	$(PY) $(TESTSDIR)/schemas.py -d $(BASEDIR) -s $(SCHEMASDIR)
+	$(PY) $(TESTSDIR)/schemas.py -d $(BASEDIR) -s $(SCHEMASDIR) -v $(VERBOSE)
 
 test-dir-structure: install-deps
 	$(PY) $(TESTSDIR)/dir_structure.py -d $(BASEDIR)
