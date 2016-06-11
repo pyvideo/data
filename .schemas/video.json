@@ -3,62 +3,75 @@
   "description":"A video in pytube/data",
   "properties":{
     "alias":{
-      "type":"string"
+      "type": "string",
+      "minLength": 0
     },
     "category":{
-      "type":"string"
+      "description":"",
+      "type": "string",
+      "minLength": 0
     },
     "copyright_text":{
-      "type":"string"
+      "type": "string",
+      "minLength": 0
     },
     "description":{
-      "type":"string"
+      "type": "string",
+      "minLength": 0
     },
     "duration":{
-      "type":"integer"
+      "type": "integer"
     },
     "id":{
       "description":"A unique identifier for a particular video",
-      "type":"integer"
+      "type": "integer"
     },
     "language":{
-      "type":"string"
+      "type": "string",
+      "minLength": 0
     },
     "quality_notes":{
-      "type":"string"
+      "type": "string",
+      "minLength": 0
     },
     "recorded":{
-      "format":"date",
-      "type":"string"
+      "format":"date-time",
+      "type": "string",
+      "minLength": 0
     },
     "slug":{
-      "type":"string"
+      "type": "string",
+      "minLength": 0
     },
     "source_url":{
       "format":"uri",
-      "type":"string"
+      "type": "string",
+      "minLength": 0
     },
     "speakers":{
       "items":{
         "type":"string"
       },
-      "minItems":1,
+      "minItems": 1,
       "type":"array",
       "uniqueItems":true
     },
     "summary":{
-      "type":"string"
+      "type": "string",
+      "minLength": 0
     },
     "tags":{
       "items":{
         "type":"string"
       },
-      "type":"array",
-      "uniqueItems":true
+      "type": "array",
+      "uniqueItems":true,
+      "minLength": 0
     },
     "thumbnail_url":{
       "format":"uri",
-      "enum":["string", null]
+      "type": "string",
+      "minLength": 0
     },
     "title":{
       "type":"string"
@@ -74,6 +87,9 @@
           "url":{
             "format":"uri",
             "type":"string"
+          },
+          "length":{
+            "type": "integer"
           }
         },
         "required":[
@@ -81,7 +97,6 @@
         ],
         "type":"object"
       },
-      "minItems":1,
       "type":"array",
       "uniqueItems":true
     }
