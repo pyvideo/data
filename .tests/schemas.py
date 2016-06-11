@@ -7,7 +7,7 @@ import jsonschema
 from utils import get_json_files
 
 
-def check_schemas(data_root, schemas_dir):
+def check_schemas(data_root, schemas_dir, verbose=False):
     schemas = ('category.json', 'video.json')
     all_file_paths = get_json_files(data_root)
 
@@ -22,9 +22,9 @@ def check_schemas(data_root, schemas_dir):
                 try:
                     jsonschema.validate(blob, schema_blob)
                 except jsonschema.exceptions.ValidationError as e:
-                    print(file_path)
-                    if True:
-                        print(e)
+                    print(file_path, flush=True)
+                    if verbose:
+                        print(e, flush=True)
 
 
 def main():
@@ -34,11 +34,11 @@ def main():
     parser.add_argument("-s", "--schemas-dir",
                         help="directory containing schema files") 
     parser.add_argument("-v", "--verbose",
-                        action="store_true",
+                        type=int,
                         help="increase output verbosity")
     args = parser.parse_args()
 
-    check_schemas(args.data_root, args.schemas_dir)
+    check_schemas(args.data_root, args.schemas_dir, verbose=args.verbose)
 
 
 if __name__ == '__main__':

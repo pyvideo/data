@@ -3,19 +3,19 @@
   "description":"The schema for a category of videos in pytube/data",
   "properties":{
     "alias":{
-      "description":"",
+      "description":"[Depreciated] Legacy path to category on pyvideo.org",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "description":{
-      "description":"",
+      "description":"Description of event where videos originated",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "slug":{
-      "description":"",
+      "description":"URI-safe slug for identifying category. Must be unique amongst categories.",
       "type":"string"
     },
     "title":{
-      "description":"",
+      "description":"Title of event where videos originated",
       "type":"string"
     }
   },
