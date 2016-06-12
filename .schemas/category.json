@@ -3,7 +3,7 @@
   "description":"The schema for a category of videos in pytube/data",
   "properties":{
     "alias":{
-      "description":"[Depreciated] Legacy path to category on pyvideo.org",
+      "description":"[Deprecated] Legacy path to category on pyvideo.org",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "description":{

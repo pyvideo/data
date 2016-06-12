@@ -3,11 +3,11 @@
   "description":"The schema for a video record in pytube/data",
   "properties":{
     "alias":{
-      "description":"[Depreciated] Legacy path to video on pyvideo.org",
+      "description":"[Deprecated] Legacy path to video on pyvideo.org",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "category":{
-      "description":"[Depreciated] Category of video. This is duplicated by category files and is thus depriciated in video files.",
+      "description":"[Deprecated] Category of video. This is duplicated by category files and is thus depriciated in video files.",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "copyright_text":{
@@ -35,7 +35,7 @@
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "recorded":{
-      "description":"Date on which video was recorded",
+      "description":"Date on which video was recorded (YYYY-MM-DD)",
       "anyOf": [{"type": "null"}, {"type": "string"}],
       "format":"date-time"
     },
@@ -49,7 +49,7 @@
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "speakers":{
-      "description":"Array of speakers in video",
+      "description":"Ordered array of speakers in video.",
       "items":{
         "description":"Speaker name",
         "type":"string"
@@ -58,7 +58,7 @@
       "uniqueItems":true
     },
     "summary":{
-      "description":"reStrucutredText or plain text description of video",
+      "description":"reStructuredText or plain text description of video",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "tags":{
@@ -94,7 +94,11 @@
             "type":"string"
           },
           "length":{
-            "description":"Length of video (in seconds)",
+            "description":"[Deprecated] Size of video (in bytes). Please use 'size' instead.",
+            "anyOf": [{"type": "null"}, {"type": "integer"}]
+          },
+          "size":{
+            "description":"Size of video (in bytes)",
             "anyOf": [{"type": "null"}, {"type": "integer"}]
           }
         },
