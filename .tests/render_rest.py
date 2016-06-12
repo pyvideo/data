@@ -22,9 +22,9 @@ class ReSTValidatorVisitor(docutils.nodes.SparseNodeVisitor):
     def dispatch_visit(self, node):
         if isinstance(node, docutils.nodes.system_message):
             attributes = getattr(node, 'attributes', {})
-            contains_errors = any(attr in attributes for attr in ERROR_ATTRS)
+            contains_errors = all(attr in attributes for attr in ERROR_ATTRS)
             if contains_errors:
-                raise InvalidReSTError(str(node))
+                raise InvalidReSTError(str(node), attributes.get('level'))
 
 
 def validate_rest(text):
@@ -35,9 +35,9 @@ def validate_rest(text):
 
     try:
         document.walk(ReSTValidatorVisitor(document))
-        return False
+        return False, None
     except InvalidReSTError as e:
-        return str(e)
+        return e.args[0], e.args[1]
 
 
 def check_render_rest(data_root, verbose=False):
@@ -55,9 +55,11 @@ def check_render_rest(data_root, verbose=False):
                 # A description or summary maybe None.
                 # Ensure text is a string.
                 text = blob.get(field) or ''
-                error = validate_rest(text)
-                if error:
+                error, level = validate_rest(text)
+                if error and level >= 2:
                     valid = False
+
+                if error and verbose:
                     msg = 'ReST validation error:\n\tFile:{}\n\tKey:{}'
                     print(msg.format(file_path, field), flush=True)
                     print('\t', error, sep='', flush=True)
