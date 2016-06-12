@@ -2,17 +2,68 @@ import argparse
 import json
 import sys
 
+import docutils
+from docutils.parsers import rst
+
 from utils import get_json_files
+
+# Presence of these keys in a docutils node's attributes is an
+# indicator of a possible render error. They will be used as
+# as part of a litmus test to determine if a document contains
+# render errors
+ERROR_ATTRS = ('type', 'line', 'level')
+
+
+class InvalidReSTError(Exception):
+    pass
+
+
+class ReSTValidatorVisitor(docutils.nodes.SparseNodeVisitor):
+    def dispatch_visit(self, node):
+        if isinstance(node, docutils.nodes.system_message):
+            attributes = getattr(node, 'attributes', {})
+            contains_errors = any(attr in attributes for attr in ERROR_ATTRS)
+            if contains_errors:
+                raise InvalidReSTError(str(node))
+
+
+def validate_rest(text):
+    components=(docutils.parsers.rst.Parser,)
+    settings = docutils.frontend.OptionParser(components).get_default_values()
+    document = docutils.utils.new_document('', settings)
+    rst.Parser().parse(text, document)
+
+    try:
+        document.walk(ReSTValidatorVisitor(document))
+        return False
+    except InvalidReSTError as e:
+        return str(e)
 
 
 def check_render_rest(data_root, verbose=False):
     _, video_paths = get_json_files(data_root)
 
+    fields = ('description', 'summary')
+
+    error_by_path = {}
+    valid = True
     for file_path in video_paths:
         with open(file_path, encoding='UTF-8') as fp:
             blob = json.load(fp)
 
-    # TODO
+            for field in fields:
+                # A description or summary maybe None.
+                # Ensure text is a string.
+                text = blob.get(field) or ''
+                error = validate_rest(text)
+                if error:
+                    valid = False
+                    msg = 'ReST validation error:\n\tFile:{}\n\tKey:{}'
+                    print(msg.format(file_path, field), flush=True)
+                    print('\t', error, sep='', flush=True)
+
+    if not valid:
+        sys.exit(1)
 
 
 def main():
