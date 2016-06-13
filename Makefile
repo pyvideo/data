@@ -13,7 +13,6 @@ help:
 	@echo 'Usage:                                                             '
 	@echo '   make test                   run all tests                       '
 	@echo '   make test-schemas           run schema validation tests         '
-	@echo '   make test-dir-structure     run direcotry structure tests       '
 	@echo '   make test-ids-unique        run "unique IDs" test               '
 	@echo '   make test-slugs-unique      run "unique slugs" test             '
 	@echo '   make test-render-rest       run ReST rendering test             '
@@ -29,9 +28,6 @@ install-deps:
 test-schemas: install-deps
 	$(PY) $(TESTSDIR)/schemas.py -d $(BASEDIR) -s $(SCHEMASDIR) -v $(VERBOSE)
 
-test-dir-structure: install-deps
-	$(PY) $(TESTSDIR)/dir_structure.py -d $(BASEDIR)
-
 test-ids-unique: install-deps
 	$(PY) $(TESTSDIR)/ids_unique.py -d $(BASEDIR)
 
@@ -44,7 +40,7 @@ test-render-rest: install-deps
 test-shape: install-deps
 	$(PY) $(TESTSDIR)/shape.py -d $(BASEDIR)
 
-test: test-schemas test-dir-structure test-ids-unique test-slugs-unique test-render-rest test-shape
+test: test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape
 
-.PHONY: help test test-schemas test-dir-structure test-ids-unique test-slugs-unique test-render-rest test-shape
+.PHONY: help test test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape
 
