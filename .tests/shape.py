@@ -2,14 +2,8 @@ import argparse
 import json
 import sys
 
-from utils import get_json_files
-
-
-JSON_FORMAT_KWARGS = {
-    'indent': 2,
-    'separators': (', ', ': '),
-    'sort_keys': True,
-}
+from tools.constants import JSON_FORMAT_KWARGS
+from tools.utils import get_json_files
 
 
 def check_render_rest(data_root, verbose=False):

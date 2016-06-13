@@ -4,7 +4,7 @@ import os
 
 import jsonschema
 
-from utils import get_json_files
+from tools.utils import get_json_files
 
 
 def check_schemas(data_root, schemas_dir, verbose=False):

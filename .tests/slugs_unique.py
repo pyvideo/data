@@ -5,7 +5,7 @@ import json
 import os
 import sys
 
-from utils import get_json_files
+from tools.utils import get_json_files
 
 
 def check_slugs_unique(data_root, verbose=False):

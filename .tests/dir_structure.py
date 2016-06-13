@@ -1,6 +1,6 @@
 import argparse
 
-from utils import get_json_files
+from tools.utils import get_json_files
 
 
 def check_dir_structure(data_root, verbose=False):

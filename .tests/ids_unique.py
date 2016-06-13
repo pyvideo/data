@@ -3,7 +3,7 @@ from collections import defaultdict
 import json
 import sys
 
-from utils import get_json_files
+from tools.utils import get_json_files
 
 
 def check_ids_unique(data_root, verbose=False):

@@ -5,7 +5,7 @@ import sys
 import docutils
 from docutils.parsers import rst
 
-from utils import get_json_files
+from tools.utils import get_json_files
 
 # Presence of these keys in a docutils node's attributes is an
 # indicator of a possible render error. They will be used as
