@@ -1,24 +1,19 @@
 {
-  "id": 417,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--statistical-machine-learning-for-text",
-  "title": "Statistical machine learning for text classification with scikit-learn",
   "alias": "video/417/pycon-2011--statistical-machine-learning-for-text",
-  "summary": "",
-  "description": "Statistical machine learning for text classification with scikit-learn\n\nPresented by Olivier Grisel\n\nThe goal of this talk is to give a state-of-the-art overview of machine\nlearning algorithms applied to text classification tasks ranging from\nlanguage and topic detection in tweets and web pages to sentiment\nanalysis in consumer products reviews.\n\nAbstract\n\nUnstructured or semi-structured text data is ubiquitous thanks to the\nread- write nature of the web. However human authors are often lazy and\ndon't fill- in structured metadata forms in web applications. It is\nhowever possible to automate some structured knowledge extraction with\nsimple and scalable statistical learning tools implemented in python.\nFor instance:\n\n-  guessing the language and topic of tweets and web pages\n-  analyze the sentiment (positive or negative) in consumer products\n   reviews in blogs or customer emails\n\nThis talk will introduce the main operational steps of supervised\nlearning:\n\n-  extracting the relevant features from text documents\n-  selecting the right machine learning algorithm to train a model for\n   the task at hand\n-  using the trained model on previously unseen documents\n-  evaluating the predictive accuracy of the trained model\n\nWe will also demonstrate the results obtained for above tasks using the\n`scikit-learn <http://scikit-learn.sourceforge.net/>`__ package and\ncompare it to other implementations such as `nltk <http://nltk.org/>`__\nand the `Google Prediction\nAPI <http://code.google.com/apis/predict/>`__.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011StatisticalMachineLearningForTextClassification447.png",
+  "description": "Statistical machine learning for text classification with scikit-learn\n\nPresented by Olivier Grisel\n\nThe goal of this talk is to give a state-of-the-art overview of machine\nlearning algorithms applied to text classification tasks ranging from\nlanguage and topic detection in tweets and web pages to sentiment\nanalysis in consumer products reviews.\n\nAbstract\n\nUnstructured or semi-structured text data is ubiquitous thanks to the\nread- write nature of the web. However human authors are often lazy and\ndon't fill- in structured metadata forms in web applications. It is\nhowever possible to automate some structured knowledge extraction with\nsimple and scalable statistical learning tools implemented in python.\nFor instance:\n\n-  guessing the language and topic of tweets and web pages\n-  analyze the sentiment (positive or negative) in consumer products\n   reviews in blogs or customer emails\n\nThis talk will introduce the main operational steps of supervised\nlearning:\n\n-  extracting the relevant features from text documents\n-  selecting the right machine learning algorithm to train a model for\n   the task at hand\n-  using the trained model on previously unseen documents\n-  evaluating the predictive accuracy of the trained model\n\nWe will also demonstrate the results obtained for above tasks using the\n`scikit-learn <http://scikit-learn.sourceforge.net/>`__ package and\ncompare it to other implementations such as `nltk <http://nltk.org/>`__\nand the `Google Prediction\nAPI <http://code.google.com/apis/predict/>`__.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/417_statistical-machine-learning-for-text-classification-with-scikit-learn.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 417,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--statistical-machine-learning-for-text",
   "source_url": "",
+  "speakers": [
+    "Olivier Grisel"
+  ],
+  "summary": "",
   "tags": [
     "googlepredictionapi",
     "machinelearning",
@@ -27,8 +22,13 @@
     "pycon2011",
     "scikit-learn"
   ],
-  "speakers": [
-    "Olivier Grisel"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011StatisticalMachineLearningForTextClassification447.png",
+  "title": "Statistical machine learning for text classification with scikit-learn",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/417_statistical-machine-learning-for-text-classification-with-scikit-learn.mp4"
+    }
+  ]
 }

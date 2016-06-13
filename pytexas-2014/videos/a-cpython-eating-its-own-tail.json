@@ -1,32 +1,32 @@
 {
-  "id": 3205,
-  "category": "PyTexas 2014",
-  "slug": "a-cpython-eating-its-own-tail",
-  "title": "A CPython Eating Its Own Tail",
   "alias": "video/3205/a-cpython-eating-its-own-tail",
-  "summary": "",
-  "description": "This is an expert-level talk that dives into CPython and discusses\nvarious ways to embed Python interpreters. It starts with the \"very high\nlevel\" embedding & the \"pure\" embedding, shows a fairly novel \"zero\ninterpreter\" embedding using Cython, a few attempts at a ctypes/cffi\nembedding, and builds to a finish with a source-filter embedding of a\nPython interpreter into itself.\u00a0\n\nThe purpose of this talk is to have some fun diving into CPython\ninternals while looking practical approaches to embedding CPython\ninterpreters into other (C/C++) processes. The final result, a Python 3\ninterpreter embedded into a Python 2 interpreter as an extension model,\nis novel but may be of fairly limited actual use. It is, however, pretty\nwild and a lot of fun!\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyTexas 2014",
   "copyright_text": "CC-BY",
-  "thumbnail_url": "http://i.ytimg.com/vi/OOMtmi7Annc/hqdefault.jpg",
+  "description": "This is an expert-level talk that dives into CPython and discusses\nvarious ways to embed Python interpreters. It starts with the \"very high\nlevel\" embedding & the \"pure\" embedding, shows a fairly novel \"zero\ninterpreter\" embedding using Cython, a few attempts at a ctypes/cffi\nembedding, and builds to a finish with a source-filter embedding of a\nPython interpreter into itself.\u00a0\n\nThe purpose of this talk is to have some fun diving into CPython\ninternals while looking practical approaches to embedding CPython\ninterpreters into other (C/C++) processes. The final result, a Python 3\ninterpreter embedded into a Python 2 interpreter as an extension model,\nis novel but may be of fairly limited actual use. It is, however, pretty\nwild and a lot of fun!\n",
   "duration": 3000,
-  "videos": [
-    {
-      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pytexas-2014/3205_A_CPython_Eating_Its_Own_Tail.webm",
-      "type": "webm",
-      "length": null
-    },
-    {
-      "url": "http://youtu.be/OOMtmi7Annc",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3205,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-10-05",
+  "slug": "a-cpython-eating-its-own-tail",
   "source_url": "http://youtu.be/OOMtmi7Annc",
-  "tags": [],
   "speakers": [
     "James Powell"
   ],
-  "recorded": "2014-10-05"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/OOMtmi7Annc/hqdefault.jpg",
+  "title": "A CPython Eating Its Own Tail",
+  "videos": [
+    {
+      "length": null,
+      "type": "webm",
+      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pytexas-2014/3205_A_CPython_Eating_Its_Own_Tail.webm"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/OOMtmi7Annc"
+    }
+  ]
 }

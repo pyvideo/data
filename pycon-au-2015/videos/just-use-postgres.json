@@ -1,27 +1,27 @@
 {
-  "id": 3977,
-  "category": "PyCon AU 2015",
-  "slug": "just-use-postgres",
-  "title": "Just Use Postgres.",
   "alias": "video/3977/just-use-postgres",
-  "summary": "",
-  "description": "Making use of the latest database for your data is considered trendy and\nedgy, with vendors promising unrealistic expectations when it comes to\ncapabilities of these systems. Furthermore, communities such as Hacker\nNews enforce the idea that you must use the latest and coolest\ntechnology in order to be a \u2018rockstar\u2019 engineer.\n\nMarketing buzzwords like \u2018real-time\u2019, \u2018distributed\u2019,\n\u2018high-availability\u2019, and \u2018schemaless\u2019 impact our design decisions, and\nthe expectation for applications to be \u2018scalable\u2019 often forces\ndevelopers to prematurely introduce complexity and anti-patterns into\ntheir applications by making use of these untested and immature data\nstores.\n\nForget about adding the latest trendy data store into your stack; just\nuse Postgres.\n\nThis talk will explore the capabilities of Postgres 9.4, and various\nuse-cases where you can involve it as your primary datastore. I will\ncover some of the projects at Heroku where we have used Postgres, such\nas:\n\n-  Quickly querying over 300M records to get a list of all users on a\n   particular server at a particular point in time.\n-  Providing almost real-time aggregations of all Heroku customer\u2019s\n   usage.\n-  Joining 3 different tables on 3 different database servers without\n   any external code.\n-  Creating a \u2018social graph\u2019 of all of Heroku\u2019s users based on commonly\n   used IP addresses.\n-  Ensuring that coupon codes are used only once, preventing attackers\n   from exploiting \u2018race condition\u2019 bugs.\n\nIn particular, I will focus on topics such as:\n\n-  Storing, indexing, and querying schemaless data.\n-  Materialized Views.\n-  NOTIFY/LISTEN.\n-  Storing and querying time-series data.\n-  Updatable views.\n-  Foreign tables.\n-  Recursive views.\n-  Stored functions.\n-  Range Types\n-  Partitioning and Sharding data.\n\nEach topic will include links to sample schemas and iPython notebooks so\nyou can take these examples home with you.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon AU 2015",
   "copyright_text": "creativeCommon",
-  "thumbnail_url": "https://i.ytimg.com/vi/UgcC_bY4rPg/hqdefault.jpg",
+  "description": "Making use of the latest database for your data is considered trendy and\nedgy, with vendors promising unrealistic expectations when it comes to\ncapabilities of these systems. Furthermore, communities such as Hacker\nNews enforce the idea that you must use the latest and coolest\ntechnology in order to be a \u2018rockstar\u2019 engineer.\n\nMarketing buzzwords like \u2018real-time\u2019, \u2018distributed\u2019,\n\u2018high-availability\u2019, and \u2018schemaless\u2019 impact our design decisions, and\nthe expectation for applications to be \u2018scalable\u2019 often forces\ndevelopers to prematurely introduce complexity and anti-patterns into\ntheir applications by making use of these untested and immature data\nstores.\n\nForget about adding the latest trendy data store into your stack; just\nuse Postgres.\n\nThis talk will explore the capabilities of Postgres 9.4, and various\nuse-cases where you can involve it as your primary datastore. I will\ncover some of the projects at Heroku where we have used Postgres, such\nas:\n\n-  Quickly querying over 300M records to get a list of all users on a\n   particular server at a particular point in time.\n-  Providing almost real-time aggregations of all Heroku customer\u2019s\n   usage.\n-  Joining 3 different tables on 3 different database servers without\n   any external code.\n-  Creating a \u2018social graph\u2019 of all of Heroku\u2019s users based on commonly\n   used IP addresses.\n-  Ensuring that coupon codes are used only once, preventing attackers\n   from exploiting \u2018race condition\u2019 bugs.\n\nIn particular, I will focus on topics such as:\n\n-  Storing, indexing, and querying schemaless data.\n-  Materialized Views.\n-  NOTIFY/LISTEN.\n-  Storing and querying time-series data.\n-  Updatable views.\n-  Foreign tables.\n-  Recursive views.\n-  Stored functions.\n-  Range Types\n-  Partitioning and Sharding data.\n\nEach topic will include links to sample schemas and iPython notebooks so\nyou can take these examples home with you.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=UgcC_bY4rPg",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3977,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2015-08-04",
+  "slug": "just-use-postgres",
   "source_url": "https://www.youtube.com/watch?v=UgcC_bY4rPg",
-  "tags": [],
   "speakers": [
     "Rhys Elsmore"
   ],
-  "recorded": "2015-08-04"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UgcC_bY4rPg/hqdefault.jpg",
+  "title": "Just Use Postgres.",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UgcC_bY4rPg"
+    }
+  ]
 }

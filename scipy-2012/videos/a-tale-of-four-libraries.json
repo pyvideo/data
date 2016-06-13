@@ -1,35 +1,35 @@
 {
-  "id": 1211,
-  "category": "SciPy 2012",
-  "slug": "a-tale-of-four-libraries",
-  "title": "A tale of four libraries",
   "alias": "video/1211/a-tale-of-four-libraries",
-  "summary": "",
-  "description": "In addition to bringing efficient array computing and standard\nmathematical tools to Python, the NumPy/SciPy libraries provide an\necosystem where multiple libraries can coexist and interact. This talk\ndescribes a success story where we integrate several libraries,\ndeveloped by different groups, to solve our research problems. A brief\ndescription of our research and how we use these components follows.\n\nOur research focuses on using Reinforcement Learning (RL) to gather\ninformation in domains described by an underlying linked dataset. For\ninstance, we are interested in problems such as the following: given a\nWikipedia article as a seed, finding other articles that are interesting\nrelative to the starting point. Of particular interest is to find\narticles that are more than one-click away from the seed, since these\narticles are in general harder to find by a human.\n\nIn addition to the staples of scientific Python computing NumPy, SciPy,\nMatplotlib, and IPython, we use the libraries RL-Glue/RL-Library,\nNetworkX, Gensim, and scikit-learn.\n\nReinforcement Learning considers the interaction between a given\nenvironment and an agent. The objective is to design an agent able to\nlearn a policy that allows it to maximize its total expected reward. We\nuse the RL-Glue/RL-Library libraries for our RL experiments. This\nlibraries provide the infrastructure to connect an environment and an\nagent, each one described by an independent Python program.\n\nWe represent the linked datasets we work with as graphs. For this we use\nNetworkX, which provides data structures to efficiently represent graphs\ntogether with implementations of many classic graph algorithms. We use\nNetworkX graphs to describe the environments implemented in RL-Glue/RL-\nLibrary. We also use these graphs to create, analyze and visualize\ngraphs built from unstructured data.\n\nOne of the contributions of our research is the idea of representing the\nitems in the datasets as vectors belonging to a linear space. To this\nend, we build a Latent Semantic Analysis (LSA) model to project\ndocuments onto a vector space. This allows us, in addition to being able\nto compute similarities between documents, to leverage a variety of RL\ntechniques that require a vector representation. We use the Gensim\nlibrary to build the LSA model. This library provides all the machinery\nto build, among other options, the LSA model. One place where Gensim\nshines is in its capability to handle big data sets, like the entire\nWikipedia, that do not fit in memory. We also combine the vector\nrepresentation of the items as property of the NetworkX nodes.\n\nFinally, we also use the manifold learning capabilities of sckit-learn,\nlike the ISOMAP algorithm, to perform some exploratory data analysis. By\nreducing the dimensionality of the LSA vectors obtained using Gensim\nfrom 400 to 3, we are able to visualize the relative position of the\nvectors together with their connections.\n\nIn summary, this talk shows, by combining a variety of libraries to\nsolve our research problems, that the NumPy/SciPy ecosystem has become\nthe lingua-franca of scientific Python computing.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2012",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "http://i3.ytimg.com/vi/BqMD0PE-akQ/hqdefault.jpg",
+  "description": "In addition to bringing efficient array computing and standard\nmathematical tools to Python, the NumPy/SciPy libraries provide an\necosystem where multiple libraries can coexist and interact. This talk\ndescribes a success story where we integrate several libraries,\ndeveloped by different groups, to solve our research problems. A brief\ndescription of our research and how we use these components follows.\n\nOur research focuses on using Reinforcement Learning (RL) to gather\ninformation in domains described by an underlying linked dataset. For\ninstance, we are interested in problems such as the following: given a\nWikipedia article as a seed, finding other articles that are interesting\nrelative to the starting point. Of particular interest is to find\narticles that are more than one-click away from the seed, since these\narticles are in general harder to find by a human.\n\nIn addition to the staples of scientific Python computing NumPy, SciPy,\nMatplotlib, and IPython, we use the libraries RL-Glue/RL-Library,\nNetworkX, Gensim, and scikit-learn.\n\nReinforcement Learning considers the interaction between a given\nenvironment and an agent. The objective is to design an agent able to\nlearn a policy that allows it to maximize its total expected reward. We\nuse the RL-Glue/RL-Library libraries for our RL experiments. This\nlibraries provide the infrastructure to connect an environment and an\nagent, each one described by an independent Python program.\n\nWe represent the linked datasets we work with as graphs. For this we use\nNetworkX, which provides data structures to efficiently represent graphs\ntogether with implementations of many classic graph algorithms. We use\nNetworkX graphs to describe the environments implemented in RL-Glue/RL-\nLibrary. We also use these graphs to create, analyze and visualize\ngraphs built from unstructured data.\n\nOne of the contributions of our research is the idea of representing the\nitems in the datasets as vectors belonging to a linear space. To this\nend, we build a Latent Semantic Analysis (LSA) model to project\ndocuments onto a vector space. This allows us, in addition to being able\nto compute similarities between documents, to leverage a variety of RL\ntechniques that require a vector representation. We use the Gensim\nlibrary to build the LSA model. This library provides all the machinery\nto build, among other options, the LSA model. One place where Gensim\nshines is in its capability to handle big data sets, like the entire\nWikipedia, that do not fit in memory. We also combine the vector\nrepresentation of the items as property of the NetworkX nodes.\n\nFinally, we also use the manifold learning capabilities of sckit-learn,\nlike the ISOMAP algorithm, to perform some exploratory data analysis. By\nreducing the dimensionality of the LSA vectors obtained using Gensim\nfrom 400 to 3, we are able to visualize the relative position of the\nvectors together with their connections.\n\nIn summary, this talk shows, by combining a variety of libraries to\nsolve our research problems, that the NumPy/SciPy ecosystem has become\nthe lingua-franca of scientific Python computing.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/A_tale_of_four_libraries.mp4?Signature=ISV7dA31tpzM%2BiwMs5xiUQ%2BkADo%3D&Expires=1346381648&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://youtube.com/watch?v=BqMD0PE-akQ",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1211,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-18",
+  "slug": "a-tale-of-four-libraries",
   "source_url": "http://youtube.com/watch?v=BqMD0PE-akQ",
-  "tags": [
-    "General"
-  ],
   "speakers": [
     "Alejandro Weinstein",
     "Michael Wakin"
   ],
-  "recorded": "2012-07-18"
+  "summary": "",
+  "tags": [
+    "General"
+  ],
+  "thumbnail_url": "http://i3.ytimg.com/vi/BqMD0PE-akQ/hqdefault.jpg",
+  "title": "A tale of four libraries",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/A_tale_of_four_libraries.mp4?Signature=ISV7dA31tpzM%2BiwMs5xiUQ%2BkADo%3D&Expires=1346381648&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtube.com/watch?v=BqMD0PE-akQ"
+    }
+  ]
 }

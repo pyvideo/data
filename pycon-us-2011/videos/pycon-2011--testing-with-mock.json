@@ -1,32 +1,32 @@
 {
-  "id": 392,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--testing-with-mock",
-  "title": "Testing with mock",
   "alias": "video/392/pycon-2011--testing-with-mock",
-  "summary": "",
-  "description": "Testing with mock\n\nPresented by Michael Foord\n\nmock is a Python testing library. It has the goal of making mocking in\ntests brain dead simple! mock provides the Mock class and the patch\ndecorator for safely patching out the objects you are mocking in your\ntests. This talk will cover standard mocking patterns. We'll also look\nat some of the newer features in the latest release, including support\nfor mocking magic methods.\n\nAbstract\n\nmock provides a core Mock class that removes the need to create a host\nof trivial stubs throughout your test suite. After performing an action,\nyou can make assertions about which methods / attributes were used and\narguments they were called with. You can also specify return values and\nset specific attributes in the normal way.\n\n-  http://www.voidspace.org.uk/python/mock/\n-  http://pypi.python.org/pypi/mock/\n\nThe mock module also provides a patch() decorator that handles safely\npatching out the things you are mocking during your test.\n\nWe'll cover standard mocking patterns, and how mock makes them easy.\nWe'll also be looking at some of the newer features in the latest\nrelease, including the magic method support that can be used (for\nexample) for mocking out objects used as context managers.\n\nmock is designed for \"unit test style\" testing, but is used with Python\ntesting libraries like nose and py.test.\n\nThere will be some emphasis on how *not* to use mocking in testing, and\nwhy 'over mocking' is bad (and makes for brittle tests).\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011TestingWithMock498.png",
+  "description": "Testing with mock\n\nPresented by Michael Foord\n\nmock is a Python testing library. It has the goal of making mocking in\ntests brain dead simple! mock provides the Mock class and the patch\ndecorator for safely patching out the objects you are mocking in your\ntests. This talk will cover standard mocking patterns. We'll also look\nat some of the newer features in the latest release, including support\nfor mocking magic methods.\n\nAbstract\n\nmock provides a core Mock class that removes the need to create a host\nof trivial stubs throughout your test suite. After performing an action,\nyou can make assertions about which methods / attributes were used and\narguments they were called with. You can also specify return values and\nset specific attributes in the normal way.\n\n-  http://www.voidspace.org.uk/python/mock/\n-  http://pypi.python.org/pypi/mock/\n\nThe mock module also provides a patch() decorator that handles safely\npatching out the things you are mocking during your test.\n\nWe'll cover standard mocking patterns, and how mock makes them easy.\nWe'll also be looking at some of the newer features in the latest\nrelease, including the magic method support that can be used (for\nexample) for mocking out objects used as context managers.\n\nmock is designed for \"unit test style\" testing, but is used with Python\ntesting libraries like nose and py.test.\n\nThere will be some emphasis on how *not* to use mocking in testing, and\nwhy 'over mocking' is bad (and makes for brittle tests).\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/392_testing-with-mock.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 392,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--testing-with-mock",
   "source_url": "",
+  "speakers": [
+    "Michael Foord"
+  ],
+  "summary": "",
   "tags": [
     "mock",
     "pycon",
     "pycon2011",
     "testing"
   ],
-  "speakers": [
-    "Michael Foord"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011TestingWithMock498.png",
+  "title": "Testing with mock",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/392_testing-with-mock.mp4"
+    }
+  ]
 }

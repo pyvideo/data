@@ -1,33 +1,33 @@
 {
-  "id": 3136,
-  "category": "PyCon AU 2014",
-  "slug": "running-django-on-docker-a-workflow-and-code-by",
-  "title": "Running Django on Docker: a workflow and code",
   "alias": "video/3136/running-django-on-docker-a-workflow-and-code-by",
-  "summary": "",
-  "description": "Docker (http://docker.io) is the hot-new-thing out there for running\nyour application in development and in production. Here at Infoxchange,\nwe are extremely excited about how Docker allows a build-once,\nrun-anywhere approach to moving applications from testing through to\nproduction. We are one of the first organisations to be using Docker in\nproduction on high-SLA applications.\n\nIn this talk we will present:\n\n-  a quick intro to Docker and how it solves our problems at\n   Infoxchange;\n-  our interface for hosting applications on Docker (\"pallet\");\n-  how to build and develop a Python app on Docker;\n-  Infoxchange's Django settings module for the pallet interface;\n-  Forklift (https://github.com/infoxchange/docker-forklift), a tool\n   we've developed for running and developing apps that use the pallet\n   interface, in and out of a Docker container; and\n-  Extending forklift for your services.\n\nIf time permits we will try and cover the additional bonus topics:\n\n-  How to host your legacy mod\\_python application on Apache inside\n   Docker with minimal changes; and\n-  Using Forklift to do automated full-stack integration testing of apps\n   by spinning up containers of other apps (which we do in a container\n   that is testing the built app that is running in a container that is\n   our CI server... inception is possible).\n\nThe talk will be presented by Danielle Madeley and Alexey Kotlyarov.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon AU 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/SgL8r--p97s/hqdefault.jpg",
+  "description": "Docker (http://docker.io) is the hot-new-thing out there for running\nyour application in development and in production. Here at Infoxchange,\nwe are extremely excited about how Docker allows a build-once,\nrun-anywhere approach to moving applications from testing through to\nproduction. We are one of the first organisations to be using Docker in\nproduction on high-SLA applications.\n\nIn this talk we will present:\n\n-  a quick intro to Docker and how it solves our problems at\n   Infoxchange;\n-  our interface for hosting applications on Docker (\"pallet\");\n-  how to build and develop a Python app on Docker;\n-  Infoxchange's Django settings module for the pallet interface;\n-  Forklift (https://github.com/infoxchange/docker-forklift), a tool\n   we've developed for running and developing apps that use the pallet\n   interface, in and out of a Docker container; and\n-  Extending forklift for your services.\n\nIf time permits we will try and cover the additional bonus topics:\n\n-  How to host your legacy mod\\_python application on Apache inside\n   Docker with minimal changes; and\n-  Using Forklift to do automated full-stack integration testing of apps\n   by spinning up containers of other apps (which we do in a container\n   that is testing the built app that is running in a container that is\n   our CI server... inception is possible).\n\nThe talk will be presented by Danielle Madeley and Alexey Kotlyarov.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/19-out.ogv",
-      "type": "ogv",
-      "length": null
-    },
-    {
-      "url": "http://www.youtube.com/watch?v=SgL8r--p97s",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3136,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-08-09",
+  "slug": "running-django-on-docker-a-workflow-and-code-by",
   "source_url": "http://www.youtube.com/watch?v=SgL8r--p97s",
-  "tags": [],
   "speakers": [
     "Alexey Kotlyarov",
     "Danielle Madeley"
   ],
-  "recorded": "2014-08-09"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/SgL8r--p97s/hqdefault.jpg",
+  "title": "Running Django on Docker: a workflow and code",
+  "videos": [
+    {
+      "length": null,
+      "type": "ogv",
+      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/19-out.ogv"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=SgL8r--p97s"
+    }
+  ]
 }

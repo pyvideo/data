@@ -1,25 +1,25 @@
 {
   "category": "PyCon APAC 2015",
-  "slug": "r0-day1-01-openstack-swift-benchmark-with-ansible",
-  "title": "R0 DAY1-01 Openstack Swift Benchmark with Ansible - Charles Hsu (PyCon APAC 2015)",
-  "summary": "",
-  "description": "Speaker: Charles Hsu\n\n Using Ansible for OpenStack Swift benchmark\n\nOutline is here, may be modified in a future.\n\n* Introduct Openstack Swift\n  * What's that?\n  * Single Node Swift (SAIO Swift) (http://docs.openstack.org/developer/swift/development_saio.html)\n  * Swift Cluster \n* Introduce Ansible \n  * Why\n  * Other tools (Fabric/Slatstack/Chef)\n* What's problems and pains\n  * Configure multiple swift nodes (swift proxy/object/container servers) without extra packages \n  * Deploy/manage multiple benchmark nodes\n  * Sweep all data in Swift nodes (Dev Cluster) \n  * Run a benchmark test\n  * Collecting benchmark result from benchmark nodes and errors from swift nodes\n  * Repeat it again, again and again\n* Use Ansible\n  * Define a cluster and nodes\n  * Deploy benchmark nodes\n  * Collecting and aggregate result form benchmark node\n  * Repeat\n* What's next? \n  * Move it to Docker?\n\nAbout the speaker\n\nABOUT\nTwitter @thecharz\n\u7d44\u7e54/\u516c\u53f8 SwiftStack\n\u982d\u929c Techical Support Enginner\n\nhttps://tw.pycon.org/2015apac/zh/program/12",
-  "quality_notes": "",
-  "language": "English",
   "copyright_text": "Standard YouTube Licence",
-  "thumbnail_url": "https://i.ytimg.com/vi/FuJ4qvhEW9w/sddefault.jpg",
+  "description": "Speaker: Charles Hsu\n\n Using Ansible for OpenStack Swift benchmark\n\nOutline is here, may be modified in a future.\n\n* Introduct Openstack Swift\n  * What's that?\n  * Single Node Swift (SAIO Swift) (http://docs.openstack.org/developer/swift/development_saio.html)\n  * Swift Cluster \n* Introduce Ansible \n  * Why\n  * Other tools (Fabric/Slatstack/Chef)\n* What's problems and pains\n  * Configure multiple swift nodes (swift proxy/object/container servers) without extra packages \n  * Deploy/manage multiple benchmark nodes\n  * Sweep all data in Swift nodes (Dev Cluster) \n  * Run a benchmark test\n  * Collecting benchmark result from benchmark nodes and errors from swift nodes\n  * Repeat it again, again and again\n* Use Ansible\n  * Define a cluster and nodes\n  * Deploy benchmark nodes\n  * Collecting and aggregate result form benchmark node\n  * Repeat\n* What's next? \n  * Move it to Docker?\n\nAbout the speaker\n\nABOUT\nTwitter @thecharz\n\u7d44\u7e54/\u516c\u53f8 SwiftStack\n\u982d\u929c Techical Support Enginner\n\nhttps://tw.pycon.org/2015apac/zh/program/12",
   "duration": 2600,
-  "videos": [
-    {
-      "length": 2600,
-      "url": "https://www.youtube.com/watch?v=FuJ4qvhEW9w",
-      "type": "youtube"
-    }
-  ],
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2015-08-24",
+  "slug": "r0-day1-01-openstack-swift-benchmark-with-ansible",
   "source_url": "https://www.youtube.com/watch?v=FuJ4qvhEW9w",
-  "tags": [],
   "speakers": [
     "Charles Hsu"
   ],
-  "recorded": "2015-08-24"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/FuJ4qvhEW9w/sddefault.jpg",
+  "title": "R0 DAY1-01 Openstack Swift Benchmark with Ansible - Charles Hsu (PyCon APAC 2015)",
+  "videos": [
+    {
+      "length": 2600,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FuJ4qvhEW9w"
+    }
+  ]
 }

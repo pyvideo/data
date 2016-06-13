@@ -1,27 +1,27 @@
 {
-  "id": 3031,
-  "category": "EuroPython 2014",
-  "slug": "extending-python-what-is-the-best-option-for-me",
-  "title": "Extending Python, what is the best option for me?",
   "alias": "video/3031/extending-python-what-is-the-best-option-for-me",
-  "summary": "Python is a great language, but there are occasions where we need access\nto low level operations or connect with some database driver written in\nC. With the FFI(Foreign function interface) we can connect Python with\nother languages like C, C++ and even the new Rust. There are some\nalternatives to achieve this goal, Native Extensions, Ctypes and CFFI.\nI'll compare this three ways of extending Python.\n",
-  "description": "In this talk we will explore all the alternatives in cpython ecosystem\nto load external libraries. In first place we'll study the principles\nand how shared libraries work. After that we will look into the\ninternals of CPython to understand how extensions work and how modules\nare loaded. Then we will study the main three alternatives to extend\nCPython: Native Extensions, Ctypes and CFFI and how to automate the\nprocess. Furthermore we will take a look to other python implementations\nand how we can extend it.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/m5H2JYSXrHc/hqdefault.jpg",
+  "description": "In this talk we will explore all the alternatives in cpython ecosystem\nto load external libraries. In first place we'll study the principles\nand how shared libraries work. After that we will look into the\ninternals of CPython to understand how extensions work and how modules\nare loaded. Then we will study the main three alternatives to extend\nCPython: Native Extensions, Ctypes and CFFI and how to automate the\nprocess. Furthermore we will take a look to other python implementations\nand how we can extend it.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=m5H2JYSXrHc",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3031,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-22",
+  "slug": "extending-python-what-is-the-best-option-for-me",
   "source_url": "http://www.youtube.com/watch?v=m5H2JYSXrHc",
-  "tags": [],
   "speakers": [
     "Francisco Fern\u00e1ndez Casta\u00f1o"
   ],
-  "recorded": "2014-07-22"
+  "summary": "Python is a great language, but there are occasions where we need access\nto low level operations or connect with some database driver written in\nC. With the FFI(Foreign function interface) we can connect Python with\nother languages like C, C++ and even the new Rust. There are some\nalternatives to achieve this goal, Native Extensions, Ctypes and CFFI.\nI'll compare this three ways of extending Python.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/m5H2JYSXrHc/hqdefault.jpg",
+  "title": "Extending Python, what is the best option for me?",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=m5H2JYSXrHc"
+    }
+  ]
 }

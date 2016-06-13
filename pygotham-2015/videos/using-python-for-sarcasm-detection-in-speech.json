@@ -1,32 +1,32 @@
 {
-  "id": 3773,
-  "category": "PyGotham 2015",
-  "slug": "using-python-for-sarcasm-detection-in-speech",
-  "title": "Using Python for Sarcasm Detection in Speech",
   "alias": "video/3773/using-python-for-sarcasm-detection-in-speech",
-  "summary": "",
-  "description": "In this talk, I discuss my work using Python to create a system for\nsarcasm detection in speech. My goal in this task is to determine\nwhether human intonation alone can be modeled to predict sarcastic\nspeech. I first extracted speech samples from the titular character of\nMTV\u2019s late \u201890s hit TV show \u201cDaria\u201d. Using crowdsourcing techniques to\nget the speech labeled for sarcasm, I created a corpus of speech that is\nannotated for sarcasm and sincerity. I used several Python toolkits to\nextract a number of acoustic features from this speech that are\nindicative of sarcasm. The first tool I used was Snack Sound Toolkit, a\nlibrary for Python that does basic sound handling and analysis. I used\ntools in Snack to extract a baseline of basic acoustic features that\nhave been found to be helpful in human sarcasm identification. I then\nused NumPy, SciPy, and NLTK to model prosodic contours, and applied\nthese contours to the task of automatic sarcasm detection. This approach\napplies sequential modeling to representations of pitch and intensity\ncurves obtained via k-means clustering. Using machine learning\n(specifically Weka\u2019s SimpleLogistic (LogitBoost) classifier), this\nsystem is able to predict sarcasm with 81.57% accuracy.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyGotham 2015",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "https://i.ytimg.com/vi/xJlTDy61L8s/hqdefault.jpg",
+  "description": "In this talk, I discuss my work using Python to create a system for\nsarcasm detection in speech. My goal in this task is to determine\nwhether human intonation alone can be modeled to predict sarcastic\nspeech. I first extracted speech samples from the titular character of\nMTV\u2019s late \u201890s hit TV show \u201cDaria\u201d. Using crowdsourcing techniques to\nget the speech labeled for sarcasm, I created a corpus of speech that is\nannotated for sarcasm and sincerity. I used several Python toolkits to\nextract a number of acoustic features from this speech that are\nindicative of sarcasm. The first tool I used was Snack Sound Toolkit, a\nlibrary for Python that does basic sound handling and analysis. I used\ntools in Snack to extract a baseline of basic acoustic features that\nhave been found to be helpful in human sarcasm identification. I then\nused NumPy, SciPy, and NLTK to model prosodic contours, and applied\nthese contours to the task of automatic sarcasm detection. This approach\napplies sequential modeling to representations of pitch and intensity\ncurves obtained via k-means clustering. Using machine learning\n(specifically Weka\u2019s SimpleLogistic (LogitBoost) classifier), this\nsystem is able to predict sarcasm with 81.57% accuracy.\n",
   "duration": 1403,
-  "videos": [
-    {
-      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pygotham-2015/3773_Using_Python_for_Sarcasm_Detection_in_Speech.mp4",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://youtu.be/xJlTDy61L8s",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3773,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2015-08-16",
+  "slug": "using-python-for-sarcasm-detection-in-speech",
   "source_url": "http://youtu.be/xJlTDy61L8s",
-  "tags": [],
   "speakers": [
     "Rachel Rakov"
   ],
-  "recorded": "2015-08-16"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xJlTDy61L8s/hqdefault.jpg",
+  "title": "Using Python for Sarcasm Detection in Speech",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pygotham-2015/3773_Using_Python_for_Sarcasm_Detection_in_Speech.mp4"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/xJlTDy61L8s"
+    }
+  ]
 }

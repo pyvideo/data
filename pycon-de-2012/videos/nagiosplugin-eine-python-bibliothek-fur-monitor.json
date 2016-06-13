@@ -1,37 +1,37 @@
 {
-  "id": 1460,
-  "category": "PyCon DE 2012",
-  "slug": "nagiosplugin-eine-python-bibliothek-fur-monitor",
-  "title": "nagiosplugin - eine Python-Bibliothek f\u00fcr Monitoring-Plugins",
   "alias": "video/1460/nagiosplugin-eine-python-bibliothek-fur-monitor",
-  "summary": "Auch wenn in der letzten Zeit sehr viel Bewegung in die Monitoring-Szene\ngekommen ist (#monitoringsucks etc.), werden die Platzhirsche\nNagios/Icinga und ihre Standards auf absehbare Zeit nicht verschwinden.\nDas Nagios-Plugin- API stellt eine sehr weit verbreitete Schnittstelle\nzur Anbindung einzelner Checks an Monitoring-Systeme dar. Obwohl das API\nin den Grundz\u00fcgen sehr einfach ist, ist der Programmieraufwand f\u00fcr\nvollst\u00e4ndig konforme Plugins erstaunlich hoch.\n\nDie\n`*nagiosplugin*-Bibliothek <http://pypi.python.org/pypi/nagiosplugin/>`__\nnimmt dem Entwickler viele Details ab, so dass er sich auf den Inhalt\nseiner Checks konzentrieren kann. Der Vortrag f\u00fchrt in das Schreiben von\nNagios- kompatiblen Plugins ein, zeigt den typischen Aufbau von\nNagios-Plugins und das Grundprinzip eigener Plugins. Die Konfiguration\nund der Betrieb von Monitoring-Systemen im Gro\u00dfen sollen nicht\nthematisiert werden.\n\nEine Einf\u00fchrung stellt die notwendigen Elemente wie Klassenger\u00fcst,\nMesswerterhebung, Ranges, Statusausgabe und Performancedaten sukzessive\nin aufeinander aufbauenden Beispielen vor, so dass am Ende ein\neinfacher, aber praktisch einsetzbarer Check entsteht.\n\nDer Teil \u00fcber fortgeschrittene Aspekte und Stolperfallen rei\u00dft\nEinzelbeispiele zu Themen wie mehrere Datenquellen, Timeouts, Auswertung\nwachsender Logfiles und Checks mit \"Ged\u00e4chtnis\" an und zeigt typischen\nFehlerquellen auf.\n\nDen Abschluss bildet ein kurzer Ausblick auf die weitere Entwicklung der\n*nagiosplugin*-Bibliothek.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "German",
+  "category": "PyCon DE 2012",
   "copyright_text": "",
-  "thumbnail_url": "http://i2.ytimg.com/vi/i6ah40KmwV8/hqdefault.jpg",
+  "description": "",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/nagiosplugin_eine_PythonBiblio.mp4?Signature=47EyOQa7uZ51%2B%2BcPEVK2llY%2FrtI%3D&Expires=1352037760&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=i6ah40KmwV8",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1460,
+  "language": "German",
+  "quality_notes": "",
+  "recorded": "2012-10-31",
+  "slug": "nagiosplugin-eine-python-bibliothek-fur-monitor",
   "source_url": "https://www.youtube.com/watch?v=i6ah40KmwV8",
+  "speakers": [
+    "Christian Kauhaus"
+  ],
+  "summary": "Auch wenn in der letzten Zeit sehr viel Bewegung in die Monitoring-Szene\ngekommen ist (#monitoringsucks etc.), werden die Platzhirsche\nNagios/Icinga und ihre Standards auf absehbare Zeit nicht verschwinden.\nDas Nagios-Plugin- API stellt eine sehr weit verbreitete Schnittstelle\nzur Anbindung einzelner Checks an Monitoring-Systeme dar. Obwohl das API\nin den Grundz\u00fcgen sehr einfach ist, ist der Programmieraufwand f\u00fcr\nvollst\u00e4ndig konforme Plugins erstaunlich hoch.\n\nDie\n`*nagiosplugin*-Bibliothek <http://pypi.python.org/pypi/nagiosplugin/>`__\nnimmt dem Entwickler viele Details ab, so dass er sich auf den Inhalt\nseiner Checks konzentrieren kann. Der Vortrag f\u00fchrt in das Schreiben von\nNagios- kompatiblen Plugins ein, zeigt den typischen Aufbau von\nNagios-Plugins und das Grundprinzip eigener Plugins. Die Konfiguration\nund der Betrieb von Monitoring-Systemen im Gro\u00dfen sollen nicht\nthematisiert werden.\n\nEine Einf\u00fchrung stellt die notwendigen Elemente wie Klassenger\u00fcst,\nMesswerterhebung, Ranges, Statusausgabe und Performancedaten sukzessive\nin aufeinander aufbauenden Beispielen vor, so dass am Ende ein\neinfacher, aber praktisch einsetzbarer Check entsteht.\n\nDer Teil \u00fcber fortgeschrittene Aspekte und Stolperfallen rei\u00dft\nEinzelbeispiele zu Themen wie mehrere Datenquellen, Timeouts, Auswertung\nwachsender Logfiles und Checks mit \"Ged\u00e4chtnis\" an und zeigt typischen\nFehlerquellen auf.\n\nDen Abschluss bildet ein kurzer Ausblick auf die weitere Entwicklung der\n*nagiosplugin*-Bibliothek.\n",
   "tags": [
     "icinga",
     " monitoring",
     " nagios",
     " plugin"
   ],
-  "speakers": [
-    "Christian Kauhaus"
-  ],
-  "recorded": "2012-10-31"
+  "thumbnail_url": "http://i2.ytimg.com/vi/i6ah40KmwV8/hqdefault.jpg",
+  "title": "nagiosplugin - eine Python-Bibliothek f\u00fcr Monitoring-Plugins",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/nagiosplugin_eine_PythonBiblio.mp4?Signature=47EyOQa7uZ51%2B%2BcPEVK2llY%2FrtI%3D&Expires=1352037760&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=i6ah40KmwV8"
+    }
+  ]
 }

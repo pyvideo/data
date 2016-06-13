@@ -1,32 +1,32 @@
 {
-  "id": 389,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--reverse-engineering-ian-bicking--39-s",
-  "title": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv",
   "alias": "video/389/pycon-2011--reverse-engineering-ian-bicking--39-s",
-  "summary": "",
-  "description": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv\n\nPresented by Carl Meyer\n\nPip and virtualenv: many use them; not so many understand just how they\nwork their magic. If you're a pip/virtualenv user but haven't yet dared\ncrack the lid (or you have, and found it a bit difficult to follow),\ncome along for a fast-paced guided tour. Knowing these tools will help\nyou make more effective use of them, and might also turn you into a\ncontributor.\n\nAbstract\n\nPip and virtualenv are widely used in the Python world, but for the size\nof their user base don't receive many code contributions, and many users\nhave misconceptions about how they actually work.\n\nThis talk will cover a bit of advanced use of pip and virtualenv, but\nmostly we'll dive into the source code, mapping it out with a high-level\nview and diving into the guts of particularly interesting bits. By the\nend of the talk, you'll have a good idea exactly how pip and virtualenv\ndo their magic, and where to go looking in the source for particular\nbehaviors or bug fixes. We'll walk through the creation of a virtualenv\nstep-by-step, and trace a typical \"pip install -r requirements.txt\" and\n\"pip uninstall\" through the code paths they follow.\n\nI'll know the talk was a success when I see the pull requests!\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011ReverseengineeringIanBickingsBrainInsidePipAnd764.png",
+  "description": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv\n\nPresented by Carl Meyer\n\nPip and virtualenv: many use them; not so many understand just how they\nwork their magic. If you're a pip/virtualenv user but haven't yet dared\ncrack the lid (or you have, and found it a bit difficult to follow),\ncome along for a fast-paced guided tour. Knowing these tools will help\nyou make more effective use of them, and might also turn you into a\ncontributor.\n\nAbstract\n\nPip and virtualenv are widely used in the Python world, but for the size\nof their user base don't receive many code contributions, and many users\nhave misconceptions about how they actually work.\n\nThis talk will cover a bit of advanced use of pip and virtualenv, but\nmostly we'll dive into the source code, mapping it out with a high-level\nview and diving into the guts of particularly interesting bits. By the\nend of the talk, you'll have a good idea exactly how pip and virtualenv\ndo their magic, and where to go looking in the source for particular\nbehaviors or bug fixes. We'll walk through the creation of a virtualenv\nstep-by-step, and trace a typical \"pip install -r requirements.txt\" and\n\"pip uninstall\" through the code paths they follow.\n\nI'll know the talk was a success when I see the pull requests!\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/389_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 389,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--reverse-engineering-ian-bicking--39-s",
   "source_url": "",
+  "speakers": [
+    "Carl Meyer"
+  ],
+  "summary": "",
   "tags": [
     "pip",
     "pycon",
     "pycon2011",
     "virtualenv"
   ],
-  "speakers": [
-    "Carl Meyer"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011ReverseengineeringIanBickingsBrainInsidePipAnd764.png",
+  "title": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/389_reverse-engineering-ian-bicking-s-brain-inside-pip-and-virtualenv.mp4"
+    }
+  ]
 }

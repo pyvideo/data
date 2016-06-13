@@ -1,34 +1,34 @@
 {
-  "id": 1227,
-  "category": "SciPy 2012",
-  "slug": "pythontex-fast-access-to-python-from-within-late",
-  "title": "PythonTeX: Fast Access to Python from within LaTeX",
   "alias": "video/1227/pythontex-fast-access-to-python-from-within-late",
-  "summary": "",
-  "description": "The LaTeX document preparation system is frequently used to create\nscientific documents and presentations. This process is often\ninefficient. The user must switch back and forth between the document\nand external scientific software that is used for performing\ncalculations and creating figures.\n`PythonTeX <https://github.com/gpoore/pythontex>`__ is a LaTeX package\nthat allows Python code to be entered directly within a LaTeX document.\nThe code is automatically executed and its output is included within the\noriginal document. The code may also be typeset within the document with\nsyntax highlighting provided by Pygments.\n\nPythonTeX is fast and user-friendly. Python code is separated into user-\ndefined sessions, and each session is only executed when its code is\nmodified. When code is executed, sessions run in parallel. The contents\nof stdout and stderr are synchronized with the LaTeX document, so that\nprinted content is easily accessible and error messages have meaningful\nline numbering.\n\nPythonTeX greatly simplifies scientific document creation with LaTeX.\nFor example, SymPy can be used to automatically solve and typeset\nstep-by-step mathematical derivations. It can also be used to automate\nthe creation of mathematical tables. Plots can be created with\nmatplotlib and then easily customized in place. Python code and its\noutput can be typeset side by side. The full power of Python is\nconveniently available for programming LaTeX macros and customizing and\nautomating LaTeX documents.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2012",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "http://i2.ytimg.com/vi/yIO4l0zHGjw/hqdefault.jpg",
+  "description": "The LaTeX document preparation system is frequently used to create\nscientific documents and presentations. This process is often\ninefficient. The user must switch back and forth between the document\nand external scientific software that is used for performing\ncalculations and creating figures.\n`PythonTeX <https://github.com/gpoore/pythontex>`__ is a LaTeX package\nthat allows Python code to be entered directly within a LaTeX document.\nThe code is automatically executed and its output is included within the\noriginal document. The code may also be typeset within the document with\nsyntax highlighting provided by Pygments.\n\nPythonTeX is fast and user-friendly. Python code is separated into user-\ndefined sessions, and each session is only executed when its code is\nmodified. When code is executed, sessions run in parallel. The contents\nof stdout and stderr are synchronized with the LaTeX document, so that\nprinted content is easily accessible and error messages have meaningful\nline numbering.\n\nPythonTeX greatly simplifies scientific document creation with LaTeX.\nFor example, SymPy can be used to automatically solve and typeset\nstep-by-step mathematical derivations. It can also be used to automate\nthe creation of mathematical tables. Plots can be created with\nmatplotlib and then easily customized in place. Python code and its\noutput can be typeset side by side. The full power of Python is\nconveniently available for programming LaTeX macros and customizing and\nautomating LaTeX documents.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/PythonTeX_Fast_Access_to_Pytho.mp4?Signature=WkwvorcGsMXORDJuJodc52xIzKc%3D&Expires=1346382731&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://youtube.com/watch?v=yIO4l0zHGjw",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1227,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-19",
+  "slug": "pythontex-fast-access-to-python-from-within-late",
   "source_url": "http://youtube.com/watch?v=yIO4l0zHGjw",
-  "tags": [
-    "General"
-  ],
   "speakers": [
     "Geoffrey M. Poore"
   ],
-  "recorded": "2012-07-19"
+  "summary": "",
+  "tags": [
+    "General"
+  ],
+  "thumbnail_url": "http://i2.ytimg.com/vi/yIO4l0zHGjw/hqdefault.jpg",
+  "title": "PythonTeX: Fast Access to Python from within LaTeX",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/PythonTeX_Fast_Access_to_Pytho.mp4?Signature=WkwvorcGsMXORDJuJodc52xIzKc%3D&Expires=1346382731&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtube.com/watch?v=yIO4l0zHGjw"
+    }
+  ]
 }

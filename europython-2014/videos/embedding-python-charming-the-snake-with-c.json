@@ -1,27 +1,27 @@
 {
-  "id": 3009,
-  "category": "EuroPython 2014",
-  "slug": "embedding-python-charming-the-snake-with-c",
-  "title": "Embedding Python: Charming the Snake with C++",
   "alias": "video/3009/embedding-python-charming-the-snake-with-c",
-  "summary": "At the example of our in-house distributed scheduling system, we discuss\nthe challenges of embedding the Python interpreter in a C++ program.\nBesides the actual integration of the interpreter, efficient data\nexchange between both languages is discussed. In addition, this\npresentation demonstrates how higher-level abstractions further diminish\nthe language barrier.\n",
-  "description": "Python with its huge standard library and sophisticated packages\ndeveloped by its thriving community has become an incredibly useful tool\nfor data scientists. At Blue Yonder, we value Python for the ease with\nwhich we can access and combine machine learning algorithms to build\naccurate prediction models.\n\nTo get the most business value out of the use of Python, we strive to\nrid our model developers from all burdens outside their core expertise,\ni.e., developing statistical models. To leverage our existing\ninfrastructure, essentially a distributed scheduling system written in\nC++, we decided to embed a Python interpreter in our application. The\ngoal was to let developers use the language best suited for their\nproblem, and to let them incorporate code created by others even if it\nis not written in the same language.\n\nIn this presentation, I will talk about a few obstacles which we had to\novercome in integrating the (C)Python interpreter in our C++ program,\ne.g., clean resource management, error handling, and broken features in\nthe interpreter's API. I will show how we employed features from the\n`Boost Python C++\nlibrary <http://www.boost.org/doc/libs/1_55_0/libs/python/>`__ not only\nfor simple data exchange, but also for more powerful concepts such as\ndata sources. Finally, I will demonstrate how C++ objects can be used to\nseamlessly interact with Python, for example to use Python's logging\npackage as usual while the actual logging is handled by our C++\napplication.\n\nWith this combination of both worlds, we achieved a desirable mix of\nvirtues: safe, reliable operations; good run-time performance; fast\ndevelopment; and highly expressive, unit testable core domain logic.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/3329SyR215I/hqdefault.jpg",
+  "description": "Python with its huge standard library and sophisticated packages\ndeveloped by its thriving community has become an incredibly useful tool\nfor data scientists. At Blue Yonder, we value Python for the ease with\nwhich we can access and combine machine learning algorithms to build\naccurate prediction models.\n\nTo get the most business value out of the use of Python, we strive to\nrid our model developers from all burdens outside their core expertise,\ni.e., developing statistical models. To leverage our existing\ninfrastructure, essentially a distributed scheduling system written in\nC++, we decided to embed a Python interpreter in our application. The\ngoal was to let developers use the language best suited for their\nproblem, and to let them incorporate code created by others even if it\nis not written in the same language.\n\nIn this presentation, I will talk about a few obstacles which we had to\novercome in integrating the (C)Python interpreter in our C++ program,\ne.g., clean resource management, error handling, and broken features in\nthe interpreter's API. I will show how we employed features from the\n`Boost Python C++\nlibrary <http://www.boost.org/doc/libs/1_55_0/libs/python/>`__ not only\nfor simple data exchange, but also for more powerful concepts such as\ndata sources. Finally, I will demonstrate how C++ objects can be used to\nseamlessly interact with Python, for example to use Python's logging\npackage as usual while the actual logging is handled by our C++\napplication.\n\nWith this combination of both worlds, we achieved a desirable mix of\nvirtues: safe, reliable operations; good run-time performance; fast\ndevelopment; and highly expressive, unit testable core domain logic.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=3329SyR215I",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3009,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-23",
+  "slug": "embedding-python-charming-the-snake-with-c",
   "source_url": "http://www.youtube.com/watch?v=3329SyR215I",
-  "tags": [],
   "speakers": [
     "Michael K\u00f6nig"
   ],
-  "recorded": "2014-07-23"
+  "summary": "At the example of our in-house distributed scheduling system, we discuss\nthe challenges of embedding the Python interpreter in a C++ program.\nBesides the actual integration of the interpreter, efficient data\nexchange between both languages is discussed. In addition, this\npresentation demonstrates how higher-level abstractions further diminish\nthe language barrier.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/3329SyR215I/hqdefault.jpg",
+  "title": "Embedding Python: Charming the Snake with C++",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=3329SyR215I"
+    }
+  ]
 }

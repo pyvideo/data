@@ -1,32 +1,32 @@
 {
-  "id": 3076,
-  "category": "PyData Berlin 2014",
-  "slug": "semantic-python-mastering-linked-data-with-pytho",
-  "title": "Semantic Python: Mastering Linked Data with Python",
   "alias": "video/3076/semantic-python-mastering-linked-data-with-pytho",
-  "summary": "",
-  "description": "Tim Berners-Lee defined the Semantic Web as a web of data that can be\nprocessed directly and indirectly by machines. More precisely, the\nSemantic Web can be defined as a set of standards and best practices for\nsharing data and the semantics of that data over the Web to be used by\napplications [DuCharme, 2013].\n\nIn particular, the Semantic Web is built on top of three main pillars:\nthe RDF (i.e., Resource Description Framework) data model, the SPARQL\nquery language, and the OWL standard for storing vocabularies and\nontologies. These standards allows the huge amount of data on the Web to\nbe available in a unique and unified standard format, contributing to\nthe definition of the Web of Data (WoD) [1].\n\nThe WoD makes the web data to be reachable and easily manageable by\nSemantic Web tools, providing also the relationships among these data\n(thus practically setting up the \u201cWeb\u201d). This collection of interrelated\ndatasets on the Web can also be referred to as Linked Data [1].\n\nTwo typical examples of large Linked Dataset are FreeBase, and DBPedia,\nwhich essentially provides the so called Common sense Knowledge in RDF\nformat. Python offers a very powerful and easy to use library to work\nwith Linked Data: rdflib. RDFLib is a lightweight and functionally\ncomplete RDF library, allowing applications to access, create and manage\nRDF graphs in a very Pythonic fashion.\n\nIn this talk, a general overview of the main features provided by the\nrdflib package will be presented. To this end, several code examples\nwill be discussed, along with a case study concerning the analysis of a\n(semantic) social graph. This case study will be focused on the\nintegration between the networkx module and the rdflib library in order\nto crawl, access (via SPARQL), and analyze a Social Linked Data Graph\nrepresented using the FOAF (Friend of a Friend) schema.\n\nThis talk is intended for an Novice level audience, assuming a good\nknowledge of the Python language.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyData Berlin 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/5DCS9LE-8rE/hqdefault.jpg",
+  "description": "Tim Berners-Lee defined the Semantic Web as a web of data that can be\nprocessed directly and indirectly by machines. More precisely, the\nSemantic Web can be defined as a set of standards and best practices for\nsharing data and the semantics of that data over the Web to be used by\napplications [DuCharme, 2013].\n\nIn particular, the Semantic Web is built on top of three main pillars:\nthe RDF (i.e., Resource Description Framework) data model, the SPARQL\nquery language, and the OWL standard for storing vocabularies and\nontologies. These standards allows the huge amount of data on the Web to\nbe available in a unique and unified standard format, contributing to\nthe definition of the Web of Data (WoD) [1].\n\nThe WoD makes the web data to be reachable and easily manageable by\nSemantic Web tools, providing also the relationships among these data\n(thus practically setting up the \u201cWeb\u201d). This collection of interrelated\ndatasets on the Web can also be referred to as Linked Data [1].\n\nTwo typical examples of large Linked Dataset are FreeBase, and DBPedia,\nwhich essentially provides the so called Common sense Knowledge in RDF\nformat. Python offers a very powerful and easy to use library to work\nwith Linked Data: rdflib. RDFLib is a lightweight and functionally\ncomplete RDF library, allowing applications to access, create and manage\nRDF graphs in a very Pythonic fashion.\n\nIn this talk, a general overview of the main features provided by the\nrdflib package will be presented. To this end, several code examples\nwill be discussed, along with a case study concerning the analysis of a\n(semantic) social graph. This case study will be focused on the\nintegration between the networkx module and the rdflib library in order\nto crawl, access (via SPARQL), and analyze a Social Linked Data Graph\nrepresented using the FOAF (Friend of a Friend) schema.\n\nThis talk is intended for an Novice level audience, assuming a good\nknowledge of the Python language.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://video.ep14.c3voc.de/20244.mp4",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://www.youtube.com/watch?v=5DCS9LE-8rE",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3076,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-26",
+  "slug": "semantic-python-mastering-linked-data-with-pytho",
   "source_url": "http://www.youtube.com/watch?v=5DCS9LE-8rE",
-  "tags": [],
   "speakers": [
     "Valerio Maggio"
   ],
-  "recorded": "2014-07-26"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/5DCS9LE-8rE/hqdefault.jpg",
+  "title": "Semantic Python: Mastering Linked Data with Python",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://video.ep14.c3voc.de/20244.mp4"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=5DCS9LE-8rE"
+    }
+  ]
 }

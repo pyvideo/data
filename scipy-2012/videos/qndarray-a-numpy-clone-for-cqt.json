@@ -1,34 +1,34 @@
 {
-  "id": 1203,
-  "category": "SciPy 2012",
-  "slug": "qndarray-a-numpy-clone-for-cqt",
-  "title": "QNDArray: A Numpy Clone for C++/Qt",
   "alias": "video/1203/qndarray-a-numpy-clone-for-cqt",
-  "summary": "",
-  "description": "While Numpy/Scipy is an attractive implementation platform for many\nalgorithms, in some cases C++ is mandated by a customer. However, a\nfoundation of numpy's behavior is the notion of reference-counted\ninstances, and implementing an efficient, cross-platform mechanism for\nreference counting is no trivial prerequisite.\n\nThe reference counting mechanisms already implemented in the Qt C++\ntoolkit provide a cross-platform foundation upon which a numpy-like\narray class can be built. In this talk one such implementation is\ndiscussed, QNDArray. In fact, by mimicking the numpy behaviors, the job\nof implementing QNDArray became much easier, as the task of \"defining\nthe behavior\" became \"adopting the behavior,\" to include function names.\n\nIn particular, the following aspects of the implementation were found to\nbe tricky and deserve discussion in this presentation:\n\n-  slicing multidimensional arrays given the limitations of operator[]\n   in C++,\n-  const\n-  partial specialization\n-  implicit vs. explicit data sharing in Qt QNDArray has been deployed\n   in scientific research applications and currently has the following\n   features:\n\n-  bit-packed boolean arrays\n-  nascent masked array support\n-  unit test suite that validates QNDArray behavior against numpy\n   behavior\n-  bounds checking with Q\\_ASSERT() (becomes a no-op in release mode)\n-  memmap()ed arrays via QFile::map()\n-  easily integrated as a QVariant value, leading to a natural mapping\n   from QVariantMap to Python dict.\n-  float16 implementation including in-place compare\n\nThe author has approval from his management to submit the source code\nfor QNDArray to the Qt Project and plans to have it freely available for\ndownload via http://qt.gitorious.org/ before the SciPy conference\nbegins.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2012",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "http://i1.ytimg.com/vi/PLqIRtpUHGk/hqdefault.jpg",
+  "description": "While Numpy/Scipy is an attractive implementation platform for many\nalgorithms, in some cases C++ is mandated by a customer. However, a\nfoundation of numpy's behavior is the notion of reference-counted\ninstances, and implementing an efficient, cross-platform mechanism for\nreference counting is no trivial prerequisite.\n\nThe reference counting mechanisms already implemented in the Qt C++\ntoolkit provide a cross-platform foundation upon which a numpy-like\narray class can be built. In this talk one such implementation is\ndiscussed, QNDArray. In fact, by mimicking the numpy behaviors, the job\nof implementing QNDArray became much easier, as the task of \"defining\nthe behavior\" became \"adopting the behavior,\" to include function names.\n\nIn particular, the following aspects of the implementation were found to\nbe tricky and deserve discussion in this presentation:\n\n-  slicing multidimensional arrays given the limitations of operator[]\n   in C++,\n-  const\n-  partial specialization\n-  implicit vs. explicit data sharing in Qt QNDArray has been deployed\n   in scientific research applications and currently has the following\n   features:\n\n-  bit-packed boolean arrays\n-  nascent masked array support\n-  unit test suite that validates QNDArray behavior against numpy\n   behavior\n-  bounds checking with Q\\_ASSERT() (becomes a no-op in release mode)\n-  memmap()ed arrays via QFile::map()\n-  easily integrated as a QVariant value, leading to a natural mapping\n   from QVariantMap to Python dict.\n-  float16 implementation including in-place compare\n\nThe author has approval from his management to submit the source code\nfor QNDArray to the Qt Project and plans to have it freely available for\ndownload via http://qt.gitorious.org/ before the SciPy conference\nbegins.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/QNDArray_A_Numpy_Clone_for_CQt.mp4?Signature=ODStHEG40%2FmQ5sV78j11L%2FYj%2Fks%3D&Expires=1346381293&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://youtube.com/watch?v=PLqIRtpUHGk",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1203,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-18",
+  "slug": "qndarray-a-numpy-clone-for-cqt",
   "source_url": "http://youtube.com/watch?v=PLqIRtpUHGk",
-  "tags": [
-    "General"
-  ],
   "speakers": [
     "Glen W. Mabey"
   ],
-  "recorded": "2012-07-18"
+  "summary": "",
+  "tags": [
+    "General"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/PLqIRtpUHGk/hqdefault.jpg",
+  "title": "QNDArray: A Numpy Clone for C++/Qt",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/QNDArray_A_Numpy_Clone_for_CQt.mp4?Signature=ODStHEG40%2FmQ5sV78j11L%2FYj%2Fks%3D&Expires=1346381293&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtube.com/watch?v=PLqIRtpUHGk"
+    }
+  ]
 }

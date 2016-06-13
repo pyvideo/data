@@ -1,34 +1,34 @@
 {
-  "id": 1231,
-  "category": "SciPy 2012",
-  "slug": "enaml-a-framework-for-building-declarative-user",
-  "title": "Enaml - A Framework for Building Declarative User Interfaces",
   "alias": "video/1231/enaml-a-framework-for-building-declarative-user",
-  "summary": "",
-  "description": "Overview\n--------\n\nEnaml is a new domain specific declarative language for specifying user\ninterfaces in Python applications. Its syntax, a strict superset of the\nPython language, provides a clean and compact representation of UI\nlayout and styling, and uses dynamic expressions to bind a view's logic\nwith an application's underlying computational model.\n\nDesign Goals\n------------\n\nA number of considerations were given during the design of Enaml with\nthe ultimate goal being the creation of a dynamic UI framework that has\na low barrier of entry and can scale in complexity and capability\naccording to the needs of the developer.\n\n**Influence** Enaml improves upon existing technologies and ideas for\nspecifying user interfaces. Much of Enaml's inspiration comes from Qt's\nQML, a declarative UI language derived from ECMAScript and designed\nspecifically for developing mobile applications with the Qt toolkit. In\ncontrast, Enaml is designed for the development of scientific and\nenterprise level applications, and makes use of a Python derived syntax\nand standard desktop-style widget elements. For layout, Enaml raises the\nbar by providing a system based on symbolic constraints. The underyling\ntechnology is the same which powers the Cocoa Auto-Layout system in OSX\n10.7, however in Enaml, the constraints are exposed in a friendly\nPythonic fashion.\n\n**Toolkit Independence** In large projects, the costs of changing\ninfrastructure can be extremely high. Instead of forcing an application\nto be tied to a single underlying toolkit, Enaml is designed to be\ncompletely toolkit agnostic. This decoupling provides the benefit of\nbeing able to migrate an entire project from one gui library to another\nby changing only a single line of code or setting an environment\nvariable. Enaml currently supports both Qt (via Pyside or PyQt4) and\nWxPython backends with plans for HTML 5 in the future. The authoring of\nnew toolkit backends has been designed to be a simple affair. Adding new\nor custom widgets to an existing toolkit is trivial.\n\n**Extensibility** A good framework should be useable by a wide variety\nof audiences and should be able to adapt to work with technologies not\nyet invented. Enaml can provide the UI layer for any Python application,\nwith few limitations placed on the architecture of the underlying\ncomputational model. While Enaml understands Enthought's Traits based\nmodels by default, it provides simple hooks that the developer can use\nto extend its functionality to any model architecture that provides some\nform of notification mechanism. Possibilities include, but are not\nlimited to, models built upon databases, sockets, and pub-sub\nmechanisms.\n\n**Continuity** No matter how easy it is to get started with a new\nframework, it will not be adopted if the cost of switching is\nexceedingly high. Enaml is positioned to become the next generation of\nTraitsUI, the user interface layer of the Traits library. Enaml can both\ninclude existing TraitsUI views in an application as well as itself be\nembedded within a TraitsUI. Enaml also interacts seamlessly with the\nChaco plotting library, allowing easy integration of interactive\ngraphics. Enaml cleanly exposes the toolkit specific objects that it\nmanages, allowing a user with a large amount of toolkit specific code to\ncontinue to use that code with little or no changes. This provides a\npath forward for both TraitsUI and non-TraitsUI applications.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2012",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "http://i2.ytimg.com/vi/ycFEwz_hAxk/hqdefault.jpg",
+  "description": "Overview\n--------\n\nEnaml is a new domain specific declarative language for specifying user\ninterfaces in Python applications. Its syntax, a strict superset of the\nPython language, provides a clean and compact representation of UI\nlayout and styling, and uses dynamic expressions to bind a view's logic\nwith an application's underlying computational model.\n\nDesign Goals\n------------\n\nA number of considerations were given during the design of Enaml with\nthe ultimate goal being the creation of a dynamic UI framework that has\na low barrier of entry and can scale in complexity and capability\naccording to the needs of the developer.\n\n**Influence** Enaml improves upon existing technologies and ideas for\nspecifying user interfaces. Much of Enaml's inspiration comes from Qt's\nQML, a declarative UI language derived from ECMAScript and designed\nspecifically for developing mobile applications with the Qt toolkit. In\ncontrast, Enaml is designed for the development of scientific and\nenterprise level applications, and makes use of a Python derived syntax\nand standard desktop-style widget elements. For layout, Enaml raises the\nbar by providing a system based on symbolic constraints. The underyling\ntechnology is the same which powers the Cocoa Auto-Layout system in OSX\n10.7, however in Enaml, the constraints are exposed in a friendly\nPythonic fashion.\n\n**Toolkit Independence** In large projects, the costs of changing\ninfrastructure can be extremely high. Instead of forcing an application\nto be tied to a single underlying toolkit, Enaml is designed to be\ncompletely toolkit agnostic. This decoupling provides the benefit of\nbeing able to migrate an entire project from one gui library to another\nby changing only a single line of code or setting an environment\nvariable. Enaml currently supports both Qt (via Pyside or PyQt4) and\nWxPython backends with plans for HTML 5 in the future. The authoring of\nnew toolkit backends has been designed to be a simple affair. Adding new\nor custom widgets to an existing toolkit is trivial.\n\n**Extensibility** A good framework should be useable by a wide variety\nof audiences and should be able to adapt to work with technologies not\nyet invented. Enaml can provide the UI layer for any Python application,\nwith few limitations placed on the architecture of the underlying\ncomputational model. While Enaml understands Enthought's Traits based\nmodels by default, it provides simple hooks that the developer can use\nto extend its functionality to any model architecture that provides some\nform of notification mechanism. Possibilities include, but are not\nlimited to, models built upon databases, sockets, and pub-sub\nmechanisms.\n\n**Continuity** No matter how easy it is to get started with a new\nframework, it will not be adopted if the cost of switching is\nexceedingly high. Enaml is positioned to become the next generation of\nTraitsUI, the user interface layer of the Traits library. Enaml can both\ninclude existing TraitsUI views in an application as well as itself be\nembedded within a TraitsUI. Enaml also interacts seamlessly with the\nChaco plotting library, allowing easy integration of interactive\ngraphics. Enaml cleanly exposes the toolkit specific objects that it\nmanages, allowing a user with a large amount of toolkit specific code to\ncontinue to use that code with little or no changes. This provides a\npath forward for both TraitsUI and non-TraitsUI applications.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Enaml_A_Framework_for_Building.mp4?Signature=08ekMtS%2FwDm0cg0G84k%2FIsD378g%3D&Expires=1346382959&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://youtube.com/watch?v=ycFEwz_hAxk",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1231,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-19",
+  "slug": "enaml-a-framework-for-building-declarative-user",
   "source_url": "http://youtube.com/watch?v=ycFEwz_hAxk",
-  "tags": [
-    "visualization"
-  ],
   "speakers": [
     "S. Chris Colbert"
   ],
-  "recorded": "2012-07-19"
+  "summary": "",
+  "tags": [
+    "visualization"
+  ],
+  "thumbnail_url": "http://i2.ytimg.com/vi/ycFEwz_hAxk/hqdefault.jpg",
+  "title": "Enaml - A Framework for Building Declarative User Interfaces",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Enaml_A_Framework_for_Building.mp4?Signature=08ekMtS%2FwDm0cg0G84k%2FIsD378g%3D&Expires=1346382959&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtube.com/watch?v=ycFEwz_hAxk"
+    }
+  ]
 }

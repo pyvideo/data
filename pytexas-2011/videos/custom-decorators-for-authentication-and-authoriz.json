@@ -1,27 +1,27 @@
 {
-  "id": 555,
-  "category": "PyTexas 2011",
-  "slug": "custom-decorators-for-authentication-and-authoriz",
-  "title": "Custom Decorators for Authentication and Authorization",
   "alias": "video/555/custom-decorators-for-authentication-and-authoriz",
-  "summary": "An introduction to writing decorators, with an example of how they can\nbe used to handle common authentication and authorization actions for a\nset of web services.\n",
-  "description": "To provide access to enterprise directory data and services to\ndevelopers at Texas A&M; University, we have implemented a set of\nRESTful web services, using Django as our framework. Because these\nservices include access to protected data, all web service clients must\nauthenticate and be authorized to access a particular service. In order\nto implement the logic for making authentication and authorization\ndecisions in one place, and cleanly apply it to any view, we wrote a\ncustom decorator. This talk will cover the basic concepts behind\ndecorators, how to write a decorator, and walk through our\nimplementation of a decorator for authN/authZ.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyTexas 2011",
   "copyright_text": "",
-  "thumbnail_url": "http://a.images.blip.tv/Nextdayvideo-CustomDecoratorsForAuthenticationAndAuthorization489-643.jpg",
+  "description": "To provide access to enterprise directory data and services to\ndevelopers at Texas A&M; University, we have implemented a set of\nRESTful web services, using Django as our framework. Because these\nservices include access to protected data, all web service clients must\nauthenticate and be authorized to access a particular service. In order\nto implement the logic for making authentication and authorization\ndecisions in one place, and cleanly apply it to any view, we wrote a\ncustom decorator. This talk will cover the basic concepts behind\ndecorators, how to write a decorator, and walk through our\nimplementation of a decorator for authN/authZ.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/555_custom-decorators-for-authentication-and-authorization.m4v",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 555,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": null,
+  "slug": "custom-decorators-for-authentication-and-authoriz",
   "source_url": "",
-  "tags": [],
   "speakers": [
     "Jason Zylks"
   ],
-  "recorded": null
+  "summary": "An introduction to writing decorators, with an example of how they can\nbe used to handle common authentication and authorization actions for a\nset of web services.\n",
+  "tags": [],
+  "thumbnail_url": "http://a.images.blip.tv/Nextdayvideo-CustomDecoratorsForAuthenticationAndAuthorization489-643.jpg",
+  "title": "Custom Decorators for Authentication and Authorization",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pytexas-2011/555_custom-decorators-for-authentication-and-authorization.m4v"
+    }
+  ]
 }

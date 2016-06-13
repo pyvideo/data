@@ -1,30 +1,30 @@
 {
-  "id": 2743,
-  "category": "SciPy 2014",
-  "slug": "fundamentals-of-the-ipython-display-architecture",
-  "title": "Fundamentals of the IPython Display Architecture+Interactive Widgets",
   "alias": "video/2743/fundamentals-of-the-ipython-display-architecture",
-  "summary": "In this tutorial, attendees will learn how to use the IPython Notebook\u2019s\ndisplay architecture and interactive widgets. As we cover these topics,\nattendees will learn about the underlying architecture, how to use\nIPython\u2019s existing APIs, and how to extend them for their own purposes.\nThis tutorial will not cover the basics of the IPython Notebook.\n",
-  "description": "IPython provides an architecture for interactive computing. The IPython\nNotebook is a web-based interactive computing environment for\nexploratory and reproducible computing. With the IPython Notebook, users\ncreate documents, called notebooks, that contain formatted text,\nfigures, equations, programming code, and code output.\n\nThe IPython Notebook generalizes the notion of output to include images,\nLaTeX, video, HTML, JavaScript, PDF, etc. These output formats are\ndisplayed in the Notebook using IPython\u2019s display architecture, embedded\nin notebook documents and rendered on the IPython Notebook Viewer. By\ntaking advantage of these rich output formats users can build notebooks\nthat include rich representations and visualizations of data and other\ncontent. In this tutorial, we will describe the display architecture,\nexisting Python APIs and libraries that already use it (mpld3, vincent,\npolotly, etc.), and how users can define custom display logic for their\nown Python objects.\n\nAs of version 2.0, the IPython Notebook also includes interactive\nJavaScript widgets. These widgets provide a way for users to interact\nwith UI controls in the browser that are tied to Python code in running\nin the kernel. We will begin by covering the highest-level API for these\nwidgets, \u201cinteract,\u201d which automatically builds a user interface for\nexploring a Python function. Next we will describe the lower-level\nwidget objects that are included with IPython: sliders, text boxes,\nbuttons, etc. However, the full potential of the widget framework lies\nwith its extensibility. Users can create their own custom widgets using\nPython, JavaScript, HTML and CSS. We will conclude with a detailed look\nat custom widget creation.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/aIXED26Wppg/hqdefault.jpg",
+  "description": "IPython provides an architecture for interactive computing. The IPython\nNotebook is a web-based interactive computing environment for\nexploratory and reproducible computing. With the IPython Notebook, users\ncreate documents, called notebooks, that contain formatted text,\nfigures, equations, programming code, and code output.\n\nThe IPython Notebook generalizes the notion of output to include images,\nLaTeX, video, HTML, JavaScript, PDF, etc. These output formats are\ndisplayed in the Notebook using IPython\u2019s display architecture, embedded\nin notebook documents and rendered on the IPython Notebook Viewer. By\ntaking advantage of these rich output formats users can build notebooks\nthat include rich representations and visualizations of data and other\ncontent. In this tutorial, we will describe the display architecture,\nexisting Python APIs and libraries that already use it (mpld3, vincent,\npolotly, etc.), and how users can define custom display logic for their\nown Python objects.\n\nAs of version 2.0, the IPython Notebook also includes interactive\nJavaScript widgets. These widgets provide a way for users to interact\nwith UI controls in the browser that are tied to Python code in running\nin the kernel. We will begin by covering the highest-level API for these\nwidgets, \u201cinteract,\u201d which automatically builds a user interface for\nexploring a Python function. Next we will describe the lower-level\nwidget objects that are included with IPython: sliders, text boxes,\nbuttons, etc. However, the full potential of the widget framework lies\nwith its extensibility. Users can create their own custom widgets using\nPython, JavaScript, HTML and CSS. We will conclude with a detailed look\nat custom widget creation.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=aIXED26Wppg",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2743,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-09",
+  "slug": "fundamentals-of-the-ipython-display-architecture",
   "source_url": "http://www.youtube.com/watch?v=aIXED26Wppg",
-  "tags": [
-    "ipython"
-  ],
   "speakers": [
     "Brian Granger",
     "Jonathan Frederic"
   ],
-  "recorded": "2014-07-09"
+  "summary": "In this tutorial, attendees will learn how to use the IPython Notebook\u2019s\ndisplay architecture and interactive widgets. As we cover these topics,\nattendees will learn about the underlying architecture, how to use\nIPython\u2019s existing APIs, and how to extend them for their own purposes.\nThis tutorial will not cover the basics of the IPython Notebook.\n",
+  "tags": [
+    "ipython"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/aIXED26Wppg/hqdefault.jpg",
+  "title": "Fundamentals of the IPython Display Architecture+Interactive Widgets",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=aIXED26Wppg"
+    }
+  ]
 }

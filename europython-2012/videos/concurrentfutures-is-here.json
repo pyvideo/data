@@ -1,27 +1,27 @@
 {
-  "id": 1280,
-  "category": "EuroPython 2012",
-  "slug": "concurrentfutures-is-here",
-  "title": "concurrent.futures is here",
   "alias": "video/1280/concurrentfutures-is-here",
-  "summary": "[EuroPython 2012] Andrew Dalke - 5 JULY 2012 in \"Track Spaghetti\"\n",
-  "description": "The future is here! Or rather, concurrent.futures became part of the\nPython standard library with 3.2. This style of asynchronous\nprogramming, also known as promises, has been around for decades but is\nonly recently becoming popular in a number of languages and libraries.\nMy presentation is meant for a Python programmer who knows nothing about\nfutures. I\u2019ll structure it around processing web server logs, and show\nseveral ways to Python code can make more effective use of a multi-core\nmachine. In some cases the multi-threaded executor is good enough, but\nin others the right solution is the multi-process executor. Because of\nthe unified API, it\u2019s a one line change to switch from one to the other.\nIt isn\u2019t hard to write your own executor for different compute models.\nI\u2019ll show that by developing a new one which works on top of the PiCloud\nAPI. At the end I\u2019ll describe some of the more experimental work I\u2019m\ndoing to use promises in a dependency graph, where certain computed\nproperties are dependent on others. Even though concurrent.futures came\nin 3.2, Python 2.x users can use the API through Alex Gr\u00f6nholm\u2019s\n\u2018futures\u2019 backport.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2012",
   "copyright_text": "Standard YouTube License",
-  "thumbnail_url": "http://i.ytimg.com/vi/2Ng-UIedZMY/hqdefault.jpg",
+  "description": "The future is here! Or rather, concurrent.futures became part of the\nPython standard library with 3.2. This style of asynchronous\nprogramming, also known as promises, has been around for decades but is\nonly recently becoming popular in a number of languages and libraries.\nMy presentation is meant for a Python programmer who knows nothing about\nfutures. I\u2019ll structure it around processing web server logs, and show\nseveral ways to Python code can make more effective use of a multi-core\nmachine. In some cases the multi-threaded executor is good enough, but\nin others the right solution is the multi-process executor. Because of\nthe unified API, it\u2019s a one line change to switch from one to the other.\nIt isn\u2019t hard to write your own executor for different compute models.\nI\u2019ll show that by developing a new one which works on top of the PiCloud\nAPI. At the end I\u2019ll describe some of the more experimental work I\u2019m\ndoing to use promises in a dependency graph, where certain computed\nproperties are dependent on others. Even though concurrent.futures came\nin 3.2, Python 2.x users can use the API through Alex Gr\u00f6nholm\u2019s\n\u2018futures\u2019 backport.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=2Ng-UIedZMY",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1280,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-06",
+  "slug": "concurrentfutures-is-here",
   "source_url": "http://www.youtube.com/watch?v=2Ng-UIedZMY",
-  "tags": [],
   "speakers": [
     "Andrew Dalke"
   ],
-  "recorded": "2012-07-06"
+  "summary": "[EuroPython 2012] Andrew Dalke - 5 JULY 2012 in \"Track Spaghetti\"\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/2Ng-UIedZMY/hqdefault.jpg",
+  "title": "concurrent.futures is here",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=2Ng-UIedZMY"
+    }
+  ]
 }

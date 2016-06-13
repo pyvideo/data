@@ -1,32 +1,32 @@
 {
-  "id": 1971,
-  "category": "SciPy 2013",
-  "slug": "combining-c-and-python-in-the-lsst-software-sta-0",
-  "title": "Combining C++ and Python in the LSST Software Stack",
   "alias": "video/1971/combining-c-and-python-in-the-lsst-software-sta-0",
-  "summary": "The software system for the Large Synoptic Survey Telescope is\ncompletely open-source, and at every stage we've focused on making it\nusable not just with LSST, but with generic astronomical image data.\n",
-  "description": "Authors: Bosch, Jim, Princeton University\n\nTrack: Astronomy and Astrophysics\n\nThe Large Synoptic Survey Telescope is a 8.4-meter survey telescope that\nwill image the entire visible sky twice a week with a 3.2 Gigapixel\ncamera, expected to come online early in the next decade. That means a\nlot of data: approximately 30 TB each night, and over 60 PB at the end\nof the 10-year survey, all of which will be made available to the\npublic. The software system for LSST is completely open-source, and at\nevery stage we've focused on making it usable not just with LSST, but\nwith generic astronomical image data (in fact, it has been used to\nreduce data from several other telescopes already). We're building the\nsoftware system for LSST using a combination of C++ and Python, making\nuse of third-party software such as NumPy, Swig, and Eigen, along with a\nlot of custom code (much of which may be of broader use). In this talk\nI'll go over some of the advantages and disadvantages of the C++/Python\ncombination, and some of the tricks and tools we've developed (and\ntrials and tribulations we've encountered) in making them play well\ntogether in the context of astronomical data analysis. While LSST is\nstill years away, and our software pipeline is still in many ways a\nprototype, in many respects it is already at the cutting edge of\nastronomical data analysis, and the lessons we have already learned will\nbe of value not just to astronomers, but to scientists in other \"big\ndata\" fields and general-purpose scientific software developers as well.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2013",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/EaRGRIqSMEc/hqdefault.jpg",
+  "description": "Authors: Bosch, Jim, Princeton University\n\nTrack: Astronomy and Astrophysics\n\nThe Large Synoptic Survey Telescope is a 8.4-meter survey telescope that\nwill image the entire visible sky twice a week with a 3.2 Gigapixel\ncamera, expected to come online early in the next decade. That means a\nlot of data: approximately 30 TB each night, and over 60 PB at the end\nof the 10-year survey, all of which will be made available to the\npublic. The software system for LSST is completely open-source, and at\nevery stage we've focused on making it usable not just with LSST, but\nwith generic astronomical image data (in fact, it has been used to\nreduce data from several other telescopes already). We're building the\nsoftware system for LSST using a combination of C++ and Python, making\nuse of third-party software such as NumPy, Swig, and Eigen, along with a\nlot of custom code (much of which may be of broader use). In this talk\nI'll go over some of the advantages and disadvantages of the C++/Python\ncombination, and some of the tricks and tools we've developed (and\ntrials and tribulations we've encountered) in making them play well\ntogether in the context of astronomical data analysis. While LSST is\nstill years away, and our software pipeline is still in many ways a\nprototype, in many respects it is already at the cutting edge of\nastronomical data analysis, and the lessons we have already learned will\nbe of value not just to astronomers, but to scientists in other \"big\ndata\" fields and general-purpose scientific software developers as well.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=EaRGRIqSMEc",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1971,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2013-07-01",
+  "slug": "combining-c-and-python-in-the-lsst-software-sta-0",
   "source_url": "http://www.youtube.com/watch?v=EaRGRIqSMEc",
+  "speakers": [
+    "Jim Bosch"
+  ],
+  "summary": "The software system for the Large Synoptic Survey Telescope is\ncompletely open-source, and at every stage we've focused on making it\nusable not just with LSST, but with generic astronomical image data.\n",
   "tags": [
     "astronomy",
     "astrophysics",
     "eigen",
     "swig"
   ],
-  "speakers": [
-    "Jim Bosch"
-  ],
-  "recorded": "2013-07-01"
+  "thumbnail_url": "http://i1.ytimg.com/vi/EaRGRIqSMEc/hqdefault.jpg",
+  "title": "Combining C++ and Python in the LSST Software Stack",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=EaRGRIqSMEc"
+    }
+  ]
 }

@@ -1,27 +1,27 @@
 {
-  "id": 2808,
-  "category": "SciPy 2014",
-  "slug": "scientific-knowledge-management-with-web-of-trail",
-  "title": "Scientific Knowledge Management with Web of Trails",
   "alias": "video/2808/scientific-knowledge-management-with-web-of-trail",
-  "summary": "Do you hate repeating yourself? Want to know when your publication is\nrepeating someone else? The Web of Trails project is a solution to\nknowledge management that empowers users to quickly find repetition of\nkey phrases. Using syntactic indexing, as opposed to lexical techniques,\nthis approach is capable of representing the literature using less space\nwhile providing high value results.\n",
-  "description": "Web of Trails (WOT) is an open source project that uses context-free\ngrammars (CFG's) as the basic building block for search. Current search\ntechnology relies upon the presence of words on a page, sometimes\naugmented with statistical correlations among words. Even with these\nrestrictions, maintenance of an index requires storage much greater than\nthe input size (a polynomial function of it). CFG's have been used for\ndecades in compilation and language tools, and more recently in data\ncompression.\n\nThe primary advantage of this CFG approach, based upon the Sequitur\nalgorithm, is that it indexes content in linear-space, not\npolynomial-space. The secondary advantage is that combined with research\nin inference, grammars can express human concepts and connections rather\nthan just correlations. This project uses grammar and syntactic analysis\nto replace lexical and word-based approaches to the problem of searching\ncollections of digital artifacts. Benchmarking in web content indexing\nwill be shown relative to popular alternatives such Apache Lucene and\nAmazon Cloud Search.\n\nIn addition to implementing content indexing with Sequitur, this project\nwill enable domain-specific extensions of WOT. Once complete, we will\nresearch novel techniques for generalizing the grammars inferred by\nSequitur. As this fundamental research develops, it will inform later\nframework development and increase search precision. This is a big leap\nin the state of the art, as text artifacts are no longer represented as\nbags of words, but as bags on non-terminals in a growing and adapting\ngrammar.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/oEkKxHQb8iA/hqdefault.jpg",
+  "description": "Web of Trails (WOT) is an open source project that uses context-free\ngrammars (CFG's) as the basic building block for search. Current search\ntechnology relies upon the presence of words on a page, sometimes\naugmented with statistical correlations among words. Even with these\nrestrictions, maintenance of an index requires storage much greater than\nthe input size (a polynomial function of it). CFG's have been used for\ndecades in compilation and language tools, and more recently in data\ncompression.\n\nThe primary advantage of this CFG approach, based upon the Sequitur\nalgorithm, is that it indexes content in linear-space, not\npolynomial-space. The secondary advantage is that combined with research\nin inference, grammars can express human concepts and connections rather\nthan just correlations. This project uses grammar and syntactic analysis\nto replace lexical and word-based approaches to the problem of searching\ncollections of digital artifacts. Benchmarking in web content indexing\nwill be shown relative to popular alternatives such Apache Lucene and\nAmazon Cloud Search.\n\nIn addition to implementing content indexing with Sequitur, this project\nwill enable domain-specific extensions of WOT. Once complete, we will\nresearch novel techniques for generalizing the grammars inferred by\nSequitur. As this fundamental research develops, it will inform later\nframework development and increase search precision. This is a big leap\nin the state of the art, as text artifacts are no longer represented as\nbags of words, but as bags on non-terminals in a growing and adapting\ngrammar.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=oEkKxHQb8iA",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2808,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-13",
+  "slug": "scientific-knowledge-management-with-web-of-trail",
   "source_url": "http://www.youtube.com/watch?v=oEkKxHQb8iA",
-  "tags": [],
   "speakers": [
     "Jon Riehl"
   ],
-  "recorded": "2014-07-13"
+  "summary": "Do you hate repeating yourself? Want to know when your publication is\nrepeating someone else? The Web of Trails project is a solution to\nknowledge management that empowers users to quickly find repetition of\nkey phrases. Using syntactic indexing, as opposed to lexical techniques,\nthis approach is capable of representing the literature using less space\nwhile providing high value results.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/oEkKxHQb8iA/hqdefault.jpg",
+  "title": "Scientific Knowledge Management with Web of Trails",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=oEkKxHQb8iA"
+    }
+  ]
 }

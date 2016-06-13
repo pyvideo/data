@@ -1,29 +1,29 @@
 {
-  "id": 2765,
-  "category": "SciPy 2014",
-  "slug": "holopy-holograpy-and-light-scattering-in-python",
-  "title": "HoloPy: Holograpy and Light Scattering in Python",
   "alias": "video/2765/holopy-holograpy-and-light-scattering-in-python",
-  "summary": "Digital holography microscopy is a powerful tool for fast 3D imaging of\nsoft matter systems. However, making measurements from holograms\nrequires special computation. HoloPy is a set of tools for\nreconstructing and fitting to holograms. It also includes tools for\ncomputing light scattering, setting up inverse problems, and working\nwith images and metadata.\n",
-  "description": "Digital holographic microscopy is fast and powerful tool for 3D imaging.\nHolography captures information about a 3D scene onto a 2D camera using\ninterference. This means that the speed of holographic imaging is\nlimited only by camera speed, making holography an ideal tool for\nstudying fast processes in soft matter systems. However, making use of\nthis encoded information requires significant computational post\nprocessing. We have developed and released\n`HoloPy <http://manoharan.seas.harvard.edu/holopy/>`__, a python based\ntool for doing these calculations.\n\nThe traditional method for extracting information from holograms is to\noptically reconstruct by shining light through a hologram to obtain an\nimage of the recorded scene. HoloPy implements the digital equivalent of\nthis, numerical reconstruction, in the form of light propagation by\nconvolution. This is a fast technique based on fast Fourier transforms,\nwhich effectively allows refocusing a holographic image after it is\ntaken.\n\nFor systems where a detailed scattering model is available, Lee and\ncoworkers showed that it is possible to make more precise measurements\nby fitting a scattering model to a recorded hologram\n[`1 <http://physics.nyu.edu/grierlab/index12c/>`__\\ ]. We have extended\nthis technique to clusters of spheres\n[`2 <http://arxiv.org/pdf/1202.1600>`__\\ ][`3 <http://people.seas.harvard.edu/~vnm/pdf/Perry-Faraday_Discussions-2012.pdf>`__\\ ]\nand to non-spherical particles\n[`4 <http://arxiv.org/pdf/1310.4517>`__\\ ]. HoloPy implements all of\nthese fitting techniques such that they can be used with a few lines of\npython code. HoloPy also exposes an interface to all of its scattering\nmodels compute light scattering of microscopic particles or clusters of\nparticles for other purposes.\n\nHoloPy is open source (GPLv3) and is hosted on\n`launchpad <https://launchpad.net/holopy>`__. HoloPy uses Numpy for most\nof its manipulations, though it calls out to Fortran and\n`C <http://code.google.com/p/a-dda>`__ codes to compute light\nscattering. HoloPy also includes matplotlib and mayavi based tools for\nvisualizing holograms and particles.\n\n[1] Lee et.al., Optics Express, Vol. 15, Issue 26, pp. 18275-18282\n(2007)\n\n[2] Fung et. al., JQSRT, Vol 113, Issue 18, pp. 2482-2489 (2012)\n\n[3] Perry et. al., Faraday Discussions, Vol 159, pp. 211-234 (2012)\n\n[4] Wang et. al. JQSRT, (2014)\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/uW6bMEcFX4A/hqdefault.jpg",
+  "description": "Digital holographic microscopy is fast and powerful tool for 3D imaging.\nHolography captures information about a 3D scene onto a 2D camera using\ninterference. This means that the speed of holographic imaging is\nlimited only by camera speed, making holography an ideal tool for\nstudying fast processes in soft matter systems. However, making use of\nthis encoded information requires significant computational post\nprocessing. We have developed and released\n`HoloPy <http://manoharan.seas.harvard.edu/holopy/>`__, a python based\ntool for doing these calculations.\n\nThe traditional method for extracting information from holograms is to\noptically reconstruct by shining light through a hologram to obtain an\nimage of the recorded scene. HoloPy implements the digital equivalent of\nthis, numerical reconstruction, in the form of light propagation by\nconvolution. This is a fast technique based on fast Fourier transforms,\nwhich effectively allows refocusing a holographic image after it is\ntaken.\n\nFor systems where a detailed scattering model is available, Lee and\ncoworkers showed that it is possible to make more precise measurements\nby fitting a scattering model to a recorded hologram\n[`1 <http://physics.nyu.edu/grierlab/index12c/>`__\\ ]. We have extended\nthis technique to clusters of spheres\n[`2 <http://arxiv.org/pdf/1202.1600>`__\\ ][`3 <http://people.seas.harvard.edu/~vnm/pdf/Perry-Faraday_Discussions-2012.pdf>`__\\ ]\nand to non-spherical particles\n[`4 <http://arxiv.org/pdf/1310.4517>`__\\ ]. HoloPy implements all of\nthese fitting techniques such that they can be used with a few lines of\npython code. HoloPy also exposes an interface to all of its scattering\nmodels compute light scattering of microscopic particles or clusters of\nparticles for other purposes.\n\nHoloPy is open source (GPLv3) and is hosted on\n`launchpad <https://launchpad.net/holopy>`__. HoloPy uses Numpy for most\nof its manipulations, though it calls out to Fortran and\n`C <http://code.google.com/p/a-dda>`__ codes to compute light\nscattering. HoloPy also includes matplotlib and mayavi based tools for\nvisualizing holograms and particles.\n\n[1] Lee et.al., Optics Express, Vol. 15, Issue 26, pp. 18275-18282\n(2007)\n\n[2] Fung et. al., JQSRT, Vol 113, Issue 18, pp. 2482-2489 (2012)\n\n[3] Perry et. al., Faraday Discussions, Vol 159, pp. 211-234 (2012)\n\n[4] Wang et. al. JQSRT, (2014)\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=uW6bMEcFX4A",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2765,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-14",
+  "slug": "holopy-holograpy-and-light-scattering-in-python",
   "source_url": "http://www.youtube.com/watch?v=uW6bMEcFX4A",
-  "tags": [
-    "holopy"
-  ],
   "speakers": [
     "Tom Dimiduk"
   ],
-  "recorded": "2014-07-14"
+  "summary": "Digital holography microscopy is a powerful tool for fast 3D imaging of\nsoft matter systems. However, making measurements from holograms\nrequires special computation. HoloPy is a set of tools for\nreconstructing and fitting to holograms. It also includes tools for\ncomputing light scattering, setting up inverse problems, and working\nwith images and metadata.\n",
+  "tags": [
+    "holopy"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/uW6bMEcFX4A/hqdefault.jpg",
+  "title": "HoloPy: Holograpy and Light Scattering in Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=uW6bMEcFX4A"
+    }
+  ]
 }

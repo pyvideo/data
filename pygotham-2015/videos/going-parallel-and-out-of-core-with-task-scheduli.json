@@ -1,32 +1,32 @@
 {
-  "id": 3819,
-  "category": "PyGotham 2015",
-  "slug": "going-parallel-and-out-of-core-with-task-scheduli",
-  "title": "Going parallel and larger-than-memory with graphs",
   "alias": "video/3819/going-parallel-and-out-of-core-with-task-scheduli",
-  "summary": "",
-  "description": "Dask is an open source, pure python library that enables parallel\nlarger-than-memory computation in a novel way. We represent programs as\nDirected Acyclic Graphs (DAG) of function calls. These graphs are\nexecuted by dask's schedulers with different optimizations (synchronous,\nthreaded, parallel, distributed-memory). Dask has modules geared towards\ndata analysis, which provide a friendly interface to building graps. One\nmodule, dask.array, mimics a subset of NumPy operations. With dask.array\nwe can work with NumPy like arrays that are larger than RAM and\nparallelization comes for free by leveraging the underlying DAG.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyGotham 2015",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "https://i.ytimg.com/vi/yDlCNjtZvLw/hqdefault.jpg",
+  "description": "Dask is an open source, pure python library that enables parallel\nlarger-than-memory computation in a novel way. We represent programs as\nDirected Acyclic Graphs (DAG) of function calls. These graphs are\nexecuted by dask's schedulers with different optimizations (synchronous,\nthreaded, parallel, distributed-memory). Dask has modules geared towards\ndata analysis, which provide a friendly interface to building graps. One\nmodule, dask.array, mimics a subset of NumPy operations. With dask.array\nwe can work with NumPy like arrays that are larger than RAM and\nparallelization comes for free by leveraging the underlying DAG.\n",
   "duration": 2553,
-  "videos": [
-    {
-      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pygotham-2015/3819_Going_parallel_and_outofcore_with_task_scheduling.mp4",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://youtu.be/yDlCNjtZvLw",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3819,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2015-08-16",
+  "slug": "going-parallel-and-out-of-core-with-task-scheduli",
   "source_url": "http://youtu.be/yDlCNjtZvLw",
-  "tags": [],
   "speakers": [
     "Blake Griffith"
   ],
-  "recorded": "2015-08-16"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yDlCNjtZvLw/hqdefault.jpg",
+  "title": "Going parallel and larger-than-memory with graphs",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pygotham-2015/3819_Going_parallel_and_outofcore_with_task_scheduling.mp4"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/yDlCNjtZvLw"
+    }
+  ]
 }

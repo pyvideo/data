@@ -1,25 +1,25 @@
 {
   "category": "DjangoCon 2013",
-  "slug": "writing-fast-and-efficient-unit-tests-for-django",
-  "title": "Writing Fast and Efficient Unit Tests for Django",
-  "summary": "Writing Fast and Efficient Unit Tests for Django\n\nTuesday 4:45 p.m.--5:30 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nMany developers have difficulty finding clear guidelines and best\npractices for how to test efficiently, leading to a flimsy, slow, and\nineffective test suite. This talk will cover some basic (but oft\noverlooked) principles of unit and integration testing, and dive into\nmore advanced topics such as testing with read only data and using Mock\nultra-focused and fast testing. Abstract\n\nBorrowing from recent real-world experiences, Casey will discuss how a\nsub-par test suite began to cause delays and negatively affect a large\nproduction project with a national audience. He'll share what his team\nlearned after deciding to dive head-first into faster and more effective\ntesting, including: The key differences between unit tests and\nintegration tests, and how to distribute them appropriately Dropping the\nDjango framework's fixture system in favor of read-only test data to\ncreate a test suite that adapts alongside a complex and changing data\nmodel Using the python Mock library to: Mock object instances Mock\npython modules for very precise feature testing Mock very complex\ntesting situations (such as overridden class methods, etc)\n\nWe'll look at real code samples and the tests used to vet them,\ndemonstrating the ways Casey's team was able to update their tests to\nuse these standards and quantify the benefits. And finally, we'll\ndiscuss how the quest for faster tests lead to a full blown testing\nphilosophy and better code.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "English",
   "copyright_text": "",
-  "thumbnail_url": "https://i.ytimg.com/vi/bsmFVb8guMU/hqdefault.jpg",
+  "description": "",
   "duration": 2573,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=bsmFVb8guMU",
-      "length": 0,
-      "type": "youtube"
-    }
-  ],
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2013-10-01",
+  "slug": "writing-fast-and-efficient-unit-tests-for-django",
   "source_url": "https://www.youtube.com/watch?v=bsmFVb8guMU",
-  "tags": [],
   "speakers": [
     "Casey Kinsey"
   ],
-  "recorded": "2013-10-01"
+  "summary": "Writing Fast and Efficient Unit Tests for Django\n\nTuesday 4:45 p.m.--5:30 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nMany developers have difficulty finding clear guidelines and best\npractices for how to test efficiently, leading to a flimsy, slow, and\nineffective test suite. This talk will cover some basic (but oft\noverlooked) principles of unit and integration testing, and dive into\nmore advanced topics such as testing with read only data and using Mock\nultra-focused and fast testing. Abstract\n\nBorrowing from recent real-world experiences, Casey will discuss how a\nsub-par test suite began to cause delays and negatively affect a large\nproduction project with a national audience. He'll share what his team\nlearned after deciding to dive head-first into faster and more effective\ntesting, including: The key differences between unit tests and\nintegration tests, and how to distribute them appropriately Dropping the\nDjango framework's fixture system in favor of read-only test data to\ncreate a test suite that adapts alongside a complex and changing data\nmodel Using the python Mock library to: Mock object instances Mock\npython modules for very precise feature testing Mock very complex\ntesting situations (such as overridden class methods, etc)\n\nWe'll look at real code samples and the tests used to vet them,\ndemonstrating the ways Casey's team was able to update their tests to\nuse these standards and quantify the benefits. And finally, we'll\ndiscuss how the quest for faster tests lead to a full blown testing\nphilosophy and better code.\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/bsmFVb8guMU/hqdefault.jpg",
+  "title": "Writing Fast and Efficient Unit Tests for Django",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=bsmFVb8guMU"
+    }
+  ]
 }

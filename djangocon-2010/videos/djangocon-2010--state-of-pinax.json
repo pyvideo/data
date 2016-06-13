@@ -1,29 +1,31 @@
 {
-  "id": 55,
-  "category": "DjangoCon 2010",
-  "slug": "djangocon-2010--state-of-pinax",
-  "title": "State of Pinax",
   "alias": "video/55/djangocon-2010--state-of-pinax",
-  "summary": "",
-  "description": "Pinax is a platform for rapidly building websites with Django. This talk\nwill cover what has happened with Pinax over the past year and where it\nwill go in the future.\n\nAbstract\n\nPinax is a platform for rapidly building websites. It leverages Django\nin as many ways possible. It handles the parts which are common amongst\nmany sites leaving you mostly worrying about what makes your site\ndifferent.\n\nThe beginning of the talk will cover how Pinax started and where the\nproject is today, and review some sites built with Pinax over the past\nyear.\n\nThe Pinax team has been hard at work with 0.9. This talk will highlight\nthe important improvements and fixes made to Pinax since 0.7:\n\n-  removed requirement of pinax-boot.py\n-  enabled pip install Pinax\n-  upgraded to Django 1.2\n-  improved account, waiting list and groups\n-  introduced new starter projects\n\nThe \"must-haves\" for the next release are to add or improve:\n\n-  per-object permissions\n-  e-mail backends\n-  friends and invitations\n-  tagging (move to django-taggit)\n-  notifications / activity streams\n-  wikis (change over wiki to wakawaka)\n-  blogs (change over blog to biblion)\n-  photos\n-  profiles (to give a good answer to: \"How do I add more fields to a\n   user?\")\n\nThis talk will cover starter projects, and the layer zero concept\nimplemented in Pinax by default. The talk will demo a couple starter\nprojects created using setup\\_project.\n\nFinally, the talk will cover some relevant stats over the past year, and\na roadmap for the future.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "DjangoCon 2010",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Robertlofthouse-StateOfPinax119-438.jpg",
+  "description": "Pinax is a platform for rapidly building websites with Django. This talk\nwill cover what has happened with Pinax over the past year and where it\nwill go in the future.\n\nAbstract\n\nPinax is a platform for rapidly building websites. It leverages Django\nin as many ways possible. It handles the parts which are common amongst\nmany sites leaving you mostly worrying about what makes your site\ndifferent.\n\nThe beginning of the talk will cover how Pinax started and where the\nproject is today, and review some sites built with Pinax over the past\nyear.\n\nThe Pinax team has been hard at work with 0.9. This talk will highlight\nthe important improvements and fixes made to Pinax since 0.7:\n\n-  removed requirement of pinax-boot.py\n-  enabled pip install Pinax\n-  upgraded to Django 1.2\n-  improved account, waiting list and groups\n-  introduced new starter projects\n\nThe \"must-haves\" for the next release are to add or improve:\n\n-  per-object permissions\n-  e-mail backends\n-  friends and invitations\n-  tagging (move to django-taggit)\n-  notifications / activity streams\n-  wikis (change over wiki to wakawaka)\n-  blogs (change over blog to biblion)\n-  photos\n-  profiles (to give a good answer to: \"How do I add more fields to a\n   user?\")\n\nThis talk will cover starter projects, and the layer zero concept\nimplemented in Pinax by default. The talk will demo a couple starter\nprojects created using setup\\_project.\n\nFinally, the talk will cover some relevant stats over the past year, and\na roadmap for the future.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/55_state-of-pinax.flv",
-      "type": "flv",
-      "length": null
-    }
-  ],
+  "id": 55,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2010-09-08",
+  "slug": "djangocon-2010--state-of-pinax",
   "source_url": "",
+  "speakers": [
+    "Brian Rosner"
+  ],
+  "summary": "",
   "tags": [
     "djangocon",
     "djangocon2010",
     "pinax"
   ],
-  "speakers": ["Brian Rosner"],
-  "recorded": "2010-09-08"
+  "thumbnail_url": "http://a.images.blip.tv/Robertlofthouse-StateOfPinax119-438.jpg",
+  "title": "State of Pinax",
+  "videos": [
+    {
+      "length": null,
+      "type": "flv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/55_state-of-pinax.flv"
+    }
+  ]
 }

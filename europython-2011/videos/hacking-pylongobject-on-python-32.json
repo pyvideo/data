@@ -1,29 +1,29 @@
 {
-  "id": 1143,
-  "category": "EuroPython 2011",
-  "slug": "hacking-pylongobject-on-python-32",
-  "title": "Hacking PyLongObject on Python 3.2",
   "alias": "video/1143/hacking-pylongobject-on-python-32",
-  "summary": "[EuroPython 2011] Cesare Di Mauro - 24 June 2011 in \"Track Ravioli \"\n",
-  "description": "Beginning with Python 3 the old integer (\"int\") type has gone leaving\nthe place to \"long\", which replaced it giving a unique, uniform type to\ndeal with integers. However longs need a more complex structure which\neffectively dropped a bit of Python 3.x performance. Looking at their\nimplementation, an idea grown that can help to improve the situation on\ncommon sceneries (using \"short\" integers). A slightly changed structure\nwill be presented and compared with the old PyIntObject and the current\nPython 3.2 PyLongObject, along with some optimizations, thoughts, and\nissues found on the road, which will show the effort required by such\nchange on a Python core element.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2011",
   "copyright_text": "Standard YouTube License",
-  "thumbnail_url": "http://i.ytimg.com/vi/9tzd45ho8gE/hqdefault.jpg",
+  "description": "Beginning with Python 3 the old integer (\"int\") type has gone leaving\nthe place to \"long\", which replaced it giving a unique, uniform type to\ndeal with integers. However longs need a more complex structure which\neffectively dropped a bit of Python 3.x performance. Looking at their\nimplementation, an idea grown that can help to improve the situation on\ncommon sceneries (using \"short\" integers). A slightly changed structure\nwill be presented and compared with the old PyIntObject and the current\nPython 3.2 PyLongObject, along with some optimizations, thoughts, and\nissues found on the road, which will show the effort required by such\nchange on a Python core element.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=9tzd45ho8gE",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1143,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-07-13",
+  "slug": "hacking-pylongobject-on-python-32",
   "source_url": "http://www.youtube.com/watch?v=9tzd45ho8gE",
-  "tags": [
-    "hacking"
-  ],
   "speakers": [
     "Cesare Di Mauro"
   ],
-  "recorded": "2011-07-13"
+  "summary": "[EuroPython 2011] Cesare Di Mauro - 24 June 2011 in \"Track Ravioli \"\n",
+  "tags": [
+    "hacking"
+  ],
+  "thumbnail_url": "http://i.ytimg.com/vi/9tzd45ho8gE/hqdefault.jpg",
+  "title": "Hacking PyLongObject on Python 3.2",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=9tzd45ho8gE"
+    }
+  ]
 }

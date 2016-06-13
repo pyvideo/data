@@ -1,24 +1,19 @@
 {
-  "id": 423,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--through-the-side-channel--timing-and-",
-  "title": "Through the Side Channel: Timing and Implementation Attacks in Python",
   "alias": "video/423/pycon-2011--through-the-side-channel--timing-and-",
-  "summary": "",
-  "description": "Through the Side Channel: Timing and Implementation Attacks in Python\n\nPresented by Geremy Condra\n\nPython's dynamic nature, large standard library, and concern for beauty\nover performance make it an elegant and uniquely easy to use language,\nbut they also cause some unique problems. In this talk we'll explore how\nfeatures ranging from dictionaries to duck typing can become security\nrisks, demonstrate those attacks on real Python projects, and examine\nhow you can protect yourself and your code.\n\nAbstract\n\nOver the last decade, an increasing body of evidence has accumulated\nindicating that even when a system is hardened enough to provide strong\nguarantees about its high-level behavior, implementation details and\nespecially performance properties can still provide attackers with an\neasy way in. For Python, this is especially problematic: its generally\nhigh-level view and the emphasis placed on flexibility often mean that\nit can be difficult to stop attackers from gaining a foothold, while its\ncomparatively low execution speed increases the efficacy of wide variety\nof implementation and timing attacks.\n\nTo help Pythonistas understand and cope with these problems, we've\ndivided this talk into two parts: in the first, we demonstrate the\nattacks against a series of widely-deployed Python projects with the\ngoal of both improving awareness about the issue and demonstrating\ncommon weaknesses to be avoided. The second demonstrates effective\ncountermeasures and alternative constructions with the goal of improving\ndefenders' odds of spotting and correcting these flaws in their own\ncode.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011ThroughTheSideChannelTimingAndImplementationAt601.png",
+  "description": "Through the Side Channel: Timing and Implementation Attacks in Python\n\nPresented by Geremy Condra\n\nPython's dynamic nature, large standard library, and concern for beauty\nover performance make it an elegant and uniquely easy to use language,\nbut they also cause some unique problems. In this talk we'll explore how\nfeatures ranging from dictionaries to duck typing can become security\nrisks, demonstrate those attacks on real Python projects, and examine\nhow you can protect yourself and your code.\n\nAbstract\n\nOver the last decade, an increasing body of evidence has accumulated\nindicating that even when a system is hardened enough to provide strong\nguarantees about its high-level behavior, implementation details and\nespecially performance properties can still provide attackers with an\neasy way in. For Python, this is especially problematic: its generally\nhigh-level view and the emphasis placed on flexibility often mean that\nit can be difficult to stop attackers from gaining a foothold, while its\ncomparatively low execution speed increases the efficacy of wide variety\nof implementation and timing attacks.\n\nTo help Pythonistas understand and cope with these problems, we've\ndivided this talk into two parts: in the first, we demonstrate the\nattacks against a series of widely-deployed Python projects with the\ngoal of both improving awareness about the issue and demonstrating\ncommon weaknesses to be avoided. The second demonstrates effective\ncountermeasures and alternative constructions with the goal of improving\ndefenders' odds of spotting and correcting these flaws in their own\ncode.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/423_through-the-side-channel-timing-and-implementation-attacks-in-python.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 423,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--through-the-side-channel--timing-and-",
   "source_url": "",
+  "speakers": [
+    "Geremy Condra"
+  ],
+  "summary": "",
   "tags": [
     "hacking",
     "hardening",
@@ -26,8 +21,13 @@
     "pycon2011",
     "security"
   ],
-  "speakers": [
-    "Geremy Condra"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011ThroughTheSideChannelTimingAndImplementationAt601.png",
+  "title": "Through the Side Channel: Timing and Implementation Attacks in Python",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/423_through-the-side-channel-timing-and-implementation-attacks-in-python.mp4"
+    }
+  ]
 }

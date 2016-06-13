@@ -1,27 +1,27 @@
 {
-  "id": 2946,
-  "category": "EuroPython 2014",
-  "slug": "out-of-core-columnar-datasets",
-  "title": "Out-of-Core Columnar Datasets",
   "alias": "video/2946/out-of-core-columnar-datasets",
-  "summary": "Tables are a very handy data structure to store datasets to perform data\nanalysis (filters, groupings, sortings, alignments...).\n\nBut it turns out that *how the tables are actually implemented* makes a\nlarge impact on how they perform.\n\nLearn what you can expect from the current tabular offerings in the\nPython ecosystem.\n",
-  "description": "It is a fact: we just entered in the Big Data era. More sensors, more\ncomputers, and being more evenly distributed throughout space and time\nthan ever, are forcing data analyists to navigate through oceans of data\nbefore getting insights on what this data means.\n\nTables are a very handy and spreadly used data structure to store\ndatasets so as to perform data analysis (filters, groupings, sortings,\nalignments...). However, the actual table implementation, and\nespecially, whether data in tables is stored row-wise or column-wise,\nwhether the data is chunked or sequential, whether data is compressed or\nnot, among other factors, can make a lot of difference depending on the\nanalytic operations to be done.\n\nMy talk will provide an overview of different libraries/systems in the\nPython ecosystem that are designed to cope with tabular data, and how\nthe different implementations perform for different operations. The\nlibraries or systems discussed are designed to operate either with\non-disk data (`PyTables <http://www.pytables.org>`__, `relational\ndatabases <http://en.wikipedia.org/wiki/Relational_database>`__,\n`BLZ <http://blz.pydata.org>`__, `Blaze <http://blaze.pydata.org>`__...)\nas well as in-memory data containers (`NumPy <http://www.numpy.org/>`__,\n`DyND <https://github.com/ContinuumIO/dynd-python>`__,\n`Pandas <http://pandas.pydata.org/>`__, `BLZ <http://blz.pydata.org>`__,\n`Blaze <http://blaze.pydata.org>`__...).\n\nA special emphasis will be put in the on-disk (also called out-of-core)\ndatabases, which are the most commonly used ones for handling extremely\nlarge tables.\n\nThe hope is that, after this lecture, the audience will get a better\ninsight and a more informed opinion on the different solutions for\nhandling tabular data in the Python world, and most especially, which\nones adapts better to their needs.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/-lKV4zC1gss/hqdefault.jpg",
+  "description": "It is a fact: we just entered in the Big Data era. More sensors, more\ncomputers, and being more evenly distributed throughout space and time\nthan ever, are forcing data analyists to navigate through oceans of data\nbefore getting insights on what this data means.\n\nTables are a very handy and spreadly used data structure to store\ndatasets so as to perform data analysis (filters, groupings, sortings,\nalignments...). However, the actual table implementation, and\nespecially, whether data in tables is stored row-wise or column-wise,\nwhether the data is chunked or sequential, whether data is compressed or\nnot, among other factors, can make a lot of difference depending on the\nanalytic operations to be done.\n\nMy talk will provide an overview of different libraries/systems in the\nPython ecosystem that are designed to cope with tabular data, and how\nthe different implementations perform for different operations. The\nlibraries or systems discussed are designed to operate either with\non-disk data (`PyTables <http://www.pytables.org>`__, `relational\ndatabases <http://en.wikipedia.org/wiki/Relational_database>`__,\n`BLZ <http://blz.pydata.org>`__, `Blaze <http://blaze.pydata.org>`__...)\nas well as in-memory data containers (`NumPy <http://www.numpy.org/>`__,\n`DyND <https://github.com/ContinuumIO/dynd-python>`__,\n`Pandas <http://pandas.pydata.org/>`__, `BLZ <http://blz.pydata.org>`__,\n`Blaze <http://blaze.pydata.org>`__...).\n\nA special emphasis will be put in the on-disk (also called out-of-core)\ndatabases, which are the most commonly used ones for handling extremely\nlarge tables.\n\nThe hope is that, after this lecture, the audience will get a better\ninsight and a more informed opinion on the different solutions for\nhandling tabular data in the Python world, and most especially, which\nones adapts better to their needs.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=-lKV4zC1gss",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2946,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-25",
+  "slug": "out-of-core-columnar-datasets",
   "source_url": "http://www.youtube.com/watch?v=-lKV4zC1gss",
-  "tags": [],
   "speakers": [
     "Francesc Alted"
   ],
-  "recorded": "2014-07-25"
+  "summary": "Tables are a very handy data structure to store datasets to perform data\nanalysis (filters, groupings, sortings, alignments...).\n\nBut it turns out that *how the tables are actually implemented* makes a\nlarge impact on how they perform.\n\nLearn what you can expect from the current tabular offerings in the\nPython ecosystem.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/-lKV4zC1gss/hqdefault.jpg",
+  "title": "Out-of-Core Columnar Datasets",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=-lKV4zC1gss"
+    }
+  ]
 }

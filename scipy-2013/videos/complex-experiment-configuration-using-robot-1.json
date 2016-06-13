@@ -1,27 +1,27 @@
 {
-  "id": 2100,
-  "category": "SciPy 2013",
-  "slug": "complex-experiment-configuration-using-robot-1",
-  "title": "Complex Experiment Configuration ... using Robot Operating System (ROS); SciPy 2013 Presentation",
   "alias": "video/2100/complex-experiment-configuration-using-robot-1",
-  "summary": "Complex Experiment Configuration, Control, Automation, and Analysis\nusing Robot Operating System (ROS)\n\nAuthors: Stowers, John, TU Wien; Straw, Andrew, Research Institute of\nMolecular Pathology\n\nTrack: Reproducible Science\n\nThe Robot Operating System (ROS), and its Python bindings, are well\nknown and used in the engineering and robotics communities for the many\nhigh level tools and algorithms they provide. Less appreciated are the\nlower levels of the ROS stack; libraries for\ninter-process-communication, parameter and configuration management, and\ndistributed process launching and control.\n\nIn the Straw laboratory we use ROS to automate the operation of, and\nexperiments using, virtual reality systems for fixed and freely flying\nDrosophila. This includes real-time 10-camera tracking (100Hz), 5\nprojector panoramic virtual reality (120Hz), and real-time visual\nstimulus generation and control (80Hz). Operation of this system\nrequires the launching of over 30 processes on 4 computers, and the\nassociated configuration of each in a known state. In addition, the\nprogress of the experiment must be monitored over its entire 12 hour\nduration.\n\nIn this talk we will describe how ROS makes this complex system\nmanageable and reproducible by implicitly recording the state of the\nsystem at all times, and by automating the pre-configuration and\nlaunching of the multiple processes which control the experiment. I will\nalso describe how we tag all experimental data with unique identifiers\nto facilitate live monitoring, post-experiment analysis, and long time\narchival in case later forensics are required.\n\nThis talk will show that ROS is a very powerful tool and should not only\nbe considered for engineering and robotics applications; but by any\nscientist for robustly and reproducibly managing complex scientific\nexperiments.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2013",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/marMd_K8Z1M/hqdefault.jpg",
+  "description": "",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=marMd_K8Z1M",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2100,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2013-07-01",
+  "slug": "complex-experiment-configuration-using-robot-1",
   "source_url": "http://www.youtube.com/watch?v=marMd_K8Z1M",
+  "speakers": [],
+  "summary": "Complex Experiment Configuration, Control, Automation, and Analysis\nusing Robot Operating System (ROS)\n\nAuthors: Stowers, John, TU Wien; Straw, Andrew, Research Institute of\nMolecular Pathology\n\nTrack: Reproducible Science\n\nThe Robot Operating System (ROS), and its Python bindings, are well\nknown and used in the engineering and robotics communities for the many\nhigh level tools and algorithms they provide. Less appreciated are the\nlower levels of the ROS stack; libraries for\ninter-process-communication, parameter and configuration management, and\ndistributed process launching and control.\n\nIn the Straw laboratory we use ROS to automate the operation of, and\nexperiments using, virtual reality systems for fixed and freely flying\nDrosophila. This includes real-time 10-camera tracking (100Hz), 5\nprojector panoramic virtual reality (120Hz), and real-time visual\nstimulus generation and control (80Hz). Operation of this system\nrequires the launching of over 30 processes on 4 computers, and the\nassociated configuration of each in a known state. In addition, the\nprogress of the experiment must be monitored over its entire 12 hour\nduration.\n\nIn this talk we will describe how ROS makes this complex system\nmanageable and reproducible by implicitly recording the state of the\nsystem at all times, and by automating the pre-configuration and\nlaunching of the multiple processes which control the experiment. I will\nalso describe how we tag all experimental data with unique identifiers\nto facilitate live monitoring, post-experiment analysis, and long time\narchival in case later forensics are required.\n\nThis talk will show that ROS is a very powerful tool and should not only\nbe considered for engineering and robotics applications; but by any\nscientist for robustly and reproducibly managing complex scientific\nexperiments.\n",
   "tags": [
     "Tech"
   ],
-  "speakers": [],
-  "recorded": "2013-07-01"
+  "thumbnail_url": "http://i1.ytimg.com/vi/marMd_K8Z1M/hqdefault.jpg",
+  "title": "Complex Experiment Configuration ... using Robot Operating System (ROS); SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=marMd_K8Z1M"
+    }
+  ]
 }

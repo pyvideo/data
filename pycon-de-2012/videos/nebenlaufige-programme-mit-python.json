@@ -1,29 +1,19 @@
 {
-  "id": 1448,
-  "category": "PyCon DE 2012",
-  "slug": "nebenlaufige-programme-mit-python",
-  "title": "Nebenl\u00e4ufige Programme mit Python",
   "alias": "video/1448/nebenlaufige-programme-mit-python",
-  "summary": "In diesem Vortrag soll es um Grundlagen nebenl\u00e4ufiger Programme gehen,\nwie sie mit den Modulen threading und multiprocessing m\u00f6glich sind.\n\nZuerst wird erkl\u00e4rt, in welchen F\u00e4llen Nebenl\u00e4ufigkeit sinnvoll ist.\nDanach wird auf die grunds\u00e4tzlichen Probleme nebenl\u00e4ufiger Programme\neingegangen, insbesondere \u00c4nderungen an gemeinsam genutzten Ressourcen\n(zum Beispiel Dateien oder auch \"nur\" Objekte im Speicher) durch mehrere\nThreads oder Prozesse. Schlie\u00dflich wird gezeigt, wie man solche\nRessourcen-Zugriffe durch Locks oder Queues entsch\u00e4rfen kann.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "German",
+  "category": "PyCon DE 2012",
   "copyright_text": "",
-  "thumbnail_url": "http://i3.ytimg.com/vi/6Tb8TdovzGM/hqdefault.jpg",
+  "description": "",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Nebenlaufige_Programme_mit_Pyt.mp4?Signature=hgj654cto48%2BRi1MuwistmFeXFw%3D&Expires=1351855656&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=6Tb8TdovzGM",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1448,
+  "language": "German",
+  "quality_notes": "",
+  "recorded": "2012-10-30",
+  "slug": "nebenlaufige-programme-mit-python",
   "source_url": "https://www.youtube.com/watch?v=6Tb8TdovzGM",
+  "speakers": [
+    "Stefan Schwarzer"
+  ],
+  "summary": "In diesem Vortrag soll es um Grundlagen nebenl\u00e4ufiger Programme gehen,\nwie sie mit den Modulen threading und multiprocessing m\u00f6glich sind.\n\nZuerst wird erkl\u00e4rt, in welchen F\u00e4llen Nebenl\u00e4ufigkeit sinnvoll ist.\nDanach wird auf die grunds\u00e4tzlichen Probleme nebenl\u00e4ufiger Programme\neingegangen, insbesondere \u00c4nderungen an gemeinsam genutzten Ressourcen\n(zum Beispiel Dateien oder auch \"nur\" Objekte im Speicher) durch mehrere\nThreads oder Prozesse. Schlie\u00dflich wird gezeigt, wie man solche\nRessourcen-Zugriffe durch Locks oder Queues entsch\u00e4rfen kann.\n",
   "tags": [
     " deadlock",
     "gil",
@@ -32,8 +22,18 @@
     " queue",
     " threading"
   ],
-  "speakers": [
-    "Stefan Schwarzer"
-  ],
-  "recorded": "2012-10-30"
+  "thumbnail_url": "http://i3.ytimg.com/vi/6Tb8TdovzGM/hqdefault.jpg",
+  "title": "Nebenl\u00e4ufige Programme mit Python",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Nebenlaufige_Programme_mit_Pyt.mp4?Signature=hgj654cto48%2BRi1MuwistmFeXFw%3D&Expires=1351855656&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6Tb8TdovzGM"
+    }
+  ]
 }

@@ -1,24 +1,19 @@
 {
-  "id": 452,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--distributed-tasks-with-celery",
-  "title": "Distributed Tasks with Celery",
   "alias": "video/452/pycon-2011--distributed-tasks-with-celery",
-  "summary": "",
-  "description": "Distributed Tasks with Celery\n\nPresented by Ryan Petrello\n\nCelery is an open source task queueing system based on distributed\nmessage passing, especially using the AMQP protocol. This talk will\nfocus on the need for task distribution, the tools celery provides to\nmeet those needs, and an in-depth discussion of how we've used celery at\nShootQ to improve the efficiency and reliability of our background\nprocesses.\n\nAbstract\n\nThe talk (including time for questions) will last approximately 30\nminutes and will focus on the following topics:\n\n-  The need for distributed tasks in real world systems, especially in a\n   web application environment. This portion of the talk will describe\n   examples where the traditional request-response model of the web can\n   be improved with background processing.\n-  A brief overview of traditional distributed message passing models\n   and the AMPQ protocol.\n-  An overview of Celery and the variety of tools it provides for task\n   distribution, scheduling, and execution. This portion of the talk\n   will also review production-oriented components of Celery, such as\n   monitoring, error detection/reporting, and error recovery.\n-  Real world discussion of several problems we solved at ShootQ using\n   Celery including before-and-after looks at our implementations.\n-  Common pitfalls and gotchas we encountered while working with Celery.\n\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011DistributedTasksWithCelery711.png",
+  "description": "Distributed Tasks with Celery\n\nPresented by Ryan Petrello\n\nCelery is an open source task queueing system based on distributed\nmessage passing, especially using the AMQP protocol. This talk will\nfocus on the need for task distribution, the tools celery provides to\nmeet those needs, and an in-depth discussion of how we've used celery at\nShootQ to improve the efficiency and reliability of our background\nprocesses.\n\nAbstract\n\nThe talk (including time for questions) will last approximately 30\nminutes and will focus on the following topics:\n\n-  The need for distributed tasks in real world systems, especially in a\n   web application environment. This portion of the talk will describe\n   examples where the traditional request-response model of the web can\n   be improved with background processing.\n-  A brief overview of traditional distributed message passing models\n   and the AMPQ protocol.\n-  An overview of Celery and the variety of tools it provides for task\n   distribution, scheduling, and execution. This portion of the talk\n   will also review production-oriented components of Celery, such as\n   monitoring, error detection/reporting, and error recovery.\n-  Real world discussion of several problems we solved at ShootQ using\n   Celery including before-and-after looks at our implementations.\n-  Common pitfalls and gotchas we encountered while working with Celery.\n\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/452_distributed-tasks-with-celery.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 452,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--distributed-tasks-with-celery",
   "source_url": "",
+  "speakers": [
+    "Ryan Petrello"
+  ],
+  "summary": "",
   "tags": [
     "amqp",
     "celery",
@@ -26,8 +21,13 @@
     "pycon2011",
     "queueing"
   ],
-  "speakers": [
-    "Ryan Petrello"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011DistributedTasksWithCelery711.png",
+  "title": "Distributed Tasks with Celery",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/452_distributed-tasks-with-celery.mp4"
+    }
+  ]
 }

@@ -1,29 +1,29 @@
 {
-  "id": 1390,
-  "category": "DjangoCon 2012",
-  "slug": "between-where-the-tutorials-end-the-wild-west-b",
-  "title": "Between where the Tutorials end & the Wild West begins: bringing new devs up to speed on Django",
   "alias": "video/1390/between-where-the-tutorials-end-the-wild-west-b",
-  "summary": "4 months ago I had never even seen a Django template. But I'm an\nengineer; coming up to speed couldn't be that hard, right? Wrong. Doing\nso efficiently and effectively was tough. I went from zero to production\nready code used by hundreds of users everyday. I'll present my missteps\nand victories, laying out how other teams can quickly bring new team\nmembers, who don't know Django, up to speed fast.\n",
-  "description": "This is a rough outline of how I learned Django; 4 months ago I was a\ntotal outsider. Through this process I made mistakes, I had breakdowns,\nbut I walked away with a very solid understanding of Django and have\nproudly have written thousands of lines of Python that are in production\ntoday. You'll leave this talk with lessons on how to bring new\ndevelopers to your team up speed on Django.\n\n1.  Read the Django docs (obviously, right?)\n2.  Follow along building the sample application (Polls, Choices, yada\n    yada).\n3.  Decide to jump into writing production ready code. Have a breakdown.\n    Feel like you're trying to boil the ocean with a lighter.\n4.  Realize that building the sample app was cute but nothing compared\n    to writing a real world application with real users and real\n    constraints.\n5.  Re-read the docs.\n6.  Build a real Django app -- no more Polls. I decided to build a\n    single-sign on application that allowed Etsy sellers to login and\n    view all the photos of their all their listings in one place. I will\n    give background as to why I chose this app, how I built it, and what\n    it taught me.\n7.  Start biting off small pieces of production code to figure out what\n    the hell is going on. Learn about commonly used Django packages such\n    as django-registration, django-profiles, taggit, etc. - and what\n    happens when you need to modify the code of those packages.\n8.  Attempt to boil the ocean, again. I needed to do a massive re-\n    architecture of our application, combining several independent\n    Django applications into a single, unified Django project. My first\n    attempt totally failed. I will discuss why this was and key novice\n    mistakes.\n9.  Key realization that knowing Django != knowing Python\n10. \"When you bang your head enough against the wall, eventually the\n    wall comes down\" -- me. I built a pretty kick ass Django application\n    and I'm quite proud of.\n11. Celebrate (with lessons learned)!\n\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "DjangoCon 2012",
   "copyright_text": "Creative Commons Attribution license (reuse allowed",
-  "thumbnail_url": "http://i.ytimg.com/vi/OV5akJtAjgE/hqdefault.jpg",
+  "description": "This is a rough outline of how I learned Django; 4 months ago I was a\ntotal outsider. Through this process I made mistakes, I had breakdowns,\nbut I walked away with a very solid understanding of Django and have\nproudly have written thousands of lines of Python that are in production\ntoday. You'll leave this talk with lessons on how to bring new\ndevelopers to your team up speed on Django.\n\n1.  Read the Django docs (obviously, right?)\n2.  Follow along building the sample application (Polls, Choices, yada\n    yada).\n3.  Decide to jump into writing production ready code. Have a breakdown.\n    Feel like you're trying to boil the ocean with a lighter.\n4.  Realize that building the sample app was cute but nothing compared\n    to writing a real world application with real users and real\n    constraints.\n5.  Re-read the docs.\n6.  Build a real Django app -- no more Polls. I decided to build a\n    single-sign on application that allowed Etsy sellers to login and\n    view all the photos of their all their listings in one place. I will\n    give background as to why I chose this app, how I built it, and what\n    it taught me.\n7.  Start biting off small pieces of production code to figure out what\n    the hell is going on. Learn about commonly used Django packages such\n    as django-registration, django-profiles, taggit, etc. - and what\n    happens when you need to modify the code of those packages.\n8.  Attempt to boil the ocean, again. I needed to do a massive re-\n    architecture of our application, combining several independent\n    Django applications into a single, unified Django project. My first\n    attempt totally failed. I will discuss why this was and key novice\n    mistakes.\n9.  Key realization that knowing Django != knowing Python\n10. \"When you bang your head enough against the wall, eventually the\n    wall comes down\" -- me. I built a pretty kick ass Django application\n    and I'm quite proud of.\n11. Celebrate (with lessons learned)!\n\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=OV5akJtAjgE",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1390,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-09-05",
+  "slug": "between-where-the-tutorials-end-the-wild-west-b",
   "source_url": "http://www.youtube.com/watch?v=OV5akJtAjgE",
-  "tags": [
-    "django"
-  ],
   "speakers": [
     "Julia Grace"
   ],
-  "recorded": "2012-09-05"
+  "summary": "4 months ago I had never even seen a Django template. But I'm an\nengineer; coming up to speed couldn't be that hard, right? Wrong. Doing\nso efficiently and effectively was tough. I went from zero to production\nready code used by hundreds of users everyday. I'll present my missteps\nand victories, laying out how other teams can quickly bring new team\nmembers, who don't know Django, up to speed fast.\n",
+  "tags": [
+    "django"
+  ],
+  "thumbnail_url": "http://i.ytimg.com/vi/OV5akJtAjgE/hqdefault.jpg",
+  "title": "Between where the Tutorials end & the Wild West begins: bringing new devs up to speed on Django",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=OV5akJtAjgE"
+    }
+  ]
 }

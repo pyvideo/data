@@ -1,27 +1,27 @@
 {
-  "id": 2802,
-  "category": "SciPy 2014",
-  "slug": "plasticity-in-oof",
-  "title": "Plasticity in OOF",
   "alias": "video/2802/plasticity-in-oof",
-  "summary": "We discuss recent advances in the Object Oriented Finite-Element project\nat NIST, a Python and C++ tool designed to bring sophisticated numerical\nmodeling capabilities to users in the field of Materials Science.\n",
-  "description": "We discuss recent advances in the Object Oriented Finite-Element project\nat NIST (also called `OOF <http://www.ctcms.nist.gov/oof/oof2>`__), a\nPython and C++ tool designed to bring sophisticated numerical modeling\ncapabilities to users in the field of Materials Science.\n\nAs part of the effort to expand the solid-mechanics capabilities of the\ncode, the solver has been extended to include the ability to handle\nhistory-dependent properties, such as occur in viscoplastic systems, and\ninequality constraints, which are present in conventional isotropic\nplasticity, as well as surface interactions.\n\nThis software provides numerous tools for constructing finite-element\nmeshes from microstructural images, and for implementing material\nproperties from a very broad class which includes elasticity, chemical\nand thermal diffusion, and electrostatics.\n\nThe code is a hybrid of Python and C++ code, with the high level user\ninterface and control code in Python, and the heavy numeric work being\ndone in C++. Numerous tools are provided for constructing finite-element\nmeshes from microstructural images, and for implementing material\nproperties from a very broad class which includes elasticity, chemical\nand thermal diffusion, and electrostatics. The software can be operated\neither as an interactive, GUI-driven application, as a scripted\ncommand-line tool, or as a supporting library, providing useful access\nto users of varying levels of expertise. At every level, the\nuser-interface objects are intended to be familiar to the\nmaterials-science user.\n\nThe modular object-oriented design of the code, and the strategy of\nseparating the finite-element infrastructure from the material\nconstitutive rules proved itself in implementing the new solid-mechanics\ncapabilities.\n\nDevelopment on a fully-3D version of the code has also made significant\nprogress, overcoming several challenges associated with user-interface\nissues. A nontrivial, solved 3D problem will be presented.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/VzXiPmR_wQk/hqdefault.jpg",
+  "description": "We discuss recent advances in the Object Oriented Finite-Element project\nat NIST (also called `OOF <http://www.ctcms.nist.gov/oof/oof2>`__), a\nPython and C++ tool designed to bring sophisticated numerical modeling\ncapabilities to users in the field of Materials Science.\n\nAs part of the effort to expand the solid-mechanics capabilities of the\ncode, the solver has been extended to include the ability to handle\nhistory-dependent properties, such as occur in viscoplastic systems, and\ninequality constraints, which are present in conventional isotropic\nplasticity, as well as surface interactions.\n\nThis software provides numerous tools for constructing finite-element\nmeshes from microstructural images, and for implementing material\nproperties from a very broad class which includes elasticity, chemical\nand thermal diffusion, and electrostatics.\n\nThe code is a hybrid of Python and C++ code, with the high level user\ninterface and control code in Python, and the heavy numeric work being\ndone in C++. Numerous tools are provided for constructing finite-element\nmeshes from microstructural images, and for implementing material\nproperties from a very broad class which includes elasticity, chemical\nand thermal diffusion, and electrostatics. The software can be operated\neither as an interactive, GUI-driven application, as a scripted\ncommand-line tool, or as a supporting library, providing useful access\nto users of varying levels of expertise. At every level, the\nuser-interface objects are intended to be familiar to the\nmaterials-science user.\n\nThe modular object-oriented design of the code, and the strategy of\nseparating the finite-element infrastructure from the material\nconstitutive rules proved itself in implementing the new solid-mechanics\ncapabilities.\n\nDevelopment on a fully-3D version of the code has also made significant\nprogress, overcoming several challenges associated with user-interface\nissues. A nontrivial, solved 3D problem will be presented.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=VzXiPmR_wQk",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2802,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-13",
+  "slug": "plasticity-in-oof",
   "source_url": "http://www.youtube.com/watch?v=VzXiPmR_wQk",
-  "tags": [],
   "speakers": [
     "Andrew Reid"
   ],
-  "recorded": "2014-07-13"
+  "summary": "We discuss recent advances in the Object Oriented Finite-Element project\nat NIST, a Python and C++ tool designed to bring sophisticated numerical\nmodeling capabilities to users in the field of Materials Science.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/VzXiPmR_wQk/hqdefault.jpg",
+  "title": "Plasticity in OOF",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=VzXiPmR_wQk"
+    }
+  ]
 }

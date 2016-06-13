@@ -1,27 +1,27 @@
 {
-  "id": 2940,
-  "category": "EuroPython 2014",
-  "slug": "big-data-analytics-with-python-using-stratosphere",
-  "title": "Big Data Analytics with Python using Stratosphere",
   "alias": "video/2940/big-data-analytics-with-python-using-stratosphere",
-  "summary": "`Stratosphere <http://stratosphere.eu/>`__ is a distributed platform for\nadvanced big data analytics. It features a rich set of operators,\nadvanced, iterative data flows, an efficient runtime, and automatic\nprogram optimization. We present Stratophere's new Python programming\ninterface. It allows Python developers to easily get their hands on Big\nData.\n",
-  "description": "`Stratosphere <http://stratosphere.eu/>`__ is implemented in Java. In\n2013 we introduced support for writing Stratosphere programs in Scala.\nSince Scala also runs in the Java JVM the language integration was easy\nfor Scala.\n\nIn late 2013, we started to develop a generic language binding framework\nfor Stratosphere to support non-JVM languages such as Python,\nJavaScript, Ruby but also compiled languages such as C++. The language\nbinding framework uses `Google\u2019s Protocol\nBuffers <https://code.google.com/p/protobuf/>`__ for efficient data\nserialization and transportation between the languages.\n\nSince many \u201cData Scientists\u201d and machine learning experts are using\nPython on a daily basis, we decided to use Python as the reference\nimplementation for Stratosphere\u2019s language binding feature. Our talk at\nthe EuroPython 2014 will present how Python developers can leverage the\nStratosphere Platform to solve their big data problems.\n\nWe introduce the most important concepts of Stratosphere such as the\noperators, connectors to data sources, data flows, the compiler,\niterative algorithms and more. Stratosphere is a mature, next generation\nbig-data analytics platform developed by a vibrant `open-source\ncommunity <https://github.com/stratosphere/stratosphere>`__. The system\nis available under the Apache 2.0 license.\n\nThe project started in 2009 as a joint research project of multiple\nuniversities in the Berlin area (Technische Universit\u00e4t, Humboldt\nUniversit\u00e4t and Hasso-Plattner Institut). Nowadays it is an award\nwinning system that has gained worldwide attention in both research and\nindustry.\n\nA note to the program committee: As mentioned, the development of the\nPython language binding of Stratosphere has started a few months ago,\ntherefore, the code is not yet in the main development branch. However,\nwe are already able to execute the \u201cHello World\u201d of big data, the \u201cWord\nCount\u201d example using the Python interface. See this example in the\ndevelopment branch:\nhttps://github.com/filiphaase/stratosphere/blob/langbinding/stratosphere-addons/stratosphere-language-binding/src/main/python/eu/stratosphere/language/binding/wordcountexample/WordCountPlan.py\n\nPlease contact us if you have any questions!\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/J3RMB4HgcRw/hqdefault.jpg",
+  "description": "`Stratosphere <http://stratosphere.eu/>`__ is implemented in Java. In\n2013 we introduced support for writing Stratosphere programs in Scala.\nSince Scala also runs in the Java JVM the language integration was easy\nfor Scala.\n\nIn late 2013, we started to develop a generic language binding framework\nfor Stratosphere to support non-JVM languages such as Python,\nJavaScript, Ruby but also compiled languages such as C++. The language\nbinding framework uses `Google\u2019s Protocol\nBuffers <https://code.google.com/p/protobuf/>`__ for efficient data\nserialization and transportation between the languages.\n\nSince many \u201cData Scientists\u201d and machine learning experts are using\nPython on a daily basis, we decided to use Python as the reference\nimplementation for Stratosphere\u2019s language binding feature. Our talk at\nthe EuroPython 2014 will present how Python developers can leverage the\nStratosphere Platform to solve their big data problems.\n\nWe introduce the most important concepts of Stratosphere such as the\noperators, connectors to data sources, data flows, the compiler,\niterative algorithms and more. Stratosphere is a mature, next generation\nbig-data analytics platform developed by a vibrant `open-source\ncommunity <https://github.com/stratosphere/stratosphere>`__. The system\nis available under the Apache 2.0 license.\n\nThe project started in 2009 as a joint research project of multiple\nuniversities in the Berlin area (Technische Universit\u00e4t, Humboldt\nUniversit\u00e4t and Hasso-Plattner Institut). Nowadays it is an award\nwinning system that has gained worldwide attention in both research and\nindustry.\n\nA note to the program committee: As mentioned, the development of the\nPython language binding of Stratosphere has started a few months ago,\ntherefore, the code is not yet in the main development branch. However,\nwe are already able to execute the \u201cHello World\u201d of big data, the \u201cWord\nCount\u201d example using the Python interface. See this example in the\ndevelopment branch:\nhttps://github.com/filiphaase/stratosphere/blob/langbinding/stratosphere-addons/stratosphere-language-binding/src/main/python/eu/stratosphere/language/binding/wordcountexample/WordCountPlan.py\n\nPlease contact us if you have any questions!\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=J3RMB4HgcRw",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2940,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-25",
+  "slug": "big-data-analytics-with-python-using-stratosphere",
   "source_url": "http://www.youtube.com/watch?v=J3RMB4HgcRw",
-  "tags": [],
   "speakers": [
     "Chesnay Schepler"
   ],
-  "recorded": "2014-07-25"
+  "summary": "`Stratosphere <http://stratosphere.eu/>`__ is a distributed platform for\nadvanced big data analytics. It features a rich set of operators,\nadvanced, iterative data flows, an efficient runtime, and automatic\nprogram optimization. We present Stratophere's new Python programming\ninterface. It allows Python developers to easily get their hands on Big\nData.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/J3RMB4HgcRw/hqdefault.jpg",
+  "title": "Big Data Analytics with Python using Stratosphere",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=J3RMB4HgcRw"
+    }
+  ]
 }

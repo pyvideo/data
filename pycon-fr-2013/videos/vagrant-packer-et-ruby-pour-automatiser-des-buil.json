@@ -1,27 +1,27 @@
 {
-  "id": 3741,
-  "category": "PyCon FR 2013",
-  "slug": "vagrant-packer-et-ruby-pour-automatiser-des-buil",
-  "title": "Vagrant, packer et ruby pour automatiser des builds complexes",
   "alias": "video/3741/vagrant-packer-et-ruby-pour-automatiser-des-buil",
-  "summary": "Vagrant, packer et un peu de ruby pour automatiser des builds complexes.\n\nIntroduction\n\nTout le monde n'a pas la chance de ne d\u00e9pendre que de paquets 100 %\npython. Python est devenu un outil de choix pour le calcul num\u00e9rique,\nmais des paquets tels que numpy, scipy ou scikit-learn d\u00e9pendent de\nlibrairies C, C++ et m\u00eame Fortran qui d\u00e9pendent fortement des\nplateformes.\n\nJ'aimerais pr\u00e9senter les outils packer et vagrant comme une solution\npour produire des builds 100 % reproductibles. S'appuyant sur la\nvirtualisation, ils permettent d'appliquer les principes de reproduction\nnon seulement pour unix, mais aussi os x et m\u00eame windows.\n\nLe concept de provisionnement, et son application au probl\u00e8me de\n\"packaging\"\n\nCette section pr\u00e9sentera tout d'abord la n\u00e9cessit\u00e9 de reproduction pour\nla compilation, et justifiera pourquoi les VM sont les outils les plus\nad\u00e9quats aujourd'hui si l'on veut supporter toutes les plateformes\nusuelles, en particulier windows:\n\n-  architectures \"3-tier\" pour le provisionnement\n-  outils disponibles pour chacune des 3 couches\n-  pr\u00e9sentation de vagrant et packer\n\nvagrant, un outil simple pour la r\u00e9utilisation de VM\n\nCette section commencera par illustrer les probl\u00e8mes usuels du partage\ndes VM entre d\u00e9veloppeurs, et montrera comment vagrant peut r\u00e9soudre ces\nprobl\u00e8mes:\n\n-  le provisionnement comme solution au manque de transparence usuel\n   avec les VMs\n-  flexibilit\u00e9 et tra\u00e7abilit\u00e9 gr\u00e2ce \u00e0 la combinaison chef/puppet/salt +\n   vagrant\n\npacker, un compl\u00e9ment \u00e0 vagrant\n\nVagrant suppose l'existence de 'base box', qui sont des images d'OS avec\njuste ce qu'il faut pour \"bootstrapper\" la suite du provisionnement.\nPacker est un outil qui permet de cr\u00e9er ses propres images:\n\n-  illustration du fonctionnement de packer\n-  cibler plusieurs technologies de virtualisation \u00e0 partir d' un m\u00eame\n   template: virtualbox, vmware, mais aussi ec2.\n\nExample pour la compilation de paquets 'wheel' pour numpy/scipy\n\nCette partie sera plus didactique, et bas\u00e9 sur un exemple r\u00e9el pour\ncompiler un wheel de numpy et scipy sur windows. L'exemple utilisera \u00e0\nla fois vagrant, packer et chef.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "French",
+  "category": "PyCon FR 2013",
   "copyright_text": "",
-  "thumbnail_url": "https://i.ytimg.com/vi/iTU5CRuY96I/maxresdefault.jpg",
+  "description": "",
   "duration": 1903,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=iTU5CRuY96I",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3741,
+  "language": "French",
+  "quality_notes": "",
+  "recorded": "2013-11-30",
+  "slug": "vagrant-packer-et-ruby-pour-automatiser-des-buil",
   "source_url": "https://www.youtube.com/watch?v=iTU5CRuY96I",
-  "tags": [],
   "speakers": [
     "David Cournapeau"
   ],
-  "recorded": "2013-11-30"
+  "summary": "Vagrant, packer et un peu de ruby pour automatiser des builds complexes.\n\nIntroduction\n\nTout le monde n'a pas la chance de ne d\u00e9pendre que de paquets 100 %\npython. Python est devenu un outil de choix pour le calcul num\u00e9rique,\nmais des paquets tels que numpy, scipy ou scikit-learn d\u00e9pendent de\nlibrairies C, C++ et m\u00eame Fortran qui d\u00e9pendent fortement des\nplateformes.\n\nJ'aimerais pr\u00e9senter les outils packer et vagrant comme une solution\npour produire des builds 100 % reproductibles. S'appuyant sur la\nvirtualisation, ils permettent d'appliquer les principes de reproduction\nnon seulement pour unix, mais aussi os x et m\u00eame windows.\n\nLe concept de provisionnement, et son application au probl\u00e8me de\n\"packaging\"\n\nCette section pr\u00e9sentera tout d'abord la n\u00e9cessit\u00e9 de reproduction pour\nla compilation, et justifiera pourquoi les VM sont les outils les plus\nad\u00e9quats aujourd'hui si l'on veut supporter toutes les plateformes\nusuelles, en particulier windows:\n\n-  architectures \"3-tier\" pour le provisionnement\n-  outils disponibles pour chacune des 3 couches\n-  pr\u00e9sentation de vagrant et packer\n\nvagrant, un outil simple pour la r\u00e9utilisation de VM\n\nCette section commencera par illustrer les probl\u00e8mes usuels du partage\ndes VM entre d\u00e9veloppeurs, et montrera comment vagrant peut r\u00e9soudre ces\nprobl\u00e8mes:\n\n-  le provisionnement comme solution au manque de transparence usuel\n   avec les VMs\n-  flexibilit\u00e9 et tra\u00e7abilit\u00e9 gr\u00e2ce \u00e0 la combinaison chef/puppet/salt +\n   vagrant\n\npacker, un compl\u00e9ment \u00e0 vagrant\n\nVagrant suppose l'existence de 'base box', qui sont des images d'OS avec\njuste ce qu'il faut pour \"bootstrapper\" la suite du provisionnement.\nPacker est un outil qui permet de cr\u00e9er ses propres images:\n\n-  illustration du fonctionnement de packer\n-  cibler plusieurs technologies de virtualisation \u00e0 partir d' un m\u00eame\n   template: virtualbox, vmware, mais aussi ec2.\n\nExample pour la compilation de paquets 'wheel' pour numpy/scipy\n\nCette partie sera plus didactique, et bas\u00e9 sur un exemple r\u00e9el pour\ncompiler un wheel de numpy et scipy sur windows. L'exemple utilisera \u00e0\nla fois vagrant, packer et chef.\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/iTU5CRuY96I/maxresdefault.jpg",
+  "title": "Vagrant, packer et ruby pour automatiser des builds complexes",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iTU5CRuY96I"
+    }
+  ]
 }

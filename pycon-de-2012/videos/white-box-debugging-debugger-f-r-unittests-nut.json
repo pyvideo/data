@@ -1,32 +1,32 @@
 {
-  "id": 1437,
-  "category": "PyCon DE 2012",
-  "slug": "white-box-debugging-debugger-f-r-unittests-nut",
-  "title": "\"White Box Debugging\" - Debugger f\u00fcr Unittests nutzen",
   "alias": "video/1437/white-box-debugging-debugger-f-r-unittests-nut",
-  "summary": "\"White Box Testing\" ist das Testen von internen Zust\u00e4nden zur Laufzeit,\nw\u00e4hrend ubliche Unittests in der Regel nur Funktionen rufen. Man kann\naber mittels eines Debuggers White Box Testing durchf\u00fchren - ein\nPythonskript erlaubt dies fur Python mit pdb wie auch f\u00fcr C/C++ -\nProgramme mit gdb.\n\nUnittests sind ohne Frage unerl\u00e4sslich, aber oft aufw\u00e4ndig zu\nprogrammieren und beschr\u00e4nkt aussagef\u00e4hig, da in der Regel nur einzelne\nFunktionen oder Module als Black Box getestet werden k\u00f6nnen. Nicht\nselten ist sogar gesonderter Code notwendig, um sinnvolle Tests zu\nerm\u00f6glichen.\n\nAussagekr\u00e4ftiger und naheliegender w\u00e4ren Tests auf Werte mitten im Code,\ndoch solch eine Funktionalit\u00e4t bietet bisher nur die assert-Anweisung,\ndie bei Fehlern mit einem wenig aussagekr\u00e4ftigen Abbruch endet.\n\nDie Idee des Python-Skripts \"wbd\" (\"white box debugging\") ist, aus\nKommentaren im Quelltext Konfigurationsfiles f\u00fcr Debugger zu erzeugen,\nso dass an bedingten Breakpoints Tests stattfinden. Beim Fehler landet\nman gleich im Debugger und kann die Umgebung analysieren.\n\nDas funktioniert derzeit f\u00fcr Pythonskripte und C/C++-Programme und ist\nauch gut als Hilfsmittel beim Debuggen selbst einzusetzen.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "German",
+  "category": "PyCon DE 2012",
   "copyright_text": "",
-  "thumbnail_url": "http://i3.ytimg.com/vi/26tmYQk2vI8/hqdefault.jpg",
+  "description": "",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_White_Box_Debugging_De.mp4?Signature=LgR%2Fs9%2F5Hgh37jNYY7RjN1YCORE%3D&Expires=1351851790&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=26tmYQk2vI8",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1437,
+  "language": "German",
+  "quality_notes": "",
+  "recorded": "2012-10-31",
+  "slug": "white-box-debugging-debugger-f-r-unittests-nut",
   "source_url": "https://www.youtube.com/watch?v=26tmYQk2vI8",
-  "tags": [],
   "speakers": [
     "Reinhard Wobst"
   ],
-  "recorded": "2012-10-31"
+  "summary": "\"White Box Testing\" ist das Testen von internen Zust\u00e4nden zur Laufzeit,\nw\u00e4hrend ubliche Unittests in der Regel nur Funktionen rufen. Man kann\naber mittels eines Debuggers White Box Testing durchf\u00fchren - ein\nPythonskript erlaubt dies fur Python mit pdb wie auch f\u00fcr C/C++ -\nProgramme mit gdb.\n\nUnittests sind ohne Frage unerl\u00e4sslich, aber oft aufw\u00e4ndig zu\nprogrammieren und beschr\u00e4nkt aussagef\u00e4hig, da in der Regel nur einzelne\nFunktionen oder Module als Black Box getestet werden k\u00f6nnen. Nicht\nselten ist sogar gesonderter Code notwendig, um sinnvolle Tests zu\nerm\u00f6glichen.\n\nAussagekr\u00e4ftiger und naheliegender w\u00e4ren Tests auf Werte mitten im Code,\ndoch solch eine Funktionalit\u00e4t bietet bisher nur die assert-Anweisung,\ndie bei Fehlern mit einem wenig aussagekr\u00e4ftigen Abbruch endet.\n\nDie Idee des Python-Skripts \"wbd\" (\"white box debugging\") ist, aus\nKommentaren im Quelltext Konfigurationsfiles f\u00fcr Debugger zu erzeugen,\nso dass an bedingten Breakpoints Tests stattfinden. Beim Fehler landet\nman gleich im Debugger und kann die Umgebung analysieren.\n\nDas funktioniert derzeit f\u00fcr Pythonskripte und C/C++-Programme und ist\nauch gut als Hilfsmittel beim Debuggen selbst einzusetzen.\n",
+  "tags": [],
+  "thumbnail_url": "http://i3.ytimg.com/vi/26tmYQk2vI8/hqdefault.jpg",
+  "title": "\"White Box Debugging\" - Debugger f\u00fcr Unittests nutzen",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_White_Box_Debugging_De.mp4?Signature=LgR%2Fs9%2F5Hgh37jNYY7RjN1YCORE%3D&Expires=1351851790&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=26tmYQk2vI8"
+    }
+  ]
 }

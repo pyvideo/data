@@ -1,34 +1,34 @@
 {
-  "id": 2866,
-  "category": "PyOhio 2014",
-  "slug": "watch-your-python-script-with-strace",
-  "title": "Watch your Python script with strace",
   "alias": "video/2866/watch-your-python-script-with-strace",
-  "summary": "Modern operating systems sandbox each process inside of a virtual memory\nmap from which direct I/O operations are generally impossible. Instead,\na process has to ask the operating system every time it wants to modify\na file or communicate bytes over the network. By using operating system\nspecific tools to watch the system calls a Python script is making --\nusing \"strace\" under Linux or \"truss\" under Mac OS X -- you can study\nhow a program is behaving and address several different kinds of bugs.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyOhio 2014",
   "copyright_text": "CC BY",
-  "thumbnail_url": "http://i.ytimg.com/vi/-WspqYeZ75Q/hqdefault.jpg",
+  "description": "",
   "duration": 3600,
-  "videos": [
-    {
-      "url": "http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2866_Watch_your_Python_script_with_strace.webm",
-      "type": "webm",
-      "length": null
-    },
-    {
-      "url": "http://youtu.be/-WspqYeZ75Q",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2866,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-26",
+  "slug": "watch-your-python-script-with-strace",
   "source_url": "http://youtu.be/-WspqYeZ75Q",
-  "tags": [
-    "talk"
-  ],
   "speakers": [
     "Brandon Rhodes"
   ],
-  "recorded": "2014-07-26"
+  "summary": "Modern operating systems sandbox each process inside of a virtual memory\nmap from which direct I/O operations are generally impossible. Instead,\na process has to ask the operating system every time it wants to modify\na file or communicate bytes over the network. By using operating system\nspecific tools to watch the system calls a Python script is making --\nusing \"strace\" under Linux or \"truss\" under Mac OS X -- you can study\nhow a program is behaving and address several different kinds of bugs.\n",
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "http://i.ytimg.com/vi/-WspqYeZ75Q/hqdefault.jpg",
+  "title": "Watch your Python script with strace",
+  "videos": [
+    {
+      "length": null,
+      "type": "webm",
+      "url": "http://964bdd2f965bbc4ca8f5-3ebaa0e988d98119a4fead51a26da83a.r42.cf2.rackcdn.com/pyohio-2014/2866_Watch_your_Python_script_with_strace.webm"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/-WspqYeZ75Q"
+    }
+  ]
 }

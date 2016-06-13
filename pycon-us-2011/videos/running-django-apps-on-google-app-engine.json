@@ -1,24 +1,19 @@
 {
-  "id": 386,
-  "category": "PyCon US 2011",
-  "slug": "running-django-apps-on-google-app-engine",
-  "title": "Running Django Apps on Google App Engine",
   "alias": "video/386/running-django-apps-on-google-app-engine",
-  "summary": "",
-  "description": "Running Django Apps on Google App Engine\n\nPresented by wesley chun\n\nIn the past, Django users couldn't run apps unmodified on Google App\nEngine. Some tools helped with integration but required you to change\nyour data models. Django-nonrel removes this requirement letting you run\nnative Django apps on App Engine with only config changes if you bear in\nmind its restrictions like no JOINs. In this talk, we'll discuss\nDjango-nonrel & porting App Engine apps to Django.\n\nAbstract\n\nPreviously, Django users could not get their apps to run unmodified on\nGoogle App Engine, the cloud application-hosting platform. Older tools\nlike \"the Helper\" and \"the Patch\" required a change to the data models\nas well as perhaps integrating additional tools into the application\nsource tree. The creators of the Patch realized how cumbersome this is\nand created a replacement for all of these older tools.\n\nDjango-nonrel allows users to run pure Django apps on App Engine with\nonly minor configuration changes. It basically enables Django's ORM to\noperate on top of non-relational databases (in addition to preserving\nits ability to support standard relational DBs), one of which is Google\nApp Engine's Datastore. (MongoDB is another.)\n\nWhat this means that current Django users can now use their existing\nknowledge to write apps for App Engine as long as they keep App Engine\nrestrictions in mind, e.g., no JOINs. Projects written in this manner\nwill work without any modifications other than changing the\nconfiguration settings. On the other side, App Engine developers now\nhave an alternative to the '\"webapp\" framework that comes with its SDK.\nYou can now leverage the power of a full web framework like Django and\nstill enjoy the flexibility and scalability of App Engine. In this talk,\nwe'll discuss Django-nonrel, and how to port App Engine apps from webapp\nto pure Django to run on App Engine using Django-nonrel.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011RunningDjangoAppsOnGoogleAppEngine570.png",
+  "description": "Running Django Apps on Google App Engine\n\nPresented by wesley chun\n\nIn the past, Django users couldn't run apps unmodified on Google App\nEngine. Some tools helped with integration but required you to change\nyour data models. Django-nonrel removes this requirement letting you run\nnative Django apps on App Engine with only config changes if you bear in\nmind its restrictions like no JOINs. In this talk, we'll discuss\nDjango-nonrel & porting App Engine apps to Django.\n\nAbstract\n\nPreviously, Django users could not get their apps to run unmodified on\nGoogle App Engine, the cloud application-hosting platform. Older tools\nlike \"the Helper\" and \"the Patch\" required a change to the data models\nas well as perhaps integrating additional tools into the application\nsource tree. The creators of the Patch realized how cumbersome this is\nand created a replacement for all of these older tools.\n\nDjango-nonrel allows users to run pure Django apps on App Engine with\nonly minor configuration changes. It basically enables Django's ORM to\noperate on top of non-relational databases (in addition to preserving\nits ability to support standard relational DBs), one of which is Google\nApp Engine's Datastore. (MongoDB is another.)\n\nWhat this means that current Django users can now use their existing\nknowledge to write apps for App Engine as long as they keep App Engine\nrestrictions in mind, e.g., no JOINs. Projects written in this manner\nwill work without any modifications other than changing the\nconfiguration settings. On the other side, App Engine developers now\nhave an alternative to the '\"webapp\" framework that comes with its SDK.\nYou can now leverage the power of a full web framework like Django and\nstill enjoy the flexibility and scalability of App Engine. In this talk,\nwe'll discuss Django-nonrel, and how to port App Engine apps from webapp\nto pure Django to run on App Engine using Django-nonrel.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/386_running-django-apps-on-google-app-engine.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 386,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "running-django-apps-on-google-app-engine",
   "source_url": "",
+  "speakers": [
+    "Wesley J. Chun"
+  ],
+  "summary": "",
   "tags": [
     "django-nonrel",
     "gae",
@@ -26,8 +21,13 @@
     "pycon",
     "pycon2011"
   ],
-  "speakers": [
-    "Wesley J. Chun"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011RunningDjangoAppsOnGoogleAppEngine570.png",
+  "title": "Running Django Apps on Google App Engine",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/386_running-django-apps-on-google-app-engine.mp4"
+    }
+  ]
 }

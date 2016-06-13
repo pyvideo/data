@@ -1,27 +1,27 @@
 {
-  "id": 3620,
-  "category": "PyCon Italia 2015",
-  "slug": "knowing-your-garbage-collector",
-  "title": "Knowing your Garbage collector",
   "alias": "video/3620/knowing-your-garbage-collector",
-  "summary": "",
-  "description": "As Python programmers we\u2019re used to program without taking care about\nallocating memory for our objects and later on freeing them, Python\ngarbage collector takes care of this task automatically for us. Garbage\ncollection is one of the most challenging topics in computer science,\nthere are a lot of research around the topic and different ways to\ntackle the problem. Knowing how our language does this process give us a\nbetter understanding of underlying interpreter and allow us to know why\nproblems like cycles can happen in CPython interpreters. So, this talk\naims to be and introduction to the topic and a walkaround through\ndifferent approaches followed in CPython and PyPy:\n\nGenerational Reference counting with cycles detector on CPython.\nIncremental version of the MiniMark GC on PyPy.\n",
-  "quality_notes": "",
-  "language": "Italian",
+  "category": "PyCon Italia 2015",
   "copyright_text": "",
-  "thumbnail_url": "https://i.ytimg.com/vi/MaeS8VI_nvk/maxresdefault.jpg",
+  "description": "As Python programmers we\u2019re used to program without taking care about\nallocating memory for our objects and later on freeing them, Python\ngarbage collector takes care of this task automatically for us. Garbage\ncollection is one of the most challenging topics in computer science,\nthere are a lot of research around the topic and different ways to\ntackle the problem. Knowing how our language does this process give us a\nbetter understanding of underlying interpreter and allow us to know why\nproblems like cycles can happen in CPython interpreters. So, this talk\naims to be and introduction to the topic and a walkaround through\ndifferent approaches followed in CPython and PyPy:\n\nGenerational Reference counting with cycles detector on CPython.\nIncremental version of the MiniMark GC on PyPy.\n",
   "duration": 2110,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=MaeS8VI_nvk",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3620,
+  "language": "Italian",
+  "quality_notes": "",
+  "recorded": "2015-05-29",
+  "slug": "knowing-your-garbage-collector",
   "source_url": "https://www.youtube.com/watch?v=MaeS8VI_nvk",
-  "tags": [],
   "speakers": [
     "Francisco Fern\u00e1ndez Casta\u00f1o"
   ],
-  "recorded": "2015-05-29"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/MaeS8VI_nvk/maxresdefault.jpg",
+  "title": "Knowing your Garbage collector",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MaeS8VI_nvk"
+    }
+  ]
 }

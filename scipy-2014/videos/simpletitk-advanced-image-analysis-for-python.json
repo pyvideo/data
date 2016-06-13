@@ -1,31 +1,31 @@
 {
-  "id": 2763,
-  "category": "SciPy 2014",
-  "slug": "simpletitk-advanced-image-analysis-for-python",
-  "title": "SimpletITK: Advanced Image Analysis for Python",
   "alias": "video/2763/simpletitk-advanced-image-analysis-for-python",
-  "summary": "SimpleITK brings advanced image analysis capabilities to Python. In\nparticular, it provides support for 2D/3D and multi-components images\nwith physical. SimpleITK exposes a large collection of image processing\nfilters from ITK, including image segmentation and registration.\nSimpleITK is freely available as an open source package under the Apache\n2.0 License.\n",
-  "description": "SimpleITK provides scientific image analysis, processing, segmentation\nand registration for biomedical, microscopy and other scientific fields\nby supporting multi-dimensional images with physical locations [1]. It's\nis a layer build upon the Insight Segmentation and Registration Toolkit\n(ITK) [2].\n\nWhile there are many Python packages to process 2D photographic images,\nscientific image analysis adds additional requirements. Images\nencountered in these domains often have anisotropic pixel spacing, or\nspatial orientations, and calculations are best performed in physical\nspace as opposed to pixel space.\n\nSimpleITK brings to Python a plethora of capabilities for performing\nimage analysis. Although SimpleITK was developed by the biomedical\nimaging community, it is also used for generic image processing. It\ndifferentiates from OpenCV in offering 3D images and multi-component\nimages, and it differentiates from scipy by offering the abstraction of\nimage classes and their associated data structures. This applies to\nimages modalities such as CT scans, MRI, fMRI, ultrasound, and in\nmicroscopy modalities such as confocal, SEM, TEM, and traditional bright\nand dark field.\n\nAmong the key functionalities supported by SimpleITK are over 260\nadvanced image filtering and segmentation algorithms as well as access\nto scientific image file formats, including specialized formats such as\nDICOM, Nifti, NRRD, VTK and other formats that preserve 3D metadata.\nExample algorithms include Level Sets Segmentation including\nmulti-phase, Label Maps, Region Growing, Statistical Classification,\nAdvanced Thresholding, Geometrical Transformations, Deconvolution,\nAnti-Aliasing, Edge Detection, Mathematical Morphology on both labels\nand grayscale images and Fourier Analysis [4,5].\n\nSimpleITK is an open source project with an active community, that\nbuilds upon the large amount of image analysis experience of the ITK\ncommunity [3] working in biomedical images analysis since 1999, and that\ncontinues to grow year by year, aggregating state of the art algorithms\n.\n\nSimpleITK development is sponsored by the US National Library of\nMedicine.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/1cX3DQ5w6F0/hqdefault.jpg",
+  "description": "SimpleITK provides scientific image analysis, processing, segmentation\nand registration for biomedical, microscopy and other scientific fields\nby supporting multi-dimensional images with physical locations [1]. It's\nis a layer build upon the Insight Segmentation and Registration Toolkit\n(ITK) [2].\n\nWhile there are many Python packages to process 2D photographic images,\nscientific image analysis adds additional requirements. Images\nencountered in these domains often have anisotropic pixel spacing, or\nspatial orientations, and calculations are best performed in physical\nspace as opposed to pixel space.\n\nSimpleITK brings to Python a plethora of capabilities for performing\nimage analysis. Although SimpleITK was developed by the biomedical\nimaging community, it is also used for generic image processing. It\ndifferentiates from OpenCV in offering 3D images and multi-component\nimages, and it differentiates from scipy by offering the abstraction of\nimage classes and their associated data structures. This applies to\nimages modalities such as CT scans, MRI, fMRI, ultrasound, and in\nmicroscopy modalities such as confocal, SEM, TEM, and traditional bright\nand dark field.\n\nAmong the key functionalities supported by SimpleITK are over 260\nadvanced image filtering and segmentation algorithms as well as access\nto scientific image file formats, including specialized formats such as\nDICOM, Nifti, NRRD, VTK and other formats that preserve 3D metadata.\nExample algorithms include Level Sets Segmentation including\nmulti-phase, Label Maps, Region Growing, Statistical Classification,\nAdvanced Thresholding, Geometrical Transformations, Deconvolution,\nAnti-Aliasing, Edge Detection, Mathematical Morphology on both labels\nand grayscale images and Fourier Analysis [4,5].\n\nSimpleITK is an open source project with an active community, that\nbuilds upon the large amount of image analysis experience of the ITK\ncommunity [3] working in biomedical images analysis since 1999, and that\ncontinues to grow year by year, aggregating state of the art algorithms\n.\n\nSimpleITK development is sponsored by the US National Library of\nMedicine.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=1cX3DQ5w6F0",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2763,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-14",
+  "slug": "simpletitk-advanced-image-analysis-for-python",
   "source_url": "http://www.youtube.com/watch?v=1cX3DQ5w6F0",
-  "tags": [
-    "image analysis"
-  ],
   "speakers": [
     "Bradley Lowekamp",
     "Luis Ibanez",
     "Matthew McCormick"
   ],
-  "recorded": "2014-07-14"
+  "summary": "SimpleITK brings advanced image analysis capabilities to Python. In\nparticular, it provides support for 2D/3D and multi-components images\nwith physical. SimpleITK exposes a large collection of image processing\nfilters from ITK, including image segmentation and registration.\nSimpleITK is freely available as an open source package under the Apache\n2.0 License.\n",
+  "tags": [
+    "image analysis"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/1cX3DQ5w6F0/hqdefault.jpg",
+  "title": "SimpletITK: Advanced Image Analysis for Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=1cX3DQ5w6F0"
+    }
+  ]
 }

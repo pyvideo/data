@@ -1,30 +1,30 @@
 {
-  "id": 1410,
-  "category": "DjangoCon 2012",
-  "slug": "accelerating-and-enhancing-django-with-redis",
-  "title": "Accelerating and Enhancing Django with Redis",
   "alias": "video/1410/accelerating-and-enhancing-django-with-redis",
-  "summary": "This tutorial introduces Redis, an in-memory key-object NoSQL datastore.\nWe discuss out-of-the-box ways Redis can help improve the performance of\nyour Django deployments, ways that using Redis instead of SQL for some\ndata management can accelerate your apps, and more advanced and\nunconventional uses for Redis to solve real-time and big-data problems.\n",
-  "description": "Getting your Django app to a v1.0 release means focusing on function and\nuser experience before prematurely focusing on optimization. But once\nit's off the ground, the Redis key-object store provides a versatile and\nfunctional way to take your app to the next level of performance and\nfunction with minimal engineering.\n\n`Redis <http://redis.io>`__ is an in-memory key-object database that can\nperform standard operations on simple values, lists, sets, hash maps,\nand scored sets with incredible efficiency. While it cannot and should\nnot replace SQL for schema-defined, persistent data storage, it can\nprovide dramatically faster operational efficiency for volatile,\ntemporary, or rapidly changing data with minimal coding required.\n\nThis talk begins by introducing Redis, its basic featureset, and the\ndata types and operations it supports. We'll cover some high-level\nguidelines and strategies for identifying where Redis may be an\nappropriate performance- enhancing solution. We then cover the\nout-of-the-box ways that Redis can improve a Django application as a\ncache, session store, Celery broker, and more. We'll then proceed to\nmore advanced usage possibilities, implementing a real-time websocket\nbased messaging solution, scripting within Redis using its embedded Lua\ninterpreter, and connecting Redis to PostgreSQL using Foreign Data\nWrappers to efficiently blend SQL tables with Redis data.\n\nBy the end of the presentation, you should be able to use all of the\ndata- structures offered by Redis, to identify opportunities within you\ncodebase that Redis may offer simple but dramatic efficiency\nimprovements, and to envision how advanced Redis usage may bring new and\ncutting-edge functionality to your project.\n\nRedis was developed by `Salvatore\nSanfilippo <http://twitter.com/antirez>`__ and `Pieter\nNoordhuis <http://twitter.com/pnoordhuis>`__, who are both supported by\nVMWare to develop the database full-time. Redis has excellent `Python\nbindings <https://github.com/andymccurdy/redis-py/>`__ developed by Andy\nMcCurdy.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "DjangoCon 2012",
   "copyright_text": "Creative Commons Attribution license (reuse allowed",
-  "thumbnail_url": "http://i.ytimg.com/vi/xbWBIudWRxQ/hqdefault.jpg",
+  "description": "Getting your Django app to a v1.0 release means focusing on function and\nuser experience before prematurely focusing on optimization. But once\nit's off the ground, the Redis key-object store provides a versatile and\nfunctional way to take your app to the next level of performance and\nfunction with minimal engineering.\n\n`Redis <http://redis.io>`__ is an in-memory key-object database that can\nperform standard operations on simple values, lists, sets, hash maps,\nand scored sets with incredible efficiency. While it cannot and should\nnot replace SQL for schema-defined, persistent data storage, it can\nprovide dramatically faster operational efficiency for volatile,\ntemporary, or rapidly changing data with minimal coding required.\n\nThis talk begins by introducing Redis, its basic featureset, and the\ndata types and operations it supports. We'll cover some high-level\nguidelines and strategies for identifying where Redis may be an\nappropriate performance- enhancing solution. We then cover the\nout-of-the-box ways that Redis can improve a Django application as a\ncache, session store, Celery broker, and more. We'll then proceed to\nmore advanced usage possibilities, implementing a real-time websocket\nbased messaging solution, scripting within Redis using its embedded Lua\ninterpreter, and connecting Redis to PostgreSQL using Foreign Data\nWrappers to efficiently blend SQL tables with Redis data.\n\nBy the end of the presentation, you should be able to use all of the\ndata- structures offered by Redis, to identify opportunities within you\ncodebase that Redis may offer simple but dramatic efficiency\nimprovements, and to envision how advanced Redis usage may bring new and\ncutting-edge functionality to your project.\n\nRedis was developed by `Salvatore\nSanfilippo <http://twitter.com/antirez>`__ and `Pieter\nNoordhuis <http://twitter.com/pnoordhuis>`__, who are both supported by\nVMWare to develop the database full-time. Redis has excellent `Python\nbindings <https://github.com/andymccurdy/redis-py/>`__ developed by Andy\nMcCurdy.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=xbWBIudWRxQ",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1410,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-09-06",
+  "slug": "accelerating-and-enhancing-django-with-redis",
   "source_url": "http://www.youtube.com/watch?v=xbWBIudWRxQ",
+  "speakers": [
+    "Joshua Ginsberg"
+  ],
+  "summary": "This tutorial introduces Redis, an in-memory key-object NoSQL datastore.\nWe discuss out-of-the-box ways Redis can help improve the performance of\nyour Django deployments, ways that using Redis instead of SQL for some\ndata management can accelerate your apps, and more advanced and\nunconventional uses for Redis to solve real-time and big-data problems.\n",
   "tags": [
     "django",
     "redis"
   ],
-  "speakers": [
-    "Joshua Ginsberg"
-  ],
-  "recorded": "2012-09-06"
+  "thumbnail_url": "http://i.ytimg.com/vi/xbWBIudWRxQ/hqdefault.jpg",
+  "title": "Accelerating and Enhancing Django with Redis",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=xbWBIudWRxQ"
+    }
+  ]
 }
