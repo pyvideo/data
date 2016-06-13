@@ -4,6 +4,8 @@ import os
 from subprocess import call
 import tempfile
 
+from tools.constants import JSON_FORMAT_KWARGS
+
 
 EDITOR = os.environ.get('EDITOR', 'vim')
 
@@ -27,11 +29,7 @@ def edit_rest(file_, key):
     data[key] = get_edited_text(data[key])
 
     with open(file_, 'w') as fp:
-        json.dump(data,
-                  fp,
-                  indent=4,
-                  sort_keys=True,
-                  separators=(', ', ': '))
+        json.dump(data, fp, **JSON_FORMAT_KWARGS)
 
 
 def main():
