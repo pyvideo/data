@@ -1,27 +1,27 @@
 {
-  "id": 3003,
-  "category": "EuroPython 2014",
-  "slug": "dont-fear-our-new-robot-overlords",
-  "title": "Don't fear our new robot overlords!",
   "alias": "video/3003/dont-fear-our-new-robot-overlords",
-  "summary": "This talk will show you GoldenEye. A setup of a robot, image recognition\nand Python. What could be better?\n\nGoldenEye uses computer vision to detect icons on an attached mobile\ndevice and then tells a robot to tap them. All off these tests are\nwritten in python's unittest module and the API is as easy as possible\nto make writing complex tests an ease.\n",
-  "description": "GoldenEye is our solution for mobile front end tests. Testing on mobile\ndevices can be quite devastating: On iOS you can write front test in\nJavaScript in Instruments but it is quite impossible to connect\nInstruments to you CI solution of choice. On Android the situation isn't\nmuch better. Other front end test frameworks can work with mobile\ndevices (or simulators) but they lack the ability to see. Of course you\ncan check if a color is set correctly, if a frame has the right x and y\ncoordinates but in a world of different screen sizes writing these tests\ncan be quite challenging as well. In the end you will always need to\nlook on your screen again and again trying to spot any issues.\n\nGoldenEye takes a different approach. It does not need to run on your\ndevelopment computer, you don't need a Mac for running tests on iOS\ndevices and you can have real touches on your controls. This is archived\nby using openCV and it's python bindings, Pythons's unittest module and\nthe Tapsterbot, an OpenSource delta robot made with 3D printing and an\nArduino controller. To write a test you just take some screenshots on\nyour device, cut out the icons you need to tap or inspect and write a\nvery simple unit test using a high-level API that takes away the hard\nparts.\n\nWARNING: This talk features a real robot. In case of machine\nworld-domination: RUN!\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/KaPUo3G9JWk/hqdefault.jpg",
+  "description": "GoldenEye is our solution for mobile front end tests. Testing on mobile\ndevices can be quite devastating: On iOS you can write front test in\nJavaScript in Instruments but it is quite impossible to connect\nInstruments to you CI solution of choice. On Android the situation isn't\nmuch better. Other front end test frameworks can work with mobile\ndevices (or simulators) but they lack the ability to see. Of course you\ncan check if a color is set correctly, if a frame has the right x and y\ncoordinates but in a world of different screen sizes writing these tests\ncan be quite challenging as well. In the end you will always need to\nlook on your screen again and again trying to spot any issues.\n\nGoldenEye takes a different approach. It does not need to run on your\ndevelopment computer, you don't need a Mac for running tests on iOS\ndevices and you can have real touches on your controls. This is archived\nby using openCV and it's python bindings, Pythons's unittest module and\nthe Tapsterbot, an OpenSource delta robot made with 3D printing and an\nArduino controller. To write a test you just take some screenshots on\nyour device, cut out the icons you need to tap or inspect and write a\nvery simple unit test using a high-level API that takes away the hard\nparts.\n\nWARNING: This talk features a real robot. In case of machine\nworld-domination: RUN!\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=KaPUo3G9JWk",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3003,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-23",
+  "slug": "dont-fear-our-new-robot-overlords",
   "source_url": "http://www.youtube.com/watch?v=KaPUo3G9JWk",
-  "tags": [],
   "speakers": [
     "Philip Brechler"
   ],
-  "recorded": "2014-07-23"
+  "summary": "This talk will show you GoldenEye. A setup of a robot, image recognition\nand Python. What could be better?\n\nGoldenEye uses computer vision to detect icons on an attached mobile\ndevice and then tells a robot to tap them. All off these tests are\nwritten in python's unittest module and the API is as easy as possible\nto make writing complex tests an ease.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/KaPUo3G9JWk/hqdefault.jpg",
+  "title": "Don't fear our new robot overlords!",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=KaPUo3G9JWk"
+    }
+  ]
 }

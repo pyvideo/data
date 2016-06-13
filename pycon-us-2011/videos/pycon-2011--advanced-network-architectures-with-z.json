@@ -1,30 +1,30 @@
 {
-  "id": 442,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--advanced-network-architectures-with-z",
-  "title": "Advanced Network Architectures With ZeroMQ",
   "alias": "video/442/pycon-2011--advanced-network-architectures-with-z",
-  "summary": "",
-  "description": "Advanced Network Architectures With ZeroMQ\n\nPresented by Zed A. Shaw\n\nIn this talk I will demonstrate how to use ZeroMQ with Python (and\nothers) to do really advanced or even weird network architectures.\nYou'll see Python talk to other languages, handle HTTP, JSON, XML,\nWebSockets, encode videos, chat messaging, etc. All in a short talk with\nonly code, no diagrams. You should know ZeroMQ already.\n\nAbstract\n\nThis talk will demonstrate a series of progressively difficult problems\nthat you can solve with ZeroMQ:\n\n1. Basic messaging types (request/response, publish/subscribe).\n2. Mongrel2 and HTTP processing.\n3. Coroutine based web frameworks and why they suck (so quit making\n   them).\n4. Distributed worker queues of various flavors.\n5. Asynchronous chat protocols with JSON and XML.\n6. Clusters of calculators considering and communicating.\n7. Talking to other languages and easily ditching Python if you need.\n8. Anything else I can think up and do in a single screen of Python.\n\nThis talk will assume you know ZeroMQ and Python, but if you don't know\nZeroMQ you can probably still keep up.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011AdvancedNetworkArchitecturesWithZeroMQ366.png",
+  "description": "Advanced Network Architectures With ZeroMQ\n\nPresented by Zed A. Shaw\n\nIn this talk I will demonstrate how to use ZeroMQ with Python (and\nothers) to do really advanced or even weird network architectures.\nYou'll see Python talk to other languages, handle HTTP, JSON, XML,\nWebSockets, encode videos, chat messaging, etc. All in a short talk with\nonly code, no diagrams. You should know ZeroMQ already.\n\nAbstract\n\nThis talk will demonstrate a series of progressively difficult problems\nthat you can solve with ZeroMQ:\n\n1. Basic messaging types (request/response, publish/subscribe).\n2. Mongrel2 and HTTP processing.\n3. Coroutine based web frameworks and why they suck (so quit making\n   them).\n4. Distributed worker queues of various flavors.\n5. Asynchronous chat protocols with JSON and XML.\n6. Clusters of calculators considering and communicating.\n7. Talking to other languages and easily ditching Python if you need.\n8. Anything else I can think up and do in a single screen of Python.\n\nThis talk will assume you know ZeroMQ and Python, but if you don't know\nZeroMQ you can probably still keep up.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/442_advanced-network-architectures-with-zeromq.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 442,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--advanced-network-architectures-with-z",
   "source_url": "",
+  "speakers": [
+    "Zed A. Shaw"
+  ],
+  "summary": "",
   "tags": [
     "mongrel",
     "pycon2011"
   ],
-  "speakers": [
-    "Zed A. Shaw"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011AdvancedNetworkArchitecturesWithZeroMQ366.png",
+  "title": "Advanced Network Architectures With ZeroMQ",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/442_advanced-network-architectures-with-zeromq.mp4"
+    }
+  ]
 }

@@ -1,29 +1,19 @@
 {
-  "id": 339,
-  "category": "PyCon US 2010",
-  "slug": "pycon-2010--simple-wsgi-composition--story-of-one",
-  "title": "Simple WSGI composition: story of one refactoring (#51)",
   "alias": "video/339/pycon-2010--simple-wsgi-composition--story-of-one",
-  "summary": "",
-  "description": "Simple WSGI composition: story of one refactoring\n\nPresented by Max Ischenko\n\nStory of a refactoring I did to split one big, monolithic Pylons app\ninto a bunch of smaller ones, using power of WSGI and nginx. The devil\nis in the details: how to handle common auth, site-wide look and feel,\ncommon utilities, database management. Pros and cons of the approach,\npossible alternatives.\n\nThe talk assumes listeners know what WSGI is and preferably have used\nsome WSGI-centered framework like Pylons, Werkzeug, Paste or other.\n\nThe application this talk describes powers developers.org.ua.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2010",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010SimpleWSGICompositionStoryOfOneRefactoring51585.png",
+  "description": "Simple WSGI composition: story of one refactoring\n\nPresented by Max Ischenko\n\nStory of a refactoring I did to split one big, monolithic Pylons app\ninto a bunch of smaller ones, using power of WSGI and nginx. The devil\nis in the details: how to handle common auth, site-wide look and feel,\ncommon utilities, database management. Pros and cons of the approach,\npossible alternatives.\n\nThe talk assumes listeners know what WSGI is and preferably have used\nsome WSGI-centered framework like Pylons, Werkzeug, Paste or other.\n\nThe application this talk describes powers developers.org.ua.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/339_simple-wsgi-composition-story-of-one-refactoring-51.m4v",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/339_simple-wsgi-composition-story-of-one-refactoring-51.ogv",
-      "type": "ogv",
-      "length": 145463857
-    }
-  ],
+  "id": 339,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2010-02-19",
+  "slug": "pycon-2010--simple-wsgi-composition--story-of-one",
   "source_url": "",
+  "speakers": [
+    "Max Ischenko"
+  ],
+  "summary": "",
   "tags": [
     "nginx",
     "pycon",
@@ -31,8 +21,18 @@
     "pylons",
     "wsgi"
   ],
-  "speakers": [
-    "Max Ischenko"
-  ],
-  "recorded": "2010-02-19"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010SimpleWSGICompositionStoryOfOneRefactoring51585.png",
+  "title": "Simple WSGI composition: story of one refactoring (#51)",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/339_simple-wsgi-composition-story-of-one-refactoring-51.m4v"
+    },
+    {
+      "length": 145463857,
+      "type": "ogv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/339_simple-wsgi-composition-story-of-one-refactoring-51.ogv"
+    }
+  ]
 }

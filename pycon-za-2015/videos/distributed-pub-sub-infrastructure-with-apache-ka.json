@@ -1,29 +1,29 @@
 {
-  "id": 3924,
-  "category": "PyCon ZA 2015",
-  "slug": "distributed-pub-sub-infrastructure-with-apache-ka",
-  "title": "Distributed pub-sub infrastructure with Apache Kafka",
   "alias": "video/3924/distributed-pub-sub-infrastructure-with-apache-ka",
-  "summary": "",
-  "description": "`Apache Kafka <http://kafka.apache.org/>`__ is great for building a\nlarge scale distributed data bus. Even a small cluster will happily\naccept and store thousands of messages per second, and make them\navailable to consumers with low latency.\n\nKafka was chosen as the solution to our publish-subscribe infrastructure\nat `Takealot.com <http://www.takealot.com/>`__. It supports our\nevent-driven systems on the website, in the warehouses and in the\noffice, as well as our analytics and machine learning projects.\n\nThis talk will\n\n-  introduce the basic Kafka principles that make things work,\n-  outline how Kafka fits in with the rest of our architecture,\n-  cover some of the practicalities of building Python-based Kafka\n   services,\n-  compare the two main Python libraries for Kafka, namely\n   `kafka-python <https://github.com/mumrah/kafka-python>`__ and\n   `pykafka <https://github.com/Parsely/pykafka>`__,\n-  demonstrate some practical applications at Takealot.com.\n\nJoin in if you are interested in scalable distributed infrastructure.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon ZA 2015",
   "copyright_text": "",
-  "thumbnail_url": "https://i.ytimg.com/vi/b8Cj5-LieH0/hqdefault.jpg",
+  "description": "`Apache Kafka <http://kafka.apache.org/>`__ is great for building a\nlarge scale distributed data bus. Even a small cluster will happily\naccept and store thousands of messages per second, and make them\navailable to consumers with low latency.\n\nKafka was chosen as the solution to our publish-subscribe infrastructure\nat `Takealot.com <http://www.takealot.com/>`__. It supports our\nevent-driven systems on the website, in the warehouses and in the\noffice, as well as our analytics and machine learning projects.\n\nThis talk will\n\n-  introduce the basic Kafka principles that make things work,\n-  outline how Kafka fits in with the rest of our architecture,\n-  cover some of the practicalities of building Python-based Kafka\n   services,\n-  compare the two main Python libraries for Kafka, namely\n   `kafka-python <https://github.com/mumrah/kafka-python>`__ and\n   `pykafka <https://github.com/Parsely/pykafka>`__,\n-  demonstrate some practical applications at Takealot.com.\n\nJoin in if you are interested in scalable distributed infrastructure.\n",
   "duration": 2387,
-  "videos": [
-    {
-      "url": "http://youtu.be/b8Cj5-LieH0",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3924,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2015-10-01",
+  "slug": "distributed-pub-sub-infrastructure-with-apache-ka",
   "source_url": "http://youtu.be/b8Cj5-LieH0",
-  "tags": [
-    "Room 215"
-  ],
   "speakers": [
     "Carl Scheffler"
   ],
-  "recorded": "2015-10-01"
+  "summary": "",
+  "tags": [
+    "Room 215"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/b8Cj5-LieH0/hqdefault.jpg",
+  "title": "Distributed pub-sub infrastructure with Apache Kafka",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/b8Cj5-LieH0"
+    }
+  ]
 }

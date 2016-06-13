@@ -1,25 +1,25 @@
 {
   "category": "DjangoCon 2013",
-  "slug": "denormalize-all-the-things",
-  "title": "Denormalize All The Things!",
-  "summary": "Denormalize All the Things!\n\nThursday 2 p.m.--2:45 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nWhat do you do when you need to cache a model but also need to query the\ncached data? You denormalize all the things! In this talk we will see\nhow to create and maintain denormalized versions of some of your Django\nmodels in order to enjoy the benefits of caching while maintaining the\nbenefits of relational data. Abstract Denormalized models: another copy\nof your data that you can query\n\nTypical usage (with examples): pre-computed data a different view of\nyour data combining multiple model\n\nKeeping things synced The canonical data is always right\n\nYou must define the authoritative source of data and maintain it. Know\nthy parent\n\nKeeping track of the canonical source (across database shards)\nPropagating changes manually (call a method on save) \"use the signals\nLuke\" (example)\n\nHandling concurrency issues\n\nThe approach: you can't improve what you can't measure. Measure, fix,\nmeasure again, repeat.\n\nProblems and some solutions (applying computer science goodness) one at\na time: locks and mutexes (pylock) ensuring update order is correct\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "English",
   "copyright_text": "",
-  "thumbnail_url": "https://i.ytimg.com/vi/jkzFKLqmE0M/hqdefault.jpg",
+  "description": "",
   "duration": 2327,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=jkzFKLqmE0M",
-      "length": 0,
-      "type": "youtube"
-    }
-  ],
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2013-10-01",
+  "slug": "denormalize-all-the-things",
   "source_url": "https://www.youtube.com/watch?v=jkzFKLqmE0M",
-  "tags": [],
   "speakers": [
     "Nathan Duthoit"
   ],
-  "recorded": "2013-10-01"
+  "summary": "Denormalize All the Things!\n\nThursday 2 p.m.--2:45 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nWhat do you do when you need to cache a model but also need to query the\ncached data? You denormalize all the things! In this talk we will see\nhow to create and maintain denormalized versions of some of your Django\nmodels in order to enjoy the benefits of caching while maintaining the\nbenefits of relational data. Abstract Denormalized models: another copy\nof your data that you can query\n\nTypical usage (with examples): pre-computed data a different view of\nyour data combining multiple model\n\nKeeping things synced The canonical data is always right\n\nYou must define the authoritative source of data and maintain it. Know\nthy parent\n\nKeeping track of the canonical source (across database shards)\nPropagating changes manually (call a method on save) \"use the signals\nLuke\" (example)\n\nHandling concurrency issues\n\nThe approach: you can't improve what you can't measure. Measure, fix,\nmeasure again, repeat.\n\nProblems and some solutions (applying computer science goodness) one at\na time: locks and mutexes (pylock) ensuring update order is correct\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/jkzFKLqmE0M/hqdefault.jpg",
+  "title": "Denormalize All The Things!",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jkzFKLqmE0M"
+    }
+  ]
 }

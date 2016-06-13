@@ -1,27 +1,27 @@
 {
-  "id": 3039,
-  "category": "EuroPython 2014",
-  "slug": "the-magic-of-attribute-access",
-  "title": "The Magic of Attribute Access",
   "alias": "video/3039/the-magic-of-attribute-access",
-  "summary": "Have you ever wondered how the \"self\" argument appears when you call a\nmethod? Did you know there is a general mechanism behind it? Come learn\nall about attributes and descriptors.\n",
-  "description": "The first part of this talk will describe what exactly happens when you\nread or write an attribute in Python.\n\nWhile this behavior is, of course, explained in the Python docs, more\nprecisely in the `Data\nmodel <http://docs.python.org/3/reference/datamodel.html>`__ section and\n`related <http://docs.python.org/3/howto/descriptor.html>`__\n`writeups <https://www.python.org/download/releases/2.3/mro/>`__, the\ndocumentation gives one a \"bag of tools\" and leaves combining them to\nthe reader.\n\nThis talk, on the other hand, will present one chunk of functionality,\nthe attribute lookup, and show how its mechanisms and customization\noptions work together to provide the flexibility (and gotchas) Python\nprovides. The topics covered will be:\n\n-  method resolution order, with a nod to the C3 algorithm\n-  instance-, class-, and metaclass-level variables\n-  ``__dict__`` and ``__slots__``\n-  data/non-data descriptors\n-  special methods (``__getattr__``, ``__getattribute__``,\n   ``__setattr__``, ``__dir__``)\n\nIn the second part of the talk, I will show how to use the customization\nprimitives explained before on several interesting and/or useful\nexamples:\n\n-  A proxy object using ``__getattr__``\n-  Generic desciptor - an ORM column sketch\n-  the rudimentary ``@property``, method, ``staticmethod`` reimplemented\n   in pure Python (explained\n   `here <http://docs.python.org/3/howto/descriptor.html>`__ and\n   elsewhere), which lead to\n-  SQLAlchemy's\n   ```@hybrid_proprerty`` <http://docs.sqlalchemy.org/en/rel_0_9/orm/extensions/hybrid.html>`__\n-  Pyramid's deceptively simple memoizing decorator,\n   ```@reify`` <http://docs.pylonsproject.org/projects/pyramid/en/latest/api/decorator.html>`__\n-  An `\"Unpacked\" tuple\n   properties <https://gist.github.com/encukou/9789993>`__ example to\n   drive home the idea that descriptors can do more than provide\n   attribute access (and mention weak dicts as a way to non-intrusively\n   store data on an object)\n\n(These are subject to change as I compose the talk. Also some examples\nmay end up interleaved with the theory.)\n\nHopefully I'll have time to conclude with a remark about how Python\nmanages to be a \"simple language\" despite having these relatively\ncomplex mechanisms.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/y420yZMRdLw/hqdefault.jpg",
+  "description": "The first part of this talk will describe what exactly happens when you\nread or write an attribute in Python.\n\nWhile this behavior is, of course, explained in the Python docs, more\nprecisely in the `Data\nmodel <http://docs.python.org/3/reference/datamodel.html>`__ section and\n`related <http://docs.python.org/3/howto/descriptor.html>`__\n`writeups <https://www.python.org/download/releases/2.3/mro/>`__, the\ndocumentation gives one a \"bag of tools\" and leaves combining them to\nthe reader.\n\nThis talk, on the other hand, will present one chunk of functionality,\nthe attribute lookup, and show how its mechanisms and customization\noptions work together to provide the flexibility (and gotchas) Python\nprovides. The topics covered will be:\n\n-  method resolution order, with a nod to the C3 algorithm\n-  instance-, class-, and metaclass-level variables\n-  ``__dict__`` and ``__slots__``\n-  data/non-data descriptors\n-  special methods (``__getattr__``, ``__getattribute__``,\n   ``__setattr__``, ``__dir__``)\n\nIn the second part of the talk, I will show how to use the customization\nprimitives explained before on several interesting and/or useful\nexamples:\n\n-  A proxy object using ``__getattr__``\n-  Generic desciptor - an ORM column sketch\n-  the rudimentary ``@property``, method, ``staticmethod`` reimplemented\n   in pure Python (explained\n   `here <http://docs.python.org/3/howto/descriptor.html>`__ and\n   elsewhere), which lead to\n-  SQLAlchemy's\n   ```@hybrid_proprerty`` <http://docs.sqlalchemy.org/en/rel_0_9/orm/extensions/hybrid.html>`__\n-  Pyramid's deceptively simple memoizing decorator,\n   ```@reify`` <http://docs.pylonsproject.org/projects/pyramid/en/latest/api/decorator.html>`__\n-  An `\"Unpacked\" tuple\n   properties <https://gist.github.com/encukou/9789993>`__ example to\n   drive home the idea that descriptors can do more than provide\n   attribute access (and mention weak dicts as a way to non-intrusively\n   store data on an object)\n\n(These are subject to change as I compose the talk. Also some examples\nmay end up interleaved with the theory.)\n\nHopefully I'll have time to conclude with a remark about how Python\nmanages to be a \"simple language\" despite having these relatively\ncomplex mechanisms.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=y420yZMRdLw",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3039,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-22",
+  "slug": "the-magic-of-attribute-access",
   "source_url": "http://www.youtube.com/watch?v=y420yZMRdLw",
-  "tags": [],
   "speakers": [
     "Petr Viktorin"
   ],
-  "recorded": "2014-07-22"
+  "summary": "Have you ever wondered how the \"self\" argument appears when you call a\nmethod? Did you know there is a general mechanism behind it? Come learn\nall about attributes and descriptors.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/y420yZMRdLw/hqdefault.jpg",
+  "title": "The Magic of Attribute Access",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=y420yZMRdLw"
+    }
+  ]
 }

@@ -1,24 +1,19 @@
 {
-  "id": 396,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--an-outsider--39-s-look-at-co-routines",
-  "title": "An outsider's look at co-routines.",
   "alias": "video/396/pycon-2011--an-outsider--39-s-look-at-co-routines",
-  "summary": "",
-  "description": "An outsider's look at co-routines.\n\nPresented by Peter Portante\n\nLet's take an outsiders look at coroutines, the underlying concept used\nby greenlets. First we'll define what they are conceptually, and show\nsome typical use cases. Then we'll take a look at a sampling of the\nimplementations out there to see what they are actually doing to\nimplement the concept. Finally, we'll show their pluses and minuses, and\nhighlight some features of packages that use them.\n\nAbstract\n\nTalk outline:\n\n-  Define what a coroutine is\n\n   -  Coroutine state not known to operating system\n   -  Difference between a thread or process\n   -  What state is required for tracking\n\n-  Show how coroutines are used\n\n   -  gevent example\n   -  concurrence example\n\n-  Review two implementations\n\n   -  Greenlets\n   -  Python based co-routines using generators\n\n-  Advantages/Disadvantages\n-  Differentiating features of packages that use them\n\n   -  Concurrence\n   -  Gevent\n   -  Eventlets\n\n\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011AnOutsidersLookAtCoroutines790-929.jpg",
+  "description": "An outsider's look at co-routines.\n\nPresented by Peter Portante\n\nLet's take an outsiders look at coroutines, the underlying concept used\nby greenlets. First we'll define what they are conceptually, and show\nsome typical use cases. Then we'll take a look at a sampling of the\nimplementations out there to see what they are actually doing to\nimplement the concept. Finally, we'll show their pluses and minuses, and\nhighlight some features of packages that use them.\n\nAbstract\n\nTalk outline:\n\n-  Define what a coroutine is\n\n   -  Coroutine state not known to operating system\n   -  Difference between a thread or process\n   -  What state is required for tracking\n\n-  Show how coroutines are used\n\n   -  gevent example\n   -  concurrence example\n\n-  Review two implementations\n\n   -  Greenlets\n   -  Python based co-routines using generators\n\n-  Advantages/Disadvantages\n-  Differentiating features of packages that use them\n\n   -  Concurrence\n   -  Gevent\n   -  Eventlets\n\n\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/396_an-outsider-s-look-at-co-routines.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 396,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--an-outsider--39-s-look-at-co-routines",
   "source_url": "",
+  "speakers": [
+    "Peter Portante"
+  ],
+  "summary": "",
   "tags": [
     "concurrence",
     "coroutines",
@@ -27,8 +22,13 @@
     "pycon",
     "pycon2011"
   ],
-  "speakers": [
-    "Peter Portante"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011AnOutsidersLookAtCoroutines790-929.jpg",
+  "title": "An outsider's look at co-routines.",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/396_an-outsider-s-look-at-co-routines.mp4"
+    }
+  ]
 }

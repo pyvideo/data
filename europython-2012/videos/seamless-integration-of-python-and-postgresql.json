@@ -1,27 +1,27 @@
 {
-  "id": 1288,
-  "category": "EuroPython 2012",
-  "slug": "seamless-integration-of-python-and-postgresql",
-  "title": "Seamless integration of python and postgresql",
   "alias": "video/1288/seamless-integration-of-python-and-postgresql",
-  "summary": "[EuroPython 2012] H Krossing - 4 JULY 2012 in \"Track Tagliatelle\"\n",
-  "description": "Presenting a better way of using PostgreSQL from python with Simple to\nuse way to avoid moving data back and forth to client for just for\nprocessing while still maintaining your code in client code and getting\nall the benefits of server-side programming with ease of Python. access\nto data without writing SQL for simple usage while SQL is still\navailable where appropriate, like complex data analysis This is achieved\nby the following: decorators which ship python code to be executed in\ndatabase, with potentially 100x speedup for some use cases direct\nbuilding of query plans bypassing SQL generation and parsing Some more\ninfrastructure is presented which is needed for using code-shipping in\nmore complex scenarios like django extra import hooks in server for\nloading python modules from caller (client) extra import hooks for\nimporting modules from database loadatstartup modules for pl/python ways\nto scale this type of application by sharding (a.k.a. horisontally\nscaling) it using pl/proxy\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2012",
   "copyright_text": "Standard YouTube License",
-  "thumbnail_url": "http://i.ytimg.com/vi/99AoONzl-Ik/hqdefault.jpg",
+  "description": "Presenting a better way of using PostgreSQL from python with Simple to\nuse way to avoid moving data back and forth to client for just for\nprocessing while still maintaining your code in client code and getting\nall the benefits of server-side programming with ease of Python. access\nto data without writing SQL for simple usage while SQL is still\navailable where appropriate, like complex data analysis This is achieved\nby the following: decorators which ship python code to be executed in\ndatabase, with potentially 100x speedup for some use cases direct\nbuilding of query plans bypassing SQL generation and parsing Some more\ninfrastructure is presented which is needed for using code-shipping in\nmore complex scenarios like django extra import hooks in server for\nloading python modules from caller (client) extra import hooks for\nimporting modules from database loadatstartup modules for pl/python ways\nto scale this type of application by sharding (a.k.a. horisontally\nscaling) it using pl/proxy\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=99AoONzl-Ik",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1288,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-05",
+  "slug": "seamless-integration-of-python-and-postgresql",
   "source_url": "http://www.youtube.com/watch?v=99AoONzl-Ik",
-  "tags": [],
   "speakers": [
     "H Krossing"
   ],
-  "recorded": "2012-07-05"
+  "summary": "[EuroPython 2012] H Krossing - 4 JULY 2012 in \"Track Tagliatelle\"\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/99AoONzl-Ik/hqdefault.jpg",
+  "title": "Seamless integration of python and postgresql",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=99AoONzl-Ik"
+    }
+  ]
 }

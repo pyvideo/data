@@ -1,27 +1,27 @@
 {
-  "id": 3959,
-  "category": "PyCon AU 2015",
-  "slug": "spreadsheet-driven-meta-programming-for-python",
-  "title": "Spreadsheet-Driven Meta-Programming for Python",
   "alias": "video/3959/spreadsheet-driven-meta-programming-for-python",
-  "summary": "",
-  "description": "We've all had those very detail-oriented clients who are able to specify\ntheir needs very neatly, often by means of exhaustive spreadsheets.\nWouldn't it be nice if we could turn these spreadsheets straight into\nPython code?\n\nIn this tutorial we'll use two sets of meta-programming techniques to\nderive Python code out of semi-formal descriptions: first, to build\nDjango models requiring very detailed validation supplied by the client\nin a spreadsheet; second, to build a Python API for a hardware device,\nthe description of which is maintained by the engineers in a\nspreadsheet.\n\nFor the Pycon attendance, this tutorial has both business value and\ntechnical value:\n\nBusiness value because spreadsheet-driven metaprogramming allows\ndevelopers to:\n\n-  respond to changes very fast by re-rendering their Python code from\n   the modified spreadsheet descriptions.\n-  avoid a certain class of human errors unavoidable when transcribing\n   the requirements by hand.\n-  save time which can be employed in other areas of the project, or\n   with other clients.\n-  clarify ambiguous specifications by making explicit all programmer's\n   assumptions into the code generator.\n\nTechnical value because we'll be talking about:\n\n-  api design,\n-  Django modeling and validation,\n-  consuming spreadsheets via csv dictreaders and elbow grease,\n-  writing partially-applied functions via custom classes with a\n   **call** method,\n-  implementing fluent apis with table-driven **getattr** methods,\n-  implementing iterators with **iter** and **next**,\n-  papering over some differences between Python 2 and Python 3 syntax,\n-  and much, much more.\n\nWe'll be doing all of it in a hands-on manner, without getting\ndistracted by abstract discussions of Python syntax. There will be some\ndiscussions of Python syntax, but they won't be abstract. We'll always\nhave a goal in sight.\n\nLevel:\n\nIntermediate. You'll learn some advanced techniques, but all you need to\nreally know in order to follow this tutorial is how lists, dictionaries,\niteration and reading files work in Python.\n\nRequirements:\n\n-  Attendees are expected to know basic Python (see above, under\n   \"Level\").\n-  A laptop and some knowledge of git will be useful for those wanting\n   to follow along, but is not required. You can get a lot out of this\n   tutorial just by watching and paying attention.\n\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon AU 2015",
   "copyright_text": "creativeCommon",
-  "thumbnail_url": "https://i.ytimg.com/vi/DmLHqOvbG9M/hqdefault.jpg",
+  "description": "We've all had those very detail-oriented clients who are able to specify\ntheir needs very neatly, often by means of exhaustive spreadsheets.\nWouldn't it be nice if we could turn these spreadsheets straight into\nPython code?\n\nIn this tutorial we'll use two sets of meta-programming techniques to\nderive Python code out of semi-formal descriptions: first, to build\nDjango models requiring very detailed validation supplied by the client\nin a spreadsheet; second, to build a Python API for a hardware device,\nthe description of which is maintained by the engineers in a\nspreadsheet.\n\nFor the Pycon attendance, this tutorial has both business value and\ntechnical value:\n\nBusiness value because spreadsheet-driven metaprogramming allows\ndevelopers to:\n\n-  respond to changes very fast by re-rendering their Python code from\n   the modified spreadsheet descriptions.\n-  avoid a certain class of human errors unavoidable when transcribing\n   the requirements by hand.\n-  save time which can be employed in other areas of the project, or\n   with other clients.\n-  clarify ambiguous specifications by making explicit all programmer's\n   assumptions into the code generator.\n\nTechnical value because we'll be talking about:\n\n-  api design,\n-  Django modeling and validation,\n-  consuming spreadsheets via csv dictreaders and elbow grease,\n-  writing partially-applied functions via custom classes with a\n   **call** method,\n-  implementing fluent apis with table-driven **getattr** methods,\n-  implementing iterators with **iter** and **next**,\n-  papering over some differences between Python 2 and Python 3 syntax,\n-  and much, much more.\n\nWe'll be doing all of it in a hands-on manner, without getting\ndistracted by abstract discussions of Python syntax. There will be some\ndiscussions of Python syntax, but they won't be abstract. We'll always\nhave a goal in sight.\n\nLevel:\n\nIntermediate. You'll learn some advanced techniques, but all you need to\nreally know in order to follow this tutorial is how lists, dictionaries,\niteration and reading files work in Python.\n\nRequirements:\n\n-  Attendees are expected to know basic Python (see above, under\n   \"Level\").\n-  A laptop and some knowledge of git will be useful for those wanting\n   to follow along, but is not required. You can get a lot out of this\n   tutorial just by watching and paying attention.\n\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=DmLHqOvbG9M",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3959,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2015-08-04",
+  "slug": "spreadsheet-driven-meta-programming-for-python",
   "source_url": "https://www.youtube.com/watch?v=DmLHqOvbG9M",
-  "tags": [],
   "speakers": [
     "Javier Candeira"
   ],
-  "recorded": "2015-08-04"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DmLHqOvbG9M/hqdefault.jpg",
+  "title": "Spreadsheet-Driven Meta-Programming for Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DmLHqOvbG9M"
+    }
+  ]
 }

@@ -1,27 +1,27 @@
 {
-  "id": 3033,
-  "category": "EuroPython 2014",
-  "slug": "the-cython-compiler-for-python",
-  "title": "The Cython Compiler for Python",
   "alias": "video/3033/the-cython-compiler-for-python",
-  "summary": "The Cython compiler is the most widely used static compiler for Python.\nIt is used to speed up Python code and to extend CPython with fast\nnative extension modules that process huge amounts of data all around\nthe world. This talk by one of the core developers gives an intro to\nusing the compiler and an overview of its major features.\n",
-  "description": "The Cython compiler is the most widely used static compiler for Python.\nThe code it generates is used in countless critical applications that\nprocess huge amounts of data world wide. Cython has two major use cases:\nto compile Python code into fast native extension modules, and to\nconnect native code to the CPython runtime. The main goal of the Cython\nproject is to make it easy for users to manually optimise their Python\ncode to make it run at C speed. This talk by one of the core developers\nwill give an intro to using the compiler and an overview of its major\nfeatures.\n\nOutline will be more or less as follows:\n\n-  Cython: intro to the project and the compiler (4 min.)\n-  compiling Python code\n\n   -  how to do it and what you get (3 min.)\n   -  a tiny bit of distutils (2 min.)\n\n-  static typing and Cython extensions to the Python language\n\n   -  static typing in Cython language syntax (3 min.)\n   -  static typing in pure Python syntax (2 min.)\n   -  why Cython's type system is cool and what users need to know about\n      it (8 min.)\n   -  Cython for optimising Python code (5 min.)\n\n-  quick intro: talking to native C/C++ code in Cython\n\n   -  using external C APIs (4 min.)\n   -  using external C++ APIs (3 min.)\n   -  how to build and link in distutils (2 min.)\n   -  notes on ways to wrap large C-APIs (1 min.)\n\n-  quick overview: special features for high-performance code\n\n   -  NumPy integration and memory views, fused types, parallel loops in\n      all brevity (3 min.)\n\n\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/ZHpkLX2VFMU/hqdefault.jpg",
+  "description": "The Cython compiler is the most widely used static compiler for Python.\nThe code it generates is used in countless critical applications that\nprocess huge amounts of data world wide. Cython has two major use cases:\nto compile Python code into fast native extension modules, and to\nconnect native code to the CPython runtime. The main goal of the Cython\nproject is to make it easy for users to manually optimise their Python\ncode to make it run at C speed. This talk by one of the core developers\nwill give an intro to using the compiler and an overview of its major\nfeatures.\n\nOutline will be more or less as follows:\n\n-  Cython: intro to the project and the compiler (4 min.)\n-  compiling Python code\n\n   -  how to do it and what you get (3 min.)\n   -  a tiny bit of distutils (2 min.)\n\n-  static typing and Cython extensions to the Python language\n\n   -  static typing in Cython language syntax (3 min.)\n   -  static typing in pure Python syntax (2 min.)\n   -  why Cython's type system is cool and what users need to know about\n      it (8 min.)\n   -  Cython for optimising Python code (5 min.)\n\n-  quick intro: talking to native C/C++ code in Cython\n\n   -  using external C APIs (4 min.)\n   -  using external C++ APIs (3 min.)\n   -  how to build and link in distutils (2 min.)\n   -  notes on ways to wrap large C-APIs (1 min.)\n\n-  quick overview: special features for high-performance code\n\n   -  NumPy integration and memory views, fused types, parallel loops in\n      all brevity (3 min.)\n\n\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=ZHpkLX2VFMU",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3033,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-22",
+  "slug": "the-cython-compiler-for-python",
   "source_url": "http://www.youtube.com/watch?v=ZHpkLX2VFMU",
-  "tags": [],
   "speakers": [
     "Stefan Behnel"
   ],
-  "recorded": "2014-07-22"
+  "summary": "The Cython compiler is the most widely used static compiler for Python.\nIt is used to speed up Python code and to extend CPython with fast\nnative extension modules that process huge amounts of data all around\nthe world. This talk by one of the core developers gives an intro to\nusing the compiler and an overview of its major features.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/ZHpkLX2VFMU/hqdefault.jpg",
+  "title": "The Cython Compiler for Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=ZHpkLX2VFMU"
+    }
+  ]
 }

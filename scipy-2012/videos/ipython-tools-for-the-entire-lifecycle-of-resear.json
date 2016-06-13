@@ -1,32 +1,15 @@
 {
-  "id": 1221,
-  "category": "SciPy 2012",
-  "slug": "ipython-tools-for-the-entire-lifecycle-of-resear",
-  "title": "IPython: tools for the entire lifecycle of research computing",
   "alias": "video/1221/ipython-tools-for-the-entire-lifecycle-of-resear",
-  "summary": "",
-  "description": "IPython started as a better interactive Python interpreter in 2001, but\nover the last decade it has grown into a rich and powerful set of\ninterlocking tools aimed at enabling an efficient, fluid and productive\nworkflow in the typical use cases encountered by scientists in everyday\nresearch.\n\nToday, IPython consists of a kernel executing user code and capable of\ncommunicating with a variety of clients, using ZeroMQ for networking via\na well-documented protocol. This enables IPython to support, from a\nsingle codebase, a rich variety of usage scenarios through user-facing\napplications and an API for embedding:\n\n-  An interactive, terminal-based shell with many capabilities far\n   beyond the default Python interactive interpreter (this is the\n   default application opened by the ``ipython`` command that most users\n   are familiar with).\n-  A Qt console that provides the look and feel of a terminal, but adds\n   support for inline figures, graphical calltips, a persistent session\n   that can survive crashes of the kernel process, and more.\n-  A web-based notebook that can execute code and also contain rich text\n   and figures, mathematical equations and arbitrary HTML. This notebook\n   presents a document-like view with cells where code is executed but\n   that can be edited in-place, reordered, mixed with explanatory text\n   and figures, etc.\n-  A high-performance, low-latency system for parallel computing that\n   supports the control of a cluster of IPython engines communicating\n   over ZeroMQ, with optimizations that minimize unnecessary copying of\n   large objects (especially numpy arrays).\n\nIn this talk we will show how IPython supports all stages in the\nlifecycle of a scientific idea: individual exploration, collaborative\ndevelopment, large- scale production using parallel resources,\npublication and education. In particular, the IPython Notebook supports\nmultiuser collaboration and allows scientists to share their work in an\nopen document format that is a true \"executable paper\": notebooks can be\nversion controlled, exported to HTML or PDF for publication, and used\nfor teaching. We will demonstrate the key features of the system,\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2012",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "http://i2.ytimg.com/vi/iwVvqwLDsJo/hqdefault.jpg",
+  "description": "IPython started as a better interactive Python interpreter in 2001, but\nover the last decade it has grown into a rich and powerful set of\ninterlocking tools aimed at enabling an efficient, fluid and productive\nworkflow in the typical use cases encountered by scientists in everyday\nresearch.\n\nToday, IPython consists of a kernel executing user code and capable of\ncommunicating with a variety of clients, using ZeroMQ for networking via\na well-documented protocol. This enables IPython to support, from a\nsingle codebase, a rich variety of usage scenarios through user-facing\napplications and an API for embedding:\n\n-  An interactive, terminal-based shell with many capabilities far\n   beyond the default Python interactive interpreter (this is the\n   default application opened by the ``ipython`` command that most users\n   are familiar with).\n-  A Qt console that provides the look and feel of a terminal, but adds\n   support for inline figures, graphical calltips, a persistent session\n   that can survive crashes of the kernel process, and more.\n-  A web-based notebook that can execute code and also contain rich text\n   and figures, mathematical equations and arbitrary HTML. This notebook\n   presents a document-like view with cells where code is executed but\n   that can be edited in-place, reordered, mixed with explanatory text\n   and figures, etc.\n-  A high-performance, low-latency system for parallel computing that\n   supports the control of a cluster of IPython engines communicating\n   over ZeroMQ, with optimizations that minimize unnecessary copying of\n   large objects (especially numpy arrays).\n\nIn this talk we will show how IPython supports all stages in the\nlifecycle of a scientific idea: individual exploration, collaborative\ndevelopment, large- scale production using parallel resources,\npublication and education. In particular, the IPython Notebook supports\nmultiuser collaboration and allows scientists to share their work in an\nopen document format that is a true \"executable paper\": notebooks can be\nversion controlled, exported to HTML or PDF for publication, and used\nfor teaching. We will demonstrate the key features of the system,\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/IPython_tools_for_the_entire_lifecycle_of_research_computing.mp4?Signature=AgDUtK60kAvr4De7J2V6xj%2FZSxU%3D&Expires=1346382215&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://youtube.com/watch?v=iwVvqwLDsJo",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1221,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-19",
+  "slug": "ipython-tools-for-the-entire-lifecycle-of-resear",
   "source_url": "http://youtube.com/watch?v=iwVvqwLDsJo",
-  "tags": [
-    "General"
-  ],
   "speakers": [
     "Brian Granger",
     "Evan Patterson",
@@ -34,5 +17,22 @@
     "Min Ragan-Kelley",
     "Thomas Kluyver"
   ],
-  "recorded": "2012-07-19"
+  "summary": "",
+  "tags": [
+    "General"
+  ],
+  "thumbnail_url": "http://i2.ytimg.com/vi/iwVvqwLDsJo/hqdefault.jpg",
+  "title": "IPython: tools for the entire lifecycle of research computing",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/IPython_tools_for_the_entire_lifecycle_of_research_computing.mp4?Signature=AgDUtK60kAvr4De7J2V6xj%2FZSxU%3D&Expires=1346382215&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtube.com/watch?v=iwVvqwLDsJo"
+    }
+  ]
 }

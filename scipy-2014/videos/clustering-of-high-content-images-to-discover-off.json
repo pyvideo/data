@@ -1,27 +1,27 @@
 {
-  "id": 2817,
-  "category": "SciPy 2014",
-  "slug": "clustering-of-high-content-images-to-discover-off",
-  "title": "Clustering of high content images to discover off target phenotypes",
   "alias": "video/2817/clustering-of-high-content-images-to-discover-off",
-  "summary": "In high content imaging screens, cells are subjected to various\ntreatments (usually shutting down specific genes) in high throughput,\nimaged, and a phenotype of interest measured. We argue that there is a\nwealth of information to be found in off-target phenotypes, and present\nan image clustering approach to discover these and infer gene function.\n",
-  "description": "In the decade between 1999 and 2008, more newly-approved, first-in-class\ndrugs were found by phenotypic screens than by molecular target-based\napproaches. This is despite far more resources being invested in the\nlatter, and highlights the rising importance of screens in biomedical\nresearch. (`Swinney and Anthony, Nat Rev Drug Discov,\n2011 <http://www.nature.com/nrd/journal/v10/n7/full/nrd3480.html>`__)\n\nDespite this success, the data from phenotypic screens is vastly\nunderutilized. A typical analysis takes millions of images, obtained at\na cost of, say, $250,000, and reduces each to a single number, a\nquantification of the phenotype of interest. The images are then ranked\nby that value and the top-ranked images are flagged for further\ninvestigation. (`Zanella et al, Trends Biotech,\n2010 <https://www.cell.com/trends/biotechnology/abstract/S0167-7799(10)00035-1>`__)\n\nThe images, however, contain a lot more information than just a single\nphenotypic number. For one, usually only the mean phenotype of all the\ncells in the image is reported, with no information about variability,\neven though the distribution of cell shapes in a single image is highly\ninformative (`Yin et al, Nat Cell Biol,\n2013 <http://www.nature.com/ncb/journal/v15/n7/full/ncb2764.html>`__).\nAdditionally, cells display a variety of off-target phenotypes,\nindependently of the target, that can provide biological insight and new\nresearch avenues.\n\nWe are developing an unsupervised clustering pipeline, tentatively named\nhigh-content-screen unsupervised sample clustering\n(`HUSC <http://github.com/jni/husc>`__), that leverages the scientific\nPython stack, particularly ``scipy.stats``, ``pandas``,\n``scikit-image``, and ``scikit-learn``, to summarize images with feature\nvectors, cluster them, and infer the functions of genes corresponding to\neach cluster. The library includes functions for preprocessing images,\ncomputing an array of features designed specifically for microscopy\nimages, and accessing a MongoDB database containing sample data. Its API\nallows easy extensibility by placing screen-specific functions under the\n``screens`` sub-package. An example IPython notebook with a preliminary\nanalysis can be found\n`here <http://jni.github.io/notebooks/hcs_nb.html>`__.\n\nWe plan to use this library to develop a flexible web interface for\nflexible and extensible analysis of high-content screens, and relish the\nopportunity to enlist the help and expertise of the SciPy crowd.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/fn8F_NerTug/hqdefault.jpg",
+  "description": "In the decade between 1999 and 2008, more newly-approved, first-in-class\ndrugs were found by phenotypic screens than by molecular target-based\napproaches. This is despite far more resources being invested in the\nlatter, and highlights the rising importance of screens in biomedical\nresearch. (`Swinney and Anthony, Nat Rev Drug Discov,\n2011 <http://www.nature.com/nrd/journal/v10/n7/full/nrd3480.html>`__)\n\nDespite this success, the data from phenotypic screens is vastly\nunderutilized. A typical analysis takes millions of images, obtained at\na cost of, say, $250,000, and reduces each to a single number, a\nquantification of the phenotype of interest. The images are then ranked\nby that value and the top-ranked images are flagged for further\ninvestigation. (`Zanella et al, Trends Biotech,\n2010 <https://www.cell.com/trends/biotechnology/abstract/S0167-7799(10)00035-1>`__)\n\nThe images, however, contain a lot more information than just a single\nphenotypic number. For one, usually only the mean phenotype of all the\ncells in the image is reported, with no information about variability,\neven though the distribution of cell shapes in a single image is highly\ninformative (`Yin et al, Nat Cell Biol,\n2013 <http://www.nature.com/ncb/journal/v15/n7/full/ncb2764.html>`__).\nAdditionally, cells display a variety of off-target phenotypes,\nindependently of the target, that can provide biological insight and new\nresearch avenues.\n\nWe are developing an unsupervised clustering pipeline, tentatively named\nhigh-content-screen unsupervised sample clustering\n(`HUSC <http://github.com/jni/husc>`__), that leverages the scientific\nPython stack, particularly ``scipy.stats``, ``pandas``,\n``scikit-image``, and ``scikit-learn``, to summarize images with feature\nvectors, cluster them, and infer the functions of genes corresponding to\neach cluster. The library includes functions for preprocessing images,\ncomputing an array of features designed specifically for microscopy\nimages, and accessing a MongoDB database containing sample data. Its API\nallows easy extensibility by placing screen-specific functions under the\n``screens`` sub-package. An example IPython notebook with a preliminary\nanalysis can be found\n`here <http://jni.github.io/notebooks/hcs_nb.html>`__.\n\nWe plan to use this library to develop a flexible web interface for\nflexible and extensible analysis of high-content screens, and relish the\nopportunity to enlist the help and expertise of the SciPy crowd.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=fn8F_NerTug",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2817,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-10",
+  "slug": "clustering-of-high-content-images-to-discover-off",
   "source_url": "http://www.youtube.com/watch?v=fn8F_NerTug",
-  "tags": [],
   "speakers": [
     "Juan Nunez-Iglesias"
   ],
-  "recorded": "2014-07-10"
+  "summary": "In high content imaging screens, cells are subjected to various\ntreatments (usually shutting down specific genes) in high throughput,\nimaged, and a phenotype of interest measured. We argue that there is a\nwealth of information to be found in off-target phenotypes, and present\nan image clustering approach to discover these and infer gene function.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/fn8F_NerTug/hqdefault.jpg",
+  "title": "Clustering of high content images to discover off target phenotypes",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=fn8F_NerTug"
+    }
+  ]
 }

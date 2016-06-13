@@ -1,32 +1,32 @@
 {
-  "id": 1130,
-  "category": "EuroPython 2011",
-  "slug": "making-cpython-fast-using-trace-based-optimisatio",
-  "title": "Making CPython Fast Using Trace-based Optimisations",
   "alias": "video/1130/making-cpython-fast-using-trace-based-optimisatio",
-  "summary": "[EuroPython 2011] Mark Shannon - 24 June 2011 in \"Track Lasagne\"\n",
-  "description": "CPython can be made faster by implementing the sort of optimizations\nused in the PyPy VM, and in my HotPy VM. All the necessary changes can\nbe made without modifying the language or the API.\n\nThe CPython VM can be modified to support optimizations by adding an\neffective garbage collector and by separating the virtual-machine state\nfrom the real- machine state (like Stackless).\n\nOptimizations can be implemented incrementally. Since almost all of the\noptimizations are implemented in the interpreter, all hardware platforms\ncan benefit. JIT compiler(s) can then be added for common platforms\n(intel, ARM, etc.).\n\nFor more information see http://hotpy.blogspot.com/\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2011",
   "copyright_text": "Standard YouTube License",
-  "thumbnail_url": "http://i.ytimg.com/vi/3uTnXITm-kA/hqdefault.jpg",
+  "description": "CPython can be made faster by implementing the sort of optimizations\nused in the PyPy VM, and in my HotPy VM. All the necessary changes can\nbe made without modifying the language or the API.\n\nThe CPython VM can be modified to support optimizations by adding an\neffective garbage collector and by separating the virtual-machine state\nfrom the real- machine state (like Stackless).\n\nOptimizations can be implemented incrementally. Since almost all of the\noptimizations are implemented in the interpreter, all hardware platforms\ncan benefit. JIT compiler(s) can then be added for common platforms\n(intel, ARM, etc.).\n\nFor more information see http://hotpy.blogspot.com/\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=3uTnXITm-kA",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1130,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-07-13",
+  "slug": "making-cpython-fast-using-trace-based-optimisatio",
   "source_url": "http://www.youtube.com/watch?v=3uTnXITm-kA",
+  "speakers": [
+    "Mark Shannon"
+  ],
+  "summary": "[EuroPython 2011] Mark Shannon - 24 June 2011 in \"Track Lasagne\"\n",
   "tags": [
     "cpython",
     "jit",
     "pypy",
     "vm"
   ],
-  "speakers": [
-    "Mark Shannon"
-  ],
-  "recorded": "2011-07-13"
+  "thumbnail_url": "http://i.ytimg.com/vi/3uTnXITm-kA/hqdefault.jpg",
+  "title": "Making CPython Fast Using Trace-based Optimisations",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=3uTnXITm-kA"
+    }
+  ]
 }

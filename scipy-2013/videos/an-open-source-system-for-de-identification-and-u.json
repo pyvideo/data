@@ -1,27 +1,27 @@
 {
-  "id": 1972,
-  "category": "SciPy 2013",
-  "slug": "an-open-source-system-for-de-identification-and-u",
-  "title": "An Open Source System for De-identification and Use of Medical Images; SciPy 2013 Presentation",
   "alias": "video/1972/an-open-source-system-for-de-identification-and-u",
-  "summary": "An Open Source System for De-identification and Use of Medical Images\nfor Research\n\nAuthors: Miller, Jeffrey, Center for Biomedical Informatics, The\nChildren's Hospital of Philadelphia\n\nTrack: Medical Imaging\n\nMedical images captured from X-ray, MRI, CT, and ultrasound modalities\nrepresent a wealth of data for clinical researchers. Direct access to\nimaging studies establishes a greater opportunity for research purposes\nthan a text-only system. However, imaging data can be difficult to work\nwith outside of clinical systems and can contain Protected Health\nInformation (PHI) in diverse and unexpected locations, presenting a\nbarrier for multi-institutional, collaborative research. While there are\nexisting integration solutions, such as the Clinical Trials Processor,\nthey do not provide for manual curation of images to screen for\nrelevancy and PHI, a crucial step for using images within a research\napplication. To address these issues, we developed a system for the\nend-to-end provisioning of de-identified image studies. This includes a\nDjango app for users to review and record metadata for each study, a\npipeline for anonymizing and provisioning images to a production image\narchive, and finally an application for viewing images in the browser as\npart of a research application. We take advantage of the Python Ruffus\npipeline framework and the PyDICOM library to orchestrate the work of\nmoving, anonymizing, and annotating millions of files in a repeatable\nand auditable manner. This workflow has been used to integrate images\ninto AudGenDB (http://audgendb.chop.edu), a publicly available hearing\nimpairment research database. The results of the AudGenDB image\nintegration enables researchers to visualize and assess images in direct\ncontext with clinical and genetic variables for research subjects. The\nsource code is available under a BSD license at\nhttp://github.com/cbmi/dicom-pipeline.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2013",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/BK6nfEAj40k/hqdefault.jpg",
+  "description": "",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=BK6nfEAj40k",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1972,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2013-07-02",
+  "slug": "an-open-source-system-for-de-identification-and-u",
   "source_url": "http://www.youtube.com/watch?v=BK6nfEAj40k",
+  "speakers": [],
+  "summary": "An Open Source System for De-identification and Use of Medical Images\nfor Research\n\nAuthors: Miller, Jeffrey, Center for Biomedical Informatics, The\nChildren's Hospital of Philadelphia\n\nTrack: Medical Imaging\n\nMedical images captured from X-ray, MRI, CT, and ultrasound modalities\nrepresent a wealth of data for clinical researchers. Direct access to\nimaging studies establishes a greater opportunity for research purposes\nthan a text-only system. However, imaging data can be difficult to work\nwith outside of clinical systems and can contain Protected Health\nInformation (PHI) in diverse and unexpected locations, presenting a\nbarrier for multi-institutional, collaborative research. While there are\nexisting integration solutions, such as the Clinical Trials Processor,\nthey do not provide for manual curation of images to screen for\nrelevancy and PHI, a crucial step for using images within a research\napplication. To address these issues, we developed a system for the\nend-to-end provisioning of de-identified image studies. This includes a\nDjango app for users to review and record metadata for each study, a\npipeline for anonymizing and provisioning images to a production image\narchive, and finally an application for viewing images in the browser as\npart of a research application. We take advantage of the Python Ruffus\npipeline framework and the PyDICOM library to orchestrate the work of\nmoving, anonymizing, and annotating millions of files in a repeatable\nand auditable manner. This workflow has been used to integrate images\ninto AudGenDB (http://audgendb.chop.edu), a publicly available hearing\nimpairment research database. The results of the AudGenDB image\nintegration enables researchers to visualize and assess images in direct\ncontext with clinical and genetic variables for research subjects. The\nsource code is available under a BSD license at\nhttp://github.com/cbmi/dicom-pipeline.\n",
   "tags": [
     "Tech"
   ],
-  "speakers": [],
-  "recorded": "2013-07-02"
+  "thumbnail_url": "http://i1.ytimg.com/vi/BK6nfEAj40k/hqdefault.jpg",
+  "title": "An Open Source System for De-identification and Use of Medical Images; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=BK6nfEAj40k"
+    }
+  ]
 }

@@ -1,32 +1,32 @@
 {
-  "id": 3062,
-  "category": "PyData Berlin 2014",
-  "slug": "introduction-to-the-signal-processing-and-classif",
-  "title": "Introduction to the Signal Processing and Classification Environment pySPACE",
   "alias": "video/3062/introduction-to-the-signal-processing-and-classif",
-  "summary": "",
-  "description": "This talk will give a basic introduction to the pySPACE framework and\nits current applications.\n\npySPACE (Signal Processing And Classification Environment) is a modular\nsoftware for the processing of large data streams that has been\nspecifically designed to enable distributed execution and empirical\nevaluation of signal processing chains. Various signal processing\nalgorithms (so called nodes) are available within the software, from\nfinite impulse response filters over data-dependent spatial filters\n(e.g., PCA, CSP, xDAWN) to established classifiers (e.g., SVM, LDA).\npySPACE incorporates the concept of node and node chains of the Modular\nToolkit for Data Processing (MDP) framework. Due to its modular\narchitecture, the software can easily be extended with new processing\nnodes and more general operations. Large scale empirical investigations\ncan be configured using simple text-configuration files in the YAML\nformat, executed on different (distributed) computing modalities, and\nevaluated using an interactive graphical user interface.\n\npySPACE allows the user to connect nodes modularly and automatically\nbenchmark the respective chains for different parameter settings and\ncompare these with other node chains, e.g., by automatic evaluation of\nclassification performances provided within the software. In addition,\nthe pySPACElive mode of execution can be used for online processing of\nstreamed data. The software specifically supports but is not limited to\nEEG data. Any kind of time series or feature vector data can be\nprocessed and analyzed.\n\npySPACE additionally provides interfaces to specialized signal\nprocessing libraries such as SciPy, scikit-learn, LIBSVM, the WEKA\nMachine Learning Framework, and the Maja Machine Learning Framework\n(MMLF).\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyData Berlin 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/KobSyPceR6I/hqdefault.jpg",
+  "description": "This talk will give a basic introduction to the pySPACE framework and\nits current applications.\n\npySPACE (Signal Processing And Classification Environment) is a modular\nsoftware for the processing of large data streams that has been\nspecifically designed to enable distributed execution and empirical\nevaluation of signal processing chains. Various signal processing\nalgorithms (so called nodes) are available within the software, from\nfinite impulse response filters over data-dependent spatial filters\n(e.g., PCA, CSP, xDAWN) to established classifiers (e.g., SVM, LDA).\npySPACE incorporates the concept of node and node chains of the Modular\nToolkit for Data Processing (MDP) framework. Due to its modular\narchitecture, the software can easily be extended with new processing\nnodes and more general operations. Large scale empirical investigations\ncan be configured using simple text-configuration files in the YAML\nformat, executed on different (distributed) computing modalities, and\nevaluated using an interactive graphical user interface.\n\npySPACE allows the user to connect nodes modularly and automatically\nbenchmark the respective chains for different parameter settings and\ncompare these with other node chains, e.g., by automatic evaluation of\nclassification performances provided within the software. In addition,\nthe pySPACElive mode of execution can be used for online processing of\nstreamed data. The software specifically supports but is not limited to\nEEG data. Any kind of time series or feature vector data can be\nprocessed and analyzed.\n\npySPACE additionally provides interfaces to specialized signal\nprocessing libraries such as SciPy, scikit-learn, LIBSVM, the WEKA\nMachine Learning Framework, and the Maja Machine Learning Framework\n(MMLF).\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://video.ep14.c3voc.de/20268.mp4",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://www.youtube.com/watch?v=KobSyPceR6I",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3062,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-27",
+  "slug": "introduction-to-the-signal-processing-and-classif",
   "source_url": "http://www.youtube.com/watch?v=KobSyPceR6I",
-  "tags": [],
   "speakers": [
     "Mario Michael Krell"
   ],
-  "recorded": "2014-07-27"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/KobSyPceR6I/hqdefault.jpg",
+  "title": "Introduction to the Signal Processing and Classification Environment pySPACE",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://video.ep14.c3voc.de/20268.mp4"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=KobSyPceR6I"
+    }
+  ]
 }

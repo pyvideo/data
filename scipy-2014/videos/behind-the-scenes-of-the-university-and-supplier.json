@@ -1,27 +1,27 @@
 {
-  "id": 2813,
-  "category": "SciPy 2014",
-  "slug": "behind-the-scenes-of-the-university-and-supplier",
-  "title": "Behind the Scenes of the University and Supplier Relationship",
   "alias": "video/2813/behind-the-scenes-of-the-university-and-supplier",
-  "summary": "The University of California, Berkeley and San Francisco combined are\none of the largest buyers in the Bay Area. Historically, it has been a\ntime-consuming process to analyze suppliers' proposed price files and\nensure the University is not paying more than contracted. Through the\nuse of Pandas and Python, this once tedious and manual process can\nroutinely be done in a matter of a few seconds.\n",
-  "description": "For the University of California, Berkeley and San Francisco, a routine\nmanagement process of supplier price files used to be a time-consuming\nprocess. It is essential to analyze the sometimes tens of thousands of\nitems a supplier offers to make sure the University doesn't accept\nlarger price increases than is in compliance with a contract. A\nhistorical figure of past purchases is matched against the current and\nproposed catalogs and then analyzed to ultimately find out the\npercentage increase and number of products removed. Each Universities'\nmotivation is to not accept a file that has larger price increases than\ncontracted nor a file with several previously purchased products\nremoved.\n\nTo combat the tedious and time-consuming process of manually analyzing\nthe previous spend with the current and proposed files, a Python script\nwas written. This heavily uses Pandas as well as Numpy for computations.\nThe code uploads all three files as a dataframes and creates a common\nvariable to compare similar products. It matches what was previously\npurchased to the identical products in the current and proposed\ncatalogs. After filtering any 'bad' input that would skew the results,\nseveral values are computed and the code outputs the necessary figures\nto determine if a supplier's price file is acceptable. The code even\ndocuments each catalog result automatically so the historical changes\nare organized and noted in a csv.\n\nThis code is an exponential improvement to the manual process that was\nhistorically done. The end numbers are known in a matter of seconds as\nopposed to hours of Excel or Access analysis. For some suppliers, Excel\nis even incapable of uploading the entire catalog, thus making any\nanalysis nearly impossible. Python and Pandas have not only made the\nanalysts time more efficient but have opened the door for several\npossibilities.\n\nAlthough this code has greatly improved this continuous analysis, more\nadvanced techniques could potentially improve the process. The\ndepartment soon hopes to use a forecasted spend figure rather than a\nhistorical snapshot to project spend against the proposed catalog.\nMoving forward, having the analysts armed with Python knowledge,\nStrategic Sourcing hopes to yield more meaning through the daily flow of\nspend data through machine learning techniques.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/dIpLLwIVCYY/hqdefault.jpg",
+  "description": "For the University of California, Berkeley and San Francisco, a routine\nmanagement process of supplier price files used to be a time-consuming\nprocess. It is essential to analyze the sometimes tens of thousands of\nitems a supplier offers to make sure the University doesn't accept\nlarger price increases than is in compliance with a contract. A\nhistorical figure of past purchases is matched against the current and\nproposed catalogs and then analyzed to ultimately find out the\npercentage increase and number of products removed. Each Universities'\nmotivation is to not accept a file that has larger price increases than\ncontracted nor a file with several previously purchased products\nremoved.\n\nTo combat the tedious and time-consuming process of manually analyzing\nthe previous spend with the current and proposed files, a Python script\nwas written. This heavily uses Pandas as well as Numpy for computations.\nThe code uploads all three files as a dataframes and creates a common\nvariable to compare similar products. It matches what was previously\npurchased to the identical products in the current and proposed\ncatalogs. After filtering any 'bad' input that would skew the results,\nseveral values are computed and the code outputs the necessary figures\nto determine if a supplier's price file is acceptable. The code even\ndocuments each catalog result automatically so the historical changes\nare organized and noted in a csv.\n\nThis code is an exponential improvement to the manual process that was\nhistorically done. The end numbers are known in a matter of seconds as\nopposed to hours of Excel or Access analysis. For some suppliers, Excel\nis even incapable of uploading the entire catalog, thus making any\nanalysis nearly impossible. Python and Pandas have not only made the\nanalysts time more efficient but have opened the door for several\npossibilities.\n\nAlthough this code has greatly improved this continuous analysis, more\nadvanced techniques could potentially improve the process. The\ndepartment soon hopes to use a forecasted spend figure rather than a\nhistorical snapshot to project spend against the proposed catalog.\nMoving forward, having the analysts armed with Python knowledge,\nStrategic Sourcing hopes to yield more meaning through the daily flow of\nspend data through machine learning techniques.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=dIpLLwIVCYY",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2813,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-10",
+  "slug": "behind-the-scenes-of-the-university-and-supplier",
   "source_url": "http://www.youtube.com/watch?v=dIpLLwIVCYY",
-  "tags": [],
   "speakers": [
     "Alexis Perez"
   ],
-  "recorded": "2014-07-10"
+  "summary": "The University of California, Berkeley and San Francisco combined are\none of the largest buyers in the Bay Area. Historically, it has been a\ntime-consuming process to analyze suppliers' proposed price files and\nensure the University is not paying more than contracted. Through the\nuse of Pandas and Python, this once tedious and manual process can\nroutinely be done in a matter of a few seconds.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/dIpLLwIVCYY/hqdefault.jpg",
+  "title": "Behind the Scenes of the University and Supplier Relationship",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=dIpLLwIVCYY"
+    }
+  ]
 }

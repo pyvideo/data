@@ -1,24 +1,19 @@
 {
-  "id": 439,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--http-in-python--which-library-for-wha",
-  "title": "HTTP in Python: which library for what task?",
   "alias": "video/439/pycon-2011--http-in-python--which-library-for-wha",
-  "summary": "",
-  "description": "HTTP in Python: which library for what task?\n\nPresented by Augie Fackler\n\nHTTP is the lingua franca of the web, and many things done in Python\ndepend on it, yet HTTP in Python isn't always as good as one would\nexpect. It's well worth knowing the options and tradeoffs available.\n\nAbstract\n\nHTTP in Python is very much a mixed bag of available technology. What's\nimplemented mostly works well, but there are some frustrating gaps in\ndifferent libraries that are poorly documented. I've gone wading through\nevery HTTP library I can find for Python while trying to fix an obscure\nbug in Mercurial and decided to write my own. I'll cover what's\navailable today and why I'm starting from scratch with a completely new\nimplementation.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011HTTPInPythonWhichLibraryForWhatTask758.png",
+  "description": "HTTP in Python: which library for what task?\n\nPresented by Augie Fackler\n\nHTTP is the lingua franca of the web, and many things done in Python\ndepend on it, yet HTTP in Python isn't always as good as one would\nexpect. It's well worth knowing the options and tradeoffs available.\n\nAbstract\n\nHTTP in Python is very much a mixed bag of available technology. What's\nimplemented mostly works well, but there are some frustrating gaps in\ndifferent libraries that are poorly documented. I've gone wading through\nevery HTTP library I can find for Python while trying to fix an obscure\nbug in Mercurial and decided to write my own. I'll cover what's\navailable today and why I'm starting from scratch with a completely new\nimplementation.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/439_http-in-python-which-library-for-what-task.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 439,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--http-in-python--which-library-for-wha",
   "source_url": "",
+  "speakers": [
+    "Augie Fackler"
+  ],
+  "summary": "",
   "tags": [
     "httplib",
     "pycon",
@@ -26,8 +21,13 @@
     "pycurl",
     "urllib"
   ],
-  "speakers": [
-    "Augie Fackler"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011HTTPInPythonWhichLibraryForWhatTask758.png",
+  "title": "HTTP in Python: which library for what task?",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/439_http-in-python-which-library-for-what-task.mp4"
+    }
+  ]
 }

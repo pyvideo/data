@@ -1,27 +1,27 @@
 {
-  "id": 3583,
-  "category": "PyCon Italia 2015",
-  "slug": "messing-up-with-pymongo-for-fun-and-profit",
-  "title": "Messing up with PyMongo for fun and profit",
   "alias": "video/3583/messing-up-with-pymongo-for-fun-and-profit",
-  "summary": "",
-  "description": "BSON (Binary JSON) \u00e8 il formato di rappresentazione dei dati usato\ninternamente da MongoDB per la trasmissione e rappresentazione dei\ndocumenti salvati nel database. Ogni volta che si implementano delle API\nHTTP basate su MongoDB il driver (pymongo) riceve i dati in formato BSON\ne li deve convertire in un formato comprensibile da Python.\nSuccessivamente questi dati dovranno essere re-encodati nel formato\nusato dalle nostre API, solitamente JSON. Per qualcosa come una API REST\nche solitamente \u00e8 solo un proxy ai dati effettivi, l\u2019encoding/decoding\ndance pu\u00f2 arrivare a pesare pesantemente sulle performance riducendo il\nthroughput del nostro API Server. La presentazione mira a mostrare come\nstudiando il funzionamento interno di PyMONGO ed alterandone alcuni\nflussi si pu\u00f2 evitare in molti casi questo balletto e guadagnare\nsensibilmente in numero di richieste al secondo servite dal nostro\nambiente.\n",
-  "quality_notes": "",
-  "language": "Italian",
+  "category": "PyCon Italia 2015",
   "copyright_text": "",
-  "thumbnail_url": "https://i.ytimg.com/vi/CQfPq6wXyJI/maxresdefault.jpg",
+  "description": "BSON (Binary JSON) \u00e8 il formato di rappresentazione dei dati usato\ninternamente da MongoDB per la trasmissione e rappresentazione dei\ndocumenti salvati nel database. Ogni volta che si implementano delle API\nHTTP basate su MongoDB il driver (pymongo) riceve i dati in formato BSON\ne li deve convertire in un formato comprensibile da Python.\nSuccessivamente questi dati dovranno essere re-encodati nel formato\nusato dalle nostre API, solitamente JSON. Per qualcosa come una API REST\nche solitamente \u00e8 solo un proxy ai dati effettivi, l\u2019encoding/decoding\ndance pu\u00f2 arrivare a pesare pesantemente sulle performance riducendo il\nthroughput del nostro API Server. La presentazione mira a mostrare come\nstudiando il funzionamento interno di PyMONGO ed alterandone alcuni\nflussi si pu\u00f2 evitare in molti casi questo balletto e guadagnare\nsensibilmente in numero di richieste al secondo servite dal nostro\nambiente.\n",
   "duration": 1230,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=CQfPq6wXyJI",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3583,
+  "language": "Italian",
+  "quality_notes": "",
+  "recorded": "2015-05-30",
+  "slug": "messing-up-with-pymongo-for-fun-and-profit",
   "source_url": "https://www.youtube.com/watch?v=CQfPq6wXyJI",
-  "tags": [],
   "speakers": [
     "Alessandro Molina"
   ],
-  "recorded": "2015-05-30"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/CQfPq6wXyJI/maxresdefault.jpg",
+  "title": "Messing up with PyMongo for fun and profit",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CQfPq6wXyJI"
+    }
+  ]
 }

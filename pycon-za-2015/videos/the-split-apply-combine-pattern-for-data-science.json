@@ -1,29 +1,29 @@
 {
-  "id": 3931,
-  "category": "PyCon ZA 2015",
-  "slug": "the-split-apply-combine-pattern-for-data-science",
-  "title": "The Split-Apply-Combine Pattern for Data Science in Python",
   "alias": "video/3931/the-split-apply-combine-pattern-for-data-science",
-  "summary": "",
-  "description": "Many data science problems involve the application of a\nsplit-apply-combine pattern, where you break up a big dataset into\nindependent pieces, operate on each piece in isolation and then put all\nthe pieces back together. This crops up in all stages of a data\nanalysis:\n\n-  During data preparation, when performing group-wise ranking,\n   standardisation, or normalisation.\n\n-  During modelling, when fitting separate models to each group.\n\n-  During communication, when creating summaries or visualisations for\n   display or analysis.\n\nPython has many tools that make it easy to utilise this strategy when\nsolving data science problems. These range from list and dictionary\ncomprehensions in the language, the *map* and *reduce* functions and\n*itertools* and *functools* modules in the standard library to dedicated\npackages like *Pandas*, *PyToolz*, *Blaze* and *Dask*.\n\nExplicit recognition of the applicability of the pattern allows one to\nreuse standard components for the bookkeeping code that handles the\nsplitting and combining of the independent pieces. This allows one to\nconcentrate on the data analysis code that is unique to the problem at\nhand. Since implicit in the pattern is the independence of the pieces,\nits applicability immediately implies a strategy for parallelisation\nwhich allows one to easily scale one's solution from single core to\nout-of-core computation on multiple machines, often with only very few\nchanges to the code required.\n\nThis talk will introduce the pattern and how to recognise it by\npresenting some common code blocks. We will then look at some of the\ntools available, in particular *Pandas* and *PyToolz*, demonstrate their\nuse, and discuss their strengths and weaknesses. Finally we'll show how\nto take a simple analysis and parallelise it to process a dataset that\nis too large to fit in memory.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon ZA 2015",
   "copyright_text": "",
-  "thumbnail_url": "https://i.ytimg.com/vi/TjuRnguO62E/hqdefault.jpg",
+  "description": "Many data science problems involve the application of a\nsplit-apply-combine pattern, where you break up a big dataset into\nindependent pieces, operate on each piece in isolation and then put all\nthe pieces back together. This crops up in all stages of a data\nanalysis:\n\n-  During data preparation, when performing group-wise ranking,\n   standardisation, or normalisation.\n\n-  During modelling, when fitting separate models to each group.\n\n-  During communication, when creating summaries or visualisations for\n   display or analysis.\n\nPython has many tools that make it easy to utilise this strategy when\nsolving data science problems. These range from list and dictionary\ncomprehensions in the language, the *map* and *reduce* functions and\n*itertools* and *functools* modules in the standard library to dedicated\npackages like *Pandas*, *PyToolz*, *Blaze* and *Dask*.\n\nExplicit recognition of the applicability of the pattern allows one to\nreuse standard components for the bookkeeping code that handles the\nsplitting and combining of the independent pieces. This allows one to\nconcentrate on the data analysis code that is unique to the problem at\nhand. Since implicit in the pattern is the independence of the pieces,\nits applicability immediately implies a strategy for parallelisation\nwhich allows one to easily scale one's solution from single core to\nout-of-core computation on multiple machines, often with only very few\nchanges to the code required.\n\nThis talk will introduce the pattern and how to recognise it by\npresenting some common code blocks. We will then look at some of the\ntools available, in particular *Pandas* and *PyToolz*, demonstrate their\nuse, and discuss their strengths and weaknesses. Finally we'll show how\nto take a simple analysis and parallelise it to process a dataset that\nis too large to fit in memory.\n",
   "duration": 2371,
-  "videos": [
-    {
-      "url": "http://youtu.be/TjuRnguO62E",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3931,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2015-10-01",
+  "slug": "the-split-apply-combine-pattern-for-data-science",
   "source_url": "http://youtu.be/TjuRnguO62E",
-  "tags": [
-    "Room 211"
-  ],
   "speakers": [
     "Tobias Brandt"
   ],
-  "recorded": "2015-10-01"
+  "summary": "",
+  "tags": [
+    "Room 211"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/TjuRnguO62E/hqdefault.jpg",
+  "title": "The Split-Apply-Combine Pattern for Data Science in Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/TjuRnguO62E"
+    }
+  ]
 }

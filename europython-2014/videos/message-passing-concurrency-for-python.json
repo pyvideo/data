@@ -1,27 +1,27 @@
 {
-  "id": 3032,
-  "category": "EuroPython 2014",
-  "slug": "message-passing-concurrency-for-python",
-  "title": "Message-passing concurrency for Python",
   "alias": "video/3032/message-passing-concurrency-for-python",
-  "summary": "Concurrency and parallelism in Python are always hot topics. This talk\nwill look the variety of forms of concurrency and parallelism. In\nparticular this talk will give an overview of various forms of\nmessage-passing concurrency which have become popular in languages like\nScala and Go. A Python library called python-csp which implements\nsimilar ideas in a Pythonic way will be introduced and we will look at\nhow this style of programming can be used to avoid deadlocks, race\nhazards and \"callback hell\".\n",
-  "description": "Concurrency and parallelism in Python are always hot topics. Early\nPython versions had a threading library to perform concurrency over\noperating system threads, Python version 2.6 introduced the\nmultiprocessing library and Python 3.2 has introduced a futures library\nfor asynchronous tasks. In addition to the modules in the standard\nlibrary a number of packages such as gevent exist on PyPI to implement\nconcurrency with \"green threads\".\n\nThis talk will look the variety of forms of concurrency and parallelism.\nWhen are the different libraries useful and how does their performance\ncompare? Why do programmers want to \"remove the GIL\" and why is it so\nhard to do? In particular this talk will give an overview of various\nforms of message-passing concurrency which have become popular in\nlanguages like Scala and Go. A Python library called python-csp which\nimplements similar ideas in a Pythonic way will be introduced and we\nwill look at how this style of programming can be used to avoid\ndeadlocks, race hazards and \"callback hell\".\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/EsSdtvIGWAA/hqdefault.jpg",
+  "description": "Concurrency and parallelism in Python are always hot topics. Early\nPython versions had a threading library to perform concurrency over\noperating system threads, Python version 2.6 introduced the\nmultiprocessing library and Python 3.2 has introduced a futures library\nfor asynchronous tasks. In addition to the modules in the standard\nlibrary a number of packages such as gevent exist on PyPI to implement\nconcurrency with \"green threads\".\n\nThis talk will look the variety of forms of concurrency and parallelism.\nWhen are the different libraries useful and how does their performance\ncompare? Why do programmers want to \"remove the GIL\" and why is it so\nhard to do? In particular this talk will give an overview of various\nforms of message-passing concurrency which have become popular in\nlanguages like Scala and Go. A Python library called python-csp which\nimplements similar ideas in a Pythonic way will be introduced and we\nwill look at how this style of programming can be used to avoid\ndeadlocks, race hazards and \"callback hell\".\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=EsSdtvIGWAA",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3032,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-22",
+  "slug": "message-passing-concurrency-for-python",
   "source_url": "http://www.youtube.com/watch?v=EsSdtvIGWAA",
-  "tags": [],
   "speakers": [
     "Sarah Mount"
   ],
-  "recorded": "2014-07-22"
+  "summary": "Concurrency and parallelism in Python are always hot topics. This talk\nwill look the variety of forms of concurrency and parallelism. In\nparticular this talk will give an overview of various forms of\nmessage-passing concurrency which have become popular in languages like\nScala and Go. A Python library called python-csp which implements\nsimilar ideas in a Pythonic way will be introduced and we will look at\nhow this style of programming can be used to avoid deadlocks, race\nhazards and \"callback hell\".\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/EsSdtvIGWAA/hqdefault.jpg",
+  "title": "Message-passing concurrency for Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=EsSdtvIGWAA"
+    }
+  ]
 }

@@ -1,27 +1,27 @@
 {
-  "id": 2999,
-  "category": "EuroPython 2014",
-  "slug": "compress-me-stupid",
-  "title": "Compress Me, Stupid!",
   "alias": "video/2999/compress-me-stupid",
-  "summary": "Compression is a general technique for reducing the size of datasets\nthat normally lie on disk or that should be sent remotely. But time has\ncome to use it as a means to accelerate applications that uses in-memory\ndata too.\n\n`Blosc <http://www.blosc.org>`__ is a high-performance meta-compressor\nthat is meant to do that.\n",
-  "description": "Compression is a technique to reduce the number of bits needed to\nrepresent a given dataset. A very common use-case in the distributed\ndigital age is to reduce the size of files in order to reduce the time\nand bandwidth requirements of sending a file from one location to\nanother.\n\nThere are a large variety of different algorithms and implementations of\nso called \"codecs\" - a term is derived from the fact that programs that\nimplement a compression algorithm commonly constitute of both a\ncompressor and a corresponding decompressor. There are many different\nspecial purpose compressors that exploit specifics in the structure of\nthe input data, for example: MP3, Ogg and FLAC for audio data such as\nmusic, GIF, JPEG and PNG for images and MPEG for encoding video. Also,\nthere are many general purpose codecs that make no assumptions about the\nstructure of the data, for example: Zlib(DEFLATE), Bzip2(BWT) and LZMA.\n\nHowever, and due to the ever growing divide between memory access\nlatency and CPU clock speed a new use-case beyond faster file transfers\nand more efficient use of disk-space has emerged: \"in-memory\ncompression\".\n\nKeeping data in RAM that is compressed also means that the CPU has to do\nmore work in order to make use of it. However, if the compressor is fast\nenough, this decompression overhead could pay off, and applications\ncould work with compressed data transparently, and so not even noticing\nthe slowdown due to the extra effort for compression/decompression.\n\nThis technique can be very beneficial in a variety of scenarios where\nRAM availability is critical. For example, in-memory caching systems\nlike Memcached or Redis could store more data using the same resources\nthereby optimizing resource usage. Another use case is to use\ncompression for in-memory data containers, \u00e0 la NumPy's ndarray or\nPandas' DataFrame, allowing for improved memory usage and potentially\nallow for accelerated computations.\n\nIn our talk, we will explain first why we are in a moment of computer\nhistory that `in-memory compression can be beneficial for modern\napplications <http://www.pytables.org/docs/CISE-12-2-ScientificPro.pdf>`__.\n\nThen, we will introduce `Blosc <http://www.blosc.org>`__, a high speed\nmeta-compressor, allowing other existing compressors (BloscLZ, LZ4,\nSnappy or even Zlib) to leverage the SIMD and multithreading framework\nthat it provides and help achieving extremely fast operation (frequently\nfaster than a plain memcpy() system call).\n\nFinally, we will show some existing data handling libraries\n(`Bloscpack <https://github.com/Blosc/bloscpack>`__,\n`PyTables <http://www.pytables.org>`__,\n`BLZ <http://continuum.io/blog/blz-format>`__) -- all written in Python\n-- that already use Blosc today for fulfilling the promise of faster\noperations by doing in-memory compressing.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2014",
   "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
-  "thumbnail_url": "http://i.ytimg.com/vi/rilU44j_wUU/hqdefault.jpg",
+  "description": "Compression is a technique to reduce the number of bits needed to\nrepresent a given dataset. A very common use-case in the distributed\ndigital age is to reduce the size of files in order to reduce the time\nand bandwidth requirements of sending a file from one location to\nanother.\n\nThere are a large variety of different algorithms and implementations of\nso called \"codecs\" - a term is derived from the fact that programs that\nimplement a compression algorithm commonly constitute of both a\ncompressor and a corresponding decompressor. There are many different\nspecial purpose compressors that exploit specifics in the structure of\nthe input data, for example: MP3, Ogg and FLAC for audio data such as\nmusic, GIF, JPEG and PNG for images and MPEG for encoding video. Also,\nthere are many general purpose codecs that make no assumptions about the\nstructure of the data, for example: Zlib(DEFLATE), Bzip2(BWT) and LZMA.\n\nHowever, and due to the ever growing divide between memory access\nlatency and CPU clock speed a new use-case beyond faster file transfers\nand more efficient use of disk-space has emerged: \"in-memory\ncompression\".\n\nKeeping data in RAM that is compressed also means that the CPU has to do\nmore work in order to make use of it. However, if the compressor is fast\nenough, this decompression overhead could pay off, and applications\ncould work with compressed data transparently, and so not even noticing\nthe slowdown due to the extra effort for compression/decompression.\n\nThis technique can be very beneficial in a variety of scenarios where\nRAM availability is critical. For example, in-memory caching systems\nlike Memcached or Redis could store more data using the same resources\nthereby optimizing resource usage. Another use case is to use\ncompression for in-memory data containers, \u00e0 la NumPy's ndarray or\nPandas' DataFrame, allowing for improved memory usage and potentially\nallow for accelerated computations.\n\nIn our talk, we will explain first why we are in a moment of computer\nhistory that `in-memory compression can be beneficial for modern\napplications <http://www.pytables.org/docs/CISE-12-2-ScientificPro.pdf>`__.\n\nThen, we will introduce `Blosc <http://www.blosc.org>`__, a high speed\nmeta-compressor, allowing other existing compressors (BloscLZ, LZ4,\nSnappy or even Zlib) to leverage the SIMD and multithreading framework\nthat it provides and help achieving extremely fast operation (frequently\nfaster than a plain memcpy() system call).\n\nFinally, we will show some existing data handling libraries\n(`Bloscpack <https://github.com/Blosc/bloscpack>`__,\n`PyTables <http://www.pytables.org>`__,\n`BLZ <http://continuum.io/blog/blz-format>`__) -- all written in Python\n-- that already use Blosc today for fulfilling the promise of faster\noperations by doing in-memory compressing.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=rilU44j_wUU",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2999,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-23",
+  "slug": "compress-me-stupid",
   "source_url": "http://www.youtube.com/watch?v=rilU44j_wUU",
-  "tags": [],
   "speakers": [
     "Valentin Haenal"
   ],
-  "recorded": "2014-07-23"
+  "summary": "Compression is a general technique for reducing the size of datasets\nthat normally lie on disk or that should be sent remotely. But time has\ncome to use it as a means to accelerate applications that uses in-memory\ndata too.\n\n`Blosc <http://www.blosc.org>`__ is a high-performance meta-compressor\nthat is meant to do that.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/rilU44j_wUU/hqdefault.jpg",
+  "title": "Compress Me, Stupid!",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=rilU44j_wUU"
+    }
+  ]
 }

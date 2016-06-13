@@ -1,27 +1,27 @@
 {
-  "id": 2800,
-  "category": "SciPy 2014",
-  "slug": "a-success-story-in-using-python-in-a-graduate-che",
-  "title": "A Success Story in Using Python in a Graduate Chemical Engineering Course",
   "alias": "video/2800/a-success-story-in-using-python-in-a-graduate-che",
-  "summary": "I recently used Python in a new required graduate level chemical\nreaction engineering core course. The course was taken by 60 Master's\nstudents with a broad set of educational backgrounds and programming\nexperience. Several factors contributed to the success of this course,\nwhich I will present and discuss. Based on my experience, it is feasible\nto use Python in engineering courses.\n",
-  "description": "Historically, Matlab has been the primary math software tool used in our\ncourses on Chemical Engineering. Last year, I taught the first course in\nthe department using Python. In this talk I will present how I did that,\nand why it was possible. The first step was demonstrating that Python +\nnumpy + scipy + matplotlib can solve all the problems we used to solve\nwith Matlab. This was documented in a project called PYCSE through a\nseries of over one hundred blog posts and organized in a web site\n(`1 <http://kitchingroup.cheme.cmu.edu/pycse>`__). Second, the\ndevelopment of Python distributions such as Enthought Canopy made it\npossible to students to easily install and use Python. I had to augment\nthis with some additional functionality with PYCSE\n(`2 <http://github.com/jkitchin/pycse>`__) which adds some statistical\nanalysis, differential equation solvers, numerical differentiation\nfunctions and a publish function to convert Python scripts to PDF files\nwith captured output for grading. The only feature of Python missing is\na robust units package; several partial solutions exist, but none solve\nall the needs of engineering calculations. Third, Emacs + org-mode\nenabled me to write the course notes with integrated Python code and\noutput. These notes were provided to the students in PDF form, and\nannotated during lecture using a tablet PC. Finally, the course was\nadministered with box.com and a custom python module to automate\nassignment collection and return\n(`3 <https://github.com/jkitchin/box-course>`__). An integrated grade\nwidget in the PDF files that was created when the students published\ntheir assignments was used to aggregate the grades for the gradebook. I\nused an innovative homework schedule of one problem every 2-4 days with\nrapid feedback to keep students using Python frequently. We used timed\nquizzes and online exams to assess their learning. Overall, the course\nwas successful. Student evaluations of the course were as good as\ncourses that used other software packages. Based on my experiences, I\nwill continue to use Python and expand its role in engineering\neducation.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/IsSMs-4GlT8/hqdefault.jpg",
+  "description": "Historically, Matlab has been the primary math software tool used in our\ncourses on Chemical Engineering. Last year, I taught the first course in\nthe department using Python. In this talk I will present how I did that,\nand why it was possible. The first step was demonstrating that Python +\nnumpy + scipy + matplotlib can solve all the problems we used to solve\nwith Matlab. This was documented in a project called PYCSE through a\nseries of over one hundred blog posts and organized in a web site\n(`1 <http://kitchingroup.cheme.cmu.edu/pycse>`__). Second, the\ndevelopment of Python distributions such as Enthought Canopy made it\npossible to students to easily install and use Python. I had to augment\nthis with some additional functionality with PYCSE\n(`2 <http://github.com/jkitchin/pycse>`__) which adds some statistical\nanalysis, differential equation solvers, numerical differentiation\nfunctions and a publish function to convert Python scripts to PDF files\nwith captured output for grading. The only feature of Python missing is\na robust units package; several partial solutions exist, but none solve\nall the needs of engineering calculations. Third, Emacs + org-mode\nenabled me to write the course notes with integrated Python code and\noutput. These notes were provided to the students in PDF form, and\nannotated during lecture using a tablet PC. Finally, the course was\nadministered with box.com and a custom python module to automate\nassignment collection and return\n(`3 <https://github.com/jkitchin/box-course>`__). An integrated grade\nwidget in the PDF files that was created when the students published\ntheir assignments was used to aggregate the grades for the gradebook. I\nused an innovative homework schedule of one problem every 2-4 days with\nrapid feedback to keep students using Python frequently. We used timed\nquizzes and online exams to assess their learning. Overall, the course\nwas successful. Student evaluations of the course were as good as\ncourses that used other software packages. Based on my experiences, I\nwill continue to use Python and expand its role in engineering\neducation.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=IsSMs-4GlT8",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2800,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-13",
+  "slug": "a-success-story-in-using-python-in-a-graduate-che",
   "source_url": "http://www.youtube.com/watch?v=IsSMs-4GlT8",
-  "tags": [],
   "speakers": [
     "John Kitchin"
   ],
-  "recorded": "2014-07-13"
+  "summary": "I recently used Python in a new required graduate level chemical\nreaction engineering core course. The course was taken by 60 Master's\nstudents with a broad set of educational backgrounds and programming\nexperience. Several factors contributed to the success of this course,\nwhich I will present and discuss. Based on my experience, it is feasible\nto use Python in engineering courses.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/IsSMs-4GlT8/hqdefault.jpg",
+  "title": "A Success Story in Using Python in a Graduate Chemical Engineering Course",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=IsSMs-4GlT8"
+    }
+  ]
 }

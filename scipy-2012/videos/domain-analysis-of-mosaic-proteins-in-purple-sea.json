@@ -1,34 +1,34 @@
 {
-  "id": 1241,
-  "category": "SciPy 2012",
-  "slug": "domain-analysis-of-mosaic-proteins-in-purple-sea",
-  "title": "Domain Analysis of Mosaic Proteins in Purple Sea Urchin",
   "alias": "video/1241/domain-analysis-of-mosaic-proteins-in-purple-sea",
-  "summary": "",
-  "description": "Purple sea urchins (Strongylocentrotus purpuratus or Sp) are\ninvertebrates that share more than 7,000 genes with humans, more than\nother common model invertebrate organisms like fruit flies and worms. In\naddition, the innate immune system of sea urchins demonstrates\nunprecedented complexity. These factors make the sea urchin a very\ninteresting organism for investigations of immunology. Of particular\ninterest are the set of proteins in SP that contain C-type lectin\n(CLECT) domains, a functional region in the protein which recognizes\nsugars. Proteins containing CLECTs may be particularly important to\nimmune system robustness because of sugars that are present on\npathogens.\n\nThe primary goals of this research project are first to identify all the\nCLECT-containing proteins in the Sp genome, and then to predict their\nfunction based on similarity to characterized proteins in other species\n(protein homology or similarity). The latter goal is particularly\nchallenging and requires new and creative analysis methods.\n\nFrom an informational viewpoint, proteins are represented by a unique\nsequence of letters, each letter corresponding to an amino acid. For\nexample G-A-V indicates the sequence glycine, alanine and valine.\nCommonality between proteins is usually measured by sequence alignments;\nthat is, by directly comparing the sequence of letters between two\nproteins. Algorithms and tools for these alignments are among the most\nstandardized and available tools in bioinformatics.\n\nSequence similarity between homologous proteins can degrade over long\nevolutionary timescales. This is in part because some mutations at the\nsequence level can occur without compromising a protein's overall\nfunction. This is akin to the evolution of a language, e.g modern\nEnglish and middle English, which initially appear to be separate\nlanguages due to spelling differences. Because domains are regions of a\nprotein which can function semi- independently, they are less prone to\naccommodate mutations. By comparing proteins based on the ordering of\ntheir domains, or their \"domain architecture\", it becomes possible to\nidentify homology, or similarities in domain order, separated by\nextensive evolution.\n\nAlignment tools based on domain architecture are promising, but are\nstill in their infancy. Consequently, very few researchers utilize both\nsequence and domain alignment methodologies corroboratively. Using\nPython scripts in tandem with various web tools and databases, we have\nidentified the top alignment candidates for the CLECT-containing Sp\nproteins using both methods. With the help of the Enthought Tool Suite,\nwe have created a simple visualization tool that allows users to examine\nthe sequence alignments side-by-side with two types of domain\nalignments. The information provided by these three results together is\nmuch more informative with respect to predicting protein function than\nany single method alone. Finally, we have developed a systematic set of\nheuristic rules to allow users to make objective comparisons among the\nthree sets of results. The results can later be parsed using Python\nscripts to make quantitative and qualitative assessments of the dataset.\nWe believe that these new comparison and visualization techniques will\napply in general to computational proteomics.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2012",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "http://i1.ytimg.com/vi/l4x23L-mSfk/hqdefault.jpg",
+  "description": "Purple sea urchins (Strongylocentrotus purpuratus or Sp) are\ninvertebrates that share more than 7,000 genes with humans, more than\nother common model invertebrate organisms like fruit flies and worms. In\naddition, the innate immune system of sea urchins demonstrates\nunprecedented complexity. These factors make the sea urchin a very\ninteresting organism for investigations of immunology. Of particular\ninterest are the set of proteins in SP that contain C-type lectin\n(CLECT) domains, a functional region in the protein which recognizes\nsugars. Proteins containing CLECTs may be particularly important to\nimmune system robustness because of sugars that are present on\npathogens.\n\nThe primary goals of this research project are first to identify all the\nCLECT-containing proteins in the Sp genome, and then to predict their\nfunction based on similarity to characterized proteins in other species\n(protein homology or similarity). The latter goal is particularly\nchallenging and requires new and creative analysis methods.\n\nFrom an informational viewpoint, proteins are represented by a unique\nsequence of letters, each letter corresponding to an amino acid. For\nexample G-A-V indicates the sequence glycine, alanine and valine.\nCommonality between proteins is usually measured by sequence alignments;\nthat is, by directly comparing the sequence of letters between two\nproteins. Algorithms and tools for these alignments are among the most\nstandardized and available tools in bioinformatics.\n\nSequence similarity between homologous proteins can degrade over long\nevolutionary timescales. This is in part because some mutations at the\nsequence level can occur without compromising a protein's overall\nfunction. This is akin to the evolution of a language, e.g modern\nEnglish and middle English, which initially appear to be separate\nlanguages due to spelling differences. Because domains are regions of a\nprotein which can function semi- independently, they are less prone to\naccommodate mutations. By comparing proteins based on the ordering of\ntheir domains, or their \"domain architecture\", it becomes possible to\nidentify homology, or similarities in domain order, separated by\nextensive evolution.\n\nAlignment tools based on domain architecture are promising, but are\nstill in their infancy. Consequently, very few researchers utilize both\nsequence and domain alignment methodologies corroboratively. Using\nPython scripts in tandem with various web tools and databases, we have\nidentified the top alignment candidates for the CLECT-containing Sp\nproteins using both methods. With the help of the Enthought Tool Suite,\nwe have created a simple visualization tool that allows users to examine\nthe sequence alignments side-by-side with two types of domain\nalignments. The information provided by these three results together is\nmuch more informative with respect to predicting protein function than\nany single method alone. Finally, we have developed a systematic set of\nheuristic rules to allow users to make objective comparisons among the\nthree sets of results. The results can later be parsed using Python\nscripts to make quantitative and qualitative assessments of the dataset.\nWe believe that these new comparison and visualization techniques will\napply in general to computational proteomics.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Domain_Analysis_of_Mosaic_Prot.mp4?Signature=sk5dC792%2F9McCWo60IdAhf4LCUU%3D&Expires=1346383398&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=l4x23L-mSfk",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1241,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-19",
+  "slug": "domain-analysis-of-mosaic-proteins-in-purple-sea",
   "source_url": "https://www.youtube.com/watch?v=l4x23L-mSfk",
-  "tags": [
-    "Bioinformatics Mini-Symposia"
-  ],
   "speakers": [
     "Adam Hughes"
   ],
-  "recorded": "2012-07-19"
+  "summary": "",
+  "tags": [
+    "Bioinformatics Mini-Symposia"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/l4x23L-mSfk/hqdefault.jpg",
+  "title": "Domain Analysis of Mosaic Proteins in Purple Sea Urchin",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Domain_Analysis_of_Mosaic_Prot.mp4?Signature=sk5dC792%2F9McCWo60IdAhf4LCUU%3D&Expires=1346383398&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=l4x23L-mSfk"
+    }
+  ]
 }

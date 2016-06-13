@@ -1,34 +1,34 @@
 {
-  "id": 1207,
-  "category": "SciPy 2012",
-  "slug": "scipy-mapreduce-with-disco",
-  "title": "SciPy + MapReduce with Disco",
   "alias": "video/1207/scipy-mapreduce-with-disco",
-  "summary": "",
-  "description": "MapReduce has become one of two dominant paradigms in distributed\ncomputing (along with MPI). Yet many times, implementing an algorithm as\na MapReduce job - especially in Python - forces us to sacrifice\nefficiency (BLAS routines, etc.) in favor of data parallelism.\n\nIn my work, which involves writing distributed learning algorithms for\nprocessing terabytes of Twitter data at SocialFlow, I've come to\nadvocate a form of \"vectorized MapReduce\" which integrates efficient\nnumerical libraries like numpy/scipy into the MapReduce setting,\nyielding both faster per-machine performance and reduced I/O, which is\noften a major bottleneck. I'll also highlight some features of Disco (a\nPython/Erlang MapReduce implementation from Nokia) which make it a very\ncompelling choice for writing scientific MapReduce jobs in Python.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2012",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "http://i4.ytimg.com/vi/ofCddrXkw0U/hqdefault.jpg",
+  "description": "MapReduce has become one of two dominant paradigms in distributed\ncomputing (along with MPI). Yet many times, implementing an algorithm as\na MapReduce job - especially in Python - forces us to sacrifice\nefficiency (BLAS routines, etc.) in favor of data parallelism.\n\nIn my work, which involves writing distributed learning algorithms for\nprocessing terabytes of Twitter data at SocialFlow, I've come to\nadvocate a form of \"vectorized MapReduce\" which integrates efficient\nnumerical libraries like numpy/scipy into the MapReduce setting,\nyielding both faster per-machine performance and reduced I/O, which is\noften a major bottleneck. I'll also highlight some features of Disco (a\nPython/Erlang MapReduce implementation from Nokia) which make it a very\ncompelling choice for writing scientific MapReduce jobs in Python.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/SciPy_MapReduce_with_Disco.mp4?Signature=l4OuPT0vYgqgVL9CDSXQ2BPjZJk%3D&Expires=1346381520&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "http://youtube.com/watch?v=ofCddrXkw0U",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1207,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-18",
+  "slug": "scipy-mapreduce-with-disco",
   "source_url": "http://youtube.com/watch?v=ofCddrXkw0U",
-  "tags": [
-    "hpc"
-  ],
   "speakers": [
     "Al Barrentine"
   ],
-  "recorded": "2012-07-18"
+  "summary": "",
+  "tags": [
+    "hpc"
+  ],
+  "thumbnail_url": "http://i4.ytimg.com/vi/ofCddrXkw0U/hqdefault.jpg",
+  "title": "SciPy + MapReduce with Disco",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/SciPy_MapReduce_with_Disco.mp4?Signature=l4OuPT0vYgqgVL9CDSXQ2BPjZJk%3D&Expires=1346381520&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtube.com/watch?v=ofCddrXkw0U"
+    }
+  ]
 }

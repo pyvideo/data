@@ -1,27 +1,27 @@
 {
-  "id": 2781,
-  "category": "SciPy 2014",
-  "slug": "light-weight-real-time-event-detection-with-pytho",
-  "title": "Light-weight real-time event detection with Python",
   "alias": "video/2781/light-weight-real-time-event-detection-with-pytho",
-  "summary": "Real-time feeds of user activity from various apps such as Twitter,\nFoursquare, and others are becoming increasingly available. These\n'digital footprints' provide new means to understand how individuals\nutilize the places and spaces of urban environments. We present a\nlight-weight framework for real-time event detection in a city based on\nexisting SciPy libraries and real-time Twitter streams.\n",
-  "description": "In this paper, we utilize real-time 'social information sources' to\nautomatically detect important events at the urban scale. The goal is to\nprovide city planners and others with information on *what* is going on,\nand *when* and *where* it is happening. Traditionally, this type of\nanalysis would require a large investment in heavy-duty computing\ninfrastructure, however, we suggest that a focus on real-time analytics\nin a lightweight streaming framework is the most logical step forward.\n\nUsing online Latent Semantic Analysis (LSA) from the\n```gensim`` <https://github.com/piskvorky/gensim/>`__ Python package, we\nextract 'topics' from tweets in an online training fashion. To maintain\nreal-time relevance, the topic model is continually updated, and\ndepending on parameterization, can 'forget' past topics. Based on a set\nof learned topics, a grid of spatially located tweets for each\nidentified topic is generated using standard ``numpy`` and\n``scipy.spatial`` functionality. Using an efficient streaming algorithm\nfor approximating 2D kernel density estimation (KDE), locations with the\nhighest density of tweets on a particular topic are located. Locations\nare semantically labeled using the learned topics, based on the\nassumption that events can be directly tied to a particularly popular\ntopic at a particular location.\n\nTo facilitate real time visualization of results, we utilize the\n```pico`` <https://github.com/fergalwalsh/pico>`__ Python/Javascript\nlibrary as a real-time bridge between server-side Python analysis and\nclient-side Javascript visualization. This enables fast, responsive\ninteractivity of computationally intensive tasks. Additionally, since\n``pico`` allows streaming data from Python to Javascript, updates to the\nweb-interface are sent and consumed as needed, such that only\nsignificant changes in an event's status, or the introduction of a new\nevent, will cause updates to the visualizations. Finally, because all\nmodels, data structures, and outputs on the server side are pickle-able\nPython objects, this entire framework is small enough to be deployed on\nalmost any server with Python installed.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2014",
   "copyright_text": "http://www.youtube.com/t/terms",
-  "thumbnail_url": "http://i1.ytimg.com/vi/iT_QmeJsBhE/hqdefault.jpg",
+  "description": "In this paper, we utilize real-time 'social information sources' to\nautomatically detect important events at the urban scale. The goal is to\nprovide city planners and others with information on *what* is going on,\nand *when* and *where* it is happening. Traditionally, this type of\nanalysis would require a large investment in heavy-duty computing\ninfrastructure, however, we suggest that a focus on real-time analytics\nin a lightweight streaming framework is the most logical step forward.\n\nUsing online Latent Semantic Analysis (LSA) from the\n```gensim`` <https://github.com/piskvorky/gensim/>`__ Python package, we\nextract 'topics' from tweets in an online training fashion. To maintain\nreal-time relevance, the topic model is continually updated, and\ndepending on parameterization, can 'forget' past topics. Based on a set\nof learned topics, a grid of spatially located tweets for each\nidentified topic is generated using standard ``numpy`` and\n``scipy.spatial`` functionality. Using an efficient streaming algorithm\nfor approximating 2D kernel density estimation (KDE), locations with the\nhighest density of tweets on a particular topic are located. Locations\nare semantically labeled using the learned topics, based on the\nassumption that events can be directly tied to a particularly popular\ntopic at a particular location.\n\nTo facilitate real time visualization of results, we utilize the\n```pico`` <https://github.com/fergalwalsh/pico>`__ Python/Javascript\nlibrary as a real-time bridge between server-side Python analysis and\nclient-side Javascript visualization. This enables fast, responsive\ninteractivity of computationally intensive tasks. Additionally, since\n``pico`` allows streaming data from Python to Javascript, updates to the\nweb-interface are sent and consumed as needed, such that only\nsignificant changes in an event's status, or the introduction of a new\nevent, will cause updates to the visualizations. Finally, because all\nmodels, data structures, and outputs on the server side are pickle-able\nPython objects, this entire framework is small enough to be deployed on\nalmost any server with Python installed.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=iT_QmeJsBhE",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2781,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2014-07-14",
+  "slug": "light-weight-real-time-event-detection-with-pytho",
   "source_url": "http://www.youtube.com/watch?v=iT_QmeJsBhE",
-  "tags": [],
   "speakers": [
     "Carson Farmer"
   ],
-  "recorded": "2014-07-14"
+  "summary": "Real-time feeds of user activity from various apps such as Twitter,\nFoursquare, and others are becoming increasingly available. These\n'digital footprints' provide new means to understand how individuals\nutilize the places and spaces of urban environments. We present a\nlight-weight framework for real-time event detection in a city based on\nexisting SciPy libraries and real-time Twitter streams.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/iT_QmeJsBhE/hqdefault.jpg",
+  "title": "Light-weight real-time event detection with Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=iT_QmeJsBhE"
+    }
+  ]
 }

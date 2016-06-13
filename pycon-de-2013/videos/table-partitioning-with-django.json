@@ -1,32 +1,32 @@
 {
-  "id": 2435,
-  "category": "PyCon DE 2013",
-  "slug": "table-partitioning-with-django",
-  "title": "Table Partitioning with Django",
   "alias": "video/2435/table-partitioning-with-django",
-  "summary": "Table partitioning can be thought of as a division of one large table\ninto several smaller tables which represent that original table. Table\npartitioning is \"transparent\", that means that in theory you don't need\nto change any code to work with partitioned tables.\n\nWe will talk about table partitioning theory in general and\nimplementations in different database servers. Why and when we need to\ndo table partitioning. What problems we can face and how we can solve\nthem.\n\nDjango provides us with great database abstraction and ORM, but how can\nwe use it with table partitioning ? We will talk about existing\nlibraries for Django to work with table partitioning, their differences,\nwhich is the best (if any) and why.\n",
-  "description": "",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon DE 2013",
   "copyright_text": "",
-  "thumbnail_url": "http://i1.ytimg.com/vi/1VyTtm2YheY/hqdefault.jpg",
+  "description": "",
   "duration": 30,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=1VyTtm2YheY",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 2435,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2013-10-17",
+  "slug": "table-partitioning-with-django",
   "source_url": "https://www.youtube.com/watch?v=1VyTtm2YheY",
+  "speakers": [
+    "Max Tepkeev"
+  ],
+  "summary": "Table partitioning can be thought of as a division of one large table\ninto several smaller tables which represent that original table. Table\npartitioning is \"transparent\", that means that in theory you don't need\nto change any code to work with partitioned tables.\n\nWe will talk about table partitioning theory in general and\nimplementations in different database servers. Why and when we need to\ndo table partitioning. What problems we can face and how we can solve\nthem.\n\nDjango provides us with great database abstraction and ORM, but how can\nwe use it with table partitioning ? We will talk about existing\nlibraries for Django to work with table partitioning, their differences,\nwhich is the best (if any) and why.\n",
   "tags": [
     "database",
     "django",
     "partition",
     "partitioning"
   ],
-  "speakers": [
-    "Max Tepkeev"
-  ],
-  "recorded": "2013-10-17"
+  "thumbnail_url": "http://i1.ytimg.com/vi/1VyTtm2YheY/hqdefault.jpg",
+  "title": "Table Partitioning with Django",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1VyTtm2YheY"
+    }
+  ]
 }

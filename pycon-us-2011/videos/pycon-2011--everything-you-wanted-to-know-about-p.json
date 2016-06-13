@@ -1,32 +1,32 @@
 {
-  "id": 384,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--everything-you-wanted-to-know-about-p",
-  "title": "Everything You Wanted To Know About Pickling, But Were Afraid To Ask!",
   "alias": "video/384/pycon-2011--everything-you-wanted-to-know-about-p",
-  "summary": "",
-  "description": "Everything You Wanted To Know About Pickling, But Were Afraid To Ask!\n\nPresented by Richard T. Saunders\n\nSerializing data structures (in Python-speak \"pickling\") to save to\ndisk/socket is an important tool for the programmer: We will discuss how\nthe pickling protocols (0,1,2, and 3) work as well as real-world issues\n(gotchas, backwards-compatibility, etc). We will concentrate on the\nbasics of this stack-based protocol: what it looks like, how to\nencode/decode, speeds of different implementations.\n\nAbstract\n\nThe Pickling Protocols are a fundamental tool for saving state.\n\nWe will discuss the differences between text serialization and Python\npickling (as well as marshalling, and simple bit-blitting).\n\nWe will spend a little time discussing history: why there is a cPickle\nand pickle module in 2.x and only pickle in 3.x., and why there are 4\ndifferent protocols: 0,1,2 and 3.\n\nWe will then dive right in and look at how the stack-based protocol\nworks. We will concentrate on the basics (the stack-based machine), as\nall the protocols adhere to this basic model, but tend to discuss the\nmore recent protocols and their differences. We will also discuss how\nthe memoization scheme works.\n\nWe will show some simple examples and then build to more complex\nexamples.\n\nWe will also discuss the relative speeds: the different protocols (text,\n0,1,2,3) and the different implementations (Python, Boost,\nPicklingTools, IronPython?, PyPy? Unladen Swallow?).\n\nWe will end with some real-world advice and some gotchas to watch out\nfor (32-bit vs. 64-bit, different versions of Python serialize\ndifferently, etc.).\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011EverythingYouWantedToKnowAboutPicklingButWere385.png",
+  "description": "Everything You Wanted To Know About Pickling, But Were Afraid To Ask!\n\nPresented by Richard T. Saunders\n\nSerializing data structures (in Python-speak \"pickling\") to save to\ndisk/socket is an important tool for the programmer: We will discuss how\nthe pickling protocols (0,1,2, and 3) work as well as real-world issues\n(gotchas, backwards-compatibility, etc). We will concentrate on the\nbasics of this stack-based protocol: what it looks like, how to\nencode/decode, speeds of different implementations.\n\nAbstract\n\nThe Pickling Protocols are a fundamental tool for saving state.\n\nWe will discuss the differences between text serialization and Python\npickling (as well as marshalling, and simple bit-blitting).\n\nWe will spend a little time discussing history: why there is a cPickle\nand pickle module in 2.x and only pickle in 3.x., and why there are 4\ndifferent protocols: 0,1,2 and 3.\n\nWe will then dive right in and look at how the stack-based protocol\nworks. We will concentrate on the basics (the stack-based machine), as\nall the protocols adhere to this basic model, but tend to discuss the\nmore recent protocols and their differences. We will also discuss how\nthe memoization scheme works.\n\nWe will show some simple examples and then build to more complex\nexamples.\n\nWe will also discuss the relative speeds: the different protocols (text,\n0,1,2,3) and the different implementations (Python, Boost,\nPicklingTools, IronPython?, PyPy? Unladen Swallow?).\n\nWe will end with some real-world advice and some gotchas to watch out\nfor (32-bit vs. 64-bit, different versions of Python serialize\ndifferently, etc.).\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/384_everything-you-wanted-to-know-about-pickling-but-were-afraid-to-ask.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 384,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--everything-you-wanted-to-know-about-p",
   "source_url": "",
+  "speakers": [
+    "Richard T. Saunders"
+  ],
+  "summary": "",
   "tags": [
     "pickling",
     "pycon",
     "pycon2011",
     "serialization"
   ],
-  "speakers": [
-    "Richard T. Saunders"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011EverythingYouWantedToKnowAboutPicklingButWere385.png",
+  "title": "Everything You Wanted To Know About Pickling, But Were Afraid To Ask!",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/384_everything-you-wanted-to-know-about-pickling-but-were-afraid-to-ask.mp4"
+    }
+  ]
 }

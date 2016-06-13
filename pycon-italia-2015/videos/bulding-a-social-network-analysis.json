@@ -1,27 +1,27 @@
 {
-  "id": 3575,
-  "category": "PyCon Italia 2015",
-  "slug": "bulding-a-social-network-analysis",
-  "title": "Bulding a social network analysis",
   "alias": "video/3575/bulding-a-social-network-analysis",
-  "summary": "",
-  "description": "Every conversation has a structure. The network formed by the persons\nwho interact in the conversations inside an online community can thus be\nanalysed with the tools of the network science to understand their\ncharacteristics. Enriching online conversations with social network\nanalysis we hope to be able to give community moderators tools that\ncould help them to build better communities and guide the collective\nintelligence processes inside them. The great vision in this is to be\nable to contribute to building the engines that could help us to build\neffective platforms for participatory democracy ( a better overview on\nthese theme is explained by my colleague Alberto Cottica in this TEDx\ntalk: https://www.youtube.com/watch?v=KKrM2c-ww\\_k )\n\nEdgesense is our attempt at making tools for social network analysis\naccessible to all those that could gain the most from them but maybe did\nnot yet know their potential. Edgesense is built around a set of scripts\nthat process the community data and extract the most relevant network\nmetrics and the network structure and a dashboard that is able to\npresent them giving a clear view of them. Through the dashboard\ncommunity managers can for the first time see in a glimpse who is\ntalking to who, which users are central to the community and those who\nare on the periphery. They can see which sub-communities are developing\ninside the larger online conversation and who is acting as a bridge\nbetween them.This is very useful to guide the conversation or to\ndetermine which users have the most authority (through measures of\ncentrality or \u201cpagerank\")\n\nPython has been central to the development of Edgesense it has made\npossible to create a processing pipeline that takes the data from\nvarious sources (Drupal community sites, twitter conversations, mailing\nlists data) and builds the network of interactions among the users.\nPython has also enabled us to choose from a very rich library of social\nnetwork analysis algorithms to calculate the metrics that we are\npresenting in the dashboard to help understand the social interactions.\n\nDuring this talk we\u2019ll look at which choices we were required when\nbuilding a data processing application that takes real-life data,\nextracts useful informations and prepares t for visualisation. We\u2019ll see\na primer on the network science required to interpret the structure of\nthe users community and how the algorithms and the metrics were chosen.\nWe\u2019ll also present the challenges that we are facing to extend Edgesense\nto ever larger communities.\n\nThe presentation will be useful to both developers interested in using\npython to do social network analysis and to those already skilled in it\nwhich could find inspiration in the problems we are trying to solve with\nEdgesense.\n\nEdgesense has been developed by Wikitalia within the CATALYST EC project\non collective intelligence and it is available as open source software:\nhttps://github.com/Wikitalia/edgesense (an example of a live dashboard\nis available here: http://matera2019.edgesense.spazidigitali.com/ )\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon Italia 2015",
   "copyright_text": "",
-  "thumbnail_url": "https://i.ytimg.com/vi/FQfFJ19g20I/maxresdefault.jpg",
+  "description": "Every conversation has a structure. The network formed by the persons\nwho interact in the conversations inside an online community can thus be\nanalysed with the tools of the network science to understand their\ncharacteristics. Enriching online conversations with social network\nanalysis we hope to be able to give community moderators tools that\ncould help them to build better communities and guide the collective\nintelligence processes inside them. The great vision in this is to be\nable to contribute to building the engines that could help us to build\neffective platforms for participatory democracy ( a better overview on\nthese theme is explained by my colleague Alberto Cottica in this TEDx\ntalk: https://www.youtube.com/watch?v=KKrM2c-ww\\_k )\n\nEdgesense is our attempt at making tools for social network analysis\naccessible to all those that could gain the most from them but maybe did\nnot yet know their potential. Edgesense is built around a set of scripts\nthat process the community data and extract the most relevant network\nmetrics and the network structure and a dashboard that is able to\npresent them giving a clear view of them. Through the dashboard\ncommunity managers can for the first time see in a glimpse who is\ntalking to who, which users are central to the community and those who\nare on the periphery. They can see which sub-communities are developing\ninside the larger online conversation and who is acting as a bridge\nbetween them.This is very useful to guide the conversation or to\ndetermine which users have the most authority (through measures of\ncentrality or \u201cpagerank\")\n\nPython has been central to the development of Edgesense it has made\npossible to create a processing pipeline that takes the data from\nvarious sources (Drupal community sites, twitter conversations, mailing\nlists data) and builds the network of interactions among the users.\nPython has also enabled us to choose from a very rich library of social\nnetwork analysis algorithms to calculate the metrics that we are\npresenting in the dashboard to help understand the social interactions.\n\nDuring this talk we\u2019ll look at which choices we were required when\nbuilding a data processing application that takes real-life data,\nextracts useful informations and prepares t for visualisation. We\u2019ll see\na primer on the network science required to interpret the structure of\nthe users community and how the algorithms and the metrics were chosen.\nWe\u2019ll also present the challenges that we are facing to extend Edgesense\nto ever larger communities.\n\nThe presentation will be useful to both developers interested in using\npython to do social network analysis and to those already skilled in it\nwhich could find inspiration in the problems we are trying to solve with\nEdgesense.\n\nEdgesense has been developed by Wikitalia within the CATALYST EC project\non collective intelligence and it is available as open source software:\nhttps://github.com/Wikitalia/edgesense (an example of a live dashboard\nis available here: http://matera2019.edgesense.spazidigitali.com/ )\n",
   "duration": 2536,
-  "videos": [
-    {
-      "url": "https://www.youtube.com/watch?v=FQfFJ19g20I",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 3575,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2015-05-30",
+  "slug": "bulding-a-social-network-analysis",
   "source_url": "https://www.youtube.com/watch?v=FQfFJ19g20I",
-  "tags": [],
   "speakers": [
     "Luca Mearelli"
   ],
-  "recorded": "2015-05-30"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/FQfFJ19g20I/maxresdefault.jpg",
+  "title": "Bulding a social network analysis",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FQfFJ19g20I"
+    }
+  ]
 }

@@ -1,32 +1,32 @@
 {
-  "id": 1345,
-  "category": "SciPy 2012",
-  "slug": "efficient-parallel-python-for-high-performance-co",
-  "title": "Efficient Parallel Python for High-Performance Computing",
   "alias": "video/1345/efficient-parallel-python-for-high-performance-co",
-  "summary": "",
-  "description": "This tutorial is targeted at the intermediate-to-advanced Python user\nwho wants to extend Python into High-Performance Computing. The tutorial\nwill provide hands-on examples and essential performance tips every\ndeveloper should know for writing effective parallel Python. The result\nwill be a clear sense of possibilities and best practices using Python\nin HPC environments.\n\nMany of the examples you often find on parallel Python focus on the\nmechanics of getting the parallel infrastructure working with your code,\nand not on actually building good portable parallel Python. This\ntutorial is intended to be a broad introduction to writing\nhigh-performance parallel Python that is well suited to both the\nbeginner and the veteran developer.\n\nWe will discuss best practices for building efficient high-performance\nPython through good software engineering. Parallel efficiency starts\nwith the speed of the target code itself, so we will first look at how\nto evolve code from for-loops to list comprehensions and generator\ncomprehensions to using Cython with NumPy. We will also discuss how to\noptimize your code for speed and memory performance by using profilers.\n\nThe tutorial will cover some of the common parallel communication\ntechnologies (multiprocessing, MPI, and cloud computing) and introduce\nthe use of parallel map and map-reduce.\n\nAt the end of the tutorial, participants should be able to write simple\nparallel Python scripts, make use of effective parallel programming\ntechniques, and have a framework in place to leverage the power of\nPython in High- Performance Computing.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "SciPy 2012",
   "copyright_text": "CC BY-SA",
-  "thumbnail_url": "http://i2.ytimg.com/vi/AJU3EYvTNXc/hqdefault.jpg",
+  "description": "This tutorial is targeted at the intermediate-to-advanced Python user\nwho wants to extend Python into High-Performance Computing. The tutorial\nwill provide hands-on examples and essential performance tips every\ndeveloper should know for writing effective parallel Python. The result\nwill be a clear sense of possibilities and best practices using Python\nin HPC environments.\n\nMany of the examples you often find on parallel Python focus on the\nmechanics of getting the parallel infrastructure working with your code,\nand not on actually building good portable parallel Python. This\ntutorial is intended to be a broad introduction to writing\nhigh-performance parallel Python that is well suited to both the\nbeginner and the veteran developer.\n\nWe will discuss best practices for building efficient high-performance\nPython through good software engineering. Parallel efficiency starts\nwith the speed of the target code itself, so we will first look at how\nto evolve code from for-loops to list comprehensions and generator\ncomprehensions to using Cython with NumPy. We will also discuss how to\noptimize your code for speed and memory performance by using profilers.\n\nThe tutorial will cover some of the common parallel communication\ntechnologies (multiprocessing, MPI, and cloud computing) and introduce\nthe use of parallel map and map-reduce.\n\nAt the end of the tutorial, participants should be able to write simple\nparallel Python scripts, make use of effective parallel programming\ntechniques, and have a framework in place to leverage the power of\nPython in High- Performance Computing.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Efficient_Parallel_Python_for_HighPerformance_Computing.mp4?Signature=6wYCR88bOMRAXQ88pnHUo8kZCi4%3D&Expires=1346914981&AWSAccessKeyId=FEWGReWX3QbNk0h3",
-      "type": "mp4",
-      "length": null
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=AJU3EYvTNXc",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1345,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2012-07-17",
+  "slug": "efficient-parallel-python-for-high-performance-co",
   "source_url": "https://www.youtube.com/watch?v=AJU3EYvTNXc",
-  "tags": [],
   "speakers": [
     "Kurt Smith"
   ],
-  "recorded": "2012-07-17"
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "http://i2.ytimg.com/vi/AJU3EYvTNXc/hqdefault.jpg",
+  "title": "Efficient Parallel Python for High-Performance Computing",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Efficient_Parallel_Python_for_HighPerformance_Computing.mp4?Signature=6wYCR88bOMRAXQ88pnHUo8kZCi4%3D&Expires=1346914981&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=AJU3EYvTNXc"
+    }
+  ]
 }

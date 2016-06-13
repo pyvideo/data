@@ -1,24 +1,19 @@
 {
-  "id": 244,
-  "category": "PyCon US 2010",
-  "slug": "pycon-2010--eventlet--asynchronous-i-o-with-a-syn",
-  "title": "Eventlet: Asynchronous I/O with a synchronous interface (#141)",
   "alias": "video/244/pycon-2010--eventlet--asynchronous-i-o-with-a-syn",
-  "summary": "",
-  "description": "Eventlet: Asynchronous I/O with a synchronous interface\n\nPresented by Donovan Preston\n\nNetwork servers which scale to thousands of simultaneous connections\nhave always been possible in Python thanks to libraries such as asyncore\nand twisted. More recently, FriendFeed's new open source project Tornado\nhas stirred debate in this area. These libraries allow a Python process\nto scale to many simultaneous connections using non-blocking I/O (also\nknown as asynchronous I/O). However these projects require that the\nprogrammer learn a custom API to abstract away the complexities of using\na callback-style API.\n\nEventlet uses greenlet, which provides coroutines as described in \"The\nArt of Computer Programming\", to implement efficient cooperative\nconcurrency while retaining synchronous semantics. Eventlet also\nprovides an implementation of the standard library's socket module. Code\nwritten to use Python's standard socket library can be transparently\nconverted to use nonblocking I/O and green threads with eventlet. This\nleads to much greater code reuse and programmer efficiency.\n\nhttp://www.eventlet.net/\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2010",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010EventletAsynchronousIOWithASynchronousInterface667-479.jpg",
+  "description": "Eventlet: Asynchronous I/O with a synchronous interface\n\nPresented by Donovan Preston\n\nNetwork servers which scale to thousands of simultaneous connections\nhave always been possible in Python thanks to libraries such as asyncore\nand twisted. More recently, FriendFeed's new open source project Tornado\nhas stirred debate in this area. These libraries allow a Python process\nto scale to many simultaneous connections using non-blocking I/O (also\nknown as asynchronous I/O). However these projects require that the\nprogrammer learn a custom API to abstract away the complexities of using\na callback-style API.\n\nEventlet uses greenlet, which provides coroutines as described in \"The\nArt of Computer Programming\", to implement efficient cooperative\nconcurrency while retaining synchronous semantics. Eventlet also\nprovides an implementation of the standard library's socket module. Code\nwritten to use Python's standard socket library can be transparently\nconverted to use nonblocking I/O and green threads with eventlet. This\nleads to much greater code reuse and programmer efficiency.\n\nhttp://www.eventlet.net/\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/244_eventlet-asynchronous-i-o-with-a-synchronous-interface-141.m4v",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 244,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2010-02-19",
+  "slug": "pycon-2010--eventlet--asynchronous-i-o-with-a-syn",
   "source_url": "",
+  "speakers": [
+    "Donovan Preston"
+  ],
+  "summary": "",
   "tags": [
     "asynchronous",
     "eventlet",
@@ -27,8 +22,13 @@
     "pycon",
     "pycon2010"
   ],
-  "speakers": [
-    "Donovan Preston"
-  ],
-  "recorded": "2010-02-19"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2010EventletAsynchronousIOWithASynchronousInterface667-479.jpg",
+  "title": "Eventlet: Asynchronous I/O with a synchronous interface (#141)",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/244_eventlet-asynchronous-i-o-with-a-synchronous-interface-141.m4v"
+    }
+  ]
 }

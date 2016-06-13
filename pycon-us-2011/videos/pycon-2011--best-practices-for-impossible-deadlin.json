@@ -1,24 +1,19 @@
 {
-  "id": 391,
-  "category": "PyCon US 2011",
-  "slug": "pycon-2011--best-practices-for-impossible-deadlin",
-  "title": "Best Practices for Impossible Deadlines",
   "alias": "video/391/pycon-2011--best-practices-for-impossible-deadlin",
-  "summary": "",
-  "description": "Best Practices for Impossible Deadlines\n\nPresented by Christopher Groskopf\n\nAt the Chicago Tribune we develop, test, and deploy production web\napplications on schedules that range from two hours to two months. This\ntalk will discuss the tools and techniques that allow us to make our\ndeadlines, including automated deployments, frameworks, just-in-time\ntesting, and more. Attention will be paid to\n`http://github.com/newsapps/beeswithmachineguns <htt%20p://github.com/newsapps/beeswithmachineguns>`__\nand the problems they solve.\n\nAbstract\n\nOn my first day at the Chicago Tribune I was given a CSV of data about\ndefoliant spraying in Vietnam and told to build this: Agent Orange. What\nfollowed was one of the most stressful and difficult weeks of my life,\nduring which I learned an incredible amount about web development. I had\nto stop thinking about databases and start thinking about serialized\nJSON structures stashed on S3; stop thinking about building tools and\nstart thinking about mashing up tech that was never designed to be\nmarried (in this case Simile Timeline and Google Maps); stop thinking\nabout idealistic development practices and start thinking about getting\na working product out the door. In short: I had to rewire my brain for\nnews.\n\nThis talk will go in-depth on deadline-oriented strategies that I've\nlearned in a year of building news applications. Some of these revolve\naround specific technologies, like fabric for single-keystroke\ndeployments or Varnish for caching, but most will be matters of\npractice, like what to test when you have no time for testing or how to\navoid (yes, avoid!) database migrations.\n\nThey say Django is \"the web framework for perfectionists with\ndeadlines.\" This is their Art of War.\n\nTalk outline:\n\n-  An anecdote: Agent Orange\n-  We can't have nice things (or best practices)\n-  Low-hanging fruit: staging environment, git branches, PEP8.\n-  Only build it once: Iterations, interviews and stakeholders\n-  Salvage, share and steal [code]\n-  Keeping track: Be a ticketing warrior\n-  Tools improve faster than you do: iterate your stack\n-  Single-keystroke deployment (fabric)\n-  Migrations are hard: Building read-only apps\n-  Don't serve that: Using S3 for hosting\n-  Caching > optimization (varnish)\n-  Know your load limits (beeswithmachineguns)\n-  Configuration-as-application: application frameworks (maps, tables)\n-  Pair programming > functional testing > unit testing\n-  except UseWordpress, e: print \"No, really\"\n\nSites that will be used as examples:\n\n-  Agent Orange\n-  Burr Oak Memorial\n-  Census 2010: Cook county participation rates map\n-  Area judges and supervision rates of speeders table\n-  RedEye Homicide Tracker\n-  Chicago Tribune Elections Center\n-  2010 Illinois School Report Cards\n-  TribLocal\n\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "PyCon US 2011",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011BestPracticesForImpossibleDeadlines540-981.jpg",
+  "description": "Best Practices for Impossible Deadlines\n\nPresented by Christopher Groskopf\n\nAt the Chicago Tribune we develop, test, and deploy production web\napplications on schedules that range from two hours to two months. This\ntalk will discuss the tools and techniques that allow us to make our\ndeadlines, including automated deployments, frameworks, just-in-time\ntesting, and more. Attention will be paid to\n`http://github.com/newsapps/beeswithmachineguns <htt%20p://github.com/newsapps/beeswithmachineguns>`__\nand the problems they solve.\n\nAbstract\n\nOn my first day at the Chicago Tribune I was given a CSV of data about\ndefoliant spraying in Vietnam and told to build this: Agent Orange. What\nfollowed was one of the most stressful and difficult weeks of my life,\nduring which I learned an incredible amount about web development. I had\nto stop thinking about databases and start thinking about serialized\nJSON structures stashed on S3; stop thinking about building tools and\nstart thinking about mashing up tech that was never designed to be\nmarried (in this case Simile Timeline and Google Maps); stop thinking\nabout idealistic development practices and start thinking about getting\na working product out the door. In short: I had to rewire my brain for\nnews.\n\nThis talk will go in-depth on deadline-oriented strategies that I've\nlearned in a year of building news applications. Some of these revolve\naround specific technologies, like fabric for single-keystroke\ndeployments or Varnish for caching, but most will be matters of\npractice, like what to test when you have no time for testing or how to\navoid (yes, avoid!) database migrations.\n\nThey say Django is \"the web framework for perfectionists with\ndeadlines.\" This is their Art of War.\n\nTalk outline:\n\n-  An anecdote: Agent Orange\n-  We can't have nice things (or best practices)\n-  Low-hanging fruit: staging environment, git branches, PEP8.\n-  Only build it once: Iterations, interviews and stakeholders\n-  Salvage, share and steal [code]\n-  Keeping track: Be a ticketing warrior\n-  Tools improve faster than you do: iterate your stack\n-  Single-keystroke deployment (fabric)\n-  Migrations are hard: Building read-only apps\n-  Don't serve that: Using S3 for hosting\n-  Caching > optimization (varnish)\n-  Know your load limits (beeswithmachineguns)\n-  Configuration-as-application: application frameworks (maps, tables)\n-  Pair programming > functional testing > unit testing\n-  except UseWordpress, e: print \"No, really\"\n\nSites that will be used as examples:\n\n-  Agent Orange\n-  Burr Oak Memorial\n-  Census 2010: Cook county participation rates map\n-  Area judges and supervision rates of speeders table\n-  RedEye Homicide Tracker\n-  Chicago Tribune Elections Center\n-  2010 Illinois School Report Cards\n-  TribLocal\n\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/391_best-practices-for-impossible-deadlines.mp4",
-      "type": "mp4",
-      "length": null
-    }
-  ],
+  "id": 391,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--best-practices-for-impossible-deadlin",
   "source_url": "",
+  "speakers": [
+    "Christopher Groskopf"
+  ],
+  "summary": "",
   "tags": [
     "beeswithmachineguns",
     "bestpractices",
@@ -26,8 +21,13 @@
     "pycon",
     "pycon2011"
   ],
-  "speakers": [
-    "Christopher Groskopf"
-  ],
-  "recorded": "2011-03-11"
+  "thumbnail_url": "http://a.images.blip.tv/Pycon-PyCon2011BestPracticesForImpossibleDeadlines540-981.jpg",
+  "title": "Best Practices for Impossible Deadlines",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/391_best-practices-for-impossible-deadlines.mp4"
+    }
+  ]
 }

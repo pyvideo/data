@@ -1,24 +1,19 @@
 {
-  "id": 1086,
-  "category": "EuroPython 2011",
-  "slug": "django-rdflib-and-postgresql-the-best-of-both-w",
-  "title": "django-rdflib and postgresql - the best of both worlds",
   "alias": "video/1086/django-rdflib-and-postgresql-the-best-of-both-w",
-  "summary": "[EuroPython 2011] Stefan Talpalaru - 21 June 2011 in \"Track Ravioli\"\n",
-  "description": "rdflib is a python library implementing a database with various triples\nback- end, parser, data serializers, SPARQL is a Python interface to\nextract/insert triples. We integrated it in Django reusing the database\nconnection and exposing an ORM interface, along with full-text search on\nliterals. This presentation shows a django-rdflib case study with a\nPostgreSQL backend in `Brain Architecture Management\nSystem <http://brancusi1.usc.edu>`__ - a neuroscientific project for the\nUniversity of Southern California. Benefits of the flexible RDF\nstructure will be shown, allowing researchers to insert free format\ndata, making data public with a customizable serialization and use the\npowerful full-text search integrated in PostgreSQL.\n\nObjective: show attendees an effective combination of RDF, PostgreSQL\nfull- text search and Django ORM via django-rdflib.\n\nRequirements: Django familiarity.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2011",
   "copyright_text": "Standard YouTube License",
-  "thumbnail_url": "http://i.ytimg.com/vi/zP7p_wbOjbw/hqdefault.jpg",
+  "description": "rdflib is a python library implementing a database with various triples\nback- end, parser, data serializers, SPARQL is a Python interface to\nextract/insert triples. We integrated it in Django reusing the database\nconnection and exposing an ORM interface, along with full-text search on\nliterals. This presentation shows a django-rdflib case study with a\nPostgreSQL backend in `Brain Architecture Management\nSystem <http://brancusi1.usc.edu>`__ - a neuroscientific project for the\nUniversity of Southern California. Benefits of the flexible RDF\nstructure will be shown, allowing researchers to insert free format\ndata, making data public with a customizable serialization and use the\npowerful full-text search integrated in PostgreSQL.\n\nObjective: show attendees an effective combination of RDF, PostgreSQL\nfull- text search and Django ORM via django-rdflib.\n\nRequirements: Django familiarity.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=zP7p_wbOjbw",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1086,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-07-13",
+  "slug": "django-rdflib-and-postgresql-the-best-of-both-w",
   "source_url": "http://www.youtube.com/watch?v=zP7p_wbOjbw",
+  "speakers": [
+    "Stefan Talpalaru"
+  ],
+  "summary": "[EuroPython 2011] Stefan Talpalaru - 21 June 2011 in \"Track Ravioli\"\n",
   "tags": [
     "architecture",
     "database",
@@ -30,8 +25,13 @@
     "serialization",
     "university"
   ],
-  "speakers": [
-    "Stefan Talpalaru"
-  ],
-  "recorded": "2011-07-13"
+  "thumbnail_url": "http://i.ytimg.com/vi/zP7p_wbOjbw/hqdefault.jpg",
+  "title": "django-rdflib and postgresql - the best of both worlds",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=zP7p_wbOjbw"
+    }
+  ]
 }

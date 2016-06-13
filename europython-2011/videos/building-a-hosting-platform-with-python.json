@@ -1,24 +1,19 @@
 {
-  "id": 1058,
-  "category": "EuroPython 2011",
-  "slug": "building-a-hosting-platform-with-python",
-  "title": "Building a hosting platform with Python",
   "alias": "video/1058/building-a-hosting-platform-with-python",
-  "summary": "[EuroPython 2011] Andrew Godwin - 20 June 2011 in \"Track Lasagne\"\n",
-  "description": "At ep.io we built a Python hosting platform from the ground up, designed\nto run large numbers of web applications on a small number of physical\nmachines both securely and in a reasonably scalable way. This talk will\nshow you how we built our infrastructure - using Redis, eventlet,\nPostgreSQL and more - and what lessons we learnt from our first few\nthousand deploys.\n\nSee how we split services into multiple processes and greenthreads; the\npains of building a cooperatively-multitasking PTY module; how Redis\nisn't the answer to everything, but is still very useful; how to\npersuade third-party software to work securely in a shared environment;\nand how important it is to have good logging, especially when you have\nmore than five servers.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "EuroPython 2011",
   "copyright_text": "Standard YouTube License",
-  "thumbnail_url": "http://i.ytimg.com/vi/Sg6RmIty9-w/hqdefault.jpg",
+  "description": "At ep.io we built a Python hosting platform from the ground up, designed\nto run large numbers of web applications on a small number of physical\nmachines both securely and in a reasonably scalable way. This talk will\nshow you how we built our infrastructure - using Redis, eventlet,\nPostgreSQL and more - and what lessons we learnt from our first few\nthousand deploys.\n\nSee how we split services into multiple processes and greenthreads; the\npains of building a cooperatively-multitasking PTY module; how Redis\nisn't the answer to everything, but is still very useful; how to\npersuade third-party software to work securely in a shared environment;\nand how important it is to have good logging, especially when you have\nmore than five servers.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://www.youtube.com/watch?v=Sg6RmIty9-w",
-      "type": "youtube",
-      "length": 0
-    }
-  ],
+  "id": 1058,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2011-07-20",
+  "slug": "building-a-hosting-platform-with-python",
   "source_url": "http://www.youtube.com/watch?v=Sg6RmIty9-w",
+  "speakers": [
+    "Andrew Godwin"
+  ],
+  "summary": "[EuroPython 2011] Andrew Godwin - 20 June 2011 in \"Track Lasagne\"\n",
   "tags": [
     "ep.io",
     "hosting",
@@ -28,8 +23,13 @@
     "scalable",
     "web"
   ],
-  "speakers": [
-    "Andrew Godwin"
-  ],
-  "recorded": "2011-07-20"
+  "thumbnail_url": "http://i.ytimg.com/vi/Sg6RmIty9-w/hqdefault.jpg",
+  "title": "Building a hosting platform with Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=Sg6RmIty9-w"
+    }
+  ]
 }

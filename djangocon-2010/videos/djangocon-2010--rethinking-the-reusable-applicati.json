@@ -1,24 +1,19 @@
 {
-  "id": 51,
-  "category": "DjangoCon 2010",
-  "slug": "djangocon-2010--rethinking-the-reusable-applicati",
-  "title": "Rethinking the Reusable Application Paradigm",
   "alias": "video/51/djangocon-2010--rethinking-the-reusable-applicati",
-  "summary": "",
-  "description": "For the past few years the reusable application paradigm has been\nconsidered one of the major selling points of Django, however the common\nwisdom about what it means to make an application reusable isn't really\naccurate. This talk is going to discuss ways to truly make your\napplications reusable across *any* project.\n\nAbstract\n\nThe common wisdom about reusable application says to do things like let\nyour views take arguments for things like the form class or the template\nname. However, that doesn't satisfy most of the real need for\nextendability: changing the business logic or altering models. This talk\nis going to look at ways to combat these limitations:\n\n-  Class based views\n-  By making everything overidable in a view you can absolutely minimize\n   the need to \"copy-paste\" when changing the logic of things around.\n-  As seen in the admin.\n-  Do less\n-  brabeion\n-  Provide the absolute minimum at the model layer, and only small\n   wrappers for the business logic users can implement their own logic\n   to control how things happen.\n-  Related to the idea of \"application frameworks\". Providing the tools\n   for others to build their logic around various helpers.\n-  Flexibility\n-  django-taggit\n-  Provide a concrete implementation, but allow swapping out of various\n   layers.\n-  Don't like the Tag model, swap it out, want a new intermediary model,\n   swap it out.\n-  django-registration\n-  Providing swappable backends to change behavior.\n-  Libraries\n-  django-filter\n-  django-fixture-generator\n-  django-templatetag-sugar\n-  django-compressor\n-  Providing tools for others to build around.\n\nBy using these techniques you can develop reusable application that work\nbeyond any single use case. Of course there are cases where you don't\nneed any of these, and just need something that fits \"traditional\"\nreusable application paradigm, so this talk will cover when that works\nas well.\n",
-  "quality_notes": "",
-  "language": "English",
+  "category": "DjangoCon 2010",
   "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-  "thumbnail_url": "http://a.images.blip.tv/Robertlofthouse-RethinkingTheReusableApplicationParadigm774.png",
+  "description": "For the past few years the reusable application paradigm has been\nconsidered one of the major selling points of Django, however the common\nwisdom about what it means to make an application reusable isn't really\naccurate. This talk is going to discuss ways to truly make your\napplications reusable across *any* project.\n\nAbstract\n\nThe common wisdom about reusable application says to do things like let\nyour views take arguments for things like the form class or the template\nname. However, that doesn't satisfy most of the real need for\nextendability: changing the business logic or altering models. This talk\nis going to look at ways to combat these limitations:\n\n-  Class based views\n-  By making everything overidable in a view you can absolutely minimize\n   the need to \"copy-paste\" when changing the logic of things around.\n-  As seen in the admin.\n-  Do less\n-  brabeion\n-  Provide the absolute minimum at the model layer, and only small\n   wrappers for the business logic users can implement their own logic\n   to control how things happen.\n-  Related to the idea of \"application frameworks\". Providing the tools\n   for others to build their logic around various helpers.\n-  Flexibility\n-  django-taggit\n-  Provide a concrete implementation, but allow swapping out of various\n   layers.\n-  Don't like the Tag model, swap it out, want a new intermediary model,\n   swap it out.\n-  django-registration\n-  Providing swappable backends to change behavior.\n-  Libraries\n-  django-filter\n-  django-fixture-generator\n-  django-templatetag-sugar\n-  django-compressor\n-  Providing tools for others to build around.\n\nBy using these techniques you can develop reusable application that work\nbeyond any single use case. Of course there are cases where you don't\nneed any of these, and just need something that fits \"traditional\"\nreusable application paradigm, so this talk will cover when that works\nas well.\n",
   "duration": null,
-  "videos": [
-    {
-      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/51_rethinking-the-reusable-application-paradigm.flv",
-      "type": "flv",
-      "length": null
-    }
-  ],
+  "id": 51,
+  "language": "English",
+  "quality_notes": "",
+  "recorded": "2010-09-09",
+  "slug": "djangocon-2010--rethinking-the-reusable-applicati",
   "source_url": "",
+  "speakers": [
+    "Alex Gaynor"
+  ],
+  "summary": "",
   "tags": [
     "djangocon",
     "djangocon2010",
@@ -26,8 +21,13 @@
     "reuse",
     "reusing"
   ],
-  "speakers": [
-    "Alex Gaynor"
-  ],
-  "recorded": "2010-09-09"
+  "thumbnail_url": "http://a.images.blip.tv/Robertlofthouse-RethinkingTheReusableApplicationParadigm774.png",
+  "title": "Rethinking the Reusable Application Paradigm",
+  "videos": [
+    {
+      "length": null,
+      "type": "flv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/51_rethinking-the-reusable-application-paradigm.flv"
+    }
+  ]
 }
