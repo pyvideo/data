@@ -17,6 +17,7 @@ help:
 	@echo '   make test-ids-unique        run "unique IDs" test               '
 	@echo '   make test-slugs-unique      run "unique slugs" test             '
 	@echo '   make test-render-rest       run ReST rendering test             '
+	@echo '   make test-shape             run data shape test                 '
 	@echo '                                                                   '
 	@echo 'Set the VERBOSE variable to 1 to enable more verbose output.       '
 	@echo 'e.g. make VERBOSE=1 test                                           '
@@ -40,7 +41,10 @@ test-slugs-unique: install-deps
 test-render-rest: install-deps
 	$(PY) $(TESTSDIR)/render_rest.py -d $(BASEDIR)
 
-test: test-schemas test-dir-structure test-ids-unique test-slugs-unique test-render-rest
+test-shape: install-deps
+	$(PY) $(TESTSDIR)/shape.py -d $(BASEDIR)
 
-.PHONY: help test test-schemas test-dir-structure test-ids-unique test-slugs-unique test-render-rest
+test: test-schemas test-dir-structure test-ids-unique test-slugs-unique test-render-rest test-shape
+
+.PHONY: help test test-schemas test-dir-structure test-ids-unique test-slugs-unique test-render-rest test-shape
 

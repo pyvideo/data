@@ -13,6 +13,9 @@ from utils import get_json_files
 # render errors
 ERROR_ATTRS = ('type', 'line', 'level')
 
+# Lowest error level that qualifies a ReST blob as invalid
+INVALID_ERROR_LEVEL = 2
+
 
 class InvalidReSTError(Exception):
     pass
@@ -56,7 +59,7 @@ def check_render_rest(data_root, verbose=False):
                 # Ensure text is a string.
                 text = blob.get(field) or ''
                 error, level = validate_rest(text)
-                if error and level >= 2:
+                if error and level >= INVALID_ERROR_LEVEL:
                     valid = False
 
                 if error and verbose:
