@@ -5,7 +5,7 @@
   "description": "Python is a powerful language. Beginners appreciate its surface of\nsimplicity and ease to use, where (almost) everything \u201cjust works\u201d (TM)\nas expected. However, under the hood, there is a whole world of rules\nand layers which can be (ab)used by experienced programmers to tweak the\nlanguage in unexpected ways. Often, these techniques are labeled as\n\u201chacks\u201d or \u201cblack magic\u201d, to indicate that they should not used in\nproduction or that you should not look at it unless you are \u201cinitiated\u201d\nto some not better specified sorcery. However, if used with care and in\nthe right places, these techniques can lead to better, faster and/or\nmore readable code, or can be extremely useful during debugging, and\nthus deserve the definition of \u201cwhite magic\u201d which programmers can use\nto improve their code. Moreover, looking at how they are implemented is\na good way to learn about some of the deep corners of the language. This\ntalk presents some of these advanced techniques which I have seen in use\nin real code, e.g. in PyPy or pdb++. Including, but not limited to:\ncreating new functions by reusing existing code objects, instantiating\nmultiple copies of the same module, playing with metaclasses in various\nways, changing the **class** of an object on the fly to get specialized\nbehavior, automatically entering the debugger when a certain event\noccur, etc.\n",
   "duration": null,
   "id": 1333,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2012-07-04",
   "slug": "python-white-magic",

@@ -5,7 +5,7 @@
   "description": "Using Coroutines to Create Efficient, High-Concurrency Web Applications\n\nPresented by Matt Spitz\n\nCreating high-concurrency python web applications is inherently\ndifficult for a variety of reasons. In this talk, I'll discuss the\nvarious iterations of application server paradigms we've used at meebo,\nthe advantages/disadvantages of each approach, and why we've settled on\na coroutine-based WSGI setup to handle our high-concurrency web\napplications going forward.\n\nAbstract\n\nThere are a number of ways in which to create a web application in\npython. Some examples include a straight-up CGI scripts that run anew\nwith each request, preforked Apache workers that each handle multiple\nrequests, and using an asynchronous web framework like Twisted.\n\nAt meebo, we've settled on using gunicorn, a lightweight WSGI server,\nwhich supports gevent, a coroutine-based network library for python.\nGevent monkeypatches python's system modules to make network requests\nasynchronous using an event loop based on libevent. This trick allows\nthe developer to use a simple blocking CGI as a non-blocking web\napplication that can handle many concurrent requests.\n\nI'll discuss our iteration process through these approaches to building\nweb applications, why we ended up choosing gunicorn+gevent, the\nchallenges this new framework presents, and how we've dealt with them.\n",
   "duration": null,
   "id": 377,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2011-03-11",
   "slug": "pycon-2011--using-coroutines-to-create-efficient-",

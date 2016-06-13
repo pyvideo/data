@@ -5,7 +5,7 @@
   "description": "'everyone' knows that separating out IO and other side effects makes\ncode easier to unit test. What if there were a Python library that helps\ndo that systematically which you could use to make all your things\nbetter? There is. Come and find out more.\n\nChris Armstrong's Effect library is the library in question. I found\nthis while digging into all the varied implementations of monads for\nPython (a generic concept that encapsulates the principle of IO and side\neffects) - and I'd like to share its beauty with other folk. Effect\n(https://pypi.python.org/pypi/effect) allows consistent separation of\nside effect (e.g. IO or even just global state changes) from the code\nthat depends on those effects. Testing and reasoning about code becomes\neasier. But it can often be hard to get into such a system. Allow me to\ntake you on a tour through how to change regular code into super\ntestable code using Effect.\n",
   "duration": 1976,
   "id": 3878,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2015-09-05",
   "slug": "functionalish-programming-in-python-with-effect",

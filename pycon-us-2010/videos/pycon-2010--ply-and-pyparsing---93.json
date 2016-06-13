@@ -5,7 +5,7 @@
   "description": "PLY and PyParsing\n\nPresented by Andrew Dalke\n\nGot a text parsing problem? In most cases using string manipulation and\nregular expressions will solve it for you. But when the input is\ncomplex, try reaching for a parsing system to help out.\n\nThe two most popular in Python are PLY and PyParsing. PLY follows the\nlex/yacc tradition with a domain specific language to describe the\ntokens and grammar. It was built with both error diagnostics and\nperformance in mind. PyParsing is a recursive descent parser which\nexpresses the format as a Python data structure. It make no distinction\nbetween lexer and grammar and has a uniform callback system which makes\ncertain types of data extraction very easy.\n\nIn my talk I'll show the basics of how to use both systems for several\ndifferent format parsing tasks, of different complexity. This will let\nyou see how to use the parsers and understand more of the tradeoffs\nbetween complexity, readability, error handling, and performance.\n",
   "duration": null,
   "id": 265,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2010-02-19",
   "slug": "pycon-2010--ply-and-pyparsing---93",

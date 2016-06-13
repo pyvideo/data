@@ -5,7 +5,7 @@
   "description": "The Meta API is the core part of Django that enables introspection of\nthe ORM with the rest of the system. The API allows different parts of\nthe framework such as lookups, queries, forms, admin to understand and\nuse the capabilities of every model. As part of Summer of Code 2014 I\nrefactored and redesigned some core parts of this API and, as the\npurpose of this talk, I plan on advocating how developers can benefit\nfrom this API in numerous ways: from understanding how Django\u2019s model\nworks, to enhancing your application through model introspection.\nMoreover, I will give an overview of how we can create a custom store\nthat can be plugged into Django, together with some code snippets and\n(maybe) a live demo. This talk is an extension of the talk I did at\nDjango Under the Hood, when the API was not finished yet. Now that the\nAPI has landed in master, I will also describe my process in getting\ninvolved into the Django community and how easy and rewarding it is to\ncontribute to the project. Objectives\n\nGive a brief overview of what the Meta API is, it\u2019s features and what\ncan be done with it Look at some of Django\u2019s ORM code: from the model\nmetaclass to the relation graph Describe my experience in creating a\ncustom Meta that talks to GMail through Django\u2019s Model API (demo) Define\na small but concise guide on how to contribute to Django\n",
   "duration": 2378,
   "id": 3611,
-  "language": "Italian",
+  "language": "ita",
   "quality_notes": "",
   "recorded": "2015-05-29",
   "slug": "the-meta-api-by-daniel-pyrathon-1",

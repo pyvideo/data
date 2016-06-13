@@ -5,7 +5,7 @@
   "description": "Handling ridiculous amounts of data with probabilistic data structures\n\nPresented by C. Titus Brown\n\nPart of my job as a scientist involves playing with rather large amounts\nof data (200 gb+). In doing so we stumbled across some neat CS\ntechniques that scale well, and are easy to understand and trivial to\nimplement. These techniques allow us to make some or many types of data\nanalysis map-reducable. I'll talk about interesting implementation\ndetails, fun science, and neat computer science.\n\nAbstract\n\nIf an extreme talk, I will talk about interesting details/issues in:\n\n1. Python as the backbone for a non-SciPy scientific software package:\n   using Python as a frontend to C++ code, esp for parallelization and\n   testing purposes.\n2. Implementing probabilistic data structures with one-sided error as\n   pre-filters for data retrieval and analysis, in ways that are\n   generally useful.\n3. Efficiently breaking down certain types of sparse graph problems\n   using these probabilistic data structures, so that large graphs can\n   be analyzed straightforwardly. This will be applied to plagiarism\n   detection and/or duplicate code detection.\n\n",
   "duration": null,
   "id": 402,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2011-03-11",
   "slug": "pycon-2011--handling-ridiculous-amounts-of-data-w",

@@ -5,7 +5,7 @@
   "description": "CloudFlare protects and accelerates any website online. Whether it's\nprotecting large customers from 160Gbps DDOS attacks, dealing with\nnormal Reddit traffic, Universal SSL or providing one of the fastest DNS\nservers in the world we need to stay up, work fast and deploy fast.\n\nTo this end we have two large Python projects we use at CloudFlare. One\nis the popular configuration manager Salt. We provide patches, features\nand bug reports on regular intervals to the Salt project. The other is\nan internal tool called CFSetup. CFSetup allows us to do the following\nwith a few simple commands: spin up Docker containers that reflect\nmachines in production, spin up a tightly coupled stack of Docker\ncontainers that reflect our software and hardware stacks, run build\nenvironments inside of well defined Docker containers to ensure that the\ncompiled end-product was built using the same libraries that are on the\nproduction machines, and various other utility features.\n\nThis talk will cover how Salt works, how we've extended it to scale up\nand how we've had to debug it. It also cover how we've managed to build\na layer on top of Docker to make it easier to use for ad-hoc testing and\ndeveloping and what it's like interacting with Docker using Python.\n",
   "duration": 2219,
   "id": 3925,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2015-10-01",
   "slug": "python-cloudflare",

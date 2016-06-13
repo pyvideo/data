@@ -5,7 +5,7 @@
   "description": "PCI DSS is a set of twelve different security standards that are\nrequired for any organization that handles credit or debit card\ntransactions. These standards are created by the Payment Card Industry\nSecurity Standards Council and they require all organizations to\nvalidate that they are compliant every year.\n\nUnderstanding these rules and how they effect you is sometimes a\ndaunting task. The goals of this talk will be the following:\n\n-  Explain PCI DSS, and quickly go over the rules that will effect your\n   application.\n-  Show how to securely handle credit card transactions in your Django\n   application.\n-  Storing credit card information isn't ideal, but if you need to, I'll\n   explain the different ways to securely store the data.\n-  Go over the different ways to limit your PCI DSS liability\n   (BrianTree, Akamai Edge Tokenization, Auth.net CIM)\n-  Explore the different tools you will need in order validate your PCI\n   compliance (Web application scans, IDS, Network Scan, firewalls)\n-  How to be PCI Complaint in the cloud\n\nI'll close out the talk with some of the details on how I haver\npersonally satisfied PCI DSS Requirements on my projects in the past.\nI'll cover some of the tools and services that I used, and why I decided\nto use them.\n\nAt the conclusion of the talk you should have a better understanding of\nPCI DSS, and what you need to do, in order for your Django application\nto be certified as compliant.\n",
   "duration": null,
   "id": 1411,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2012-09-06",
   "slug": "building-pci-compliant-django-applications",

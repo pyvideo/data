@@ -5,7 +5,7 @@
   "description": "Interactivity is an important part of computer visualization of data,\nbut all too often the user interfaces to control the visualization are\nfar from optimal. This talk will show how you can use the Enable and the\nChaco to build interactive visualization widgets which give much better\nuser feedback than sliders or text fields.\n\nChaco is an open-source interactive 2D plotting library that is part of\nthe Enthought tool-suite, which is in turn built upon the Enable\ninteractive 2D drawing library that are compatible with PyQt, WxPython,\nPyglet and VTK. These libraries are written in Python and are key tools\nthat Enthought uses to deliver scientific applications to our clients.\n\nThis talk will show how to use these tools to build UI widgets that can\nbe used to control visualizations interactively. Rather than building a\ncomplex, monolithic control, the approach that we will demonstrate\nbuilds the control our of many smaller interactions, each controlling a\nsmall piece of the overall state of a visualization, with a high level\nof reusability.\n\nAs a simple but useful case-study, we'll show how we built an\ninteractive histogram widget that can be use to adjust the brightness,\ncontrast, gamma and other attributes of an image in real-time. We'll\nalso discuss some of the tricks we used to keep the user interactions\nresponsive in the face of having to visualize larger images.\n",
   "duration": null,
   "id": 1222,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2012-07-19",
   "slug": "interactive-visualization-widgets-using-chaco-and",

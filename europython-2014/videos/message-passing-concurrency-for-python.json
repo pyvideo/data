@@ -5,7 +5,7 @@
   "description": "Concurrency and parallelism in Python are always hot topics. Early\nPython versions had a threading library to perform concurrency over\noperating system threads, Python version 2.6 introduced the\nmultiprocessing library and Python 3.2 has introduced a futures library\nfor asynchronous tasks. In addition to the modules in the standard\nlibrary a number of packages such as gevent exist on PyPI to implement\nconcurrency with \"green threads\".\n\nThis talk will look the variety of forms of concurrency and parallelism.\nWhen are the different libraries useful and how does their performance\ncompare? Why do programmers want to \"remove the GIL\" and why is it so\nhard to do? In particular this talk will give an overview of various\nforms of message-passing concurrency which have become popular in\nlanguages like Scala and Go. A Python library called python-csp which\nimplements similar ideas in a Pythonic way will be introduced and we\nwill look at how this style of programming can be used to avoid\ndeadlocks, race hazards and \"callback hell\".\n",
   "duration": null,
   "id": 3032,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-07-22",
   "slug": "message-passing-concurrency-for-python",
