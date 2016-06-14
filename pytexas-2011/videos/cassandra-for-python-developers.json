@@ -5,7 +5,7 @@
   "description": "Being non-relational, Cassandra's data model is fundamentally different\nfrom that of a relational database. In addition, it uses an RPC based\nAPI rather than a query language. On top of that, Cassandra is a\ndistributed database, so the client must be aware of and interact with\nmultiple nodes in the cluster. All of these attributes of Cassandra make\nthe client libraries a different experience. Fortunately, the Python\nclient library is the easiest way to use Cassandra. This talk will start\nwith a high level overview of the clustering model of Cassandra then its\ndata model. A large portion of the talk will cover the pycassa methods\nthat interact with the data model of Cassandra, i.e. inserting,\nfetching, and removing data. A small amount of time will be dedicated to\ndescribing connection pooling in pycassa -- how it handles node\nfailures, distributes requests, etc. The final 10 minutes will be\ndevoted to Q&A.\n",
   "duration": null,
   "id": 556,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": null,
   "slug": "cassandra-for-python-developers",

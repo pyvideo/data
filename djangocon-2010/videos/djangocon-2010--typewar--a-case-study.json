@@ -5,7 +5,7 @@
   "description": "Typewar is a popular font-guessing game built with Django and Pinax.\nThis talk will cover everything from game mechanics and statistics to\ndevelopment of an API for an iPhone client and from how we promoted and\nlaunched the site to the performance challenges we faced.\n\nAbstract\n\nTypewar was developed as a side project at Eldarion and went from\nconcept to launch in a matter of weeks. The first day saw 5,000 visitors\nand since then, over 50,000 people have attempted to \"guess the\ntypeface\" more than 5 million times.\n\nThe talk will cover:\n\n-  how we went from concept to design mockup to prototype\n-  game mechanics such as:\n\n   -  points\n   -  levels\n   -  badges\n   -  streaks\n   -  leader boards\n   -  stats (with lots of bayesian goodness)\n\n-  generation of glyphs with PIL\n-  mitigation against cheaters\n-  twitter integration\n-  migrating unauthenticated user data over on sign up / log in\n-  activity streams\n-  performance challenges\n-  database optimizations\n-  queuing of asynchronous tasks\n-  development of an API for use in an iPhone client\n-  deployment\n-  how we promoted and launched the site\n\nWe will also discuss various open source Django apps that have been\nextracted from the project and used on subsequent sites by us and\nothers.\n\nhttp://typewar.com/\n",
   "duration": null,
   "id": 64,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2010-09-07",
   "slug": "djangocon-2010--typewar--a-case-study",

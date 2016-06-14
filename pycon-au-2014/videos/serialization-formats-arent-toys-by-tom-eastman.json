@@ -5,7 +5,7 @@
   "description": "Do you have an API?\n\nDo you accept input from users? Do you accept it in XML? What about\nYAML? Or maybe JSON? How safe are you?\n\nAre you sure?\n\nIt\u2019s not in the OWASP Top 10, but you don\u2019t have to look far to hear\nstories of security vulnerabilities involving deserialization of user\ninput. Why do they keep happening?\n\nIn this talk I\u2019ll go over what the threat is, how you are making\nyourself vulnerable and how to mitigate the problem. I\u2019ll cover the\nfeatures (not bugs, features) of formats like XML, YAML, and JSON that\nmake them surprisingly dangerous, and how to protect your code from\nthem.\n\nBecause here\u2019s the thing: If you are using, say, a compliant, properly\nimplemented XML parser to parse your XML, you are NOT safe. Possibly\nquite the opposite.\n",
   "duration": null,
   "id": 3128,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-08-07",
   "slug": "serialization-formats-arent-toys-by-tom-eastman",

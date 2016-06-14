@@ -5,7 +5,7 @@
   "description": "The most common programming paradigm for scientific computing, SPMD\n(Single Program Multiple Data), catastrophically interacts with the\nloading strategies of dynamically linked executables and\nnetwork-attached file systems on even moderately sized high performance\ncomputing clusters. This difficulty is further exacerbated by\n\"function-shipped\" I/O on modern supercomputer compute nodes, preventing\nthe deployment of simple solutions. In this talk, we introduce a\ntwo-component solution: collfs, a set of low-level MPI-collective file\noperations that can selectively shadow file system access in a library,\nand walla, a set of Python import hooks for seamlessly enabling parallel\ndynamic loading scalable to tens of thousands of cores.\n",
   "duration": null,
   "id": 1201,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2012-07-18",
   "slug": "solving-the-import-problem-scalable-dynamic-load",

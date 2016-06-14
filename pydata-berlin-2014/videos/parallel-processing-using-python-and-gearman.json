@@ -5,7 +5,7 @@
   "description": "When talking of parallel processing, some task requires a substantial\nset-up time. This is the case of Natural Language Processing (NLP) tasks\nsuch as classification, where models need to be loaded into memory. In\nthese situations, we can not start a new process for every data set to\nbe handled, but the system needs to be ready to process new incoming\ndata. This talk will look at job queue systems, with particular focus on\ngearman. We will see how we are using it at Synthesio for NLP tasks; how\nto set up workers and clients, make it redundant and robust, monitor its\nactivity and adapt to demand.\n",
   "duration": null,
   "id": 3072,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-07-26",
   "slug": "parallel-processing-using-python-and-gearman",

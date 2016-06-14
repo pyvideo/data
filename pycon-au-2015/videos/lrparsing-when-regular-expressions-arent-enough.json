@@ -5,7 +5,7 @@
   "description": "Lrparsing is a fast, well documented and tested parsing infrastructure\nfor Python. Parsing infrastructures are used when the input to be parsed\nis too complex to be done by regular expressions alone. Parsing\ninfrastructures are ideally suited to parsing programming languages and\nconfiguration files. Lrparsing is roughly equivalent to the combination\nof Flex and Bison, except completely implemented in Python, and is thus\nvery Pythonic.\n\nThe rest of the abstract uses the following Python snippet as an\nexample:\n\n1 if option else 2\n\nlrparsing provides both a lexer (which breaks the input down into\ntokens, e.g.:\n\n['1', 'if' , 'option', 'else', '2']\n\nand a parser generator, which produces a concrete parse tree:\n\n(\u00abternary\u00bb, (\u00abbool\u00bb, 'option'), (\u00abexpr\u00bb, '1')), (\u00abexpr\u00bb, '2')))\n\nLrparsing provides Pythonic syntax support to easily construct parsers\nfor programming languages, Domain Specific Languages and configuration\nfile formats.\n\nLrparsing is very well suited to constructing Concrete Parse Trees but\nhas little support for creating Abstract Syntax Trees (AST), which are\nmuch easier to use: My work has added Abstract Syntax Tree support to\nlrparsing, yielding exactly the same AST nodes that the Python AST\nmodule supports:\n\nIfExp(condition, 1, 2)\n\nThis talk will give an overview of the major features of Lrparsing, then\nlook at my work to add AST support.\n",
   "duration": null,
   "id": 3955,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2015-08-04",
   "slug": "lrparsing-when-regular-expressions-arent-enough",

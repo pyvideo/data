@@ -5,7 +5,7 @@
   "description": "MapReduce has become one of two dominant paradigms in distributed\ncomputing (along with MPI). Yet many times, implementing an algorithm as\na MapReduce job - especially in Python - forces us to sacrifice\nefficiency (BLAS routines, etc.) in favor of data parallelism.\n\nIn my work, which involves writing distributed learning algorithms for\nprocessing terabytes of Twitter data at SocialFlow, I've come to\nadvocate a form of \"vectorized MapReduce\" which integrates efficient\nnumerical libraries like numpy/scipy into the MapReduce setting,\nyielding both faster per-machine performance and reduced I/O, which is\noften a major bottleneck. I'll also highlight some features of Disco (a\nPython/Erlang MapReduce implementation from Nokia) which make it a very\ncompelling choice for writing scientific MapReduce jobs in Python.\n",
   "duration": null,
   "id": 1207,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2012-07-18",
   "slug": "scipy-mapreduce-with-disco",

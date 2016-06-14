@@ -5,7 +5,7 @@
   "description": "The rule of thumb for people without degrees in cryptography on securing\ndata on the Internet is \u201cGPG for data at rest. TLS for data in motion\u201d.\nAnd it\u2019s actually a very good rule everyone should follow.\n\nThe only kicker though is that configuring (and using!) TLS properly is\nnot as simple as it sounds and if you\u2019re not diligent as a user,\ndeveloper, and ops engineer, you can easily compromise your data\u2019s\nsecurity despite best effort of everyone else.\n\nThis talk will be multifaceted; you will learn:\n\n-  how SSL and TLS roughly work and why their state is sorry,\n-  server- and client-side duties for best possible security,\n-  what alternatives you have for using TLS in Python,\n-  things to keep in mind when configuring servers,\n-  and what perils outside your control still can trip you up.\n\nIn other words, the leitmotif is to show you the most common traps you\nshould know about when using and deploying applications relying on TLS\nfor transport layer security and how to avoid them.\n",
   "duration": null,
   "id": 3035,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-07-22",
   "slug": "the-sorry-state-of-ssl-0",

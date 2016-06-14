@@ -5,7 +5,7 @@
   "description": "Mastering Team Play: Four powerful examples of composing Python tools\n\nPresented by Raymond Hettinger\n\nStarts with a quick review of the performance characteristics of major\nindividual tools in Python: bisect, heapq, lists, deques, sets,\nfrozensets, class structures, sorts, and weakreferences. Show how these\ntools can be powerfully combined to create elegant solutions to four\nhard problems.\n\n1. Random sampling: when one data structure isn't enough. Discuss how\n   the nature of the problem dictates when to use one of two alternate\n   data structures.\n2. Ordered dictionaries: with the right compostion of dictionaries,\n   linked lists, and weak references, a dictionary can remember its\n   insertion order without any impact on its big-Oh running times.\n3. NFA to DFA conversion. The classic, but difficult, algorithm for\n   lexical analysis becomes simple when composing Python's dicts and\n   frozensets.\n4. Running median: the obvious approaches are horribly slow. The problem\n   centers around how to efficiently maintain sorted data while\n   advancing a large sliding window one value at a time. A list of\n   deques provides a dramatic and scalable improvement in running time.\n\n",
   "duration": null,
   "id": 307,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2010-02-19",
   "slug": "pycon-2010--mastering-team-play--four-powerful-ex",

@@ -5,7 +5,7 @@
   "description": "CPython can be made faster by implementing the sort of optimizations\nused in the PyPy VM, and in my HotPy VM. All the necessary changes can\nbe made without modifying the language or the API.\n\nThe CPython VM can be modified to support optimizations by adding an\neffective garbage collector and by separating the virtual-machine state\nfrom the real- machine state (like Stackless).\n\nOptimizations can be implemented incrementally. Since almost all of the\noptimizations are implemented in the interpreter, all hardware platforms\ncan benefit. JIT compiler(s) can then be added for common platforms\n(intel, ARM, etc.).\n\nFor more information see http://hotpy.blogspot.com/\n",
   "duration": null,
   "id": 1130,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2011-07-13",
   "slug": "making-cpython-fast-using-trace-based-optimisatio",

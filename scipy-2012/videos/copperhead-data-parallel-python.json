@@ -5,7 +5,7 @@
   "description": "Copperhead is a data parallel language embedded in Python, which aims to\nprovide both a productive programming environment as well as excellent\ncomputational efficiency on heterogeneous parallel hardware. Copperhead\nprograms are written in a small, restricted subset of Python, using\nstandard constructs like map and reduce, along with traditional data\nparallel primitives like scan and sort. Copperhead programs are written\nin standard Python modules and interoperate with existing Python\nnumerical and visualization libraries such as NumPy, SciPy, and\nMatplotlib. The Copperhead runtime compiles Copperhead programs to\ntarget either CUDA-enabled GPUs or multicore CPUs using OpenMP or\nThreading Building Blocks. On several example applications from Computer\nVision and Machine Learning, Copperhead programs achieve between 45-100%\nof the performance of hand-coded CUDA code, running on NVIDIA GPUs. In\nthis talk, we will discuss the subset of Python that forms the\nCopperhead language, the open source Copperhead runtime and compiler,\nand selected example programs.\n",
   "duration": null,
   "id": 1197,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2012-07-18",
   "slug": "copperhead-data-parallel-python",

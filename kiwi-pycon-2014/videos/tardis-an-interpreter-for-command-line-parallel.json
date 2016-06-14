@@ -5,7 +5,7 @@
   "description": "**Audience level**\n\nIntermediate\n\n**Description**\n\nThis talk is about simplifying the command line interface to local or\ncluster based parallel computing.\n\n**Abstract**\n\nIdeally the user of a command shell would be unaware whether their\ncommands were executed as a single process on the local machine, or as\nmany concurrent processes on either their local machine or a remote\ncluster, apart from the reduced time taken to complete the command if\nexecuted as concurrent processes. We have developed an approach which we\ncall \u201ccommand conditioning\u201d in which the user marks up a command with\nhints to the interpreter which are used to transform the marked-up\ncommand into \u201c(re)conditioned\u201d native shell commands which the\ninterpreter then launches concurrently and monitors, collects and\ncollates output and termination status. We have implemented an initial\npython based command-conditioning interpreter called tardis. We describe\ntardis, give examples of the class of compute tasks for which it is\nsuited, and briefly outline key compute-cluster design characteristics\nwhich support this approach. We also touch on future work such as\npotential integration with Galaxy, a popular python based workflow\nsystem.\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/alan-mcculloch-tardis-an-interpreter-for-command-line-parallel-execution\n",
   "duration": 1800,
   "id": 3239,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-09-13",
   "slug": "tardis-an-interpreter-for-command-line-parallel",

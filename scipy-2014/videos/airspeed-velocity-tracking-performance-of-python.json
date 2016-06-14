@@ -5,7 +5,7 @@
   "description": "As software projects mature and become more robust against bugs, they\nmay also lose some of their runtime performance and memory efficiency.\nAirspeed velocity (asv) is a new tool to help find those performance\ndegradations before they get out to end users. It automatically runs a\nbenchmark suite over a range of commits in a project's repository, as\nwell as in a matrix of configurations of Python versions and other\ndependencies. The results, possibly from multiple machines, are then\ncollated and published in a web-based report.\n\nWhile filling a similar role as projects such as \"codespeed\" and\n\"vbench\", airspeed velocity is designed to be easier to set up and\ndeploy, since it uses only a DVCS repository as its database and the\nreport is deployable to any static web server.\n\nAirspeed velocity provides an easy way to write benchmarks, inspired by\n\"nosetests\" and \"py.test\". It is possible to benchmark runtime, memory\nusage, or any user-defined metric.\n\nOther features either implemented or in the planning stages include:\n\n1. tight integration with existing profiling tools, such as RunSnakeRun\n2. parameterized benchmarks to investigate how an algorithm scales with\n   data size\n3. automatic search for degrading commits\n\nThe presentation will provide a demo of airspeed velocity, and discuss\nits early usage for benchmarking the astropy project.\n",
   "duration": null,
   "id": 2732,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-07-09",
   "slug": "airspeed-velocity-tracking-performance-of-python",

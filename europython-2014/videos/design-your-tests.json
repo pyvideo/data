@@ -5,7 +5,7 @@
   "description": "-  Life span of a test\n\n   -  5 minute - why does this fail?\n   -  5 day - what is this missing?\n   -  5 week - do I have coverage for this?\n   -  5 month - what's *not* causing this bug?\n\n-  Transparent simplicity\n\n   -  one or two \"iceberg\" layers for meaning\n\n      -  Higher-order assertions - build collections of state that have\n         meaning for the domain in the tests\n      -  bulk of the details are in the code itself\n\n      -  show an example\n\n   -  grouping for organization\n\n      -  Mixins\n\n      -  show an example\n\n-  unittest issues\n\n   -  assertion/mixin clutter\n   -  setUp/tearDown tie grouping to the class layer or to inheritance\n      via super\n\n      -  addCleanup\n\n   -  weak association / lookup-ability between code and its tests\n\n      -  package layout\n      -  other conventions\n\n-  Alternative approaches\n\n   -  testtools' matchers\n   -  py.test ``assert`` magic\n\n\n",
   "duration": null,
   "id": 2997,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-07-23",
   "slug": "design-your-tests",

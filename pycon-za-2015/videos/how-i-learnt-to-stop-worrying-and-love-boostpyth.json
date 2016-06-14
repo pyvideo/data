@@ -5,7 +5,7 @@
   "description": "The Zen of Python dictates that there should be one - and preferably\nonly one - obvious way to do something. However, when it comes to\ninteroperation with C and C++, there is a multitude of options: the\nPython C API, Boost.Python, ctypes, cffi, Cython. I will describe my\nquest to find the **holy grail**\\ :sup:`W`\\ W **right interface** for a\nhigh-performance networking library.\n\nThe talk is largely a case study in applying Boost.Python, and will look\nat some issues such as the Global Interpreter Lock, handling\nKeyboardInterrupt cleanly, and managing object lifetime. I will briefly\nmention some of the alternative tools to explain why I settled on\nBoost.Python. It is not a complete Boost.Python tutorial, but rather\naims to give a sense of the flavour and show how it's used in a real\napplication.\n\nFor obvious reasons, this talk will have a lot of C++ code in it, and\nsome familiarity with C++ will be useful.\n",
   "duration": 2137,
   "id": 3933,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2015-10-02",
   "slug": "how-i-learnt-to-stop-worrying-and-love-boostpyth",

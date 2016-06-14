@@ -5,7 +5,7 @@
   "description": "Reverse-engineering Ian Bicking's brain: inside pip and virtualenv\n\nPresented by Carl Meyer\n\nPip and virtualenv: many use them; not so many understand just how they\nwork their magic. If you're a pip/virtualenv user but haven't yet dared\ncrack the lid (or you have, and found it a bit difficult to follow),\ncome along for a fast-paced guided tour. Knowing these tools will help\nyou make more effective use of them, and might also turn you into a\ncontributor.\n\nAbstract\n\nPip and virtualenv are widely used in the Python world, but for the size\nof their user base don't receive many code contributions, and many users\nhave misconceptions about how they actually work.\n\nThis talk will cover a bit of advanced use of pip and virtualenv, but\nmostly we'll dive into the source code, mapping it out with a high-level\nview and diving into the guts of particularly interesting bits. By the\nend of the talk, you'll have a good idea exactly how pip and virtualenv\ndo their magic, and where to go looking in the source for particular\nbehaviors or bug fixes. We'll walk through the creation of a virtualenv\nstep-by-step, and trace a typical \"pip install -r requirements.txt\" and\n\"pip uninstall\" through the code paths they follow.\n\nI'll know the talk was a success when I see the pull requests!\n",
   "duration": null,
   "id": 389,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2011-03-11",
   "slug": "pycon-2011--reverse-engineering-ian-bicking--39-s",

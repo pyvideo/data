@@ -5,7 +5,7 @@
   "description": "Python is often mixed with other languages in development stack,\nnowadays it's hard to escape any JavaScript dependencies. If you add\nsome C dependencies such as GStreamer to the stack, packaging becomes a\nburden.\n\nWhile tweaking our packaging infrastructure will make things better,\nit's hard to fix fundamental problem of packaging with current ad-hoc\nsolutions in Python domain.\n\nUsing Nix (http://nixos.org/nix/) for about a year gave me an insight\nthat solving packaging problem at operating system level (bottom-up) is\na better approach.\n\nFor example, wouldn't it be cool to have \"virtualenv\" implemented inside\nyour package manager, so you could isolate also non-Python dependencies\nand not just Python packages for your project and not worry if system\nwas updated?\n\nWe'll also show what benefits do we get by using the same tool for\ndevelopment and deployment and how little we have to do to deploy our\napplication.\n\nTo see how Haskell community is touching the same subject, see blog post\nhttp://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html\n",
   "duration": null,
   "id": 3036,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-07-22",
   "slug": "rethinking-packaging-development-and-deployment",

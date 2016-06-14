@@ -5,7 +5,7 @@
   "description": "Beginning with Python 3 the old integer (\"int\") type has gone leaving\nthe place to \"long\", which replaced it giving a unique, uniform type to\ndeal with integers. However longs need a more complex structure which\neffectively dropped a bit of Python 3.x performance. Looking at their\nimplementation, an idea grown that can help to improve the situation on\ncommon sceneries (using \"short\" integers). A slightly changed structure\nwill be presented and compared with the old PyIntObject and the current\nPython 3.2 PyLongObject, along with some optimizations, thoughts, and\nissues found on the road, which will show the effort required by such\nchange on a Python core element.\n",
   "duration": null,
   "id": 1143,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2011-07-13",
   "slug": "hacking-pylongobject-on-python-32",

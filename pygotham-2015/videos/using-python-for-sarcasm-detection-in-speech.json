@@ -5,7 +5,7 @@
   "description": "In this talk, I discuss my work using Python to create a system for\nsarcasm detection in speech. My goal in this task is to determine\nwhether human intonation alone can be modeled to predict sarcastic\nspeech. I first extracted speech samples from the titular character of\nMTV\u2019s late \u201890s hit TV show \u201cDaria\u201d. Using crowdsourcing techniques to\nget the speech labeled for sarcasm, I created a corpus of speech that is\nannotated for sarcasm and sincerity. I used several Python toolkits to\nextract a number of acoustic features from this speech that are\nindicative of sarcasm. The first tool I used was Snack Sound Toolkit, a\nlibrary for Python that does basic sound handling and analysis. I used\ntools in Snack to extract a baseline of basic acoustic features that\nhave been found to be helpful in human sarcasm identification. I then\nused NumPy, SciPy, and NLTK to model prosodic contours, and applied\nthese contours to the task of automatic sarcasm detection. This approach\napplies sequential modeling to representations of pitch and intensity\ncurves obtained via k-means clustering. Using machine learning\n(specifically Weka\u2019s SimpleLogistic (LogitBoost) classifier), this\nsystem is able to predict sarcasm with 81.57% accuracy.\n",
   "duration": 1403,
   "id": 3773,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2015-08-16",
   "slug": "using-python-for-sarcasm-detection-in-speech",

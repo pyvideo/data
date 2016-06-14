@@ -5,7 +5,7 @@
   "description": "In this talk, I will describe how Endgame has brought together many\ndifferent Python tools in order to solve the problem of detecting\noutliers in network security data.\n\nThe first step in this process is collecting and storing the metrics\nthat will form a time series. Here, I will describe how Endgame plugs\ninto the flow of network data and then stores that data. (Python\npackages: elasticsearch, pyspark, kairos)\n\nThe next step is applying a Fourier transform in order to classify time\nseries that exhibit daily and weekly patterns. This information is\nespecially useful in deciding how to characterize a time series's past\nbehavior and thus judge how unusual new data is. (Python package: numpy)\n\nFinally, exponentially weighted moving averages and standard deviations\nare calculated in different ways depending on how the time series was\nclassified. For example, if strong daily patterns are present, the data\nis stacked by daily time bin and moving averages are calculated within\neach time bin. Corrections for weekend and weekday behavior are also\napplied if necessary. Autoregressive moving average models are also used\nand the performance of each algorithm is gauged and compared (Python\npackages: pandas, scikits.statsmodels).\n\nThe final result of this process is a list of outliers and their\nseverity. Further algorithms will judge what outliers are serious enough\nto present to users.\n",
   "duration": null,
   "id": 2864,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": null,
   "slug": "time-series-analysis-network-security",

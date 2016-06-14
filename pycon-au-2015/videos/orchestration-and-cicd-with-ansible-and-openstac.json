@@ -5,7 +5,7 @@
   "description": "This project will demonstrate how to leverage CI/CD pipelines, to deploy\nand rollback applications in the Openstack Cloud. Best-practices allow\nto automate tasks and achieve high-degree of repeatability and\nrobustness.\n\nJenkins will be used to implement continuous integration and continuous\ndelivery jobs and pipelines. Packer will create images of disposable\nsystems, being containers and Cloud servers. Ansible will be used to\nboth create images with Packer, and eventually orchestrate provisioning\nof systems in staging and production environments in a blue-green\nfashion.\n\nDeep knowledge of deployment and workflow allows to continuously refine\nthe process, adapt it to custom requirements, and make it smoother.\n\nThe following technologies will be presented:\n\n-  Ansible\n-  Docker on CoreOS cluster\n-  Git repository\n-  Jenkins\n-  Openstack\n-  Packer\n-  Vagrant\n\n",
   "duration": null,
   "id": 4048,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2015-08-03",
   "slug": "orchestration-and-cicd-with-ansible-and-openstac",

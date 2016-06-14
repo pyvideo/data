@@ -5,7 +5,7 @@
   "description": "PyPy is a fast alternative Python implementation. Software Transactional\nMemory (STM) is a current academic research topic. Put the two together\n--brew for a couple of years-- and we get a version of PyPy that runs on\nmultiple cores, without the infamous Global Interpreter Lock (GIL).\n\nThe current research is based on a recent new insight that promises to\ngive really good performance. The speed of STM is generally measured by\ntwo factors: the ability to scale with the number of CPUs, and the\namount of overhead when compared with other approaches in a single CPU\n(in this case, with the regular PyPy with the GIL). Scaling is not\nreally a problem here, but single-CPU performance is --or used to be.\nThis new approach gives a single-threaded overhead that should be very\nlow, maybe 20%, which would definitely be news for STM systems. Right\nnow (February 2014) we are still implementing it, so we cannot give\nfinal numbers yet, but early results on a small interpreter for a custom\nlanguage are around 15%. This looks like a deal-changer for STM.\n\nIn the talk, I will describe our progress, hopefully along with real\nnumbers and demos. I will then dive under the hood of PyPy to give an\nidea about how it works. I will conclude with a picture of how the\nfuture of multi-threaded programming might looks like, for high-level\nlanguages like Python. I will also mention CPython: how hard (or not) it\nwould be to change the CPython source code to use the same approach.\n",
   "duration": null,
   "id": 3006,
-  "language": "English",
+  "language": "eng",
   "quality_notes": "",
   "recorded": "2014-07-23",
   "slug": "using-all-these-cores-transactional-memory-in-py",
