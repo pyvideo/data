@@ -2,17 +2,171 @@
 CONTRIBUTING
 ============
 
-Contributions are welcome, and they are greatly appreciated! Every little bit
-helps, and credit will always be given.
+Contributions are welcome and greatly appreciated!
 
-You can contribute in many ways:
+Ways to Contribute:
+
+- `Adding Data`_
+- `Cleaning Data`_
+- `Reporting bugs`_
+- `Writing Documentation`_
 
 
-Types of Contributions
-======================
-
-Report Bugs
+Adding Data
 -----------
+
+JSON Objects
+~~~~~~~~~~~~
+
+Each video contributed to `pytube/data`_ must have its own JSON object containing details about the video.
+For example, here's a JSON object containing data about a talk at PyGotham 2015:: 
+
+    {
+        "category": "PyGotham 2015",
+        "copyright_text": "CC BY-SA",
+        "date": "2015-08-10T15:48:44.245",
+        "description": "Computational tools are becoming increasingly ...",
+        "language": "English",
+        "source_url": "http://youtu.be/APC5HvHZaf0",
+        "speakers": [
+            "Eric Schles"
+        ],
+        "tags": ["social good", "tools", "computational"],
+        "thumbnail_url": "https://i.ytimg.com/vi/APC5HvHZaf0/hqdefault.jpg",
+        "title": "Building tools for Social good",
+        "status": "draft",
+        ...
+    }
+
+The JSON object for each video **must** define values for these keys ...
+
+==================================     ==================================
+key                                    value type
+==================================     ==================================
+date                                   string
+----------------------------------     ----------------------------------
+description                            rST string (see below)
+----------------------------------     ----------------------------------
+speakers                               array of strings
+----------------------------------     ----------------------------------
+thumbnail_url                          string
+----------------------------------     ----------------------------------
+title                                  string
+----------------------------------     ----------------------------------
+videos                                 array of objects
+==================================     ==================================
+
+... and can optionally define values for a number of other keys ...
+
+==================================     ==================================
+key                                    value type
+==================================     ==================================
+copyright_text                         string
+----------------------------------     ----------------------------------
+language                               string
+----------------------------------     ----------------------------------
+related_urls                           array of strings
+----------------------------------     ----------------------------------
+tags                                   array of strings
+==================================     ==================================
+
+For a full schema of a video JSON object, please see https://github.com/pytube/data/blob/master/.schemas/video.json
+
+*Requirements of the Description String*
+
+The description string for a video must be a valid reStructuredText (rST) document. 
+That is, the string keyed by "description" in a JSON object must be parsible by a reStructuredText (rST) parser.
+`pytube/data`_ uses docutils' ``docutils.parsers.rst.Parser`` to test the validity of the description and summary strings for each video.
+
+If any errors, syntax or otherwise, occur while parsing the contents of description string, the pull request will fail its validation tests (which are run automatically upon pull request creation). All tests must be passing for a pull request to be merged in.
+
+The good news is that, most descriptions with evenly indented paragraphs and lists are already valid rST! If you need to brush up on your rST, check out these resources:
+
+- A ReStructuredText Primer (http://docutils.sourceforge.net/docs/user/rst/quickstart.html)
+- Quick reStructuredText (http://docutils.sourceforge.net/docs/user/rst/quickref.html)
+- Sphinx's reStructuredText Primer (http://www.sphinx-doc.org/en/stable/rest.html)
+- reStructuredText Markup Specification (http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
+
+JSON Files
+~~~~~~~~~~
+
+Each video's JSON object must live in its own file (eg. ``building-tools-for-social-good.json``). 
+For example, in the case of ``building-tools-for-social-good.json``, the JSON file would contain the sinle JSON object listed above.
+A JSON file can be named whatever you like so long as it ends in ``.json`` and follows the same slugification rules that apply to categories. A semantic file name is encouraged.
+
+Pretty print is important! In order to maintain this data with ease, it needs to be easily parseable by the human eye. 
+Thus, all contributions are requested to be in pretty-printed format. Thankfully, Python makes this an task easy. 
+To convert a file of ugly JSON to a file of pretty JSON, 
+you can use the following command from the root of your local clone of the `pytube/data`_ repo::
+
+    $ python tools/reserialize.py path/to/file.json
+    
+If you added a lot of data and don't want to run the above command for each file, you can use::
+
+    $ python tools/reserialize.py --all .
+    
+Finally, video JSON files should go in a directory called ``videos`` that is itself inside a cateogry directory.
+For example::
+
+    root
+    |_ pygotham-2015/
+       |_ category.json
+       |_ videos/
+          |_ building-tools-for-social-good.json
+          |_ all-speed-no-greed.json
+          .
+          .
+          .
+
+Categories
+~~~~~~~~~~
+
+All video JSON files must be placed in a category specific sub-directory. 
+For example, JSON files for PyGotham 2015 would go in ``pygotham-2015/videos/``.
+
+Categories are most commonly synonymous with the event at which the video was recorded. 
+However, a category can be any ASCII string containing only alphanumeric characters and the dash character (ie. ``-``). 
+For example, a category could be a user group's name, a podcast, or the SHA256 hash of your genetic material; up to you.
+Please note that a semantic category name is encouraged.
+
+Inside of each cateogory directory is a file called ``category.json``. 
+This file contiains a sinlge JSON object that stores metadata regarding the category.
+
+The JSON object for each category **must** define values for these keys ...
+
+==================================     ==================================
+key                                    value type
+==================================     ==================================
+title                                  string
+----------------------------------     ----------------------------------
+slug                                   string
+==================================     ==================================
+
+For a full schema of a category JSON object, please see https://github.com/pytube/data/blob/master/.schemas/category.json
+
+
+Pull Request
+~~~~~~~~~~~~
+
+Once your video JSON files and cateogry JSON file are ready to be added to pytube's collection, take the following steps:
+
+#. Fork this repo if you haven't already
+#. Clone from your forked repo
+#. Add your category directory (containing the JSON files) into the root of the repo.
+#. Commit your changes and push them up to your fork
+#. Issue a Pull Request of your changes to this repo.
+
+And your done! So long as you've followed this guide, your Pull Request (PR) should be ready for review and merger. 
+Your changes will be visible on pytube.org within a few days after the PR is merged. 
+
+Cleaning Data
+-------------
+
+See a bug, typo, or problem with the data and have a minute to fix it? Great! 
+Please fork this repo, make the change, and submit a pull request.
+
+Reporting Bugs
+--------------
 
 Report bugs at:
 
@@ -42,8 +196,8 @@ If you are reporting a bug about things to add, please include:
    expect anyone else to, either.
 
 
-Write Documentation
--------------------
+Writing Documentation
+---------------------
 
 Our documentation can always be better. What questions did you have that you
 think other people might have that aren't answered in the documentation? Were
@@ -54,3 +208,6 @@ We could always use more documentation whether that's part of the official docs,
 comments and docstrings in the code or even elsewhere on the web in blog posts,
 articles, tweets and other things like that.
 
+**Thanks so much for contributing to your worldwide Python community!**
+
+..  _`pytube/data`: https://github.com/pytube/data
