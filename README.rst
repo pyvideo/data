@@ -1,9 +1,12 @@
 pytube/data
 ===========
 
+*Python related videos and metadata*
+
 .. image:: https://badges.gitter.im/pytube/data.svg
    :alt: Join the chat at https://gitter.im/pytube/data
    :target: https://gitter.im/pytube/data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
 
 **Publishing**
 
