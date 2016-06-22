@@ -1,6 +1,9 @@
 import argparse
 import json
 
+import sys
+sys.path.insert(0, '.')
+
 from tools.constants import JSON_FORMAT_KWARGS
 from tools.utils import get_json_files
 
