@@ -27,7 +27,7 @@
       "anyOf": [{"type": "null"}, {"type": "integer"}]
     },
     "language":{
-      "description":"Spoken language used in video",
+      "description":"ISO 639-3 language code of spoken language used in video",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "quality_notes":{
