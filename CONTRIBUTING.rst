@@ -80,6 +80,13 @@ https://github.com/pytube/data/blob/master/.schemas/video.json
 
 .. _ISO_639-3: https://en.wikipedia.org/wiki/ISO_639-3
 
+*Title*
+
+Since the list of speakers, event name, and other metadata are caputred elsewhere in each video's JSON object, 
+it is suggested that the value of the ``title`` string contain only the title of the video and not contain any
+other infomration about the video.
+
+
 *Requirements of the Description String*
 
 The description string for a video must be a valid reStructuredText (rST)
@@ -102,10 +109,10 @@ these resources:
 - Sphinx's reStructuredText Primer (http://www.sphinx-doc.org/en/stable/rest.html)
 - reStructuredText Markup Specification (http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
 
-*Related URLs (`related_urls`)*
+*Related URLs*
 
 I there are other resources available and related to the video (slide decks, etc), 
-it is suggested that they are referenced in the `related_urls` list of URLs 
+it is suggested that they are referenced in the ``related_urls`` array of URLs 
 rather than in the description.
 
 
