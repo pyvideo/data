@@ -68,7 +68,7 @@ key                                    value type
 ==================================     ==================================
 copyright_text                         string
 ----------------------------------     ----------------------------------
-language                               string
+language                               string (`ISO_639-3`_ coded)
 ----------------------------------     ----------------------------------
 related_urls                           array of strings
 ----------------------------------     ----------------------------------
@@ -77,6 +77,8 @@ tags                                   array of strings
 
 For a full schema of a video JSON object, please see
 https://github.com/pytube/data/blob/master/.schemas/video.json
+
+.. _ISO_639-3: https://en.wikipedia.org/wiki/ISO_639-3
 
 *Requirements of the Description String*
 
