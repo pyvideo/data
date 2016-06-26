@@ -102,6 +102,13 @@ these resources:
 - Sphinx's reStructuredText Primer (http://www.sphinx-doc.org/en/stable/rest.html)
 - reStructuredText Markup Specification (http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
 
+*Related URLs (`related_urls`)*
+
+I there are other resources available and related to the video (slide decks, etc), 
+it is suggested that they are referenced in the `related_urls` list of URLs 
+rather than in the description.
+
+
 JSON Files
 ~~~~~~~~~~
 
