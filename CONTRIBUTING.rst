@@ -25,8 +25,13 @@ For example, here's a JSON object containing data about a talk at PyGotham 2015:
     {
         "copyright_text": "CC BY-SA",
         "description": "Computational tools are becoming increasingly ...",
+        "duration": 3456,
         "language": "eng",
         "recorded": "2015-08-10",
+        "related_urls": [
+            "http://example.com/the/slide/deck.pdf",
+            "http://example.com/a/notebook.nb"
+        ],
         "speakers": [
             "Eric Schles"
         ],
@@ -73,8 +78,6 @@ key                                    value type
 copyright_text                         string
 ----------------------------------     ----------------------------------
 duration                               integer
-----------------------------------     ----------------------------------
-id                                     integer
 ----------------------------------     ----------------------------------
 language                               string (`ISO 639-3`_ coded)
 ----------------------------------     ----------------------------------
