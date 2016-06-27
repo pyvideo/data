@@ -35,9 +35,13 @@ For example, here's a JSON object containing data about a talk at PyGotham 2015:
         "title": "Building tools for Social good",
         "videos": [
             {
-                "length": 0,
                 "type": "youtube",
                 "url": "http://youtu.be/APC5HvHZaf0"
+            },
+            {
+                "size": 123456789,
+                "type": "mp4",
+                "url": "http://example.com/some/place/on/the/web.mp4"
             }
         ]
         ...
@@ -61,14 +65,14 @@ title                                  string
 videos                                 array of objects
 ==================================     ==================================
 
-... and can optionally define values for a number of other keys ...
+... and can optionally define values for a number of other keys. For example, ...
 
 ==================================     ==================================
 key                                    value type
 ==================================     ==================================
 copyright_text                         string
 ----------------------------------     ----------------------------------
-language                               string (`ISO_639-3`_ coded)
+language                               string (`ISO 639-3`_ coded)
 ----------------------------------     ----------------------------------
 related_urls                           array of strings
 ----------------------------------     ----------------------------------
@@ -78,7 +82,7 @@ tags                                   array of strings
 For a full schema of a video JSON object, please see
 https://github.com/pytube/data/blob/master/.schemas/video.json
 
-.. _ISO_639-3: https://en.wikipedia.org/wiki/ISO_639-3
+.. _ISO 639-3: https://en.wikipedia.org/wiki/ISO_639-3
 
 *Title*
 
