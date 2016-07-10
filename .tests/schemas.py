@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import sys
 
 import jsonschema
 
@@ -25,6 +26,7 @@ def check_schemas(data_root, schemas_dir, verbose=False):
                     print(file_path, flush=True)
                     if verbose:
                         print(e, flush=True)
+                    sys.exit(1)
 
 
 def main():
@@ -32,7 +34,7 @@ def main():
     parser.add_argument("-d", "--data-root",
                         help="directory to search for JSON files")
     parser.add_argument("-s", "--schemas-dir",
-                        help="directory containing schema files") 
+                        help="directory containing schema files")
     parser.add_argument("-v", "--verbose",
                         type=int,
                         help="increase output verbosity")
@@ -43,4 +45,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
