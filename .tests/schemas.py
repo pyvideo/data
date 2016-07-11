@@ -12,6 +12,8 @@ def check_schemas(data_root, schemas_dir, verbose=False):
     schemas = ('category.json', 'video.json')
     all_file_paths = get_json_files(data_root)
 
+    error_count = 0
+
     for schema, file_paths in zip(schemas, all_file_paths):
         schema_path = os.path.join(schemas_dir, schema)
         with open(schema_path, encoding='UTF-8') as fp:
@@ -26,7 +28,9 @@ def check_schemas(data_root, schemas_dir, verbose=False):
                     print(file_path, flush=True)
                     if verbose:
                         print(e, flush=True)
-                    sys.exit(1)
+                    error_count += 1
+
+    return error_count
 
 
 def main():
@@ -40,7 +44,7 @@ def main():
                         help="increase output verbosity")
     args = parser.parse_args()
 
-    check_schemas(args.data_root, args.schemas_dir, verbose=args.verbose)
+    sys.exit(check_schemas(args.data_root, args.schemas_dir, verbose=args.verbose))
 
 
 if __name__ == '__main__':
