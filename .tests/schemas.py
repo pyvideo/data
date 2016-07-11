@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import sys
 
 import jsonschema
 
@@ -10,6 +11,8 @@ from tools.utils import get_json_files
 def check_schemas(data_root, schemas_dir, verbose=False):
     schemas = ('category.json', 'video.json')
     all_file_paths = get_json_files(data_root)
+
+    error_count = 0
 
     for schema, file_paths in zip(schemas, all_file_paths):
         schema_path = os.path.join(schemas_dir, schema)
@@ -25,6 +28,9 @@ def check_schemas(data_root, schemas_dir, verbose=False):
                     print(file_path, flush=True)
                     if verbose:
                         print(e, flush=True)
+                    error_count += 1
+
+    return error_count
 
 
 def main():
@@ -32,15 +38,14 @@ def main():
     parser.add_argument("-d", "--data-root",
                         help="directory to search for JSON files")
     parser.add_argument("-s", "--schemas-dir",
-                        help="directory containing schema files") 
+                        help="directory containing schema files")
     parser.add_argument("-v", "--verbose",
                         type=int,
                         help="increase output verbosity")
     args = parser.parse_args()
 
-    check_schemas(args.data_root, args.schemas_dir, verbose=args.verbose)
+    sys.exit(check_schemas(args.data_root, args.schemas_dir, verbose=args.verbose))
 
 
 if __name__ == '__main__':
     main()
-

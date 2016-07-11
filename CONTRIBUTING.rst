@@ -19,8 +19,8 @@ JSON Objects
 ~~~~~~~~~~~~
 
 Each video contributed to `pytube/data`_ must have its own JSON object
-containingdetails about the video.
-For example, here's a JSON object containing data about a talk at PyGotham 2015:: 
+containing details about the video.
+For example, here's a JSON object containing data about a talk at PyGotham 2015::
 
     {
         "copyright_text": "CC BY-SA",
@@ -95,7 +95,7 @@ https://github.com/pytube/data/blob/master/.schemas/video.json
 
 *Title*
 
-Since the list of speakers, event name, and other metadata are caputred elsewhere in each video's JSON object, 
+Since the list of speakers, event name, and other metadata are captured elsewhere in each video's JSON object,
 it is suggested that the value of the ``title`` string contain only the title of the video and not contain any
 other infomration about the video.
 
@@ -110,8 +110,8 @@ summary strings for each video.
 
 If any errors, syntax or otherwise, occur while parsing the contents of
 description string, the pull request will fail its validation tests
-(which are run automatically upon pull request creation). All tests must be
-passing for a pull request to be merged in.
+(which are run automatically upon pull request creation). All tests must
+pass for a pull request to be merged in.
 
 The good news is that, most descriptions with evenly indented paragraphs and
 lists are already valid rST! If you need to brush up on your rST, check out
@@ -124,8 +124,8 @@ these resources:
 
 *Related URLs*
 
-I there are other resources available and related to the video (slide decks, etc), 
-it is suggested that they are referenced in the ``related_urls`` array of URLs 
+I there are other resources available and related to the video (slide decks, etc),
+it is suggested that they are referenced in the ``related_urls`` array of URLs
 rather than in the description.
 
 
@@ -141,8 +141,8 @@ categories. A semantic file name is encouraged.
 
 Pretty print is important! In order to maintain this data with ease,
 it needs to be easily parseable by the human eye. Thus, all contributions are
-requested to be in pretty-printed format. Thankfully, Python makes this an task
-easy. To convert a single file of ugly JSON to a file of pretty JSON, you can use the
+requested to be in pretty-printed format. Thankfully, Python makes this an easy task.
+To convert a single file of ugly JSON to a file of pretty JSON, you can use the
 following command from the root of your local clone of the `pytube/data`_ repo::
 
     $ python tools/reserialize.py path/to/file.json
@@ -195,24 +195,24 @@ For a full schema of a category JSON object, please see https://github.com/pytub
 Pull Request
 ~~~~~~~~~~~~
 
-Once your video JSON files and category JSON file are ready to be added to 
+Once your video JSON files and category JSON file are ready to be added to
 pytube's collection, take the following steps:
 
-#. Fork this repo if you haven't already
-#. Clone from your forked repo
+#. Fork this repo if you haven't already.
+#. Clone from your forked repo.
 #. Add your category directory (containing the JSON files) into the root of the repo.
-#. Add yourself as a contributor in the `CONTRIBUTORS.rst <https://github.com/pytube/data/blob/master/CONTRIBUTORS.rst>`_ file. 
-#. Commit your changes and push them up to your fork
+#. Add yourself as a contributor in the `CONTRIBUTORS.rst <https://github.com/pytube/data/blob/master/CONTRIBUTORS.rst>`_ file.
+#. Commit your changes and push them up to your fork.
 #. Issue a Pull Request of your changes to this repo.
 
-And your done! So long as you've followed this guide, your Pull Request (PR)
+And you're done! So long as you've followed this guide, your Pull Request (PR)
 should be ready for review and merger. Your changes will be visible on
 pytube.org within a few days after the PR is merged.
 
 Cleaning Data
 -------------
 
-See a bug, typo, or problem with the data and have a minute to fix it? Great! 
+See a bug, typo, or problem with the data and have a minute to fix it? Great!
 Please fork this repo, make the change, and submit a pull request.
 
 Reporting Bugs
@@ -261,4 +261,3 @@ articles, tweets and other things like that.
 **Thanks so much for contributing to your worldwide Python community!**
 
 ..  _`pytube/data`: https://github.com/pytube/data
-
