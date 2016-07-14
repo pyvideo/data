@@ -6,7 +6,9 @@ pytube/data
 .. image:: https://badges.gitter.im/pytube/data.svg
    :alt: Join the chat at https://gitter.im/pytube/data
    :target: https://gitter.im/pytube/data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-
+   
+.. image:: https://zenodo.org/badge/23288/pytube/data.svg
+   :target: https://zenodo.org/badge/latestdoi/23288/pytube/data
 
 **Publishing**
 
