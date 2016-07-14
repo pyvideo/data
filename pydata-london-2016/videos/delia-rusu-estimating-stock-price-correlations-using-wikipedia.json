@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData London 2016\n\nBuilding an equities portfolio is a challenging task for a finance professional as it requires, among others, future correlations between stock prices. As this data is not always available, in this talk I look at an alternative to historical correlations as proxy for future correlations: using graph analysis techniques and text similarity measures based on Wikipedia data.\n\nAccording to Modern Portfolio Theory, assembling a portfolio involves forming expectations about the individual stock's future risk and return as well as future correlations between stock prices. These future correlations are typically estimated using historical stock price data. However, there are situations where this type of data is not available, such as the time preceding an IPO.\n\nIn this talk I look at an alternative to historical correlations as proxy for future correlations: using graph analysis techniques and text similarity measures in order to estimate the correlation between stock prices.\n\nThe focus of the analysis will be on companies listed on the London Stock Exchange which form the FTSE 100 Index. I am going to use Wikipedia articles in order to derive the textual description for each company. Additionally, I will use the Wikipedia category structure to derive a graph describing relations between companies.\n\nThe analysis will be performed using the scikit-learn and networkX libraries and example code will be available to the audience.\n\nGitHub: https://github.com/deliarusu/wikipedia-correlation\nhttps://github.com/idio/wiki2vec",
+  "duration": 1883,
+  "language": "eng",
+  "recorded": "2016-05-08",
+  "related_urls": [
+    "https://github.com/deliarusu/wikipedia-correlation",
+    "https://github.com/idio/wiki2vec"
+  ],
+  "slug": "delia-rusu-estimating-stock-price-correlations-using-wikipedia",
+  "source_url": "https://www.youtube.com/watch?v=ZsD1w2MzN0c",
+  "speakers": [
+    "Delia Rusu"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZsD1w2MzN0c/maxresdefault.jpg",
+  "title": "Estimating stock price correlations using Wikipedia",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZsD1w2MzN0c"
+    }
+  ]
+}
