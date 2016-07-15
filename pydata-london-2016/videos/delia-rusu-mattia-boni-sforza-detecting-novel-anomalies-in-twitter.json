@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData London 2016\n\nIn recent years Twitter has gained importance as a datasource for finance professionals alongside news. However, several challenges appear when identifying relevant information and finding the latest unexpected developments. In this talk we are going to present our experience developing an anomaly detection and alerting system and analyse a particular anomalous scenario.\n\nWe are overwhelmed by the amount of information available via news, blogs, social media, etc. and there is growing demand for automatic or semi-automatic systems that filter information and surface the most relevant, interesting, novel pieces to the users. Finance professionals face multiple challenges as the volume of data they are analysing increases and at the same time the data sources get more diverse. In order to address the information overload problem both established financial news providers and social media services present condensed information: in the form of news headlines (e.g. Bloomberg and Reuters) or by imposing limits on the text length (a Twitter message is formed of maximum 140 characters). On the other hand, in recent years, an increasing number of content filtering and alerting systems have been developed.\n\nKnowsis is a fintech startup focusing on social media analytics. One of the systems that we developed - Anomaly Detection and Alerting - is aimed at informing the user whenever it identifies an unexpected and novel tweet. Anomaly detection is driven by social volume, i.e. not all tweets which deviate from what is expected are anomalies, but a critical number of tweets is required. In addition, we do not want to alert the user about old information.\n\nThe talk will present the approach that we took in building the system, highlighting issues that we encountered along the way and how we tackled them. In the second part of the talk we are going to show how one can build a similar anomaly detection system from scratch and use it to detect a particular anomalous scenario. We are going to use Poisson models to identify anomalies and Locality-Sensitive Hashing for novelty detection. The code will be written in Python using the scikit-learn and statsmodels libraries and made available to the audience.\n\nSlides available here: http://nbviewer.jupyter.org/format/slides/github/knowsis/novel-twitter-anomalies-pydatalondon2016/blob/master/pydata_presentation.ipynb#/\n\nGitHub Repo: https://github.com/knowsis/novel-twitter-anomalies-pydatalondon2016",
+  "duration": 2545,
+  "language": "eng",
+  "recorded": "2016-05-16",
+  "related_urls": [
+    "http://nbviewer.jupyter.org/format/slides/github/knowsis/novel-twitter-anomalies-pydatalondon2016/blob/master/pydata_presentation.ipynb#/",
+    "https://github.com/knowsis/novel-twitter-anomalies-pydatalondon2016"
+  ],
+  "slug": "delia-rusu-mattia-boni-sforza-detecting-novel-anomalies-in-twitter",
+  "source_url": "https://www.youtube.com/watch?v=cW8GQoKBJDw",
+  "speakers": [
+    "Delia Rusu",
+    "Mattia Boni Sforza"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/cW8GQoKBJDw/maxresdefault.jpg",
+  "title": "Detecting novel anomalies in Twitter",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cW8GQoKBJDw"
+    }
+  ]
+}
