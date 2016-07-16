@@ -16,7 +16,9 @@ def check_slugs_unique(data_root, verbose=False):
     for category_path in category_paths:
         with open(category_path, encoding='UTF-8') as fp:
             category_blob = json.load(fp)
-            category_slug = category_blob.get('slug')
+            # slugs will be generated from titles, so titles can be used
+            # as a stand-in for slugs when testing unique constraints.
+            category_title = category_blob.get('title')
 
             head, _ = os.path.split(category_path)
             video_pattern = os.path.join(head, 'videos/*.json')
@@ -25,7 +27,7 @@ def check_slugs_unique(data_root, verbose=False):
                     video_blob = json.load(fp)
                     video_slug = video_blob.get('slug')
 
-                    combo = (category_slug, video_slug)
+                    combo = (category_title, video_slug)
                     paths_by_combo[combo].append(video_path)
 
     keys = list(paths_by_combo.keys())
