@@ -11,7 +11,7 @@
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "slug":{
-      "description":"URI-safe slug for identifying category. Must be unique amongst categories.",
+      "description":"[Deprecated] URI-safe slug for identifying category. Must be unique amongst categories.",
       "type":"string"
     },
     "title":{
@@ -20,7 +20,6 @@
     }
   },
   "required":[
-    "slug",
     "title"
   ],
   "title":"Video",
