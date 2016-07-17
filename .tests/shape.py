@@ -19,13 +19,14 @@ def check_render_rest(data_root, verbose=False):
                 json.loads(serialized_blob),
                 **JSON_FORMAT_KWARGS
             )
-            if serialized_blob != re_serialized_blob:
+            if serialized_blob.strip() != re_serialized_blob.strip():
                 error_by_path[file_path] = (serialized_blob, re_serialized_blob)
 
     if error_by_path:
         for path, blobs in error_by_path.items():
             print('Incorrect serialization order in {}'.format(path), flush=True)
             if verbose:
+                print(blobs)
                 for i, blob in enumerate(blobs):
                     print('Blob #', i)
                     print(blob)
