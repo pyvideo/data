@@ -180,14 +180,12 @@ genetic material; up to you. Please note that a semantic category name is encour
 Inside of each category directory is a file called ``category.json``. This file
 contains a single JSON object that stores metadata regarding the category.
 
-The JSON object for each category **must** define values for these keys ...
+The JSON object for each category **must** define only one key ...
 
 ==================================     ==================================
 key                                    value type
 ==================================     ==================================
 title                                  string
-----------------------------------     ----------------------------------
-slug                                   string
 ==================================     ==================================
 
 For a full schema of a category JSON object, please see https://github.com/pytube/data/blob/master/.schemas/category.json
