@@ -38,7 +38,7 @@ test-render-rest: install-deps
 	$(PY) $(TESTSDIR)/render_rest.py -d $(BASEDIR)
 
 test-shape: install-deps
-	$(PY) $(TESTSDIR)/shape.py -d $(BASEDIR)
+	$(PY) $(TESTSDIR)/shape.py -d $(BASEDIR) -v 1
 
 test: test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape
 

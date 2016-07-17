@@ -1,4 +1,5 @@
 import argparse
+import difflib
 import json
 import sys
 
@@ -25,11 +26,9 @@ def check_render_rest(data_root, verbose=False):
     if error_by_path:
         for path, blobs in error_by_path.items():
             print('Incorrect serialization order in {}'.format(path), flush=True)
+            blobs = tuple(blob.splitlines(keepends=True) for blob in blobs)
             if verbose:
-                for i, blob in enumerate(blobs):
-                    print('Blob #', i)
-                    print(blob)
-
+                print(''.join(difflib.ndiff(*blobs)), end="")
         sys.exit(1)
 
 
