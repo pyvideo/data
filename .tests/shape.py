@@ -26,7 +26,6 @@ def check_render_rest(data_root, verbose=False):
         for path, blobs in error_by_path.items():
             print('Incorrect serialization order in {}'.format(path), flush=True)
             if verbose:
-                print(blobs)
                 for i, blob in enumerate(blobs):
                     print('Blob #', i)
                     print(blob)
