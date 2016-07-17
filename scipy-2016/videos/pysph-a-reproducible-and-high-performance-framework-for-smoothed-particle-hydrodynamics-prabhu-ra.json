@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "SPH (Smoothed Particle Hydrodynamics) is a general purpose technique to numerically compute the solutions to partial differential equations. The method is grid-free and uses particles to discretize the various properties of interest. The method is Lagrangian and particles are moved with the local velocity. The method was originally developed for astrophysical problems (compressible gas-dynamics) but has since been extended to simulate incompressible fluids, solid mechanics, free-surface problems and a variety of other problems. The SPH method is relatively easy to implement. This has resulted in a large number of schemes and implementations proposed by various researchers. It is often difficult to reproduce published results due to the variety of implementations. While a few standard packages like (SPHysics, DualSPHysics, JOSEPHINE etc.) exist, they are usually tailor-made for particular applications and are not general purpose. Our group has been developing PySPH (http://pysph.bitbucket.org) over 5 years. PySPH is open source, and distributed under the new BSD license. Our initial implementation was based on Cython (http://cython.org) and also featured some parallelization using MPI. Unfortunately, this proved difficult to use as users were forced to implement most of their code in Cython. It was felt that we might as well have implemented it all in C++ and exposed a Python interface to that. In early 2013, we redesigned PySPH so that users were able to implement an entire simulation using pure Python. This was done by auto-generating HPC code from the pure Python code that users provided. This version ended up being faster than our original Cython implementation. Since we were auto-generating code, with a bit of additional effort it was possible to support OpenMP. PySPH has thus matured into an easy to use, yet high-performance framework where users can develop their schemes in pure Python and yet obtain performance close to that of a lower-level language implementation. PySPH also supports running on a cluster of machines via MPI. This is seamless and a serial script using PySPH can be run with almost no changes using MPI. PySPH features a reasonable test-suite and we use continuous integration servers to test it on Linux and Windows. Our documentation is hosted on http://pysph.readthedocs.org. The framework supports several of the standard SPH algorithms. A suite of about 30 examples are provided and are shipped as part of the sources and installed when a user does a pip install for example. The examples are written in a way that makes it easy to extend and also perform comparisons between schemes. These features make PySPH well suited for reproducible numerical work. In fact one of our recent papers was written such that every figure in the paper is automatically generated using PySPH. In this talk we discuss the use, design, and implementation of PySPH. We believe that this talk would be suitable for either the HPC track or the general track or even the engineering minisymposium.",
+  "duration": 1422,
+  "language": "eng",
+  "recorded": "2016-07-14",
+  "related_urls": [],
+  "slug": "pysph-a-reproducible-and-high-performance-framework-for-smoothed-particle-hydrodynamics-prabhu-ra",
+  "speakers": [
+    "Prabhu Ramachandran"
+  ],
+  "tags": [
+    "pysph",
+    "hydrodynamics",
+    "high performance computing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/l-f16KjR9Bw/maxresdefault.jpg",
+  "title": "PySPH: A Reproducible and High performance Framework for Smoothed Particle Hydrodynamics",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=l-f16KjR9Bw"
+    }
+  ]
+}
