@@ -1,4 +1,5 @@
 import argparse
+import logging
 import json
 
 import sys
@@ -9,14 +10,21 @@ from tools.utils import get_json_files
 
 
 def reserialize(file_):
+    """Reformat json file"""
     with open(file_) as fp:
-        data = json.load(fp)
+        try:
+            data = json.load(fp)
+        except ValueError:
+            logging.error('Json syntax error in file {}'.format(file_))
+            raise
 
     with open(file_, 'w') as fp:
         json.dump(data, fp, **JSON_FORMAT_KWARGS)
 
 
 def main():
+    """Convert json file(s) to the project format standards"""
+    logging.basicConfig(level=logging.WARNING)
     parser = argparse.ArgumentParser()
     parser.add_argument("path",
                         help="path to file(s) to reserialize")
@@ -36,4 +44,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
