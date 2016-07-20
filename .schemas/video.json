@@ -59,7 +59,7 @@
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "source_url":{
-      "description":"Preferred URL for video",
+      "description":"[Deprecated] Preferred URL for video. Please denote preference with order of videos in video array.",
       "format":"uri",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
