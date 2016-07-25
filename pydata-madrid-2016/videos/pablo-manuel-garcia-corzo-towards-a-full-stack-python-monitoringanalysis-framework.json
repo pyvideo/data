@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Madrid 2016\n\nMost of the talks and workshop tutorials can be found here: https://github.com/PyDataMadrid2016/Conference-Info\n\nAre traditional monitoring solution ready for the software defined world (SDN/NFV) and the IoT? Analytics can\u2019t be considered anymore as an extra but a must for diving in an ocean of data where threshold-based KPIs are not enough. We will attempt to identify lacks in current tools and design a full stack python monitoring+analytics framework capable to face the new challenges of today.\n\nIt\u2019s quite probable that you already have a standard monitoring tool (such as Nagios) deployed in your production environment reading thousands of KPIs from your systems every minute.\n\nAs you may already suspect, there\u2019s much more interesting information hidden in all that data than just plain threshold based alarms per kpi and you wish to exploit it in much more depth.\n\nFurthermore, traditional monitoring solutions are not ready for the increasing flow of heterogeneous information coming from the software defined world (SDN/NFV) and the IoT, where isolated threshold based alarms are not enough and analytics are a must for redefining your KPIs.\n\nIn this talk, we will attempt to design a full stack python monitoring+analytics framework capable to face those new challenges. For such a purpose we will study several state of the art libraries and tools covering all the pieces involved in the framework:\n\n* Agents and brokers for data acquisition (ncpa, dweepy, phant, paho, hbmqtt...)\n* Data storage (gnocchi, Arctic, HDF5, RRD...)\n* Analytics (numpy, pandas, scikit-learn...)\n* Dashboard generation (Bokeh, plotly, matplotlib...)\n* Alarm raising (mqttwarn, telegram bots...)",
+  "duration": 2562,
+  "language": "eng",
+  "recorded": "2016-04-28",
+  "related_urls": [
+    "https://github.com/PyDataMadrid2016/Conference-Info/tree/master/talks_materials/20160409_1615_Towards_a_full_stack_python_monitoring_analytics_framework",
+    "https://github.com/PyDataMadrid2016/Conference-Info"
+  ],
+  "source_url": "https://www.youtube.com/watch?v=-iqzbahA23Q",
+  "speakers": [
+    "Pablo Manuel Garc\u00eda Corzo"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-iqzbahA23Q/maxresdefault.jpg",
+  "title": "Towards a full stack python monitoring+analysis framework",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-iqzbahA23Q"
+    }
+  ]
+}

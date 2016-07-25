@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Madrid 2016\n\nMost of the talks and workshop tutorials can be found here: https://github.com/PyDataMadrid2016/Conference-Info\n\nFrom big data to supercomputing, most modern high-performance tools are concurrent and parallel. This tutorial introduces some of the tools that are available in the Python ecosystem to develop, deploy and maintain modern and efficient distributed applications.\n\nThis workshop will not cover trendy applications or bundled frameworks like Hadoop or Spark. It won't build recipies that you can reuse for any particular purpose. The goal is to buid a general comprehension about how to program distributed applications in a general way.\n\nThe workshop will walk through the following topics.\n\n1. Distributed hardware. A short introduction to clouds and supercomputers.\n2. Distributed software. Large distributed applications usually exploit task-based parallelism. Messaging is the way to make those tasks talk to each other. There are many different messaging strategies, protocols, transports, layers... Each one is suitable for a different case.\n3. Parallel algorithms. A short introduction about some algorithms that incorporate messaging.\n4. Threading and concurrency. If a task communicates and computes, it is doing two things at the same time, but it is not, since Python has a GIL...\n5. Management, service discovery, logging and availability. Managing tens, hundreds or thousands of tasks can be tricky. But Python has tools that may simplify the management of parallel applications.",
+  "duration": 5628,
+  "language": "eng",
+  "recorded": "2016-04-08",
+  "related_urls": [
+    "https://github.com/guillemborrell/pydata-madrid",
+    "https://github.com/PyDataMadrid2016/Conference-Info"
+  ],
+  "source_url": "https://www.youtube.com/watch?v=cYMfc3vgns8",
+  "speakers": [
+    "Guillem Borrell"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/cYMfc3vgns8/maxresdefault.jpg",
+  "title": "Python for Distributed Systems",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cYMfc3vgns8"
+    }
+  ]
+}
