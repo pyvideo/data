@@ -9,7 +9,6 @@
   "quality_notes": "",
   "recorded": "2013-07-01",
   "slug": "processing-biggish-data-on-commodity-hardware-si-1",
-  "source_url": "http://www.youtube.com/watch?v=-W-UZTDZ2r0",
   "speakers": [],
   "summary": "Authors: Author: Gael Varoquaux Institution: INRIA, Parietal team\n\nTrack: Machine Learning\n\nWhile big data spans many terabytes and requires distributed computing,\nmost mere mortals deal with gigabytes. In this talk I will discuss our\nexperience in applying efficiently machine learning to hundreds of\ngigabytes on commodity hardware. In particular, I will discuss patterns\nimplemented in two Python libraries, joblib and scikit-learn, dissecting\nwhy they help addressing big data and how to implement them efficiently\nwith simple tools.\n\nIn particular, I will cover:\n\nOn the fly data reduction On-line algorithms and out-of-core computing\nParallel computing patterns: performance outside of a framework Caching\nof common operations, with efficient hashing of arbitrary Python objects\nand a robust datastore relying on Posix disk semantics The talk will\nillustrate the high-level concepts introduced with detailed technical\ndiscussions on Python implementations, based both on examples using\nscikit-learn and joblib and on an analysis of how these libraries work.\nThe goal here is less to sell the libraries themselves than to share the\ninsights gained in using and developing them.\n",
   "tags": [
