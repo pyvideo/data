@@ -14,13 +14,8 @@
       "description":"Copyright license for video or link to copyright information.",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
-    "date":{
-      "description":"[Deprecated] Date on which video was recorded (YYYY-MM-DD). Please use 'recorded' instead.",
-      "anyOf": [{"type": "null"}, {"type": "string"}],
-      "format":"date-time"
-    },
     "description":{
-      "description":"reStrucutredText or plain text description of video",
+      "description":"reStructuredText or plain text description of video",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "duration":{
