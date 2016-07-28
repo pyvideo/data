@@ -5,7 +5,7 @@ import json
 import os
 import sys
 
-from tools.utils import get_json_files
+from tools.utils import get_json_files, slugify
 
 
 def check_slugs_unique(data_root, verbose=False):
@@ -26,6 +26,8 @@ def check_slugs_unique(data_root, verbose=False):
                 with open(video_path, encoding='UTF-8') as fp:
                     video_blob = json.load(fp)
                     video_slug = video_blob.get('slug')
+                    if not video_slug:
+                        video_slug = slugify(video_blob.get('title'))
 
                     combo = (category_title, video_slug)
                     paths_by_combo[combo].append(video_path)
