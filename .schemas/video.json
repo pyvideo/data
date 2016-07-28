@@ -53,11 +53,6 @@
       "description":"Web-safe slug for video. Must be unique amongst other videos in same category",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
-    "source_url":{
-      "description":"[Deprecated] Preferred URL for video.",
-      "format":"uri",
-      "anyOf": [{"type": "null"}, {"type": "string"}]
-    },
     "speakers":{
       "description":"Ordered array of speakers in video.",
       "items":{
