@@ -10,10 +10,6 @@
       "description":"Description of event where videos originated",
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
-    "slug":{
-      "description":"[Deprecated] URI-safe slug for identifying category. Must be unique amongst categories.",
-      "type":"string"
-    },
     "title":{
       "description":"Title of event where videos originated",
       "type":"string"
