@@ -4,13 +4,12 @@
 If a video file is found without id then it gets a id = max(id) + 1"""
 
 import argparse
+import collections
 import json
 import logging
 import sys
 
 sys.path.insert(0, '.')
-
-import tinydb
 
 from tools.utils import get_json_files
 from tools.constants import JSON_FORMAT_KWARGS
@@ -52,29 +51,25 @@ def main():
 
     args = parser.parse_args()
 
-    category_paths, video_paths = get_json_files(args.path)
-
-    # Create DB
-    db = tinydb.TinyDB(args.db)
-    db.purge()  # Erase all content
-    tb_video = db.table('video')
-    tb_category = db.table('category')
-    db_query = tinydb.Query()
+    _, video_paths = get_json_files(args.path)
 
     # Retrieve data
-    tb_category.insert_multiple(get_json_data(file_name)
-                                for file_name in sorted(category_paths))
-    tb_video.insert_multiple(get_json_data(file_name)
-                             for file_name in sorted(video_paths))
+    tb_video = [get_json_data(file_name) for file_name in sorted(video_paths)]
 
     # Query max id
-    max_id = max(video['id']
-                 for video in tb_video.search(db_query.id.exists()))
+    all_id = collections.Counter(video['id'] for video in tb_video
+                                 if 'id' in video.keys())
+    most_common, times_duplicate = all_id.most_common(1)[0]
+    if times_duplicate > 1:
+        raise ValueError('Duplicate id: {}'.format(most_common))
+    max_id = max(all_id)
+    logging.debug('Max id: {}'.format(max_id))
 
     # Update files
-    [update_id(video, video_id)
-     for video_id, video in enumerate(
-         tb_video.search(~db_query.id.exists()), max_id + 1)]
+    video_without_id = [video for video in tb_video
+                        if 'id' not in video.keys()]
+    for video_id, video in enumerate(video_without_id, max_id + 1):
+        update_id(video, video_id)
 
 
 if __name__ == '__main__':
