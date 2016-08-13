@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Micha\u0142 Bultrowicz - TDD of Python microservices\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/tdd-of-python-microservices)\n\nA framework-agnostic approach to creating Python microservices with a\ntests-first approach.\nI'll show how to utilize Docker and Swagger to create service and\ncontract tests that run your service as an independent process, as if\nit was running in production, giving you and your team a higher degree\nof confidence when introducing changes.\n\nA little bit of a broader microservice, TDD and work management\ncontext will also be given.\n\n-----\n\nThese will be my ideas on how to help a microservice-based (HTTP)\nproject by integrating testing into the development process (TDD).\nI'll approach the testing pyramid presented in Martin Fowler's\n\"Microservice Testing\" as well as the test variants in \"Building\nMicroservices\" (O'Reilly) and I'll show a way of how they can be\ntranslated to real-life Python.\n\nThe main focus will be on \"service tests\" (aka. out-of-process\ncomponent tests) and contract tests. They both can be run relatively\nfast on a development machine and can give fast feedback to the\ndeveloper, preventing many kinds of problems.\n\nService tests run the whole application process without any internal\nmodifications, but have to present the service with a fake \"outside\nworld\". I'll show how to fake external HTTP services with Mountebank\n(similar to WireMock). Instead of faking other systems (like\ndatabases) we can quickly spin up the real deal as a Docker container\nfrom within the tests.\n\nContract tests check if the contract (interface) of your service with\nthe outside world is kept, so no external services should be broken by\nthe changes you are introducing. It can also work the other way\naround, proving that your collaborators are keeping their part of the\ndeal. In both cases, Swagger (a RESTful API description scheme) and a\nfew clever tricks can be used for significant advantage.",
+  "duration": 2232,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/tdd-of-python-microservices"
+  ],
+  "speakers": [
+    "Micha\u0142 Bultrowicz"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/d-ka10jngQQ/maxresdefault.jpg",
+  "title": "TDD of Python microservices",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=d-ka10jngQQ"
+    }
+  ]
+}

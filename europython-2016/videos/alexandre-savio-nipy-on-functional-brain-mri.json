@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Alexandre Savio - Nipy on functional brain MRI\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/nipy-on-functional-brain-mri)\n\nThis is an introductory talk to modern brain image analysis tools.\nI will show how to use nipy tools to process one resting-state fMRI\nsubject, perform intra-subject registration, ICA analysis to extract\nand visualize resting-state networks.\nIf the time allows me I will introduce an anatomical brain atlas and\nhow to perform non-linear registration to do atlas-based segmentation.\n\n-----\n\nThis is an introductory talk to modern brain image analysis tools.\nI will show how to use nipy tools to process one resting-state fMRI\nsubject, perform intra-subject registration, ICA analysis to extract\nand visualize resting-state networks.\nIf the time allows me I will introduce how to perform non-linear\nregistration to to atlas-based segmentation.\n\nThe outline of the talk:\n1. Present the COBRE dataset and show its characteristics.\n2. Use nibabel to open a NifTI file and see the matrix/volume parameters.\n3. Use nilearn.plotting to show the anatomical image.\n4. Use nipy to co-register the anatomical image to the fMRI image.\n5. Use nilearn to perform CanICA and plot ICA spatial segmentations.\n\nIf time allows:\n7. Present a brain anatomical atlas and its template.\n8. Present the tools needed for non-linear registration.\n9. Show the result of an atlas-based segmentation result.\n10. Use nilearn to calculate the resting-state functional connectivity\nmatrix of the subject.\n11. Plot it with Bokeh.",
+  "duration": 2362,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/nipy-on-functional-brain-mri"
+  ],
+  "speakers": [
+    "Alexandre Savio"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/6WpK6YILjxA/maxresdefault.jpg",
+  "title": "Nipy on functional brain MRI",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6WpK6YILjxA"
+    }
+  ]
+}

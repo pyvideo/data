@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Angelo Failla - FBTFTP: Facebook's open source python3 framework for dynamic TFTP servers.\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/fbtftp-facebooks-python3-framework-for-tftp-servers)\n\nFBTFTP: facebook's opensource framework for creating dynamic TFTP\nservers in Python3.\n\n-----\n\nTFTP was first standardized in '81 (same year I was born!) and one of\nits primary uses is in the early stage of network booting. TFTP is\nvery simple to implement, and one of the reasons it is still in use is\nthat its small footprint allows engineers to fit the code into very\nlow resource, single board computers, system-on-a-chip implementations\nand mainboard chipsets, in the case of modern hardware.\n\nIt is therefore a crucial protocol deployed in almost every data\ncenter environment. It is used, together with DHCP, to chain load\nNetwork Boot Programs (NBPs),  like Grub2 and iPXE. They allow\nmachines to bootstrap themselves and install operating systems off of\nthe network, downloading kernels and initrds via HTTP and starting\nthem up.\n\nAt Facebook, we have been using the standard in.tftpd daemon for\nyears, however, we started to reach its limitations.\nLimitations that were partially due to our scale and the way TFTP was\ndeployed in our infrastructure, but also to the protocol\nspecifications based on requirements from the 80's.\n\nTo address those limitations we ended up writing our own framework for\ncreating dynamic TFTP servers in Python3, and we decided to open\nsource it.\n\nI will take you thru the framework and the features it offers. I'll\ndiscuss the specific problems that motivated us to create it. We will\nlook at practical examples of how touse it, along with a little code,\nto build your own server that are tailored to your own infra needs.",
+  "duration": 1675,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/fbtftp-facebooks-python3-framework-for-tftp-servers"
+  ],
+  "speakers": [
+    "Angelo Failla"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/1pndeS8FIS8/maxresdefault.jpg",
+  "title": "FBTFTP: Facebook's open source python3 framework for dynamic TFTP servers.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1pndeS8FIS8"
+    }
+  ]
+}

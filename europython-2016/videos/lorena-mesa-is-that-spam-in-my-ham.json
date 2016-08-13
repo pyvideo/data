@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Lorena Mesa - Is that spam in my ham?\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/is-that-spam-in-my-ham)\n\nBeginning programmers or Python beginners may find it overwhelming to\nimplement a machine learning algorithm. Increasingly machine learning\nis becoming more applicable to many areas. This talk introduces key\nconcepts and ideas and uses Python to build a basic classifier - a\ncommon type of machine learning problem. Providing some jargon to help\nthose that may be self-educated or currently learning\n\n-----\n\nSupervised learning, machine learning, classifiers, big data! What in\nthe world are all of these things? As a beginning programmer the\nquestions described as \"machine learning\" questions can be mystifying\nat best.\n\nIn this talk I will define the scope of a machine learning problem,\nidentifying an email as ham or spam, from the perspective of a\nbeginner (non master of all things \"machine learning\") and show how\nPython can help us simply learn how to classify a piece of email.\n\nTo begin we must ask, what is spam? How do I know it \"when I see it\"?\nFrom previous experience of course! We will provide human labeled\nexamples of spam to our model for it to understand the likelihood of\nspam or ham. This approach, using examples and data we already know to\ndetermine the most likely label for a new example, uses the Naive\nBayes classifier.\n\nOur model will look at the words in the body of an email, finding the\nfrequency of words in both spam and ham emails and the frequency of\nspam and ham. Once we know the prior likelihood of spam and what makes\nsomething spam, we can try applying a label to a new example.\n\nThrough this exercise we will see at a basic level what types of\nquestions machine learning asks, learn to model \"learning\" with\nPython, and understand how learning can be measured.",
+  "duration": 1546,
+  "language": "eng",
+  "recorded": "2016-07-28",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/is-that-spam-in-my-ham"
+  ],
+  "speakers": [
+    "Lorena Mesa"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/a-Dj6MtyqXo/maxresdefault.jpg",
+  "title": "Is that spam in my ham?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=a-Dj6MtyqXo"
+    }
+  ]
+}

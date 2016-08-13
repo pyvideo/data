@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Alex Vinyals - Ingesting 35 million hotel images with python in the cloud.\n[EuroPython 2016]\n[19 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/ingesting-35-million-hotel-images-with-python-in-the-cloud)\n\nThis talk covers the distributed architecture that Skyscanner built to\nsolve the data challenges involved in the generation of images of all\nhotels in the world.  Putting together a distributed system in Python,\nbased on queues, surfing on the AWS Cloud.\n\n-----\n\nOur goal? To build an incremental image processing pipeline that\ndiscards poor quality and duplicated images,  scaling the final images\nto several sizes to optimise for mobile devices.\n\nAmong the challenges:\n\n1. Ingest all the input images that partners provide us.\n2. Detect and remove bad quality + duplicated images from reaching production.\n3. Resize all the generated images to optimise for mobile devices.\n4. Ensure the process scales and behaves in an incremental way.\n5. Ensure the whole process fits in a time constrained window.\n\nAmong the tools we used? Pillow, ImageHash, Kombu and Boto.",
+  "duration": 1273,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/ingesting-35-million-hotel-images-with-python-in-the-cloud"
+  ],
+  "speakers": [
+    "Alex Vinyals"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Rz7DsPcc34w/maxresdefault.jpg",
+  "title": "Ingesting 35 million hotel images with python in the cloud.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Rz7DsPcc34w"
+    }
+  ]
+}

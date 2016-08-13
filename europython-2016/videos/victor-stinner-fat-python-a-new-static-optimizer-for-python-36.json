@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Victor Stinner - FAT Python: a new static optimizer for Python 3.6\n[EuroPython 2016]\n[20 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/fat-python-a-new-static-optimizer-for-python-36)\n\nThe Python language is hard to optimize. Let's see how guards checked\nat runtime allows to implement new optimizations without breaking the\nPython semantic.\n\n-----\n\n(Almost) everything in Python is mutable which makes Python a language\nvery difficult to optimize. Most optimizations rely on assumptions,\nfor example that builtin functions are not replaced. Optimizing Python\nrequires a trigger to disable optimization when an assumption is no\nmore true. FAT Python exactly does that with guards checked at\nruntime. For example, an optimization relying on the builtin len()\nfunction is disabled when the function is replaced.\n\nGuards allows to implement various optimizations. Examples: loop\nunrolling (duplicate the loop body), constant folding (propagates\nconstants), copy builtins to constants, remove unused local variables,\netc.\n\nFAT Python implements guards and an optimizer rewriting the Abstract\nSyntax Tree (AST). The optimizer is implemented in Python so it's easy\nto enhance it and implement new optimizations.\n\nFAT Python uses a static optimizer, it is less powerful than a JIT\ncompiler like PyPy with tracing, but it was written to be integrated\ninto CPython.\n\nI wrote 3 PEP (509, 510, 511) targeting Python 3.6. Some changes to\nsupport FAT Python have already been merged into Python 3.6.\n\nWe will also see other pending patches to optimize CPython core, and\nthe bytecode project which allows to modify bytecode, it also includes\na peephole optimizer written in pure Python.\n\nLinks:\n\n*  http://faster-cpython.readthedocs.org/fat_python.html\n* http://fatoptimizer.readthedocs.org/\n* http://bytecode.readthedocs.org/",
+  "duration": 2151,
+  "language": "eng",
+  "recorded": "2016-08-01",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/fat-python-a-new-static-optimizer-for-python-36",
+    "http://fatoptimizer.readthedocs.org/",
+    "http://faster-cpython.readthedocs.org/fat_python.html",
+    "http://bytecode.readthedocs.org/"
+  ],
+  "speakers": [
+    "Victor Stinner"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/zFl9RAfbSXE/maxresdefault.jpg",
+  "title": "FAT Python: a new static optimizer for Python 3.6",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zFl9RAfbSXE"
+    }
+  ]
+}

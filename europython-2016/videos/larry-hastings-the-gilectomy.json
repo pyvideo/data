@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Larry Hastings - The Gilectomy\n[EuroPython 2016]\n[20 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/the-gilectomy)\n\nCPython's GIL means your Python code can only run on one CPU core at a\ntime. Can we remove it? Yes, we can... in fact we already have! But is\nit worth the cost?\n\n-----\n\nCPython's \"Global Interpreter Lock\", or \"GIL\", was added in 1992. It\nwas an excellent design decision. But 24 years is a long time--today\nit prevents Python from capitalizing on multiple CPUs. Many people\nwant us to remove the GIL.\n\nIt turns out, removing the GIL isn't actually that hard. In fact, I\nalready removed it, in my experimental \"gilectomy\" branch. But the GIL\nis one reason CPython is so fast! The \"gilectomy\" makes CPython\nshockingly slow.\n\nThis talk will discuss the history of the GIL, how the GIL helps make\nCPython fast, how the \"gilectomy\" removed the GIL, and some ways we\nmight be able to make the \"gilectomy\" version fast enough to be\nuseful.",
+  "duration": 2755,
+  "language": "eng",
+  "recorded": "2016-08-01",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/the-gilectomy"
+  ],
+  "speakers": [
+    "Larry Hastings"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fgWUwQVoLHo/maxresdefault.jpg",
+  "title": "The Gilectomy",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fgWUwQVoLHo"
+    }
+  ]
+}

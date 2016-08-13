@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Miguel S\u00e1nchez de Le\u00f3n Peque - Developing a real-time automated trading platform with Python\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/developing-a-real-time-automated-trading-platform-with-python)\n\nNowadays Python is the perfect environment for developing a real-time\nautomated trading tool. In this talk we will discuss the development\nof: a general-purpose multiagent-system module using Pyro and ZeroMQ;\na platform, based on it, for developing automated trading strategies\nusing Numpy, Numba, Theano, etc.; and a GUI for visualizing real-time\nmarket data using PyQtGraph and Qt.\n\n-----\n\nIn OpenSistemas we have developed a general-purpose multi-agent system\nwhich is written in pure Python: *osBrain*. Agents communicate with\neach other using ZeroMQ, allowing the user to define different\ncommunication patterns based on their needs.\n\nBased on this multi-agent system, we have also developed a broker-\nindependent platform for real-time automated trading: *osMarkets*.\nThis platform implements specialized agents:\n\n- **Feeder** is an agent which receives real-time data from the broker.\n- **Router** is an agent which receives data from feeders. It manages\nthe historical data and distributes updates to all the subscribed\nagents in the network.\n- **Brain** is the most common agent. It receives data from router or\nfrom other brains and processes them, sending the results to other\nbrains or sending orders to be executed. Brains can make use of many\nuseful packages avilable in the Python ecosystem: NumPy, SciPy, Numba,\nTheano...\n- **Trader** is an agent which is designed to interact with the\nbroker, just as the feeder, but to execute market orders.\n\n![system](http://i.imgur.com/A9vsWee.png)\n\nWhile it is still in its earliest stages, we are developing a tool for\nreal-time visualization of trading strategies using PyQtGraph. This\ntool acts as an agent in the multi-agent system.\n\n![chart](http://i.imgur.com/5XS7oBQ.png)",
+  "duration": 2477,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "http://i.imgur.com/A9vsWee.png",
+    "http://i.imgur.com/5XS7oBQ.png",
+    "https://ep2016.europython.eu//conference/talks/developing-a-real-time-automated-trading-platform-with-python"
+  ],
+  "speakers": [
+    "Miguel S\u00e1nchez de Le\u00f3n Peque"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/95ZYHH-Dhjw/maxresdefault.jpg",
+  "title": "Developing a real-time automated trading platform with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=95ZYHH-Dhjw"
+    }
+  ]
+}

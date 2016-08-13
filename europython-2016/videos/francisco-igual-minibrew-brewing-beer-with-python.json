@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Francisco Igual - MiniBrew: Brewing beer with Python\n[EuroPython 2016]\n[19 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/minibrew-brewing-beer-with-python)\n\nDutch startup MiniBrew intends to disrupt the beer market by\nintroducing an easy-to-use beer brewing machine controlled by a mobile\napp and communicating with a Python backend. Users want real-time\ninsights in their brewing process, which presented some challenges in\nterms of architectural design. In this talk Elements Interactive's\nChesco discusses best practices and pitfalls of the IoT architecture\nof MiniBrew by diving into message queues, protocol buffers and full-\nsession logging.\n\n-----\n\nThe number one alcoholic drink in the world is undoubtedly beer. With\nthe rise of craft beers, also homebrewing has become very popular in\nrecent years, although it is still a complex and expensive hobby.\nDutch startup MiniBrew intends to change that with their revolutionary\nbeer brewing machine, which is controlled by a mobile app and\ncommunicates with a Python API backend.\n\nIn this talk Chesco will share his ideas and experiences in utilizing\nPython in the backend architecture for the MiniBrew project he and his\nteam are working on at MiniBrew's development partner Elements\nInteractive.\n\nAs many IoT projects, the ingredients for MiniBrew are a device with a\nlimited chipset and internet connection, a backend to store the data\nacting as the mastermind and a mobile app to allow end users to\ncontrol the brewing process.\n\nThe fact that we want users to know in real-time how their beer\nbrewing process is doing presented some challenges which required us\nto come up with a competitive architecture that would both give real-\ntime status updates and not saturate the server with continuous calls.\n\nChesco discusses best practices and pitfalls in designing and\ndeveloping IoT architecture by diving into the RabbitMQ message\nbroker, the MQTT protocol and protocol buffers. He will focus on the\nREST API and CMS site written in Python, elaborating on high frequency\ndata in the apps, scalability, full-session logging and overcoming\ncommon architectural challenges.",
+  "duration": 1814,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/minibrew-brewing-beer-with-python"
+  ],
+  "speakers": [
+    "Francisco Igual"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2rgfO3xa9D0/maxresdefault.jpg",
+  "title": "MiniBrew: Brewing beer with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2rgfO3xa9D0"
+    }
+  ]
+}

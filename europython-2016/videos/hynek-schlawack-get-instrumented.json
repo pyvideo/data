@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Hynek Schlawack - Get Instrumented!\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/get-instrumented)\n\nTo get real time insight into your running applications you need to\ninstrument them and collect metrics: count events, measure times,\nexpose numbers. Sadly this important aspect of development was a\npatchwork of half-integrated solutions for years. Prometheus changed\nthat and this talk will walk you through instrumenting your apps and\nservers, building dashboards, and monitoring using metrics.\n\n-----\n\nMetrics are highly superior to logging in regards of understanding the\npast, presence, and future of your applications and systems.  They are\ncheap to gather (just increment a number!) but setting up a metrics\nsystem to collect and store them is a major task.\n\nYou may have heard of statsd, Riemann, Graphite, InfluxDB, or OpenTSB.\nThey all look promising but on a closer look it\u2019s apparent that some\nof those solutions are straight-out flawed and others are hard to\nintegrate with each other or even to get up and running.\n\nThen came Prometheus and gave us independence of UDP, no complex math\nin your application, multi-dimensional data by adding labels to values\n(no more server names in your metric names!), baked in monitoring\ncapabilities, integration with many common systems, and official\nclients for all major programming languages.  In short: a *unified*\nway to gather, process, and present metrics.\n\nThis talk will:\n\n1. explain why you want to collect metrics,\n1. give an overview of the problems with existing solutions,\n1. try to convince you that Prometheus may be what you\u2019ve been waiting for,\n1. teach how to impress your co-workers with beautiful graphs and\nintelligent monitoring by putting a fully instrumented Python\napplication into production,\n1. and finally give you pointers on how to migrate an existing metrics\ninfrastructure to Prometheus *or* how to integrate Prometheus therein.",
+  "duration": 2487,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/get-instrumented"
+  ],
+  "speakers": [
+    "Hynek Schlawack"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/1OB0w4b_3l0/maxresdefault.jpg",
+  "title": "Get Instrumented!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1OB0w4b_3l0"
+    }
+  ]
+}
