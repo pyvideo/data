@@ -4,14 +4,17 @@ import os
 from subprocess import call
 import tempfile
 
+import sys
+sys.path.insert(0, '.')
 from tools.constants import JSON_FORMAT_KWARGS
 
 
 EDITOR = os.environ.get('EDITOR', 'vim')
+URL_REPO='https://github.com/pytube/data/blob/master/'
 
 
 def get_edited_text(original_text):
-    with tempfile.NamedTemporaryFile(suffix=".tmp") as tf:
+    with tempfile.NamedTemporaryFile(suffix=".rst") as tf:
         tf.write(original_text.encode())
         tf.flush()
         call([EDITOR, tf.name])
@@ -23,6 +26,8 @@ def get_edited_text(original_text):
 def edit_rest(file_, key):
     key = 'description' if key.strip().startswith('d') else 'summary'
 
+    if file_.startswith(URL_REPO):
+        file_ = file_.replace(URL_REPO, '')
     with open(file_) as fp:
         data = json.load(fp)
 
