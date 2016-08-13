@@ -97,7 +97,7 @@ https://github.com/pytube/data/blob/master/.schemas/video.json
 
 Since the list of speakers, event name, and other metadata are captured elsewhere in each video's JSON object,
 it is suggested that the value of the ``title`` string contain only the title of the video and not contain any
-other infomration about the video.
+other information about the video.
 
 
 *Requirements of the Description String*
@@ -153,7 +153,7 @@ you can use the following command to re-serialize the whole repo::
     $ python tools/reserialize.py --all .
 
 Finally, video JSON files should go in a directory called ``videos`` that is
-itself inside a cateogry directory. For example::
+itself inside a category directory. For example::
 
     root
     |_ pygotham-2015/
