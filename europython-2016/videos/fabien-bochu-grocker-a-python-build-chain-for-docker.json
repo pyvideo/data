@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Fabien Bochu - Grocker, a Python build chain for Docker\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/grocker-a-python-build-chain-for-docker)\n\nGrocker is a Docker build chain for Python. It transforms your Python\npackage into a self-contained Docker image which can be easily\ndeployed in a Docker infrastructure. Grocker also adds a Docker entry\npoint to easily start your application.\n\n-----\n\nAt Polyconseil, we build Paris electric car sharing service: Autolib'.\nThis system is based on many services developed using web\ntechnologies, Django and our own libraries to handle business logic.\n\nPackaging is already a difficult problem, deploying large Python\nprojects is even more difficult. When deploying on a live and user-\ncentric system like Autolib', you cannot rely on Pip and external PyPI\nservers which might become unavailable and are beyond your control. In\nthe beginning we used classic Debian packaging: it was a maintenance\nhell. It took hours to build our packages and update their metadata to\nmatch our Python packages. So we switched to Docker.\n\nDocker allows us to have a unique item that is deployed in production\nsystems: code updates are now atomic and deterministic! But before\ndeploying the Docker image, you need to build it. That's where Grocker\ncomes in.\n\nGrocker is a Docker build chain for Python. It will transform your\nPython package into a self-contained Docker image which can be easily\ndeployed in a Docker Infrastructure. Grocker also adds a Docker entry\npoint to easily start your application.",
+  "duration": 1156,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/grocker-a-python-build-chain-for-docker"
+  ],
+  "speakers": [
+    "Fabien Bochu"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/SZ_7Z7s6-H0/maxresdefault.jpg",
+  "title": "Grocker, a Python build chain for Docker",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SZ_7Z7s6-H0"
+    }
+  ]
+}

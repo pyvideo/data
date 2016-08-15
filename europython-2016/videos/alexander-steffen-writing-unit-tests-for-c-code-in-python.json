@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Alexander Steffen - Writing unit tests for C code in Python\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/writing-unit-tests-for-c-code-in-python)\n\nThere are many unit testing frameworks for C out there, but most of\nthem require you to write your tests in C (or C++). While there might\nbe good reasons to keep your implementation in C, those hardly apply\nto the tests. So wouldn't it be nice to use all the power of Python\nand its unit testing capabilities also for your C code? This talk will\nshow you how.\n\n-----\n\nThere are many unit testing frameworks for C out there, but most of\nthem require you to write your tests in C (or C++). While there might\nbe good reasons to keep your implementation in C (for example\nexecution speed or resource consumption), those hardly apply to the\ntests. So wouldn't it be nice to use all the power of Python and its\nunit testing capabilities also for your C code?\n\nThis talk will show you how to combine CFFI and pycparser to easily\ncreate Python unit tests for C code, without a single line of C\nanywhere in the test cases. It will also cover creating mock functions\nin Python, that can be used by the C code under test to hide external\ndependencies. Finally, we will look at some of the challenges you\nmight face when trying to mix Python and C and what to do about them.",
+  "duration": 1571,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/writing-unit-tests-for-c-code-in-python"
+  ],
+  "speakers": [
+    "Alexander Steffen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/zW_HyDTPjO0/maxresdefault.jpg",
+  "title": "Writing unit tests for C code in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zW_HyDTPjO0"
+    }
+  ]
+}

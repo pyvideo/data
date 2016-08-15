@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Erik N\u00e4slund - Building a reasonably popular web application for the first time.\n[EuroPython 2016]\n[20 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/building-a-reasonably-popular-web-application-for-the-first-time)\n\nThese are the lessons learned when scaling a SaaS web application\nwhich grew much faster than any one us could have ever expected.\n\n- Log and monitor from day one.\n- Things will fail, be sure you know when they do.\n- Choose components which allow language interoperability.\n- Horizontally scalable everything.\n- Plan for database downtime.\n- Have a way to share settings between backend and frontend.\n- Have a way to enter maintenance mode.\n- And more...\n\n-----\n\nMy name is Erik N\u00e4slund - I\u2019m the co-founder and Head of Engineering at Hotjar.\n\nI'd love to share the lessons learned when scaling a SaaS web\napplication which grew much faster than any one us could have ever\nexpected.\n\nWords like \u201cbig\u201d and \u201cpopular\u201d carry very little meaning, so let me\ndefine how big Hotjar is right now using some numbers.\n\nWe onboard about 500 new users on a daily basis.\nWe process around 250 000 API requests every minute.\nOur CDN delivers about 10 TB of data per day.\nWe have roughly 3 TB of data in our primary data store (PostgreSQL),\nanother 1 TB in our Elasticsearch cluster, and a LOT more on Amazon\nS3.\n\nThese are the key things we wish we knew when we started. They would\nhave made our life so much easier!\n\n- Log and monitor from day one.\n- Have a way to profile your API calls.\n- Things will fail, be sure you know when they do.\n- Have a way to keep secrets.\n- Everything needs a limit (even if it's really big).\n-  Be wary of hitting data type limits.\n- Don't get too attached to a framework.\n- Choose components which allow language interoperability.\n- Horizontally scalable everything.\n- Plan for database downtime.\n- Features are a great way to test things out before launching them to the public.\n- Have a way to share settings between back end and front end.\n- Have a way to enter maintenance mode.\n- Require different quality of code for different parts of your application.",
+  "duration": 1386,
+  "language": "eng",
+  "recorded": "2016-08-01",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/building-a-reasonably-popular-web-application-for-the-first-time"
+  ],
+  "speakers": [
+    "Erik N\u00e4slund"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/aFlKpLMrM0c/maxresdefault.jpg",
+  "title": "Building a reasonably popular web application for the first time.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aFlKpLMrM0c"
+    }
+  ]
+}

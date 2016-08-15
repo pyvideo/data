@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Yury Selivanov - async/await in Python 3.5 and why it is awesome\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/asyncawait-in-python-35-an-why-it-is-awesome)\n\nasync/await is here, everybody can use it in Python 3.5.  It's great\nand awesome, yet only a few understand it.  As a PEP 492 author, I'd\nreally like to have a chance to better explain the topic, show why\nasync/await is important and how it will affect Python. I'll also tell\na story on how I worked on the PEP -- starting from an idea that I\ndiscussed with Guido on PyCon US 2015, and landing to CPython source\ncode one and a half moths later!\n\n-----\n\nThe talk will start with a brief coverage of the story of asynchronous\nprogramming in Python -- Twisted, Tornado, Stackless Python &\ngreenlets, eventlet, Tornado, asyncio & curio.  We've come a really\nlong road, and it's important to understand how we ended up with\nasync/await.\n\nThen I'll go over asyncio and curio, showing async/await by example,\nexplaining that in reality it's a very easy to use language feature.\nYou don't need to know all the details to be able to successfully use\nthe new syntax, and even build new frameworks on top of it.\n\nI'll then explain the async/await machinery in CPython, starting with\ngenerators and 'yield' expression, showing what is 'yield from' and\nfinally, demonstrating how async/await is implemented in CPython.\nThis will ensure that those who want to invent some new crazy ways of\nusing async/await will have a starting point!\n\nI'll end the talk with a story of how I came up with the idea.  How I\nshared it with Guido van Rossum, Victor Stinner, and Andrew Svetlow.\nHow the first version of the PEP was born, and how we managed to push\nit to Python 3.5 in under two months period.  The goal is to make\npeople understand that it's possible to change your programming\nlanguage -- in fact, Python, as any other programming language, wants\nnew features and capabilities to be relevant.",
+  "duration": 1508,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/asyncawait-in-python-35-an-why-it-is-awesome"
+  ],
+  "speakers": [
+    "Yury Selivanov"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/m28fiN9y_r8/maxresdefault.jpg",
+  "title": "async/await in Python 3.5 and why it is awesome",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=m28fiN9y_r8"
+    }
+  ]
+}

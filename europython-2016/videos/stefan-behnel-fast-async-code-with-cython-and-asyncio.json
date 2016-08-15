@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Stefan Behnel - Fast Async Code with Cython and AsyncIO\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/fast-async-code-with-cython-and-asyncio)\n\nLearn how to use the new async/await language feature to write\nasynchronous code in Python and Cython_. See how to benefit from\nthe excellent low-level features that Cython provides to speed up or\nparallelise your code, interface natively with external C/C++ code,\nand achieve better responsiveness and lower latency also in mostly I/O\nbound applications.\n\n\n\n-----\n\nPython has recently seen a fresh development boost around asynchronous\napplications, triggered by the addition of the asyncio library and the\nnew async/await language features in Python 3.5, but coming from a\nworld of well established tools like Twisted_ and Tornado_.\nThe Cython_ compiler, which compiles Python code to C, has\naccompanied and influenced this development. It provides full language\nsupport for async/await under all Python versions starting from 2.6,\nas well as native interoperability with existing Python code and the\nnew Python coroutines in Python 3.5.\n\nBenchmarks show that, while fully compatible, Cython compiled\ncoroutines perform about 2-3x better than the same code executed in\nPython, but they additionally allow to interface natively with\nexternal C/C++ code, release the GIL, do parallel computation, and\nmuch more. All of this extends the applicable zone for asynchronous\napplications dramatically and can lead to better responsiveness and\nlower latency also for mostly I/O bound applications.\n\nThis joined talk by an async I/O expert and one of the Cython core\ndevelopers explains how to write code with async/await in Python and\nCython, and shows how to benefit from the excellent low-level features\nthat Cython provides on top of Python.\n\n.. _Cython: http://cython.org/\n.. _Twisted: https://twistedmatrix.com/\n.. _Tornado: http://www.tornadoweb.org/\n\n",
+  "duration": 2543,
+  "language": "eng",
+  "recorded": "2016-07-28",
+  "related_urls": [
+    "http://cython.org/",
+    "https://ep2016.europython.eu//conference/talks/fast-async-code-with-cython-and-asyncio",
+    "http://www.tornadoweb.org/",
+    "https://twistedmatrix.com/"
+  ],
+  "speakers": [
+    "Stefan Behnel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-hk6nEQEMLs/maxresdefault.jpg",
+  "title": "Fast Async Code with Cython and AsyncIO",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-hk6nEQEMLs"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Alessandro Molina - Moving away from NodeJS to a pure python solution for assets\n[EuroPython 2016]\n[20 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/moving-away-from-nodejs-to-a-pure-python-solution-for-assets)\n\nThe talk covers the complexity of managing an asset transformation\npipeline through tools like Grunt and NodeJS, especially during\ndeploy, test suites or when a new development environment has to be\nconfigured from scratch, and showcase how this complexity can be\ndodged by using tools like WebAssets and DukPy.\n\nNo more need to keep around two languages, two package management\nsystems and manage your dependencies between them by youself. Just pip\ninstall your app and have it working.\n\n-----\n\nWhen working with WebApplications it is common to rely on an asset\nmanagement pipeline to compile scripts, minify css or preprocess\nimages.\n\nMost of the tools available today rely on JavaScript to perform those\nsteps and always forced Python developers to rely on NodeJS to have\ngrunt perform the pipeline tasks, coffee-script to compile their\nCoffeeScript or lessc to build their css. This causes longer setup\ntimes for projects newcomers, complex development environment, working\nwith two package managers and dependencies that you use once a week\nbut still need to be there.\n\nThe talk will showcase the DukPy project and focus on how it is\npossible to build a pure python asset pipeline relying on DukPy to run\njavascript tools and WebAssets framework to perform the most common\ntasks that usually Nodejs and tools like Grunt handle for us, greatly\nreducing the development environment complexity and making its setup\nas simple as \u2018pip install\u2019.\n\nThe talk aims at explaining the complexity of managing an asset\ntransformation pipeline through tools like Grunt, especially during\ndeploy, test suites or when a new development environment has to be\ncreated, and showcase how this complexity can be dodged by using tools\nlike WebAssets and DukPy.\n\nNo more need to keep around two languages, two package management\nsystems and manage your dependencies between them by youself. Just pip\ninstall your app and have it working.",
+  "duration": 1947,
+  "language": "eng",
+  "recorded": "2016-08-01",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/moving-away-from-nodejs-to-a-pure-python-solution-for-assets"
+  ],
+  "speakers": [
+    "Alessandro Molina"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/5RJRHBBX6LU/maxresdefault.jpg",
+  "title": "Moving away from NodeJS to a pure python solution for assets",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5RJRHBBX6LU"
+    }
+  ]
+}

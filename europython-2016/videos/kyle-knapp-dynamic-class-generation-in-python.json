@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Kyle Knapp - Dynamic Class Generation in Python\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/dynamic-class-generation-in-python)\n\nThis talk is about dynamic class generation in python: the practice of\nwriting code that generates classes and their functionality at\nruntime. It will use boto3, the AWS SDK for Python, as a basis to dive\ninto the basics, the benefits, and the drawbacks to dynamically\ngenerating classes.\n\n-----\n\nThis talk is about the concept of dynamic class generation in python.\nThe whole idea is writing code that generates classes and their\nfunctionality at runtime. You now may be asking yourself, \u201cThat sounds\nlike a neat trick. Why would I ever generate my classes at runtime?\u201d\nHere are a few reasons why:\n\n- It can decrease the physical size of your code.\n\n- It can improve the workflow in adding new functionality.\n\n- It can improve reliability of your code.\n\nOne example where the power of this concept has really been leveraged\nis in boto3, the AWS SDK for Python. Dynamic class generation has\nallowed boto3 to become heavily data driven such that most of its\nclasses and methods are generated based off JSON models representing\naspects of an AWS service\u2019s API. For example, to add support for a new\nAWS service API in boto3, just plop in a JSON file into the library\nwith no additional Python code required.\n\nUsing lessons and techniques drawn from developing boto3, this talk\nwill dive into the following topics related to dynamic class\ngeneration:\n\n- The basics of dynamic class generation such as how to effectively dynamically generate classes.\n\n- How to overcome some of the challenges of dynamic class generation.\n\n- The tradeoffs in dynamically generating classes and discussion on when it is appropriate.\n\nBy the end of this talk, the hope is that you will have a better\nunderstanding of dynamic class generation and come away with helpful\nideas for your next big project.",
+  "duration": 1571,
+  "language": "eng",
+  "recorded": "2016-07-28",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/dynamic-class-generation-in-python"
+  ],
+  "speakers": [
+    "Kyle Knapp"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fhqE7aS6cj8/maxresdefault.jpg",
+  "title": "Dynamic Class Generation in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fhqE7aS6cj8"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Valerio Maggio - Data Formats for Data Science\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/data-science-formats-beyond-csv-and-hdfs)\n\nThe CSV is the most widely adopted data format. It used to\nstore and share *not-so-big* scientific data. However, this format is\nnot particularly\nsuited in case data require any sort of internal\nhierarchical structure, or if data are too big. To this end, other\ndata formats must be considered.\nIn this talk, the different data formats will be presented and\ncompared w.r.t. their\nusage for scientific computations along with corresponding Python libraries.\n\n-----\n\nThe *plain text* is one of the simplest yet most intuitive format in\nwhich data could be stored.\nIt is easy to create, human and machine readable,\n*storage-friendly* (i.e. highly compressible), and quite fast to process.\nTextual data can also be easily *structured*; in fact to date the\nCSV (*Comma Separated Values*) is the most common data format among\ndata scientists.\n\nHowever, this format is not properly suited in case data require any\nsort of internal\nhierarchical structure, or if data are too big to fit in a single disk.\n\nIn these cases other formats must be considered, according to the\nshape of data, and the\nspecific constraints imposed by the context.\nThese formats may leverage *general purpose* solutions, e.g. [No]SQL\ndatabases, HDFS (Hadoop File System);\nor may be specifically designed for scientific data, e.g. hdf5, ROOT, NetCDF.\n\nIn this talk, the strength and flaws of each solution will be\ndiscussed, focusing on their usage for scientific computations. The\ngoal is to provide some practical guidelines for data scientists,\nderived from the the comparison of the different Pythonic solutions\npresented for the case study analysed. These will include\n`xarray`,\n`pyROOT` *vs* `rootpy`, `h5py` *vs* `PyTables`, `bcolz`, and `blaze`.\nFinally, few notes about the new trends for **columnar databases**\n(e.g. *MonetDB*) will be also presented, for very fast\nin-memory analytics.",
+  "duration": 2576,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/data-science-formats-beyond-csv-and-hdfs"
+  ],
+  "speakers": [
+    "Valerio Maggio"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/QgNDi1vsrtQ/maxresdefault.jpg",
+  "title": "Data Formats for Data Science",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QgNDi1vsrtQ"
+    }
+  ]
+}

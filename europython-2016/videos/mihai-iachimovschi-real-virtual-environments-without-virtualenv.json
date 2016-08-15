@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Mihai Iachimovschi - Real virtual environments without virtualenv\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/real-virtual-environments-without-virtualenv)\n\nVirtualenv is a great tool for the development environment but it's\ndefinitely not suitable for every use case. Also, Docker is great for\nrunning the application in production, but not everyone that use it in\nproduction tried to use it in the development environment. Why not use\nthe same tool from the beginning of the project and until it hits the\nproduction in a uniform stack of tooling? This talk will show use\ncases of using Docker in the process of development as well.\n\n-----\n\nThe process of developing using Python is very straightforward and\neasy. Still, each and every developer has his own style of developing\nand building his entire dev environment. Most of us use virtualenvs\nwhich are reliable and comfortable to use. But there are some issues.\nFor instance, the repeatability and immutability of the built\nenvironment are not guaranteed.\n\nVirtualenv does a lot of work that targets the direction of somehow\nisolated and independent environments. They are *almost* *fully*\nrepeatable. In any team, we can hear the notorious expression \"It\nworks for me!\".\n\nFor some time now, I am using Docker instead of virtualenv for\nbuilding custom and really-virtual environments that are entirely\nisolated. The containers are immutable and consistent, so this\nworkflow guarantees repeatability.  Using such technique, not only\nenables the user to have unique and immutable environments, it also\nallows de developer to create full app architecture that can then be\ntested and deployed as is. So the production version will be in\nidentical conditions as the one from the development environment.\nThese features are not provided by virtualenv at all.\n\nThe goal of this exercise is to try to use totally different tooling\nfor building the application from its first line of code until the\nproduction.",
+  "duration": 1375,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/real-virtual-environments-without-virtualenv"
+  ],
+  "speakers": [
+    "Mihai Iachimovschi"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/y8x6-FyF6QE/maxresdefault.jpg",
+  "title": "Real virtual environments without virtualenv",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=y8x6-FyF6QE"
+    }
+  ]
+}

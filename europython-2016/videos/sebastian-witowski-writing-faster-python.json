@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Sebastian Witowski - Writing faster Python\n[EuroPython 2016]\n[19 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/writing-faster-python)\n\nPresentation on how you can write faster Python in your daily work. I\nwill briefly explain ways of profiling the code, discuss different\ncode structures and show how they can be improved. You will see what\nis the fastest way to remove duplicates from a list, what is faster\nthan a _for_ loop or how \u201casking for permission\u201d is slower than\n\u201cbegging for forgiveness\u201d.\n\n-----\n\nDid you know that Python preallocates integers from -5 to 257 ?\nReusing them 1000 times, instead of allocating memory for a bigger\ninteger, can save you a couple of milliseconds of code\u2019s execution\ntime. If you want to learn more about this kind of optimizations then,\n\u2026 well, probably this presentation is not for you :) Instead of going\ninto such small details, I will talk about more _\"sane\"_ ideas for\nwriting faster code.\n\nAfter a very brief overview of how to optimize Python code (rule 1:\ndon\u2019t do this, rule 2: don\u2019t do this yet, rule 3: ok, but what if I\nreally want to do this ?), I will show simple and fast ways of\nmeasuring the execution time and finally, discuss examples of how some\ncode structures could be improved.\n\nYou will see:\n\n- What is the fastest way of removing duplicates from a list\n\n- How much faster your code is when you reuse the built-in functions instead of trying to reinvent the wheel\n\n- What is faster than the good ol\u2019 _for_ loop\n\n- If the lookup is faster in a list or a set (and when it makes sense to use each)\n\n- How the \u201cIt's better to beg for forgiveness than to ask for permission\u201d rule works in practice\n\nI will NOT go into details of _\"serious\"_ optimization, like using\ndifferent Python implementation or rewriting critical code in C, etc.",
+  "duration": 1449,
+  "language": "eng",
+  "recorded": "2016-07-31",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/writing-faster-python"
+  ],
+  "speakers": [
+    "Sebastian Witowski"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/YjHsOrOOSuI/maxresdefault.jpg",
+  "title": "Writing faster Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YjHsOrOOSuI"
+    }
+  ]
+}
