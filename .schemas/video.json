@@ -43,8 +43,22 @@
       "description":"Array of related resources' URLs.",
       "items":{
         "description":"URL of resource related to video.",
-        "type":"string",
-        "format":"uri"
+        "anyOf": [{
+          "type": "string",
+          "format":"uri"
+        }, {
+          "type": "object",
+          "required": ["label", "url"],
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "label": {
+              "type": "string"
+            }
+          }
+        }]
       },
       "type":"array",
       "uniqueItems":true
