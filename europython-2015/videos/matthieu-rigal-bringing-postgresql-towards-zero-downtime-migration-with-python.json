@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Matthieu Rigal - Bringing PostgreSQL towards zero downtime migration with Python\n[EuroPython 2015]\n[24 July 2015]\n[Bilbao, Euskadi, Spain]\n\nUsing an SQL database offers a bunch of advantages; first of all its\nmaturity and that it is understood by almost every software developer.\nBut it has at least one main disadvantage. As the data is structured,\nif you want to modify the structure, for example on a long-running\nproject, you need a migration and therefore almost for sure, a\ndowntime.\n\nWhen you have to make a migration, to modify the structure of data for\na small amount of records, it is so fast that it never gets\nproblematic. But if you think to modify the structure of tables\ncontaining millions or billions of records, the time required to\nsimply apply the structural change is problematic.\n\nHere are some changes we are working on at orderbird to go towards\nzero downtime migrations using some of the latest improvements of\nPostgreSQL 9.4, mainly logical replication and mixing in a little\nmagic of some python scripting with psycopg.",
+  "duration": 1665,
+  "language": "eng",
+  "recorded": "2015-08-02",
+  "related_urls": [],
+  "speakers": [
+    "Matthieu Rigal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/QFLeb6wbnQ8/maxresdefault.jpg",
+  "title": "Bringing PostgreSQL towards zero downtime migration with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QFLeb6wbnQ8"
+    }
+  ]
+}

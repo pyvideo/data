@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Takayuki Shimizukawa - Sphinx autodoc: automated API documentation\n[EuroPython 2015]\n[20 July 2015]\n[Bilbao, Euskadi, Spain]\n\nAbstract:\n\nUsing the automated documentation feature of Sphinx, you can make with\nease the extensive documentation of Python program.\nYou just write python function documents (docstrings), Sphinx\norganizes them into the document, can be converted to a variety of\nformats.\nIn this session, I'll explain a documentation procedure that uses with\nsphinx autodoc and autosummary extensions.\n\nDescription:\n\nSphinx provides autodoc feature that generate document from docstring\nin your python sources.\nThe docstring that contains description and example of the use of\nfunction written near the program, makes doc easy to update.\nIn addition, the output of the Sphinx will make you understand what to\nwrite in docstring. As a result, this will improve your motivation of\ndoc writing.\n\nTo use the autodoc, you must specify python modules to automodule\ndirective one by one. This is a tedious task, hoswever autosummary\nextension automate this task.\nIn most cases, once developers have developed the API, you only need\nto run the make html of Sphinx, you get a nicely formatted document.\n\nSphinx also has coverage and doctest extentions.\nThese support writing the documentation to work with autodoc.\nThis allow you to check the APIs that have not been documented or you\ncan verify each doctest part is correct or not.\n\nIf you use such autodoc-related extensions, you can create a Sphinx\nAPI documentation in the following procedure.\n\n1. make coverage; you can get the APIs that have not been documented.\n2. Write docstrings that includes the doctest format how to use the API.\n3. make doctest; you can verify each doctest part is correct or not.\n4. make html; you can generate the HTML or your favorite format.\n\nIn this session, I'll explain a documentation procedure that uses with\nsphinx autodoc, autosummary, coverage and doctest extensions.\n\n\nTarget:\n\n- Python programmer who is struggling with documentation.\n- Python library author who want to generate API docs automatically.\n- Python library author who want to create a clear documentation which contains python snippets.\n\nOutline:\n\n* Self introduction (2 min)\n\n* Sphinx introduction (2 min)\n\n* What is Sphinx?\n* Sphinx examples\n\n* Have you written API docs for your code? (2 min)\n\n* I don't know what/where should I write.\n* Docstrings is needed? Are there some specific format?\n\n* Getting start Sphinx (2 min)\n\n* How to install Sphinx\n* How to start a Sphinx project\n\n* Generate API docs from your python code (5 min)\n\n* setup autodoc extension\n* write docstrings for yuor python module\n* \"automodule & make html\" will generate API docs from python code\n* autodoc pros & cons: docs for many modules\n\n* Listing APIs automatically (5 mins)\n\n* setup autosummary extension\n* how to use autosummary directive\n* no more autodoc directive\n\n* Discovering undocumented APIs (5 min)\n\n* setup coverage extension\n* make coverage\n\n* Detect deviations of the impl and doc (5 min)\n\n* setup doctest extension\n* make doctest\n\n* Overall picture, tips, Q&A (10 min)\n\n* Overall picture of the process\n* Options for autodoc\n* translate them into other langs",
+  "duration": 2188,
+  "language": "eng",
+  "recorded": "2015-08-03",
+  "related_urls": [],
+  "speakers": [
+    "Takayuki Shimizukawa"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/mdtxHjH2wog/maxresdefault.jpg",
+  "title": "Sphinx autodoc: automated API documentation",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mdtxHjH2wog"
+    }
+  ]
+}

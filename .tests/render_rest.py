@@ -5,6 +5,8 @@ import sys
 import docutils
 from docutils.parsers import rst
 
+import sys
+sys.path.insert(0, '.')
 from tools.utils import get_json_files
 
 # Presence of these keys in a docutils node's attributes is an

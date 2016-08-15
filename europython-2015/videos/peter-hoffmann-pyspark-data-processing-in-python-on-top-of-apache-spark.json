@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Peter Hoffmann - PySpark - Data processing in Python on top of Apache Spark.\n[EuroPython 2015]\n[22 July 2015]\n[Bilbao, Euskadi, Spain]\n\n[Apache Spark][1] is a computational engine for large-scale data processing. It\nis responsible for scheduling, distribution and monitoring applications which\nconsist of many computational task across many worker machines on a computing\ncluster.\n\nThis Talk will give an overview of PySpark with a focus on Resilient\nDistributed Datasets and the DataFrame API. While Spark Core itself is written\nin Scala and runs on the JVM, PySpark exposes the Spark programming model to\nPython. It defines an API for Resilient Distributed Datasets (RDDs). RDDs are a\ndistributed memory abstraction that lets programmers perform in-memory\ncomputations on large clusters in a fault-tolerant manner. RDDs are immutable,\npartitioned collections of objects. Transformations construct a new RDD from a\nprevious one. Actions compute a result based on an RDD. Multiple\ncomputation steps\nare expressed as directed acyclic graph (DAG). The DAG execution model is\na generalization of the Hadoop MapReduce computation model.\n\nThe Spark DataFrame API was introduced in Spark 1.3. DataFrames envolve Spark's\nRDD model and are inspired by Pandas and R data frames. The API provides\nsimplified operators for filtering, aggregating, and projecting over large\ndatasets. The DataFrame API supports diffferent data sources like JSON\ndatasources, Parquet files, Hive tables and JDBC database connections.\n\nResources:\n\n- [An Architecture for Fast and General Data Processing on Large Clusters][2] Matei Zaharia\n- [Spark][6] Cluster Computing with Working Sets - Matei Zaharia et al.\n- [Resilient Distributed Datasets][5] A Fault-Tolerant Abstraction for In-Memory Cluster Computing -Matei Zaharia et al.\n- [Learning Spark][3] Lightning Fast Big Data Analysis - Oreilly\n- [Advanced Analytics with Spark][4] Patterns for Learning from Data at Scale - Oreilly\n\n[1]: https://spark.apache.org\n\n[2]: http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-12.pdf\n\n[3]: http://shop.oreilly.com/product/0636920028512.do\n\n[4]: http://shop.oreilly.com/product/0636920035091.do\n\n[5]: https://www.cs.berkeley.edu/~matei/papers/2012/nsdi_spark.pdf\n\n[6]: http://www.cs.berkeley.edu/~matei/papers/2010/hotcloud_spark.pdf",
+  "duration": 1434,
+  "language": "eng",
+  "recorded": "2015-08-03",
+  "related_urls": [
+    "https://www.cs.berkeley.edu/~matei/papers/2012/nsdi_spark.pdf",
+    "http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-12.pdf",
+    "https://spark.apache.org",
+    "http://shop.oreilly.com/product/0636920035091.do",
+    "http://shop.oreilly.com/product/0636920028512.do",
+    "http://www.cs.berkeley.edu/~matei/papers/2010/hotcloud_spark.pdf"
+  ],
+  "speakers": [
+    "Peter Hoffmann"
+  ],
+  "tags": [
+    "pyspark"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ukW89Dbt5hk/maxresdefault.jpg",
+  "title": "PySpark - Data processing in Python on top of Apache Spark.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ukW89Dbt5hk"
+    }
+  ]
+}

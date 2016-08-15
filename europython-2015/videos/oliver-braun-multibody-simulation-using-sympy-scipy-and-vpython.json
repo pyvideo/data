@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Oliver Braun - Multibody Simulation using sympy, scipy and vpython\n[EuroPython 2015]\n[20 July 2015]\n[Bilbao, Euskadi, Spain]\n\nThe talk is about the implementation of multibody simulation in the\nscientific python world on the way to a stage usefull for engineering\nand educational purposes.\nMultibody simulation (MBS) requires two major steps: first the\nformulation of the specific mechanical problem. Second step is the\nintegration of the resulting equations.\nFor the first step we use the package sympy which is on a very\nadvanced level to perform symbolic calculation and which supports\nalready Lagrange's and Kane's formalism. The extensions we made are\nsuch that a complex mechanical setup can be formulated easily with\nseveral lines of python code. The functionality is analogous to well\nknown MBS-tools, with that you can assemble bodies, joints, forces and\nconstraints. Also external forces even in a cosimulation model can be\nadded on top. The second step, the integration is done via ode-\nintegrators implemented in scipy.\nFinally for visual validation the results are visualized with the\nvpython package and for further analytics with matplotlib.\n\nConclusion: not only highly constrained pendulums with many rods and\nsprings but also driving simulation of passenger cars an be performed\nwith our new extension using python packages off the shelf.",
+  "duration": 1806,
+  "language": "eng",
+  "recorded": "2015-08-07",
+  "related_urls": [],
+  "speakers": [
+    "Oliver Braun"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/7cCinfaBtIE/maxresdefault.jpg",
+  "title": "Multibody Simulation using sympy, scipy and vpython",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7cCinfaBtIE"
+    }
+  ]
+}

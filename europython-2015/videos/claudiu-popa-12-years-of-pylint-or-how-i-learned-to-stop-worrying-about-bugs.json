@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Claudiu Popa - 12 years of Pylint (or How I learned to stop worrying about bugs)\n[EuroPython 2015]\n[22 July 2015]\n[Bilbao, Euskadi, Spain]\n\nGiven the dynamic nature of Python, some bugs tend to creep in our\ncodebases. Innocents NameErrors or hard-to-find bugs with variables\nused in a closure, but defined in a loop, they all stand no chance in\nfront of Pylint (http://pylint.org/).\n\nIn this talk, I'll present one of the oldest static analysis tools for\nPython, with emphasis on what it can do to understand your Python\ncode.  Pylint is both a style checker, enforcing PEP 8 rules, as well\nas a code checker in the vein of pyflakes and the likes, but its true\npower isn't always obvious to the eye of beholder.  It can detect\nsimple bugs such as unused variables and imports, but it can also\ndetect more complicated cases such as invalid arguments passed to\nfunctions, it understands the method resolution order of your classes\nand what special methods aren't implemented correctly. Starting from\nabstract syntax trees, we'll go through its inference engine and we'll\nsee how Pylint understands the logical flow of your program and what\nsort of type hinting techniques are used to improve its inference,\nincluding PEP 484 type hints. As a bonus, I'll show how it can be used\nto help you port your long-forgotten library to Python 3, using its\nnew --py3k mode.\n\nLink to presentation: http://pcmanticore.github.io/pylint-talks/#slide:1",
+  "duration": 2168,
+  "language": "eng",
+  "recorded": "2015-08-03",
+  "related_urls": [
+    "http://pcmanticore.github.io/pylint-talks/#slide:1",
+    "http://pylint.org/"
+  ],
+  "speakers": [
+    "Claudiu Popa"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0jKbNpEjkhI/hqdefault.jpg",
+  "title": "12 years of Pylint (or How I learned to stop worrying about bugs)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0jKbNpEjkhI"
+    }
+  ]
+}

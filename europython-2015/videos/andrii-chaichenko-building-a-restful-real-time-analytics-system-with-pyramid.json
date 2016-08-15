@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Andrii Chaichenko - Building a RESTful real-time analytics system with Pyramid\n[EuroPython 2015]\n[23 July 2015]\n[Bilbao, Euskadi, Spain]\n\nCeleraOne tries to bring its vision to Big Data by developing a unique\nplatform for real-time Big Data processing. The platform is capable of\npersonalizing multi-channel user flows, right-in time targeting and\nanalytics while seamlessly scaling to billions of page impression. It\nis currently tailored to the needs of content providers, but of course\nnot limited to.\n\n- The platform\u2019s architecture is based on four main layers:\n- Proxy/Distribution -- OpenResty/LUA for dynamic request forwarding\n- RESTful API -- several Python applications written using Pyramid web framework running under uWSGI server, which serve as an integration point for third party systems;\n- Analytics -- Python API for Big Data querying and distributed workers performing heavy data collection.\n- In-memory Engine -- CeleraOne\u2019s NoSql database which provides both data storage and fast business logic.\n\nIn the talk I would like to give insights on how we use Python in the\narchitecture, which tools and technologies were chosen, and share\nexperiences deploying and running the system in production.",
+  "duration": 1539,
+  "language": "eng",
+  "recorded": "2015-08-08",
+  "related_urls": [],
+  "speakers": [
+    "Andrii Chaichenko"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UcR5JvAsNh8/maxresdefault.jpg",
+  "title": "Building a RESTful real-time analytics system with Pyramid",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UcR5JvAsNh8"
+    }
+  ]
+}

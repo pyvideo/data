@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Brecht Machiels - RinohType, a document processor inspired by LaTeX\n[EuroPython 2015]\n[24 July 2015]\n[Bilbao, Euskadi, Spain]\n\nRinohType is a document processor inspired by [LaTeX][1] and written\nin Python. It renders [reStructuredText][2] and [Sphinx][3] documents\nto PDF based on a document template and a style sheet. RinohType\nalready implements many of the features that make LaTeX so great. Not\nstopping there, RinohType also tries to fix LaTeX's weaknesses; it\nshould not only be easy to use, but easy to _customize_ and _extend_\nas well. To minimize frustration when things go wrong, care is taken\nto provide descriptive warning and error messages. The powerful layout\nengine makes it easy to define custom page layouts. And the CSS-\ninspired stylesheets simplify the styling of document elements. At a\nlower level, Python makes the writing of extensions much more\naccessible when compared to TeX's rather arcane macro language.\n\nIn the talk, I would like to introduce RinohType to the Python\ncommunity. No special prerequisite knowledge is required. I will start\noff by discussing my motivation for starting RinohType development,\nits design goals and the currently available features. This will be\nfollowed by an example of how you can use RinohType to render a\nreStructuredText document to a neat PDF document, highlighting some of\nthe features along the way. Next, we'll explore some of RinohType's\ninternals such as the page layout engine and the style sheet system.\nWe will explore how these can be used in a Python application to\ncreate a document from scratch.\n\nA first RinohType release was recently created. While this preview\nrelease is of alpha quality, it should be able to render most\nreStructuredText documents. It also includes a preliminary Sphinx\nbuilder. Please find more details in the package's description at\n[PyPI][4].\n\n[1]: http://en.wikipedia.org/wiki/LaTeX\n[2]: http://docutils.sourceforge.net/rst.html\n[3]: http://sphinx-doc.org\n[4]: https://pypi.python.org/pypi/RinohType",
+  "duration": 2298,
+  "language": "eng",
+  "recorded": "2015-08-03",
+  "related_urls": [
+    "http://sphinx-doc.org",
+    "http://en.wikipedia.org/wiki/LaTeX",
+    "http://docutils.sourceforge.net/rst.html",
+    "https://pypi.python.org/pypi/RinohType"
+  ],
+  "speakers": [
+    "Brecht Machiels"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/HLRQPZI4L5Y/hqdefault.jpg",
+  "title": "RinohType, a document processor inspired by LaTeX",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HLRQPZI4L5Y"
+    }
+  ]
+}

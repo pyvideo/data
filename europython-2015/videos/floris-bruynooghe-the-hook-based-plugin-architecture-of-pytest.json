@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Floris Bruynooghe - The hook-based plugin architecture of py.test\n[EuroPython 2015]\n[21 July 2015]\n[Bilbao, Euskadi, Spain]\n\nThe hook-based plugin system used by py.test and being made available\nas a stand alone package allows easy extensibility based on defined\nextension points which can be implemented using hook functions in the\nplugins.  Plugins can themselves call these hooks as well as define\nfuture extension points allowing for a very flexible design.\n\npy.test itself uses this plugin system from the ground up with the\nentire application being implemented by built-in plugins.  This\narchitecture has proven powerful and flexible over the years, on both\ncommand line tools as well as long running daemons.  This talks will\ndescribe how the plugin system works and how it deals with passing\narguments and return values 1:N hook calls. It will also describe how\nto design an application consisting entirely of plugins.  While not\nspecifically talking about py.test it will also give a solid\nunderstanding on how plugins work in py.test.\n\nSlides: http://devork.be/talks/pluggy/pluggy.html\n\nOrg-mode source: http://devork.be/talks/pluggy/pluggy.org",
+  "duration": 2431,
+  "language": "eng",
+  "recorded": "2015-08-02",
+  "related_urls": [
+    "http://devork.be/talks/pluggy/pluggy.html",
+    "http://devork.be/talks/pluggy/pluggy.org"
+  ],
+  "speakers": [
+    "Floris Bruynooghe"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/zZsNPDfOoHU/maxresdefault.jpg",
+  "title": "The hook-based plugin architecture of py.test",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zZsNPDfOoHU"
+    }
+  ]
+}

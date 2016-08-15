@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Filipe Ximenes - What is wrong with API wrappers and how can we do better\n[EuroPython 2015]\n[20 July 2015]\n[Bilbao, Euskadi, Spain]\n\nWrappers are an essential tool for interacting with web APIs. They\nreduce the amount of work needed to make requests and sometimes, only\nsometimes prevent the developer from dealing with extensive\ndocumentations. It\u2019s common to encounter libs that require not only\nthe study of their own documentation, but also the APIs one,\nduplicating the needed work. This is caused because wrappers do not\nfollow a design pattern, each developer creates it\u2019s own design,\ncoding style and use their preferred tools.\n\n[Tapioca][1] is what can be called: \"a wrapper generator\u201d. Creating API wrappers with Tapioca is extremely easy and fast. For example, it took 1 hour to write the full wrapper for the [Parse.com][2] REST API. But this is not the more important thing, Tapioca libs have a similar interface so once understood how they work, developers can work with any other without the need to learn a new interface.\n\n\n\n\nTapioca is also thought to comply with REST features and takes HATEOAS\n(Hypermedia as the engine of application state) seriously, so\n\u201cfollowing\u201d links and pagination are natively supported. Explorability\nis also a key concept and developers are encouraged to play with\nTapioca packages and find their way through APIs before writing their\nfinal code. Although there are some production ready [Tapioca\nwrappers][3], it is a work in progress, there are still many features\nto be explored.\n\n[1]: https://github.com/vintasoftware/tapioca-wrapper\n[2]: http://parse.com\n[3]: https://github.com/vintasoftware/tapioca-wrapper#tapioca-comes-in-many-flavours",
+  "duration": 1691,
+  "language": "eng",
+  "recorded": "2015-08-02",
+  "related_urls": [
+    "https://github.com/vintasoftware/tapioca-wrapper",
+    "https://github.com/vintasoftware/tapioca-wrapper#tapioca-comes-in-many-flavours",
+    "http://parse.com"
+  ],
+  "speakers": [
+    "Filipe Ximenes"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/McMb8ZFfMXk/maxresdefault.jpg",
+  "title": "What is wrong with API wrappers and how can we do better",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=McMb8ZFfMXk"
+    }
+  ]
+}

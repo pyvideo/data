@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Teodor Dima - Use Python to process 12mil events per minute and still keep it simple (Talk)\n[EuroPython 2015]\n[21 July 2015]\n[Bilbao, Euskadi, Spain]\n\nCreating a large-scale event processing system can be a daunting task.\nEspecially if you want it \u201cstupid simple\u201d and wrapped around each\nclient\u2019s needs. We built a straightforward solution for this using\nPython 3 and other open-source tools.\n\nMain issues to solve for a system that needs to be both performant and scalable:\n\n- handling a throughput of 1 million events per minute in a 4 cores AWS instance;\n\n- following the principle of least astonishment;\n\n- data aggregation and how Python's standard libraries and data structures can help;\n\n- failsafe and profiling mechanisms that can be applied to any Linux service in production;\n\n- addressing unexpected behaviors of Python\u2019s Standard Library; like reading from a file while it is written;\n\n- tackling a sudden spectacular cloud instance failure;\n\nThe alternative to this system would be to adopt existing technology\nstacks that might be too general, add more complexity, bloat, costs\nand which need extensive work to solve your specific problem.\nMoreover, our approach resulted in over 85% drop on hardware\nutilisation.\n\n`Context: Production Software \u2013 II (where good coding reduces the client\u2019s bill) <https://eastvisionsystems.com/production-software-part-ii-good-coding-reduces-clients-bill/>`_",
+  "duration": 1274,
+  "language": "eng",
+  "recorded": "2015-08-05",
+  "related_urls": [
+    "https://eastvisionsystems.com/production-software-part-ii-good-coding-reduces-clients-bill/"
+  ],
+  "speakers": [
+    "Teodor Dima"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/tw1IaPc6Mxg/maxresdefault.jpg",
+  "title": "Use Python to process 12mil events per minute and still keep it simple (Talk)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tw1IaPc6Mxg"
+    }
+  ]
+}
