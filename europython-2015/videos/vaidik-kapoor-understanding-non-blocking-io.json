@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Vaidik Kapoor - Understanding Non-blocking IO\n[EuroPython 2015]\n[21 July 2015]\n[Bilbao, Euskadi, Spain]\n\nAs an engineer working on any web stack, you may have heard about\nBlocking and Non-Blocking IO. You may as well have used any framework\nor library that supports Non-Blocking IO. After all, they are very\nuseful as you don't want to block execution of other tasks while one\ntask is waiting to complete a network call to another service (like\nHTTP call to an API or may be a TCP call to your database). Non-\nBlocking IO while doing tasks and not wait for IO. This also helps us\nhandle a lot many connections than we possibly could with Blocking IO.\nPython supports Non-Blocking IO, but we always use some existing 3rd\nparty library that hides all the gory details and makes it all look\nlike black magic to the uninitiated. But there is nothing like black\nmagic.\n\nThis presentation will be an introductory talk focused at explaining\nhow Non-Blocking IO works, which is the basis of libraries like\nGevent, Tornado and Twisted. We will learn about how Non-Blocking IO\ncan be implemented using the most basic modules that form the base for\nthe above mentioned libraries. Hopefully after this talk, Non-Blocking\nIO will not be an unsolved mystery for you anymore.",
+  "duration": 1797,
+  "language": "eng",
+  "recorded": "2015-08-04",
+  "related_urls": [],
+  "speakers": [
+    "Vaidik Kapoor"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/t0VljE9kq1Q/maxresdefault.jpg",
+  "title": "Understanding Non-blocking IO",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=t0VljE9kq1Q"
+    }
+  ]
+}

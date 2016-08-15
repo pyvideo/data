@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Adam Forsyth - Python Not Recommended\n[EuroPython 2015]\n[21 July 2015]\n[Bilbao, Euskadi, Spain]\n\nBraintree is a Ruby shop. By default, we use Ruby and Rails for\nprojects. We also use Ruby-based projects for much of our tooling,\nincluding puppet, capistrano, and rake. However, we strongly believe\nin using the right tool for the job. What that means has evolved over\nti\nme, and I'll discuss what solutions we chose in the past as well as\nour current choices.\n\nSo what's it like doing Python at a Ruby shop? You get lots of jokes\nabout language features Ruby has but Python lacks and lots of\ndisbelief that Python will survive the 2/3 split. People also tend to\napply the best practices and conventions of Ruby to Python code as if\nt\nhey were the same. Python's major inroad at Braintree has been,\nsurprisingly enough, as a platform for high-concurrency situations.\nThis is a direct result of the power of Tornado as a platform for\nasynchronous I/O. It also helps that many Python is very approachable\nand\nmany developers have at least some experience with it.\n\nBraintree has three pieces of our infrastructure using Python and\nTornado -- an incoming request proxy; an outgoing request proxy; and a\nwebook delivery service. They've served us well for 3+ years but all\nsuffer from a number of problems. The outdated concurrency feature\ns of CPython / Python 2 as well as our lack of experience with and\ncommitment to Tornado have always been an issue. As the meat of the\ntalk, I'll speak in depth about the other issues we've encountered\nwith each of the three applications and our short- and long- term solu\ntions to the problems.\n\nThe state as of the end of 2014 appeared dire for Python at Braintree.\nAll the old Python code in our stack is on the way out, and Python has\nbeen specifically recommended agaist for new projects. Our Python\nclient library is used by some of our largest merchants, and is\nready for the future by supporting Python 2.6+ and Python 3.3+ in a\nsingle codebase. We also have a vibrant Python community at Venmo, our\nsister company. Both Braintree and Venmo support Python by attending,\nhosting, sponsoring, and speaking at meetups, conferences, and\nother events in Chicago, New York, and elsewhere. At Braintree, our\nData Science team uses Python almost exclusively and they're becoming\na bigger part of our business every day. We also use custom tooling\nwritten in Python to manage our infrastructure.",
+  "duration": 1264,
+  "language": "eng",
+  "recorded": "2015-08-05",
+  "related_urls": [],
+  "speakers": [
+    "Adam Forsyth"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/JBItMmAvlN4/maxresdefault.jpg",
+  "title": "Python Not Recommended",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JBItMmAvlN4"
+    }
+  ]
+}

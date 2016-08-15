@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Tom Viner - Testing with two failure seeking missiles: fuzzing and property based testing\n[EuroPython 2015]\n[23 July 2015]\n[Bilbao, Euskadi, Spain]\n\n**[Full Video of Talk][0]**\n\nTesting with purely random data on it's own doesn't get you very far. But\ntwo approaches that have been around for a while have new libraries that\nhelp you generate random input, that homes in on failing testcases.\n\nFirst **[Hypothesis][1]**, a Python implementation and update of the\nHaskell library\nQuickCheck. Known as property based testing, you specify a property of your\ncode that must hold, and Hypothesis does its best to find a counterexample.\nIt then shrinks this to find the minimal input that contradicts your\nproperty.\n\nVideo: https://www.youtube.com/watch?v=YGim-BL_ebE#t=53m17s\n\nSecond, **[American fuzzy lop][2]** (AFL), is a young fuzzing library\nthat's already\nachieved an impressive trophy case of bug discoveries. Using\ninstrumentation and genetic algorithms, it generates test input that\ncarefully searches out as many code paths as it can find, seeking greater\nfunctional coverage and ultimately locating crashes and hangs that no other\nmethod has found. I'll be showing how with **[Python-AFL][3]** we can apply this\ntool to our Python code.\n\n[0]: https://youtu.be/YGim-BL_ebE?t=53m17s\n[1]: https://hypothesis.readthedocs.org/en/latest/\n[2]: http://lcamtuf.coredump.cx/afl/\n[3]: http://jwilk.net/software/python-afl",
+  "duration": 2250,
+  "language": "eng",
+  "recorded": "2015-08-08",
+  "related_urls": [
+    "https://youtu.be/YGim-BL_ebE?t=53m17s",
+    "https://hypothesis.readthedocs.org/en/latest/",
+    "http://jwilk.net/software/python-afl",
+    "https://www.youtube.com/watch?v=YGim-BL_ebE#t=53m17s",
+    "http://lcamtuf.coredump.cx/afl/"
+  ],
+  "speakers": [
+    "Tom Viner"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/5kaqOKIqX_4/maxresdefault.jpg",
+  "title": "Testing with two failure seeking missiles: fuzzing and property based testing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5kaqOKIqX_4"
+    }
+  ]
+}

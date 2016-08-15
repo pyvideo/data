@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Petr Viktorin - Import Deep Dive\n[EuroPython 2015]\n[24 July 2015]\n[Bilbao, Euskadi, Spain]\n\nWhatever you need to do with Python, you can probably import a library\nfor it. But what exactly happens when you use that import statement?\nHow does a source file that you've installed or written become a\nPython module\nobject, providing functions or classes for you to play with?\n\nWhile the import mechanism is relatively well-documented in the\nreference and dozens of PEPs, sometimes even Python veterans are\ncaught by surprise. And some details are little-known: did you know\nyou can import from zip archives? Write CPython modules in C, or even\na dialect of Lisp? Or import from URLs (which might not be a good\nidea)?\n\nThis talk explains exactly what can happen when you use the import\nstatement \u2013 from the mundane machinery of searching PYTHONPATH through\nsubtle details of packages and import loops, to deep internals of\ncustom importers and C extension loading.",
+  "duration": 1663,
+  "language": "eng",
+  "recorded": "2015-08-05",
+  "related_urls": [],
+  "speakers": [
+    "Petr Viktorin"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xm3nkXvUJ2k/maxresdefault.jpg",
+  "title": "Import Deep Dive",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xm3nkXvUJ2k"
+    }
+  ]
+}
