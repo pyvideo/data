@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "DjangoCon US 2016 - Frog and Toad Learn About Django Security by Philip James\n\nDjango Security Talk Notes\n\nIntroduction\nPhilip James, how long I\u2019ve worked with Python and Django, background at EB\nIntroduction to the story, and the characters\nSafe-ish: Talk about Django\u2019s Security Model and how it tries to provide sane defaults for developers\nRun-through of the parts of the django security model\n\nXSS (brief definition)\n\nDjango escapes characters by default\n\nHow?\n\nHow do you turn it off? Mark Safe, | n, safe\n\nCSRF (brief definition)\n\nDjango has middleware that checks POST requests for a token\n\nHow?\n\nToken is stored in cookie, also\n\nCould be better? Make cookie httponly\n\nSide-effect: harder to JS. Also, only an issue if you\u2019re already owned, so maybe not an issue?\n\nHow to get around it? csrf_exempt\n\nSQLi (brief definition)\n\nDjango\u2019s ORM makes clean sql, (even when given bad data?)\n\nHow?\n\nHow to get around it: extra()/RawSQL()\n\nClickjacking protection (brief definition)\n\nDjango has middleware that sets headers browsers are supposed to respect\n\nWhich browsers? https://docs.djangoproject.com/en/1.8/ref/clickjacking/#limitations\n\nHow to get around it: xframe_options_exempt, xframe_options_deny, xframe_options_sameorigin\n\nHTTPS\n\nThis one is less \"out of the box\" than the others, so won\u2019t be talked about here.\nHost Header Validation (brief definition)\n\nDjango verifies against allowed hosts in settings\n\nHow? get_host()\n\nSession security\n\nWhat are django sessions?\n\nCookie-based by design\n\nHow can we make this better?\n\nOverall: Vigilance. Be aware of uses of this within your product\n\nXSS, CSRF, SQLi, Clickjacking: Have them all enabled, write rules to check for \"escape-hatch\" functions\n\nHTTPS:\n\nUse it!\n\nSet the correct settings\n\nSECURE_SSL_REDIRECT: How does it work?\n\nOther things\n\ndjango-secure\n\nhttps://www.ponycheckup.com/\n\nhttp://nerd.kelseyinnis.com/blog/2015/09/08/making-django-really-really-ridiculously-secure/",
+  "duration": 2238,
+  "language": "eng",
+  "recorded": "2016-08-10",
+  "related_urls": [
+    "http://nerd.kelseyinnis.com/blog/2015/09/08/making-django-really-really-ridiculously-secure/",
+    "https://www.ponycheckup.com/",
+    "https://docs.djangoproject.com/en/1.8/ref/clickjacking/#limitations"
+  ],
+  "speakers": [
+    "Philip James"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vF0M-1OJlWI/maxresdefault.jpg",
+  "title": "Frog and Toad Learn About Django Security",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vF0M-1OJlWI"
+    }
+  ]
+}
