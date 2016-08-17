@@ -10,3 +10,4 @@ Credits
 * Piotr Bulinski
 * David Baumgold
 * Horst Gutmann
+* Adam Gibson
