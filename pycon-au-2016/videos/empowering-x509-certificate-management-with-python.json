@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Marlon Dutra\nhttps://2016.pycon-au.org/schedule/68/view_talk\nToday, more than ever before, security is part of the fabric of the internet, with most websites defaulting to https over the historically used default of unsecured http. Whenever you see a URL starting with https:// (https:), your browser is sending the HTTP (or Spdy) traffic through a Transport Layer Security (TLS) tunnel. Part of establishing this secure tunnel involves your browser validating an X.509 certificate provided by the website you're viewing. This allows you to be sure that the server on the other end is who it says it is before you send some potentially sensitive information like your username and password.\n\nThis is just one example of how these technologies can be used, but there are many more. In distributed systems that communicate sensitive information, like user data, it is imperative to have a mutual authentication mechanism, where the client is confident it is talking to the right service, as well as the service being confident it is talking to the right client. Beyond strong authentication, it is usually desirable to have some authorization logic, to prevent clients from having unrestricted access to all services.\n\nSince any TCP communication can be tunneled through TLS, and TLS supports such mutual authentication through X.509 certificates, they are the perfect set of tools for the job. The problem to solve then becomes how you manage all of these certificates.\n\nCrafting simple certificates with the openssl command line is a bit tricky but doable. However, modern certificates support a variety of advanced features and it is quite complicated to take full advantage of them through the command line, especially in a programmatic way. This is where Python can be a powerful tool. Through the use of certain libraries, you can inject valuable information into your certificates that can be used for many purposes, such as establishing a robust authorization model for a service.\n\nIn this session we'll explore some of the ways you can leverage X.509 certificate features to better protect your systems and data. We'll give specific examples of how to use Python for the programmatic management of complex certificates as well as talking about how the largest website on the Internet, Facebook, handles hundreds of thousands of such certificates in its internal infrastructure, using these same approaches.\n\nBy the end of this talk, you will understand how to craft your own elaborate certificates with Python and how to use them to secure communications between networked services.",
+  "duration": 1867,
+  "language": "eng",
+  "recorded": "2016-08-15",
+  "related_urls": [
+    "https://2016.pycon-au.org/schedule/68/view_talk"
+  ],
+  "speakers": [
+    "Marlon Dutra"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/x_OWvcC8YY0/maxresdefault.jpg",
+  "title": "Empowering X.509 Certificate Management with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=x_OWvcC8YY0"
+    }
+  ]
+}

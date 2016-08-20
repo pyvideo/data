@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Kevin Plastow\nhttps://2016.pycon-au.org/schedule/108/view_talk\nThis talk will give an overview of a water forecasting system, which exposes via Python a suite of tools developed in C++ for hydrologists to use.\n\nPySWIFT is a Python software system that allows the use of SWIFT (Short-term Water Information and Forecasting Tools), a hydrologic suite of tools for flood and short-term streamflow forecasting.\n\nWhen integrating the SWIFT C++ system with Python, we aimed to achieve two main goals:\n1. Provide a productive and interactive environment for hydrological modelling.\n2. Take advantage of a complex multi-threaded C++ suite of tools that enables rapid execution.\n\nTo achieve the first goal, we created a modelling environment using JupyterHub. In this environment, modellers can set up, run, inspect and modify models, which is ideal to conduct exploratory experiments with the models.\nTo achieve the second goal, we used CFFI to create a Python wrapper for SWIFT\u2019s API. CFFI allows us to interact with SWIFT\u2019s C interface.\n\nIn this presentation, we will highlight the challenges and learnings that came about whilst building this system.",
+  "duration": 1331,
+  "language": "eng",
+  "recorded": "2016-08-15",
+  "related_urls": [
+    "https://2016.pycon-au.org/schedule/108/view_talk"
+  ],
+  "speakers": [
+    "Kevin Plastow"
+  ],
+  "tags": [
+    "datascience"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_7tV8KJCrBE/maxresdefault.jpg",
+  "title": "Python for bridging between researchers and service operators: from CFFI to Jupyterhub",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_7tV8KJCrBE"
+    }
+  ]
+}
