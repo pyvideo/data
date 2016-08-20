@@ -8,7 +8,7 @@ export PYTHONPATH := $(BASEDIR):$(TESTSDIR)
 VERBOSE ?= 0
 
 help:
-	@echo 'Makefile for a testing pytube/data                                 '
+	@echo 'Makefile for a testing pyvideo/data                                 '
 	@echo '                                                                   '
 	@echo 'Usage:                                                             '
 	@echo '   make test                   run all tests                       '

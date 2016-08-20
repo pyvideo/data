@@ -10,7 +10,7 @@ from tools.constants import JSON_FORMAT_KWARGS
 
 
 EDITOR = os.environ.get('EDITOR', 'vim')
-URL_REPO='https://github.com/pytube/data/blob/master/'
+URL_REPO='https://github.com/pyvideo/data/blob/master/'
 
 
 def get_edited_text(original_text):

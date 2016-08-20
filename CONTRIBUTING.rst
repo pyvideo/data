@@ -18,7 +18,7 @@ Adding Data
 JSON Objects
 ~~~~~~~~~~~~
 
-Each video contributed to `pytube/data`_ must have its own JSON object
+Each video contributed to `pyvideo/data`_ must have its own JSON object
 containing details about the video.
 For example, here's a JSON object containing data about a talk at PyGotham 2015::
 
@@ -89,7 +89,7 @@ tags                                   array of strings
 ==================================     ==================================     ==================================
 
 For a full schema of a video JSON object, please see
-https://github.com/pytube/data/blob/master/.schemas/video.json
+https://github.com/pyvideo/data/blob/master/.schemas/video.json
 
 .. _ISO 639-3: https://en.wikipedia.org/wiki/ISO_639-3
 
@@ -104,7 +104,7 @@ other information about the video.
 
 The description string for a video must be a valid reStructuredText (rST)
 document. That is, the string keyed by "description" in a JSON object must be
-parsible by a reStructuredText (rST) parser. `pytube/data`_ uses docutils'
+parsible by a reStructuredText (rST) parser. `pyvideo/data`_ uses docutils'
 ``docutils.parsers.rst.Parser`` to test the validity of the description and
 summary strings for each video.
 
@@ -143,7 +143,7 @@ Pretty print is important! In order to maintain this data with ease,
 it needs to be easily parseable by the human eye. Thus, all contributions are
 requested to be in pretty-printed format. Thankfully, Python makes this an easy task.
 To convert a single file of ugly JSON to a file of pretty JSON, you can use the
-following command from the root of your local clone of the `pytube/data`_ repo::
+following command from the root of your local clone of the `pyvideo/data`_ repo::
 
     $ python tools/reserialize.py path/to/file.json
 
@@ -188,24 +188,24 @@ key                                    value type
 title                                  string
 ==================================     ==================================
 
-For a full schema of a category JSON object, please see https://github.com/pytube/data/blob/master/.schemas/category.json
+For a full schema of a category JSON object, please see https://github.com/pyvideo/data/blob/master/.schemas/category.json
 
 Pull Request
 ~~~~~~~~~~~~
 
 Once your video JSON files and category JSON file are ready to be added to
-pytube's collection, take the following steps:
+pyvideo's collection, take the following steps:
 
 #. Fork this repo if you haven't already.
 #. Clone from your forked repo.
 #. Add your category directory (containing the JSON files) into the root of the repo.
-#. Add yourself as a contributor in the `CONTRIBUTORS.rst <https://github.com/pytube/data/blob/master/CONTRIBUTORS.rst>`_ file.
+#. Add yourself as a contributor in the `CONTRIBUTORS.rst <https://github.com/pyvideo/data/blob/master/CONTRIBUTORS.rst>`_ file.
 #. Commit your changes and push them up to your fork.
 #. Issue a Pull Request of your changes to this repo.
 
 And you're done! So long as you've followed this guide, your Pull Request (PR)
 should be ready for review and merger. Your changes will be visible on
-pytube.org within a few days after the PR is merged.
+pyvideo.org within a few days after the PR is merged.
 
 Cleaning Data
 -------------
@@ -218,7 +218,7 @@ Reporting Bugs
 
 Report bugs at:
 
-https://github.com/pytube/data/issues
+https://github.com/pyvideo/data/issues
 
 If you are reporting a bug about incorrect data, please include:
 
@@ -258,4 +258,4 @@ articles, tweets and other things like that.
 
 **Thanks so much for contributing to your worldwide Python community!**
 
-..  _`pytube/data`: https://github.com/pytube/data
+..  _`pyvideo/data`: https://github.com/pyvideo/data
