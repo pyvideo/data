@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Gregory Saunders\nhttps://2016.pycon-au.org/schedule/171/view_talk\nThe data structures used to represent information and program state in memory are rarely conducive to the storage and transmission of that information and state. The process of translating those data structures into a format better suited to storage is known as serialisation or marshalling.\n\nGoogle\u2019s Protobuf is a mechanism for serialising and deserialising structured data. Pyrobuf is a alternative, lightning-fast, implementation of Protobuf written in Cython that is 2-4 times faster than Protobuf when using its C++ backend and 20-40 times faster than its pure Python implementation.\n\nIn this talk we\u2019ll briefly review Protobuf and compare it to other well known serialisation mechanisms such as XML and JSON. We\u2019ll then take a look at Pyrobuf and the basic strategies it uses to achieve significantly better performance.\n\nPyrobuf\u2019s main claim to fame is its speed. This makes fixing bugs and adding new features a real challenge as any degradation in performance will not be well-received by users who\u2019ve come to expect and rely on its speed. Therefore, for the remainder of the talk we\u2019ll discuss tricks and tips, some more legitimate than others, for maintaining speed as new features are added.",
+  "duration": 1784,
+  "language": "eng",
+  "recorded": "2016-08-15",
+  "related_urls": [
+    "https://2016.pycon-au.org/schedule/171/view_talk"
+  ],
+  "speakers": [
+    "Gregory Saunders"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/4Q7hDdCYppw/maxresdefault.jpg",
+  "title": "Pyrobuf and the Tyranny of Speed",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4Q7hDdCYppw"
+    }
+  ]
+}

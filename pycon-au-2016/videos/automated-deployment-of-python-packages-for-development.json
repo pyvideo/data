@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Andrew MacDonald\nhttps://2016.pycon-au.org/schedule/109/view_talk\nThe ability to automatically deploy development and test versions of software supports a rapid development/release cycle.\n\nWithin our section of the Bureau of Meteorology we have a number of internal Python packages, ranging from small simple packages to large applications that are dependent on the smaller packages. We manage the development cycle to ease deployment of these packages and applications into development, test, and production environments.\n\nElements of our process are:     * Source code management (git)     * Code review (Gerrit)     * Continuous integration (Jenkins)     * Internal PyPi servers (Apache)     * A development environment for automatic deployment of every Gerrit approved commit (Anaconda environment via Jenkins)     * Versioning (git tags + versioneer)     * Test environment for every tagged version (Anaconda environment via Jenkins)     * Production environment for specified releases (Anaconda environment via Ansible)\n\nA key benefit of this process is that we have a deployed Python environment for the latest development version of all packages, a pinned collection of packages for testing, and an approved stable collection for production. The development and test environments are rapidly updated when commits are approved in Gerrit or tagged. The production environment is then readily updated with specific versions after a period of testing in the test environment.\nThis presentation will discuss our development process, how it works for us and how we leverage Python packaging to do it.",
+  "duration": 2220,
+  "language": "eng",
+  "recorded": "2016-08-15",
+  "related_urls": [
+    "https://2016.pycon-au.org/schedule/109/view_talk"
+  ],
+  "speakers": [
+    "Andrew MacDonald"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-I-xFCBL8n8/maxresdefault.jpg",
+  "title": "Automated deployment of Python packages for development",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-I-xFCBL8n8"
+    }
+  ]
+}
