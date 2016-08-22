@@ -1,6 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "Desde el 2010 tengo en marcha un proyecto llamado CityBikes (http://citybik.es). B\u00e1sicamente, lo que empez\u00f3 siendo una app Android para mostrar el estado de las bicis p\u00fablicas de Barcelona (Bicing), luego una API p\u00fablica para esos datos, ha acabado siendo un proyecto que incluye, a d\u00eda de hoy, 177 sistemas de bicis de alrededor del mundo y una API usada por la mayoria de aplicaciones alternativas a las oficiales para Android, iPhone, firefox, etc.\nTodo el proyecto es FOSS y, exceptuando la (ya un poco desfasada) aplicaci\u00f3n de Android, esta realizado enteramente en Python. Los componentes son:\npybikes: la pieza fundamental del proyecto es una librer\u00eda de scraping para todos \u00e9stos sistemas. A mi me gusta llamarlo \"bike sharing data at your fingertips\". Utiliza requests y lxml. Lo importante de \u00e9stapycon libreria es que es el punto de encuentro principal para las personas que contribuyen a CityBikes: si quieres a\u00f1adir el sistema de tu ciudad, puedes hacerlo tu mismo. http://github.com/eskerda/pybikes\napi: nada realmente importante, flask y pymongo. https://github.com/eskerda/citybikes-api\ngyro: el sistema que mantiene la base de datos de sistemas actualizado. En resumen, una serie de tareas rq que trabajan con pybikes y la base de datos. https://github.com/eskerda/citybikes-gyro",
+  "description": "Desde el 2010 tengo en marcha un proyecto llamado CityBikes (http://citybik.es). B\u00e1sicamente, lo que empez\u00f3 siendo una app Android para mostrar el estado de las bicis p\u00fablicas de Barcelona (Bicing), luego una API p\u00fablica para esos datos, ha acabado siendo un proyecto que incluye, a d\u00eda de hoy, 177 sistemas de bicis de alrededor del mundo y una API usada por la mayor\u00eda de aplicaciones alternativas a las oficiales para Android, iPhone, firefox, etc.\n\nTodo el proyecto es FOSS y, exceptuando la (ya un poco desfasada) aplicaci\u00f3n de Android, esta realizado enteramente en Python. Los componentes son:\n\n* **pybikes**: la pieza fundamental del proyecto es una librer\u00eda de scraping para todos \u00e9stos sistemas. A mi me gusta llamarlo \"bike sharing data at your fingertips\". Utiliza requests y lxml. Lo importante de \u00e9sta librer\u00eda es que es el punto de encuentro principal para las personas que contribuyen a CityBikes. Si quieres a\u00f1adir el sistema de tu ciudad, puedes hacerlo tu mismo en http://github.com/eskerda/pybikes\n* **api**: nada realmente importante, flask y pymongo. https://github.com/eskerda/citybikes-api\n* **gyro**: el sistema que mantiene la base de datos de sistemas actualizado. En resumen, una serie de tareas rq que trabajan con pybikes y la base de datos. https://github.com/eskerda/citybikes-gyro",
   "duration": 3163,
   "language": "spa",
   "recorded": "2015-04-06",
@@ -13,7 +13,10 @@
   "speakers": [
     "Eskerda"
   ],
-  "tags": [],
+  "tags": [
+    "pybikes",
+    "citybikes"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/HS9EovEsRjc/maxresdefault.jpg",
   "title": "PyBykes",
   "videos": [
