@@ -6,6 +6,9 @@ pyvideo/data
 .. image:: https://badges.gitter.im/pyvideo/data.svg
    :alt: Join the chat at https://gitter.im/pyvideo/data
    :target: https://gitter.im/pyvideo/data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+   
+.. image:: https://zenodo.org/badge/23288/pyvideo/data.svg
+   :target: https://zenodo.org/badge/latestdoi/23288/pyvideo/data
 
 **Publishing**
 
