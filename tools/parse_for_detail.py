@@ -14,9 +14,9 @@ from pprint import pprint
 import re
 
 
-PAT = re.compile(r'^DjangoCon EU 2013: (.*) -.*$')
-SOURCE_KEY = 'title'
-CATEGORY = 'djangocon-eu-2013'
+PAT = re.compile(r'^(.*)')
+SOURCE_KEY = 'description'
+CATEGORY = 'writethedocs-na-2016'
 
 
 def parse(path):
@@ -36,6 +36,8 @@ def parse(path):
     speakers.append(parsed_content)
     data['speakers'] = speakers
     # DONE UPDATING
+
+    #pprint(data)
 
     with open(path, 'w') as fp:
         json.dump(data, fp)
