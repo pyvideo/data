@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nWe've tried to crawl the Spanish (.es zone) internet, containing about ~600K websites to collect stats about hosts and their sizes. I'll describe the crawler architecture, storage, problems we faced with during the crawl and solutions found. Finally we released our solution as Frontera framework, allowing to build an online, scalable web crawlers using Python.\n\nIn this talk I'm going to share our experience crawling the Spanish web. We aimed at crawling about ~600K websites in .es zone, to collect statistics about hosts and their sizes. I'll describe crawler architecture, storage, problems we faced during the crawl and solutions found.\n\nOur solution is accessible in open source, as Frontera framework. It provides pluggable document and queue storage: RDBMS or Key-Value based, crawling strategy management, communication bus to choose: Kafka or ZeroMQ, using Scrapy as a fetcher, or plugging your own fetching component.\n\nFrontera allows to build a scalable, distributed web crawler to crawl the Web at high rates and large volumes. Frontera is online by design, allowing to modify the crawler components without stopping the whole process. Also Frontera can be used to build a focused crawlers to crawl and revisit a finite set of websites.\n\nTalk is organized in fascinating form: problem description, solution proposed, and issues appeared during the development and running the crawl.\n\nGithub Repo: https://github.com/scrapinghub/frontera",
+  "duration": 2555,
+  "language": "eng",
+  "recorded": "2016-05-31",
+  "related_urls": [
+    "https://github.com/scrapinghub/frontera"
+  ],
+  "speakers": [
+    "Alexander Sibiryakov"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9BHnkkGmgiM/maxresdefault.jpg",
+  "title": "Frontera: open source, large scale web crawling framework",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9BHnkkGmgiM"
+    }
+  ]
+}

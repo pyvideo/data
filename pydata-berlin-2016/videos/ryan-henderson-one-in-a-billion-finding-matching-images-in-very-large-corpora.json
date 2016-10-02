@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nThe goal was not only to support high write volumes of over 10k/s but also to support fast lookup of similar images around 1-2s for over 1B images. Though similar paid services and free image hashing libraries exist, this may be the first complete free open-source solution. Available at: https://github.com/ascribe/image-match\n\nimage-match started as an internal project. We needed a way, given some target image, to find similar images downloaded by our web-crawler (think Tineye).\n\nSo not only did we need to support fast, accurate lookup for millions or even billions of images, we also needed to facilitate very high volume insertion -- around 10k images per second.\n\nIn my talk, I will cover:\n\n- The Problem: why is finding similar images hard?\n- Algorithm: based on this paper\n- Performance: but does it scale?\n- Alternatives",
+  "duration": 893,
+  "language": "eng",
+  "recorded": "2016-05-31",
+  "related_urls": [
+    "https://github.com/ascribe/image-match"
+  ],
+  "speakers": [
+    "Ryan Henderson"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DfWLBzArzKE/maxresdefault.jpg",
+  "title": "One in a billion: finding matching images in very large corpora",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DfWLBzArzKE"
+    }
+  ]
+}

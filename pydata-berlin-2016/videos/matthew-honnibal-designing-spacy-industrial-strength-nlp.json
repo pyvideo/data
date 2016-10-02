@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nThe spaCy natural language processing (NLP) library features state-of-the-art performance, and a high-level Python API. Efficiency is crucial for NLP, because job sizes are constantly increasing. This talk describes how we\u2019ve met these challenges in spaCy, by implementing the library in Cython.\n\nThe spaCy natural language processing (NLP) library features state-of-the-art performance, and a high-level Python API. Efficiency is crucial for NLP, because job sizes are constantly increasing. The key algorithms are also relatively complicated, and frequently subject to change, as new research is published. This talk describes how we\u2019ve met these challenges in spaCy, by implementing the library in Cython. Unlike many Cython users, we did not write the library in Python first, and then optimize it. Instead, we designed the library as a C extension from the start, and added the Python API on top. This allows us to build the library on top of efficient, memory-managed data structures, without having to maintain a separate C or C++ codebase. The result is the fastest NLP library in the world, support for GIL-free multithreading, in a concise readable codebase, and with no compromise on user friendliness.",
+  "duration": 2396,
+  "language": "eng",
+  "recorded": "2016-05-31",
+  "related_urls": [],
+  "speakers": [
+    "Matthew Honnibal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/gJJQs47aUQ0/maxresdefault.jpg",
+  "title": "Designing spaCy: Industrial-strength NLP",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gJJQs47aUQ0"
+    }
+  ]
+}
