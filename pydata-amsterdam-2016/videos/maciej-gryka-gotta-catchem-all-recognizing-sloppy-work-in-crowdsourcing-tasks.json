@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Amsterdam 2016\n\nDescription\n\nIf you have ever used crowdsourcing, you know that dealing with sloppy workers is a major part of the effort. Come see this talk if you want to learn about how to solve this problem using machine learning and some elbow grease. As a bonus, you will also find out how to properly persist your ML models and use them to serve predictions through an HTTP API.\n\nAbstract\n\nIn 2016 nobody needs convincing that crowdsourced work is a solution to many problems from data labeling, to gathering subjective opinions, to producing transcripts etc. Turns out it can also work really well for functional software testing - but it's not easy to get right.\n\nOne well-known problem with crowdsourcing is sloppy work - where people perform only the absolute minimum actions allowing them to get paid, without actually fulfilling the intended tasks. In many scenarios this can be counteracted by asking multiple workers to complete the same task, but that dramatically increases cost and can still be error-prone. Detecting lazy work is another way to increase quality of gathered data and we have found a way to do this reliably for quite a large variety of tasks.\n\nIn this talk I will describe how we have trained a machine learning model to discriminate between good and sloppy work. The outline is as follows: - describe the specific problem we had (5m) - overview of the solution (2m) - ML model details (10m) - data capture - labelling - balancing the dataset - feature engineering - training, retraining - model itself - model persistence (10m) - productizing the result by putting it behind an HTTP API (3m) - limitations, trade-offs, what could we do better (3m)",
+  "duration": 1517,
+  "language": "eng",
+  "recorded": "2016-03-26",
+  "related_urls": [],
+  "speakers": [
+    "Maciej Gryka"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/7_h8PElXio8/maxresdefault.jpg",
+  "title": "Gotta catch'em all: recognizing sloppy work in crowdsourcing tasks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7_h8PElXio8"
+    }
+  ]
+}

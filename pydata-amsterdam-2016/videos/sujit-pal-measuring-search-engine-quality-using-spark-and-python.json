@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Amsterdam 2016\n\nWe describe a system built using Python and Apache Spark which measured the effectiveness of different query configurations of an Apache Solr search platform, using click logs for a reference query set of 80,000+ user queries. The system replays the click logs against the engine to compute the Average Click Rank (ACR) metric as a proxy for user satisfaction, providing a way to identify improvements in quality without having to do a production deployment, and ensuring that only improved configurations are submitted to a slow and expensive A/B testing process.\n\nFor each search engine configuration, the ACR is recomputed by replaying the query logs against it and finding the position (or click rank) for the user's selected document. The ACR is computed by averaging those positions across all user queries in the query log. Lower click ranks are indicative of better engine configuration for that query, since it implies that the user found what they were looking for nearer the top of the results. Similarly, a low ACR across all queries is an indicator of good search engine configuration as a whole.\n\nThis system has also been used to analyze user behavior, by partitioning the results across content types, response times, etc, and analyzing differences in click rank distribution. It has also been used to identify and investigate slow queries, resulting in improvements in which have also benefited the search application.\n\nSlides available here: http://www.slideshare.net/sujitpal/measuring-search-engine-quality-using-spark-and-python",
+  "duration": 1536,
+  "language": "eng",
+  "recorded": "2016-03-26",
+  "related_urls": [
+    "http://www.slideshare.net/sujitpal/measuring-search-engine-quality-using-spark-and-python"
+  ],
+  "speakers": [
+    "Sujit Pal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/e3FsyKUfcKQ/maxresdefault.jpg",
+  "title": "Measuring Search Engine Quality using Spark and Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=e3FsyKUfcKQ"
+    }
+  ]
+}

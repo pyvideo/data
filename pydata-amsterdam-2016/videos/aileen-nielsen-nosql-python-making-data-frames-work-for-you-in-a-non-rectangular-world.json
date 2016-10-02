@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Amsterdam 2016\n\nAnyone who's dealt with a CSV file that contains arrays or a JSON with nested fields knows the pain of shoehorning non-rectangular data into standard Python data tools, such as data frame. This presentation will show you Python best practices for managing such non-rectangular data and highlight new opportunities for using \"NoSQL\" Python for interesting and painless analyses of real world data.\n\nNoSQL Python sounds suspiciously trendy. Is this a real thing?\n\nMost commonly used data frameworks in Python rely on SQL-like thinking. They work great, but unfortunately they don't always match real world data. A server fails intermittently, and you find you're missing measurements in an unpredictable way. A patient drops in and out of a study . You ask survey respondents what their favorite color is but they give you five colors. Suddenly you don't know quite how many columns you need or what data types those columns should have.\n\nThese are just a few examples of real-world, non-rectangular data. Most of this real-world data makes its way into nested JSON, irregularly formatted JSON, unreliable API results, and slightly quirky CSV files.\n\nThe nitty-gritty: how do you 'do' NoSQL Python?\n\nWe'll cover best-practices for dealing with a variety of situations, starting with plain-vanilla JSON and branching off to defensive practices for dealing with highly-nested JSON, unreliably formatted API results (JSON or otherwise), and CSVs with array and other kinds of problematic fields.\n\nWe'll also talk about best practices for processing these in terms of speeding up analysis and storing data in an easy-to-access and easy-to-understand format. In this portion of the talk, we'll still focus on keeping to data frames, making the rectangular format work for our non-rectangular data.\n\nFinally we'll take a look at roll-your-own NoSQL Python, unabashedly NoSQL frameworks, and what you should look for as you architect your own data decisions. We'll conclude with general rules of thumb for knowing the best way to proceed before you go too far down the wrong road.\n\nNow you've got it, what to do with it?\n\nThe most interesting data and data-driven decision-making is coming out of non-rectangular data sources. What people do, how and when they do it, and what our computers do in response all comes down to non-rectangular, NoSQL data and NoSQL data-driven decision making. I'll highlight some well-known and lesser-known examples of NoSQL data results and the growing need for more work of this kind.\n\nSlides available here: http://www.slideshare.net/PyData/aileen-nielsen-nosql-python-making-data-frames-work-for-you-in-a-nonrectangular-world",
+  "duration": 2065,
+  "language": "eng",
+  "recorded": "2016-03-26",
+  "related_urls": [
+    "http://www.slideshare.net/PyData/aileen-nielsen-nosql-python-making-data-frames-work-for-you-in-a-nonrectangular-world"
+  ],
+  "speakers": [
+    "Aileen Nielsen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/QYtE-Irbd7E/maxresdefault.jpg",
+  "title": "NoSQL Python: making data frames work for you in a non-rectangular world",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QYtE-Irbd7E"
+    }
+  ]
+}

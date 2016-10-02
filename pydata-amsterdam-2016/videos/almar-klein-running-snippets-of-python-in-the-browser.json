@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Amsterdam 2016\n\nIn this talk, we\u2019ll start with an overview of solutions to run Python in the browser. Then we\u2019ll explain how our solution (PyScript) works and what its advantages/disadvantages are. Next, we\u2019ll demonstrate its use in a few real-world projects.\n\nIt is evident that \u201cthe web\u201d is becoming an increasingly important place to publish research findings. Apart from the obvious advantage of being able to reach a wide audience at negligible cost, browser technology allows for increasingly sophisticated means to present your data and findings in various interactive ways.\n\nUnfortunately, the language of the web (JavaScript) is a language that is notorious for its many flaws. It seems that Pythonistas are especially repelled by the language, since the number of projects that try to \u201crun Python in the browser\u201d is steadily growing.\n\nIn our approach (PyScript), we do not aim to run the full Python language in the browser. It\u2019s rather a way to write JavaScript using a Python syntax, making it as Pythonic as we can. There are a few pitfalls, but these have been reduced over time, which makes writing PyScript feel almost like writing Python.\n\nOne advantage of our approach is that one can generate snippets of JavaScript code that can interact as-is with other JavaScript libraries. Combined with the fact that PyScript is valid Python, it allows for a natural way to define client-side reactivity inside common Python modules. Also, it makes PyScript faster than most other Python-in-the-browser solutions.\n\nOne of its use-cases is Bokeh\u2019s new capability to define client-side callbacks in Python. There are plans to use a similar approach to allow users to define custom Bokeh models. The Flexx project is a pure Python widget toolkit, that renders in the browser. All widgets are implemented with PyScript (wrapping PhosphorJS for some layouts). In a project with Clinical Graphics, PyScript is used in a system that allows visualization and user-annotations of medical images, with plans for 3D visualizations.\n\nSlides available here: https://docs.google.com/presentation/d/1X069udByOTw3d4-NVU14XwhTANCdECvjY0R7fDuXTpA/pub?start=false&loop=false&delayms=3000",
+  "duration": 1382,
+  "language": "eng",
+  "recorded": "2016-03-26",
+  "related_urls": [
+    "https://docs.google.com/presentation/d/1X069udByOTw3d4-NVU14XwhTANCdECvjY0R7fDuXTpA/pub?start=false&loop=false&delayms=3000"
+  ],
+  "speakers": [
+    "Almar Klein"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/V1K8Mju_1oo/maxresdefault.jpg",
+  "title": "Running (snippets of) Python in the browser",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=V1K8Mju_1oo"
+    }
+  ]
+}
