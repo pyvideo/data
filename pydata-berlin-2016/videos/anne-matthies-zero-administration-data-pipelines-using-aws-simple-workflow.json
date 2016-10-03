@@ -1,14 +1,18 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "PyData Berlin 2016\n\nFloto is an open source tool to programmatically author, schedule and run scalable data pipelines using AWS Simple Workflow - without the need to maintain a master server or queue or the state of workers.\n\nThere are quite a few great tools for building effective and robust distributed data processing pipelines, especially Luigi from Spotify and Airflow from AirBnB.\n\nFor scaling out, they all require a queue or master server, though. And those need maintenance.\n\nWe wrote floto (github.com/babbel/floto), an open source tool to programmatically author, schedule and run scalable data pipelines on AWS - without the maintenance overhead.\n\nIt uses AWS Simple Workflow, but I'll talk most about some general topics regarding data workflow orchestration:\n- separation of concerns\n- managing complexity through dependency reduction\n- idempotent (or re-runnable) jobs\n- transactional jobs (either completely fail, or completely succeed)\n- failures and reruns\n- evolving changes\n- organizational scaling\n- heterogenous systems",
+  "description": "PyData Berlin 2016\n\nFloto is an open source tool to programmatically author, schedule and run scalable data pipelines using AWS Simple Workflow - without the need to maintain a master server or queue or the state of workers.\n\nThere are quite a few great tools for building effective and robust distributed data processing pipelines, especially Luigi from Spotify and Airflow from AirBnB.\n\nFor scaling out, they all require a queue or master server, though. And those need maintenance.\n\nWe wrote floto (https://github.com/babbel/floto), an open source tool to programmatically author, schedule and run scalable data pipelines on AWS - without the maintenance overhead.\n\nIt uses AWS Simple Workflow, but I'll talk most about some general topics regarding data workflow orchestration:\n\n- separation of concerns\n- managing complexity through dependency reduction\n- idempotent (or re-runnable) jobs\n- transactional jobs (either completely fail, or completely succeed)\n- failures and reruns\n- evolving changes\n- organizational scaling\n- heterogenous systems",
   "duration": 2290,
   "language": "eng",
   "recorded": "2016-06-01",
-  "related_urls": [],
+  "related_urls": [
+    "https://github.com/babbel/floto"
+  ],
   "speakers": [
     "Anne Matthies"
   ],
-  "tags": [],
+  "tags": [
+    "Floto"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/RiONy5W9Afk/maxresdefault.jpg",
   "title": "Zero-Administration Data Pipelines using AWS Simple Workflow",
   "videos": [
