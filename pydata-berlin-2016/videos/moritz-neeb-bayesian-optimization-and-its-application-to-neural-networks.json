@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nThis talk will be about the fundamentals of Bayesian Optimization and how it can be used to train ML Algorithms in Python. To this end we'll consider it's application to Neural Networks. The NNs will be implemented in keras, the Bayesian Optimization will be optimized with hyperas/hyperopt.\n\nHave you ever failed to train a Neural Network? Spent hours, to get it even learn anything? If you ask an expert on how she does this, the answer might be something like: \"It needs a lot of experience and some luck\". If you know this problem, then this talk is for you. Also, let's steer our luck with ML!\n\nWhen tuning hyperparameters, an expert has built a model, that means some expectations on how the output might change on a certain parameter adaption. For example, what happens to your Convolutional Neural Network if you set the dropout from 0.5 to 0.25.\n\nBayesian Optimization is a method that is able to build exactly this kind of model. It uses for example Gaussian Processes to take decisions on which parameter-change might bring you the most benefit, and if it does not, the model is adapted accodingly.\n\nThis talk will be about the fundamentals of Bayesian Optimization and how it can be used to train ML Algorithms in Python.\n\nTo this end we'll consider it's application to Neural Networks. The NNs will be implemented in keras, the Bayesian Optimization will be optimized with hyperas/hyperopt.\n\nI am planning to split this talk 50:50 into theory and practice.",
+  "duration": 2065,
+  "language": "eng",
+  "recorded": "2016-06-01",
+  "related_urls": [],
+  "speakers": [
+    "Moritz Neeb"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0sG8zHK_VA4/maxresdefault.jpg",
+  "title": "Bayesian Optimization and it's application to Neural Networks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0sG8zHK_VA4"
+    }
+  ]
+}
