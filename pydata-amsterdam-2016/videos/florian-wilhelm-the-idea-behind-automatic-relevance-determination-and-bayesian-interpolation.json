@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Amsterdam 2016\n\nEven in the era of Big Data there are many real-world problems where the number of input features has about the some order of magnitude than the number of samples. Often many of those input features are irrelevant and thus inferring the relevant ones is an important problem in order to prevent over-fitting. Automatic Relevance Determination solves this problem by applying Bayesian techniques.\n\nIn order to motivate Automatic Relevance Determination (ARD) an intuition for the problem of choosing a complex model that fits the data well vs a simple model that generalizes well is established. Thereby the idea behind Occam's razor is presented as a way of balancing bias and variance. This leads us to the mathematical framework of Bayesian interpolation and model selection to choose between different models based on the data.\n\nTo derive ARD as gently as possible the mathematical basics of a simple linear model are repeated as well as the idea of regularization to prevent over-fitting. Based on that, the Bayesian Ridge Regression (BayesianRidge in Scikit-Learn) is introduced. Generalizing the concept of Bayesian Ridge Regression even more gets us eventually to the the idea behind ARD (ARDRegression in Scikit-Learn).\n\nWith the help of a practical example, we consolidate what has been learnt so far and compare ARD to an ordinary least square model. Now we dive deep into the mathematics of ARD and present the algorithm that solves the minimization problem of ARD. Finally, some details of Scikit-Learn's ARD implementation are discussed.\n\nSlides available here: http://www.slideshare.net/FlorianWilhelm2/explaining-the-idea-behind-automatic-relevance-determination-and-bayesian-interpolation-59498957",
+  "duration": 2323,
+  "language": "eng",
+  "recorded": "2016-03-26",
+  "related_urls": [
+    "http://www.slideshare.net/FlorianWilhelm2/explaining-the-idea-behind-automatic-relevance-determination-and-bayesian-interpolation-59498957"
+  ],
+  "speakers": [
+    "Florian Wilhelm"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2gT-Q0NZzoE/maxresdefault.jpg",
+  "title": "the idea behind Automatic Relevance Determination and Bayesian Interpolation",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2gT-Q0NZzoE"
+    }
+  ]
+}
