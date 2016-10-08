@@ -1,6 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "PyData SF 2016\nRamesh Sampath | Build Data Apps by Deploying ML Models as API Services\n\nAs data scientists, we love building models using IPython Notebooks / Scikit-Learn / Pandas eco-system. But integrating these models with an web app can be a challenge. In this tutorial, we will take our machine learn ing models and make them available as APIs for use by Web and Mobile Apps. We will also build a simple webapp that uses our prediction service.\n\nDeploy your ML Models as a Service\n\nIn this talk, we will learn one way to take our Machine Learning models and make them available as a Prediction Service. We will work through the following steps.\n\nCreate a Simple Machine learning Model using Scikit-Learn / Pandas\nPickle the model\nUsing Tornado Web App, Make this model available as an API Service\nBuild an Web App that uses this deployed Model\nAdd Authentication to our Prediction API\nOptionally, add Redis to Cache Prediction Results\nDeploy the model in the Cloud (AWS)\nPlease have Anaconda or Miniconda installed on your local machine. I will mostly be using Python 3.5, but Python 2.7 should be fine as well.",
+  "description": "PyData SF 2016\nRamesh Sampath | Build Data Apps by Deploying ML Models as API Services\n\nAs data scientists, we love building models using IPython Notebooks / Scikit-Learn / Pandas eco-system. But integrating these models with an web app can be a challenge. In this tutorial, we will take our machine learning models and make them available as APIs for use by Web and Mobile Apps. We will also build a simple webapp that uses our prediction service.\n\nDeploy your ML Models as a Service\n\nIn this talk, we will learn one way to take our Machine Learning models and make them available as a Prediction Service. We will work through the following steps.\n\nCreate a Simple Machine learning Model using Scikit-Learn / Pandas\nPickle the model\nUsing Tornado Web App, Make this model available as an API Service\nBuild an Web App that uses this deployed Model\nAdd Authentication to our Prediction API\nOptionally, add Redis to Cache Prediction Results\nDeploy the model in the Cloud (AWS)\nPlease have Anaconda or Miniconda installed on your local machine. I will mostly be using Python 3.5, but Python 2.7 should be fine as well.",
   "duration": 4668,
   "language": "eng",
   "recorded": "2016-08-24",
@@ -8,7 +8,13 @@
   "speakers": [
     "Ramesh Sampath"
   ],
-  "tags": [],
+  "tags": [
+    "tutorial",
+    "machine learning",
+    "scikit-learn",
+    "pandas",
+    "tornado"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/n8j-ResxY78/maxresdefault.jpg",
   "title": "Build Data Apps by Deploying ML Models as API Services",
   "videos": [

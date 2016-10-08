@@ -1,6 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "PyData SF 2016\n\nPython is a great tool for performing data analysis, but often time the hardest part is getting access to your data that\u2019s located in a variety of business systems - files, database, and SaaS applications. Productionizing this process is even harder: scripts frequently fail and require precious to to fix and re-test. In this talk, I will review some open source tools I authored and show you how\n\nIn this talk we will cover: - How we created a data collection tool that can read any chaotically formatted files called \"CSV\" by guessing its structure automatically - Explore the plugin-based-architecture that makes it easy to load data from external sources and publish to production systems. From files to business systems such as Salesforce & Mixpanel. - Review current plugins (over 100 released by the OSS community) and use cases - Explain how distributed execution enhances stability and scalability",
+  "description": "PyData SF 2016\n\nPython is a great tool for performing data analysis, but often time the hardest part is getting access to your data that\u2019s located in a variety of business systems - files, database, and SaaS applications. Productionizing this process is even harder: scripts frequently fail and require precious to to fix and re-test. In this talk, I will review some open source tools I authored and show you how\n\nIn this talk we will cover: \n\n- How we created a data collection tool that can read any chaotically formatted files called \"CSV\" by guessing its structure automatically \n- Explore the plugin-based-architecture that makes it easy to load data from external sources and publish to production systems. From files to business systems such as Salesforce & Mixpanel. \n- Review current plugins (over 100 released by the OSS community) and use cases \n- Explain how distributed execution enhances stability and scalability",
   "duration": 2530,
   "language": "eng",
   "recorded": "2016-08-24",
@@ -8,7 +8,9 @@
   "speakers": [
     "Sadayuki Furuhashi"
   ],
-  "tags": [],
+  "tags": [
+    "embulk"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/ocuez7Mikh4/maxresdefault.jpg",
   "title": "Fighting Against Chaotically Separated Values with Embulk",
   "videos": [
