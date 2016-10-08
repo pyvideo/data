@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import argparse
 import json
 import os
@@ -11,6 +12,8 @@ from tools.constants import JSON_FORMAT_KWARGS
 
 
 def make_video_file(videos_dir, video_data):
+    if video_data['fields']['state'] < 5:
+        return
     file_data = {}
     file_data['description'] = video_data['fields']['description']
     file_data['title'] = video_data['fields']['name']
@@ -52,7 +55,9 @@ def make_category(category, veyepar_url):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--category')
-    parser.add_argument('-v', '--veyepar-url')
+    parser.add_argument(
+            '-v', '--veyepar-url',
+            help='e.g.: https://example.com/main/C/pyconza/S/pyconza2016.json')
     args = parser.parse_args()
 
     make_category(args.category, args.veyepar_url)
