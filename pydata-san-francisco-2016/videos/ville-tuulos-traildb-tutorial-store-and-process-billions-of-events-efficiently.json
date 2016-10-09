@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData SF 2016\nVille Tuulos | TrailDB tutorial Store and process billions of events efficiently\n\nTrailDB is an efficient library for storing and querying series of events. It shines at compressing a large number of discrete events in a small space - often small enough to allow processing on a single server. TrailDB is implemented in C and it comes with Python bindings.\n\nThis is a hands-on tutorial that gets you started with TrailDB. Bring your own data or play with a public data set.\n\n\nWhat is TrailDB?\n\nTrailDB is designed to be a core building block for systems that need to store and process a large number of discrete events, organized by a primary key. It is complementary to existing relational and time-series databases and key-value stores.\n\nWhat makes TrailDB different is immutability: Immutable data enables deeper compression, scalability, and architectural decisions, which would not be feasible with existing databases. This is especially true for cloud environments with object stores like Amazon S3 that are a perfect match for compressed, immutable files.\n\nDeveloper productivity is another main motivation of TrailDB. Individual files are easy to manipulate using standard filesystem tools. The easily portable C library has only a few easily available dependencies, making it easily deployable. The API is clean and minimal by design. Language bindings are provided for Python, Go, Haskell, R, and D.\n\nTrailDB is a perfect match for use cases that involve detecting patterns over time, such as web/mobile analytics, anomaly detection, and various machine learning models. Since 2014, AdRoll has used TrailDB to store and query over 20 trillion events that power a number of products at AdRoll. TrailDB was open-sourced in May 2016.",
+  "duration": 5131,
+  "language": "eng",
+  "recorded": "2016-08-24",
+  "related_urls": [],
+  "speakers": [
+    "Ville Tuulos"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-oPFxSwn0lM/maxresdefault.jpg",
+  "title": "TrailDB tutorial Store and process billions of events efficiently",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-oPFxSwn0lM"
+    }
+  ]
+}
