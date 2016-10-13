@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import argparse
 import json
 import os
@@ -11,6 +12,8 @@ from tools.constants import JSON_FORMAT_KWARGS
 
 
 def make_video_file(videos_dir, video_data):
+    if video_data['fields']['state'] < 11:
+        return
     file_data = {}
     file_data['description'] = video_data['fields']['description']
     file_data['title'] = video_data['fields']['name']
@@ -20,6 +23,8 @@ def make_video_file(videos_dir, video_data):
         'type': 'youtube',
         'url': video_data['fields']['host_url'],
     }]
+    file_data['thumbnail_url'] = 'https://i.ytimg.com/vi/{}/hqdefault.jpg'.format(
+        file_data['videos'][0]['url'].split('/')[-1])
     duration_chunks = list(map(int, video_data['fields']['duration'].split(':')))
     duration = sum(60 ** i * j for i, j in enumerate(reversed(duration_chunks)))
     file_data['duration'] = duration
@@ -52,7 +57,9 @@ def make_category(category, veyepar_url):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--category')
-    parser.add_argument('-v', '--veyepar-url')
+    parser.add_argument(
+            '-v', '--veyepar-url',
+            help='e.g.: https://example.com/main/C/pyconza/S/pyconza2016.json')
     args = parser.parse_args()
 
     make_category(args.category, args.veyepar_url)
