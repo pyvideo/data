@@ -20,12 +20,19 @@ def make_video_file(videos_dir, video_data):
     file_data['title'] = video_data['title']
     file_data['speakers'] = video_data['speakers']
     file_data['recorded'] = video_data['recorded'].split('T')[0]
-    file_data['videos'] = [{
-        'type': 'youtube',
-        'url': video_data['source_url'],
-    }]
+    related_urls = []
+    videos = []
+    for item in video_data['videos']:
+        if item['type'] == 'conf':
+            related_urls.append(item['url'])
+        elif item['type'] == 'archive':
+            videos.append(dict(type=item['type'], url=item['url']))
+        elif item['type'] == 'host':
+            videos.append(dict(type='youtube', url=item['url']))
+    file_data['videos'] = videos
+    file_data['related_urls'] = related_urls
     file_data['thumbnail_url'] = 'https://i.ytimg.com/vi/{}/hqdefault.jpg'.format(
-        file_data['videos'][0]['url'].split('/')[-1])
+        video_data['source_url'].split('/')[-1])
     file_data['duration'] = video_data['duration']
 
     path = os.path.join(videos_dir, slugify(file_data['title']) + '.json')
