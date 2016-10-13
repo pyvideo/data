@@ -1,0 +1,23 @@
+{
+  "description": "<p>Metrics are highly superior to logging in regards of understanding the past, presence, and future of your applications and systems. They are cheap to gather (just increment a number!) but setting up a metrics system to collect and store them is a major task.</p>\n<p>You may have heard of statsd, Riemann, Graphite, InfluxDB, or OpenTSB. They all look promising but on a closer look it\u2019s apparent that some of those solutions are straight-out flawed and others are hard to integrate with each other or even to get up and running.</p>\n<p>Then came Prometheus and gave us independence of UDP, no complex math in your application, multi-dimensional data by adding labels to values (no more server names in your metric names!), baked in monitoring capabilities, integration with many common systems, and official clients for all major programming languages. In short: a unified way to gather, process, and present metrics.</p>\n<p>This talk will:</p>\n<ol>\n<li>explain why you want to collect metrics,</li>\n<li>give an overview of the problems with existing solutions,</li>\n<li>try to convince you that Prometheus may be what you\u2019ve been waiting for,</li>\n<li>teach how to impress your co-workers with beautiful graphs and intelligent monitoring by putting a fully instrumented Python application into production,</li>\n<li>and finally give you pointers on how to migrate an existing metrics infrastructure to Prometheus or how to integrate Prometheus therein.</li>\n</ol>",
+  "duration": 2596,
+  "recorded": "2016-10-07",
+  "related_urls": [
+    "https://za.pycon.org/talks/27/"
+  ],
+  "speakers": [
+    "Hynek Schlawack"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CDs7o0U2WvA/hqdefault.jpg",
+  "title": "Get Instrumented: How Prometheus Can Unify Your Metrics",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "http://youtu.be/CDs7o0U2WvA"
+    },
+    {
+      "type": "archive",
+      "url": "https://archive.org/details/pyconza2016-Get_Instrumented_How_Prometheus_Can_Unify_Your_Metrics"
+    }
+  ]
+}

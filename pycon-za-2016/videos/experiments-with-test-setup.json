@@ -1,0 +1,23 @@
+{
+  "description": "<p>Ever since test driven development took hold, people have been experimenting with different ways to deal with setting up and tearing down test objects and data (amongst other things).</p>\n<p>Focussing on this particular concern (set up and tear down of test objects), this talk provides an overview of how the mainstream python tools have developed over time in this regard: unittest, nose and py.test. A bit of a wider context is also given in terms of two ideas pioneered by tools in other languages: the annotations of TestNG and resources of Smalltalk's SUnit. Two ideas that address problems beyond the reach of the tools themselves are also introduced, namely the \"object mother\" and \"builder pattern\".</p>\n<p>Against the backdrop of this overview, I also show some of our own experiments (as part of <a href=\"http://www.reahl.org\">the Reahl project</a>) to translate a combination of the object mother and the builder pattern into Python -- with surprising results.</p>\n<p>The talk is aimed at people interested in improving the ways we can do set up for tests and people who are generally interested in how tests can be made easier to write and more useful. I hope to stimulate more thoughts around the topic against the backdrop of a slight overview. The talk is accessible to newcomers to this topic as well.</p>",
+  "duration": 2125,
+  "recorded": "2016-10-06",
+  "related_urls": [
+    "https://za.pycon.org/talks/26/"
+  ],
+  "speakers": [
+    "Iwan Vosloo"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/QmwLgJ5-f38/hqdefault.jpg",
+  "title": "Experiments with test setup",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "http://youtu.be/QmwLgJ5-f38"
+    },
+    {
+      "type": "archive",
+      "url": "https://archive.org/details/pyconza2016-Experiments_with_test_setup"
+    }
+  ]
+}

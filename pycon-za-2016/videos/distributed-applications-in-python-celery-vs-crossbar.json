@@ -1,0 +1,23 @@
+{
+  "description": "<p>In this talk I will discuss two specific methods of implementing distributed applications in Python. Distributed applications allow one to improve resiliency and performance, although this can come at the cost of increased complexity. The trick is to apply a distributed application framework in situations where that complexity is less significant than the benefits it provides.</p>\n<p>Of the two systems I will be covering, Celery is by far the better known and more mature, with version 0.1.0 having been released in 2009. Celery is currently at version 3.1.23 and has come a long way in that time. Today it provides a stable and mature distributed task queue with a focus on real-time execution although it is also capable of cron-like scheduled operations. Celery is extremely flexible and configurable, although this comes at the cost of some complexity. Thankfully the documentation is rock solid and the community large.</p>\n<p>Crossbar is a newer project that was first released in 2013. Compared to Celery it's less well known, has a smaller community and the documentation is definitely lacking in terms of quality and robustness. Despite these flaws Crossbar is a very exciting project that is very pleasant to work with once you've gotten past the initial learning curve.  While Celery provides a distributed task queue, Crossbar functions as a WAMP router. WAMP is a routed messaging protocol built on WebSockets that provides RPC and PubSub. As such it targets a slightly different space from Celery. That said, there is enough overlap for discussion.</p>\n<p>Picking a distributed application framework can be tricky as there are a variety of options available. My aim with this talk is to compare and contrast two specific frameworks that I have some experience with, illustrating their similarities, differences, strengths and weaknesses. I will cover some basic examples for each framework and hopefully provide the audience with a better idea of why they might choose to use one or the other (or even both!).</p>\n<p>There is no specific audience focus for this talk as I imagine distributed applications can be of benefit to many different use-cases. With that said, my background is in web development and hence my discussion of the two frameworks in question will probably draw on that experience. Regardless, I think that anyone with an interest in distributed applications could benefit from this talk.</p>",
+  "duration": 2150,
+  "recorded": "2016-10-07",
+  "related_urls": [
+    "https://za.pycon.org/talks/15/"
+  ],
+  "speakers": [
+    "Adam Jorgensen"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WijEe0Vkj3Y/hqdefault.jpg",
+  "title": "Distributed Applications in Python: Celery vs Crossbar",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "http://youtu.be/WijEe0Vkj3Y"
+    },
+    {
+      "type": "archive",
+      "url": "https://archive.org/details/pyconza2016-Distributed_Applications_in_Python_Celery_vs_Crossbar"
+    }
+  ]
+}

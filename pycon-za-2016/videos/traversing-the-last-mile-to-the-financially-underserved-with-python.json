@@ -1,0 +1,24 @@
+{
+  "description": "<p>For the typical mobile data environment  for smart phones there are many tools and frameworks available.  However, Jumo's customer base typically doesn't have access to data or sophisticated smart phones.  Instead, the customer journey is implemented using USSD with out-of-band communications by SMS.  Building a USSD framework to run as part of our application rather than having to add the operational complexity of another service was an obvious solution.  Python was a great fit for this work.  </p>\n<p>This talk will be a developer\u2019s look at how Jumo implemented a highly flexible USSD/SMS system with Python, built tools within our system to manage the complexity of multiple products in multiple markets and scaled up the system to many tens of thousands of transactions per day.  We will focus on how Python\u2019s strengths fit well with the needs of text-based mobile messaging, what techniques are used to build it for scale, and how tooling was constructed to deal with the complexity of multiple user journeys.</p>",
+  "duration": 2454,
+  "recorded": "2016-10-07",
+  "related_urls": [
+    "https://za.pycon.org/talks/41/"
+  ],
+  "speakers": [
+    "Ted Pietrzak",
+    " Sam Kitonyi"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/b9EyiF-ub5Y/hqdefault.jpg",
+  "title": "Traversing the last mile to the financially underserved with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "http://youtu.be/b9EyiF-ub5Y"
+    },
+    {
+      "type": "archive",
+      "url": "https://archive.org/details/pyconza2016-Traversing_the_last_mile_to_the_financially_underserved_with_Python"
+    }
+  ]
+}
