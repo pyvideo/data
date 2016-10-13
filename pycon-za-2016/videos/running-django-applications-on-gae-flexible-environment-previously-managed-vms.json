@@ -2,6 +2,9 @@
   "description": "<p>Google App Engine was made Generally Available in 2011 and supported Python, Go and Java runtimes. From that time , we have seen many popular Python web applications deployed on Google App Engine\u2019s Standard Environment. Even with the awesomeness of App Engine, Pythonistas felt limited by what the standard environment offered.  </p>\n<p>App Engine Flexible Environment (Previously called Managed VM\u2019s) solved the pain points that developers encountered: It allows developers to customize their Python runtime and even the underlying operating system using Dockerfiles. App Engine automatically scales your web app and offers automatic load balancing. </p>\n<p>This talk will explore how to implement microservices, authorization, SQL and noSQL databases, traffic splitting, logging, full text search, versioning, security scanning, memcache, and content delivery networks using App Engine Flexible Environment. This will be shown in practice through the deployment of a Python/Django Application on the App Engine Flexible Environment.</p>",
   "duration": 2216,
   "recorded": "2016-10-06",
+  "related_urls": [
+    "https://za.pycon.org/talks/29/"
+  ],
   "speakers": [
     "Kenneth Kinyanjui",
     " James Mwai"
@@ -12,6 +15,10 @@
     {
       "type": "youtube",
       "url": "http://youtu.be/12MZVxDYQes"
+    },
+    {
+      "type": "archive",
+      "url": "https://archive.org/details/pyconza2016-Running_Django_Applications_on_GAE_Flexible_EnvironmentPreviously_Managed_VMs"
     }
   ]
 }
