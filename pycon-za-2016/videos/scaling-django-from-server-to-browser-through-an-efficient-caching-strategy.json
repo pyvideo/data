@@ -1,5 +1,5 @@
 {
-  "description": "<p>At Praekelt we're responsible for high traffic sites built in Django. An efficient caching strategy is required to minimize server load and in this talk we illustrate the techniques we use to serve Telkom's web site.</p>\n<p>The talk assumes basic Django knowledge.</p>\n<p>We will touch on:</p>\n<ol>\n<li>Volatile caching with memcached as backend.</li>\n<li>Template fragment caching.</li>\n<li>View caching.</li>\n<li>HTTP caching headers and how they affect Nginx and browsers.</li>\n<li>Automated cache invalidation.</li>\n<li>Automated Nginx reverse cache purging.</li>\n</ol>",
+  "description": "At Praekelt we're responsible for high traffic sites built in Django. An\nefficient caching strategy is required to minimize server load and in\nthis talk we illustrate the techniques we use to serve Telkom's web\nsite.\n\nThe talk assumes basic Django knowledge.\n\nWe will touch on:\n\n#. Volatile caching with memcached as backend.\n#. Template fragment caching.\n#. View caching.\n#. HTTP caching headers and how they affect Nginx and browsers.\n#. Automated cache invalidation.\n#. Automated Nginx reverse cache purging.\n\n",
   "duration": 2393,
   "recorded": "2016-10-06",
   "related_urls": [
