@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "\ubc1c\ud45c\uc790: \uae40\uae30\ud55c( Ki-Hwan Kim )\n\uc2ac\ub77c\uc774\ub4dc: https://github.com/pythonkr/pyconapac-2016-files/raw/master/20160813-104-22-KimKihwan.pdf\n\nMy company has been developing a global atmospheric model since 2011. The global atmospheric model simulates the atmospheric flow on earth for a weather forecast. It requires huge computational resources. However, the model currently can not utilize the modern processors such as GPU, CPU and FPGA which are low-power and high-performance.\n\nThe model is all written by Fortran. The code lines without comments and blanks are 143878. However, the hotspot has only 5641 code lines. The percentage of the hotspot is about 4 %. I converted most of the model to Python. The hotspot was only converted to Fortran and CUDA-C. Therefore, the model is able to utilize both CPU and GPU.",
+  "duration": 1229,
+  "language": "eng",
+  "recorded": "2016-08-31",
+  "related_urls": [
+    "https://github.com/pythonkr/pyconapac-2016-files/raw/master/20160813-104-22-KimKihwan.pdf"
+  ],
+  "speakers": [
+    "TODO",
+    "enter_manually"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OzQ11WEIX4U/maxresdefault.jpg",
+  "title": "\uae40\uae30\ud55c : GPU Acceleration of a Global Atmospheric Model by Python combining with CUDA - PyCon APAC 2016",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OzQ11WEIX4U"
+    }
+  ]
+}
