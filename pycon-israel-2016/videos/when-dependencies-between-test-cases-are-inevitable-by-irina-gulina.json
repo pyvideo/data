@@ -1,16 +1,22 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "Slides available here: http://il.pycon.org/2016/static/sessions/irina-igulina.pdf",
+  "description": "You need to test your images on various instance types in the cloud, but which tools do you use? How to run dozens of thousands of test cases on hundreds of machines in the cloud in parallel? Is it OK to have dependencies between test cases to make this task less expensive? \n\nDva is an open source validation tool which is applicable to various images and instance types. Using your image, it will launch instances of different types in defined regions and will execute test cases in parallel. How? \n\nAll test cases are represented as a Directed Acyclic Graph structure \u2013 parents and children. Then these test cases are assigned to workers by a modified BFS algorithm that allows processing of sibling test cases in parallel. It includes test result processing tools such as a Bugzilla module to report bugs for you. 3rd-party test case modules are supported too. \n\nThis tool is used by Red Hat QE for RHEL image release sanity testing in EC2, however Fedora images and OpenStack cloud are supported too. To test a RHEL release, Dva launches hundreds of machines of various types in all EC2 regions and executes a set of nearly 70 test cases with dependencies on every machine in parallel. \n\nSource Code/Home page: https://github.com/RedHatQE/dva/ \n\nTopics: Open Source, Cloud, QA/QE, Automation, Python\n\nSlides available here: http://il.pycon.org/2016/static/sessions/irina-igulina.pdf",
   "duration": 1017,
   "language": "eng",
   "recorded": "2016-09-21",
   "related_urls": [
-    "http://il.pycon.org/2016/static/sessions/irina-igulina.pdf"
+    "http://il.pycon.org/2016/static/sessions/irina-igulina.pdf",
+    "https://github.com/RedHatQE/dva/"
   ],
   "speakers": [
     "Irina Gulina"
   ],
-  "tags": [],
+  "tags": [
+    "Open Source",
+    "Cloud",
+    "QA/QE",
+    "Automation"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/tEu624QSYYo/maxresdefault.jpg",
   "title": "When Dependencies between Test Cases are Inevitable",
   "videos": [

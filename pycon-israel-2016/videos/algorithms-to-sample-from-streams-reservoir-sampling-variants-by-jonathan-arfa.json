@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "Slides available here: http://il.pycon.org/2016/static/sessions/jonathan-arfa.pdf",
+  "description": "Those of us who build systems that deal with constant streams of incoming data (which includes anybody whose code touches the internet) often need algorithms that keep a fixed-size sample from the stream for on-the-fly analytics. Reservoir sampling is a commonly used algorithm for keeping a sample that's unbiased over all events in the stream. But what if you want your algorithm to keep a representative sample from the past 10 minutes instead of the entire stream? In this talk I'll start with a gentle introduction to Reservoir sampling for those who are not familiar with it, and then discuss several variants which keep a sample that is biased towards the present. One of these is the VIRB (Variable Incoming Rate Biased) sampler, which we have developed in-house at Magnetic. This talk covers the same material as this blog post: http://tech.magnetic.com/2016/04/virbs-sampling-events-from-streams.html\n\nSlides available here: http://il.pycon.org/2016/static/sessions/jonathan-arfa.pdf",
   "duration": 977,
   "language": "eng",
   "recorded": "2016-09-20",
