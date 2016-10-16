@@ -35,6 +35,7 @@ def edit_rest(file_, key):
 
     with open(file_, 'w') as fp:
         json.dump(data, fp, **JSON_FORMAT_KWARGS)
+        fp.write("\n")
 
 
 def main():
