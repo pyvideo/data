@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Description: \n\nWant to know what makes CPython interpreter's engine tick? \n\nHow about modifying Python's bytecode or maybe modifying it live in another running Python process? \n\nAbstract: \n\nIn this talk we will go into what is in a Python .pyc file and how CPython executes that bytecode (mainly by looking at the code object). Afterwards we will talk about how to make simple modifications to the bytecode in order to insert hook points into preexisting code. We will see how we can use pyrasite for inspecting and modifying an already running Python process (useful for debugging long-running servers or detecting memory leaks). Finally, we will survey some more generic Python bytecode modifiers and code injectors. \n\nBonus points: \n\n- How can CPython 2 (but not 3) can create valid yet unusable or wrong .pyc files from .py files? The talk will be based mainly on CPython 2.7.\n\n  1) `bytehook <https://github.com/tzickel/bytehook>`__\n  2) `pyrasite <https://github.com/lmacken/pyrasite>`__   \n  3) `codetransformer <https://github.com/llllllllll/codetransformer>`__  \n  4) `PTVS code injector <https://github.com/Microsoft/PTVS/blob/0a3d9d17008e8d9b8fe2cb40c6c501f13861ccdb/Python/Product/PyDebugAttach/PyDebugAttach.cpp>`__   \n  5) that 20 years unclosed `python 2 bug <https: //bugs.python.org/issue25083>`__ mentioned in the bonus points: )  + another timing quirk not documented.\n\nSlides available here:\nhttp://il.pycon.org/2016/static/sessions/tom-zickel.pdf\nand here:\nhttp://tom.zickel.org/pyconil-2016",
+  "duration": 1092,
+  "language": "eng",
+  "recorded": "2016-09-20",
+  "related_urls": [
+    "http://tom.zickel.org/pyconil-2016",
+    "http://il.pycon.org/2016/static/sessions/tom-zickel.pdf"
+  ],
+  "speakers": [
+    "Tom Zickel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/J7E6hKCGh4k/maxresdefault.jpg",
+  "title": "CPython byte-code and code-injection",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=J7E6hKCGh4k"
+    }
+  ]
+}
