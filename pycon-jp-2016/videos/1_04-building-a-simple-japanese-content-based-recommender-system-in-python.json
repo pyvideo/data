@@ -1,13 +1,14 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Online stores such as Amazon but also news/blogs websites suffer from information overload. Customers can easily get lost in their large variety (millions) of products or articles. Recommendation engines help users narrow down the large variety by presenting possible suggestions. In this talk, I will show how to create a simple Japanese content-based recommendation system in Python for blog posts.\n\nAbstract\n\n\nWikipedia states recommendation systems have become extremely common in recent years and are utilized in a variety of areas: some popular applications include movies, music, news, books, research articles, search queries, social tags, and products in general.\n\nContent-based recommendation engines typically produce a list of recommendations in one of two ways \u2013 through collaborative or content-based filtering. Collaborative filtering approaches building a model from a user's past behavior (items previously purchased or selected and/or numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in. Content-based filtering approaches utilize a series of discrete characteristics of an item in order to recommend additional items with similar properties.\n\nThis current talk will focus on building a simple Japanese content-based recommendation engine.\n\nTo abstract the features of the items in the system, an item presentation algorithm is applied. A widely used algorithm is the TF\u2013IDF representation (also called vector space representation). It assumes that words in the sentence are separated by spaces in spite of that the assumption is not true in most east Asian languages. MeCab, a fast Japanese morphological analyzer, helps us to solve this problem by extracting from the document all the unique tokens constituting the markup and allow us to apply a TF\u2013IDF on top of them.\n\nTo create suggestions based on these keywords, we use Word2Vec which is an unsupervised algorithm for learning the meaning behind words. Word2vec takes an input as a large corpus of text and produces a high-dimensional space (typically of several hundred dimensions), with each unique word in the corpus being assigned a corresponding vector in the space. By computing vectors of our keywords and computing distances between them, we can find similar words and suggest articles which contain them.",
   "duration": 2523,
   "language": "jpn",
   "recorded": "2016-09-20",
-  "related_urls": [],
+  "related_urls": [
+    "https://speakerdeck.com/charlesvdulac/building-a-simple-japanese-content-based-recommender-system-in-python"
+  ],
   "speakers": [
-    "TODO",
-    "enter_manually"
+    "Charles Vallantin Dulac"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/-xVeMQXMEcg/maxresdefault.jpg",

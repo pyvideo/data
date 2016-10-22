@@ -1,13 +1,14 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "When working on a data project, you will be often be facing messy input files with lots of missing or ill formatted values. Data providers may update manually, making the data source even more error prone. Once you geed the data to a data visualization or a dashboard, this will create many issues. I will show how to create a data preparation pipeline using with Pandas running on AWS Lambda.\n\nAbstract\n\nIn the talk, I will first review typical cases where a data scientist or data application developper may be faced with dirty data in unpractical formats (think excel files). I will in particular discuss my experience building data visualization in a data journalism environment here data is gathered and updated manually.\n\nI will present alternative tools that are available on the market (Talend Dataprep, Trifacta wrangler for example), and explain why you may want to roll out your own solution. Then we will see how we can use python and pandas to clean the data, first by interacting with it in a jupyter notebook, then making it into a script.\n\nFinally, we will see how to streamline the preparation using AWS Lambda, in an example where will will automatically run our process whenever data is updated in a google spreadsheet, and uploading the clean dataset on AWS S3.",
   "duration": 1864,
-  "language": "jpn",
+  "language": "eng",
   "recorded": "2016-09-22",
-  "related_urls": [],
+  "related_urls": [
+    "http://www.slideshare.net/fabiandubois/pyconjp-building-a-data-preparation-pipeline-with-pandas-and-aws-lambda"
+  ],
   "speakers": [
-    "TODO",
-    "enter_manually"
+    "Fabian Dubois"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/pc0Xn0uAm34/maxresdefault.jpg",
