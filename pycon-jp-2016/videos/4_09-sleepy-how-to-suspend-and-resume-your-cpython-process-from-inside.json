@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "In this talk we'll propose and explain how it is possible suspend & resume a python process execution from within python using no external-help. Pure-python-ffi-free code. This kind of tool is useful with the proliferation of cloud serv since they offer restricted execution env in terms of time/mem and process relocation/prio is required. Besides we\u2019ll get unexpected debugger improvements.\n\nDetailed Abstract\n--------------------\n\nPeople will be introduced to a simple case of what continuations are, i.e.: suspending a whole python process and resuming it from where it was saved.\n\nWe'll present some scenarios where it would be useful:\n\n-    restricted time execution environments\n-    distributed computing farms\n-    tasks would become dynamic, meaning they could be switched from one host to another at the user's will -run- time code problems evaluation by code re-execution, etc.\n\nA comparison to different alternatives will be shown:\n\n-    other languages features\n-    operating system provided features\n\nWe'll present a method to persist execution state and then explain how to restore it. To do that, we use python's debugger in order to restore the state.\n\nSome problems arise in that process such as:\n\n-    how to persist and restore objects created in C\n-    how to restore process execution using debugger's functions\n\nTo persist and restore objects created in C, I created python wrappers which would replicate C-created objects and expose their own methods and instance variables.\n\nTo restore a process execution in a given point, we use the python debugger. With it, is possible to start the code in a programmatic way instrumenting to jump directly into the function call belonging to frames present in saved call-stack.\n\nThe main problem here lies in the fact that the debugger is not powerful enough to jump from any function entrypoint into arbitrary points inside the funcion, i.e.: you can\u2019t jump inside a block of code!\n\nFor that, I present 3 different approaches to workaround that:\n\n-    block-unrolling : ie: pasting and compiling block\u2019s code in the same place it is located and also, after function end, in an unrolled way (check added block1 after return) :\n\n    .. code:: python\n\n        for something in some_iterator: \n            block1 \n        return \n        block1\n\n-    the alternative is to replace the expressions which control loops with assisted functions, like:\n\n    .. code:: python\n\n        for something in my_library_controlled_iterator(original_iterator):\n            block1 \n        return\n\n-    letting us control the debugger and execute the loop instructions (returning controlled value from the assisted function iterator), and then jump again to call the function for the next frame in the call-stack.\n\n-    it is possible to rewrite python\u2019s byte-code to have no block byte-codes. This is the method I chose for my implementation, and I will explain how the bytecode will be rewritten for each control structure found.\n\nAfter that, major problems are solved and we have a working prototype.",
+  "duration": 2603,
+  "language": "eng",
+  "recorded": "2016-09-22",
+  "related_urls": [
+    "https://speakerdeck.com/tenuki/sleepy-how-to-suspend-and-resume-your-cpython-process-from-inside"
+  ],
+  "speakers": [
+    "David Weil"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yb1CWDeWCXA/maxresdefault.jpg",
+  "title": "Sleepy: How to suspend and resume your cpython process from inside",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yb1CWDeWCXA"
+    }
+  ]
+}
