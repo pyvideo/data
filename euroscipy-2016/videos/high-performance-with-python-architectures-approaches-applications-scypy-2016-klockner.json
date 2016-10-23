@@ -1,6 +1,6 @@
 {
   "description": "Data-parallel programming plays a significant role in HPC, for the\nnumerous applications that can leverage it and for the many parallel architectures that provide high performance for it. Literally, high performance computing means measuring, understanding, and improving performance as part of a scientific process, in which Python can be immensely helpful.  Two key ingredients for this are just-in-time compilation, which enables run-time code generation, and transformation-based programming. After briefly exploring available programming models and abstractions, I will introduce and demonstrate PyOpenCL and Loopy, two complementary tools that help with all parts of this process. Unlocking good performance means experimenting with different algorithms, data layouts, approaches to parallelization. Conventionally, each of these requires a near-rewrite of the code under consideration. Loopy, by being based on transformations, entirely avoids this problem. Moreover, it separates application concerns from performance concerns, allowing the mathematical objective and its performant implementation to be expressed cleanly and separately. I will close with some examples that demonstrate the effectiveness of the approach.\nSee the complete SciPy 2016 Conference talk & tutorial playlist here: https://www.youtube.com/playlist?list=PLYx7XA2nY5Gf37zYZMw6OqGFRPjB1jCy6",
-  "recorded": "",
+  "recorded": "2016-08-23",
   "speakers": [
     "Klockner"
   ],
