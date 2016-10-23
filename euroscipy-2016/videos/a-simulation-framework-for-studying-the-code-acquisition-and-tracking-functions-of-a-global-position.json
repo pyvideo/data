@@ -1,0 +1,13 @@
+{
+  "description": "In this talk a Python-based simulation framework is described that implements the waveform level signal processing needed to acquire and track the ranging signal of a global positioning system (GPS) satellite. This framework was developed Fall 2015 as an end-of-semester project for a digital signal processing course taken by electrical engineers. By design, GPS signals lie on top of one another, but are separable by virtue of a unique code and nearly orthogonal code assigned to each satellite. The key to position determination is the time difference of arrival (TDOA) of each of the satellite signals at the user receiver. A high precision clock maintains timing accuracy among the satellites. One of the most important tasks of the user receiver is to acquire and track the ranging code of three or more satellites in view at a given time. The framework allows the user to first explore a receiver for a single satellite signal. Object oriented Python then makes it easy to extend the receiver to processing multiple satellite signals in parallel. The source of signals used in the framework is either simulation or a low-cost (~$20) software defined radio dongle known as the RTL-SDR. With the RTL-SDR signals are captured from a GPS patch antenna, fed to the RTL-SDR, and then via USB captured into Python as a complex ndarray. The computer simulation project that utilizes the framework has the students performing a variety of simulation tasks, start from a single channel receiver building up to a four channel receiver with signal impairments present. As developed Fall 2015 the project utilizing this framework is entirely computer simulation based, but the ability to use real signals captured from the RTL-SDR, opens additional capability options. Making use of these signals is non-trival, as additional signal processing is needed to estimate the Doppler frequency error and if the data bits are to be recovered, the L1 signal carrier phase needs to be tracked.",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/D7_dSSEAiq8/hqdefault.jpg",
+  "title": "A Simulation Framework for Studying the Code Acquisition and Tracking Functions of a Global Position",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=D7_dSSEAiq8"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Combustion simulations require detailed chemical kinetic models to predict fuel oxidation, heat release, and pollutant emissions.\n\nThese models are typically validated using qualitative rather than quantitative comparisons with limited sets of experimental data. \n\nThis work introduces PyTeCK, an open-source Python-based package for automatic testing of chemical kinetic models. Given a model of interest, PyTeCK automatically parses experimental datasets encoded in an XML format, validates the self-consistency of each dataset, and performs simulations for each experimental datapoint. It then reports a quantitative metric of the model's performance, based on the discrepancy between experimental and simulated values and weighted by experimental variance. The initial version of PyTeCK supports shock tube and rapid compression machine experiments that measure autoignition delay. PyTeCK relies on several packages in the SciPy stack and greater scientific Python ecosystem. In addition to providing an easy-to-use, automated tool for evaluating chemical kinetic model performance, a secondary objective of PyTeCK is to encourage greater openness and reproducibility in combustion research.",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Ke3Ip25C4pY/hqdefault.jpg",
+  "title": "PyTeCK: A Python-based automatic testing package for chemical kinetic models | SciPy 2016 | Kyle Nie",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ke3Ip25C4pY"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Jupyter notebooks are JSON documents containing a combination of code, prose, and output. These outputs may be rich media, such as HTML or images. The use of JSON and including output can present challenges when working with version control systems and code review. The JSON structure significantly impedes the readability of diffs, and simple line-based merge tools can produce invalid results. nbdime aims to provide diff and merge tools specifically for notebooks. For diffs, nbdime will show rendered diffs of notebooks, so that the content can be compared efficiently, rather than the raw JSON. Merges performed with nbdime will guarantee a valid notebook as a result, even in the event of conflicts. nbdime integrates with existing tools, such as git, so you shouldn't need to change how you work. We hope to make the experience of collaborating on notebooks less painful and more fun.",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/tKAmwC8ay8E/hqdefault.jpg",
+  "title": "Diffing and Merging Jupyter Notebooks with nbdime | SciPy 2016 | Min Ragan Kelley",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tKAmwC8ay8E"
+    }
+  ]
+}
