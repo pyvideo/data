@@ -1,0 +1,15 @@
+{
+  "description": "Come join us by the fire as we have Security Story Time with our friends, Frog and Toad. With them, you'll learn about all the things Django does to protect users and developers out of the box. We'll look at simplified code samples from the Django codebase to see what's happening under the hood, and cover how to make the Django security model even stronger in your application\n\u200b\nAbstract\nIntroduction to the story, and the characters. Safe-ish: Talk about Django\u2019s Security Model and how it tries to provide sane defaults for developers\n\nRun-through of the parts of the django security model:\n\n* XSS (brief definition). How do you turn it off? Mark Safe, | n, safe\n* CSRF (brief definition). Django has middleware that checks POST requests for a token. Token is stored in cookie, also. Side-effect: harder to JS. Also, only an issue if you\u2019re already owned, so maybe not an issue?. How to get around it? csrf_exempt\n* SQLi (brief definition). Django\u2019s ORM makes clean sql, (even when given bad data?). How? How to get around it: extra()/RawSQL()\n* Clickjacking protection (brief definition). Django has middleware that sets headers browsers are supposed to respect. How to get around it: xframe_options_exempt, xframe_options_deny, xframe_options_sameorigin\n* HTTPS. This one is less \"out of the box\" than the others, so won\u2019t be talked about here.\n* Host Header Validation (brief definition). Django verifies against allowed hosts in settings. How? get_host()\n* Session security. What are django sessions?. Cookie-based by design. How can we make this better?\n* Overall: Vigilance. Be aware of uses of this within your product\n* HTTPS: Use it!. Set the correct settings. SECURE_SSL_REDIRECT: How does it work?\n\n**Bio:**\nPhilip is a Senior Software Engineer at Eventbrite. In his spare time, he writes novels, makes twitter bots, and gives technical talks. He used to run a webcomic, but there's just no money in it, you know? Philip is a refugee from the video games industry, and wishes anyone still there the best of luck. Philip has spoken at conferences about Python, Django, Node.js, and Linux. Philip believes in the web.\n\nhttps://speakerdeck.com/pybay2016/philip-james-safe-ish-by-default-the-django-security-model-and-how-to-make-it-better-security-intermediate",
+  "recorded": "2016-08-21",
+  "speakers": [
+    "Philip James"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/egXUKENoJA0/hqdefault.jpg",
+  "title": "Safe-ish By Default",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=egXUKENoJA0"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Moving data through transformations and from one place to another is a big part of data science/eng. We\u2019ve been using Airflow for several months at Clover Health and have learned a lot about its strengths and weaknesses. We will use this talk to give a practical introduction to Airflow that gives people the information they need to decide whether Airflow is right for them and how to get started.\n\u200b\nAbstract\nAirflow is a popular pipeline orchestration tool for Python that allows users to configure complex (or simple!) multi-system workflows that are executed in parallel across any number of workers. A single pipeline might contain bash, Python, and SQL operations. With dependencies specified between tasks, Airflow knows which ones it can run in parallel and which ones must run after others. Airflow is written in Python and users can add their own operators with custom functionality, doing anything Python can do.\n\nAt Clover Health, we\u2019ve been pushing Airflow\u2019s limits, digging into the source code, and contributing patches upstream. In this talk, we\u2019ll cover the basics of Airflow so you can use what we\u2019ve learned to start your Airflow journey on the right foot. This talk aims to answer questions such as: What is Airflow useful for? How do I get started? What do I need to know that\u2019s not in the docs?\n\n**Bio:** \nI have been a scientific Python developer since 2008. I\u2019ve worked in atmospheric science, astronomy, urban planning, web applications, and healthcare. I maintain several open source Python libraries and am currently a data engineer at Clover Health.\n\nhttps://speakerdeck.com/pybay2016/matt-davis-a-practical-introduction-to-airflow",
+  "recorded": "2016-08-20",
+  "speakers": [
+    "Matt Davis"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/4iDjegukrkI/hqdefault.jpg",
+  "title": "A Practical Introduction to Airflow",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4iDjegukrkI"
+    }
+  ]
+}
