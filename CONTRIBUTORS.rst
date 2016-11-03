@@ -11,3 +11,4 @@ Credits
 * David Baumgold
 * Horst Gutmann
 * Adam Gibson
+* Michael Kennedy
