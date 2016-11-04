@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "WADE is a distributed database framework providing strong consistency and high throughput using chain replication, in lieu of the traditional primary/backup model. Quite unlike traditional databases, WADE is a framework. Programmers implement the storage interface themselves and write custom query or update functions in Python that are executed by the database avoiding the dreaded read-write update cycle that degrades performance. Since the storage layer is implemented by the programmer it can be hand customized to the use case at hand using tools such as LevelDB, RocksDB, or whatever the programmer desires. However, WADE takes control at the networking layer handling replication, message forwarding amongst nodes, and fault tolerance in the event of failure so long as a few simple functions are implemented by the end user.",
+  "duration": 2737,
+  "language": "eng",
+  "recorded": "2016-07-16",
+  "related_urls": [
+    "https://2016.pygotham.org/talks/339/we-re-all-database-engine/"
+  ],
+  "speakers": [
+    "Adrian Kramer"
+  ],
+  "tags": [
+    "database"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8cR1lSdic0Q/maxresdefault.jpg",
+  "title": "We're All Database Engineers (WADE)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8cR1lSdic0Q"
+    }
+  ]
+}
