@@ -2,6 +2,7 @@ import argparse
 import copy
 import json
 import os
+import re
 import sys
 sys.path.insert(0, '.')
 import time
@@ -17,7 +18,12 @@ from tools.utils import slugify
 ENV_VAR_API_KEY = 'GOOGLE_API_KEY'
 
 YOUTUBE_VIDEO_TEMPLATE = 'https://www.youtube.com/watch?v={}'.format
+YOUTUBE_THUMBNAIL_URL_TEMPLATE = 'https://i.ytimg.com/vi/{}/maxresdefault.jpg'.format
 
+URL_PATTERNS = {
+    re.compile(r'https://www.youtube.com/watch\?v=(\S*)'),
+    re.compile(r'http://youtu.be/(\S*)'),
+}
 
 class UrlStub:
     def __init__(self, stub, default_query_parts):
@@ -147,6 +153,42 @@ def get_api_key(api_key):
     return api_key
 
 
+def parse_video_id(video_url):
+    for pattern in URL_PATTERNS:
+        match = pattern.match(video_url)
+        if match:
+            return match.group(1)
+
+
+def normalize(path):
+    videos_dir_path = os.path.join(path, 'videos')
+    video_files = os.listdir(videos_dir_path)
+
+    for video_file in video_files:
+        video_file_path = os.path.join(videos_dir_path, video_file)
+        with open(video_file_path) as fp:
+            data = json.load(fp)
+
+        # -- Normalize Data --
+        # Get video id
+        for video_obj in data['videos']:
+            video_url = video_obj.get('url')
+            if not video_url:
+                continue
+
+            video_id = parse_video_id(video_url)
+            if video_id:
+                break
+
+        # Insert thumbnail url if video does not have one
+        if video_id and 'thumbnail_url' not in data:
+            data['thumbnail_url'] = YOUTUBE_THUMBNAIL_URL_TEMPLATE(video_id)
+
+        with open(video_file_path, 'w') as fp:
+            json.dump(data, fp, **JSON_FORMAT_KWARGS)
+        print('.', end='', flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -154,16 +196,23 @@ def main():
         help='Can also be specified via the environment variable GOOGLE_API_KEY'
     )
     parser.add_argument('-l', '--list')
+    parser.add_argument(
+        '-p', '--path',
+        help='Path to event to normalize.'
+    )
 
     args = parser.parse_args()
 
-    api_key = get_api_key(args.api_key)
-    if not api_key:
-        parser.print_help()
-        sys.exit(0)
-
     if args.list:
+        api_key = get_api_key(args.api_key)
+        if not api_key:
+            parser.print_help()
+            sys.exit(0)
+
         fetch_list(api_key, args.list)
+
+    elif args.path:
+        normalize(args.path)
 
     else:
         parser.print_help()
