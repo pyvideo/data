@@ -24,8 +24,10 @@ Contribution guide: `CONTRIBUTING.rst <https://github.com/pyvideo/data/blob/mast
 
 **Contributors**
 
-List of contributors: `CONTRIBUTORS.rst <https://github.com/pyvideo/data/blob/master/CONTRIBUTORS.rst>`_
-Thanks everybody in this list!
+Find our contributors here: https://github.com/pyvideo/data/graphs/contributors and here: 
+`CONTRIBUTORS_WITHOUT_COMMITS.rst <https://github.com/pyvideo/data/blob/master/CONTRIBUTORS_WITHOUT_COMMITS.rst>`_
+
+Thanks everybody in these lists!
 
 **Copying**
 

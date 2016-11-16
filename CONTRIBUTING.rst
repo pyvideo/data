@@ -199,7 +199,6 @@ pyvideo's collection, take the following steps:
 #. Fork this repo if you haven't already.
 #. Clone from your forked repo.
 #. Add your category directory (containing the JSON files) into the root of the repo.
-#. Add yourself as a contributor in the `CONTRIBUTORS.rst <https://github.com/pyvideo/data/blob/master/CONTRIBUTORS.rst>`_ file.
 #. Commit your changes and push them up to your fork.
 #. Issue a Pull Request of your changes to this repo.
 
