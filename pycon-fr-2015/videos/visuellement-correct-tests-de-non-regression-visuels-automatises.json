@@ -1,0 +1,26 @@
+{
+  "description": "Apr\u00e8s avoir \u00e9crit des tests unitaires pour les parties m\u00e9tier de notre\ncode, nous avons souhait\u00e9 ajouter un autre niveau de v\u00e9rifications\nautomatis\u00e9es : les tests de diff\u00e9rences visuelles. Ce vieux r\u00eave des\nd\u00e9veloppeurs web consiste \u00e0 comparer visuellement les pages web d'une\nsource reconnue comme fiable (baseline) avec la version que l'on\ns'appr\u00eate \u00e0 d\u00e9ployer. Il est ainsi possible de v\u00e9rifier l'impact des\nnouvelles fonctionnalit\u00e9s sur une nouvelle version, s'assurer de la non\nr\u00e9gression, et une fois l'impact visuel \u00e9ventuel accept\u00e9, \u00e9tablir une\nnouvelle baseline pour non r\u00e9gression future. Cette pr\u00e9sentation d\u00e9crit\ndes cas concrets dans lesquels ces types de v\u00e9rifications pr\u00e9sentent de\nl\u2019int\u00e9r\u00eat. Nous verrons ensuite l\u2019architecture et le workflow que nous\navons adopt\u00e9s afin de relever le d\u00e9fi, \u00e0 l\u2019aide d\u2019une librairie python\nnomm\u00e9e dpxdt d\u00e9velopp\u00e9e chez Google. Nous terminerons par un retour\nd\u2019exp\u00e9rience sur les interactions avec notre syst\u00e8me d\u2019int\u00e9gration\ncontinue, des pistes d'am\u00e9lioration, et les limites du proc\u00e9d\u00e9.\n",
+  "duration": 1536,
+  "language": "fra",
+  "recorded": "2015-10-18",
+  "speakers": [
+    "Yann Gravrand"
+  ],
+  "summary": "Les tests de diff\u00e9rences visuelles constituent un moyen efficace pour se\npr\u00e9munir des r\u00e9gressions au sein des applications web. Cette\npr\u00e9sentation d\u00e9crit les types d\u2019application pour lesquelles ces tests\npr\u00e9sentent de l\u2019int\u00e9r\u00eat, les outils que nous avons adopt\u00e9s, et des\nretours d\u2019exp\u00e9rience sur les avantages et inconv\u00e9nients de ces outils.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/119%20-%20Yann%20Gravrand%20-%20Visuellement%20correct%20-%20tests%20de%20non%20r%C3%A9gression%20visuels%20automatis%C3%A9s.mp4.jpg",
+  "title": "Visuellement correct - tests de non r\u00e9gression visuels automatis\u00e9s",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/119%20-%20Yann%20Gravrand%20-%20Visuellement%20correct%20-%20tests%20de%20non%20r%C3%A9gression%20visuels%20automatis%C3%A9s.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/119%20-%20Yann%20Gravrand%20-%20Visuellement%20correct%20-%20tests%20de%20non%20r%C3%A9gression%20visuels%20automatis%C3%A9s.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/119%20-%20Yann%20Gravrand%20-%20Visuellement%20correct%20-%20tests%20de%20non%20r%C3%A9gression%20visuels%20automatis%C3%A9s.webm"
+    }
+  ]
+}

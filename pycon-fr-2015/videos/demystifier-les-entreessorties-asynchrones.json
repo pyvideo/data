@@ -1,0 +1,26 @@
+{
+  "description": "Programmation asynchrone, entr\u00e9es/sorties non-bloquantes, boucle\nd'\u00e9v\u00e9nements, beaucoup de d\u00e9veloppeurs ont rencontr\u00e9 ces expressions\nsans forc\u00e9ment savoir de quoi il s'agit concr\u00e8tement. Mis \u00e0 la mode par\nNode.js, les serveurs web asynchrones ont des caract\u00e9ristiques\nparticuli\u00e8res et ne viennent pas sans contraintes.\n\nDans cette pr\u00e9sentation, je commencerai par expliquer \u00e0 l'aide\nd'analogies en quoi consiste les entr\u00e9es/sorties asynchrones, quels\nprobl\u00e8mes elles peuvent r\u00e9soudre et quels probl\u00e8mes elles ne r\u00e9solvent\npas. Nous verrons ensuite quelques exemples d'utilisation simples puis\nnous \u00e9tudierons le fonctionnement interne d'une boucle d'\u00e9v\u00e9nements\nd'entr\u00e9es/sorties.\n\nLes bases \u00e9tant pos\u00e9es, nous explorerons alors les diff\u00e9rents styles de\nprogrammation possibles en nous basant sur des exemples plus avanc\u00e9s\nbas\u00e9s sur les frameworks `Tornado <http://www.tornadoweb.org/>`__ et\n`aiohttp <http://aiohttp.readthedocs.org/>`__, jusqu'\u00e0 pr\u00e9senter les\nnouveaux mot-cl\u00e9s\n`async/await <http://makina-corpus.com/blog/metier/2015/python-http-%20server-with-the-new-async-await-syntax>`__\nde Python 3.5. Chaque exemple sera accompagn\u00e9 d'une mesure de\nperformance mettant en \u00e9vidence l'impact de l'utilisation des\nentr\u00e9es/sorties asynchrones.\n\nPour illustrer les notions abord\u00e9es par des cas d'utilisation r\u00e9els, je\npr\u00e9senterais deux projets auxquels j'ai contribu\u00e9 dans le cadre de ma\nmission \u00e0 M\u00e9t\u00e9o France et qui utilisent les entr\u00e9es/sorties asynchrones\nde mani\u00e8re atypique : le gestionnaire de processus\n`Circus <http://circus.readthedocs.org/en/latest/>`__ et le proxy HTTP\n`THR <http://thr.readthedocs.org/en/latest/>`__.\n",
+  "duration": 2021,
+  "language": "fra",
+  "recorded": "2015-10-18",
+  "speakers": [
+    "Alex Marandon"
+  ],
+  "summary": "La programmation bas\u00e9e sur les entr\u00e9es/sorties asynchrones en Python :\ncas d'utilisations, fonctionnement interne, contraintes et styles de\nprogrammation.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/215%20-%20Alex%20Marandon%20-%20D%C3%A9mystifier%20les%20entr%C3%A9es-sorties%20asynchrones.mp4.jpg",
+  "title": "D\u00e9mystifier les entr\u00e9es/sorties asynchrones",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/215%20-%20Alex%20Marandon%20-%20D%C3%A9mystifier%20les%20entr%C3%A9es-sorties%20asynchrones.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/215%20-%20Alex%20Marandon%20-%20D%C3%A9mystifier%20les%20entr%C3%A9es-sorties%20asynchrones.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/215%20-%20Alex%20Marandon%20-%20D%C3%A9mystifier%20les%20entr%C3%A9es-sorties%20asynchrones.webm"
+    }
+  ]
+}

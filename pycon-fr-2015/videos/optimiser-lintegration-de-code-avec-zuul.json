@@ -1,0 +1,27 @@
+{
+  "description": "Les projets de grande \u00e9chelle comme OpenStack, int\u00e9grant plus d'une\ncentaine de contributions par jour en moyenne, ne pourraient aboutir\nsans un contr\u00f4le rigoureux de la qualit\u00e9 du code. C'est pourquoi l'une\ndes t\u00e2ches majeures des d\u00e9veloppeurs principaux (\"core devs\")\nd'OpenStack est de passer en revue les contributions (\"code review\")\npuis d'\u00e9ventuellement les valider pour int\u00e9gration au code source. Mais\ncomment g\u00e9rer un tel flux de contributions en un temps raisonnable ?\nComment \u00eatre certain qu'une contribution accept\u00e9e par un core dev ne va\npas avoir des effets de bord sur une autre contribution accept\u00e9e\nsimultan\u00e9ment par quelqu'un d'autre, ou sur un projet connexe ?\n\nLa communaut\u00e9 OpenStack utilise un outil cod\u00e9 en Python appel\u00e9 Zuul (en\nr\u00e9f\u00e9rence \u00e0 Ghostbusters) pour r\u00e9pondre \u00e0 ces probl\u00e9matiques, et\npermettre aux core devs de ne pas avoir \u00e0 consacrer 100% de leur\nactivit\u00e9 \u00e0 la revue de code. L'int\u00e9r\u00eat de Zuul est clair pour tout\nprojet, quel que soit son envergure, n\u00e9cessitant un contr\u00f4le rigoureux\npour l'int\u00e9gration et le d\u00e9ploiement continus. Nous pr\u00e9sentons donc ici\nles principales fonctionnalit\u00e9s de Zuul \u00e0 travers des cas d'usage\nsimples, et telles que nous les utilisons dans le projet `Software\nFactory <http://softwarefactory.enovance.com%20%22Software%20Factory%22>`__,\nune suite logicielle libre \"all in one\" de gestion de code, pouss\u00e9 par\nRed Hat.\n\nNous couvrirons les sujets suivants:\n\n-  Comment Zuul interagit avec Gerrit, le service de revue du code\n-  Que signifie la notion de \"pipelines\" dans Zuul, et comment les\n   utiliser\n-  Quelle strat\u00e9gie suit Zuul pour g\u00e9rer la queue des contributions \u00e0\n   tester ou \u00e0 int\u00e9grer\n-  Comment Zuul g\u00e8re les interd\u00e9pendances de projets\n-  Exemples de workflows de CI et CD facilit\u00e9s par Zuul\n",
+  "duration": 1582,
+  "language": "fra",
+  "recorded": "2015-10-17",
+  "speakers": [
+    "Matthieu Huin",
+    "Fabien Boucher"
+  ],
+  "summary": "Cette pr\u00e9sentation s'adresse \u00e0 tout d\u00e9veloppeur soucieux de la qualit\u00e9\ndu code, int\u00e9ress\u00e9 par les probl\u00e9matiques d'int\u00e9gration et de\nd\u00e9veloppement continus, et travaillant sur un projet comptant plus de 2\ncontributeurs. Elle se concentre sur Zuul, un syst\u00e8me de \"gating\" des\ncontributions \u00e0 un ensemble de projets.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/109%20-%20Matthieu%20Huin,%20Fabien%20Boucher%20-%20Optimiser%20l'int%C3%A9gration%20de%20code%20avec%20Zuul.mp4.jpg",
+  "title": "Optimiser l'int\u00e9gration de code avec Zuul",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/109%20-%20Matthieu%20Huin,%20Fabien%20Boucher%20-%20Optimiser%20l'int%C3%A9gration%20de%20code%20avec%20Zuul.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/109%20-%20Matthieu%20Huin,%20Fabien%20Boucher%20-%20Optimiser%20l'int%C3%A9gration%20de%20code%20avec%20Zuul.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/109%20-%20Matthieu%20Huin,%20Fabien%20Boucher%20-%20Optimiser%20l'int%C3%A9gration%20de%20code%20avec%20Zuul.webm"
+    }
+  ]
+}
