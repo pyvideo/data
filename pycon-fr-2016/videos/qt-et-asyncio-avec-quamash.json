@@ -1,0 +1,15 @@
+{
+  "description": "Asyncio est un mod\u00e8le asynchrone g\u00e9n\u00e9rique bas\u00e9 sur des event-loop. Il permet de s\u2019interfacer avec n\u2019importe quelle autre librairie proposant un m\u00e9canisme d\u2019event-loop.\nDans cette pr\u00e9sentation, on d\u00e9couvrira le potentiel de asyncio via la librairie Quamash (https://github.com/harvimt/quamash).\nQuamash est une petite librairie d\u00e9velopp\u00e9e par Mark Harviston et Arve Knudsen. Elle permet d'utiliser les mots cl\u00e9s \"async\" et \"await\" dans des applications Qt, mettant alors fin au Callback Hell des signaux/slots ! L\u2019int\u00e9gration de la boucle d\u2019\u00e9v\u00e8nement Qt dans asyncio permet aussi d\u2019utiliser toutes les autres librairies Asyncio dans Qt, telle que aiohttp.\nOn d\u00e9couvrira ensemble les possibilit\u00e9s de cette librairie. On commencera par une utilisation basique, puis  on analysera quelques d\u00e9corateurs utiles pour se simplifier la vie dans l'usage de Quamash. On m\u00e9langera ensuite Qt, asyncio, et aiohttp. Enfin, on regardera comment d\u00e9velopper des tests fonctionnels bas\u00e9s sur QTest et Asyncio. Le tout agr\u00e9ment\u00e9 de questions/r\u00e9ponses...\n",
+  "recorded": "2016-10-15",
+  "speakers": [
+    "inso"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/J0LvWvhfJMA/maxresdefault.jpg",
+  "title": "Qt et Asyncio avec Quamash",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=J0LvWvhfJMA"
+    }
+  ]
+}
