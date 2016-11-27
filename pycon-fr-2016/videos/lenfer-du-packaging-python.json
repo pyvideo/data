@@ -1,0 +1,15 @@
+{
+  "description": "Scaleway est un fournisseur de cloud computing qui expose plusieurs APIs pour permette aux clients de g\u00e9rer leurs infrastructures.\nLa plupart de la stack de Scaleway est en Python : APIs, workers qui managent le hardware, gestion de la facturation, divers scripts, ...\nTous ces projets ont besoin d'\u00eatre d\u00e9velopp\u00e9s, test\u00e9s et d\u00e9ploy\u00e9s. Le packaging Python fait donc partie int\u00e9grante du quotidien de la team Scaleway. Et pourtant, de nombreux probl\u00e8mes ont \u00e9t\u00e9 rencontr\u00e9s :\n* d\u00e9pendances cycliques mal g\u00e9r\u00e9es par setuptools\n* easy_install qui ne fonctionne pas (et ne devrait pas \u00eatre utilis\u00e9)\n* pip install -e : ne fonctionne pas (toujours) avec les namespace packages\n* dependency links : supprim\u00e9 puis r\u00e9introduit bien que deprecated, et pourtant souvent bien pratique\n* pyshop : permet d'avoir un repository local. Ne respecte pas la PEP 503, ne permet pas de g\u00e9rer les permissions, backend sqlite bancal\n* devpi : fonctionne tr\u00e8s bien, mais usine \u00e0 gaz (documentation aust\u00e8re et complexe)\n* virtualenv : --relocatable qui ne fonctionne pas, rendant plus complexe les d\u00e9ploiements\n",
+  "recorded": "2016-10-15",
+  "speakers": [
+    "Julien Castets"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_HFDIPElZxM/maxresdefault.jpg",
+  "title": "L'Enfer du packaging Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_HFDIPElZxM"
+    }
+  ]
+}
