@@ -1,0 +1,26 @@
+{
+  "description": "Les wheels sont un nouveau format `standard (PEP\n427) <http://legacy.python.org/dev/peps/pep-0427/>`__ de distribution de\npackage Python pour remplacer les eggs. Ils sont support\u00e9s par pip >=\n1.4 et setuptools >= 0.8. Le format wheel est officiellement recommand\u00e9\npour la distribution de projets Python sur PyPI.\n\nLe format wheel permet d\u2019acc\u00e9l\u00e9rer l'installation de paquets Python sur\ntoutes les plateformes. Les projets utilisant des extensions compil\u00e9es\nsont packag\u00e9s avec des wheel d\u00e9di\u00e9e \u00e0 une plateforme donn\u00e9e (par exemple\nWindows 32 bit) ce qui permet de les installer sans compilateur.\n\nEn tant que release manager pour le projet scikit-learn j'ai mis en\nplace une infrastructure d'int\u00e9gration continue qui g\u00e9n\u00e8re et teste des\npaquets wheel pour les plateformes Windows, OSX et Linux. Cette\ninfrastructure permet de supporter les versions r\u00e9centes de Python (2.6+\net 3.3+) sur des architecture 32 bit et 64 bit.\n\nLe but de cette pr\u00e9sentation est de partager cette exp\u00e9rience et les\noutils que j'ai d\u00e9velopper pour automatiser le fonctionnement de cette\ninfrastructure.\n\nCette pr\u00e9sentation sera un version actualis\u00e9e de la pr\u00e9sentation que\nj'ai donn\u00e9e \u00e0 PyCon 2015: https://www.youtube.com/watch?v=d-p6lJJObLU\n",
+  "duration": 1442,
+  "language": "fra",
+  "recorded": "2015-10-18",
+  "speakers": [
+    "Olivier Grisel"
+  ],
+  "summary": "Petit guide pratique pour construire et tester des paquets wheel pour\ntoutes les plateformes classique en utilisant des syst\u00e8mes d'int\u00e9gration\ncontinue gratuits tels que Travis CI (Linux et OSX) et AppVeyor\n(Windows).\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/020%20-%20Olivier%20Grisel%20-%20Construire%20et%20tester%20des%20wheels%20sous%20Linux,%20OSX%20et%20Windows.mp4.jpg",
+  "title": "Construire et tester des wheels sous Linux, OSX et Windows",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/020%20-%20Olivier%20Grisel%20-%20Construire%20et%20tester%20des%20wheels%20sous%20Linux,%20OSX%20et%20Windows.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/020%20-%20Olivier%20Grisel%20-%20Construire%20et%20tester%20des%20wheels%20sous%20Linux,%20OSX%20et%20Windows.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/020%20-%20Olivier%20Grisel%20-%20Construire%20et%20tester%20des%20wheels%20sous%20Linux,%20OSX%20et%20Windows.webm"
+    }
+  ]
+}

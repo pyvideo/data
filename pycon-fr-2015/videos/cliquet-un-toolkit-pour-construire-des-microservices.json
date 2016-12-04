@@ -1,0 +1,28 @@
+{
+  "description": "    Quelle structure JSON pour mon API ? Quelle syntaxe pour filtrer la\n    liste via la querystring ? Comment g\u00e9rer les \u00e9critures concurrentes\n    ? Et synchroniser les donn\u00e9es dans mon application cliente ?\n\nQuand nous d\u00e9veloppons un (micro)service Web, nous d\u00e9pensons\ng\u00e9n\u00e9ralement beaucoup d'\u00e9nergie dans la conception et la validation du\nprotocole HTTP, en particulier lorsqu'il s'agit d'un service qui\nmanipule des donn\u00e9es (*CRUD, offline first, pagination, ...*).\n\n    Comment pouvons-nous v\u00e9rifier que le service est op\u00e9rationnel ?\n    Quels indicateurs StatsD ? Est-ce que Sentry est bien configur\u00e9 ?\n    Comment mettre \u00e0 jour sans casser les applications clientes ?\n\nDe m\u00eame, nous passons beaucoup de temps (ou pire, nous ne le faisons pas\n!) \u00e0 mettre en place tout l'outillage pour g\u00e9rer et superviser la mise\nen production du service. Et si les bonnes pratiques \u00e9voluent, il faut\nfaire suivre les projets d\u00e9j\u00e0 en place.\n\nPlut\u00f4t qu'\u00e9crire un \u00e9ni\u00e8me article de blog avec nos recommandations,\nnous avons fait le choix de mettre au point un protocole, et d'en\nfournir une impl\u00e9mentation en Python.\n\n*Cliquet* est donc un kit de d\u00e9marrage, bas\u00e9 sur Pyramid, pour\nconstruire des (micro)services en se concentrant sur l'essentiel.\n",
+  "duration": 1778,
+  "language": "fra",
+  "recorded": "2015-10-17",
+  "speakers": [
+    "Mathieu Leplatre",
+    "Alexis M\u00e9taireau",
+    "R\u00e9my Hubscher"
+  ],
+  "summary": "Bas\u00e9 sur Pyramid, Cliquet est un projet qui permet de se concentrer sur\nl'essentiel lors de la conception d'APIs.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/013%20-%20Mathieu%20Leplatre,%20Alexis%20M%C3%A9taireau,%20R%C3%A9my%20Hubscher%20-%20Cliquet:%20un%20toolkit%20pour%20construire%20des%20(micro)services.mp4.jpg",
+  "title": " Cliquet: un toolkit pour construire des (micro)services",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/013%20-%20Mathieu%20Leplatre,%20Alexis%20M%C3%A9taireau,%20R%C3%A9my%20Hubscher%20-%20Cliquet:%20un%20toolkit%20pour%20construire%20des%20(micro)services.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/013%20-%20Mathieu%20Leplatre,%20Alexis%20M%C3%A9taireau,%20R%C3%A9my%20Hubscher%20-%20Cliquet:%20un%20toolkit%20pour%20construire%20des%20(micro)services.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/013%20-%20Mathieu%20Leplatre,%20Alexis%20M%C3%A9taireau,%20R%C3%A9my%20Hubscher%20-%20Cliquet:%20un%20toolkit%20pour%20construire%20des%20(micro)services.webm"
+    }
+  ]
+}

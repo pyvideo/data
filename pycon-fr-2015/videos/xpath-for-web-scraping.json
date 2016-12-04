@@ -1,0 +1,26 @@
+{
+  "description": "When you need to extract data from web pages, you usually parse HTML\ndocuments into a DOM tree and then use libraries like BeautifulSoup or\nthe ElementTree API to extract data from it. Some libraries also support\nXPath expressions which can express more complex traversal and search\npatterns.\n\nEverything about XPath 1.0 is defined in W3C lengthly specification but\nit can be obscure to read at first. The basics are quite simple to grasp\nthough, and this talk will go over the most useful syntax patterns you\nneed to get started.\n\nWhat we'll cover: - axes and how to look for specific tags, parent\nelement, children or siblings nodes - predicates and selecting nodes\nbased on attribute or content values - built-in string functions that\nyou should know about - EXSLT extensions supported by lxml and how they\ncan solve tricky lookups\n\nWe'll end the talk with a few handy tips: - how to use CSS selectors to\ndo some of the above - how to parse Javascript code with XPath\n",
+  "duration": 1741,
+  "language": "fra",
+  "recorded": "2015-10-17",
+  "speakers": [
+    "Paul TREMBERTH"
+  ],
+  "summary": "All you need to know about XPath 1.0 in a web scraping project: the\ndifferent axes, attribute matching, string functions, EXSLT extensions\nplus a few other handy patterns like CSS selectors and Javascript\nparsing.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/213%20-%20Paul%20TREMBERTH%20-%20XPath%20for%20web%20scraping.mp4.jpg",
+  "title": "XPath for web scraping",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/213%20-%20Paul%20TREMBERTH%20-%20XPath%20for%20web%20scraping.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/213%20-%20Paul%20TREMBERTH%20-%20XPath%20for%20web%20scraping.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/213%20-%20Paul%20TREMBERTH%20-%20XPath%20for%20web%20scraping.webm"
+    }
+  ]
+}

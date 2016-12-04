@@ -1,0 +1,26 @@
+{
+  "description": "Tox permet de lancer les tests d'un paquet Python dans des\nenvironnements virtuels. L'utilisation de ces derniers pose plusieurs\nprobl\u00e8mes:\n\n-  seuls les paquets disponibles sur PyPI sont g\u00e9r\u00e9s. Ainsi, il est\n   parfois n\u00e9cessaire d'utiliser le gestionnaire de paquets de sa\n   distribution pour installer des fichiers d'en-t\u00eate (on pense\n   notamment \u00e0 lib\\*-dev sous Debian);\n\n-  lorsque plusieurs environnements ont besoin de la m\u00eame d\u00e9pendance,\n   cette derni\u00e8re est install\u00e9e plusieurs fois, et est dupliqu\u00e9e sur le\n   disque, ce qui provoque une perte d'espace disque;\n\n-  mauvais niveau d'abstraction : la tendance actuelle consiste \u00e0\n   utiliser des gestionnaires de paquets sp\u00e9cifiques \u00e0 des langages\n   (pip, npm, cpan...) plut\u00f4t qu'un gestionnaire de paquets robuste;\n\n-  manque de reproductibilit\u00e9 des tests : les environnements de tests\n   sont loin d'\u00eatre parfaitement isol\u00e9s (les variables d'environnement,\n   les fichiers pr\u00e9sents dans /usr, le choix des locales... peuvent\n   influencer le d\u00e9roulement des tests).\n\nGNU Guix est un gestionnaire de paquets fonctionnel (comme dans\n\"programmation fonctionnelle\") bas\u00e9 sur Nix. Il permet de construire des\npaquets dans un environnement compl\u00e8tement isol\u00e9 utilisant les\nconteneurs fournis par le noyau Linux qui garantit la reproductibilit\u00e9\nde l'op\u00e9ration. Nous ferons une pr\u00e9sentation de cet outil et nous\nattarderons notamment sur la fonctionnalit\u00e9 que nous serons amen\u00e9s \u00e0\nutiliser pour guix-tox : \"guix environment\", qui permet de cr\u00e9er un\nenvironnement isol\u00e9 contenant uniquement certains paquets.\n\nEnfin, nous verrons comment il est possible de remplacer virtualenv par\nGuix dans tox, afin de profiter des avantages de ce gestionnaire de\npaquets de fa\u00e7on quasi-transparente. Nous montrerons comment il est\npossible de l'utiliser afin de travailler sur des projets OpenStack tels\nque python- keystoneclient ou encore la biblioth\u00e8que Oslo.\n",
+  "duration": 1754,
+  "language": "fra",
+  "recorded": "2015-10-17",
+  "speakers": [
+    "Cyril Roelandt"
+  ],
+  "summary": "Tox est un outil, tr\u00e8s utilis\u00e9 dans les projets Python, qui permet de\nlancer des tests au sein d'environnements virtuels cr\u00e9\u00e9s par virtualenv.\nCette approche souffre de plusieurs d\u00e9fauts qui affectent la\nreproductibilit\u00e9 des tests. Nous verrons comment il est possible de\nremplacer virtualenv par Guix et donnerons quelques exemples issus du\nquotidien d'un d\u00e9veloppeur OpenStack.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/110%20-%20Cyril%20Roelandt%20-%20Guix-tox,%20une%20version%20fonctionnelle%20de%20tox.mp4.jpg",
+  "title": "Guix-tox, une version fonctionnelle de tox.",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/110%20-%20Cyril%20Roelandt%20-%20Guix-tox,%20une%20version%20fonctionnelle%20de%20tox.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/110%20-%20Cyril%20Roelandt%20-%20Guix-tox,%20une%20version%20fonctionnelle%20de%20tox.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/110%20-%20Cyril%20Roelandt%20-%20Guix-tox,%20une%20version%20fonctionnelle%20de%20tox.webm"
+    }
+  ]
+}
