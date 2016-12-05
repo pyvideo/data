@@ -1,0 +1,16 @@
+{
+  "description": "Zalando's quest to create an open multi-tenant fashion platform has its\nchallenges. One of these is the detection of duplicate product records\nwithin the platform, where different tenants input the same product\nusing different product descriptions. Commonly referred to as\nthe\\_Record Linkage\\_problem in Machine Learning, the task is to group\ntogether similar product records under a single canonical identifier,\nwhich is useful for business intelligence purposes and for product\nsearch etc. The kernel of the solution is the computation of an\n~O(n\\*\\*2) all-pairs similarity join, where the runtime explodes\nquadratically with an increase in input. At Zalando's Fashion Insight\nCentre in Dublin we are looking at solutions to this problem that work\nat scale (i.e., more than one million products). For our particular\nproblem, which involves Categorical Data (cosine similarity will not\nwork here), we employ a data-driven similarity measure and approximate\nthe similarity join using a two-step approach. In this talk we introduce\nthe standard approaches to the problem and illustrate our work-to-date\nusing Python.\n",
+  "duration": 1711,
+  "recorded": "2016-11-06",
+  "speakers": [
+    "Paul O'Grady"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/M2u9pxrhvDE/hqdefault.jpg",
+  "title": "Detection of Duplicate Records in Large-scale Multi-tenant Platforms",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=M2u9pxrhvDE"
+    }
+  ]
+}
