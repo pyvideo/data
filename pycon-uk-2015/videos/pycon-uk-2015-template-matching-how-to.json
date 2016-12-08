@@ -1,0 +1,17 @@
+{
+  "description": "Image recognition, also known as template matching, is a key component\nof computer vision, and in this talk I will tell you how its done by\ndescribing algorithms used by OpenCV. The purpose of the talk is to give\na practical introduction to this subject by describing both the theory\nand Python implementation.\n\nWhilst the algorithms I describe are very simple, and intuitively\nunderstood, if you do not take care when implementing them you can end\nup with extremely inefficient computations. This is because you\neffectively compare every pixel in your image with every pixel in your\ntemplate. These algorithms are called: correlation, correlation\ncoefficient, and squared difference, all with or without normalisation.\nNormalisation is required to prevent false positives due to bright spots\nin images. I will explain why computing the value directly can lead to\nprohibitively slow computations. In order to efficiently implement the\nalgorithms we must use a theorem called the convolution theorem, which\nuses Fourier Transforms. I give the Fourier Transform expressions for\nthe template-image comparison, and this is what we use in our\nimplementation.\n\nI will introduce the algorithms and explain how they work, and then\nbriefly introduce the Fourier Transform. This gives us everything we\nneed to get started implementing our own image recognition with help\nfrom scipy and numpy. We will see how adjusting parameters in the\nalgorithm can lead to very impressive results- the demo showing a range\nof letters, with different antialising, on different tiled backgrounds.\nBy selecting how close your candidate match must be to the template at\ndifferent stages during the algorithm, you can find matches with\napparently large differences to the template, with no false positives.\n\nWhilst I will aim to ensure that the talk is comprehensible to those who\nhaven't met Fourier Transforms before by introducing them in detail,\nwith examples, I also hope those who have met them before will find the\ntalk interesting, as they may not have seen this application. Whilst I\napply the techniques to images, they can be used for anything which can\nbe treated as a function.",
+  "duration": 1573,
+  "recorded": "2015-09-19",
+  "speakers": [
+    "Katie Barr"
+  ],
+  "summary": "Image recognition via template matching",
+  "thumbnail_url": "https://i.ytimg.com/vi/X2dVVV2FD8w/hqdefault.jpg",
+  "title": "Template matching - howto",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=X2dVVV2FD8w"
+    }
+  ]
+}
