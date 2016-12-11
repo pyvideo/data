@@ -1,0 +1,19 @@
+{
+  "description": "In this talk we present \"scikit-build\", an improved build system\ngenerator for CPython C extensions. It provides better support for\nadditional compilers, build systems, cross compilation, and locating\ndependencies and determining their build requirements. We also\ndescribe how Matplotlib and SymEngine are updated to make use of\n\"scikit-build\"\n\nAlthough the scientific packages NumPy, SciPy, SymEngine or Matplotlib\ncan be used from Python today, since they bundle C, C++ or Fortan\nextensions, successfully building the associated binary wheels is\ncomplex and prone to errors. This is a significant barrier to allow\nuse of these scientific packages on a broader set of platforms like\nmobile, Raspberry Pi or HPC.\n\nTo facilitate the build process, the scikit-build package is\nfundamentally just glue between the setuptools Python module and\nCMake. Currently, the package is available to perform builds in a\nsetup.py file. In the future, the project aims to be a build tool\noption in the currently developing pyproject.toml build system\nspecification.",
+  "duration": 2194,
+  "recorded": "2016-09-15",
+  "speakers": [
+    "Jean-Christophe Fillion-Robin",
+    "Matt McCormick",
+    "Max Smolens",
+    "Omar Padron"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/2ohfZPlkQY0/hqdefault.jpg",
+  "title": "Scikit-build: A build system generator for CPython C extensions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2ohfZPlkQY0"
+    }
+  ]
+}

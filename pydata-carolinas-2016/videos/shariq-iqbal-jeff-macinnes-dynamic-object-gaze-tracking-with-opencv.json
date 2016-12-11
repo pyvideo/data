@@ -1,0 +1,17 @@
+{
+  "description": "Using computer vision techniques, we extended eye tracking technology\nto allow for data normalization across dynamic environments. We\napplied these techniques to subjects viewing artwork at Duke\u2019s Nasher\nMuseum of Art.\n\nMost eye tracking solutions track gaze with respect to a static object\nlike a computer screen, making it easy to know exactly where a person\nis looking with respect to an image on the screen. This makes analysis\neasier, but doesn\u2019t accurately reflect real-life. What happens when we\nmove eye tracking into a more realistic, dynamic setting, using eye\ntracking glasses that allow people to move around? People can interact\nwith objects in a much more natural manner, but a new challenge is\nintroduced: We only have gaze data with respect to the glasses frame\nof reference. In order to apply conventional analysis methods to these\ndata, we need to map dynamic gaze back onto a static reference image,\ncompensating for distance, head movement, and perspective.\n\nUsing the OpenCV package and its efficient implementations of common\ncomputer vision algorithms, we developed a method to find objects of\ninterest in video from eye tracking glasses and return gaze\ncoordinates over those objects, enabling experimenters to apply\nconventional data analysis methods to eye tracking behavior obtained\nin dynamic, real-world situations.",
+  "duration": 2008,
+  "recorded": "2016-09-16",
+  "speakers": [
+    "Shariq Iqbal",
+    "Jeff MacInnes"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8AGi-7PN0uI/hqdefault.jpg",
+  "title": "Dynamic Object-Gaze Tracking with OpenCV",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8AGi-7PN0uI"
+    }
+  ]
+}
