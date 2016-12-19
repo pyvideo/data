@@ -65,8 +65,8 @@ def check_render_rest(data_root, verbose=False):
                     valid = False
 
                 if error:
-                    msg = 'ReST validation error:\n\tFile: {}\n\tKey: {}'
-                    print(msg.format(file_path, field), flush=True)
+                    msg = 'ReST validation error (level {level}):\n\tFile: {fp}\n\tKey: {key}'
+                    print(msg.format(fp=file_path, key=field, level=level), flush=True)
                     if verbose:
                         print('\t', error, sep='', flush=True)
 
