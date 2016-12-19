@@ -1,0 +1,21 @@
+{
+  "description": "In modern science and engineering, it is essential to use data analysis\nand calculation using computers. However, large-scale computing is\nlabor-intensive to achieve extensibility and manageability of computing\nresources. We are designing and implementing a cloud platform that\nstandardizes development, running, and sharing of the data processing\ntasks using cloud technologies and Python 3. We are also adding\nresearch/education services on top of it.\n\nIn this talk, we are going to share what we have learned during 2 months\nof development experiences. In particular, it will include the\narchitecture of our platform, experiences in the design and\nimplementation process, and common caveats to care when you do a similar\nwork. We hope to share our motivation that allowed our pathway over such\na mine field with you.\n\n**Summary**\n\n-  Modern science and Python\n\n   -  Online programming playground for researchers and educators\n\n-  Technical challenges\n\n   -  Sandboxing!\n   -  Resource consolidation\n   -  Fast uploads/downloads of data\n\n-  Choice of tech stack\n\n   -  Advantages and disadvantages of Python\n   -  It's time to go Python 3\n\n   -  On-premise vs. Hosting vs. Cloud (AWS / Azure / GCE)\n   -  Docker containers \uc640 kubernetes\n\n-  \"Shoveling\"\n\n   -  Warring states of Javascript frameworks + UI frontends\n   -  Entangling Waltz of Polymer, webcomponents, and Django\n   -  Backends: Mad-max around Docker\n   -  Security holes in ipython/Jupyter in the perspective of developer\n      and hacker\n   -  etc.\n",
+  "duration": 2928,
+  "language": "kor",
+  "recorded": "2015-08-29",
+  "related_urls": [
+    "http://www.slideshare.net/inureyes/pycon-kr-2015"
+  ],
+  "speakers": [
+    "\uc2e0\uc815\uaddc",
+    "\uae40\uc900\uae30"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/APupiEb4IWE/hqdefault.jpg",
+  "title": "Designing a Python-based Data Analysis / Online Coding Platform for Researchers and Educators",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=APupiEb4IWE"
+    }
+  ]
+}
