@@ -1,17 +1,16 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "Presented by Jonathan Fine\n\nThis talk is about a new way of writing tests. We arrange matters so that the expression statement     add(2, 2) == 4\n\nreports a test failure if add(2, 2) does not return 4. Similarly     add(2, '2') ** TypeError\n\nreports a test failure if add(2, '2') does not raise a TypeError exception. These new semantics (which provide no-boilerplate testing) do not apply when comparison expressions are used in conditional statements etc.\n\nI will demonstrate Python software that implements this, and will discuss with you the use, benefits and development of this new approach to writing tests.",
+  "description": "Presented by: Jonathan Fine\n\nThis talk is about a new way of writing tests. We arrange matters so that the expression statement     add(2, 2) == 4\n\nreports a test failure if add(2, 2) does not return 4. Similarly     add(2, '2') ** TypeError\n\nreports a test failure if add(2, '2') does not raise a TypeError exception. These new semantics (which provide no-boilerplate testing) do not apply when comparison expressions are used in conditional statements etc.\n\nI will demonstrate Python software that implements this, and will discuss with you the use, benefits and development of this new approach to writing tests.",
   "duration": 1690,
   "language": "eng",
   "recorded": "2014-10-13",
   "related_urls": [],
   "speakers": [
-    "TODO",
-    "enter_manually"
+    "Jonathan Fine"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/34Sp7CUIP_U/hqdefault.jpg",
-  "title": "PyCon UK 2014: Tests without boilerplate",
+  "title": "Tests without boilerplate",
   "videos": [
     {
       "type": "youtube",
