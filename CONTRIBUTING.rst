@@ -124,7 +124,7 @@ these resources:
 
 *Related URLs*
 
-I there are other resources available and related to the video (slide decks, etc),
+If there are other resources available and related to the video (slide decks, etc),
 it is suggested that they are referenced in the ``related_urls`` array of URLs
 rather than in the description.
 
