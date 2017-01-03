@@ -152,10 +152,9 @@ you can use the following command to re-serialize the whole repo::
 
     $ python tools/reserialize.py --all .
 
-**Note:** Before using the tools, you should install some packages. In order to
-obtain them, you can run the following command::
-
-    $ pip install -r tools/requirements.txt
+.. note:: Before using the tools, you should install some packages. In order to
+   obtain them, you can run the following command::
+       $ pip install -r tools/requirements.txt
 
 Finally, video JSON files should go in a directory called ``videos`` that is
 itself inside a category directory. For example::
