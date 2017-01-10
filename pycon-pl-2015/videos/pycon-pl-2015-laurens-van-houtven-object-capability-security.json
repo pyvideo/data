@@ -1,0 +1,16 @@
+{
+  "description": "Most software we write has the ability to do essentially anything: open sockets, spawn processes, perform long blocking computation, read arbitrary objects in memory, et cetera. Most tools for limiting what applications can do are opt-in; many of them are complex to use. This has important security implications; software can often be tricked into abusing those privileges that it didn\u2019t really even need to have to begin with. The object-capability model is an alternative security model that reasons about capabilities as first-class objects. In this talk, we\u2019ll explore what object-capability security is, why we\u2019re not all using it already, how we can leverage the ideas in it to materially improve the security of the projects we maintain today and start tomorrow.",
+  "duration": 2285,
+  "recorded": "2015-10-15",
+  "speakers": [
+    "Laurens van Houtven"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/uSAJbUQiQQQ/hqdefault.jpg",
+  "title": "Object capability security",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uSAJbUQiQQQ"
+    }
+  ]
+}

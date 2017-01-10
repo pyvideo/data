@@ -1,0 +1,17 @@
+{
+  "description": "Tytu\u0142/Topic: Payments processing in django\nPrelegent/Speaker: Krzysztof Dorosz\n\nTalk will cover many advanced aspects of processing payments in django and will be mainly focused on integration with django-getpaid application. Django-getpaid is carefully designed multi-broker payment processor for Django framework. It was designed to provide following features: * multiple payment brokers support - allows using simultaneously many payments methods at the same time, * multiple payments currency support (getpaid will automatically filter available backends list accordingly to the payment currency), * integration flexibility - makes minimal assumption on 3rd party code - requires only an existence of any single django model representing an order, * proper architecture design - all backends which requires fetching payment confirmation are enforced to use asynchronous celery tasks. Django-getpaid is a production ready solution with support for all main payment processing services in Poland. It is also easily extendable via pluggable backend system to support any other services. Project site: https://github.com/cypreess/django-getpaid This talk will be an extended version of my 2013 DjangoCon talk: \"Apps for advanced plans, pricings, billings and payments\" concerning only payments topic. \n\nhttp://pl.pycon.org/2013/pl/agenda",
+  "duration": 2821,
+  "language": "eng",
+  "recorded": "2013-10-19",
+  "speakers": [
+    "Krzysztof Dorosz"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/fiNAlpU3zkA/hqdefault.jpg",
+  "title": "Payments processing in django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fiNAlpU3zkA"
+    }
+  ]
+}
