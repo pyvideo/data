@@ -1,0 +1,16 @@
+{
+  "description": "\"Given the dynamic nature of Python, some bugs tend to creep in our codebases. Innocents NameError or hard-to-find bugs with variables used in a closure, but defined in a loop, they all stand no chance in front of Pylint (http://pylint.org/).\n\nIn this talk, I\u2019ll present one of the oldest static analysis tools for Python, with emphasis on what it can do to understand your Python code. Pylint is both a style checker, enforcing PEP 8 rules, as well as a code checker in the vein of pyflakes and pychecker, but its true power isn\u2019t always obvious in the eye of beholder, especially when it's hidden through its verbosity. Interpreting its results can be a daunting task, but there are tricks which can be used to improve its user experience, such as enabling only structural checking with the -E flag or disabling unwanted category checks.\n\nPylint can detect simple bugs such as unused variables and imports, but it can also detect more complicated cases such as invalid arguments passed to functions, it understands the method resolution order of your classes, generators, contexts managers and what special methods aren\u2019t implemented correctly.\n\nStarting from abstract syntax trees, we\u2019ll go through its inference engine and we\u2019ll see how Pylint understands the logical flow of your program and what sort of type hinting techniques are used to improve its inference, including PEP 484 type hints. Pylint's roadmap includes better understanding of Python code, by improving its flow control analysis, escape analysis, understanding metaclasses and descriptors and having a better type checker, as well as improving the user experience, by reducing the number of false positives it currently has. As a bonus, I\u2019ll show how it can be used to help you port your long-forgotten library to Python 3, using its new \u2013py3k mode, which emits warnings regarding Python 3 compatibility.",
+  "duration": 2179,
+  "recorded": "2015-10-25",
+  "speakers": [
+    "Claudiu Popa"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/p1wPOIYt8Ws/hqdefault.jpg",
+  "title": "Pylint - an overview of the static analysis tool for Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=p1wPOIYt8Ws"
+    }
+  ]
+}
