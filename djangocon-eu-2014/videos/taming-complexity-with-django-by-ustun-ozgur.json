@@ -1,0 +1,16 @@
+{
+  "description": "In the influential paper \"Out of the Tarpit\", Moseley and Marks argues\nthat \"complexity is the single major difficulty in the successful\ndevelopment of large scale software systems\". In this talk, we will\nanalyze the major sources of \"accidental\" complexity a Django project\nfaces over time, and what the major methods to deal with them are. The\nmajor tools we have in reducing complexity are reducing state and\nincreasing abstraction skills.\n\nThe talk will start with generally accepted methods in Django software\ndevelopment and touch on separating a project into multiple apps,\nrelying on managers to implement collection level functionality, making\nuse of decorators for cross-cutting concerns and adding methods to\nmodels (but bewaring the perils of fat models). We will discuss how to\nseparate the roles of models with mixins so that functionality can be\nreused across models. We will discuss how functional programming\ntechniques can be employed in a Django project to reduce complexity.\n\nIn the second part of the talk, we will continue with another major\nsource of complexity in Django applications: The JavaScript problem. No\nlonger can we ignore JavaScript when discussing web projects and that\ncovers Django too. We will briefly see how popular tools such as jQuery,\nBackbone and Angular try to solve this with increasing degrees of\nsuccess, but do not attack the \"state\" problem as the major source of\ncomplexity. We will introduce Facebook's React library as the solution\nand how its functional programming inspired philosophy helps us to cope\nwith this problem. We will show how this library can be used within\nDjango in conjunction with a node.js renderer, whereby duplication of\ntemplates on server and client-side, a major source of complexity is\nreduced.\n",
+  "duration": 1800,
+  "recorded": "2014-05-14",
+  "speakers": [
+    "Ustun Ozgur"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/wk6QAD0aLt0/hqdefault.jpg",
+  "title": "Taming Complexity with Django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=wk6QAD0aLt0"
+    }
+  ]
+}
