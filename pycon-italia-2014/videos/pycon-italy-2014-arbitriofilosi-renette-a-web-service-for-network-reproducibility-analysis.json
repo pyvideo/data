@@ -1,0 +1,17 @@
+{
+  "description": "Here we introduce a novel Django based web-service for differential network analysis. In order to manage extensive scientific computation tasks we design a distributed system where the computation part is independent from the front-end. In particular the complex heterogeneous system is based on the integration of python, R for scientific computing and Django, Celery and RabbitMQ for web- interface and asynchronous tasks management. The algorithms are written in R and integrated as python class through Rpy2 module. Each algorithm is mapped on a celery task which handles the communication between the web-interface and the computing server. Jobs are submitted from the web front-end to the middleware using standard HTML forms and class based Django views. Celery daemon manages the communication between the running process on the server and the web interface. In particular it provides a queue which prioritize the submission of new jobs according to the load average of the machine. Thanks to the distributed task queue system provided by the Celery daemon, the application is easily scalable in order to meet the need of more power in case a high number of processes are asked to be computed by the server. Once the process has finished the user is automatically redirected on the results web-page which returns the status of the process and a synthetic view of the submitted task.\n\nMethods & Implementation: The service is based on the Django Model View Controller (MVC) framework with Python version 2.7 which interacts with the core process through the celery distributed task queue. The application server was built with Apache2 web server integrated with uWSGI which allows configuration on high performance computing. The core of the service is based on the Rpy2 interface which interacts with the R package nettools. The double layer architecture is distributed on two machines: one is the web front-end which manages data communication between clients and the computing system. Front-end: Red Hat Enterprise Linux Workstation release 6.5 with kernel 2.6.32, virtual machine with 1 core, 2GB of RAM running on vmware sphere. The environment is based on Python 2.7 and Django 1.6.1.\n\nBack-end: Red Hat Enterprise Linux Workstation release 6.5 with kernel 2.6.32, phisical machine based on a 24 cores, 72 GB of RAM and 1TB of storage machine (georun). The current version 1.8 needs Python 2.7, Rpy2 2.30, Celery 3.1.7, R 3.0.2, nettools 0.9.5, igraph 0.6.6 to run correctly. The web-site is available at https://renette.fbk.eu; to install the system, a complete list of the dependencies can be found on the github page https://github.com/MPBA/renette.",
+  "duration": 1471,
+  "recorded": "2014-05-24",
+  "speakers": [
+    "Ernesto Arbitrio",
+    "Michele Filosi"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/oPqq0vy4wVo/hqdefault.jpg",
+  "title": "ReNette: a web-service for network reproducibility analysis",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=oPqq0vy4wVo"
+    }
+  ]
+}
