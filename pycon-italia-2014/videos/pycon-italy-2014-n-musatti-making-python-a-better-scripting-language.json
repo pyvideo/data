@@ -1,0 +1,16 @@
+{
+  "description": "Many Python programmers wince when they hear their favourite language called a \"scripting language\", but Python is indeed very convenient for scripting. Small Python scripts have a tendency to grow into full-fledged programs just because it is so easy to add new features.\n\nHowever there is one task in which traditional scripting languages such as the UNIX/Linux shells or even Windows's \"cmd\" fare better than Python: invoking external commands. String manipulations required to build command lines for os.system() or Popen seem unnecessarily complicated compared to just writing out your command line in your script, possibly sprinkled with a shell variable here and there.\n\nIn this presentation I will show how my own nxpy.command package can be used to wrap external programs so that they can be invoked as Python functions whose arguments are then translated to command line arguments and options.\n\nThis is also possible for interactive command interpreters; I will describe how the current command's output and error messages may be inspected to check that it terminated correctly, as well as how timing constraints may be imposed.\n\nWhile this approach would be overkill for simple, static command lines, it becomes convenient in the presence of multiple sub-commands that share many of their options, like svn or git. In the absence of a proper API this is an effective way of creating one quickly and incrementally.",
+  "duration": 1431,
+  "recorded": "2014-05-25",
+  "speakers": [
+    "Nicola Musatti"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/b2YMwjtwWvE/hqdefault.jpg",
+  "title": "Making Python a better scripting language",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=b2YMwjtwWvE"
+    }
+  ]
+}

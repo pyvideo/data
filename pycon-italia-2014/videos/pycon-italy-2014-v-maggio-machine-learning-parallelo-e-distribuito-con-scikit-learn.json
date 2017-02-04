@@ -1,0 +1,16 @@
+{
+  "description": "Le tecniche di Machine Learning (ML) si concentrano sulla definizione di algoritmi per effettuare previsioni a partire dall'analisi dei dati. Le tecniche di ML si distinguono tipicamente in due categorie: tecniche di Apprendimento con Supervisione (i.e., Supervised Learning), e tecniche di Apprendimento senza Supervisione (i.e., Unsupervised Learning).\n\nIndistintamente dalla categoria di appartenenza, le tecniche di ML richiedono l'elaborazione di grandi quantit\u00e0 di dati per poter effettuare delle previsioni che siano veritiere e ragionevolmente affidabili. Pertanto, risulta necessario riportare su larga scala tali elaborazioni, affinch\u00e9 queste siano efficacemente utilizzate e utilizzabili.\n\nFino a qualche tempo fa, le elaborazioni parallele e distribuite trovavano applicazione in contesti altamente specializzati e di alto profilo.\n\nTuttavia, la rapida evoluzione delle architetture di calcolo, e l'avvento delle tecnologie di cloud computing, hanno favorito la proliferazione di svariate piattaforme e framework di programmazione parallela facilmente accessibili [Bekkerman et. al.].\n\nTali fattori hanno notevolmente contribuito al sempre crescente interesse per l'applicazione di tecniche di ML su larga scala. Il tutto motivato anche dal fatto che molteplici dataset (di grandi dimensioni), sono attualmente memorizzati in maniera distribuita su differenti piattaforme di storage (a.k.a. cloud storage).\n\nScikit-learn \u00e8 una libreria Python attivamente sviluppata e robusta, costruita sulle solide fondamenta di numpy e scipy.\n\nScikit-learn (sklearn) rappresenta una soluzione software \"tutto incluso\", che mette a disposizione l'implementazione di molte delle pi\u00f9 note tecniche di ML per l'analisi di dati.\n\nGrazie ad una API semplice ad intuitiva, tale libreria pu\u00f2 essere agevolmente integrata in altre soluzioni Python-powered per computazioni parallele e distribuite.\n\nIn questo talk saranno presentate differenti soluzioni per l'esecuzione di algoritmi di ML su larga scala, utilizzando Scikit-learn. In particolare, la scalabilit\u00e0 degli algoritmi sar\u00e0 presentata considerando due differenti livelli di \"complessit\u00e0\": (1) \"Single Machine with Multiple Cores\"; e (2) \"Multiple Machines with Multiple Cores\".\n\nDurante il talk, saranno discussi diversi esempi di codice, unitamente ad una breve descrizione delle tecniche di ML considerate. Tali esempi avranno lo scopo di mostrare l'utilizzo congiunto di sklearn con librerie quali multiprocessing, e mpi4py (per il primo setting); iPython.parallel e soluzioni basate su Map-Reduce (e.g., disco (per il secondo setting).\n\nIn aggiunta, qualche accenno al GPU-computing con pycuda sar\u00e0 inoltre riportato, a conclusione della presentazione.\n\nQuesto talk \u00e8 pensato per un livello avanzato. Sono richieste competenze di matematica di base e una buona conoscenza del linguaggio Python. Apprezzabile una buona conoscenza di numpy e scipy.",
+  "duration": 3250,
+  "recorded": "2014-05-24",
+  "speakers": [
+    "Valerio Maggio"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/-8my3zUC5n0/hqdefault.jpg",
+  "title": "Machine Learning Parallelo (e Distribuito) con Scikit-Learn",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-8my3zUC5n0"
+    }
+  ]
+}
