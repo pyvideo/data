@@ -1,0 +1,15 @@
+{
+  "description": "It's surprisingly easy to modify the CPython interpreter in some very useful ways. This talk will cover a simple assembly-technique which can allow live, hot-patched, `pip`-installable modifications to the CPython interpreter. The talk will cover five case studies of such modifications and how they can be used to extend the capabilities of Python, parsimoniously model abstract problems, and, in some cases, \"unravel\" complex APIs. This talk will cover:\n - adding ast-literals to CPython, and how they can be used to model first-class-computation frameworks like `numexpr`\n - decoupling evaluation scope from binding scope, and how this can add static correctness guarantees and user-defined literals\n - embedding CPython interpreters within themselves, and how this can be used for same-process multiprocessing\n - adding read watches, and how these can be used for lazy mechanisms, indirection mechanisms, and improved debugging\n - adding the print_Statement back to CPython 3, and how this can be used to stop people from complaining about silly things",
+  "recorded": "2016-08-23",
+  "speakers": [
+    "James Powell"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/1SqRRrmQHx0/hqdefault.jpg",
+  "title": "Hacking the CPython Interpreter",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1SqRRrmQHx0"
+    }
+  ]
+}

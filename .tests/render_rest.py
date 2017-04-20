@@ -53,6 +53,9 @@ def check_render_rest(data_root, verbose=False):
     error_by_path = {}
     valid = True
     for file_path in video_paths:
+        if verbose:
+            print('Checking File:{}'.format(file_path), flush=True)
+
         with open(file_path, encoding='UTF-8') as fp:
             blob = json.load(fp)
 

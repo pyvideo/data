@@ -1,0 +1,16 @@
+{
+  "description": "Students will walk away with a high-level understanding of both parallel problems and how to reason about parallel computing frameworks. They will also walk away with hands-on experience using a variety of frameworks easily accessible from Python.\n \n For the first half, we will cover basic ideas and common patterns encountered when analyzing large data sets in parallel. We start by diving into a sequence of examples that require increasingly complex tools. From the most basic parallel API: map, we will cover some general asynchronous programming with Futures, and high level APIs for large data sets, such as Spark RDDs and Dask collections, and streaming patterns. For the second half, we focus on traits of particular parallel frameworks, including strategies for picking the right tool for your job. We will finish with some common challenges in parallel analysis, such as debugging parallel code when it goes wrong, as well as deployment and setup strategies.\n \n Part one: We dive into common problems with a variety of tools\n \n 1. Parallel Map\n 2. Asynchronous Futures\n 3. High Level Datasets\n 4. Streaming\n \n Part two: We analyze common traits of parallel computing systems.\n \n 1. Processes and Threads. The GIL, inter-worker communication, and contention\n 2. Latency and overhead. Batching, profiling.\n 3. Communication mechanisms. Sockets, MPI, Disk, IPC.\n 4. Stuff that gets in the way. Serialization, Native v. JVM, Setup, Resource Managers, Sample Configurations\n 5. Debugging async and parallel code / Historical perspective\n \n We intend to cover the following tools: concurrent.futures, multiprocessing/threading, joblib, IPython parallel, Dask, Spark",
+  "recorded": "2016-08-23",
+  "speakers": [
+    "Matthew Rocklin",
+    "Mi"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/5Md_sSsN51k/hqdefault.jpg",
+  "title": "Parallel Python: Analyzing Large Datasets Intermediate",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5Md_sSsN51k"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Tensor computations are an important kernel in many high-performance domains such as quantum chemistry, statistics, machine learning, and others. We follow the example of the successful BLAS interface for matrix operations in defining a simple, low-level interface for tensor contraction and other operations, while providing a high-performance implementation using the BLIS framework. In this talk, the proposed \"BLAS-like\" tensor interface is discussed in the context of existing tensor and matrix abstractions, and performance data for tensor contraction is presented. Our tensor contraction implementation achieves similar performance to matrix multiplication and does not require any explicit tensor transposition or additional workspace, while also incorporating multithreading at several levels. These traits make our implementation ideal for layering underneath higher-level interfaces such as NumPy.",
+  "recorded": "2016-08-23",
+  "speakers": [
+    "Devin Matthews"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/FbsJ6urR4x0/hqdefault.jpg",
+  "title": "A BLAS for Tensors with Portable High Performance",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FbsJ6urR4x0"
+    }
+  ]
+}
