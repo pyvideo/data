@@ -1,0 +1,16 @@
+{
+  "description": "PyData Amsterdam 2017\n\nApache Spark is one of the most popular big data projects, offering greatly improved performance over traditional MapReduce models. Much of Apache Spark\u2019s power comes from lazy evaluation along with intelligent pipelining, which can make debugging more challenging. This talk will examine how to debug Apache Spark applications, the different options for logging in PySpark, as well as some common er\n\nApache Spark is one of the most popular big data projects, offering greatly improved performance over traditional MapReduce models. Much of Apache Spark\u2019s power comes from lazy evaluation along with intelligent pipelining, which can make debugging more challenging. This talk will examine how to debug Apache Spark applications, the different options for logging in PySpark, as well as some common errors and how to detect them.\n\nSpark\u2019s own internal logging can often be quite verbose, and this talk will examine how to effectively search logs from Apache Spark to spot common problems. In addition to the internal logging, this talk will look at options for logging from within our program itself.\n\nSpark\u2019s accumulators have gotten a bad rap because of how they interact in the event of cache misses or partial recomputes, but this talk will look at how to effectively use Spark\u2019s current accumulators for debugging as well as a look to future for data property type accumulators which may be coming to Spark in future version.\n\nIn addition to reading logs, and instrumenting our program with accumulators, Spark\u2019s UI can be of great help for quickly detecting certain types of problems.",
+  "duration": 2400,
+  "recorded": "2017-04-09",
+  "speakers": [
+    "Holden Karau"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/LQHMMCf2ZWY/hqdefault.jpg",
+  "title": "Debugging PySpark - Pretending to make sense of JVM stack traces",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LQHMMCf2ZWY"
+    }
+  ]
+}
