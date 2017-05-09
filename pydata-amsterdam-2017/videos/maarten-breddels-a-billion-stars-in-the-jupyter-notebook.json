@@ -1,0 +1,16 @@
+{
+  "description": "PyData Amsterdam 2017\n\nGithub: https://github.com/maartenbreddels/ipyvolume\n\nI will present two Python packages: Vaex enables calculating statistics for a billion samples per second on a regular N-dimensional grid. Using a new Python package, ipyvolume, that enabled volume rendering and glyph rendering, this allows one to interactively visualise and explore these billion sample tables for high dimensional spaces.\n\nWith large astronomical catalogues (\uff1e1 billion) already available, we are preparing for methods to visualize and explore these large datasets. Instead of using cluttered scatter plots, these data volumes require different visualization techniques, in the form of binned statistics, e.g. histograms, density maps, and volume rendering in 3d. The calculation of statistics on N-dimensional grids is handled by Python library called vaex, which I will introduce. It can process at least a billion stars/samples per second, to produce for instance the mean of a quantity on a regular grid. This statistics can be calculated for any mathematical expression on the data (numpy style) and can be on the full dataset or subsets, specified by queries/selections, .\n\nHowever, to visualize higher dimensional data in the notebook interactively, no proper solution existed. This led to the development of ipyvolume, which can render 3d volumes and up to a million glyphs (scatter plots and quiver) in the (Jupyter) notebook as a widget. With the browser as a platform, and the release of ipywidgets 6.0, these 3d plots can also be embedded in static html files and renders on nbviewer. This allows for sharing with colleagues, paperless office (render on your tablet), outreach, press release material, etc. Full screen stereo rendering allows for a virtual reality experience using your phone and Google Cardboard, a minor investment compared to other VR head mountables. Overlaying 3d quiver plots on a 3d volume rendering allows visualizing a 6d space.\n\nVaex and ipyvolume can be used together to explore and visualize any large tabular data set, or separately to calculate statistics, and render 3d plots in the notebook and outside.",
+  "duration": 1859,
+  "recorded": "2017-04-09",
+  "speakers": [
+    "Maarten Breddels"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/bP-JBbjwLM8/hqdefault.jpg",
+  "title": "A billion stars in the Jupyter Notebook",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=bP-JBbjwLM8"
+    }
+  ]
+}

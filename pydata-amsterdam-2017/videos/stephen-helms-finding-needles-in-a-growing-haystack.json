@@ -1,0 +1,16 @@
+{
+  "description": "PyData Amsterdam 2017\n\nFinding Needles in a Growing Haystack: An Architecture for Intelligent Reporting at Scale\n\nAs we collect more and more data in the world, one of the major challenges is how to identify, summarize, and present relevant data to users. In this talk, I will present an architecture we have developed at Optiver to automate the identification of important changes in streaming time series data in a scalable way.\n\nAt Optiver, we provide liquidity on markets around the world, performing millions of interactions with financial exchanges each day and generating terabytes of raw data spread across multiple datacenters. Performance is critical in our industry, and every aspect of our business is continually changing in a pursuit of perfection. On the Data team at Optiver, we face the challenge of converting this raw data into a highly aggregated and refined stream of information that people throughout the company can use to make decisions and track our performance.\n\nEven after refining this raw data, it is still impossible for people to look through every possible subset of the data to identify important changes. The problem also gets worse over time as trading execution times decrease and the number of products we trade expands. On the Data team, we have tried to solve this by developing automated, smart reporting tools that can scale horizontally.\n\nIn this talk, I will discuss the architectural decisions and implementations we have used to build our automated reporting architecture. This includes the use of online (recursive) implementations of Bayesian statistics for estimating metrics and detecting trends and outliers, NoSQL databases for scalable storage and evolving data schemas, parallel execution across a Mesos cluster, and publication of the reports through REST APIs. All implemented in Python of course!",
+  "duration": 1863,
+  "recorded": "2017-04-08",
+  "speakers": [
+    "Stephen Helms"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/A8wGIo4RLn8/hqdefault.jpg",
+  "title": "Finding Needles in a Growing Haystack: An Architecture for Intelligent Reporting at Scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=A8wGIo4RLn8"
+    }
+  ]
+}
