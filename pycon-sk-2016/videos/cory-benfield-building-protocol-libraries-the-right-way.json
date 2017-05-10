@@ -1,0 +1,17 @@
+{
+  "description": "One of the great strengths of Python is the incredible richness of its\nlibraries. The standard library is already fairly good, and when you\ntake into account the third-party ecosystem, Python\u2019s is up there with\nthe best in the world. Despite that, however, a great deal of effort has\nbeen wasted to get to this place. Consider Python\u2019s HTTP ecosystem,\nwhich has many fantastic libraries. Unfortunately, there\u2019s a stunning\nlack of code re-use across them: different HTTP libraries often have\nessentially no common code at all, despite doing extremely similar jobs.\nSometimes this occurs in projects that are intended to be almost\nidentical, such as requests and treq.\n\nThis talk proposes that the primary reason this occurs is because each\nlibrary contains its own I/O layer. It explores exactly how this problem\ncomes about, and discusses an alternative approach to library design\nthat vastly has many benefits over the standard approach. It uses as its\ncore examples many projects the author has worked on, including the only\nlibrary he has written that he believes gets this right. It also talks\nabout where this approach is used outside of Python to great effect to\nprovide extra weight for the example.\n",
+  "duration": 2058,
+  "language": "eng",
+  "recorded": "2016-03-12",
+  "speakers": [
+    "Cory Benfield"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Evchk7aNKdQ/hqdefault.jpg",
+  "title": "Building Protocol Libraries The Right Way",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Evchk7aNKdQ"
+    }
+  ]
+}
