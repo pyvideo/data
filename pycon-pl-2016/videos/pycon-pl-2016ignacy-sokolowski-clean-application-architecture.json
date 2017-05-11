@@ -1,0 +1,16 @@
+{
+  "description": "In Python, we don't talk much about design and architecture. Instead, we\nfocus on frameworks and libraries. We let them define the architecture\nof our applications and leak into the business logic and tests. Rather\nthan putting them aside, we couple to them so much that when we decide\nto change them, we need to rewrite almost all of the code base from\nscratch. We do the same with database, putting it in the center of the\narchitecture, which makes the tests hard to write, fragile and either\nvery slow or littered with monkey- patching.In this talk, I will show\nyou how to design architecture which will make your code much easier to\ntest and maintain. You will learn how to decouple the infrastructure\nfrom business logic and be prepared for future changes.\n",
+  "duration": 3306,
+  "recorded": "2016-10-15",
+  "speakers": [
+    "Ignacy Soko\u0142owski"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NXzPRVLEmUE/hqdefault.jpg",
+  "title": "Clean application architecture",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NXzPRVLEmUE"
+    }
+  ]
+}
