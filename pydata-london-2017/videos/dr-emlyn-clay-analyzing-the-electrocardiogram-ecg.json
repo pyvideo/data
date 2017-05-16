@@ -1,0 +1,16 @@
+{
+  "description": "Filmed at PyData London 2017\n\nDescription\nThe ElectroCardioGram (ECG) is the electrical activity of your heart. By recording it, classifying fiducial markers and analysing these features we can make assessments about the healthy state of the heart, diagnose certain diseases of the heart and predict whether a subject will go on to develop certain diseases. Python and the scientific stack provide all the tools you need.\n\nAbstract\nThe ElectroCardioGram (ECG) is a periodic waveform that describes the action of heart as it moves through 3 electromechanical phases:\n\nDepolarization and contraction of the atria\nDepolarization and contraction of the ventricles\nRepolarization of the ventricles and atria\nIt is an enormous area of study and the ECG is tractable and effective way of detecting healthy sinus rythmn, diagnosing arrthymia and potentially predicting the decline of the heart from a healthy state to a disease state.\n\nPython and the scientific stack offers everything a researcher or a hobbyist would need to conduct sophisticated analysis and in this talk we'll describe how to store and load the ECG, process the signal, classify fiducial markers and make interpretations about the state of the heart.\n\nThe talk will be presented in an ipython notebook and involve h5py for reading ECG data in from disk as well as using the python-wfdb to get data from the Physionet repositories. scipy.signal for smoothing, processing and classifying parts of the ECG as well as peakutils to classify peaks. matplotlib and seaborn will be used for visualisation and statsmodels will be used to describe the data. This will ultimately generate features that can be used as the basis or an ML model.",
+  "duration": 2739,
+  "recorded": "2017-05-06",
+  "speakers": [
+    "Dr. Emlyn Clay"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WyjGCEWU4zY/hqdefault.jpg",
+  "title": "\u2764 Analyzing the ElectroCardioGram (ECG) and classifying what's healthy and what's not.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WyjGCEWU4zY"
+    }
+  ]
+}
