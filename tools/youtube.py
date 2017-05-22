@@ -1,3 +1,47 @@
+"""
+What is this tool
+=================
+
+This script allows you to pull down data from YouTube for a given playlist.
+
+How to use this tool
+====================
+
+You'll need a Google API key:
+
+    - Go to https://console.developers.google.com
+    - Enable the "YouTube Data API v3" API
+    - Under credentials, create an API key. (DON'T SHARE THIS KEY!)
+    - Set an environmental variable named GOOGLE_API_KEY with your API key as its value
+
+Get playlist ID to pull data from. For example, if you have a link to a
+playlist like the following: 
+
+    https://www.youtube.com/playlist?list=UUrJhliKNQ8g0qoE_zvL8eVg
+
+The playlist ID would be the following: UUrJhliKNQ8g0qoE_zvL8eVg
+
+Finally, (after setting the API key as an environment variable) you would
+run this tool (from the root of the data repo) as follows:
+
+    python tools/youtube.py -l UUrJhliKNQ8g0qoE_zvL8eVg
+
+Running this command will generate a new category/event folder with associated
+JSON files. The folder will be named something funky like:
+
+    category-123456789.34567890
+
+You will need to update this folder's name and files with the rest of
+the appropriate information before submitting the change for a PR.
+
+This tool can also format a category's or event's content in a more appropriate
+style for our data repo. To use this feature, use the following:
+
+    python youtube.py -p path/to/event
+
+This can save you a lot of time when renaming thumbnails!
+
+"""
 import argparse
 import copy
 import json
@@ -206,6 +250,7 @@ def main():
     if args.list:
         api_key = get_api_key(args.api_key)
         if not api_key:
+            print('Please set an API key!')
             parser.print_help()
             sys.exit(0)
 
