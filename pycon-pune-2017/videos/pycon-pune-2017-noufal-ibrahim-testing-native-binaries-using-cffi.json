@@ -1,0 +1,16 @@
+{
+  "description": "This a quick intro to the idea of FFI in Python and one practical use\ncase based on my own experiences with a personal project.\n\n\nI\u2019ve been working a native cross platform library to gather system\ninformation. The long term intention is to make bindings for it in\nvarious languages. The whole thing is written in C and it\u2019s somewhat\nhard to write unit tests for these kinds of libraries.\n\nThis talk is about using a combination of cffi and py.test to write unit\ntests for the library in Python.\n\nThe talk will cover some basics of writing python bindings using CFFI\nand then writing unit tests using these. As a bonus, a small py.test\nplugin which can be used to measure the unit tests coverage of the C\nlibrary will be presented.\n\n| The presentation is and outline are at\n  https://github.com/nibrahim/presentation-cffi/blob/master/outline.org\n| I might tweak it a little for stlyistic purposes but this is what I\u2019ll\n  be presenting\n",
+  "duration": 1753,
+  "recorded": "2017-02-17",
+  "speakers": [
+    "Noufal Ibrahim"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/SnzhcsR1COk/hqdefault.jpg",
+  "title": "Testing native binaries using CFFI",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SnzhcsR1COk"
+    }
+  ]
+}
