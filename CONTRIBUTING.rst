@@ -194,6 +194,27 @@ title                                  string
 
 For a full schema of a category JSON object, please see https://github.com/pyvideo/data/blob/master/.schemas/category.json
 
+Creating Data From Youtube Channel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can easily create some basic data from a youtube list
+
+Install requirements::
+
+   $ pip install -r tools/requirements.txt
+
+Get youtube api key from google console, please see https://developers.google.com/youtube/registering_an_application
+Set GOOGLE_API_KEY environment::
+
+   $ export GOOGLE_API_KEY=what_you_get_from_google_console
+
+Run ./tools/youtube.py -l playlist ID # ( in this case pycon jp 2015 )::
+
+   $ python tools/youtube.py -l PLMkWB0UjwFGkE3BIm4qpwaK5oPrmLLJoT
+
+Find created directory, rename it and fill in missing data.
+
+
 Pull Request
 ~~~~~~~~~~~~
 
