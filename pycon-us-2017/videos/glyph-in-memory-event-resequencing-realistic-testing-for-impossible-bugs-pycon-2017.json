@@ -1,0 +1,16 @@
+{
+  "description": "As we all know, we should write testable code, and automated tests. But\nas we also know, no test plan survives contact with the real world.\nComplex, distributed systems fail in complex, distributed ways, and even\nthe simplest web app today is a complex distributed system. So, as our\ncode accrues little fixes to bugs that only show up in production, our\ntest suites eventually either become slow integration testing\nmonstrosities that are \"realistic\" but flaky and unreliable, or useless\npiles of mocks which are fast and deterministic but don't give you\nconfidence.\n\nIn this talk, we'll explore how to leverage event-driven programming, or\n\"async I/O\", to structure code in such a way that its tests are fast,\nrealistic, and reliable, even in the face of horrible race-conditions\nyou only discover in production.\n",
+  "duration": 1739,
+  "recorded": "2017-05-19",
+  "speakers": [
+    "Glyph"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/0By5yfhkiRs/hqdefault.jpg",
+  "title": "In-Memory Event Resequencing: Realistic Testing For Impossible Bugs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0By5yfhkiRs"
+    }
+  ]
+}

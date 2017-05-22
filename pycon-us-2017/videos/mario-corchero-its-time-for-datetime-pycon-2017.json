@@ -1,0 +1,16 @@
+{
+  "description": "Working with time is not a trivial challenge. Python includes a native\nmodule in the standard library to work with it but datetime keeps being\ntogether with unicode a common source of errors. This often leads to the\nwidespread of many other libraries in the attempt of easing the work of\nworking with datetime. Datetime is one of those API that looks easy to\nuse but given the many concepts around time, is it easy to get backfired\nif the developer has not solid knowledge about the them.\n\nIn this talk we will overview the main concepts about timestamps\nrepresented through datetime objects, the limitations on the standard\nlibrary and some simple steps to try to avoid the common mistakes that\neveryone can fall into.\n\nNaive datetimes (which the datetime API works by default with) are a\ngreat tool to represent calendar times, but when talking about\ntimestamps (focus of this talk) timezones is n essential part of it and\nthe datetime module can be tricky to use for that use cases.\n\nWe will also speak about different standards of time, time zones,\nDaylight Saving Times, leap seconds, serialization and datetime\narithmetics.\n\nThe talk will be focused on giving the foundations that everyone knows\nto be able to understand and work efficiently and without making painful\nmistakes when dealing with time related algorithms.\n",
+  "duration": 1778,
+  "recorded": "2017-05-20",
+  "speakers": [
+    "Mario Corchero"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/2BRdKf6WYIQ/hqdefault.jpg",
+  "title": "It's time for datetime",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2BRdKf6WYIQ"
+    }
+  ]
+}
