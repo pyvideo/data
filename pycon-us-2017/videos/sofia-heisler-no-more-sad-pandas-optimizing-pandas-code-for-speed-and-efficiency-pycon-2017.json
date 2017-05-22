@@ -1,0 +1,16 @@
+{
+  "description": "When I first began working with the Python Pandas library, I was told by\nan experienced Python engineer: \"Pandas is fine for prototyping a bit of\ncalculations, but it's too slow for any time-sensitive applications.\"\nOver multiple years of working with the Pandas library, I have realized\nthat this was only true if not enough care is put into identifying\nproper ways to optimize the code's performance. This talk will review\nsome of the most common beginner pitfalls that can cause otherwise\nperfectly good Pandas code to grind to a screeching halt, and walk\nthrough a set of tips and tricks to avoid them. Using a series of\nexamples, we will review the process for identifying the elements of the\ncode that may be causing a slowdown, and discuss a series of\noptimizations, ranging from good practices of input data storage and\nreading, to the best methods for avoiding inefficient iterations, to\nusing the power of vectorization to optimize functions for Pandas\ndataframes.\n",
+  "duration": 1771,
+  "recorded": "2017-05-20",
+  "speakers": [
+    "Sofia Heisler"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/HN5d490_KKk/hqdefault.jpg",
+  "title": "No More Sad Pandas: Optimizing Pandas Code for Speed and Efficiency",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HN5d490_KKk"
+    }
+  ]
+}

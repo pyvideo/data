@@ -1,0 +1,16 @@
+{
+  "description": "| Python 3.6 was released in December of 2016 and it has a lot of new\n  cool features. Some of them are quite easy for using: a developer can\n  read, for example, about f-strings and they can start using them in\n  their programs as soon as possible. But sometimes features are not so\n  evident, and a new frame evaluation API is one of them.\n| The new frame evaluation API was introduced to CPython in PEP 523 and\n  it allows to specify a per-interpreter function pointer to handle the\n  evaluation of frames. It might not be evident how to use this new\n  feature in everyday life, but it\u2019s quite easy to understand how to\n  build a fast debugger based on it.\n| In this talk we are going to explain how standard way of debugging in\n  Python works and how a new frame evaluation API may be useful for\n  creating the fast debugger. Also we will consider why such fast\n  debugging was not possible in the previous versions of Python. If\n  someone hasn\u2019t made a final decision to move to Python 3.6 this talk\n  will provide some new reasons to do it.\n",
+  "duration": 1697,
+  "recorded": "2017-05-20",
+  "speakers": [
+    "Elizaveta Shashkova"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NdObDUbLjdg/hqdefault.jpg",
+  "title": "Debugging in Python 3.6: Better, Faster, Stronger",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NdObDUbLjdg"
+    }
+  ]
+}

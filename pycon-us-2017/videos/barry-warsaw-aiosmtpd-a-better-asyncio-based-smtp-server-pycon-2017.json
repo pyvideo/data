@@ -1,0 +1,16 @@
+{
+  "description": "smtpd.py has been in the standard library for many years. It's been a\ncommon tool for deploying SMTP and LMTP servers that handle email-based\ncommunication in Python, providing both basic protocol implementations\nand a fundamental module for higher level tools, such as lazr.smtptest\nfor testing email clients. Based on asyncore and asynchat, smtpd.py is\nshowing its age, and its API is unwieldy.\n\nFortunately, there's a new alternative available. aiosmtpd is a modern\nreinvention based on asyncio, with all the improvements that come along\nwith such a new implementation. It provides servers for both the SMTP\nand LMTP protocols, as well as a higher level \"controller\" API for\ntesting SMTP and LMTP clients. It exposes a much better API for\ncustomization, allowing the user to associate a simple \"handler\" to\nprocess incoming messages without having to worry about the details of\nthe protocols, and it provides some useful hooks for subclassing.\n\nThis talk will describe the purpose and history of smtpd.py and\naiosmtpd, show how users can extend the servers and implement\nspecialized handlers, and show how applications can use the testing API\nfor ensuring that their email sending applications do the right things.\nExamples will be taken from GNU Mailman 3, which uses aiosmtpd\nextensively.\n",
+  "duration": 1866,
+  "recorded": "2017-05-21",
+  "speakers": [
+    "Barry Warsaw"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/1Uyo2c2GYKQ/hqdefault.jpg",
+  "title": "aiosmtpd - A better asyncio based SMTP server",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1Uyo2c2GYKQ"
+    }
+  ]
+}

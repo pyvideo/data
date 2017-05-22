@@ -1,0 +1,16 @@
+{
+  "description": "The CPython interpreter allows us implement modules in C for performance\ncritical code or to interface with external libraries while presenting\nusers with a high level Python API. This tutorial will teach you how to\nleverage to power of C in your Python projects.\n\nWe will start by explaining the C representation of Python objects and\nhow to manipulate them from within C. We will then move on to\nimplementing functions in C for use in Python. We will discuss reference\ncounting and correct exception handling. We will also talk about how to\npackage and build your new extension module so that it may be shared on\nPyPI. (We will only be covering building extension modules on GNU/Linux\nand OSX, not Windows).\n\nAfter the break, we will show how to implement a new type in C. This\nwill cover how to hook into various protocols and properly support\ncyclic garbage collection. We will also discuss techniques for debugging\nC extension modules with gdb using the CPython gdb extension.\n",
+  "duration": 11991,
+  "recorded": "2017-05-17",
+  "speakers": [
+    "Joe Jevnik"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/g6ya_0aII7o/hqdefault.jpg",
+  "title": "How to Write and Debug C Extension Modules",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=g6ya_0aII7o"
+    }
+  ]
+}
