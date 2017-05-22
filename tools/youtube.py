@@ -22,12 +22,16 @@ playlist like the following:
 The playlist ID would be the following: UUrJhliKNQ8g0qoE_zvL8eVg
 
 Finally, (after setting the API key as an environment variable) you would
-run this tool as follows:
+run this tool (from the root of the data repo) as follows:
 
-    python youtube.py -l UUrJhliKNQ8g0qoE_zvL8eVg
+    python tools/youtube.py -l UUrJhliKNQ8g0qoE_zvL8eVg
 
 Running this command will generate a new category/event folder with associated
-JSON files. You will need to update this folder name and files with the rest of
+JSON files. The folder will be named something funky like:
+
+    category-123456789.34567890
+
+You will need to update this folder's name and files with the rest of
 the appropriate information before submitting the change for a PR.
 
 This tool can also format a category's or event's content in a more appropriate
@@ -246,6 +250,7 @@ def main():
     if args.list:
         api_key = get_api_key(args.api_key)
         if not api_key:
+            print('Please set an API key!')
             parser.print_help()
             sys.exit(0)
 
