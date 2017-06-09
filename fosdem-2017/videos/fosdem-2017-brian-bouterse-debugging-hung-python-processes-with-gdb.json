@@ -1,0 +1,16 @@
+{
+  "description": "When things go wrong in production, it can be necessary to troubleshoot problems where they occur, instead of in a development environment. In those situations having a working knowledge of GDB, GDB Python Extensions, and strace is very helpful. You will see some  simple techniques to get insight into those situations. This talk  outlines several techniques for connecting to an already running, \"stuck\", or deadlocked Python process using GDB for debugging.During the talk, we will:inspect the current state of threads withuse and demo the GDB macros for Pythoninspect a locally running process and a core dump collected from a remote machineuse strace to gather system call information about a processdiscuss  the SIGTRAP handler as a proactive way to make rpdb available in production.I have had to debug several hard-to-find bugs that were very infrequent deadlocks using Python. Furthermore it was happening on remote machines I could not have network access to. This technique was invaluable in those situations.",
+  "language": "eng",
+  "recorded": "2017-02-05",
+  "speakers": [
+    "Brian Bouterse"
+  ],
+  "thumbnail_url": null,
+  "title": "Debugging Hung Python Processes with GDB",
+  "videos": [
+    {
+      "type": "webm",
+      "url": "https://video.fosdem.org/2017/UD2.120/python_gdb.vp8.webm"
+    }
+  ]
+}

@@ -85,7 +85,7 @@ quality_notes                          string
 ----------------------------------     ----------------------------------     ----------------------------------
 related_urls                           array of strings
 ----------------------------------     ----------------------------------     ----------------------------------
-tags                                   array of strings
+tags                                   array of strings                       (see below)
 ==================================     ==================================     ==================================
 
 For a full schema of a video JSON object, please see
@@ -115,13 +115,26 @@ these resources:
 - Sphinx's reStructuredText Primer (http://www.sphinx-doc.org/en/stable/rest.html)
 - reStructuredText Markup Specification (http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
 
-
 *Title*
 
 Since the list of speakers, event name, and other metadata are captured elsewhere in each video's JSON object,
 it is suggested that the value of the ``title`` string contain only the title of the video and not contain any
 other information about the video.
 
+*Tags*
+
+For consistency, tag strings should be:
+
+-  lowercase
+-  space separated
+
+Even in the case of proper nouns or brand names, tag strings should be lowercase. Also, if adding a tag, `use existing tags <http://pyvideo.org/tags.html>`_ where possible, to improve consistency. If an existing tag does not comply with the standards listed above, please create a new tag that does. Correcting the non-compliant tag would also be greatly appreciated, but that can be a separate step/commit.
+
+Examples:
+
+-  `docker`
+-  `lightning talk`
+-  `continuous integration`
 
 
 *Related URLs*
