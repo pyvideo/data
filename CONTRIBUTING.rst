@@ -93,13 +93,6 @@ https://github.com/pyvideo/data/blob/master/.schemas/video.json
 
 .. _ISO 639-3: https://en.wikipedia.org/wiki/ISO_639-3
 
-*Title*
-
-Since the list of speakers, event name, and other metadata are captured elsewhere in each video's JSON object,
-it is suggested that the value of the ``title`` string contain only the title of the video and not contain any
-other information about the video.
-
-
 *Requirements of the Description String*
 
 The description string for a video must be a valid reStructuredText (rST)
@@ -121,6 +114,12 @@ these resources:
 - Quick reStructuredText (http://docutils.sourceforge.net/docs/user/rst/quickref.html)
 - Sphinx's reStructuredText Primer (http://www.sphinx-doc.org/en/stable/rest.html)
 - reStructuredText Markup Specification (http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
+
+*Title*
+
+Since the list of speakers, event name, and other metadata are captured elsewhere in each video's JSON object,
+it is suggested that the value of the ``title`` string contain only the title of the video and not contain any
+other information about the video.
 
 *Tags*
 
