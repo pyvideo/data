@@ -21,7 +21,15 @@ def check_schemas(data_root, schemas_dir, verbose=False):
 
         for file_path in file_paths:
             with open(file_path, encoding='UTF-8') as fp:
-                blob = json.load(fp)
+                try:
+                    blob = json.load(fp)
+                except json.decoder.JSONDecodeError as e:
+                    print('\nError JSON-decoding {}'.format(file_path),
+                        flush=True)
+                    if verbose:
+                        print(e, flush=True)
+                    error_count += 1
+                    continue
                 try:
                     jsonschema.validate(blob, schema_blob)
                 except jsonschema.exceptions.ValidationError as e:
