@@ -1,0 +1,19 @@
+{
+  "description": "Speakers: Guido Van Rossum, Greg Price, and David Fisher\n\nDropbox has several million lines of production code written in Python 2.7. As a first step towards migrating to Python 3, as well as to generally make our code more navigable, we are annotating our code with type annotations using the PEP 484 standard and type-checking the annotated code with mypy. In this talk we will discuss lessons learned and show how you too can start type-checking your legacy Python 2.7 code, one file at a time. We will also describe some of the many improvements we\u2019ve made to mypy in the process, as well as some other tools that come in handy.\n\nMypy is an open-source type-checker for Python. It was originally created by one of the speakers, Jukka Lehtosalo, in support of his PhD thesis, before he joined Dropbox. Mypy supports the PEP 484 standard for gradual typing in Python. It supports Python 3.2 and higher, as well as Python 2.7 (using function signatures in type comments, per a recent update to PEP 484).",
+  "language": "eng",
+  "recorded": "2016-12-15",
+  "speakers": [
+    "Guido van Rossum",
+    "Jukka Lehtosalo",
+    "Greg Price",
+    "David Fisher"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZP_QV4ccFHQ/hqdefault.jpg",
+  "title": "Dec 2016 BayPiggies Talk at LinkedIn: Introducing Type Annotations for Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZP_QV4ccFHQ"
+    }
+  ]
+}
