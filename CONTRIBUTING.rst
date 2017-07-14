@@ -240,6 +240,8 @@ pyvideo's collection, take the following steps:
 #. Clone from your forked repo.
 #. Add your category directory (containing the JSON files) into the root of the repo.
 #. Commit your changes and push them up to your fork.
+#. Run your tests locally by activating your venv and running ``make test``
+#. Address any test failures. Common test failures from the youtube import process come from unescaped special characters and odd description formatting.
 #. Issue a Pull Request of your changes to this repo.
 
 And you're done! So long as you've followed this guide, your Pull Request (PR)
