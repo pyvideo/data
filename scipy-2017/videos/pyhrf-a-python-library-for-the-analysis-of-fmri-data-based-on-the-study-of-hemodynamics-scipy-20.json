@@ -1,0 +1,27 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Neuroimaging techniques, as functional Magnetic Resonance Imaging (fMRI), allow the in vivo study of brain function by measuring the changes induced by cerebral activity.     BOLD is non-invasive, non-ionizing, and it gives access in vivo to brain activity with a relatively high spatial resolution. However, it does not give access to true physiological parameters. Unlike BOLD, ASL provides a direct and more localized quantitative measurement of the cerebral blood flow, allowing a direct comparison between subjects, pathological/non-pathological population groups, and experiments.     Most used open source libraries for the analysis of fMRI data (i.e.,SPM, FSL, AFNI) consider the hemodynamic response function (HRF) of the neuronal activity as a constant in all the brain and the same for all subjects. However, several works show that the HRF changes across different regions of the brain and other aspects, increasing thus the probability of obtaining false negative results and decreasing the reliability of the results.     In this talk, we will present PyHRF (www.pyhrf.org), a software to analyze BOLD and ASL fMRI data using a joint detection-estimation (JDE) approach of the cerebral activity: it jointly detects cortical activation and estimates the hemodynamic response function (HRF). Contrary to existing tools, PyHRF estimates the HRF instead of considering it constant in all the brain and for all subjects, improving thus the reliability of the results. Here, we lay out the architecture, concept and implementation of the package and present some examples of how it works to show why PyHRF is a tool suitable for use by non experts and clinicians.",
+  "duration": 1074,
+  "language": "eng",
+  "recorded": "2017-07-17",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    }
+  ],
+  "speakers": [
+    "Aina Frau-Pascual"
+  ],
+  "tags": [
+    "PyHRF"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Usyvds1o4lQ/maxresdefault.jpg",
+  "title": "PyHRF   A Python Library for the Analysis of fMRI Data Based on the Study of Hemodynamics",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Usyvds1o4lQ"
+    }
+  ]
+}

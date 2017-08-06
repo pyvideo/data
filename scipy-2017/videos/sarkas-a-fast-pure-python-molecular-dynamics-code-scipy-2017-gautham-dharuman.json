@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Molecular dynamics (MD) simulations are a powerful technique to understand many-body systems at the atomistic level, helping us understand the influence of micro-scale structural and temporal properties on the observed macroscopic properties of interest. Though there exists MD codes for such simulations, to our knowledge there isn't a pure-Python production-scale MD code. This motivated us to develop Sarkas - a production-scale pure-Python open-source MD code for particles interacting through Coulomb and screened Coulomb potentials. Though pure-Python, Sarkas is high-performant with execution speeds comparable to compiled languages (eg. C). This is due to the extensive use of Numpy arrays and a just-in-time compilation using Numba. Sarkas simulates 3D systems with potential energy and forces computed using a highly efficient Particle-Particle Particle-Mesh (PPPM) algorithm. The systems of our interest are strongly coupled plasmas such as dusty plasmas, ultracold neutral plasmas and warm dense matter. The user-friendliness of Python combined with high performance enables Sarkas to serve as a useful design tool for experimentalists to efficiently sample a wide parameter space of interest.",
+  "duration": 1031,
+  "language": "eng",
+  "recorded": "2017-07-13",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    }
+  ],
+  "speakers": [
+    "Gautham Dharuman"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/L735BkPH6Vw/maxresdefault.jpg",
+  "title": "Sarkas - A Fast Pure Python Molecular Dynamics Code",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=L735BkPH6Vw"
+    }
+  ]
+}
