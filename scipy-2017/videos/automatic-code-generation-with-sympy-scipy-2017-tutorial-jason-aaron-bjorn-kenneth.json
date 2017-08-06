@@ -1,0 +1,35 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Tutorial materials found here: https://scipy2017.scipy.org/ehome/220975/493423/\n\nThis tutorial will introduce code generation concepts using the SymPy library. SymPy is a pure Python library for symbolic mathematics. Code generation refers to the act of converting a SymPy symbolic expression into equivalent code in some language. This allows one to use SymPy to symbolically model a problem, and generate fast numerical code for specific platforms that executes that model. This is a powerful tool that is useful to scientists in many domains. Code generation allows users to speed up existing code, to deal only with the high level mathematics of a problem, avoids mathematical errors and typos, makes it possible to deal with expressions that would otherwise be too large to write by hand, and opens possibilities to perform automatic mathematical optimizations of expressions.\n\nSymPy supports generating code for C, C++, Fortran, Matlab/Octave, Python, Cython, Julia, Javascript, LLVM, Rust, Haskell, Mathematica, Tensorflow, and Theano, and can easily be extended to other languages. SymPy\u2019s code generation is used by libraries such as PyDy, pyodesys, sympybotics, pycalphad, and many other programs.\n\nLearning objectives\n\nAttendees will be able to:\n\n- write SymPy expressions describing mathematical functions and identify the function arguments and outputs.\n- use the SymPy code printers to transform SymPy expressions representing common domain specific functions into multiple output languages.\n- use the SymPy code generation routines to output compilable C code and use Cython to access these functions in Python.\n- generate custom vectorized functions with the three SymPy functions: lambdify, ufuncify, and autowrap.\n- create both custom code printers that make use of specialized C libraries and common subexpression elimination (CSE).\n- subclass the core SymPy printers and create a printer for a custom language.",
+  "duration": 9786,
+  "language": "eng",
+  "recorded": "2017-07-12",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    },
+    {
+      "label": "tutorial materials",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493423/"
+    }
+  ],
+  "speakers": [
+    "Jason Moore",
+    "Aaron Meurer",
+    "Bj\u00f6rn Dahlgren",
+    "Kenneth Lyons"
+  ],
+  "tags": [
+    "tutorial",
+    "sympy"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/5jzIVp6bTy0/maxresdefault.jpg",
+  "title": "Automatic Code Generation with SymPy",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5jzIVp6bTy0"
+    }
+  ]
+}
