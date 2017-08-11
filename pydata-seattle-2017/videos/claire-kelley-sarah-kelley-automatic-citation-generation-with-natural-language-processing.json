@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Description\nCan citations write themselves? Using a topic modeling approach we model similarity between patents from the US patent database via cosine similarity. Mining the text of millions of patents for similarities allows us to algorithmically recommend possible citations for new patents. We use python, pyspark and big query to parallelize complex operations over millions of rows of data.\n\nAbstract\nIn this project we use natural language processing to investigate ways to generate recommendations for citations for new patents. Using a topic modeling approach and cosign similarity we attempt to recommend patents similar to the text of a potential new patent. This would allow inventors and engineers to quickly reference patents similar to their own and easily cite them.\n\nFrom an architectural stand point we use big query to handle data ingestion and pre-processing. The data management functionality of big query is key because there are millions of patents some of which may contain hundreds of pages of text. After pre processing in big query the bulk of our analytic work is done in spark through the python wrapper which allows for easy parallelization of the analytical portion.\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.\n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "duration": 2145,
+  "language": "eng",
+  "recorded": "2017-07-24",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "TODO",
+    "enter_manually"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/klYBPl1ljTQ/maxresdefault.jpg",
+  "title": "Claire Kelley, Sarah Kelley - Automatic Citation generation with Natural Language Processing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=klYBPl1ljTQ"
+    }
+  ]
+}
