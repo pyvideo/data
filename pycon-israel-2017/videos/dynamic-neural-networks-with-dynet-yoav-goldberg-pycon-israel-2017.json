@@ -1,0 +1,17 @@
+{
+  "description": "Neural networks work very well for many learning-based applications, and I assume you are already familiar with them. Programming neural network models is rather easy, thanks to software libraries such as Theano, TensorFlow and Keras that let you define and train complex network structures. However, these libraries assume a fixed (static) graph structure, and are tailored for the GPU. I will introduce a radically different approach, in which the graphs are dynamic, and constructed from scratch for every training example. This makes programming of complex networks with structure that depend on the input very easy. I will introduce the DyNet neural networks package, that supports this dynamic graph creation, and which also works very well on the CPU. The talk assumes familiarity with neural network models, and will focus on how to implement them with DyNet.",
+  "language": "eng",
+  "recorded": "2017-06-13",
+  "speakers": [
+    "Yoav Goldberg"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/8eYZz6kiuUA/hqdefault.jpg",
+  "title": "Dynamic Neural Networks with DyNet",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8eYZz6kiuUA"
+    }
+  ]
+}

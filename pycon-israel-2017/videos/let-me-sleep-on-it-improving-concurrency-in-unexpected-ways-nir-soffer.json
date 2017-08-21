@@ -1,0 +1,23 @@
+{
+  "description": "Contrary to the common belief, Python has real threads and even with the famous GIL, they can be used in useful ways. Vdsm is a heavily multi-threaded Python program, constantly juggling tens of threads waiting for blocking system calls. In this talk we will explore a real world thread synchronization problem taken from Vdsm's LVM cache module. We will demonstrate the problem using simple tests and show the unexpected solution.",
+  "language": "eng",
+  "recorded": "2017-06-13",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "http://il.pycon.org/wwwpyconIL/sites/default/files/inline-files/Nir-Soffer.pdf"
+    }
+  ],
+  "speakers": [
+    "Nir Soffer"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/blXPoemXyh8/hqdefault.jpg",
+  "title": "Let me sleep on it improving concurrency in unexpected ways",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=blXPoemXyh8"
+    }
+  ]
+}

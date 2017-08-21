@@ -1,0 +1,50 @@
+{
+  "description": "The oVirt project contains Python, Java and Ruby SDKs, which are auto-generated from the API specification and they are using imperative concept. On the other hand Ansible modules have to be declarative and idempotent. In this talk we will present issues we've had during the development, the lessons we've learned, and how we've made Ansible modules declarative using imperative SDK. The development of Ansible modules is done in Python, so the Python developers will gain knowledge on how Ansible modules can be developed, and what things should be considered when writing Ansible modules.",
+  "language": "eng",
+  "recorded": "2017-06-13",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "http://il.pycon.org/wwwpyconIL/sites/default/files/inline-files/Ondra-Machacek.pdf"
+    },
+    {
+      "label": "Ansible basic playbook live example",
+      "url": "https://asciinema.org/a/100658"
+    },
+    {
+      "label": "oVirt",
+      "url": "https://www.ovirt.org/"
+    },
+    {
+      "label": "Ansible",
+      "url": "https://www.ansible.com/"
+    },
+    {
+      "label": "Ansible oVirt modules, documentation",
+      "url": "http://docs.ansible.com/ansible/list_of_cloud_modules.html#ovirt"
+    },
+    {
+      "label": "Ansible oVirt modules, repository",
+      "url": "https://github.com/ansible/ansible/tree/devel/lib/ansible/modules/cloud/ovirt"
+    },
+    {
+      "label": "oVirt related Ansible roles",
+      "url": "https://github.com/ovirt/ovirt-ansible"
+    }
+  ],
+  "speakers": [
+    "Ond\u0159ej Mach\u00e1\u010dek"
+  ],
+  "tags": [
+    "ansible",
+    "ovirt"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/1wvbq7mzMvM/hqdefault.jpg",
+  "title": "Ansible modules for oVirt",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1wvbq7mzMvM"
+    }
+  ]
+}
