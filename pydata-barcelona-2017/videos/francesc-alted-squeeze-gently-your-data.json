@@ -1,0 +1,55 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Coping with the growing rate of data sources is becoming a big challenge, not only in terms of efficiently storing it, but also (and most specially) in doing more general computations with them. Compressing your data may help in many (and sometimes unexpected) ways in this task. This talk will introduce several ways in which you can benefit from highly efficient compression libraries.\n\n**Abstract**\n\nNowadays CPUs are fast; they are coming with more and more cores and, in comparison, memory speed is not keeping this race in terms of speed. As a result, this opening gap is what is making of compression a valuable technique, not only for storing the same data by using less storage but also to accelerate data handling operations in an increasing number of cases.\n\nMy talk will start by introducing the technological reasons behind the increasing benefit of using compression in data science, and then will show some practical cases where data compression can lead to much more efficient data pipelines. For this, I will be using well-proven compression libraries like Blosc_, Zstandard_ and LZ4_ that, either in combination with data handling libraries (like PyTables_, bcolz_ or zarr_), or used for handling high-speed data streams (transmitted e.g. via gRPC_).\n\n.. _Blosc: http://www.blosc.org/\n.. _Zstandard: https://github.com/facebook/zstd\n.. _LZ4: https://github.com/lz4/lz4\n.. _PyTables: http://www.pytables.org/\n.. _bcolz: http://bcolz.blosc.org/en/latest/\n.. _zarr: http://zarr.readthedocs.io/en/latest/\n.. _gRPC: http://www.grpc.io/",
+  "duration": 3806,
+  "language": "eng",
+  "recorded": "2017-05-21T10:30:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/34/"
+    },
+    {
+      "label": "Blosc",
+      "url": "http://www.blosc.org/"
+    },
+    {
+      "label": "Zstandard",
+      "url": "https://github.com/facebook/zstd"
+    },
+    {
+      "label": "LZ4",
+      "url": "https://github.com/lz4/lz4"
+    },
+    {
+      "label": "PyTables",
+      "url": "http://www.pytables.org/"
+    },
+    {
+      "label": "bcolz",
+      "url": "http://bcolz.blosc.org/en/latest/"
+    },
+    {
+      "label": "zarr",
+      "url": "http://zarr.readthedocs.io/en/latest/"
+    },
+    {
+      "label": "gRPC",
+      "url": "http://www.grpc.io/"
+    }
+  ],
+  "speakers": [
+    "Francesc Alted"
+  ],
+  "tags": [
+    "keynote"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/o9PC4JC74tU/maxresdefault.jpg",
+  "title": "Squeeze (gently) your data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=o9PC4JC74tU"
+    }
+  ]
+}

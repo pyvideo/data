@@ -1,0 +1,33 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "It's a well established fact that only a small fraction of developers account for most code contributions to FOSS projects. The CPython project is not an exception, but analyzing code contributions through time reveals that the people that contribute the most is not always the same. I model CPython's contribution dynamics as cooperation networks and analyze them using NetworkX and Matplotlib.\n\n**Abstract**\n\nI analyze cooperation on the CPython project by analyzing the code contributions that each participant on the project has done through time. I model these contributions as a succession of bipartite networks where the bipartite node sets are contributors and source code files; each contributor is linked to the source files to which they have contributed, weighted by the number of lines of source code added. Analyzing the structure of these networks using NetworkX and Matplotlib I found an hierarchy of nested groups of developers that corresponds to the developers that do most of the code contributions in the CPython project. This hierarchy, on the one hand, reflects the empirically well established fact that in FOSS projects only a small fraction of the developers account for most of the contributions. And, on the other hand, refutes the naive views of early academic accounts that characterized FOSS projects as a flat hierarchy of peers in which every individual does more or less the same. I argue that the structure of CPython's cooperation network can be characterized as an open elite, where the top levels of this hierarchy are filled with new individuals at a high pace. This feature is key for understanding the mechanisms and dynamics that make FOSS communities able to develop long term projects, with high individual turnover, and yet achieve high impact and coherent results as a result of large scale cooperation.\n\nYou can download the slides for this talk from https://github.com/jtorrents/thesis/blob/master/presentations/pydata_bcn/cpython_code_contributions.pdf",
+  "duration": 2369,
+  "language": "eng",
+  "recorded": "2017-05-20T15:00:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/15/"
+    },
+    {
+      "label": "slides",
+      "url": "https://github.com/jtorrents/thesis/blob/master/presentations/pydata_bcn/cpython_code_contributions.pdf"
+    }
+  ],
+  "speakers": [
+    "Jordi Torrents"
+  ],
+  "tags": [
+    "cpython",
+    "networkx",
+    "matplotlib"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/4YqMpYqjqps/maxresdefault.jpg",
+  "title": "Analyzing code contributions to the CPython project using NetworkX and Matplotlib",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4YqMpYqjqps"
+    }
+  ]
+}

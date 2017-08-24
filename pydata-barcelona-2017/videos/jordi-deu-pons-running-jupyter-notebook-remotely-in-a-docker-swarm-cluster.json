@@ -1,0 +1,33 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The current version of Jupyter Notebook computes the document state at the browser side, this is a problem if you run long jobs in a remote notebook from a laptop. If you close the browser you lose all the output of the current running cell. I will explain how we solved this problem in our lab. This solution it also allows a \"walkie-talkie\" like real-time collaboration.\n\n**Abstract**\n\nThe solution is based on running a docker container with a browser and a VNC server. All the remote access to the notebooks is done using Apache Guacamole a clientless remote desktop gateway. Everything is running on a dynamic docker swarm cluster of 20 nodes. As a lateral effect, this solution it also allows a real-time collaboration between users in a way that multiple users can access at the same time the same desktop (but they have to fight for the mouse and the keyboard).\n\nhttps://github.com/jordeu/pytalks/tree/master/20170520_pydata_jupyter_in_a_docker_cluster",
+  "duration": 2424,
+  "language": "eng",
+  "recorded": "2017-05-20T15:00:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/38/"
+    },
+    {
+      "label": "talk contents repository",
+      "url": "https://github.com/jordeu/pytalks/tree/master/20170520_pydata_jupyter_in_a_docker_cluster"
+    }
+  ],
+  "speakers": [
+    "Jordi Deu-Pons"
+  ],
+  "tags": [
+    "jupyter notebook",
+    "docker",
+    "swarm"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/0XYRr6MLrVA/maxresdefault.jpg",
+  "title": "Running jupyter notebook remotely in a docker swarm cluster",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0XYRr6MLrVA"
+    }
+  ]
+}

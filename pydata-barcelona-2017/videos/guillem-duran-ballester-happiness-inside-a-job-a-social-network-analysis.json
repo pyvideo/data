@@ -1,0 +1,57 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "In this talk, we will show how to analyze social network data from a mobile phone application to predict employee turnover and employee happiness. We will look into the process of extracting new features from a dataset using social network analysis techniques. We will also show how these features can be visualized and used to boost machine learning models.\n\n**Abstract**\n\nIn this talk, we will show how to analyze social network data to predict employee turnover and employee happiness. This talk is a summary of different notebooks about social network analysis that will be available on Github_. Please note that all the methodology and details we are using, are explained in depth in the notebooks.\n\nWe will cover the following topics:\n\n* From tables to graphs: How to use pandas_ and networkx_ to merge several DataFrames into a graph, and different criteria for creating a graph representation of a database.\n\n* Graph features: How to extract new features using social network analysis techniques such as `Non-Negative Matrix Factorization`_ and graph `centrality metrics`_. We will explain what these features represent, and how they relate to other types of features that can be extracted directly from the database.\n\n* Improving ML models: How to use graph features to boost machine learning models. We will talk about different feature selection techniques that can be used to filter out the most significant set of graph-based features using scikit-learn_.\n\n* Visualization: How to visualize social interactions using bokeh_, and how visualization techniques can be used to check data integrity.\n\nWe will also review common mistakes that can happen during the modeling process and, how to prevent invalid data from getting leaked into your machine learning models. To conclude we compare the merits of using a Python framework versus R Language in terms of development time and computational performance. Data set provided by https://myhappyforce.com\n\n.. _Github: https://github.com/Guillem-db/PyData-Bcn-2017\n.. _pandas: http://pandas.pydata.org/\n.. _networkx: https://networkx.github.io/\n.. _`Non-Negative Matrix Factorization`: http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html\n.. _`centrality metrics`: https://networkx.github.io/documentation/development/reference/algorithms.centrality.html\n.. _scikit-learn: http://scikit-learn.org/\n.. _bokeh: http://bokeh.pydata.org/en/latest/",
+  "duration": 2138,
+  "language": "eng",
+  "recorded": "2017-05-20T12:45:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/46/"
+    },
+    {
+      "label": "talk summary",
+      "url": "https://github.com/Guillem-db/PyData-Bcn-2017"
+    },
+    {
+      "label": "pandas",
+      "url": "http://pandas.pydata.org/"
+    },
+    {
+      "label": "networkx",
+      "url": "https://networkx.github.io/"
+    },
+    {
+      "label": "Non-Negative Matrix Factorization",
+      "url": "http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html"
+    },
+    {
+      "label": "centrality metrics",
+      "url": "https://networkx.github.io/documentation/development/reference/algorithms.centrality.html"
+    },
+    {
+      "label": "scikit-learn",
+      "url": "http://scikit-learn.org/"
+    },
+    {
+      "label": "bokeh",
+      "url": "http://bokeh.pydata.org/en/latest/"
+    },
+    {
+      "label": "myhappyforce",
+      "url": "https://myhappyforce.com"
+    }
+  ],
+  "speakers": [
+    "Guillem Duran Ballester"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2Ot3gyGLVA0/maxresdefault.jpg",
+  "title": "Happiness inside a job: a social network analysis",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2Ot3gyGLVA0"
+    }
+  ]
+}

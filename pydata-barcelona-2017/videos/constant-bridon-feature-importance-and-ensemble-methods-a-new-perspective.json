@@ -1,0 +1,27 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Ensemble methods are extremely performant in terms of prediction, but lack easy interpretation. Feature importance is not only counting up how many times a feature has been used in a weak learner, but also by how much this feature contributes to the result. Detailed example and implementation are provided in a jupyter notebook in python for the library \"xgboost\" of extreme gradient boosting.\n\n**Abstract**\n\nI - Feature importance in ensemble algorithms - state of the art\n\n1) Feature importance in sklearn/xgboost: basically counts the occurrences of a feature in all the weak learners\n2) Construction of the trees in xgboost: if the trees are deep enough, every feature is going to be used\n3) Global feature importance is a misleading: a given feature might be critical for a given subpopulation but completely irrelevant for another (ex : multi-class classification)\n\nII - Xgboost real feature importance\n\n1) Prediction influence: first splits influence the prediction more than last splits, so the importance of a feature must be weighted by the discrimination it provides\n\n2) Point-to-point feature importance: following the path of a given prediction, it is possible to weigh the importance of every used feature\n\n3) A relevant assessment of feature importance: explanation of a given prediction, and aggregation on a set of data points\n\nIII - Implementation and examples\n\n1) Point-to-point feature importance illustration and implementation explanation\n\n2) Evolution of feature importance with respect to learning iterations\n\n3) Noisy variables cancellation\n\nIV - Limits and ways forward\n\n1) A word on correlated variables\n\n2) Is there a compromise performance/interpretation ?",
+  "duration": 2582,
+  "language": "eng",
+  "recorded": "2017-05-20T12:45:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/14/"
+    }
+  ],
+  "speakers": [
+    "Constant Bridon"
+  ],
+  "tags": [
+    "xgboost"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/qdEhJ0uT7wk/maxresdefault.jpg",
+  "title": "Feature Importance and Ensemble Methods : a new perspective",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qdEhJ0uT7wk"
+    }
+  ]
+}

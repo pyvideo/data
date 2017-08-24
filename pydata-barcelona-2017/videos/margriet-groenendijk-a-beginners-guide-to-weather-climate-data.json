@@ -1,0 +1,27 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Weather is part of our every day lives. Who doesn\u2019t check the weather forecast regularly? But where does the data come from, what is it made of? The answer is a mix of measurements and models. This session looks at observations, predictions and forecast models, and weather data as a variable to consider in machine learning models. Learn how it is done from several Python notebook examples.\n\n**Abstract**\n\nWeather is part of our every day lives. Who doesn\u2019t check the rain radar before heading out, or the weather forecast when planning a weekend away? But where does this data come from, what is it made of, and what can you do with it? The answer is a mix of measurements, models and statistics. This session will use Python notebooks with examples of how it is done:\n\n*  Weather is quantified by the temperature, humidity, wind, rainfall and radiation. These variables are all measured at thousands of locations worldwide and all data is collected and checked to improve the weather forecasts. Learn how to interpolate this data to create for instance global temperature maps to estimate the global monthly and annual temperature.\n*  The observations are used to constrain the global weather forecast models. These models are complex and simulate the energy, water and carbon fluxes between and in the atmosphere, ocean and land. The output from the models is gridded data, which is generally stored in binary netcdf files. Learn how to load and process the gridded data into time series or maps for further analysis.\n*  The raw model data is processed for you when you request weather data through a REST API. Learn how to use a weather API to train a supervised model with historical weather time series and then use the weather forecast data to do predictions. This session provides you with a brief overview of the science behind weather and climate forecasts and gives you the tools to get started with weather data.",
+  "duration": 2623,
+  "language": "eng",
+  "recorded": "2017-05-20T12:00:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/43/"
+    }
+  ],
+  "speakers": [
+    "Margriet Groenendijk"
+  ],
+  "tags": [
+    "climate"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/U_Aq2cPxwss/maxresdefault.jpg",
+  "title": "A Beginners Guide to Weather & Climate Data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=U_Aq2cPxwss"
+    }
+  ]
+}

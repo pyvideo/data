@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Complexity is tricky. Some years ago we got how to scale the performance of distributed applications, and that's why everyone is talking about Big Data. But the challenge now is scaling the complexity within a fast-changing environment without penalizing the performance. These are the conclusions after one year developing a library trying to handle this issue, and using it in production.\n\n**Abstract**\n\nThe development of large-scale distributed applications is an engineering challenge by itself. Development has to be orthogonal to be scalable, as you may know if you have heard about the Mythical Man-Month and the Conway's law: trying to make your application faster may slow down your development. Managing complexity is a new technology trend, and NFQ and the Carlos III University of Madrid have developed a library to make large-scale distributed applications more sensible called pylm (https://pylm.readthedocs.io). Since this library has been already used in production, it is time to summarize what are the challenges one faces when building something more intricate than a Spark cluster.\n\nThis talk is about the value of developing in-house tools and obtaining deep technological insight opposed to the successive integration of trendy technologies. The latter is suitable to implement one-shot tools for isolated projects, but when facing a multi-year complex project, the former becomes a more solid ground for long-term maintenance. Complexity piles up nonlinearly, and the most popular tools nowadays cringe when they have to be tightly integrated, since in the long term it is impossible to isolate the technical and the human aspects of development.\n\nComplexity's weight is getting heavier in this scalability-obsessed world, and it's time to talk about it.\n\nThis project has been funded by the Spanish Ministry of Economy and Competitivity under the grant IDI-20150936, cofinanced with FEDER funds",
+  "duration": 2197,
+  "language": "eng",
+  "recorded": "2017-05-20T12:00:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/45/"
+    },
+    {
+      "label": "pylm",
+      "url": "https://pylm.readthedocs.io"
+    }
+  ],
+  "speakers": [
+    "Guillem Borrell Nogueras"
+  ],
+  "tags": [
+    "pylm"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/rPDZg2--5uM/maxresdefault.jpg",
+  "title": "How to manage complexity in distributed applications",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rPDZg2--5uM"
+    }
+  ]
+}

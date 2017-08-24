@@ -1,0 +1,28 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "In all living systems any biological function is carried out by the interactions of proteins. The specific function of a protein is determined by its own 3d shape that can be modeled in a list of single atom coordinates derived from experimental analysis. In our lab we use python to process the information of hundred thousands structures already known to predict common patterns in protein folding.\n\n**Abstract**\n\nFrom DNA, the genetic code is translated into proteins being these macro molecular structures in charge to execute specific cellular functions. All proteins are composed by the combination of the same 20 amino acids, indeed, it is the 3D shape and detailed structure that differentiate a protein from another and so their functions. Determining protein structure is fundamental to understand their biological function; modify and alter their structures is the way in which drugs can block or activate a protein activity and doing so preventing or treating diseases. In our lab we are understanding protein and DNA structures to the level of atomic resolution contributing to the biomedical research. We process with python the information of hundred thousands 3D coordinate structures already known and predict patterns that can be used to determine structure of unknown proteins. To achieve this objective, proteins are first reduced to a series of specific 3D vectors (Characteristic Vectors [#]_) and then the geometrical relationships among them are extracted. We make use of biopython and python-igraph libraries to model each structure vectors in a network graph and we use supervised and unsupervised learning to classify and predict structure features. Python-igraph is a wrapper to a C code implementation of a set of graph algorithms of classical use in network analysis.\n\n.. [#] Sammito M1, Mill\u00e1n C, Rodr\u00edguez DD, de Ilarduya IM, Meindl K, De Marino I, Petrillo G, Buey RM, de Pereda JM, Zeth K, Sheldrick GM, Us\u00f3n I. Exploiting tertiary structure through local folds for crystallographic phasing. Nat Methods. 2013 Nov;10(11):1099-101. doi: 10.1038/nmeth.2644. Epub 2013 Sep 15.",
+  "duration": 2491,
+  "language": "eng",
+  "recorded": "2017-05-21T15:00:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/27/"
+    }
+  ],
+  "speakers": [
+    "Massimo Domenico Sammito"
+  ],
+  "tags": [
+    "biopython",
+    "python-igraph"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/aEFR7_EzMJs/maxresdefault.jpg",
+  "title": "How to map a protein structure into a network graph to understand protein folding",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aEFR7_EzMJs"
+    }
+  ]
+}
