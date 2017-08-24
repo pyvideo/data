@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "In todays world of online business, it is difficult to moderate all the content coming to your site. In this talk we share our experiences on how we built machine learning models to moderate 100+ million classified ads every month. Audience will get a chance to experience a real world of content moderation and a race to beat online fraudsters and scammers.\n\n**Abstract**\n\nIn an online classified's business, one may encounter a lot of spam and fraud once the business starts to grow. One way to inhibit this is to moderate all incoming advertisements by using static filters or having human moderators but this may not go a long way if the business deals with millions of advertisements every day. Static filters may catch good advertisements and flag them as bad and would also require humans to add, remove or improve them. On the other hand employing human moderators to moderate all incoming advertisements does not scale. Creating machine learning models is what we believe is the right way to address this kind of problem. Machine learning models identifies patterns in data and classifies ads thereby reducing the overhead of creating complex filters and reducing number of human moderators\n\nIn this talk we share our experiences in building machine learning models to act as human moderators. This talk will cover mainly the following topics\n\n- Creating a simple platform architecture that can do predictions on millions of requests without spending too much resources on devops and machines\n- Batching of requests so as to use CPU's optimally.\n- Containerising code so as to have ease of deployments\n- Creating models from training set containing millions of rows and thousands of features which can be trained on simple machines rather than using complex Spark Hadoop Architectures.\n- Using SVM files as a means data format rather than huge dataframes that can not fit in memory\n- Orchestrate model generation pipeline using Luigi workflow.\n- Controlling error rate using prediction probability thresholds\n- Evaluating moderation/fraud detection models.\n- Management of hundreds of models and manage their performance across all geographical regions.\n\n",
+  "duration": 1992,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "Vaibhav Singh",
+    "Jaroslaw Szymczak"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/MoOjj8eF8FM/maxresdefault.jpg",
+  "title": "Machine Learning to moderate ads in real world classified's business",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MoOjj8eF8FM"
+    }
+  ]
+}

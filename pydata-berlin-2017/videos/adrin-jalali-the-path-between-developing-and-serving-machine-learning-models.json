@@ -1,0 +1,41 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "As a data scientist, one of the challenges after you develop and train your model, is to deploy it in production where other systems would use the output of the model in real time. In this tutorial we use PipelineIO, to deploy a cluster on the cloud, which gives us a JupyterHub to develop our method, and uses PMML to persist and deploy and serve the model.\n\n**Abstract**\n\nWhenever you have a machine learning module in your pipeline, persisting and serving the model is not yet a trivial task. This tutorial shows how an open source framework using several open source technologies could potentially solve the problem.\n\nMy journey started with this[1] question on StackOverflow. I wanted to be able to do my usual data science stuff, mostly in python, and then deploy them somewhere serving like a REST API, responding to requests in real-time, using the output of the trained models. My original line of thought was this workflow:\n\n- train the model in python or pyspark or in scala in apache spark.\n- get the model, put it in an apache flink stream and serve.\n\nThis was the point at which I had been reading and watching tutorials and attending meetups related to these technologies. I was looking for a solution which is better than:\n\n- train models in python\n- write a web-service using flask, put it behind a apache2 server, and put a bunch of them behind a load balancer.\n\nThis just sounded wrong, or at its best, not scalable. After a bit of research, I came across PipelineIO[2,3] which seems to promise exactly what I'm looking for. In this tutorial we use PipelineIO, to deply a cluster on the cloud, which gives us a JupyterHub to develop our method, and uses PMML to persist and deploy and serve the model. My own jurney and take from PipelineIO are documented github[4]. I'll use Amazon AWS, but PipelineIO uses Kubernetes and you can easily deploy in any environment in which you can use Kubernetes.\n\nIf you work in an environment in which you have different machine learning modules, which should be used in production in real time and as a part of a stream processing pipeline, this talk is for you.\n\n[1] http://stackoverflow.com/questions/42719953/how-to-develop-a-rest-api-using-an-ml-model-trained-on-apache-spark\n\n[2] http://pipeline.io\n\n[3] https://github.com/fluxcapacitor/pipeline\n\n[4] https://github.com/adrinjalali/pipeline-docs\n\n",
+  "duration": 3466,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    },
+    {
+      "label": "pipeline web",
+      "url": "http://pipeline.io"
+    },
+    {
+      "label": "pipeline documentation",
+      "url": "https://github.com/adrinjalali/pipeline-docs"
+    },
+    {
+      "label": "pipeline repository",
+      "url": "https://github.com/fluxcapacitor/pipeline"
+    },
+    {
+      "label": "Stack Overflow: How to develop a REST API using an ML model trained on Apache Spark?",
+      "url": "https://stackoverflow.com/questions/42719953/how-to-develop-a-rest-api-using-an-ml-model-trained-on-apache-spark"
+    }
+  ],
+  "speakers": [
+    "Adrin Jalali"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0knKCboeDBM/maxresdefault.jpg",
+  "title": "The path between developing and serving machine learning models.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0knKCboeDBM"
+    }
+  ]
+}

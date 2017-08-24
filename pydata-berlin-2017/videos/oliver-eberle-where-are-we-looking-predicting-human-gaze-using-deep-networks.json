@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Which features in an image draw our focus to a specific area while neglecting others entirely? This fascinating question has been motivating researchers for decades but also sparked interest in design and marketing. Thus, saliency models aim at identifying locations that stand out from their visual neighbourhood. Using tensorflow and matplotlib this talk will shed some light on these features..\n\n**Abstract**\n\nVisual saliency models aim at describing human eye fixations and finding the most relevant features in a visual scene. From experience one can justify two important processes that drive saliency: First, low level features like color, intensity or orientation contrast and second, high-level features like objects, faces or signs.\n\nEye fixations serve as an experimental setup to study saliency phenomena and give insight into the ways we attend scenes. Hereby, computational modelling is used to explain what information processing might be responsible for saliency. Evaluating how well models explain observed fixations give a framework of identifying what features contribute to saliency by designing models with different, e.g. high- or low-level feature extractors.\n\nMany saliency models have used low-level features but were faced with drawbacks in explaining pronounced saliency caused by high-level contributions. Simply adding face or object detectors has been a plausible follow-up but revealed little about the underlying mechanisms.\n\nRecent advances in object classification by training convolutional neural networks (CNN) have revealed rich filter representations in a wide range of high-level features and are therefore a promising candidate in building models of visual processing (e.g. VGG-19 trained on ImageNet).\n\n",
+  "duration": 2255,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "Oliver Eberle"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Fg6-DavRoNI/maxresdefault.jpg",
+  "title": "Where are we looking? Predicting human gaze using deep networks.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Fg6-DavRoNI"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Parametric uncertainty is broadly difficult to quantify. In particular, when those parameters don't fit nice distributions it can be hard to generate reasonable simulations. Polynomial chaos is a somewhat obscure technique that leverages a natural connection between probability distributions and orthogonal polynomial families. This talk will demonstrate the technique and its applications.\n\n**Abstract**\n\nThere is an intricate link between orthogonal polynomial families and well-known probability distributions. Known as Polynomial Chaos, this technique is largely unknown outside of some engineering fields. Nevertheless, the method allows us to model arbitrary distributions (with finite second moment) using distributions that are more familiar, e.g. the uniform or normal distributions. The polynomial chaos technique shifts the burden of understanding random variables to one of understanding deterministic series coefficients.\n\nThis method is particularly good for understanding dynamical systems with parametric uncertainty. The Polynomial Chaos expansion allows us to generate Monte Carlo simulations with far fewer simulation runs. In addition, we can use the method to quantify uncertainty in observations even when faced with small sample sizes. This talk will demonstrate the derivation of the technique and include some Python examples of ways it can be used to model systems and understand data in the presence of uncertainty. This will be a highly technical talk, touching on elements of measure-theoretic probability and functional analysis.\n\n",
+  "duration": 2286,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "Emily Gorcenski"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Z-Qio-n6yPc/maxresdefault.jpg",
+  "title": "Polynomial Chaos: A technique for modeling uncertainty",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Z-Qio-n6yPc"
+    }
+  ]
+}

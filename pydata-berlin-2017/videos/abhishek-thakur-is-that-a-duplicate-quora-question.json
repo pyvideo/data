@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Quora released its first ever dataset publicly on 24th Jan, 2017. This dataset consists of question pairs which are either duplicate or not. Duplicate questions mean the same thing. In this talk, we discuss methods which can be used to detect duplicate questions using Quora dataset. Of course, these methods can be used for other similar datasets.\n\n**Abstract**\n\nQuora released its first ever dataset publicly on 24th Jan, 2017. This dataset consists of question pairs which are either duplicate or not. Duplicate questions mean the same thing.\n\nFor example, the question pairs below are duplicates (from the Quora dataset)\n\nHow does Quora quickly mark questions as needing improvement? Why does Quora mark my questions as needing improvement/clarification before I have time to give it details? Literally within seconds\u2026\n\nWhy did Trump win the Presidency? How did Donald Trump win the 2016 Presidential Election?\n\nWhat practical applications might evolve from the discovery of the Higgs Boson? What are some practical benefits of discovery of the Higgs Boson?\n\nSome examples of non-duplicate questions are as follows:\n\nWho should I address my cover letter to if I'm applying for a big company like Mozilla? Which car is better from safety view?\"\"swift or grand i10\"\".My first priority is safety?\n\nMr. Robot (TV series): Is Mr. Robot a good representation of real-life hacking and hacking culture? Is the depiction of hacker societies realistic? What mistakes are made when depicting hacking in \"\"Mr. Robot\"\" compared to real-life cybersecurity breaches or just a regular use of technologies?\n\nHow can I start an online shopping (e-commerce) website? Which web technology is best suitable for building a big E-Commerce website?\n\nIn this talk, we discuss methods which can be used to detect duplicate questions using Quora dataset. Of course, these methods can be used for other similar datasets.\n\nMethods discussed in this talk range from simple TF-IDF, Singular Value Decomposition, Fuzzy Features, Word2Vec features, GloVe features, LSTMs and 1D CNN. We provide a comparison of performance of these algorithms on the Quora dataset.\n\nUsing very simple methods and then using deep learning methods in python we achieved an accuracy similar to current state of the art on a normal machine with only one GPU.\n\n",
+  "duration": 2025,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "Abhishek Thakur"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vA1V8A69e9c/maxresdefault.jpg",
+  "title": "Is That a Duplicate Quora Question?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vA1V8A69e9c"
+    }
+  ]
+}

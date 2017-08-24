@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Deploying a deep model on a mobile device to be used for real-time detection is not quite trivial yet. Defining your Deep Learning architecture, gathering the right data, designing your training process, evaluating your models and turning this into a pipeline that keeps everyone on the team (somewhat) sane - these all have their pitfalls.\n\n**Abstract**\n\nDeep Learning has gone through the hype phase where it seemed like a skeleton key, followed by a phase of despair for many who found the building blocks to be too esoteric and the training code and process too unreliable. Deploying on a device with strong hardware limitations adds that extra spice to the mix.\n\nThis talk addresses a very specific use case: preparing a Deep Neural Network to be used for detection in real time in a mobile phone app. It is meant for hands-on engineers and data scientists who live in that area where writing scalable and testable code is every bit as important (and troublesome!) as understanding your loss function.\n\nWe will cover different steps of the process, such as:\n\nDefining a good model for you:\n\n* Your device: it is what it is.\n* Cargo cult or what is this layer doing and do we need it?\n\nGathering the right training data: who, where and how will be using your app?\n\nTraining:\n\n* Transfer learning as a small company's best friend.\n* Integrating different sources in your data pipeline. Evaluating earlier rather than later.\n\nDepending on time and interest, we may also go over data augmentation and/or model persistence.\n",
+  "duration": 2284,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "Irina Vidal Migallon"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/bSMxgDHRJC0/maxresdefault.jpg",
+  "title": "Deep Learning for detection on a phone",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=bSMxgDHRJC0"
+    }
+  ]
+}

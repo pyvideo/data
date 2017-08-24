@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "The talk is going to present, with examples, how a software engineer team can work together with data scientists (both in-house and external collaborators) in order to leverage their unique domain knowledge and skills in analyzing data, while supporting them to work independently and making sure that their work can be constantly tested/evaluated and easily integrated into the larger product.\n\n**Abstract**\n\nCollaboration between data scientists and software engineers can have the following issues:\n\n\u2022 Different tools used between data scientists and engineers (more interactive vs more automated, for example ipython notebook vs command line)\n\n\u2022 If getting the latest data requires ops/engineering knowledge then the analysis may be done in \"stale\" data or a too-small subset of the data (As an example: data scientists working with manual exports )\n\n\u2022 Regression testing/parameter tuning/evaluation of results/backfills and other common scenarios in data-driven applications also require more engineering knowledge. The engineers are in the best position to provide tools and processes for the data science team, but it can happen that this potential goes untapped\n\nThose issues lead to more time to production, unhappiness in the data science team if they end up fighting with operations work instead of doing mostly the work they like, less trustworthy results and less trust between teams in general. If collaboration is done right however, data science and engineering teams can have a very good symbiotic relationship where each person takes advantage of their strengths towards a common goal.\n\nSome collaboration patterns to foster a good relationship between data scientists and engineers are the following:\n\n\u2022 Continuous evaluation \u2013 making sure the data science algorithm continues to give good results with every commit (or combinations of commits, in case there is several repositories with different data scientists working on them)\n\n\u2022 Report templating \u2013 data scientists can work with jupyter notebooks with an extension that allows those ipynb files to be used as templates (ie, where some variable values can be filled in later). Those notebooks can then be applied to different datasets to quickly diagnose issues.\n\n\u2022 Data API \u2013 have a well documented API for the data scientists to have easy access to the data so that they can do their exploration without needing the software engineering team to manually provide exports\n\n\u2022 Some flexibility regarding tools \u2013 if domain experts prefer to use SFTP to upload files to the server for analysis, let them. Too much flexibility can be an anti-pattern.\n\n",
+  "duration": 2242,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "Karolina Alexiou"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/7oxC7cbRYyE/maxresdefault.jpg",
+  "title": "Patterns for Collaboration between Data Scientists And Software Engineers",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7oxC7cbRYyE"
+    }
+  ]
+}
