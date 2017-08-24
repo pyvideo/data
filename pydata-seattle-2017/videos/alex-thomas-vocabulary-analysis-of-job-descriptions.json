@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "We will explore how to do some basic natural language processing (NLP) on the text including tokenization and stemming to combine word forms, and stop word removal and sentence detection to examine word sequences (n-grams). We will then look at the distribution of the vocabulary terms and n-grams in our data set using term frequency and inverse document frequency (TF.IDF).\n\n**Abstract**\n\nIn the initial analysis of a data set it is useful to gather informative summaries. This includes evaluating the available fields, by finding unique counts or by calculating summary statistics such as averages for numerical fields. These summaries help in understanding what is in the data itself, the underlying quality, and illuminate potential paths for further exploration. In structured data, this a straightforward task, but for unstructured text, different types of summaries are needed. Some useful examples for text data include a count of the number of documents in which a term occurs, and the number of times a term occurs in a document. Since vocabulary terms often have variant forms, e.g. \u201cperforms\u201d and \u201cperforming\u201d, it is useful to pre-process and combine these forms before computing distributions. Oftentimes, we want to look at sequences of words, for example we may want to count the number of times \u201cdata science\u201d occurs, and not just \u201cdata\u201d and \u201cscience\u201d. We will use the pandas Python Data Analysis Library and the Natural Language Toolkit (NLTK) to process a data set of job descriptions posted by employers in the United States, and look at the difference in vocabularies across different job segments.",
+  "duration": 6910,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Alex Thomas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fCBObQCBnBY/maxresdefault.jpg",
+  "title": "Vocabulary Analysis of Job Descriptions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fCBObQCBnBY"
+    }
+  ]
+}

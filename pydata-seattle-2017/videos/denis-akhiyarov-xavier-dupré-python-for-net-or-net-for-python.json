@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "For long time .NET developers wanted to tap into the rich libraries from SciPy and PyData communities. Bridging .NET and CPython runtimes is the easiest approach to solving this problem. Python for .NET (pythonnet, Python.NET) makes this possible by wrapping CPython C-API from C# in .NET and Mono runtimes. This also allows two-way interoperability between both runtimes on Windows, Linux, and OSX (MacOS), and even Linux subsystem on Windows! This presentation is going to show how to use Python code from .NET and .NET assemblies from Python. Particular importance in Python.NET is given to installation options: Python wheels, conda and nuget binaries, docker images, and even distribution with WinPython. The deployment is also simplified with tools such as PyInstaller and cx_freeze. This presentation will show how to install and deploy Python.NET apps using these tools. In this talk we are going to show how to call numpy, scipy, pandas, matplotlib, sympy, and pyomo from .NET without much boilerplate code. The second part will show how to use .NET from Python, particularly C# magic cells (clrmagic) in ipython kernel with Jupyter Notebooks. The Python.NET tutorial was converted to Jupyter Notebook and C# code cells that are embedded within the same notebook. This presentation will show few demos with REPL experience both from C# and Python using IPython, scriptcs, and Visual Studio. All libraries used in this presentation are open-source and available on all major platforms. Python for .NET is a library developed since 2003, which \"graduated\" from Zope, moved to SourceForge and eventually to GitHub, where it became widely used and adopted. This talk will also demonstrate clrmagic - Jupyter extension, built on top of pythonnet and developed by authors of this presentation. Python.NET is built with a number of open-source technologies. It uses pycparser, ply, and clang (gcc and MSVC also work) for parsing internal CPython structures. .NET types are exposed to Python with Unmanaged Exports (DllExport) open-source \"compiler\" on Windows. On other platforms, C-API of Mono and CPython are used to \"bootstrap\" both runtimes. Python.NET is used by financial algorithmic trading platforms, engineering companies, and few open-source projects: QuantConnect Lean, pywebview, Pybee Beeware Toga cross-platform UI toolkit. Python.NET enables large .NET applications to embed numerical Python libraries without boilerplate code and without sacrificing for performance.",
+  "duration": 2429,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Denis Akhiyarov",
+    "Xavier Dupr\u00e9"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/P7Or7XzeIno/maxresdefault.jpg",
+  "title": "Python for NET or NET for Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=P7Or7XzeIno"
+    }
+  ]
+}

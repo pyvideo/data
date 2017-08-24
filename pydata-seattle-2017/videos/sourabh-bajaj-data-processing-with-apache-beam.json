@@ -1,0 +1,37 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "In this talk, we present the new Python SDK for Apache Beam - a parallel programming model that allows one to implement batch and streaming data processing jobs that can run on a variety of execution engines like Apache Spark and Google Cloud Dataflow. We will use examples to discuss some of the interesting challenges in providing a Pythonic API and execution environment for distributed processing\n\n**Abstract**\n\nCurrently some popular data processing frameworks such as Apache Spark consider batch and stream processing jobs independently. The APIs across different processing systems such as Apache Spark or Apache Flink are also different. This forces the end user to learn a potentially new system every time. Apache Beam [1] addresses this problem by providing a unified programming model that can be used for both batch and streaming pipelines. The Beam SDK allows the user to execute these pipelines against different execution engines. Currently Apache Beam provides a Java and Python SDK.\n\nIn the talk, we start off by providing an overview of Apache Beam using the Python SDK and the problems it tries to address from an end user\u2019s perspective. We cover the core programming constructs in the Beam model such as PCollections, ParDo, GroupByKey, windowing and triggers. We describe how these constructs make it possible for pipelines to be executed in a unified fashion in both batch and streaming. Then we use examples to demonstrate these capabilities. The examples showcase using Beam for stream processing and real time data analysis, and how Beam can be used for feature engineering in some Machine Learning applications using Tensorflow. Finally, we end with Beam's vision of creating runner and execution independent graphs using the Beam FnApi [2].\n\nApache Beam [1] is a top level Apache project and is completely open source. The code for Beam can be found on Github [3].\n\n[1] https://beam.apache.org/ [2] http://s.apache.org/beam-fn-api [3] https://github.com/apache/beam",
+  "duration": 2264,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    },
+    {
+      "label": "apache beam",
+      "url": "https://beam.apache.org/"
+    },
+    {
+      "label": "apache beam repository",
+      "url": "https://github.com/apache/beam"
+    },
+    {
+      "label": "beam fnapi",
+      "url": "http://s.apache.org/beam-fn-api"
+    }
+  ],
+  "speakers": [
+    "Sourabh Bajaj"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-6xpDRiurmA/maxresdefault.jpg",
+  "title": "Data processing with Apache Beam",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-6xpDRiurmA"
+    }
+  ]
+}

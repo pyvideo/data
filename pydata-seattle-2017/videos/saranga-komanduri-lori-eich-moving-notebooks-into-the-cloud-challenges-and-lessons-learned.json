@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The product and engineering teams of Civis Analytics integrated Jupyter notebooks into our cloud-based platform, providing the ability to run multiple notebooks concurrently and share them. We'll discuss the technical challenges we encountered and how we solved them, and what we learned about notebook users and their user stories.\n\n**Abstract**\n\nIn late 2016, we decided to make notebooks a core component of our data-science platform, giving each user the ability to run multiple notebooks concurrently in the cloud and share them. To do this, we had to tackle the problem from both product and engineering perspectives. Along the way, we learned about how notebooks fit into data-science work and how we could best leverage them to provide value to our users.\n\nWe present major findings from user research that we conducted, including user surveys, a design sprint, and analysis of Civis data scientists' notebooks. For instance, we learned that in addition to providing an exploratory workspace, notebooks can be used as deliverables in two very different ways: to document a particular analysis, and to build reports or dashboards. The former requires that running the notebook generate the same results every time. The latter requires updated results every time. Our users often get their data by querying a live system, so we built an always-on data store of past queries that can be used when analyses must be reproducible. We also educated our users about various tools for building reports from notebooks.\n\nAnother significant engineering challenge is collecting the dependencies for a notebook. Notebooks are typically used on local machines that accumulate state over time. This is in contrast to cloud instances, which are dynamically provisioned. Bundling dependencies with a notebook is a major value-add, as it allows dependencies to be changed and shared easily without affecting other notebooks. We were able to take advantage of Docker on Kubernetes to manage dependencies and bring provisioning delays down to acceptable levels, though this remains a significant technical challenge.\n\nFinally, we present ways that notebook products could improve to better integrate with enterprise cloud platforms. For example, better support for non-local filesystems or UI for observing the status of long-running operations (querying a remote data warehouse, for example) could help move cloud notebooks further into the enterprise.",
+  "duration": 2049,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Saranga Komanduri",
+    "Lori Eich"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Gq_8LaGfwxY/maxresdefault.jpg",
+  "title": "Moving notebooks into the cloud: challenges and lessons learned",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Gq_8LaGfwxY"
+    }
+  ]
+}

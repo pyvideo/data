@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Forecasting time series data across a variety of different time series comes with many challenges. Using the TICK stack we demonstrate a workflow that helps to overcome those challenges. Specifically we take a look at the Facebook Prophet procedure for forecasting business time series.\n\n**Abstract**\n\nForecasting time series data can require a significant amount of attention in order to get reliable results. As the number and variety of time series increases it becomes too expensive to manage each forecast individually. Using the TICK stack we demonstrate a workflow that helps to reduce the amount of attention each forecast needs. This is accomplished by using the procedure called Prophet, which was recently open sourced by Facebook.\n\nThe basic idea of this procedure is two fold:\n\nReduce the amount of effort to train and maintain a single forecast.\nAutomatically surface the forecasts that are performing poorly.\nTo reduce the amount of effort per forecast, the Facebook Prophet algorithm is a simple model with a few well understood parameters. By automatically surfacing forecasts that perform poorly, effort need only be spent when specific forecasts need attention.\n\nThe last piece needed to make this process scale is a single set of tools that follow the workflow. We demonstrate how the TICK stack can be used to manage forecasting time series at scale, using InfluxDB to store the data and Kapacitor to manage and surface forecasts.",
+  "duration": 2234,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Nathaniel Cook"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/raEyZEryC0k/maxresdefault.jpg",
+  "title": "Forecasting Time Series Data at scale with the TICK stack",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=raEyZEryC0k"
+    }
+  ]
+}

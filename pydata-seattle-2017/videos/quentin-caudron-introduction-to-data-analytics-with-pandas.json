@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Data analytics in Python benefits from the beautiful API offered by the pandas library. With it, manipulating and analysing data is fast and seamless. In this workshop, we'll take a hands-on approach to performing an exploratory analysis in pandas. We'll begin by importing some real data. Then, we'll clean it, transform it, and analyse it, finishing with some visualisations.\n\nIntroduction\nIn this hands-on workshop, we'll walk through the exploratory analysis of real-world data. Datasets are often messy, full of holes and inconsistencies, and a data scientist or analyst may spend a large fraction of their time cleaning and preparing data.\n\nFortunately, pandas makes a lot of this fairly trivial. It allows the user to import data from all sorts of different sources, and then manipulate the powerful DataFrame object. Analytics with pandas are human-friendly.\n\n**Workshop**\n\nPulling in the data\nStarting with some data in CSV form, we'll look at the general properties of our dataset. What columns do we have; what kind of values are contained in them ? We'll identify problematic fields, and join two datasets to make one complete dataframe.\n\nCleaning\nWe've identified problems with our data, and now it's time to correct them. We'll fill in missing values, drop irrelevant rows, and fix incorrect datatypes.\n\nTransforming the data\nNext, we'll standardise some numerical fields where we're looking for deviations rather than absolute values, and derive some new columns based on the data we have.\n\nVisualisation\nThroughout, we'll be generating visualisations, to guide us in where to go next.\n\nPrerequisites\nYou'll need to be fairly comfortable working with Python. We won't be doing anything overly complicated, but having a grasp of Python syntax is expected.\n\nLaptop\nIf you want to follow along, please have a working Python setup, with pandas and matplotlib installed. Aim for a recent version of pandas. If you're unsure what to install, I recommend getting Python 3 through Anaconda : https://www.continuum.io/downloads - this distribution comes with everything you need and is very friendly.",
+  "duration": 6694,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    },
+    {
+      "label": "anaconda",
+      "url": "https://www.continuum.io/downloads"
+    }
+  ],
+  "speakers": [
+    "Quentin Caudron"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/F7sCL61Zqss/maxresdefault.jpg",
+  "title": "Introduction to data analytics with pandas",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=F7sCL61Zqss"
+    }
+  ]
+}

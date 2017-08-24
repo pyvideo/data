@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "bqplot is an interactive plotting library for the Jupyter notebook in which every attribute of the plot is an interactive widget. bqplot can be linked with Jupyter widgets to create rich visualizations with just a few lines of Python code. These visualizations, which are based on D3.js and SVG, provide an unparalleled level of interactivity without a single line of JavaScript code.\n\n**Abstract**\n\nbqplot is an interactive 2D plotting library for the Jupyter notebook in which every attribute of the plot is an interactive widget. bqplot can be linked with other Jupyter widgets to create rich visualizations from just a few lines of Python code. Since bqplot is built on top of the widgets framework of the notebook it leverages the widget infrastructure to provide the first plotting library that communicates between Python and JavaScript code. The visualizations are based on D3.js and SVG, enabling fast interactions and beautiful animations. In this talk, attendees will learn how to build interactive charts, dashboards and rich GUI applications using bqplot and ipywidgets.\n\nIn the first part of the talk, we will walk the user through the bqplot API:\n\n- Grammar of Graphics based object model (axes, scales, marks etc) which lets users build custom visualizations \n- Simple API similar to Matplotlib's pyplot, which provides sensible default choices for most parameters \n- Interaction API which lets the user interact with the charts (selecting subset of data, panzoom etc)\n\nWe will also review how bqplot ties into the new JupyterLab IDE, by demonstrating how the charts leverage the dashboarding, resizing and output mirroring tools of JupyterLab.\n\nIn the second part of the talk, drawing examples from fields like Data Science and Finance we will show examples of building interactive charts and dashboards using bqplot and ipywidgets. We will work through examples of using bqplot with popular deep learning libraries to build custom visual dashboards directly in the notebook, including network visualizations and other novel interactive ways to control your training. We will visit the use of the novel selections offered by bqplot to show how they can be used to create advanced applications for time series data. Finally, we will visit the notion of templates - reusable interactive objects that enhance not only end user workflow, but provide developers and researchers seamless ways to incorporate interactivity into their development workflows.",
+  "duration": 1881,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Dhruv Madeka"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/MJsN2DZl_l0/maxresdefault.jpg",
+  "title": "bqplot Interactive Data Visualization in Jupyter",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MJsN2DZl_l0"
+    }
+  ]
+}

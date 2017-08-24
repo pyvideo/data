@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Machine learning at Stripe has a foundation built on Python and the PyData stack, with scikit-learn and pandas continuing to be core components of an ML pipeline that feeds a production system written in Scala. This talk will cover the ML Infra team\u2019s work to bridge the serialization and scoring gap between Python and the JVM, as well as how ML Engineers ship models to production.\n\n**Abstract**\n\nThe Stripe Machine Learning Infrastructure team exists to help engineers, data scientists, and analysts at Stripe develop and ship models to production. They own and operate the primary service that provides an API for scoring models for applications such as fraud and NLP, and are always looking for ways to help internal Stripe customers ship ML for new applications or model types.\n\nML models at Stripe are trained and evaluated in Python, with scikit-learn as an integral piece in our pipeline. However, the primary scoring service is written in Scala, which presents us with a problem: how do we serialize and export models from Python to the JVM? This talk will discuss our serialization framework for serializing and packaging machine learning components; by the end you will learn how we export models, transformers, encoders, and pipelines from the world of scikit to that of our Scala service.\n\nWe'll then cover what happens after the model has been loaded by our Scala service, namely how we name models uniquely and use metadata we call \"tags\" to keep track of what model is currently running in production, history of production models, etc. We'll discuss how we score candidate models in parallel to the production model to evaluate them for promotion to production.\n\nBy the end of the talk you should have a clear idea of how we serialize, package, promote, and evaluate candidate models across the entire machine learning infra stack, from the start of training in Python to the final scoring in Scala.",
+  "duration": 1913,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Rob Story"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vKU8MWORHP8/maxresdefault.jpg",
+  "title": "Machine Learning Infrastructure at Stripe: Bridging from Python JVM",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vKU8MWORHP8"
+    }
+  ]
+}

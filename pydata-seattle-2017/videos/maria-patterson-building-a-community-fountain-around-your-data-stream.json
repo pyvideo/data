@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "With the trend towards data streams, building successful streaming analysis systems means building a community comfortable with streaming tech. But getting started with stream processing can be intimidating for anyone. In this talk, I\u2019ll talk about designing and deploying a mini-testbed system to scale down the stream and how you can practice your favorite algorithm on an astronomical data stream.\n\n**Abstract**\n\nThe increasing availability of real-time data sources and the Internet of Things movement have pushed data analysis pipelines towards stream processing. But what does this really mean for my applications, and how do I have to change my code and workflow? In a new era of \u201cKappa architecture,\u201d it\u2019s easier than ever to use the same programming model for both batch and stream processing.\n\nFor those interested in the design and operations side, I will cover high-level design considerations for architecting a modular and scalable stream processing infrastructure that can support the flexibility of different use cases and can welcome a community of users who are more familiar with batch processing.\n\nFor the fast-batching Pythonistas, I\u2019ll talk about some of the advantages of using streaming tech in a data processing pipeline and how to make your life easier with\n\n1) built-in replication, scalability, and stream \u201crewind\u201d for data distribution with Kafka,\n2) structured messages with strictly enforced schemas and dynamic typing for fast parsing with Avro, and\n3) a stream processing interface that is similar to batch with Spark that you can even use in a Jupyter notebook.\n\nWhen you\u2019re ready to jump into the stream, or at least take a drink from the fountain, I\u2019ll point you to an open source, containerized (with Docker), streaming ecosystem testbed that you can deploy to mock a stream of data and take your streaming analytics on a dry run over an astronomical data stream.",
+  "duration": 2552,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Maria Patterson"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Co8XiL6242I/maxresdefault.jpg",
+  "title": "Building a community fountain around your data stream",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Co8XiL6242I"
+    }
+  ]
+}

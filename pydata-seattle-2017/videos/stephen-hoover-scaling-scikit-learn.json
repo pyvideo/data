@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "What do you do if you have a lot of models to fit, don\u2019t want to spend all day with your laptop as a space heater, and have access to AWS? Take it to the cloud! I\u2019ll share my experience setting up a system to take models coded with scikit-learn and run them in a cloud computing environment. This talk will focus on training data that fit in memory and data for prediction which maybe doesn\u2019t.\n\n**Abstract**\n\nI worked as part of a team to create software which moves data to and from scikit-learn models running in AWS\u2019s EC2 service, and my talk will highlight some of the challenges we faced and the solutions we came up with. This project is possible because scikit-learn has a standardized API for all model types. No matter what algorithm you\u2019re using, it has the same methods with the same arguments as any other algorithm.\n\nData start and end either as tables in AWS\u2019s Redshift (a postgres database) or CSVs stored in AWS\u2019s S3 (a key-value store). The training data need to fit in memory, but we can make predictions on arbitrarily-large Redshift tables in roughly constant time, given a large enough pool of EC2 instances. The software and execution environment are packaged into Docker containers for reproducibility and speed in setting up on new EC2 instances.\n\nThe challenges on the training side are in massaging input data to match the formats which scikit-learn models expect and in storing enough metadata to ensure that we can reproduce the arrays of features at prediction time. Predictions distribute chunks of data to their own EC2 instances. I\u2019ll show off the custom backend for the joblib library that we use to manage the remote processes for predictions.\n\nOur software runs in Civis Analytics\u2019s data science platform. For the application described in this talk, the platform mediates interactions with AWS services to provide security and permissioning. The principles I\u2019ll discuss will be of general applicability to anyone interested in cloud-based production systems based on scikit-learn.",
+  "duration": 2034,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Stephen Hoover"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KqKEttfQ_hE/maxresdefault.jpg",
+  "title": "Scaling Scikit Learn",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KqKEttfQ_hE"
+    }
+  ]
+}

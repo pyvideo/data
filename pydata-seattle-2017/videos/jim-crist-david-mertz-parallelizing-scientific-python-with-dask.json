@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Dask is a flexible tool for parallelizing Python code on a single machine or across a cluster. It builds upon familiar tools in the PyData ecosystem (e.g. NumPy and Pandas) while allowing them to scale across multiple cores or machines. This tutorial will cover both the high-level use of dask collections, as well as the low-level use of dask graphs and schedulers.\n\n**Abstract**\n\nDask is a flexible tool for parallelizing Python code on a single machine or across a cluster.\n\nWe can think of dask at a high and a low level\n\n- High level collections: Dask provides high-level Array, Bag, and DataFrame collections that mimic and build upon NumPy arrays, Python lists, and Pandas DataFrames, but that can operate in parallel on datasets that do not fit into main memory.\n\n- Low Level schedulers: Dask provides dynamic task schedulers that execute task graphs in parallel. These execution engines power the high-level collections mentioned above but can also power custom, user-defined workloads to expose latent parallelism in procedural code. These schedulers are low-latency and run computations with a small memory footprint.\n\nDifferent users operate at different levels but it is useful to understand both. This tutorial will cover both the high-level use of dask.array and dask.dataframe and the low-level use of dask graphs and schedulers. Attendees will come away\n\n- Able to use dask.delayed to parallelize existing code\n- Understanding the differences between the dask schedulers, and when to use one over another\n- With a firm understanding of the different dask collections (dask.array and dask.dataframe) and how and when to use them.",
+  "duration": 6942,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Jim Crist",
+    "David Mertz"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/VAuFSo2cIhs/maxresdefault.jpg",
+  "title": "Parallelizing Scientific Python with Dask",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VAuFSo2cIhs"
+    }
+  ]
+}
