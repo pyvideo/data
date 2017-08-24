@@ -22,5 +22,5 @@ have a code change, feel free to add their name to the list below.
 Contributors Without Commits
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* David Baumgold
+* David "DB" Baumgold
 * Sarah Guido
