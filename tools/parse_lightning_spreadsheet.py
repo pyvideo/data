@@ -2,11 +2,12 @@ import openpyxl as op
 from textwrap import wrap
 import json
 import os
-from os.path import join as slash
+#from os.path import join as slash
 
 # Process lightning talk from an excel file with these columns:
 # Event, Pathname, Video, Time, Speakers, Name, Description
-XLS_FILENAME = '/Users/charlesmerriam/p/v/lightning.xlsx'
+# run like "cd <mypydatadir>; python tools/parse_lightning_spreadsheet.py"
+XLS_FILENAME = 'tools/lightning.xlsx'
 
 
 class Talk:
@@ -113,7 +114,7 @@ def replace_string_field_in_json_file(filename, field_name, unquoted_new_content
         pass
 
     with open(new_filename, 'w') as f:
-        json.dump(json_dict, f, sort_keys=True)
+        json.dump(json_dict, f, sort_keys=True, indent=4)
 
     # swap current file and backup
     try:
@@ -133,6 +134,7 @@ def process_lightning_talk_excel_file(filename=XLS_FILENAME):
         print(rst_block)
 
         filename = key
-        replace_string_field_in_json_file(filename=filename, field_name="description", unquoted_new_contents=rst_block)
+        replace_string_field_in_json_file(filename=filename, field_name="description",
+                                          unquoted_new_contents=rst_block)
 
 process_lightning_talk_excel_file()
