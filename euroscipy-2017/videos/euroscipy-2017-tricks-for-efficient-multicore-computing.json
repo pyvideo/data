@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "In this presentation you will learn about:\n\n- The `concurrent.futures` API of Python 3\n- Threads vs forked processes vs spawned processes (pros and cons)\n- The impact of the GIL on CPU-bound Python programs\n- Bad interactions of fork-based multiprocessing and OpenMP runtimes\n- BLAS-based parallelism (e.g. MKL, OpenBLAS)\n- Memory bandwidth bound operations, arithmetic intensity and the roofline model.\n\nThis talk will include non-representative micro-benchmarks and silly quizzes for the audience :)\n\nWe will also quickly introduce the [loky](https://github.com/tomMoral/loky/) project to help mitigate some of the problems.",
+  "description": "In this presentation you will learn about:\n\n-  The ``concurrent.futures`` API of Python 3\n-  Threads vs forked processes vs spawned processes (pros and cons)\n-  The impact of the GIL on CPU-bound Python programs\n-  Bad interactions of fork-based multiprocessing and OpenMP runtimes\n-  BLAS-based parallelism (e.g. MKL, OpenBLAS)\n-  Memory bandwidth bound operations, arithmetic intensity and the\n   roofline model.\n\nThis talk will include non-representative micro-benchmarks and silly\nquizzes for the audience :)\n\nWe will also quickly introduce the\n`loky <https://github.com/tomMoral/loky/>`__ project to help mitigate\nsome of the problems.",
   "duration": 1711,
   "language": "eng",
   "recorded": "2017-08-31",
