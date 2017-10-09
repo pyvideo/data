@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "El objetivo de estar charla es abordar un problema que parece ser desafortunadamente com\u00fan entre el material disponible sobre las metaclases: por m\u00e1s que nos lo expliquen nos sigue sin quedar claro qu\u00e9 son las metaclases\u2026 o lo olvidamos a los diez minutos. Los ejemplos que se usan para ilustrar esa cosa tan arcana son casi inevitablemente cr\u00edpticos, solucionando de forma compleja problemas demasiado rebuscados y que no nos hemos encontrado jam\u00e1s en nuestro d\u00eda a d\u00eda. \u00bfTienen realmente alguna utilidad pr\u00e1ctica, o son s\u00f3lo una excusa usada por ponentes para parecer r/iamverysmart? \u00bfPor qu\u00e9 deber\u00edan importarme a m\u00ed, con mi nivel medio de Python?\n\nLo que vamos a hacer en esta charla es empezar describiendo un problema: queremos implementar el mismo comportamiento (por ejemplo, logging) en todos los m\u00e9todos de mi clase. Para ello tenemos varias opciones, en creciente orden de complejidad: (a) copiar y pegar la misma l\u00ednea de c\u00f3digo en todos los m\u00e9todos, (b) usar un decorador en cada m\u00e9todo y (c) usar un decorador de clase. Pero ninguna soluci\u00f3n es ideal, y la falta de elegancia provoca lamentos y l\u00e1grimas. Es ante un problema as\u00ed cuando las metaclases tienen una funci\u00f3n, y agradeceremos que se encuentren en nuestro repertorio de habilidades de Python.\n\nEntendiendo por qu\u00e9 nos hacen falta, procedereremos a explicar c\u00f3mo crear una: primero repasando brevemente la funci\u00f3n de __new__() e __init__() para clases normales, y a continuaci\u00f3n mostrando c\u00f3mo hacer lo mismo con las metaclases. Ilustraremos esto con varios ejemplos, usando metaclases para a\u00f1adir funcionalidad de auto-logging o compilaci\u00f3n just-in-time, como hace Numba, a nuestro c\u00f3digo. Por \u00faltimo, y a modo de curiosidad, continuaremos hacia mayores niveles de abstracci\u00f3n, aprendiendo qu\u00e9 son los hooks de metaclases y para qu\u00e9 son \u00fatiles los ficheros .pth.",
+  "duration": 1475,
+  "language": "spa",
+  "recorded": "2017-09-23T17:00:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.es.pycon.org/es/schedule/"
+    },
+    {
+      "label": "talk schedule",
+      "url": "https://2017.es.pycon.org/es/schedule/metaclases-exactamente-que-y-sobre-todo-por-que/"
+    }
+  ],
+  "speakers": [
+    "Pablo Galindo Salgado",
+    "Victor Terr\u00f3n"
+  ],
+  "tags": [
+    "metaclass"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/n2Ma5lT99pM/maxresdefault.jpg",
+  "title": "Metaclases: exactamente qu\u00e9 y (sobre todo) por qu\u00e9",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=n2Ma5lT99pM"
+    }
+  ]
+}

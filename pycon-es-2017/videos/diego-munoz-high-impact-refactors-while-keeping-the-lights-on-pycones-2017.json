@@ -1,0 +1,35 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Reemplazar, cambiar o incluso evolucionar una plataforma de software con a\u00f1os de desarrollo ya aplicados nunca es tarea f\u00e1cil. A su vez, el software tiende a crecer y cambiar como si de un ser vivo se tratara, haciendo cada desarrollo un poco m\u00e1s complejo que el anterior, forzando a llevar documentaciones, wikis, seguir procesos, y ralentizando nuevos proyectos.\n\nEn esta charla hablaremos de c\u00f3mo en Ticketea, que lleva 7 a\u00f1os funcionando con \u00e9xito, estamos acometiendo importantes cambios internos, tanto reescrituras de componentes existentes como nuevas piezas intentando modificar lo menos posible los flujos de negocio actuales, aplicando patrones de dise\u00f1o como parallel change, event bus, o event sourcing. Pondremos como ejemplo el desarrollo de nuestra nueva API de compras (usando Python 3), la cual escucha determinados sucesos o eventos que suceden en la plataforma principal (construida con PHP y Python 2), gestiona todo el flujo de compra y emite de vuelta los datos para reincorporarlos a dicha plataforma, permitiendo pensar un sistema diferente, tiene las mismas restricciones.\n\nTambi\u00e9n estamos intentando implantar como objetivos o metas para todo proyecto las siguientes ideas y principios:\n\n- Hacer software simple\n- Iterar, iterar, iterar\n- Paridad Desarrollo-Producci\u00f3n\n- Automatizaci\u00f3n de operaciones (Docker y AWS)",
+  "duration": 1517,
+  "language": "spa",
+  "recorded": "2017-09-23T10:30:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.es.pycon.org/es/schedule/"
+    },
+    {
+      "label": "talk schedule",
+      "url": "https://2017.es.pycon.org/es/schedule/high-impact-refactors-while-keeping-the-lights-on/"
+    },
+    {
+      "label": "slides",
+      "url": "https://speakerdeck.com/ticketeaeng/high-impact-refactors-keeping-the-lights-on"
+    }
+  ],
+  "speakers": [
+    "Diego Mu\u00f1oz"
+  ],
+  "tags": [
+    "refactoring"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/KFjgXtZs6IY/maxresdefault.jpg",
+  "title": "High impact refactors while keeping the lights on",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KFjgXtZs6IY"
+    }
+  ]
+}
