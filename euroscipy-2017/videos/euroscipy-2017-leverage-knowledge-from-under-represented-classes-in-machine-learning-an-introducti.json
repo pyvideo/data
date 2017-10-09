@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The curse of imbalanced data sets\n---------------------------------\n\nThe curse of imbalanced data set refers to data sets in which the number\nof samples in one class is less than in others. This issue is often\nencountered in real world data sets such as medical imaging applications\n(e.g. cancer detection), fraud detection, etc. In such particular\ncondition, machine learning algorithms learn sub-optimal models which\nwill generally favor the class having the largest number of samples.\n\nIn this talk, we will present the\n'`imbalanced-learn <https://github.com/scikit-learn-contrib/imbalanced-learn>`__'\npackage which implement some of the state-of-the-art algorithms,\ntackling the class imbalance problem.\n\nA ``scikit-learn-contrib`` project\n----------------------------------\n\n``scikit-learn`` includes a tremendous set of pre-processing methods\n(i.e. transformers, standardizers, etc.) to optimally train machine\nlearning algorithms. However, there is currently no estimators to reduce\nor generate samples. Therefore, the ``imbalanced-learn`` provides a new\ntype of estimator, named sampler, aiming at resampling a data set\nwhenever it is desired. The samplers are fully compatible with the\ncurrent ``scikit-learn`` API and are composed of the following main\nmethods inspired from ``scikit-learn``: (i) ``fit``, (ii) ``sample``,\nand (iii) ``fit_sample``. Additionally, a class ``Pipeline`` is\ninherited from ``scikit-learn``, permitting to incorporate samplers in\nthe usual classification pipeline. During the talk, we will also present\nthe key parameters, shared by all the samplers.\n\nA data science perspective\n--------------------------\n\nRegarding the data science aspect of this talk, we will highlight the\ndistinctive characteristics of the different algorithms: (i)\nover-sampling, (ii) controlled under-sampling, (iii) cleaning\nunder-sampling, (iv) combination of over-sampling and cleaning\nunder-sampling, and (v) ensemble sampler.\n\nConcrete examples\n-----------------\n\nIn addition, we will briefly present a couple of examples in which the\npackage has been used on real-world data sets.\n\nPerspectives\n------------\n\nOur package is still under heavy development and we are aiming at\nimproving the following points:\n\n#. Speed optimization through benchmarking and profiling.\n#. Quantitative classification performance benchmarking.\n#. Additional algorithms (categorical features, ...)",
+  "duration": 838,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    }
+  ],
+  "speakers": [
+    "Guillaume Lemaitre"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9Lbd0ApYJ-0/maxresdefault.jpg",
+  "title": "Leverage knowledge from under-represented classes in machine learning: an introduction to imbalanced-learn",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9Lbd0ApYJ-0"
+    }
+  ]
+}

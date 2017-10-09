@@ -1,0 +1,28 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Wouldn't it be cool if there was a way to play and interact with matrices in code like a mathematician can do on paper? What is so cool about that is, that instead of working with matrices as rectangles of numbers like a computer normally does, you can employ structural information while still exploiting most of the freedom you have when scribbling on a piece of paper. At first sight this seems hard to realize efficiently but as we show quite the contrary is the case. A structure driven approach for handling matrices implies great flexibility, speed and fun!\n\nWe will open the presentation with the demonstration of a motivational application from ultrasonic non-destructive testing -- namely the Synthetic Aperture Focusing Technique (SAFT) -- which employs large sparse and strongly structured matrices for focussing spatial irregularities in an observed medium-under-test. We will carve out why thinking about structured representations is reasonable and how scientific computing may benefit from applying additional abstraction steps of a matrix' representation when implementing various kinds of algorithms.\n\nFollowing, we introduce our open-source package 'fastmat' and show how it can be applied to implement real-world problems like the aforementioned SAFT. Due to its sleek architecture we demonstrate how highly intuitive code can be produced with strong proximity to the mathematical formulation of the problem, yet still allowing exploitation of matrix structure in efficient storage and computation. We will demonstrate that the architecture retains the high performance benefits in terms of computation time and memory complexity even for meta operations involving multiple matrices like linear combinations, block structures or matrix-matrix-vector products.\n\nClosing the presentation we will compare the performance of 'fastmat'-based matrix operations against their straightforward dense and unstructured implementations. Further, we will wrap up the opening motivational application in terms of performance and show pros and cons of working with 'fastmat' with respect to implementation effort, flexibility and performance.\n\nTo fully profit from this talk attendees should bring a basic understanding of Python and Numpy. A rough understanding about the general concepts of linear algebra might turn out to be helpful. The 30-minute presentation will be given in english language by Sebastian Semper and Christoph Wagner, both research assistants from the Technische Universit\u00e4t Ilmenau. The presentation slides (also in english) will be made available online shortly after the session. We are happy to answer short questions during and are open for discussions subsequent to the talk.",
+  "duration": 969,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    }
+  ],
+  "speakers": [
+    "Sebastian Semper",
+    "Christoph Wagner"
+  ],
+  "tags": [
+    "fastmat"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/dq5bLgLGae8/maxresdefault.jpg",
+  "title": "fastmat - A simple Package for Fast Linear Transforms",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dq5bLgLGae8"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Choosing the right hyper-parameters for a deep neural network, configuring a fluid dynamics simulation or finding the recipe of the next prize winning beer have three things in common: each trial is expensive, you don't have an analytic function you can minimise with `scipy.minimize` and you only get noisy observations from each trial.\n\nBayesian optimisation (BO) to the rescue! BO is a clever piece of math designed to solve exactly these kinds of problems. This talk is for people who have to find the best configuration for an \"algorithm\" that is expensive to run. Currently you might be performing a grid search or trying settings at random. Neither of these learn from observations they have already made. The fundamental idea of BO is to use previous observations to make a prediction about which settings to try next. By doing this you can reduce the number of evaluations needed to find the optimal settings.\n\nIn this talk you will learn about bayesian optimisation, how to implement the basics yourself, some tricks of the trade, and I will introduce you to the scikit-optimize library: a simple and efficient library to minimize (very) expensive and noisy black-box functions. It implements several methods for BO and attempts to be accessible and easy to use in many different contexts.\n\nWe will start by looking at some simple examples in depth, discuss when BO is the right tool and when not, and then use scikit-optimize to find the best hyper-parameters for a neural network.",
+  "duration": 1728,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    }
+  ],
+  "speakers": [
+    "Tim Head"
+  ],
+  "tags": [
+    "bayesian optimization"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ToYFc_AcKU0/maxresdefault.jpg",
+  "title": "Bayesian Optimization - Can you do better than randomly guessing parameters?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ToYFc_AcKU0"
+    }
+  ]
+}

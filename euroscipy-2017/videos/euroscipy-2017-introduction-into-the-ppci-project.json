@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The ppci project was started by the need for a better system level\nprogramming language then C. The compiler is implemented in python, and\nhence is not very fast. On the other hand, the compiler is portable and\nis easier to develop due to being implemented into a higher level\nlanguage. Currently it supports msp430, x86, xtensa, avr, arm, open risc\nand stm8 computer architectures, in various levels of maturity. The\nsupported languages are C3 and brainfuck. Language support for C is a\nwork in progress.\n\nThe C3 language was the starting point for the compiler, aiming at being\na better version of C. It has no header files, but features a more\nmodular approach like C# and java. Furthermore its syntax is context\nfree, making it easier to parse using standard compiler tools.\n\nThe backend of the compiler consists of a code generator featuring both\ninstruction selection and register coloring algorithms. The output of\nthe compiler is an instruction stream, which can be serialized as text\nor in binary form.\n\nPossible uses of this library are:\n\n-  Compile code and include it into the currently running python\n   instance\n-  Create ctypes bindings for C code by making use of the C parser\n   frontend\n-  Create a programming language using ply/textx and generate machine\n   code from it using ppci\n\nDuring this session, we will explore the various parts of the ppci\nlibrary and have a good overview what it is capable of.\n\nFurther documentation is `located\nhere <http://ppci.readthedocs.io/en/latest/>`__",
+  "duration": 1088,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    },
+    {
+      "label": "ppci",
+      "url": "http://ppci.readthedocs.io/en/latest/"
+    }
+  ],
+  "speakers": [
+    "Windel Bouwman"
+  ],
+  "tags": [
+    "ppci"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/SqniBlPflR0/maxresdefault.jpg",
+  "title": "Introduction into the ppci project",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SqniBlPflR0"
+    }
+  ]
+}

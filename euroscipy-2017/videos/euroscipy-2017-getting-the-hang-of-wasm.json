@@ -1,0 +1,28 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "`Web Assembly <http://webassembly.org/>`__ (WASM) is a new open standard\ndeveloped by representatives from all major browsers. It is a low level\nbinary format designed to be compact and run at native speed, while\nbeing memory-safe.\n\nWASM is primarily intended to run code in browsers, but will also run in\nother environments like desktop, mobile and more. This makes it\ninteresting to use as an intermediate language (IR); code that compiles\nto WASM will (in the future) run basically anywhere.\n\nA proof of concept was released early this year and works out of the box\nin recent Firefox and Chrome browsers. In order to play with WASM\nmyself, I wrote a `tiny Python\nlibrary <https://github.com/almarklein/pywasm>`__ that makes it\nrelatively easy to generate WASM modules.\n\nIn this talk I will briefly explain what WASM is, describe the anatomy\nof a WASM module, how it fits in the host environment (e.g. JavaScript\nor a C++ program), and the kinds of opportunities that this provides.\nVia live coding in a notebook, I will first write a simple WASM program\nby hand, compile it to binary WASM, and execute it in the notebook\nitself. We will then move to higher levels (including a Mindfuck to WASM\ncompiler) and end with compiling a simple Python program to WASM, which\nwill find the 10001st prime much faster than Python does. As a side\neffect, this talk is also a crash course on how compilers work.\n\nI expect WASM to have a major impact. Although it is currently in its\nearly infancy, we can already play with it, and I hope to give a glimpse\nof the awesome things that it can do.",
+  "duration": 1153,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    }
+  ],
+  "speakers": [
+    "Almar Klein"
+  ],
+  "tags": [
+    "web assembly",
+    "wasm"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/KOC9EOQyU0k/maxresdefault.jpg",
+  "title": "Getting the hang of WASM",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KOC9EOQyU0k"
+    }
+  ]
+}

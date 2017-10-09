@@ -1,0 +1,53 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Most of Python and R scientific packages incorporate compiled scientific\nlibraries to speed up the execution of the code needed for\nhigh-performance computing and to reuse legacy libraries.\n\nSeveral semi-automatic solutions exist to wrap these compiled libraries:\nSWIG, Cython, Boost.Python.\n\nHowever, the process of wrapping a large C++ library is cumbersome and\ntime consuming, mainly due some high-level constructs that have no\nequivalent in Python (template, complex iterators, \u2026).\n\nIn this talk, we introduce AutoWIG, a Python package that enables full\nC++ introspection using LLVM/Clang technologies.\n\nDefault strategies have been designed to transform any C++ construct\ninto Python, using Boost.Python for instance.\n\nBased on the introspection, a set of classes, methods, namespaces are\nretrieve and Boost.Python code is generated using the Mako template\nengine.\n\nOur approach is automatic, extensible, and applies to complex C++\nlibraries, composed of thousands of classes or incorporating modern\nmeta-programming constructs.\n\nFor instance, we wrap with AutoWIG the full Clang library to obtain full\nintrospection on C++ code such as template classes.\n\n`Jupyter notebooks`_ and `Docker images`_ render AutoWIG easy to pick up\nand play with.\n\nThe source code is hosted on `GitHub`_ and binaries can be `installed`_\nwith Conda.\n\nDesigned as a library, this package can easily be integrated with\ncompiler toolchains, such as SCons, to ease the development process of\nteams.\n\nA more detailed description of this package can be read on this\n`preprint`_.\n\nDuring the talk, we will describe AutoWIG main features and cover how\nyou can generate Python bindings for your C++ libraries illustrating by\nvarious Jupyter notebooks.\n\nIn particular, we will explain how we have bootstrapped the wrapping of\nLLVM/Clang in Python, using libclang, to provide unavailable features\nsuch as introspection on C++ templates from Python.\n\nAn example of the wrapping of C++ `linear algebra`_ and `statistical`_\nlibraries to benefit of state-of-the-art graphical model learning\nalgorithms will be discussed in depth.\n\n.. _Jupyter notebooks: http://autowig.readthedocs.io/en/latest/examples/index.html\n.. _Docker images: http://autowig.readthedocs.io/en/latest/install/docker.html\n.. _GitHub: http://github.com/StatisKit/AutoWIG\n.. _installed: http://autowig.readthedocs.io/en/latest/install/anaconda.html\n.. _preprint: https://arxiv.org/abs/1705.11000\n.. _linear algebra: http://eigen.tuxfamily.org\n.. _statistical: http://github.com/StatisKit",
+  "duration": 700,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    },
+    {
+      "label": "AutoWIG examples (Jupyter notebooks)",
+      "url": "http://autowig.readthedocs.io/en/latest/examples/index.html"
+    },
+    {
+      "label": "AutoWIG Docker images",
+      "url": "http://autowig.readthedocs.io/en/latest/install/docker.html"
+    },
+    {
+      "label": "AutoWIG repository",
+      "url": "http://github.com/StatisKit/AutoWIG"
+    },
+    {
+      "label": "AutoWIG Anaconda install",
+      "url": "http://autowig.readthedocs.io/en/latest/install/anaconda.html"
+    },
+    {
+      "label": "AutoWIG preprint",
+      "url": "https://arxiv.org/abs/1705.11000"
+    },
+    {
+      "label": "Eigen",
+      "url": "http://eigen.tuxfamily.org"
+    },
+    {
+      "label": "StatisKit",
+      "url": "http://github.com/StatisKit"
+    }
+  ],
+  "speakers": [
+    "Pierre Fernique"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/N4q_Vud77Hw/maxresdefault.jpg",
+  "title": "AutoWIG: Wrapping very large C++ libraries in Python automatically",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=N4q_Vud77Hw"
+    }
+  ]
+}

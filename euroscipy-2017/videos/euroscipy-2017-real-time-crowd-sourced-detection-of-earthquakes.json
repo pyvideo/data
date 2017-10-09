@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The European-Mediterranean Seismological Centre publishes up to date\nearthquake information from around the world. However, for several\nyears, we have been able to detect many important earthquakes earlier\nthan the seismic networks! After an earthquake, people affected often\nrapidly arrive on our website or use our app, this causes a peak in\ninternet traffic that our customised traffic monitoring system detects.\n\nWhen a peak is detected, our website and app respond by requesting our\nusers to complete a questionnaire if they have felt an earthquake. Each\npeak is also analyzed to estimate its epicentre and start time,\nwhereupon the system starts trying to associate the peak with a\nseismically detected earthquake. If an association is obtained, this\nearthquake is given special status by our website since we can be sure\nthat it has been felt by the public (most earthquakes are only felt by a\nfew people). This system helps us improve our site\u2019s responsivity and\nhence our connection with the public.\n\nThe system consists of a collection of python processes linked via\n`RabbitMQ <https://www.rabbitmq.com/>`__. RabbitMQ is a messaging server\nthat creates a queue of messages for each process to consume. We use the\n`pika <https://github.com/pika/pika>`__ library to interact with\nRabbitMQ from python, each process is an actor in the RMQ network.\n\nUsers are localized via their IP or mobile phone geolocation. Peaks are\nlocalized using a clustering algorithm. This allows us to create maps of\nactivity, which is done using `GMT <http://gmt.soest.hawaii.edu/>`__\n(via `gmtpy <http://emolch.github.io/gmtpy/>`__ - GMT is a mapping\nsoftware popular in the seismic community).\n\nData and results are also persisted to a\n`postgresql <https://www.postgresql.org>`__ database using the\n`sqlalchemy <https://www.sqlalchemy.org>`__ toolkit. A realtime display\nof the postgresql data is accomplished using\n`Grafana <https://grafana.com/>`__ via a customization of the\n`graphite-api <https://graphite-api.readthedocs.io/en/latest/>`__\napplication.\n\nThis talk will give an overview of our system\u2019s operation and details on\nits technical implementation.",
+  "duration": 970,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    }
+  ],
+  "speakers": [
+    "Robert Steed"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/EWDOmVimdrU/maxresdefault.jpg",
+  "title": "Real-time Crowd-sourced Detection of Earthquakes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EWDOmVimdrU"
+    }
+  ]
+}
