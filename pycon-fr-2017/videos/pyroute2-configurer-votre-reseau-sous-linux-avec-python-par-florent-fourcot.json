@@ -1,0 +1,16 @@
+{
+  "description": "Le noyau Linux a des fonctionnalit\u00e9s tr\u00e8s avanc\u00e9es pour construire des \u00e9quipements r\u00e9seaux. Si des outils existent en ligne de commande pour tout faire (avec les outils iproute2, comme les commandes ip, tc, ss, ...), on est tr\u00e8s vite limit\u00e9 si on tente de lancer ces commandes avec os.system ou \u00e9quivalent, et d'analyser la sortie des commandes pour lire l'\u00e9tat du syst\u00e8me.\n\nHeureusement, les outils iproute2 utilisent en r\u00e9alit\u00e9 une API pour discuter avec le noyau : netlink. Cette interface est construite sur une simple socket, qui permet de recevoir des informations et d'en \u00e9crire. \u00c0 travers cette socket, tout est configurable et il devient tr\u00e8s simple de construire des applications complexes (surveillance des \u00e9v\u00e8nements en \u00e9coutant les messages, etc).\n\nSi la plupart des outils utilisant l'interface netlink sont \u00e9crits en C (ils n'ont qu'\u00e0 reprendre les biblioth\u00e8ques existantes pour iproute2), les d\u00e9veloppeurs Python ont une biblioth\u00e8que compl\u00e8te et 100% Python \u00e0 disposition : pyroute2 (https://github.com/svinota/pyroute2).\n\nCette pr\u00e9sentation vous propose une rapide introduction \u00e0 l'interface netlink et ses fonctionnalit\u00e9s (vous y apprendrez ainsi pourquoi ifconfig est obsol\u00e8te depuis une dizaine d'ann\u00e9e). Nous ferons ensuite le tour du fonctionnement de pyroute2, notamment comment s'effectue la construction des structures des messages netlink. Nous terminerons avec la liste des fonctionnalit\u00e9s et modules de pyroute2, qui permettent d'abstraire plus ou moins le syst\u00e8me en fonction de vos besoins.",
+  "duration": 2297,
+  "recorded": "2017-09-23",
+  "speakers": [
+    "Florent Fourcot"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_jMryRsi3GM/hqdefault.jpg",
+  "title": "pyroute2: configurer votre r\u00e9seau sous Linux avec Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_jMryRsi3GM"
+    }
+  ]
+}
