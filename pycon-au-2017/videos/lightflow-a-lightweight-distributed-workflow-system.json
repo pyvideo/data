@@ -1,0 +1,17 @@
+{
+  "description": "The Australian Synchrotron, located in Clayton, Melbourne, is one of Australia\u2019s most important pieces of research infrastructure. Light emitted from accelerated electrons, flying at nearly the speed of light, is used by 10 beamlines in order to conduct a very diverse range of research. After more than 10 years of operation, the beamlines at the Australian Synchrotron are well established and the demand for automation of research tasks is growing. Such tasks routinely involve the reduction of  TB-scale data, online (realtime) analysis of the recorded data to guide experiments, and fully automated data management workflows.\r\n\r\nIn order to meet these demands, a generic, distributed workflow system was developed. It is based on well-established Python libraries and tools such as Celery, NetworkX, Redis and MongoDB. The individual tasks of a workflow are arranged in a directed acyclic graph and one or more directed acyclic graphs form a workflow. Workers consume the tasks, allowing the processing of a workflow to scale horizontally. Data can flow between tasks and a variety of specialised tasks is available. The motivation for the development of Lightflow and interrelated design decisions will be presented in the context of existing Python libraries and workflow systems. Lightflow, its concepts and use cases from the Australian Synchrotron will demonstrate how clever software design can solve problems across various domains.",
+  "duration": 1781,
+  "language": "eng",
+  "recorded": "2017-08-06",
+  "speakers": [
+    "Andreas Moll"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/GTNPpeA1lbo/hqdefault.jpg",
+  "title": "Lightflow - A lightweight, distributed workflow system",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=GTNPpeA1lbo"
+    }
+  ]
+}
