@@ -1,0 +1,17 @@
+{
+  "description": "If you're working with APIs or the web in python you will (or should) have\r\nheard of requests. The 'HTTP for Humans' library is one of python's most\r\npopular and most downloaded libraries and is referenced by the urllib docs as\r\nthe recommended way to do HTTP requests in python.\r\n\r\nAs strict unit testers of our code we need to assert that our projects are\r\nmaking the expected HTTP requests however don't want to be making actual\r\nnetwork connections. Most people start with simply mocking this requests\r\ninterface but this is much more complex than it appears on first glance and\r\nfrequently ends up replicating large chunks of the interface or skipping mocked\r\nout functions within your code.\r\n\r\nIn this talk I'll cover two libraries that can help you mock out your HTTP\r\nrequests: requests-mock and betamax.\r\n\r\nrequests-mock is the extended and more correct version of mocking out the\r\ninterface. It lets you ensure that the requests you expect are going over the\r\nwire, but ensures that all the bytes/strings, json decoding and other helper\r\nfeatures that requests offers work, without your mocks becoming unmanageable.\r\n\r\nBetamax gives you functional style testing without the network connection. It\r\nallows you to record real interactions through requests, store that to file,\r\nand replay them later in testing.\r\n\r\nBetween them we can assert our behaviour both against our local, constructed\r\nresponses, and real recorded responses our application has made.\r\n\r\nWith a small example app I'll demonstrate how you can use these libraries, the\r\ndifferent benefits of each, and how to structure your tests to make the most\r\nuse of them.",
+  "duration": 1807,
+  "language": "eng",
+  "recorded": "2017-08-06",
+  "speakers": [
+    "Jamie Lennox"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/t6MtEnw3Zww/hqdefault.jpg",
+  "title": "Unit Testing with Requests",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=t6MtEnw3Zww"
+    }
+  ]
+}

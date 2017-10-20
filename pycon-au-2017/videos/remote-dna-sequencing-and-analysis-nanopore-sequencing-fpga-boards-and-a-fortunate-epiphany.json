@@ -1,0 +1,17 @@
+{
+  "description": "**What is a MinION?**\n\nOxford Nanopore's MinION is a 91g portable sequencing device, which has been a huge talking point in the sequencing community since entering the market in 2014. First thought of as having potential, it's now recognised as a valuable asset of any genomic laboratory.\nThe MinION can deliver long-read yields as great as its competitor PacBio. This is due to its yield per flowcell increasing 10-fold in the past 18 months, which has created much delight to the community albeit some problems for researchers (and ONT themselves) when it comes to data handling and analysis.\n\n**Current Restrictions**\n\nThe raw output from a MinION is an electrical signal over-time which must be put through a computationally-intensive RNN to infer the nucleotides of a given DNA strand -  this process is known as basecalling. If one were to do this on a normal laptop, it would take over a week to complete all the reads from a 48-hour run, which hinders the real-time component of the MinION technology. In order to keep the basecall processing at the same rate as the throughput, the MinION output needs to be transferred to a high powered server, which hinders on the MinION's portability.\n\n**How to overcome this?**\n\nRunning reads simultaneously through this basecalling processing is a must when it comes to real-time Nanopore sequencing, which is why we combine ONT with another start-up project, Adapteva's Parallela board, a credit card sized micro-server with an in-built FPGA board, ideal for parallel processing. We explore the compatability of the Parallela and the MinION, with the aim of performing both sequencing and analysis in a remote environment.\n",
+  "duration": 1906,
+  "language": "eng",
+  "recorded": "2017-08-04",
+  "speakers": [
+    "Alexis Lucattini"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/FXDEycbWgqE/hqdefault.jpg",
+  "title": "Remote DNA Sequencing and Analysis; Nanopore sequencing, FPGA boards and a fortunate Epiphany",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FXDEycbWgqE"
+    }
+  ]
+}

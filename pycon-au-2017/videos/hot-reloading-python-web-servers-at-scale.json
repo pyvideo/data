@@ -1,0 +1,17 @@
+{
+  "description": "Every web application involves continuous changes to the server. It could vary from minor bug fixes, small feature improvements, to major feature releases. How to keep serving your users while replacing your app with a newer version is a problem everybody has to face. It's like replacing car wheels while driving at a full speed. One common practice for rolling out changes to production is turning down a few percentage of the servers and rotate until all changes have been updated on all servers. This common approach is, however, not ideal: it requires either non-trivial amount of extra resources dedicated for rollout, or significant overhead of rollout complexity and speed in case the reserved resource is falling short. More ideally, there's the \u201chot reload\u201d land, where you can push changes with the same speed or even faster, and no extra resource required. We're going to talk about how Instagram got there.\r\n\r\nIn this talk, we're going to talk about the benefits of hot reload, and the path we took to get there, and the efforts to make it scale to thousands of servers. It requires no extra resources, even at a machine level, and minimal overhead, which means you could run your servers to nearly full utilization and can still roll out your code changes. With the new deployment system, we not only saved a ton of servers, but also made our continuous rollout faster by enabling full parallelism, thus scaling code rollout to more simultaneous changes, more developers, and in turn, more users.",
+  "duration": 1748,
+  "language": "eng",
+  "recorded": "2017-08-06",
+  "speakers": [
+    "Chenyang Wu"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/FQ2PGIlmtJc/hqdefault.jpg",
+  "title": "Hot reloading Python web-servers at scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FQ2PGIlmtJc"
+    }
+  ]
+}
