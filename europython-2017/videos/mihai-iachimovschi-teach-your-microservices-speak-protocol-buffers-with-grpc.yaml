@@ -1,0 +1,38 @@
+description: |-
+  When it comes to microservices, there're a lot of things worth
+  keeping in mind. Designing such fine-grained, loosely-coupled
+  services requires paying lots of attention to various patterns and
+  approaches to make them future-proof. A very important thing to
+  consider, is the way those services will communicate with each-other
+  in production. Usually the communication is done over the network
+  using a technology-agnostic protocol. At the next level the service
+  should provide an API for its friend services. Then, the data should
+  be serialized without altering its meaning and transferred to the
+  picked endpoint.
+
+  Nowadays, exposing a REST API that operates with JSON over plain HTTP
+  is a usual way to lay the grounds of communication for the services.
+  It is easy to accomplish, but it has some drawbacks. First of all,
+  JSON is a human readable format, and it’s not as other serialization
+  approaches. Also, with JSON it’s not possible to natively enforce the
+  schema, and evolving the API may be painful.
+
+  This talk’s purpose is to describe in deep detail the benefits of
+  protocol buffers, that offer us for free an easy way to define the
+  API messages in the proto format, and then reuse them inside
+  different services, without even being locked to use the same
+  programming language for them. Moreover, with gRPC we can define the
+  API’s endpoints easily in the same proto format. All these offer us a
+  robust schema enforcement, compact binary serialization, and easy
+  backward compatibility.
+
+duration: 1629
+recorded: '2017-07-12'
+speakers:
+- Mihai Iachimovschi
+thumbnail_url: https://i.ytimg.com/vi/JO0U8QbzSw8/hqdefault.jpg
+title: Teach your (micro)services speak Protocol Buffers with gRPC.
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=JO0U8QbzSw8
+

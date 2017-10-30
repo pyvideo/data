@@ -1,0 +1,42 @@
+description: |-
+  Building web applications is one of the most common uses of Python.
+  With a plethora of different web frameworks aiming at varying audiences,
+  it has become a rather simple and well-documented process to develop
+  web applications and web services. So popular it has become that
+  the WSGI specification is the industry standard protocol for
+  developing web applications with Python.
+
+  But the WSGI standard is lacking with two major limitations:
+
+  - It supports only the ‘traditional’ synchronous http request-response
+    cycle thus creating a ‘glass ceiling’ with the amount of requests a
+    single server can handle – often described as the C10K problem
+  - It does not provide an easy and efficient way of developing two-way
+    communication between servers and clients. Often referred to as the
+    real-time web this capability has become increasingly popular
+    with modern web applications.
+
+  Over the past decade multiple networking libraries have been developed
+  to address these limitations.
+  In this talk we will explore:
+
+  - What is an asynchronous web server and how it differs from other,
+    WSGI-based web servers.
+  - What is concurrency and how it can help us achieve supreme performance
+    and scalability in our web applications. We will survey noteworthy
+    libraries which will help achieve true concurrency.
+  - How to develop real-time communication, using web sockets,
+    with our Javascript application
+  - Concerns, limitations and pitfalls when developing asynchronous
+    web applications.
+
+duration: 1750
+recorded: '2017-07-11'
+speakers:
+- Amit Nabarro
+thumbnail_url: https://i.ytimg.com/vi/1vrUDDqMfR0/hqdefault.jpg
+title: Asynchronous I/O and the real-time web
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=1vrUDDqMfR0
+

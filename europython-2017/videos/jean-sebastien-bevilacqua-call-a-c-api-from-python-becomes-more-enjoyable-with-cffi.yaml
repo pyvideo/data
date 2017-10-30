@@ -1,0 +1,44 @@
+description: |-
+  Python is slow ! Python can’t access bare metal!
+
+  You often hear theses assumptions? Theses limitations can be
+  surpassed by Python extensions written in C. However, according to my
+  personal experience, doing this by leveraging C may yield to several
+  issues (e.g., memory management).
+
+  C Foreign Function Interface for Python (a.k.a., CFFI) allows you to
+  easily write Python extensions. One of the main aims of CFFI is to to
+  wrap C libraries. Along the same lines, it may also be used for
+  performance enhancement.
+
+  By this call, I am firstly presenting CFFI and it’s two modes of
+  utilization: API level and ABI level. Then I will share my own
+  experience about wrapping `shaderc library
+  <https://github.com/google/shaderc>`_ in six hours `pyshaderc
+  <https://github.com/realitix/pyshaderc>`_.
+
+  Next we are going to the next level, let’s wrap all the Vulkan API!
+  Vulkan is the new 3D API and is not a piece of cake. To see the real
+  advantage of CFFI, a side by side comparison between two Python
+  modules is going to be presented:
+
+  CVulkan is a Vulkan wrapper written fully in C, it’s a classic C
+  extension for Python vulkan is its CFFI counterpart without any C
+  written, only Python
+
+  I have developed two versions of Vulkan wrapper (one in a pure C, and
+  the second by leveraging CFFI) and I can assure you that CFFI is a a
+  way better!
+
+  Let’s code!
+
+duration: 1881
+recorded: '2017-07-12'
+speakers:
+- Jean-Sébastien Bevilacqua
+thumbnail_url: https://i.ytimg.com/vi/AHHlohyHh2w/hqdefault.jpg
+title: Call a C API from Python becomes more enjoyable with CFFI
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=AHHlohyHh2w
+

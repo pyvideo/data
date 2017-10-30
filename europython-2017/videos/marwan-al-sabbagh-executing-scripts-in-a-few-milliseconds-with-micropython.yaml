@@ -1,0 +1,41 @@
+description: |-
+  Command execution time can become important in a number of
+  applications. Commands executed in command-line completion need to
+  execute in less then 100ms or users will perceive a delay. In Shell
+  scripting one might want to execute commands repeatedly in a for loop
+  and fast execution times makes this more feasible.
+
+  Python is a very powerful language but has a much slower startup time
+  compared to other interpreted languages like Perl, Lua and Bash. It
+  can take up to 10 times longer to startup then some of these other
+  languages.
+
+  MicroPython was written as a lean implementation of Python 3 with a
+  small subset of the standard library mainly intended to run on
+  microcontrollers. But it happily runs on Unix systems with excellent
+  startup performance, making it an ideal candidate for implementing
+  certain time sensitive commands.
+
+  This talk will:
+
+  - Explain when achieving fast execution times matters and when it doesn’t.
+  - Present two different approaches to measuring command execution
+    time, one simple and the other more detailed and accurate.
+  - Compare execution times of a simple set of scripts that add two
+    numbers in an number of different interpreted languages (micropython,
+    python3, awk, perl, lua, bash).
+  - Present an example use case of MicroPython on Unix. Bash completion
+    for pip install that completes the names of available packages live
+    from a remote pypi mirror.
+  - Demonstrate the auto completion script with pip on a local pypi mirror.
+
+duration: 2017
+recorded: '2017-07-14'
+speakers:
+- Marwan Al
+thumbnail_url: https://i.ytimg.com/vi/lEaUVGi1iKk/hqdefault.jpg
+title: Sabbagh - Executing scripts in a few milliseconds with MicroPython
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=lEaUVGi1iKk
+

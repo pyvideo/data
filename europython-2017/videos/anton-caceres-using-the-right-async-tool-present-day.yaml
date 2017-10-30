@@ -1,0 +1,31 @@
+description: |-
+  Recent releases like AsyncIO and Django Channels gave a new push
+  towards building real-time web-apps fast and easy. However, as
+  similar tools exist in Python since 2000th, how should we balance
+  between modern and time-proven?
+
+  This talk includes but is not focused just on AsyncIO. It gives an
+  overview of Async libraries in Python, and helps with choosing a
+  right tool for various web tasks.
+
+  It describes caveats of using Twisted, Tornado and AsyncIO including
+  theory and live code, and concludes with a basic overview of Django Channels.
+
+  Talk plan
+
+  - Why do we need Async Web (5 min)
+  - Existing libraries and frameworks:  Twisted, Tornado, AsyncIO (15 min)
+  - Sample task, sample code, conclusions (10 min)
+  - (optional) what's about Django Channels?
+  - Q & A (5 min)
+
+duration: 2707
+recorded: '2017-07-11'
+speakers:
+- Anton Caceres
+thumbnail_url: https://i.ytimg.com/vi/ZXrdqq7nc1I/hqdefault.jpg
+title: Using the right Async tool, present day
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=ZXrdqq7nc1I
+

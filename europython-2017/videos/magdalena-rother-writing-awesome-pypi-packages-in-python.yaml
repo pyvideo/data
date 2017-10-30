@@ -1,0 +1,32 @@
+description: |-
+  One of the strengths of the Python programming language is the huge
+  base of Open Source libraries. The PyPI (Python Package Index)
+  repository provides currently 105,917 packages, many of them
+  developed actively by contributors.
+
+  This talk is a tour through various tools and practices, which help
+  to keep your package in a good state for your users and make it
+  easier for other developers to contribute. One can find these
+  practices in projects of different size, such as Django (24,244
+  commits, 1,397 contributors) Pandas (15,005 commits, 754
+  contributors) and Faker (20 commits, 3 contributors).
+
+  Some things to consider when creating your own package:
+
+  - using a Makefile for automatic testing, coverage analysis and environment setup.
+  - structuring your .gitignore file.
+  - using pyenv and .python-version for Python version management.
+  - using tox to ascertain that code is working in different environments.
+  - squashing different configuration files to a single setup.cfg file.
+  - using EditorConfig and .editorconfig to automatically set project coding standards in the editor.
+
+duration: 1484
+recorded: '2017-07-14'
+speakers:
+- Magdalena Rother
+thumbnail_url: https://i.ytimg.com/vi/PKbNOivGJbQ/hqdefault.jpg
+title: Writing Awesome PyPI packages in Python
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=PKbNOivGJbQ
+

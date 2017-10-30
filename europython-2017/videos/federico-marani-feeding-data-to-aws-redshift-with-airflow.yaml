@@ -1,0 +1,25 @@
+description: |-
+  Airflow is a powerful system to schedule workflows and define them as
+  a collection of interdependent scripts. It is the perfect companion
+  to do extract/transform/load pipelines into data warehouses, such as
+  Redshift.
+
+  This talk will introduce some of the basis of Airflow and some of the
+  concepts that are data pipeline specific, like backfills, retries,
+  etc. Then there will be some examples on how to integrate this, along
+  with some lessons learned there.
+
+  At the end, there will be a part dedicated to Redshift, how to
+  structure data there, how to do some basic transformation
+  pre-loading, how to manage the schema using SQLAlchemy and Alembic.
+
+duration: 2368
+recorded: '2017-07-13'
+speakers:
+- Federico Marani
+thumbnail_url: https://i.ytimg.com/vi/0s6lmVbvoFo/hqdefault.jpg
+title: Feeding data to AWS Redshift with Airflow
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=0s6lmVbvoFo
+

@@ -1,0 +1,30 @@
+description: |-
+  Last year's talk (https://ep2016.europython.eu/conference/talks/writing-unit-tests-for-c-code-in-python)
+  showed you how to use CFFI (https://cffi.readthedocs.io/) to write unit
+  tests for C code in Python. This year we will take the concept one step
+  further and create integration tests covering (almost) the whole firmware
+  of a microcontroller, again leveraging the power of CFFI.
+
+  But instead of running the firmware on the controller, it will be executed
+  on the development machine (that is, a standard x86 architecture),
+  allowing for much faster test execution, without requiring the target
+  hardware. For this to work, all the hardware-dependent parts of the
+  firmware code need to be replaced by Python code simulating the hardware
+  functionality, so that all the firmware above this hardware abstraction
+  layer can be executed unmodified.
+
+  In addition, this allows to use advanced security testing tools like
+  AddressSanitizer (https://github.com/google/sanitizers/wiki/AddressSanitizer)
+  and american fuzzy lop (http://lcamtuf.coredump.cx/afl/)
+  that would not be able to run directly on the microcontroller.
+
+duration: 1853
+recorded: '2017-07-10'
+speakers:
+- Alexander Steffen
+thumbnail_url: https://i.ytimg.com/vi/-SvmjCWBX10/hqdefault.jpg
+title: Testing microcontroller firmware with Python
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=-SvmjCWBX10
+

@@ -1,0 +1,51 @@
+description: |-
+  Hotjar’s user recordings count above 400 million, with supporting
+  tables containing 4.5 billion records. This 5TB data fits nicely into
+  Postgres and doesn’t quite merit the full big data suite of tools.
+  However, at the rate of 1000 recordings per minute, and overall
+  request rate of 750K per minute, the penalty of inefficient queries
+  and updates can quickly cause nasty performance spikes if not thought
+  out well.
+
+  This talk is about the challenges we faced at the lower end of big
+  data: the good decisions which helped keep our application running
+  and other lessons we had to learn the hard way
+
+  Considerations for Database Design
+
+  - Design entities for the domain
+  - Balance normalization with performance
+  - Sharding later has big migration costs, consider designing for this early
+
+  Speak to the database from your Web Application
+
+  - Why use ORMs and at which level of abstraction?
+  - Stored Procedures are fast, should we have more of those?
+
+  Bringing data closer to the application
+
+  - Materialize Views
+  - Defer aggregations
+  - Application Level Caching
+
+  Handling Operational Troubles
+
+  - Explain(analyze, buffers) is your friend
+  - Detect and manage Index Bloat
+  - Reduce Deadlocks
+
+  Reducing Impact of Background Maintenance Jobs
+
+  - Keep impact on database low with cursors and streaming
+  - Plan data retention policies early, so cleaning can be an ongoing process
+
+duration: 1848
+recorded: '2017-07-13'
+speakers:
+- Stephanie Mifsud
+thumbnail_url: https://i.ytimg.com/vi/b7ESi3zLL8k/hqdefault.jpg
+title: Optimizing queries for not so big data in PostgreSQL
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=b7ESi3zLL8k
+

@@ -1,0 +1,38 @@
+description: |-
+  Cython is not only an excellent and widely used tool to speed up
+  computational Python code, it’s also a very smart way to talk to
+  native code and libraries. The Cython compiler translates Python code
+  to C or C++ code, and supports static type annotations to allow
+  direct use of C/C++ data types and functions. You get the best of
+  both worlds while working with Cython: Python like syntax with
+  blazing fast C speed.
+
+  This talk/tutorial by a Python/Cython developer introduces Cython
+  programming language and leads the participants all the way from
+  their first Python extension to an efficient integration with native
+  C.
+
+  Topics covered will be:
+
+  1. Using the Cython compiler to build a native extension module
+  2. Cython development from Jupyter notebook
+  3. Mixing Python with static C types in the Cython language
+  4. Calling into native code from Cython code (Brief introduction)
+  5. Wrap up: A brief case study -
+     Cyvlfeat: A Cython/Python wrapper for Computer Vision library, VLFeat.
+
+  Participants are expected to have a good understanding of the Python
+  language, some basic knowledge about C or C++.  No deep C programming
+  knowledge is required, nor is any prior knowledge needed about
+  writing extension modules for the CPython runtime.
+
+duration: 2119
+recorded: '2017-07-14'
+speakers:
+- Simmi Mourya
+thumbnail_url: https://i.ytimg.com/vi/ZSHL5rkFDQQ/hqdefault.jpg
+title: 'Scientific computing  using Cython: Best of both Worlds!'
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=ZSHL5rkFDQQ
+

@@ -1,0 +1,34 @@
+description: |-
+  There is a lot more to parallel programming in Python than
+  multiprocessing.Pool().map.
+
+  In this talk I will share some hard-learned knowledge gained in
+  several years of parallel programming.
+
+  Covered topics will include performance, ways to measure the
+  performance, memory occupation, data transfer and ways to reduce the
+  data transfer, how to debug parallel programs and useful libraries.
+
+  I will give some practical examples, both in enterprise programming
+  (importing CSV files in a database) and in scientific programming
+  (numerical simulations). The initial part of the talk will be
+  pedagogical, advocating the convenience of parallel programming in
+  the small (i.e. in single machine environment); the second part will
+  be more advanced and will touch a few things to know when writing
+  parallel programs for medium-sized clusters.
+
+  I will also briefly discuss the compatibility layer that we have
+  developed at GEM to be independent from the underlying
+  parallelization technology (multiprocessing, concurrent.futures,
+  celery, ipyparallel, grid engine...).
+
+duration: 2060
+recorded: '2017-07-14'
+speakers:
+- Michele Simionato
+thumbnail_url: https://i.ytimg.com/vi/kb2_No5tkgE/hqdefault.jpg
+title: Lessons learned in X years of parallel programming
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=kb2_No5tkgE
+

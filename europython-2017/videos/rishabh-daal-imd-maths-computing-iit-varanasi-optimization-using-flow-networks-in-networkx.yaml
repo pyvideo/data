@@ -1,0 +1,50 @@
+description: |-
+  Prerequisite: Basic Programming.
+
+  Goals:
+
+  Introduction to NetworkX Library.
+  Using NetworkX for optimization Techniques using Network Flow.
+
+  This talk can be divided into three major parts.
+
+  Introduction to NetworkX
+  Basic Introduction to Network Flow.
+  The solution of (https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem#Project_selection_problem) Project selection problem using Network Flow and NetworkX.
+
+  1. Introduction to NetworkX.
+
+  - What is NetwrokX?
+  - Creating a graph in NetworkX.
+  - Some awesome methods
+  - Algorithms available.
+  - Using with other libraries like Pandas.
+
+  2. Basic Introduction to Network Flow.
+
+  - Origin of Problem: Mincut of soviet union railway network.
+  - A quick explanation of Max-Flow and min-cut problem.
+  - Max-flow = min-cut
+  - How to reduce problems for Network Flow optimization?
+  - Model the problem for using NetworkX
+
+  3. Solution of Project selection Problem using NetworkX.
+
+
+  - Problem statement.
+  - How can we solve it using max flow / min-cut?
+  - Modeling in form of graph.
+  - Proof of correctness
+  - Representing the graph in NetworkX
+  - Finding answer in NetworkX
+
+duration: 1294
+recorded: '2017-07-13'
+speakers:
+- Rishabh Daal
+thumbnail_url: https://i.ytimg.com/vi/FF-dWjionCw/hqdefault.jpg
+title: Optimization using Flow Networks in NetworkX.
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=FF-dWjionCw
+

@@ -1,0 +1,37 @@
+description: |-
+  So you've released a library! Now you need to maintain it. You want
+  to add features, restructure the code, fix bugs, and maybe improve
+  the library's usability. Your users just want their code to carry on
+  working. That's okay!
+
+  This talk will cover techniques in both code and project management
+  to allow you to keep your code moving forwards without breaking your
+  users' code. It is aimed at developers with a little experience of
+  writing libraries in Python, and will cover some intermediate
+  subjects like function decorators and magic methods.
+
+  Refactoring in Python is a mixed bag - on the one hand you have
+  powerful tools like the @property decorator, __dunder__ methods, and
+  even metaclasses. On the other hand, because Python code has no
+  concept of private or protected like some other languages, it can be
+  difficult to know what your public interface even is.
+
+  I'll talk about how to identify your public interface, and make that
+  clear to your users. I'll cover how to structure your tests so you
+  know when you've broken your public interface. I'll discuss how to
+  use some of Python's language features to trick your users into
+  thinking your code hasn't changed at all (except for those brilliant
+  new features you've just added!). And finally, I'll cover how you
+  know it's time to break backwards compatibility and how to break it
+  to your users.
+
+duration: 1802
+recorded: '2017-07-14'
+speakers:
+- Mark Smith
+thumbnail_url: https://i.ytimg.com/vi/NNmyVqhgs_M/hqdefault.jpg
+title: 'Pythonic Refactoring: Protecting Your Users From Change'
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=NNmyVqhgs_M
+

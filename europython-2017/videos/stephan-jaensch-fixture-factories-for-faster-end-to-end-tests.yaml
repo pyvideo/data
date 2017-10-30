@@ -1,0 +1,33 @@
+description: |-
+  When developing and maintaining many different services, unit testing
+  is not enough to make sure your code works in production. By now,
+  many teams doing SOA (service-oriented architectures) have a set of
+  end-to-end tests that cover critical workflows to make sure these
+  work. For these tests, all of the utilized services need to have the
+  proper test fixture data in their datastores. This often leads to
+  developers having to deal with raw datastore data (like JSON or SQL)
+  for these tests, making the authoring of those tests very slow,
+  tedious, and error-prone.
+
+  This talk is going to discuss several approaches we tried at Yelp to
+  generating these fixture data in a quicker, developer-friendly and
+  more correct way.
+
+  The main part of the talk will be a deep-dive into what fixture
+  factories are, how to implement them and how to integrate them with
+  pytest, the leading Python testing framework. I'll show you several
+  other benefits this approach has over writing raw fixture data and
+  how this leads to more maintainable and easier to adapt code. We'll
+  also explore how you can then run your tests in parallel, cutting
+  down runtime drastically.
+
+duration: 1895
+recorded: '2017-07-13'
+speakers:
+- Stephan Jaensch
+thumbnail_url: https://i.ytimg.com/vi/FxgLOY-YsTc/hqdefault.jpg
+title: Fixture factories for faster end-to-end tests
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=FxgLOY-YsTc
+

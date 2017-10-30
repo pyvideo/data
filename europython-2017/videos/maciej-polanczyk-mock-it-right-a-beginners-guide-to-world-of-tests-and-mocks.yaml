@@ -1,0 +1,40 @@
+description: |-
+  The main goal of this presentation is to make beginner audience
+  familiar with mocks and patches but there is a chance that more
+  experienced ones will also find something new for themselves.
+  Presentation shows the common use cases when developing unit tests. I
+  will say what are the best practices when working with mocks and
+  patches and what kind of mistakes, done by many developers, may be
+  avoided so the dragons will not come. During this presentation I will
+  prepare mock-it-o drink as a prize.
+
+  First, I will briefly introduce an audience with the topic of unit
+  testing. Then I will show a simple code which will be tested during
+  the presentation. It covers all common use cases of writing unit
+  tests which are usage of mocks, patches and their side effects. In
+  the end I will show a template of unit test which will be extended
+  according to our needs.
+
+  Next, I will say what is a mock, and what are the benefits of using
+  it. Why it is better than any Dummy class implemented for purpose of
+  unit tests and, what is the most important and sometimes forgotten by
+  experienced developers, how to create the best mock, which involves
+  using spec_set and spec to protect us from dragons when interface of
+  mocked class changes.
+
+  Last but not least part of my presentation will be dedicated to
+  patches. I will explain when and how patches should be used (how to
+  use side_effect, patch properties and environment variables).
+  Finally, I will say how to avoid common mistakes when working with
+  patches.
+
+duration: 1698
+recorded: '2017-07-10'
+speakers:
+- Maciej Polańczyk
+thumbnail_url: https://i.ytimg.com/vi/rEIt0D_ACy8/hqdefault.jpg
+title: Mock it right! A beginner’s guide to world of tests and mocks.
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=rEIt0D_ACy8
+
