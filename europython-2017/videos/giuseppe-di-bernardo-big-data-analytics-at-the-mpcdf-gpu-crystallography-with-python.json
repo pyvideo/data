@@ -1,0 +1,16 @@
+{
+  "description": "In close collaboration with scientists from MPG, the Max Planck\nComputing and Data Facility is\u00a0engaged in the development and\noptimization of algorithms and applications for high\nperformance\u00a0computing, as well as in the design and\u00a0implementation of\nsolutions for data-intensive projects.\u00a0Python is now used at MPCDF in\nthe emerging area of \u201catom probe crystallography\u201d (APT): a Fourier\nspectral analysis in 3D reciprocal space can be simulated in order to\nreveal both composition and crystallographic structure at the atomic\nscale of billions APT experimental data sets. The Python data\necosystem has proved to be well suited to this, as it has grown\nbeyond the confines of single machines to embrace scalability. This\ntalk aims to describe our approach to scaling across multiple GPUs,\nand the role of our visualization methods too. Our data workflow\nanalysis relies on the GPU-accelerated Python software package called\nPyNX, an open source Python library which provides fast parallel\ncomputation scattering. The code is well suited for GPU computing,\nusing both the pyCUDA and pyOpenCL libraries. Exploratory data\nanalysis and performance tests are initially carried on through\nJupyter notebooks and Python packages e.g., pandas, matplotlib,\nplotly. In production stage, interactive visualization is realized by\nusing standard scientific tool, e.g. Paraview, an open-source 3D\nvisualization program which e.g. requires Python modules to generate\nvisualization components within VTK files.",
+  "duration": 1750,
+  "recorded": "2017-07-12",
+  "speakers": [
+    "Giuseppe Di Bernardo"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7oROuV-HjSQ/hqdefault.jpg",
+  "title": "Big Data Analytics at the MPCDF: GPU Crystallography with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7oROuV-HjSQ"
+    }
+  ]
+}

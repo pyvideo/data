@@ -1,0 +1,16 @@
+{
+  "description": "Authentication, authorization and public key infrastructure are\ncomplicated and hard to get right, yet crucial for every\ninfrastructure. Manifold user databases in each application as well\nas ad-hoc self-signed TLS/SSL certificates don't scale and are hard\nto administrate. Users don't want to remember a password for each\nservice, admins prefer a centralized PKI, and developers struggle\nwith correct handling of password.\n\nFreeIPA is an Open Source, Python-based identity management solution.\nIt is much more than a simple user database. FreeIPA combines\nmultiple mature products under an easy-to-use installer, command line\nand web interface: 389-DS LDAP server, MIT Kerberos, Dogtag PKI\ncertificate system, BIND DNS with DNSSEC, SSSD, certmonger and more.\nIt provides identities for users, services and machines with single\nsign-on (optionally 2FA) and role or host based ACL. Keycloak and\nIpsilon IdP can be integrated to offer OpenIDC or SAML. Mutual trust\nwith Active Directory is possible, too.\n\nInstallation of a FreeIPA server and integration with a WSGI\napplication is much simpler than you might think.  At the end of my\ntalk you will know how to deploy a FreeIPA server with just one\ncommand, how to add replicas for redundancy, how to authenticate\nusers and access user data like name, email and group membership\nwithout adding a single line of Kerberos or LDAP code to your\napplication, and how to issue TLS certificates with auto-renewal and\nOCSP.",
+  "duration": 2526,
+  "recorded": "2017-07-13",
+  "speakers": [
+    "Christian Heimes"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/cUQcNi_obIc/hqdefault.jpg",
+  "title": "Identity management, single sign-on and certificates with FreeIPA",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cUQcNi_obIc"
+    }
+  ]
+}

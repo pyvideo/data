@@ -1,0 +1,16 @@
+{
+  "description": "The pandas library represents a very efficient and convenient tool\nfor data manipulation, but sometimes hides unexpected pitfalls which\ncan arise in various and sometimes unintelligible ways.\n\nBy briefly referring to some aspects of the implementation, I will\nreview specific situations in which a change of approach can make\ncode based on pandas more robust, or more performant.\n\nSome examples:\n\n- inefficient indexing\n- multiple dtypes and efficiency\n- implicit type casting\n- HDF5 storage overhead\n- GroupBy.apply()... when you don't actually need it\n\nUPDATE: slides and materials can be found at http://pietrobattiston.it/python:pycon#europython_rimini_july_2017",
+  "duration": 2625,
+  "recorded": "2017-07-12",
+  "speakers": [
+    "Pietro Battiston"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/4JwpDGrMsJE/hqdefault.jpg",
+  "title": "How to use pandas the wrong way",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4JwpDGrMsJE"
+    }
+  ]
+}

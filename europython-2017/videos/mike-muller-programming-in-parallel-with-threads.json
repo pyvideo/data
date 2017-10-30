@@ -1,0 +1,16 @@
+{
+  "description": "Threads are typically not the way to take advantage of multiple CPUs\nfor CPU-bound problems. The Global Interpreter Lock (GIL) allows the\nuse of only one CPU at the time when using threads. However, the GIL\nis released for IO task\n\nThe use case is a scientific simulation model that has to run 18,000\ndifferent simulations. The input data for these simulations need to\nbe extracted from a common database, re-assembled and translated into\nseveral input files per simulation. After each simulation that is run\nwith an external, standalone executable, the output data needs to be\ngathered and rearranged in a output database.\n\nThe implementation scaled up to 50 threads. On a eight-core machine\nmore than 90 % usage of all CPUs could be achieved, bringing the\ntotal run time down to about two hours from about 15 hours.\n\nDepending on the use case, threading can help to speedup a program\nand even take advantage of multiple CPUs. This talk presents such a\nuse case. The approach can be translated to problems from other\ndomains if the sub-tasks can be turned into IO tasks.\n\nAsynchronous programming could have been used here. However using a\nthread per task and using class that represents a task, is likely\nconceptually simpler for programmers not used to asynchronous\nprogramming.",
+  "duration": 2088,
+  "recorded": "2017-07-11",
+  "speakers": [
+    "Mike M\u00fcller"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/5BiqdDXtFfA/hqdefault.jpg",
+  "title": "Programming in Parallel with Threads",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5BiqdDXtFfA"
+    }
+  ]
+}
