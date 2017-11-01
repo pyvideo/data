@@ -1,0 +1,16 @@
+{
+  "description": "A global atmospheric model play an important role in short-term\nweather forecasting and long-term climate prediction. The model\nrequires enormous computing resources because the all atmospheric\nstates must be calculated every time step (usually a tens of seconds\nto several minutes). However, since the most atmospheric models run\nonly on CPU machines, they are not able to use the modern\nmicroprocessors with high performance and low power such as NVIDIA\nGPU and Intel MIC.\n\nIt often costs a lot to convert codes from one machine to the other\nmachine.  Although it can be accelerated on GPU and MIC using OpenMP\nand OpenACC directives, it is not easy to achieve peak performance. I\ndeveloped a new Python module named PyMIP (Python based Machine\nIndependent Platform) to integrate C, Fortran, CUDA and OpenCL codes\nwith a simple user interface. The main code includes configuration,\nflow control, IO and MPI parallel is written by Python. Only hotspots\ninclude huge number crunching code are written by compile language as\nC, Fortran, CUDA and OpenCL. The hotspot codes are compiled and\nimported using PyMIP in runtime. PyMIP enables that a user can switch\nmachines with simple flag.\n\nI am developing a new global atmospheric model based on PyMIP to make\nit easy to utilize various modern microprocessors.  In this\npresentation, I will introduce PyMIP and show the computational\nperformance result in NVIDIA GPU of the dynamical core of the model\ndeveloped based on PyMIP.",
+  "duration": 1719,
+  "recorded": "2017-07-10",
+  "speakers": [
+    "Ki-Hwan Kim"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XMcNFBKNWKg/hqdefault.jpg",
+  "title": "GPU Acceleration of a Global Atmospheric Model using Python based Multi-platform",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XMcNFBKNWKg"
+    }
+  ]
+}

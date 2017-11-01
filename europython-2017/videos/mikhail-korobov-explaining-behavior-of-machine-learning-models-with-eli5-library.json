@@ -1,0 +1,16 @@
+{
+  "description": "ML estimators don't have to be black boxes. Interpretability has many\nbenefits: it is easier to debug interpretable models, humans trust\ndecisions of such models more.\n\nIn this talk I\u2019ll give an overview of ML models interpretation and debugging techniques. I\u2019ll cover\n\n- linear models,\n- decision trees,\n- tree ensembles,\n- arbitrary classifiers using LIME algorithm.\n\nThe talk focus is on explanation algorithms, because it is important\nto be aware of pitfalls and limitations of the explanation method to\nbe able to interpret an explanation correctly. I\u2019ll also show how to\nuse these techniques in practice, to debug and explain behavior of\nestimators from Python ML libraries like scikit-learn and xgboost\nusing open-source eli5 library:\nhttps://github.com/TeamHG-Memex/eli5 .\n\nAttendees will get both practical and theoretical understanding of\nthese explanation methods. Target audience is ML practitioners who\nwant to\n\n1. get a better quality from their ML pipelines - understanding of\n   why a wrong decision happens is often a first step to improve the\n   quality of an ML solution;\n2. explain ML model behavior to clients or stakeholders - inspectable\n   ML pipelines are easier to \u201csell\u201d to a client; humans trust such\n   models more because they can check if an explanation is consistent\n   with their domain knowledge or gut feeling, understand better\n   shortcomings of the solution and make a more informed decision as a\n   result.",
+  "duration": 1819,
+  "recorded": "2017-07-13",
+  "speakers": [
+    "Mikhail Korobov"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/s-yT5Is1G1A/hqdefault.jpg",
+  "title": "Explaining behavior of Machine Learning models with eli5 library",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=s-yT5Is1G1A"
+    }
+  ]
+}

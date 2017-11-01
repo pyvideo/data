@@ -1,0 +1,16 @@
+{
+  "description": "PyRT (pronounced \"pirate\") is a rather new open source project\ncreating a ray tracer in pure Python and some optional CPU/GPU\nacceleration using bindings. Ray tracing is a technique for\ngenerating an image by tracing the path of light.\n\nPyRT was created to render large 3D City models. In this talk, the\npossibilities and experiences of ray tracing in Python using pyRT are\nshown. pyRT also runs in the Jupyter Notebook.\n\nRendering complex 3D-Geodata, such as 3D-City models with an\nextremely high polygon count and a vast amount of textures at\ninteractive framerates is still a very challenging task, especially\non mobile devices. This talk presents an approach for processing,\ncaching and serving massive geospatial data in a cloud-based\nenvironment for large scale, out-of-core, highly scalable 3D scene\nrendering in a web-based solution. PyRT  is used for rendering large\namounts of geospatial data. The approach for processing, rendering\nand caching 3D-City Models is shown.\n\nScreenshots:\n\n- https://github.com/martinchristen/pyRT/raw/master/jupyter/img/sponza.png\n- https://github.com/martinchristen/pyRT/blob/master/jupyter/img/Berlin_AO_small.PNG?raw=true",
+  "duration": 1801,
+  "recorded": "2017-07-12",
+  "speakers": [
+    "Martin Christen"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/xFgFtk-0zsk/hqdefault.jpg",
+  "title": "Rendering complex 3D-Geodata using pyRT",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xFgFtk-0zsk"
+    }
+  ]
+}

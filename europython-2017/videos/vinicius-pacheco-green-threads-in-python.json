@@ -1,0 +1,16 @@
+{
+  "description": "This talk is for general public with problems to scale. The good\nbackground for this talk is people with minimal knowledge about\nthreads. After this talk I expect that the audience can be enable to\nunderstand multiprocessing, when use and which tools and methods are\nappropriate for each case.\n\nUnderstanding threads\n\n- It's the first moment on the talk. Here I'll speak about the thread theory and what happen when we use threads on the OS\n\nThreads and multiprocess API\n\n- I'll give simple examples about what python give us to use threads and multiprocessing perhaps with two APIs\n\n  - https://docs.python.org/3/library/threading.html\n  - https://docs.python.org/3.5/library/multiprocessing.html\n\nUnderstanding Green threads\n\n- Here I'll speak about green threads theory and what happen when we use green threads on our OS\n\nGreen thread Patterns and tools\n\n- Here I'll show few examples with keep alive patterns, discuss about a few tools and show gevent and asyncio examples\n\nParallelism x asynchronism\n\n- I'll show the diference between parallelism and asynchronism discussing about the two theories\n\nWhy, when and how\n\n- It's is the last talk moment and I'll explain the how complex is work with multiprocess showing cases like queues consume and APIs consume",
+  "duration": 1601,
+  "recorded": "2017-07-12",
+  "speakers": [
+    "Vinicius Pacheco"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VWoyeq_ujJ4/hqdefault.jpg",
+  "title": "Green threads in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VWoyeq_ujJ4"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Serverside applications are more and more likely to need to run in\ndynamic cloud environments where they can automatically scale as\nrequired.  One rightfully popular approach is to run the application\nas a Docker container inside a Kubernetes cluster, giving you a lot of\noperational benefits thanks to the Kubernetes folks.\n\nFor the most part it is rather easy to make your Python application\nwork inside a Docker container.  But there are a number of common\npatterns one can follow to save time by delegating more things to the\nruntime environment.  Furthermore you can start adding a few simple\nnon-intrusive features to your application which will help improve the\napplication live-cycle in the cluster, ensuring smooth hand-over when\nmigrating the container to different nodes or scaling it up or down.\n\nThis talk will quickly cover the basics of Kubernetes and will then\nstart from a simple program and will discuss the steps to take to make\nit behave well in this environment.  Starting with the basics steps\nyou can rely on the runtime for, covering logging and all the way to\nsupporting the service life-cycle, health checking and monitoring in a\nKubernetes environment.  You will see that building a cloud-native\napplication is not very hard and something you can gradually\nintroduce.",
+  "duration": 1833,
+  "recorded": "2017-07-13",
+  "speakers": [
+    "Floris Bruynooghe"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZKPMQ-Sfk8Y/hqdefault.jpg",
+  "title": "Cloud Native Python in Kubernetes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZKPMQ-Sfk8Y"
+    }
+  ]
+}

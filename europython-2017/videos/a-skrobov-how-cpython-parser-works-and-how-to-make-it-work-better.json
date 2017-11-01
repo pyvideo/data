@@ -1,0 +1,16 @@
+{
+  "description": "The part of CPython core that parses the Python source code is some\nvery old and convoluted code: the time has proven its reliability,\nbut few CPython hackers understand (or care) how it works, or even\nwhat exactly it does. There is, however, a good reason to care: for\nshort-running scripts, the performance of CPython may easily be\ndominated by that of parsing the source code.\n\nThe talk will describe the two parsers that are involved, it will\nexplain how these two parsers build two different kinds of syntax\ntrees, and then show how the structure of one of the trees can be\namended to reduce its memory footprint threefold, with only minor\nchanges necessary in its consumers. It will also suggest other, more\ninvasive improvements, which can yield even better savings.\n\nThe talk will assume fluency in C and a basic acquaintance with\nCPython core internals, and will give the attendees an introduction\ninto hacking the parser, guiding their way through to the very\ntangible end result of reducing Python overall memory consumption by\nup to 30%, measured at standard micro-benchmarks.",
+  "duration": 1887,
+  "recorded": "2017-07-12",
+  "speakers": [
+    "Artyom Skrobov"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/qq6eHivQOjI/hqdefault.jpg",
+  "title": "How CPython parser works, and how to make it work better",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qq6eHivQOjI"
+    }
+  ]
+}

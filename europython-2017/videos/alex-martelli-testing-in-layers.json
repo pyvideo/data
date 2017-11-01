@@ -1,0 +1,16 @@
+{
+  "description": "The role of automated testing at the heart of modern development and\noperations is a given. However, the traditional approach to testing,\nseparating too-developer-focused unit testing and (often only semi-automated)\nend-to-end integration testing\u2014is not optimal in the modern, fluid world of DevOps.\n\nNothing short of full automation is suitable for continuous integration;\nany \u201ctesting\u201d requiring humans has a drastically different place in the\ncontinuum of development and deployment and should best be called by a\ncompletely different name like quality assurance.\nWithin the realm of fully automated testing, the best approach,\njust as for other kinds of software, is modular and layered.\n\nThis talk highlights the proper design of components for testing purposes\nand explains how such a design lets you compose multiple, layered testing\nsuites that span the gamut from fast, light-weight unit tests meant\nto run all the time during development, to full-fledged end-to-end tests\nof whole systems\u2014and, crucially, the often-neglected intermediate layers,\nbridging the thoroughness of end-to-end tests with unit tests\u2019 speed\nand ability to pinpoint the location of any problems that emerge,\nenabling rapid fixes of most such problems.\n\nThe talk also discusses the use of modular, layered testing components\nto validate software refactoring, and (when deployed in a load-testing\narrangement) identify and validate software (and architectural) optimizations.",
+  "duration": 2709,
+  "recorded": "2017-07-10",
+  "speakers": [
+    "Alex Martelli"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VzOOZxuqSVk/hqdefault.jpg",
+  "title": "Testing in Layers",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VzOOZxuqSVk"
+    }
+  ]
+}

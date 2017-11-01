@@ -1,0 +1,16 @@
+{
+  "description": "http://www.geosci-model-dev.net/5/55/2012/\n\nScientific aircraft research flights have to be planned beforehand.\n\nFor that it is necessary to have model forecasts of relevant\nquantities such as meteorological parameters, chemical composition or\nparticle information to guide the aircraft to the location of\ninterest. Typically, many scientific instruments on board those\naircrafts used to investigate e.g. the chemical composition of the\nair in order to get new insights often with the involvement of\ndifferent science groups.\n\nFor discussion of the possibilites of the research flights, the\nMission Support System (MSS) was developed (http://mss.rtfd.io). This\nsoftware helps to review a big amount of metereological and model\ndata by viewing the forecasted parameters of interest along possible\nregions of a proposed flight path. Data and possible flight paths can\nbe displayed on a hoizontal view (map projection) or on a vertical\nview (along the proposed flight path). Flight paths can be\nconstructed and modified on these views. Exchange through a waypoint\ntable is also possible.\n\nThe talk gives a brief insight into the MSS software development\ncurrent state.\n\nWe are using the OWS interface standard.\nhttps://geopython.github.io/OWSLib/ MSS is a client/server\napplication. The QT client interacts with a paste wsgi server. The\nsoftware is available for all platforms on conda-forge.",
+  "duration": 1638,
+  "recorded": "2017-07-12",
+  "speakers": [
+    "Reimar Bauer"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/G3h21DdDTjQ/hqdefault.jpg",
+  "title": "MSS - Software for planning research aircraft missions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=G3h21DdDTjQ"
+    }
+  ]
+}

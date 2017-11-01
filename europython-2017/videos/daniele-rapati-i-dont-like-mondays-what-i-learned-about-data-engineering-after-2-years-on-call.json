@@ -1,0 +1,16 @@
+{
+  "description": "The first weekend of October 2015 my company bought an advert during\nthe first episode of \"Downton Abbey\" on Sunday evening. It was so\nsuccessful that the website went down for half an hour. We wanted to\nlook at the analytics and the data to estimate the impact. But they\nwere having a very hard weekend too: the replica of the production\ndatabase we used was unreachable and the only person who knew how to\nfix it was on a plane. Monday really was a memorable day.\n\nThis session is about sharing some life experience and best practices\naround Data Engineering. Attendants should have some previous\nunderstanding of data and tech in business. Attendants should leave\nwith an understanding of on-call practices and with some quick win\nactions to take.\n\nWhat does it mean to be on call?\n\nHow do you make sure that the phone rings as little as possible?\n\n- Fixing versus Root Cause Analysis.\n- Systems break at junctures.\n- Especially if the juncture is with a third party.\n\nWhy and when is it worth reacting to errors as soon as they happen?\n\n- External Services.\n- Increasing Business Trust.\n- Allowing others to build on solid ground.\n\nHow do you make sure the phone rings when it should?\n\n- Alerting tools: emails, chat, specialised applications like PagerDuty, OpsGenie and Twilio\n- Monitoring systems\n- Monitoring data (Data Quality) as a continuous early warning system.",
+  "duration": 1684,
+  "recorded": "2017-07-14",
+  "speakers": [
+    "Daniele Rapati"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/k8w_EMQQOiU/hqdefault.jpg",
+  "title": "I don't like Mondays-what I learned about data engineering after 2 years on call",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=k8w_EMQQOiU"
+    }
+  ]
+}
