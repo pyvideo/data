@@ -1,0 +1,17 @@
+{
+  "description": "I will be talking about Global-Interpreter-Lock (GIL) in Python. It's\na mutex that prevents multiple native threads from running in\nparallel. In essence, this says that a python program cannot do more\nthan one thing at once via threading. There is a lot of misconception\nin a lot of Python Programmers regarding Global Interpreter Lock.\nMost of them think its the worst part of Python.\n\nI will try to demonstrate how it actually works and how we can\nleverage multiple CPU cores for multithreading for I/O and CPU Bound\ntask using C-Extensions. I will also show some comparisons with\ndifferent implementations of Python and the presence or absence of\nGIL in those, to answer questions like, why we can't just remove it\nfrom CPython and solve all our problems or why Jython performs better\nin Multithreading for CPU Bound task.",
+  "duration": 1667,
+  "language": "eng",
+  "recorded": "2017-06-09",
+  "speakers": [
+    "Amit Kumar"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/hZCncedsVsY/hqdefault.jpg",
+  "title": "Let's talk about GIL!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hZCncedsVsY"
+    }
+  ]
+}

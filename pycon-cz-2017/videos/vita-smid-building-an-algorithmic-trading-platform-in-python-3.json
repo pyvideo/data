@@ -1,0 +1,17 @@
+{
+  "description": "For the past three years, my colleagues and I have been developing\nand operating a Python system that trades in the stock market.\n\nI am going to tell you a story of how we developed and scaled this\nplatform. We made some rather good decisions, as well as many\nmistakes that everyone can learn from. Some of our code is open\nsource and you can use it in your own projects.\n\nWe started with a small event-driven application built with asyncio.\nAs our trading expanded, our application has grown into a multi-agent\nmonolith: hundreds of modules operating in a single asyncio-managed\nprocess. Today, we are moving to a more distributed approach. Some\nparts of the platform run in isolated processes and communicate\nasynchronously.\n\nI am going to show you a few challenges we have faced on this\njourney, and what they taught us about Python, asyncio, distributed\nsystems, debugging, and making painful compromises. You don't need to\nknow anything about trading. In fact, it turns out that these are\nmostly quite fundamental computer science problems that pop up over\nand over again, regardless of what you're building\u2026\n\n------\n\nV\u00ed\u0165a travels the world, writes software and ponders on philosophy.\n\nHe likes to solve hard problems, preferably involving mathematics,\nfinance and lots of data. Python has been his language of choice for\nmany years and lately he's very much into latest developments like\nasyncio and type hints.",
+  "duration": 2349,
+  "language": "eng",
+  "recorded": "2017-06-09",
+  "speakers": [
+    "V\u00ed\u0165a \u0160m\u00edd"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/tGdj0DJyCsk/hqdefault.jpg",
+  "title": "Building an algorithmic trading platform in Python 3",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tGdj0DJyCsk"
+    }
+  ]
+}
