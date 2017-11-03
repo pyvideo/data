@@ -1,0 +1,17 @@
+{
+  "description": "'MicroPython on the water' has been created from pure interest and\npassion for MicroPython \u2013 a Python 3.5 implementation for\nembedded/bare metal systems. MicroPython is a wonderful project,\nhowever, it deserves some love to isolate its core and use it within\na realtime environment. The talk shows a potential approach how to\nrun MicroPython as a task within FreeRTOS. The actual use case is a\n2-cycle combustion engine management software for an RC model boat.\nThe system takes care of sampling exhaust gas temperature, engine rpm\nand other useful telemetry data. MicroPython provides a very\ncomfortable environment for implementing the\ninconvenient-to-write-in-C-business logic like storing telemetry data\non an SD card, processing remote commands from the pilot and changing\nparameters of the engine management system accordingly.\n\nThe talk also shows how MicroPython can be plugged into a Kconfig\nbased configuration management tool that is known from Linux kernel.\nThe software ecosystem builds micropython as one of its components\namong HAL drivers, sensor software libraries, and last but not least\nthe RTOS",
+  "duration": 2082,
+  "language": "eng",
+  "recorded": "2017-06-08",
+  "speakers": [
+    "Jan \u010capek"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/1UM3ypV3hxg/hqdefault.jpg",
+  "title": "MicroPython on the water",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1UM3ypV3hxg"
+    }
+  ]
+}
