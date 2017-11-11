@@ -1,0 +1,21 @@
+{
+  "description": "Abbiamo avuto l\u2019occasione di lavorare alla richiesta di un cliente, di\nvalutare in maniera obiettiva la possibilit\u00e0 di basare un database\nPostgreSQL su Network File System. Sono stati scritti molti articoli a\nriguardo, ma quando si ha l\u2019opportunit\u00e0 di mettere in pratica questa\nconfigurazione in prima persona, ci si rende conto che ancora molto non\n\u00e8 stato documentato. Le prestazioni di NFS possono essere molto buone,\nma si abbassano notevolmente quando si inseriscono vincoli di\naffidabilit\u00e0. Una soluzione pu\u00f2 essere quella di basare PostreSQL su 2\npartizioni NFS, una per i dati e una per gli xlog, in modo distinguere\nuna configurazione per un rapido accesso ai dati e una con maggiore\naffidabilit\u00e0 per le scritture consistenti dei WAL. In questo talk vorrei\nsottoporre la mia personale esperienza esponendo quali sono stati i test\neffettuati per considerare PostgreSQL su NFS un\u2019opzione molto\ninteressante, sfatando miti e constatando fatti.\n",
+  "duration": 1934,
+  "recorded": "2017-04-08",
+  "related_urls": [],
+  "speakers": [
+    "Jonathan Battiato"
+  ],
+  "tags": [
+    "nfs",
+    "postgresql"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NmtXJ_pSbgs/hqdefault.jpg",
+  "title": "PostgreSQL su NFS: miti e verit\u00e0",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NmtXJ_pSbgs"
+    }
+  ]
+}

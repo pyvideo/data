@@ -1,0 +1,30 @@
+{
+  "description": "The talk illustrates a real-world example of how to collect data from\nyour web, mobile, server and cloud apps and then send them to third\nparty services and tools or load them into your data warehouse.\n\nThe data collection pipeline is integrated with multiple AWS services,\nsuch as Kinesis Firehose, Lambda functions and StepFunctions; Python is\nused to write each module. The data workflow is fully described pointing\nout how to store backup correctly, manage the conditional routing (in\norder to allow or discard data for specific services), implement a retry\nstrategy on failure and finally compare performance and costs for each\nmodule.\n\n**Resources**:\n`clda.co/pycon8-data-collection-blogpost <http://clda.co/pycon8-data-collection-blogpost>`__\n\n**Prerequisites**: Basic knowledge of AWS services\n",
+  "duration": 1583,
+  "recorded": "2017-04-09",
+  "related_urls": [
+    {
+      "label": "blogpost",
+      "url": "http://clda.co/pycon8-data-collection-blogpost"
+    },
+    {
+      "label": "slides",
+      "url": "https://www.pycon.it/media/conference/slides/create-a-serverless-infrastructure-for-data-collection-with-python-and-aws.pdf"
+    }
+  ],
+  "speakers": [
+    "David Santucci"
+  ],
+  "tags": [
+    "datawarehousing",
+    "aws"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VJD6bLFQQ-M/hqdefault.jpg",
+  "title": "Create a serverless infrastructure for data collection with Python and AWS",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VJD6bLFQQ-M"
+    }
+  ]
+}

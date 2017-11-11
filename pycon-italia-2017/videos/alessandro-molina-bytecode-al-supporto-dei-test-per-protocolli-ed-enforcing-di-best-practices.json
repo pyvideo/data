@@ -1,0 +1,33 @@
+{
+  "description": "Python \u00e8 un linguaggio interpretato con efficaci strumenti di\nintrospezione, fino a permetterci di accedere al suo bytecode e vedere\ncosa la virtual machine sta per eseguire. Per quanto questa esigenza sia\nsolitamente molto limitata in ambito di produzione ed uso del software\npu\u00f2 venirci utile all\u2019interno delle test suite per verificare che il\ncodice scritto da terzi o dal noi stessi del domani rispetti ancora dei\nprotocolli o delle best practices che avevamo presupposto.\n\nLa maggior parte di queste esigenze possono essere soddisfatte anche\ntramite l\u2019uso di metaclassi o monkeypatching, ma in alcuni casi \u00e8\npossibile saltare i check preposti involontariamente (ad esempio\nereditando dalla classe sbagliata nel caso delle metaclassi), mentre la\nverifica del byte code ci consente di controllare cosa effettivamente\nsar\u00e0 eseguito, non cosa ci aspettiamo sia eseguito.\n",
+  "duration": 2726,
+  "language": "ita",
+  "recorded": "2017-04-08",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://www.pycon.it/media/conference/slides/bytecode-al-supporto-dei-test-per-protocolli-ed-enforcing-di-best-practices.pdf"
+    }
+  ],
+  "speakers": [
+    "Alessandro Molina"
+  ],
+  "tags": [
+    "quality-assurance",
+    "CPython",
+    "testing",
+    "robustness",
+    "static-typing",
+    "bytecode",
+    "hacking",
+    "compiler"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_je9eN32F-4/hqdefault.jpg",
+  "title": "ByteCode al supporto dei test per protocolli ed enforcing di best practices",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_je9eN32F-4"
+    }
+  ]
+}

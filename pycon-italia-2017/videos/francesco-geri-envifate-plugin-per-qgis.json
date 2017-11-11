@@ -1,0 +1,30 @@
+{
+  "description": "Negli ultimi anni e\u0300 cresciuto in maniera considerevole l\u2019interesse per i\nfenomeni di inquinamento ambientale causati da sostanze tossiche e altre\nfonti di disturbo. La pericolosita\u0300 di ciascuna di tali sostanze si\nmanifesta laddove sia superata una certa soglia di concentrazione che la\nrende tossica. Per proteggere la salute pubblica e gli ecosistemi\noccorre mantenere le concentrazioni di tali inquinanti al di sotto di\nuna soglia di sicurezza e risulta di particolare importanza essere in\ngrado di prevedere in maniera sufficientemente attendibile le\nconcentrazioni che si vengono a stabilire nei diversi comparti\nambientali. In questo contesto, sia per le PA che per gli operatori\nprivati, sta diventando sempre pi\u00f9 importante poter disporre di\nstrumenti semplici ma efficaci che consentano di effettuare analisi di\nscreening tali da individuare le possibili criticit\u00e0 in quest\u2019ambito. Il\nsoftware ENVIFATE viene sviluppato nell\u2019ambito di un progetto di ricerca\nancora in corso finanziato al DICAM (Universit\u00e0 di Trento) dalla Regione\nVeneto proprio per operare analisi di screening per valutare la\npossibilit\u00e0 di rischi di inquinamento ambientale nelle aree protette a\nseguito di pianificazione di potenziali sorgenti inquinanti. Il progetto\nha previsto lo sviluppo di un\u2019applicazione con i seguenti requisiti: i)\nopen-source ii) multipiattaforma iii) user friendly iv) GIS oriented. Si\n\u00e8 scelto di sviluppare una famiglia di plugin di QGIS, utilizzando un\nlinguaggio python multipiattaforma e realizzando un modulo per ciascuna\nmatrice ambientale considerata: fiumi, laghi, dispersione atmosferica,\ndispersione in falda, rumore. I plugin sono stati sviluppati a partire\nda una libreria di moduli lanciabili da linea di comando o da\napplicazioni di terze parti con un elevato livello di modularit\u00e0 e\nscalabilit\u00e0. E\u2019 cos\u00ec anche possibile concatenare i diversi moduli in\nflussi di dati personalizzati. Tutti i plugin forniscono risultati di\ntipo numerico e cartografico. In particolare i tool da linea di comando\nforniscono un risultato \u201cstatico\u201d, ovvero collegato ad un particolare\nstato spaziale e temporale, mentre all\u2019interno dei plugin il modulo\nviene reiterato nello spazio e nel tempo allo scopo di fornire mappe\ngeoriferite e risultati relazionati temporalmente, propedeutici alle\ndiverse valutazioni ambientali. I futuri sviluppi del plugin ne\nestenderanno le funzionalit\u00e0 affinch\u00e9 verifichi quando gli effetti\ncalcolati causino scostamenti significativi e misurabili dello status\ndelle matrici ambientali in relazione a ci\u00f2 che \u00e8 tutelato. Questo in\nprima istanza rispetto agli habitat e alle specie della rete Natura 2000\nall\u2019interno di valutazioni di incidenza, ma anche con la prospettiva di\nestendere tali analisi a VIA e VAS o ad una integrazione con i Life\nCycle Inventories (LCI).\n\nAutori: Francesco Geri, Oscar Cainelli, Paolo Zatelli, Gianluca Salogni,\nMarco Ciolli\n",
+  "duration": 1459,
+  "language": "ita",
+  "recorded": "2017-04-07",
+  "related_urls": [],
+  "speakers": [
+    "Francesco Geri"
+  ],
+  "tags": [
+    "risk-management",
+    "open-source",
+    "Python",
+    "matplotlib",
+    "environment",
+    "Qgis",
+    "gis",
+    "impact-assessment",
+    "gdal",
+    "pollution"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WUDf0yEHReY/hqdefault.jpg",
+  "title": "ENVIFATE: plugin per QGIS per la valutazione del rischio di inquinamento ambientale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WUDf0yEHReY"
+    }
+  ]
+}

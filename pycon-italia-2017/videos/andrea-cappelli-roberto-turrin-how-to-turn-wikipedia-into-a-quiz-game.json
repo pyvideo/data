@@ -1,0 +1,35 @@
+{
+  "description": "Quiz games let people test their knowledge through multi-choice\nquestions. Unfortunately, generating such questions can be very\ntime-consuming and it is typically done manually. In this talk we\nwill present a pipeline to automatically generate quiz games starting\nfrom generic knowledge (e.g. Wikipedia). The pipeline consists of the\nfollowing components: (i) a parser to retrieve text from Wikipedia\npages, (ii) a Natural Language Processing module (based on the Google\nNatural Language API) to extract information about syntax, entities\nand relations, (iii) a Natural Language Generation module to generate\ntest questions and correct answers, and finally (iv) a domain-aware\nmodule that uses domain-specific knowledge to generate wrong answers\n(i.e. distractors). Every module is written in Python and it is based\non either available libraries or Cloud services (e.g., Google Natural\nLanguage).\n\n**Prerequisites**: basic knowledge of python, minimal understanding\nof text syntactic analysis.",
+  "duration": 1878,
+  "language": "eng",
+  "recorded": "2017-04-08",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://www.pycon.it/media/conference/slides/how-to-turn-wikipedia-into-a-quiz-game-2.pdf"
+    }
+  ],
+  "speakers": [
+    "Andrea Cappelli",
+    "Roberto Turrin"
+  ],
+  "tags": [
+    "nlp",
+    "AI",
+    "games",
+    "computational-linguistics",
+    "data-analysis",
+    "text-analysis",
+    "google-cloud",
+    "Artificial Intelligence",
+    "linked-data"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/i1dSSgFXAjs/hqdefault.jpg",
+  "title": "How to turn Wikipedia into a Quiz Game",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=i1dSSgFXAjs"
+    }
+  ]
+}

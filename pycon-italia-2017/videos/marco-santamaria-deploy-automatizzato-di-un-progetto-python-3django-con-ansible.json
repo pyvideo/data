@@ -1,0 +1,33 @@
+{
+  "description": "La mia applicazione \u00e8 pronta e funziona senza problemi sulla mia\nmacchina con il server di sviluppo, ma non ho chiaro come portarla in un\nambiente di produzione. Ci sono parecchi servizi che permettono il\ndeploy con un solo click, adatti soprattutto a semplici siti, ma essi\nnon sono pienamente configurabili e nascondono il modo in cui il server\n\u00e8 effettivamente organizzato. Anche se molti usano ingegnose soluzioni\nPaaS, vale ancora la pena capire come costruire da zero un ambiente di\nproduzione con Linux, Python 3, Django e uWSGI. Nel talk questo classico\nstack verr\u00e0 brevemente introdotto e si mostrer\u00e0 poi come automatizzare\nla configurazione e la procedura di deploy con un `playbook\nAnsible <https://github.com/marco-santamaria/django-%20ansible-deploy>`__\nche verr\u00e0 messo a disposizione. Una particolare enfasi verr\u00e0 data\nall\u2019uso di variabili d\u2019ambiente per la configurazione del progetto\nseguendo l\u2019approccio delle twelve-factor-app. Inoltre verranno spiegati\ni concetti pi\u00f9 importanti di Ansible (playbook, ruoli, template, moduli,\ninventari).\n",
+  "duration": 2366,
+  "language": "ita",
+  "recorded": "2017-04-07",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://www.pycon.it/media/conference/slides/deploy-automatizzato-di-un-progetto-python-3-django-con-ansible.pdf"
+    }
+  ],
+  "speakers": [
+    "Marco Santamaria"
+  ],
+  "tags": [
+    "deploy",
+    "devops",
+    "automation",
+    "nginx",
+    "ansible",
+    "best-practices",
+    "django",
+    "uwsgi"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/RegoEG_0YwM/hqdefault.jpg",
+  "title": "Deploy automatizzato di un progetto Python 3/Django con Ansible",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RegoEG_0YwM"
+    }
+  ]
+}
