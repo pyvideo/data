@@ -1,0 +1,32 @@
+{
+  "description": "Per la schematizzazione di documenti XML sono disponibili diversi\nstandard, tra questi XML Schema. La prima problematica \u00e8 quella di poter\nvalidare file XML secondo il loro rispettivo schema. Un\u2019altra esigenza \u00e8\nla conversione dell\u2019XML in strutture dati in cui siano valorizzati i\ntipi base definiti nello schema e la struttura nidificata in cui sono\ninseriti, similmente a quello che \u00e8 gi\u00e0 reso disponibile per JSON.\n\nIn ambito scientifico, nell\u2019ambito delle attivit\u00e0 del progetto europeo\nMaX (Materials design at the Exascale), per semplificare l\u2019interscambio\ndi dati dati XML tra diversi software di simulazione, si \u00e8 deciso di\nadottare un approccio unitario e sistematico alla validazione e alla\ndecodifica dei dati XML prodotti.\n\nPertanto \u00e8 in fase di sviluppo una nuova libreria (xmlschema), basata\nsulla libreria standard ElementTree di Python, che permette di validare\ne decodificare dati XML con schemi XSD. La decodifica di un documento\nXML produce un dizionario nidificato con i valori terminali appartenenti\nai corrispondenti tipi elementari.\n\nNella presentazione parlerei delle problematiche degli schemi XSD,\ndell\u2019ambito scientifico in cui \u00e8 stata sviluppata la libreria e della\nstruttura della libreria stessa, illustrando e magari raccogliendo\nqualche idea per migliorarla.\n",
+  "duration": 3136,
+  "recorded": "2017-04-08",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://www.pycon.it/media/conference/slides/validazione-dati-xml-in-ambito-scientifico.pdf"
+    }
+  ],
+  "speakers": [
+    "Davide Brunato"
+  ],
+  "tags": [
+    "xml",
+    "mathematical-modelling",
+    "encoding",
+    "Python",
+    "simulation",
+    "validation",
+    "physics",
+    "metadata"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/pRkO0-pTVIg/hqdefault.jpg",
+  "title": "Validazione e decodifica di file XML con Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pRkO0-pTVIg"
+    }
+  ]
+}

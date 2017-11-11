@@ -1,0 +1,28 @@
+{
+  "description": "Many problems in signal processing and machine learning generate massive\namounts of multidimensional data. Data sources from sensor networks and\nInternet-of-Things applications promise a wealth of interaction data\nthat can be naturally represented as tensors. Tensor decompositions have\ngained a steadily increasing popularity in data mining and machine\nlearning, with applications in psychometrics, chemometrics, signal\nprocessing, computer vision, neuroscience, graph analysis, and more. For\nexample, time-varying social networks collected from wearable proximity\nsensors can be represented as 3-way tensors, and tensor decomposition\ncan be used to extract community structures with their structural and\ntemporal signatures.\n\nThe current standard framework for working with tensors, however, is\nMatlab. We will show how tensor decompositions can be carried out using\nPython, how to obtain latent components and how they can be interpreted,\nand what are some applications of this technique in the academy and\nindustry. We will see a use case where a Python implementation of tensor\ndecomposition is applied to a dataset that describes face-to-face social\ninteractions of people, collected using the\n`SocioPatterns <http://www.sociopatterns.org/>`__ platform. This\nplatform was deployed in different settings such as conferences, schools\nand hospitals, in order to support mathematical modelling and simulation\nof airborne infectious diseases. Tensor decomposition has been used in\nthese scenarios to solve different types of problems: it is used for\ndata cleaning, where time-varying graph anomalies can be identified and\nremoved from data; it have been also used to assess the impact of\nface-to-face interactions in the spreading of diseases. These examples\nshow the potential of this technique in data mining and machine learning\napplications.\n",
+  "duration": 2299,
+  "language": "eng",
+  "recorded": "2017-04-09",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://www.pycon.it/media/conference/slides/exploring-temporal-graph-data-with-python-a-study-on-tensor-decomposition-of-wearable-sensor-data.pdf"
+    }
+  ],
+  "speakers": [
+    "Andr\u00e9 Panisson"
+  ],
+  "tags": [
+    "mathematical-modelling",
+    "datamining",
+    "machine-learning"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/YuB2exVzd1s/hqdefault.jpg",
+  "title": "Tensor decomposition with Python: Learning structures from multidimensional data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YuB2exVzd1s"
+    }
+  ]
+}

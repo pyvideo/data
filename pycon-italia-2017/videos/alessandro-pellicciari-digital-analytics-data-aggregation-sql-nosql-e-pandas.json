@@ -1,0 +1,34 @@
+{
+  "description": "I clienti enterprise si trovano sempre pi\u00f9 spesso ad avere difficolt\u00e0\nnel recuperare informazioni essenziali per capire nel complesso dove il\nbrand sta funzionando e dove invece serve un intervento tempestivo,\nperch\u00e8 sono inondati di dati di dettaglio che spesso non sono facilmente\naggregabili e visualizzabili insieme con frequenza giornaliera.\n\nPer rispondere a questa esigenza, in azienda, nel nostro reparto R&D,\nabbiamo sviluppato una dashboard che permette a clienti con diversi\nbrand e properties (siti) di aggregare i principali KPI da monitorare\n(sia KPI standard che KPI personalizzati). I KPI sono i key performance\nindicators, ovvero metriche che aiutano a valutare le performance).\n\nMa i dati da visualizzare e aggregare, provenienti da diverse fonti\n(Google Analytics, Adobe Analytics, tools SEO), hanno strutture diverse\ne non \u00e8 possibile a priori prevedere quali sono le strutture\ndisponibili.\n\nPerci\u00f2, in questo talk vedremo insieme come abbiamo gestito questo caso\nreale attraverso un mix di tecnologie SQL (MySQL attraverso Django) e\nNoSQL (MongoDb), utilizzando i dataframe di Pandas come layer intermedio\nattraverso il quale lavorare il dato velocemente.\n\nLa soluzione realizzata ci ha permesso di integrare rapidamente nuove\nfonti e nuovi KPI, e di gestire volumi elevati di dati (attualmente 200+\nsiti contemporaneamente) con ottime performance.\n\nVedremo poi (se rimane tempo) come questi dati vengono forniti\nattraverso API Rest (grazie a Django Rest Framework) e consumati\nattraverso AngularJS sul client.\n\nVorremmo infine coinvolgervi chiedendovi come avreste gestito questa\ndifficolt\u00e0 - non \u00e8 assolutamente detto che la nostra soluzione sia per\nforza quella ottimale!\n",
+  "duration": 3765,
+  "language": "ita",
+  "recorded": "2017-04-08",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://www.pycon.it/media/conference/slides/digital-analytics-data-aggregation-un-case-study-dal-mondo-reale-utilizzando-sql-nosql-e-pandas.pdf"
+    }
+  ],
+  "speakers": [
+    "Alessandro Pelliciari"
+  ],
+  "tags": [
+    "django-rest-framework",
+    "mongodb",
+    "django",
+    "API Design",
+    "web-development",
+    "angularjs",
+    "mysql",
+    "google-analytics",
+    "pandas"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CqvnO55Xy2Y/hqdefault.jpg",
+  "title": "Digital Analytics Data Aggregation: un case study dal mondo reale utilizzando SQL, NoSQL e Pandas",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CqvnO55Xy2Y"
+    }
+  ]
+}
