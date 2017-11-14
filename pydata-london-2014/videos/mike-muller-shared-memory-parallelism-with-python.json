@@ -1,0 +1,17 @@
+{
+  "description": "Python threads cannot utilize the power of multiple CPUs. Other\nsolutions such multiprocessing or MPI wrapper are based on message\npassing, resulting substantial overhead for certain types of tasks.\n\nWhile pure Python does not support shared memory calculations, Cython\ncombined with OpenMP can provide full access to this type of parallel\ndata processing.\n\nThis talk gives a whirlwind tour of Cython and introduces Cython's\nOpenMP abilities focusing on parallel loops over NumPy arrays. Source\ncode examples demonstrate how to use OpenMP from Python. Results for\nparallel algorithms with OpenMP show what speed-ups can be achieved for\ndifferent data sizes compared to other parallelizing strategies.",
+  "duration": 2268,
+  "language": "eng",
+  "recorded": "2014-02-22",
+  "speakers": [
+    "Mike Mueller"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WoRAi8xV84g/hqdefault.jpg",
+  "title": "Shared Memory Parallelism with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WoRAi8xV84g"
+    }
+  ]
+}
