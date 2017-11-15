@@ -1,7 +1,11 @@
-description: |-
-  Using Bokeh, Pandas and a bit of Apache Spark to address the flexibility, performance / data volume requirements of standard financial risk management processes. Examples in the talk illustrate the model calibration and backtesting processes of a market risk model (VaR Filtered Historical Simulation), which quantifies possible future losses arising from market price movements.
+summary: |-
+  Using Bokeh, Pandas and a bit of Apache Spark to address the
+  flexibility, performance / data volume requirements of standard
+  financial risk management processes. Examples in the talk illustrate
+  the model calibration and backtesting processes of a market risk
+  model (VaR Filtered Historical Simulation), which quantifies possible
+  future losses arising from market price movements.
 
-  Full details — http://london.pydata.org/schedule/presentation/13/
 duration: 2167
 recorded: '2015-06-20'
 speakers:
@@ -11,14 +15,8 @@ title: 'Financial Risk Management: Analytics and Aggregation with the PyData sta
 videos:
 - type: youtube
   url: https://www.youtube.com/watch?v=AeeR8o6Kmlc
-description_original: |
-  We use Bokeh, Pandas and a bit of Apache Spark for addressing the
-  flexibility, performance / data volume requirements of standard
-  financial risk management processes. The coded examples illustrate the
-  model calibration and backtesting processes of a market risk model (VaR
-  Filtered Historical Simulation), which quantifies possible future losses
-  arising from market price movements.
-abstract_original: |
+
+description: |
   Financial institutions regularly estimate possible portfolio losses
   arising from (future) changes in the market values of their assets, e.g.
   using the Value at Risk (VaR) metric. We show a VaR model using Filtered

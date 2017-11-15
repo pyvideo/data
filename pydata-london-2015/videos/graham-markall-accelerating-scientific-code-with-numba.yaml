@@ -1,7 +1,9 @@
-description: |-
-  Numba is a just-in-time Python compiler that can be used to speed up a wide range of scientific and other numerical applications. This tutorial is intended to provide an introduction to using Numba, and ways of understanding of the performance of Numba-compiled code.
+summary: |-
+  Numba is a just-in-time Python compiler that can be used to speed up
+  a wide range of scientific and other numerical applications. This
+  tutorial is intended to provide an introduction to using Numba, and
+  ways of understanding of the performance of Numba-compiled code.
 
-  Full details — http://london.pydata.org/schedule/presentation/3/
 duration: 2269
 recorded: '2015-06-19'
 speakers:
@@ -11,12 +13,8 @@ title: Accelerating Scientific Code with Numba
 videos:
 - type: youtube
   url: https://www.youtube.com/watch?v=q45JJ8BXP2g
-description_original: |
-  Numba is a just-in-time Python compiler that can be used to speed up a
-  wide range of scientific and other numerical applications. This tutorial
-  is intended to provide an introduction to using Numba, and ways of
-  understanding of the performance of Numba-compiled code.
-abstract_original: |
+
+description: |
   This tutorial will provide an overview of
   `Numba <http://numba.pydata.org/>`__, a just-in-time Python compiler
   focused on numerical computing. Originally aimed at computations using
@@ -51,4 +49,5 @@ abstract_original: |
   `Miniconda <http://conda.pydata.org/miniconda.html>`__, as this provides
   a robust mechanism for installing Numba on Linux, Mac OS X and Windows.
 language: eng
-
+tags:
+- tutorial

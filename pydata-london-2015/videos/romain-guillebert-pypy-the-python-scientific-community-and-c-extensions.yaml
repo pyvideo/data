@@ -1,7 +1,9 @@
-description: |-
-  PyPy is the most popular alternative implementation of Python, but it falls short in term of compatibility with C extensions, this talk is about why C extensions are so hard to support on alternative implementations and why they prevent Python from improving.
+summary: |-
+  PyPy is the most popular alternative implementation of Python, but it
+  falls short in term of compatibility with C extensions, this talk is
+  about why C extensions are so hard to support on alternative
+  implementations and why they prevent Python from improving.
 
-  Full details — http://london.pydata.org/schedule/presentation/10/
 duration: 1377
 recorded: '2015-06-20'
 speakers:
@@ -11,12 +13,8 @@ title: PyPy, The Python Scientific Community and C extensions
 videos:
 - type: youtube
   url: https://www.youtube.com/watch?v=YQb9dcBSb3s
-description_original: |
-  PyPy is the most popular alternative implementation of Python, but it
-  falls short in term of compatibility with C extensions, this talk is
-  about why C extensions are so hard to support on alternative
-  implementations and why they prevent Python from improving.
-abstract_original: |
+
+description: |
   Recently we've seen the rise of new technologies like Julia, those have
   the ability to build a new ecosystem on a clean slate and thus be better
   than Python in some aspects. What would it take to be as good as those

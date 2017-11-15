@@ -1,9 +1,11 @@
-description: |-
-  PyData London 2015
+summary: |-
+  A tutorial covering some general concepts of geospatial data, main
+  formats in which it is distributed and some common places where this
+  data can be acquired. We will also learn how to read, process and
+  visualise this data using Python and QGIS. This talk will cover some
+  typical problems one can experience when working with geospatial
+  data.
 
-  A tutorial covering some general concepts of geospatial data, main formats in which it is distributed and some common places where this data can be acquired. We will also learn how to read, process and visualise this data using Python and QGIS. This talk will cover some typical problems one can experience when working with geospatial data.
-
-  Full details — http://london.pydata.org/schedule/presentation/6/
 duration: 4689
 recorded: '2015-06-19'
 speakers:
@@ -13,13 +15,7 @@ title: Analysis and transformation of geospatial data using Python
 videos:
 - type: youtube
   url: https://www.youtube.com/watch?v=raCAJSAFOIU
-description_original: |
-  I will be covering some general concepts of geospatial data, main
-  formats in which it is distributed and some common places where this
-  data can be acquired. We will also learn how to read, process and
-  visualise this data using Python and QGIS. I will also talk about some
-  typical problems one can experience when working with geospatial data.
-abstract_original: |
+description: |
   1.  Installing tools and packages (ansible scripts/cloud machine will be
       provided)
   2.  Basic concepts
@@ -45,4 +41,5 @@ abstract_original: |
   22. Storing geospatial data in databases (PostgreSQL, SpatiaLite,
       MongoDB, ElasticSearch)
 language: eng
-
+tags:
+- tutorial

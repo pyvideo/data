@@ -1,7 +1,11 @@
-description: |-
-  Metrics gathering and visualization is a standard practice for systems and operations engineers. While not as commonly used in the data science world, metric collection tools and techniques can be useful for scientific computing projects. In this talk I will show how to instrument an application to collect metrics, and create a dashboard view to monitor and explore the collected data.
+summary: |-
+  Metrics gathering and visualization is a standard practice for
+  systems and operations engineers. While not as commonly used in the
+  data science world, metric collection tools and techniques can be
+  useful for scientific computing projects. In this talk I will show
+  how to instrument an application to collect metrics, and create a
+  dashboard view to monitor and explore the collected data.
 
-  Full details — http://london.pydata.org/schedule/presentation/44/
 duration: 2655
 recorded: '2015-06-21'
 speakers:
@@ -11,14 +15,8 @@ title: Collect and Visualise Metrics With InfluxDB and Grafana
 videos:
 - type: youtube
   url: https://www.youtube.com/watch?v=w4CNBqGoYRA
-description_original: |
-  Metrics gathering and visualization is a standard practice for systems
-  and operations engineers. While not as commonly used in the data science
-  world, metric collection tools and techniques can be useful for
-  scientific computing projects. In this talk I will show how to
-  instrument an application to collect metrics, and create a dashboard
-  view to monitor and explore the collected data.
-abstract_original: |
+
+description: |
   InfluxDB is an open-source distributed time series database that is easy
   to set up and to get started with. Grafana is a dashboarding tool that
   works with InfluxDB and other time series back-ends. In this talk I will

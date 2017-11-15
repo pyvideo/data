@@ -1,7 +1,7 @@
-description: |-
-  This session is about using native code with Python to ensure computationally intensive programs execute as fast as is possible.
+summary: |-
+  This session is about using native code with Python to ensure
+  computationally intensive programs execute as fast as is possible.
 
-  Full details — http://london.pydata.org/schedule/presentation/48/
 duration: 2513
 recorded: '2015-06-20'
 speakers:
@@ -11,10 +11,8 @@ title: Making Computations Execute Very Quickly
 videos:
 - type: youtube
   url: https://www.youtube.com/watch?v=T138eQjEASs
-description_original: |
-  This session is about using native code with Python to ensure
-  computationally intensive programs execute as fast as is possible.
-abstract_original: |
+
+description: |
   Python is well known as a language that does not execute computationally
   intensive programs quickly. Traditionally, Cython and/or NumPy have been
   the tools to speed things up. There is interest in Numba as a new way
