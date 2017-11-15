@@ -1,0 +1,34 @@
+description: "Spark is a distributed computing tool that offers many advantages over\
+  \ more established Hadoop frameworks.\n\n\nAudience level:\n--------------------------------------------\n\
+  Intermediate\n\n\nDescription:\n-------------------\n\nSpark is a distributed computing\
+  \ tool that offers many advantages over more established Hadoop frameworks. Apart\
+  \ from its improved memory usage and flexibility, it provides a consistent framework\
+  \ to do everything from ad-hoc big data analysis to the construction of a data processing\
+  \ pipeline in production.\n\nAbstract:\n-------------------\n\nThe data science\
+  \ team at Skimlinks has been using Spark for over a year. We will share some of\
+  \ our experience of how to do large-scale data analysis using Spark stand-alone,\
+  \ going from its basic functionality to more advanced features.\n\nWe will first\
+  \ give an introduction to Spark, explaining how computations are distributed across\
+  \ the cluster using resilient distributed datasets (RDDs). A high-level understanding\
+  \ of how a workload is split into stages and tasks is important to be able to diagnose\
+  \ potential problems. After showing how to get started on a cluster of EC2 instances,\
+  \ we will go through a complicated part of using Spark: how to set its configuration\
+  \ parameters.\n\nDuring the first half of the talk, we will focus on Spark core\
+  \ functionality, going through some of the most common problems encountered during\
+  \ basic computations. Using an example from impression data, we will do large-scale\
+  \ text processing using popular ML Python libraries.\n\nIn the latter half of the\
+  \ talk, we will focus towards using Apache Spark in practice by giving an overview\
+  \ of building a large data processing pipeline that ingests and summarises terabytes\
+  \ of data on a daily basis. Many non-technical departments such as Business Intelligence\
+  \ and Marketing are familiar with Python and SQL. We will demonstrate how Spark\
+  \ SQL and Dataframes can be used to query over terabytes of data on the fly."
+duration: 5116
+published_at: '2015-10-06T12:23:38.000Z'
+recorded: ''
+speakers: []
+thumbnail_url: https://i.ytimg.com/vi/aKfrjQlVmAU/hqdefault.jpg
+title: 'Maria Mestre, Sahan Bulathwela: First Steps with Spark'
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=aKfrjQlVmAU
+

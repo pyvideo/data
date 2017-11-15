@@ -1,0 +1,36 @@
+description: |-
+  Recent advances in combining structured graph data with textual data using embedding word representations from a large corpus of unlabelled data. This allows to expand the knowledge base graph and extract complex semantic relationships.
+
+  Full details — http://london.pydata.org/schedule/presentation/29/
+duration: 2031
+recorded: '2015-06-21'
+speakers:
+- Armando Vieira
+thumbnail_url: https://i.ytimg.com/vi/UAMGMMqjHuY/hqdefault.jpg
+title: Jointly Embedding knowledge from large graph databases with textual data using
+  deep learning
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=UAMGMMqjHuY
+description_original: |
+  I will present recent advances in combining structured graph data with
+  textual data using embedding word representations from a large corpus of
+  unlabelled data. This allows to expand the knowledge base graph and
+  extract complex semantic relationships.
+abstract_original: |
+  Targeting knowledge graphs completion is a recent paradigm that allow
+  extraction of new relations (facts) from existing knowledge graphs like
+  Freebase or GeneOntology. Word embeddings represents each entity into a
+  low dimensional space and the relationships as vectorial transformations
+  which has the advantage of making the search space continuous. This
+  allows to encode the entities and transformations with global
+  information from the entire graph. On the other hand, word embedding
+  approaches, like word2vec, extracted from unlabeled text allows
+  representations of words as vectors, although it doesn't allow to
+  extract relationships . By careful alignment of entities from free text
+  with a knowledge graph it is possible to combine both approaches and
+  jointly extract new knowledge through relationships between entities and
+  words / phrases. We will show results from applying this technology to
+  biomedical data.
+language: eng
+

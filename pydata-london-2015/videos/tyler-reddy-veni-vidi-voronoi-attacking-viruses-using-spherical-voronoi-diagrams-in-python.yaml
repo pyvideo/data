@@ -1,0 +1,52 @@
+description: |-
+  Roughly spherical objects are abundant and affect human lives every day--whether dealing with the surface of the earth or microscopic viruses that cause severe illness in humans. Spherical Voronoi diagrams can be used to gain insight into such spherical objects and the algorithms used have only recently been proposed. I will discuss an open source Python implementation and remaining challenges.
+
+  Full details — http://london.pydata.org/schedule/presentation/11/
+duration: 1995
+recorded: '2015-06-20'
+speakers:
+- Tyler Reddy
+thumbnail_url: https://i.ytimg.com/vi/gxNa9BD5CnQ/hqdefault.jpg
+title: 'Veni, Vidi, Voronoi: Attacking Viruses using spherical Voronoi diagrams in
+  Python'
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=gxNa9BD5CnQ
+description_original: |
+  Roughly spherical objects are abundant and affect human lives every
+  day-- whether dealing with the surface of the earth or microscopic
+  viruses that cause severe illness in humans. Spherical Voronoi diagrams
+  can be used to gain insight into such spherical objects and the
+  algorithms used have only recently been proposed. I will discuss an open
+  source Python implementation and remaining challenges.
+abstract_original: |
+  A Voronoi diagram for a set of input data points (called generators)
+  defines cells (polygons) around each generator such that any point
+  within a given cell is closer to its generator than to any other
+  generator in the system. On a sphere for example, this means you could
+  rapidly identify the closest airport to a search and rescue region on
+  the surface of the earth. I've produced an open source Python
+  implementation of the Voronoi diagram on the surface of a sphere. The
+  (https://github.com/tylerjereddy/py\_sphere\_Voronoi "repository") and
+  (http://py-sphere-voronoi.readthedocs.org/en/latest/voronoi\_utility.html
+  "documentation") are both available online. The code is capable of
+  producing spherical Voronoi diagrams for a wide range of input test
+  cases as verified by the unit tests, and further exposes the individual
+  surface areas and coordinates of each Voronoi cell on the surface. I
+  will discuss the procedure (algorithm) I've used to generate the
+  spherical Voronoi diagram and highlight limitations / challenges moving
+  forward along with some example applications (i.e., viruses).
+
+  The remaining challenges, for which computational geometry and
+  engineering expertise would be most welcome, will be discussed in some
+  detail. For example, although the % surface area reconstitution when
+  summing up the areas of the Voronoi cells is generally > 95 % of the
+  theoretical surface area of the sphere, there are occasional (albeit
+  rare) cases where a vertex is excluded from a Voronoi cell, leaving
+  'blank' spaces in the diagrams. There is also a general susceptibility
+  to numerical / floating point instability in some of the calculations,
+  presumably due to the substantial number of trigonometric operations.
+  Again, input from experienced engineers and mathematicians would be most
+  helpful in improving this open source effort.
+language: eng
+

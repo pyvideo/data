@@ -1,0 +1,142 @@
+description: |-
+  A Python stack for social network analytics. The pipeline connects data acquisition through API calls to community detection and labelling. Several major Python libraries are discussed. There are 4 sections: data acquisition with Twisted, data formatting and network construction with Pandas, Data compression with Numpy and Cython and Data Enrichment with Scikit-learn.
+
+
+  Full details here: http://london.pydata.org/schedule/presentation/41/
+duration: 1584
+recorded: '2015-06-21'
+speakers:
+- Benjamin Chamberlain
+- davide donato
+- Josh Levy-Kramer
+thumbnail_url: https://i.ytimg.com/vi/R7i8Vcm9GZM/hqdefault.jpg
+title: A practical guide to conquering social network data
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=R7i8Vcm9GZM
+description_original: |
+  We will describe a Python stack for social network analytics. The
+  pipeline connects data acquisition through API calls to community
+  detection and labelling. We discuss several major Python libraries.
+  There are 4 sections: data acquisition with Twisted, data formatting and
+  network construction with Pandas, Data compression with Numpy and Cython
+  and Data Enrichment with Scikit-learn.
+abstract_original: |
+  **Introduction**
+
+  Starcount has been developing automated methods to understand the
+  community structure of online society and the influencers within these
+  communities. This helps marketers go beyond individually targeted
+  adverts, identifying better ways for them to engage with relevant
+  communities and allowing them to make positive contributions and offer
+  services and products of real value. With billions of people using
+  social media across the world, pinpointing the right communities to
+  target is a challenging problem. We use Python to develop software that
+  is able to search for influencers, the communities who connect with
+  them, and the passions they share. Ultimately we hope to make social
+  media spam a thing of the past, replacing it with useful information,
+  and positive contributions to engaged communities.
+
+  In this talk we will describe an end-to-end Python stack that goes from
+  data acquisition through API calls to social networks all the way to
+  community detection and labelling and show how several major Python
+  libraries are meshed together to achieve these ends.
+
+  We break the pipeline down into 4 major components: data acquisition
+  with Twisted, data formatting and network construction with Pandas, Data
+  compression with Numpy and Cython and Data Enrichment with Scikit-learn.
+
+  **Data Extraction**
+
+  We have developed a client/server program that enables us to download
+  user profile, connections and user post data from various social
+  networks, including: Twitter, Facebook and Instagram. The server is
+  started with a list of network IDs to perform an operation against and
+  access tokens to validate the operations. Once started it manages access
+  rate limits and the distribution of work across a network of client
+  applications. The clients perform the actual requests to the external
+  APIs using asynchronous HTTPS requests. The Twisted event-driven network
+  engine is used to provide features such as an event loop and
+  asynchronous network calls as well as a simple custom client server
+  capability.
+
+  Our core hypothesis is that social networks can be understood, at least
+  for commercial purposes, in terms of the interactions surrounding the
+  major influencers. Due to API limits, restricting the amount of data
+  that can be gathered, managing the size of your network is an important
+  consideration. The final product of our data extraction process is a
+  directory populated with the following file data:
+
+  -  Follower Metadata
+  -  Influencer Metadata
+  -  Follower-influencer Relationships
+
+  **Network Construction**
+
+  We believe that the best way to summarise the interests of social media
+  users is to understand what they follow and so we store links between
+  influencers and their followers. Our graph model differs from the
+  standard network graph as it has two distinct types of nodes,
+  influencers and followers, which are treated differently. The
+  relationships between followers and influencers are key to understanding
+  a network's user base.
+
+  Several of our processes require a full linear scan of the
+  follower-influencer connection database. This can be a time-consuming
+  task. We store each of the follower-influencer files in a numpy binary
+  format to enable very fast reads over the data. We have used Cython to
+  speed up this core processing significantly from our starting point of a
+  pure Python implementation. We store each of these files in 1% percent
+  samples, each of which contains roughly 7 million rows and parallelise
+  execution using the multiprocessing and joblib libraries.
+
+  **Compression**
+
+  We wish to detect communities of influencers and so we need a way of
+  determining relationship strengths between them. Our method is based on
+  the number of shared followers. The networks are too large and dynamic
+  for it to be practical to store all pairs of similarities and so instead
+  we compress each influencer in a form that allows similarities to be
+  quickly calculated when needed. This compression takes the form of
+  minhash signatures. While using the signatures is very quick, generating
+  them is an expensive operation that must iterate through billions of
+  follower-influencer connections, incrementally updating the signatures.
+  Our original implementation of this algorithm took six days to run.
+
+  We were able to make some improvements by profiling the code using
+  cProfiler and line\_profiler to remove bottlenecks. Really significant
+  improvements were achieved by pre-processing our input data into a more
+  suitable format (binary numpy memmap) and using a Cython main loop. In
+  this specific case we managed to improve on the speed of numpy matrix
+  operations (with broadcasting) by writing c-code which created less
+  intermediate variables and hence made less calls to create new objects
+  on the heap. The cython annotation tool proved useful in identifying
+  when cPython was actually creating Python objects, especially when these
+  were non-obvious like views on a numpy array. In total these
+  optimisations reduce runtime from six days to three hours.
+
+  **Enrichment**
+
+  The final stage of our process uses machine learning algorithms to infer
+  user attributes. These may include demographics data such as country,
+  age and gender; or more advanced features such as robot detection - is
+  the user a person, Twitter bot or company.
+
+  We used the scikit-learn package which contains tools to develop machine
+  learning projects quickly. We typically progress by splitting the data
+  into different sets for cross-validation before training a
+  classification model such as a support vector machine or random forest.
+  The initial model would be tuned using scikit-learn’s grid search and
+  finally evaluated using validation and learning curves. Like many other
+  features, scikit-learn’s support vector machine is implemented using
+  fast and highly optimised C libraries.
+
+  **Conclusion**
+
+  In this talk we have described how a stack compose entirely from Python
+  components can take raw data directly from social network APIs and
+  manipulate it into a form that allows brand managers to interactively
+  understand the communities and influencers that exist around their
+  products and marketplaces.
+language: eng
+

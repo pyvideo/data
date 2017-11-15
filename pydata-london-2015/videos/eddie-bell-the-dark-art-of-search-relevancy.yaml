@@ -1,0 +1,53 @@
+description: |-
+  Building a search engine is a dark art that is made even more difficult by the nebulous ever-changing concept of search relevancy. When, and to what degree, is a result deemed to be relevant for a given search term? In this talk I will describe how we built a Lyst search relevancy data set using heuristics, crowd-sourcing and Xbox Live matchmaking.
+
+  Full details — http://london.pydata.org/schedule/presentation/1/
+duration: 1342
+recorded: '2015-06-20'
+speakers:
+- Eddie Bell
+thumbnail_url: https://i.ytimg.com/vi/Y_0gF4z-9Nc/hqdefault.jpg
+title: The Dark Art of Search Relevancy
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=Y_0gF4z-9Nc
+description_original: |
+  Building a search engine is a dark art that is made even more difficult
+  by the nebulous ever-changing concept of search relevancy. When, and to
+  what degree, is a result deemed to be relevant for a given search term?
+  In this talk I will describe how we built a Lyst search relevancy data
+  set using heuristics, crowd-sourcing and Xbox Live matchmaking.
+abstract_original: |
+  Search is a hard area to work in. Techniques are not made public due to
+  their value and little academic work is done in the area. Furthermore,
+  Google has made the exceptional an everyday experience so the bar for
+  success is very high from the outset.
+
+  Search data sets are also hard to create due to the nebulous
+  ever-changing concept of search relevancy. When, and to what degree, is
+  a result deemed to be relevant for a given search term? The
+  ElasticSearch documentation states it well: *" Search relevancy tuning
+  is a rabbit hole that you can easily fall into and never emerge"*.
+
+  In this presentation I'll give a introduction to building a search
+  relevancy data set with python using crowd-sourcing and the Trueskill
+  algorithm from Microsoft. Trueskill is used for matchmaking on XBox Live
+  and it allows us to transform moderated pairwise comparisons into
+  rankings. The rankings can then be used to learn what results best match
+  a given search phrase. I'll briefly cover how we're modeling the
+  moderated rankings at Lyst using deep learning.
+
+  References
+  ~~~~~~~~~~
+
+  M. Hadi Kiapour, Kota Yamaguchi, Alexander C. Berg, Tamara L. Berg.
+  Hipster Wars: Discovering Elements of Fashion Styles (2014).
+
+  Yelong Shen, Xiaodong He, Jianfeng Gao, Li Deng, and Grégoire Mesnil.
+  Learning semantic representations using convolutional neural networks
+  for web search (2014).
+
+  Ralf Herbrich, Tom Minka, and Thore Graepel. TrueSkill(TM): A Bayesian
+  Skill Rating System (2007).
+language: eng
+

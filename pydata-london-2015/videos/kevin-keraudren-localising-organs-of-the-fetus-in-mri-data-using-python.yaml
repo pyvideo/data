@@ -1,0 +1,88 @@
+description: |-
+  What if medical scanners could localise organs in 3D data in the same way as your camera automatically detects faces? The task is even more challenging for a fetus, whose orientation is arbitrary! In this talk, I will present how scikit-learn's Random Forest and the Python ecosystem can be used to solve this problem, wrapping a medical imaging C++ library with Cython along the way.
+
+  Full details — http://london.pydata.org/schedule/presentation/16/
+duration: 2007
+recorded: '2015-06-21'
+speakers:
+- Kevin Keraudren
+thumbnail_url: https://i.ytimg.com/vi/t1pIh_TOVLM/hqdefault.jpg
+title: Localising Organs of the Fetus in MRI Data Using Python
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=t1pIh_TOVLM
+description_original: |
+  What if medical scanners could localise organs in 3D data in the same
+  way as your camera automatically detects faces? The task is even more
+  challenging for a fetus, whose orientation is arbitrary! In this talk, I
+  will present how scikit-learn's Random Forest and the Python ecosystem
+  can be used to solve this problem, wrapping a medical imaging C++
+  library with Cython along the way.
+abstract_original: |
+  Imaging the developing fetus
+  ----------------------------
+
+  The main challenge when imaging the fetus using Magnetic Resonance
+  Imaging (MRI) is fetal movement. Acquiring MR images requires time,
+  during which the fetus is unlikely to stay still. To address this
+  problem, images are acquired as stacks of 2D slices that freeze in-plane
+  motion and motion that occurred between slices is corrected
+  retrospectively. Several stacks of 2D slices acquired in orthogonal
+  directions are used to reconstruct a high resolution volume of the
+  fetus. The automated detection of the fetal organs can help this problem
+  by selecting a region of interest around parts of the fetal body that
+  move as a rigid body. In this talk, I will present the pipeline I
+  developed to localise the brain, heart, lungs and liver of the fetus in
+  MR images, which can be used as pre-processing step for motion
+  correction.
+
+  Localising the brain of the fetus
+  ---------------------------------
+
+  The brain is first detected in each 2D slice using a Bag-of-Words
+  approach with SIFT features, before accumulating the detection results
+  with RANSAC in order to position a 3D bounding box around the brain.
+  This bounding box is later refined into a segmentation, which is used
+  for motion correction. The code, an example dataset and the associated
+  publications can be found online [1].
+
+  The OpenCV Python wrapper is used for feature extraction, while an SVM
+  from scikit-learn takes care of the machine learning aspect of the
+  Bag-of-Words. Scikit-learn's Random Forests, trained with patches from
+  the central region of the brain bounding box and patches outside the
+  bounding box, are used to refine the box detection into a segmentation.
+  Medical images combine voxel data with scanner coordinates, which are
+  used to align successive scans to each other. In order to correctly
+  handle these coordinates throughout the Python code, as well as easily
+  access medical image processing functionalities, a wrapper for the IRTK
+  library [2] was developed using Cython. An image object is a subclass of
+  numpy arrays. In particular, the function ``__getitem__`` is overloaded
+  in order to update the scanner coordinates each time the image is
+  cropped or sliced.
+
+  Localising the heart, lungs and liver of the fetus
+  --------------------------------------------------
+
+  The location of the brain can be used to guide the search for other
+  organs of the fetus. The heart, lungs and liver are detected using a
+  two-step Random Forest approach: a first classification step assigns
+  each voxel to an organ, and during a subsequent regression step, voxels
+  vote for the position of the organ center. Steerable cube features,
+  which can be efficiently computed using integral images, are used as
+  input for the Random Forests. While all fetuses are aligned at training
+  time, at test time image features are extracted in a coordinate system
+  estimated as organs are detected: first the brain, which fixes a point,
+  then the heart, which fixes an axis, and finally the liver and both
+  lungs.
+
+  Scikit-learn's Random Forests are not designed for parsing images. They
+  can however be used in a research prototype by precomputing features for
+  batches of voxels. This approach allows the researcher to focus on the
+  detection pipeline and the feature extraction step. Example localisation
+  results are presented in an online video [3].
+
+  | [1] https://github.com/kevin-keraudren/example-motion-correction
+  | [2] https://github.com/BioMedIA/python-irtk
+  | [3] http://www.doc.ic.ac.uk/~kpk09/MICCAI2015.mp4
+language: eng
+

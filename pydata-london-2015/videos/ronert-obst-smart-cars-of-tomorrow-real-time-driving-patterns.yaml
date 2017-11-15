@@ -1,0 +1,54 @@
+description: |-
+  In recent years, the adoption of electric cars has resulted in a desperate need from carmakers for accurate range prediction. In addition, fuel efficiency is of increasing concern due to today’s ever-rising fuel costs. In this talk, we will outline a machine learning framework for real-time data analysis to demonstrate how live data collected from cars can be used to provide valuable information for range prediction and smart navigation.
+
+  Full details — http://london.pydata.org/schedule/presentation/17/
+duration: 1799
+recorded: '2015-06-20'
+speakers:
+- Ronert Obst
+thumbnail_url: https://i.ytimg.com/vi/QAKwmIqo_CY/hqdefault.jpg
+title: 'Smart Cars of Tomorrow: Real-Time Driving Patterns'
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=QAKwmIqo_CY
+description_original: |
+  For this year’s PyData London I’d like to propose a talk "Smart cars of
+  tomorrow: real-time driving patterns" (possibly including a live demo
+  with a driving car in Berlin streaming data).
+
+  We use PySpark, NumPy, pandas and scitkit-learn for data munging and
+  machine learning.
+abstract_original: |
+  In recent years, the adoption of electric cars has resulted in a
+  desperate need from carmakers for accurate range prediction. In
+  addition, fuel efficiency is of increasing concern due to today’s
+  ever-rising fuel costs. In this talk, we will outline a machine learning
+  framework for real-time data analysis to demonstrate how live data
+  collected from cars can be used to provide valuable information for
+  range prediction and smart navigation.
+
+  For our solution, we use a Bluetooth dongle that connects to a standard
+  OBD II car diagnostics data port. Together with a self-developed iOS app
+  we can then stream OBD II data into our framework’s big data
+  infrastructure for long-term storage, batch training processes, and
+  subsequent real-time analysis. We will show how we used different
+  open-source technologies (Spark. Spring XD, Python and others) to
+  stream, store, and reason over this data in a scalable way.
+
+  In particular, we will focus on how we designed the machine learning
+  framework to derive individual driver ‘fingerprints’ from variables such
+  as speed, acceleration, driving times, and location, taken from
+  historical data. These fingerprints are then used within the real-time
+  prediction framework to determine final journey destination and driving
+  behavior in real time during the journey. We will also look at how other
+  public and free data sources such as traffic information, weather, and
+  fuel station locations could be used to further improve the accuracy and
+  scope of our models.
+
+  This talk is intended to demonstrate pioneering work in the space of big
+  data and the connected car. We will take into consideration the insights
+  we have gained from building this prototype, both into infrastructure
+  and analysis, to give our view on what such real-time driving
+  intelligence applications of tomorrow could look like.
+language: eng
+

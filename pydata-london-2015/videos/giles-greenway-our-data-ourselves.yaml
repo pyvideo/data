@@ -1,0 +1,52 @@
+description: |-
+  20 young coders with smartphones pre-loaded with an app that gathered data on the network activity of the other apps they used. Their data was captured using the Python-based data portal CKAN, analysed with SciKit-Learn, then returned to them using Docker and the Ipython Notebook. Python also played a role in the reverse-engineering of some of the more interesting apps we discovered.
+
+  Full details — http://london.pydata.org/schedule/presentation/35/
+duration: 2741
+recorded: '2015-06-21'
+speakers:
+- Giles Greenway
+thumbnail_url: https://i.ytimg.com/vi/hjjniizB794/hqdefault.jpg
+title: Our Data, Ourselves
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=hjjniizB794
+description_original: |
+  We issued 20 young coders with smartphones pre-loaded with an app that
+  gathered data on the network activity of the other apps they used. Their
+  data was captured using the Python-based data portal CKAN, analysed with
+  SciKit- Learn, then returned to them using Docker and the Ipython
+  Notebook. Python also played a role in the reverse-engineering of some
+  of the more interesting apps we discovered.
+abstract_original: |
+  The "`Our Data, Ourselves <http://big-social-data.net/>`__" project
+  seeks to explore the possibility of making the data-trails of smartphone
+  users available ethically in a "social data commons". We issued 20 young
+  coders from `Young Rewired State <http://www.yrs.io/>`__ with Android
+  smartphones pre- loaded with an
+  `app <http://kingsbsd.github.io/MobileMiner/>`__ that tracked their
+  other apps' network usage and recorded commonly captured data. This was
+  collected using the Python-based data portal
+  `CKAN <http://ckan.org/>`__, the advantages and pitfalls of which will
+  be discussed. Users' GSM cell-tower locations from the
+  `OpenCellId <http://opencellid.org/>`__ database were clustered using
+  k-means via SciKit-Learn. Careful feature-vector selection yielded deep
+  insights into their everyday lives. This helped provoke discussions with
+  the participants about their understanding of privacy related to their
+  mobile app usage. We held a hack-day to return their data to them using
+  a Docker container wrapping a copy of the CKAN instance that could be
+  queried through an Ipython Notebook. Further details about the users'
+  apps were obtained by scraping the Google PlayStore, which presented
+  some challenges. Apps with particularly interesting patterns of network
+  usage were reverse-engineered and their network traffic captured. We
+  have run a "masterclass" on Android app reversal supported by
+  `distributing software
+  tools <http://kingsbsd.github.io/DroidDestructionKit/>`__ in another
+  Docker container, many of them Python-based. The final phase of our
+  project will be conducted in conjunction with the `Open Data
+  Institute <http://opendatainstitute.org/>`__, integrating our app with
+  M.I.T's `Open Personal Data Store <http://openpds.media.mit.edu/>`__,
+  also written in Python, to give its users greater granularity of control
+  as to how their data is used.
+language: eng
+

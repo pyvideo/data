@@ -1,0 +1,68 @@
+description: |-
+  Sensitivity analysis should be a central part of the model development process, yet software to actually perform the best-practice approaches are seldom available. In this talk, there is justification for the importance of sensitivity analysis, step-by-step examples of how to use SALib and an outline of the advantages.
+
+  Full details — http://london.pydata.org/schedule/presentation/45/
+duration: 1378
+recorded: '2015-06-20'
+speakers:
+- Will Usher
+thumbnail_url: https://i.ytimg.com/vi/gkR_lz5OptU/hqdefault.jpg
+title: Using the SALib Library for Conducting Sensitivity Analyses of Models
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=gkR_lz5OptU
+description_original: |
+  Sensitivity analysis should be a central part of the model development
+  process, yet software to actually perform the best-practice approaches
+  are seldom available. In this talk, I'll first justify the importance of
+  sensitivity analysis, give an step-by-step example of how to use SALib
+  and outline the advantages.
+abstract_original: |
+  `SALib <https://github.com/jdherman/SALib>`__ is an open source Python
+  library for conducting sensitivity analyses released under an MIT
+  license.
+
+  In this talk, I'll first justify the importance of sensitivity analysis,
+  give an step-by-step example of how to use the library, and outline the
+  advantages of using SALib.
+
+  We've packaged variance-based, elementary effects, and derivative based
+  approaches such as:
+
+  -  Sobol Sensitivity Analysis
+  -  Method of Morris, including groups and optimal trajectories
+  -  Fourier Amplitude Sensitivity Test (FAST)
+  -  Delta Moment-Independent Measure
+  -  Derivative-based Global Sensitivity Measure (DGSM)
+
+  The library is slowly gaining acceptance across academia as a package of
+  powerful tools from the literature to help identify key model inputs.
+
+  Sensitivity analysis should be a central part of the model development
+  process, yet software to actually perform the best-practice approaches
+  are seldom available. As such, sensitivity analyses are often tagged on
+  at the last minute to a piece of work, and seldom are the most effective
+  techniques used. SALib solves all of this, by providing a simple API,
+  accessible from the command prompt or within python, to a range of
+  methods for coupled sample generation & analysis.
+
+  The library has been written so as to be independent from the model
+  being analysed by the library. It is written in a functional style, to
+  maintain clarity, using numpy almost throughout. While none of the
+  techniques are particularly computationally intensive, this is one of
+  the only open-source libraries which collect these techniques into one
+  cohesive library. As different approaches are applicable for different
+  kinds of models and types of data, the harmonised API allows users to
+  switch between the different techniques with ease.
+
+  Documentation is currently at a very early stage, with just a basic and
+  advanced readme available. However, there are use examples for each of
+  the methods and test functions to see the library in action.
+
+  Testing coverage is relatively good, particularly for the Morris Method.
+
+  We've recently released version v0.5 with an MIT license.
+
+  www.github.com/jdherman/SALib
+language: eng
+

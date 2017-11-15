@@ -1,0 +1,46 @@
+description: |-
+  Often we have no choice but to work with messy, difficult data. I describe the Python-based approaches used to rescue and repair a complex malformed dataset (using csvkit and a rule-driven sanitisation approach), mount it in a new user-friendly db (using pycap) before exploration (using py4neo). I finish by reflecting on Python’s “gaps” as concerns life science/ biomedical analytical tools.
+
+  Full details — http://london.pydata.org/schedule/presentation/30/
+duration: 2349
+recorded: '2015-06-20'
+speakers:
+- Paul Agapow
+thumbnail_url: https://i.ytimg.com/vi/6GesmzF9B9Q/hqdefault.jpg
+title: Rescuing and Exploring Complex Life Science Data
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=6GesmzF9B9Q
+description_original: |
+  Often we have no choice but to work with messy, difficult data. I
+  describe the Python-based approaches used to rescue and repair a complex
+  malformed dataset (using csvkit and a rule-driven sanitisation
+  approach), mount it in a new user-friendly db (using pycap) before
+  exploration (using py4neo). I finish by reflecting on Python’s “gaps” as
+  concerns life science/ biomedical analytical tools.
+abstract_original: |
+  Everyone complains about messy, difficult datasets but often we have no
+  choice but to work with them. In 2014, I was charged with the
+  “informatic rescue” of the data for a large trans-European
+  epidemiological trial, where the challenges were (1) to extract and make
+  useable the complicated but malformed patient data in a remote and
+  idiosyncratic database, (2) make this available and regularly updated in
+  a user-friendly system, (3) integrate several other data sources and
+  finally (4) explore the data for research purposes.
+
+  Here I describe the Python-based approach I used. Starting with *csvkit*
+  to recreate the original legacy database for direct examination and
+  manipulation, malformed data was transformed by a pipeline of
+  rule-driven sanitisation before being subjected to validation via
+  another pipeline of rules. I describe how *pycap* and *REDCap* were used
+  to make an easily updatable and user- friendly database, and how this
+  was leveraged in merging other datasets. I show how this data was
+  integrated with associated and complex datasets (analytical and genomic)
+  and explored in a graph database using *py4neo*.
+
+  Finally, I reflect on the gaps in Python’s life science and biomedical
+  analytical offerings, including why Excel spreadsheets are here to stay,
+  if our current IDEs are good enough and whether developers are the enemy
+  of the good enough.
+language: eng
+

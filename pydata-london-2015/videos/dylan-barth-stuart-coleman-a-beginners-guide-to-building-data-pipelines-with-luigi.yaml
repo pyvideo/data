@@ -1,0 +1,40 @@
+description: |-
+  An introduction to Luigi with real life case studies showing how you can break large, multi-step data processing task into a graph of smaller sub-tasks that are aware of the state of their interdependencies.
+
+  Full details — http://london.pydata.org/schedule/presentation/26/
+duration: 2139
+recorded: '2015-06-21'
+speakers:
+- Dylan Barth
+- Stuart Coleman
+thumbnail_url: https://i.ytimg.com/vi/gz7tba-R7QY/hqdefault.jpg
+title: A Beginner's Guide to Building Data Pipelines with Luigi
+videos:
+- type: youtube
+  url: https://www.youtube.com/watch?v=gz7tba-R7QY
+description_original: |
+  In this talk, we provide an introduction to Luigi via real life case
+  studies showing you how you can break large, multi-step data processing
+  task into a graph of smaller sub-tasks that are aware of the state of
+  their interdependencies.
+abstract_original: |
+  In this talk, we provide an introduction to Luigi via real life case
+  studies showing you how you can break large, multi-step data processing
+  task into a graph of smaller sub-tasks that are aware of the state of
+  their interdependencies.
+
+  Growth Intelligence tracks the performance and activity of all the
+  companies in the UK economy using their data ‘footprint’. This involves
+  tracking numerous unstructured data points from multiple sources in a
+  variety of formats and transforming them into a standardised feature set
+  we can use for building predictive models for our clients.
+
+  In the past, this data was collected by in a somewhat haphazard fashion:
+  combining manual effort, ad hoc scripting and processing which was
+  difficult to maintain. In order to streamline the data flows, we’re
+  using an open-source Python framework from Spotify called Luigi. Luigi
+  was created for managing task dependencies, monitoring the progress of
+  the data pipeline and providing frameworks for common batch processing
+  tasks.
+language: eng
+
