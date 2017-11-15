@@ -1,0 +1,18 @@
+{
+  "description": "The data science team at Skimlinks has been using Spark for over a\nyear. We will share some of our experience of how to do large-scale\ndata analysis using Spark stand-alone, going from its basic\nfunctionality to more advanced features.\n\nWe will first give an introduction to Spark, explaining how\ncomputations are distributed across the cluster using resilient\ndistributed datasets (RDDs). A high-level understanding of how a\nworkload is split into stages and tasks is important to be able to\ndiagnose potential problems. After showing how to get started on a\ncluster of EC2 instances, we will go through a complicated part of\nusing Spark: how to set its configuration parameters.\n\nDuring the first half of the talk, we will focus on Spark core\nfunctionality, going through some of the most common problems\nencountered during basic computations. Using an example from\nimpression data, we will do large-scale text processing using\npopular ML Python libraries.\n\nIn the latter half of the talk, we will focus towards using Apache\nSpark in practice by giving an overview of building a large data\nprocessing pipeline that ingests and summarises terabytes of data\non a daily basis. Many non-technical departments such as Business\nIntelligence and Marketing are familiar with Python and SQL. We\nwill demonstrate how Spark SQL and Dataframes can be used to query\nover terabytes of data on the fly.\n",
+  "duration": 5116,
+  "recorded": "2015-06-19",
+  "speakers": [
+    "Maria Mestre",
+    "Sahan Bulathwela"
+  ],
+  "summary": "Spark is a distributed computing tool that offers many advantages\nover more established Hadoop frameworks. Apart from its improved\nmemory usage and flexibility, it provides a consistent framework to\ndo everything from ad-hoc big data analysis to the construction of\na data processing pipeline in production.\n",
+  "thumbnail_url": "https://i.ytimg.com/vi/aKfrjQlVmAU/hqdefault.jpg",
+  "title": "First Steps with Spark",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aKfrjQlVmAU"
+    }
+  ]
+}

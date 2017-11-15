@@ -1,0 +1,18 @@
+{
+  "description": "InfluxDB is an open-source distributed time series database that is easy\nto set up and to get started with. Grafana is a dashboarding tool that\nworks with InfluxDB and other time series back-ends. In this talk I will\npresent how to integrate an application with InfluxDB, and explore the\nvisualization capabilities that Grafana brings to the table.\n\n\"Log everything\" is a great piece of advice for any project, especially\nwhen going from exploratory phase of research to deploying a system to\nproduction. Logs are invaluable for debugging and investigating specific\nissues. However, individual logs are only snapshots of application runs\nin time, and as the project grows and begins to incorporate multiple\nservices, data processing pipelines, and compute resources, the value\nthat can be immediately derived from bare logs diminishes. Logs also\ntend to be wordy, and the more you log, the harder it is to find the\nrelevant information.\n\nTraditionally time series databases were used to collect system metrics,\nbut they can be equally useful in gathering application specific\nmetrics. Logs can be complemented by metric gathering tools, which\ncollect the data that you care about and expose it in an easy to query\nand to present manner. In conjunction with intuitive visualization and\ndashboarding provided by Grafana, InfluxDB can give great insight into\ninner workings of a system, and bring together all the disparate\ninformation into an interface that makes metric data exploration\nconvenient. The two tools can help analyze performance bottlenecks,\nalgorithm deficiencies, and resource constraints.\n",
+  "duration": 2655,
+  "language": "eng",
+  "recorded": "2015-06-21",
+  "speakers": [
+    "Marek Mroz"
+  ],
+  "summary": "Metrics gathering and visualization is a standard practice for\nsystems and operations engineers. While not as commonly used in the\ndata science world, metric collection tools and techniques can be\nuseful for scientific computing projects. In this talk I will show\nhow to instrument an application to collect metrics, and create a\ndashboard view to monitor and explore the collected data.",
+  "thumbnail_url": "https://i.ytimg.com/vi/w4CNBqGoYRA/hqdefault.jpg",
+  "title": "Collect and Visualise Metrics With InfluxDB and Grafana",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=w4CNBqGoYRA"
+    }
+  ]
+}

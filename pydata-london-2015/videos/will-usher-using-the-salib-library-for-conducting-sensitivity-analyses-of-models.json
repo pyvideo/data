@@ -1,0 +1,18 @@
+{
+  "description": "`SALib <https://github.com/jdherman/SALib>`__ is an open source Python\nlibrary for conducting sensitivity analyses released under an MIT\nlicense.\n\nIn this talk, I'll first justify the importance of sensitivity analysis,\ngive an step-by-step example of how to use the library, and outline the\nadvantages of using SALib.\n\nWe've packaged variance-based, elementary effects, and derivative based\napproaches such as:\n\n-  Sobol Sensitivity Analysis\n-  Method of Morris, including groups and optimal trajectories\n-  Fourier Amplitude Sensitivity Test (FAST)\n-  Delta Moment-Independent Measure\n-  Derivative-based Global Sensitivity Measure (DGSM)\n\nThe library is slowly gaining acceptance across academia as a package of\npowerful tools from the literature to help identify key model inputs.\n\nSensitivity analysis should be a central part of the model development\nprocess, yet software to actually perform the best-practice approaches\nare seldom available. As such, sensitivity analyses are often tagged on\nat the last minute to a piece of work, and seldom are the most effective\ntechniques used. SALib solves all of this, by providing a simple API,\naccessible from the command prompt or within python, to a range of\nmethods for coupled sample generation & analysis.\n\nThe library has been written so as to be independent from the model\nbeing analysed by the library. It is written in a functional style, to\nmaintain clarity, using numpy almost throughout. While none of the\ntechniques are particularly computationally intensive, this is one of\nthe only open-source libraries which collect these techniques into one\ncohesive library. As different approaches are applicable for different\nkinds of models and types of data, the harmonised API allows users to\nswitch between the different techniques with ease.\n\nDocumentation is currently at a very early stage, with just a basic and\nadvanced readme available. However, there are use examples for each of\nthe methods and test functions to see the library in action.\n\nTesting coverage is relatively good, particularly for the Morris Method.\n\nWe've recently released version v0.5 with an MIT license.\n\nwww.github.com/jdherman/SALib\n",
+  "duration": 1378,
+  "language": "eng",
+  "recorded": "2015-06-20",
+  "speakers": [
+    "Will Usher"
+  ],
+  "summary": "Sensitivity analysis should be a central part of the model\ndevelopment process, yet software to actually perform the\nbest-practice approaches are seldom available. In this talk, there is\njustification for the importance of sensitivity analysis,\nstep-by-step examples of how to use SALib and an outline of the\nadvantages.",
+  "thumbnail_url": "https://i.ytimg.com/vi/gkR_lz5OptU/hqdefault.jpg",
+  "title": "Using the SALib Library for Conducting Sensitivity Analyses of Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gkR_lz5OptU"
+    }
+  ]
+}

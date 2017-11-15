@@ -1,0 +1,18 @@
+{
+  "description": "The daily commute in London is an adventure that keeps surprising, in\ngood ways and in bad. Some mornings things go smoothly: for once there\nis an empty seat on the Northern Line and you only need to wait ten\nminutes before reaching the escalator at Bank. On other days, a signal\nfailure at Moorgate and all Piccadilly line travellers will become\nintimately acquainted with the sweet fragrance of a fellow commuter's\ntoothpaste. After a few months, the more or less frustrated commuter\nwill begin to notice some interesting patterns and ask questions. Why is\nit that a suspended Circle line can wreak havoc on commuters on the\nCentral line? Can delays at Victoria lead to overcrowding of the Jubilee\nplatform at London Bridge? What is the fastest way to visit all stations\nin the Tube network?\n\nThe London Tube can be modelled as a graph with vertices representing\nthe stations and edges representing the connecting Tube lines. Using\nintuition and daily experience, we can guess that there are certain\nvertices in the Tube network that are vital to the overall health of the\nnetwork. Pythonic graph analysis libraries such as graph-tool and\ninteractive visualizations with Bokeh can corroborate that suspending\nstations \u2013 for example Baker Street, which lies at the intersection of 5\nTube lines- can cause congestion even at remote stations throughout the\nnetwork.\n\nIn addition to studying the static properties of the London Tube, we\nwill leverage the power of SimPy to create various simulations. This\nwill allow us to explore how the Tube network evolves when key\nparameters such as commuter numbers, train speeds and the frequency of\nsignal failures are introduced on and off peak times.\n\nThis talk is aimed at novice Python users. The attendees will hopefully\ncome away with a basic understanding of how to use the graph-tool\nlibrary to create graphs and store meta-information about them, how to\nuse Bokeh to stream information to an interactive browser visualization\nand how to use SimPy to create simple simulations. While it will not be\ntechnically challenging, it will hopefully inspire beginner Pythonistas\nto seek interesting problems and apply libraries in the Python data\nanalysis ecosystem to pose questions about data and then figure out the\nanswers!\n",
+  "duration": 2200,
+  "language": "eng",
+  "recorded": "2015-06-20",
+  "speakers": [
+    "Camilla Montonen"
+  ],
+  "summary": "If you work in London, you have certainly experienced the joys and\nfrustrations of commuting on the Tube. There are the very good mornings\n(lo and behold! An empty seat on the Northern Line) and then there are\nthe very bad mornings (there is more space in a sardine can than on the\nPiccadilly). Using graph-tool, Bokeh and SimPy, we unravel some of the\nfascinating features of the London Tube.\n",
+  "thumbnail_url": "https://i.ytimg.com/vi/oWDhvKewVVA/hqdefault.jpg",
+  "title": "A Tube Story: How can Python help us understand London's most important transportation network?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=oWDhvKewVVA"
+    }
+  ]
+}
