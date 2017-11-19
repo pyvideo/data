@@ -1,0 +1,18 @@
+{
+  "description": "Search is a hard area to work in. Techniques are not made public due to\ntheir value and little academic work is done in the area. Furthermore,\nGoogle has made the exceptional an everyday experience so the bar for\nsuccess is very high from the outset.\n\nSearch data sets are also hard to create due to the nebulous\never-changing concept of search relevancy. When, and to what degree, is\na result deemed to be relevant for a given search term? The\nElasticSearch documentation states it well: *\" Search relevancy tuning\nis a rabbit hole that you can easily fall into and never emerge\"*.\n\nIn this presentation I'll give a introduction to building a search\nrelevancy data set with python using crowd-sourcing and the Trueskill\nalgorithm from Microsoft. Trueskill is used for matchmaking on XBox Live\nand it allows us to transform moderated pairwise comparisons into\nrankings. The rankings can then be used to learn what results best match\na given search phrase. I'll briefly cover how we're modeling the\nmoderated rankings at Lyst using deep learning.\n\nReferences\n~~~~~~~~~~\n\nM. Hadi Kiapour, Kota Yamaguchi, Alexander C. Berg, Tamara L. Berg.\nHipster Wars: Discovering Elements of Fashion Styles (2014).\n\nYelong Shen, Xiaodong He, Jianfeng Gao, Li Deng, and Gr\u00e9goire Mesnil.\nLearning semantic representations using convolutional neural networks\nfor web search (2014).\n\nRalf Herbrich, Tom Minka, and Thore Graepel. TrueSkill(TM): A Bayesian\nSkill Rating System (2007).\n",
+  "duration": 1342,
+  "language": "eng",
+  "recorded": "2015-06-20",
+  "speakers": [
+    "Eddie Bell"
+  ],
+  "summary": "Building a search engine is a dark art that is made even more\ndifficult by the nebulous ever-changing concept of search relevancy.\nWhen, and to what degree, is a result deemed to be relevant for a\ngiven search term? In this talk I will describe how we built a Lyst\nsearch relevancy data set using heuristics, crowd-sourcing and Xbox\nLive matchmaking.\n\nFull details \u2014\u00a0http://london.pydata.org/schedule/presentation/1/",
+  "thumbnail_url": "https://i.ytimg.com/vi/Y_0gF4z-9Nc/hqdefault.jpg",
+  "title": "The Dark Art of Search Relevancy",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Y_0gF4z-9Nc"
+    }
+  ]
+}

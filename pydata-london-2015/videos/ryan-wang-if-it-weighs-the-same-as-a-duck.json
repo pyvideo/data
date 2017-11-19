@@ -1,0 +1,18 @@
+{
+  "description": "Stripe's system for preventing fraudulent payments utilizes a mix of\nmachine learning and data analysis. Over the last few years, it has\nevolved from a collection of manually assembled ad-hoc rules to an\nensemble of machine- learned models based on historical data from across\nthe entire Stripe network. This talk will describe some of the technical\nchallenges we've faced in building and scaling it. In particular I will\ndiscuss how we've used (and occasionally written) various Python\npackages as part of a broader ecosystem to address data processing,\nfeature engineering, and model evaluation problems.\n\nSome examples:\n\n-  We use scikit-learn to train a majority of our models\n-  We use luigi to manage long-running feature generation jobs and model\n   training scripts\n-  We use pandas to debug models and features that generate systematic\n   false positives\n-  We wrote topmodel to evaluate model performance on both production\n   and backtested data\n",
+  "duration": 2184,
+  "language": "eng",
+  "recorded": "2015-06-20",
+  "speakers": [
+    "Ryan Wang"
+  ],
+  "summary": "Stripe's system for preventing fraudulent payments utilizes a mix of\nmachine learning and data analysis. This talk will describe some\ntechnical challenges we\u2019ve faced in building it. In particular, I\nwill discuss how we\u2019ve used (and occasionally written) various Python\npackages as part of a broader ecosystem to address data processing,\nfeature engineering, and model evaluation problems.",
+  "thumbnail_url": "https://i.ytimg.com/vi/-e8XZL7ftdI/hqdefault.jpg",
+  "title": "If It Weighs the Same as a Duck: Detecting Fraud with Python and Machine Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-e8XZL7ftdI"
+    }
+  ]
+}

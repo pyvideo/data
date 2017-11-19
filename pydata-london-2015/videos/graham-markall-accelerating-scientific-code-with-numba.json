@@ -1,0 +1,21 @@
+{
+  "description": "This tutorial will provide an overview of\n`Numba <http://numba.pydata.org/>`__, a just-in-time Python compiler\nfocused on numerical computing. Originally aimed at computations using\nNumpy arrays, it has been expanded to work with other Python types and\ncan speed up computations that require more than just fast linear\nalgebra operations. Numba targets both CPUs and CUDA GPUs by generating\nnative code using the LLVM compiler infrastructure.\n\nAs there are different components of Numba that can be applied in\ndifferent circumstances, this introduction aims to span the breadth of\nuse cases rather than focusing on a single area in depth. This is in\norder to enable the selection of appropriate portions of code to use\nwith Numba, and the correct selection of Numba's facilities in each\ncase.\n\nAreas that will be covered include:\n\n-  An overview of the type system, with a view to understanding and\n   overcoming typing issues,\n-  Compilation of Python functions using the ``@jit`` decorator,\n-  Creation of Numpy ufuncs in Python using the ``@vectorize``\n   decorator,\n-  Understanding and measuring the performance of Numba-compiled code,\n-  Debugging facilities in Numba.\n\nThis tutorial is intended for an audience of programmers and data\nscientists who have an interest in speeding up numerical routines, and\npeople with a general interest in high-performance Python. In order to\nget started quickly, it is recommended that attendees install the\n`Anaconda Python\ndistribution <https://store.continuum.io/cshop/anaconda/>`__ or\n`Miniconda <http://conda.pydata.org/miniconda.html>`__, as this provides\na robust mechanism for installing Numba on Linux, Mac OS X and Windows.\n",
+  "duration": 2269,
+  "language": "eng",
+  "recorded": "2015-06-19",
+  "speakers": [
+    "Graham Markall"
+  ],
+  "summary": "Numba is a just-in-time Python compiler that can be used to speed up\na wide range of scientific and other numerical applications. This\ntutorial is intended to provide an introduction to using Numba, and\nways of understanding of the performance of Numba-compiled code.",
+  "tags": [
+    "tutorial"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/q45JJ8BXP2g/hqdefault.jpg",
+  "title": "Accelerating Scientific Code with Numba",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=q45JJ8BXP2g"
+    }
+  ]
+}

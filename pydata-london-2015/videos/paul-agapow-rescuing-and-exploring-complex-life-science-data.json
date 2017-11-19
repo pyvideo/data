@@ -1,0 +1,18 @@
+{
+  "description": "Everyone complains about messy, difficult datasets but often we have no\nchoice but to work with them. In 2014, I was charged with the\n\u201cinformatic rescue\u201d of the data for a large trans-European\nepidemiological trial, where the challenges were (1) to extract and make\nuseable the complicated but malformed patient data in a remote and\nidiosyncratic database, (2) make this available and regularly updated in\na user-friendly system, (3) integrate several other data sources and\nfinally (4) explore the data for research purposes.\n\nHere I describe the Python-based approach I used. Starting with *csvkit*\nto recreate the original legacy database for direct examination and\nmanipulation, malformed data was transformed by a pipeline of\nrule-driven sanitisation before being subjected to validation via\nanother pipeline of rules. I describe how *pycap* and *REDCap* were used\nto make an easily updatable and user- friendly database, and how this\nwas leveraged in merging other datasets. I show how this data was\nintegrated with associated and complex datasets (analytical and genomic)\nand explored in a graph database using *py4neo*.\n\nFinally, I reflect on the gaps in Python\u2019s life science and biomedical\nanalytical offerings, including why Excel spreadsheets are here to stay,\nif our current IDEs are good enough and whether developers are the enemy\nof the good enough.\n",
+  "duration": 2349,
+  "language": "eng",
+  "recorded": "2015-06-20",
+  "speakers": [
+    "Paul Agapow"
+  ],
+  "summary": "Often we have no choice but to work with messy, difficult data. I\ndescribe the Python-based approaches used to rescue and repair a\ncomplex malformed dataset (using csvkit and a rule-driven\nsanitisation approach), mount it in a new user-friendly db (using\npycap) before exploration (using py4neo). I finish by reflecting on\nPython\u2019s \u201cgaps\u201d as concerns life science/ biomedical analytical\ntools.",
+  "thumbnail_url": "https://i.ytimg.com/vi/6GesmzF9B9Q/hqdefault.jpg",
+  "title": "Rescuing and Exploring Complex Life Science Data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6GesmzF9B9Q"
+    }
+  ]
+}

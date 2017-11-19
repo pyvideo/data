@@ -1,0 +1,18 @@
+{
+  "description": "In recent years, the adoption of electric cars has resulted in a\ndesperate need from carmakers for accurate range prediction. In\naddition, fuel efficiency is of increasing concern due to today\u2019s\never-rising fuel costs. In this talk, we will outline a machine learning\nframework for real-time data analysis to demonstrate how live data\ncollected from cars can be used to provide valuable information for\nrange prediction and smart navigation.\n\nFor our solution, we use a Bluetooth dongle that connects to a standard\nOBD II car diagnostics data port. Together with a self-developed iOS app\nwe can then stream OBD II data into our framework\u2019s big data\ninfrastructure for long-term storage, batch training processes, and\nsubsequent real-time analysis. We will show how we used different\nopen-source technologies (Spark. Spring XD, Python and others) to\nstream, store, and reason over this data in a scalable way.\n\nIn particular, we will focus on how we designed the machine learning\nframework to derive individual driver \u2018fingerprints\u2019 from variables such\nas speed, acceleration, driving times, and location, taken from\nhistorical data. These fingerprints are then used within the real-time\nprediction framework to determine final journey destination and driving\nbehavior in real time during the journey. We will also look at how other\npublic and free data sources such as traffic information, weather, and\nfuel station locations could be used to further improve the accuracy and\nscope of our models.\n\nThis talk is intended to demonstrate pioneering work in the space of big\ndata and the connected car. We will take into consideration the insights\nwe have gained from building this prototype, both into infrastructure\nand analysis, to give our view on what such real-time driving\nintelligence applications of tomorrow could look like.\n",
+  "duration": 1799,
+  "language": "eng",
+  "recorded": "2015-06-20",
+  "speakers": [
+    "Ronert Obst"
+  ],
+  "summary": "In recent years, the adoption of electric cars has resulted in a\ndesperate need from carmakers for accurate range prediction. In\naddition, fuel efficiency is of increasing concern due to today\u2019s\never-rising fuel costs. In this talk, we will outline a machine\nlearning framework for real-time data analysis to demonstrate how\nlive data collected from cars can be used to provide valuable\ninformation for range prediction and smart navigation.",
+  "thumbnail_url": "https://i.ytimg.com/vi/QAKwmIqo_CY/hqdefault.jpg",
+  "title": "Smart Cars of Tomorrow: Real-Time Driving Patterns",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QAKwmIqo_CY"
+    }
+  ]
+}
