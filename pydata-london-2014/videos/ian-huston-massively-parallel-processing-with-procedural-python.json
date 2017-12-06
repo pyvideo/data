@@ -1,0 +1,27 @@
+{
+  "description": "The Python data ecosystem has grown beyond the confines of single\nmachines to embrace scalability. Here we describe one of our approaches\nto scaling, which is already being used in production systems. The goal\nof in-database analytics is to bring the calculations to the data,\nreducing transport costs and I/O bottlenecks. Using PL/Python we can run\nparallel queries across terabytes of data using not only pure SQL but\nalso familiar PyData packages such as scikit- learn and nltk. This\napproach can also be used with PL/R to make use of a wide variety of R\npackages. We look at examples on Postgres compatible systems such as the\nGreenplum Database and on Hadoop through Pivotal HAWQ. We will also\nintroduce MADlib, Pivotal\u2019s open source library for scalable in-database\nmachine learning, which uses Python to glue SQL queries to low level C++\nfunctions and is also usable through the PyMADlib package.\n",
+  "duration": 2169,
+  "language": "eng",
+  "recorded": "2014-02-22",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "http://www.slideshare.net/ihuston/massively-parallel-processing-with-procedural-python-pydata-london-2014"
+    },
+    {
+      "label": "repository",
+      "url": "https://github.com/ihuston/plpython_examples"
+    }
+  ],
+  "speakers": [
+    "Ian Huston"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Q2qtFkEdG2Q/hqdefault.jpg",
+  "title": "Massively Parallel Processing with Procedural Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Q2qtFkEdG2Q"
+    }
+  ]
+}
