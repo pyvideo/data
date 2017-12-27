@@ -1,0 +1,21 @@
+{
+  "description": "Recently I had trouble importing a module. So I started actually reading the documentation of the Python import system and realized that I had been writing Python for years without understanding basics like \u201ca module is a file\u201d or \u201cimporting a module executes it\u201d.\n\nA few days later I had a terrible realization \u2013 it\u2019s possible to implement a mergesort algorithm in Python using only the import statement.\n\nActually making it work requires learning (and subverting) almost all of the import system\u2019s underlying machinery. So walking through how it\u2019s done creates an excellent (and entertaining) opportunity to shine some light on the darker corners of a system that Python programmers use nearly every day but can work for years without ever really understanding.\n\nThis talk starts off with an explanation of the basic fundamentals of the import system, i.e.\n\n1) What does the word \u201cmodule\u201d actually mean?\n2) How does Python find the source code I\u2019m importing?\n3) What is Python actually doing when I import code? How is it different from compiled languages?\n4) How Python uses namespaces to manage scope and keep our and variables organized!\n\nFrom there, things get pretty weird.\n\nThe rest of the talk explains how the import system alone gives us the tools to emulate function evaluation and how that means that we can (but shouldn\u2019t!) write algorithms using import statements instead of.\n\nI describe the classic mergesort algorithm and then I show how to actually implement it using imports (under the theory that nothing helps retain knowledge like watching it applied to a trainwreck.)\n\nI briefly discuss how \u201ccomputation\u201d is an abstract process that can be accomplished in more ways that we might intuitively realize. And then I wrap up with some practical advice on how users can avoid ImportErrors and a warning about the serious but non-obvious security risks of importing Python code.",
+  "recorded": "2017-12-03",
+  "related_urls": [
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.northbaypython.org/schedule/presentation/15/"
+    }
+  ],
+  "speakers": [
+    "George London"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7wPcR3OWSU8/hqdefault.jpg",
+  "title": "import madness # how to implement mergesort from scratch using only import statements",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7wPcR3OWSU8"
+    }
+  ]
+}
