@@ -1,18 +1,17 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "Phil Jones | Thursday 15:30 | Assembly Room\n\nThe Python world is moving towards asyncio web (micro) frameworks, with Sanic and Aiohttp leading the way. Sadly the best (IMO) micro framework, Flask, is incompatible with asyncio. The Quart framework aims to solve this by reimplementing the Flask API using asyncio.\n\nI intend to talk about the lessons and difficulties encountered with Flask, Asyncio and the combination. Detailing the difficulties calling coroutines from synchronous functions, and the eventual workaround, how the crux of Flask, global thread locals, have equivalents and how they work, finishing with a discussion about how Python monkey patching allows for some of the Flask extensions to work.",
+  "description": "The Python world is moving towards asyncio web (micro) frameworks, with Sanic and Aiohttp leading the way. Sadly the best (IMO) micro framework, Flask, is incompatible with asyncio. The Quart framework aims to solve this by reimplementing the Flask API using asyncio.\n\nI intend to talk about the lessons and difficulties encountered with Flask, Asyncio and the combination. Detailing the difficulties calling coroutines from synchronous functions, and the eventual workaround, how the crux of Flask, global thread locals, have equivalents and how they work, finishing with a discussion about how Python monkey patching allows for some of the Flask extensions to work.",
   "duration": 1577,
   "language": "eng",
-  "recorded": "2017-11-07",
+  "recorded": "2017-10-26",
   "related_urls": [
     {
-      "label": "schedule",
+      "label": "event schedule",
       "url": "http://2017.pyconuk.org/schedule/"
     }
   ],
   "speakers": [
-    "TODO",
-    "enter_manually"
+    "Phil Jones"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/EgpQcLy1kf0/hqdefault.jpg",
