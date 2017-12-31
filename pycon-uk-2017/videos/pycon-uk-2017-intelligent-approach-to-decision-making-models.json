@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Tasks in which people make decisions by pressing keyboard buttons have been used extensively in psychology research, yet the only information they can offer about the decision is the speed (how quickly the button was pressed) and correctness (whether the correct button was pressed). In order for these tasks to provide insights into cognitive processes underlying such decisions, they need to be considered in the framework of mathematical models of decision making. Sequential sampling models presume that distinct cognitive processes (represented by model parameters) can be decomposed from task performance.\n\nWhile producing simulated \u201ccomputational decisions\u201d with given parameters is relatively straightforward, attempting to reverse engineer the problem by estimating these parameters from task performance is not trivial, and becomes harder as the models get more complicated to account for more complex decisions. The current practice in the field is to employ global optimization algorithms, which search through the solution space blindly, until a \u201cgood enough\u201d set of parameters is found, for each set of data separately.\n\nAs deep learning has been gaining popularity to solve complicated problems, I have applied it to the extraction of model parameters from drift diffusion model for conflict tasks using the keras (and hyperas) libraries. Deep learning is particularly suitable for decision-making models, as an unlimited amount of simulated data is available to train the models. Unlike global optimization algorithms, deep learning can use this data to predict multiple sets of parameters at once, which cuts computation time significantly. In this talk I will present how to apply deep learning to predict model parameters from reaction time distributions. In addition, I will assess whether this approach works as well as, or better than global optimization algorithms, and discuss how the performance of the model changes as the input data becomes smaller and noisier.",
+  "duration": 1464,
+  "language": "eng",
+  "recorded": "2017-10-29T11:30:00+01:00",
+  "related_urls": [
+    {
+      "label": "event schedule",
+      "url": "http://2017.pyconuk.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Solveiga Vivian-Griffiths"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/53m4uXHSEnQ/maxresdefault.jpg",
+  "title": "Intelligent approach to decision making models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=53m4uXHSEnQ"
+    }
+  ]
+}
