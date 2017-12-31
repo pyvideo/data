@@ -29,8 +29,14 @@ For example, here's a JSON object containing data about a talk at PyGotham 2015:
         "language": "eng",
         "recorded": "2015-08-10",
         "related_urls": [
-            "http://example.com/the/slide/deck.pdf",
-            "http://example.com/a/notebook.nb"
+            {
+              "label": "talk slides",
+              "url": "http://example.com/the/slide/deck.pdf"
+            },
+            {
+              "label": "example notebook",
+              "url": "http://example.com/a/notebook.nb"
+            }
         ],
         "speakers": [
             "Eric Schles"
