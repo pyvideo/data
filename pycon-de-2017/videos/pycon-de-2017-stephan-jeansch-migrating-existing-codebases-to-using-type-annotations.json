@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Stephan Jaensch** (@s_jaensch)\n\nI'm a backend developer and tech lead at Yelp, working on the core infrastructure of the Commerce group. I've worked and continue to work on our Business Owner App backend and am deeply involved in the service infrastructure at Yelp. My main focus area is inter-service development. I'm one of the maintainers of the Python stack for Swagger / OpenAPI (bravado etc). I also work on developer productivity, such as making integration and end-to-end testing faster and more reliable.\n\n**Abstract**\n\nYou have an existing codebase of tens or hundreds of thousands of lines of Python code? Learn how to get started with type annotations! Get your teammates (and yourself!) to always annotate your code. Find out what unexpected issues you might run into and how to solve them, all with this talk.\n\n**Description**\n\nYou've heard about type annotations, you know they help reduce bugs and improve documentation especially for large codebases, and you've attended an introductory talk or read a tutorial about using them. But how do you get started using them with your big, existing codebase? How do you make sure your colleagues will be annotating new code they write - or existing code they're changing? And how do you get around some of the issues you might run into when using the still-beta type checker mypy on your codebase?\n\nThis talk will start where the typical introductory Python type annotation talks end and discuss the real-world challenges when starting to annotate types with an existing codebase of tens or hundreds of thousands of lines of code. I'll walk you through best practices learned from doing just that at Yelp, telling you about some of the roadblocks we hit (and how we got past them). We'll also take a look at:     how you can get the most out of type annotations even with non-annotated third-party libraries     how to deal with decorators and other things that currently don't work well with annotations     when the only way to get proper type checking is through refactoring your code.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 2252,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Stephan Jeansch"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/JKvtrb2GWMY/maxresdefault.jpg",
+  "title": "Migrating existing codebases to using type annotations",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JKvtrb2GWMY"
+    }
+  ]
+}

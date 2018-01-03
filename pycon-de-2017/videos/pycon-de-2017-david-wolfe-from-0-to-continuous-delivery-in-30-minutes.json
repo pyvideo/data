@@ -1,0 +1,40 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Abstract**\n\nAn introduction and hands on example how to start Continuous Delivery for python (or whatever) projects with conda and gitlab, which are open source, free to use, and if you wish even available as a cloud service.\n\n**Description**\n\nSo, you wrote this neat software, which uses one or two cool 3rd party packages and now you have to get it running on your test or prod servers. Now you could check out your code and install the dependencies manually but that seems like a lot of wasted time, right? Shouldn't there be a more convenient way of doing this?\n\nYes! And it's easier than you think! In this talk you'll learn how to build a Continuous Delivery pipeline for your python (or whatever) projects in 30 Minutes.\n\nIn the beginning you'll get a quick introduction into the topic and the used tools, which are open source and free to use. For those who know a little about the subject: We will use conda (https://conda.io) to build the software package and for the dependency handling. GitLab.com will process the actual pipeline for us and Anaconda.com serves us with a package distribution channel.\n\nAfter that it's \"hands on\" time. We will go step by step trough the process. Starting with the creation of a little dummy program. Then extending the dummy in such manner that it can be build into a package. Afterwards we will create the pipeline and finally do a demo deploy. And if the gods of conference internet are merciful, you see all this as a live demonstration.",
+  "duration": 1851,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    },
+    {
+      "label": "conda",
+      "url": "https://conda.io"
+    },
+    {
+      "label": "David W\u00f6lfe linkedin",
+      "url": "https://www.linkedin.com/in/david-woelfle/"
+    }
+  ],
+  "speakers": [
+    "David W\u00f6lfe"
+  ],
+  "tags": [
+    "hands on",
+    "continuous delivery",
+    "devops",
+    "python",
+    "gitlab",
+    "conda"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/yqpOrB0JDto/maxresdefault.jpg",
+  "title": "From 0 to Continuous Delivery in 30 minutes.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yqpOrB0JDto"
+    }
+  ]
+}

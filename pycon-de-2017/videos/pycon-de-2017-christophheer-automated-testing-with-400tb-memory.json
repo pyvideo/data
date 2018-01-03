@@ -1,0 +1,30 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Christoph Heer** (@ChristophHeer)\n\nI\u2019m an Infrastructure Engineer in the team behind SAP\u2019s huge test infrastructure for SAP HANA. In my spare time, I develop web applications with Django or playing around with new programming languages like Rust.\n\n**Abstract**\n\nSAP operates a dedicated test infrastructure with more than 400TB main memory for its in-memory database SAP HANA. All custom implementations like improved scheduling, caching of artifacts and monitoring were implemented in our favorite programming language Python.\n\n**Description**\n\nSAP operates a large test infrastructure to test its in-memory database SAP HANA. In 2010, we started with a single Jenkins master with ten nodes. But to keep our testing time acceptable for the growing number of developers we had to scale up, which led to multiple different scaling challenges. The current test infrastructure is powered by more than thousand physical servers and provides different services like continuous integration, code coverage and code linting for a huge C++ project. These services are essential for developing and shipping new SAP HANA versions.\n\nThis talk provides insights into how we scaled and improved our test infrastructure. All custom implementations like improved scheduling, expressive test configuration and caching of artifacts were implemented in our favorite programming language Python. With the flexibility and power of Python it has been easier to extend, optimize and adapt the infrastructure for new requirements like different CPU architectures and newer operating system versions.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1959,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Christoph Heer"
+  ],
+  "tags": [
+    "python",
+    "use-case",
+    "devops",
+    "business"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Lro5wC_HxhE/maxresdefault.jpg",
+  "title": "Automated testing with 400TB memory",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Lro5wC_HxhE"
+    }
+  ]
+}

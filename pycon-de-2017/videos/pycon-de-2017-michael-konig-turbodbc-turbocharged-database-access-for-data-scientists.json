@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Michael K\u00f6nig** (@turbodbc)\n\nMichael is a senior software engineer at Blue Yonder GmbH. He holds a PhD in physics, practices test-driven development, and digs Clean Code in C++ and Python. In the last five years, he invested more money in table tennis gear than in smartphones.\n\n**Abstract**\n\nPython's database API 2.0 is well suited for transactional database workflows, but not so much for column-heavy data science. This talk explains how the ODBC-based turbodbc database module extends this API with first-class, efficient support for familiar NumPy and Apache Arrow data structures.\n\n**Description**\n\nThis talk introduces the open source Python database module turbodbc. It uses standard ODBC drivers to connect with virtually any database and is a viable (and often faster) alternative to \"native\" Python drivers.\n\nBriefly recounting the painful story of how data scientists previously used our analytics database, I explain why turbodbc was created and what distinguishes it from other ODBC modules. Sketching the flow of data from databases via drivers and Python modules to consumable Python objects, I motivate a few extensions to the standard database API 2.0 that turbodbc has made. These extensions heavily use NumPy arrays and Apache Arrow tables to provide data scientists with both familiar and efficient binary data structures they can further work on. I conclude my talk with benchmark results for a few databases.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1952,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Michael K\u00f6nig"
+  ],
+  "tags": [
+    "numpy",
+    "database",
+    "python",
+    "data-science",
+    "analytics"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/B-uj8EDcjLY/maxresdefault.jpg",
+  "title": "Turbodbc: Turbocharged database access for data scientists",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=B-uj8EDcjLY"
+    }
+  ]
+}

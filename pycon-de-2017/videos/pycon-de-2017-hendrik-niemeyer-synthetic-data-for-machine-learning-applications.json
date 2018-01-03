@@ -1,0 +1,30 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Dr. Hendrik Niemeyer** (@hniemeye)\n\nData Scientist working on predictive analytics with data from pipeline inspection measurements.\n\n**Abstract**\n\nIn this talk I will show how we use real and synthetic data to create successful models for risk assessing pipeline anomalies. The main focus is the estimation of the difference in the statistical properties of real and generated data by machine learning methods.\n\n**Description**\n\nROSEN provides predictive analytics for pipelines by detecting and risk assessing anomalies from data gathered by inline inspection measurement devices. Due to budget reasons (pipelines need to be dug up to get acess) ground truth data for machine learning applications in this field are usually scarce, imbalanced and not available for all existing configurations of measurement devices. This creates the need for synthetic data (using FEM simulations and unsupervised learning algorithms) in order to be able to create successful models.\n\nBut a naive mixture of real-world and synthetic samples in a model does not necessarily yield to an increased predictive performance because of differences in the statistical distributions in feature space. I will show how we evaluate the use of synthetic data besides simple visual inspection. Manifold learning (e.g. TSNE) can be used to gain an insight whether real and generated data are inherently different.\nQuantitative approaches like classifiers trained to discriminate between these types of data provide a non visual insight whether a \"synthetic gap\" in the feature distributions exists.\n\nIf the synthetic data is useful for model building careful considerations have to be applied when constructing cross validation folds and test sets to prevent biased estimates of the model performance.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 2710,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Hendrik Niemeyer"
+  ],
+  "tags": [
+    "data-science",
+    "python",
+    "machine learning",
+    "ai"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/riT9KTkBj0E/maxresdefault.jpg",
+  "title": "Synthetic Data for Machine Learning Applications",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=riT9KTkBj0E"
+    }
+  ]
+}

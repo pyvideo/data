@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Eberhard Hansis**\n\nI have been writing code for more than two thirds of my life, mostly for scientific computing and data analysis. In the past couple of years, I have worked on a range of different data science projects, all using Python at their core. During this time, I repeatedly was tasked with making data usable by joining multiple sources into a clearly defined data model. Once you have done that, it is amazing how much real-life value you can generate with little more than a bit of statistics and visualization. The world is full of underused data, let\u2019s change that!\n\n**Abstract**\n\nThere is no data science without ETL! This presentation is about implementing maintainable data integration for your projects. We will have a first look a \u2018Ozelot\u2019, a library based on Luigi and SQLAlchemy that helps you get started with building ETL pipelines.\n\n**Description**\n\n*ETL, the hard way*\n\nYou are starting a new data science project, and you can\u2019t wait to perform some machine learning magic. However, before getting to ML, you have to deal with its ugly sibling: ETL. Extracting, transforming and loading data (or, more generally, data integration) is an indispensable first step in almost any data project.\n\nIn your project you will, most likely, have to extract data from various sources, clean it, link it and prepare it to your needs. You will start writing a first data integration script for some part of the process, then a second, then a third. At some point you will write an ugly \u2018master\u2019 script to keep your 17 import scripts in check and run them in just the right order. When you come back to the code later, you will have a hard time deciphering what you did and why, and what format the output data is in.\n\n*Pipelines to the rescue*\n\nImplementing a proper data integration pipeline and a well-defined data model helps document your data flows and makes them traceable. More importantly, it simplifies the ETL development process, because it lets you easily re-run the whole process or parts of it. And you will have to modify and re-run your ETL, because your code changes, your output requirements change or the data changes.\n\nIn this talk I propose a setup for building maintainable data integration pipelines for everyday projects. This setup is embodied by \u2018Ozelot\u2019, my brand-new Python library for ETL. It is based on Luigi for pipeline management and SQLAlchemy as ORM layer. Ozelot gives you core functionality to quickly start building your own solution, including an ORM base class, database connection management and Luigi task classes that play nice with the ORM. It comes with extensively documented examples that walk you through various aspects of data integration.\n\nThe proposed setup works well for many small- to medium-sized projects -- projects, for which you previously might not have implemented a proper data integration pipeline. For big-data projects or those requiring live streaming data you probably want to consider alternative solutions.\n\n*Core principles of data integration*\n\nTaking one step back, I propose the following core principles for maintainable data integration:\n\n- Any and all data manipulation happens in the pipeline, in a single code base.\n- The pipeline represents all dependencies between data integration tasks.\n- Each task has a method for rolling back its operations.\n- Data is loaded into a single database, in a clearly defined, object-based data model that also encodes object relationships.\n- The whole process is fully automatic and thereby reproducible and traceable.\n\nI will discuss why I think that these principles are important, and how they are reflected in the proposed setup.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1676,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Eberhard Hansis"
+  ],
+  "tags": [
+    "data-science",
+    "analytics",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/D7fYa0NrCuE/maxresdefault.jpg",
+  "title": "Data Plumbing 101 - ETL Pipelines for Everyday Projects",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=D7fYa0NrCuE"
+    }
+  ]
+}

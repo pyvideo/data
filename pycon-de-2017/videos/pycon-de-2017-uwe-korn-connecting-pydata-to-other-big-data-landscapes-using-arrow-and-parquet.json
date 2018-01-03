@@ -1,0 +1,33 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Uwe L. Korn** (@xhochy)\n\nUwe Korn is a Data Scientist at the Karlsruhe-based RetailTec company Blue Yonder. His expertise is on building architectures for machine learning services that are scalably usable for multiple customers aiming at high service availability as well as rapid prototyping of solutions to evaluate the feasibility of his design decisions. As part of his work to provide an efficient data interchange he became a core committer to the Apache Parquet and Apache Arrow projects.\n\n**Abstract**\n\nWhile Python itself hosts a wide range of machine learning and data tools, other ecosystems like the Hadoop world also provide beneficial tools that can be either connected via Apache Parquet files or in memory using Arrow. This talks shows recent developments that allow interoperation at speed.\n\n**Description**\n\nPython has a vast amount of libraries and tools in its machine learning and data analysis ecosystem. Although it is clearly in competition with R here about the leadership, the world that has sprung out of the Hadoop ecosystem has established itself in the space of data engineering and also tries to provide tools for distributed machine learning. As these stacks run in different environments and are mostly developed by distinct groups of people, using them together has been a pain. While Apache Parquet has already proven itself as the gold standard for the exchange of DataFrames serialized to files, Apache Arrow recently got traction as the in-memory format for DataFrame exchange between different ecosystems.\n\nThis talk will outline how Apache Parquet files can be used in Python and how they are structured to provide efficient DataFrame exchange. In addition to small code sample, this also includes an explanation of some interesting details of the file format. Additionally, the idea of Apache Arrow will be presented and taking Apache Spark (2.3) as an example to showcase how performance increases once DataFrames can be efficiently shared between Python and JVM processes.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1903,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Uwe L. Korn"
+  ],
+  "tags": [
+    "data-science",
+    "hadoop",
+    "apache",
+    "arrow",
+    "parquet",
+    "pandas",
+    "pydata"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/-IvLScEcoO8/maxresdefault.jpg",
+  "title": "Connecting PyData to other Big Data Landscapes using Arrow and Parquet",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-IvLScEcoO8"
+    }
+  ]
+}

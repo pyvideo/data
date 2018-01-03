@@ -1,0 +1,35 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Maximilian Wilhelm** (@BarbarossaTM)\n\nBy day Maximilian Wilhelm is working as a Senior Infrastructure Architect in the central computing department of the University of Paderborn, by night he's hacking on the infrastructure of the Freifunk Hochstift network and some Open Source projects. Since the early 2000s he has a heart for Linux and Open Source, developed a weaknes for networking, IPv6 and routing a long while a go and has beed a speaker and tutor at the #Routingdays. Lately he got his hands dirty with ifupdown2, VXLAN, Linux VRFs, infrastructure automation with Salt Stack and \"kommunistischen Frickelnetzen\" and is afraid of SDNs ever since. In his spare time he likes playing piano and the organ, taking pictures of natures and cute animals, and trying to stay on the board while Windsurfing.\n\n**Abstract**\n\nIn this talk you will get an overview about some awesome features of comtemporary Linux networking, how to easily integrate them with some cool open source tools, and glueing all this together with Salt Stack and some Python to get your very own SDN controller for a service-provider style network.\n\n**Description**\n\nTopics like Infrastructure Automation / Orchestration, Cloud, and Software Defined Networks are on everyones tongue and nearly all network vendors who think highly of themselves provide products and maybe even solutions in this sphere of buzzwords.\n\nWithin the last years there has been a paradigm shift towards host and segment routing \u2013 think \u00bbIP Fabric\u00ab \u2013 as well as a focus on open protocols and standards like OSPF, IS-IS, BGP & MPLS not only in the data center. This even brought us some new standards like VXLAN and a bunch of open source based \u201copen networking\u201d platforms. Now we aren't always locked to the operating systems of a networking vendor but can choose the control plane software from a variety of Linux based solutions which can be managed and orchestrated by lots of different means.\n\nThanks to the Linux basis and the Open Source spirit of some vendors, some features (VRFs, MPLS forwarding plane, \u2026) today are part of the upstream Linux kernel and available for everyone! Most notable are the contributions of the Debian Linux based platform from Cumulus Networks, which include the VRF support for Linux, some MPLS patches for FRR and ifupdown2 (which is written in Python :-)).\n\nPutting a bunch of these technologies and ideas together will open up a lot of powerful options for building low budget yet mighty networks. This talk will lay out how to build a SDN based service provide like infrastructure with the help of Salt Stack, some 1000 lines of Python and a bunch of affordable hardware where overlay networks and anycast aren't things to be scared of. The Freifunk Hochstift network and server infrastructure will be used as an example.\n\nThe target audience mainly consists of (Linux-) system and network engineers / architects, who already have some experience with the other world. A positive attitude towards automation and magic is a plus.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 2228,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Maximilian Wilhelm"
+  ],
+  "tags": [
+    "sdn",
+    "saltstack",
+    "linux",
+    "debian",
+    "networking",
+    "devops",
+    "use-case",
+    "netops",
+    "netdevops"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/yH_0hptXL94/maxresdefault.jpg",
+  "title": "Building your own SDN with Debian Linux, Salt Stack and Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yH_0hptXL94"
+    }
+  ]
+}

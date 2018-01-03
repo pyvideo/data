@@ -1,0 +1,36 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Heidi Thorpe**\n\nHeidi graduated with Honors in Chemistry from the University of Leeds before taking up a position as an Industrial Chemist with ICI (ORICA). This led to a career in software development working in UK, Aus and USA. In 2000 she became an author by the publication by Addison Wesley of Oracle8i tuning and administration: the essential reference ASIN: B007EIZGOG this was a sales success and translated into German. In her spare time she uses python to write software that allows her to train object classifiers to steal mens' mustaches and put them on the face of Taylor Swift. For this talk she will give a simple introduction to Generative Adversarial Networks using learned \"mustache-ness\" as an example, implemented with existing python modules\n\nPyconAu 2016 and PyconHK 2016 is her speaking experience https://www.youtube.com/watch?v=70JAm03IBFI\n\n**Abstract**\n\nGenerative Adversarial Networks (GANs) are a class of neural networks which are powerful and flexible tools. A common application is image generation. I would like to give a simple introduction to GANs using existing python modules and an example of how \"mustache-ness\" can be learned and applied.\n\n**Description**\n\nThe objective is to showcase the power and flexibility of combining preexisting python modules and applying them to the field of image processing and machine learning. Learning what constitutes \"Mustache-ness\" in a straight forward and fun example of applying the technology in a 30 min presentation\n\nAttendees will learn tips on image processing, as well as training their own neural network.\n\nAn analogy can be considered as a relation between forger and detective. The task of the forger is to create fake examples of original paintings by famous artists. If the fake can pass as an original the the forger can exchange the fake for money. The task of the detective is to catch the forgers. He does this by knowing what are the properties that set the original artist apart and what sort of picture he would create. The detective uses this knowledge to determine whether or not the image is real or fake. From an introduction of what a Generative Adversarial Network is, how they work and how they can be used to generate fake images of mustaches by determining what constitutes \"mustache-ness\"\n\nYou will learn that there are two main components of a GAN \u2013 Generator Neural Network and Discriminator Neural Network.\n\nThe Generator Network takes an random input and tries to generate a sample of data.\n\nIt then generates data which is subsequently fed into a discriminator network D(x). The task of Discriminator Network is to take input either from the real data or from the generator and try to predict whether the input is real or generated.\n\nD(x) solves a binary classification problem using sigmoid function giving output in the range 0 to 1.\n\nYou will learn how to define the problem. Do you want to generate fake images or fake text. Having defined the problem you can then collect data for it. You will define how your GAN should look. In our example of \"mustache-ness\" you will choose a convolutional neural network.\n\nYou will see the effect of training the Discriminator on real data for n epochs. Using examples of real mustaches we will generate fake ones. We will see generated fake inputs for the generator and the effect of training the discriminator on fake data. The discriminator will correctly predict them as fake. Subsequently we will see how to train the generator with the output of discriminator. Now we can see a trained generator that can fool the discriminator. Generating fake mustaches that are indistinguishable from real.\n\nAttendees will learn tips on image processing, as well as training your own convolutional neural network.\n\nShowcasing the power of python in a fun, lighthearted way. Hopefully, being informative and entertaining\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1714,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    },
+    {
+      "label": "A Girls Guide To Growing A Moustache with Python",
+      "url": "https://www.youtube.com/watch?v=70JAm03IBFI"
+    }
+  ],
+  "speakers": [
+    "Heidi Thorpe"
+  ],
+  "tags": [
+    "python",
+    "machine learning",
+    "torch",
+    "scikit-learn",
+    "numpy",
+    "neural networks"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/9lVbpzd1hWk/maxresdefault.jpg",
+  "title": "The Mustache Movement",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9lVbpzd1hWk"
+    }
+  ]
+}

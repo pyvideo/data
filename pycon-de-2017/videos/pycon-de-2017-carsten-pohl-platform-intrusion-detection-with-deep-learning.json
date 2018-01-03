@@ -1,0 +1,30 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Carsten Pohl** (@carstenpohl)\n\nBefore joining REWE digital I worked for Zalando, Fraunhofer IML. My first computer was a VIC-20. I develop professionally software since the 90ies. I am one of the main developers of the new Big data platform of REWE digital, and have deep knowledge about all aspects of the platform. And I have no favorite member of One Direction.\n\n**Abstract**\n\nshop.rewe.de is not only visited by human customers, but also by machines. We have built a deep learning platform using python with Keras, Tensorflow, on the Google infrastructure. In this talk we would like to show you how python is used in practice, supporting 2,5 million visitors each day.\n\n**Description**\n\nshop.rewe.de is visited over 2 million times each day. Every visitor is producing thousands of requests in our micro service architecture. We are trying to give the best shopping experience for our customers, and try to keep our platform safe from bad bots. This is partly done by rule sets, and furthermore done by a platform that uses machine learning to classify bad behaviour. In this talk I would like to present our architecture that is not only able to fulfill this use case, but enables our data scientists in general to use our big data platform. the main scope will be the presentation of the use case. I will cover:\n\n- different microservices written in python using flask, google bigquery, tensorflow and keras\n- scaling this microservices with kubernetes, that automatically starts more predictors in case of higher load\n- implementation of quantifiers written in python, that generates data suitable for neural networks using numpy\n- examples from the real world behaviour of this plattform with lessons learned\n- examples how we feature engineered the data by analysing the data stored\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 2612,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Carsten Pohl"
+  ],
+  "tags": [
+    "python",
+    "use-case",
+    "deep learning",
+    "e-commerce"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/dXqBuZi7JOE/maxresdefault.jpg",
+  "title": "Platform intrusion detection with deep learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dXqBuZi7JOE"
+    }
+  ]
+}

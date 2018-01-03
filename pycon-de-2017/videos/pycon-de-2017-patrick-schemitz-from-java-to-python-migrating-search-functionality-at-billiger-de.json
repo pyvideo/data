@@ -1,0 +1,30 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Patrick Schemitz**\n\nPatrick is a Senior Scientist at solute GmbH. An avid Pythonista since 2003, his main responsibility is the billiger.de search functionality, which he (co-) wrote using first Lucene, later Solr and now SolrCloud. Besides that, he wrote the SVM-based offer categorization at billiger.de and has a keen interest in machine learning. Patrick holds a Ph.D. in particle physics from Karlsruhe university.\n\n**Abstract**\n\nbilliger.de is a German price comparison site. Search is handled by a heavily customized Solr setup. When switching to SolrCloud earlier this year, instead of porting our custom SolrComponents to SolrCloud, we ended up re-implementing them in a Python service layer. Here we show how, and why.\n\n**Description**\n\nThe search on our price comparison site billiger.de is implemented using Solr and half a dozen custom SolrComponents. When switching from Solr to SolrCloud earlier this year, we had to go over all our custom components in order to make them cluster-ready. What we ended up doing instead was re-implementing the custom functionality in a Python service layer that in turn uses stock SolrCloud. This talk describes our journey, shows some code and advocates hiding implementation details like Solr v. SolrCloud behind a service layer. Ported functionality includes boosting more successful documents, identifying brands and categories in queries, \"minimum match\" search and facet ranking and alternatives.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1758,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Patrick Schemitz"
+  ],
+  "tags": [
+    "solrcloud",
+    "solr",
+    "search",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/2fuW9ITUXrU/maxresdefault.jpg",
+  "title": "From Java to Python: Migrating Search Functionality at billiger.de",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2fuW9ITUXrU"
+    }
+  ]
+}
