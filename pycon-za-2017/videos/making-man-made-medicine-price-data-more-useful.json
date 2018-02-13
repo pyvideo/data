@@ -1,0 +1,25 @@
+{
+  "description": "JD Bothma\nhttps://2017.za.pycon.org/talks/79/\nA walk-through of how we practically clean and use a public dataset that is changing people's lives.\n\nThe [Medicine Price Registry](http://mpr.gov.za/) is a spreadsheet published one or more times per year, with the latest prices and active ingredients for medicines registered for sale in South Africa. Like most data, it's dirty and has limited usability in its original form. We take you through some of the practical steps we take to clean the data and make it easier to analyse and use. This allows us, for example, to analyse how price competition from generics lower medicine prices, or not!\n\nThis is intended as a simple real-world example of how we work around the issues with a dataset using a few common tools. This could be done with any platform, but jupyter notebooks, sqlalchemy, alembic migrations and the brevity of python is a nice combination for the iteration needed to work with this data and adapt as we get to know it. We start with a GUI tool called OpenRefine but it pretty quickly becomes necessary to write just a bit of code to move quickly.\n\nThere's a lot of material out there on specific tools. I'd like to show the reality of dirty datasets, and the workarounds and approaches we use to get value from it nonetheless. One such example is using charts and ordering to group related data and visually identify interesting events. I encourage people to ask questions and offer suggestions. The effort put into this project has been limited by time constraints but any improvements can have real world impact.\n\nIf you're interested in trying something like this yourself, you're invited to chat with me about civic technology, perhaps join our civic tech community, and help figure out how it can be most effective. You may also be interested in the CodeBridge Community Evening Thursday 5 October at 18:30.",
+  "recorded": "2017-10-05",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pyconza/making-man-made-medicine-price-data-more-useful-by-jd-bothma"
+    }
+  ],
+  "speakers": [
+    "JD Bothma"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/AHhB74ttslM/hqdefault.jpg",
+  "title": "Making man-made medicine price data more useful",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=AHhB74ttslM"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2017-Making_manmade_medicine_price_data_more_useful"
+    }
+  ]
+}
