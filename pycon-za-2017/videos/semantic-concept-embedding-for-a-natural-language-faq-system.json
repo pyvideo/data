@@ -1,0 +1,25 @@
+{
+  "description": "For a number of months now work has been proceeding in order to bring\nperfection to the crudely conceived idea of a super-positioning of\nword vectors that would not only capture the tenor of a sentence in a\nvector of similar dimension, but that is based on the high\ndimensional manifold hypothesis to optimally retain the various\nsemantic concepts. Such a super-positioning of word vectors is called\nthe semantic concept embedding.\n\nNow basically the only new principle involved is that instead of using\nthe mean of the word vectors of a sentence one rather retains the\ndominant semantic concepts over all of the words. A modification\ninformed by the aforementioned manifold hypothesis.\n\nThe original implementation retains the absolute maximum value over each\nof the dimensions of an embedding such as the GloVe embedding developed\nat Stanford University. The use of these semantic concept vectors then\nallows effective matching of users' questions to an online FAQ system\nwhich in turn allows a natural language adaptation of said system that\neasily achieves an F-score of 0.922 on the Quora dataset given only\nthree examples of how any particular question may be asked.\n\nThe semantic concept embedding has now reached a high level of\ndevelopment. First, an analysis of the word embedding is applied to find\nthe prepotent semantic concepts. The associated direction vectors are\nthen used to transform the embeddings in just the right way to optimally\ndetangle the principal manifolds and further increase the performance of\nthe natural language FAQ system.\n\nThis talk will give an overview of:\n\n- The problem of semantic sentence embedding.\n- How NLTK, numpy, and Python machine learning frameworks are used to solve the problem.\n- How semantic concept embedding is used for natural language FAQ systems in chatbots, etc.\n",
+  "recorded": "2017-10-06",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pyconza/semantic-concept-embedding-for-a-natural-language-faq-system-by-bernardt-duvenhage"
+    }
+  ],
+  "speakers": [
+    "Bernardt Duvenhage"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/MjEb9O0Cyx0/hqdefault.jpg",
+  "title": "Semantic Concept Embedding for a natural language FAQ system",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MjEb9O0Cyx0"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2017-Deep_Learning_for_Computer_Vision"
+    }
+  ]
+}
