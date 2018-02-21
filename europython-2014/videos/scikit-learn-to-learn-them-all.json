@@ -1,0 +1,33 @@
+{
+  "alias": "video/2969/scikit-learn-to-learn-them-all",
+  "category": "EuroPython 2014",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "description": "**Machine Learning** is about *using the right features, to build the\nright models, to achieve the right tasks* `[Flach,\n2012] <http://goo.gl/BnhoHa>`__ However, to come up with a definition of\nwhat actually means **right** for the problem at the hand, it is\nrequired to analyse huge amounts of data, and to evaluate the\nperformance of different algorithms on these data.\n\nHowever, deriving a working machine learning solution for a given\nproblem is far from being a *waterfall* process. It is an iterative\nprocess where continuous refinements are required for the data to be\nused (i.e., the *right features*), and the algorithms to apply (i.e.,\nthe *right models*).\n\nIn this scenario, Python has been found very useful for practitioners\nand researchers: its high-level nature, in combination with available\ntools and libraries, allows to rapidly implement working machine\nlearning code without *reinventing the wheel*.\n\n`**Scikit-learn** <http://scikit-learn.org/stable/>`__ is an actively\ndeveloping Python library, built on top of the solid ``numpy`` and\n``scipy`` packages.\n\nScikit-learn (``sklearn``) is an *all-in-one* software solution,\nproviding implementations for several machine learning methods, along\nwith datasets and (performance) evaluation algorithms.\n\nThese \"batteries\" included in the library, in combination with a nice\nand intuitive software API, have made scikit-learn to become one of the\nmost popular Python package to write machine learning code.\n\nIn this talk, a general overview of scikit-learn will be presented,\nalong with brief explanations of the techniques provided out-of-the-box\nby the library.\n\nThese explanations will be supported by working code examples, and\ninsights on algorithms' implementations aimed at providing hints on how\nto extend the library code.\n\nMoreover, advantages and limitations of the ``sklearn`` package will be\ndiscussed according to other existing machine learning Python libraries\n(e.g., ```shogun`` <http://shogun-toolbox.org>`__,\n```pyML`` <http://pyml.sourceforge.net>`__,\n```mlpy`` <http://mlpy.sourceforge.net>`__).\n\nIn conclusion, (examples of) applications of scikit-learn to big data\nand computational intensive tasks will be also presented.\n\nThe general outline of the talk is reported as follows (the order of the\ntopics may vary):\n\n-  Intro to Machine Learning\n\n   -  Machine Learning in Python\n   -  Intro to Scikit-Learn\n\n-  Overview of Scikit-Learn\n\n   -  Comparison with other existing ML Python libraries\n\n-  Supervised Learning with ``sklearn``\n\n   -  Text Classification with SVM and Kernel Methods\n\n-  Unsupervised Learning with ``sklearn``\n\n   -  Partitional and Model-based Clustering (i.e., k-means and Mixture\n      Models)\n\n-  Scaling up Machine Learning\n\n   -  Parallel and Large Scale ML with ``sklearn``\n\nThe talk is intended for an intermediate level audience (i.e.,\nAdvanced). It requires basic math skills and a good knowledge of the\nPython language.\n\nGood knowledge of the ``numpy`` and ``scipy`` packages is also a plus.\n",
+  "duration": null,
+  "id": 2969,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-24",
+  "related_urls": [
+    "http://goo.gl/BnhoHa",
+    "http://mlpy.sourceforge.net",
+    "http://pyml.sourceforge.net",
+    "http://scikit-learn.org/stable/",
+    "http://shogun-toolbox.org"
+  ],
+  "slug": "scikit-learn-to-learn-them-all",
+  "speakers": [
+    "Valerio Maggio"
+  ],
+  "summary": "**Scikit-learn** is a powerful library, providing implementations for\nmany of the most popular machine learning algorithms. This talk will\nprovide an overview of the \"batteries\" included in Scikit-learn, along\nwith working code examples and internal insights, in order to get the\nbest for our machine learning code.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/zVPfVkC5qDk/hqdefault.jpg",
+  "title": "Scikit-learn to \"learn them all\"",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=zVPfVkC5qDk"
+    }
+  ]
+}

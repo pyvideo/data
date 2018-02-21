@@ -1,0 +1,26 @@
+{
+  "alias": "video/2125/hyperopt-a-python-library-for-optimizing-machine-1",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 2125,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-01",
+  "slug": "hyperopt-a-python-library-for-optimizing-machine-1",
+  "speakers": [],
+  "summary": "Hyperopt: A Python library for optimizing the hyperparameters of machine\nlearning algorithms\n\nAuthors: Bergstra, James, University of Waterloo; Yamins, Dan,\nMassachusetts Institute of Technology; Cox, David D., Harvard University\n\nTrack: Machine Learning\n\nMost machine learning algorithms have hyperparameters that have a great\nimpact on end-to-end system performance, and adjusting hyperparameters\nto optimize end-to-end performance can be a daunting task.\nHyperparameters come in many varieties--continuous-valued ones with and\nwithout bounds, discrete ones that are either ordered or not, and\nconditional ones that do not even always apply (e.g., the parameters of\nan optional pre-processing stage)--so conventional continuous and\ncombinatorial optimization algorithms either do not directly apply, or\nelse operate without leveraging structure in the search space.\nTypically, the optimization of hyperparameters is carried out\nbefore-hand by domain experts on unrelated problems, or manually for the\nproblem at hand with the assistance of grid search. However, even random\nsearch has been shown to be competitive [1].\n\nBetter hyperparameter optimization algorithms (HOAs) are needed for two\nreasons:\n\nHOAs formalize the practice of model evaluation, so that benchmarking\nexperiments can be reproduced by different people.\n\nLearning algorithm designers can deliver flexible fully-configurable\nimplementations (of e.g. Deep Learning algorithms) to non-experts, so\nlong as they also provide a corresponding HOA.\n\nHyperopt provides serial and parallelizable HOAs via a Python library\n[2, 3]. Fundamental to its design is a protocol for communication\nbetween (a) the description of a hyperparameter search space, (b) a\nhyperparameter evaluation function (machine learning system), and (c) a\nhyperparameter search algorithm. This protocol makes it possible to make\ngeneric HOAs (such as the bundled \"TPE\" algorithm) work for a range of\nspecific search problems. Specific machine learning algorithms (or\nalgorithm families) are implemented as hyperopt search spaces in related\nprojects: Deep Belief Networks [4], convolutional vision architectures\n[5], and scikit-learn classifiers [6]. My presentation will explain what\nproblem hyperopt solves, how to use it, and how it can deliver accurate\nmodels from data alone, without operator intervention.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/Mp1xnPfE4PY/hqdefault.jpg",
+  "title": "Hyperopt: A Python library for optimizing machine learning algorithms; SciPy 2013",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=Mp1xnPfE4PY"
+    }
+  ]
+}

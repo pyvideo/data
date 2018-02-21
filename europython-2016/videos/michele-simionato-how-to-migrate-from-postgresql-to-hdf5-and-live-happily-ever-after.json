@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Michele Simionato - How to migrate from PostgreSQL to HDF5 and live happily ever after\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/how-to-migrate-from-postgresql-to-hdf5-and-live-happily-ever-after)\n\nThis talk is for people who have a lot of floating numbers inside\nPostgreSQL tables. I will bring as an example my personal experience\nwith a scientific project that used PostgreSQL as storage for a rather\ncomplex set of composite multidimensional arrays and ran into all\nsorts of performances issues, both in reading and writing the data. I\nwill explain how I solved all that by dropping the database in favor\nof an HDF5 file, while keeping the application running and the users\nhappy.\n\n-----\n\nThis talk is for people who have a lot of floating numbers inside\nPostgreSQL tables and have problems with that. I will narrate my\nexperience with a scientific project that used PostgreSQL as storage\nfor a rather complex set of composite multidimensional arrays and ran\ninto all sorts of performances issues, both in reading and writing the\ndata.  I will discuss the issues and the approach that was taken first\nto mitigate them (unsuccessfully) and then to remove them\n(successfully) by a complete rethinking of the underlying architecture\nand eventually the removal of the database. I will talk about the\nmigration strategies that were employed in the transition period and\nhow to live with a mixed environment of metadata in PostgreSQL and\ndata in an HDF5 file. I will also talk about concurrency, since the\nunderlying application is distributed and massively parallel, and\nstill it uses the purely sequential version of HDF5. Questions from\nthe audience are expected and welcome.\nThe talk is of interest to a large public, since it is mostly about\nmeasuring things, monitoring and testing a legacy system,\nmaking sure that the changes do not break the previous behavior\nand keeping the users happy, while internally rewriting\nall of the original code. And doing that in a small enough number of years!",
+  "duration": 2360,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/how-to-migrate-from-postgresql-to-hdf5-and-live-happily-ever-after"
+  ],
+  "speakers": [
+    "Michele Simionato"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/uYKofUe0TnM/maxresdefault.jpg",
+  "title": "How to migrate from PostgreSQL to HDF5 and live happily ever after",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uYKofUe0TnM"
+    }
+  ]
+}

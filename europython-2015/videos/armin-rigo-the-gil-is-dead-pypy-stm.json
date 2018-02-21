@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Armin Rigo - The GIL is dead: PyPy-STM\n[EuroPython 2015]\n[23 July 2015]\n[Bilbao, Euskadi, Spain]\n\nTake a big, non-multithreaded program, and run in on multiple cores!\n\nPyPy, the Python implementation written in Python, experimentally\nsupports Software Transactional Memory (STM).  It runs without the\nGlobal Interpreter Lock (GIL).\n\nThe strength of STM is not only to remove the GIL, but to also enable\na novel use of multithreading, inheritently safe, and more useful in\nthe general case than other approaches like OpenMP.  The main news\nfrom last year's presentation is that there is now a way to get\nreports about the \"STM conflicts\", which is essential to go past toy\nexamples.  With it, you can incrementally remove conflicts from large\ncode bases until you see a benefit from PyPy-STM.  The goal of the\ntalk is to give several concrete examples of doing that.",
+  "duration": 1692,
+  "language": "eng",
+  "recorded": "2015-08-03",
+  "related_urls": [],
+  "speakers": [
+    "Armin Rigo"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/e8wUiGDDVno/maxresdefault.jpg",
+  "title": "The GIL is dead: PyPy-STM",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=e8wUiGDDVno"
+    }
+  ]
+}

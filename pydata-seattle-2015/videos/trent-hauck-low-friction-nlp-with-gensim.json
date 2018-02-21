@@ -1,0 +1,15 @@
+{
+  "description": "Gensim is fairly popular NLP library available in Python. In addition to having implementations of several popular algorithms, it has a utilities that make working with the corpus itself easier.\n\nIn this talk I'd like to give an overview of Gensim, and then two examples. One will illustrate an LDA example, then I'll show a somewhat novel use of Word2Vec to understand user preferences.\n\nOverview:\nThe overview will follow the general arc of an NLP project.\nReading the corpus, here this is done with gensim's streaming API.\nTransformations, often a transformation to BOW is done, and potentially something like TFIDF.\nTraining the model from the corpus.\nWorking with the result for analysis or otherwise.\nExamples:\nThis will be a straight forward application: topic discovery on a corpus and then analyzing the resulting topics to look for patterns.\nNext I'll cover how to use Gensim's Word2Vec implementation to better understand customer preferences.\n\nSlides available here: http://blog.trenthauck.com/portfolio/presentation.pdf",
+  "recorded": "2015-07-26",
+  "speakers": [
+    "Trent Hauck"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/KqNkisZ2rPs/hqdefault.jpg",
+  "title": "Low Friction NLP with Gensim",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KqNkisZ2rPs"
+    }
+  ]
+}

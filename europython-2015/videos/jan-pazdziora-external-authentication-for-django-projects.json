@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Jan Pazdziora - External authentication for Django projects\n[EuroPython 2015]\n[24 July 2015]\n[Bilbao, Euskadi, Spain]\n\nWhen applications get deployed in enterprise environment or in large\norganizations, they need to support user accounts and groups that are\nmanaged externally, in existing directory services like FreeIPA or\nActive Directory, or federated via protocols like SAML. While it is\npossible to  add support for these individual setups and protocols\ndirectly to application code or to Web frameworks or libraries, often\nit is better to delegate the authentication and identity operations to\na frontend server and just assume that the application has to be able\nto consume results of the external authentication and identity\nlookups.\n\nIn this talk, we will look at Django Web framework and how with few\nsmall changes to the framework and to the application we can extend\nthe functionality of existing RemoteUserMiddleware and\nRemoteUserBackend to consume users coming from enterprise identity\nmanagement systems. We will focus on using proven OS-level components\nsuch as SSSD for Web applications, but will also show setup using\nfederation.",
+  "duration": 2108,
+  "language": "eng",
+  "recorded": "2015-08-06",
+  "related_urls": [],
+  "speakers": [
+    "Jan Pazdziora"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/62_jD-8zV4M/maxresdefault.jpg",
+  "title": "External authentication for Django projects",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=62_jD-8zV4M"
+    }
+  ]
+}

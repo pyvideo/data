@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Since the emergence of Elasticsearch, common Information Retrieval tasks such as indexing, scoring and retrieval of documents into a search engine have never been easier. However unique challenges still exist for indexing large sets of data from databases. At Jopwell, we need to insure that data in our database is kept in constant sync with data in our search index.\n\nInitially you need to take data from a traditional SQL database and flatten it for indexing in Elasticsearch. Since indexing this data can be a memory intensive task, Celery is useful for ensuring you can index large sets of data in both a distributed and memory-conservative manner. Once all your documents are in your Elasticsearch index, you need to retrieve data from your database related to a user\u2019s search results.\n\nIn this talk, I\u2019ll show the basics of creating a search engine in Python, keeping these it synced with another data store and how you can keep your index running smoothly.\n\n**Talk Outline**\n\n* Introduction to the problem (2 min)\n* Building your document indexer (7 min)\n\n  * Flattening database data into a search document\n  * Using Celery to index documents efficiently\n* Scoring and search results retrieval (7 min)\n\n  * Scoring algorithms\n  * Retrieving matching results from the database\n* Strategies for syncing data from (7 min)\n\n  * Traditional SQL database\n  * Elasticsearch index\n* Future work (2 min)",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2017-10-06",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/indexing-all-the-things-building-your-search-engine-in-python/"
+  ],
+  "speakers": [
+    "Joe Cabrera"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZBbiFGCLbAA/maxresdefault.jpg",
+  "title": "Indexing all the things: Building your search engine in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZBbiFGCLbAA"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Nicolas Lara - Python and Async programming\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/python-and-async-programming)\n\nHow does the experienced python programmer fair when faced with\npython's \"new\" way of doing async programming for the first time?\n\nThis talk details the different ways python provides for attacking the\nproblem of asynchronous programming and focuses on the best practices\nfor the future (as of python 3.4 and 3.5)\n\n-----\n\nHow does the experienced python programmer fair when faced with\npython's \"new\" way of doing async programing in for the first time?\nDo we all know how and when to use Futures, yield from, asyncio,\ncoroutines, the async and await keywords, eventloops, and others?\n\nA lot has changed in recent versions of Python when it comes to async\nprogramming, concurrency, and parallelism. We still have very\ndifferent ways of approaching the problem in each version, but they\nare finally (as of python 3.4/3.5) converging to a standard.\n\nThis talk explores, from the perspective of an experienced python\nprogrammer with little to no experience in async programming, what the\n\"one obvious way\" to do async programming in Python is supposed to be.\nIt does so but analysing examples of different categories of async\nproblems we may want to solve and what the correct way to solve them\nwith the latest versions of Python would be (along with the trade offs\nof different approaches).\n\nThe examples include generic CPU-bound problems, IO-bound problems,\nand \"both-bound\" problems; along with common tasks as building a\nsimple server, scraping, deferring a web response, and traversing\ngraphs.\n\nWhen useful, I compare the solutions with the approach we would take\nin languages that have been design for- and are known to be good at\nasync programming like Javascript and Go.",
+  "duration": 1874,
+  "language": "eng",
+  "recorded": "2016-07-28",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/python-and-async-programming"
+  ],
+  "speakers": [
+    "Nicolas Lara"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/8sJUmFHHY-Y/maxresdefault.jpg",
+  "title": "Python and Async programming",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8sJUmFHHY-Y"
+    }
+  ]
+}

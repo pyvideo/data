@@ -1,0 +1,27 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Among numeric communities Python is popular because of its easy to use number crunching modules like Numpy, Scipy, Tensor Flow, Theano, Dask, and Numba \u2013 to name but a few. These modules often use parallel processing in order to exploit all of the resources of multi-core processors efficiently. However, when used together in the same application, or in an application which exposes parallelism itself, these Python modules can interfere with each other by requesting too many worker threads. That leads to inefficiency or even causes failure of the code due to resource exhaustion. Last year, the Intel\u00ae Threading Building Blocks (Intel\u00ae TBB) module for Python introduced a new approach to tackle these issues. However, It is limited to a single process and packages which can switch to using the Intel\u00ae TBB library for multi-threading (e.g. Numpy, Dask, Joblib, and Numba). In this work, we address both limitations in the existing approach by introducing a way to compose parallelism implemented with OpenMP* runtime and to support multiprocessing coordination for both Intel\u00ae TBB and OpenMP threading runtimes.",
+  "duration": 1895,
+  "language": "eng",
+  "recorded": "2017-07-14",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    }
+  ],
+  "speakers": [
+    "Anton Malakhov",
+    "Anton Gorshkov",
+    "Terry Wilmarth"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/a2Wv0vHa5_E/maxresdefault.jpg",
+  "title": "Composable Multiprocessing and Multithreading for Numeric Libraries",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=a2Wv0vHa5_E"
+    }
+  ]
+}

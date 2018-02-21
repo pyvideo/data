@@ -1,0 +1,15 @@
+{
+  "description": "Certain types of exploding stars, Supernovae Type Ia have been used to infer that cosmic expansion is accelerating. Large surveys like LSST will potentially find numerous such supernovae probing the physics and phenomenology underlying the acceleration. We discuss a flexible, modular suite of python scientific software for simulation and analysis of such survey data with different algorithms.\n\nScientific Background\nSupernovae Type Ia which are exploding stars of a certain class have been considered to be emperical standardizable candles: astrophysical objects whose intrinsic luminosity can be inferred from other observable characteristics of their light after explosion. This property was used in the discovery that the expansion of the universe is accelerating.\n\nExtracting this information from the data requires a number of analysis steps; it is important to try out different methods in many of these steps to discover the optimal methods, thereby requiring a certain amount of modularity in the cod e. The information extracted also depends on the observational strategy used in the survey, and thus exploring the best observational strategy is also important.\n\nImplementation\nThe readily available and growing library of python scientific software for data analysis provides a good environment for quickly and easily implementing new algorithms, along with the ability to call programs in other languages. Our suite uses a python package SNCosmo to provide basic functionality for several tasks related to supernovae analysis. We also use products from the suite of LSST software to characterize the observational strategy. Finally, we use a workflow management tool Tigres to build larger tasks out of the primitives, and parallelize on certain systems.",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Rahul Biswas"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/N7R06p390Oc/hqdefault.jpg",
+  "title": "Supernova Cosmology with python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=N7R06p390Oc"
+    }
+  ]
+}

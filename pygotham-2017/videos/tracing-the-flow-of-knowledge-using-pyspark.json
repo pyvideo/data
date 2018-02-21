@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "This talk will be focused on doing Natural Language Processing (NLP) in a Python-based Spark environment using PySpark. Examples will be drawn from a Citing Sentences project underway within Elsevier Labs (http://labs.elsevier.com/). The goal of this project is to build and analyze citation networks to understand the diffusion and flow of ideas through the scientific research landscape. Much like a social network, scientists want to understand how others are \u2018talking\u2019 about their papers.  Are they supporting their work?  Disagreeing with it?  Is it being referred to as a discovery?\n\nThe development of our input datasets is out of scope for this talk, partly because the framework for citing sentence extraction is built out in Spark Scala rather than PySpark. However, our citing sentence dataframe formats will be described and documented and sample data will be provided so that others can explore and reproduce our analyses.\n\nThe presentation will cover:\n\n* Reformatting, manipulating, and combining dataframes to meet specific analysis needs\n* Preparing data for use with NLP tools and techniques\n* Using PySpark, SparkSQL, SparkML and other Spark libraries within Python code to perform NLP\n* Moving Spark Dataframes in and out of Pandas for additional analysis and to do visualizations\n* Performing additional natural language analysis in NLTK within the PySpark environment\n* Generating export formats suitable for other tools, such as for visualization with Gephi\n\nThe following code will be provided for audience members to return to the topic and continue learning after the event:\n\n* A \"Community Edition\" DataBricks compatible notebook with \u00a0SparkML, SparkSQL, \u00a0PySpark, and NLTK code\n* A sample datafile of citing sentences from Elsevier's CCBY-licensed articles",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2017-10-06",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/tracing-the-flow-of-knowledge-using-pyspark/"
+  ],
+  "speakers": [
+    "Jessica Cox",
+    "Corey Harper"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KsjD9EXQe9M/maxresdefault.jpg",
+  "title": "Tracing the flow of knowledge using Pyspark",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KsjD9EXQe9M"
+    }
+  ]
+}

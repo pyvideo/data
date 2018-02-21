@@ -1,0 +1,26 @@
+{
+  "alias": "video/2934/fun-with-cpython-memory-allocator",
+  "category": "EuroPython 2014",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "description": "Working with Python does not usually involve debugging memory problems:\nthe interpreter takes care of allocating and releasing system memory and\nyou get to enjoy working on real problems. But what if you encounter\nsuch problems? What if your program never releases memory? How do you\ndebug it?\n\nI will tell a story of one programmer discovering such problems. The\ntalk will take listeners on a journey of issues they can encounter,\ntools they can use to debug the problems and possible solutions to seek\nout. There will also be a brief mention of general memory management\nprinciples.\n\ncPython uses a combination of its own allocator, ``malloc``, and\n``mmap`` pools to manage memory of Python programs. It usually is smart\nenough, but there are some darker corners that are not well known by an\naverage Joe Programmer (read: me).\n\nThere are tools that can help debug memory problems, but those are also\nrelatively unknown, and tend to have documentation that one might find\nlacking. I will describe one such tool, called ``guppy``, which I have\nfound particulary helpful.\n",
+  "duration": null,
+  "id": 2934,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-25",
+  "slug": "fun-with-cpython-memory-allocator",
+  "speakers": [
+    "Tomasz Paczkowski"
+  ],
+  "summary": "Working with Python does not usually involve debugging memory problems:\nthe interpreter takes care of allocating and releasing system memory and\nyou get to enjoy working on real world issues. But what if you encounter\nsuch problems? What if your program never releases memory? How do you\ndebug it?\n\nThis talk describes some of the lesser known properties of cPython\nmemory allocator and some ways to debug memory-related problems, all\nthis based on real events.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/l9Le_JOwgsM/hqdefault.jpg",
+  "title": "Fun with cPython memory allocator",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=l9Le_JOwgsM"
+    }
+  ]
+}

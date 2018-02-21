@@ -1,0 +1,27 @@
+{
+  "alias": "video/1307/the-story-of-stackless-python",
+  "category": "EuroPython 2012",
+  "copyright_text": "Standard YouTube License",
+  "description": "This talk gives a good overview of the status of Stackless Python: Its\nhistory from the beginning, its current status and its future\ndevelopment to be expected. A discussion and comparison with similar\napproaches like Greenlet, Eventlet and how they relate is also included.\nStackless Python 1.0 was started in 1998 as an implementation of true\ncontinuations, with all implied complications. In 2002, Stackless 2.0\nwas born, a complete rewrite. Continuations were abandoned in favor of\nthe much easier to comprehend tasklets - one-shot continuations that\ncould resume their current state just once, like Coroutines. In 2004,\nStackless 3.0 was created, which merged the 2.0 features with a new\nconcept: so-called \u201cSoft-Switching\u201d, which made the Pickling of Program\nState\u201d possible. As a consequence, a few recent application make solely\nuse of Program State Pickling, which changes the purpose of Stackless\nPython quite a bit. One example of this is the \u201cNagare Web Framework\u201d\nwhich will be shown in examples. In the light of the popularity of a\nStackless spin-off, called \u201cGreenlet\u201d, the concept of a new Stackless\nbranch will be depicted: Stackless, written as a pure extension module\non top of Greenlets, which includes State Pickling - a feature that\nseemed to be impossible to implement without changing CPython. But the\nimpossible and ways to get around it was always a major topic in this\nproject, which is going to augment what Stackless on PyPy already can\ndo. Christian Tismer, creator of Stackless Python Perhaps with Armin\nRigo as a guest, talking about Stackless status in PyPy. Otherwise, I\nwill insert this myself. cheers \u2013 Chris\n",
+  "duration": null,
+  "id": 1307,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2012-07-05",
+  "slug": "the-story-of-stackless-python",
+  "speakers": [
+    "Armin Rigo",
+    "C Tismet"
+  ],
+  "summary": "[EuroPython 2012] C Tismet A Rigo - 4 JULY 2012 in \"Track Spaghetti\"\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/pDkrkP0yf70/hqdefault.jpg",
+  "title": "The story of stackless Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=pDkrkP0yf70"
+    }
+  ]
+}

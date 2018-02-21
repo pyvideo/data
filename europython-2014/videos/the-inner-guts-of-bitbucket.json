@@ -1,0 +1,26 @@
+{
+  "alias": "video/2964/the-inner-guts-of-bitbucket",
+  "category": "EuroPython 2014",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "description": "This talk is about Bitbucket's architecture. Leaving no stone unturned,\nI'll be covering the entire infrastructure. Every component, from web\nservers to message brokers and load balancing to managing hundreds of\nterabytes of data.\n\nSince its inception in 2008, Bitbucket has grown from a standard, modest\nDjango app into a large, complex stack that while still based around\nDjango, has expanded into many more components.\n\nToday Bitbucket is more than 30 times bigger than at the time of\nacquisition almost 4 years ago and serves Git and Mercurial repos to\nover a million users and growing faster now than ever before.\n\nOur current architecture and infrastructure was shaped by rapid growth\nand has resulted in a large, mostly horizontally scalable system. What\nhas not changed is that it's still nearly all Python based and could\nserve as inspiration or validation for other community members\nresponsible for rapidly scaling their apps.\n\nThis talk will layout the entire architecture and motivate our\ntechnology choices. From our Gunicorn to Celery and HA-Proxy to NFS.\n",
+  "duration": null,
+  "id": 2964,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-24",
+  "slug": "the-inner-guts-of-bitbucket",
+  "speakers": [
+    "Erik van Zijst"
+  ],
+  "summary": "Today Bitbucket is more than 30 times bigger than at the time of\nacquisition almost 4 years ago and serves repositories to over a million\ndevelopers.\n\nThis talk lays out its current architecture in great detail, from\nGunicorn and Django to Celery and HA-Proxy to NFS.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/2ll2ER3wpus/hqdefault.jpg",
+  "title": "The inner guts of Bitbucket",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=2ll2ER3wpus"
+    }
+  ]
+}

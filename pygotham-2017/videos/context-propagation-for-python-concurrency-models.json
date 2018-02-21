@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Asynchronous Python can dramatically improve application performance by allowing work during traditional waiting periods. But when asynchronous libraries and frameworks are used to build web applications, request data often needs to be manually propagated across functions. Usually these frameworks provide a clean way to attach such context to the request object itself so it can be retrieved later in the route handler.\n\nExplicitly passing the request or context objects from function to function can be time consuming and tedious. It is also error prone, especially when the code base is big and different teams are responsible for passing context data to inner functions.\n\nAt Datadog we faced these problems when we started to support asyncio and asynchronous web frameworks in our Application Performance Monitoring (APM) service. In this talk Emanuele will go over some techniques that his team used in the Python APM client to add in-process context propagation, explaining how it fits in the wide world of python concurrency models and simplifies context propagation, while maintaining asynchronous Python performance.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2017-10-06",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/context-propagation-for-python-concurrency-models/"
+  ],
+  "speakers": [
+    "Emanuele Palazzetti"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/TMX8qcmW1fw/maxresdefault.jpg",
+  "title": "Context propagation for Python concurrency models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TMX8qcmW1fw"
+    }
+  ]
+}

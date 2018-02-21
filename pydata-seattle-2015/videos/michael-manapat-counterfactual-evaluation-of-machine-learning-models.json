@@ -1,0 +1,15 @@
+{
+  "description": "Machine learning models often result in actions: search results are reordered, fraudulent transactions are blocked, etc. But how do you evaluate model performance when you are altering the distribution of outcomes? I'll describe how injecting randomness in production allows you to evaluate current models correctly and generate unbiased training data for new models.\n\nStripe processes billions of dollars in payments a year and uses machine learning to detect and stop fraudulent transactions. Like models used for ad and search ranking, Stripe's models don't just score---they dictate actions that directly change outcomes. High-scoring transactions are blocked before they can ever get refunded or disputed by the card holder. Deploying an initial model that successfully blocks a substantial amount of fraud is a great first step, but since your model is altering outcomes, subsequent parts of the modeling process become more difficult:\n\nHow do you evaluate the model? You can't observe the eventual outcomes of the transactions you block (would they have been refunded or disputed?) or the ads you didn't show (would they have been clicked?) In general, how do you quantify the difference between the world with the model and the world without it?\n\nHow do you train new models? If your current model is blocking a lot of transactions, you have substantially fewer samples of fraud for your new training set. Furthermore, if your current model detects and blocks some types of fraud more than others, any new model you train will be biased towards detecting that residual fraud. Ideally, new models would be trained on the \"unconditional\" distribution that exists in the absence of the original model.\n\nIn this talk, I'll describe how injecting a small amount of randomness in the production scoring environment allows you to answer these questions. We'll see how to obtain estimates of precision and recall (standard measures of model performance) from production data and how to approximate the distribution of samples that would exist in a world without the original model so that new models can be trained soundly.\n\nSlides available here: http://www.slideshare.net/MichaelManapat/counterfactual-evaluation-of-machine-learning-models",
+  "recorded": "2015-07-26",
+  "speakers": [
+    "Michael Manapat"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/QWCSxAKR-h0/hqdefault.jpg",
+  "title": "Counterfactual evaluation of machine learning models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QWCSxAKR-h0"
+    }
+  ]
+}

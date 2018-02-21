@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Cameron Macleod - Implementing a Sound Identifier in Python\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/implementing-a-sound-identifier-in-python)\n\nThe talk will go over implementing a Shazam-style sound recogniser\nusing DSP techniques and some fantastic libraries. It will cover\nimplementation, challenges and further steps. The project is still a\nwork in progress and the code is `available on GitHub`_. It was\ninspired by the `Over-the-Air Audio Identification talk`_ at FOSDEM\n2016.\n\n-----\n\nThe talk will go over the journey of implementing a Shazam-style sound\nrecogniser using DSP techniques and some fantastic libraries. It will\ncover implementation, challenges and further steps. The project is\nstill a work in progress at the time of proposal and the code is\n`available on GitHub`_. It was inspired by the `Over-the-Air Audio Identification talk`_ at FOSDEM 2016.\n\nThe basic structure of the project consists a classifier that\nfingerprints audio and stores it in a searchable form and a recogniser\nthat fingerprints a smaller chunk of audio and then searches the\nstored records to find the most suitable fit for it. The recogniser\nwill be exposed as an API to allow for different front-ends.\n\nI will aim to introduce both the field of DSP and concepts behind\napplications like Shazam in a simple easy-to-understand manner. The\naudience will not need any prior experience in anything except Python.\n\n.. _`available on GitHub`: https://github.com/notexactlyawe/abracadabra\n.. _`Over-the-Air Audio Identification talk`: https://fosdem.org/2016/schedule/event/audio_identification/",
+  "duration": 1315,
+  "language": "eng",
+  "recorded": "2016-07-28",
+  "related_urls": [
+    "https://fosdem.org/2016/schedule/event/audio_identification/",
+    "https://github.com/notexactlyawe/abracadabra",
+    "https://ep2016.europython.eu//conference/talks/implementing-a-sound-identifier-in-python"
+  ],
+  "speakers": [
+    "Cameron Macleod"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/LZ7THTB88AE/maxresdefault.jpg",
+  "title": "Implementing a Sound Identifier in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LZ7THTB88AE"
+    }
+  ]
+}

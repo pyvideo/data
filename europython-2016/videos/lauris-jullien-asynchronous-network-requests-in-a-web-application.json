@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Lauris Jullien - Asynchronous network requests in a web application\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/asynchronous-network-requests-in-a-web-application)\n\nIntroducing  asynchronous calls from within an endpoint in a web app\ncan be desirable but hard to achieve.\nThis talk will explore different solutions for this (running Twisted\nevent loop, Co-Routines, Asyncio, \u2026) and how well they play with the\ndifferent parallelization models of common WSGI web servers.\n\n-----\n\nIn the more and more popular SOA paradigm, it\u2019s common for services to\nhave to compose responses with resources from many different services.\nEveryone\u2019s first idea will probably be to call each service\nsynchronously with your favorite python HTTP library. This\nunfortunately doesn\u2019t scale well and tens of successive network calls\nwill make your endpoints painfully slow.\n\nOne solution is to parallelize these network calls. If you are already\nusing an asynchronous web app (such as Tornado or Twisted), more\nasynchronous in your asynchronous shouldn\u2019t be much of a challenge.\nBut if you chose not to dive into the madness of chained Deferred\ncalls, and used a standard prefork/threaded WSGI web server (such as\nGunicorn or uWSGI) to run your Django/Flask/Pyramid application, you\nmight find yourself wondering how to manage these asynchronous calls.\n\nThis talk will explore different solutions (running Twisted event\nloop, Co-Routines, Asyncio, \u2026) and how well they play with the\ndifferent parallelization models of WSGI web servers.",
+  "duration": 1964,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/asynchronous-network-requests-in-a-web-application"
+  ],
+  "speakers": [
+    "Lauris Jullien"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/LfbmcZ_NNVU/maxresdefault.jpg",
+  "title": "Asynchronous network requests in a web application",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LfbmcZ_NNVU"
+    }
+  ]
+}

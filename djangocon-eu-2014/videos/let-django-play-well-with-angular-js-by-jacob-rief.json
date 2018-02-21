@@ -1,0 +1,16 @@
+{
+  "description": "Django intentionally has been designed as a pure server side framework,\nthus being agnostic about client side programming, except for the Django\nadmin interface, which uses jQuery. Letting developers choose their\npreferred client side framework has been a wise decision by Django\ncommunity. However, in most cases the de-facto standard, hence jQuery,\nis used. In the past years, other Javascript frameworks have emerged,\nnamely Knockout, EmberJS, Backbone and AngularJS. They all attempt to\ncircumvent to shortcomings of jQuery. Since Django developers are\nfamiliar with the concept of Model-View-Control, they might feel even\nmore comfortable with one of these frameworks, rather than with jQuery.\n\nIn my proposed talk, I would like to give a short introduction into\nAngularJS\u2019s two-way data-binding, which can dramatically reduce\nboilerplate code, otherwise required when using jQuery. Furthermore,\nthis talk will handle the following topics: - How to render model-bound\nforms for AngularJS, using mixin classes to be added to the built in\nDjango form. - How Django\u2019s form validation can be used to pre-validate\nthe form data on the client, using the AngularJS Model controller, but\nwithout duplicating code. - How to securely call Django view\u2019s methods\nfrom inside an AngularJS controller, with a behaviour similar to remote\nprocedure calls. - How to use dependency injection to separate concern\nfor external data, either created by Django for production use, or by a\nmocking class when writing unit tests for browsers code. - Three-way\ndata-binding build on top of AngularJS\u2019s two-way data- binding using\nwebsockets for bidirectional synchronization of the browsers view model\nwith server side data buckets.\n\nIn-depth documentation on the topics of the proposed talk can be found\nhere: http://django-angular.readthedocs.org/en/latest/\nhttp://django-websocket- redis.readthedocs.org/en/latest/\n",
+  "duration": 2766,
+  "recorded": "2014-05-15",
+  "speakers": [
+    "Jacob Rief"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/SQ5QH8-erMk/hqdefault.jpg",
+  "title": "Make AngularJS play nice together with Django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SQ5QH8-erMk"
+    }
+  ]
+}

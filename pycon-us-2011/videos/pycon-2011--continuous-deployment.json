@@ -1,0 +1,40 @@
+{
+  "alias": "video/407/pycon-2011--continuous-deployment",
+  "category": "PyCon US 2011",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Continuous deployment\n\nPresented by Laurens Van Houtven\n\nThis talk is about continuous deployment practices and tools, lessons\nlearned from implementing it, and putting them into perspective. The\ngoal is to give other people tips and pointers for applying these ideas\nthemselves.\n\nAbstract\n\nContinuous deployment is the practice of putting the latest revision of\nsoftware into production use all the time, as opposed to working towards\nlarger releases. The important difference is iteration time: whereas\nlarge software packages produce new software in timeframes of years or\nmonths, continuous deployment teams typically put new code into\nproduction in timeframes of hours or less.\n\nThe practice is slowly attracting a small but growing group of loyal\nfollowers, just like continuous integration over the past few years and\ntest- driven development did before that. They can be explained in terms\nof being natural extensions of each other. Like TDD and CI, CD gets eyed\nsomewhat suspiciously (and rightfully so: skeptical analysis is great),\nbut the undersigned believes there's a legitimate advantage for many\napplications.\n\nMany years ago, TTD and testing tools in general were mostly ad-hockery.\nNow, with many different production-quality testing tools, this has\nbecome unthinkable. Similarly, continuous integration was something\nother people did for a long time, but now we have tools such as Buildbot\nand Hudson. Continuous deployment is still somewhat in the early stage\nin terms of ready-to-use tools, but it's likely that we'll see a similar\nevolution.\n\nHere's a rough outline of what I plan to cover:\n\n-  a short history of people developed software\n-  from the recent models to CD (sort of a working definition of CD\n   here)\n-  when is it a good idea? pros/cons\n-  requirements & battle plan for applying CD in an existing development\n   environment (and possibly code base)\n-  an overview of existing tools and how they work together\n-  caveat emptors, known pitfalls (deployment and recovery strategies go\n   here, since most implementations figure out they need them after\n   stuff blows up)\n-  questions! (hopefully lots of people who've tried or are thinking\n   about implementing something similar -- like I said, there are a lot\n   of people implementing it but not too many ideas being bounced\n   around)\n\n",
+  "duration": null,
+  "id": 407,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--continuous-deployment",
+  "speakers": [
+    "Laurens Van Houtven"
+  ],
+  "summary": "",
+  "tags": [
+    "cd",
+    "ci",
+    "continuousdeployment",
+    "deployment",
+    "pycon",
+    "pycon2011",
+    "softwaredevelopment",
+    "tdd",
+    "workflow"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_407___continuous-deployment",
+  "title": "Continuous deployment",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_407___continuous-deployment"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/407_continuous-deployment.mp4"
+    }
+  ]
+}

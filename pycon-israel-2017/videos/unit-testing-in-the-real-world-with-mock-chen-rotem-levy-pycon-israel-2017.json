@@ -1,0 +1,19 @@
+{
+  "description": "Everybody agree that unit-tests are important, however learning how to write unit-tests is hard. Most of the instructional material you might try to read will use as its' examples some well behaved functions with known input and deterministic outputs. Code that is trivial to write tests around. However the real world isn't so well behaved. It has legacy code, it inspects the world, has side effects, calls external services and might have random components. Writing unit-tests for such a code is anything but trivial. One technique to allow writing unit-tests around such real world code is to replace all that ugliness with mocks, and the standard unittest.mock library is a grate tool for that. The abilities of this library surprised and delighted me in more then one occasion as I straggled to raise my code coverage. However, in my experience both the concept of mocking and the unittest.mock library are not widely known. I hope to help change that in a small way.",
+  "language": "eng",
+  "recorded": "2017-06-13",
+  "speakers": [
+    "Chen Rotem Levy"
+  ],
+  "tags": [
+    "unittest.mock"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CPyBkFFXLr0/hqdefault.jpg",
+  "title": "Unit testing in the real world with mock",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CPyBkFFXLr0"
+    }
+  ]
+}

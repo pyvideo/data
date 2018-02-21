@@ -1,0 +1,16 @@
+{
+  "description": "In the wake of famous talk \u201cStop Writing Classes\u201d by Jack Diederich\n(https://www.youtube.com/watch?v=o9pEzgHorH0), I\u2019d like to present a\npattern that can be used to design clean and pythonic interfaces for\nprogrammers based on replacing single-method classes with decorated\nfunctions.\n\nThis pattern is already used by some famous frameworks and libraries,\nlike Pyramid (https://trypyramid.com/), but I believe it isn\u2019t that\nwell-known to many (even experienced) Python developers and is not as\nwidely used as it deserves.\n\nI\u2019ll show how this pattern can be employed to improve a programming\ninterface which is used by an internal log processing framework at\nYelp. This will demonstrate how a more functional approach,\nleveraging the power of Python decorators, can lead to simpler, more\nbeautiful and easier to understand code.\n\nHowever, this talk doesn\u2019t suggest giving up classes altogether, but\nmaking use of them only when they are truly useful. In fact, the\nuse-case I\u2019m going to analyze will combine classes, functions, and\ndecorators to make the best out of these tools.\n\nGiven that the presentation is going to be very code-oriented, the\ntalk is intended for an audience of developers who are already\nfamiliar with most Python constructs, including decorators, even\nthough the concept will be briefly introduced at the beginning of the\ntalk. But, if you are one of these people, I promise you that the\ncode will speak for itself.",
+  "duration": 2303,
+  "recorded": "2017-07-11",
+  "speakers": [
+    "Antonio Verardi"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VLlLIL5ZYLI/hqdefault.jpg",
+  "title": "Write more decorators (and fewer classes)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VLlLIL5ZYLI"
+    }
+  ]
+}

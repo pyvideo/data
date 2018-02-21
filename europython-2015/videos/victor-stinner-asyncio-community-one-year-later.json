@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Victor Stinner - asyncio community, one year later\n[EuroPython 2015]\n[22 July 2015]\n[Bilbao, Euskadi, Spain]\n\nThe asyncio project was officially launched with the release of Python\n3.4 in March 2014. The project was public before that under the name\n\"tulip\". asyncio is just a core network library, it requires third\nparty library to be usable for common protocols. One year later,\nasyncio has a strong community writing libraries on top of it.\n\nThe most advanced library is aiohttp which includes a complete HTTP\nclient but also a HTTP server. There are also libraries to access\nasynchronously the file system, resolve names with DNS, have variables\nlocal to tasks, read-write locks, etc. There are clients for AMQP,\nAsterisk, ElasticSearch, IRC, XMPP (Jabber), etc. (and even an IRC\nserver!). There are asynchronous drivers for all common databases, and\neven for some ORMs. As expected, there are tons of new web frameworks\nbased on asyncio. It's also possible to plug asyncio into Gtk, Qt,\ngevent, eventlet, gunicorn, tornado, etc.\n\nI will also discuss use cases of asyncio in production and benchmarks.\nSpoiler: asyncio is not slow.\n\nThe asyncio library also evolved to become more usable: it has a\nbetter documentation, is easier to debug and has a few new functions.\nThere is also a port to Python 2: trollius.",
+  "duration": 1927,
+  "language": "eng",
+  "recorded": "2015-08-02",
+  "related_urls": [],
+  "speakers": [
+    "Victor Stinner"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ulFUwi_Ge8E/maxresdefault.jpg",
+  "title": "asyncio community, one year later",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ulFUwi_Ge8E"
+    }
+  ]
+}

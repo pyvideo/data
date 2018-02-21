@@ -1,0 +1,16 @@
+{
+  "description": "http://lanyrd.com/2011/pycon-finland/sgybf/\n\nTraditionally, compiled languages have been used to write the software for massively parallel high-performance computing. Even though dynamic, interpreted languages, such as Python, have gained popularity due to increased programming efficiency, they cannot compete directly with the raw performance of compiled languages. However, by using an interpreted language together with a compiled language, it is possible to have most of the productivity enhancing features together with a good numerical performance.\n\nExternal hardware-tuned numerical libraries offer excellent performance and in several cases these can be used directly from Python, e.g. through NumPy or petsc4py. Major improvements can be also achieved by re-writing performance critical routines and operations in a compiled language and accessing them through the Python extension mechanism. This approach has been used successfully to implement the software package GPAW for quantum-mechanical simulations of nanostructures. It uses a combination of Python and C programming languages, Python extensions, and external numerical libraries.\n\nWhile the chosen approach works well in standard workstations and Unix environments, massively parallel supercomputing systems can present some challenges in porting, debugging and profiling the software. We present some details of the implementation and discuss the advantages and challenges of the combined Python/C approach. We show that despite the challenges it is possible to obtain good numerical performance and good parallel scalability with Python based software.",
+  "duration": 3583,
+  "recorded": "2011-10-17",
+  "speakers": [
+    "Martti Louhivuori"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/x1x8H0XVIjM/hqdefault.jpg",
+  "title": "High-Performance Computing with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=x1x8H0XVIjM"
+    }
+  ]
+}

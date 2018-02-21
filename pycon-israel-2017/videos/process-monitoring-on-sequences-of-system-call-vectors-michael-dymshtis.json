@@ -1,0 +1,17 @@
+{
+  "description": "We introduce a methodology for efficient monitoring of processes running on hosts in a corporate network. The methodology is based on collecting streams of system calls produced by all or selected processes on the hosts, and sending them over the network to an analytics server, where machine learning algorithms based on LSTM (Long-Short Term Memory) are used to identify changes in process behavior, due to malicious activity, hardware failures, or software errors. System call streams are enormous, and an efficient representation with performance guarantees independent of the level of activity on the host must be used. Some earlier work was based on processing of sequential streams of system calls, which does not scale well. Other approaches rely on computing frequencies of short sequences (n-grams) of system calls over a fixed time window. However, in this case information about temporal dynamics of the process is lost. In our methodology, vectors of counts of system calls are collected and sent for every monitored process at fixed short time intervals, e.g., 1 second. However, the analytics server processes sequences of system call vectors over longer time spans. This way, the performance guarantee is maintained through sending fixed amount of data per time unit independently of the activity on the host, but the temporal behavior is at least partially preserved. By varying the vector and sequence time durations, a balance between network and CPU load, on one hand, and monitoring accuracy, on the other hand, can be adjusted depending on performance and accuracy requirements.",
+  "language": "eng",
+  "recorded": "2017-06-13",
+  "speakers": [
+    "Michael Dymshtis"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XeYABdyxN-Q/hqdefault.jpg",
+  "title": "Process Monitoring on Sequences of System Call Vectors",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XeYABdyxN-Q"
+    }
+  ]
+}

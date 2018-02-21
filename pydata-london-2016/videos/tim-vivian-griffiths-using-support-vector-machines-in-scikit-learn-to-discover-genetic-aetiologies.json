@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData London 2016\n\nThis study uses machine learning methods in scikit-learn to find insights into the genetic aetiology of schizophrenia. It expands on the method of using a single genetic risk score per sample, by creating features from sub-sets of the genome - from single DNA mutations to functional gene-networks. The results have identified potential risk networks and evidence for interactions between mutations.\n\nUsing Support Vector Machines to gain insights into the genetic aetiology of Schizophrenia\n\nBackground\n\nSchizophrenia is a debilitating psychiatric disorder which affects approximately 1% of the general population. Results from twin studies suggest that genetic factors account for 80% of the variation of the disorder. However, to date, these have not been fully identified. Traditional methods involve performing a Genome Wide Association Study (GWAS), to find estimates of association that different mutations in DNA have with the disease.\n\nSchizophrenia is a highly polygenic disorder, meaning that it arises from a combination of genetic mutations, all contributing a small level of effect. These studies require very large sample sizes to have the statistical power to identify mutations of interest.\n\nThe common approach is to combine this information into a single polygenic risk score for an individual, which can then be assessed for its predictive power to identify cases of the disease using a single feature Logistic Regression model.\n\nThe machine learning approach\n\nInstead of creating this single score, different features from the individual association scores were created for use as inputs to machine learning algorithms. These features were either the information from the individual mutations themselves, or collections of mutations in genes which are known to be involved in various functional networks.\n\nThe algorithm chosen was the Support Vector Machine (SVM). This was for a number of reasons:\n\nThey can cope with a large number of input features, and can apply penalty procedures such as L1 regression to identify important features.\nKernel methods can be used to find evidence for interactions between the features - something that is lacking in the traditional methods.\nPython libraries used\n\nThis work was made possible by the use of two seminal libraries for Python: Pandas and scikit-learn. In addition the Joblib modules were used to carry out some simple parallel processing tasks on an HPC cluster if the desired information was not already provided by the modules in scikit-learn which already have these built in.\n\nPandas made collecting information from sub-sets of the data very quick and efficient to carry out. Examples of this functionality will be given in the talk.\n\nResults so far\n\nWhile not improving on predictive power, the models did provide a rich insight into the association that different gene-networks have with the disorder, and identified genes which are targets of the Fragile X Mental Retardation Protein (FMRP) supporting findings from recent research in molecular biology. The information showing this were the coefficients assigned to the features seen in the boxplot provided. This was created by building multiple models, each with different train/test splits of the data to get the distributions of the coefficients. As can be seen, those assigned to the FMRP feature are consistently higher.\n\nThe findings also show evidence for pair wise interactions between single point mutations. A series of procedures were carried out to simulate positive cases based on differing levels of contributions from main effects and interactions. This showed that without the contribution of the interactions, the results seen in the real world dataset by the kernel based models would not have been possible. Full details of how this was carried out will be discussed.\n\nSlides available here: https://github.com/timvg80/PyDataLondon2016/blob/master/pydata.md\n\nGitHub Repo: https://github.com/timvg80/PyDataLondon2016",
+  "duration": 2689,
+  "id": 5261,
+  "language": "eng",
+  "recorded": "2016-05-11",
+  "related_urls": [
+    "https://github.com/timvg80/PyDataLondon2016",
+    "https://github.com/timvg80/PyDataLondon2016/blob/master/pydata.md"
+  ],
+  "slug": "tim-vivian-griffiths-using-support-vector-machines-in-scikit-learn-to-discover-genetic-aetiologies",
+  "speakers": [
+    "Tim Vivian Griffiths"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UwXP2LiZyPk/maxresdefault.jpg",
+  "title": "Using Support Vector Machines in Scikit Learn to discover genetic aetiologies",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UwXP2LiZyPk"
+    }
+  ]
+}

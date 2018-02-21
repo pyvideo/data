@@ -1,0 +1,26 @@
+{
+  "alias": "video/3028/web-scraping-in-python-101",
+  "category": "EuroPython 2014",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "description": "Who am I ?\n==========\n\n-  a programmer\n-  a high school student\n-  a blogger\n-  Pythonista\n-  and tea lover\n-  Creator of freepythontips.wordpress.com\n-  I made soundcloud-dl.appspot.com\n-  I am a main contributor of youtube-dl.\n-  I teach programming at my school to my friends.\n-  It's my first programming related conference.\n-  The life of a python programmer in Pakistan\n\nWhat this talk is about ?\n=========================\n\n-  What is Web Scraping and its usefulness\n-  Which libraries are available for the job\n-  Open Source vs proprietary alternatives\n-  Whaich library is best for which job\n-  When and when not to use Scrapy\n\nWhat is Web Scraping ?\n======================\n\nWeb scraping (web harvesting or web data extraction) is a computer\nsoftware technique of extracting information from websites. - Wikipedia\n\nIn simple words :\n~~~~~~~~~~~~~~~~~\n\nIt is a method to extract data from a website that does not have an API\nor we want to extract a LOT of data which we can not do through an API\ndue to rate limiting.\n\nWe can extract any data through web scraping which we can see while\nbrowsing the web.\n\nUsage of web scraping in real life.\n===================================\n\n-  to extract product information\n-  to extract job postings and internships\n-  extract offers and discounts from deal-of-the-day websites\n-  Crawl forums and social websites\n-  Extract data to make a search engine\n-  Gathering weather data etc\n\nAdvantages of Web scraping over using an API\n============================================\n\n-  Web Scraping is not rate limited\n-  Anonymously access the website and gather data\n-  Some websites do not have an API\n-  Some data is not accessible through an API etc\n\nWhich libraries are available for the job ?\n===========================================\n\nThere are numerous libraries available for web scraping in python. Each\nlibrary has its own weaknesses and plus points.\n\nSome of the most widely known libraries used for web scraping are:\n\n-  BeautifulSoup\n-  html5lib\n-  lxml\n-  re ( not really for web scraping, I will explain later )\n-  scrapy ( a complete framework )\n\nA comparison between these libraries\n====================================\n\n-  speed\n-  ease of use\n-  what do i prefer\n-  which library is best for which purpose\n\nProprietary alternatives\n========================\n\n-  a list of proprietary scrapers\n-  their price\n-  are they really useful for you ?\n\nWorking of proprietary alternatives\n===================================\n\n-  how they work (render javascript)\n-  why they are not suitable for you\n-  how custom scrapers beat proprietary alternatives\n\nScrapy\n======\n\n-  what is it\n-  why is it useful\n-  asynchronous support\n-  an example scraper\n\nQuestion\n========\n\n-  Questions from the viewers\n\n",
+  "duration": null,
+  "id": 3028,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-22",
+  "slug": "web-scraping-in-python-101",
+  "speakers": [
+    "M.Yasoob Khalid"
+  ],
+  "summary": "This talk is about web scraping in Python, why web scraping is useful\nand what Python libraries are available to help you. I will also look\ninto proprietary alternatives and will discuss how they work and why\nthey are not useful. I will show you different libraries used in web\nscraping and some example code so that you can choose your own personal\nfavourite. I will also tell why writing your own scrapper in scrapy\nallows you to have more control over the scraping process.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/TeXRh17pB6c/hqdefault.jpg",
+  "title": "Web Scraping in Python 101",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=TeXRh17pB6c"
+    }
+  ]
+}

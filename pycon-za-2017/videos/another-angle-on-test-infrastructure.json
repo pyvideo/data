@@ -1,0 +1,25 @@
+{
+  "description": "Last year at PyConZA I presented a talk about different approaches to\ntest setup and alluded to an idea that we have been playing with at\n`Reahl <http://www.reahl.org>`__: class based test Fixtures. We have\nsince refined our approach and built it as an add-on that works with\npy.test.\n\nIn this talk I briefly introduce Fixtures again for people who did not\nsee the `last year's talk <https://2016.za.pycon.org/talks/26/>`__. I\nthen show more detail about the types of problems we deal with while\ntesting and how our fixture ideas solve these issues.\n\nFor example, in our tests the database schema is created from scratch at\nthe beginning of a test run, but the database is kept clean by rolling\nback a transaction between each individual test. We can also create\nextra temporary database tables, just for a test run.\n\nWe integrate Selenium webdriver with our web server so that the web\nserver runs in the same thread as the tests themselves, in the same\ndatabase transaction. The effect of this is that when something breaks\ninside the web server, the test immediately breaks as well, and gives a\nsensible stack trace.\n\nIn our code, we use a global context much like what Flask does. This is\na design often criticised because of the fact that it makes testing\ndifficult. We use our fixtures to hide the associated complexities\nregarding the global context as well.\n\nThe talk covers some details about how we use Fixtures to provide this\nfunctionality and some thoughts on where we found it useful and which\nthings we still struggle to deal with elegantly.\n",
+  "recorded": "2017-10-06",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pyconza/another-angle-on-test-infrastructure-by-iwan-vosloo"
+    }
+  ],
+  "speakers": [
+    "Iwan Vosloo"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/sL577rL4TcI/hqdefault.jpg",
+  "title": "Another angle on test infrastructure",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sL577rL4TcI"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2017-Another_angle_on_test_infrastructure"
+    }
+  ]
+}

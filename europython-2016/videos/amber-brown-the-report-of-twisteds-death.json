@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Amber Brown - The Report Of Twisted\u2019s Death\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/the-report-of-twisteds-death)\n\nThis talk will teach you how Twisted or Tornado supplement asyncio,\nhow asyncio can/is integrated with these frameworks, and makes a case\nfor the continued development of new and existing selector-loop based\nframeworks. It will also paint a picture of the future direction of\nTwisted, why the original plan of asyncio as a standard API has not\ncome to complete fruition, and what can be done about it.\n\n-----\n\nHistorically, there has been no \u201cstandard way\u201d of doing asynchronous\nI/O in Python. A variety of solutions, from using threads (WSGI),\nprocesses (multiprocessing), green threads (gevent), or selector loops\n(Tornado, Twisted) have all been used to similar degrees, but apart\nfrom the (now deprecated) standard library asyncore/asynchat, Python\nitself did not have a blessed option.\n\nPEP 3156, or \u201cthe asyncio PEP\u201d, introduced in Python 3.4, provides\nthis blessed option, choosing a standard selector loop approach (or\n\u201creactor\u201d, in Twisted parlance). The role of asyncio may seem muddled\nin the eyes of developers new to asynchronous programming, or those\nthat may not understand the technical details of asyncio nor the\npolitical environment in which it was created. This talk will teach\nyou how Twisted or Tornado supplement asyncio, how asyncio can/is\nintegrated with these frameworks, and makes a case for the continued\ndevelopment of new and existing selector-loop based frameworks. It\nwill also paint a picture of the future direction of Twisted, why the\noriginal plan of asyncio as a standard API has not come to complete\nfruition, and what can be done about it.",
+  "duration": 3440,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/the-report-of-twisteds-death"
+  ],
+  "speakers": [
+    "Amber Brown"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UkkO3_GSR2g/maxresdefault.jpg",
+  "title": "The Report Of Twisted\u2019s Death",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UkkO3_GSR2g"
+    }
+  ]
+}

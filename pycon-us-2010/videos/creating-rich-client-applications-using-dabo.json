@@ -1,0 +1,41 @@
+{
+  "alias": "video/248/creating-rich-client-applications-using-dabo",
+  "category": "PyCon US 2010",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Creating Rich Client Applications Using Dabo\n\nPresented by Ed Leafe and Paul McNett\n\nWhile web applications seem to get all the attention these days, many\nbusinesses still rely on desktop, or \"rich client\", applications to run\ntheir business. For those who prefer to do their coding with Python,\nDabo is the only full-featured desktop app framework.\n\nIn this tutorial, we'll cover the general structure and approach to\napplication development used in Dabo, including lots of interactive work\nwhere we will all develop applications that will be able to query a\ndatabase, display the results, allow the user to edit the data, and then\nsave it back to the database. We will cover the various tools available\nin Dabo to help you develop your applications, and how they work\ntogether.\n\nIntended Audience\n\nDevelopers with basic to intermediate Python experience.\n\nClass Outline\n\nIntroduction: The thinking and design approach behind the framework. (15\nmin).\n\n-  Explanation of the framework design. Frameworks are great if you're\n   working with them, but not if you're constantly fighting them! We'll\n   outline the various parts of the framework, and how they work\n   together to create applications.\n\nBuilding an app in 30 seconds. (15 min)\n\n-  You can use the AppWizard to create a completely functional CRUD\n   application in less than 30 seconds. We'll demonstrate how to use the\n   AppWizard, and how you can build on and further customize the\n   application it creates.\n\nThe primary non-UI classes in Dabo (15 min)\n\n-  There are lots of classes in Dabo, but only a few main ones that are\n   used in every app. This section will cover them: the application\n   class, the business object class, and the DBAPI data adapter class.\n\nIntroduction to the Dabo Tools (30 min)\n\n-  One of the benefits of a framework is that the mundane, repetitive\n   tasks are handled by the framework, leaving you to focus on the\n   creative parts of app development. In this section we'll discuss\n   several of the visual tools available to help you create Dabo\n   applications faster and easier.\n\nDeveloping an actual application, part 1 (15 min)\n\n-  Talk is fine, but here's where we begin creating an actual\n   application. Attendees will learn how to create a new Dabo app, along\n   with database connections, menus and a main form. In the second half\n   of the tutorial we'll use this app as the basis for more complex\n   development.\n\nREFRESHMENT BREAK\n\nOverview of UI Classes (30 min)\n\n-  This is where we talk about the \"rich\" in \"rich client\". Dabo has a\n   full set of UI widgets, based on the wxPython toolkit. We've taken\n   those widget classes and added a consistent interface, so that the\n   developer uses the same properties and methods to accomplish the same\n   thing in all the classes, making developing smoother and more\n   intuitive. We'll cover all of the most-commonly used controls, and\n   how to work with them.\n\nDeveloping an actual application, part 2 (30 min)\n\n-  The basic app created in the first half was an impressive result for\n   such a short amount of time, but here's where we'll start to make it\n   more interesting. We'll create several related business objects, bind\n   them to the UI elements, and have it all work seamlessly with a\n   database. After that, we'll show how to create and run reports\n   against that same data. We'll then wrap up by explaining how to\n   deploy your finished application.\n\nRich Client Web Applications with Dabo (10 min)\n\n-  HTML web apps are trying to get a richer client experience through\n   the increased use and sophistication of Javascript-based tools.\n   That's great if you like spending your time in Javascript, but not so\n   great if you are a Python dev. We take the opposite approach: taking\n   our rich-client apps and deploying them over the web so that users\n   can run them without first installing the app.\n\nFuture plans for Dabo (5 min)\n\n-  Dabo is being actively developed, and we have plans for future\n   enhancements that we'll cover here.\n\nWrap-up and Final Questions (15 min)\n\nRequirements\n\nStudents do not need to have a computer, but they will not get as much\nout of the session if they cannot actively participate in creating the\nexample applications. They should have the following prerequisites\ninstalled, using the latest available stable releases except where\nspecific version numbers are indicated:\n\n-  Python 2.5.4\n-  wxPython 2.8.10.1 unicode\n-  MySQLdb\n-  reportlab\n-  Python Imaging Library\n-  Dabo 0.9.2\n\n",
+  "duration": null,
+  "id": 248,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2010-02-19",
+  "slug": "creating-rich-client-applications-using-dabo",
+  "speakers": [
+    "Ed Leafe",
+    "Paul McNett"
+  ],
+  "summary": "",
+  "tags": [
+    "dabo",
+    "pycon",
+    "pycon2010",
+    "tutorial"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_248___creating-rich-client-applications-using-dabo",
+  "title": "Creating Rich Client Applications Using Dabo",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_248___creating-rich-client-applications-using-dabo"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/248_creating-rich-client-applications-using-dabo.m4v"
+    },
+    {
+      "length": 955215464,
+      "type": "ogv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/248_creating-rich-client-applications-using-dabo.ogv"
+    }
+  ]
+}

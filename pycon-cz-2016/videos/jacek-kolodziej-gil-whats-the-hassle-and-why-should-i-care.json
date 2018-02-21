@@ -1,0 +1,17 @@
+{
+  "description": "Demistifying GIL - what's that, how it really affects performance,\nwhat changed in the last few years and what can we do about GIL in\neveryday programming.\n\nThere is still a lot of misunderstanding regarding GIL, coming from\nnot-so-perfect documentation - not explaining the implications\nthoroughly and in a simple way; it's also often outdated.\n\nAlso, GIL's implementation changed a little in CPython 3.x that may\naffect programmers' choices.\n\nThis misinformation may, in some cases, drive them away from CPython\nwhere it's not really the worst choice. By providing comprehensive\nguide to today's GIL in CPython, this presentation aims to help make\nbetter design choices - be it choosing a concurrency/parallelism\nmodel, Python implementation to use or even whether or not to drop\nPython entirely.\n\nThere have been (and still are), of course, attempts to get rid of\nGIL and find another solution for the problem it solves - newest of\nwhich is Larry Hasting's project called GILectomy, which I hope to\nshed some light on.",
+  "duration": 2193,
+  "language": "eng",
+  "recorded": "2016-10-28",
+  "speakers": [
+    "Jacek Ko\u0142odziej"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZvWmAIODi-s/hqdefault.jpg",
+  "title": "GIL: What's the hassle and why should I care?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZvWmAIODi-s"
+    }
+  ]
+}

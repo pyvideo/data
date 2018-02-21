@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData SF 2016\n\nIn an ideal world, all our large datasets would live in well optimized storage formats, such as RDBMS's, key-value NoSQL stores, HDF5 hierarchical datasets, or other formats that are well typed and fast to access. In our actual world, a great deal of our data lives in CSV, flat-file, or JSON formats, roughly stored on file systems, with little typing of data values. Moreover, data in these formats often have variably sized records making seeking data a linear scan operation.\n\nContinuum Analytics has produced a custom optimized library called IOPro that includes a component called TextAdapter. TextAdapter provides abstractions to data access into these textual formats that adds much better data typing, minimizes memory use, uses indexing for seeking, and other facilities for better, faster data access without requiring conversion of exploratory datasets into permanent optimized formats. We will be releasing this code as an Open Source project, and plan on enhancing the library to allow further performance optimizations and integration with the Dask project.\n\nAs well as looking at technical and performance details of TextAdapter, this talk will discuss the economic and social concerns of company developed and supported Open Source projects. Continuum continues to explore some of these issues through our release of TextAdapter, following on company trajectory of moving projects from proprietary to open source status whenever reasonable.",
+  "duration": 2630,
+  "language": "eng",
+  "recorded": "2016-08-24",
+  "related_urls": [],
+  "speakers": [
+    "David Mertz"
+  ],
+  "tags": [
+    "keynote"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/qZy-9chm3dk/maxresdefault.jpg",
+  "title": "Keynote: Working Efficiently with Big Data in Text Formats",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qZy-9chm3dk"
+    }
+  ]
+}

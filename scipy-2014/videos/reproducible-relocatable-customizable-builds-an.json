@@ -1,0 +1,37 @@
+{
+  "alias": "video/2724/reproducible-relocatable-customizable-builds-an",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "Developing scientific software is a continuous balance between not\nreinventing the wheel and getting fragile codes to interoperate with one\nanother. Binary software distributions such as Anaconda provide a robust\nstarting point for many scientific software packages, but this solution\nalone is insufficient for many scientific software developers. HashDist\nprovides a critical component of the development workflow, enabling\nhighly customizable, source-driven, and reproducible builds for\nscientific software stacks, available from both the IPython Notebook and\nthe command line.\n\nTo address these issues, the Coastal and Hydraulics Laboratory at the US\nArmy Engineer Research and Development Center has funded the development\nof HashDist in collaboration with Simula Research Laboratories and the\nUniversity of Texas at Austin. HashDist is motivated by a functional\napproach to package build management, and features intelligent caching\nof sources and builds, parametrized build specifications, and the\nability to interoperate with system compilers and packages. HashDist\nenables the easy specification of \"software stacks\", which allow both\nthe novice user to install a default environment and the advanced user\nto configure every aspect of their build in a modular fashion. As an\nadvanced feature, HashDist builds can be made relocatable, allowing the\neasy redistribution of binaries on all three major operating systems as\nwell as cloud, and supercomputing platforms. As a final benefit, all\nHashDist builds are reproducible, with a build hash specifying exactly\nhow each component of the software stack was installed.\n\nThis talk will feature an introduction to the problem of packaging\nPython-based scientific software, a discussion of the basic tools\navailable to scientific Python developers, and a detailed discussion and\ndemonstration of the HashDist package build manager.\n\nThe HashDist documentation is available from:\nhttp://hashdist.readthedocs.org/en/latest/ HashDist is currently hosted\nat: https://github.com/hashdist/hashdist\n",
+  "duration": null,
+  "id": 2724,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-09",
+  "related_urls": [
+    "http://hashdist.readthedocs.org/en/latest/",
+    "https://github.com/hashdist/hashdist"
+  ],
+  "slug": "reproducible-relocatable-customizable-builds-an",
+  "speakers": [
+    "Andy Terrel",
+    "Aron Ahmadia",
+    "Chris Kees",
+    "Dag Sverre Seljebotn",
+    "Ondrej Certik"
+  ],
+  "summary": "This talk introduces HashDist, a critical component of the scientific\nsoftware development workflow. HashDist enables highly customizable,\nsource-driven, and reproducible builds for scientific software stacks.\nHashDist builds can be made relocatable, allowing the easy\nredistribution of binaries on all three major operating systems as well\nas cloud and supercomputing platforms.\n",
+  "tags": [
+    "packaging",
+    "reproducible research"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/wviHkzk0AkY/hqdefault.jpg",
+  "title": "Reproducible, Relocatable, Customizable Builds and Packaging with HashDist Part1",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=wviHkzk0AkY"
+    }
+  ]
+}

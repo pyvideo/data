@@ -1,0 +1,32 @@
+{
+  "alias": "video/3623/gitfs-building-a-filesystem-in-python",
+  "category": "PyCon Italia 2015",
+  "copyright_text": "",
+  "description": "gitfs is an open-source[1] filesystem which was designed to bring the\nfull powers of Git to everyone, no matter how little they know about\nversioning. A user can mount any repository and all the his changes will\nbe automatically converted into commits. gitfs will also expose the\nhistory of the branch you\u2019re currently working on by simulating\nsnapshots of every commit. gitfs is useful in places where you want to\nkeep track of all your files, but at the same time you don\u2019t have the\npossibility of organizing everything into commits yourself. A FUSE\nfilesystem for git repositories, with local cache. In this talk we will\ntake a look at some of the crucial aspects involved in building a\nreliable FUSE filesystem, the steps that we took in building gitfs,\nespecially in handling the git objects\n(http://git-scm.com/book/en/v2/Git-Internals-Git-Objects), what testing\nmethods we have used for it and also we will share the most important\nlessons learned while building it. The prerequisites for this talk are:\n\nA good understanding of how Git works Basic understaning of Operating\nSystems concepts\n\n[1] You can get the source here - https://github.com/PressLabs/gitfs;\nyou cand find more details here - http://www.presslabs.com/gitfs/.\n",
+  "duration": 1898,
+  "id": 3623,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-05-29",
+  "related_urls": [
+    "http://git-scm.com/book/en/v2/Git-Internals-Git-Objects),",
+    "http://www.presslabs.com/gitfs/.",
+    "https://github.com/PressLabs/gitfs;"
+  ],
+  "slug": "gitfs-building-a-filesystem-in-python",
+  "speakers": [
+    "Emanuel Danci",
+    "Vlad Temian"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/elA96lMW-gA/maxresdefault.jpg",
+  "title": "gitfs - building a filesystem in Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=elA96lMW-gA"
+    }
+  ]
+}

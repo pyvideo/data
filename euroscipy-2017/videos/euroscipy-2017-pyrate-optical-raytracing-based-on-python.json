@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Pyrate is a program for scientific optical lens design. It traces rays\nthrough an optical system and optimizes its properties, e.g. lens radii.\n\nThe merit function to be minimized during optimization can vastly vary\ndepending on the type of objective and constraints. During the design\nprocess, the merit function is changed a lot, as the system must fulfill\never more requirements when approaching production readiness.\n\nWe present a variable container, storing the variable value, its status,\nand possible constraints. The status is used to indicate whether the\nvariable shall be optimized or not. Designers often use only parts of\nthe available variables, especially in early design stages.\n\nBefore optimization, the highest hierarchy object collects all\ncontainers from its children and grandchildren, wraps them to a format\nusable by scipy.minimize and optimizes the system with the current merit\nfunction.\n\nWe show several examples of optical systems optimized with our program.",
+  "duration": 846,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    }
+  ],
+  "speakers": [
+    "Johannes Hartung",
+    "Moritz Esslinger"
+  ],
+  "tags": [
+    "pyrate",
+    "raytracing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/fpX9yvIp160/maxresdefault.jpg",
+  "title": "Pyrate - Optical Raytracing Based on Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fpX9yvIp160"
+    }
+  ]
+}

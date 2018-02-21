@@ -1,0 +1,27 @@
+{
+  "alias": "video/3332/pyfai-a-python-library-for-high-performance-azim",
+  "category": "EuroScipy 2014",
+  "copyright_text": "youtube",
+  "description": "In the field of X-Ray diffraction, 2D area detectors like ccd or pixel\ndetectors have become popular in the last 15 years for diffraction\nexperiments thanks to the large solid-angle coverage and to their better\nsignal linearity. These detectors have a large sensitive area of\nmillions of pixels with high spatial resolution and are getting fast:\none kilo-Hertz is expected this year. The software package pyFAI we\npresent here has been designed to reduce X-ray 2D-diffraction images\ninto 1D curves (azimuthal integration) usable by other software for\nin-depth analysis such as Rietveld refinement, ... Other averaging\npatterns like 2D integration, image distortion, ... are also available.\nPyFAI is a library featuring a clean pythonic interface and aiming at\nbeing integrated into other software. But it also needs to cope with the\ndata deluge coming from the detector...\n\nIn this contribution, we would like to highlight the performance reached\nby this library. To get today\u2019s computers best performances, one needs\nto have parallelized code and azimuthal integration is not directly\nparallelizable. After a scatter-to-gather transformation of the\nalgorithm, it got parallel (Cython implementation). Other optimizations\nhave been used to get the best performances out of GPU (compensated\nsummation, partial parallel reductions, ...).\n",
+  "duration": null,
+  "id": 3332,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-10-22",
+  "slug": "pyfai-a-python-library-for-high-performance-azim",
+  "speakers": [
+    "Giannis Ashiotis",
+    "Jerome Kieffer"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/QSlo_Nyzeig/hqdefault.jpg",
+  "title": "PyFAI: a Python library for high performance azimuthal integration on GPU",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QSlo_Nyzeig"
+    }
+  ]
+}

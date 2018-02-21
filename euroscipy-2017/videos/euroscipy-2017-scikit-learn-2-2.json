@@ -1,0 +1,33 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Scikit-learn\n------------\n\nPlease install the following packages (either with pip or conda):\n\n-  scikit-learn 0.19.0 (along with numpy and scipy as dependencies)\n-  pandas\n-  matplotlib\n-  jupyter\n\nCheck the scikit-learn version with:\n\n::\n\n    python -c \"import sklearn; print(sklearn.__version__)\"\n\nIf you have an old version you can upgrade to scikit-learn 0.19.0 with\n``conda update scikit-learn`` if you use conda or\n``pip install -U scikit-learn`` otherwise.\n\nWe recommend using Python 3.6 but the tutorial material should also work\nwith older Python versions (including Python 2.7, but please please\nconsider using Python 3.6 instead).\n\nIn addition you can also install\n`scikit-optimize <https://scikit-optimize.github.io/>`__ (if you use a\nconda environment, you need to first ``conda install pip`` and then\n``pip install scikit-optimize``) in that environment. scikit-optimize\nhas a dependency on scikit-garden which does not yet provide any binary\npackage and can fail to install automatically from source on systems\nthat lack a properly configured C/C++ compiler. If you have trouble\ninstalling scikit-garden and scikit-optimize, don't worry you will be\nable to follow those sections on the video projector while still being\nable to run the exercises of the other sections that only require\nscikit-learn.\n\nThe notebooks will be published on\nhttps://github.com/ogrisel/euroscipy_2017_sklearn (please update on\nSunday evening or at the beginning of the tutorial assuming wifi is good\nenough).",
+  "duration": 5410,
+  "language": "eng",
+  "recorded": "2017-08-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    },
+    {
+      "label": "tutorial repository",
+      "url": "https://github.com/ogrisel/euroscipy_2017_sklearn"
+    }
+  ],
+  "speakers": [
+    "Olivier Grisel",
+    "Tim Head"
+  ],
+  "tags": [
+    "tutorial",
+    "scikit-learn"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/0eYOhEF_aK0/maxresdefault.jpg",
+  "title": "Scikit-learn (2/2)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0eYOhEF_aK0"
+    }
+  ]
+}

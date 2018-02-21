@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The New York Times crossword puzzle gets harder as the week goes on. I can confidently finish a Thursday, but struggle a little on Friday and Saturday. In an effort to become a better solver, and a better programmer, I set out to solve a crossword puzzle the hard way: by writing a Python program to do it for me.\n\nThe task is not trivial, and I have not previously come across automated crossword puzzle solvers in the wild. Crosswords are rife with wordplay and non-linear thinking, which still elude contemporary AI. The computer's advantages are speed and breadth: it can rapidly filter lists of words based on surrounding words and related criteria, and I allow my program access to libraries that serve as dictionary, thesaurus, and search engine. My program parses the clues and feeds them into Natural Language Toolkit (NLTK), spaCy, Google Knowledge Graph, and Wikipedia. From the responses, it generates a set of candidate answers, then narrows them down based on word length and intersecting letters.\n\nIn this talk I will explain the program's pipeline -- from inputting a series of clues and grid to producing a list of candidate answers ranked by how likely they are to be correct. There will be a live demonstration of the program using the NYT's most recent Monday puzzle.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2017-10-07",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/solving-a-crossword-puzzle-the-hard-way/"
+  ],
+  "speakers": [
+    "Alec Barrett"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/tT9VL-PPlis/maxresdefault.jpg",
+  "title": "Solving a crossword puzzle the hard way",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tT9VL-PPlis"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Lauris Jullien** (@herrbot_DE)\n\nI am a backend engineer @Yelp in Hamburg for 3 years. Before that I was working with robots @Aldebaran Robotics. And before that I was doing my own startup :) I like clean APIs, all you can do with data, and as a good French, wine.\n\n**Abstract**\n\nIt can be hard to test code that depends on external services. Often such services are mocked, but with time, it can be challenging to keep these mocks up to date. Verified fakes can solve this problem, and we will see how to set them up using OpenAPI and python.\n\n**Description**\n\nWhen your code depends on an external (third-party) service, testing it can be challenging. It may be expensive, slow or unreliable to call that service in tests. A classic approach is to mock such service or its network calls. But then the challenge becomes keeping the mocks up to date with the third-party services. Using verified fakes allows us to replace a service while guaranteeing that it stays up to date. This can be achieved in different ways: using recent network recordings (e.g. vcrpy), running a test suite against the mock and the real service to compare the results, or relying on an API contract like OpenAPI, or avro.\n\nOpenAPI* is a specification that documents how a service API works and enforces it by validating requests and responses for the service. We can then check the mocks against the OpenAPI specification to make sure they are up to date.\n\nIn this talk, I will explain how to set up such verified fakes with OpenAPI, and present a new open-source library, pyramid_mock_server. Here are the 3 main focuses:\n\n- Quick introduction on OpenAPI and how to use it with bravado, the python OpenAPI client\n- How to set up Verified Fakes: using pyramid_mock_server\n- Usage @Yelp: usage of fakes and OpenAPI for unit tests, acceptance tests, and documentation\n\nThe talk focuses on OpenAPI, but the learnings and methodology can be extended to any other API specification languages (or python web frameworks).\n\nThe OpenAPI initiative is a cross-vendor consortium focused on creating, evolving and promoting a vendor neutral description format for APIs. As an open governance structure under the Linux Foundation, its members include Google, IBM, Atlassian and PayPal.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 436,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Lauris Jullien"
+  ],
+  "tags": [
+    "use-case",
+    "python",
+    "web"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NZqovz37Qcw/maxresdefault.jpg",
+  "title": "Verified fakes with OpenAPI",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NZqovz37Qcw"
+    }
+  ]
+}

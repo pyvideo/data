@@ -1,0 +1,16 @@
+{
+  "description": "SAP operates one of the largest test infrastructure to test its\nin-memory database SAP HANA. The infrastructure provides different\nservices like continues integration, code coverage and code linting\nfor a huge C++ project with Python test coding. These services are\nessential for the development teams and quality specialists. Without\nthese services developing and shipping of new SAP HANA version\nwouldn\u2019t be possible.\n\nIn 2010, we started with a single Jenkins master with ten nodes. But\nto keep our testing time acceptable for the growing number of\ndevelopers we had to scale up and that led to multiple different\nscaling challenges. The current test infrastructure is powered by\nmore than thousand physical servers. Scaling of the infrastructure\nwas only possible with custom optimizations like improved scheduling,\nexpressive test configuration and robust tooling implemented in our\nfavorite language Python. With the flexibility and power of Python\nit\u2019s possible for developers to implement complex test scenarios to\nverify features and mitigate regressions. On infrastructure side, it\nhas been easier to extend, optimize and adapt the infrastructure for\nnew requirements like different CPU architectures and newer Operating\nsystems versions.\n\nThis talk provides insights and stories how we scaled and improved\nour test infrastructure and how new technologies like Linux\nContainers can improve automated testing and software quality\nassurance.",
+  "duration": 1775,
+  "recorded": "2017-07-11",
+  "speakers": [
+    "Christoph Heer"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Xgy3OCEVuEA/hqdefault.jpg",
+  "title": "How SAP is using Python to test its database SAP HANA",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Xgy3OCEVuEA"
+    }
+  ]
+}

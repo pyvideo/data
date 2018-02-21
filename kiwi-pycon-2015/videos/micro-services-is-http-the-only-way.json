@@ -1,0 +1,26 @@
+{
+  "alias": "video/3871/micro-services-is-http-the-only-way",
+  "category": "Kiwi PyCon 2015",
+  "copyright_text": "CC BY-SA",
+  "description": "Introduction\n============\n\nOver the past few years, micro-services have been gaining popularity due\nto their advantages over traditional monolithic architectures. It\nbecomes easier to horizontally scale the heavier portions of an\napplication; you're not tied to the same OS or programming language for\nthe entire application, meaning you can easily slot in the best tool for\nthe job; and finally, you can quickly build the entire application in\ndynamic yet less performant languages, then rebuild any bottlenecks with\nfaster (but slower to develop) languages.\n\nAs a basic example, rather than directly communicating with a database\nfor user authentication, a web front-end would make an HTTP request to\nanother lightweight REST service to check credentials.\n\nAn Example Application\n======================\n\nIn order to elucidate the difference between monolithic and\nmicro-services, we will use a simple Social-Network web application that\nallows users to post 141 character messages. A user must first sign up,\nthen log in with a username and password, then they can post their\nmessages publicly. A user can then follow any other user, and receive\nreal time updates when that user posts. While the behaviour is simple,\nthere are a number of different concepts that are explored: template\nrendering, user signup and authentication, data storage and notification\ndelegation.\n\nA Monolithic Version\n====================\n\nThe first version of the will be a single Django application. The talk\ndoes not go into detail on the source code, instead briefly discusses\nthe views, databases (tables and queries) and overall architecture at a\nhigh level.\n\nThe HTTP Micro-Service Version\n==============================\n\nIn order to deconstruct the monolith into micro-services, we look at\ndifferent functions of the application: message viewing, user signup and\nauthentication, data storage and search, and user notification. Django\nis kept as the front-end, but the databases for authentication, data\nstorage and searching and user-follows are each transformed into their\nown micro-service. Flask is used as the HTTP framework for these\nservices, with SQLAlchemy for database as necessary. Some source code is\ndiscussed (mostly in terms of standard Django database access c.f. HTTP)\nbut this is also quite high level. The talk will also cover what HTTP\ncomes with \"out of the box\", in terms of authentication, deployment and\nscalability.\n\nAlternative Transports\n======================\n\nAfter the micro-services have been split, we can start to think about\ndifferent transports that might be more appropriate (or at least more\ninteresting) in some circumstances.\n\nIntroducing a Message Queue\n---------------------------\n\nFrom a user perspective, HTTP is a synchronous protocol, so making other\nsynchronous HTTP calls inside an HTTP handler doesn't introduce much\ncomplexity. Message queues, on the other hand, are asynchronous by\nnature. We look at using message queues for delegating user\nnotifications (which don't require a response, and are easy to handle),\nthen for authentication, data storage and searching \u2013 each requiring a\nslightly different \"level\" of \"synchronicity\" and a need to be\nshoehorned into HTTP differently. We'll look at code for message\nproducing and consuming and discuss architecture again.\n\nMessage queues are already widely used for handling intensive background\ntasks, so we'll look at how they compare to HTTP in this application\n(for security and deployment), and briefly also talk about\ncross-platform compatibility.\n\nLower Down the Stack - Raw Sockets\n----------------------------------\n\nIf, for some reason, the overhead of HTTP or a message queue is too\nhigh, direct socket communication might be better. We'll look at a\nPython TCP server for user authentication, and a UDP server for handling\nuser notifications, and example code for both. Also discussed are the\nsecurity implications (it's DIY all the way), performance, and how you\nmight scale these.\n\nConclusion\n==========\n\nFinally we'll look at a comparison overview for all these different\nmethods and summarise with the pros and cons of each.\n",
+  "duration": 2027,
+  "id": 3871,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-09-05",
+  "slug": "micro-services-is-http-the-only-way",
+  "speakers": [
+    "Ben Shaw"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/O1qaoykYIXY/hqdefault.jpg",
+  "title": "Micro-Services: Is HTTP the only way?",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/O1qaoykYIXY"
+    }
+  ]
+}

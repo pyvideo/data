@@ -1,0 +1,30 @@
+{
+  "alias": "video/2729/socialite-python-intergrated-query-language-for",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "SociaLite is a Python-integrated query language for distributed data\nanalysis.\nIt makes scientific data analysis simple, yet achieves fast\nperformance with its compiler optimizations. The performance of\nSociaLite is often more than three orders of magnitude faster than\nHadoop programs, and close to optimized C programs. For example,\nPageRank algorithm can be implemented in just 2 lines of SociaLite\nquery, which runs nearly as fast as an optimal parallelized C code.\n\nSociaLite supports well-known high-level concepts to make data analysis\neasy for non-expert programmers. We support relational tables for\nstoring data, and relational operations, such as join, selection, and\nprojection, for processing the data. Moreover, SociaLite queries are\nfully integrated with Python, so both SociaLite and Python code can be\nused to implement data analysis logic. For the integration with Python,\nwe support embedding and extending SociaLite, where embedding supports\nusing SociaLite queries directly in Python code, and extending supports\nusing Python functions in SociaLite queries.\n\nThe Python integration makes it easy to implement various analysis\nalgorithms in SociaLite and Python. For example, the BLAST algorithm in\nbioinformatics can be implemented in just a few lines of SociaLite\nqueries and Python code. Also genome assembly algorithm -- generating a\nDe Bruijn graph and applying Eulerian cycle algorithm -- can be simply\nimplemented. In the talk, I will demonstrate these algorithms in\nSociaLite as well as more general algorithms such as K-means clustering\nand logistic regression.\n\nThe SociaLite queries are compiled to highly optimized\nparallel/distributed code; we apply optimizations such as pipelined\nevaluation and prioritization. The runtime system also speeds up the\nperformance; for example, the customized memory allocator reduces memory\nallocation time and footprint. In short, SociaLite makes\nhigh-performance data analysis easy with its high-level abstractions and\ncompiler/runtime optimizations.\n",
+  "duration": null,
+  "id": 2729,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-09",
+  "slug": "socialite-python-intergrated-query-language-for",
+  "speakers": [
+    "Jiwon Seo"
+  ],
+  "summary": "SociaLite is a Python-integrated query language for data analysis. It\nmakes scientific data analysis simple, yet achieves fast performance\nwith its compiler optimizations. We support relational tables and\noperations in SociaLite as well as Python integration, which makes it\neasy to implement various analysis algorithms, including Blast algorithm\nand genome assembly algorithm in bioinformatics.\n",
+  "tags": [
+    "bioinformatics",
+    "blast",
+    "data analysis"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/IjrK4cESxJI/hqdefault.jpg",
+  "title": "SociaLite: Python intergrated query Language for Data Analysis",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=IjrK4cESxJI"
+    }
+  ]
+}

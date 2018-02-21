@@ -1,0 +1,23 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "description":"The schema for a category of videos in pyvideo/data",
+  "properties":{
+    "alias":{
+      "description":"[Deprecated] Legacy path to category on pyvideo.org",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "description":{
+      "description":"Description of event where videos originated",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "title":{
+      "description":"Title of event where videos originated",
+      "type":"string"
+    }
+  },
+  "required":[
+    "title"
+  ],
+  "title":"Video",
+  "type":"object"
+}

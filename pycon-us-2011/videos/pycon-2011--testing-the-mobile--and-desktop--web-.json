@@ -1,0 +1,38 @@
+{
+  "alias": "video/373/pycon-2011--testing-the-mobile--and-desktop--web-",
+  "category": "PyCon US 2011",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Testing the Mobile (and Desktop) Web with Selenium 2.0 - Better, Faster,\nand more Pythonicly\n\nPresented by Jason Huggins\n\nSelenium is a popular web application testing tool for acceptance\ntesting dynamic web applications. Selenium 2.0 has a different\narchitecture that makes it leaner, meaner, and more pythonic -- for\ntesting desktop *and* mobile web (iPhone/Android) apps. This talk will\ngo into detail on how Selenium 2 works. If you like testing and Python,\nyou'll enjoy what's cooking in Selenium 2.\n\nAbstract\n\nSelenium was originally created by Jason Huggins and his team at\nThoughtWorks in 2004 as a tool for cross-browser acceptance testing of\ndynamic web apps -- apps that use JavaScript heavily on the client. Over\nthe years, the Selenium tool family has expanded to include a Firefox\nrecord and playback tool (Selenium IDE), a Remote Control server that\nallows API access from any major programming language, and a Grid server\nthat allows tests to run in parallel across many machines.\n\nDespite it's widespread industry adoption, the Selenium project is far\nfrom done. Selenium's goal is to drive any browser the same way an end\nuser would (e.g. opening pages, clicking buttons, entering text, etc.)\nwith any programming language on any OS platform. It's an ambitious\ngoal, and with a steady stream of new browsers (Chrome), new platforms\n(Android, iPhone), and new HTML5 technologies (video, canvas, offline\nstorage) to support, just keeping up is an arduous task.\n\nAstute observers will note, though, the bulk of Selenium's automation\nengine is implemented in JavaScript, which is confined by the browser's\nsecurity sandbox in which it executes JavaScript code. That security\nsandbox ultimately is at odds with Selenium's goal to drive the browser\njust as a user would. A user has no problem interacting with security\nalerts for untrusted certificates, or file upload dialog boxes, but\nSelenium can't deal with these kinds of things easily without extra\neffort.\n\nEnter WebDriver. There's a lot in common between the Selenium and\nWebDriver projects. They're both tools for automated testing of web\napplications, and both aspire to offer browser test automation from any\nlanguage on any platform. However, they do their thing in radically\ndifferent ways. Selenium uses the strategy that JavaScript is the one\ncommon tool available for automating all browsers, even though its\ncapabilities can be highly constrained. Meanwhile, WebDriver leverages\nthe strategy that acknowledges different automation strategies work best\nfor different browsers. COM works best for IE on Windows, Apple Events\nfor Safari on OS X. And Firefox, well, the best way to natively automate\nFirefox is to turn it into a telnet server. (But that's a whole other\nPyCon talk entirely!) WebDriver aims to natively drive each browser the\nbest way possible for maximum capability, then hiding those differences\nbetween lower level C and C++ APIs, and finally exposing the\nfunctionality through the appropriate C/C++ mechanism for each target\nlanguage, such as using ctypes for Python. With WebDriver's technical\napproach, anything a user can do is now possible in test automation\ncode.\n\nThis talk will go into detail explaining how Selenium and WebDriver (aka\nSelenium 2) work, comparing the strengths and weaknesses of each tool's\napproach to browser automation. The talk will then explain what Selenium\n2.0 looks like and how to use it.\n\nTalk outline:\n\n-  Description of problem space\n\n   -  More browsers\n   -  More frequent browser releases\n   -  HTML 5 - video, canvas, offline storage\n   -  The web in more places - Mobile, Chrome OS\n\n-  Description of Selenium\n-  Strengths of Selenium\n-  Description of challenges for Selenium 1\n\n   -  Javascript security sandbox\n   -  Same origin policy / cross-site scripting\n   -  OS-level popups\n   -  Speed / stability\n   -  Java as the cross-language integration point (aka Not Very\n      Pythonic, eh?)\n\n-  Description of Selenium 2 (aka WebDriver)\n-  Strengths of Selenium 2\n-  How Selenium 2 is more pythonic\n\n   -  (Lots and lots of example code goes here.)\n   -  Spoiler Alert: No Java server required!\n\n-  How to test Android apps\n-  How to test iPhone apps\n-  Selenium development roadmap\n\n",
+  "duration": null,
+  "id": 373,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--testing-the-mobile--and-desktop--web-",
+  "speakers": [
+    "Jason Huggins"
+  ],
+  "summary": "",
+  "tags": [
+    "browsers",
+    "embedded",
+    "html5",
+    "pycon",
+    "pycon2011",
+    "selenium",
+    "webdriver"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_373___testing-the-mobile-and-desktop-web-with-selenium-2-0-better-faster-and-more-pythonicly",
+  "title": "Testing the Mobile (and Desktop) Web with Selenium 2.0 - Better, Faster, and more Pythonicly",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_373___testing-the-mobile-and-desktop-web-with-selenium-2-0-better-faster-and-more-pythonicly"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/373_testing-the-mobile-and-desktop-web-with-selenium-2-0-better-faster-and-more-pythonicly.mp4"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Micha\u0142 Karzy\u0144ski - Building beautiful RESTful APIs using Flask\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/building-beautiful-restful-apis-using-flask-1)\n\nThis talk demonstrates a technique for developing RESTful APIs using\nFlask and Flask-Restplus. These tools automate common API tasks such\nas: validating input, serializing output, routing requests to methods,\nand turning Python exceptions into HTTP responses.\n\nThe final API comes with a Swagger interactive UI, which documents all\nendpoints and makes testing easy. The described tools tools provide\njust enough syntactic sugar to make your code readable, scalable and\neasy to maintain.\n\n-----\n\nModern software is powered by APIs. User facing apps may run in the\nbrowser or on mobile platforms, but they almost universally rely on\ndata stored in the cloud. More often then not apps use a RESTful API\nto exchange data with the server.\n\nIn my talk I will demonstrate a technique for developing RESTful APIs\nusing the [Flask][1] micro-framework and [Flask-Restplus][2]. These\npowerful tools automate most common tasks associated with API\ndevelopment: validating input, serializing output, routing requests to\nmethods, and turning Python exceptions into machine-readable HTTP\nresponses.\n\nA Flask-Restplus API is fully documented by [Swagger][3] which lists\nall defined endpoints, their query parameters and the format of input\nand output JSON objects. Swagger generates an [interactive UI][4] for\nselecting options and easily testing queries. Flask and Flask-Restplus\nprovide just enough syntactic sugar to make your code readable,\nscalable and easy to maintain.\n\nMy presentation will give an overview of the features of Flask and\nFlask-Restplus; I will describe how easy it is to get started and\ndiscuss some best practices for building complex APIs using this\napproach. I will wrap up by briefly mentioning other components of the\nFlask ecosystem, which give this micro-framework power to match fully-\nloaded systems such as Django.\n\n[1]: http://flask.pocoo.org/\n[2]: http://flask-restplus.readthedocs.org/en/latest/\n[3]: http://swagger.io/\n[4]: http://petstore.swagger.io/#/pet",
+  "duration": 1547,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "http://flask-restplus.readthedocs.org/en/latest/",
+    "http://swagger.io/",
+    "https://ep2016.europython.eu//conference/talks/building-beautiful-restful-apis-using-flask-1",
+    "http://flask.pocoo.org/",
+    "http://petstore.swagger.io/#/pet"
+  ],
+  "speakers": [
+    "Micha\u0142 Karzy\u0144ski"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OTWs0wPHU-g/maxresdefault.jpg",
+  "title": "Building beautiful RESTful APIs using Flask",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OTWs0wPHU-g"
+    }
+  ]
+}

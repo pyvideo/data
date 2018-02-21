@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Python is a wonderful language, capable of gluing just about any number of other languages together, allowing us to reap the strengths of each language. The cost of this is myriad opportunities for library and binary incompatibility. This talk will cover some of the common ways that incompatibility arises, as well as several approaches that Continuum uses or is developing to reduce headache.\n\n**Abstract**\n\nEach language and each package has some things that it does better than others. One of Python's major strengths is its ability to readily interface with many other languages and harness their strengths. When it comes to speed, compiled, statically-typed languages are hard to beat. Because of this, data science libraries often harness compiled shared libraries for their compute-intensive operations. In a small environment with few of these dependencies, this often works quite well. However, as the number of binary dependencies grows, the risk of incompatibility increases.\n\nThe Anaconda distribution and its package manager, Conda, have been very successful as platforms in part because the wide array of packages built for Anaconda by Continuum are built to be binary compatible. Unfortunately, as more people and more communities build their own Conda packages that are not binary compatible with Anaconda or each other, more users have expressed confusion and consternation when things don't just work in all cases.\n\nTo address this issue, we have needed to develop tooling at both package build time, to better track and establish the actual limits of binary compatibility, and also at package install time, to allow conda to make better use of this information to inform users of what they can expect to work. We\u2019ll talk about new features in our build tool, conda-build, that helps us choose our desired binary compatibility. We\u2019ll also talk about our new automated build system that helps us flesh out a much larger range of compatibility by building more combinations of packages with limited binary compatibility. Finally, we\u2019ll also talk about the extra data that you\u2019ll soon be able to provide to Conda, so that you will have more power to say exactly what you want.",
+  "duration": 2428,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Michael Sarahan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Kamld5Z-xx0/maxresdefault.jpg",
+  "title": "Making packages and packaging \"just work\"",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Kamld5Z-xx0"
+    }
+  ]
+}

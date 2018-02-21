@@ -1,0 +1,29 @@
+{
+  "category": "PyCon CA 2015",
+  "copyright_text": "",
+  "description": "",
+  "duration": 678,
+  "id": 5008,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-11-08",
+  "related_urls": [
+    "http://www.physics.utoronto.ca/",
+    "https://github.com/aerler/GeoPy"
+  ],
+  "slug": "an-example-of-scikit-learn-and-scipy-used-for-the",
+  "speakers": [
+    "Andre R. Erler"
+  ],
+  "summary": "There is considerable interest in the effect of climate change on extreme weather in the scientific community and in the public. However, detecting changes in extreme weather events in the observational record is extremely difficult, because extreme events are by definition rare and the instrumental record is not long enough to establish robust statistics for a single station record.\n\nIn this talk I show how tools from the scientific Python software stack can be used to analyze precipitation (rainfall) data and overcome this problem and detect changes in the observational record.\n\nThe analysis proceeds in two stages: first a k-means clustering algorithm (sklearn.cluster) is used to aggregate data from different stations that have similar climatological characteristics, and then a theoretical distribution function is fitted to the data (scipy.stats).\nThe first step increases the number of data points to constrain the fit in the second step, assuming all stations in the same cluster have the same underlying distribution. The second step serves to further reduce noise and extrapolate the distribution to the most extreme quantiles.\nFinally a statistical test (scipy.stats) can be used to detect changes and asses statistical significance.\n\nI will introduce the analysis algorithm using historical data from meteorological stations (Environment Canada), but I will also show how this technique can be applied to climate model projections of future climate change.\n\nThe analysis was conducted using the GeoPy analysis package, which is described in a separate talk. The package is available on GitHub: https://github.com/aerler/GeoPy\nAn extended abstract submitted to the Climate Informatics workshop in Boulder (September 24-25, 2015; 2 pages) is available here: http://www.physics.utoronto.ca/~aerler/files/presentations/ci2015.pdf",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KZbXHiAF61g/maxresdefault.jpg",
+  "title": "An example of scikit-learn and SciPy used for the analysis of extreme weather",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KZbXHiAF61g"
+    }
+  ]
+}

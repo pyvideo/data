@@ -1,0 +1,40 @@
+{
+  "alias": "video/364/pycon-2011--status-of-unicode-in-python-3",
+  "category": "PyCon US 2011",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "The talk will focus on the recent issues fixed in Python 3.1 and 3.2:\n\n-  Use the PEP 383 (error handler to store undecodable bytes) everywhere\n-  Encoding of the command line arguments: utf-8 on Mac OS X, locale\n   encoding on UNIX/BSD, unicode on Windows\n-  Environment variables: creation of os.environb\n-  Filenames: huge work to support the PEP 383 everywhere, creation of\n   os.fsencode() and os.fsdecode()\n-  Python source code encoding: use tokenize.detect\\_encoding() instead\n   of the locale encoding\n-  some library examples: email, ftp, ...\n-  etc.\n\nThe talk will present not only the changes in Python, but also in the C\nAPI.\n",
+  "duration": null,
+  "id": 364,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--status-of-unicode-in-python-3",
+  "speakers": [
+    "Victor Stinner"
+  ],
+  "summary": "Introduced in Python 2.0, unicode became the default string type in\nPython 3.0. It took 8 years to switch to unicode, and since Python 3.0,\na lot of bugs has been fixed. The switch to unicode opened many\nquestions. Should Python support both bytes and characters for\nfilenames? What to do with undecodable bytes? etc.\n",
+  "tags": [
+    "pycon",
+    "pycon2011",
+    "python3",
+    "unicode"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_364___status-of-unicode-in-python-3",
+  "title": "Status of Unicode in Python 3",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_364___status-of-unicode-in-python-3"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.m4v"
+    },
+    {
+      "length": 173547130,
+      "type": "ogv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/364_status-of-unicode-in-python-3.ogv"
+    }
+  ]
+}

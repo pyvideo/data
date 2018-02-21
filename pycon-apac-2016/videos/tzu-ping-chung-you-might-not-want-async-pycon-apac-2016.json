@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "\ubc1c\ud45c\uc790: Tzu-ping Chung\n\uc2ac\ub77c\uc774\ub4dc: https://speakerdeck.com/uranusjr/you-might-not-want-async\n\nAsynchrony topics in Python had gain much momentum recently, with interests from core developers, as evidenced by the introduction of asyncio in Python 3.4, and a great boom of related third-party projects following it.\n\nWith all its advantages, asynchrony is, however, still a relatively new concept in Python, and as a result could be somewhat mistaken, even misunderstood by some people. One of these misconceptions, probably the most serious, is to mistake concurrency through asynchrony with parallelism. Although asyncio (and other similar solutions) lets multiple parts of your program executes without interfering each other, it does not allow them to run together\u2014this is still impossible, at least in CPython, due to the continued existence of the GIL (global interpreter lock). This makes asynchrony suitable for only a certain, instead of all, kinds of problems, and requires evaluation before a programmer can decide whether it is suitable for a particular application.\n\nPartly due to its relatively short existence, paradigms in asynchrony programming does not necessarily fit well with other parts of Python, including libraries, either built-in or third-party ones. Many assumptions made in parts of Python, and its vast amounts of libraries, may not work well with async programs out-of-the-box. Adopting asynchrony, at least at the present day, will therefore introduce more technical debt to your program. These are all important aspects that require much consideration before you jump head-first into asynchnocy.",
+  "duration": 2290,
+  "language": "eng",
+  "recorded": "2016-08-31",
+  "related_urls": [
+    "https://speakerdeck.com/uranusjr/you-might-not-want-async"
+  ],
+  "speakers": [
+    "Tzu-ping Chung"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/drd1UvFprnc/maxresdefault.jpg",
+  "title": "You Might Not Want Async",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=drd1UvFprnc"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "alias": "video/3094/continuous-integration-testing-for-your-database",
+  "category": "PyCon AU 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "This is a talk about how OpenStack does database migration continuous\nintegration, and how other projects might be able to learn from what\nwe've done.\n\nOpenStack is an interesting project in that it runs in a variety of\ndifferent scale scenarios. There are very small deployments of only a\nfew machines, and large public clouds with thousands of machines. The\nOpenStack project takes Continuous Integration (CI) very seriously, and\nruns a suite of unit and integration tests on all proposed patches.\n\nOne thing we weren't very good at testing though, was database upgrades.\nWe have unit tests for many of them, but we don't know how these\nupgrades affect real users in the field. As a response, we worked on\nadding database migration testing to our CI environment. This new test\ninfrastructure is open source\n(https://github.com/stackforge/turbo-hipster), and extensible. It\ncurrently runs tests on smaller databases, as well as a largish real\nuser database. It has already caught two significant performance\nproblems in database migrations.\n\nThis talk will cover how we built the test infrastructure (in python!).\nIt will cover what we've learned from the 12 months of running it - time\nthat we'll have had by the conference day. It will tell a story about\nsome of the bugs we've found and how we fixed them. ..\n",
+  "duration": null,
+  "id": 3094,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-08-11",
+  "related_urls": [
+    "https://github.com/stackforge/turbo-hipster),"
+  ],
+  "slug": "continuous-integration-testing-for-your-database",
+  "speakers": [
+    "Joshua Hesketh"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/z_q5BaniZH0/hqdefault.jpg",
+  "title": "Continuous Integration Testing for Your Database Migrations by Joshua Hesketh",
+  "videos": [
+    {
+      "length": null,
+      "type": "ogv",
+      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/65-out.ogv"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=z_q5BaniZH0"
+    }
+  ]
+}

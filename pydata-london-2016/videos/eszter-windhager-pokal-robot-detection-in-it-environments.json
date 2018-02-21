@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData London 2016\n\nIn this talk, I will present the robot detection module of a machine learning-driven user behavior analytic tool. New methodologies were developed to distinguish between scripted accounts and human users, based on their activities. I will demonstrate a couple of statistical methods, like hypothesis tests from the SciPy library that we use to capture different aspects of robotic operation.\n\nThe robot detection module that I will present is a part of the machine learning-driven, real-time user behavior analytic (UBA) tool of Balabit, called Blindspotter. Its main purpose is to detect internal and external attackers in an IT environment. Blindspotter gathers contextual information about the activities of users, and notifies the security analyst when an unusual event is found. We use the Python language both for the proof of concept experimentation of data scientists and for production as well.\n\nHumans and robots have different behavior patterns, for instance robots can be active for very long time periods, or they can have extremely high or very low diversity in some features. This implicates that in many aspects humans and robots need different monitoring techniques. Therefore, we should be able to identify the usage type of the account and handle humans and scripts separately in the UBA tool.\n\nFurthermore, it is also critical to know for security reasons when a human user's account becomes a scripted account or when a scheduled robot suddenly starts to behave like it was used by a human.\n\nFor example, an impostor coming from outside might attack a more easily crackable scripted account and start some manual activities there to look around in the system. Or a malicious insider could start running scripts to collect sensitive data. With the robot detection algorithm we can notice the sudden change in the usage patterns of the accounts.\n\nIn the presentation I will introduce the methodologies that we developed to detect scripted accounts (robots) in IT systems, based on their activities. Different aspects of robotic behavior has been investigated, for example rare scheduled activities surrounded by normal behavior or periodic patterns with some noise in it. I will illustrate the cases with examples found in real data.\n\nSlides available here: https://drive.google.com/file/d/0B8CSc3Je587HOXhUYUM2Ty1IYVE/view?usp=sharing",
+  "duration": 2151,
+  "id": 5212,
+  "language": "eng",
+  "recorded": "2016-05-11",
+  "related_urls": [
+    "https://drive.google.com/file/d/0B8CSc3Je587HOXhUYUM2Ty1IYVE/view?usp=sharing"
+  ],
+  "slug": "eszter-windhager-pokal-robot-detection-in-it-environments",
+  "speakers": [
+    "Eszter Windhager Pokal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/JB4mthDh1Yk/maxresdefault.jpg",
+  "title": "Robot detection in IT environments",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JB4mthDh1Yk"
+    }
+  ]
+}

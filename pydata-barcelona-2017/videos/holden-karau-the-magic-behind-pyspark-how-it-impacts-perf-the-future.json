@@ -1,0 +1,28 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "A look at how PySpark \"works\" today and how we can make it better in the future + insert engine noises of a fast car +\n\n**Abstract**\n\nThis talk will introduce PySpark along with the magic done to make it work and be friends with the JVM. We will discuss why lazy evaluation makes a huge difference in PySpark, both in terms of general optimizations it opens up as well as Python specific considerations. From there we will explore much of the future of Spark, DataFrames & Datasets and what this means for PySpark. Most Spark DataFrame examples limit them selves to things written in the relational style query language, but we will explore how to add more functionality through UDFS.\n\nWe will wrap up with looking at the different pieces of work being done to make PySpark faster, from using better interchange formats like Apache Arrow to crazy hair brained schemes inspired by (but not the fault of) the Javascript on Spark project.\n\nHopefully no one is scared away from using Spark once they see the 300 small gnome like creatures behind the curtain, but parental guidance is encouraged for those who still believe in magic, reliable distributed systems, and vendor marketing brochures.",
+  "duration": 3299,
+  "language": "eng",
+  "recorded": "2017-05-20T10:30:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/42/"
+    }
+  ],
+  "speakers": [
+    "Holden Karau"
+  ],
+  "tags": [
+    "keynote",
+    "pyspark"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/TI05I_8uS3U/maxresdefault.jpg",
+  "title": "The Magic Behind PySpark, how it impacts perf & the \"future\"",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TI05I_8uS3U"
+    }
+  ]
+}

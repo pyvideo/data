@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Anthon van der Neut - Beyond scraping\n[EuroPython 2016]\n[20 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/beyond-scraping-getting-data-from-dynamic-heavily-javascript-driven-websites)\n\nThis talk show how a to create a simple, evolving, client server\narchitecture combining  zeromq, selenium and beautifulsoup, which\nallows you to scrape data even from variable dynamic sites like\nSporcle and KhanAcademy. Once the page analysis has been implemented\nregular \"downloads\" can easily be deployed without cluttering your\ndesktop,  your headless server and/or anonymously.\n\n-----\n\nScraping  static websites can be done with `urllib2` from the standard\nlibrary, or with some slightly more sophisticated packages like\n`requests`.\nHowever as soon as JavaScript comes into play on the website you want\nto download information from, for things like logging in via openid or\nconstructing the pages content, you almost always have to fall back to\ndriving a real browser.\nFor web sites with variable content this is can be  time consuming and\ncumbersome process.\n\nThis talk show how a to create a simple, evolving, client server\narchitecture combining  zeromq, selenium and beautifulsoup, which\nallows you to scrape data from sites like Sporcle, StackOverflow and\nKhanAcademy. Once the page analysis has been implemented regular\n\"downloads\" can easily be deployed without cluttering your desktop,\nyour headless server and/or anonymously.\n\nThe described client server setup allows you to restart your changed\nanalysis program without having to redo all the previous steps of\nlogging in and stepping through instructions to get back to the page\nwhere you got \"stuck\" earlier on. This often decreases the time\nbetween entering a possible fix in your HTML analysis code en testing\nit, down to less than a second from a few tens of seconds in case you\nhave to restart a browser.\n\nUsing such a setup you have time to focus on writing robust code\ninstead of code that breaks  with every little change the sites\ndesigners make.",
+  "duration": 2499,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/beyond-scraping-getting-data-from-dynamic-heavily-javascript-driven-websites"
+  ],
+  "speakers": [
+    "Anthon van der Neut"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DKmNiwmyl6k/maxresdefault.jpg",
+  "title": "Beyond scraping",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DKmNiwmyl6k"
+    }
+  ]
+}

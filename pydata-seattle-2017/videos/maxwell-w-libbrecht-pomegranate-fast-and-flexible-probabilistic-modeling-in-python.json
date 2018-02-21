@@ -1,0 +1,33 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "I will describe the python package pomegranate, which implements flexible probabilistic modeling in cython. I will highlight several supported models including mixtures, hidden Markov models, and Bayesian networks. At each step I will show that these models are both faster and more flexible than other implementations. In addition, I will describe the built-in out-of-core and parallel APIs.\n\nLink to slides: http://noble.gs.washington.edu/~maxwl/2017-07-05%20pydata%20pomegranate.pdf\n\n**Abstract**\n\nIn this talk I will give an full tutorial for the python package pomegranate, which is a flexible probabilistic modeling package implemented in cython for speed. I will highlight several models it supports, specifically probability distributions, mixture models, naive Bayes, Markov chains, hidden Markov models, and Bayesian networks. At each step I will show that these models are both faster and more flexible than other implementations in the open source community along with code examples. In addition, I will show how to utilize the underlying modularity of the code to stack these models to produce more complicated ones such as mixtures of Bayesian networks, or HMMs with complicated mixture emissions. Lastly, I will show how easy it is to use the built-in out-of-core and parallel APIs to allow for multithreaded training of complex models on massive amounts of data which can't fit in data-- all without the user having to think about any implementation details. An accompany Jupyter notebook will allow users to follow along, see code examples for all figures presented, and make modifications.",
+  "duration": 6255,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    },
+    {
+      "label": "slides",
+      "url": "http://noble.gs.washington.edu/~maxwl/2017-07-05%20pydata%20pomegranate.pdf"
+    },
+    {
+      "label": "pomegranate repository",
+      "url": "https://github.com/jmschrei/pomegranate"
+    }
+  ],
+  "speakers": [
+    "Maxwell W Libbrecht"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KpoNWIiH2ic/maxresdefault.jpg",
+  "title": "pomegranate: fast and flexible probabilistic modeling in python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KpoNWIiH2ic"
+    }
+  ]
+}

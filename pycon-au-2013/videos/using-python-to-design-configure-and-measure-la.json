@@ -1,0 +1,31 @@
+{
+  "alias": "video/2234/using-python-to-design-configure-and-measure-la",
+  "category": "PyCon AU 2013",
+  "copyright_text": "CC-BY-SA",
+  "description": "",
+  "duration": 30,
+  "id": 2234,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-06",
+  "slug": "using-python-to-design-configure-and-measure-la",
+  "speakers": [
+    "Simon Knight"
+  ],
+  "summary": "AutoNetkit is an open-source project to automatically build network\nconfiguration files for routers including Quagga, Cisco and Juniper,\nwith complicated protocol configurations, all from a simple input graph\n--- which could even be drawn in a program such as yEd.\n\nAutoNetkit was started at the University of Adelaide, and developed\nfurther at Cisco, with collaborators from both research and industry. It\nis being used at major router vendors, by network operators, and in\nuniversity teaching, and in research publications including experiments\nwith over 800 virtual routers --- nearly impossible to configure by\nhand.\n\nThis is all powered by Python, and we make significant use of the\nexcellent packages available.\n\nThis talk will present a brief overview of what the AutoNetkit project\nis about and why we chose Python.\n\nI will give an over view of our data model, and how methods such as\n**lt** **eq** **contains** **getattr** **setattr** and **iter** allow\nelegant yet expressive network design, such as using list\ncomprehensions.\n\nI will cover how we use the various modules, including: - NetworkX\ngraphs - Netaddr IP addressing - Mako Templates - Exscript for scripting\ndeployment - TextFSM parsing of measurement - Tornado to serve a\nbrowser-based d3.js visualisation framework - Using IPython notebooks\nfor interactive tutorials\n\nWe've spent quite a bit of time with Python on this project. This talk\nwill pass on the our favourite Python language features and package\nwe've found along the way. It will be both a case study in using Python\nfor a large-scale project, and an overview of useful packages.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/EGK5jjyUBCQ/hqdefault.jpg",
+  "title": "Using Python to design, configure, and measure large-scale networks",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/ndvpyconau2013/Using_Python_to_design_configu.mp4"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EGK5jjyUBCQ"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData London 2016\n\nData from smartphone sensors can be used to learn from and analyse our daily behaviours. In this talk, I'll discuss processing and learning from sensor data with Python. I'll focus on accelerometers - a triaxial sensor that measures motion - starting with an overview pre-processing the data and ending with supervised and unsupervised learning applications and visualisations.\n\nOur smartphones are increasingly being built with sensors, that can measure everything from where we are (GPS, Wi-Fi) to how we move (accelerometers) and other aspects of our environments (e.g., temperature, humidity). Many apps are now being designed to collect and leverage this data, in order to provide interesting context-aware services and quantify our daily routines.\n\nIn this talk, I'll give an overview of collecting sensor data from an Android app and processing the data with Python. I'll focus on accelerometers - a triaxial sensor that measures the device's motion - which is now being used in apps that detect what you are doing (cycling, running, riding a train); if we have enough time I'll also briefly cover a similar example with Wi-Fi/location data. Using an open-sourced Android app and iPython notebook, I'll discuss the following questions:\n\nWhat does the raw data look like? There are a number of trade-offs when collecting sensor data: most notably, data collection needs to be balanced against battery consumption. Plotting the raw data gives a view of how the data was sampled and how it changes across activities.\nHow can I pre-process and extract features from this data? Three kinds of features can be extracted from acceleromter data: statistical, time-series, and signal-based. Most of these are readily available in well-known Python libraries (scipy, numpy, statsmodels).\nHow can these features be used to analyse behaviours? I'll show an example of using accelerometer data to cluster users into groups, based on how active they are.\nHow can these features be used to detect behaviours? I'll show an example of training a supervised learning algorithm (using scikit-learn) to detect walking vs. running vs. standing.\nI'll close by discussing how these techniques are being applied in novel smartphone apps for health monitoring.\n\nGitHub Repo: https://github.com/nlathia/pydata_2016",
+  "duration": 2065,
+  "id": 5239,
+  "language": "eng",
+  "recorded": "2016-05-11",
+  "related_urls": [
+    "https://github.com/nlathia/pydata_2016"
+  ],
+  "slug": "neal-lathia-mining-smartphone-sensor-data-with-python",
+  "speakers": [
+    "Neal Lathia"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/BidI8_1ikiQ/maxresdefault.jpg",
+  "title": "Mining smartphone sensor data with python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BidI8_1ikiQ"
+    }
+  ]
+}

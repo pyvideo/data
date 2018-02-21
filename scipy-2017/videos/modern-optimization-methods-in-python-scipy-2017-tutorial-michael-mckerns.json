@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Highly-constrained, large-dimensional, and non-linear optimizations are found at the root of most of today's forefront problems in statistics, quantitative finance, risk, operations research, materials design, and other predictive sciences. Tools for optimization, however, have not changed much in the past 40 years -- until very recently. The abundance of parallel computing resources has stimulated a shift away from using reduced models to solve statistical and predictive problems, and toward more direct methods for solving high-dimensional nonlinear optimization problems.\n\nThis tutorial will introduce modern tools for solving optimization problems -- beginning with traditional methods, and extending to solving high-dimensional non-convex optimization problems with highly nonlinear constraints. We will start by introducing the cost function, and it's use in local and global optimization. We will then address how to monitor and diagnose your optimization convergence and results, tune your optimizer, and utilize compound termination conditions. This tutorial will discuss building and applying box constraints, penalty functions, and symbolic constraints. We will then demonstrate methods to efficiently reduce search space through the use of robust optimization constraints. Real-world inverse problems can be expensive, thus we will show how to enable your optimization to seamlessly leverage parallel computing. Large-scale optimizations also can greatly benefit from efficient solver restarts and the saving of state. This tutorial will cover using asynchronous computing for results caching and archiving, dynamic real-time optimization, and dimensional reduction. Next we will discuss new optimization methods that leverage parallel computing to perform blazingly-fast global optimizations and n-dimensional global searches. Finally, we will close with applications of global optimization in statistics and quantitative finance.\n\nThe audience need not be an expert in optimization, but should have interest in solving hard real-world optimization problems. We will begin with a walk through some introductory optimizations, learning how to build confidence in understanding your results. By the end of the tutorial, participants will have working knowledge of how to use modern constrained optimization tools, how to enable their solvers to leverage high-performance parallel computing, and how to utilize legacy data and surrogate models in statistical and predictive risk modeling.",
+  "duration": 11419,
+  "language": "eng",
+  "recorded": "2017-08-04",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    },
+    {
+      "label": "tutorial repository",
+      "url": "https://github.com/mmckerns/tutmom"
+    }
+  ],
+  "speakers": [
+    "Michael McKerns"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/geFER2oVvvU/maxresdefault.jpg",
+  "title": "Modern Optimization Methods in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=geFER2oVvvU"
+    }
+  ]
+}

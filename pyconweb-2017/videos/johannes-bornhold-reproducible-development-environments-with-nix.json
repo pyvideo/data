@@ -1,0 +1,25 @@
+{
+  "description": "Providing build and development environments for Python based projects is typically not without challenges. This talk presents how Nix - The Purely Functional Package Manager can be used to provide reproducible environments for development and deployment of Python based Web projects.\n\nToday's typical Web projects come with a bunch of challenges which make it a non-trivial task to provide reproducible development and build environments. Python based Web projects are no exception to this.\n\nSome of the common challenges:\n\nWeb projects are rarely Python-only. Typically artifacts from different ecosystems are needed, often with their own tool-chain, e.g. npm, bower, grunt or webpack from the JavaScript world. These tools are needed inside of the build environment and often also inside of a developer's work environment. System dependencies are often managed in a system specific way, usually specific to the package management tool of the operating system. Development environments diverge over time if parts are managed manually. This leads to hard to diagnose issues due to subtle differences between different developer's environments. Development and production environments are hard to keep in sync which makes it hard to reproduce issues from a production environment. The talk introduces the high level concepts of Nix and how it can be applied for the case of Python based Web applications to mitigate the aforementioned challenges. It concludes with lessons learned from following this approach in various Python based web projects during the last years.",
+  "language": "eng",
+  "recorded": "2017-05-27",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pyconweb.com/#schedule"
+    }
+  ],
+  "speakers": [
+    "Johannes Bornhold"
+  ],
+  "tags": [
+    "nix"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Gv8OELicQzU/hqdefault.jpg",
+  "title": "Reproducible development environments with Nix",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Gv8OELicQzU"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "DjangoCon US 2016 - Solving Problems With Django Forms by Kirt Gittens\n\nWe'll look at a few core problems that we were able to solve with Django forms.\n\nDynamic Field Creation: What if you don't know what fields should be present on a Django form until runtime?. Solutions:\n\nViewing a form's fields as a data structure (convert a field definition to a dictionary) Manipulate self.fields on a form to dynamically add / remove forms from a field.\n\nPitfalls:\n\nA fields validated attributes can't be manipulated dynamically because of Validators within the forms API. Dynamic form layouts become difficult to manage, crispyforms does not scale as a solution!\n\nValidate a form via an API: How can external validations behave the same as internal errors? Solutions:\n\nform.clean() can be used for form wide errors, and form.add_error can be used to integrate those external validation errors into your existing form so that calls like is_valid() still work as expected with your external validations.\n\nAdding fields at runtime: How can the user add fields to a form after it has been rendered?\n\nSolutions:\n\nJavascript can be used for the UI, and if the fields are properly named, the same validations will work as long as the fields are part of the form.\n\nPitfalls: Creating a solution that creates a dynamic field that is validated, but doesn't render can cause issues with your layout solution (crispyforms fails again here)",
+  "duration": 1402,
+  "language": "eng",
+  "recorded": "2016-08-10",
+  "related_urls": [],
+  "speakers": [
+    "Kirt Gittens"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rsy0W-eBrQA/maxresdefault.jpg",
+  "title": "Solving Problems With Django Forms",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rsy0W-eBrQA"
+    }
+  ]
+}

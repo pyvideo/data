@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Multi-processing parallelism in Python might be unacceptable due to cache-inefficiency and memory overhead. On the other hand, multi-threaded parallelism with Python suffers from the GIL but when it comes to numeric computations, most of the time is spent in native codes where the GIL can easily be released. This is why modules such as Dask and Numba use multi-threading to greatly speed up the computations. But being used together in a nested way, e.g. when a Dask task calls Numba's threaded ufunc, it leads to the situation where there are more active software threads than available hardware resources. This situation is called over-subscription and it leads to inefficient execution due to frequent context switches, thread migration, broken cache-efficiency, and finally to a load imbalance when some threads finished their work but others are stuck along with the overall progress.\n\nAnother example is Numpy/Scipy when they are accelerated using Intel Math Kernels Library (MKL) like the ones shipped as part of Intel Distribution for Python. MKL is usually threaded using OpenMP which is known for not easily co-existing even with itself. In particular, OpenMP threads keep spin-waiting after the work is done -- which is usually necessary to reduce work distribution overhead for the next possible parallel region. But it plays badly with another thread pool because while OpenMP worker threads keep consuming CPU time in spin-waiting, the other parallel work like Numba's ufunc cannot start until OpenMP threads stop spinning or are preempted by the OS.\n\nAnd the worst case is also connected to usage of OpenMP when a program starts multiple parallel tasks and each of these tasks ends up executing an OpenMP parallel region. This is quadratic over-subscription which ruins multi-threaded performance.\n\nOur approach to solve these co-existence problems is to share one thread pool among all the necessary modules and native libraries so that one task scheduler will take care of this composability issue. Intel Threading Building Blocks (TBB) library works as such a task scheduler in our solution. TBB is a wide-spread and recognized C++ library for enabling multi-core parallelism. It was designed for composability, nested parallelism support, and avoidance of over-subscription from its early days. Thus we implemented a Python module which integrates TBB with Python, it is already available as part of Intel Distribution for Python and on Intel channel for conda users. I will show how to enable it for Numpy/Scipy, Dask, Numba, Joblib, and other threaded modules and demonstrate the performance benefits it brings.",
+  "duration": 1450,
+  "id": 5314,
+  "language": "eng",
+  "recorded": "2016-07-14",
+  "related_urls": [],
+  "slug": "composable-multi-threading-for-python-libraries-scipy-2016-anton-malakhov",
+  "speakers": [
+    "Anton Malakhov"
+  ],
+  "tags": [
+    "SciPy 2016"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/kfQcWez2URE/maxresdefault.jpg",
+  "title": "Composable Multi Threading for Python Libraries",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kfQcWez2URE"
+    }
+  ]
+}

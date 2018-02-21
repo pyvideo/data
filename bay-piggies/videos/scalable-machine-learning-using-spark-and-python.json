@@ -1,0 +1,16 @@
+{
+  "description": "ABSTRACT:\nDeep architecture helps in the representation of high-level abstractions as in vision, language, speech and other AI-level tasks. A deep architecture is composed of multiple levels of non-linear operations. Learning algorithms like Deep Belief Networks  have recently been proposed to tackle these problems with a notable success.[1]   A couple of years ago, The New York Times wrote a story about Google using a network of 16,000 computers to teach itself to identify images of cats. That is a difficult task for computers, and it was an impressive achievement.   Project Adam, an initiative by Microsoft researchers and engineers, aims to demonstrate that large-scale, commodity distributed systems can train huge deep neural networks effectively. For proof, the researchers created the world\u2019s best photograph classifier, using 14 million images from ImageNet, an image database divided into 22,000 categories.   Project Adam is 50 times faster\u2014and more than twice as accurate, as outlined in a paper currently under academic review. In addition, it is efficient, using 30 times fewer machines, and scalable, areas in which the Google effort fell short.   The team at Google lead by Jeffrey Dean came up with the first implementation of distributed deep learning [2]. Architecturally, it was a pseudo-central realization, with a centralized parameter server being a single source of parameter values across the distributed system.   The talk demonstrates an end to end design (architecture, implementation and deployment) of Downpour-like stochastic gradient descent using Apache Spark. Spark is the next generation cluster computing framework from the UC Berkeley and Databricks teams.\n\n[1] Building High-level Features Using Large Scale Unsupervised Learning. Quoc V. Le,Marc'Aurelio Ranzato, Stanford & Google Inc.\n\n[2] Large Scale Distributed Deep Networks. Jeffrey Dean, Google Inc.\n\nSPEAKER:\nSaket Bhushan is the founder of Sosio, a data platform primarily for non-profits. In his previous life he spent considerable time in optimizing computational mechanics algorithms. \n\nPresented at the Bay Area Python Interest Group (BayPIGgies) on September 24, 2015.",
+  "language": "eng",
+  "recorded": "2015-09-24",
+  "speakers": [
+    "Saket Bhushan"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WDMcfYYASNU/hqdefault.jpg",
+  "title": "Scalable Machine Learning using Spark and Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WDMcfYYASNU"
+    }
+  ]
+}

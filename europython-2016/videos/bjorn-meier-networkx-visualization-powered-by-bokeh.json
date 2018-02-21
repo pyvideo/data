@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Bj\u00f6rn Meier - NetworkX Visualization Powered by Bokeh\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/networkx-visualization-powered-by-bokeh)\n\nVisual data exploration, e.g. of social networks, can be ugly manual\nwork. The talk will be an introduction for the combined usage of\nNetworkX and Bokeh in a Jupyter Notebook to show how easy interactive\nnetwork visualization can be.\n\n-----\n\nDuring some work with social network analysis my favoured tool to\nstudy the networks was NetworkX. It provides a wide set of features\nand algorithms for network analysis, all in Python. But the\nfunctionality to visualize networks is not very strong and not to\nmention the missing interactive manipulation. However during the\nexploration of data: exporting, feeding an extra tool for\nvisualization and then manipulating data manually was a tedious\nworkflow.\n\nAs I also had the optional target of presenting networks in a browser,\nI improved this workflow by creating a Flask web application providing\ninterfaces to my networks. On the browser side I created a javascript\nclient based on D3.js. In retrospective the required programming\neffort in Python and also in Javascript was too much for such a task.\nAnd exactly this target, interactive visualization in a browser (and\nas bonus in a Jupyter Notebook), can be achieved quiet easy now with\nBokeh.\n\nThe talk will be a step by step introduction, starting with the basic\nvisualization of a network using Bokeh, NetworkX and a Jupyter\nNotebook. Next, how to create interactions with your network which\nwill be used to change a network structure, e.g. a leaving person. As\nwe want to see directly the impact of these changes in a network I\nwill finally show how to update networks and visualize directly how\nthe importance of the remaining people changes. And all this can be\nachieved with Python and maybe a bit of Javascript.\n\n(There was no video for the first few minutes of this talk).",
+  "duration": 1393,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/networkx-visualization-powered-by-bokeh"
+  ],
+  "speakers": [
+    "Bj\u00f6rn Meier"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vlpeQJqzOfA/maxresdefault.jpg",
+  "title": "NetworkX Visualization Powered by Bokeh",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vlpeQJqzOfA"
+    }
+  ]
+}

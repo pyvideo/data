@@ -1,0 +1,21 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Francisco Fern\u00e1ndez Casta\u00f1o - Knowing your garbage collector\n[EuroPython 2015]\n[20 July 2015]\n[Bilbao, Euskadi, Spain]\n\nAs Python programmers we're used to program without taking care about allocating\nmemory for our objects and later on freeing them, Python garbage collector\ntakes care of this task automatically for us.\n\nGarbage collection is one of the most challenging topics in computer science,\nthere are a lot of research around the topic and different ways to tackle\nthe problem.\n\nKnowing how our language does this process give us a better understanding\nof underlying interpreter and allow us to know why problems like cycles\ncan happen in CPython interpreters.\n\nSo, this talk aims to be and introduction to the topic and a walkaround\nthrough different approaches followed in CPython and PyPy:\n\n* Generational Reference counting with cycles detector on CPython.\n* Incremental version of the MiniMark GC on PyPy.",
+  "duration": 2374,
+  "language": "eng",
+  "recorded": "2015-08-06",
+  "related_urls": [],
+  "slug": "europython-2015-francisco-fernandez-castano-knowing-your-garbage-collector",
+  "speakers": [
+    "Francisco Fern\u00e1ndez Casta\u00f1o"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/sSMPiQZTyrI/hqdefault.jpg",
+  "title": "Knowing your garbage collector",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sSMPiQZTyrI"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "alias": "video/3528/out-of-core-numpy-arrays-without-changing-your-co",
+  "category": "PyData Paris 2015",
+  "copyright_text": "youtube",
+  "description": "This talk introduces a new implementation of NumPy arrays that provides\nsupport for out\u00adof\u00adcore data analysis without changing code, without\nbreaking APIs and without losing the performance advantage provided by\nFORTRAN libraries or just\u00adin\u00adtime compilers. wendelin\u00adcore acts\ntransparently as distributed shared virtual memory manager for binary\ndata handled by python interpreters deployed on a cluster. Thanks to\nwendelin\u00ad core, each python interpreter can access elementary ndarray\nstructures of virtually 2 exabytes in a single memory block, whatever\nthe amount of RAM available on each node. With wendelin\u00adcore, a cluster\nof inexpensive PCs can thus act as a teramory server at much lower cost.\nA cluster of tera\u00ad-memory servers can act as an examemory machine.\n\n::\n\n    In addition to bringing true BIg Data support to NumPy libraries, wendelin\u00adcore also provides native persistency of ndarrays thanks to its integration with NEO database. NEO together with wendelin\u00adcore can shard and store ndarrays on a redundant array of inexpensive computers and provide native support for python exception handling, thus enforcing a rollback of any change made to data in case of bug or error during a calculation.\n\n    The talk will focus on the technical aspects of wendelin\u00ad-core. It will explain the technical approach that has been used for the first implementation: what has been achieved, what is still weak, what can be improved. It will explain how to hook wendelin\u00ad-core to a persistency layer. It will then present the technical roadmap and suggest how to integrate wendelin\u00adcore to other persistency layers or to other data structures.\n\n",
+  "duration": null,
+  "id": 3528,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-04-21",
+  "slug": "out-of-core-numpy-arrays-without-changing-your-co",
+  "speakers": [
+    "Kirill Smelkov"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/aQWK9qQubAc/hqdefault.jpg",
+  "title": "Out-of-core NumPy arrays without changing your code with wendelin-core",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aQWK9qQubAc"
+    }
+  ]
+}

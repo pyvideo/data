@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Madrid 2016\n\nMost of the talks and workshop tutorials can be found here: https://github.com/PyDataMadrid2016/Conference-Info\n\nIf we want to extract the contents of a website automating information extraction, often we find that the website does not offer any API to get the data you need and It is necessary use scraping techniques to recover data from a Web automatically. Some of the most powerful tools for extracting the data in web pages can be found in the python ecosystem.\n\nIntroduction to webscraping\n\nWebScraping is the process of collecting or extracting data from web pages automatically. Nowdays is a very active field and developing shared goals with the semantic web field, natural language processing,artificial intelligence and human computer interaction.\n\nPython tools for webscraping\n\nSome of the most powerful tools to extract data can be found in the python ecosystem, among which we highlight Beautiful soup, Webscraping, PyQuery and Scrapy.\n\nComparison between webscraping tools\n\nA comparison of the mentioned tools will be made, showing advantages and disadvantages of each one,highlighting the elements of each one to perform data extraction as regular expressions,css selectors and xpath expressions.\n\nProject example with scrapy\n\nScrapy is a framework written in python for extraction automated data that can be used for a wide range of applications such as data mining processing. When using Scrapy we have to create a project, and each project consists of:\n\n1. Items: We define the elements to be extracted.\n2. Spiders: The heart of the project, here we define the extract data procedure.\n3. Pipelines: Are the proceeds to analyze elements: data validation, cleansing html code outline\n\nIntroduction to webscraping(5 min)\nI will mention the main scraping techniques\n\n1.1. WebScraping\n\n1.2. Screen scraping\n\n1.3. Report mining\n\n1.4. Spiders\n\nPython tools for webscraping(10 min)\nFor each library I will make and introduction with a basic example. In some examples I will use requests library for sending HTTP requests\n\n2.1. BeautifulSoup\n\n2.2. Webscraping\n\n2.2. PyQuery\n\nComparing scraping tools(5 min)\n\n3.1.Introduction to techniques for obtain data from web pages like regular expressions,css selectors, xpath expressions\n\n3.2.Comparative table comparing main features of each tool\n\nProject example with scrapy(10 min)\n\n4.1.Project structure with scrapy\n\n4.2.Components(Scheduler,Spider,Pipeline,Middlewares)\n\n4.3.Generating reports in json,csv and xml formats",
+  "duration": 2670,
+  "language": "eng",
+  "recorded": "2016-04-28",
+  "related_urls": [
+    "https://github.com/jmortega/pydata_webscraping",
+    "https://github.com/jmortega/pydata_webscraping/blob/master/pydata.pdf",
+    "https://github.com/PyDataMadrid2016/Conference-Info"
+  ],
+  "speakers": [
+    "Jos\u00e9 Manuel Ortega"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nDP99hYqAiI/maxresdefault.jpg",
+  "title": "Python tools for webscraping",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nDP99hYqAiI"
+    }
+  ]
+}

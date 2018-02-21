@@ -1,0 +1,30 @@
+{
+  "alias": "video/1993/dmtcp-bringing-checkpoint-restart-to-python-sci",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 1993,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-02",
+  "related_urls": [
+    "http://arxiv.org/abs/1212.5204",
+    "http://dmtcp.sourceforge.net/"
+  ],
+  "slug": "dmtcp-bringing-checkpoint-restart-to-python-sci",
+  "speakers": [],
+  "summary": "Authors: Arya, Kapil, Northeastern University; Cooperman, Gene,\nNortheastern University\n\nTrack: General\n\nDMTCP[1] is a mature user-space checkpoint-restart package. One can\nthink of checkpoint-restart as a generalization of pickling. Instead of\nsaving an object to a file, one saves the entire Python session to a\nfile. Checkpointing Python visualization software is as easy as\ncheckpointing a VNC session with Python running inside.\n\nA DMTCP plugin can be built in the form of a Python module. This Python\nmodule provides functions by which a Python session can checkpoint\nitself to disk. The same ideas extend to IPython.\n\nTwo classical uses of this feature are a saveWorkspace function\n(including visualization and the distributed processes of IPython). In\naddition, at least three novel uses of DMTCP for helping debug Python\nare demonstrated.\n\nFReD[2] --- a Fast Reversible Debugger that works closely with the\nPython pdb debugger, as well as other Python debuggers.\n\nReverse Expression Watchpoint --- A bug occurred in the past. It is\nassociated with the point in time when a certain expression changed.\nBring the user back to a pdb session at the step before the bug\noccurred.\n\nFast/Slow Computation[3] --- Cython provides both traditional\ninterpreted functions and compiled C functions. Interpreted functions\nare slow, but correct. Compiled functions are fast, but users sometimes\ndefine them incorrectly, whereupon the compiled function silently\nreturns a wrong answer. The idea of fast/slow computation is to run the\ncompiled version on one core, with checkpoints at frequent intervals,\nand to copy a checkpoint to another core. The second core re-runs the\ncomputation over that interval, but in interpreted mode.\n\n[1]DMTCP: Transparent Checkpointing for Cluster Computations and the\nDesktop. Ansel, Arya, Cooperman. IPDPS-2009\nhttp://dmtcp.sourceforge.net/ [2]FReD: Automated Debugging via Binary\nSearch through a Process Lifetime http://arxiv.org/abs/1212.5204\n[3]Distributed Speculative Parallelization using Checkpoint Restart,\nGhoshal et al. Procedia Computer Science, 2011.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/1l_wGZz0JEE/hqdefault.jpg",
+  "title": "DMTCP: Bringing Checkpoint-Restart to Python; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=1l_wGZz0JEE"
+    }
+  ]
+}

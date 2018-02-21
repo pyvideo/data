@@ -1,0 +1,30 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Bjoern Meier**\n\nBjoern is a software engineer at Blue Yonder GmbH since 2016 after graduating in Computer Science. More correctly you could say he is a DevOps engineer at Blue Yonder where he is developing and operating - among other things - the services for the external data interfaces, preprocessing and data storage to enable the data scientists to run their prediction models. He loves the versatility and ecosystem of python to write e.g. production web apps, data analysis tools or operational scripts. If there was more free time he would like to spent it to dive deeper into functional programming languages like elixir to have a different view on things.\n\n**Abstract**\n\nWhat you do in Ansible should be clean an simple. What we did was not. So I will show what we did wrong but also what we have changed or still have to, to make our life easier again. But I will also show how we progressively utilize Ansible to deploy our Data Science infrastructure.\n\n**Description**\n\nAnsible should help you to orchestrate your systems, automate the deployments and set up well defined infrastructures. But if you want to make something work quickly in Ansible the chances are high that you fall back to shell/command tasks, the mother of all evil. Those tasks usually prevent you from running dry runs where you would see the upcoming changes and you prevent Ansible to shine. So, we went blindly into every deployment and hoped the best. But we wanted to see what would change, we wanted to make ansible --check work again and therefore in this talk I will show you what we did wrong and what we changed to get there.\n\nMore precisely, I will show what you can do to replace the nasty shell tasks with proper modules, plugins and filters, how they are developed, tested and included in your project.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1692,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Bj\u00f6rn Meier"
+  ],
+  "tags": [
+    "infrasturcture",
+    "business",
+    "devops",
+    "ansible"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7qipNlReXYg/maxresdefault.jpg",
+  "title": "No Compromise: Use Ansible properly or stick to your scripts",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7qipNlReXYg"
+    }
+  ]
+}

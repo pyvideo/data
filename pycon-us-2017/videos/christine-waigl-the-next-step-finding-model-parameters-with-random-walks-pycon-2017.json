@@ -1,0 +1,16 @@
+{
+  "description": "The statistician John Tukey -- who designed the box plot and coined the\nterm \"bit\" -- wrote: \"An approximate answer to the right problem is\nworth a good deal more than an exact answer to an approximate problem\".\nPython has become one of the major languages for statistical data\nanalysis, not least because of the expressiveness of the language itself\nand the availability of tools like Jupyter Notebooks, which enable\niterative reasoning about a problem and its solutions.\n\nThis talks takes one step beyond an introduction to statistics with\nPython and aims to familiarize the audience with two concepts: a class\nof problems (so-called inverse problems), and a powerful statistical\ntool (the random walk, or more formally Markov-Chain Monte Carlo (MCMC)\nsampling with the Metropolis algorithm).\n\nIn inverse problems, model parameters are estimated from observational\ndata. Both model and data are expected to be affected by error. The\nobjective is not only to find parameters that best describe the\nobservations, but also to figure out how good, or how possibly bad, a\nsolution might be. Inverse problems are extremely common in many fields\nand crop up each time we attempt to reconstruct a reality from sensor,\nradar, scattering or imaging data.\n\nThe Metropololis-Hastings algorithm offers a solution via random\nsampling of a Bayesian posterior distribution. Even though listed as one\nof the 20th century's top 10 algorithms by the journal *Computing in\nScience & Engineering*, the Metropolis algorithm is easy to understand\nand implement, and a fun and instructive way to explore even complicated\nmulti-variate probability distributions.\n",
+  "duration": 1379,
+  "recorded": "2017-05-21",
+  "speakers": [
+    "Christine Waigl"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/sHS2-av7AgQ/hqdefault.jpg",
+  "title": "The Next Step: Finding Model Parameters With Random Walks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sHS2-av7AgQ"
+    }
+  ]
+}

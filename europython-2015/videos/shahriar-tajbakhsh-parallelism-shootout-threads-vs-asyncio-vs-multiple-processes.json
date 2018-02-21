@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Shahriar Tajbakhsh - Parallelism Shootout: threads vs asyncio vs multiple processes\n[EuroPython 2015]\n[24 July 2015]\n[Bilbao, Euskadi, Spain]\n\nYou need to download data from lots and lots of URLs stored in a text\nfile and then save them on your machine. Sure, you could write a loop\nand get each URL in sequence, but imagine that there are so many URLs\nthat the sun may burn out before that loop is finished; or, you're\njust too impatient.\n\nFor the sake of making this instructive, pretend you can only use one\nbox. So, what do you do? Here are some typical solutions: Use a single\nprocess that creates lots of threads. Use many processes. Use a single\nprocess and a library like asyncio, gevent or eventlet to yield\nbetween coroutines when the OS blocks on IO.\n\nThe talk will walk through the mechanics of each approach, and then\nshow benchmarks of the three different approaches.",
+  "duration": 1739,
+  "language": "eng",
+  "recorded": "2015-08-02",
+  "related_urls": [],
+  "speakers": [
+    "Shahriar Tajbakhsh"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/B0Qfe3U_hKU/maxresdefault.jpg",
+  "title": "Parallelism Shootout: threads vs asyncio vs multiple processes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=B0Qfe3U_hKU"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyconAR 2016 - Bah\u00eda Blanca\n\nIntroducci\u00f3n a programaci\u00f3n paralela con PyOpenCL por Celia Cintas\n\nAudience level: Principiante\n\nDescripci\u00f3n\n\nSe mostrar\u00e1 c\u00f3mo crear soluciones paralelas e independientes al hardware (CPUs, DSP, FPGAs y GPUs) utilizando PyOpenCL. Veremos una breve introducci\u00f3n a conceptos b\u00e1sicos: arquitecturas, tipos de memoria y modelos de ejecuci\u00f3n. Luego implementaremos el pipeline b\u00e1sico de una aplicaci\u00f3n con PyOpenCL y resolveremos problemas desde simples operaciones con matrices hasta proc. de im\u00e1genes.\n\nResumen\n\nOpenCL es un est\u00e1ndar abierto y libre para la programaci\u00f3n paralela de prop\u00f3sito general sobre CPU, GPU entre otros. OpenCL nos permite desarrollar c\u00f3digo r\u00e1pido y eficiente para una serie de aplicaciones con diferentes comportamientos: control intensivo (b\u00fasqueda y clasificaci\u00f3n), vol\u00famenes de datos (procesamiento de im\u00e1genes, simulaci\u00f3n y modelado, y la miner\u00eda de datos), c\u00e1lculo intensivo (m\u00e9todos iterativos, m\u00e9todos num\u00e9ricos y modelamiento financiero). OpenCL abstrae el c\u00f3digo de cuestiones espec\u00edficas del hardware, permitiendo que nuestros programas se ejecuten sobre una gran variedad de dispositivos. PyOpenCL es un entorno de programaci\u00f3n Python, que reduce la cantidad de c\u00f3digo C a solo la implementaci\u00f3n de los kernels, dejando el resto de nuestro c\u00f3digo (la parte de host) en Python, sin renunciar a la eficiencia ni la velocidad y manteniendo la independencia del hardware.\n\nEstructura de la charla\n\n* Qu\u00e9 es programaci\u00f3n paralela?\n* Qu\u00e9 es OpenCL? Cuales son sus componentes?\n* Arquitectura abstracta de OpenCL\n* Tipos de memoria en OpenCL\n* Modelo de ejecuci\u00f3n OpenCL\n* Introducci\u00f3n a PyOpenCL (hands-on c\u00f3digo en ipynb)\n* Plataforma, Contextos, Colas, Kernel y programas.\n* Buffers\n* Ejemplos de operaciones de matrices, procesamiento de im\u00e1genes y fractales.\n",
+  "duration": 2292,
+  "language": "spa",
+  "recorded": "2016-11-25",
+  "related_urls": [],
+  "speakers": [
+    "Celia Cintas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nz0eBPJlezg/maxresdefault.jpg",
+  "title": "Introducci\u00f3n a programaci\u00f3n paralela con PyOpenCL",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nz0eBPJlezg"
+    }
+  ]
+}

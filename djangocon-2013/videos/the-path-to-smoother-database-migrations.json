@@ -1,0 +1,25 @@
+{
+  "category": "DjangoCon 2013",
+  "copyright_text": "",
+  "description": "",
+  "duration": 2310,
+  "id": 4772,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-10-01",
+  "slug": "the-path-to-smoother-database-migrations",
+  "speakers": [
+    "Nathan Duthoit"
+  ],
+  "summary": "The Path to Smoother Database Migrations\n\nTuesday 4:45 p.m.--5:30 p.m.\n\nAudience level: Experienced\n\nDescription\n\nMigrations are often applied as part of the deploy process. For most\nDjango applications, this is fine. However, when your data becomes\nlarge, slow migrations and locked tables can result in downtime. Running\nmigrations outside of the deploy process helps minimize the impact. This\ntalk will go over this and other strategies I have found successful in\nminimizing downtime during database migrations. Abstract The common\napproach and its challenges The first step: running migrations\nout-of-band What it means\n\nCode deployed should work both before and after the migration is applied\nStep by step examples: adding a new model adding a required field to an\nexisting model changing an existing field\n\nThe challenges introduced: More process and discipline required when\ndeveloping Continuous deployment becomes more challenging\n\nSpeeding up schema migrations When running the migration with south is\ntoo slow\n\nA showcase of pt-online-schema-change: how it works, its challenges\nHandling long data migrations:\n\nThe issue with running long data migrations using south: takes too long,\nssh connection could be lost, no measure of progress Options (advantages\nand challenges of each): management command in screen background\n(celery) tasks: monitoring progress throttling to reduce impact on the\nsystem\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-z6bKWmiAiQ/hqdefault.jpg",
+  "title": "The Path to Smoother Database Migrations",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-z6bKWmiAiQ"
+    }
+  ]
+}

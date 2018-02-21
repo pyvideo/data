@@ -1,0 +1,28 @@
+{
+  "description": "As a first step we worked with FloodList.com to integrate their observations collated from media reports into a database hosted at the European Centre for Medium Range Weather Forecasts (ECMWF).\nFloodList.com provide the data in json format via an API which is then queried on a daily basis to update the ECMWF hosted database.\n\nA web interface is being developed to allow users to visualise and query the database, examples queries include the time period, season, location and flood type.\nAll the results of the queries are displayed on a WebMap so is it possible to locate the point on a geographical context.\nThe architecture of the system is based on a Django 'light' layer that runs on top of the ECMWF web infrastructure. Through an orchestrator all the requests are dispatched to some python based services that performs the computations and return the results to the Django layer that uses some templates to visualise the results.\n\nThese resources could be useful for contextualisation studies of the risk posed to exposed populations who inhabit flood prone areas. They will also be useful for the verification of the growing number of global and continental flood forecasting systems. Future developments include the addition of different data sources to the database as well as the integration of the web interface into the Global Flood Awareness System [GloFAS] website. With this integration we aim to encourage directly report flood events through an online form.",
+  "duration": 1464,
+  "language": "eng",
+  "recorded": "2017-04-04",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://2017.djangocon.eu/filer_public/ed/b7/edb7e402-3930-4f23-adcb-4369665f047f/djangocon_firenze_2017_7.pptx"
+    },
+    {
+      "label": "FloodList",
+      "url": "http://floodlist.com/"
+    }
+  ],
+  "speakers": [
+    "Maurizio Latini"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/NbghPf939hg/hqdefault.jpg",
+  "title": "Floods List database",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NbghPf939hg"
+    }
+  ]
+}

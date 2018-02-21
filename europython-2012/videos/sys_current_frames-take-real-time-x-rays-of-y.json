@@ -1,0 +1,26 @@
+{
+  "alias": "video/1257/sys_current_frames-take-real-time-x-rays-of-y",
+  "category": "EuroPython 2012",
+  "copyright_text": "Standard YouTube License",
+  "description": "Profiling is hard. Trying to understand what is making your system slow\ncan be very frustrating. Specially when it happens only when your\nclients are looking, but not you. Python comes with elaborate profiling\ntools, but understanding the output of profile/cProfile can be a\ndaunting task, specially on complex frameworks, and these modules might\nbe impractical in a production environment where their performance toll\ncan make the system unusable. But Python is a very reflexive language,\nallowing extensive investigation of its own state during runtime, and\none of its lesser known tools is the sys.\\ *current*\\ frames() function.\nIt can be used to take an X-ray of what all the threads in your running\nPython program are doing. It can also be used for a kind of\n\u201cstatistical\u201d profiling, with little impact on your running system. In\nthis talk we\u2019ll investigate how this function can be used to tell what\nyour program is doing, exactly at the moment when it is misbehaving.\nWe\u2019ll learn how looking at a series of tracebacks, instead of a bunch of\ncalling statistics, can help zooming quickly into code hot spots. We\u2019ll\nalso show some case studies of real world server-side slowdowns that\nwere solved by the use of this technique which were caused by complex\ninteractions of different components, including a case where a serious\nperformance issue was diagnosed in a production deployment of ERP5 in a\ncorporate client of Nexedi\u2019s.\n",
+  "duration": null,
+  "id": 1257,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2012-07-06",
+  "slug": "sys_current_frames-take-real-time-x-rays-of-y",
+  "speakers": [
+    "Leonardo Almeida"
+  ],
+  "summary": "[EuroPython 2012] Leonardo Almeida - 5 JULY 2012 in \"Track Spaghetti\"\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/MFqP03EfT4I/hqdefault.jpg",
+  "title": "sys._current_frames(): take real-time X-rays of your software for fun and performance",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=MFqP03EfT4I"
+    }
+  ]
+}

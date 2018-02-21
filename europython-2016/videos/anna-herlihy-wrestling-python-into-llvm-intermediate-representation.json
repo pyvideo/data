@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Anna Herlihy - Wrestling Python into LLVM Intermediate Representation\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/wrestling-python-into-llvm-intermediate-representation)\n\nThe LLVM Project provides an intermediate representation (LLVM-IR)\nthat can be compiled on many platforms. LLVM-IR is used by analytical\nframeworks to achieve language and platform independence. What if we\ncould add Python to the long list of languages that can be translated\nto LLVM-IR? This talk will go through the steps of wrestling Python\ninto LLVM-IR with a simple, static one-pass compiler.\n\n-----\n\nWhat is LLVM-IR?\n\nThe LLVM Compiler Infrastructure Project provides a transportable\nintermediate representation (LLVM-IR) that can be compiled and linked\ninto multiple types of assembly code. What is great about LLVM-IR is\nthat you can take any language and distill it into a form that can be\nrun on many different machines. Once the code gets into IR it doesn\u2019t\nmatter what platform it was originally written on, and it doesn\u2019t\nmatter that Python can be slow. It doesn\u2019t matter if you have weird\nCPUs - if they\u2019re supported by LLVM it will run.\n\nWhat is Tupleware?\n\nTupleWare is an analytical framework built at Brown University that\nallows users to compile functions into distributed programs that are\nautomatically deployed. TupleWare is unique because it uses LLVM-IR to\nbe language and platform independent.\n\nWhat is PyLLVM?\n\nThis is the heart of the talk. PyLLVM is a simple, easy to extend,\none-pass static compiler that takes in the subset of Python most\nlikely to be used by Tupleware. PyLLVM is based on an existing project\ncalled py2llvm that was abandoned around 2011.\n\nThis talk will go through some basic compiler design and talk about\nhow some LLVM-IR features make our lives easier, and some much harder.\nIt will cover types, scoping, memory management, and other\nimplementation details. To conclude, it will compare PyLLVM to Numba,\na Python-to-LLVM compiler from Continuum Analytics and touch on what\nthe future has in store for PyLLVM.",
+  "duration": 1547,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/wrestling-python-into-llvm-intermediate-representation"
+  ],
+  "speakers": [
+    "Anna Herlihy"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/knL-c9WIru8/maxresdefault.jpg",
+  "title": "Wrestling Python into LLVM Intermediate Representation",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=knL-c9WIru8"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Dan Reif\nhttps://2016.pycon-au.org/schedule/131/view_talk\nWith tens of millions of Python invocations every day, what\u2019s a packager to do?  The answer selected must account for the insanity of a deeply-heterogeneous production environment: different kernels, different OS distributions, even different versions of system Python.  It also needs enough context to carry with it a consistent reference point for when it was packaged relative to the work of thousands of engineers in a single, unified source control tree.  Lastly, at Facebook scale with hundreds of thousands of servers, every byte sent over the network and stored on disk counts, and every CPU cycle wasted can create a myriad of challenges associated with data center operations management.\n\nSure, it\u2019d be easy to show what a beautiful, easy packaging format we\u2019ve developed at Facebook, and sing its praises, but that\u2019s not what this talk is about.  Instead, we\u2019ll get into the nitty-gritty, and talk about hard tradeoffs that happen when developing a system in the real world.  This is an in-depth look at how Facebook\u2019s packaging has evolved, warts and speed bumps included.  Some of the design goals we addressed (and/or issues we hit!) included:\n\n* Synchronizing and pinning versioning of underlying compiled libraries across related tools\n* Running the package as a transparently-Pythonic command-line utility, \u00e0 la shebang, so we could do in-place replacements of packages written in other languages (e.g. C++)\n* Optimizing package size transferred across the network\n* Optimizing package sizes on disk\n* Minimizing package launch times\n* Handling packages launched from a network-FS location that subsequently goes offline\n\nAttendees will learn about the different tools and techniques we used to solve these challenges, as well as the reasoning behind any trade offs that were made.",
+  "duration": 1992,
+  "language": "eng",
+  "recorded": "2016-08-15",
+  "related_urls": [
+    "https://2016.pycon-au.org/schedule/131/view_talk"
+  ],
+  "speakers": [
+    "Dan Reif"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/56C-0o0zwZ4/maxresdefault.jpg",
+  "title": "The Evolution of Python Packaging at Facebook",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=56C-0o0zwZ4"
+    }
+  ]
+}

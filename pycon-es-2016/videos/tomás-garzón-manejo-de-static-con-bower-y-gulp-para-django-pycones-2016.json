@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "En Django normalmente tenemos que incluir librer\u00edas de JS as\u00ed como nuestro c\u00f3digo. Adem\u00e1s, los estilos los podemos incluir de librer\u00edas externas, tanto less/sass/css y nuestros propios estilos. Como programadores necesitamos poder gestionar estos ficheros, tanto en la fase de desarrollo como en el posterior despliegue. Veremos como podemos utilizar Bower para gestionar las librer\u00edas que necesitamos en nuestro proyecto (como jquery, bootstrap, Backbone, Toastr\u2026) y mediante Gulp las iremos minimizando e integrando en nuestro template base de Django. Para los estilos, utilizaremos tambi\u00e9n Bower y mediante el compilador de less, iremos generando los ficheros css necesarios para nuestra web. Finalmente, mediante bower y gulp veremos c\u00f3mo somos capaces de generar un template base para Django, donde se incluyan todas las dependencias minimizadas y con una marca temporal para facilitar el cacheo en el navegador, sirviendo el m\u00ednimo n\u00famero de ficheros posibles.\n\nPresentaci\u00f3n disponible en http://slides.com/tomasgarzon/django-gulp/\n\n\nhttp://2016.es.pycon.org/",
+  "duration": 1923,
+  "language": "spa",
+  "recorded": "2016-10-08",
+  "related_urls": [
+    "http://2016.es.pycon.org/",
+    "http://slides.com/tomasgarzon/django-gulp/"
+  ],
+  "speakers": [
+    "Tom\u00e1s Garz\u00f3n"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/mxRpZqQxmsA/maxresdefault.jpg",
+  "title": "Manejo de static con bower y gulp para Django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mxRpZqQxmsA"
+    }
+  ]
+}

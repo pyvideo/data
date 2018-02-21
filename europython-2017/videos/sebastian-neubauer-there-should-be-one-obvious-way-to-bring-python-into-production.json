@@ -1,0 +1,16 @@
+{
+  "description": "The DevOps methodology is reality. That said, many developers have to\ndeal with the process of bringing python applications into\nproduction.\nOne aphorism of the Zen of Python states: \"There should be one-- and\npreferably only one --obvious way to do it.\"\n\nWhile for the language itself and code being written with it, this\nadvice is often strictly followed for good reasons. For the process\nof bringing python into production it is not.\n\nIn the first part of this talk I will give an overview of the\ndifferent steps in the delivery pipeline, from packaging to\ndeployment and the various possible implementations for each of those\nsteps that emerged over the last years. We will discuss docker, pex,\nwheels, debs, and tars. We will learn why fixed environments are\ncrucial and why pip is not yet what it should be. We learn about the\ndifferent runtime environments, from bare metal servers over\nephemeral container clusters to \u201cserverless\u201d and what they impose on\nthe deployment process and scratch on the surface of configuration\nmanagement using tools like Ansible and orchestration frameworks like\nKubernetes. We will also explore the world beyond python by looking\ninto other languages ecosystems and learn how they addressed and\nsolved this issue.\n\nAfter we understood the requirements and realized that there is not\n\"one obvious way to do it\", this talk is a call to action: Let us\ndefine and build the \u201cone obvious way\u201d of how we want to bring python\ninto production!",
+  "duration": 1834,
+  "recorded": "2017-07-11",
+  "speakers": [
+    "Sebastian Neubauer"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/hnQKsxKjCUo/hqdefault.jpg",
+  "title": "There should be one obvious way to bring python into production",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hnQKsxKjCUo"
+    }
+  ]
+}

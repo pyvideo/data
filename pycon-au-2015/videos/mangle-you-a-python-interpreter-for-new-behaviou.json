@@ -1,0 +1,31 @@
+{
+  "alias": "video/3956/mangle-you-a-python-interpreter-for-new-behaviou",
+  "category": "PyCon AU 2015",
+  "copyright_text": "creativeCommon",
+  "description": "What happens when you feel some syntax or behaviour is missing from\nPython? You could fork the interpreter, but then nobody else could run\nyour programs. Instead, you could implement the new behaviour as a\nPython module to be imported, and distribute it with your programs.\n\nFollowing hot on the tracks of previous Pycon-AU talks like \"Don't Do\nThis\" (2013) and the \"ugly hacks\" bit of \"Here be dragons: some elegant\nand ugly hacks in CPython\" (2014), this presentation will grant some of\nthe requests you never dared to make:\n\n-  You'd like for PEP 336, Make None Callable to have succeeded? You can\n   make your own None()! Easy in CPython with CTypes!\n\n-  You'd like to have the \"?.\" operator available for safe attribute\n   access? Just add the syntax to pypy, then use a source codec hack to\n   rewrite it into a legal Python 2.7 function. Too easy!\n\n-  Your reaction to all of this is \u201cplease make it stop\u201d? The talk will\n   finish by discussing why having extensible syntax as a standard\n   Python feature might even be a good idea! It is in other languages!\n\nThis talk is for intermediate to advanced Python users, and for\nbeginning Python implementors.\n\nSlides: http://hiperactivo.com/talks/pyconau15/mangling\\_python/\n\nRepos:\n\n-  quiet\\_None: https://bitbucket.org/candeira/quiet\\_none/\n\n-  question\\_dot: https://bitbucket.org/candeira/question\\_dot/\n\n\n",
+  "duration": null,
+  "id": 3956,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-08-16",
+  "related_urls": [
+    "http://hiperactivo.com/talks/pyconau15/mangling\\_python/",
+    "https://bitbucket.org/candeira/question\\_dot/",
+    "https://bitbucket.org/candeira/quiet\\_none/"
+  ],
+  "slug": "mangle-you-a-python-interpreter-for-new-behaviou",
+  "speakers": [
+    "Javier Candeira"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9_LnOTFDNUk/hqdefault.jpg",
+  "title": "\u00a1Mangle You A Python Interpreter for New Behaviour!",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9_LnOTFDNUk"
+    }
+  ]
+}

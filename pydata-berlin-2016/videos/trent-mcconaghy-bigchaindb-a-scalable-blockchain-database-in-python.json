@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nThis talk describes BigchainDB. BigchainDB fills a gap in the decentralization ecosystem: a decentralized database, at scale. It has big-data performance levels, a querying system, and a permissioning system that supports public and private versions. It's complementary to decentralized processing platforms like Ethereum, and decentralized file systems like IPFS. BigchainDB is written in Python.\n\nThis talk describes BigchainDB. BigchainDB fills a gap in the decentralization ecosystem: a decentralized database, at scale. It points to performance of 1 million writes per second throughput, storing petabytes of data, and sub-second latency.\n\nThe BigchainDB design starts with a distributed database (DB), and through a set of innovations adds blockchain characteristics: decentralized control, immutability, and creation & movement of digital assets. BigchainDB inherits characteristics of modern distributed databases: linear scaling in throughput and capacity with the number of nodes, a full-featured NoSQL query language, efficient querying, and permissioning. Being built on an existing distributed DB, it also inherits enterprise-hardened code for most of its codebase.\n\nScalable capacity means that legally binding con- tracts and certificates may be stored directly on the blockchain database. The permissioning system enables configurations ranging from private enterprise blockchain databases to open, public blockchain databases. BigchainDB is complementary to decentralized processing platforms like Ethereum, and decentralized file systems like InterPlanetary File System (IPFS).\n\nThis talk describes technology perspectives that led to the BigchainDB design: traditional blockchains, distributed databases, and a case study of the domain name system (DNS). We introduce a concept called blockchain pipelining, which is key to scalability when adding blockchainlike characteristics to the distributed DB. We present a thorough description of BigchainDB, a detailed analysis of latency, and experimental results. The talk concludes with a description of use cases.\n\nSlides: https://github.com/bigchaindb/bigchaindb",
+  "duration": 2599,
+  "language": "eng",
+  "recorded": "2016-05-31",
+  "related_urls": [
+    "https://github.com/bigchaindb/bigchaindb"
+  ],
+  "speakers": [
+    "Trent McConaghy"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/1NHHmHVCWy0/maxresdefault.jpg",
+  "title": "BigchainDB : a Scalable Blockchain Database, in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1NHHmHVCWy0"
+    }
+  ]
+}

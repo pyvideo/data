@@ -1,0 +1,26 @@
+{
+  "alias": "video/2089/modeling-the-earth-with-fatiando-a-terra-scipy-2-1",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 2089,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-01",
+  "slug": "modeling-the-earth-with-fatiando-a-terra-scipy-2-1",
+  "speakers": [],
+  "summary": "Authors: Uieda, Leonardo, Observatorio Nacional; Oliveira Jr, Vanderlei\nC., Observatorio Nacional; Barbosa, V\n\nTrack: General\n\nSolid Earth geophysics is the science of using physical observations of\nthe Earth to infer its inner structure. Generally, this is done with a\nvariety of numerical modeling techniques and inverse problems. The\ndevelopment of new algorithms usually involves copy and pasting of code,\nwhich leads to errors and poor code reuse. Added to this is a modeling\npipeline composed of various tools that don't communicate with each\nother (Fortran/C for computations, large complicated I/O files,\nMatlab/VTK for visualization, etc).\n\nFatiando a Terra is a Python library that aims to unify the modeling\npipeline inside of the Python language. This allows users to replace the\ntraditional shell scripting with more versatile and powerful Python\nscripting. Together with the new IPython notebook, Fatiando a Terra can\nintegrate all stages of the geophysical modeling process, like data\npre-processing, inversion, statistical analysis, and visualization.\nHowever, the library can also be used for quickly developing stand-alone\nprograms that can be integrated into existing pipelines. Plus, because\nfunctions inside Fatiando a Terra use a common data and mesh format,\nexisting algorithms can be combined and new ideas can build upon\nexisting functionality. This flexibility facilitates reproducible\ncomputations, prototyping of new algorithms, and interactive teaching\nexercises.\n\nAlthough the project has so far focused on potential field methods\n(gravity and magnetics), some numerical tools for other geophysical\nmethods have been developed as well. The library already contains: fast\nimplementations of forward modeling algorithms (using Numpy and Cython),\ngeneric inverse problem solvers, unified geometry classes (prism meshes,\npolygons, etc), functions to automate repetitive plotting tasks with\nMatplotlib (automatic griding, simple GUIs, picking, projections, etc)\nand Mayavi (automatic conversion of geometry classes to VTK, drawing\ncontinents, etc). In the future, we plan to continuously implement\nclassic and state-of-the-art algorithms as well as sample problems to\nhelp teach geophysics.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/Ec38h1oB8cc/hqdefault.jpg",
+  "title": "Modeling the Earth with Fatiando a Terra; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=Ec38h1oB8cc"
+    }
+  ]
+}

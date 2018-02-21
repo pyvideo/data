@@ -1,0 +1,30 @@
+{
+  "alias": "video/2168/ipython-in-depth-scipy2013-tutorial-part-1-of-3-1",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 2168,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-06-27",
+  "related_urls": [
+    "http://ipython.org/install.html",
+    "https://github.com/ipython/ipython-in-depth"
+  ],
+  "slug": "ipython-in-depth-scipy2013-tutorial-part-1-of-3-1",
+  "speakers": [],
+  "summary": "Presenters: Fernando Perez, Brian Granger\n\nDescription\n\nIPython provides tools for interactive and parallel computing that are\nwidely used in scientific computing, but can benefit any Python\ndeveloper.\n\nWe will show how to use IPython in different ways, as: an interactive\nshell, an embedded shell, a graphical console, a network-aware VM in\nGUIs, a web-based notebook with code, graphics and rich HTML, and a\nhigh-level framework for parallel computing.\n\nOutline\n\nIPython started in 2001 simply as a better interactive Python shell.\nOver the last decade it has grown into a powerful set of interlocking\ntools that maximize developer productivity in Python while working\ninteractively.\n\nToday, IPython consists of a kernel that executes the user code and\nprovides many features for introspection and namespace manipulation, and\ntools to control this kernel either in-process or out-of-process thanks\nto a well-specified communications protocol implemented over ZeroMQ.\nThis architecture allows the core features to be accessed via a variety\nof clients, each providing unique functionality tuned to a specific use\ncase:\n\nAn interactive, terminal-based shell with capabilities beyond the\ndefault Python interactive interpreter (this is the classic application\nopened by the ipython command that most users are familiar with).\n\nA Qt console that provides the look and feel of a terminal, but adds\nsupport for inline figures, graphical calltips, a persistent session\nthat can survive crashes of the kernel process, and more. A user-based\nreview of some of these features can be found here.\n\nA web-based notebook that can execute code and also contain rich text\nand figures, mathematical equations and arbitrary HTML. This notebook\npresents a document-like view with cells where code is executed but that\ncan be edited in-place, reordered, mixed with explanatory text and\nfigures, etc. The notebook provides an interactive experience that\ncombines live code and results with literate documentation and the rich\nmedia that modern browsers can display.\n\nA high-performance, low-latency system for parallel computing that\nsupports the control of a cluster of IPython engines communicating over\nZeroMQ, with optimizations that minimize unnecessary copying of large\nobjects (especially numpy arrays). These engines can be controlled\ninteractively while developing and doing exploratory work, or can run in\nbatch mode either on a local machine or in a large\ncluster/supercomputing environment via a batch scheduler.\n\nIn this hands-on, in-depth tutorial, we will briefly describe IPython's\narchitecture and will then show how to use the above tools for a highly\nproductive workflow in Python.\n\nRequired Packages\n\nEnthought Canopy OR Anaconda OR Linux packages for IPython, NumPy,\nMatplotlib, SymPy See http://ipython.org/install.html for further\ninstallation details.\n\nIPython version 0.13.1 or higher will be required.\n\nDocumentation\n\nA GitHub repo with our tutorial materials:\n\nhttps://github.com/ipython/ipython-in-depth\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/xe_ATRmw0KM/hqdefault.jpg",
+  "title": "IPython in Depth, SciPy2013 Tutorial, Part 1 of 3",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=xe_ATRmw0KM"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "The practice in the development of advanced web applications is\nto break it into two main areas where the effort on the server,\nwith the typical WSGI environments, focuses on data access configuration\nwhereas the application logic is delegated mostly to the client through\nthe use of JavaScript frameworks.\n\nThe reason for this separation into two roles lies in the need to use\nJavaScript on the browser and the fact that the communication\nchannel (HTTP) and the way in which the application state is handled\non the server side is still that thought to serve full web pages.\n\nIn this talk I'll show a framework and an application where the line\nbetween the two worlds is blurred and where it is possible to think\nof the application in terms of unity, with the two components that\ncooperate equally and communicate without thinking in terms of URLs\nor HTTP verbs .\n\nThis is made possible by the asynchronous/reactive management\nof the processing from the database driver to the user interaction,\nthe use of websocket for communication and the use of Python (optional)\nfor the development of the client part.\n\nSome technologies used are: PostgreSQL, the \"asyncpg\" driver, the\n\"aiohttp\" web server, Crossbar (http://crossbar.io) for the websocket\ncomms, pkg \"metapensiero.sphinx.patchdb\" for schema upgrades,\nthe package \"metapensiero.reactive\" and \"metapensiero.signal\"\nfor the management of reactive event streams,\nthe package \"Javascripthon\" for Py3 to ES6 JS transpiling.",
+  "duration": 1828,
+  "recorded": "2017-07-11",
+  "speakers": [
+    "Alberto Berti"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/saQsCY1MUBM/hqdefault.jpg",
+  "title": "Get over the boundaries between client and server in web app development",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=saQsCY1MUBM"
+    }
+  ]
+}

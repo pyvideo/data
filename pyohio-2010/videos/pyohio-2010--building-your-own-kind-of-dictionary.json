@@ -1,0 +1,35 @@
+{
+  "alias": "video/505/pyohio-2010--building-your-own-kind-of-dictionary",
+  "category": "PyOhio 2010",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Building your own kind of dictionary\n\nPresented by W. Matthew Wilson\n\nMy talk is based on a project that seemed very simple at first. I wanted\nan object like the regular python dictionary, but with a few small\ntweaks:\n\n-  values for some keys should be restricted to elements of a set\n-  values for some keys should be restricted to instances of a type\n\nFor example, pretend I want a dictionary called favorites, and I want\nthe value for the \"color\" key to be any instance of my Color class.\nMeanwhile, for the \"movie\" key, I want to make sure that the value\nbelongs to my set of movies.\n\nIn the talk, I'll walk through how I used tests to validate my different\nimplementations until I came up with a winner.\n\nUnlike my talk last year on metaclass tomfoolery, and the year before\nthat on fun with decorators (and decorator factories) I'm hoping to make\nthis talk straightforward and friendly to beginning programmers.\n\nYou'll see:\n\n-  how I use tests to solve a real-world problem\n-  a few little gotchas with the super keyword\n-  a little about how python works under the hood.\n\n",
+  "duration": null,
+  "id": 505,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2010-07-31",
+  "slug": "pyohio-2010--building-your-own-kind-of-dictionary",
+  "speakers": [
+    "W. Matthew Wilson"
+  ],
+  "summary": "",
+  "tags": [
+    "dict",
+    "dictionaries",
+    "pyohio",
+    "pyohio2010"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_505___pyohio-2010-building-your-own-kind-of-dictionary",
+  "title": "PyOhio 2010: Building your own kind of dictionary",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_505___pyohio-2010-building-your-own-kind-of-dictionary"
+    },
+    {
+      "length": null,
+      "type": "flv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pyohio-2010/505_pyohio-2010-building-your-own-kind-of-dictionary.flv"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "alias": "video/431/pycon-2011--dependency-management-with-puppet",
+  "category": "PyCon US 2011",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Dependency management with Puppet\n\nPresented by Richard Crowley\n\nPuppet is a configuration management tool that we'll learn to use the\neasy way. We'll introduce the Puppet language and the concept of\nresources like packages, files, shell commands, and more. We'll use\nPuppet to build our dev environment and deploy it to production servers.\n\nAbstract\n\nWe've all been there: religiously following the steps in some blog post\nfor the 47th time trying to setup a shiny new server. We thought we'd\nimproved the situation when we copied our Bash history into doit.sh and\ncommitted it. Then along came Pip and requirements.txt files.\n\nThat's where most of us are today. Pip can only manage Python packages\nso much of our servers' behavior is left to Lady Luck. Puppet gives us\nthe power to efficiently and confidently specify everything our program\nneeds.\n\nWe'll start at square one and the concept of resources, the basic unit\nof configuration management. We'll learn the Puppet language's resource\nsyntax. We'll talk about obvious resource types like packages and files\nplus less obvious types like shell commands, users, groups, and daemons.\nWe'll compose resources into larger ones, declare dependencies between\nresources, and accommodate differences between OS X and Linux.\n\nThese Puppet manifests can satisfy our program's dependencies on demand,\nmaking them ideal parts of the deploy process. We'll walk through how\nPuppet is used to build production environments both through tools such\nas Fabric and Puppet's traditional client-server mode.\n\nDependency hell doesn't have to be your reality. Consistent, reliable\nenvironments can be had with Puppet.\n",
+  "duration": null,
+  "id": 431,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--dependency-management-with-puppet",
+  "speakers": [
+    "Richard Crowley"
+  ],
+  "summary": "",
+  "tags": [
+    "dependencies",
+    "puppet",
+    "pycon",
+    "pycon2011"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_431___dependency-management-with-puppet",
+  "title": "Dependency management with Puppet",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_431___dependency-management-with-puppet"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/431_dependency-management-with-puppet.mp4"
+    }
+  ]
+}

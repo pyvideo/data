@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Dask is a modern parallel computing library completely written in Python. It is extremely flexible, being able to work well on a laptop, using all available cores in parallel, or scale up to a cluster of hundreds of nodes.\n\nInstead of forcing you to wrap your code to use the map-reduce paradigm, it mimics the numpy array and pandas dataframe interfaces, so you can continue doing everything the same way you always do.\n\nDask main abstraction is a Directed Acyclic Graph called \"dask\" (distributed task) implemented as a simple dictionary. The different interfaces (bag, array, dataframe) create these dasks, that are later computed in a distributed fashion using a suitable scheduler.\n\nForget about the JVM overhead. The future is now, the future is dask!\n\nSlides available at http://slides.com/israelsaetaperez/dask-pycones16/\n\n\nhttp://2016.es.pycon.org/",
+  "duration": 2196,
+  "language": "eng",
+  "recorded": "2016-10-09",
+  "related_urls": [
+    "http://2016.es.pycon.org/",
+    "http://slides.com/israelsaetaperez/dask-pycones16/"
+  ],
+  "speakers": [
+    "Israel Saeta"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9JqXaoyfGrM/maxresdefault.jpg",
+  "title": "Distributed computing with Dask",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9JqXaoyfGrM"
+    }
+  ]
+}

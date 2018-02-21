@@ -1,0 +1,15 @@
+{
+  "description": "Any data driven projects can benefit greatly from a simple, interactive, and easily accessible user interface. Whether your project is in the prototyping stage or you just want a way to quickly get your ideas and research to an audience unfamiliar with the command line, this talk will show you how to quickly turn your python code into interactive web applications.\n\nAs an engineer, analyst, or scientist, sharing your work with someone outside of your immediate team can be a challenge. End-users embody many roles with a wide range of technical skill and often times no familiarity with Python or the command line. Findings, key results, and models are frequently boiled down to static graphs, tables, and figures presented in short reports or slideshow presentations. However, engaging research and data analysis is interactive, anticipating the users\u2019 questions and giving them the tools to answer those questions with a simple and intuitive user interface.\n\nBrowser based applications are an ideal vehicle for delivering these types of interactive tools, but building a web app requires setting up backend applications to serve up content and creating a UI with languages like HTML, CSS, and JavaScript. This is a non-trivial task even for web-developers and can be completely overwhelming for anyone not familiar with web stack basics.\n\nSpyre (https://github.com/adamhajari/spyre) is a web application framework for the python developer who may have little knowledge of how web applications works, much less how to build them. Spyre takes care of setting up both the front and back-end of your web application. It uses CherryPy to handle HTTP request logic and Jinja2 to auto-generate all of the client-side nuts and bolts, allowing developers to quickly move the inputs and outputs of their python modules into a browser based application. Inputs, controls, outputs, and the relationships between all of these components are specified in a python dictionary. The developer need only define this dictionary and override the methods needed to generate content (text, tables, and plots).\n\nWhile Spyre apps are launched on CherryPy\u2019s production-ready server, Spyre\u2019s primary goal is to provide a development path for simple light-weight apps without the need for a designer or front-end engineer. For example, Spyre can be used for:\n\nrapid prototyping and building MVPs\ndata exploration\ndeveloping educational resources\nbuilding monitoring tools\npresenting interactive scientific or analytical results to a non-technical audience\njust to name a few.\n\nMaterials available here: http://bit.ly/pydata2015_spyre",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Adam Hajari"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NPV2hHV6hxY/hqdefault.jpg",
+  "title": "From DataFrames to Interactive Web Applications in 10 minutes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NPV2hHV6hxY"
+    }
+  ]
+}

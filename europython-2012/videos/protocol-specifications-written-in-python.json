@@ -1,0 +1,26 @@
+{
+  "alias": "video/1310/protocol-specifications-written-in-python",
+  "category": "EuroPython 2012",
+  "copyright_text": "Standard YouTube License",
+  "description": "Rapidly updating the requirements and implementation of a\nmachine-to-machine communication protocol is hard in itself, and keeping\na protocol specification and documentation up-to-date is always a\nburden, and sometimes becomes an impossibility. At Visual Units, when\nthis became a problem with the protocol between the embedded software\nand the fleet management server, we changed the approach and specified\nthe protocol in Python. This allows us to use the specification directly\nwhen generating and parsing messages, as well as making it possible to\ngenerate protocol documentation, and source code for our Java (J2ME)\nclient software. We implemented everything from scratch, and found it\nsurprisingly easy to do without documentation and specifications\nexternal to The Code. This talk will focus on lessons learned and\npitfalls found during the implementation of this solution, with code\nexamples from our current state of art as well as showcases of some of\nthe mistakes we made and the types of magic used in different iterations\n- most notably metaclasses and the inspect and imp modules. It will\nfollow the evolution from the first (quite horrible) attempts, to our\ncurrent implementation. I will also discuss what has been gained by\nadopting this solution and the tradeoffs that we have made. The intended\naudience is developers and designers who work with and design protocols,\nas well as developers with a general interest in code as specification.\nThis is not a presentation of a framework for use in any application\n(although code is available), but an in-depth look at how far you can go\nwith custom-built tools.\n",
+  "duration": null,
+  "id": 1310,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2012-07-04",
+  "slug": "protocol-specifications-written-in-python",
+  "speakers": [
+    "F Haard"
+  ],
+  "summary": "[EuroPython 2012] F Haard - 4 JULY 2012 in \"Track Ravioli\"\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/Cgf73JmuINU/hqdefault.jpg",
+  "title": "Protocol specifications written in python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=Cgf73JmuINU"
+    }
+  ]
+}

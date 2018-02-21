@@ -1,0 +1,16 @@
+{
+  "description": "PyData Amsterdam 2017\n\nDeploying models to production can sometimes be more difficult than developing the model itself. In this talk we'll explain how we deploy our Pandas/Scikit machine learning models to production using Flask, Docker, and Kubernetes. Moreover, we'll describe the CI process which automated away all the manual steps which were required.\n\nBy using an internally developed framework, we allowed Data Scientists to develop models which can easily be deployed to production. The framework exposes models either over HTTP (REST) or binds them to a Kafka topic. Additionally, the framework packages the model and its dependencies in a Docker container, and generates all deployment templates required for deploying to Kubernetes. Finally, we'll describe our Jenkins jobs which automated away all the manual steps.",
+  "duration": 1906,
+  "recorded": "2017-04-09",
+  "speakers": [
+    "Niels Zeilemaker"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/f3I0izerPvc/hqdefault.jpg",
+  "title": "Deploying Python models to production",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=f3I0izerPvc"
+    }
+  ]
+}

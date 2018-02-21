@@ -1,0 +1,15 @@
+{
+  "description": "Trend estimation is a family of methods to be able to detect and predict tendencies and regularities in time series signals without knowing any information a priori about the signal. Trend estimation is not only useful for trends but also could yield seasonality(cycles) of data as well. I will introduce various ways to detect trends in time series signals.\n\nWith more and more sensors readily available and collection of data becomes more ubiquitous and enables machine to machine communication(a.k.a internet of things), time series signals play more and more important role in both data collection process and also naturally in the data analysis. Data aggregation from different sources and from many people make time-series analysis crucially important in these settings.\nDetecting trends and patterns in time-series signals enable people to respond these changes and take actions intelligibly. Historically, trend estimation has been useful in macroeconomics, financial time series analysis, revenue management and many more fields to reveal underlying trends from the time series signals.\n\nTrend estimation is a family of methods to be able to detect and predict tendencies and regularities in time series signals without knowing any information a priori about the signal. Trend estimation is not only useful for trends but also could yield seasonality(cycles) of data as well. Robust estimation of increasing and decreasing trends not only infer useful information from the signal but also prepares us to take actions accordingly and more intelligibly where the time of response and to action is important.\n\nIn this talk, I will introduce following trend estimation methods and compare them in real-world datasets comparing their advantages and disadvantages of each algorithm:\n- Moving average filtering\n- Exponential smoothing,\n- Median filtering,\n- Bandpass filtering,\n- Hodrick Prescott Filter,\n- Gradient Boosting Regressor,\n- l_1 trend filtering(my own library)\n\nMaterials Available\nSlides: http://bugra.github.io/pages/deck/2015-07-25/#/\nGithub Repo: https://github.com/bugra/pydata-seattle-2015\nNotebook Link: https://github.com/bugra/pydata-seattle-2015/blob/master/notebooks/Trend%20Estimation%20Methods.ipynb",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Bugra Akyildiz"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/likDxYXhNQY/hqdefault.jpg",
+  "title": "Trend Estimation in Time Series Signals",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=likDxYXhNQY"
+    }
+  ]
+}

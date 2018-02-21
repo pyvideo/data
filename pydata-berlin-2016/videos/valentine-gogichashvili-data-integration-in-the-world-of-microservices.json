@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nSince its launch in 2008, Zalando has grown with tremendous speed. The road from startup to multinational corporation has been full of challenges, especially for Zalando's technology team. Distributed across Berlin, Helsinki, Dublin, Hamburg and Dortmund \u2014 with nearly 1000 professionals strong \u2014 Zalando Technology still plans to expand by adding 1,000 more developers through the end of 2016.\n\nThis rapid growth has shown us that we need to remain flexible about developing processes and organizational structures, to allow us to continue scaling and experimenting. In March 2015, our team adopted Radical Agility: a tech management approach that emphasizes Autonomy, Purpose, and Mastery, with trust as the glue holding it all together.\n\nTo make autonomy possible, teams can now choose their own technology stacks for the products they own. Microservices, speaking with each other using RESTful APIs, promise to minimize the costs of integration between autonomous teams. In addition, Isolated AWS accounts run on top of our own open-source Platform as a Service (called STUPS.io), give each autonomous team enough hardware to experiment and introduce new features without breaking our entire system.\n\nOne small issue with having microservices isolated in their individual AWS accounts: Our teams keep local data for themselves. In this environment, building an ETL process for data analyses, or integrating data from different services becomes quite challenging.\n\nPostgreSQL's new logical replication features, however, now make it possible to stream all the data changes from the isolated databases to the data integration system so that it can collect this data, represent it in different forms, and prepare it for analysis.\n\nIn this talk, I will discuss Zalando's open-source data collection prototype, which uses PostgreSQL's logical replication streaming capabilities to collect data from various PostgreSQL databases, and recreate it for different formats and systems (Data Lake, Operational Data Store, KPI calculation systems, automatic process monitoring). The audience will come away with new ideas for how to use Postgres streaming replication in a microservices environment.",
+  "duration": 2220,
+  "language": "eng",
+  "recorded": "2016-05-31",
+  "related_urls": [],
+  "speakers": [
+    "Valentine Gogichashvili"
+  ],
+  "tags": [
+    "stups.io",
+    "postgresql",
+    "replication",
+    "etl"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/SbVQBHRAFXA/maxresdefault.jpg",
+  "title": "Data Integration in the World of Microservices",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SbVQBHRAFXA"
+    }
+  ]
+}

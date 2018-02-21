@@ -1,0 +1,26 @@
+{
+  "alias": "video/1987/using-python-to-drive-the-general-noaa-operationa",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 1987,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-02",
+  "slug": "using-python-to-drive-the-general-noaa-operationa",
+  "speakers": [],
+  "summary": "Authors: Barker, Christopher H. NOAA Emergency Response Division.\n\nTrack: Meteorology, Climatology, Atmospheric and Oceanic Science\n\nThe General NOAA Operational Modeling Environment (GNOME) is a general\npurpose modeling tool originally designed for operational oil spill\nmodeling. It was developed by NOAA's Emergency Response Division\nprimarily to provide oil spill transport forecasts to the Federal On\nScene Coordinator. In the years since its original development, the\nmodel has been extended to support other drifting objects, and has been\nused for modeling a wide variety cases, including: Marine Debris, larval\ntransport, chemicals in water, etc. It played a key role in the\nDeepwater Horizon oil spill in 2010, and is being used to forecast the\ndrift of debris from the Japanese Tsunami in 2011. In addition, the\nmodel is distributed freely to the general public, and is widely used in\neducation and oil spill response planning.\n\nThe first version of the program has proven to be powerful, flexible,\nand easy to use. However, the program is written in C++, with the\ncomputational components and a desktop graphical interface code tightly\nintegrated. As we move forward with development, we require a system\nthat allows a new web-based user interface, easier extension of the\nmodel, easier scripting for automation, use of the core algorithms in\nother models, and easier testing. To achieve these goals, we are\nre-writing the model as a system of components, tied together with\nPython. Each component can be written in Python, or any language Python\ncan call (primarily C++), and tested either individually or as part of\nthe system with Python. We have written the new model driver in Python,\nand are wrapping the existing C++ components using Cython. In this\npaper, the model architecture is presented, with a discussion of the\nstrengths and pitfalls of the approach.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/3pJlgQRn1jY/hqdefault.jpg",
+  "title": "Using Python to drive the General NOAA Operational Modeling Environment; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=3pJlgQRn1jY"
+    }
+  ]
+}

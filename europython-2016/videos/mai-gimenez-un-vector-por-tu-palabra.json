@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Mai Gim\u00e9nez - Un vector por tu palabra\n[EuroPython 2016]\n[19 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/un-vector-por-tu-palabra)\n\nEl ecosistema cient\u00edfico de python es extraordinario y saca m\u00fasculo\ncon las \u00faltimas aportaciones de la comunidad cient\u00edfica. Revisaremos\nnuevas aproximaciones a la representaci\u00f3n de texto. \u00a1Tus cadenas de\ntexto merecen algo m\u00e1s que una m\u00edsera bolsa de palabras! Veremos c\u00f3mo\nse aplica la representaci\u00f3n distribuida (word embeddings) en un caso\npr\u00e1ctico de aprendizaje autom\u00e1tico, y daremos consejos para hacer\nexperimentos replicables y obtener datos significativos.\n\n-----\n\n\u201cDime con quien andas y te dir\u00e9 c\u00f3mo eres\u201d Este dicho es una de las\nideas m\u00e1s revolucionarias en  PLN. Podemos saber muchas cosas de una\npalabra por su contexto. No es lo mismo un adorable gato que un gato\nmec\u00e1nico, pero por el contexto diferenciamos esta palabra polis\u00e9mica.\nHasta ahora la mayor parte de los modelos representan una frase como\nuna bolsa de palabras. Por ejemplo, si queremos representar este\nconjunto de frases: [\u201cI love Python\u201d, \u201cI love NLP\u201d, \u201cPyladies are\ncool\u201d] tenemos un vocabulario de siete palabras: [\u201cI\u201d, \u201clove\u201d,\n\u201cPython\u201d, \u201cNLP\u201d, \u201cPyladies\u201d, \u201care\u201d, \u201ccool\u201d] esta representaci\u00f3n crea\nun vector de tama\u00f1o del vocabulario para cada frase, y pone a 1 si la\npalabra aparece y a 0 en el caso contrario : [[1,1,1,0,0,0,0],\n[1,1,0,1,0,0,],[0,0,0,0,1,1,1]] \u00a1Pero,se pierde el contexto y los\nvectores pueden ser gigantes y con much\u00edsimos 0s!\nRecientemente, hemos encontrado una forma mucho mejor de representar\nlas palabras: La representaci\u00f3n distribuida -word2vec, por ejemplo-\nEn esta charla exploramos esta representaci\u00f3n y c\u00f3mo aplicarla en\nproblemas de clasificaci\u00f3n utilizando textos de redes sociales.\nNavegaremos por el rico ecosistema cient\u00edfico en python, veremos c\u00f3mo\ncrear gr\u00e1ficas significativas y hablaremos de la importancia de\nescribir experimentos bien dise\u00f1ados, replicables y con c\u00f3digo\nelegante y por supuesto de la importancia de difundir el conocimiento.\nDebemos inspirar a la siguiente generaci\u00f3n de cient\u00edficos y\ncient\u00edficas \u00a1Seamos extraordinarios!",
+  "duration": 2140,
+  "language": "spa",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/un-vector-por-tu-palabra"
+  ],
+  "speakers": [
+    "Mai Gim\u00e9nez"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/YI7hAboKLH8/maxresdefault.jpg",
+  "title": "Un vector por tu palabra",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YI7hAboKLH8"
+    }
+  ]
+}

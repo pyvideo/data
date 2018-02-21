@@ -1,0 +1,29 @@
+{
+  "alias": "video/1388/django-forms-in-a-web-api-world",
+  "category": "DjangoCon 2012",
+  "copyright_text": "Creative Commons Attribution license (reuse allowed",
+  "description": "In our quest to modularize the architecture of web applications, we\ncreate self-containing backend systems that provide web APIs for\nprogrammatic interactions. This gives us the flexibility to separate\ndifferent system components. A system with multiple backend components\ne.g. user profile engine, content engine, community engine, analytics\nengine may have a single frontend application that fetches data from all\nof these components using respective web APIs.\n\nWith the increased availability of powerful JavaScript frameworks, such\nfrontend applications are often purely JS based to decrease application\nfootprint, increase deployment flexibility and separate presentation\nfrom data. The separation is very rewarding from a software engineering\nstandpoint but imposes several limitations on system design. Using\ndjango to construct the API for arbitrary consumers comes with the\nlimitation of not being able to utilize the powerful django form\nsubsystem to drive forms on these consumers. But is there a way to\novercome this restriction?\n\nThis is not a trivial problem to solve and there are only a few\nassumptions we can make about the web API consumer. It can be a native\nmobile or desktop - application or browser. We advocate that web APIs\nshould provide sufficient information about 'forms' so that they can be\nfaithfully reproduced at the consumer end.\n\nEven in a API backend built using django, forms are essential for\naccepting, filtering, processing and saving data. The django form\nsubsystem provides many useful features to accomplish these tasks. At\nthe same time it facilitates the process of rendering the form elements\nin a browser environment. The concepts of form fields combined with\nwidgets can go a long way in streamlining the interface to interact with\ndata.\n\nWe propose an architecture to serialize information about django forms\n(to JSON) in a framework independent fashion so that it can be consumed\nby any frontend application that renders HTML. Such information includes\nbut is not limited to basic form configurations, security tokens (if\nnecessary), rendering metadata and error handling instructions. We\nlovingly name this architecture - django-remote-forms.\n\nAt WiserTogether, we are in the process of building a component based\narchitecture that strictly provides data endpoints for frontend\napplications to consume. We are working towards developing our frontend\napplication for web browsers using backbone.js as MVC and handlebars as\nthe templating engine. django-remote-forms helps us streamline our data\ninput interface with the django forms living at the API backend.\n\nIn this talk we detail the architecture of our components, the mechanism\nof delivering django form metadata over API and a backbone.js/\nhandlebars implementation to consume the metadata and reproduce forms.\n",
+  "duration": null,
+  "id": 1388,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2012-09-05",
+  "slug": "django-forms-in-a-web-api-world",
+  "speakers": [
+    "Tareque Hossain"
+  ],
+  "summary": "In a world of django powered web APIs and arbitrary consumers,\ntraditional methods of rendering & validating django forms are\nineffective. We discuss how to uphold the API provider/ consumer\nseparation, yet utilize provider's django form subsystem to power forms\nin a pure JS consumer. We achieve this by serializing form\nconfigurations, rendering metadata, error handlers & exposing them over\nAPI.\n",
+  "tags": [
+    "django",
+    "django-forms"
+  ],
+  "thumbnail_url": "http://i.ytimg.com/vi/fwXEJh63sKc/hqdefault.jpg",
+  "title": "Django forms in a web API world",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=fwXEJh63sKc"
+    }
+  ]
+}

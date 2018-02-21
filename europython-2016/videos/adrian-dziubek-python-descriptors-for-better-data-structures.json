@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Adrian Dziubek - Python Descriptors for Better Data Structures\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/python-descriptors-for-better-data-structures)\n\nHave you ever wondered how Django models work? I'll present a story of\ndata structure transformation. I will talk about ideas from Django\nmodels that I used and how I rediscovered descriptor API. I will talk\nabout printing, serializing, comparing data structures and some  other\nexamples, where descriptors excel at making declarative code easier to\nwrite.\n\n-----\n\nI worked as a developer of a testing framework for a C++ server. The\nframework tested binary protocol implemented by the server.\n\nMost of the work  involved testers preparing test cases. The data\nformat was primitive structures -- hard to read and easy to break.\nField order and all the data had to be entered manually.\n\nAt the time, I have already seen the better world --  the models from\nDjango. Have you ever wondered how those work? Step by step, I used\nthe ideas from there to make the structures more friendly and on my\nway I rediscovered descriptors.\n\nI'll show in incremental steps, how:\n\n- used keyword arguments to lower signal to noise ratio,\n- order of definition for sorting the fields,\n- realized that `__call__` is used instead of assignment,\n- used `__setattribute__` as first step to extend primitive fields,\n- discovered that I'm actually reimplementing descriptors,\n\nand how it lead me to:\n\n- implement printing in a way that is friendly to regression testing,\n- use diff library for less code and better results,\n- implement more readable validation.\n\nI want to show how descriptors work in Python and how they enable\ndeclarative style of programming. By the end of the talk I want you to\nunderstand what is at the core of the magic behind field types used by\nobject relational mappers like Django.",
+  "duration": 1464,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/python-descriptors-for-better-data-structures"
+  ],
+  "speakers": [
+    "Adrian Dziubek"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZbmPBey_6kk/maxresdefault.jpg",
+  "title": "Python Descriptors for Better Data Structures",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZbmPBey_6kk"
+    }
+  ]
+}

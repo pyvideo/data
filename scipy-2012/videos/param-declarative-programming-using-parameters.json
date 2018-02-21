@@ -1,0 +1,37 @@
+{
+  "alias": "video/1230/param-declarative-programming-using-parameters",
+  "category": "SciPy 2012",
+  "copyright_text": "CC BY-SA",
+  "description": "As a scientific Python application grows, it can be increasingly\ndifficult to use and maintain, because of implicit assumptions made when\nwriting each component. Users can pass any possible data type for any\nargument, so code either fills up with assertions and tests to see what\ntype of data has been supplied, or else has undefined behavior for some\ndatatypes or values. Once software is exchanged with other users,\nobscure error messages or even incorrect results are the likely outcome.\nProgramming languages that require types to be declared alleviate some\nof these issues, but are inflexible and difficult to use, both in\ngeneral and when specifying details of types (such as ranges of allowed\nvalues). Luckily, Python metaobjects make it possible to extend the\nPython language to offer flexible declarative typing, offering the best\nof both worlds.\n\nThe Param module provides a clean, low-dependency, pure-Python\nimplementation of declarative parameters for Python objects and\nfunctions, allowing library and program developers to specify precisely\nwhat types of arguments or values are allowed. A Parameter is a special\ntype of class attribute that supports type declarations (based on\nsubtypes of a specified class, support for specified methods (duck\ntyping), or any other criterion that can be tested), ranges, bounds,\nunits, constant values, and enumerations. A Parameter has a docstring\n(visible at the command line or in generated documentation), inherits\nits default value, documentation, etc. along the class hierarchy, and\ncan be set to dynamic values that generate a stream of numbers for use\nin controlling scientific code. In essence, a Parameter is a Python\nattribute extended to support clean, simple, robust, maintainable, and\ndeclarative scientific programming.\n\nParam has been under continuous development and use since 2002 as part\nof the Topographica simulator (topographica.org), but is now being\nreleased as a separate package due to demand from users who want similar\nfunctionality in their own code. Param is very similar in spirit to the\nEnthought Traits library, despite having been developed independently,\nand offers much of the same functionality. Param is particularly useful\nfor people who find that Traits is difficult to integrate into their\nwork flow, since it consists of only two pure Python files with no\ndependencies outside the standard library. Param is also useful for\npeople building Tk applications, and provides an optional Tk\nproperty-sheet interface that can automatically generate a GUI window\nfor viewing and editing an object's Parameters.\n\nParam is freely available under a BSD license from:\nhttp://ioam.github.com/param/\n",
+  "duration": null,
+  "id": 1230,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2012-07-19",
+  "related_urls": [
+    "http://ioam.github.com/param/"
+  ],
+  "slug": "param-declarative-programming-using-parameters",
+  "speakers": [
+    "Christopher E. Ball",
+    "James A. Bednar"
+  ],
+  "summary": "",
+  "tags": [
+    "General"
+  ],
+  "thumbnail_url": "http://i4.ytimg.com/vi/7_ELWwzFCi0/hqdefault.jpg",
+  "title": "Param: Declarative programming using Parameters",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/nextdayvideo/enthought/scipy_2012/Param_Declarative_programming_.mp4?Signature=3oD1SMXw6HQrdaZqDkubvMz8Eec%3D&Expires=1346382906&AWSAccessKeyId=FEWGReWX3QbNk0h3"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtube.com/watch?v=7_ELWwzFCi0"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Filmed at PyData London 2017\n\nDescription\nRecent improvements in Probabilistic Programming have led to a new method called Variational Inference. This is an alternative method to the standard method of Markov Chain Monte-Carlo. We'll discuss these methods in PyMC3 and Edward, explain the theory and the limitations and apply these methods to realistic examples.\n\nAbstract\nThe state of the nation\nThere are currently three big trends in machine learning: Probabilistic Programming, Deep Learning and \"Big Data\". Inside of PP, a lot of innovation is in making things scale using Variational Inference. In this talk , I will show how to use Variational Inference in PyMC3 to fit a simple Bayesian Neural Network. I will also discuss how bridging Probabilistic Programming and Deep Learning can open up very interesting avenues to explore in future research.\n\nProbabilistic Programming\nProbabilistic Programming allows very flexible creation of custom probabilistic models and is mainly concerned with insight and learning from your data. The approach is inherently Bayesian so we can specify priors to inform and constrain our models and get uncertainty estimation in form of a posterior distribution. Using MCMC sampling algorithms we can draw samples from this posterior to very flexibly estimate these models. PyMC3 and Stan are the current state-of-the-art tools to consruct and estimate these models.\n\nOne major drawback of sampling, however, is that it's often very slow, especially for high-dimensional models. That's why more recently, variational inference algorithms have been developed that are almost as flexible as MCMC but much faster. Instead of drawing samples from the posterior, these algorithms instead fit a distribution (e.g. normal) to the posterior turning a sampling problem into and optimization problem. ADVI -- Automatic Differentation Variational Inference -- is implemented in PyMC3 and Stan, as well as a new package called Edward which is mainly concerned with Variational Inference.\n\nIn this talk we'll apply these methods of Variational Inference to regression and neural network problems, and explain the advantages for solving big data problems in probabilistic programming. You'll leave this talk with methods you can apply in your own work, and will showcase some of the new features in PyMC3 and Edward.\n\nThe speakers are both contributors to PyMC3.",
+  "duration": 2123,
+  "recorded": "2017-05-06",
+  "speakers": [
+    "Peadar Coyle"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/QB9fvN7Olps/hqdefault.jpg",
+  "title": "Variational Inference and Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QB9fvN7Olps"
+    }
+  ]
+}

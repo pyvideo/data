@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "In this talk, the basic mechanisms of Celery and Docker-Swarm will be explained. With Docker-Swarm , a cluster will be built upon two Raspberry Pi machines. Hadoop entry-level \"Word Count\" program will be re-writen in Python and executed parallelly via Celery on the cluster. An example of distributed system modeling nerual-network will also be explained.\n\nAbstract\n\nIn the territory of Python, Celery is a famous distributed task queue framework, its Canvas mechanism is specially powerful in building complex workflow.\nCelery can function in distributed environment and go perfectly along with Docker-Swarm: Docker-Swarm provides a cluster environment and the worker containers to sustain Celery; worker containers and processes and be dynamically scaled and expanded to fulfill Celery's need, work together parallelly to accomplish the computation.\nWith Celery and Docker-Swarm, an example will be provided, in which a cluster of 8 containers will be built upon two Raspberry Pi machines. Hadoop entry-level \"Word Count\" program will be re-writen in Python and executed parallelly via Celery on the cluster.\n\nRegarding concurrent/distributed computing, IoT, microservices, serverless-computing are all well known paradigms. Based on MQTT, IBM Bluemix is one of the leaders in this field, however, free of charge only for 30 days.\nWith Celery and Docker-Swarm, and with respect to Bluemix, we can actually build a private IoT-liked system in minutes, free of any charge. To provide an example, a distributed system using Celery and Docker-Swarm modeling a neural-network will be explained. ",
+  "duration": 1970,
+  "language": "eng",
+  "recorded": "2016-09-21",
+  "related_urls": [
+    "https://speakerdeck.com/wei1234c/building-distributed-system-with-celery-on-docker-swarm"
+  ],
+  "speakers": [
+    "Wei Lin"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/TM1a3m65zaA/maxresdefault.jpg",
+  "title": "Building Distributed System with Celery on Docker Swarm",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TM1a3m65zaA"
+    }
+  ]
+}

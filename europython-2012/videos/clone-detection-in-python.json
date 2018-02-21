@@ -1,0 +1,26 @@
+{
+  "alias": "video/1308/clone-detection-in-python",
+  "category": "EuroPython 2012",
+  "copyright_text": "Standard YouTube License",
+  "description": "The clone detection is a longstanding and very active research area in\nthe field of Software Maintenance aimed at identifying duplications in\nsource code. The presence of clones may affect maintenance activities.\nFor example, errors in the \u201coriginal\u201d fragment of code have to be fixed\nin every clone. To make things worse, code clones are usually not\ndocumented and so their location in the source code is not known. In\ncase of small-size software systems the clone detection may be manually\nperformed, but on large software systems it can be accomplished only by\nmeans of automatic techniques. In this talk an approach that exploits\nstructural (i.e., AST) and lexical information of the code (e.g., name\nof methods, variables) for the identification of clones will be\npresented. The main innovation of such approach is represented by the\nadoption of a Machine Learning technique based on (Tree) Kernel\nfunctions. Some insights on mathematical properties of these\nKernel-based method along with its corresponding (efficient) Python\nimplementation (Numpy, Scipy) will be presented. Afterwards the talk\nwill be focused on the explanation of some detection results gathered on\nwell-known Python systems (Eric, Plone, networkx, Zope), compared with\nother non-Python ones (Eclipse- Jdtcore, JHotDraw). The aim of this part\nwill be to analyze what are the Python features that could possibly\navoid (or allow) duplications w.r.t. other OO languages. Some snippets\nfor analyzing the Python code \u201cby itself\u201d will be also presented,\nemphasizing the powerful Python built-in reflection capabilities,\nextremely useful in this specific code analysis task. Basic maths skill\nand basic knowledge of the Python language are the only suggested\nprerequisites for the talk.\n",
+  "duration": null,
+  "id": 1308,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2012-07-05",
+  "slug": "clone-detection-in-python",
+  "speakers": [
+    "Valerio Maggio"
+  ],
+  "summary": "[EuroPython 2012] V Maggio - 4 JULY 2012 in \"Track Spaghetti\"\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/xmsK1geCDq4/hqdefault.jpg",
+  "title": "Clone detection in python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=xmsK1geCDq4"
+    }
+  ]
+}

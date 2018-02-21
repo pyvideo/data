@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nPython Analytics can be accelerated using SQL- Pushdowns to benefit from in-database performance-enhancing features such as column-stores and parallel processing. We will show the benefits of this approach and present ibmdbpy, a prototype which provides a Python interface for data manipulation and in-database algorithms in IBM DB2 and IBM dashDB on Bluemix .\n\nThe Python ecosystem is very rich and provides intuitive tools for data analysis. However, most Python libraries require the data to be extracted from the database to working memory and resources are limited by computational power and memory. Analyzing a large amount of data is often impractical or even impossible. Ibmdbpy is an open-source Python package, developed by IBM, which provides a Python interface for data manipulation and machine learning algorithms such as Kmeans or Linear Regression to make working with databases more efficient by seamlessly pushing operations into the underlying database for execution. This does not only lift the memory limit of Python, but also allows users to profit from performance-enhancing features of the database management system. Ibmdbpy is designed for IBM DB2 and IBM dashDB, a database system available on IBM BlueMix, the IBM cloud application development and analytics platform. Via remote connection, user operations can benefit from in-database specific features, such as columnar technology and parallel processing, without having to interact with the database explicitly. Some in-database functions additionally use lazy loading to load only parts of the data that are actually required to further increase efficiency. Keeping the data in the database also avoids security issues that are associated with extracting data and ensures that the data that is being analyzed is as current as possible. Ibmdbpy can be used by Python developers with very little additional knowledge, since it imitates the well-known interface of Pandas library for data manipulation and Scikit-learn library for machine learning algorithms. Ibmdbpy provides a great runtime advantage for operations on medium to large dataset, i.e. on tables that have 1 million rows or more. Providing a Python interface for databases allows to bridge the gap between data warehousing platform and end-user environment, so that developers can benefit both from the expressivity of Python and from the speed-up provided by SQL execution in the database, which can be run on a cluster. In this talk, we will show the advantages of such approach for scaling Python analytics and do a short demo of data analysis with ibmdbpy.\n\nSlides: https://ibmdbanalytics.github.io/pydata-berlin-2016-ibmdbpy.slides.html",
+  "duration": 2227,
+  "language": "eng",
+  "recorded": "2016-05-31",
+  "related_urls": [
+    "https://ibmdbanalytics.github.io/pydata-berlin-2016-ibmdbpy.slides.html"
+  ],
+  "speakers": [
+    "Edouard Fouch\u00e9"
+  ],
+  "tags": [
+    "ibmdbpy"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/J9kbKhzuMd0/maxresdefault.jpg",
+  "title": "Accelerating Python Analytics by In-Database Processing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=J9kbKhzuMd0"
+    }
+  ]
+}

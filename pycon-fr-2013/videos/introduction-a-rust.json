@@ -1,0 +1,26 @@
+{
+  "alias": "video/3749/introduction-a-rust",
+  "category": "PyCon FR 2013",
+  "copyright_text": "",
+  "description": "",
+  "duration": 1540,
+  "id": 3749,
+  "language": "fra",
+  "quality_notes": "",
+  "recorded": "2013-11-30",
+  "slug": "introduction-a-rust",
+  "speakers": [
+    "Simon Sapin"
+  ],
+  "summary": "Rust est un langage de programmation \u00ab syst\u00e8mes \u00bb qui se veux s\u00fbr,\nconcurrent, et pragmatique. Un de ses objectifs est de remplacer C/C++\ndans les domaines o\u00f9 un langage plus \u00ab haut niveau \u00bb tel que Python\nn'est pas adapt\u00e9 : noyau de syst\u00e8me d'exploitation, syst\u00e8me temps-r\u00e9el,\nmoteur de navigateur web, etc.\n\nServo, un projet de Mozilla Research, est un moteur de rendu pour le web\n(tout comme Gecko est le moteur de Firefox) \u00e9crit en Rust et con\u00e7u pour\ntirer parti autant que possible du mat\u00e9riel moderne (multi-c\u0153ur) gr\u00e2ce\naux fonctionnalit\u00e9s concurrentes de Rust.\n\n-  Pr\u00e9sentation du langage: typage statique, s\u00fbret\u00e9 et justesse v\u00e9rifi\u00e9s\n   par le compilateur, pointeurs uniques, pointeurs emprunt\u00e9s, tranches\n   de vecteurs, etc.\n-  \u00c9tat du projet (pr\u00e9-1.0)\n-  Comment Servo g\u00e8re les changements dans le langage et la biblioth\u00e8que\n   standard.\n-  Mon ressenti apr\u00e8s avoir travaill\u00e9 sur Servo et WeasyPrint (Python),\n   deux impl\u00e9mentations des m\u00eame sp\u00e9cifications CSS.\n-  Une suite de tests bas\u00e9es sur des donn\u00e9es, et partag\u00e9e entre\n   plusieurs impl\u00e9mentations.\n-  Comment utiliser Rust et Python dans le m\u00eame programme, avec CFFI\n-  Courte introduction \u00e0 la th\u00e9orie des types, et aux types alg\u00e9briques\n   de donn\u00e9es.\n-  Les types \u00ab sommes \u00bb sont des \u00ab unions tagg\u00e9es \u00bb en C, et des enum en\n   Rust. (Plus g\u00e9n\u00e9ral que Enum dans la PEP 435.) Pourrait-on avoir\n   quelque chose de similaire en Python ?\n\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/qjxihcTJZ34/maxresdefault.jpg",
+  "title": "Introduction \u00e0 Rust",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qjxihcTJZ34"
+    }
+  ]
+}

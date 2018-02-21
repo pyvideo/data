@@ -1,0 +1,26 @@
+{
+  "description": "Il est courant pour un d\u00e9veloppeur de devoir impl\u00e9menter des\nfonctionnalit\u00e9s d'import de donn\u00e9es. Les utilisateurs peuvent en effet\navoir besoin de donn\u00e9es disponibles par ailleurs, dans un tableur par\nexemple, dans une autre base, ou accessibles par des services web. Nous\nintroduisons ici une m\u00e9thode simple pour r\u00e9aliser cela en favorisant la\ng\u00e9n\u00e9ricit\u00e9 et la r\u00e9-utilisabilit\u00e9 des composants d\u00e9velopp\u00e9s.\n\nUn flux personnalisable d'entit\u00e9s\n---------------------------------\n\nL'id\u00e9e est de transformer petit \u00e0 petit les donn\u00e9es externes afin de les\nrendre compatibles avec le sch\u00e9ma de l'application et donc ins\u00e9rables en\nbase.\n\nLe principe est de commencer par stocker les donn\u00e9es de la source sur\nune \u00ab[HTML\\_REMOVED]entit\u00e9 externe[HTML\\_REMOVED]\u00bb. Puis on utilise des\ng\u00e9n\u00e9rateurs Python pour cr\u00e9er un \u00ab[HTML\\_REMOVED]flux[HTML\\_REMOVED]\u00bb\nd'entit\u00e9s[HTML\\_REMOVED]: chaque entit\u00e9 passe de fonction en fonction,\nce qui va la transformer peu \u00e0 peu pour la rapprocher du mod\u00e8le attendu\net qu'elle soit finalement pr\u00eate \u00e0 \u00eatre ins\u00e9r\u00e9e, ou au contraire rejet\u00e9e\nsi ce n'est pas possible.\n\nL'\u00e9tape d'insertion est alors identique, quelle que soit la source d'o\u00f9\nproviennent les donn\u00e9es.\n\nExemple avec CubicWeb 3.21\n--------------------------\n\nAvec sa version 3.21 sortie en 2015, le framework CubicWeb dispose d'une\ntoute nouvelle API fond\u00e9e sur cette m\u00e9thode. Elle permet au d\u00e9veloppeur\nde se concentrer sur le flux de donn\u00e9es provenant des sources qui\nl'int\u00e9ressent.\n\nDe plus, l'\u00e9tape d'insertion offre plusieurs composants\ninterchangeables. En fonction du compromis qu'il souhaite faire entre\ns\u00e9curit\u00e9 et rapidit\u00e9, le d\u00e9veloppeur peut choisir entre une insertion\ns\u00fbre mais lente, o\u00f9 chaque entit\u00e9 \u00e0 ins\u00e9rer est pr\u00e9alablement v\u00e9rifi\u00e9e\nquant au type de ses donn\u00e9es et la validit\u00e9 de ses relations, et une\ninsertion plus rapide mais pouvant \u00e9chouer, o\u00f9 les entit\u00e9s sont ins\u00e9r\u00e9es\nen masse.\n\nTout cela sera illustr\u00e9 par le moissonnage des donn\u00e9es de portails *Open\nData*. La diversit\u00e9 des formats (RDF (open-data.europa.eu), REST\n(data.gouv.fr, OpenDataSoft), CSW (geocatalogue.fr), etc.) ainsi que des\nmod\u00e8les de donn\u00e9es impose de cr\u00e9er des flux diff\u00e9rents afin que toutes\nces donn\u00e9es puissent \u00eatre import\u00e9es dans un sch\u00e9ma unique de CubicWeb.\n\nDe la m\u00eame fa\u00e7on, un autre exemple sera l'import de donn\u00e9es SKOS o\u00f9 des\nthesaurus entiers sont import\u00e9s dans CubicWeb gr\u00e2ce \u00e0 cette API.\n",
+  "duration": 1269,
+  "language": "fra",
+  "recorded": "2015-10-18",
+  "speakers": [
+    "Yann Vot\u00e9"
+  ],
+  "summary": "Nous introduirons une nouvelle m\u00e9thode pour importer des donn\u00e9es\nexternes (service REST, fichier, etc.) dans une application. Simple et\nflexible, elle favorise la r\u00e9utilisation des composants afin de se\nconcentrer sur ce qui est sp\u00e9cifique \u00e0 chaque cas. Un exemple\nd'impl\u00e9mentation sera donn\u00e9 avec le framework CubicWeb 3.21 qui\nintroduit une API d'import de donn\u00e9es fond\u00e9e sur cette m\u00e9thode.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/216%20-%20Yann%20Vot%C3%A9%20-%20Importer%20des%20donn%C3%A9es%20en%20Python%20avec%20CubicWeb%203.21.mp4.jpg",
+  "title": "Importer des donn\u00e9es en Python avec CubicWeb 3.21",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/216%20-%20Yann%20Vot%C3%A9%20-%20Importer%20des%20donn%C3%A9es%20en%20Python%20avec%20CubicWeb%203.21.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/216%20-%20Yann%20Vot%C3%A9%20-%20Importer%20des%20donn%C3%A9es%20en%20Python%20avec%20CubicWeb%203.21.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/216%20-%20Yann%20Vot%C3%A9%20-%20Importer%20des%20donn%C3%A9es%20en%20Python%20avec%20CubicWeb%203.21.webm"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Sam Kitajima-Kimbrel\nhttps://2016.pycon-au.org/schedule/23/view_talk\nAlmost every software project of meaningful scale eventually runs into architectural problems. One of the larger issues we\u2019ve dealt with at Twilio is an increasingly-brittle and hard-to-manage PHP codebase, originally responsible for running a website and public REST API. Rather than risk a from-scratch rewrite of the entire system, we chose to extract small and well-defined chunks one at a time into simple services using a common internal interface standard.\n\nGiven a new fleet of services and a set of internal REST APIs, how do we get to parity with the existing public API specifications? Rather than force every service to implement authentication, data validation, rate-limiting, and so on, we chose to build a simple federation service to translate and proxy customer requests to internal systems. Python was a natural choice for this application due to its flexibility, extensive library and testing ecosystem, and suitability for rapid prototyping and development.\n\nBut: how did we get from A to B? This talk will cover the details of Twilio\u2019s past and current API architecture, how we adapted the service-oriented architecture pattern to build a consistent public interface, and the testing and deployment strategies we used to migrate 5 billion monthly requests from old to new systems with no downtime.",
+  "duration": 1837,
+  "language": "eng",
+  "recorded": "2016-08-15",
+  "related_urls": [
+    "https://2016.pycon-au.org/schedule/23/view_talk"
+  ],
+  "speakers": [
+    "Sam Kitajima-Kimbrel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KdVfJoImmno/maxresdefault.jpg",
+  "title": "From Flying Circus to Holy Grail: Migrating the Twilio API from PHP to Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KdVfJoImmno"
+    }
+  ]
+}

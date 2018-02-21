@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Data for Democracy is a civic engagement hub, for volunteer data scientists to carry out work with social impact. This talk will focus on the work of one team, who have built a web scraper and natural language processing pipeline to track and analyse online reports of people displaced by conflict and disaster. It will also reflect on the challenges faced using data in the humanitarian sector.\n\n**Abstract**\n\nData for Democracy is a community of civic minded volunteer technologists, programmers and data scientists working on everything from understanding propaganda, to reducing urban traffic fatalities, to making election data available to the public. One of the main projects is focused on tracking online reports of internally displaced persons (IDPs) - people forced to flee from conflict or disaster but who remain within their original country of residence. The team has been been working in response to a call by the International Displacement Monitoring Centre, for solutions to the problem of collecting and analysing data from different news sources about situations involving IDPs.\n\nThe group has developed a Python back-end that scrapes web pages, extracts content, tags and filters articles by topic, and retrieves key information such as the number of people displaced. The solution makes full use of the spectrum of packages available in the Python toolkit, including newspaper to parse online articles, gensim for powerful, efficient topic modelling, scikit-learn for article classification, and sqlalchemy for database handling. This talk will provide an overview to the technical approach used by the multidisciplinary and international team to tame the messy unstructured data and provide a prototype product that can be used by humanitarian analysts to monitor displacement crisis information.\n\nThe presentation will also highlight the challenges and successes that come with working in a group of volunteers spread across multiple timezones, disciplines, and experience levels, to create a data product for a sector that has traditionally been slow to make use of technology. Through the story of this project, the motivations and wider efforts of the volunteer-led Data for Democracy community will also be highlighted, showing the power that data practitioners have to make a difference.",
+  "duration": 1835,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "George Richardson"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/kATeOkYTmJY/maxresdefault.jpg",
+  "title": "Monitoring Displacement Crises with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kATeOkYTmJY"
+    }
+  ]
+}

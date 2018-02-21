@@ -1,0 +1,31 @@
+{
+  "alias": "video/3098/how-do-debug-tool-bars-for-web-applications-work",
+  "category": "PyCon AU 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "When your production web application breaks, working out what went wrong\ncan be hard. Information from log messages and details of any Python\nexceptions which occurred, along with other application performance data\ncan help to identify the issue, but not always. Often you will need to\nfall back to a development or test environment and hope you can\nreplicate the problem and then debug the issue from there.\n\nThe purpose of this talk is to dive in and look at one class of tools\nthat can be used in helping debug web applications. Specifically, it\nwill look at web application tools such as the Django debug tool bar.\n\nRather than simply look at how you might use such a tool though, this\ntalk will look at how these debug tool bars are actually implemented,\nhow they hook into your web application, how they capture the\ninformation that they do, as well as how they can be extended to add new\nfunctionality.\n\nThe limitations on these tools as far as performance overhead, security\nof data etc, which nearly aways lead to them only being recommended for\ndevelopment environments, will also be discussed.\n\nAt the same time though, this notion that they are only suitable for\ndevelopment environments will also be challenged by looking at how a\ntool such as the New Relic Python agent, which implements application\nperformance monitoring, overcomes such limitations to provide a\nproduction grade solution.\n\nAre there lessons to be learnt from how the New Relic Python agent works\nwhich could drive improvements to existing web application debug tool\nbars? Could the New Relic Python agent itself be used as a base for a\nnew generation of debug tool bars which combine an ability to debug a\nweb application, even in a production environment, with the ability to\nmonitor the performance of the web application over time?\n",
+  "duration": null,
+  "id": 3098,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-08-11",
+  "slug": "how-do-debug-tool-bars-for-web-applications-work",
+  "speakers": [
+    "Graham Dumpleton"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/Yk5EE0Us0DE/hqdefault.jpg",
+  "title": "How do debug tool bars for web applications work? by Graham Dumpleton",
+  "videos": [
+    {
+      "length": null,
+      "type": "ogv",
+      "url": "http://mirror.linux.org.au/pub/pycon-au/pyconau2014/51-out.ogv"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=Yk5EE0Us0DE"
+    }
+  ]
+}

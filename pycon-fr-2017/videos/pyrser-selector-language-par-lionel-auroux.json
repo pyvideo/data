@@ -1,0 +1,16 @@
+{
+  "description": "Existe-t'il un syst\u00e8me \u00e9quivalent aux regexes pour les structures de donn\u00e9es python?\n\nDans le monde web on parle de CSS Selector pour matcher une partie du DOM afin d'y appliquer un style.\nUn objet python est similaire \u00e0 un arbre tel que le DOM d'un navigateur (bien que diff\u00e9rent techniquement) dans le sens o\u00f9 c'est une racine r\u00e9f\u00e9ren\u00e7ant une collection d'autres objets. On le comprends facilement quand on s'occupe de s\u00e9rialisation/d\u00e9s\u00e9rialisation d'objet.\n\nHors beaucoup de t\u00e2che sur cette arbre reviennent \u00e0 identifier des patterns de la structure et \u00e0 y appliquer un traitement sp\u00e9cifique notamment dans tous ce qui touche \u00e0 la transformation d'AST au sein d'un compilateur.\nPyrser est une bo\u00eete \u00e0 outil en python destin\u00e9 au SLE (Software Language Engineering) qui outre le fait de fournir de quoi faire le parsing et le typage d'un DSL fournit maintenant via son module PSL (Pyrser Selector Language) de quoi d\u00e9crire facilement des passes de transformation de l'arbre. La base pour ce qu'on appel un back-end.\n\nCe module pouvant avoir d'autres utilit\u00e9s qu'au sein d'un compilateur car travaillant avec n'importe quel structure de donn\u00e9e python, la pr\u00e9sentation permettra de comprendre le quoi et le comment de ce module pour un usage plus vaste au sein de la communaut\u00e9.",
+  "duration": 4228,
+  "recorded": "2017-09-24",
+  "speakers": [
+    "Lionel Auroux"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/POk5X6QGRRU/hqdefault.jpg",
+  "title": "Pyrser Selector Language",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=POk5X6QGRRU"
+    }
+  ]
+}

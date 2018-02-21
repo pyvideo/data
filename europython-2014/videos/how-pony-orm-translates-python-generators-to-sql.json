@@ -1,0 +1,29 @@
+{
+  "alias": "video/2968/how-pony-orm-translates-python-generators-to-sql",
+  "category": "EuroPython 2014",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "description": "`Pony ORM <http://ponyorm.com>`__ is an object-relational mapper\nimplemented in Python. It allows writing advanced queries to a database\nusing plain Python in the form of a generator expression. This way\nqueries look very concise.\n\nThe main feature of Pony is to provide a method to write declarative\nqueries to databases in pure Python using generators. For this purpose\nPony analyzes the abstract syntax tree of a generator and translates it\nto its SQL equivalent.\n\nFollowing is a sample of a query in Pony:\n\n::\n\n    select(p for p in Product if \"iPad\" in p.name and p.price >= 500)\n\nThis query translates to SQL using a specific database dialect.\nCurrently Pony works with SQLite, MySQL, PostgreSQL and Oracle\ndatabases.\n\nIn this talk one of Pony ORM authors will go through the process of the\nquery translation and dig into the implementation details.\n\nAttendees are going to walk away with the understanding of:\n\n1. Principles of building a programming language translator\n2. Python to SQL translator implementation details\n3. Approaches for creating a pluggable translator architecture\n\nThe presentation outline:\n\n-  Why Python generators are good for representing SQL queries\n-  Main stages of Python to SQL translation overview\n-  Decompiling Python bytecode into Python AST\n-  Translating Python AST to database-independent SQL representation\n-  Generating SQL for specific database\n-  Pluggable translator architecture\n-  Performance concerns: is such way of building SQL slower or faster\n   then Django's and SQLAlchemy's?\n\n",
+  "duration": null,
+  "id": 2968,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-24",
+  "related_urls": [
+    "http://ponyorm.com"
+  ],
+  "slug": "how-pony-orm-translates-python-generators-to-sql",
+  "speakers": [
+    "Alexey Malashkevich"
+  ],
+  "summary": "Pony ORM is an Object-Relational Mapper implemented in Python. It uses\nan unusual approach for writing database queries using Python\ngenerators. Pony analyzes the abstract syntax tree of a generator and\ntranslates it to its SQL equivalent. The translation process consists of\nseveral non-trivial stages. In this talk one of Pony ORM authors will\nreveal the internal details of this process.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/xjikvIHjvHs/hqdefault.jpg",
+  "title": "How Pony ORM translates Python generators to SQL queries",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=xjikvIHjvHs"
+    }
+  ]
+}

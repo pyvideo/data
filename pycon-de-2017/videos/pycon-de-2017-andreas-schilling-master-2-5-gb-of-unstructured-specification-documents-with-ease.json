@@ -1,0 +1,34 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Dr. Andreas Schilling** is Senior Software Engineer at eXXcellent solutions. In his job, he helps customers to develop software solutions from the early stage of defining the particular requirements to developing information systems which meet their needs.\n\nBefore working at eXXcellent solutions Andreas Schilling studied Information Systems at the University of Bamberg focusing on distributed systems and information management. Thereafter, he pursued his PhD and studied collaboration dynamics in open source projects.\n\n**Abstract**\n\nHow Do you kick start a project which is based on 2.5 GB files of unstructured specification documents? To answer this question, we present our lessons learned from developing a Python based knowledge management tool which provides a lightweight and intuitive browser frontend.\n\n**Description**\n\nIn this talk, we present lessons learned from and practical advice on how to deal with a large body of specification documents in your next project. We introduce our approach as well as code excerpts from our powerful toolset to transform a large set of unstructured and partially corrupt specification documents into structured JSON Files. Finally, we showcase a simple, yet powerful Javascript frontend which requires no additional infrastructure to present the compiled artefacts in an intuitive and responsive user interface.\n\nIn particular this talk covers the following topics:\n\n-      How to make use of pywin32 to access layout and content information from partially corrupt .doc and .docx files and create simple JSON files with UTF-8 encoding.\n-  Identify and categorize signal words in your specification.\n-  Use pandas to compile content based recommender functionality\n-  Use networkx and py2cytoscape to visualize call sequences and semantic relationships in your specification.\n-  Present the compiled artefacts and identified relationships in an easy-to-use and lightweight Javascript browser interface without any additional infrastructure (i.e. no webserver and no database server).\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1824,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Andreas Schilling"
+  ],
+  "tags": [
+    "networkx",
+    "pandas",
+    "visualization",
+    "knowledge-management",
+    "analytics",
+    "use-case",
+    "python",
+    "business"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/g277gRcG84I/maxresdefault.jpg",
+  "title": "Master 2.5 GB of unstructured specification documents with ease",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=g277gRcG84I"
+    }
+  ]
+}

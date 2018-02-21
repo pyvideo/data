@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "This talk will introduce the Talisker project, which is an enhanced WSGI application runner based on standard python tools.\n\nProduction WSGI applications require extras beyond just your application, like powerful logging, metrics, tracing and error reporting. Repeatedly integrating these into each new WSGI app/microservice can be dull, error prone, and inconsistent across services.\n\nTalisker aims to provide drop-in best practice support out of the box in all these areas and more. It integrates a set of popular python web tools into a single WSGI run-time.\n\n* gunicorn\n* requests\n* sentry\n\nAnd optionally:\n\n* django\n* flask\n* celery\n* statsd\n* prometheus_client\n\nIt also uses a novel technique to enhance stdlib's default logging to support structured logging for all loggers.\n\nTalisker pulls all these tools together, and enhances the whole app. For example, requests and gunicorn get metrics and request id tracing on HTTP requests. Even your cron jobs can be run via Talisker, providing them with structured logging, metrics and error reporting.\n\nDesigned to be simple to use, you can use it as a drop in replacement for gunicorn to run your apps gunicorn to get the benefit, and opt-in to other features as needed.\n\nThe talk will introduce the motivations behind the project, the decisions we've made, and our experience running a fleet of microservices with Talisker at Canonical.",
+  "duration": 1456,
+  "language": "eng",
+  "recorded": "2017-10-27T17:00:00+01:00",
+  "related_urls": [
+    {
+      "label": "event schedule",
+      "url": "http://2017.pyconuk.org/schedule/"
+    },
+    {
+      "label": "talisker documentation",
+      "url": "https://talisker.readthedocs.io"
+    }
+  ],
+  "speakers": [
+    "Simon Davy"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OkqZNARQ-co/maxresdefault.jpg",
+  "title": "Single Malt WSGI",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OkqZNARQ-co"
+    }
+  ]
+}

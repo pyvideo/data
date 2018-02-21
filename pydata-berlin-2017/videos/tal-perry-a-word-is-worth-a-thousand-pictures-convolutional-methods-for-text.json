@@ -1,0 +1,33 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Link to slides: https://www.slideshare.net/secret/2a5Xz9Sgc3D5GU\n\nDescription\nThose folks in computer vision keep publishing amazing ideas about you to apply convolutions to images. What about those of us who work with text? Can't we enjoy convolutions as well? In this talk I'll review some convolutional architectures that worked great for images and were adapted to text and confront the hardest parts of getting them to work in Tensorflow .\n\n**Abstract**\n\nThe go to architecture for deep learning on sequences such as text is the RNN and particularly LSTM variants. While remarkably effective, RNNs are painfully slow due their sequential nature. Convolutions allow us to process a whole sequence in parallel greatly reducing the time required to train and infer. One of the most important advances in convolutional architectures has been the use of gating to concur the vanishing gradient problem thus allowing arbitrarily deep networks to be trained efficiently.\n\nIn this talk we'll review the key innovations in the DenseNet architecture and show how to adapt it to text. We'll go over \"deconvolution\" operators and dilated convolutions as means of handling long range dependencies. Finally we'll look at convolutions applied to [translation] (https://arxiv.org/abs/1610.10099) at the character level.\n\nThe goal of this talk is to demonstrate the practical advantages and relative ease with which these methods can be applied, as such we will focus on the ideas and implementations (in tensorflow) more than on the math.\n\n",
+  "duration": 1933,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://www.slideshare.net/secret/2a5Xz9Sgc3D5GU"
+    },
+    {
+      "label": "Neural Machine Translation in Linear Time",
+      "url": "https://arxiv.org/abs/1610.10099"
+    }
+  ],
+  "speakers": [
+    "Tal Perry"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/cYDuHxNLIjg/maxresdefault.jpg",
+  "title": "A word is worth a thousand pictures: Convolutional methods for text",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cYDuHxNLIjg"
+    }
+  ]
+}

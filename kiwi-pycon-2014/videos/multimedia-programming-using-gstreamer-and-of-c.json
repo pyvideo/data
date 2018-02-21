@@ -1,0 +1,33 @@
+{
+  "alias": "video/3228/multimedia-programming-using-gstreamer-and-of-c",
+  "category": "Kiwi PyCon 2014",
+  "copyright_text": "CC",
+  "description": "**Audience level**\n\nIntermediate\n\n**Description**\n\nGstreamer is a multimedia framework consisting of hundreds of\ninterchangeable elements that can be plugged together like toy train\ntracks to create efficient processing pipelines. This talk will show how\neasy it is to put together reasonably complex Gstreamer pipelines with\nPython, and indicate why you might want to. It covers Gstreamer 1.x and\nboth versions of CPython.\n\n**Abstract**\n\nGstreamer [1] is a mature framework for developing applications that\ndecode, encode, play, analyse, broadcast, or otherwise manipulate audio\nand video streams. It is used on phones and embedded devices, all over\nthe linux desktop [2], and in giant multimedia displays.\n\nIt is easy to create simple Gstreamer pipelines using shell one-liners,\nbut with Python it is possible to go beyond that, dealing with multiple\nparallel streams and reconfiguring pipelines on the fly. Examples drawn\nfrom real life problems include interleaving several hundred audio\nstreams into one multi-channel stream and splitting a video stream into\n4 parts and sending each to a different projector for perfect\nsyncronisation.\n\nIt is also possible to write a Gstreamer plugin in Python, which will be\nbriefly touched on.\n\n[1] http://gstreamer.freedesktop.org/ [2]\nhttp://gstreamer.freedesktop.org/apps/\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/douglas-bagnall-multimedia-programming-using-gstreamer-and-of-course-python\n",
+  "duration": 1800,
+  "id": 3228,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-09-14",
+  "related_urls": [
+    "http://gstreamer.freedesktop.org/",
+    "http://gstreamer.freedesktop.org/apps/",
+    "https://speakerdeck.com/nzpug/douglas-bagnall-multimedia-programming-using-gstreamer-and-of-course-python"
+  ],
+  "slug": "multimedia-programming-using-gstreamer-and-of-c",
+  "speakers": [
+    "Douglas Bagnall"
+  ],
+  "summary": "",
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "http://i.ytimg.com/vi/YcSRqAJ06KM/hqdefault.jpg",
+  "title": "Multimedia programming using Gstreamer (and, of course, Python)",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/YcSRqAJ06KM"
+    }
+  ]
+}

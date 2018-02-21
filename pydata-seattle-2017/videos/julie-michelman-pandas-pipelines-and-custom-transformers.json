@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Using pandas and scikit-learn together can be a bit clunky. For complex preprocessing, the scikit-learn Pipeline conveniently chains together transformers. But, it will convert your DataFrame to a numpy array. In this talk, we will walk through pandas DataFrames, scikit-learn preprocessing and Pipelines, and how to use custom transformers to stay in pandas land.\n\nGitHub Link: https://github.com/jem1031/pandas-pipelines-custom-transformers\n\n**Abstract**\n\nFor data science in python, the pandas DataFrame is a common choice to store and manipulate data sets. It has named columns, each of which can contain a different data type, and an index to identify rows and assist in joining. The scikit-learn package is the major machine learning library in python. It has implementations for a wide variety of popular feature engineering, supervised, and unsupervised machine learning algorithms. Perhaps even more importantly to its success, scikit-learn provides a uniform interface for these transformers and estimators, making it easy to swap out one for another.\n\nMany scikit-learn transformers will take and return pandas DataFrames, but some only return numpy arrays. This means losing the column names and row indices. A few important examples include the meta-transformers Pipeline and FeatureUnion. The Pipeline chains together transformers to be applied in order. The FeatureUnion combines the results of transformers that can be applied in parallel. With these, the entire feature engineering process can be stored in one object and easily applied to new data sets.\n\nLuckily, scikit-learn also provides the ability to write your own custom transformers. It is as simple as defining a new class that implements the fit and transform methods. We can use this to create pandas-friendly versions of the Pipeline and FeatureUnion, as well as add transformations that are not already provided.",
+  "duration": 2081,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    },
+    {
+      "label": "talk repository",
+      "url": "https://github.com/jem1031/pandas-pipelines-custom-transformers"
+    }
+  ],
+  "speakers": [
+    "Julie Michelman"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/BFaadIqWlAg/maxresdefault.jpg",
+  "title": "Pandas, Pipelines, and Custom Transformers",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BFaadIqWlAg"
+    }
+  ]
+}

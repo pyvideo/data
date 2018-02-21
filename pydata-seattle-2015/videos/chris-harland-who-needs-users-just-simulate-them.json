@@ -1,0 +1,15 @@
+{
+  "description": "How do I build a robust, trustworthy, and scalable experimentation system when my product doesn't have the millions of users I expect it to have in the future? Simulation of course! In this talk, we will explore components of an experimentation platform through modular simulation units that provide a shockingly realistic picture user logs and wade through the pitfalls of A/B testing.\n\nExperimentation (A/B testing) is a hot topic in online services. While there is ample discussion around why you should test and the benefits it might bring there is a surprising lack of discussion around actually implementing or building an experimentation platform. From an engineering perspective, how do I go from a blog post on A/B testing to a full fledged platform that provides my company robust, trustworthy, and scalable experimentation?\n\nIn this talk, I will demonstrate the power of simulating user interaction logs (written in python) as building blocks for a test driven approach to constructing various parts of an experimental platform. I will mainly focus on the aggregation of such logs into interpretable scorecards fit for non-technical consumption. I will demonstrate the accuracy and flexibility of simulated logs in both reproducing real world outcomes as well as providing methods for testing unseen scenarios. I will also touch on user randomization, the pitfalls of incorrect aggregations, and provide an abstract way to think about experimentation in general. Finally, I will comment on a few of the (very public) ways that exeperimentation has been shown to fail and, with the use of simulated users, provide possible explanations for the failures.\n\nThe goal of this talk is to provide evidence of the usefulness of log simulation, demonstrate the very simple concepts behind building the non-operational components of an experimentation system, and hopefully impart some experimental intuitions to attendees not deeply familiar with online experimentation.",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Chris Harland"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/y_RsStwBc8I/hqdefault.jpg",
+  "title": "Who needs users? Just simulate them!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=y_RsStwBc8I"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Natural Language Processing methods mostly belong to two big families. Rule based systems are informed by humans with linguistic knowledge who feed a system rules they are costly to produce and refine because of the man hours required but mystakes and problems can be addressed straightforwardly. Statistical Based methods rely on drawing inferences through the analysis of large corpora with machine learning techniques, while they are very advantageous in that all they need is big amounts of data, they are often blindsided by relatively simple linguistic problems that are hard to correct. This brings an idea, what if we could use rule based approaches to polish the patterns that are learned by statistical systems? My first attempt at this integrates a classical idea in language acquisition theory and theoretical linguistics, the concept of negative data. Linguists often use ungrammatical (\"wrong\") sentences to pry at the structures of language, I intend to see if a computer system can benefit from such an approach. The first step of this is getting the negative data, a corpus of \"corrupt\" sentences, for this I take a regular corpus of Spanish and write Darth Linguo, a program to generate several kinds of grammatical mistakes from the data.   Once I have this data I will use it first to test just how privy several kinds of language models are to the ungrammatical patterns and then to divise a neural network language model that can integrate negative data into its learning process.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2017-10-07",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/darth-linguo-building-an-ungrammatical-corpus-by-corruption/"
+  ],
+  "speakers": [
+    "Pablo Gonz\u00e1lez Mart\u00ednez"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DDlSu6lh4gs/maxresdefault.jpg",
+  "title": "Darth Linguo, building an ungrammatical corpus by corruption",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DDlSu6lh4gs"
+    }
+  ]
+}

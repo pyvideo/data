@@ -1,0 +1,16 @@
+{
+  "description": "Description\nIn this talk I will explain the idea of sampling to get to your model and I will demonstrate it with examples. The goal is to start with a for loop and to end with understanding how MCMC algorithms work.\n\nAbstract\nA lot of people understand the scikit-learn models of todays world but feel uneasy about the whole MCMC method of training. Why are these algorithms different? How is it that you don't use a gradient method but a sampler instead? It can feel a bit misterious if you've not properly been introduced to this other way of thinking.\n\nIn this talk I will explain the idea of sampling to get to your model and I will demonstrate it with examples. The goal is to start with a for loop and to end with understanding how MCMC algorithms work. As a consequence the audience will also get a proper introduction to PyMC3. In particular I will discuss the following;\n\nwhy markov chain sampling can be equivalent to direct sampling\nhow to build your own MCMC sampler with a for loop\nhow this for loop can be run faster by using PyMC3 instead\nthe key idea of inference and how i was briefly able apply it in a santa kaggle competition\nhow to analyse timeseries with MCMC in PyMC3\nParts of this talk are readily available on my blog;\n\nhttp://koaning.io/switching-to-sampli...\nhttp://koaning.io/elimination-via-inf...\n\n",
+  "duration": 2339,
+  "recorded": "2017-05-06",
+  "speakers": [
+    "Vincent D. Warmerdam"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8g6oF8vUqTU/hqdefault.jpg",
+  "title": "SaaaS - Sampling as an Algorithm Service",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8g6oF8vUqTU"
+    }
+  ]
+}

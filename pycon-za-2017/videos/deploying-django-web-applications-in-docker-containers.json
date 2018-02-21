@@ -1,0 +1,25 @@
+{
+  "description": "This talk will describe how to package a Django web application as a\nDocker container image for use on a container orchestration platform.\nStarting with a common Django setup involving Nginx, Gunicorn, and\nCelery, we will show how to adapt the application to run inside\ncontainers.\n\nContainer orchestration platforms such as Kubernetes and DC/OS are\ngrowing increasingly popular. These systems provide many advantages, but\nrequire significant changes to how applications are packaged and\ndeployed. Instead of running on staticly-configured webservers,\napplications must run in containers that are dynamically deployed to a\npool of hosts.\n\nThere are further benefits to packaging applications as containers. By\nproviding an easy-to-use and tested base image for Django applications,\ndeployment best-practices are easily and consistently replicated.\nIntegration testing becomes more practical, as containers can be run\nsimilarly between development and production environments.\n\nThis talk expects some familiarity with Django, as well as the basics of\nDocker and HTTP. There should be lessons relevant to anybody interested\nin using Docker for Python-based web applications.\n",
+  "recorded": "2017-10-06",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pyconza/deploying-django-web-applications-in-docker-containers-by-jamie-hewland"
+    }
+  ],
+  "speakers": [
+    "Jamie Hewland"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/T2hooQzvurQ/hqdefault.jpg",
+  "title": "Deploying Django web applications in Docker containers",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=T2hooQzvurQ"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2017-Deploying_Django_web_applications_in_Docker_containers"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Probablemente empezaste creando una aplicaci\u00f3n de Django que pod\u00eda presumir de \"limpia\". Tus modelos tienen un par de m\u00e9todos a\u00f1adidos, con l\u00f3gica sencilla. Tus vistas hacen consultas simples y devuelven templates con un contexto razonable.\n\nCon el tiempo, los modelos empiezan a cambiar, necesitas hacer vistas que devuelven contextos con datos m\u00e1s complejos, aumenta la cantidad de m\u00e9todos en los modelos, las vistas empiezan a implementar l\u00f3gica y, ahora que lo piensas, puedes reutilizar esa funci\u00f3n, as\u00ed que la sacas a un m\u00f3dulo de utilidades, quiz\u00e1 lo decides bautizar como controlador.\n\nDespu\u00e9s de todas esas fant\u00e1sticas nuevas features que has conseguido implementar, tienes modelos de cientos de l\u00edneas, l\u00f3gica desparramada en varios \u00a8controladores\" que importas en tantos m\u00f3dulos que, cada vez que creas uno nuevo, optas por copiar y pegar los import de siempre. Ah, y cada vista tienen m\u00e1s l\u00f3gica que tu trabajo fin de carrera. \u00bfEn cual de los \"controladores\" estaba esa funci\u00f3n que te da una lista de ids y nombres de usuarios con datos sobres sus veh\u00edculos y sus casas? \u00bfEn el controlador de usuarios, el de veh\u00edculos, el de casas o el controlador de controladores?\n\nNo te preocupes, hay varias soluciones. Nosotros te proponemos la que utilizamos en StyleSage, basada en una clara divisi\u00f3n de responsabilidades entre modelos, proxy models, managers y vistas. Ver\u00e1s como lo encuentras todo a la primera, \u00a1Y sin dependencias circulares!\n\nPresentaci\u00f3n disponible en http://slides.com/hectorpablos/adelgazando-modelos-django\n\n\nhttp://2016.es.pycon.org/",
+  "duration": 1102,
+  "language": "spa",
+  "recorded": "2016-10-08",
+  "related_urls": [
+    "http://2016.es.pycon.org/",
+    "http://slides.com/hectorpablos/adelgazando-modelos-django"
+  ],
+  "speakers": [
+    "H\u00e9ctor Pablos L\u00f3pez"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ScAKGnGWq-E/maxresdefault.jpg",
+  "title": "Adelgazando los modelos de Django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ScAKGnGWq-E"
+    }
+  ]
+}

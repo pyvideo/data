@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Python's native dynamic typing is one of the things that makes Python so fast and simple to work in.  However, when python code bases start to become large and have many contributors, they can start to become unmaintainable and error-prone.\n\nMyPy is a static type-checking library that you can add to your python projects to check the Type Hints proposed in `PEP 484 <https://www.python.org/dev/peps/pep-0484/>`__.  Static typing allows you to explicitly specify what types of objects your functions expect -- it looks like this:\n\n.. code-block: python\n\n    from typing import Iterator\n\n    def fib(n: int) -> Iterator[int]:\n        a, b = 0, 1\n        while a < n:\n            yield a\n            a, b = b, a + b\n\nMyPy is a project blessed (and being worked on) by Guido himself, and is the key to making Python robust enough for enterprise production code bases.  This talk will cover the following topics:\n- The benefits of static type checking in Python\n- A crash course on adding Type Hints and MyPy to your code base\n- A demo for adding MyPy type checking to your CI/CD pipeline\n- Learnings from adding static type checking to systems at Spotify&trade;",
+  "duration": 2400,
+  "language": "eng",
+  "recorded": "2017-10-07",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/start-being-static-with-mypy/"
+  ],
+  "speakers": [
+    "Mark Koh"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/RzkuMFlmm_c/maxresdefault.jpg",
+  "title": "Start Being Static with MyPy",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RzkuMFlmm_c"
+    }
+  ]
+}

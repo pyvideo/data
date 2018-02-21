@@ -1,0 +1,41 @@
+{
+  "alias": "video/289/pycon-2010--mastering-python-3-i-o",
+  "category": "PyCon US 2010",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Mastering Python 3 I/O\n\nPresented by David Beazley\n\nAs most Python programmers know, Python 3 breaks backwards compatibility\nwith Python 2 in a number of significant ways. Although guides to Python\n3 tend to focus on superficial incompatibilities such as the new print\nfunction, changes to exception handling, or new language features, the\nmost substantial changes concern the strict separation of Unicode and\nbytes as well as the new I/O stack. Not only do these changes have\nfar-reaching effects throughout the standard library, but changes to I/O\nare likely to be the most major source of problems for anyone porting an\nexisting Python application to Python 3. In this tutorial, we're going\nto take a top-to-bottom tour of the entire Python 3 I/O system. We'll\nfocus on how to properly handle both text and binary data, changes to\nstandard library modules, examine advanced features such as the buffer\nAPI, perform some performance experiments, and end with practical advice\nfor programmers working on porting applications from Python 2 to 3.\nIntended Audience\n\nIntermediate to advanced Python programmers who are either developing\nnew applications or contemplating a migration to Python 3. Attendees\nshould already be familiar with the basics of Python programming\nincluding standard datatypes and commonly used library modules. A\nbackground in systems programming topics such as file handling,\nsubprocesses, and socket programming is also recommended. Class Outline\n\n-  Introducing Python 3 (with a focus on I/O)\n-  Text Processing\n-  Binary Data Handling\n-  Dealing with System Interfaces and External Programs\n-  The New io library\n-  Network programming\n-  The revised buffer API and direct I/O\n-  Porting from Python 2 to 3.\n\n",
+  "duration": null,
+  "id": 289,
+  "language": "eng",
+  "quality_notes": "This is the first part of a two-part tutorial. The second part doesn't seem to be available. (If you have a copy of the second part, please let us know.)",
+  "recorded": "2010-02-19",
+  "slug": "pycon-2010--mastering-python-3-i-o",
+  "speakers": [
+    "David Beazley"
+  ],
+  "summary": "",
+  "tags": [
+    "io",
+    "pycon",
+    "pycon2010",
+    "python3",
+    "tutorial"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_289___mastering-python-3-i-o",
+  "title": "Mastering Python 3 I/O (part 1)",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_289___mastering-python-3-i-o"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/289_mastering-python-3-i-o.m4v"
+    },
+    {
+      "length": 411662419,
+      "type": "ogv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/289_mastering-python-3-i-o.ogv"
+    }
+  ]
+}

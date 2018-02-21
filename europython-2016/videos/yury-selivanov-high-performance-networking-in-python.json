@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Yury Selivanov - High Performance Networking in Python\n[EuroPython 2016]\n[19 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/high-performance-networking-in-python)\n\nThe talk will cover new async/await syntax in Python, asyncio library\nand ecosystem around it, and ways to use them for creating high\nperformance servers. It will explain how to build custom event loops\nfor asyncio, with an example of using the libuv library with Cython to\nachieve 2-3x performance boost over vanilla asyncio.\n\n-----\n\nThe talk will start with an overview of async/await syntax introduced\nwith PEP 492 in Python 3.5. We'll go through asynchronous context\nmanagers and iteration protocols it introduces. I'll briefly explain\nhow the feature is implemented in CPython core.\n\nThen we'll explore asyncio design. I'll briefly cover event loop,\npolicies, transports, protocols and streams abstractions. I'll explain\nthat event loops are pluggable, which really makes asyncio a universal\nframework.\n\nWe'll cover libuv - a high performance networking library that drives\nNodeJS. I'll highlight where it's similar to asyncio and how it's\ndifferent.\n\nIn the final part of the talk I'll explain how to make an asyncio\ncompatible event loop on top of libuv. I'll showcase Cython, which is\nan amazing tool for tasks like this.\n\nFinally, I'll share some ideas on how we can further improve the\nperformance of asyncio and networking in Python, and what are the\nchallenges that we will face.\n\n\n**Objectives:**\n\n1. Deeper understanding of async/await in Python and why it's important.\n2. Deeper understanding of asyncio architecture and protocols.\n3. How to improve asyncio performance by implementing custom event loops.\n4. Show that it's easy to integrate existing complex & low level libraries with Cython.\n5. Some perspective on how Python may evolve wrt networking.",
+  "duration": 2151,
+  "language": "eng",
+  "recorded": "2016-07-31",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/high-performance-networking-in-python"
+  ],
+  "speakers": [
+    "Yury Selivanov"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pi49aiLBas8/maxresdefault.jpg",
+  "title": "High Performance Networking in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pi49aiLBas8"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Nils Braun** (@_nilsbraun)\n\nCurrently I am doing my PhD in Particle Physics - which mainly involves development of software in a large collaboration. I love working with Python and C++ to process large amounts of data. Of course it needs to be processed as quickly as possible. I am working on the core reconstruction algorithms for our experiment, which are steered and controlled using Python. Apart from that, I was working as a Data Science Engineer for Blue Yonder, a leading machine learning company, where the idea for tsfresh was born. I am still heavily involved in the project. When I am not writing code, I am updating myself on the newest technical geek stuff (mostly cloud computing and deep learning) or play the guitar.\n\n**Abstract**\n\nHave you ever thought about developing a time series model to predict stock prices? Or do you consider log time series from the operation of cloud resources as being more compelling? In this case you really should consider using the time series feature extraction package tsfresh for your project.\n\n**Description**\n\nTrends such as the Internet of Things (IoT), Industry 4.0, and precision medicine are driven by the availability of cheap sensors and advancing connectivity, which among others increases the availability of temporally annotated data. The resulting time series are the basis for manifold machine learning applications. Examples are the classification of hard drives into risk classes concerning specific defect, the log analysis of server farms for detecting intruders, or regression tasks like the prediction of the remaining lifespan of machinery. Tsfresh also allows to easily setup a machine learning pipeline that predicts stock prices, which we will demonstrate live during the presentation ;). The problem of extracting and selecting relevant features for classification or regression is these domains is especially hard to solve, if each label or regression target is associated with several time series and meta-information simultaneously \u2013 which is a common pattern in industrial applications. This talk introduces a distributed and parallel feature extraction and selection algorithm \u2013 the recently published Python library tsfresh. The fully automated extraction and importance selection does not only allow to reach better machine learning classification scores, but in combination with the speed of the package, also allows to incorporate tsfresh into automated AI-pipelines.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1630,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Nils Braun"
+  ],
+  "tags": [
+    "pydata",
+    "time series",
+    "data-science",
+    "machine learning",
+    "python",
+    "ai"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Fm8zcOMJ-9E/maxresdefault.jpg",
+  "title": "Time series feature extraction with tsfresh - \u201cget rich or die overfitting\u201d",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Fm8zcOMJ-9E"
+    }
+  ]
+}

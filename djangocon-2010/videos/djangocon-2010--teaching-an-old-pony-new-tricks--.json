@@ -1,0 +1,35 @@
+{
+  "alias": "video/65/djangocon-2010--teaching-an-old-pony-new-tricks--",
+  "category": "DjangoCon 2010",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "PBS began development on its first Django project in 2006 using Django\n0.96. PBS TeacherLine launched in 2007 and continues to run today. This\ntalk will discuss the process for designing the PBS TeacherLine\ncodebase, how new advanced features were added over the years, and\npitfalls you can avoid when planning projects for longevity and easy\nmaintenance.\n\nAbstract\n\nPBS chose Django after seeing a presentation by Jacob Kaplan-Moss and\nAdrian Holovaty at OSCON 2006. That Fall, PBS Education began work on a\nnew version of the PBS TeacherLine website. The site most users see when\nthey visit PBS TeacherLine is essentially a brochure and catalog that\nallows educators to purchase seats in online professional development\ncourses. However, behind the scenes is an administrative infrastructure\nthat allows over 50 PBS stations and PBS national staff members to\nadministrate hundreds of course sections and over ten thousand learners\nevery year. There are robust features for accounting, reporting, student\nand staff management just to name a few.\n\nThe TeacherLine website was initially written using Django 0.96. The\nsite is currently running Django 1.2 and has had major upgrades made to\nsome of the core systems including the implementation of a robust\nmessage queue solution to handle the most intense administrative\nfunctions. Over the past four years, the PBS Education Technology Team\nhas learned many lessons about system design, best practices, handling\nupgrades, and creating Django-based code that is flexible and easy to\nmaintain.\n\nIn this discussion we will look at some of the more interesting points\nin the history of PBS TeacherLine, including design patterns,\nworkarounds that were eventually made obsolete by improvements in the\nDjango framework, and the process of iteratively improving functionality\nand features. We will discuss successes and failures, including the\npitfalls we avoided and (perhaps more interestingly) those we did not.\n",
+  "duration": null,
+  "id": 65,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2010-09-07",
+  "slug": "djangocon-2010--teaching-an-old-pony-new-tricks--",
+  "speakers": [
+    "Shawn Rider"
+  ],
+  "summary": "",
+  "tags": [
+    "djangocon",
+    "djangocon2010",
+    "maintenance",
+    "updating"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_65___teaching-an-old-pony-new-tricks-maintaining-and-updating-an-aging-django-project",
+  "title": "Teaching an Old Pony New Tricks: Maintaining and Updating an Aging Django Project",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_65___teaching-an-old-pony-new-tricks-maintaining-and-updating-an-aging-django-project"
+    },
+    {
+      "length": null,
+      "type": "flv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/djangocon-2010/65_teaching-an-old-pony-new-tricks-maintaining-and-updating-an-aging-django-project.flv"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "description": "PyData Amsterdam 2017\n\nxtensor is a C++ template tensor algebra library supporting numpy-style broadcasting and universal functions, aiming at feature parity with numpy with a native feel. In this talk we will present the highlights of the expression system. Then we will show how xtensor can be used to create numpy-aware Python extension modules with the xtensor-python project and the xtensor-cookiecutter template.\n\nAbstract\nIn this presentation, we will focus on the authoring numpy-aware Python extensions with xtensor.\n\nFirst, we present a general overview of the xtensor expression system and its main features:\n\n- lazy broadcasting and universal functions.\n\n- an API following the idioms of the C++ standard library.\n\n- tools to manipulate array expressions and build upon xtensor.\n\nThen we show how the expression-based system can be used to symbolically manipulate array expressions based on other data structures, such as a numpy arrays thanks to Python's buffer protocol, but also a database or the file system.\n\nThe special case of the bindings with numpy is handled by the xtensor-python project which makes it extremely easy to author Python extension operating inplace on numpy arrays, with a modern STL-compliant API. We conclude the talk with a demonstration of the xtensor-cookiecutter template project for a Python extension defining a NumPy ufunc, and exposing other C++ functionalities.\n\nThe cookiecutter produces a complete project including a documentation skeleton, unit testing and all the python packaging boilerplate.",
+  "duration": 1221,
+  "recorded": "2017-04-09",
+  "speakers": [
+    "Sylvain Corlay",
+    "Johan Mabille"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mwIQUgigjbE/hqdefault.jpg",
+  "title": "xtensor: the lazy tensor algebra library",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mwIQUgigjbE"
+    }
+  ]
+}

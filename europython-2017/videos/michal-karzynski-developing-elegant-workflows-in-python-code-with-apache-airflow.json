@@ -1,0 +1,16 @@
+{
+  "description": "Every time a new batch of data comes in, you start a set of tasks.\nSome tasks can run in parallel, some must run in a sequence, perhaps\non a number of different machines. That's a workflow.\n\nDid you ever draw a block diagram of your workflow? Imagine you could\nbring that diagram to life and actually run it as it looks on the\nwhiteboard. With Airflow you can just about do that.\n\nhttp://airflow.apache.org\n\nApache Airflow is an open-source Python tool for orchestrating data\nprocessing pipelines. In each workflow tasks are arranged into a\ndirected acyclic graph (DAG). Shape of this graph decides the overall\nlogic of the workflow. A DAG can have many branches and you can\ndecide which of them to follow and which to skip at execution time.\n\nThis creates a resilient design because each task can be retried\nmultiple times if an error occurs. Airflow can even be stopped\nentirely and running workflows will resume by restarting the last\nunfinished task. Logs for each task are stored separately and are\neasily accessible through a friendly web UI.\n\nIn my talk I will go over basic Airflow concepts and through examples\ndemonstrate how easy it is to define your own workflows in Python\ncode. We'll also go over ways to extend Airflow by adding custom task\noperators, sensors and plugins.",
+  "duration": 1767,
+  "recorded": "2017-07-13",
+  "speakers": [
+    "Micha\u0142 Karzy\u0144ski"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XJf-f56JbFM/hqdefault.jpg",
+  "title": "Developing elegant workflows in Python code with Apache Airflow",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XJf-f56JbFM"
+    }
+  ]
+}

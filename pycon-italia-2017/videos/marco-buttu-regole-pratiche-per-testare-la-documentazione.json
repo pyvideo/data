@@ -1,0 +1,23 @@
+{
+  "description": "Nel lontano 1999 Tim Peters fece alcune\n`considerazioni <https://groups.google.com/forum/#!msg/comp.lang.python/DfzH5Nrt05E/Yyd3s7fPVxwJ>`__\nin merito alla documentazione del codice. Scrisse che *gli esempi non\nhanno prezzo*, che *gli esempi che non funzionano sono peggio di quelli\ninutili*, e che *gli esempi che funzionano alla fine diventano esempi\nche non funzionano*. Queste sostanzialmente furono le motivazioni che lo\nspinsero a scrivere il modulo\n`doctest <https://docs.python.org/3/library/doctest.html>`__ della\nlibreria standard. Da quel momento nel mondo Python si \u00e8 iniziato a\nprestare particolare attenzione ai test della documentazione. Non\nabbastanza per\u00f2. Si pensi che attualmente (inizio 2017), la\ndocumentazione ufficiale di Python conta circa 450 failures su 2100 test\ncomplessivi. Questi fallimenti sono dovuti solo in minima parte ad\nesempi errati. Generalmente (ma anche in questo caso specifico) le cause\nsono la mancanza di isolamento tra i test, assieme alla scarsa\ndimestichezza con il framework di test. Entrambe le cause possono\nportare a brutte sorprese, come ad esempio dei test ballerini, che a\nvolte passano e a volte no, senza apparente motivo. Lo scopo di questo\ntalk \u00e8 quindi mostrare come scrivere correttamente gli esempi ed il\ncodice presenti nella documentazione (doc utente, tutorial, docstring,\nlibri, o altro), in modo da tenere sotto controllo la situazione ed\nevitare spiacevoli sorprese e perdite di tempo.\n\nMateriale: https://github.com/marco-buttu/pycon8\n",
+  "duration": 2815,
+  "recorded": "2017-04-09",
+  "related_urls": [],
+  "speakers": [
+    "Marco Buttu"
+  ],
+  "tags": [
+    "documentation",
+    "sphinx",
+    "doctest",
+    "testing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/jygglYbMHLo/hqdefault.jpg",
+  "title": "Regole pratiche per testare la documentazione",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jygglYbMHLo"
+    }
+  ]
+}

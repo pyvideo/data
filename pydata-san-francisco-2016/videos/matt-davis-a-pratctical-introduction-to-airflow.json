@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData SF 2016\n\nAirflow is a pipeline orchestration tool for Python that allows users to configure multi-system workflows that are executed in parallel across workers. I\u2019ll cover the basics of Airflow so you can start your Airflow journey on the right foot. This talk aims to answer questions such as: What is Airflow useful for? How do I get started? What do I need to know that\u2019s not in the docs?\n\nAirflow is a popular pipeline orchestration tool for Python that allows users to configure complex (or simple!) multi-system workflows that are executed in parallel across any number of workers. A single pipeline might contain bash, Python, and SQL operations. With dependencies specified between tasks, Airflow knows which ones it can run in parallel and which ones must run after others. Airflow is written in Python and users can add their own operators with custom functionality, doing anything Python can do.\n\nMoving data through transformations and from one place to another is a big part of data science/engineering, but there are only two widely-used orchestration systems for doing so that are written in Python: Luigi and Airflow. We\u2019ve been using Airflow (http://pythonhosted.org/airflow/) for several months at Clover Health and have learned a lot about its strengths and weaknesses. We use it to run several pipelines multiple times per day. One includes over 450 heavily linked tasks!",
+  "duration": 2752,
+  "language": "eng",
+  "recorded": "2016-08-24",
+  "related_urls": [
+    "http://pythonhosted.org/airflow/"
+  ],
+  "speakers": [
+    "Matt Davis"
+  ],
+  "tags": [
+    "airflow"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/cHATHSB_450/maxresdefault.jpg",
+  "title": "A Pratctical Introduction to Airflow",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cHATHSB_450"
+    }
+  ]
+}

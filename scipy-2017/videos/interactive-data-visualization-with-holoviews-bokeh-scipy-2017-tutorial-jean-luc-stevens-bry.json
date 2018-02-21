@@ -1,0 +1,34 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "There are audio issues with this video that cannot be fixed. We recommend listening to the tutorial without headphones to minimize the buzzing sound.\nTutorial information may be found at https://scipy2017.scipy.org/ehome/220975/493423/\n\nVisualization represents a major bottleneck in scientific research, engineering, data science, and data analytics. The tools in the Python scientific ecosystem make it very simple to do many of the tasks required, but building visualizations to help understand complex patterns and relationships in your data still typically involves a large amount of custom coding for every new type of plot. Writing long and detailed scripts for plotting slows down the process of exploration and reporting, while the difficulty involved means that many important observations and discoveries are missed due to inadequate visualizations. The complexity of the resulting plotting code makes it difficult to rapidly build sophisticated, interactive visualizations that can quickly reveal the underlying structure of the data, and once such complex plotting scripts have been created they can be a major impediment to future understanding, reproduction, and modification of the research process.\n\nIn this tutorial, you will learn how to approach the problem of interactive visualization declaratively. Using the HoloViews library, you can annotate your data and store it in general-purpose containers that will be instantly visualizable. The declarative objects in HoloViews wrap your data to make it incredibly easy to visualize how different sets of data relate to each other, using subfigures, animations, interactive widgets and custom interactions. This flexibility has made HoloViews the chosen future replacement for the high-level Bokeh Charts API and works particularly well with IPython/Jupyter notebooks, where you can immediately see the output from selecting, combining, slicing, or sampling these objects. Each of these operations generates a different type of visualization, that can be flexibly extended even to complex dashboards deployed using the Bokeh server or Jupyter dashboards.\n\nThe core design principle of HoloViews is to make it simple to create complex plot layouts and interactivity by applying compositional operations to a small number of elements and containers. Since HoloViews separates the declaration of the data from the precise visual details of the plotting code, the same HoloViews objects can be rendered using matplotlib for publication-quality plots, or bokeh for interactive use. Overall, this means the user can focus on **what** to plot before worrying about **how** exactly it should be displayed, providing a huge boost in productivity.",
+  "duration": 12796,
+  "language": "eng",
+  "recorded": "2017-08-04",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    },
+    {
+      "label": "tutorial repository",
+      "url": "https://github.com/ioam/scipy-2017-holoviews-tutorial"
+    }
+  ],
+  "speakers": [
+    "Jean-Luc Stevens",
+    "Bryan Van de Ven"
+  ],
+  "tags": [
+    "tutorial",
+    "HoloViews",
+    "Bokeh"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/cMXKE0nB8k4/maxresdefault.jpg",
+  "title": "Interactive Data Visualization with HoloViews & Bokeh",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cMXKE0nB8k4"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Can citations write themselves? Using a topic modeling approach we model similarity between patents from the US patent database via cosine similarity. Mining the text of millions of patents for similarities allows us to algorithmically recommend possible citations for new patents. We use python, pyspark and big query to parallelize complex operations over millions of rows of data.\n\n**Abstract**\n\nIn this project we use natural language processing to investigate ways to generate recommendations for citations for new patents. Using a topic modeling approach and cosign similarity we attempt to recommend patents similar to the text of a potential new patent. This would allow inventors and engineers to quickly reference patents similar to their own and easily cite them.\n\nFrom an architectural stand point we use big query to handle data ingestion and pre-processing. The data management functionality of big query is key because there are millions of patents some of which may contain hundreds of pages of text. After pre processing in big query the bulk of our analytic work is done in spark through the python wrapper which allows for easy parallelization of the analytical portion.",
+  "duration": 2145,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Claire Kelley",
+    "Sarah Kelley"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/klYBPl1ljTQ/maxresdefault.jpg",
+  "title": "Automatic Citation generation with Natural Language Processing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=klYBPl1ljTQ"
+    }
+  ]
+}

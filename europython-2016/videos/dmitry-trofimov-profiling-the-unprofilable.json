@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Dmitry Trofimov - Profiling the unprofilable\n[EuroPython 2016]\n[18 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/profiling-the-unprofilable)\n\nWhen a program is not fast enough, we call on the profiler to save us.\nBut what happens when the program is hard to profile, like for\ninstance the Python Debugger? In this talk we're going dive deep into\nVmprof, a Python profiler, and see how it helps us find out why a\ndebugger can be slow. Once we find the culprit, we'll use Cython to\noptimise things.\n\n-----\n\nProfile is the main way to find slow parts of your application, and\nit's often the first approach to performance optimisation. While there\nare quite a few profilers, many of them have limitations. In this talk\nwe're going to learn about the new statistical profiler for Python\ncalled Vmprof that is actively being developed by the PyPy team. We'll\nsee how it is implemented and how to use it effectively. We will apply\nit to an open source project, the Pydev.Debugger, a popular debugger\nused in IDE's such as Pydev and PyCharm, and with the help of Cython\nwhich we'll also dig into, we'll work on optimising the issues we\nfind.\n\nWhether it's a Python debugger, a Web Application or any other kind of\nPython development you're doing, you'll learn how to effectively\nprofile and resolve many performance issues.",
+  "duration": 2182,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/profiling-the-unprofilable"
+  ],
+  "speakers": [
+    "Dmitry Trofimov"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/klHMUGcDfvc/maxresdefault.jpg",
+  "title": "Profiling the unprofilable",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=klHMUGcDfvc"
+    }
+  ]
+}

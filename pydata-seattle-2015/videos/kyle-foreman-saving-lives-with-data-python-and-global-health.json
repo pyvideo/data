@@ -1,0 +1,15 @@
+{
+  "description": "At the University of Washington's Institute for Health Metrics and Evaluation we combine a massive collection of global health data with cutting edge statistics to inform decision making that potentially affects the health of billions of people. I'll explain how Python is an integral part of our stack for managing petabytes of data and introduce several novel statistical tools we've developed.\n\nThe Institute for Health Metrics and Evaluation has been pushing the science of global health forward by introducing cutting edge statistical and computational techniques to a rapidly growing collection of health data from around the world. I will demonstrate this through several examples of how Python fits into our large data analysis stack:\n\nPyMB is a model building tool that uses algorithmic differentiation to allow us to optimize large statistical models. Previous Bayesian modeling frameworks were unable to fit such large models quickly (or sometimes not at all), so this has enabled us to greatly enhance the quality of our models.\nV1 uses IPython magic on top of rpy2 to abstract away the complexities of writing TMB models.\nV2 is in progress and uses PyCppAD to create a Pythonic interface for generating highly efficient C++ models that uses numpy for data I/O.\nDisMod is a disease modeling package that uses PyMC to fit compartmental models to \"messy\" data.\nCODEm is an ensemble modeling framework that can test thousands of hypothetical models and generate optimal combinations using crossvalidation.\nV1 used Python to glue together a lot of Stata code that had previously been exceptionally difficult to run on our 17k core cluster.\nV2 is entirely rewritten in Python and uses multithreading and Theano to speed up the previous Stata implementation by over 100x.\nWe have begun a new project to forecast the entire Global Burden of Disease to 2040 and enable policymakers and funders to decide how to best ensure the health of the world in the future.\nThis project uses PySpark to manage simulations outputting over 3 petabytes of data each time they're run.\nWe have built a tool to enable us to create directed acyclic graphs from SymPy expressions that can be executed seamlessly on backends ranging from single threaded numpy packages to large Hadoop clusters.\nFinally, I'll touch on how we use web tools such as GBD Compare in our work to both share results and enable collaborators around the world to easily run sophisticated models on our cluster using simple GUIs. These tools are primarily javascript on the front end, but most leverage Django on the backend to allow our developers to quickly prototype and integrate with our statistical software.",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Kyle Foreman"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/agP7ruBOtpY/hqdefault.jpg",
+  "title": "Saving Lives with Data: Python and Global Health",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=agP7ruBOtpY"
+    }
+  ]
+}

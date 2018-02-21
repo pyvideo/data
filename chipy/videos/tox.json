@@ -1,0 +1,48 @@
+{
+  "alias": "video/572/tox",
+  "category": "ChiPy",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Here's our Hudson matrix setup w/ tox:\n`http://hudson.testrun.org/job/nose-\nunstable/ <http://hudson.testrun.org/job/nose-unstable/>`__ (we just set\nthis up recently which is why most builds were broken in one or two\nenvs) I can also spend some time going over how we are currently\nmaintaining a test suite that runs in both 2.x and 3.x simultaneously.\n\nThis will be our Best Meeting Ever!\n\nhttp://codespeak.net/tox/\n\nhttp://chipy.org/\n",
+  "duration": null,
+  "id": 572,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2010-11-11",
+  "related_urls": [
+    "http://chipy.org/",
+    {
+      "label": "Project website",
+      "url": "http://codespeak.net/tox/"
+    },
+    "http://hudson.testrun.org/job/nose-",
+    "http://hudson.testrun.org/job/nose-unstable/"
+  ],
+  "slug": "tox",
+  "speakers": [
+    "Kumar McMillan"
+  ],
+  "summary": "It's a great new open source tool that helps you support all versions of\npython with your existing automated tests. It's not a test runner, it's\na super test runner runner! Or something. There is no easy way to\ndescribe it which is why the front page of the website is sort of\nconfusing, IMO. We use tox on the Nose project to make sure each code\nchange doesn't break the tests in Python 2.4, 2.5, 2.6, 2.7, 3.0 or\nJython. Not everybody targets so many environments but if you want to\nmaintain a widely used module then you probably will want to use tox\nsomeday.\n",
+  "tags": [
+    "chipy",
+    "testing",
+    "tox"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_572___tox",
+  "title": "Tox",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_572___tox"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.m4v"
+    },
+    {
+      "length": null,
+      "type": "flv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/chipy/572_tox.flv"
+    }
+  ]
+}

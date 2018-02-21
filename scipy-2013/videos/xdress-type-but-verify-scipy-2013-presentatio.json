@@ -1,0 +1,26 @@
+{
+  "alias": "video/2065/xdress-type-but-verify-scipy-2013-presentatio",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 2065,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-02",
+  "slug": "xdress-type-but-verify-scipy-2013-presentatio",
+  "speakers": [],
+  "summary": "Authors: Scopatz, Anthony, The University of Chicago & NumFOCUS, Inc.\n\nTrack: General\n\nXDress is an automatic wrapper generator for C/C++ written in pure\nPython. Currently, xdress may generate Python bindings (via Cython) for\nC++ classes & functions and in-memory wrappers for C++ standard library\ncontainers (sets, vectors, maps). In the future, other tools and\nbindings will be supported.\n\nThe main enabling feature of xdress is a dynamic type system that was\ndesigned with the purpose of API generation in mind. This type system\nprovides a canonical abstraction of various kinds of types: Base types\n(int, str, float, non-templated classes), refined types (even or odd\nints, strings containing the letter 'a'), and dependent types (templates\nsuch arrays, maps, sets, vectors). This canonical form is itself\nhashable, being comprised only of strings, ints, and tuples.\n\nOn top of this type system, xdress provides a tool for auto-generating\nclasses which are views into template instantiations of C++ standard\nlibrary maps and sets. Additionally, this tool also creates custom numpy\ndtypes for any C++ type, class or struct. This allows the user to have\nnumpy array views into C++ vectors.\n\nFurthermore, xdress also has a tool which inspects a C++ code base and\nautomatically generates Cython wrappers for all user-specified classes\nand functions. This significantly eases the burden of supporting mixed\nlanguage projects.\n\nThe above code generators, however, are just the beginning. The xdress\ntype system is flexible and powerful enough to engender a suite of other\ntools which take advantage of less obvious features. For example, an\nautomatic verification & validation utility could take advantage of\nrefinement type predicate functions to interdict parameter constraints\ninto the API right under the users nose!\n\nThis talk will focus on xdress's type system and its use cases.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/a4kqO1IBZ4U/hqdefault.jpg",
+  "title": "XDress - Type, But Verify; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=a4kqO1IBZ4U"
+    }
+  ]
+}

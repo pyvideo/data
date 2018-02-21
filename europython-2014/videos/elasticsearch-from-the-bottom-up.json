@@ -1,0 +1,26 @@
+{
+  "alias": "video/2970/elasticsearch-from-the-bottom-up",
+  "category": "EuroPython 2014",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "description": "Who I am and motivation\n-----------------------\n\nI work with hosted Elasticsearch and have interacted with lots of\ndevelopers. We see what many struggle with.\n\nSome relevant theory helps a lot. What follows has already lead to many\n\"Aha!\"-moments and developers piecing things together herself.\n\nThe inverted index\n------------------\n\nThe most important index structure is actually very simple. It is\nessentially a sorted dictionary of terms, with a list of postings per\nterm.\n\nWe show three simple sample documents and the resulting inverted index.\n\nThe index term\n--------------\n\nThe index term is the \"unit of search\", and the terms we make decide how\nwe can search.\n\nWith the inverted index and its sorted dictionary, we can quickly search\nfor terms given their prefix.\n\nImportance of text analysis\n---------------------------\n\nThus, we need to transform our search problems into string prefix\nproblems.\n\nThis is done with text analysis, which is the process of making of index\nterms. It is highly important when implementing search.\n\nBuilding indexes\n----------------\n\nThe way indexes are built must balance how compact an index is, how\neasily we can search in it, how fast we can index documents - and the\ntime it takes for changes to be visible.\n\nLucene, and thus Elasticsearch, builds them in segments.\n\nIndex segments\n--------------\n\nA Lucene index consists of index segments, i.e. immutable mini-indexes.\n\nA search on an index is done by doing the search on all segments and\nmerging the results.\n\nSegments are immutable:\n\nThis enables important compression techniques. Deletes are not\nimmediate, just a marker. Segments are occasionally merged to larger\nsegments. Then documents are finally deleted. New segments are made by\nbuffering changes in memory, and written when flushing happens. Flushes\nare largely caused by refreshing every second, due to real time needs.\n\nCaches\n------\n\nCaches like filter- and field caches are managed per segment. They are\nessential for performance.\n\nImmutable segments make for simple reasoning about caches. New segments\nonly cause partial cache invalidations.\n\nElasticsearch indexes\n---------------------\n\nMuch like a Lucene index is made up of many segments, an Elasticsearch\nindex is made up of many Lucene indexes.\n\nTwo Elasticsearch indexes with 1 shard is essentially the same as one\nElasticsearch index with 2 shards.\n\nSearch all shards and merge. Much like segments, but this time possibly\nacross machines.\n\nShard / Index routing enables various partitioning strategies. Simpler\nthan it sounds, so one important example:\n\nEssential for time based data, like logs: can efficiently skip searching\nentire indexes - and roll out old data by deleting the entire index.\n\nCommon pitfalls\n---------------\n\nWe must design our indexing for how we search - not the searches for how\nthings are indexed. Be careful with wildcards and regexes.\n\nSince segments are immutable, deleting documents is expensive while\ndeleting an entire index is cheap.\n\nUpdating documents is essentially a delete and re-index. Heavy updating\nmight cause problems.\n\nHave enough memory and then some. Elasticsearch is very reliant on its\ncaches.\n\nSummary\n-------\n\nWe've seen how index structures are used, and why proper text processing\nis essential for performant searches.\n\nAlso, you now know what index segments are, and how they affect both\nindexing and searching strategies.\n\nQuestions\n---------\n\n",
+  "duration": null,
+  "id": 2970,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-24",
+  "slug": "elasticsearch-from-the-bottom-up",
+  "speakers": [
+    "Alex Brasetvik"
+  ],
+  "summary": "This talk will teach you about Elasticsearch and Lucene's architecture.\n\nThe key data structure in search is the powerful inverted index, which\nis actually simple to understand. We start there, then ascend through\nabstraction layers to get an overview of how a distributed search\ncluster processes searches and changes.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/PpX7J-G2PEo/hqdefault.jpg",
+  "title": "Elasticsearch from the bottom up",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=PpX7J-G2PEo"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "We have been using the Zope Object Database (ZODB) in various Zope and Plone projects for more than 15 years in addition to various RDBMS-driven projects based on Postgres and the well-known SQLAlchemy stack for Python. Over the years we have been using and evaluating various so-called NoSQL databases in various projects. My talk will cover experiences with Cassandra, MongoDB and others.\nAll experiences and statements are completely biased and personal. Choosing a new database is always like a hunt - you have different requirements in each project and you are always looking for the perfect solution. However there is no perfect solution - in particular no in the NoSQL world. All NoSQL databases set different priorities under the constraints of the CAP theorem (a database can fulfill only two out of the three aspects availabilty, consistency and partitioning tolerance). While evaluating many other NoSQL database we came to ArangoDB which is a multi-model database which appears a nice mixture of all requirements that we (we as solution provider for CMS and web solutions) often have. A document store with the features of the graph database. Together with partitioning and clustering support ArangoDB 3.0 appears to be the best option further projects. As written: this talk is completely biased and unscientific (not comparing all NoSQL features across all possible NoSQL databases).",
+  "language": "eng",
+  "recorded": "2016-10-30",
+  "speakers": [
+    "Andreas Jung"
+  ],
+  "thumbnail_url": "https://cast.itunes.uni-muenchen.de/clips/f7lu8lyAip/deliver_poster",
+  "title": "Hunting for the best NoSQL database. Why we love ArangoDB",
+  "videos": [
+    {
+      "type": "mp4",
+      "url": "https://cast.itunes.uni-muenchen.de/vod/clips/eEtx7QQSnx/quicktime.mp4"
+    }
+  ]
+}

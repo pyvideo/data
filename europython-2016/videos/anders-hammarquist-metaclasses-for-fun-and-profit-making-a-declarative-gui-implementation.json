@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Anders Hammarquist - Metaclasses for fun and profit: Making a declarative GUI implementation\n[EuroPython 2016]\n[20 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/metaclasses-for-fun-and-profit-making-a-declarative-gui-implementation)\n\nWhen standard Python syntax doesn't cut it, apply metaclasses to make\nit do what you want. Here I present our metaclass-based implementation\nof a declarative GUI layout syntax to inspire ideas for what to do\nwhen your goals don't fit the Python syntax.\n\n-----\n\nWhen overhauling the user interface of Autolabel's labeling printers,\nwe wanted a clean way to describe the layout of the settings widgets.\nThe structure we came up with was a declarative class layout that\nleverages Python's metaclass concept to build the underlying GTK\nwidget structure.\n\nI will present the implementation to hopefully inspire you to apply\nmetaclass techniques to problems that standard Python syntax can't\nquite solve. If that fails, you will at least have a way to\ndeclaratively construct GTK GUIs.\n\nA short, non-exaustive, summary of concepts I will mention includes\nmetaclasses (obviously), class hierarchies, method resolution\norder, super(), and anecdotes of dealing with GTK.\n\nYou may find some similarities with my talk on Python as a domain\nspecific language at Europython 2006\nhttp://indico.cern.ch/event/44/session/41/contribution/35\n\nSlides are available at https://www2.openend.se/~iko/ep2016\n\nExample code on Bitbucket https://bitbucket.org/iko/ep2016-declarative-gui/",
+  "duration": 2374,
+  "language": "eng",
+  "recorded": "2016-08-01",
+  "related_urls": [
+    "https://www2.openend.se/~iko/ep2016",
+    "https://ep2016.europython.eu//conference/talks/metaclasses-for-fun-and-profit-making-a-declarative-gui-implementation",
+    "http://indico.cern.ch/event/44/session/41/contribution/35",
+    "https://bitbucket.org/iko/ep2016-declarative-gui/"
+  ],
+  "speakers": [
+    "Anders Hammarquist"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/gN1o7lIOXr4/maxresdefault.jpg",
+  "title": "Metaclasses for fun and profit: Making a declarative GUI implementation",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gN1o7lIOXr4"
+    }
+  ]
+}

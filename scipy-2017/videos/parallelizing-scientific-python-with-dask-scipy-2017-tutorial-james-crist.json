@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Tutorial materials found here: https://scipy2017.scipy.org/ehome/220975/493423/\n\nDask is a flexible tool for parallelizing Python code on a single machine or across a cluster. We can think of dask at a high and a low level:\n\n- High level collections: Dask provides high-level Array, Bag, and DataFrame collections that mimic NumPy, lists, and Pandas but can operate in parallel on datasets that don't fit into main memory. Dask's high-level collections are alternatives to NumPy and Pandas for large datasets.\n\n- Low Level schedulers: Dask provides dynamic task schedulers that execute task graphs in parallel. These execution engines power the high-level collections mentioned above but can also power custom, user-defined workloads. These schedulers are low-latency (around 200 us) and work hard to run computations in a small memory footprint. Dask's schedulers are an alternative to direct use of threading or multiprocessing libraries in complex cases or other task scheduling systems like Luigi or IPython parallel.\n\nDifferent users operate at different levels but it is useful to understand both. This tutorial will cover both the high-level use of dask.array and dask.dataframe and low-level use of dask graphs and schedulers.",
+  "duration": 9434,
+  "language": "eng",
+  "recorded": "2017-07-13",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    },
+    {
+      "label": "tutorial materials",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493423/"
+    }
+  ],
+  "speakers": [
+    "James Crist"
+  ],
+  "tags": [
+    "tutorial",
+    "dask"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mbfsog3e5DA/maxresdefault.jpg",
+  "title": "Parallelizing Scientific Python with Dask",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mbfsog3e5DA"
+    }
+  ]
+}

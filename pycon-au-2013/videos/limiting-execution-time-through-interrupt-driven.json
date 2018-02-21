@@ -1,0 +1,31 @@
+{
+  "alias": "video/2209/limiting-execution-time-through-interrupt-driven",
+  "category": "PyCon AU 2013",
+  "copyright_text": "CC-BY-SA",
+  "description": "",
+  "duration": 30,
+  "id": 2209,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-06",
+  "slug": "limiting-execution-time-through-interrupt-driven",
+  "speakers": [
+    "Erik van Zijst"
+  ],
+  "summary": "This talk explores the challenges of ensuring responsiveness of\napplications under varying conditions like suddenly increased load, code\nregressions and problematic user data that reveal code paths with\nunusually high time complexity.\n\nI'll be looking at interrupt-driven techniques to help bring the 95\npercentile of the response times of your application closer to the\n(usually much lower) mean.\n\nIn this talk, we'll go beyond traditional tricks like caching, sharding\nand data denormalization and instead look at tools that can interrupt\nexecution of overly expensive code paths, such that you can guarantee an\nupper bound in response time.\n\nInterruptingcow and django-timelimit will be some of the tools that will\nbe covered in this talk.\n\nThe context for most of this is web applications, and I'll be drawing\nmany examples from our ongoing experiences with running and scaling\nBitbucket, which is entirely written in Python.\n\nHaving said that though, many of the tools and techniques demonstrates\nwill apply just as well to other types of applications and situations.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/Hv2pl7B1pZw/hqdefault.jpg",
+  "title": "Limiting Execution Time Through Interrupt Driven Programming",
+  "videos": [
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://s3.us.archive.org/ndvpyconau2013/Limiting_Execution_Time_Throug.mp4"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Hv2pl7B1pZw"
+    }
+  ]
+}

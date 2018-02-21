@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Jupyter has a modular architecture which allows extending it in numerous ways. This talk presents src-d/jgscm, Google Cloud Storage Jupyter file system backend which provides the ability to work with notebooks and other files directly in Google Cloud Storage. The described approach can be used for writing similar backends, e.g. for Amazon Cloud.\n\nSee more here : https://egorbu.github.io/pydata_2017_barcelona/index.html\n\n**Abstract**\n\nsrc-d/jgscm is a Jupyter file system backend for Google Cloud Storage. It allows to work with notebooks and other files directly in Google Cloud Storage. It's codebase is rather small and simple thanks to Jupyter's modular architecture. We start from the very basics, revise how Google Cloud Storage works and how Jupyter deals with the virtual file system and end up with the complete production-tested backend implementation. The described ideas are rather versatile and can be re-used to create backends for similar cloud storage systems, e.g. Amazon.",
+  "duration": 1868,
+  "language": "eng",
+  "recorded": "2017-05-20T15:45:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/13/"
+    },
+    {
+      "label": "slides",
+      "url": "https://egorbu.github.io/pydata_2017_barcelona/index.html"
+    }
+  ],
+  "speakers": [
+    "Egor Bulychev"
+  ],
+  "tags": [
+    "jupyter notebook"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/uLC0t5JZBZs/maxresdefault.jpg",
+  "title": "Extending Jupyter with Google Cloud Storage file system backend",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uLC0t5JZBZs"
+    }
+  ]
+}

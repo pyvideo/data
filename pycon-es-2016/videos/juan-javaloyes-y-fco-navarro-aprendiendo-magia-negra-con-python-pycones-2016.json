@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "La simulaci\u00f3n y optimizaci\u00f3n de procesos han experimentado un crecimiento considerable durante los \u00faltimos a\u00f1os. Con el avance, abaratamiento de arquitecturas y mejora de software para procesamiento en paralelo, muchas industrias apuestan por algoritmos estoc\u00e1sticos para mejorar la producci\u00f3n, reducir los costes o disminuir el impacto medioambiental.\n\nDebido a la complejidad de la multitud de procesos industriales, es habitual hacer uso de simuladores donde existe un flujo de datos con los que se opera en m\u00f3dulos o bloques de forma secuencial. Sin embargo, con respecto a la optimizaci\u00f3n, los simuladores no han alcanzado un grado de desarrollo o robustez deseada \u2014no existe a\u00fan un bot\u00f3n m\u00e1gico en los simuladores que \u201coptimice\u201d, por ejemplo, el n\u00famero de equipos y/o las condiciones de operaci\u00f3n.\n\nEn esta charla, sin embargo, mostraremos con c\u00f3digo Python como algoritmos del tipo PSO (Particle Swarm Optimization) pueden ser acoplados f\u00e1cilmente con simuladores de procesos para resolver problemas de optimizaci\u00f3n. Recientemente en Python han aparecido librer\u00edas especializadas en algoritmos libres de derivadas (OpenMDAO-NASA, PyGMO-ESA o PySwarm, entre otras). \u00c9stas, junto al uso de simuladores (propietarios o libres) pueden ser muy interesantes en un gran n\u00famero de aplicaciones como herramientas de optimizaci\u00f3n de caja negra.\n\nPor ejemplo, en el \u00e1mbito de la ingenier\u00eda de procesos qu\u00edmicos, los simuladores secuenciales modulares (como Aspen Hysys, Aspen Plus, Pro/II, ChemCAD\u2026) son ampliamente utilizados para el dise\u00f1o refiner\u00edas, plantas qu\u00edmicas y/o tratamiento de aguas. Estos paquetes de software incluyen bibliotecas termodin\u00e1micas y modelos num\u00e9ricos que conducen a predicciones precisas de los procesos implementados. Por ello y a modo de aplicaci\u00f3n real, combinaremos finalmente estos simuladores con Python, lo que nos permitir\u00e1 obtener un ahorro econ\u00f3mico significativo en el dise\u00f1o final de una planta de procesos qu\u00edmicos.\n\nEsta charla ser\u00e1 impartida por investigadores de ingenier\u00eda qu\u00edmica de la Universidad de Alicante miembros de CAChemE y su estructura ser\u00e1 la siguiente:\n\n- Introducci\u00f3n a la problem\u00e1tica en la optimizaci\u00f3n matem\u00e1tica (5 min). Se realizar\u00e1 una introducci\u00f3n visual a conceptos de optimizaci\u00f3n determinista, as\u00ed como a las ventajas e inconvenientes que presentan los algoritmos estoc\u00e1sticos.\n\n- Implementaci\u00f3n del algoritmo PSO (15 min). Se ver\u00e1n ejemplos sencillos de optimizaci\u00f3n con Python y se explicar\u00e1 de manera breve c\u00f3mo acelerar su tiempo de ejecuci\u00f3n.\n\n- Serie de ejemplos de problemas de optimizaci\u00f3n en ingenier\u00eda (10 min), con especial hincapi\u00e9 en ejemplos reales en la industria e ingenier\u00eda qu\u00edmica.\n\nMaterial de la charla disponible en https://github.com/CAChemE/stochastic-optimization\n\nPresentaci\u00f3n disponible en https://github.com/CAChemE/stochastic-optimization/raw/master/Slides%20-%20PyconES%202016%20-%20Simulation-Based%20Optimization%20Using%20PSO.pdf\n\n\nhttp://2016.es.pycon.org/",
+  "duration": 1811,
+  "language": "spa",
+  "recorded": "2016-10-08",
+  "related_urls": [
+    "https://github.com/CAChemE/stochastic-optimization",
+    "http://2016.es.pycon.org/",
+    "https://github.com/CAChemE/stochastic-optimization/raw/master/Slides%20-%20PyconES%202016%20-%20Simulation-Based%20Optimization%20Using%20PSO.pdf",
+    "https://es.wikipedia.org/wiki/Optimizaci%C3%B3n_por_enjambre_de_part%C3%ADculas",
+    "https://en.wikipedia.org/wiki/Derivative-free_optimization",
+    "https://en.wikipedia.org/wiki/OpenMDAO",
+    "http://esa.github.io/pygmo/",
+    "http://pythonhosted.org/pyswarm/",
+    "https://en.wikipedia.org/wiki/List_of_chemical_process_simulators",
+    "http://cacheme.org/"
+  ],
+  "speakers": [
+    "Juan Javaloyes",
+    "Francisco Navarro"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/FByXobXC64U/maxresdefault.jpg",
+  "title": "Aprendiendo magia negra con Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FByXobXC64U"
+    }
+  ]
+}

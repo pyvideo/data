@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Async programming is hot\u00ae, but also difficult. Since Python is fundamentally designed for sequential (as in \u201cnot parallel\u201d) programming, asynchrony doesn\u2019t feel natural, and requires more mentally to comprehend than, say, a language that can go async directly (bad pun intended).\nAbstract\n\nAsynchrony in Python had gathered much momentum recently, with interests from core developers, as evidenced by the introduction of ``asyncio`` in Python 3.4, and a great boom of related third-party projects following it. By utilising more functionalities from the underlying operating system, it is a great solution to many existing problems in Python applications, gaining practical concurrency without working around the well-known GIL (global interpreter lock) problem.\n\nWith all its advantages, asynchrony is, however, still a relatively new concept in Python, and as a result could be somewhat mistaken, even misunderstood by some people. One of these misconceptions, probably the most serious, is to mistake concurrency through asynchrony for parallelism. Although ``asyncio`` (and other similar solutions) lets multiple parts of your program executes without interfering each other, it does not allow them to run together\u2014this is still impossible, at least in CPython, due to the continued existence of the GIL. This makes asynchrony suitable for only a certain, instead of all, kinds of problems. Evaluation is therefore required before a programmer can decide whether the asynchrony model is suitable for a particular application.\n\nFurthermore, partly due to its relatively short existence, paradigms in asynchrony programming do not necessarily fit well with other parts of Python, including libraries, either built-in or third-party ones. Since only blocking libraries were available in most of Python\u2019s history, many assumptions they made may not work well with async programs out-of-the-box. Adopting asynchrony, at least at the present time, will therefore introduce more technical debt to your program. These are all important aspects that require much consideration before you dive head-first into asynchrony.",
+  "duration": 2751,
+  "language": "eng",
+  "recorded": "2016-09-21",
+  "related_urls": [],
+  "speakers": [
+    "Tzu-ping Chung"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/IBA89nFEQ8U/maxresdefault.jpg",
+  "title": "You Might Not Want Async (in Python)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IBA89nFEQ8U"
+    }
+  ]
+}

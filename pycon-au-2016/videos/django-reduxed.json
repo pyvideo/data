@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Saket  Bhushan\nhttps://2016.pycon-au.org/schedule/56/view_talk\nThe talk will be an introduction to all the moving parts involved in building\na client side isomorphic single page application with a REST backend. We\nwill take a dive into How and where does React-Redux fit into the bigger picture\nof REST APIs and Client Side MVC, and how to seamlessly introduce the goodness\nit brings to your django project. We will also see some non obvious things that you had\nto deal while using redux.\n\nHaving a service oriented architecture in web projects require interfacing the\nbackend using a REST-ful interface. Building your website as a single page app\nallows you to focus on building the API up front, rather than duplicating your\nefforts to build a website and then replicating the functionality with an API.\nWith a single page app, your website can be constructed in much the same way as\na mobile app. Django and the Django REST Framework enabled my team to quickly\ndeliverable a highly functional REST API that was customised to our unique needs.\n\nReact is a great tool to keep UI organised, but won't keep\ntrack of the data and state of application. Redux comes to rescue over here -\nit defines a minimal but sufficiently powerful way of interacting with that state.\nAn action from the UI is combined with a simple JS object(state).\nRedux helps developers manage the state and flow of data around an application.\n\n\nOne of the strengths of redux is that everything is very explicit.\nIt ease out the process of managing the state and flow of data\naround an application. Imagine tons of asynchronous actions without introducing\nannoying UI bugs.",
+  "duration": 1169,
+  "language": "eng",
+  "recorded": "2016-08-15",
+  "related_urls": [
+    "https://2016.pycon-au.org/schedule/56/view_talk"
+  ],
+  "speakers": [
+    "Saket  Bhushan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xZYe2Avldlo/maxresdefault.jpg",
+  "title": "Django Reduxed",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xZYe2Avldlo"
+    }
+  ]
+}

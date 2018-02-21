@@ -1,0 +1,30 @@
+{
+  "alias": "video/2958/packaging-in-packaging-dh-virtualenv",
+  "category": "EuroPython 2014",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "description": "`Dh-virtualenv <http://github.com/spotify/dh-virtualenv>`__ is an open\nsource tool developed at Spotify. We use it to ease deploying our Python\nsoftware to production. We built dh-virtualenv as a tool that fits our\nexisting continuous integration flow with a dedicated sbuild server. As\nwe were already packaging software in Debian packages, the aim of\ndh-virtualenv was to make transition to virtualenv based installations\nas smooth as possible.\n\nThis talk covers how you can use dh-virtualenv to help you deploy your\nsoftware to production, where you are already running a Debian-based\nsystem, such as Ubuntu, and what are the advantages and disadvantages of\nthe approach over other existing and popular techniques. We will discuss\nthe deploying as a problem in general, look into building a\ndh-vritualenv-backed package, and in the end, look into how\ndh-virtualenv was actually made.\n\nGoal is that after this presentation you know how to make your\nDebian/Ubuntu deployments easier!\n\n`dh-virtualenv <http://github.com/spotify/dh-virtualenv>`__ if fully\nopen sourced, production tested software, licensed under GPLv2+ and\navailable in Debian testing and unstable.\n\nMore information of it is also available in our\n`blogpost <http://labs.spotify.com/2013/10/10/packaging-in-your-packaging-dh-virtualenv/>`__.\n\nTalk outline:\n\n1. Introduction & overview (3min)\n\n   -  Who am I?\n   -  Why am I fiddling with Python packaging?\n   -  What do you get out of this talk?\n\n2. Different shortcomings of Python deployments (5min)\n\n   -  Native system packages\n   -  Virtualenv based installations\n   -  Containers, virtual machine images\n\n3. dh-virtualenv (10 min)\n\n   -  What is dh-virtualenv?\n   -  Thought behind dh-virtualenv\n   -  Advantages over others\n   -  Requirements for your deployment flow\n   -  Short intro to packaging Sentry with dh-virtualenv\n\n4. How is it built? (10 min)\n\n   -  Debian package building flow primer\n   -  How dh-virtualenv fits that flow\n   -  What does it do build time and why?\n\n\n",
+  "duration": null,
+  "id": 2958,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-24",
+  "related_urls": [
+    "http://github.com/spotify/dh-virtualenv",
+    "http://labs.spotify.com/2013/10/10/packaging-in-your-packaging-dh-virtualenv/"
+  ],
+  "slug": "packaging-in-packaging-dh-virtualenv",
+  "speakers": [
+    "Jyrki Pulliainen"
+  ],
+  "summary": "Deploying your software can become a tricky task, regardless of the\nlanguage. In the spirit of the Python conferences, every conference\nneeds at least one packaging talk.\n\nThis talk is about dh-virtualenv. It's a Python packaging tool aimed for\nDebian-based systems and for deployment flows that already take\nadvantage of Debian packaging with Python virtualenvs\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/d_jqe1O31X8/hqdefault.jpg",
+  "title": "Packaging in packaging: dh-virtualenv",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=d_jqe1O31X8"
+    }
+  ]
+}

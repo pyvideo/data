@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Cada a\u00f1o se incrementa la diferencia entre el tiempo de acceso a memoria y la velocidad de los procesadores. Esto est\u00e1 provocando que se formen cuellos de botella en en el uso de memoria, desaprovechando en muchas ocasiones la capacidad de los procesadores. En el an\u00e1lisis de datos, concretamente en el an\u00e1lisis num\u00e9rico, es usual que ocurra \u00e9ste desaprovechamiento, sobre todo si se trabaja con datos estructurados en columnas, lo cual es muy habitual en este tipo de an\u00e1lisis. Es el caso de Python Pandas por ejemplo.\n\nBcolz aparece con la idea de utilizar la m\u00e1xima capacidad posible del procesador, sin tener que depender de la memoria. Para ello bcolz establece un formato de archivos en el cual los datos se guardan en disco comprimidos, estructurados por columnas y en trozos del tama\u00f1o de la cach\u00e9 del procesador. Cuando se realiza una operaci\u00f3n sobre archivos bcolz, la informaci\u00f3n es transportada de disco dir\u00e9ctamente a procesador. El procesador descomprime la informaci\u00f3n en su cach\u00e9 y opera con ella.\n\nAl eliminar la barrera de la memoria, conseguimos utilizar el m\u00e1ximo rendimiento del procesador/procesadores y adem\u00e1s podremos hacer an\u00e1lisis que antes eran imposible de realizar sin una estrategia multinodo ya que la memoria es algo muy caro/limitado de conseguir en servidores pero el disco no. Adem\u00e1s la compresi\u00f3n est\u00e1 hecha con Blosc, que es un compresor muy r\u00e1pido, que entre otras cosas ha conseguido tiempos excepcionales en el tiempo de transmisi\u00f3n a la cach\u00e9, incluso m\u00e1s r\u00e1pido que un memcpy() Bcolz est\u00e1 obteniendo mejores tiempos de consulta en disco que Pandas en memoria. Tabi\u00e9n puede ser usado en memoria aumentando a\u00fan m\u00e1s su velocidad, ya que los datos se almacenan en memoria igualmente comprimidos, aunque no es la idea de su dise\u00f1o.\n\nEn la charla se examinar\u00e1n las posibilidades de Bcolz y la revoluci\u00f3n que supone en el an\u00e1lisis de datos num\u00e9rico, especialmente para quien trabaje con Pandas. Se mostrar\u00e1 que para muchos casos en los cuales por considerarse \u201cBig Data\u201d se opta por una estrategia multinodo del tipo Hadoop, y podr\u00eda ser mucho m\u00e1s f\u00e1cil, r\u00e1pido y menos costoso usando Bcolz. Tambi\u00e9n se ver\u00e1 su aplicaci\u00f3n a casos reales en producci\u00f3n y se hablar\u00e1n de sus ventajas as\u00ed como de sus limitaciones. Se proporcionar\u00e1 una breve demostraci\u00f3n en directo de sus capacidades.\n\n\nhttp://2016.es.pycon.org/",
+  "duration": 2179,
+  "language": "spa",
+  "recorded": "2016-10-09",
+  "related_urls": [
+    "http://2016.es.pycon.org/"
+  ],
+  "speakers": [
+    "J. Diego Hueltes"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ra4i2x8bnFs/maxresdefault.jpg",
+  "title": "Big Data Analytics low cost con Bcolz / Bquery",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ra4i2x8bnFs"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "category": "PyCon CA 2015",
+  "copyright_text": "",
+  "description": "",
+  "duration": 1665,
+  "id": 5025,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-11-08",
+  "slug": "from-flying-circus-to-holy-grail-migrating-the-api",
+  "speakers": [
+    "Sam Kitajima-Kimbrel"
+  ],
+  "summary": "Almost every software project of meaningful scale eventually runs into architectural problems. One of the larger issues we\u2019ve dealt with at Twilio is an increasingly-brittle and hard-to-manage PHP codebase, originally responsible for running a website and public REST API. Over time, core business logic has been extracted from the legacy codebase into internal services fronted by a public REST API. This talk will explore how Python and Flask were used to build a simple proxying HTTP layer to handle all of Twilio\u2019s API traffic and direct it to the appropriate internal systems. Along the way, we\u2019ll cover why Python is well-suited to this application, ways to test code that\u2019s replacing existing services, deployment strategies, and all of the benefits that came from migrating to more modern systems.",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Gc6ZPgxowpI/maxresdefault.jpg",
+  "title": "From Flying Circus to Holy Grail: migrating the Twilio REST API from PHP to Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Gc6ZPgxowpI"
+    }
+  ]
+}

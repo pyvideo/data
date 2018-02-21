@@ -1,0 +1,26 @@
+{
+  "alias": "video/2004/analyzing-ibm-watson-experiments-with-ipython-not",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 2004,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-02",
+  "slug": "analyzing-ibm-watson-experiments-with-ipython-not",
+  "speakers": [],
+  "summary": "Authors: Bittner, Torsten, IBM\n\nTrack: General\n\nIBM's Emerging Technologies team was tasked with migrating the IBM\nWatson system that won the Jeopardy!-like game to a domain-independent\ncodebase. This task started as a software engineering exercise and later\nbecame an information engineering exercise as we worked to optimize the\nsystem's question-answering ability for new domains. In this new\nparadigm the team would observe and measure a system behavior, such as\nits accuracy in generating candidate answers to a particular type of\nquestion, and then hypothesize what (software) change to the system\nwould improve the behavior and how it would impact the original\nmeasurement. The team would then implement the change, re-run the system\nagainst a test dataset, analyze the gigabyte-sized test results to\nevaluate the difference in system behavior. By conducting many series of\nthese experimental iterations, the team was able to significantly\nimprove IBM Watson's question-answering performance.\n\nOur initial attempts at information engineering used Java and the D3\nJavaScript library to extract, analyze and visualize metrics of the\nsystem's behavior. Wiki pages were used to document the many experiments\nand their configurations. However, this arrangement proved overly\ncumbersome for handling the large numbers of experiments we ran, and our\nneed to share experimental details, visualizations and results with\nother teams. Furthermore, we also needed to enable a broader skill set\nof people -- beyond expert Java programmers -- to conduct analyses,\ncreate visualizations, and share findings.\n\nThis talk describes how we used the IPython notebook environment and the\nrich set of Python data science libraries (e.g. Pandas, NumPy/SciPy) to\nperform reproducible science, which resulted in improvements to IBM\nWatson's accuracy.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/tlontoyWX70/hqdefault.jpg",
+  "title": "Analyzing IBM Watson experiments with IPython Notebook; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=tlontoyWX70"
+    }
+  ]
+}

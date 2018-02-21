@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "The computer programming language Forth was invented by Charles H. Moore in 1970. Forth is famous for being stack based and using reverse polish notation: the operators come after their operands. A Forth program to convert from Fahrenheit to Celsius (C = (F-32) \u00d7 5/9) is:\n\n32 - 5 * 9 /\n\nOn 23rd August 2016 I had an urge to write a Forth system in 64-bit Intel Assembly. This talk is about what happens next.\n\nIn it I unpack what it means to implement a language. I dig a little into a lower-level description of typical computer hardware, and a little into 64-bit Intel Assembly. Compared to Python, Forth is a low-level language; compared to Assembly, Forth is a high-level language.\n\nI'll talk about how we can implement one language in terms of another, by building models, and how we can model languages and model computational processes.\n\nForth is a tiny, but powerful, language. Moore's insight was to discover a language that was:\n\n- small\n- sufficient\n- easy to implement\n- extensible.\n\nThe result is that Forth implementations are typically composed of a tiny nucleus (typically in Assembly) surrounded by a larger amount of \"Forth-in-Forth\".\n\nCome. Let's implement a language.",
+  "duration": 1450,
+  "language": "eng",
+  "recorded": "2017-10-27T15:00:00+01:00",
+  "related_urls": [
+    {
+      "label": "event schedule",
+      "url": "http://2017.pyconuk.org/schedule/"
+    },
+    {
+      "label": "talk slides",
+      "url": "https://github.com/drj11/forth-pyconuk2017/blob/master/forth-pyconuk2017.pdf"
+    }
+  ],
+  "speakers": [
+    "David Jones"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/iZ-5rBQS_p4/maxresdefault.jpg",
+  "title": "What I learned building Forth in 64 bit Intel assembly",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iZ-5rBQS_p4"
+    }
+  ]
+}

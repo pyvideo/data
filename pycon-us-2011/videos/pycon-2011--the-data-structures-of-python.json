@@ -1,0 +1,50 @@
+{
+  "alias": "video/420/pycon-2011--the-data-structures-of-python",
+  "category": "PyCon US 2011",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "The Data Structures of Python\n\nPresented by Alex Gaynor\n\nAny Python programmer knows about the major builtin data strcutres,\nlists, dicts, tuples, but do you always remember when you're supposed to\nuse them? Do you know about all the cool data structures hidden in the\nstandard library? This talk will be a review of the characteristics of\nthe different data structures, and a tour of idiomatic ways to use some\nof the structures in the standard library.\n\nAbstract\n\nFirst, as a note this talk borders between survey and discuss in depth.\nFor each data structure I want to cover their implementation,\nperformance characteristics, and idiomatic usage (e.g. tuples vs.\nlists), a lot of them have similar implementations so idiomatic usage\nwill dominate for some of them.\n\n-  The builtins (10 minutes)\n\n   -  lists\n   -  Ordered collections of any type of objects\n   -  Mutable\n   -  Implemented as an array of pointers\n   -  tuples\n   -  Ordered collections of any type of objects\n   -  Immutable\\*\n   -  Implemented as a fixed-length array of pointers\n   -  dicts\n   -  Unordered mapping of hashable objects to any objects\n   -  Mutable\n\n      -  Why no immutable variant\n\n   -  Implemented as an open-addressed hash table.\n   -  sets\n   -  Unordered collection of hashable objects\n   -  Mutable\n\n      -  frozenset\n\n   -  Implemented as an open-addressed hash table.\n\n-  The Standard Library (10 minutes)\n\n   -  OrderedDict\n   -  Ordered mapping of hashable objects to any objects\n   -  Mutable\n   -  Implemented as a dict with a doubly-linked list running through\n      it.\n   -  deque\n   -  Ordered collection of any type of objects\n   -  Mutable\n   -  Implemented as an unrolled, doubly-linked list\n   -  namedtuple\n   -  Ordered collection of any type of objects, *also* addressable by\n      name.\n   -  Immutable\n   -  Implemented as a tuple with extra properties\n   -  array\n   -  Like a list... but limited to \"primitve\" types.\n\n-  Performance characteristics.\n-  Writing your own (5 minutes)\n\n   -  Abstract Base Classes\n   -  Duck typing\n\n      -  Why would you want to use them!\n\n   -  What's available.\n   -  OrderedSet\n   -  An ordered collection of hashable objects\n   -  Mutable\n   -  Implemented as a set with a doubly-linked list running through it.\n\n-  Questions (5 minutes)\n\n",
+  "duration": null,
+  "id": 420,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--the-data-structures-of-python",
+  "speakers": [
+    "Alex Gaynor"
+  ],
+  "summary": "",
+  "tags": [
+    "abc",
+    "datastructures",
+    "dequearray",
+    "dict",
+    "ducktyping",
+    "frozenset",
+    "list",
+    "namedtuple",
+    "ordereddict",
+    "orderedset",
+    "pycon",
+    "pycon2011",
+    "set",
+    "tuple"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_420___the-data-structures-of-python",
+  "title": "The Data Structures of Python",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_420___the-data-structures-of-python"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/420_the-data-structures-of-python.m4v"
+    },
+    {
+      "length": 161075055,
+      "type": "ogv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/420_the-data-structures-of-python.ogv"
+    }
+  ]
+}

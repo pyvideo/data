@@ -1,0 +1,29 @@
+{
+  "alias": "video/2378/testing-for-graceful-failure-with-vaurien-and-mar-",
+  "category": "Kiwi PyCon 2013",
+  "copyright_text": "",
+  "description": "@ Kiwi PyCon 2013 - Sunday, 08 Sep 2013 - Track 2\n\n**Audience level**\n\nIntermediate\n\n**Abstract**\n\nSo you've built an awesome webapp, put it through its paces, and assured\nyourself that it does what it's supposed to do. Great! Now how does it\nbehave when things start to go wrong?\n\nThis talk will demonstrate how the Mozilla Services team tests for\nfailure scenarios in our web services, focusing on two key python-based\ntools: Marteau, a web-based frontend for easily running load-tests and\nanalyzing the results, and Vaurien, a misbehaving TCP proxy that can\nsimulate a variety of backend failure modes.\n\nUsed together, these tools can help ensure that a web service will not\nonly scale up to meet its expected demand, but will fail gracefully when\nit finally reaches breaking point.\n\nThe talk will cover:\n\n-  Real-life examples of bugs that only show up when your app is under\n   load; bugs that can turn a brief partial outage into a cascading\n   whole-system failure.\n-  The basics of writing a load-testing suite for your app.\n-  How to set up Marteau for easy on-demand load testing.\n-  How to use Vaurien to simulate various kinds of backend failure, such\n   as an overloaded database, misconfigured DNS, or a\n   suddenly-disappearing job queue.\n-  Some tips for systematically applying these tools to your own setup.\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/ryan-kelly-testing-for-graceful-failure-with-vaurien-and-marteau\n",
+  "duration": null,
+  "id": 2378,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-09-12",
+  "related_urls": [
+    "https://speakerdeck.com/nzpug/ryan-kelly-testing-for-graceful-failure-with-vaurien-and-marteau"
+  ],
+  "slug": "testing-for-graceful-failure-with-vaurien-and-mar-",
+  "speakers": [
+    "Ryan Kelly"
+  ],
+  "summary": "This talk shows how the Mozilla Services team test failure scenarios in\ntheir web services with two python-based tools: Marteau, a web-based UI\nfor easily running load tests, and Vaurien, a misbehaving TCP proxy that\ncan simulate various backend failures. Used together, these tools help\nensure a service will not only scale up to meet demand, but will fail\ngracefully if it reaches breaking point.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/WSdyU5s-SMI/hqdefault.jpg",
+  "title": "Testing for Graceful Failure with Vaurien and Marteau",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=WSdyU5s-SMI"
+    }
+  ]
+}

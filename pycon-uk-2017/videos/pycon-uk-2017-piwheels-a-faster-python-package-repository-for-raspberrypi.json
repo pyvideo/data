@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "piwheels is a Python package repository providing Python wheels natively compiled for the Raspberry Pi's ARM architecture. It solves the problem that \"pip install\" can take a long time to build packages implemented in C. Wheels are a general solution to this problem, but PyPI does not currently allow maintainers to upload ARM platform wheels.\n\nI wrote some tooling for automating the building of all 115,000+ packages on PyPI, including all version releases, which totals up to over 750,000 package builds, monitoring the build status and logging the output.in a database, and providing the wheels in a pip-compatible web server. Raspberry Pi users can now \"pip install\" from this server (a Raspberry Pi) and get pre-built Python wheels, which take just seconds to install.\n\nThe first build run I completed was on a Raspberry Pi in my living room: I built the latest version of every package (110k). Then, in order to build all versions of all packages (750k), I moved the project to a cluster of 20 Raspberry Pis in a data centre.",
+  "duration": 1615,
+  "language": "eng",
+  "recorded": "2017-10-29T16:30:00+01:00",
+  "related_urls": [
+    {
+      "label": "event schedule",
+      "url": "http://2017.pyconuk.org/schedule/"
+    },
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/bennuttall/piwheels-pyconuk"
+    }
+  ],
+  "speakers": [
+    "Ben Nuttall"
+  ],
+  "tags": [
+    "piwheels"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/g9bwrWjAXEk/maxresdefault.jpg",
+  "title": "piwheels: a faster Python package repository for RaspberryPi",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=g9bwrWjAXEk"
+    }
+  ]
+}

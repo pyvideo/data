@@ -1,0 +1,16 @@
+{
+  "description": "Speaker: Guido van Rossum (creator and BDFL of Python)\nTopic: Tulip and Asynchronous I/O for Python 3\nBroadcast Time: Thursday 1/23 at 7:30pm\nLocation: LinkedIn, Mountain View\n\nAbstract:\n\nIn October 2012 I decided that it was time to add modern asynchronous I/O to the Python standard library, to replace the ancient and ever-problematic asyncore module. A year later this project is my main focus within the Python world. There is PEP 3156, which specifies an interface that I am hoping to add to the standard library (probably with provisional status), and Tulip, which is an implementation of the PEP and also contains a bunch of client libraries that use it (not all of this will make it into the standard library). Tulip requires Python 3.3 or later, and the code makes extensive use of coroutines, which are specially-marked generators that must be waited for using the new \"yield from\" syntax introduced by PEP 380. There is a lower-level API based on callbacks, and Future and Task classes that bridge the impedance mismatch between coroutines and callbacks. The PEP 3156 interface has also been heavily influenced by existing third party libraries for asynchronous I/O, in particular Twisted and Tornado, and interoperability with those systems (as well as others, like gevent and Microsoft's Windows 8 API formerly known as Metro) is an explicit goal, to be accomplished through adapters.\n\nSpeaker:\n\nGuido van Rossum is Python's creator, and still active as its BDFL. After years at Google he now works at Dropbox. For more information see his personal website at http://python.org/~guido/",
+  "language": "eng",
+  "recorded": "2014-01-23",
+  "speakers": [
+    "Guido van Rossum"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/aurOB4qYuFM/hqdefault.jpg",
+  "title": "Guido van Rossum on Tulip (January 2014)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aurOB4qYuFM"
+    }
+  ]
+}

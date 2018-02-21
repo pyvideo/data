@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Moritz Gronbach - What's the fuzz all about? Randomized data generation for robust unit testing\n[EuroPython 2015]\n[23 July 2015]\n[Bilbao, Euskadi, Spain]\n\nIn static unit testing, the output of a function is compared to a\nprecomputed result. Even though such unit tests may apparently cover\nall the code in a function, they might cover only a small subset of\nbehaviours of the function. This potentially allows bugs such as\nheartbleed to stay undetected. Dynamic unit tests using fuzzing, which\nallows you to specify a data generation template, can make your test\nsuite more robust.\n\nIn this talk, we demonstrate fuzzing using the hypothesis library.\nHypothesis is a Python library to automatically generate test data\nbased on a template.\nData is generated using a strategy. A strategy specifies how data is\ngenerated, and how falsifying examples can be simplified. Hypothesis\nprovides strategies for Python's built-in data types, and is easily\ncustomizable.Since test data is generated automatically, we can not\ncompare against pre-computed results. Instead, tests are usually done\non invariants of functions. We give an overview of such invariants.\n\nFinally, we demonstrate how we use fuzzing to test machine learning\nalgorithms at Blue Yonder.",
+  "duration": 1216,
+  "language": "eng",
+  "recorded": "2015-08-08",
+  "related_urls": [],
+  "speakers": [
+    "Moritz Gronbach"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ABnqAnhonDk/maxresdefault.jpg",
+  "title": "What's the fuzz all about? Randomized data generation for robust unit testing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ABnqAnhonDk"
+    }
+  ]
+}

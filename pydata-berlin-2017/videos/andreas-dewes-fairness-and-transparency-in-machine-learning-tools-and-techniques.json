@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "This talk will try to answer a simple question: When building machine learning systems, how can we make sure that they treat people fairly and can be held accountable? While seemingly trivial, this question is not easy to answer, especially when using complex methods like deep learning. I will discuss tools and techniques that we can use to make sure our algorithms behave as they should.\n\n**Abstract**\n\nWhen working with personal data, we need to make sure that our algorithms treat people fairly, are transparent and can be held accountable for their decisions. When using complex techniques like deep learning on very large datasets, it is not easy to prove that our algorithms behave they way we intend them to and e.g. do not discriminate against certain groups of people.\n\nIn my talk, I will discuss why ensuring transparency and fairness in machine learning is not easy, and how we can use Python tools to investigate our machine learning systems and make sure they behave they way they should.\n\n- Introduction: Why you should care about this (EU Data Protection Directive)\n- What kind of problems can occur in machine learning systems (bias in the input data, leakage of sensitive information into the training data, hidden usage of protected attributes by the algorithm)?\n- How can we measure and correct for bias in our systems (certifying and removing disparate impact)?\n- How can we understand the decisions that our algorithms make (perturbation analysis, simplified modeling, blackbox testing)?\n- How can we design our machine learning systems to make sure they're compliant and accountable (anonymization of data, monitoring of outcomes, auditing of algorithms)?\n- Outlook: The future of transparency and accountability in machine learning\n",
+  "duration": 2543,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "Andreas Dewes"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/6b5GbmnXdOU/maxresdefault.jpg",
+  "title": "Fairness and transparency in machine learning: Tools and techniques",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6b5GbmnXdOU"
+    }
+  ]
+}

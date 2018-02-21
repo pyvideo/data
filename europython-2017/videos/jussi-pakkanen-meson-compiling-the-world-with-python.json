@@ -1,0 +1,16 @@
+{
+  "description": "Compiling source code into libraries and executables has always been\nproblematic, especially for cross platform projects. Typical problems\nin existing build systems include slow build times, undecipherable\nsyntax, lack of support for cross compilation and so on. Some people\nchoose to not use a build system at all but instead just write a\none-off Makefile, which will usually work fine on their machine and\nnowhere else. All this makes software development slower than it\nneeds to be.\n\nThe Meson build system (http://mesonbuild.com) is a new build system\ndesigned from the ground up to provide a solution for these (and\nother) problems. It is implemented in Python 3 and provides a simple,\nnon-Turing complete DSL for describing the build. The project\nprovides built-in support for common tasks such as documentation\ngeneration, building Qt apps and Python extension modules. Meson is\ncurrently seeing a lot of uptake in the Free software world with big\nprojects such as GStreamer, parts of GNOME, Wayland and even the X\nserver either transitioning, or very strongly considering the\ntransition to Meson.\n\nIn this talk we go over the design of Meson, how to use it for new\nand existing projects and the benefits this brings, including faster\ncompiles, less time wasted debugging the build system environment and\neasy access to modern software development tools and practices.",
+  "duration": 2401,
+  "recorded": "2017-07-10",
+  "speakers": [
+    "Jussi Pakkanen"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/sEO4DC8hm34/hqdefault.jpg",
+  "title": "Meson: compiling the world with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sEO4DC8hm34"
+    }
+  ]
+}

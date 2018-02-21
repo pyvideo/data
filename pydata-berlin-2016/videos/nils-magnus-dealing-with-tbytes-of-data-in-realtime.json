@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nData processing often splits into two disjunct categories: Classic access to RDBMS is well-understood, but often scales poorly after considerable GBytes of data. Big data approaches are powerful, but complex to set up and to maintain. In a test setup we tried a compromise of both: What happens if you glue more than 1000 single SQL databases into a huge cluster? We learned a whole lotta lessons!\n\nData processing often splits into two disjunct categories: Classic access to RDBMS with SQL and ORMs is well-understood and convenient, but often scales poorly after considerable GBytes of data. Big data approaches are powerful, but complex to set up and to maintain. In a test setup we tried a compromise of both: What happens if you glue more than 1000 single SQL databases into a huge cluster?\n\nThanks to access to an unused IaaS cluster, we had the opportunity to research the behavior of many nodes clustered together. Data loading becomes a real challenge, while maintenance and monitoring such a drove of containers was no longer possible manually. We investigated the effect of changing container-vm-ratios. For our experiments, we used Crate, an open source, highly scalable, shared-nothing distributed SQL database, that comes with Python client connectors and support for several ORMs.\n\nWe share unexpected experiences about data schema design with the attendees, will explain some tweaking options that turned out to be effective, and would like to campaign for more open data projects.",
+  "duration": 2683,
+  "language": "eng",
+  "recorded": "2016-05-31",
+  "related_urls": [],
+  "speakers": [
+    "Nils Magnus"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Xjk2GWVpH-g/maxresdefault.jpg",
+  "title": "Dealing with TBytes of Data in Realtime",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Xjk2GWVpH-g"
+    }
+  ]
+}

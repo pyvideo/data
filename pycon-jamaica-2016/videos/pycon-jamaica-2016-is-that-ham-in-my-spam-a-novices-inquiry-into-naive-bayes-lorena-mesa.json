@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Supervised learning, machine learning, classifiers, big data! What in the world are all of these things? As a beginning programmer the questions described as \u201cmachine learning\u201d questions can be mystifying at best. #pyconjamaica2016\n\nIn this talk I will define the scope of a machine learning problem, identifying an email as ham or spam, from the perspective of a beginner (non master of all things \u201cmachine learning\") and show how Python can help us simply learn how to classify a piece of email.\n\n\nTo begin we must ask, what is spam? How do I know it \u201cwhen I see it\u201d? From previous experience of course! We will provide human labeled examples of spam to our model for it to understand the likelihood of spam or ham. This approach, using examples and data we already know to determine the most likely label for a new example, uses the Naive Bayes classifier.\n\n\nOur model will look at the words in the body of an email, finding the frequency of words in both spam and ham emails and the frequency of spam and ham. Once we know the prior likelihood of spam and what makes something spam, we can try applying a label to a new example.\n\nThrough this exercise we will see at a basic level what types of questions machine learning asks, learn to model \u201clearning\u201d with Python, and understand how learning can be measured.\n\n\nhttps://www.pythonjam.org.jm/conference-2016 the PyCon Jamaica 2016 technology conference for Python software developers was held (November 17 - 18, 2016).  The conference was immediately followed by the Great Python Scavenger Hunt https://www.pythonjam.org.jm/conference-2016/scavenger-race. Our conferences are open to beginners, experts and non-programmers.",
+  "duration": 1950,
+  "language": "eng",
+  "recorded": "2016-11-18",
+  "related_urls": [
+    "https://www.pythonjam.org.jm/conference-2016",
+    "https://www.pythonjam.org.jm/conference-2016/scavenger-race."
+  ],
+  "speakers": [
+    "Lorena Mesa"
+  ],
+  "tags": [
+    "bayes"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/rC2WaxMXU2Q/hqdefault.jpg",
+  "title": "Is that ham in my spam? A novice's inquiry into Naive Bayes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rC2WaxMXU2Q"
+    }
+  ]
+}

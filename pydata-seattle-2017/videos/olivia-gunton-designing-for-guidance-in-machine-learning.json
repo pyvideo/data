@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "How does the task of developing a machine learning system change when we not only have to predict outcomes from inputs, but also guide users to make their inputs better? Using practical examples in Python, I'll explore some of the lessons we've learned building an augmented writing platform at Textio.\n\n**Abstract**\n\nMachine learning systems are getting better and better at tasks that we used to think only humans could be good at. I can write a program to look at an image of an animal and tell you whether it\u2019s a cat or dog, for example. The measure of my program\u2019s quality is its performance on new inputs: how many images does it classify correctly without ever having seen them before? How I accomplish that\u2014what exactly it is about the images that allows me to distinguish a cat from a dog\u2014is almost irrelevant compared to how well my program does on the task.\n\nBut what if I don\u2019t just want my system to be good at recognizing that you\u2019re showing it a picture of a cat, I also want to be able to give you clear instructions on the top n things you can do to turn that cat into a dog? Now all of a sudden I have to start thinking differently about the information that my model uses to do the classification. I need features that are still automatable (I can tell a computer how to measure them and use them as inputs to a machine learning algorithm) but are also explainable (a lay person can understand what they mean and how to change their values). I may also find issues in my training/test data that I might not have noticed if I hadn\u2019t had to do the same amount of introspection.\n\nIn this talk, I\u2019ll walk through a toy machine learning problem end-to-end, showing how our approach has to change when we add the requirement of producing actionable guidance. The content will be targeted at people who have an interest in machine learning, but experience isn\u2019t necessary.",
+  "duration": 2559,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    }
+  ],
+  "speakers": [
+    "Olivia Gunton"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/x394UROW-3s/maxresdefault.jpg",
+  "title": "Designing for Guidance in Machine Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=x394UROW-3s"
+    }
+  ]
+}

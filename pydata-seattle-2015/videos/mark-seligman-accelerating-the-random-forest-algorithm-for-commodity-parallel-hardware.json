@@ -1,0 +1,15 @@
+{
+  "description": "The Arborist is an open-source implementation of the Random Forest algorithm designed for acceleration on a wide variety of hardware platforms, including multicore, multinode and GPGPU. We examine the challenges of parallelization and present recent work extending the implementation to Python.\n\nThe Random Forest algorithm serves as a sort of Swiss Army Knife for data modeling. It is among a handful of commonly-applied predictive techniques, and is well known both for its robustness and its predictive power. Performance is a common drawback of the method, however, owing to a slow training phase. The Arborist is an open-source implementation of the algorithm intended to overcome key performance bottlenecks.\n\nThe Arborist's design goals include minimization of costly data movement, parallelization across a wide range of commodity hardware, language-agnostic implementation and ready internalization of common workflows. An R-language front-end has been available for several months, and a Python version is being made available for the general machine-learning community. Internalized workflows include quantile regression, as well as nonparametric resampling.\n\nPopular approaches to accelerating the algorithm have included distribution of training across computational nodes using such tools as MPI or Hadoop. The Arborist augments these approaches by parallelizing training within individual trees as well across blocks, and by employing either - or both - multicore and GPGPU hardware, effecting a hierarchical parallel structure. The ability to do this is imparted by an innovative recasting of the algorithm focused on identifying, and conserving, data locality.\n\nWe outline the algorithmic structure of the Arborist and discuss some of the challenges posed in accelerating this popular technique.\n\nSlides here: http://www.slideshare.net/PyData/accelerating-the-random-forest-algorithm-for-commodity-parallel-mark-seligman",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Mark Seligman"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/dRZrYdhNUec/hqdefault.jpg",
+  "title": "Accelerating the Random Forest algorithm for commodity parallel hardware",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dRZrYdhNUec"
+    }
+  ]
+}

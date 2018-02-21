@@ -1,0 +1,26 @@
+{
+  "alias": "video/3568/crais-testing-everywhere",
+  "category": "PyCon Italia 2015",
+  "copyright_text": "",
+  "description": "CRAIS acts as an Appium (1) broker, in order to spawn Appium servers as\nselenium grid nodes with specific capabilities using:\n\n-  USB hotplug Mechanism for locally-connected devices, where CRAIS\n   dinamically generate the node, registering itself to the hub,\n-  RPC invocation, where CRAIS spawns ad-hoc appium server instances.\n   The RPC method could be used to use remote android devices connected\n   to the server using a reverse-ssh tunnel.\n\nCRAIS is based on:\n\n-  ZODB object database for device storage (for both Hotplug & RPC),\n   ConfigObj for configuration management, Pyro4, a library that enables\n   to build applications in which objects can talk to each other over\n   the network,\n-  Cement as CLI framework.\n\nCRAIS is implemented in order to use the same Object Database in both\nRPC & Hotplug mode.\n\n(1) Appium is an open source test automation framework for use with\n    native, hybrid and mobile web apps, used in B! to integrate Android\n    / iOS testing in a QA automation infrastructure.\n\nPrerequisites:\n\n1. Selenium GRID specifications\n2. Acceptance testing knowledge\n3. Python multithreading & subprocess32 modules usage\n\n",
+  "duration": 1516,
+  "id": 3568,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-06-09",
+  "slug": "crais-testing-everywhere",
+  "speakers": [
+    "Aniello Barletta"
+  ],
+  "summary": "During this talk I\u2019ll show the architecture and the design pattern used\nto implement the CRAIS Appium broker.\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/8SIW_R6FP9E/maxresdefault.jpg",
+  "title": "CRAIS - Testing, everywhere",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8SIW_R6FP9E"
+    }
+  ]
+}

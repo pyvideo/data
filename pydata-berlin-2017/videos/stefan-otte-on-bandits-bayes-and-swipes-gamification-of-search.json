@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "The talk will show how to use active learning to work with Small Data. Active learning is an underappreciated subfield of ML where the algorithm actively gathers labeled data, e.g. it can query the user for the most informative data. I will discuss the basics of active learning theory, and look at a case study showing how to use active learning and tailor it to a practical problem.\n\n**Abstract**\n\nThe first part of the talk is about active learning:\n\n- What is it?\n- How does it work?\n- What are the different flavours of active learning?\n- Does it help me solve my problem?\n\nThe second part presents a case study where we developed an engaging and fun way to search for your dream car.\n\nThe case study\n\n- uses an intuitive interface (swipes),\n- actively and efficiently explores and learns the user's preferences (with multi-armed bandits, an active learning algorithm),\n- incorporates priors (clustering and Bayes to avoid popularity biases)\n- is scalable.\n\nThe talk is less about specific tools and libs - even though everything was done with python\u2019s usual suspects (numpy, scipy, sklearn, flask, etc.) - but how to make active learning work for you.\n\n",
+  "duration": 2134,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "Stefan Otte"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/SpRg8KSLZ2w/maxresdefault.jpg",
+  "title": "On Bandits, Bayes, and swipes: gamification of search",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SpRg8KSLZ2w"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "alias": "video/59/djangocon-2010--switching-addons-mozilla-org-from",
+  "category": "DjangoCon 2010",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "In January of 2010 Mozilla started switching addons.mozilla.org (AMO)\nfrom CakePHP to Django. We see about 120 million web requests per month\nand 1.4 million visitors per day. This talk will be a case study of\nscaling and deploying a large website (and getting faster than PHP) with\nMySQL, memcached, virtualenv, Celery, Hudson, Redis, MongoDB, and more.\n\nAbstract\n\nTo scale the backend of AMO, we rely heavily on caching in memcached\n(and soon Redis) to keep the load off our database, and multidb to\nspread the load we can't dump off on cache. Our caching ranges from\nobject and query caching, to template fragment caching, up to full\nresponse caching. Frontend caching is external to Django and won't be\ncovered. In addition, we work hard to measure and improve raw speed.\nHitting indexes and keeping datasets small is critical, and the Django\necosystem has many great tools to help us profile.\n\nWe create development environments using pip and virtualenv, so we\nnaturally started using that setup to deploy the site in production. We\nran into issues creating a reliable environment with this method;\nswitching to a separate vendor repository solved our problems with only\na small amount of added effort. We update and deploy new code at least\nonce a week, and have to deal with the additional complication of\nmanaging and interacting with parts of the PHP site that have not been\nported over.\n\nApart from scaling and deployment, we've customized our application in\nways that could be interesting to other Django users:\n\n-  Jinja is our templating engine (but we keep the admin working)\n-  Babel helps us localize the site in over 30 languages\n-  Sphinx (not the documentation tool) serves our search results\n-  Celery and RabbitMQ help us do offline processing\n-  Nose and Hudson help us get over 90% code coverage in tests\n\n",
+  "duration": null,
+  "id": 59,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2010-09-07",
+  "slug": "djangocon-2010--switching-addons-mozilla-org-from",
+  "speakers": [
+    "Jeff Balogh"
+  ],
+  "summary": "",
+  "tags": [
+    "casestudy",
+    "djangocon",
+    "djangocon2010"
+  ],
+  "thumbnail_url": "http://a.images.blip.tv/Robertlofthouse-SwitchingAddonsmozillaorgFromCakePHPToDjango334.png",
+  "title": "Switching addons.mozilla.org from CakePHP to Django",
+  "videos": [
+    {
+      "length": 179163402,
+      "type": "ogv",
+      "url": "http://blip.tv/file/get/Robertlofthouse-SwitchingAddonsmozillaorgFromCakePHPToDjango638.ogv"
+    }
+  ]
+}

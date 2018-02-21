@@ -1,0 +1,34 @@
+{
+  "alias": "video/429/pycon-2011--couchdb-and-python-in-practice",
+  "category": "PyCon US 2011",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "CouchDB and Python in practice\n\nPresented by Luke Gotszling\n\nThis talk introduces one 'NoSQL' solution, CouchDB, and how to get it to\nplay well with Python. Topics covered:\n\n-  Introduction to CouchDB\n-  A python ORM for CouchDB\n-  Parsing CouchDB documents within python\n-  Writing view functions in python\n-  Map/reduce on CouchDB from python\n-  Lessons learned from managing and distributing a live deployment at\n   scale under high load\n\nAbstract\n\nThis is a rough draft\n\nNoSQL\n\n-  CouchDB stores schema free documents\n\nWhy CouchDB?\n\n-  Complicated mapping structures handled\n-  Revision history\n-  Maps nicely to Python objects\n-  HTTP protocol\n\nPython ORM\n\n-  couchdb-python\n-  Mapping structures\n-  demo\n\nView functions\n\n-  write in Erlang, Javascript, Python?\n-  demo\n\nScaling\n\n-  Distributed map/reduce\n-  BigCouch\n-  Read/write quorum\n\n",
+  "duration": null,
+  "id": 429,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--couchdb-and-python-in-practice",
+  "speakers": [
+    "Luke Gotszling"
+  ],
+  "summary": "",
+  "tags": [
+    "couchdb",
+    "pycon",
+    "pycon2011"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_429___couchdb-and-python-in-practice",
+  "title": "CouchDB and Python in practice",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_429___couchdb-and-python-in-practice"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/429_couchdb-and-python-in-practice.mp4"
+    }
+  ]
+}

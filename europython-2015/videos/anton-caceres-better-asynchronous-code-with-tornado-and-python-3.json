@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Anton Caceres - Better asynchronous code with Tornado and Python 3\n[EuroPython 2015]\n[23 July 2015]\n[Bilbao, Euskadi, Spain]\n\nThe asyncio module introduced in Python 3.4 is a game-changer for I/O\nmanagement and event-driven network programming in Python. Aiming to\nbe a lower-level implementation of an asynchronous event loop, it\nintends that higher level frameworks like Tornado, Twisted or Gevent\nwill build on top of it, taking advantage of the shared interface for\nwriting concurrent event-driven code across different Python\nframeworks.\n\nThis talk connects theory with practice, presenting how Tornado can\nrun in the asyncio event loop and take advantage of the subgenerator\ndelegation syntax (yield from) to provide a high degree of concurrency\nwhile keeping the simplicity of sequential code. It explains the\nconcept of coroutines, futures and ioloop, exposing Python 3 code for\nsample web tasks. The talk completes with a basic demo of running this\ncode on Tornado, comparing its syntax and performance with popular\nasynchronous frameworks from other languages.",
+  "duration": 2381,
+  "language": "eng",
+  "recorded": "2015-08-05",
+  "related_urls": [],
+  "speakers": [
+    "Anton Caceres"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/NKPHP5p0WXA/maxresdefault.jpg",
+  "title": "Better asynchronous code with Tornado and Python 3",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NKPHP5p0WXA"
+    }
+  ]
+}

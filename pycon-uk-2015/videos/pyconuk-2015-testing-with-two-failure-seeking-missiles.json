@@ -1,0 +1,17 @@
+{
+  "description": "Testing with purely random data on it's own doesn't get you very far.\nBut two approaches that have been around for a while have new libraries\nthat help you generate random input, that homes in on failing testcases.\n\nFirst\n**`Hypothesis <https://hypothesis.readthedocs.org/en/latest/>`__**, a\nPython implementation and update of the Haskell library QuickCheck.\nKnown as property based testing, you specify a property of your code\nthat must hold, and Hypothesis does its best to find a counterexample.\nIt then shrinks this to find the minimal input that contradicts your\nproperty.\n\nSecond, **`American fuzzy lop <http://lcamtuf.coredump.cx/afl/>`__**\n(AFL), is a young fuzzing library that's already achieved an impressive\ntrophy case of bug discoveries. Using instrumentation and genetic\nalgorithms, it generates test input that carefully searches out as many\ncode paths as it can find, seeking greater functional coverage and\nultimately locating crashes and hangs that no other method has found.\nI'll be showing how with **`Python-\nAFL <http://jwilk.net/software/python-afl>`__** we can apply this tool\nto our Python code.",
+  "duration": 1377,
+  "recorded": "2015-09-20",
+  "speakers": [
+    "Tom Viner"
+  ],
+  "summary": "Testing with two failure seeking missiles: fuzzing and property based testing",
+  "thumbnail_url": "https://i.ytimg.com/vi/_LoHr4Oggmo/hqdefault.jpg",
+  "title": "Testing with two failure seeking missiles",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_LoHr4Oggmo"
+    }
+  ]
+}

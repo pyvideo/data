@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Moshe Goldstein/david dayan - Implementing Parallel Programming Design Patterns using EFL for Python\n[EuroPython 2016]\n[19 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/implementing-parallel-programming-design-patterns-using-efl-for-python)\n\nEFL (Embedded Flexible Language), a deterministic parallel programming\ntool, may be embedded in any host language. Two versions of the EFL\npre-compiler for Python were implemented. One  translates EFL blocks\ninto Python's Multiprocessing code, and the other one into DTM/MPI4PY\ncode. EFL implementations of Parallel Programming Design Patterns will\nbe shown, generated parallel code compared, and differences discussed.\nVisit flexcomp.jct.ac.il for further information.\n\n-----\n\nMulti-core CPUs are abundant and utilizing them effectively requires\nprogrammers to parallelize CPU-intensive code. To facilitate this, we\nhave developed EFL (Embedded Flexible Language), a deterministic\nparallel programming tool.\nThe parallel parts of a program are written as EFL-blocks, which are\nembedded into a sequential host language program. The sequential parts\nof the program are written in the host language, outside the EFL\nblocks.\nEFL may be embedded in any host language by writing an appropriate EFL\npre-compiler. At the moment, we implemented two versions of the EFL\npre-compiler. Both pre-compilers translate EFL blocks into parallel\nPython code - one of them generates parallel code based on Python's\nMultiprocessing module, and the other one generates parallel code\nbased on the DTM/MPI4PY Python module.\nWe will present the principles upon which EFL is built. We will show\nthe implementation of Parallel Programming Design Patterns using EFL's\nparallel programming constructs (such as parallel assignments,\nparallel for-loops, etc.).  Using our two EFL pre-compilers we will\nshow their translation to Python parallel code according to the\nMultiprocessing module as well as the DTM/MPI4PY module. The\ndifferences between code versions produced by the EFL pre-compilers\nwill be discussed.\nFor further information about the EFL project and our Flexible\nComputation Research Laboratory, visit http://flexcomp.jct.ac.il",
+  "duration": 2424,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/implementing-parallel-programming-design-patterns-using-efl-for-python",
+    "http://flexcomp.jct.ac.il"
+  ],
+  "speakers": [
+    "Moshe Goldstein",
+    "david dayan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/op-L-1GwVYs/maxresdefault.jpg",
+  "title": "Implementing Parallel Programming Design Patterns using EFL for Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=op-L-1GwVYs"
+    }
+  ]
+}

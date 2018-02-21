@@ -1,0 +1,26 @@
+{
+  "description": "Bokor est un logiciel libre (GPL v3) d\u00e9velopp\u00e9 par la SCOP Bearstech en\npartenariat avec la soci\u00e9t\u00e9 de distribution de films Cinego. Bokor est\nun framework permettant la distribution de fichiers sur un parc\nh\u00e9t\u00e9rog\u00e8ne de machines. L'architecture est hybride, un ma\u00eetre coordonne\nun ensemble d'esclaves qui vont partager des fichiers en point \u00e0 point,\navec le protocole BitTorrent. Pour le distributeur, la bande passante\nest optimis\u00e9e, et la r\u00e9siliance du syst\u00e8me maitris\u00e9e. La participation\nautoritaire aux \u00e9changes BitTorrent garantie des latences optimis\u00e9es. Il\nest en production avec aujourd'hui 400 cin\u00e9mas connect\u00e9s, 10 super\nseeders en datacenter et 400 films, bandes-annonces et courts-m\u00e9trages\npartag\u00e9s.\n\nBokor utilise Rtorrent (avec des corrections pour Cygwin) et OpenTracker\n(avec quelques patchs), pour la partie BitTorrent. Pour la partie\ncoordination, Python est utilis\u00e9, essentiellement pour des appels de\nfonctions dynamiques. Nous allons vous pr\u00e9senter la partie \"Appel de\nproc\u00e9dure distante\" (RPC en VO) de Bokor. Le syst\u00e8me de RPC de Bokor a\nd\u00fb \u00eatre con\u00e7u de mani\u00e8re extensible, la liste des fonctionnalit\u00e9s\nrequises n'\u00e9tant pas connue \u00e0 l'avance. Nous avons choisi une approche\nminimaliste, pour ne pas avoir de soucis de portabilit\u00e9, et pour limiter\nau maximum la consommation en CPU et bande-passante, qui seront utilis\u00e9s\npar les tr\u00e8s gourmands \u00e9changes BitTorrent.\n\nL'utilisation des biblioth\u00e8ques tiers a \u00e9t\u00e9 r\u00e9duite au maximum, seul\npy-curl a surv\u00e9cu, pr\u00e9f\u00e9rant l'approche \"fourni avec des piles\" de\nPython. Par contre, l'introspection de python a \u00e9t\u00e9 pouss\u00e9e dans ces\nderniers retranchements : d\u00e9corateurs de classes, de fonctions,\nmodifications \u00e0 chaud de classes, d'objets, m\u00e9thodes abstraites...\n",
+  "duration": 1182,
+  "language": "fra",
+  "recorded": "2015-10-17",
+  "speakers": [
+    "Olivier Andr\u00e9"
+  ],
+  "summary": "Bokor est un logiciel libre (GPL v3) d\u00e9velopp\u00e9 par la SCOP Bearstech en\npartenariat avec la soci\u00e9t\u00e9 de distribution de films Cinego. Bokor est\nun framework permettant la distribution de fichiers sur un parc\nh\u00e9t\u00e9rog\u00e8ne de machines. L'architecture est hybride, un ma\u00eetre coordonne\nun ensemble d'esclaves qui vont partager des fichiers en point \u00e0 point,\navec le protocole BitTorrent.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/205%20-%20Olivier%20Andr%C3%A9%20-%20Bokor:%20distribution%20de%20films%20en%20BitTorrent%20et%20hacking%20python.mp4.jpg",
+  "title": "Bokor: distribution de films en BitTorrent et hacking python",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/205%20-%20Olivier%20Andr%C3%A9%20-%20Bokor:%20distribution%20de%20films%20en%20BitTorrent%20et%20hacking%20python.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/205%20-%20Olivier%20Andr%C3%A9%20-%20Bokor:%20distribution%20de%20films%20en%20BitTorrent%20et%20hacking%20python.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/205%20-%20Olivier%20Andr%C3%A9%20-%20Bokor:%20distribution%20de%20films%20en%20BitTorrent%20et%20hacking%20python.webm"
+    }
+  ]
+}

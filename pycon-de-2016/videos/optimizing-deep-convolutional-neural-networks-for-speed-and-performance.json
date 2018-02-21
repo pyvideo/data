@@ -1,0 +1,16 @@
+{
+  "description": "In this talk, I will be focusing on techniques to run the DCNNs as efficiently as possible in terms of : 1) Decrease running time on CPU 2) Decrease running time on GPU 3) Increase performance in case of very little data.\nThere will be a few strategies taught which will allow the neural networks to train and run much faster on CPUs without compromising on the accuracy. A few of them will be changing the neural network itself, which others will focus more on using tools to enhance performance. I have ran very deep neural networks in real-time on CPUs using some of the techniques which will presented.The latter half of the talk will be focused on increasing performance in case there is very little data. I have personally achieved accuracies of above 90% using Deep Neural Networks when there are only a few hundreds of images available as training data. I'll be sharing some of those intuitions in this talk, including concepts like initialization, normalization, tweaking the learning rate, regularization, when to finetune and when not to etc.\nThe whole talk will be focused on using Python to run Deep Neural Networks using the Theano/Keras library, which is the most popular deep learning library and is used widely by amateurs and professionals alike.It will not be a theoretical talk where I talk about theories to achieve something. I'll demonstrate how changing certain parameters (variables in Keras) change the performance in terms of speed, accuracy and size of model",
+  "language": "eng",
+  "recorded": "2016-10-29",
+  "speakers": [
+    "Arush Kakkar"
+  ],
+  "thumbnail_url": "https://cast.itunes.uni-muenchen.de/clips/f7lu8lyAip/deliver_poster",
+  "title": "Optimizing Deep Convolutional Neural Networks for Speed and Performance",
+  "videos": [
+    {
+      "type": "mp4",
+      "url": "https://cast.itunes.uni-muenchen.de/vod/clips/LCB1vjQPTK/quicktime.mp4"
+    }
+  ]
+}

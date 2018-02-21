@@ -1,0 +1,25 @@
+{
+  "category": "DjangoCon 2013",
+  "copyright_text": "",
+  "description": "",
+  "duration": 2348,
+  "id": 4765,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-10-01",
+  "slug": "scaling-your-write-heavy-django-app-a-case-study",
+  "speakers": [
+    "Tobias McNulty"
+  ],
+  "summary": "Scaling Your Write-heavy Django App: a case study\n\nTuesday 11:30 a.m.--12:15 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nContent management systems and other read-heavy Django apps are\nrelatively easy to scale. Scaling write-heavy apps is another matter. In\nthis talk I'll walk through our experience scaling the University of\nChicago's custom school survey application to handle over 75,000\nrequests per minute and upwards of 9,500 PostgreSQL transactions per\nsecond. Abstract\n\nContent management systems and other read-heavy Django apps are\nrelatively easy to scale. You add some caching, and maybe a couple extra\nweb servers for good measure. Scaling write-heavy apps is another\nmatter, both from an app server and a database server perspective. In\nthis talk I'll walk through our experience scaling the University of\nChicago's custom school survey application to handle over 75,000\nrequests per minute and upwards of 9,500 PostgreSQL transactions per\nsecond. This includes everything from django-debug-toolbar and server\nprovisioning to load testing and consolidated logging. The following is\na rough outline of topics to be covered: Eliminating gross\ninefficiencies with django-debug-toolbar Analyzing your Postgres logs\nfor repetitive queries Establishing a platform you can use to test\nCreating a test script with JMeter Running your test script at scale\nInterpreting load test results Things we tried that didn't work\nOptimizing your web server configuration Final tweaks to your Postgres\nconfiguration\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/A1FalfR5_zk/hqdefault.jpg",
+  "title": "Scaling Your Write-heavy Django App: a case study",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=A1FalfR5_zk"
+    }
+  ]
+}

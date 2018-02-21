@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Ami Tavory**\n\nAmi is a data scientist at Facebook Research's Core Data Science group. He previously worked as a machine learning researcher in the fields of bioinformatics and algorithmic trading. In 2010 he received a Ph.D in Electrical Engineering from Tel Aviv University, in the field of financial information theory. His bachelor's and master's are from Tel Aviv University too.\n\nAmi uses Python and C++ for data analysis. He contributed to various open source projects, and is the author of a libstd C++ extension shipped with g++ (pb_ds: policy-based data structures).\n\n**Abstract**\n\nScikit-Learn is built directly over numpy, Python's numerical array library. Pandas adds to numpy metadata and higher-level munging capabilities. This talk describes how to intelligently auto-wrap Scikit-Learn for creating a version that can leverage pandas's added features.\n\n**Description**\n\nScikit-Learn is the de-facto standard Python library for general-purpose machine learning. It operates over NumPy, an efficient, but low-level, homogeneic array library. Pandas adds to NumPy metadata, heterogeneity, and higher-leve munging capabilities.\n\nIn the field of visualization, newer generation libraries, e.g., Seaborn and Bokeh, are providing safer, more readable, and higher-level functionality, by operating over Pandas data structures. Some of these are implemented using Matplotlib, a lower-level NumPy-based plotting library.\n\nThis talk describes a library for a Pandas-based version of sickit-learn. Here, too, giving a Pandas interface to a machine-learning library, provides code which is safer to use, more readable, and allows direct integration with Pandas's higher-level munging capabilities.\n\nDue to the large-scale, and evolving nature, of sicikit-learn's codebase, it is infeasible to manually wrap it. Except for a small number of intentional deviations from sickit-learn, the library wraps Scikit-Learn modules lazily through module and class introspection, and dynamic module loading.\n\nFollowing a short review of the relevant points of Pandas and Scikit-Learn, the talk is roughly divided into two aspects:     Scikit-Learn And Pandas User Perspective     Safety Advantages Of Pandas-Based Estimators     Using Metadata For Inter-Instance Aggregated Features And Cross-Validation     Using Metadata For Advanced Meta-Algorithms: Stacking, Nested Labeled And Stratified Cross-Valdiation     Python Develop Perspective     Unique Challenges Of Scikit-Learn Introspection And Decoration     Two Approaches For Wrapping Scikit-Learn Estimators     Lazy Dynamic Module Loading\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1738,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Ami Tavory"
+  ],
+  "tags": [
+    "code-introspection",
+    "scikit-learn",
+    "pandas",
+    "data-science",
+    "python",
+    "machine learning"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/boXOVvu43ZI/maxresdefault.jpg",
+  "title": "Getting Scikit-Learn To Run On Top Of Pandas",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=boXOVvu43ZI"
+    }
+  ]
+}

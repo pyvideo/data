@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Semi-supervised bootstrapping techniques for relationship extraction from text iteratively expand a set of initial seed relationships while limiting the semantic drift. This talk presents an approach to bootstrap relationship instances using word embeddings to find similar relationships. Results show that relying on word embeddings achieves a better performance than using TF-IDF weighted vectors.\n\n**Abstract**\n\nRelationship Extraction (RE) transforms unstructured text into relational triples, each representing a relationship between two named-entities. This relationships can then be used to populate knowledge bases, or build knowledge graphs, which can support several tasks, such as Question Answering.\n\nA bootstrapping system for RE starts with a collection of documents and a few seed instances. The system scans the document collection, collecting occurrence contexts for the seed instances. Then, based on these contexts, the system generates extraction patterns. The documents are scanned again using the patterns to match new relationship instances. These newly extracted instances are then added to the seed set, and the process is repeated until a certain stop criteria is met.\n\nBootstrapping approaches relying on TF-IDF weighted vectors have limitations when trying to find similar instances, since the similarity between any two relationship instance vectors is only positive when the instances share at least one term. For instance, the phrases was \"founded by\" and is the \"co-founder of\" do not have any common words, but they have the same semantics. Stemming techniques can aid in these cases, but only for variations of the same root word. By relying on word embeddings, the similarity of two phrases can be captured even if no common words exist. For instance, the word embeddings for \"co-founder\", \"founded\" and \"creator\" should be similar, since these words tend to occur in the same contexts.\n\nI propose to present a system which extracts relationship instances by bootstrapping and by relying on word embeddings. It was evaluated against a popular system which relies on TF-IDF weighted vectors, the paper describing the system was presented at EMNLP'15 and won an honorable mention for best short-paper award.\n\n",
+  "duration": 2317,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    }
+  ],
+  "speakers": [
+    "David Soares Batista"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Ra15lX-wojg/maxresdefault.jpg",
+  "title": "Semi-Supervised Bootstrapping of Relationship Extractors",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ra15lX-wojg"
+    }
+  ]
+}

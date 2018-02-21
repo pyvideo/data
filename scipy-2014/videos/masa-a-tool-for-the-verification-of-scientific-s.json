@@ -1,0 +1,29 @@
+{
+  "alias": "video/2796/masa-a-tool-for-the-verification-of-scientific-s",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "Numerical simulations have an incredibly broad range of applicability,\nfrom computer aided aircraft design to drug discovery. However, any\nprediction arising from a computer model must be rigorously tested to\nensure its reliability. Verification is a process that ensures that the\noutputs of a computation accurately reflect the solution of the\nmathematical models.\n\nThis talk will first provide an introduction to the method of\nmanufactured solutions (MMS), which is a powerful approach for\nverification of model problems in which a solution cannot be determined\nanalytically. However, verifying computational science software using\nmanufactured\n\nsolutions requires the generation of the solutions with associated\nforcing terms and their reliable implementation in software. There are\nseveral issues that arise in generating solutions, including ensuring\nthat they are meaningful, and the algebraic complexity of the forcing\nterms. After briefly discussing these issues, the talk will introduce\nMASA, the Manufactured Analytical Solution Abstraction library. MASA is\nan open-source library written in C++ (with python interfaces) which is\ndesigned for the veri?cation of software used for solving a large class\nof problems stemming from numerical methods in applied mathematics\nincluding nonlinear equations, systems of algebraic equations, and\nordinary and partial differential equations.\n\nExample formulations in MASA include the Heat Equation, Laplace's\nEquation, and the Navier-Stokes Equations, but in principle MASA\nsupports instantiating any model that can be written down\nmathematically. This talk will end with details on two methods to import\nmanufactured solutions into the library, either by generate the source\nterms, or using the automatic differentiation capabilities provided in\nMASA.\n\nThe library is available at:\nhttps://github.com/manufactured-solutions/MASA\n",
+  "duration": null,
+  "id": 2796,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-13",
+  "related_urls": [
+    "https://github.com/manufactured-solutions/MASA"
+  ],
+  "slug": "masa-a-tool-for-the-verification-of-scientific-s",
+  "speakers": [
+    "Nicholas Malaya"
+  ],
+  "summary": "Numerical simulations have a broad range of application, from aircraft\ndesign to drug discovery. However, any prediction from a computer must\nbe tested to ensure its reliability. Verification ensures the outputs of\na computation accurately reflect the underlying model. This talks covers\nMASA, a tool for the verification of software used in a large class of\nproblems in applied mathematics.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/OvyqO4fxdKs/hqdefault.jpg",
+  "title": "MASA: A Tool for the Verification of Scientific Software",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=OvyqO4fxdKs"
+    }
+  ]
+}

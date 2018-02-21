@@ -1,0 +1,32 @@
+{
+  "alias": "video/3222/external-dependencies-in-web-apps-system-libs-ar",
+  "category": "Kiwi PyCon 2014",
+  "copyright_text": "CC",
+  "description": "**Audience level**\n\nIntermediate\n\n**Description**\n\nGoing to production is very different from setting up a development\nenvironment. We have great tools like pip and virtualenv for the latter\nbut they lead to maintenance anti-patterns when they are used for\nproduction deployments. We don't \"pip install apache\" and instead\nleverage the QA and integration work of distro developers, so why not\nrely on distros for more than just the base system?\n\n**Abstract**\n\nToday's web applications often have a lot of external dependencies.\nStart off with a basic framework, sprinkle a couple of handy plugins or\npython modules and finish with a generous serving of JavaScript\nfront-end libraries.\n\nWhat you end up is a gigantic mess of code from different sources which\nfollow very different release schedules and policies. Language-specific\npackage managers can automate much of the dependency resolution and\npackage installation, but you're on your own in terms of integration and\nquality assurance. Also, the minute you start distributing someone\nelse's code with your project, you become responsible for the security\nof that external code.\n\nYou could of course decide to avoid the problem by writing it all\nyourself from scratch. Realistically though, you're not likely to go\npast the stage of a toy WSGI app using that approach because it's a lot\nof work.\n\nThis talk will examine the decision that the Libravatar [1] project made\nto outsource much of its maintenance burden to the distro by using\nsystem packages for almost everything.\n\n[1] https://www.libravatar.org/\n\n**Slides**\n\nhttps://speakerdeck.com/nzpug/francois-marier-external-dependencies-in-web-apps-system-libs-are-not-that-scary\n",
+  "duration": 1800,
+  "id": 3222,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-09-13",
+  "related_urls": [
+    "https://speakerdeck.com/nzpug/francois-marier-external-dependencies-in-web-apps-system-libs-are-not-that-scary",
+    "https://www.libravatar.org/"
+  ],
+  "slug": "external-dependencies-in-web-apps-system-libs-ar",
+  "speakers": [
+    "Francois Marier"
+  ],
+  "summary": "",
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "http://i.ytimg.com/vi/wfDhGAMPS1g/hqdefault.jpg",
+  "title": "External dependencies in web apps: system libs are not that scary",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/wfDhGAMPS1g"
+    }
+  ]
+}

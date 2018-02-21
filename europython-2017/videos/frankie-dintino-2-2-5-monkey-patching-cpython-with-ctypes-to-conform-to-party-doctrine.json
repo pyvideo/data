@@ -1,0 +1,16 @@
+{
+  "description": "A few weeks into your tenure as a software engineer at the Ministry\nof Truth you are assigned your first real feature request: write a\ncontext manager that can make \u201c2 + 2\u201d equal 5 at runtime. Your\nsolution should be written only in Python (for maximum portability).\nAbsurd? Perhaps, but you know better than to ask questions. You are\nno thought-criminal.\n\nIn this talk I walk through the steps I took to modify the value of\ntwo plus two in CPython at runtime\u2014using only Python and the ctypes\nmodule. What began for me as a silly and frivolous side project\nbecame an education in how the python data model works behind the\nscenes and how CPython compiles, optimizes, and executes python code.\n\nThe goal of this talk is to provide an introduction to CPython\ninternals while walking through the steps needed to monkeypatch\ninteger addition to make \u201c2 + 2\u201d equal 5. The audience should come\naway with a better understanding of how python objects and types are\nrepresented in memory, how references are counted, and how python\nscripts are transformed into abstract syntax trees, compiled into\ncode objects, and then executed by the CPython virtual stack machine.\nAnd because I\u2019ve limited myself to using ctypes, these topics can be\nexplored without familiarity with C as a prerequisite.",
+  "duration": 1826,
+  "recorded": "2017-07-10",
+  "speakers": [
+    "Frankie Dintino"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/tZ3ZfBX61eE/hqdefault.jpg",
+  "title": "2 + 2 = 5: Monkey-patching CPython with ctypes to conform to Party doctrine",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tZ3ZfBX61eE"
+    }
+  ]
+}

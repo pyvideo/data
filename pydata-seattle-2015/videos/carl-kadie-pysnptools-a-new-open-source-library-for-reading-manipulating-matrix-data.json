@@ -1,0 +1,15 @@
+{
+  "description": "Anyone who uses fast numeric NumPy arrays but would like a simpler-than-Pandas ability to slice-and-dice, read-and-write will find PySnpTools useful. I'll describe PySnpTools and also tell how it fits into our Machine Learning research group's long-term move from C++/VB to C# to Python. I'll also show how we use PySnpTools in FaST-LMM to do state-of-the-art Genome Wide Association Studies.\n\nThe tutorial will cover:\nPstReader: Full NumPy-meets-Pandas-like slicing and subsetting of matrix data before (and after) reading from disk. (For genomics, it includes support for the PLINK Bed and phenotype formats. It also includes low-memory, high-speed methods for common operations such as standardization and kernel-creation.)\n\nUtilities: One line intersecting and re-ordering of data for machine learning and statistics. Faster-than-NumPy extraction of a subarray from a NumPy array.\n\nIntRangeSet: Manipulate from zero to billions of integers as sets with very little memory.\n\nPython Trade Offs We Observe:\nOur industrial research group focuses on Machine Learning. Over 15 years, we have moved from C++/VB to C# to Python. I'll talk about why we choose Python and what tradeoffs we see.\n\nApplication:\nPySnpTools spun out of FaST-LMM. FaST-LMM is an Open Source, Python-based state-of-the-art system for doing Genome Wide Association Studies (GWAS). It is described in publications in Nature Methods, Nature Genetics, and Bioinfomatics.",
+  "recorded": "2015-07-24",
+  "speakers": [
+    "Carl Kadie"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/KPI6479ctAQ/hqdefault.jpg",
+  "title": "PySnpTools - A New Open Source Library for Reading & Manipulating Matrix Data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KPI6479ctAQ"
+    }
+  ]
+}

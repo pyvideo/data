@@ -1,0 +1,16 @@
+{
+  "description": "Hotjar\u2019s user recordings count above 400 million, with supporting\ntables containing 4.5 billion records. This 5TB data fits nicely into\nPostgres and doesn\u2019t quite merit the full big data suite of tools.\nHowever, at the rate of 1000 recordings per minute, and overall\nrequest rate of 750K per minute, the penalty of inefficient queries\nand updates can quickly cause nasty performance spikes if not thought\nout well.\n\nThis talk is about the challenges we faced at the lower end of big\ndata: the good decisions which helped keep our application running\nand other lessons we had to learn the hard way\n\nConsiderations for Database Design\n\n- Design entities for the domain\n- Balance normalization with performance\n- Sharding later has big migration costs, consider designing for this early\n\nSpeak to the database from your Web Application\n\n- Why use ORMs and at which level of abstraction?\n- Stored Procedures are fast, should we have more of those?\n\nBringing data closer to the application\n\n- Materialize Views\n- Defer aggregations\n- Application Level Caching\n\nHandling Operational Troubles\n\n- Explain(analyze, buffers) is your friend\n- Detect and manage Index Bloat\n- Reduce Deadlocks\n\nReducing Impact of Background Maintenance Jobs\n\n- Keep impact on database low with cursors and streaming\n- Plan data retention policies early, so cleaning can be an ongoing process",
+  "duration": 1848,
+  "recorded": "2017-07-13",
+  "speakers": [
+    "Stephanie Mifsud"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/b7ESi3zLL8k/hqdefault.jpg",
+  "title": "Optimizing queries for not so big data in PostgreSQL",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=b7ESi3zLL8k"
+    }
+  ]
+}

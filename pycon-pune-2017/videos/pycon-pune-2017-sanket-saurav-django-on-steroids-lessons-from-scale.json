@@ -1,0 +1,16 @@
+{
+  "description": "This talk summarizes my learnings (best practices and gotchas) by using\nDjango as the core application engine in a production application for\nthe past two years at DoSelect. I\u2019ll discuss about the common, and\n*not-so-common* patterns you should take care of when you hit scale with\nDjango, complete with real- life scenarios. Topics include\n(non-exhaustive) \u2013 production server configuration, best practices when\nusing Django as provider for an SPA (Single-page app), caching, query\noptimization while using the ORM, gotchas while using async tasks, et\nal.\n\nThe talk is intended for people who have a basic knowlegde of Python /\nDjango, know how web applications work in general. Key take-aways would\nbe things you can directly drop into your production Django application\nfor better performance.\n\n\nThe Usual Suspects\n~~~~~~~~~~~~~~~~~~\n\n-  Tuning your web server configuration (using Nginx and Gunicorn as\n   example)\n-  Caching whatever you can, but no more\n-  How to write Django ORM queries that scale\n-  When NOT to write Django ORM queries\n-  Async tasks while maintaining data consistency\n\nThe Non-usual Suspects\n~~~~~~~~~~~~~~~~~~~~~~\n\n-  Using Django with an SPA front-end\n-  Scaling Postgres while scaling Django\n-  Optmizing async task runners (more stuff to be added)\n\nThe talk will include real-world code examples while illustating the\npoints above \u2013 explaining what we faced in production, and how we solved\nit (and then realized that\u2019s what we should have done in the first\nplace). I plan to have a bit longer Q&A session, due to the nature of\nthis talk.\n",
+  "duration": 2653,
+  "recorded": "2017-02-17",
+  "speakers": [
+    "Sanket Saurav"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/E5JQlHLimTA/hqdefault.jpg",
+  "title": "Django on Steroids -- Lessons from Scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=E5JQlHLimTA"
+    }
+  ]
+}

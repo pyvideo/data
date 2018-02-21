@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Catherine Holloway - Simplifying Computer Art in Python\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/simplifying-computer-art-in-python)\n\nThe Processing project demonstrated that computer art can attract a\nwider audience to programming. Python has a robust catalog of\nlibraries, including two interfaces to OpenGL. However, none of these\nlibraries replicate Processing\u2019s simplicity when drawing to the\nscreen. I will present my solution to this problem: a re-\nimplementation of VPython\u2019s visual module purely in python called\nPygletHelper.\n\n-----\n\nProcessing is a programming language originally developed by the MIT\nmedia lab with the goal of allowing artists, educators, and many\nothers develop striking computer generated or assisted projects\nwithout requiring deep knowledge of software engineering or computer\ngraphics. Like Processing, Python has become a favourite language of\nusers from diverse backgrounds, such as web development, education,\nand science. Unlike Processing, python lacks a simple and easy to use\nlibrary for drawing shapes. Python\u2019s existing libraries for scientific\ncomputing and data analysis could be made even more awesome when\ncombined with a simple drawing library.\n\nVPython contains a module called visual that established a simple API\nand convention for drawing shapes, however it was written in C++,\nprior to the development of pyglet, and thus is not entirely cross-\nplatform. In this talk, I will demonstrate my solution to this\nproblem: a re-implementation of visual purely in Python called\nPygletHelper. Pyglet, an existing python library, provides a python\ninterface to OpenGL. PygletHelper is built on pyglet but obscures all\nof the OpenGL calls, such that the user can draw simple geometric\nshapes to the screen and animate them without needing to know about\ncomputer graphics terminology, memory usage, or C data types.\n\nI will also show some need visualizations of science and music in my\ntalk, as well as the graphical glitches encountered implementing the\nlibrary.",
+  "duration": 1593,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/simplifying-computer-art-in-python"
+  ],
+  "speakers": [
+    "Catherine Holloway"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/8GIZW--41oE/maxresdefault.jpg",
+  "title": "Simplifying Computer Art in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8GIZW--41oE"
+    }
+  ]
+}

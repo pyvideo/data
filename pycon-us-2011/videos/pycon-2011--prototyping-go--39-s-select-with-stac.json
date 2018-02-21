@@ -1,0 +1,38 @@
+{
+  "alias": "video/438/pycon-2011--prototyping-go--39-s-select-with-stac",
+  "category": "PyCon US 2011",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Prototyping Go's Select with stackless.py for Stackless Python\n\nPresented by Andrew Francis\n\nShowing how to use Python to prototype powerful concurrency features for\nStackless Python. We do want you to try this at home.\n\nAbstract\n\nGoogle\u2019s introduction of the Go language raised eyebrows in the\nStackless Python community. Although very different languages, Go and\nStackless Python\u2019s concurrency model share a common ancestor: the Bell\nLabs family of languages (i.e., Newsqueak, Limbo). The common feature\nare channels: a synchronous message passing mechanism based on Tony\nHoare\u2019s Communicating Sequential Processes (CSP).\n\nBoth Go and Python have channels. However with the select language\nstatement, Go has the ability to wait on multiple channels\nsimultaneously. Select greatly simplifies many concurrent programming\nproblems. Stackless Python does not have this feature. Other channel\nbased languages also feature powerful concurrency constructs. How hard\nwould these constructs be to implement for Stackless Python?\n\nThis talk explores the prototyping potential of stackless.py, the PyPy's\nframework's implementation of Stackless Python. The beauty of\nstackless.py is that it is written in Python and implements much of\nStackless Python's API! The \"case study\" involves prototyping Go's\nselect in stackless.py before reimplementing select in C based Stackless\nPython.\n\nDuring this talk, it will be shown how stackless.py can be used with\nCPython and the greenlet package (no need to install another Python).\nThe audience will also get an in depth look at how channels are\nimplemented. Channels are at the heart of Stackless Python's message\nbased concurrency model. Finally the audience will gain insights into\nfuture directions of Stackless Python.\n",
+  "duration": null,
+  "id": 438,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--prototyping-go--39-s-select-with-stac",
+  "speakers": [
+    "Andrew Francis"
+  ],
+  "summary": "",
+  "tags": [
+    "csp",
+    "go",
+    "greenlets",
+    "pycon",
+    "pycon2011",
+    "pypy",
+    "stackless"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_438___prototyping-go-s-select-with-stackless-py-for-stackless-python",
+  "title": "Prototyping Go's Select with stackless.py for Stackless Python",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_438___prototyping-go-s-select-with-stackless-py-for-stackless-python"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/438_prototyping-go-s-select-with-stackless-py-for-stackless-python.mp4"
+    }
+  ]
+}

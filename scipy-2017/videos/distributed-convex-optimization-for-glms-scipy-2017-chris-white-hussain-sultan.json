@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Oftentimes data scientists have specific modeling problems that call for highly customized solutions, which can lead to writing new optimization routines. In this talk we will discuss writing large-scale optimization algorithms in Python. Starting from a quick review of the math behind convex optimization, we will implement some common algorithms with custom tweaks, first in NumPy and then at scale with Dask arrays. Leveraging the distributed dask scheduler, we will also look at asynchronous variants of these algorithms. While looking at these implementations, we will discuss the challenges of properly testing optimization routines. The focus will be on applications to large scale generalized linear models and will include a demo of the currently in-development dask-glm project. We will end with some benchmarks comparing dask-glm with the SciPy stack (statsmodels, scikit-learn) as well as other popular big data tools such as H20. This talk is written from the perspective of a data scientist, not a nuts-and-bolts computer scientist, and so is focused on customizing and extending the SciPy stack for large scale data science problems. This talk will be co-presented by Chris White (Capital One) and Hussain Sultan (SQN Strategies).",
+  "duration": 1181,
+  "language": "eng",
+  "recorded": "2017-07-18",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    }
+  ],
+  "speakers": [
+    "Chris White",
+    "Hussain Sultan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yOKQGWd7eBk/maxresdefault.jpg",
+  "title": "Distributed Convex Optimization for GLMs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yOKQGWd7eBk"
+    }
+  ]
+}

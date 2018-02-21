@@ -1,0 +1,28 @@
+{
+  "alias": "video/2783/climate-gis-user-friendly-data-access-workflo",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "The impact of climate change will resonate through a broad range of\nfields including public health, infrastructure, water resources, and\nmany others. Long-term coordinated planning, funding, and action are\nrequired for climate change adaptation and mitigation. Unfortunately,\nwidespread use of climate data (simulated and observed) in non-climate\nscience communities is impeded by factors such as large data size, lack\nof adequate metadata, poor documentation, and lack of sufficient\ncomputational and visualization resources. Additionally, working with\nclimate data in its native format is not ideal for all types of analyses\nand use cases often requiring technical skills (and software)\nunnecessary to work with other geospatial data formats.\n\nWe present open source tools developed as part of ClimatePipes and\nOpenClimateGIS to address many of these challenges by creating an open\nsource platform that provides state-of-the-art user-friendly data\naccess, processing, analysis, and visualization for climate and other\nrelevant geospatial datasets making the climate and other geospatial\ndata available to non-researchers, decision-makers, and other\nstakeholders.\n\nThe overarching goals are:\n\n-  Enable users to explore real-world questions related to environment\n   and climate change.\n-  Provide tools for data access, geo-processing, analysis, and\n   visualization.\n-  Facilitate collaboration by enabling users to share datasets,\n   workflows, and visualization.\n\nSome of the key technical features include\n\n1. Support for multiprocessing for large datasets using Python-celery\n   distributed task queuing system\n2. Generic iterators allowing data to be streamed to arbitrary formats\n   (relatively) easily (e.g. ESRI Shapefile, CSV, keyed ESRI Shapefile,\n   CSV, NetCDF)\n3. NumPy based array computations allowing calculations such as monthly\n   means or heat indices optionally on temporally grouped data slices\n4. Decorators to expose existing Python API as a RESTful API\n5. Simple to use, lightweight Web-framework and JavaScript libraries for\n   analyzing and visualizing geospatial datasets using D3 and WebGL.\n\n",
+  "duration": null,
+  "id": 2783,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-13",
+  "slug": "climate-gis-user-friendly-data-access-workflo",
+  "speakers": [
+    "Aashish Chaudhary"
+  ],
+  "summary": "Understanding environmental and climate change requires data fusion,\nformat conversions, processing and visualization to gain insight into\nthe data. Our open source scientific Python and JavaScript based tools\nmakes it easy to manipulate geo-spatial and climate data, create and\nexecute workflows, and produce visualizations over the web for\nscientific and decision making tools.\n",
+  "tags": [
+    "climate"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/0SnB6C-Ixso/hqdefault.jpg",
+  "title": "Climate & GIS: User Friendly Data Access, Workflows, Manipulation, Analysis and Visualization of Climate Data",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=0SnB6C-Ixso"
+    }
+  ]
+}

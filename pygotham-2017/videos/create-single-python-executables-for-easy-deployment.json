@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Background\n==========\nGiven Python's scripting design, developers struggle with putting Python into a concise structure (wrangling messy files everywhere, etc.). I work as a software engineer and product owner at a small, early stage startup called FINDMINE  that uses machine learning to scale the currently manual and tedious process of product curation. We develop and maintain five large scale Python applications which make up the FINDMINE product, as well as two open source Python libraries. As you can imagine, as FINDMINE has continued to grow as a company and serve more clients, the engineering team has faced some very familiar startup growing pains as we scale our software and our development team.\n\nProblem 1: Wrangling Third Party Dependencies\n=============================================\nAll of our applications at FINDMINE are written in Python 3.5 and 3.6. As many developers and maintainers of large scale software systems in Python can attest, organizing your source code in a concise structure can be a struggle because of Python\u2019s scripting design. Furthermore, it\u2019s often important to have a Python package deployment strategy, because deployment can be complicated by your code\u2019s reliance on third party dependencies. \n\nI know many people can relate to the frustration of running a python application, only to have it crash because the machine you\u2019re using happens to be missing some arbitrary list of dependencies. Suddenly you\u2019re piping pip freeze into files and wrangling them all over the place!\n\nSo we were looking for a solution that would give us a two  things. First, the ability to deploy our applications as a single executable. Second, we wanted a way to package all the application\u2019s dependencies into that single executable, so that it could run on any machine without any problems.\n\nProblem 2: Lacking a Replicable Environment for Development and Testing\n=======================================================================\nOur second problem was one that will be very familiar to anyone who has worked in a small startup environment - we didn\u2019t have a replicable environment for development and testing. Our five applications share configurations and modules, including an communication protocol that defines how the applications would communicate certain information with one another. Making changes to any of these shared components meant that we encountered many development coordination and versioning issues. \n\nWe wanted to mature our development process and create a build process that would ensure a consistent environment for developing, testing and running our software. We also recognized that we needed to start using a continuous integration development practice, and needed an automated build and test functionality to detect integration errors.\n\nThe Solution\n============\nTo solve these two problems we came up with a unique way to use Pex, a packaging utility, and Bazel, a build tool, together. Over the course of my presentation, I'm going to introduce both of these tools for those who are unfamiliar with them. Then, I\u2019m going to walk through our cool way of using Pex and Bazel together, but rather than describing our actual FINDMINE build structure - I\u2019m going to use a super simple Sample Application for demo purposes.\n\nWhy you should attend\n======================\nAnybody who develops software in Python, regardless of their level, could benefit from learning about Pex and Bazel and how to leverage them to speed up developing, building, testing and deploying Python applications. I'll discuss our methodology, show a demo in action, and show you where to go to replicate this for your own applications. Finally, I'll discuss the learnings and insights we discovered while struggling through the muck in coming to this solution.",
+  "duration": 2400,
+  "language": "eng",
+  "recorded": "2017-10-06",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/create-single-python-executables-for-easy-deployment/"
+  ],
+  "speakers": [
+    "Angela Fox"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/R-H6NJSf7_o/maxresdefault.jpg",
+  "title": "Create Single Python Executables for Easy Deployment",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=R-H6NJSf7_o"
+    }
+  ]
+}

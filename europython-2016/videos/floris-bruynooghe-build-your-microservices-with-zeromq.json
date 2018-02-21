@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Floris Bruynooghe - Build your Microservices with ZeroMQ\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/build-your-microservices-with-zeromq)\n\nWhile microservices are rather commonly implemented using JSON over\nHTTP this is merely an implementation choice.  This talk will cover\nthe reasons why you might want to choose ZeroMQ as communication\ntransport between your microservices instead.  It will show how ZeroMQ\nis used from within Python and the common patterns which can simplify\nthe overal architecture while at the same time providing reliable and\nlow-latency communications between your services.\n\n-----\n\nMicroservices is the popular term for the trend to build backend\narchitectures as a number of smaller independent processes.  As an\nevolution from the Service Oriented Architecture the core aims are to\ncreate independent services which are easy to operate and even replace\nwhile all of them together compose into providing the business logic\nrequired for your application.\n\nWhile it is rather common for microservices to choose JSON over HTTP\nto communicate with each other, this is purely an implementation\nchoice.  HTTP is a protocol using a strict request-response format,\nthis can become a little burdensome when needing to deal with\nasynchronous requests and forces some architectural descisions to be\nnot as ideal as they could be.  ZeroMQ has more flexible communication\npatterns allowing for easier mapping of real-life interactions between\nservices.  Coupled with an easy to use asynchronous user-level API and\nvery fast underlying communication on persistent TCP connections\nZeroMQ is a rather attractive transport to build your microservices\nbased applications in.\n\nThis talk will show how to use ZeroMQ within Python to build your\nmicroservices.  It will show the benefits of ZeroMQ's asynchronous\nAPI, common usage patterns and how to handle backpressure.\nFurthermore different communication patterns will be explored and the\nimpact this has on how to simplify the overall architecture using\nthese patterns.",
+  "duration": 1622,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/build-your-microservices-with-zeromq"
+  ],
+  "speakers": [
+    "Floris Bruynooghe"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/BC4aSBhBAKA/maxresdefault.jpg",
+  "title": "Build your Microservices with ZeroMQ",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BC4aSBhBAKA"
+    }
+  ]
+}

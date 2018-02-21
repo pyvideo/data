@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Unsupervised models in natural language processing (NLP) have become very popular recently. Word2vec, GloVe and LDA provide powerful computational tools to deal with natural language and make exploring large document collections feasible. We would like to be able to say if a model is objectively good or bad, and compare different models to each other, this is often tricky to do in practice.\n\n**Abstract**\n\nSupervised models are trained on labelled data and optimised to maximise an external metric such as log loss or accuracy. Unsupersived models on the other hand typically try to fit a predefined distribution to be consistent with the statistics of some large unlabelled data set or maximise the vector similarity of words that appear in similar contexts. Evaluating the trained model often starts by \"eye-balling\" the results, i.e. checking that your own expectations of similarity are fulfilled by the model.\n\nDocuments that talk about football should be in the same category and \"cat\" is more similar with \"dog\" than with \"pen\". Is \"cat\" more similar to \"tiger\" than to \"dog\"? Ideally this information should be captured in a single metric that can be maximised. Tools such as pyLDAvis and gensim provide many different ways to get an overview of the learned model or a single metric that can be maximised: topic coherence, perplexity, ontological similarity, term co-occurrence, word analogy. Using these methods without a good understanding of what the metric represents can give misleading results. The unsupervised models are also often used as part of larger processing pipelines, it is not clear if these intrinsic evaluation measures are approriate in such cases, perhaps the models should instead be evaluated against an external metric like accuracy for the entire pipeline.\n\nIn this talk I will give an intuition of what the evaluation metrics are trying to achieve, give some recommendations for when to use them, what kind of pitfalls one should be aware of when using topic models and the inherent difficulty of measuring or even defining semantic similarity concisely.\n\nI assume that you are familiar with topic models, I will not cover how they are defined or trained. I talk specifically about the tools that are available for evaluating a topic model, irrespective of which algorithm you've used to learn one. The talk is accompanied by a notebook at https://github.com/mattilyra/pydataberlin-2017\n\n",
+  "duration": 2705,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    },
+    {
+      "label": "talk material repository",
+      "url": "https://github.com/mattilyra/pydataberlin-2017"
+    }
+  ],
+  "speakers": [
+    "Matti Lyra"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UkmIljRIG_M/maxresdefault.jpg",
+  "title": "Evaluating Topic Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UkmIljRIG_M"
+    }
+  ]
+}

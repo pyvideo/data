@@ -1,0 +1,33 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "This tutorial will explore the use of tools in the Pandas data analysis library for analyzing unevenly spaced time series data. The tutorial will start off with a brief primer on Pandas and the data.world API, and demonstrate how to use Pandas tools for analyzing data from The Simpsons episodes from data.world.\n\n**Abstract**\n\nIndeed data scientists occasionally analyze time series data in which the events of interest are unevenly spaced. For example, when we want to understand how a change to a user interface for Indeed Hire recruiters affects the time it takes them to review candidates, we might look at changes in time intervals between individual candidate dispositions in our logs. When we want to understand the ratio of new business to repeat business - or explore different definitions of repeat business - we analyze the intervals in the creation dates of new requisitions from the same client.\n\nThe Pandas data analysis library offers powerful tools for conducting time series analysis. When working on unevenly spaced time series, we have found the shift() and transform() DataFrame methods particularly helpful. Many of the examples of using these methods that we found on the web were used only on small, artificial datasets. Determining how best to apply them to real datasets was not always as straightforward as we would have hoped.\n\nRather than use internal proprietary data to illustrate examples of how these methods can be used effectively to analyze unevenly spaced time series data, we will instead use data from a publicly available dataset of episodes of The Simpsons at data.world (https://data.world/data-society/the-simpsons-by-the-data). In doing so, we will also provide an introduction on how to use the data.world API.\n\nThe purpose of this tutorial is to\n\n* Provide a brief, focused primer on some basic aspects of Pandas\n* Provide an overview of data.world datasets and accessing them via the API\n* Show how advanced Pandas tools can be used for analyzing unevenly spaced time series data\n\nParticipants will be best prepared for this tutorial if they\n\n* Understand Python basics\n* Have Python 2 or Python 3 installed on their computers\n* Install the latest versions of Pandas and Jupyter Notebook (recommended: use Anaconda)\n* Install the data.world Python API (``pip install git+git://github.com/datadotworld/data.world-py.git``)\n* Create a data.world account and an API key via the data.world Advanced Settings page\n* Update: jupyter notebooks associated with the tutorial have been uploaded to a GitHub repository (https://github.com/gumption/pydata-simpsons).",
+  "duration": 6469,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    },
+    {
+      "label": "Simpsons episodes dataset",
+      "url": "https://data.world/data-society/the-simpsons-by-the-data"
+    },
+    {
+      "label": "tutorial repository",
+      "url": "https://github.com/gumption/pydata-simpsons"
+    }
+  ],
+  "speakers": [
+    "Joe McCarthy"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/EXX615fJgyI/maxresdefault.jpg",
+  "title": "D\u2019oh! Unevenly spaced time series analysis of The Simpsons in Pandas",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EXX615fJgyI"
+    }
+  ]
+}

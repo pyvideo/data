@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "In August 2016, a benchmark about asyncpg, a new PostgreSQL client library for Python was published. It highlighted ingestion speeds of up to 900k rows per second for a synthetic benchmark with a single byte per row. However, in realistic use-cases the ingestion speed is usually below that. Surprisingly it is not Python which is the limiting factor but rather the database itself. To make traditional RDBMS ready for Big Data, high performing OLAP and fast analysis on high speed data streams, Swarm64 created Swarm64DB, a hardware-accelerated plugin for PostgreSQL and other RDBMS. By using Swarm64DB in combination with PostgreSQL, Python and the right scaling mechanism, we are able to push the ingestion throughput into areas where Python can easily compete with compiled languages. The talk highlights the architecture of our solution and showcases a real world use-case.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 2459,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Sebastian Dre\u00dfler"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/L4EdHKLB_08/maxresdefault.jpg",
+  "title": "High-Performance Ingestion with Python and Swarm64DB",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=L4EdHKLB_08"
+    }
+  ]
+}

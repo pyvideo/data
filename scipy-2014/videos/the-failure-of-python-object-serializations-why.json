@@ -1,0 +1,34 @@
+{
+  "alias": "video/2720/the-failure-of-python-object-serializations-why",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "Parallel and asynchronous computing in python is crippled by pickle's\npoor object serialization. However, a more robust serialization package\nwould drastically improve the situation. To leverage the cores found in\nmodern processors we need to communicate functions between different\nprocesses -- and that means callables must be serialized without pickle\nbarfing. Similarly, parallel and distributed computing with MPI, GPUs,\nsockets, and across other process boundaries all need serialized\nfunctions (or other callables). So why is pickling in python so broken?\nPython's ability to leverage these awesome communication technologies is\nlimited by python's own inability to be a fully serializable language.\nIn actuality, serialization in python is quite limited, and for really\nno good reason.\n\nMany raise security concerns for full object serialization, however it\ncan be argued that it is not pickle's responsibility to do proper\nauthentication. In fact, one could apply rather insecure serialization\nof all objects the objects were all sent across RSA-encrypted\nssh-tunnels, for example.\n\nDill is a serialization package that strives to serialize all of python.\nWe have forked python's multiprocessing to use dill. Dill can also be\nleveraged by mpi4py, ipython, and other parallel or distributed python\npackages. Dill serves as the backbone for a distributed parallel\ncomputing framework that is being used to design the next generation of\nlarge-scale heterogeneous computing platforms, and has been leveraged in\nlarge-scale calculations of risk and uncertainty. Dill has been used to\nenable state persistence and recovery, global caching, and the\ncoordination of distributed parallel calculations across a network of\nthe world's largest computers.\n\nhttp://pythonhosted.org/dill\n\nhttps://github.com/uqfoundation\n\nhttp://matthewrocklin.com/blog/work/2013/12/05/Parallelism-and-Serialization/\n\nhttp://stackoverflow.com/questions/19984152/what-can-multiprocessing-and-dill-do-together?rq=1\n\nhttps://groups.google.com/forum/#!topic/mpi4py/1fd4FwdgpWY\n\nhttp://nbviewer.ipython.org/gist/anonymous/5241793\n",
+  "duration": null,
+  "id": 2720,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-09",
+  "related_urls": [
+    "http://matthewrocklin.com/blog/work/2013/12/05/Parallelism-and-Serialization/",
+    "http://nbviewer.ipython.org/gist/anonymous/5241793",
+    "http://pythonhosted.org/dill",
+    "http://stackoverflow.com/questions/19984152/what-can-multiprocessing-and-dill-do-together?rq=1",
+    "https://github.com/uqfoundation",
+    "https://groups.google.com/forum/"
+  ],
+  "slug": "the-failure-of-python-object-serializations-why",
+  "speakers": [
+    "Michael McKerns"
+  ],
+  "summary": "Parallel and asynchronous computing in python is crippled by pickle's\npoor object serialization. Dill, a more robust serialization package,\nstrives to serialize all of python. Dill has been used to enable state\npersistence and recovery, global caching, and the coordination of\ndistributed parallel calculations across a network of the world's\nlargest computers.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/oSoT0m8SgrU/hqdefault.jpg",
+  "title": "The Failure of Python Object Serializations: Why HPC in Python is Broken and How to Fix it",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=oSoT0m8SgrU"
+    }
+  ]
+}

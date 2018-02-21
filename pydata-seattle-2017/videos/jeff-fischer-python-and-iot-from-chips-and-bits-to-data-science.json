@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "This talk will take you through the design of a smart lighting system, including sensor hardware and software (based around MicroPython), data analysis (using NumPy, Pandas, and Jupyter), and lighting control (using Hidden Markov Models via Hmmlearn). From the talk, you should get a sense of how the hardware, software, and math fit together to create a solution.\n\n**Abstract**\n\nEver want to know what is behind the \"Internet of Things\" hype? I wanted to as well, so I embarked on a side project to learn more. This talk is the story of my journey, using, of course, my favorite programming language, Python.\n\nIn this talk, I will take you through my project, a lighting replay system. The application monitors the light levels in several rooms of a residence and then replays a similar pattern when the house is unoccupied. The goal is to make the house look occupied, with a lighting pattern that is different every day, but looks realistic. It accounts for the different patterns found in each individual room as well as seasonal factors (e.g. changing sunrise/sunset times). The full source code for the application is available on github https://github.com/mpi-sws-rse/thingflow-examples/tree/master/lighting_replay_app",
+  "duration": 2345,
+  "language": "eng",
+  "recorded": "2017-07-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/seattle2017/schedule"
+    },
+    {
+      "label": "lighting_replay_app repository",
+      "url": "https://github.com/mpi-sws-rse/thingflow-examples/tree/master/lighting_replay_app"
+    }
+  ],
+  "speakers": [
+    "Jeff Fischer"
+  ],
+  "tags": [
+    "iot",
+    "micropython"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/rlMb-xwLVUg/maxresdefault.jpg",
+  "title": "Python and IoT: From Chips and Bits to Data Science",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rlMb-xwLVUg"
+    }
+  ]
+}

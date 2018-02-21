@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData London 2016\n\nAt Deliveroo we've built our data plumbing from the ground up using Luigi to manage our data workflows. In this talk I'll be walking through our experiences using Luigi scaling from a few simple jobs to a complex, production grade system. This talk is mostly about building robust data pipelines, but is also a little bit about why it's better to be woken up by your cat than by the server alarm.\n\nIn the beginning, there was Cron. We had one job, it ran at 1AM, and it was good. Then we added another job, and to make them run one after the other, we used Luigi, which says \"This can only run when this is finished\". Then we added another ~500 jobs, long running scikitlearn computes, external API dependencies, a business reporting systems with 2000+ reports and 400+ users and a scheduling system with 5000+ users. This is when things got interesting.\n\nThis is the story of building the data systems at Deliveroo. This is not a talk about Big Data, cutting edge algorithms or new open source technology. Rather, this is a talk about coping with complexity in a rapidly changing landscape. I'll start from the beginning, giving a brief overview of what Luigi is and why we decided to roll with it. The body of the talk will be about the challenges we faced as our company grew in size and complexity, the solutions that worked (and those that didn't), and what we know now that we didn't know then. I'll cover a bit of the luigi syntax itself, but mostly I'll focus on the things we did around luigi that made it work for us; how (not) to design pipelines, how to test them, how to manage issues gracefully and how to detect problems in advance.\n\nBy attending this session you'll learn:\n\nWhy DAG based ETL systems are fundamentally useful\nWhat to think about when designing your DAG\nWhat to implement early to save you pain later on\n\nSlides available here: https://speakerdeck.com/peteowlett/lessons-from-6-months-of-using-luigi",
+  "duration": 2537,
+  "id": 5243,
+  "language": "eng",
+  "recorded": "2016-05-08",
+  "related_urls": [
+    "https://speakerdeck.com/peteowlett/lessons-from-6-months-of-using-luigi"
+  ],
+  "slug": "peter-owlett-lessons-from-6-months-of-using-luigi-in-production",
+  "speakers": [
+    "Peter Owlett"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZaAbOKNWGA8/maxresdefault.jpg",
+  "title": "Lessons from 6 months of using Luigi in production",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZaAbOKNWGA8"
+    }
+  ]
+}

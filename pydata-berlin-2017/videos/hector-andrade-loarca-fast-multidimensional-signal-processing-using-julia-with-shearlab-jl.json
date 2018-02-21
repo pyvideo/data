@@ -1,0 +1,57 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Shearlab is a Julia Library with toolbox for two- and threedimensional data processing using the Shearlet system as basis functions which generates a sparse representation of cartoon-like functions with applications on Signal Processing, Compressed Sensing, 3D Imaging, MRI Imaging and a lot more, with visible improvements with respect of the Wavelet Transform in representing multidimensional data.\n\n**Abstract**\n\nThe Shearlet Transform was proposed by the Professor Gitta Kutyniok (http://www.tu-berlin.de/?108957) and her colleagues as a multidimensional generalization of the Wavelet Transform, and since then it has been adopted by a lot of Companies and Institutes by its stable and optimal representation of multidimensional signals. Shearlab.jl is a already registered Julia package (https://github.com/arsenal9971/Shearlab.jl) based in the most used implementation of Shearlet Transform programmed in Matlab by the Research Group of Prof. Kutyniok (http://www.shearlab.org/software), it was developed as a project apart of my PhD studies but ended up being the main computational tool of them, used mainly to reconstruct the Light Field of a 3D Scene from Sparse Photographic Samples of Different Perspectives with Stereo Vision purposes.\n\nWhy I think this will be an interesting thing to present at JuliaCon 2017?\n\n- A lot of research institutes and companies have already adopted the Shearlet Transform in their work (e.g. Fraunhofer Institute in Berlin and Charit\u00e9 Hospital in Berlin, Mathematical Institute of TU Berlin) by its directional sensitivity, reconstruction stability and sparse representation; with applications that goes from MRI Imaging in Hospitals to Video Compression Decoding.\n\n- I am convinced Shearlab.jl is the best implementation so far of Shearlet Transform, basing my arguments on the benchmarks already runned against the last Matlab version which is the most used at the moment (here benchmarks https://github.com/arsenal9971/Shearlab.jl/blob/master/benchmarks/README.md) beating it by at least double the speed on different experiments.\n\n- Not everything is about performance and technical mathematics, so I also have cool usage examples to show with some algorithms that have been implemented lately, like: Image Decomposition and Recovery (https://github.com/arsenal9971/Shearlab.jl/blob/master/examples/Shearlets/Examples%20of%20Image%20Decoding%20and%20Recovery.ipynb), Image Denosing (https://github.com/arsenal9971/Shearlab.jl/blob/master/examples/Shearlets/Image%20Denoising.ipynb) Image Inpainting (the coolest so far) (https://github.com/arsenal9971/Shearlab.jl/blob/master/examples/Shearlets/Image%20Inpainting.ipynb) which I am using at the moment for the Light Field Recovery of a sparsely sampled 3D scene.\n- The Package was also already presented in the Berlin Julia Users MeetUp with a very good response and interest from the community (https://www.meetup.com/es-ES/Julia-Users-Group/events/236791753/).\n\n",
+  "duration": 2117,
+  "language": "eng",
+  "recorded": "2017-06-30",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/berlin2017/schedule/"
+    },
+    {
+      "label": "Professor Gitta Kutyniok",
+      "url": "http://www.tu-berlin.de/?108957"
+    },
+    {
+      "label": "Shearlab.jl Julia package",
+      "url": "https://github.com/arsenal9971/Shearlab.jl"
+    },
+    {
+      "label": "xxx",
+      "url": "http://www.shearlab.org/software"
+    },
+    {
+      "label": "Shearlab.jl benchmark",
+      "url": "https://github.com/arsenal9971/Shearlab.jl/blob/master/benchmarks/README.md"
+    },
+    {
+      "label": "Image Decomposition and Recovery example",
+      "url": "https://github.com/arsenal9971/Shearlab.jl/blob/master/examples/Shearlets/Examples%20of%20Image%20Decoding%20and%20Recovery.ipynb"
+    },
+    {
+      "label": "Image Image Denoising example",
+      "url": "https://github.com/arsenal9971/Shearlab.jl/blob/master/examples/Shearlets/Image%20Denoising.ipynb"
+    },
+    {
+      "label": "Image Inpainting example",
+      "url": "https://github.com/arsenal9971/Shearlab.jl/blob/master/examples/Shearlets/Image%20Inpainting.ipynb"
+    },
+    {
+      "label": "Berlin Julia Users MeetUp",
+      "url": "https://www.meetup.com/es-ES/Julia-Users-Group/events/236791753/"
+    }
+  ],
+  "speakers": [
+    "H\u00e9ctor Andrade Loarca"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2Rw8_bUBoOI/maxresdefault.jpg",
+  "title": "Fast Multidimensional Signal Processing using Julia with Shearlab.jl",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2Rw8_bUBoOI"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "alias": "video/3864/my-own-platform-as-a-service-in-python-which-you",
+  "category": "Kiwi PyCon 2015",
+  "copyright_text": "CC BY-SA",
+  "description": "Over the last couple of years I have evolved my own Platform as a\nService (PaaS) for hosting Django apps, and you can run it too.\n\nI use Nginx, Circus, Chaussette, and Django, with some support from\nDjango-environ and deployment automation using Fabric. All of that\nexcept Nginx are written in Python. Systemd is a new init process\ncoming.\n\n-  Circus is a process and socket manager, and gives a nice way to scale\n   processes.\n-  Chaussette WSGI server works well with Circus, as Circus can pass the\n   socket to it.\n-  Django-environ it's a library that parses environment variables or\n   files with key-value pairs. Environment variables are used on some\n   PaaS, but the file support I find very useful.\n-  Fabric is a framework for writing system commands to be run on remote\n   hosts, and is great for automating system administration.\n-  Systemd is a new \"init\" process for Linux and offers some interesting\n   possibilities for hosting Python webapps.\n\n",
+  "duration": 1774,
+  "id": 3864,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-09-05",
+  "slug": "my-own-platform-as-a-service-in-python-which-you",
+  "speakers": [
+    "Lee Begg"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/AxTeVemFBkQ/hqdefault.jpg",
+  "title": "My own Platform as a Service in Python, which you can do too",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/AxTeVemFBkQ"
+    }
+  ]
+}

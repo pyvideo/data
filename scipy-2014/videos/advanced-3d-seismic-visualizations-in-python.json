@@ -1,0 +1,29 @@
+{
+  "alias": "video/2821/advanced-3d-seismic-visualizations-in-python",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "3D reflection seismic data acquired `offshore of southeast\nJapan <http://www.geology.wisc.edu/~jkington/scipy2014/LocationMap.png>`__\nas part of the Nankai Trough Seismogenic Zone Experiment (NanTroSEIZE)\nprovides a unique opportunity to study active accretionary prism\nprocesses. The 3D seismic volume revealed complex interactions between\nactive sedimentation and tectonics within `multiple slope\nbasins <http://www.geology.wisc.edu/~jkington/scipy2014/inline_2695_w_interp_brown_seismic.png>`__\nabove the accretionary prism. However, our ability to understand these\ninteractions was hindered without access to expensive specialized\nsoftware packages.\n\nWe implemented stratal slicing of the 3D volume and co-rendering of\nmultiple attributes in python to better visualize our results. Stratal\nslicing allows volumetric attributes to be displayed `in map view along\nan arbitrary geologic\ntimeline <http://www.geology.wisc.edu/~jkington/scipy2014/stratal_slicing_animation.gif>`__\\ (~30MB\nanimated gif) by interpolating between interpreted geologic surfaces.\nThis enhances the visibility of subtle changes in stratigraphic\narchitecture through time. Co-rendering coherence on top of seismic\namplitudes facilitates fault interpretation in both cross section and\nmap view. This technique allowed us to `confidently interpret\nfaults <http://www.geology.wisc.edu/~jkington/scipy2014/ContemporaneousStrikeSlipAndNormalFaults.png>`__\nnear the limit of seismic resolution.\n\nThe scientific python ecosystem proved to be an effective platform both\nfor making publication-quality cross sections and for rapidly\nimplementing state-of-the-art seismic visualization techniques. We\ncreated `publication quality cross\nsections <http://www.geology.wisc.edu/~jkington/scipy2014/Basin_uplift.png>`__\n(some annotations added in Inkscape) and interactive 2D visualizations\nin ``matplotlib``. For 3D display of seismic volumes we used ``mayavi``\nto easily create interactive scenes. ``scipy.ndimage`` provided most of\nthe underlying image processing capability and allowed us to preform\nmemory-efficient operations on >10GB arrays.\n",
+  "duration": null,
+  "id": 2821,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-10",
+  "related_urls": [
+    "http://www.geology.wisc.edu/"
+  ],
+  "slug": "advanced-3d-seismic-visualizations-in-python",
+  "speakers": [
+    "Joe Kington"
+  ],
+  "summary": "3D reflection seismic data collected as a part of the NanTroSEIZE\nproject revealed complex interactions between active sedimentation and\ntectonics in the Nankai Trough, Japan. We implemented co-rendering of\nmultiple attributes and stratal slicing in python to better visualize\nthe structural and stratigraphic relationships within the piggyback\nslope basins of the accretionary prism.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/PFOd01fqcyQ/hqdefault.jpg",
+  "title": "Advanced 3D Seismic Visualizations in Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=PFOd01fqcyQ"
+    }
+  ]
+}

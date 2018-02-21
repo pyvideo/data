@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "James Saryerwinnie - Writing Redis in Python with asyncio\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/writing-redis-in-python-with-asyncio)\n\nIn this talk, I'll show you how to write redis using asyncio.  You'll\nsee how you can create a real world application using asyncio by\ncreating a python port of redis.\n\n-----\n\nPython has been adding more and more async features to the language.\nStarting with asyncio in python 3.4 and including the new async/await\nkeywords in python 3.5, it's difficult to understand how all these\npieces fit together.  More importantly, it's hard to envision how to\nuse these new language features in a real world application.  In this\ntalk we're going to move beyond the basic examples of TCP echo servers\nand example servers that can add number together.  Instead I'll show\nyou a realistic asyncio application.  This application is a port of\nredis, a popular data structure server, written in python using\nasyncio.  In addition to basic topics such as handling simple redis\ncommands (GET, SET, APPEND, etc),  we'll look at notifications using\npub/sub, how to implement the MONITOR command, and persistence.  Come\nlearn how to apply the asyncio library to real world applications.",
+  "duration": 1482,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/writing-redis-in-python-with-asyncio"
+  ],
+  "speakers": [
+    "James Saryerwinnie"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/CF8zt8l6SeI/maxresdefault.jpg",
+  "title": "Writing Redis in Python with asyncio",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CF8zt8l6SeI"
+    }
+  ]
+}

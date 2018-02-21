@@ -1,0 +1,48 @@
+{
+  "alias": "video/352/pycon-2010--actors--what--why--and-how---161",
+  "category": "PyCon US 2010",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Actors: What, Why and How\n\nPresented by Donovan Preston\n\nSince the dawn of concurrency research, there have been two camps:\nshared everything, and shared nothing. Most modern applications use\nthreads for concurrency, a shared everything architecture.\n\nActors, however, use a shared nothing architecture where lightweight\nprocesses communicate with each other using message passing. Actors can\nchange their state, create a new Actor, send a message to any Actor it\nhas the Address of, and wait for a specific kind of message to arrive in\nit's mailbox.\n\nWe will discuss the benefits of using the Actor architecture and\nstrategies for implementing an Actor system in Python.\n\n`http://bitbucket.org/fzzzy/python-actors/ <http://bitbucket.org/fzzzy/python-%20actors/>`__\n",
+  "duration": null,
+  "id": 352,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2010-02-19",
+  "related_urls": [
+    "http://bitbucket.org/fzzzy/python-%20actors/",
+    "http://bitbucket.org/fzzzy/python-actors/"
+  ],
+  "slug": "pycon-2010--actors--what--why--and-how---161",
+  "speakers": [
+    "Donovan Preston"
+  ],
+  "summary": "",
+  "tags": [
+    "concurrency",
+    "eventlet",
+    "infrastructure",
+    "pycon",
+    "pycon2010",
+    "rest",
+    "scaling",
+    "wsgi"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_352___actors-what-why-and-how-161",
+  "title": "Actors: What, Why, and How (#161)",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_352___actors-what-why-and-how-161"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/352_actors-what-why-and-how-161.m4v"
+    },
+    {
+      "length": 160241933,
+      "type": "ogv",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2010/352_actors-what-why-and-how-161.ogv"
+    }
+  ]
+}

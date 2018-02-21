@@ -1,0 +1,15 @@
+{
+  "description": "Sponsor Talk- Microsoft\nA well-recognized strength of Python is the ease with which it can be extended with libraries written in C. At the same time, the debugging story for such extensions has been notoriously poor, with no ability to seamlessly debug both languages at the same time. This talk showcases an implementation of such seamless debugging in Python Tools for Visual Studio.\n\nProblems with existing Python and C++ debuggers when mixing two code types: no ability to step between the two, no way to peek at underlying native data structures under the hood when in Python. Seamless mixed-mode debugging of both types in a single debug session is necessary to solve these problems, including transparent stepping from Python to native code and from native to Python, breakpoints in both types of code side by side, and the ability to inspect how the objects look from the other side.\n\nThe talk showcases the overall mixed-mode experience in Python Tools for Visual Studio, and then goes over all the specific features listed above in detail, and the limitations imposed by the mixed-language model.\n\nSlides are available here: http://www.slideshare.net/PyData/mixedlanguage-pythonc-debugging-with-python-tools-for-visual-studio-pavel-minaev",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Pavel Minaev"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/zEDFH1vMA24/hqdefault.jpg",
+  "title": "Mixed language Python & C++ debugging with Python Tools for Visual Studio",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zEDFH1vMA24"
+    }
+  ]
+}

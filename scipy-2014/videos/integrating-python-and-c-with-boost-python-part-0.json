@@ -1,0 +1,29 @@
+{
+  "alias": "video/2749/integrating-python-and-c-with-boost-python-part-0",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "Python and C++ are both popular languages that each bring a lot to the\ntable. The languages also complement one another well: Python is\nhigh-level, dynamic, and easy to use while C++ is at-the-metal, static,\nand (in)famously tricky. There are times when there are real advantages\nto combining these disparate natures, and Python\u2019s C API provides a\nstrong interface for doing just that. Boost.Python is a C++ library that\nbuilds upon and improves Python\u2019s C API to give users a simpler, more\nintuitive, and safer means to integrate Python and C++.\n\nIn this tutorial we\u2019ll look at how to use Boost.Python to effectively\nbridge the Python/C++ boundary. We\u2019ll start by briefly looking at the\nfundamentals of the Python C API since that defines the \u201cground rules\u201d;\nthis includes things like reference counting, the basic object model,\nand so forth. We\u2019ll then quickly look at the Boost.Python API and show\nhow it provides the same functionality as the underlying C API, but does\nso in a way that doesn\u2019t obscure the real semantics of the Python\nlanguage.\n\nAfter this introduction, the rest of the tutorial will involve writing\ncode to explore various elements of Boost.Python. We\u2019ll focus on\ntechniques for extending Python with C++, that is, writing Python\nmodules in C++. Boost.Python can be used for embedding (i.e. invoking\nPython code from C++), but that involves a different set of techniques,\nand in practice most scientific Python developers are more interested in\ndeveloping extensions.\n\nThe syllabus for the four-hour tutorial will be like this:\n\n1. Introduction: C-API and Boost.Python basics\n\n   Note that this can be reduced or eliminated of participants are\n   already comfortable with the topics.\n\n2. Hello World: Exposing a basic function\n\n   In this section we\u2019ll get a minimal Boost.Python module working. This\n   will not only introduce students to the infrastructure of\n   Boost.Python, but it will also give us a chance to make sure that\n   everyone\u2019s build environment is working.\n\n3. Exposing functions\n\n   In this section we\u2019ll look at the details of exposing C++ functions\n   to Python. The topics we\u2019ll cover will include overloading (including\n   Boost.Python\u2019s auto-overload feature), default argument values, and a\n   brief look at call policies.\n\n4. Exposing classes\n\n   Here we\u2019ll look at how to expose C++ classes to Python. Topics will\n   include the basic ``class_<T>`` template, member functions, data\n   members, properties, inheritance, and virtual functions.\n\n5. ``boost::python::object``\n\n   The ``boost::python::object`` class is Boost.Python\u2019s primary\n   interface to Python\u2019s ``PyObject`` structure. Understanding how to\n   work with this class is a key building-block for developing Python\n   modules with Boost.Python. We\u2019ll explore its API and features,\n   including areas like attribute access, reference counting, and\n   converting between Python and C++ objects.\n\n6. Derived object types\n\n   Boost.Python provides a number of ``boost::python::object``\n   subclasses for important Python classes like ``list``, ``dict``, and\n   ``tuple``. In this section we\u2019ll look at these subclasses and how to\n   use them in Boost.Python modules.\n\n7. Enums\n\n   Boost.Python provides ``enum_<T>`` for exposing C++ enums to Python.\n   Python doesn\u2019t have a notion of enums *per se*, but in this section\n   we\u2019ll explore how this template makes it straightforward to use C++\n   enums in Python in a simple and intuitive way.\n\n8. Type conversion\n\n   In this section we\u2019ll look at Boost.Python\u2019s support for doing\n   automatic type-conversion across the Python/C++ boundary. We\u2019ll see\n   how you can register type-converters with Boost.Python which will be\n   invoked whenever Boost.Python needs to convert a Python object to a\n   C++ object or vice versa.\n\nThis is a fairly ambitious set of topics, and it\u2019s possible that we\nwon\u2019t be able to cover them all. The topics are roughly in\nmost-often-used to least-often-used order, however, so students will be\nsure to be exposed to the most important and relevant elements of the\ncourse.\n\nLikewise, the four-hour format of the course means that we won\u2019t be able\nto go into great depth on many topics. The main goal of the course,\nthen, is to give students enough orientation and hands-on experience\nwith Boost.Python that they can continue to learn on their own.\nInter-language integration - especially between languages as dissimilar\nas C++ and Python - can be quite complex, but this tutorial will give\nstudents the grounding they need to successfully apply Boost.Python to\ntheir problems.\n",
+  "duration": null,
+  "id": 2749,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-09",
+  "slug": "integrating-python-and-c-with-boost-python-part-0",
+  "speakers": [
+    "Austin Bingham"
+  ],
+  "summary": "Python and C++ can be powerful complements to one another. C++ is great\nfor performance-critical calculations, while Python is great for\neverything else. In this tutorial we\u2019ll look at how to integrate Python\nand C++ using the Boost.Python library. You\u2019ll learn techniques for\neasily developing hybrid systems that use the right language for the\nright task, resulting in better software.\n",
+  "tags": [
+    "boost",
+    "c++"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/GE8EsGUsC2w/hqdefault.jpg",
+  "title": "Integrating Python and C++ with Boost Python part 1",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=GE8EsGUsC2w"
+    }
+  ]
+}

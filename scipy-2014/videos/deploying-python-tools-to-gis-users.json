@@ -1,0 +1,28 @@
+{
+  "alias": "video/2775/deploying-python-tools-to-gis-users",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "Geospatial data is frequently manipulated directly using Python tools,\ncommonly built on top of powerful libraries such as GDAL, GEOS and\nNetCDF. Delivering model results to end users in many instances requires\nproviding tools in familiar graphical environments, such as desktop GIS\nsystems, which can permit users without programming knowledge to\nintegrate models and results into their existing scientific workflows.\nThis talk discusses how to construct simple wrappers around existing\nPython programs to enable their use by ArcGIS, a commonly used\ncommercial GIS.\n\nTwo separate approaches will be illustrated: creating Python toolboxes,\nor collections of tools embeddable in workflows, and creating customized\nPython graphical add-ins, which can control the graphical environment\nprovided within ArcGIS. Building contextual help, interactive widgets,\nand leveraging ``numpy`` for direct data integration will be discussed.\nWhile ArcGIS exposes much of its functionality via the ``ArcPy``\npackage, this talk instead focuses on integrating code from other\nenvironments, and doesn't presume existing ArcGIS expertise.\n",
+  "duration": null,
+  "id": 2775,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-14",
+  "slug": "deploying-python-tools-to-gis-users",
+  "speakers": [
+    "Shaun Walbridge"
+  ],
+  "summary": "The geospatial community has coalesced around Python, both in the\ncommercial and open source spaces. In this talk, I'll show how Python\ntools can be shared with users of ArcGIS, a commercial GIS system which\nuses Python as its primary development environment. By constructing\nsmall Python wrappers, code can be shared in graphical tools which\nenable non-programmers to use what you've built.\n",
+  "tags": [
+    "gis"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/_rMNUAtLnPw/hqdefault.jpg",
+  "title": "Deploying Python Tools to GIS Users",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=_rMNUAtLnPw"
+    }
+  ]
+}

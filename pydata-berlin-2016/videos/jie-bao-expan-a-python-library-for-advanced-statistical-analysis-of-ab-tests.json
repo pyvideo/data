@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Description\n\nA/B tests have been adopted by various companies in different industries to drive the data-driven decision making process. Therefore, a statistically solid analytic framework is of common interest to a large community. We'll introduce the ExpAn library developed for the statistical evaluation of A/B tests, it has a generic data structure and all functions are standalone.\n\n\nAbstract\n\nA/B tests, or randomized controlled experiments, have been widely applied in different industries to optimize the business process and the user experience. Here we'll introduce a Python library, ExpAn, intended for the statistical analysis of A/B tests.\n\nThe input data to ExpAn has a standard format, which is defined to interface with different data sources. The main statistical functions in ExpAn are all standalone and work with either the library-specific input data structure or some Python built-in data types. Among others, the functions can be used to assess whether the randomization is appropriate, and measure the expectation and error margin of the uplift due to the treatment. We also implemented a robust discretization algorithm to handle typical heavy-tailed distributions in the real world. Finally, a generic result structure is designed to incorporate results from different types of analyses.\n\nOne can easily feed data from other domain-specific data fetching modules into ExpAn. Other advanced algorithms for the analysis of A/B test data can be implemented and plugged into ExpAn, eg. a Bayesian hypothesis testing scheme instead of the frequentist approach. The generality of the result structure also makes it handy to apply different kinds of visualization on top of the data.",
+  "duration": 1687,
+  "language": "eng",
+  "recorded": "2016-06-06",
+  "related_urls": [],
+  "speakers": [
+    "Jie Bao"
+  ],
+  "tags": [
+    "testing",
+    "expan"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/furJxiZlo6w/hqdefault.jpg",
+  "title": "ExpAn - A Python library for advanced statistical analysis of A/B tests",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=furJxiZlo6w"
+    }
+  ]
+}

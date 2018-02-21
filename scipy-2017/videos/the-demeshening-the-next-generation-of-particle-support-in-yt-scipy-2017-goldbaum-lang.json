@@ -1,0 +1,28 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Large N-body particle datasets present a unique challenge for analysis and visualization. With multi-terabyte datasets becoming increasingly common, the goal of performing large-scale analysis and visualization of such large quantities of data becomes increasingly challenging.\n\nIn this talk we describe a new particle indexing scheme we have designed for yt, a python toolkit for the analysis and visualization of 3D simulation data. By making use of compressed Morton bitmaps to index the locations of particles, we substantially decrease the overhead to perform spatial chunking. By rethinking the high-level yt API for N-body data to be more particle-centric, we are able to scale analysis and visualization to datasets containing very large numbers of particles while reaping performance improvements and decreased memory overhead when working with smaller datasets.",
+  "duration": 1451,
+  "language": "eng",
+  "recorded": "2017-07-14",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://scipy2017.scipy.org/ehome/220975/493422/"
+    }
+  ],
+  "speakers": [
+    "Nathan Goldbaum",
+    "Meagan Lang"
+  ],
+  "tags": [
+    "yt"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/pkZgQIGac6I/maxresdefault.jpg",
+  "title": "The Demeshening The Next Generation of Particle Support in yt",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pkZgQIGac6I"
+    }
+  ]
+}

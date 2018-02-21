@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Alessandro Molina - Why storing files for the web is not as straightforward as you might think.\n[EuroPython 2015]\n[21 July 2015]\n[Bilbao, Euskadi, Spain]\n\nDEPOT ( http://depot.readthedocs.org/en/latest/ ) is a file storage\nframework born from the experience on a project that saved a lot of\nfiles on disk, until the day it went online and the customer system\nengineering team decided to switch to Heroku, which doesn't support\nstoring files on disk.\n\nThe talk will cover the facets of a feature \"saving files\" which has\nalways been considered straightforward but that can become complex in\nthe era of cloud deployment and when infrastructure migration happens.\n\nAfter exposing the major drawbacks and issues that big projects might\nface on short and long terms with file storage the talk will introduce\nDEPOT and how it tried to solve most of the issues while providing a\nsuper-easy-to-use interface for developers. We will see how to use\nDEPOT to provide attachments on SQLAlchemy or MongoDB and how to\nhandle problems like migration to a different storage backend and long\nterm evolution.\n\nLike SQLAlchemy makes possible to switch your storage on the fly\nwithout touching code, DEPOT aims at making so possible for files and\neven use multiple different storages together.",
+  "duration": 2360,
+  "language": "eng",
+  "recorded": "2015-08-06",
+  "related_urls": [
+    "http://depot.readthedocs.org/en/latest/"
+  ],
+  "speakers": [
+    "Alessandro Molina"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/PckwHNNe8pw/maxresdefault.jpg",
+  "title": "Why storing files for the web is not as straightforward as you might think.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=PckwHNNe8pw"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Git is a powerful tool for source control. It's often misunderstood and abused. Under the surface Git is an elegant and simple data structure. When you don't understand that data structure, you don't really understand Git. It is flexible enough to give you all the rope that you need to hang yourself in Git hell. However, if you understand it, metaphorical Gordian knots seem simple and Git hell doesn't exist \n\nPython is an elegant programming language heavily influenced by ABC \"a teaching language, a replacement for BASIC....\" [1] It's a perfect tool that looks like pseudo-code but executes. However, even with its simplicity, it is one of the most powerful programming languages that exists. It is a perfect language to document and run the Git data structure as we explore it.\n\nIn this talk, we start with a simple explanation of the Git data structure on disk. We then begin live-coding to read those data structures and reconstruct a `git log` command for any arbitrary git repository without using the `git` command [2]. When finished, we should have our own working command that does the same thing as `git log` for any arbitrary repository, on any branch. We'll simply start at `HEAD` and work our way down the data structure.\n\nAlthough it is not *useful* to have a Python version of Git, it is *fun*. Also, this exploration helps you understand the Git tool on a much deeper level. When you can program something, you can understand it. And, understanding Git helps you be a better developer and collaborator.",
+  "language": "eng",
+  "recorded": "2016-06-23",
+  "speakers": [
+    "Glen Jarvis"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CB9p8n3gugM/hqdefault.jpg",
+  "title": "BayPiggies June 2016 talk at LinkedIn by Glen Jarvis: Explort Git Internals using Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CB9p8n3gugM"
+    }
+  ]
+}

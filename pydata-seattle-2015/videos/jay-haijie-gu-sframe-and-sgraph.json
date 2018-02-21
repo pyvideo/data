@@ -1,0 +1,15 @@
+{
+  "description": "A good machine learning platform requires not just robust implementations of statistical models and algorithms; it also relies on having the right data structures for efficient and scalable feature engineering and data cleaning. In this talk, we discuss SFrame and SGraph, two scalable data structures designed with machine learning tasks in mind. These external memory structures make efficient use of disk and utilize a whole bag of tricks for speed. On a single machine, SFrame supports real time interactive query on terabytes of data. When used in a distributed setting, SGraph supports iterative graph analytics tasks at unparalleled speed. On a graph with 100 billions of edges, SGraph computes Pagerank at 30secs/iter with only16 EC2 machines. We walk through the architectural design and discuss tricks for scale and speed. SFrame and SGraph are the backbone of a new Python machine learning platform called GraphLab Create. Both are available for download as open source projects, or as part of the GraphLab Create binary.",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Jay (Haijie) Gu"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/UQg78_Ouo9c/hqdefault.jpg",
+  "title": "SFrame and SGraph",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UQg78_Ouo9c"
+    }
+  ]
+}

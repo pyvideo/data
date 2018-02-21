@@ -1,0 +1,27 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData DC 2016\n\nThis talk assumes you have a basic understanding of Spark (if not check out one of the intro videos on youtube - http://bit.ly/hkPySpark ) and takes us beyond the standard intro to explore what makes PySpark fast and how to best scale our PySpark jobs. If you are using Python and Spark together and want to get faster jobs - this is the talk for you.\n\nThis talk covers a number of important topics for making scalable Apache Spark programs - from RDD re-use to considerations for working with Key/Value data, why avoiding groupByKey is important and more. We also include Python specific considerations, like the difference between DataFrames and traditional RDDs with Python. Looking at Spark 2.0; we examine how to mix functional transformations with relational queries for performance using the new (to PySpark) Dataset API. We also explore some tricks to intermix Python and JVM code for cases where the performance overhead is too high.",
+  "duration": 2464,
+  "language": "eng",
+  "recorded": "2016-10-09",
+  "related_urls": [
+    "http://bit.ly/hkPySpark"
+  ],
+  "speakers": [
+    "Holden Karau"
+  ],
+  "tags": [
+    "jvm",
+    "performance",
+    "pyspark",
+    "spark"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/cTtLON_tg5c/maxresdefault.jpg",
+  "title": "Improving PySpark Performance Spark performance beyond the JVM",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cTtLON_tg5c"
+    }
+  ]
+}

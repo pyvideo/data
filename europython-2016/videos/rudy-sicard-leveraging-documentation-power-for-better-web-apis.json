@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Rudy Sicard - Leveraging documentation power for better web APIs\n[EuroPython 2016]\n[21 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/leveraging-documentation-power-for-better-web-apis)\n\nWeb APIs that are easier to understand, develop, test and use, is a\npopular subject. \"An API is only as good as its documentation\". We\ndecided to play with this proverb and leverage the power of\ndocumentation. We propose to use the code documentation and the type\nsystem to provide lots of free features: explorable APIs, better error\nmessages, automatic testing.\n\nPython is perfect to explore code and documentation dynamically. We'll\ndemonstrate what we came up to and the lessons we've learned.\n\n-----\n\n'Rich' web APIs that are easier to understand, develop, test and use,\nis a popular subject. There are a lot of new specification languages\n(e.g. swagger, apiblueprint ...) and libraries (django-rest-framework,\ndrf ...) that provide features in this direction. Following the old\nproverb \"An API is only as good as its documentation\", we decided to\nplay with these ideas and focus on leveraging the power of\ndocumentation. We propose to use the code documentation and the type\nsystem to provide:\n\n- Browsable APIs, that are easy to interact with and visualize, reducing the need to provide custom UIs\n- Verification of inputs/outputs along with precise error message if needed\n- Automatic [de]-serialization of inputs/ouputs outside of the domain code\n- Smart exception handling, e.g. exceptions that are not documented are automatically converted into internal errors\n- automatic testing, e.g. input, output and result including exceptions are tested ensuring the code works and the documentation is up-to-date.\n\n\nThis use case is one of the rare situation where introspection is\ndesirable and unavoidable. And Python is a good language to\nexplore/exploit code and documentation dynamically. The perfect excuse\nto spend some time on meta coding a first implementation while being\nat work. We'll demonstrate what we came up to, the advantages and\nlimitations compared to other approaches. And we'll share the lessons\nwe learned from this experiment.",
+  "duration": 1367,
+  "language": "eng",
+  "recorded": "2016-08-04",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/leveraging-documentation-power-for-better-web-apis"
+  ],
+  "speakers": [
+    "Rudy Sicard"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/3o9lgJ1pZms/maxresdefault.jpg",
+  "title": "Leveraging documentation power for better web APIs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3o9lgJ1pZms"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Blockchain is the next big thing that will revolutionize everything, but no one knows how. The same can be said about smart contracts. Bitcoin and Ethereum are great technologies, but too complex for most cases. This talk will explain why smart contracts are hard, and why they don't need to be. Finally, a simple ledger for smart contracts in python (pyledger) will be presented.\n\n**Abstract**\n\nSmart contracts are an old and simple concept. They are just computer programs that facilitate the negotiation and settlement of contracts by several parties. Their goal is to lower the transaction latency and cost associated with human middlemen. The blockchain technology brought the possibility to sanction contracts when peers do not trust each other, which is necessary for applications like virtual currencies. However, due to the CAP theorem and the cost of the Byzantine consensus, their performance tends to be quite bad.\n\nCurrent smart contract platforms such as Ethereum are general (one can issue any kind of contract), distributed (an updated copy is present at all the nodes within the same network), shared (an arbitrary amount of contracts are served within the same infrastructure) and secure (there is no way to tamper with the stored data). All those properties are undeniably good, but the consequence of keeping all those promises is that the infrastructure is exceedingly complex. Such an extense architecture does not add any functionality to a smart contract, it makes it trustworthy.\n\nIf one understands the raw concepts behind the Blockchain consensus, and we are willing to sacrifice some of the properties mentioned earlier, one can design and implement a simple ledger for smart contracts like pyledger (pyledger.readthedocs.io). Pyledger was designed as a platform for fast prototyping of smart contracts, and for experimentation, but in some particular cases can be good enough to be used in real-world cases.\n\nFinally... Fun time! All the concepts will be exemplified with a Q&A contest implemented as a smart contract where all attendants can play.",
+  "duration": 2382,
+  "language": "eng",
+  "recorded": "2017-05-21T15:00:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/41/"
+    },
+    {
+      "label": "pyledger",
+      "url": "https://pyledger.readthedocs.io"
+    }
+  ],
+  "speakers": [
+    "Guillem Borrell Nogueras"
+  ],
+  "tags": [
+    "blockchain",
+    "pyledger"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/eSaLdLrXzO4/maxresdefault.jpg",
+  "title": "Blockchain and smart contracts explained (and simplified)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=eSaLdLrXzO4"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Model order reduction is a research field of unbroken interest in structural dynamics. Especially in recent years, methods for reducing nonlinear systems have been developed allowing for more sophisticated simulations, which are highly demanded for parameter studies or optimization.\nThe typical workflow for developing new reduction methods for *linear* systems is to use commercial finite element code, export the assembled system matrices and then apply new methods in an environment of choice. However, this workflow is not feasible for *nonlinear* systems, since modifications of the internal operations of the finite element program are indispensable.\nWhile commercial codes usually deny access to internal operations, common open source programs are often implemented in compiled languages making prototyping of methods a tedious, complicated task.\nIn this talk, we introduce the finite element toolbox \u201dAMfe\u201d which is written in Python. In contrast to other open source finite element codes it focuses on nonlinear structural problems, modularity and accessibility and is hence a perfect environment for prototyping of new reduction techniques. The talk gives an overview over what can be done with AMfe and how it is implemented with the help of Scipy, Numpy and the Numpy Fortran Extension f2py.",
+  "duration": 848,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    }
+  ],
+  "speakers": [
+    "Christian Meyer"
+  ],
+  "tags": [
+    "amfe"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/IpcN317-9LM/maxresdefault.jpg",
+  "title": "AMfe - Finite Elements for Structural Dynamics with Simplicity in Mind",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IpcN317-9LM"
+    }
+  ]
+}

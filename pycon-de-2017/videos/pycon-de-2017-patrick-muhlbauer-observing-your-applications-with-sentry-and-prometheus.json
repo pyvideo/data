@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Patrick M\u00fchlbauer**\n\nPatrick's a Software Engineer from Karlsruhe, working in Blue Yonder's Platform team. He likes this devops thing and enjoys instrumenting code to collect metrics and create nice and shiny Grafana Dashboards. To look at them. For hours. He also likes beer. A lot. Let's have some at the Social Event!\n\n**Abstract**\n\nIf you have services running in production, something will fail sooner or later. We cannot avoid this completely, but we can prepare for it. In this talk we will have a look at how Sentry and Prometheus can help to get better insight into our systems to quickly track down the cause of failure.\n\n**Description**\n\nWhen your services start to behave in a strange way, for example due to bugs introduced in the newly deployed release, you want get informed about that as fast as possible. Preferably by your own monitoring and not by one of your customers. We will have a look at how Sentry and Prometheus can help with that.\n\nSentry is a real-time error tracking system, which can notify you when exceptions in your application occur. Additionally, it provides lots of context so that crashes can be reproduced and fixed very quickly.\n\nPrometheus is a systems and service monitoring system, collecting metrics from all kinds of targets. The collected metrics can help to get insight in what's actually going on in your services.\n\nRough outline for the talk:\n\n- What's observability and why should I care?\n- Errors and Exceptions in Python\n- How to track errors with Sentry\n- Introduction to Metrics and Prometheus\n- Instrumenting Python applications\n- Summary\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1373,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Patrick M\u00fchlbauer"
+  ],
+  "tags": [
+    "web",
+    "monitoring",
+    "observability"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/f3WO4bpLySs/maxresdefault.jpg",
+  "title": "Observing your applications with Sentry and Prometheus",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=f3WO4bpLySs"
+    }
+  ]
+}

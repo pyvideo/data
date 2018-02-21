@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Romain Dorgueil** (@rdorgueil)\n\nDeveloper, sysadmin, technical team builder, founder of two companies), advisor.\n\nCurrently helping start-ups to achieve more with less in our acceleration programs in Paris, and in charge of our product development activities.\n\nSometimes, I play go and make music, but not at the same time.\n\n**Abstract**\n\nSimple is better than complex, and that's True for data pipelines, too.\n\nBonobo is a python 3.5+ tool used to write and monitor data pipelines. It\u2019s plain, simple, modern, and atomic python.\n\nThis talk is a practical encounter, from zero to a complete data pipeline.\n\nSpoiler : no \u00abbig data\u00bb here.\n\n**Description**\n\nSimple is better than complex, right? That\u2019s true for data pipelines too.\n\nFor the last 5 years, I hacked together extract-transform-load (ETL) processes in various different positions (ETL is just a fancy term for \u00abbunch of things that take data somewhere and put it elsewhere, eventually transformed\u00bb).\n\nI did it as a founder, as a consultant, as a technical co-founder, for some side projects, big corporates and small side projects.\n\nIn each case, I felt frustrated with the tools available, and in some serious cases, I had to hack things myself to get the job done. Bonobo is the repackaging of my past experiences for python 3.5+, and grasping the basics should not take more than the length of the presentation.\n\nOutline (subject to small changes, for the greater good) :\n\n- INTRO : The ETL market, why a new tool, what it is, what it is not.\n- Basics and concepts.\n- Simple example.\n- Complete data pipeline example, using SQL, RDF and a small Django frontend.\n- OUTRO : A glimpse at the future.\n- Q&A\n\nBonobo is the glue you need to tie together regular functions in a transformation graph (think unix pipes). Execution strategies are abstracted so you can focus on the real operations. As a result, you can engineer simple and testable systems, using the same good computer development practices as you use in .\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1946,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Romain Dorgueil"
+  ],
+  "tags": [
+    "python",
+    "business",
+    "data-engineering",
+    "etl",
+    "simple",
+    "bonobo"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3agWJTRn2cc/maxresdefault.jpg",
+  "title": "Simple Data Engineering in python 3.5+ with Bonobo",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3agWJTRn2cc"
+    }
+  ]
+}

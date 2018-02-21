@@ -1,0 +1,20 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData Berlin 2016\n\nBringing data science models from development to production can be a daunting task. To reduce the overhead in this process and to improve flexibility, we introduced a Python data flow library at Blue Yonder which we will present in this talk.\n\nThe data flow library presented in this talk provides a thin abstraction layer between data pipeline declarations and specific execution backends. As exceptions are the rule, the library allows the user to introduce limited control flow into pipelines. At the same time, it also offers composability of pipelines, as many of our projects share similar building blocks.\n\nIn this talk we will show how using this library leads to a more functional style of programming, which improved the speed of our iterations. This shift in development style, already in the early stages of model development, includes clear separation of I/O operations and data transformations as well as the separation of data flow control and actual computations. We will also look into some additional benefits of this paradigm change, namely concurrency and testability.",
+  "duration": 2173,
+  "language": "eng",
+  "recorded": "2016-06-01",
+  "related_urls": [],
+  "speakers": [
+    "Thomas Reineking"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/R1em4C0oXo8/maxresdefault.jpg",
+  "title": "Plumbing in Python: Pipelines for Data Science Applications",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=R1em4C0oXo8"
+    }
+  ]
+}

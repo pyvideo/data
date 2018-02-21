@@ -1,0 +1,21 @@
+{
+  "description": "Have you ever wanted to speed up a slow part of your Python program by rewriting part of it in C? Maybe you needed to use a C/C++ library, but couldn\u2019t find a Python binding? This talk will get you started with CFFI, a modern approach to calling into C code from Python. CFFI (FFI stands for \u2018foreign function interface\u2019) produces modules that work across interpreters and language versions. You won't need to write wrappers in a third language like SWIG or Cython, and you'll get better performance than with ctypes.\n\nI'll walk through the creation of a library which wraps a C data structure, showing tips and tricks for rapid development, and how to avoid potential pitfalls. I'll also touch on how to interface with system libraries from Python, using CFFI to generate safe and fast bindings.",
+  "recorded": "2017-12-03",
+  "related_urls": [
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.northbaypython.org/schedule/presentation/17/"
+    }
+  ],
+  "speakers": [
+    "Zack Voase"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Ng0_cuaHgMU/hqdefault.jpg",
+  "title": "Call C code quickly and compatibly with CFFI",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ng0_cuaHgMU"
+    }
+  ]
+}

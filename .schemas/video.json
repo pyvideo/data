@@ -1,0 +1,144 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "description":"The schema for a video record in pyvideo/data",
+  "properties":{
+    "alias":{
+      "description":"[Deprecated] Legacy path to video on pyvideo.org",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "category":{
+      "description":"[Deprecated] Category of video. This is duplicated by category files and is thus depriciated in video files.",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "copyright_text":{
+      "description":"Copyright license for video or link to copyright information.",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "description":{
+      "description":"reStructuredText or plain text description of video",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "duration":{
+      "description":"Duration of video (in seconds)",
+      "anyOf": [{"type": "null"}, {"type": "integer"}]
+    },
+    "id":{
+      "description":"ID for video. Must be unique amongst all videos if present.",
+      "anyOf": [{"type": "null"}, {"type": "integer"}]
+    },
+    "language":{
+      "description":"ISO 639-3 language code of spoken language used in video",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "quality_notes":{
+      "description":"Notes on quality of video",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "recorded":{
+      "description":"ISO 8601 Date on which video was recorded (YYYY-MM-DD)",
+      "anyOf": [{"type": "null"}, {"type": "string"}],
+      "format":"date-time"
+    },
+    "related_urls":{
+      "description":"Array of related resources' URLs.",
+      "items":{
+        "description":"URL of resource related to video.",
+        "anyOf": [{
+          "type": "string",
+          "format":"uri"
+        }, {
+          "type": "object",
+          "required": ["label", "url"],
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "label": {
+              "type": "string"
+            }
+          }
+        }]
+      },
+      "type":"array",
+      "uniqueItems":true
+    },
+    "slug":{
+      "description":"Web-safe slug for video. Must be unique amongst other videos in same category",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "speakers":{
+      "description":"Ordered array of speakers in video.",
+      "items":{
+        "description":"Speaker name",
+        "type":"string"
+      },
+      "type":"array",
+      "uniqueItems":true
+    },
+    "summary":{
+      "description":"reStructuredText or plain text description of video",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "tags":{
+      "description":"Array of tags describing video",
+      "items":{
+        "description":"Tag describing video",
+        "type":"string"
+      },
+      "type": "array",
+      "uniqueItems":true
+    },
+    "thumbnail_url":{
+      "description":"URL to thumbnail for video",
+      "format":"uri",
+      "anyOf": [{"type": "null"}, {"type": "string"}]
+    },
+    "title":{
+      "description":"Title of video",
+      "type":"string"
+    },
+    "videos":{
+      "description":"Array of video locations and types",
+      "items":{
+        "description":"A video location and type",
+        "properties":{
+          "type":{
+            "description":"File type of video at associated location",
+            "type":"string"
+          },
+          "url":{
+            "description":"URL for video",
+            "format":"uri",
+            "type":"string"
+          },
+          "length":{
+            "description":"[Deprecated] Size of video (in bytes). Please use 'size' instead.",
+            "anyOf": [{"type": "null"}, {"type": "integer"}]
+          },
+          "size":{
+            "description":"Size of video (in bytes)",
+            "anyOf": [{"type": "null"}, {"type": "integer"}]
+          }
+        },
+        "required":[
+          "type",
+          "url"
+        ],
+        "type":"object"
+      },
+      "type":"array",
+      "uniqueItems":true,
+      "minItems": 1
+    }
+  },
+  "required":[
+    "description",
+    "speakers",
+    "recorded",
+    "title",
+    "videos"
+  ],
+  "title":"Video",
+  "type":"object"
+}

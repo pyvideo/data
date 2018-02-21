@@ -1,0 +1,69 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Overview\n~~~~~~~~\n\nFluRS_ is a Python library for streaming recommendation algorithms\nwhich enables you to efficiently and flexibly build a recommendation\nmodel from complex user-item data. By focusing around the library, this\ntalk discusses each aspect of **past**, **present** and **future** as\nfollows:\n\n- **Past**: Challenges in classical recommendation engines (with their\n  Python implementation),\n- **Present**: How the speaker designed and implemented new kinds of\n  recommendation algorithms as the Python library,\n- **Future**: The feasibility of fast, real-time recommendation at\n  scale with or without FluRS.\n\nNote that, in order to learn the basic concept underlying the FluRS\nlibrary, you can refer to the following article: `FluRS: A Python\nLibrary for Online Item Recommendation`_. In short, implementation of\nFluRS takes advantage of the dependency injection technique, and\ndevelopers do not need to worry much about recommender-specific code\nwhich commonly appears regardless of algorithm.\n\nTarget\n~~~~~~\n\nThis talk is designed for people who have fundamental knowledge of\nmachine learning (e.g., `matrix computations`_, `gradient descent`_,\n`cross validation`_) and Python coding with the NumPy & SciPy libraries;\nthat is, audience does not have to be a professional machine learning\nresearcher or Python developer. In particular, since the speaker\nexplains the field of recommender systems from basics, people can enjoy\nwithout previous knowledge of recommendation techniques.\n\nEventually, the speaker expects audiences to become able to teach their\nfriends the basic of recommender systems and implement recommendation\nalgorithms by themselves.\n\nBackground\n~~~~~~~~~~\n\nRecommendations nowadays play an important role in real-world\napplications such as e-commerce and social networking services in order\nto improve customers\u2019 satisfaction, but the widely-developed systems\npose a crucial challenge which cannot be properly handled by the\nclassical techniques. More concretely, even though users\u2019 interests and\nitem properties change dynamically over time on modern systems, there is\na lack of effective ways and empirical studies to catch up with the\ndynamic data.\n\nIn that context, throughout his master\u2019s program and experience in the\nindustry, the speaker fully realized how building real-world recommender\nsystems is difficult over the past years. Thus, he ultimately invented\ntwo novel recommendation techniques to tackle the challenging scenario,\nand published corresponding research papers:\n\n-  **Incremental Factorization Machines for Persistently Cold-starting\n   Online Item Recommendation** [`Paper`_] [`Slides`_] [`GitHub`_]\n-  **Sketching Dynamic User-Item Interactions for Online Item\n   Recommendation** [`Paper.`_] [`Poster.`_] [`GitHub.`_]\n\nNotice that, as the GitHub links suggest, these inventions have been\nachieved along with the development of FluRS. So, one of the main topics\nof this talk is to dig deep into the experience.\n\nFor the reasons mentioned above, FluRS is a \u201cpackage\u201d of things what the\nspeaker has experienced in both academia and industry, and hence he\ndecided to give a talk on the library from a practical point of view.\n\n*Note: All contents are based on the speaker\u2019s own thought, and they do\nnot reflect the view of any of his previous and current affiliations.*\n\n.. _FluRS: https://github.com/takuti/flurs\n.. _`FluRS: A Python Library for Online Item Recommendation`: https://takuti.me/note/flurs/\n.. _matrix computations: https://en.wikipedia.org/wiki/Matrix_(mathematics)\n.. _gradient descent: https://en.wikipedia.org/wiki/Gradient_descent\n.. _cross validation: https://en.wikipedia.org/wiki/Cross-validation_(statistics)\n.. _Paper: https://arxiv.org/abs/1607.02858\n.. _Slides: https://speakerdeck.com/takuti/incremental-factorization-machines\n.. _GitHub: https://github.com/takuti/stream-recommender/tree/v0.3.1-recprofile-2016\n.. _Paper.: http://dl.acm.org/citation.cfm?id=3022152\n.. _Poster.: https://takuti.me/docs/chiir-2017-poster.pdf\n.. _GitHub.: https://github.com/takuti/stream-recommender/tree/v0.5.0-chiir-2017-and-thesis",
+  "duration": 789,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    },
+    {
+      "label": "FluRS",
+      "url": "https://github.com/takuti/flurs"
+    },
+    {
+      "label": "Blog entry: FluRS: A Python Library for Online Item Recommendation",
+      "url": "https://takuti.me/note/flurs/"
+    },
+    {
+      "label": "matrix computations",
+      "url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)"
+    },
+    {
+      "label": "gradient descent",
+      "url": "https://en.wikipedia.org/wiki/Gradient_descent"
+    },
+    {
+      "label": "cross validation",
+      "url": "https://en.wikipedia.org/wiki/Cross-validation_(statistics)"
+    },
+    {
+      "label": "Paper: Incremental Factorization Machines for Persistently Cold-starting Online Item Recommendation",
+      "url": "https://arxiv.org/abs/1607.02858"
+    },
+    {
+      "label": "Slides: Incremental Factorization Machines for Persistently Cold-starting Online Item Recommendation",
+      "url": "https://speakerdeck.com/takuti/incremental-factorization-machines"
+    },
+    {
+      "label": "GitHub: Incremental Factorization Machines for Persistently Cold-starting Online Item Recommendation",
+      "url": "https://github.com/takuti/stream-recommender/tree/v0.3.1-recprofile-2016"
+    },
+    {
+      "label": "Paper: Sketching Dynamic User-Item Interactions for Online Item Recommendation",
+      "url": "http://dl.acm.org/citation.cfm?id=3022152"
+    },
+    {
+      "label": "Poster: Sketching Dynamic User-Item Interactions for Online Item Recommendation",
+      "url": "https://takuti.me/docs/chiir-2017-poster.pdf"
+    },
+    {
+      "label": "GitHub: Sketching Dynamic User-Item Interactions for Online Item Recommendation",
+      "url": "https://github.com/takuti/stream-recommender/tree/v0.5.0-chiir-2017-and-thesis"
+    }
+  ],
+  "speakers": [
+    "Takuya Kitazawa"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nARfsX63nDc/maxresdefault.jpg",
+  "title": "FluRS - A Library for Streaming Recommendation Algorithms",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nARfsX63nDc"
+    }
+  ]
+}

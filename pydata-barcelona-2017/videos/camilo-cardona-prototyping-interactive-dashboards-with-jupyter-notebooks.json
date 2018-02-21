@@ -1,0 +1,27 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "In this talk, I describe my experience in using jupyter-dashboards, ipywidgets and other libraries to build basic prototypes of data exploration dashboards for datasets related to Internet traffic and packet-switching networks. We\u2019ll go over various examples on how to build and use the widgets to navigate the data, visualize analysis, and evaluate optimization changes.\n\n**Abstract**\n\nAs python programmers, we often use jupyter notebooks as a platform for reproducible data analysis and publication of results. The jupyter ecosystem is still under-utilized for projects that require interactions from non-coder users, such as explorative dashboards or Business intelligence applications. There are other specialised options for these UI/UX interfaces, but integrating them into the analysis pipeline (e.g. Jupyter) is often rather hard. Preferably, we would be able to prototype these interactive applications without leaving our environment.\n\nJupyter-dashboards, ipywidgets, and other typical pydata libraries provide jupyter with the capabilities to create flexible, and rather powerful interactive elements. This toolset can be used in small projects to create the final facing interface for a limited number of end users. For bigger projects, a more robust UI/UX is normally required to support larger number of simultaneous users. However, the jupyter-dashboard/ipywidgets toolset can still be useful in these cases as an end-to-end prototyping platform, allowing us to get feedback from users at early stages of the project, thus helping us better steer our development.\n\nIn this talk, I share experiences of using this toolset for different use cases related to analysis of Internet traffic and network engineering. I\u2019ll go over examples of how to build widgets to explore the Internet traffic and other network data, while highlighting some of its characteristics. Furthermore, I\u2019ll describe some optimisations performed by network engineers on their traffic, such as load balancing, and how the tools can be used to evaluate them.\n",
+  "duration": 1803,
+  "language": "eng",
+  "recorded": "2017-05-21T12:45:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/barcelona2017/schedule/presentation/24/"
+    }
+  ],
+  "speakers": [
+    "Camilo Cardona"
+  ],
+  "tags": [
+    "jupyter notebook"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/LAy8vD4PQLg/maxresdefault.jpg",
+  "title": "Prototyping Interactive Dashboards with Jupyter Notebooks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LAy8vD4PQLg"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Florian Wilhelm - Handling GPS Data with Python\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/handling-gps-data-with-python)\n\nIf you have ever happened to need to deal with GPS data in Python you\nmay have felt a bit lost.  This talk presents libraries starting from\nbasic reading and writing GPS tracks in the GPS Exchange Format to\nadding missing elevation information. Also visualisation of tracks on\nOpenStreetmap data with interactive plots in Jupyter notebooks is\ncovered. Additionally common algorithms for GPS like Douglas-Peucker\nand Kalman filter are explained.\n\n-----\n\nIf you have ever happened to need to deal with GPS data in Python you\nmay have felt a bit lost. There are many libraries at various states\nof maturity and scope. Finding a place to start and to actually work\nwith the GPS data might not be as easy and obvious as you might expect\nfrom other Python domains.\nInspired from my own experiences of dealing with GPS data in Python, I\nwant to give an overview of some useful libraries. From basic reading\nand writing GPS tracks in the GPS Exchange Format with the help of\ngpxpy to adding missing elevation information with srtm.py.\nAdditionally, I will cover mapping and visualising tracks on\nOpenStreetmap with mplleaflet that even supports interactive plots in\na Jupyter notebook.\nBesides the tooling, I will also demonstrate and explain common\nalgorithms like Douglas-Peucker to simplify a track and the famous\nKalman filters for smoothing. For both algorithms I will give an\nintuition about how they work as well as their basic mathematical\nconcepts. Especially the Kalman filter that is used for all kinds of\nsensor, not only GPS, has the reputation of being hard to understand.\nStill, its concept is really easy and quite comprehensible as I will\nalso demonstrate by presenting an implementation in Python with the\nhelp of Numpy and Scipy. My presentation will make heavy use of the\nJupyter notebook which is a wonderful tool perfectly suited for\nexperimenting and learning.",
+  "duration": 2542,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/handling-gps-data-with-python"
+  ],
+  "speakers": [
+    "Florian Wilhelm"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9Q8nEA_0ccg/maxresdefault.jpg",
+  "title": "Handling GPS Data with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9Q8nEA_0ccg"
+    }
+  ]
+}

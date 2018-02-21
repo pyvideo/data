@@ -1,0 +1,31 @@
+{
+  "alias": "video/3036/rethinking-packaging-development-and-deployment",
+  "category": "EuroPython 2014",
+  "copyright_text": "http://creativecommons.org/licenses/by/3.0/",
+  "description": "Python is often mixed with other languages in development stack,\nnowadays it's hard to escape any JavaScript dependencies. If you add\nsome C dependencies such as GStreamer to the stack, packaging becomes a\nburden.\n\nWhile tweaking our packaging infrastructure will make things better,\nit's hard to fix fundamental problem of packaging with current ad-hoc\nsolutions in Python domain.\n\nUsing Nix (http://nixos.org/nix/) for about a year gave me an insight\nthat solving packaging problem at operating system level (bottom-up) is\na better approach.\n\nFor example, wouldn't it be cool to have \"virtualenv\" implemented inside\nyour package manager, so you could isolate also non-Python dependencies\nand not just Python packages for your project and not worry if system\nwas updated?\n\nWe'll also show what benefits do we get by using the same tool for\ndevelopment and deployment and how little we have to do to deploy our\napplication.\n\nTo see how Haskell community is touching the same subject, see blog post\nhttp://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html\n",
+  "duration": null,
+  "id": 3036,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-22",
+  "related_urls": [
+    "http://nixos.org/nix/",
+    "http://nixos.org/nix/)",
+    "http://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html"
+  ],
+  "slug": "rethinking-packaging-development-and-deployment",
+  "speakers": [
+    "Domen Ko\u017ear"
+  ],
+  "summary": "In Python, we're trying to solve packaging problems in our own domain,\nbut maybe someone else already solved most our problems. In the talk\nI'll show how I develop and deploy Python projects that can be easily\nmixed with non-Python dependencies. http://nixos.org/nix/ will be\ndemonstrated to replace technologies in our stack: pip, virtualenv,\nbuildout, ansible, jenkins.\n",
+  "tags": [],
+  "thumbnail_url": "http://i.ytimg.com/vi/Eis-WqHda20/hqdefault.jpg",
+  "title": "Rethinking packaging, development and deployment",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=Eis-WqHda20"
+    }
+  ]
+}

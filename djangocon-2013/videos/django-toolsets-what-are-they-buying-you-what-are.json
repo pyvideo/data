@@ -1,0 +1,25 @@
+{
+  "category": "DjangoCon 2013",
+  "copyright_text": "",
+  "description": "",
+  "duration": 2663,
+  "id": 4745,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-10-01",
+  "slug": "django-toolsets-what-are-they-buying-you-what-are",
+  "speakers": [
+    "Eli Ribble"
+  ],
+  "summary": "DJANGO TOOLSETS: WHAT ARE THEY BUYING YOU, WHAT ARE THEY COSTING YOU?\n\nThursday 12:15 p.m.--1 p.m.\n\nAudience level: Experienced\n\nDESCRIPTION Django makes some things extremely easy. That doesn't make\nthem right for you, your application or your business. In this talk\nwe'll explore some things HireVue does with Django, what fits our\nbusiness, what doesn't, and how you can learn from our mistakes.\n\nABSTRACT HireVue's business is about digital interviewing. That means\nlarge organizations with sensitive data and high availability demands.\nIn this presentation we'll discuss our experience using Django,\nTastyPie, and South to convert our legacy PHP application into the brave\nnew world of Python. We'll discuss why we chose these tools and what we\nexpected to get out of them, how things when awry for us and how we\nrecovered from it. We'll also cover what decisions have allowed us to\ncontinue to meet our obligations while using Django. Some topics\ninclude:\n\n-  Class methods on models and template tags to simplify queries - how\n   that led to thousands of queries per page\n-  Django granular permissions - how we twisted Django signals into an\n   extensive mandatory permissions system that strangled our development\n-  TastyPie - how we wrote an API really quickly that led us to shave a\n   small herd of yaks and didn't really meet our business needs\n-  South - how south made us not think about migrations any more. Until\n   we started taking down our production website with them.\n-  Django admin - how it allowed us to avoid any work to create real\n   internal tools and instead do work trying to train support personnel\n   as engineers. Badly.\n-  Django test runner - how we started writing unit tests. Lots of them.\n   Enough that we had to ditch it to be able to effectively debug test\n   failures\n\nWhile our experience with these tools does not indicate that they are\nbad or unworkable it does provide insight in to how you can choose to\nuse these, or other tools, depending on your business needs. We have\nlearned to constantly improve our toolset by evaluating what helps us,\nwhat hinders us, what our tools buy us and what they cost us. From our\npainful beginnings we've switched to\n\n-  Separating our platform from our view logic to control query count\n   and separate concerns\n-  Simplify our permissions system to consolidate business logic and\n   reduce database queries\n-  Separate out our API logic to use common code and provide services\n   that make sense for our business and are entirely separate from our\n   persistence layer\n-  Use south coupled with careful process to avoid downtime when running\n   migrations and allow developers to coordinate schema modifications\n-  Stop using django admin and build real internal tools\n-  Switch to py.test for our test runner\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/5tWnapUszn4/hqdefault.jpg",
+  "title": "Django Toolsets: what are they buying you, what are they costing you?",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5tWnapUszn4"
+    }
+  ]
+}

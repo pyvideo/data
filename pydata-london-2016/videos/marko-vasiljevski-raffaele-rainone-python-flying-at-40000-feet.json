@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyData London 2016\n\nHave you ever seen real black-boxes' data? For safety, airlines worldwide are obliged to monitor their flights' data - the same that is stored in aircraft black boxes. Look how we do it with Python and open source technologies at hand. It's never easy with these multivariate time-series - they can be incomplete and contain varying number of flight parameters - we'll deal with it!\n\nIntroduction\n\nIn this talk we present data exploration and machine learning algorithms applied to aircraft black-box data. We believe that safety algorithms have to be open source so everybody could apply them to increase flight safety: it is all about using Python to fly safer.\n\nData\n\nWe shall firstly briefly explain how the black boxes data is downloaded from an aircraft upon landing. Shortly after that, a Python tool to analyse the flight data is launched (you can find it in the open source repo FlightDataAnalyzer of Flight Data Services). To be able to analyse the data properly and to give context to it, a flight has to be segmented into taxi-out, take-off roll, take-off, climb, cruise, holding, descent, landing, touchdown, decelerating and taxi-in phases. A set of sophisticated deterministic and probabilistic algorithms is applied to the data to detect key-points of a flight, like take-off and touchdown points, and values of flight parameters at those points. The detection of these points and the calculation of the associated values of parameters (like acceleration at touchdown) are difficult problems which we\u2019ll share and try to solve with the help of the audience.\n\nWe plan to present a simplified version (due to short time available for presentations) of detecting the end-point of take-off phase as an important datum for further flight analysis.\n\nWe want to stress about the importance of having a large number and good-quality data. Even with a not so sophisticated algorithm, one can get great results if he/she has a good dataset at hand. We have 4,000,000 flights in the database that grows daily and that enables us to give better predictions. We want to go farther by promoting flight data-sharing concepts between different airlines so we get better statistics on relevant parameters - everything for the sake of flight safety!\n\nAlgorithms and tools\n\nThe detection of the switching-phase points is very challenging since the parameters vary very much amongst aircraft types. It is even a challenge for an experienced pilot when he looks at the data! However, we can learn from the data across multiple flights first and this is where Bayesian logic gets in the play. Assuming the independence between the parameters (for the sake of simplicity), we obtain simple formulas to calculate the posterior probability for the end-of-take-off point. This assumption, though very strong, gives great initial results. Furthermore, sometimes a sensor on one engine stops working (not the engine itself! :). In this case we can just omit this signal and use what we are left with. Again, the results are more than acceptable.\n\nWe will show how we use R for data exploration and Jupyter-notebooks (Python) for prototyping and how these two are complimentary. The fine-tuned algorithms are integrated in the system by using Python, exclusively. We make heavy use of third party open source libraries such as numpy, scipy, pandas, pymc, etc..\n\nSlides available here: https://speakerdeck.com/raffo/python-flying-at-40-000-feet-part-1\n\nGitHub: https://github.com/raino01r/pydata_london_2016",
+  "duration": 2500,
+  "id": 5237,
+  "language": "eng",
+  "recorded": "2016-05-09",
+  "related_urls": [
+    "https://github.com/raino01r/pydata_london_2016",
+    "https://speakerdeck.com/raffo/python-flying-at-40-000-feet-part-1"
+  ],
+  "slug": "marko-vasiljevski-raffaele-rainone-python-flying-at-40000-feet",
+  "speakers": [
+    "Marko Vasiljevski",
+    "Raffaele Rainone"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xu2ucveuv74/maxresdefault.jpg",
+  "title": "Python flying at 40,000 feet",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xu2ucveuv74"
+    }
+  ]
+}

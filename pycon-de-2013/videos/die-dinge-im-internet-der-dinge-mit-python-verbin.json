@@ -1,0 +1,37 @@
+{
+  "alias": "video/2418/die-dinge-im-internet-der-dinge-mit-python-verbin",
+  "category": "PyCon DE 2013",
+  "copyright_text": "",
+  "description": "",
+  "duration": 60,
+  "id": 2418,
+  "language": "deu",
+  "quality_notes": "",
+  "recorded": "2013-10-17",
+  "related_urls": [
+    "http://mosquitto.org/",
+    "http://mqtt.org/",
+    "https://www.facebook.com/messages/"
+  ],
+  "slug": "die-dinge-im-internet-der-dinge-mit-python-verbin",
+  "speakers": [
+    "Andreas Schreiber"
+  ],
+  "summary": "Das Internet der Dinge besteht aus kleinen, manchmal intelligenten,\nGer\u00e4ten und Sensoren, die \u00fcber das Internet verbunden sind. Typische\nSensoren sind Wettermessger\u00e4te oder medizinische Ger\u00e4te. Das Internet\nder Dinge wird nun bald real da sein, was durch g\u00fcnstige kleine\nEinplatinencomputer wie Raspberry Pi oder Arduino mit beeinflusst wird.\nAllerdings haben diese Ger\u00e4te nicht viel Rechenleistung. Au\u00dferdem sind\nsie in machen Umgebungen auch nur mit eingeschr\u00e4nkter Netzwerkbandbreite\nangebunden. Um nun (viele) solche Ger\u00e4te zu verbinden und Daten\naustauschen zu lassen sind sehr leichtgewichtige Protokolle und\nImplementierungen notwendig.\n\nDer Vortrag ist \u00fcber das Protokoll `Message Queuing Telemetry\nTransport <http://mqtt.org/>`__ (MQTT), ein sehr geeignetes Protokoll\nzum Verbinden kleiner Ger\u00e4te und Sensoren. MQTT basiert auf einer\nPublish/Subscribe-Architektur. Es eignet sich gut zum Schicken von Daten\nvon Sensoren zu anderen Ger\u00e4ten. Zum Beispiel lassen sich\nTemperaturmesswerte von einem Temperaturf\u00fchler ohne viel Overhead zu\neinem Server schicken oder zu einem Smartphone als Push-Nachricht\n\u00fcbermitteln. Ein andere Anwendung von MQTT sind Chat-Systeme, z.B. ist\ndas `Facebook-Messaging <https://www.facebook.com/messages/>`__ auf\nBasis von MQTT implementiert.\n\nIn dem Vortrag geht es vor allem um Open-Source-Implementierungen von\nMQTT. Speziell wird der freie MQTT-Broker\n`Mosquitto <http://mosquitto.org/>`__ und dessen\nPython-Client-Bibliothek vorgestellt. Mosquitto ist eine\nleichtgewichtige Implementierung die effizient auf g\u00fcnstigen\nEinplatinenrechnern oder Smartphones l\u00e4uft. An ein paar Bespielen in\nPython wird im Vortrag verdeutlicht wie leicht sich Anwendungen auf\nBasis von MQTT realisieren lassen: Die \u00dcbertragung von\nTemperaturmesswerten per Raspberry Pi zu einem Server, das Senden von\nPush-Nachrichten zu Android-Smartphones und das Senden von Smartphones\naus einer Kivy-App heraus.\n",
+  "tags": [
+    "internet of things",
+    "mqtt",
+    "quantified self",
+    "raspberry pi",
+    "temperaturmessung"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/TM7lO_B-BPw/hqdefault.jpg",
+  "title": "Die Dinge im Internet der Dinge mit Python verbinden...",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TM7lO_B-BPw"
+    }
+  ]
+}

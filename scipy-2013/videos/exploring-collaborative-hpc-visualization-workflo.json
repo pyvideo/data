@@ -1,0 +1,26 @@
+{
+  "alias": "video/2027/exploring-collaborative-hpc-visualization-workflo",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 2027,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-02",
+  "slug": "exploring-collaborative-hpc-visualization-workflo",
+  "speakers": [],
+  "summary": "Authors: Krishnan, Harinarayan, Lawrence Berkeley National Labs;\nHarrison, Cyrus, Lawrence Livermore National\n\nTrack: Reproducible Science\n\nAs High Performance Computing (HPC) environments expand to address the\nlarger computational needs of massive simulations and specialized data\nanalysis and visualization routines, the complexity of these\nenvironments brings many challenges for scientists hoping to capture and\npublish their work in a reproducible manner. Collaboration using HPC\nresources is a particularly difficult aspect of the research process to\ncapture. This is also the case for HPC visualization, even though there\nhas been an explosion of technologies and tools for sharing in other\ncontexts.\n\nPractitioners aiming for reproducibility would benefit from\ncollaboration tools in this space that support the ability to\nautomatically capture multi-user collaborative interactions. For this\nwork, we modified VisIt, an open source scientific visualization\nplatform, to provide an environment aimed at addressing these\nshortcomings. The talk will focus on two exploratory features added to\nVisIt:\n\n1) We enhanced VisIt's infrastructure expose a JSON API to clients over\n   WebSockets. The new JSON API enables VisIt clients on web-based and\n   mobile platforms. This API also enables multi-user collaborative\n   visualization sessions. These collaborative visualization sessions\n   can record annotated user interactions to Python scripts that can be\n   replayed to reproduce the session in the future, thus capturing not\n   only the end product but the step-by-step process used to create the\n   visualization.\n\n2) We have also added support for new Python & R programmable pipelines\n   which allow users to easily execute their analysis scripts within\n   VisIt's parallel infrastructure. The goal of this new functionality\n   is to provide users familiar with of Python and R with an easier path\n   to embed their analysis within VisIt.\n\nTo showcase how these new features enable reproducible science, we will\npresent a workflow that demonstrates a Climate Science use case.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/ei_pFi2xOUc/hqdefault.jpg",
+  "title": "Exploring Collaborative HPC Visualization Workflows using VisIt and Python; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=ei_pFi2xOUc"
+    }
+  ]
+}

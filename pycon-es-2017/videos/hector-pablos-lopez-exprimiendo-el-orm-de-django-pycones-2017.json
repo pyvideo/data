@@ -1,0 +1,36 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Muchas veces nos resulta mucho m\u00e1s f\u00e1cil escribir una consulta a base de datos en SQL plano que lidiar con las limitaciones del ORM de Django, perdiendo as\u00ed la gran potencia y limpieza que este nos ofrece.\n\nLos operadores Q() y F() son, muchas veces, algo que copiamos de la documentaci\u00f3n sin entender completamente. Hacer joins simples puede no ser posible, y no hablemos de joins con claves for\u00e1neas de m\u00e1s de una columna.\n\nAcabamos abusando del m\u00e9todo extra() y la clase RawSQL cuando, en realidad, pueden no ser necesarios.\n\nLa experiencia nos ha ense\u00f1ado a sacar el m\u00e1ximo partido de esta funcionalidad y exprimir al m\u00e1ximo sus posiblidades, limitando al m\u00e1ximo la escritura de c\u00f3digo SQL plano. Explicaremos c\u00f3mo, mediante la definici\u00f3n de algunos elementos b\u00e1sicos e intermedios para manipular querysets y la presentaci\u00f3n de algunos trucos \u00fatiles.\n\nPuede que te ahorre un par de consultas a la documentaci\u00f3n y que descubras alguna cosa nueva, o simplemente que vuelvas a apreciar el ORM de Django.",
+  "duration": 1321,
+  "language": "spa",
+  "recorded": "2017-09-24T12:00:00+02:00",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.es.pycon.org/es/schedule/"
+    },
+    {
+      "label": "talk schedule",
+      "url": "https://2017.es.pycon.org/es/schedule/exprimiendo-el-orm-de-django/"
+    },
+    {
+      "label": "slides",
+      "url": "https://www.slideshare.net/HctorPablosLpez/exprimiendo-el-orm-de-django"
+    }
+  ],
+  "speakers": [
+    "H\u00e9ctor Pablos L\u00f3pez"
+  ],
+  "tags": [
+    "django",
+    "orm"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XZv7k_m9B-w/maxresdefault.jpg",
+  "title": "Exprimiendo el ORM de Django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XZv7k_m9B-w"
+    }
+  ]
+}

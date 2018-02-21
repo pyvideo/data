@@ -1,0 +1,25 @@
+{
+  "description": "Faster and more power efficient computer systems are vital to continue\ninnovation in science and technology. However, designing such systems\nhas become intolerably complex, ad-hoc, costly and error prone due to an\nenormous number of available design and optimization choices, and\ncomplex interactions between all software and hardware components.\n\nOriginally, our automatic and machine-learning based exploration and\nautotuning techniques showed high potential to address above problems\n[1]. On the other hand, very quickly we faced many other problems such\nas dealing with ever changing tools and their interfaces, lack of a\ncommon experimental methodology, lack of computational power for machine\nlearning and feature selection, problems with reproducibility of\nempirical experiments, and lack of unified mechanisms for knowledge\nmanagement and exchange.\n\nEventually, to be able to proceed with our research, we did not have a\nchoice but to develop an open-source framework and repository\n(Collective Knowledge) for collaborative and reproducible\nexperimentation [2]. This python-based framework and repository helped\nour community start organizing, describing, cross-linking and sharing\ncode, data, experimental setups and meta information as unified and\nreusable components with JSON API via standard Git services (such as\nGITHUB or BitBucket) [3]. Such unification, in turn, helped researchers\nassemble various experimental setups (workflows) from shared python\ncomponents to quickly prototype ideas while crowdsourcing experiments\nacross spare computer resources such as Android mobile phones and\ntablets [4].\n\nFurthermore, public and unified repository allowed the community to\nexpose experiments to predictive analytics from scikit-learn\n(statistical analysis, data mining, machine learning) to automate and\nspeed up exploration of multi- dimensional experimental choices,\nanalysis of results and decision making (i.e. predicting program\noptimizations or hardware configuration based on program and data set\nfeatures) [1,3].\n\nDuring past 5 years, our free and open-source technology has been\nextensively used and validated by several major industrial partners. It\nalso helped initiate new publication model in computer engineering where\nexperiments and artifacts are validated and improved by the community\n[5]. We therefore believe that our practical experience with this\npython-based framework and scikit-learn tools may be useful to\nresearchers from other fields.\n\nIn this talk, we would like to present our framework, JSON-based APIs,\nreal usage experience to solve program optimization problems, and future\nwork for python-based data management and exchange. In a longer term, we\nare interested to collaborate with a python community to speed up python\nitself and related data analytics modules using our machine-learning\nbased autotuning and run- time adaptation techniques.\n\nMore details about our techniques and public initiatives:\n\n[1] https://hal.inria.fr/hal-01054763\n\n[2] http://github.com/ctuning/ck\n\n[3] http://c-mind.org/repo\n\n[4]\nhttps://play.google.com/store/apps/details?id=com.collective\\_mind.node\n\n[5] http://c-mind.org/reproducibility\n",
+  "duration": 2143,
+  "language": "eng",
+  "recorded": "2015-06-20",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "http://github.com/ctuning/ck"
+    }
+  ],
+  "speakers": [
+    "Grigori Fursin",
+    "Anton Lokhmotov"
+  ],
+  "summary": "We would like to share our experience with a python-based Collective\nKnowledge SDK for collaborative and reproducible experimentation. It\nhelps organize and share experimental setups (code, data and meta) as\nunified and reusable components with JSON API via GITHUB. It also\nhelps unify, automate and crowdsource analysis and exploration of\nmulti-dimensional optimization spaces using scikit-learn.\n\nSlides available here: http://github.com/ctuning/ck",
+  "thumbnail_url": "https://i.ytimg.com/vi/Q94yWxXUMP0/hqdefault.jpg",
+  "title": "Python and scikit-learn based open research SDK for collaborative data management and exchange",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Q94yWxXUMP0"
+    }
+  ]
+}

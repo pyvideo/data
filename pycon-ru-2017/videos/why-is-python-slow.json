@@ -1,0 +1,17 @@
+{
+  "description": "In this talk, I will cover one of the usual topics of discussions of deficiencies of the Python language, notably it's speed.  \nWe've spent last decade improving on the performance of the language (but not the default implementation). What we've learned so far is not the common interpretation of that question - things like dynamic dispatch, dynamic typing and interpreter can all be worked around.  \nWhat we've learned are the places in the Python language which make unnecessary string copies, but are easier to write, a lot of \"pythonic\" constructs that cannot be implemented efficiently and a lot of quirks that make some constructs slow for no good reason. Additionally we're overwhelmed by the sheer size of the \"simple\" language and the necessity of supporting C extensions.  \nThis talk will cover detailed view of those problems and some potential remedies.\n",
+  "duration": 1889,
+  "language": "eng",
+  "recorded": "2017-07-17",
+  "speakers": [
+    "Maciej Fija\u0142kowski"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NNgylFbNH8I/hqdefault.jpg",
+  "title": "Why is Python slow?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NNgylFbNH8I"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Topic Modelling is a great way to infer topics in a large corpus of text documents but analyzing them could become difficult without any visualization. The purpose of this talk is to introduce the visualizations that aids the process of training topic models and analyze their results for downstream NLP applications. I\u2019ll give a brief introduction to Topic Models before moving to visualizations.\n\nI\u2019ll demonstrate the steps to train LDA model in gensim and create the following visualizations using the trained model and how to interpret them:\n\n* LDA Training visualization: Monitoring the LDA model training using Visdom integration in gensim\n* pyLDAvis: Topic interpretation using the relevance metric effectively\n* Topic Networks: Discover connections between topics\n* Topic difference visualization: Determine exact distances between every topic pair along with their intersection/difference of terms\n* Dendrogram (with extended heatmap): Topic clustering with a deeper insight into the inter-topic semantic validity\n* LDA Projections: Document clustering using tensorboard based on the topic representation of documents\n\nThe interface for this talk would be Jupyter notebook containing the LDA training and visualisations code.",
+  "duration": 1279,
+  "language": "eng",
+  "recorded": "2017-10-27T15:30:00+01:00",
+  "related_urls": [
+    {
+      "label": "event schedule",
+      "url": "http://2017.pyconuk.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Parul sethi"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pCio5lApwNw/hqdefault.jpg",
+  "title": "Visualizing Topic Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pCio5lApwNw"
+    }
+  ]
+}

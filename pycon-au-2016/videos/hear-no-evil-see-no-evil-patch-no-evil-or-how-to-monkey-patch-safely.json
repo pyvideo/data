@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Graham Dumpleton\nhttps://2016.pycon-au.org/schedule/18/view_talk\nPython is a dynamic programming language and has a strong tradition of adhering to a programming style called duck-typing. This means that it is possible to easily modify an application's code while it is running. One might wish to do this for various reasons, including enhancing the functionality of code, correcting errant behaviour, or adding instrumentation or debugging code.\n\nMaking such code modifications can be tricky though and not done correctly can potentially interfere with the operation of the original code, through destroying introspection abilities, not honouring the duck-typing mantra or due to being applied at the wrong time.\n\nIf you do need to do monkey patching though, the 'wrapt' library is your friend, with its transparent object proxy wrappers and post import hook mechanism, it allows you to safely monkey patch code to modify its behaviour.\n\nCome learn about the 'wrapt' library and the joys, but also the dangers, of monkey patching.",
+  "duration": 1882,
+  "language": "eng",
+  "recorded": "2016-08-15",
+  "related_urls": [
+    "https://2016.pycon-au.org/schedule/18/view_talk"
+  ],
+  "speakers": [
+    "Graham Dumpleton"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/u7oj-ghfhUk/maxresdefault.jpg",
+  "title": "Hear no evil, see no evil, patch no evil: Or, how to monkey-patch safely.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=u7oj-ghfhUk"
+    }
+  ]
+}

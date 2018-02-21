@@ -1,0 +1,34 @@
+{
+  "alias": "video/2767/epipy-visualization-of-emerging-zoonoses-through",
+  "category": "SciPy 2014",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "We present two new visualizations, `case tree\nplots <https://github.com/cmrivers/epipy/blob/master/figs/example_casetree.png>`__\nand\n`checkerboard <https://github.com/cmrivers/epipy/blob/master/figs/test_checkerboard.png>`__\nplots, for visualizing emerging zoonoses.\n\nZoonoses represent an estimated 58% of all human infectious diseases,\nand 73% of emerging infectious diseases. Recent examples of zoonotic\noutbreaks include H1N1, SARS and Middle East Respiratory Syndrome, which\nhave caused thousands of deaths combined. The current toolkit for\nvisualizing data from these emerging diseases is limited.\n\nCase tree and checkerboard plots were developed to address that gap. The\nvisualizations are best suited for diseases like SARS for which there\nare a limited number of cases, with data available on human to human\ntransmission. They a) allow for easy estimation of epidemiological\nparameters like basic reproduction number b) indicate the frequency of\nintroductory events, e.g. spillovers in the case of zoonoses c)\nrepresent patterns of case attributes like patient sex both by\ngeneration and over time.\n\nCase tree plots depict the emergence and growth of clusters of disease\nover time. Each case is represented by a colored node. Nodes that share\nan epidemiological link are connected by an edge. The color of the node\nvaries based on the node attribute; it could represent patient sex,\nhealth status (e.g. alive, dead), or any other categorical attribute.\nNode placement along the x-axis corresponds with the date of illness\nonset for the case.\n\nA second visualization, the checkerboard plot, was developed to\ncomplement case tree plots. They can be used in conjunction with case\ntree plots, or in situations where representing a hypothetical network\nstructure is inappropriate.\n\nThe plots are available in the open source package epipy, which is\navailable on `github <https://github.com/cmrivers/epipy>`__. Detailed\ndocumentation and examples are also\n`available <cmrivers.github.io/epipy>`__. In addition to these\nvisualizations, epipy includes functions for common epidemiology\ncalculations like odds ratio and relative risk.\n",
+  "duration": null,
+  "id": 2767,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2014-07-14",
+  "related_urls": [
+    "https://github.com/cmrivers/epipy",
+    "https://github.com/cmrivers/epipy/blob/master/figs/example_casetree.png",
+    "https://github.com/cmrivers/epipy/blob/master/figs/test_checkerboard.png"
+  ],
+  "slug": "epipy-visualization-of-emerging-zoonoses-through",
+  "speakers": [
+    "Caitlin Rivers"
+  ],
+  "summary": "We introduce two new plots for visualizing infectious disease outbreaks.\nCase tree plots depict the emergence and growth of clusters of zoonotic\ndisease over time. Checkerboard plots also represent temporal case\nclusters, but do not construct transmission trees. These plots visualize\noutbreak dynamics and allow for analyses like case fatality risk\nstratified by generation.\n",
+  "tags": [
+    "epipy",
+    "vis"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/JDtIDCVrxgk/hqdefault.jpg",
+  "title": "Epipy: Visualization of Emerging Zoonoses Through Temporal Networks",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=JDtIDCVrxgk"
+    }
+  ]
+}

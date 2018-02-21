@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "**Dave Halter** (@jedidjah_ch)\n\nI'm an engineer for cloudscale.ch. We are serving cloud services (mostly IaaS) with a focus on simplicity. In my free time I work a lot on parsers/type inference for the Python world. Jedi is probably the project people would know me for.\n\n**Abstract**\n\nA lot of people think that Python is a really simple and straightforward language. Python hides a lot of peculiarities very well, but for the sake of this talk we will try to uncover them.\n\nIs ++4; valid Python? And what does it do? Let me give you an introduction into tokenizers/parsers.\n\n**Description**\n\nA lot of people think that Python is a really simple and straightforward language. Python hides a lot of peculiarities very well, but for the sake of this talk we will try to uncover them.\n\nI will be explaining how the whole process of tokenizing - parsing - ast creation - bytecode works and will use odd Python code to give you an insight on the internals. Do you think ++4; is valid Python? Or how about 0jif.1else-2? There are no spaces in it. Go figure! \"Edge cases\" will help us understand the inner workings of Python. These two cases are possible, because of the tokenizer. Other \"weird\" Python code is waiting as soon as you start looking at the grammar file. Have you for example heard about lambda generators?\n\nWe will be looking into how modules, classes and instances are really just fancy dictionaries and how importing is really nothing else than storing a module into a dictionary (sys.modules).\n\nThere are a lot of things we can learn from diving deep into the details of our beloved languages. This talk will give you a very small introduction in how languages are built and explain how Python itself is defined by its parser, tokenizer and bytecode generation. Knowing how those abstractions work makes you a better Python programmer, because you will know better how the language behaves.\n\n\n**Recorded at** PyCon.DE 2017 Karlsruhe: https://de.pycon.org/\n\n**Video editing**: Sebastian Neubauer & Andrei Dan\n\n**Tools**: Blender, Avidemux & Sonic Pi",
+  "duration": 1594,
+  "language": "eng",
+  "recorded": "2017-10-25",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2017.de.pycon.org/schedule/"
+    }
+  ],
+  "speakers": [
+    "Dave Halter"
+  ],
+  "tags": [
+    "tokenizer",
+    "parser",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/zz9yLOXo2Qk/maxresdefault.jpg",
+  "title": "Python is Weird",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zz9yLOXo2Qk"
+    }
+  ]
+}

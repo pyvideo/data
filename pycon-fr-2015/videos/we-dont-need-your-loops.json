@@ -1,0 +1,27 @@
+{
+  "description": "La boucle. Un pilier de la programation imp\u00e9rative. Et pourtant, les\nutilisateurs avertis de Numpy l'\u00e9vite comme la peste pour des raisons de\nperformance. Heureusement, Numpy fournit de bonnes abstractions piur\ns'en passer dans pas mal de cas.\n\nLe but de cette pr\u00e9sentation est de montrer que le compilateur Pythran,\nun compilateur statique pour un langage embarqu\u00e9 dans le couple Python /\nNumpy et sp\u00e9cialis\u00e9 pour le code scientifique, est compatible avec cette\napproche, et qu'il en b\u00e9n\u00e9ficie m\u00eame pour g\u00e9n\u00e9rer du code plus efficace\nque s'il n'avait eu que les boucles \u00e0 disposition.\n\nOn tordra ainsi le cou \u00e0 un vieil adage qui dit que plus on est\nexplicite dans sa description de l'algorithme, plus on saura tirer des\nperfs. En pratique, si on souhaite rester au niveau Python - Pythran est\n100% retro-compatible Python - rester \u00e0 haut niveau n'est pas un frein.\n",
+  "duration": 1382,
+  "language": "fra",
+  "recorded": "2015-10-18",
+  "speakers": [
+    "Serge Guelton",
+    "Pierrick Brunet"
+  ],
+  "summary": "Pythran est un compilateur pour le Python scientifique qui se distingue\npar des performances importantes pour du code de haut niveau.\n\nCette pr\u00e9sentation se concentre sur les boucles, ou plut\u00f4t l'absence de\nboucle dans les codes num\u00e9riques, pourquoi on les \u00e9vite, ce que \u00e7a\napporte, et pourquoi ce n'est pas si grave de les utiliser.\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/022%20-%20serge%20sans_paille,%20pierrick%20brunet%20-%20We%20don't%20need%20your%20loops.mp4.jpg",
+  "title": "We don't need your loops",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/022%20-%20serge%20sans_paille,%20pierrick%20brunet%20-%20We%20don't%20need%20your%20loops.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/022%20-%20serge%20sans_paille,%20pierrick%20brunet%20-%20We%20don't%20need%20your%20loops.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/022%20-%20serge%20sans_paille,%20pierrick%20brunet%20-%20We%20don't%20need%20your%20loops.webm"
+    }
+  ]
+}

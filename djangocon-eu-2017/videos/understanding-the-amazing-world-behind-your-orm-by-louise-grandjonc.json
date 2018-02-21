@@ -1,0 +1,24 @@
+{
+  "description": "Every django developer has used the ORM. It's terribly useful. Suddenly creating, retrieving, updating objects becomes easy without having to use the barbaric language that SQL can be.\nBut sometimes, out of nowhere, your API or view becomes really slow because of some magical thing happening behind your ORM.\nThe idea of this talk is to make a journey from the ORM to the database. I will hand out different tools to debug, understand what queries are executed and when. And once you have the queries, how to optimize it? How does the database execute the queries? How to optimize your number of queries, and the execution of these?\n\nThe talk will be explained with a same example developed along the theory to understand the application better. I will give a few examples of the problems that any developer will encounter. Then explain how to identify the problem : is it possible to lower the number of queries? If not, how can I know why a specific query is slow ?\n\nThe idea is that at the end of the conference, the developer can easily access the database log, identify the view queries and understand the big lines of an EXPLAIN in the database. Not necessarily in detail, but to be able to answer: is my query making a lot of loops through many tables? Is it using an index? Am I missing an index? And what is an index by the way?",
+  "duration": 1713,
+  "language": "eng",
+  "recorded": "2017-04-04",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://fr.slideshare.net/LouiseGrandjonc/the-amazing-world-behind-your-orm"
+    }
+  ],
+  "speakers": [
+    "Louise Grandjonc"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Ph2hXpTW-Zg/hqdefault.jpg",
+  "title": "Understanding the amazing world behind your ORM",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ph2hXpTW-Zg"
+    }
+  ]
+}

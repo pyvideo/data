@@ -1,0 +1,36 @@
+{
+  "alias": "video/422/pycon-2011--units-need-testing-too",
+  "category": "PyCon US 2011",
+  "copyright_text": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "description": "Units Need Testing Too\n\nPresented by Gary Bernhardt\n\nPython's long history of testing has focused primarily on integration-\nand system-level tests: slow-running tests executing lots of code. These\nare a great start, but many of them can be transformed into unit-level\ntests. True unit tests are orders of magnitude faster (about 1ms each),\nproviding quicker feedback and better failure localization. We'll look\nat why and how to write them.\n\nAbstract\n\nPython has a wonderful legacy in testing: PyUnit has been in the\nstandard library since March, 2001, and it was already a year old by\nthen. We adopted browser driving quickly, and we do it at huge scale\nwith great test parallelization infrastructure.\n\nBig tests aren't everything, though. In the Python world, true unit\ntests are somewhat rare, and even most tests written with the unittest\nlibrary are integration tests. These tests are slow to execute and don't\nlocalize failure as well as smaller, focused tests. They leave us with\ntwo options: either run them rarely, sacrificing feedback, or run them\noften, sacrificing speed.\n\nWriting true unit tests removes that particular trade-off. When your\ntests execute in a millisecond each, you can afford to run a thousand of\nthem every time you save a source file. This talk will discuss what unit\ntests really are, why they matter, and how to write them in Python.\n",
+  "duration": null,
+  "id": 422,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-03-11",
+  "slug": "pycon-2011--units-need-testing-too",
+  "speakers": [
+    "Gary Bernhardt"
+  ],
+  "summary": "",
+  "tags": [
+    "pycon",
+    "pycon2011",
+    "pyunit",
+    "testing",
+    "unittests"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_422___units-need-testing-too",
+  "title": "Units Need Testing Too",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_422___units-need-testing-too"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pycon-us-2011/422_units-need-testing-too.mp4"
+    }
+  ]
+}

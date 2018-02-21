@@ -1,0 +1,27 @@
+{
+  "alias": "video/3518/pythran-static-compilation-of-parallel-scientifi",
+  "category": "PyData Paris 2015",
+  "copyright_text": "youtube",
+  "description": "As the use of Python coupled to Numpy/SciPy for numerical computation\nincreases, many tools to optimize performance have emerged. Indeed, this\nduo has relatively poor performance when compared to scientific codes\nwritten in legacy languages like C or Fortran. Cython, Numba, numexpr\nand parakeet belongs to this new compiler ecosystem. And so does\nPythran, a Python to C++11 translator for scientific Python.\n\n::\n\n    Pythran uses a static compilation approach a la Cython, but with full backward compatibility with Python. It does not only turns Python code into C++ code, it also performs Python/Numpy specific optimizations, generates calls to a parallel, vectorized runtime and makes it possible to write OpenMP annotation in the original Python code. It supports a large range of Numpy functions and can combine them in efficient ways: it can optimize high\u00adlevel modern Python/Numpy codes and not only Fortran\u00ad with\u00ad a\u00ad Python\u00ad flavor ones.\n\n    This talk presents the existing compilation approach and optimization opportunities for numerical Python, their strengths and weaknesses, then focus on the specificities of the Pythran compiler.\n\n",
+  "duration": null,
+  "id": 3518,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-04-17",
+  "slug": "pythran-static-compilation-of-parallel-scientifi",
+  "speakers": [
+    "Pierrick Brunet",
+    "Serge Guelton"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Af8B30mXZ7E/hqdefault.jpg",
+  "title": "Pythran: Static Compilation of Parallel Scientific Kernels",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Af8B30mXZ7E"
+    }
+  ]
+}

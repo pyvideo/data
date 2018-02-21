@@ -1,0 +1,26 @@
+{
+  "alias": "video/2366/computational-advertising-billions-of-records-a",
+  "category": "Kiwi PyCon 2013",
+  "copyright_text": "",
+  "description": "@ Kiwi PyCon 2013 - Sunday, 08 Sep 2013 - Track 2\n\n**Audience level**\n\nExperienced\n\n**Abstract**\n\nOverview - hope this will be useful, but caveat emptor - not a how-to,\nthat's well covered elsewhere - problem - recovering value from large\nweb logs - user targeting\n\nIs this Big Data? - When should you think about Hadoop - AWS servers\navailable with 244 GB of memory - Twitter WTF paper, Microsoft cluster\nutilisation paper\n\nLogging, Storing, and Munging - Looked at EMR but (1) it's hard to log\n(2) versioning issues. - For on-demand use CM is good - For automated\nuse, combination of CDH, whirr, and boto. - backing up HBase and HDFS to\nS3\n\nProcessing the data - hadoop as solving distributed IO - Pig + udfs -\nhadoop streaming\n\nLearning on the data - difficult data - latest machine learning\nalgorithms, not just existing mapreduce algorithms (mahout) - frameworks\nare starting to appear - Graphlab, or the Berkeley Spark ecosystem. -\nwant to experiment on smaller data to reduce iteration time.\n\nPrototype Learning Algorithm - loading text files into numpy arrays when\nmemory constrained - JIT python compilation - scikit-learn - logistic\nregression - spectral clustering and the FEAST algorithm - nearest\nneighbors (output to gephi) - read/write binary formats\n\nImplementation at scale - shoehorn into map-reduce - Port successful\nalgorithms to GraphLab, C++ and MPI or Boost Graph Library etc. - MIT\nStarcluster .. - Numba, Blaze, Theano, KDT - Anaconda\n",
+  "duration": null,
+  "id": 2366,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-09-12",
+  "slug": "computational-advertising-billions-of-records-a",
+  "speakers": [
+    "Alan Williams"
+  ],
+  "summary": "Lessons learned while setting up a computational advertising platform on\nAWS with emphasis on experimental data analysis and scaling.\n",
+  "tags": [],
+  "thumbnail_url": "http://i1.ytimg.com/vi/CxK-v0pSpjo/hqdefault.jpg",
+  "title": "Computational Advertising, Billions of records, and AWS - Lessons Learned",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=CxK-v0pSpjo"
+    }
+  ]
+}

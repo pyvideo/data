@@ -1,0 +1,26 @@
+{
+  "alias": "video/4007/managing-technical-debt-in-django-projects",
+  "category": "PyTexas 2015",
+  "copyright_text": "CC-BY",
+  "description": "How did it come to this? How did we end up with an outdated Django\nproject that no one wants to touch? If starting new projects is fun and\nmaintaining them is a chore, then getting dropped into an existing\nproject is hell. For all our sanity, we should get better at recognizing\nwhen we\u2019re creating too much debt, and develop the skills for paying it\noff. We talk about testing, code quality, and coverage. But why? Because\nwe want to spend less time dealing with technical debt and more time\ncreating new technical debt (aka new features). Many times, we think we\nmade the obvious smart decision only to regret it later; you discovered\nyou\u2019re damned if you do, damned if you don\u2019t. Should you write a\nmonolithic app or tangle of microservices? They\u2019re all terrible worlds\nwe\u2019ve made for ourselves. Having maintained, inherited, and created\nseveral large Django projects, I hope to share my experience so you\ndon\u2019t have to go through the same pains I did.\n\nWe\u2019ll start off with a few minutes covering basics like testing,\ncoverage and how they relate to the long term health of a project. Now,\neveryone knowing the same terminology, we move on to learning to\nrecognize the many early warning signs and smells of excessive technical\ndebt. The most important thing, and most of the material is about\nsetting up the organizational structure for dealing with technical debt:\ncode review, continuous integration, rotating developers (no silos),\ntradeoffs, making sure you have processes for onboarding new developers,\nand strategies for documentation. It\u2019s changes like these that end up\nkeeping things moving, not writing \u201cbetter\u201d code.\n\nFinally, we\u2019ll wrap up with a few minutes talking about Django specific\ntips: don\u2019t customize the admin, tricks for naming things, signals,\norganizing tests, and more. Much of this comes from things I wish I knew\nat my time at The Texas Tribune, where we needed Django projects\nlaunched the next day, all while maintaining a 6 year old Django\nproject, and my current time at TabbedOut where I was dropped into\nmaintaining several long lived software projects.\n",
+  "duration": null,
+  "id": 4007,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-10-09",
+  "slug": "managing-technical-debt-in-django-projects",
+  "speakers": [
+    "Chris Chang"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/6S8H_9h_gn0/hqdefault.jpg",
+  "title": "Managing Technical Debt in (Django) Projects",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6S8H_9h_gn0"
+    }
+  ]
+}

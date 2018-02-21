@@ -1,0 +1,26 @@
+{
+  "alias": "video/3751/traquer-les-fuites-memoire-en-python",
+  "category": "PyCon FR 2013",
+  "copyright_text": "",
+  "description": "",
+  "duration": 1845,
+  "id": 3751,
+  "language": "fra",
+  "quality_notes": "",
+  "recorded": "2013-11-30",
+  "slug": "traquer-les-fuites-memoire-en-python",
+  "speakers": [
+    "Victor Stinner"
+  ],
+  "summary": "Les fuites m\u00e9moire en Python ne peuvent pas \u00eatre analys\u00e9es avec les\noutils traditionnels car Python repose sur les compteurs de r\u00e9f\u00e9rence.\nJe vais pr\u00e9senter des outils sp\u00e9cifiques \u00e0 Python pour vous aider \u00e0\nlocaliser vos fuites m\u00e9moires.\n\n-  Consommation globale du processus (m\u00e9moire RSS)\n-  Comprendre les cycles de r\u00e9f\u00e9rence\n-  G\u00e9n\u00e9rer une image repr\u00e9sentant les liens entre les objets\n-  Utilisation de gc.get\\_objects() et calcul manuel de la taille des\n   objets\n-  Tracer les allocations m\u00e9moires \u00e0 leur cr\u00e9ation\n-  PEP 445: Add new APIs to customize Python memory allocators\n   implement\u00e9e dans Python 3.4\n-  Projet pytracemalloc\n\n",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/oQ17KDBr24I/maxresdefault.jpg",
+  "title": "Traquer les fuites m\u00e9moire en Python",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=oQ17KDBr24I"
+    }
+  ]
+}

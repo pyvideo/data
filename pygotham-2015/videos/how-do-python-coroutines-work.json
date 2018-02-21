@@ -1,0 +1,35 @@
+{
+  "alias": "video/3765/how-do-python-coroutines-work",
+  "category": "PyGotham 2015",
+  "copyright_text": "CC BY-SA",
+  "description": "Python 3's new \u201casyncio\u201d module is an efficient async framework similar\nto Node. But unlike Node, it emphasizes a modern idiom called\n\"coroutines\", rather than callbacks. Coroutines promise the best of two\nworlds: the efficiency of callbacks, but with a natural and robust\ncoding style similar to synchronous programming.\n\nIn barely 30 minutes I live-code a Python 3 async framework. First, I\nshow how an async framework uses non-blocking sockets, callbacks, and an\nevent loop. This version of the framework is very efficient, but\ncallbacks make a mess of the code. Therefore, I implement coroutines\nusing Python generators and two classes called Future and Task, and\nupdate my little framework to use coroutines instead of callbacks.\n\nThe live-coding demo isn't just a magic trick: watch to see how simply a\ncoroutine-based async framework can be implemented, and gain a deep\nunderstanding of this miraculous new programming idiom in the Python 3\nstandard library.\n",
+  "duration": 1959,
+  "id": 3765,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-08-16",
+  "slug": "how-do-python-coroutines-work",
+  "speakers": [
+    "A. Jesse Jiryu Davis"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_3765___How_Do_Python_Coroutines_Work",
+  "title": "How Do Python Coroutines Work?",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_3765___How_Do_Python_Coroutines_Work"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://64966d3674e0a64d8f4a-47c94b14ef8e1f83d5390cdb0629c6ed.r53.cf2.rackcdn.com/pygotham-2015/3765_How_Do_Python_Coroutines_Work.mp4"
+    },
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/idLtMISlgy8"
+    }
+  ]
+}

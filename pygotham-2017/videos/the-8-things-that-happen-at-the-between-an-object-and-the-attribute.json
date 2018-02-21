@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "We rarely think about the dot \".\" between our objects and their fields, but there are quite a lot of things that happen every time we use one in Python. This talk will explore the details of what happens, how the descriptor protocol works, and how it can be used to alter the Python object model.\n\nActions to be explored:\n\n#.  The instance __dict__ is checked.\n#.  The class __dict__ is checked.\n#.  The base classes __dicts__ are checked.\n#.  __getattr__ runs.\n#.  __getattribute__ runs.\n#.  The __get__ method on the object in the class __dict__ is called.\n#.  The object in the class __dict__ is checked for a __set__ method.\n#.  raise AttributeError\n\nMost of the talk will focus on 6 & 7 to explain the Descriptor protocol. Examples will include altering method binding and property behaviors, as well as supporting method implementation reuse via Descriptors.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2017-10-07",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/the-8-things-that-happen-at-the-between-an-object-and-the-attribute/"
+  ],
+  "speakers": [
+    "Andy Fundinger"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Bg_cEIkOS9g/maxresdefault.jpg",
+  "title": "The 8 things that happen at the \".\" between an object and the attribute",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Bg_cEIkOS9g"
+    }
+  ]
+}

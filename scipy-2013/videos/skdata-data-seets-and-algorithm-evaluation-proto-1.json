@@ -1,0 +1,26 @@
+{
+  "alias": "video/2107/skdata-data-seets-and-algorithm-evaluation-proto-1",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 2107,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-01",
+  "slug": "skdata-data-seets-and-algorithm-evaluation-proto-1",
+  "speakers": [],
+  "summary": "Authors: Bergstra, James, University of Waterloo: Pinto, Nicolas,\nMassachusetts Institute of Technology; Cox, David D., Harvard University\n\nTrack: Machine Learning\n\nMachine learning benchmark data sets come in all shapes and sizes, yet\nclassification algorithm implementations often insist on operating on\nsanitized input, such as (x, y) pairs with vector-valued input x and\ninteger class label y. Researchers and practitioners are well aware of\nhow much work (and even sometimes judgement) is required to get from the\nURL of a new data set to an ndarray fit for e.g. pandas or sklearn. The\nskdata library [1] handles that work for a growing number of benchmark\ndata sets, so that one-off in-house scripts for downloading and parsing\ndata sets can be replaced with library code that is reliable,\ncommunity-tested, and documented.\n\nSkdata consists primarily of independent submodules that deal with\nindividual data sets. Each [new-style] submodule has three important\nsub-sub-module files:\n\na 'dataset' file with the nitty-gritty details of how to download,\nextract, and parse a particular data set;\n\na 'view' file with any standard evaluation protocols from relevant\nliterature; and\n\na 'main' file with CLI entry points for e.g. downloading and visualizing\nthe data set.\n\nVarious skdata utilities help to manage the data sets themselves, which\nare stored in the user's \"~/.skdata\" directory.\n\nThe evaluation protocols represent the logic that turns parsed (but\npotentially ideosyncratic) data into one or more standardized learning\ntasks. The basic approach has been developed over years of combined\nexperience by the authors, and used extensively in recent work (e.g.\n[2]). The presentation will cover the design of data set submodules, and\nthe basic interactions between a learning algorithm and an evaluation\nprotocol.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/u5amehIiImo/hqdefault.jpg",
+  "title": "Skdata: Data seets and algorithm evaluation protocols in Python; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=u5amehIiImo"
+    }
+  ]
+}

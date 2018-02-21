@@ -1,0 +1,25 @@
+{
+  "description": "We implemented an interface between a TR069 Auto Configuration Server\n(ACS) and an ISP's billing system. This system ensures consistency\nbetween data on the billing system and over 2000 CPEs (Customer\nPremises Equipment) in the field. It prevents fraud by ensuring that\ncredentials are only used on the devices for which they are intended.\nDjango was used to present an API to the billing system, which can\nprovision credentials for each CPE or deprovision a CPE. Celery is\nused to perform asynchronous communication with the ACS, which can\ntake several seconds per call.\n\nWe encountered several challenges during this project, such as TR069\nparameter locations being inconsistent across CPE models and firmware\nversions. A mapping system had to be implemented to allow all device\nmodels to be managed. This talk covers the challenges we faced and the\napproach we used to overcome these challenges.\n",
+  "recorded": "2017-10-06",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pyconza/managing-2000-plus-cpes-with-celery-and-django-by-duane-churms"
+    }
+  ],
+  "speakers": [
+    "Duane Churms"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8K9ZjvmEfB8/hqdefault.jpg",
+  "title": "Managing 2000+ CPEs with Celery and Django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8K9ZjvmEfB8"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2017-Managing_2000_CPEs_with_Celery_and_Django"
+    }
+  ]
+}

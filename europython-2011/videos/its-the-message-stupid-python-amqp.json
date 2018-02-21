@@ -1,0 +1,45 @@
+{
+  "alias": "video/1133/its-the-message-stupid-python-amqp",
+  "category": "EuroPython 2011",
+  "copyright_text": "Standard YouTube License",
+  "description": "Messaging is a well established domain in information technology and can\ngreatly improve the scalability and throughput of a system when employed\nappropriately. Message queues can be used to achieve\n\n-  spatial decoupling i.e. the systems that produce and consume messages\n   may be deployed on different machines, networks, continents etc.\n-  temporal decoupling i.e. a system can enqueue a message and carry on\n   without waiting for the message consumer.\n\nWe use e.g. messaging in `OpenQuake <http://openquake.org>`__ to\ndistribute calculations of `seismic\nhazard <http://openquake.org/about/gem/>`__ and the respective risk to\nhuman lives and infrastructure.\n\nThere is a huge number of messaging patterns identified in the\n`industry <http://www.amazon.com/dp/0321200683/>`__ and a small\nselection of these will be presented to whet your appetite :-)\n\n`AMQP <http://www.amqp.org/>`__ is a fairly new and open messaging\nstandard with a number of freely available open source message brokers\n(`RabbitMQ <http://www.rabbitmq.com/>`__,\n`ZeroMQ <http://www.zeromq.org/>`__, `qpid <http://qpid.apache.org/>`__\netc.) with different features and performance trade-offs.\n\nIn the course of the presentation you will be - introduced to AMQP\nconcepts and jargon - introduced to available Python AMQP bindings\n(focussing on an asynchronous\n(`txAMQP <https://launchpad.net/txamqp>`__) and a synchronous variant\n(most likely `kombu <http://ask.github.com/kombu/>`__) - shown code\nexamples demonstrating how to use these Python bindings\n\nThe presentation (45 minutes in total) is structured as follows:\n\n-  7.5 minutes for messaging concepts and patterns\n-  7.5 minutes for AMQP concepts\n-  5 minutes for an overview of the Python bindings for AMQP\n-  10 minutes for txAMQP examples (asynchronous bindings)\n-  10 minutes for kombu examples (synchronous bindings)\n-  5 minutes for questions\n\nReferences:\n\n-  http://www.amqp.org/\n-  http://www.rabbitmq.com/\n-  http://www.zeromq.org/\n-  http://qpid.apache.org/\n-  https://launchpad.net/txamqp\n-  http://ask.github.com/kombu/\n-  http://www.amazon.com/dp/0321200683/\n\n",
+  "duration": null,
+  "id": 1133,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-07-13",
+  "related_urls": [
+    "http://ask.github.com/kombu/",
+    "http://openquake.org",
+    "http://openquake.org/about/gem/",
+    "http://qpid.apache.org/",
+    "http://www.amazon.com/dp/0321200683/",
+    "http://www.amqp.org/",
+    "http://www.rabbitmq.com/",
+    "http://www.zeromq.org/",
+    "https://launchpad.net/txamqp"
+  ],
+  "slug": "its-the-message-stupid-python-amqp",
+  "speakers": [
+    "Muharem Hrnjadovic"
+  ],
+  "summary": "[EuroPython 2011] Muharem Hrnjadovic - 21 June 2011 in \"Track Ravioli\"\n",
+  "tags": [
+    "amqp",
+    "asynchronous",
+    "patterns",
+    "performance",
+    "queues",
+    "scalability",
+    "technology"
+  ],
+  "thumbnail_url": "http://i.ytimg.com/vi/dIwsKYNbtnI/hqdefault.jpg",
+  "title": "It's the message, stupid: python & amqp",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=dIwsKYNbtnI"
+    }
+  ]
+}

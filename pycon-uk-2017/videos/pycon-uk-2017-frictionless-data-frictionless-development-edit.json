@@ -1,0 +1,77 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "A common problem in Data Engineering is how to create a platform capable both of importing and exporting tabular data in numerous formats and of maintaining a change history of the data while users update and query it.\n\nTools like Trifacta `Google Cloud Dataprep`_ provide a turnkey solution to part of the pipeline but the open source `Frictionless Data tools`_ from OKFN can provide a simpler subset of these features tailored to your requirements.\n\nJust as `Pandas`_ is built around the Dataframe, the Frictionless Data approach uses `data packages`_ consisting of a JSON table schema and a data URI. These schemata can be easily generated for any dataset and work well for a number of applications such as:\n\n* Validating new data with tools like `Goodtables`_ or tableschema-py\n* Building a data update interface with tools such as `Handsontable JS`_\n* Creating declarative data processing pipelines that a front end can easily interact with via `datapackages pipelines`_ and `kubernetes`_\n* Pushing data into various databases and repository tools such as `CKAN datastore`_\n* Extending the schema to allow export to linked data formats such as IIIF\n\nThe talk will cover these use cases and compare with the approaches taken by other open-source data science / BI tools such as `Datashape`_ with `ODO`_ from Continuum and `Superset`_ from AirBnB. I will aim to demonstrate that that lightweight web standards like datapackages speed up the development process.\n\n\n.. _Google Cloud Dataprep: https://cloud.google.com/dataprep/\n.. _Frictionless Data tools: http://frictionlessdata.io/tools/\n.. _Pandas: http://pandas.pydata.org/\n.. _data packages: http://frictionlessdata.io/data-packages/\n.. _Goodtables: http://goodtables.okfnlabs.org/\n.. _Handsontable JS: https://github.com/handsontable/handsontable\n.. _datapackages pipelines: https://github.com/frictionlessdata/datapackage-pipelines\n.. _kubernetes: https://kubernetes.io/\n.. _CKAN datastore: https://github.com/ckan/ckan/tree/master/ckanext/datastore\n.. _Datashape: https://github.com/blaze/datashape\n.. _ODO: https://github.com/blaze/odo\n.. _Superset: https://github.com/apache/incubator-superset",
+  "duration": 1581,
+  "language": "eng",
+  "recorded": "2017-10-27T10:30:00+01:00",
+  "related_urls": [
+    {
+      "label": "event schedule",
+      "url": "http://2017.pyconuk.org/schedule/"
+    },
+    {
+      "label": "talk slides",
+      "url": "https://gitpitch.com/strets123/frictionless-pres#/"
+    },
+    {
+      "label": "google cloud dataprep",
+      "url": "https://cloud.google.com/dataprep/"
+    },
+    {
+      "label": "frictionless data tools",
+      "url": "http://frictionlessdata.io/tools/"
+    },
+    {
+      "label": "pandas",
+      "url": "http://pandas.pydata.org/"
+    },
+    {
+      "label": "frictionless data packages",
+      "url": "http://frictionlessdata.io/data-packages/"
+    },
+    {
+      "label": "goodtables",
+      "url": "http://goodtables.okfnlabs.org/"
+    },
+    {
+      "label": "handsontable js",
+      "url": "https://github.com/handsontable/handsontable"
+    },
+    {
+      "label": "frictionless datapackages pipelines",
+      "url": "https://github.com/frictionlessdata/datapackage-pipelines"
+    },
+    {
+      "label": "kubernetes",
+      "url": "https://kubernetes.io/"
+    },
+    {
+      "label": "ckan datastore",
+      "url": "https://github.com/ckan/ckan/tree/master/ckanext/datastore"
+    },
+    {
+      "label": "datashape",
+      "url": "https://github.com/blaze/datashape"
+    },
+    {
+      "label": "odo",
+      "url": "https://github.com/blaze/odo"
+    },
+    {
+      "label": "superset",
+      "url": "https://github.com/apache/incubator-superset"
+    }
+  ],
+  "speakers": [
+    "Andrew Stretton"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/oXw81D6eVLM/hqdefault.jpg",
+  "title": "Frictionless Data, Frictionless Development edit",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=oXw81D6eVLM"
+    }
+  ]
+}

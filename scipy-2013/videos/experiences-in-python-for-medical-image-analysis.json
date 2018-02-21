@@ -1,0 +1,26 @@
+{
+  "alias": "video/1968/experiences-in-python-for-medical-image-analysis",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 1968,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-02",
+  "slug": "experiences-in-python-for-medical-image-analysis",
+  "speakers": [],
+  "summary": "Authors: Warner, Joshua, Mayo Clinic Department of Biomedical\nEngineering\n\nTrack: Medical Imaging\n\nUpon entering graduate school and selecting radiology informatics as my\ntopic of study, a broad survey of open source options for scientific\nwork was conducted. There were three main criteria:\n\nrobust numerical and scientific capability, strong user community with\ncontinuing updates and long term support, and ease of use for students\ntransitioning from other languages. Among several strong options that\nsatisfied criteria #1, Python with NumPy and SciPy was the clear winner\ndue to the latter two criteria.\n\nMy work focuses on supervised segmentation of soft-tissue abdominal MRI\nimages, extracting novel image features from these segmented regions of\ninterest, and applying machine learning techniques to evaluate features\nfor predictive ability. This presentation will provide an overview of\nthe key computational tasks required for this work, and outline the\nchallenges facing a medical image researcher using Python. Most notably,\nmedical image volumes are rarely isotropic, yet often algorithms for 3-D\nNumPy arrays inherently assume isotropic sampling. Thus, generalizing or\nextending various algorithms to handle anisotropic rectangular sampled\ndata is necessary. Our improvements to one such algorithm were recently\ncontributed back to the community, and are presently incorporated in the\nrandom walker segmentation algorithm in Scikit-Image.\n\nAnother significant challenge is visualization of algorithm output for\nlarge volumetric datasets. An extensible tool we call volview was\ndeveloped, allowing fast visualization of an entire volume and an\narbitrary number of colored, alpha-blended overlays, combining the\nabilities of NumPy, Pyglet, and PygArrayImage. This improved speed and\nquality of algorithm development, and facilitated review of our results\nby clinicians.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/1_0JILf0ufg/hqdefault.jpg",
+  "title": "Experiences in Python for Medical Image Analysis; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=1_0JILf0ufg"
+    }
+  ]
+}

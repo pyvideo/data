@@ -1,0 +1,25 @@
+{
+  "description": "In this talk we will explain the lessons that we learned while creating and maintaining the oVirt Python SDK, and specially how we were able to multiply the performance by 20, doing some rather radical changes to its architecture.\n\noVirt is an open source virtualzation management platform. The oVirt Python SDK is a library that simplifies the usage of its API for Python developers. It is intended to remove from the Python developer the burden of handling XML and HTTP, while granting access to all the functionality of the oVirt API. A key aspect of the Python SDK is that it is automatically generated from the specification of the API. It has always been like that, since its very inception.\n\nIn version 4 of oVirt a new version of the API was introduced, together with a much more strong specification. That gave us the opportunity to re-architect the Python SDK, with the following goals in mind:\n\n* Make sure that all the API functionality can be used, now and in the future, automatically generating Python code that can be kept backwards compatible.\n* Drastically improve the performance of the Python XML parsing and rendering code, specially for large data sets.\n* Enable asynchronous HTTP, and pipe-lining of HTTP requests. This is of utmost importance for environments with high latency.\n\nDuring the talk we will explain why these are important goals for us, what were the challenges with the architecture of version 3 of the SDK, and we will show you the techniques, tools and, yes, the code, that we used to make version 4 of the SDK 20 times faster.",
+  "language": "eng",
+  "recorded": "2017-06-12",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "http://il.pycon.org/wwwpyconIL/sites/default/files/inline-files/Juan-Hernandez.pdf"
+    }
+  ],
+  "speakers": [
+    "Juan Hern\u00e1ndez"
+  ],
+  "tags": [
+    "ovirt"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/OSes4uzw0xE/hqdefault.jpg",
+  "title": "Lessons Learned Maintaining the oVirt Python SDK",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OSes4uzw0xE"
+    }
+  ]
+}

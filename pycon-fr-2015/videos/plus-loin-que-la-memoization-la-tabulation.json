@@ -1,0 +1,26 @@
+{
+  "description": "La m\u00e9moisation de fonction est une optimisation bien connue qui permet\nde ne calculer qu'une fois une fonction sans effet de bord pour chaque\nnouvelle combinaison de param\u00e8tre. Depuis python 3.2, cette optimisation\nest disponible dans la biblioth\u00e8que standard Python sous la forme du\nd\u00e9corateur ``functools.lru_cache``.\n\nMais voil\u00e0, il faut quand m\u00eame calculer la fonction au moins une fois\npour chaque nouvelle combinaison de param\u00e8tres, et \u00e7a peut prendre du\ntemps.\n\nDans cette pr\u00e9sentation, on va adopter une mesure encore plus extr\u00e8me :\ncalculer toutes les valeurs de la fonction pour toutes les entr\u00e9es. Oui,\nremplacer un appel de fonction par un (simple) acc\u00e8s m\u00e9moire. Ou\npresque.\n\nOn verra que c'est parfois possible, m\u00eame quand le domaine d'entr\u00e9e est\ngrand, que \u00e7a peut aller vite, et que cela a m\u00eame des applications en\ns\u00e9curit\u00e9 informatique pour le moins inattendues...\n",
+  "duration": 1665,
+  "language": "fra",
+  "recorded": "2015-10-17",
+  "speakers": [
+    "Serge Guelton"
+  ],
+  "summary": "La m\u00e9moisation de fonction est une optimisation classique qui permet de\nne calculer qu'une fois une fonction appel\u00e9e de fa\u00e7on r\u00e9p\u00e9t\u00e9e.\n\nCette pr\u00e9sentation essaie d'aller plus loin : ne jamais calculer la\nfonction \u00e0 l'execution et n'utiliser qu'une gigantesque lookup table \u00e0\nla place.\n\nEt comme c'est en Python, le tout en quelques centaines de lignes de\ncode !\n",
+  "thumbnail_url": "http://video-pyconfr2015.paulla.asso.fr/008%20-%20serge%20sans_paille%20-%20Plus%20loin%20que%20la%20m%C3%A9moization%20:%20la%20tabulation.mp4.jpg",
+  "title": "Plus loin que la m\u00e9moization : la tabulation",
+  "videos": [
+    {
+      "type": "ogv",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/008%20-%20serge%20sans_paille%20-%20Plus%20loin%20que%20la%20m%C3%A9moization%20:%20la%20tabulation.ogv"
+    },
+    {
+      "type": "mp4",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/008%20-%20serge%20sans_paille%20-%20Plus%20loin%20que%20la%20m%C3%A9moization%20:%20la%20tabulation.mp4"
+    },
+    {
+      "type": "webm",
+      "url": "http://video-pyconfr2015.paulla.asso.fr/008%20-%20serge%20sans_paille%20-%20Plus%20loin%20que%20la%20m%C3%A9moization%20:%20la%20tabulation.webm"
+    }
+  ]
+}

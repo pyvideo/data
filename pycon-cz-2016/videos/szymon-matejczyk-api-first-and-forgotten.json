@@ -1,0 +1,17 @@
+{
+  "description": "\"API first\" principle seems convincing. Anyone who tried implementing\nit realizes that often the problem is not to design or formally\nspecify the API (with Swagger or other tool). The problem is to keep\nthe specification, servers and clients consistent and easy to\nmaintain for longer. I will talk about what practices you need to\nremember and which tools are worth to check.\n\nThe talk will start with the basics of microservices architecture. I\nwill describe some mistakes we have made that turned our\nmicroservices architecture fragile and unmanageable.\n\nI will show how we redesigned our API using Swagger and what\nprinciples you should have in mind when doing so. I will also cover\ntechnical problems we encountered:\n\n* how to test that a service implements an API;\n* how to avoid writing validation that is already specified in the swagger file;\n* how to create clients and stub and who should maintain them.\n\nAs theory is not enough here, I will also show some tools that help,\ndescribe in detail connexion library and show how we used it to\nimplement microservices integration tests @Growbots.",
+  "duration": 1987,
+  "language": "eng",
+  "recorded": "2016-10-28",
+  "speakers": [
+    "Szymon Matejczyk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/xVF7eJ2limg/hqdefault.jpg",
+  "title": "API first and forgotten",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xVF7eJ2limg"
+    }
+  ]
+}

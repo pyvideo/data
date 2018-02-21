@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Many disciplines in science and engineering are focused on the perception and production of sounds. Applications range from signal processing algorithms to music information retrieval and speech analysis, and even audiological research. All of these disciplines require the playback and recording, and storage and retrieval of audio data.\n\nAs a data structure, audio data is simple to work with: it consists of long arrays of air pressure measurements at a sample rate of several thousands per second. This kind of data is perfectly suited for Numpy arrays, and Numpy, Scipy, and Matplotlib contain a host of functionality for manipulating and analyzing audio data.\n\nYet, actually playing and recording audio data in Python is still a major issue. While libraries exist for playback and recording, the quality of the implementations vary greatly between operating systems and audio APIs. In particular, academic signal processing often requires low-latency, real-time, multi-channel interaction with arbitrary sound cards, which can be difficult for existing libraries to support.\n\nReading and writing audio files from Python is similarly difficult. Again, Python libraries do exist, but consistent, high-performance access to the vast variety of existing audio file formats is still a challenge.\n\nThis talk presents an overview of the history and current landscape of audio libraries available for Python. Additionally, it highlights our ongoing work on the libraries SoundFile and Python-Audio, which bring high-performance reading and writing of audio files, and real-time playback and recording of audio data to Python.\n\nSoundFile uses CFFI to interact with libsndfile, a C library for reading and writing audio files as Numpy arrays. However, while libsndfile supports a great number of audio file formats, support for patent-encumbered formats still seems impossible for an open-source library.\n\nPython-Audio again uses CFFI to expose each operating system's native audio API to Python in a consistent manner. Python-Audio was born out of frustration with existing cross-platform libraries in both C and Python, and is based on our previous work on PySoundCard and PyAudio. Moreover, the use of the operating systems' native audio APIs may prove to be the solution for the legal issues with patent-encumbered file formats. But while Python-Audio has working implementations for all three major operating systems, it is still a very recent project, and we would like to encourage attendees to provide feedback and contributions.\n\nIn conclusion, working with audio data in Python is not as easy as it should be, and the scientific Python community still faces challenges for both reading and writing audio files and playback and recording of real-time audio data. Nevertheless, we believe that these problems can be overcome, and audio data should become significantly easier to work with for scientists and engineers in the near future.",
+  "duration": 652,
+  "language": "eng",
+  "recorded": "2017-08-31",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.euroscipy.org/2017/program.html"
+    }
+  ],
+  "speakers": [
+    "Bastian Bechtold"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/mc8ru37dwf8/maxresdefault.jpg",
+  "title": "Working with Audio Data in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mc8ru37dwf8"
+    }
+  ]
+}

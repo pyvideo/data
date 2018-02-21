@@ -1,0 +1,23 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "PyconAR 2016 - Bah\u00eda Blanca\n\nCompartiendo memoria eficientemente con proxies por Claudio Freire\n\nAudience level: Avanzada\n\nDescripci\u00f3n\n\n\u00bfCu\u00e1ntas tuviste que escalar, con multiprocessing, o tu framework favorito? \u00bfNotaste que los requisitos de memoria se te iban a las nubes? Presentar\u00e9 una lib reci\u00e9n salida de la panader\u00eda, sharedbuffers, y las t\u00e9cnicas y conceptos detr\u00e1s de la misma. C\u00f3mo crear segmentos de memoria compartida, c\u00f3mo usarlos para compartir objetos y estructuras complejas, e incluso que no entran en memoria.\n\nResumen\n\nLa charla intenta exponer dos cosas:\n\nPor un lado, t\u00e9cnicas interesantes para compartir memoria de forma eficiente en Python, algo que suele ser complejo con las herramientas normalmente a disposici\u00f3n de los desarrolladores.\n\nPor otro lado, expone una librer\u00eda que hice a tal efecto, sharedbuffers, con el objetivo de hacer la tarea m\u00e1s sencilla para el pr\u00f3ximo que intente.\n\nSe van a cubrir conceptos de alto nivel, aptos para usuarios intermedios, como es el uso de la librer\u00eda, pero para poder sacar el provecho m\u00e1ximo a la charla, en particular la segunda parte en que se exponen los detalles de la implementaci\u00f3n, es necesario tener conocimientos m\u00e1s avanzados. As\u00ed que la estoy marcando como una charla avanzada.\n\nY s\u00ed, no tengo ni idea si se dice librer\u00eda o biblioteca. Pero se instala en /usr/lib as\u00ed que yo le digo librer\u00eda :-p\n\nEl flujo de la charla est\u00e1 planeado a grandes rasgos como sigue:\n\n* Motivaci\u00f3n 4'\n    * El cache que no entra en memoria 7 veces\n    * Cuando el costo de serializaci\u00f3n se vuelve prohibitivo\n    * Transici\u00f3n de un cache a un bundle compartido\n* Ejemplo r\u00e1pido 3'\n    * Base de user agents de 30GB\n* La t\u00e9cnica por arriba 12'\n    * Compartiendo un buffer de bytes mediante archivos mapeados 2'\n    * Embebiendo objetos simples en el buffer 5'\n        * Definici\u00f3n de schemas 2'\n        * Manipulaci\u00f3n sin deserializaci\u00f3n con proxies 3'\n    * Complejizando los objetos 5'\n        * Colecciones 1'\n        * Estructuras jer\u00e1rquicas 2'\n        * Estructuras c\u00edclicas 2'\n* La t\u00e9cnica a bajo nivel 16'\n    * Estructura en memoria de un objeto 4'\n        * Atributos con tipos est\u00e1ticos\n        * Wrappers con RTTI para atributos con tipo din\u00e1mico\n    * Secuencias lineales 4'\n    * Mapeos 8'\n        * El hash table compacto 5'\n        * Caracter\u00edsticas de performance 3'\n* Logrando que vaya r\u00e1pido 6'\n    * Cython magic 3'\n    * Reuso de proxies, transmutaci\u00f3n de tipos 3'\n* El futuro 4'\n    * Compatibilidad/chequeo de schemas 1'\n    * Proxies transparentes transmutando mixins 1'\n    * Estructuras mutables y lockless 2'\n* Preguntas\n\nSlides:\n\n* Slides de la charla, en `formato pdf`_\n* Slides de la charla, en `formato libreoffice`_\n\n.. _formato pdf: http://ar.pycon.org/proposals/document/6/2003fb75-dd55-44f1-90ca-d1496e8a818a.pdf\n.. _formato libreoffice: http://ar.pycon.org/proposals/document/5/ff4059c7-f10e-4c1f-b34e-47739f212464.odp\n\n",
+  "duration": 2501,
+  "language": "spa",
+  "recorded": "2016-11-25",
+  "related_urls": [
+    "http://ar.pycon.org/proposals/document/6/2003fb75-dd55-44f1-90ca-d1496e8a818a.pdf",
+    "http://ar.pycon.org/proposals/document/5/ff4059c7-f10e-4c1f-b34e-47739f212464.odp"
+  ],
+  "speakers": [
+    "Claudio Freire"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/8zfagJjvFyo/maxresdefault.jpg",
+  "title": "Compartiendo memoria eficientemente con proxies",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8zfagJjvFyo"
+    }
+  ]
+}

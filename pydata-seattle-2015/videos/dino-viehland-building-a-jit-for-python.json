@@ -1,0 +1,15 @@
+{
+  "description": "Let's make Python faster! In a past life I spent a bunch of time working to make a fast Python implementation built on top of .NET which leveraged the CLRs JIT for improved performance. In this talk I'll look at taking the CLR's JIT which has now been open sourced and bringing it together with the standard CPython implementation.\n\nImplementation Strategy Translating CPython bytecode to .NET IL Examples of what the translation looks like Look at what subset of IL is used What a standardized JIT interface for CPython could look like Challenges Places where the CLR JIT could better support Python like semantics Places where CPython makes it difficult Performance Results A look at various benchmarks with and without a JIT and against competing Python implementations Unsupported features Functionality which currently isn't or can't be supported Future Directions Future possibilities to improve performance",
+  "recorded": "2015-07-25",
+  "speakers": [
+    "Dino Viehland"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_5vLWe4d8X8/hqdefault.jpg",
+  "title": "Building a JIT for Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_5vLWe4d8X8"
+    }
+  ]
+}

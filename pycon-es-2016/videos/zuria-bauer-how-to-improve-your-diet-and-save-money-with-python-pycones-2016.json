@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Optimization (also known as mathematical programming) can be simplified to a selection of the best element/s (minimum or maximum) for a given circumstance (objective function), which may include some conditions (subject to restrictions).\n\nOne of the classic problems in field optimization is the `diet problem`_. This problem came up during the Second World War when the Army wanted to minimize the cost of feeding their soldiers in the field (objective function) while maintaining a balanced diet.\n\nFor this occasion, we will take as an example a set of foods from a well-know fast food restaurant and try to minimize the cost of the menu while being as healthy as possible.\n\nTo solve this problem, there are plenty of commercial algebraic modeling languages \u2014such as GAMS and AMPL\u2014, which are used mainly in academia and professional environments. But as Python lovers, we can use several libraries for solving such optimization problems, \u2014e.g. `CVXOpt`_, `CVXPy`_, `PULP`_, `OpenOpt`_ or `Pyomo`_.\n\nIn this talk we will use Pyomo because:\n\n- We can use it as an Algebraic Modeling Language, being similar to AMPL and GAMS.\n- Solve these problems by means of a variety of solvers such as GLPK, Gurobi, CPLEX, CBC and PICO.\n- It is a free, open source library (BSD license), being developed by Sandia National Laboratories, USA.\n- Supports Python 3 and is easy to install.\n- Moreover, it automatically connects with NEOS server (web platform that gives free access to commercial solvers).\n\nThe talk will be divided in three parts:\n\n1. Introduction to Mathematical Programming/Optimization (10 min): visual introduction to optimization concepts including restrictions and non linearties (linear Programming, Nonlinear Programming, ILP, MIP, MINLP).\n2. Introduction to the diet problem, Pyomo sintax and a quick note for the installation (15 min): showing how to improve your diet and save money when ordering food in fast food restaurants.\n3. Optimization problems in engineering (5 min): showing more advanced optimization examples in the area of process engineering\n\nDon't miss this talk if are one of those \"undecided pythonistas\" that want to learn how to solve optimization problems with determination ;)\n\n\nhttp://2016.es.pycon.org/\n\n.. _diet problem: http://www.neos-guide.org/content/diet-problem\n.. _CVXOpt: http://cvxopt.org/\n.. _CVXPy: http: // www.cvxpy.org/en/latest/\n.. _PULP: https://pythonhosted.org/PuLP/\n.. _OpenOpt: http://openopt.org/Welcome\n.. _Pyomo: http: //www.pyomo.org/",
+  "duration": 1205,
+  "language": "eng",
+  "recorded": "2016-10-08",
+  "related_urls": [
+    "http://cvxopt.org/",
+    "http://www.neos-guide.org/content/diet-problem",
+    "https://pythonhosted.org/PuLP/",
+    "http://openopt.org/Welcome",
+    "http://2016.es.pycon.org/"
+  ],
+  "speakers": [
+    "Zuria Bauer"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/j1kwVhO6hRE/maxresdefault.jpg",
+  "title": "How to Improve Your Diet and Save Money with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=j1kwVhO6hRE"
+    }
+  ]
+}

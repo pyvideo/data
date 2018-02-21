@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Joaquin Berenguer - Server for IoT devices and Mobile devices using Wifi Network,\n[EuroPython 2016]\n[22 July 2016]\n[Bilbao, Euskadi, Spain]\n(https://ep2016.europython.eu//conference/talks/server-for-iot-devices-and-mobile-devices-using-wifi-network)\n\nThe server is developed in Python 3.4, using MySQL5.6\nThe mobile device application is developed using Kivy.\nThe application in the IoT device is developed in C.\nThe IoT device is a hardware device using ATSAMD21 from Atmel, and\nwifi is made using ESP8266. The security used is sha256, standard in\nPython. And the IoT device using the crypto device ATECC508A, that\ngenerate also sha256.\n\n-----\n\nThe server is developed in Python 3.4,  the information is stored in a\nMySQL 5.6 database.\nAll IoT devices, Mobile Devices and Windows or Linux Desktop are\nregistered in the database.\nAll type of messages that are understood by every type of device, is\nalso registered.\nA map between which device  could access which device is also stored\nin the database.\nWith this info, any mobile registered could send a message to a\ndevice. The message arrives to the server that resend the message to\nthe IoT device, receive the answer and resend to the Mobile device.\nThe Mobile device and the IoT device, could be anywhere, as the server\nis public, have the registration of every device connected.\nThe mobile device application is developed using Kivy.\nThe application in the IoT device is developed in C.\nThe IoT device is a hardware device using ATSAMD21 from Atmel, and\nwifi is made using ESP8266. The security used is sha256, standard in\nPython. And the IoT device using the crypto device ATECC508A, that\ngenerate also sha256.\nThe server start a thread for every device connected, the\ncommunication between thread is made using queues.\nDuring the presentation, the server is going to be presented, and IoT\ndevice is shown, no demo is going to be made.\nA library to manage the database, is used for easy access to the\ndatabase, and have database independence, also will be shown.\nPrerequites: Python 3.4, sha256, threading, queue, mysql.connector,\nrelational database.",
+  "duration": 1121,
+  "language": "eng",
+  "recorded": "2016-08-05",
+  "related_urls": [
+    "https://ep2016.europython.eu//conference/talks/server-for-iot-devices-and-mobile-devices-using-wifi-network"
+  ],
+  "speakers": [
+    "Joaquin Berenguer"
+  ],
+  "tags": [
+    "kivy"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XIFJttWrz6k/maxresdefault.jpg",
+  "title": "Server for IoT devices and Mobile devices using Wifi Network,",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XIFJttWrz6k"
+    }
+  ]
+}

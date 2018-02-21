@@ -1,0 +1,26 @@
+{
+  "description": "I will show a prototype of a Python interpreter written in entirely in Python itself (that isn't Pypy).\n\nThe goal is to have simpler internals to allow experimenting with changes to the language more easily. This interpreter has a small core with much of the library modifiable at run time for quickly testing changes. This differs from Pypy that aimed for full Python compatibility and speed (from JIT compilation). I will show some of the interesting things that you can do with this interpreter.\n\nThis interpreter has two parts: a parser to transform source to Abstract Syntax Tree and a runner for traversing this tree. I will give an overview of how both part work and discuss some challenges encountered and their solution.\n\nThis interpreter makes use of very few libraries, and only those included with CPython.\n\nThis project is looking for members to discuss ways of simplifying parts of the interpreter (among other things).\n\nMontr\u00e9al-Python 68: Wysiwyg Xylophone \nhttps://montrealpython.org/2017/11/mp68/",
+  "language": "eng",
+  "recorded": "2017-11-20",
+  "related_urls": [
+    {
+      "label": "group web",
+      "url": "https://montrealpython.org"
+    },
+    {
+      "label": "MP68",
+      "url": "http://montrealpython.org/en/2017/11/mp68/"
+    }
+  ],
+  "speakers": [
+    "Zhentao Li"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/dCCcDj8YtDI/hqdefault.jpg",
+  "title": "Writing a Python interpreter in Python from scratch",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dCCcDj8YtDI"
+    }
+  ]
+}

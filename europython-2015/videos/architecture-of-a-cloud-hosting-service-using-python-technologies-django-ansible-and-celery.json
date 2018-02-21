@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Abraham Martin - Architecture of a cloud hosting service using python technologies: django, ansible and celery\n[EuroPython 2015]\n[23 July 2015]\n[Bilbao, Euskadi, Spain]\n\nThe talk will show the architecture and inners of a cloud hosting\nservice we are developing in the University of Cambridge based on\npython technologies, mainly django, ansible, and celery.\n\nThe users manage their hosts using a web panel, developed in django,\nwith common options: ability to create a vhost, associate domain names\nto vhosts, install packages, recover from backups, make snapshots,\netc. Interaction between the panel and the hosts are made using\nansible playbooks launched asynchronously by celery tasks. The VM\narchitecture has been designed to be VM platform agnostic and to\nprovide disk replication and high availability.\n\nThe University of Cambridge central IT services\n(http://www.ucs.cam.ac.uk/) also provides other services to the rest\nof the university like domain name registration, authentication,\nauthorisation, TLS certificates, etc. We link all these other services\nwith the hosting service by using APIs while keeping a microservices\narchitecture approach. Thus, enabling the use/link of other services\nwithin the same hosting service web application.",
+  "duration": 2356,
+  "language": "eng",
+  "recorded": "2015-08-08",
+  "related_urls": [
+    "http://www.ucs.cam.ac.uk/"
+  ],
+  "speakers": [
+    "Abraham Martin"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2ygaowx5ukA/maxresdefault.jpg",
+  "title": "Architecture of a cloud hosting service using python technologies: django, ansible and celery",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2ygaowx5ukA"
+    }
+  ]
+}

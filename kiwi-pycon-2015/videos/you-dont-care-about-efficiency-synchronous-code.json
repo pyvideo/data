@@ -1,0 +1,26 @@
+{
+  "alias": "video/3851/you-dont-care-about-efficiency-synchronous-code",
+  "category": "Kiwi PyCon 2015",
+  "copyright_text": "CC BY-SA",
+  "description": "If you write blocking code, you don\u2019t care about efficiency.\n\nThere, I said it.\n\nIt\u2019s 2015, and still the vast majority of Python programmers write\nessentially synchronous code that blocks on network I/O. This approach,\nwhile simple to reason about, struggles mightily with scaling up and out\ninto software that does a lot of network I/O. Worse, it makes it\ndifficult to write code that reacts rapidly to changing conditions.\n\nThe writing is on the wall for this kind of software, as the community\nshifts towards writing software that embraces asynchronicity. In this\ntalk we\u2019ll discuss why synchronous software is a problem, what your\noptions are to move away from it, and what challenges are being faced by\nthe Python ecosystem as we try to move towards a brave new asynchronous\nworld.\n",
+  "duration": 2041,
+  "id": 3851,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2015-09-06",
+  "slug": "you-dont-care-about-efficiency-synchronous-code",
+  "speakers": [
+    "Cory Benfield"
+  ],
+  "summary": "",
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/7b4z7y6Lohw/hqdefault.jpg",
+  "title": "You Don\u2019t Care About Efficiency: Synchronous Code Is Dying",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://youtu.be/7b4z7y6Lohw"
+    }
+  ]
+}

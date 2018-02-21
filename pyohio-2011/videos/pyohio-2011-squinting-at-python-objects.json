@@ -1,0 +1,38 @@
+{
+  "alias": "video/524/pyohio-2011-squinting-at-python-objects",
+  "category": "PyOhio 2011",
+  "copyright_text": "Creative Commons Attribution 2.0",
+  "description": "Squinting at Python Objects\n\nPresented by Brandon Craig Rhodes\n\nPython classes can gain attributes as if by magic. Thanks to properties,\ndescriptors, and (if all else fails) **getattr**\\ () and\n**getattribute**\\ (), the attempt to access obj.something can result in\narbitrary code execution. If you are wondering how your Python program\nis using memory, this can result in a problem: each time you look to see\nif something is there, it **is**, because it is pulled in dynamically\nthe moment you look for it. In this talk, you will learn how to prod\nPython objects gently, and hopefully learn their secrets - and their\nmemory usage - without actually invoking code.\n",
+  "duration": null,
+  "id": 524,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2011-07-30",
+  "slug": "pyohio-2011-squinting-at-python-objects",
+  "speakers": [
+    "Brandon Rhodes"
+  ],
+  "summary": "",
+  "tags": [
+    "descriptors",
+    "getattr",
+    "getattribute",
+    "optimizing",
+    "properties",
+    "pyohio",
+    "pyohio2011"
+  ],
+  "thumbnail_url": "https://archive.org/services/img/pyvideo_524___pyohio-2011-squinting-at-python-objects",
+  "title": "PyOhio 2011: Squinting at Python Objects",
+  "videos": [
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyvideo_524___pyohio-2011-squinting-at-python-objects"
+    },
+    {
+      "length": null,
+      "type": "mp4",
+      "url": "http://05d2db1380b6504cc981-8cbed8cf7e3a131cd8f1c3e383d10041.r93.cf2.rackcdn.com/pyohio-2011/524_pyohio-2011-squinting-at-python-objects.m4v"
+    }
+  ]
+}

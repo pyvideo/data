@@ -1,0 +1,26 @@
+{
+  "alias": "video/2110/an-efficient-workflow-for-reproducible-science-s-1",
+  "category": "SciPy 2013",
+  "copyright_text": "http://www.youtube.com/t/terms",
+  "description": "",
+  "duration": null,
+  "id": 2110,
+  "language": "eng",
+  "quality_notes": "",
+  "recorded": "2013-07-01",
+  "slug": "an-efficient-workflow-for-reproducible-science-s-1",
+  "speakers": [],
+  "summary": "Authors: Bekolay, Trevor, University of Waterloo\n\nTrack: Reproducible Science\n\nEvery scientist should be able to regenerate the figures in a paper.\nHowever, all too often the correct version of a script goes missing, or\nthe original raw data is filtered by hand and the filtering process\nundocumented, or the student who has the data or code has switched labs.\n\nIn this talk, I will describe a workflow for a complete end-to-end\nanalysis pipeline, going from raw data to analysis to plotting, using\nexisting tools to make each step of the pipeline reproducible,\ndocumented, and efficient, while requiring few sacrifices in terms of a\nscientist's time and effort.\n\nThe key insight is to decouple each analysis step and each plotting\nstep, in order to do several analyses or plots in parallel. Each step\ncan be cached if it is costly, with the code that produces the cached\ndata serving as the documentation for how it is produced.\n\nI will discuss a way to organize code in order to make analyzing and\nplotting large data sets efficient, parallelizable, and cacheable. Once\ncompleted, source code can be uploaded to a hosting service like Github\nor Bitbucket, and data can be uploaded to a data store like Amazon S3 or\nfigshare. The end result is that readers can completely regenerate the\nfigures in your paper at no or nearly no cost to you.\n",
+  "tags": [
+    "Tech"
+  ],
+  "thumbnail_url": "http://i1.ytimg.com/vi/Y-XFNg0QS14/hqdefault.jpg",
+  "title": "An efficient workflow for reproducible science; SciPy 2013 Presentation",
+  "videos": [
+    {
+      "length": 0,
+      "type": "youtube",
+      "url": "http://www.youtube.com/watch?v=Y-XFNg0QS14"
+    }
+  ]
+}
