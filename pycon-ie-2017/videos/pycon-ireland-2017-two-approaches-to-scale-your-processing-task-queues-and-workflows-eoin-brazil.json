@@ -1,0 +1,28 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "This talk covers two useful libraries/approaches to scaling your processing. Task Queues will be introduced, Celery will be covered and a specific example of a refactoring of a sequential crawler to highlight the ease and utility of this library. Workflows will then be covered, Airflow will be introduced, in the context of more complex tasks with requirements plus dependencies, building on how tasks as the atomic unit can be woven together to support complex business / app requirements as Workflows. The theme linking both aspects is the need to provide a reliable async fabric (Celery + Rabbitmq) only provides part of a solution for more complex problems, hence the need to use Airflow (with Celery executors) to provide the additional smarts / logic necessary to solve them.",
+  "duration": 2526,
+  "language": "eng",
+  "recorded": "2017-10-21",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "http://schedule.pycon.python.ie/"
+    }
+  ],
+  "speakers": [
+    "Eoin Brazil"
+  ],
+  "tags": [
+    "airflow",
+    "celery"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/OY_hGTwDaSE/maxresdefault.jpg",
+  "title": "Two approaches to scale your processing, Task Queues and Workflows",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OY_hGTwDaSE"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Django\u2019s authentication system is great out of the box, and very useful when we want to manage users logging into our web apps. But, since it\u2019s all set up for us automatically when we create our new Django project, sometimes it can be a little mysterious.\n\nI\u2019ll clear up some of its mysteries by going over each aspect of authentication in Django and give tips on how to better utilize it for web applications. The authentication package has three main aspects: Users, Groups, and Permissions, along with some authentication middleware to tie it all together.\n\nFirst I\u2019ll cover Django\u2019s User model, which is the core of the authentication package. I\u2019ll explain how it interacts with the web app, and I\u2019ll even give a few tips on how it can be customized.\n\nThen I\u2019ll talk about Groups, and how they interact with the User model. I\u2019ll give some tips on how to manage users in web apps based on groups to get the most out of them.\n\nThen I\u2019ll cover permissions, which relate to how users can interact with the web app. I\u2019ll go over some examples for how to use the default permissions, how to set up custom permissions, and how this is particularly used in the Django admin panel.\n\nFinally, I\u2019ll talk about Django\u2019s authentication middleware, and how users are authenticated throughout the app. I\u2019ll cover examples for how users get sent through requests, and how to handle logic surrounding authentication in Django\u2019s views and templates.",
+  "duration": 1771,
+  "language": "eng",
+  "recorded": "2017-10-21",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "http://schedule.pycon.python.ie/"
+    }
+  ],
+  "speakers": [
+    "Julia Looney"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/uEZwp6D_SaI/maxresdefault.jpg",
+  "title": "Getting started with Django's Authentication System",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uEZwp6D_SaI"
+    }
+  ]
+}

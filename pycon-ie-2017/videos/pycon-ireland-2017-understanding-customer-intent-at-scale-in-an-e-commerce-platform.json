@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Zalando is an European Fashion platform with a yearly revenue of ~3.6 Billion Euro. We have more than 20Million active customers and more than 200 Million visits per month. Our tech department has around 1700 people across 3 different countries. Operating in Germany is very interesting from a data protection point of view (specially for products like this) In this talk we present a technical overview of customer intent; a product that assigns a state (exploring, gathering, comparing or deciding) to each customer at any given point in their customer journey in the Zalando shop. We will introduce the problem of customer intent and briefly present our unsupervised approach to solve this model which uses a Hidden Markov Models algorithm. During this talk, we will explain the main challenges we faced on each of the steps when building, and the lessons learned from building this product from an engineering perspective. We will introduce our architecture, the reason behind using PySpark to build our product and how we made extensive use of Apache Zeppelin notebooks and branch-specific deployments in AWS EMR clusters for early experimentation. We will then show how we rewrote parts of the Python HMMLearn library using PySpark to achieve almost linear scalability. Finally, we will explain our use of AWS Data Pipelines to run daily jobs for both feature creation and scoring Zalando customers across 6 different countries, and how we support our product being used by several personalization products in different contexts.",
+  "duration": 2092,
+  "language": "eng",
+  "recorded": "2017-10-21",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "http://schedule.pycon.python.ie/"
+    }
+  ],
+  "speakers": [
+    "Humberto Corona",
+    "Sergio Gonzalez Sanz"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/aMl06NL99V0/maxresdefault.jpg",
+  "title": "Understanding Customer Intent at Scale in an e-commerce Platform",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aMl06NL99V0"
+    }
+  ]
+}
