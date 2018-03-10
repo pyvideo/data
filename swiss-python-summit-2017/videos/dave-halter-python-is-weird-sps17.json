@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "A lot of people think that Python is a really simple and straightforward language. Python hides a lot of peculiarities very well, but for the sake of this talk we will try to uncover them.\n\nI will be explaining how the whole process of tokenizing - parsing - ast creation - bytecode works and will use odd Python code to show the internals. Do you think `++4;` is valid Python? Or how about `0jif.1else-2`? There's no spaces in it. Go figure! \"Edge cases\" will help us understand the inner workings of Python.\n\nWe will be looking into how modules, classes and instances are really just fancy dictionaries and how importing is really nothing else than storing a module into a dictionary (`sys.modules`).\n\nThere's a lot of things we can learn from diving deep into the details of our beloved languages.\n\nTalk recorded at the Swiss Python Summit on February 17th, 2017.\n\nLicensed as Creative Commons Attribution 4.0 International",
+  "duration": 1978,
+  "language": "eng",
+  "recorded": "2017-02-17",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "http://www.python-summit.ch/pages/recordings.html"
+    }
+  ],
+  "speakers": [
+    "Dave Halter"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/6NVUbO7pFtA/maxresdefault.jpg",
+  "title": "Python is Weird",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6NVUbO7pFtA"
+    }
+  ]
+}
