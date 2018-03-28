@@ -1,5 +1,5 @@
 {
-  "$schema":"http://json-schema.org/draft-04/schema#",
+  "$schema":"http://json-schema.org/draft-07/schema#",
   "description":"The schema for a video record in pyvideo/data",
   "properties":{
     "alias":{
@@ -35,9 +35,13 @@
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "recorded":{
-      "description":"ISO 8601 Date on which video was recorded (YYYY-MM-DD)",
-      "anyOf": [{"type": "null"}, {"type": "string"}],
-      "format":"date-time"
+      "description":"ISO 8601 Date on which video was recorded (YYYY-MM-DD[Thh:mm[+hh:mm]])",
+      "anyOf": [
+        {"type": "null"},
+        {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}(T[0-9]{2}:[0-9]{2}:[0-9]{2}([+-][0-9]{2}:[0-9]{2})?)?$"
+        }]
     },
     "related_urls":{
       "description":"Array of related resources' URLs.",

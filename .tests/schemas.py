@@ -31,7 +31,10 @@ def check_schemas(data_root, schemas_dir, verbose=False):
                     error_count += 1
                     continue
                 try:
-                    jsonschema.validate(blob, schema_blob)
+                    jsonschema.validate(
+                        blob,
+                        schema_blob,
+                        format_checker=jsonschema.FormatChecker())
                 except jsonschema.exceptions.ValidationError as e:
                     print(file_path, flush=True)
                     if verbose:
