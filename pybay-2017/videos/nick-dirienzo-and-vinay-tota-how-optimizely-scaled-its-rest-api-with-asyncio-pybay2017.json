@@ -1,0 +1,23 @@
+{
+  "description": "With developers, an awesome product isn\u2019t everything, or at least we found that out. More than a product you need a platform. But what is a platform? Learn tips and tricks about building a public API using the latest and greatest tools: OpenAPI, Python 3 and asyncio.\n\n**Abstract**\n\nWith developers, an awesome product isn\u2019t everything, or at least we found that out. More than a product, you need a platform. But what is a platform? And how do you build one alongside all the other weird old code you might have inherited?\n\nIn a perfect world, Jeff Dean would ride in on a Unicorn with stone tablets inscribed with UML diagrams of an application architecture so perfect you\u2019d weep with joy. In the real world however that tends not to happen, so the process is a bit more iterative. Sometimes you try things that don\u2019t work or seem silly in retrospect.\n\nPart of our platform journey has been building a public API with our favorite hand picked technologies: OpenAPI and Python 3, especially asyncio. Building a rock solid, fast, and scalable Python application was not all rainbows and unicorns along the way. Through this process, we learned quite a bit about describing REST APIs and how modern Python concurrency mechanisms behave in the real world.\n\nWe\u2019ll share how we used OpenAPI to power our public API and improve the developer experience for both internal engineers and external consumers.\n\nWe started off with a mix of multiprocessing and asyncio, and have since migrated completely to asyncio. Also, we\u2019ll share a few of the things we've learned in the process, which we hope will help you if you choose to use asyncio.\n\n**Bios**\n\nNick DiRienzo is a software engineer at Optimizely. He enjoys writing code in Python, making developers\u2019 lives better, and eating Mission burritos.\n\nVinay Tota is currently a member of the Application Platform team at Optimizely. A long time ago wanted to be a theoretical physicist but now has way more fun hacking code. More recently he's worked on building high throughput low latency systems for ad serving using Python.",
+  "language": "eng",
+  "recorded": "2017-08-12",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pybay/2017-nick-dirienzo-vinay-tota-how-optimizely-scaled-its-rest-api-with-asyncio"
+    }
+  ],
+  "speakers": [
+    "Nick DiRienzo",
+    "Vinay Tota"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/jgLA9Hp-CvY/hqdefault.jpg",
+  "title": "How Optimizely Scaled its REST API with Asyncio",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jgLA9Hp-CvY"
+    }
+  ]
+}

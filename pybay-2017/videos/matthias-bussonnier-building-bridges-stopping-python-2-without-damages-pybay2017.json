@@ -1,0 +1,22 @@
+{
+  "description": "Deciding to stop support for Python 2 is a hard choice. As library authors we try to minimize the breakage for users. IPython recently moved from single-source to Python 3 only, and worked with Core Python to make such a transition possible and easy. We'll show you the new features available in pip/setuptools to make that easy for you, and tell you how the transition went for IPython.\n\n**Abstract**\n\nUp until December 2016 it was hard if not impossible to mark a release of a Python package or library only compatible with some version of Python. Pip would happily download a Python 3 only version on Python 2 system, install it and break users systems.\n\nAfter much work and patching many upstream project Python packagers can finally make user of the Requires-Python greater than or equal to 3.3 metadata, which will indicate to pip not to upgrade and thus shield most users from getting indecipherable error message from installing (or running) incompatible package versions.\n\nWhile these changes should now be widely available, not all systems are fully up-to-date, and knowing how things can fails is necessary to packaging your libraries accordingly. We'll show you how to prepare for such a transition.\n\nFinally we've release IPython 6.0 \u2013 using the above techniques \u2013 and have some numbers and our experience to share, for other to be ready if/when one of the library they know (or develop) is going to stop Python 2 support. Hopefully to do a tiny bit better than us.\n\n**Bio**\n\nMatthias Bussonnier is a Post Doctoral Scholar at the University of California Berkeley institute for data science and has been a core developer of IPython and Jupyter since 2012.",
+  "language": "eng",
+  "recorded": "2017-08-13",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pybay/2017-building-bridges-stopping-python-2-without-damages"
+    }
+  ],
+  "speakers": [
+    "Matthias Bussonnier"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3i6n1RwqQCo/hqdefault.jpg",
+  "title": "Building Bridges: Stopping Python 2 without damages",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3i6n1RwqQCo"
+    }
+  ]
+}

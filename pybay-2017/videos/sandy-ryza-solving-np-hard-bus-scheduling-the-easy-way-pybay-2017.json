@@ -1,0 +1,16 @@
+{
+  "description": "Which driver should drive which public bus, and when? At Remix, we use Python to build algorithms for NP-hard problems in transit-scheduling. In this talk, we\u2019ll discuss practical techniques for dealing with discrete optimization problems, including local search in raw Python and the PuLP library for integer programming.\n\n**Abstract**\n\n\nWhich driver should drive which public bus, and when? A bad answer means poor allocation of taxpayer dollars and miserable workdays for bus drivers. A good answer requires solving an NP-hard optimization problem. At Remix, we use Python to build optimization algorithms, because the ability to rapidly prototype new approaches matters more than the fewer cycles we\u2019d be able to squeeze out of languages like C++. Seemingly similar problems in public transit scheduling demand very different solutions. For example, packaging bus trips into daily shifts for drivers is amenable to integer programming, an optimization technique facilitated by Python's PuLP library. For packaging daily shifts into work-weeks, we found the most success using heuristic techniques that iteratively improve on an existing solution. This will be a practical talk about solving tough optimization problems as part of a product. It will describe the bus scheduling problems, why they\u2019re hard, and the techniques we encountered on our journey to solve them. The audience will come away with a few tricks to employ when encountering combinatorial optimization problems in their work.\n\n**Bio**\n\n\nSandy Ryza develops algorithms for public transit at Remix. Prior, he was a senior data scientist at Cloudera and Clover Health. He is an Apache Spark committer, Apache Hadoop PMC member, and author of O'Reilly's Advanced Analytics with Spark.",
+  "language": "eng",
+  "recorded": "2017-08-13",
+  "speakers": [
+    "Sandy Ryza"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/4lDhescxyoc/hqdefault.jpg",
+  "title": "Solving NP-Hard Bus-Scheduling the Easy Way",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4lDhescxyoc"
+    }
+  ]
+}

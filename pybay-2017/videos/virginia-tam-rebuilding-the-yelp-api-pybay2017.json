@@ -1,0 +1,22 @@
+{
+  "description": "Ever wanted to burn down your old code and start all over again? With the Yelp public API (known as the Yelp Fusion API), that\u2019s exactly what we did. In this talk, Virginia Tam, a software engineer at Yelp, will talk about the challenges the team faced building the newest version of the Fusion API and what we learned in the process.\n\n**Abstract**\n\nThis talk will be broken into four parts: the history of Yelp\u2019s public API, how we built the newest version, the challenges we faced, and the current state of the Fusion API.\n\nThe Yelp Fusion API provides non-Yelp developers the ability to query for business information as well as perform business searching. The previous version of this API (known as the v2 API) was first built in 2010. As of the time of this writing, the v2 API has well over 100,000 registered API keys from independent developers as well as partner companies.\n\nIn 2016, the API was in serious need of improvement. Authentication was done using OAuth 1.0, which does not use a secure SSL tunnel and thus employed a tedious handshake of tokens and client secrets between the client and the server. We wanted to move to OAuth 2.0, which uses SSL by default, but introducing these changes would have made authentication backwards incompatible for all existing users.\n\nThere was a strong desire to expose richer Yelp data by creating new endpoints, but because the code lived in a large monolithic codebase shared with several unrelated features, development would be time consuming as existing API code was tangled in legacy code. The existing API had a bulky design that made it difficult to add new data but was also impossible without breaking backwards compatibility.\n\nWe decided to use these shortcomings as an opportunity to re-build the API from the ground up using up-to-date tools and infrastructure available at Yelp. A lot had changed since 2010 -- we have a sophisticated microservices framework that allows us to develop independently of the monolithic codebase. We have new tools that would make building the API easier, provide easy endpoint creation, flexibility in choosing a datastore, and configurability in ecosystem factors such as memory allotment and library versioning. Starting from scratch also allowed us to design things the right way and consolidate a lot of common logic that had been previously duplicated and scattered throughout the codebase.\n\nToday, we have thousands of registered API keys for our new Fusion API that includes 12 partner companies who have incorporated Yelp data into their applications. We still face ongoing challenges such as the timeline for shutting down the old API and working with partners to help them migrate to the new API. In the future, we plan on expanding the Fusion API to provide even more data and enhance the developer experience with new endpoints to give insight on their API usage.\n\n**Bio**\n\nVirginia Tam is a software engineer who spent the beginning of her career in networking and device-level software development and eventually made the lateral move to backend web development. She is currently on the Partnerships team at Yelp where she works with external companies and organizations and builds the infrastructure to support syndicating out Yelp data, ingesting partner data, and building APIs for partners. Virginia also enjoys engaging with the developer community and is a former member of the Santa Clara Valley Society of Women Engineers where she organized several workshops to introduce middle and high school aged girls to STEM careers.",
+  "language": "eng",
+  "recorded": "2017-08-12",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pybay/2017-virginia-tam-building-the-yelp-api"
+    }
+  ],
+  "speakers": [
+    "Virginia Tam"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JYBZvvEfNdI/hqdefault.jpg",
+  "title": "Rebuilding the Yelp API",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JYBZvvEfNdI"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "The with statement is relatively recent, having been introduced in Python 2.5. You have most likely used it or have seen it used with files. What's a \"context manager\" anyway, and why can't I use any Python object with with unless it has one? In this talk, we'll cover some background, objects you can use with the with statement, and show you how to add context management to your own objects.\n\n**Abstract**\n\nThe with statement is relatively recent, having been introduced into Python by PEP 343 and making its debut in Python 2.5. You have likely now used it or seen it used with files. Those who are long-time members of the Python community are getting with it now (pun indented). What's a \"context manager\" anyway, and why can't I use any Python object with with unless it has one?\n\nIn this talk, we'll go over the background on it, covering the motivation behind context management, and how the with statement uses it and follows the RAII concept where \"resource allocation is initialization.\" We'll describe what Python objects you can use with the with statement, and show you how to add context management to your own objects so you can use them with with. This includes writing your own context manager class as well as short-form alternatives.\n\n**Bio**\n\nWESLEY CHUN is the author of Prentice Hall's bestselling \"Core Python\" (corepython.com) series, co-author of Python Web Development with Django (withdjango.com), and has written for Linux Journal, CNET, and InformIT. In addition to being an engineer & Developer Advocate at Google, he runs CyberWeb (cyberwebconsulting.com), a consultancy specializing in Python training. He has over 25 years of programming, teaching, and writing experience, including over two decades of Python! Wesley was one of the original Yahoo! Mail engineers and holds degrees in CS, Math, and Music from the University of California. He is a Fellow of the Python Software Foundation and can be reached on Google+ (+WesleyChun) or Twitter (@wescpy).",
+  "language": "eng",
+  "recorded": "2017-08-13",
+  "speakers": [
+    "Wesley Chun"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/BdiyoiohTBs/hqdefault.jpg",
+  "title": "Get with it",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BdiyoiohTBs"
+    }
+  ]
+}

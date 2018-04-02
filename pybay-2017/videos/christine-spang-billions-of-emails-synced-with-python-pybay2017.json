@@ -1,0 +1,22 @@
+{
+  "description": "The open source Nylas Sync Engine provides a RESTful API on top of a powerful email sync platform, making it easy to build messaging into apps. It\u2019s built using Python and gevent and has scaled to sync billions of messages over its lifetime deployment. In this talk, we\u2019ll show you how it\u2019s built and what technical challenges we\u2019ve solved along the way.\n\n**Abstract**\n\nWhy a sync engine?\n\nIf you\u2019ve ever tried to build anything that works with email, you\u2019ll find that it\u2019s a problem full of twisty corners: the protocols themselves are obtuse and require entire RFCs just to describe how to implement sync with them, if you want your integration to work with everyone\u2019s email you face implementing several different protocols or flavours of protocols (IMAP with CONDSTORE, IMAP with no CONDSTORE, Gmail IMAP, Exchange Web Services, Exchange ActiveSync, Office365 REST) plus OAuth authentication for different providers, and once you\u2019ve gotten data flowing you still need to handle parsing email, which involves a complex format known as MIME as well as pretty much every way of encoding non-ASCII text as ASCII that has ever been invented.\n\nWe\u2019ve built a platform that layers a sync engine over 30 years of email history and allows developers to read and write to mailboxes and calendars using a modern REST API. It\u2019s not just a simple proxy that makes calls to IMAP or Exchange behind the scenes: in order to meet the speed and reliability demands our customers require, when a user connects their email account to a developer\u2019s app, our infrastructure syncs a copy of that mailbox and keeps it up-to-date as changes are made from that app or traditional web, mobile, and desktop email clients. This is a demanding technical challenge and wasn\u2019t easy to build.\n\nHow a sync engine?\n\nA semi-monolithic application composed of several services that all share a common database and a fair amount of code, but run on separate server fleets (email sync, api frontend, webhooks, etc.)\n\n~90k lines of Python, including tests and migrations\n\n**Bio**\n\nChristine went to MIT, dropped out of an operating systems graduate program to be an early engineer at Ksplice, and most recently cofounded Nylas, a startup building an email platform. When she's not building rock-solid infrastructure for the Internet or speaking around the world at conferences like DebConf and PyCon, rumour has it she can be found on cliff walls, remote trails, and dance floors. She lives in Oakland, California.",
+  "language": "eng",
+  "recorded": "2017-08-13",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pybay/2017-christine-spang-billions-of-emails-nylas"
+    }
+  ],
+  "speakers": [
+    "Christine Spang"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/IstUaWa8NBE/hqdefault.jpg",
+  "title": "Billions of Emails Synced with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IstUaWa8NBE"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "description": "You may have heard of edX.org, the MOOC site created by Harvard and MIT, but did you know that the software powering this site is open source and written in Python? We\u2019ll do a technical deep dive and explore how this software is built in a scalable way to serve millions of concurrent learners, and also show you how you can create your own Open edX site to deliver online courses at scale.\n\n**Abstract**\n\n\nWhat does it take to build a web application that can serve millions of concurrent users? This talk will dissect Open edX, the open source online learning platform that powers edX.org and hundreds of other sites around the world.\n\nOpen edX is written in Django but relies on a slew of other software to work at scale. We\u2019ll break down the components of the entire software architecture, and explain how each component is used. This will give attendees some insights into how they might architect their web application if they\u2019re building software to serve a large audience.\n\nWe\u2019ll discuss how Open edX utilizes both MySQL and MongoDB as data stores and why it uses MySQL for student data and MongoDB for course data. We\u2019ll describe the queing architecture of Celery and RabbitMQ to process background jobs, and Hadoop for processing terabytes of learner analytics data.\n\nDevOps enthusiasts will not be disappointed as we\u2019ll go into the use of Ansible and Terraform for deploying the entire suite of software in a consistent and repeatable way up to popular cloud providers such as AWS, Google Cloud and Azure.\n\n**Bio**\n\n\nMy first exposure to Python was in 2003 when I began using the Plone CMS, which is based on Zope. This ignited a lifelong love affair with Python. In 2004, I founded Jazkarta, a Boston-based web consultancy to build websites for organizations like Harvard, Oxfam and Smithsonian. Back when PaaS\u2019es were sexy, I founded DjangoZoom to make it easy to get your Django apps running in the cloud. Now I\u2019m leading the 20 person distributed team at Appsembler, whose mission is to empower trainers and educators to create delightful online learning experiences.",
+  "language": "eng",
+  "recorded": "2017-08-13",
+  "speakers": [
+    "Nate Aune"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/61cahGRFnBQ/hqdefault.jpg",
+  "title": "Anatomy of Open edX - a modern online learning platform",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=61cahGRFnBQ"
+    }
+  ]
+}

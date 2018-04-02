@@ -1,0 +1,22 @@
+{
+  "description": "This talk will teach you how to use and extend tools for automated checks on Python projects. Are your imports a mess? No reasonable order, stdlib modules mixed with third-party ones? There's a tool to fix that. Tired of checking for security patches of the libs in your requirements.txt? Let a tool do this for you. We'll learn about many other tools and we'll also discuss how to build new ones.\n\n**Abstract**\n\nWhile it's very common to enforce PEP8 code style with tools like pycodestyle or flake8, it's rare for Python projects to use other types of tools for automated checks. However, there are many common problems in readability, security, configuration, etc that could be avoided by using other linters and tools, for example:\n\nAre your imports a complete mess, with third-party modules mixed with stdlib ones? You can use \"isort\" to organize and separate them.\nTired of checking if your project requirements received security patches? Let \"safety\" do that for you.\nHated when that fellow developer pushed a huge file that slowed your repository pulls forever? A \"pre-commit\" hook with a simple check could've prevented that.\nIs your code cluttered with unused legacy functions and classes? Check and prevent that with \"vulture\".\nAs we can see from the list above, many issues can be prevented at commit or CI time with automated tools. In this talk, we'll discuss how to configure and use those tools. Also, we'll learn the role of static analysis in those tools, which will enable us to extend them and build new ones.\n\nHere is a non-exhaustive list of tools that will be presented:\n\n* prospector: https://github.com/landscapeio/prospector\n* pylint: https://github.com/PyCQA/pylint\n* safety: https://github.com/pyupio/safety\n* bandit: https://github.com/openstack/bandit\n* pre-commit: http://pre-commit.com/\n* isort: https://github.com/timothycrosley/isort\n* vulture: https://github.com/jendrikseipp/vulture\n* pycycle: https://github.com/bndr/pycycle\n* pyt: https://github.com/python-security/pyt\n* Django System check framework: https://docs.djangoproject.com/en/1.10/ref/checks/\n\n**Bio**\n\nWeb developer from Brazil. Loves beautiful high-quality products, from UX to code, and will defend them against unreasonable deadlines and crazy features. Partner at Vinta (https://www.vinta.com.br/), a web consultancy specialized in building products with React and Django.",
+  "language": "eng",
+  "recorded": "2017-08-13",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pybay/2017-preventing-headaches-with-linters-and-automated-checks"
+    }
+  ],
+  "speakers": [
+    "Flavio Juvenal"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mXqKaM8Ddac/hqdefault.jpg",
+  "title": "Preventing headaches with linters and automated checks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mXqKaM8Ddac"
+    }
+  ]
+}

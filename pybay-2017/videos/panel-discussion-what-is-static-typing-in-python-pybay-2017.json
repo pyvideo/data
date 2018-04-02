@@ -1,0 +1,25 @@
+{
+  "description": "This panel discussion was MC by Daniel Pyrathon and held as part of the opening night at PyBay, SF Bay Area's regional Python Conference, on Friday, August 11, 2017.  For more information on PyBay, visit https://pybay.com, subscribe to be notified of upcoming conferences.\n\nWhat is static typing in Python?\n\nPython added support for annotation as part of function definitions with PEP 3107. PEP 484 later provided a standard syntax for type annotations, bringing static analysis, runtime type checking, and faster refactoring to Python. Since Python is a dynamic programming language, type hints don\u2019t have any influence at runtime, but they allow certain tools to save time with fewer bugs. For example, IDEs such as PyCharm are able to perform safer refactoring, and static analysis tools such as Mypy can perform further type checks during build phases.\n\nSo far, static typing has been adopted by some renowned open source projects such as Zulip and is used at companies such as Google, Instagram, Lyft, and Quora.\n\nWhat will we be speaking about during this panel?\n\nWe\u2019ll be making this panel discussion accessible to everyone, so expect the panel to start with an introduction to static typing and then go deeper into best practices, support, and experience from open source project maintainers and companies. Since this feature has been a topic of substantial debate in the community, we\u2019ll be discussing not only the pros but also the cons of this feature. Indeed, there are situations where type hinting may do more harm than good, and our panelists will be sharing with us their words of advice on this topic.\n\nWhy might this panel discussion be interesting to you?\n\nType hints are one of the new additions to the Python syntax may drastically increase the speed at which you program. Beginners will learn more about where the language development is heading.\nOpen source project maintainers and contributors will learn the tooling, support, and best \u201cgetting started\u201d advice from our expert panelists.\n\nProject managers, CTOs, and engineers will learn how type hints can make their team more productive. We know companies spend a huge amount of money recruiting and sourcing engineers, and I\u2019m sure they would do everything possible to make their onboarding experience more enjoyable, easier and faster since employees can expect to be more productive with an annotated codebase.\nThis panel will not only help developers learn more about static typing, but also help identify areas where static type checking isn\u2019t doing a good job, and learn how we can all improve it together.\n\nOur panelists\nAnd now for the part that I\u2019m most proud of, our list of panelists:\n\n* \u0141ukasz Langa\n\n  \u0141ukasz is one of the PEP484 authors, a Python core developer, and currently a Production Engineer at Facebook. \u0141ukasz has also been using mypy at work and I imagine has also been part of the latest push to port Instagram\u2019s code base to Python 3! \u0141ukasz is a long-time Python contributor, was a mentor for the Python Software Foundation for Google Summer of Code, and has spoken about Python around the world.\n\n* Jelle Zijlstra\n\n  Jelle is a Staff Engineer at Quora, where he works on infrastructure, internationalization, development tools, and ML infrastructure. He\u2019s a contributor to mypy and has also used mypy at Quora. Jelle will offer his perspective on advocating for static type checking at a great engineering organization like Quora and will also be talking about typeshed, a project that hosts type stubs for the standard library and major third-party libraries.\n\n* Ethan Smith\n\n  Ethan has been involved with mypy for a while and has been working on typical, a project that uses the frame evaluation API (PEP 523) to dynamically generate stubs. While Ethan is still in college, he has been doing some amazing work to improve the support of type hints.\n\n* Andrey Vlasovskikh\n\n  Andrey is the PyCharm community lead and maintainer of IdeaVim. PyCharm is used by many Python developers and its support for type checking \u201cout of the box\u201d makes it easy for developers to adopt.\n\n* Matthias Kramm\n\n  Matthias is the author of pytype, one of the maintainers of typeshed, and has been working on Python static analysis tools for Google. Pytype is used in a few hundred projects at Google, including YouTube! Matthias will give us great insight into adopting type checking \u201cat scale\u201d!",
+  "language": "eng",
+  "recorded": "2017-08-11",
+  "speakers": [
+    "\u0141ukasz Langa",
+    "Jelle Zijlstra",
+    "Ethan Smith",
+    "Andrey Vlasovskikh",
+    "Matthias Kramm",
+    "Daniel Pyrathon"
+  ],
+  "tags": [
+    "panel",
+    "static-typing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XkCyrLN5r2M/hqdefault.jpg",
+  "title": "Panel Discussion: What is Static Typing in Python?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XkCyrLN5r2M"
+    }
+  ]
+}

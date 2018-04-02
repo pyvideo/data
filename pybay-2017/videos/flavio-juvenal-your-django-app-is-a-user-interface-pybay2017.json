@@ -1,0 +1,22 @@
+{
+  "description": "Usability heuristics are a useful way to evaluate an interface. An often overlooked aspect of Django apps is they\u2019re interfaces too, one that connects the developer with a reusable solution. In this talk, we\u2019ll learn how to apply usability concepts to Django apps to make them better to (re)use.\n\n**Abstract**\n\nDjango docs say \"Reusability is the way of life in Python. You only need to write the parts that make your project unique\". The Django way to write reusable code is Django apps, which are straightforward to write. The vast quantity of apps available in PyPI and Django Packages proves that.\n\nHowever, there is one overlooked aspect of apps: they are an interface between the developer and a reusable solution for a problem. Therefore, as any interface, Usability Heuristics should be used to evaluate Django apps efficacy. In this talk, we'll learn how to apply Usability Heuristics to Django apps to make them better to (re)use.\n\nTalk outline:\n\nUnix Philosophy and Django apps concept\nAesthetic and minimalist design\nHow to design for the 90% use case\nProgressive disclosure and Affordance\nDocs first\nHow to write beautiful app code with declarative programming\nHow to write simple app code by minimizing state\nConsistency and Recognition rather than recall\nHow common Django idioms increase recognition\nHow existing Django abstractions help increase recognition\nHow separating concerns with Django abstractions increase recognition\nFlexibility and efficiency of use\nHow making the other 10% use case possible with an extensible granular API\nThe concept of Integration Discontinuity\nHow to break Django abstractions to increase extensibility\nHow a granular API allows composition of apps\nError prevention and recovery\nHow to use Django system check framework to prevent errors and give tips\nHow to fail-fast if an error occurs, preventing some unexpected state\ndjangoappschecklist.com\nHow the community can help define a good practices checklist\n\n**Bio**\n\nWeb developer from Brazil. Loves beautiful high-quality products, from UX to code, and will defend them against unreasonable deadlines and crazy features. Partner at Vinta (https://www.vinta.com.br/), a web consultancy specialized in building products with React and Django.",
+  "language": "eng",
+  "recorded": "2017-08-12",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pybay/2017-your-django-app-is-a-user-interface"
+    }
+  ],
+  "speakers": [
+    "Flavio Juvenal"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Mnzvjn1v1CY/hqdefault.jpg",
+  "title": "Your Django app is a User Interface",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Mnzvjn1v1CY"
+    }
+  ]
+}

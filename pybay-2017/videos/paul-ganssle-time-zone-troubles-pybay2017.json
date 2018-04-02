@@ -1,0 +1,16 @@
+{
+  "description": "This talk will cover how to deal with time zone-related edge cases like daylight savings time, and will provide an understanding of the way python handles time zones. It will go over how to use the time zone classes provided by dateutil.tz and pytz, and the advantages and disadvantages of each.\n\n**Abstract**\n\nAmbiguous datetimes occur when a time zone's UTC offset moves backwards (such as during a daylight saving time transition), leading to two datetimes with identical \"wall time\"; their complement, imaginary datetimes are \"wall times\" that do not exist in a given time zone, because they were skipped over when a time zone's UTC offset moved forward. Python 3.6 introduces a \"fold\" attribute to allow for disambiguation of local times (PEP495).\n\nThis talk will cover dealing with edge cases related to ambiguous and imaginary datetimes, the different approaches taken by pytz and dateutil, what changes with PEP 495, and some lessons learned from implementing backwards-compatible PEP495-compliant tzinfo classes in the dateutil library.\n\n**Bio**\n\nPaul Ganssle is a software developer at Bloomberg and the maintainer of python-dateutil. He previously was a physical chemist working on low-field NMR.",
+  "language": "eng",
+  "recorded": "2017-08-12",
+  "speakers": [
+    "Paul Ganssle"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/l4UCKCo9FWY/hqdefault.jpg",
+  "title": "Time Zone Troubles",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=l4UCKCo9FWY"
+    }
+  ]
+}

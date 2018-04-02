@@ -1,0 +1,22 @@
+{
+  "description": "In this talk, we will discuss the design of Quora's asynq framework, which provides an asynchronous API to a global scheduler for data requests. We will explore in depth the common problem that motivated it, the design of the framework, and how it has been used in practice to make both the product and development faster at Quora.\n\n**Abstract**\n\nIn order to provide a fast distributed web application to millions of Quora users, we need to be smart about batching data requests to minimize the time spent blocked on network I/O. Moreover, it's important to accomplish this batching in a general way that doesn't require repetitive work every time we make a change or require new data. In this talk, we will discuss the design of Quora's asynq framework, which provides an asynchronous API to a global scheduler for data requests. We will explore in depth the common problem that motivated it, the design of the framework, and how it has been used in practice to make both the product and development faster at Quora.\n\n**Bio**\n\nRiley Patterson is a software engineering manager on the Platform Frameworks Team at Quora. Our core web application platform is built in Python on top of a web framework that we built on the core of Pylons. As such, the Platform Team uses and builds a wide variety of Python tools and abstractions to enable faster, more effective, and more enjoyable development across the entire team at Quora.",
+  "language": "eng",
+  "recorded": "2017-08-12",
+  "related_urls": [
+    {
+      "label": "talk slides",
+      "url": "https://speakerdeck.com/pybay/2017-performant-asynchronous-programming-at-quora"
+    }
+  ],
+  "speakers": [
+    "Riley Patterson"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/0iqibyfxw3w/hqdefault.jpg",
+  "title": "Performant Asynchronous Programming at Quora",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0iqibyfxw3w"
+    }
+  ]
+}
