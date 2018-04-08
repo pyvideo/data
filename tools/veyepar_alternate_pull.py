@@ -4,12 +4,11 @@ import json
 import os
 import sys
 from urllib.parse import urlparse
-sys.path.insert(0, '.')
 
 from pelican.utils import slugify
 from requests import get
 
-from tools.constants import JSON_FORMAT_KWARGS
+from constants import JSON_FORMAT_KWARGS
 
 
 def make_video_file(videos_dir, video_data):

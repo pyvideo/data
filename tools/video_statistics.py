@@ -12,9 +12,8 @@ import collections
 import json
 import logging
 import sys
-sys.path.insert(0, '.')
 
-from tools.utils import get_json_files
+from utils import get_json_files
 
 
 def is_void(data):

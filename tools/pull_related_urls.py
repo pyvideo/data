@@ -3,10 +3,9 @@ import logging
 import json
 import re
 import sys
-sys.path.insert(0, '.')
 
-from tools.constants import JSON_FORMAT_KWARGS
-from tools.utils import get_json_files
+from constants import JSON_FORMAT_KWARGS
+from utils import get_json_files
 
 RE_URL = re.compile('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
 

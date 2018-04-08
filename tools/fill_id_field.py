@@ -9,10 +9,8 @@ import json
 import logging
 import sys
 
-sys.path.insert(0, '.')
-
-from tools.utils import get_json_files
-from tools.constants import JSON_FORMAT_KWARGS
+from utils import get_json_files
+from constants import JSON_FORMAT_KWARGS
 
 
 def get_json_data(file_name):

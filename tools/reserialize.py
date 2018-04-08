@@ -3,10 +3,9 @@ import logging
 import json
 
 import sys
-sys.path.insert(0, '.')
 
-from tools.constants import JSON_FORMAT_KWARGS
-from tools.utils import get_json_files
+from constants import JSON_FORMAT_KWARGS
+from utils import get_json_files
 
 
 def reserialize(file_):

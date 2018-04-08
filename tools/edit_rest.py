@@ -5,8 +5,8 @@ from subprocess import call
 import tempfile
 
 import sys
-sys.path.insert(0, '.')
-from tools.constants import JSON_FORMAT_KWARGS
+
+from constants import JSON_FORMAT_KWARGS
 
 
 EDITOR = os.environ.get('EDITOR', 'vim')

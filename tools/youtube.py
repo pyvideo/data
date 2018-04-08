@@ -48,15 +48,15 @@ import json
 import os
 import re
 import sys
-sys.path.insert(0, '.')
+
 import time
 import uuid
 from urllib.parse import urlencode
 
 import requests
 
-from tools.constants import JSON_FORMAT_KWARGS
-from tools.utils import slugify
+from constants import JSON_FORMAT_KWARGS
+from utils import slugify
 
 
 ENV_VAR_API_KEY = 'GOOGLE_API_KEY'
