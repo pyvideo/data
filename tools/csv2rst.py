@@ -9,8 +9,7 @@ import json
 import logging
 import os.path
 import sys
-sys.path.insert(0, '.')
-from tools.constants import JSON_FORMAT_KWARGS
+from constants import JSON_FORMAT_KWARGS
 
 
 def create_sample_csv(filename):
