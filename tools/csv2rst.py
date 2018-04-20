@@ -1,8 +1,19 @@
 #!/usr/bin/env python3
 # coding: utf-8
 """
-Translates a lightning talk description from csv to ReStructuredText
+Prints a table of contents for a lightning talks description field.
+
+Translates a lightning talk timetable from csv timetable to a table of contents
+in ReStructuredText format, for use in the description field. The input csv
+should be in the following format:
+
+  Time,Speaker,Title
+  00:00,Albus Dumbledore,"Not who, but how?"
+  06:25,Hermione Granger,Fear of a name only increases fear of the thing itself
+  11:51,Lord Voldemort,Avada Kedavra
+  ...
 """
+
 import argparse
 import csv
 import json
@@ -70,8 +81,7 @@ def add_description(json_file, description):
 def main():
     """Translates a lightning talk description from csv to ReStructuredText"""
     parser = argparse.ArgumentParser(
-        description=
-        'Create a lightning talk description field from a csv timetable.')
+        description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument(
         "csv", default='lightning.csv', help="path to csv file", type=str)
     parser.add_argument("video_url", help="youtube video url", type=str)
