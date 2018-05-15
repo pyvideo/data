@@ -1,0 +1,36 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Speaker: Alvaro Leiva Geisse\n\nDone! Your shiny new application is functionally complete and ready to be deployed to production! But how exactly do you deploy properly on Linux? Wonder no more! In 30 minutes, this talk explains how you can harness the power of the init system and systemd to solve common deployment problems, including some that you didn't even know you had. Examples of things we will cover:\n\n* How to secure your system by having: private /tmp for your process, read-only paths so that your process can not write to them, inaccessible paths, protect users home, network access, bin directories, etc.\n* How to limit the resources you app can consume.\n* How to interact directly with systemd, so it can start transient units, start/stop services, mount disks, resolve addresses.\n* How to isolate your service without containers.\n* How to isolate your service using containers (using systemd to spawn a namespace).\n\nAll this will be covered from a Python developer's perspective.\n\n\nSlides can be found at: https://speakerdeck.com/pycon2018 and https://github.com/PyCon/2018-slides",
+  "duration": 1622,
+  "language": "eng",
+  "recorded": "2018-05-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2018/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (Github)",
+      "url": "https://github.com/PyCon/2018-slides"
+    },
+    {
+      "label": "Conference slides (SpeakerDeck)",
+      "url": "https://speakerdeck.com/pycon2018"
+    },
+    "https://speakerdeck.com/pycon2018",
+    "https://github.com/PyCon/2018-slides"
+  ],
+  "speakers": [
+    "TODO",
+    "enter_manually"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZUX9Fx8Rwzg/maxresdefault.jpg",
+  "title": "Alvaro Leiva Geisse - Systemd: why you should care as a Python developer - PyCon 2018",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZUX9Fx8Rwzg"
+    }
+  ]
+}

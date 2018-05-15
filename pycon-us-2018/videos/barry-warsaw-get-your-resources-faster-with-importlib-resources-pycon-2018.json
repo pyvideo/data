@@ -1,0 +1,36 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Speaker: Barry Warsaw\n\nResources are files that live within Python packages.  Think test data files, certificates, templates, translation catalogs, and other static files you want to access from Python code.  Sometimes you put these static files in a package directory within your source tree, and then locate them by importing the package and using its `__file__` attribute.  But this doesn't work for zip files!\n\nYou could use `pkg_resources`, an API that comes with `setuptools` and hides the differences between files on the file system and files in a zip file.  This is great because you don't have to use `__file__`, but it's not so great because `pkg_resources` is a big library and can have potentially severe performance problems, even at import time.\n\nWelcome to `importlib.resources`, a new module and API in Python 3.7 that is also available as a standalone library for older versions of Python.  `importlib.resources` is build on top of Python's existing import system, so it is very efficient.  It also defines an abstract base class which loaders can implement to provide their own resource access.  Python's built-in zipimporter uses this to provide efficient access to resources within a zip file.  Third party import hooks can do the same, so resources can come from anything that is importable by Python.\n\nThis talk will step through the motivations behind `importlib.resources`, the library's usage, its interfaces, and the hooks made available to third party packages.  It will also talk about the minor differences between the standalone version and the version in Python 3.7's standard library.  Hopefully audience members will come away with compelling reasons to port their code to this much more efficient library.\n\nSlides can be found at: https://speakerdeck.com/pycon2018 and https://github.com/PyCon/2018-slides",
+  "duration": 1722,
+  "language": "eng",
+  "recorded": "2018-05-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2018/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (Github)",
+      "url": "https://github.com/PyCon/2018-slides"
+    },
+    {
+      "label": "Conference slides (SpeakerDeck)",
+      "url": "https://speakerdeck.com/pycon2018"
+    },
+    "https://speakerdeck.com/pycon2018",
+    "https://github.com/PyCon/2018-slides"
+  ],
+  "speakers": [
+    "TODO",
+    "enter_manually"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZsGFU2qh73E/maxresdefault.jpg",
+  "title": "Barry Warsaw - Get your resources faster, with importlib.resources - PyCon 2018",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZsGFU2qh73E"
+    }
+  ]
+}

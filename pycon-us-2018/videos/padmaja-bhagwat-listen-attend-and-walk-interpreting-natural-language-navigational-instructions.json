@@ -1,0 +1,36 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Speaker: Padmaja Bhagwat\n\nImagine you have an appointment in a large building you do not know. Your host sent instructions describing how to reach their office. Though the instructions were fairly clear, in a few places, such as at the end, you had to infer what to do. How does a _robot (agent)_ interpret an instruction in the environment to infer the correct course of action? Enabling harmonious _Human - Robot Interaction_ is of primary importance if they are to work seamlessly alongside people.\n\nDealing with natural language instructions in hard because of two main reasons, first being, Humans - through their prior experience know how to interpret natural language but agents can\u2019t, and second is overcoming the ambiguity that is inherently associated with natural language instructions. This talk is about how deep learning models were used to solve such complex and ambiguous problem of converting natural language instruction into its corresponding action sequence.\n\nFollowing verbal route instructions requires knowledge of language, space, action and perception. In this talk I shall be presenting, a neural sequence-to-sequence model for direction following, a task that is essential to realize effective autonomous agents.\n\nAt a high level, a sequence-to- sequence model is an end-to-end model made up of two recurrent neural networks:\n\n- **Encoder** - which takes the model\u2019s input sequence as input and encodes it into a fixed-size context vector.\n- **Decoder** - which uses the context vector from above as a seed from which to generate an output sequence.\n\nFor this reason, sequence-to-sequence models are often referred to as _encoder-decoder_ models. The alignment based encoder-decoder model would translate the natural language instructions into corresponding action sequences. This model does not assume any prior linguistic knowledge: syntactic, semantic or lexical. The model learns the meaning of every word, including object names, verbs, spatial relations as well as syntax and the compositional semantics of the language on its own.\n\nIn this talk, steps involved in pre-processing of data, training the model, testing the model and final simulation of the model in the virtual environment will be discussed. This talk will also cover some of the challenges and trade-offs made while designing the model.\n\nSlides can be found at: https://speakerdeck.com/pycon2018 and https://github.com/PyCon/2018-slides",
+  "duration": 1662,
+  "language": "eng",
+  "recorded": "2018-05-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2018/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (Github)",
+      "url": "https://github.com/PyCon/2018-slides"
+    },
+    {
+      "label": "Conference slides (SpeakerDeck)",
+      "url": "https://speakerdeck.com/pycon2018"
+    },
+    "https://speakerdeck.com/pycon2018",
+    "https://github.com/PyCon/2018-slides"
+  ],
+  "speakers": [
+    "TODO",
+    "enter_manually"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/MJBWAkE7cEo/maxresdefault.jpg",
+  "title": "Padmaja Bhagwat - Listen, Attend, and Walk : Interpreting natural language navigational instructions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MJBWAkE7cEo"
+    }
+  ]
+}
