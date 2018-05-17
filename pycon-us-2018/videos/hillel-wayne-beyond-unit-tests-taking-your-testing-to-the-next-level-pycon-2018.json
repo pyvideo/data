@@ -1,6 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "You've used pytest and you've used mypy, but bugs are still slipping through your code. What's next? In this talk, we cover two simple but powerful tools for keeping your code problem-free. Property-based testing, provided by the [Hypothesis](/redirect?q=https%3A%2F%2Fhypothesis.readthedocs.io%2Fen%2Flatest%2F&redir_token=hh0nlD6dihqtvpfnS9FA10NgM7d8MTUyNjUwODQ4NUAxNTI2NDIyMDg1&v=MYucYon2-lk&event=video_description) library, lets you run hundreds of tests from a single template. Contracts, via [dpcontracts](https://github.com/deadpixi/contracts), make your program test itself. You'll learn how and why to use these tools and how to combine them with the rest of your testing suite.",
+  "description": "You've used pytest and you've used mypy, but bugs are still slipping through your code. What's next? In this talk, we cover two simple but powerful tools for keeping your code problem-free. Property-based testing, provided by the `Hypothesis <https://hypothesis.readthedocs.io/en/latest/>`_ library, lets you run hundreds of tests from a single template. Contracts, via `dpcontracts <https://github.com/deadpixi/contracts>`_, make your program test itself. You'll learn how and why to use these tools and how to combine them with the rest of your testing suite.",
   "duration": 1760,
   "language": "eng",
   "recorded": "2018-05-12",
@@ -17,7 +17,14 @@
       "label": "Conference slides (SpeakerDeck)",
       "url": "https://speakerdeck.com/pycon2018"
     },
-    "https://github.com/deadpixi/contracts"
+    {
+      "label": "Hypothesis",
+      "url": "https://hypothesis.readthedocs.io/en/latest/"
+    },
+    {
+      "label": "dpcontracts",
+      "url": "https://github.com/deadpixi/contracts"
+    }
   ],
   "speakers": [
     "Hillel Wayne"

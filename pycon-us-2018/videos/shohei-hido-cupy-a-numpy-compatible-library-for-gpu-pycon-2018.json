@@ -1,6 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "![Logo][/redirect?v=MAz1xolSB68&event=video_description&q=https%3A%2F%2Fraw.githubusercontent.com%2Fcupy%2Fcupy%2Fmaster%2Fdocs%2Fimage%2Fcupy_logo_1000px.png&redir_token=4wyIbQcU1mynjVesgpyqdtoIgSB8MTUyNjUwODQ2MUAxNTI2NDIyMDYx]\n\n# CuPy : NumPy-like API accelerated with CUDA\n\n[**Website**](https://cupy.chainer.org/) | [**Docs**](https://docs-cupy.chainer.org/en/stable/) | [**Install Guide**](/redirect?v=MAz1xolSB68&event=video_description&q=https%3A%2F%2Fdocs-cupy.chainer.org%2Fen%2Fstable%2Finstall.html&redir_token=4wyIbQcU1mynjVesgpyqdtoIgSB8MTUyNjUwODQ2MUAxNTI2NDIyMDYx) | [**Tutorial**](/redirect?v=MAz1xolSB68&event=video_description&q=https%3A%2F%2Fdocs-cupy.chainer.org%2Fen%2Fstable%2Ftutorial%2F&redir_token=4wyIbQcU1mynjVesgpyqdtoIgSB8MTUyNjUwODQ2MUAxNTI2NDIyMDYx) | **Examples** ([Official](/redirect?v=MAz1xolSB68&event=video_description&q=https%3A%2F%2Fgithub.com%2Fcupy%2Fcupy%2Fblob%2Fmaster%2Fexamples&redir_token=4wyIbQcU1mynjVesgpyqdtoIgSB8MTUyNjUwODQ2MUAxNTI2NDIyMDYx)) | [**Forum**](/redirect?v=MAz1xolSB68&event=video_description&q=https%3A%2F%2Fgroups.google.com%2Fforum%2F%23%21forum%2Fcupy&redir_token=4wyIbQcU1mynjVesgpyqdtoIgSB8MTUyNjUwODQ2MUAxNTI2NDIyMDYx)\n\nCuPy is an open-source library with NumPy syntax that increases speed by doing matrix operations on NVIDIA GPUs. It is accelerated with the CUDA platform from NVIDIA and also uses CUDA-related libraries, including cuBLAS, cuDNN, cuRAND, cuSOLVER, cuSPARSE, and NCCL, to make full use of the GPU architecture. CuPy's interface is highly compatible with NumPy; in most cases it can be used as a drop-in replacement. CuPy supports various methods, data types, indexing, broadcasting, and more.",
+  "description": ".. figure:: https://cupy.chainer.org/images/cupy.png\n   :alt: Logo\n\n**CuPy : NumPy-like API accelerated with CUDA**\n\n\n`Website`_ \\| `Docs`_ \\| `Install Guide`_ \\| `Tutorial`_ \\| **Examples**\n(`Official`_) \\| `Forum`_\n\nCuPy is an open-source library with NumPy syntax that increases speed by\ndoing matrix operations on NVIDIA GPUs. It is accelerated with the CUDA\nplatform from NVIDIA and also uses CUDA-related libraries, including\ncuBLAS, cuDNN, cuRAND, cuSOLVER, cuSPARSE, and NCCL, to make full use of\nthe GPU architecture. CuPy\u2019s interface is highly compatible with NumPy;\nin most cases it can be used as a drop-in replacement. CuPy supports\nvarious methods, data types, indexing, broadcasting, and more.\n\n.. _Website: https://cupy.chainer.org/\n.. _Docs: https://docs-cupy.chainer.org/en/stable/\n.. _Install Guide: https://docs-cupy.chainer.org/en/stable/install.html\n.. _Tutorial: https://docs-cupy.chainer.org/en/stable/tutorial/\n.. _Official: https://github.com/cupy/cupy/blob/master/examples\n.. _Forum: https://groups.google.com/forum/#!forum/cupy",
   "duration": 1811,
   "language": "eng",
   "recorded": "2018-05-12",
@@ -17,8 +17,30 @@
       "label": "Conference slides (SpeakerDeck)",
       "url": "https://speakerdeck.com/pycon2018"
     },
-    "https://cupy.chainer.org/",
-    "https://docs-cupy.chainer.org/en/stable/"
+    {
+      "label": "Website",
+      "url": "https://cupy.chainer.org/"
+    },
+    {
+      "label": "Docs",
+      "url": "https://docs-cupy.chainer.org/en/stable/"
+    },
+    {
+      "label": "Install Guide",
+      "url": "https://docs-cupy.chainer.org/en/stable/install.html"
+    },
+    {
+      "label": "Tutorial",
+      "url": "https://docs-cupy.chainer.org/en/stable/tutorial/"
+    },
+    {
+      "label": "Official",
+      "url": "https://github.com/cupy/cupy/blob/master/examples"
+    },
+    {
+      "label": "Forum",
+      "url": "https://groups.google.com/forum/#!forum/cupy"
+    }
   ],
   "speakers": [
     "Shohei Hido"
