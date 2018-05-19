@@ -1,6 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "Speakers: Philip James, Asheesh Laroia\n\nIn this talk, you\u2019ll learn about a category of security issue known as side channel attacks. You\u2019ll be amused to see how features like automatic data compression, short-circuit execution, and deterministic hashing can be abused to bypass security systems. No security background knowledge is required. The talk assumes at least intermediate Python experience.\n\nWe\u2019ll take a tour of real side channel vulnerabilities in open source Python codebases, including the patches that fixed them. It also offers practical advice for avoiding these issues. My goal is to demystify this topic, even if you aren\u2019t writing security-critical software.",
+  "description": "In this talk, you\u2019ll learn about a category of security issue known as side channel attacks. You\u2019ll be amused to see how features like automatic data compression, short-circuit execution, and deterministic hashing can be abused to bypass security systems. No security background knowledge is required. The talk assumes at least intermediate Python experience.\n\nWe\u2019ll take a tour of real side channel vulnerabilities in open source Python codebases, including the patches that fixed them. It also offers practical advice for avoiding these issues. My goal is to demystify this topic, even if you aren\u2019t writing security-critical software.",
   "duration": 1815,
   "language": "eng",
   "recorded": "2018-05-13",
@@ -22,7 +22,10 @@
     "Philip James",
     "Asheesh Laroia"
   ],
-  "tags": [],
+  "tags": [
+    "security",
+    "vulnerability"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/dT2xjgUInhQ/maxresdefault.jpg",
   "title": "All in the timing: How side channel attacks work",
   "videos": [
