@@ -1,6 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "Speakers: Tom Augspurger, James Crist, Martin Durant\n\nThe libraries that power data analysis in Python are essentially limited to a single CPU core and to datasets that fit in RAM. Attendees will see how dask can parallelize their workflows, while still writing what looks like normal python, NumPy, or pandas code.\n\nDask is a parallel computing framework, with a focus on analytical computing. We'll start with `dask.delayed`, which helps parallelize your existing Python code. We\u2019ll demonstrate `dask.delayed` on a small example, introducing the concepts at the heart of dask like the *task graph* and the *schedulers* that execute tasks. We\u2019ll compare this approach to the simpler, but less flexible, parallelization methods available in the standard library like `concurrent.futures`.\n\nAttendees will see the high-level collections dask provides for writing regular Python, NumPy, or Pandas code that is then executed in parallel on datasets that may be larger than memory. These high level collections provide a familiar API, but the execution model is very different. We'll discuss concepts like the GIL, serialization, and other headaches that come up with parallel programming. We\u2019ll use dask\u2019s various schedulers to illustrate the differences between multi-threaded, multi-processes, and distributed computing.\n\nDask includes a distributed scheduler for executing task graphs on a cluster of machines. We\u2019ll provide each person access to their own cluster.",
+  "description": "The libraries that power data analysis in Python are essentially limited to a single CPU core and to datasets that fit in RAM. Attendees will see how dask can parallelize their workflows, while still writing what looks like normal python, NumPy, or pandas code.\n\nDask is a parallel computing framework, with a focus on analytical computing. We'll start with `dask.delayed`, which helps parallelize your existing Python code. We\u2019ll demonstrate `dask.delayed` on a small example, introducing the concepts at the heart of dask like the *task graph* and the *schedulers* that execute tasks. We\u2019ll compare this approach to the simpler, but less flexible, parallelization methods available in the standard library like `concurrent.futures`.\n\nAttendees will see the high-level collections dask provides for writing regular Python, NumPy, or Pandas code that is then executed in parallel on datasets that may be larger than memory. These high level collections provide a familiar API, but the execution model is very different. We'll discuss concepts like the GIL, serialization, and other headaches that come up with parallel programming. We\u2019ll use dask\u2019s various schedulers to illustrate the differences between multi-threaded, multi-processes, and distributed computing.\n\nDask includes a distributed scheduler for executing task graphs on a cluster of machines. We\u2019ll provide each person access to their own cluster.",
   "duration": 11630,
   "language": "eng",
   "recorded": "2018-05-10",
@@ -23,7 +23,9 @@
     "James Crist",
     "Martin Durant"
   ],
-  "tags": [],
+  "tags": [
+    "dask"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/_UWRQZ3nFm0/maxresdefault.jpg",
   "title": "Parallel Data Analysis with Dask",
   "videos": [

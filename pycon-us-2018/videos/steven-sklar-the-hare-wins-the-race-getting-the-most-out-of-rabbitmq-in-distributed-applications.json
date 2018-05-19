@@ -1,7 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": "As web apps grow increasingly complex, distributing asynchronous work across multiple background workers is often a basic requirement of a performant app.  While there are a variety of tools that exist to solve this issue, one common feature among them is the need for a robust messaging platform.\n\n[RabbitMQ][1] is a stable, full-featured, and mature solution that is usually found in the Python ecosystem backing [Celery][2] implementations.  While Celery's utilization of RabbitMQ works just fine out of the gate, users with complex workflows, unique constraints, or tight budgets can take advantage of the flexibility of RabbitMQ to streamline their data pipelines and get the most out of their infrastructure.\n\nThis talk will provide an overview of RabbitMQ, review its varied message-routing capabilities, and demonstrate some of the ways in which these features can be utilized in Python applications to solve common yet difficult use-cases.\n\n[1]: https://www.rabbitmq.com/\n[2]: http://www.celeryproject.org/",
-  "duration": 1736,
+  "description": "As web apps grow increasingly complex, distributing asynchronous work\nacross multiple background workers is often a basic requirement of a\nperformant app. While there are a variety of tools that exist to solve\nthis issue, one common feature among them is the need for a robust\nmessaging platform.\n\n`RabbitMQ`_ is a stable, full-featured, and mature solution that is\nusually found in the Python ecosystem backing `Celery`_ implementations.\nWhile Celery\u2019s utilization of RabbitMQ works just fine out of the gate,\nusers with complex workflows, unique constraints, or tight budgets can\ntake advantage of the flexibility of RabbitMQ to streamline their data\npipelines and get the most out of their infrastructure.\n\nThis talk will provide an overview of RabbitMQ, review its varied\nmessage-routing capabilities, and demonstrate some of the ways in which\nthese features can be utilized in Python applications to solve common\nyet difficult use-cases.\n\n.. _RabbitMQ: https://www.rabbitmq.com/\n.. _Celery: http://www.celeryproject.org/",
   "language": "eng",
   "recorded": "2018-05-13",
   "related_urls": [
@@ -17,13 +16,22 @@
       "label": "Conference slides (SpeakerDeck)",
       "url": "https://speakerdeck.com/pycon2018"
     },
-    "http://www.celeryproject.org/",
-    "https://www.rabbitmq.com/"
+    {
+      "label": "RabbitMQ",
+      "url": "https://www.rabbitmq.com/"
+    },
+    {
+      "label": "Celery",
+      "url": "http://www.celeryproject.org/"
+    }
   ],
   "speakers": [
     "Steven Sklar"
   ],
-  "tags": [],
+  "tags": [
+    "celery",
+    "rabbitmq"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/WXkhJ92-fsY/maxresdefault.jpg",
   "title": "The Hare Wins the Race: Getting the most out of RabbitMQ in distributed applications",
   "videos": [

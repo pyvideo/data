@@ -1,6 +1,6 @@
 {
   "copyright_text": "Standard YouTube License",
-  "description": ".. figure:: https://cupy.chainer.org/images/cupy.png\n   :alt: Logo\n\n**CuPy : NumPy-like API accelerated with CUDA**\n\n\n`Website`_ \\| `Docs`_ \\| `Install Guide`_ \\| `Tutorial`_ \\| **Examples**\n(`Official`_) \\| `Forum`_\n\nCuPy is an open-source library with NumPy syntax that increases speed by\ndoing matrix operations on NVIDIA GPUs. It is accelerated with the CUDA\nplatform from NVIDIA and also uses CUDA-related libraries, including\ncuBLAS, cuDNN, cuRAND, cuSOLVER, cuSPARSE, and NCCL, to make full use of\nthe GPU architecture. CuPy\u2019s interface is highly compatible with NumPy;\nin most cases it can be used as a drop-in replacement. CuPy supports\nvarious methods, data types, indexing, broadcasting, and more.\n\n.. _Website: https://cupy.chainer.org/\n.. _Docs: https://docs-cupy.chainer.org/en/stable/\n.. _Install Guide: https://docs-cupy.chainer.org/en/stable/install.html\n.. _Tutorial: https://docs-cupy.chainer.org/en/stable/tutorial/\n.. _Official: https://github.com/cupy/cupy/blob/master/examples\n.. _Forum: https://groups.google.com/forum/#!forum/cupy",
+  "description": ".. figure:: https://cupy.chainer.org/images/cupy.png\n   :alt: Logo\n   :figclass: header\n\n\n**CuPy : NumPy-like API accelerated with CUDA**\n\n\n`Website`_ \\| `Docs`_ \\| `Install Guide`_ \\| `Tutorial`_ \\| **Examples**\n(`Official`_) \\| `Forum`_\n\nCuPy is an open-source library with NumPy syntax that increases speed by\ndoing matrix operations on NVIDIA GPUs. It is accelerated with the CUDA\nplatform from NVIDIA and also uses CUDA-related libraries, including\ncuBLAS, cuDNN, cuRAND, cuSOLVER, cuSPARSE, and NCCL, to make full use of\nthe GPU architecture. CuPy\u2019s interface is highly compatible with NumPy;\nin most cases it can be used as a drop-in replacement. CuPy supports\nvarious methods, data types, indexing, broadcasting, and more.\n\n.. _Website: https://cupy.chainer.org/\n.. _Docs: https://docs-cupy.chainer.org/en/stable/\n.. _Install Guide: https://docs-cupy.chainer.org/en/stable/install.html\n.. _Tutorial: https://docs-cupy.chainer.org/en/stable/tutorial/\n.. _Official: https://github.com/cupy/cupy/blob/master/examples\n.. _Forum: https://groups.google.com/forum/#!forum/cupy",
   "duration": 1811,
   "language": "eng",
   "recorded": "2018-05-12",
@@ -45,7 +45,10 @@
   "speakers": [
     "Shohei Hido"
   ],
-  "tags": [],
+  "tags": [
+    "cupy",
+    null
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/MAz1xolSB68/maxresdefault.jpg",
   "title": "CuPy: A NumPy-compatible Library for GPU",
   "videos": [
