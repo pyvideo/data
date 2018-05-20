@@ -1,0 +1,41 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Concurrent programs are super useful: think of web apps juggling lots of\nsimultaneous downloads and websocket connections, chat bots tracking\nmultiple concurrent conversations, or web spiders fetching pages in\nparallel. But *writing* concurrent programs is complicated, intimidating\nto newcomers, and often challenging even for experts.\n\nDoes it have to be? Python is famous for being simple and\nstraightforward; can Python make concurrent programming simple and\nstraightforward too? I think so. By carefully analyzing usability\npitfalls in other libraries, and taking advantage of new Python 3\nfeatures, I\u2019ve come up with a new set of primitives that make it\ndramatically easier to write correct concurrent programs, and\nimplemented them in a new library called `Trio`_. In this talk, I\u2019ll\ndescribe these primitives, and demonstrate how to use them to implement\na basic algorithm for speeding up TCP connections. Compared to the best\nprevious Python implementation, our version turns out to be easier to\nunderstand, more correct, and dramatically shorter.\n\nThis talk assumes basic familiarity with Python, but does *not* require\nany prior experience with concurrency, async/await, or networking.\n\n.. _Trio: https://trio.readthedocs.io",
+  "duration": 1920,
+  "language": "eng",
+  "recorded": "2018-05-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2018/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (Github)",
+      "url": "https://github.com/PyCon/2018-slides"
+    },
+    {
+      "label": "Conference slides (SpeakerDeck)",
+      "url": "https://speakerdeck.com/pycon2018"
+    },
+    {
+      "label": "Trio",
+      "url": "https://trio.readthedocs.io"
+    }
+  ],
+  "speakers": [
+    "Nathaniel J. Smith"
+  ],
+  "tags": [
+    "trio",
+    "async",
+    "concurrency"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/oLkfnc_UMcE/maxresdefault.jpg",
+  "title": "Trio: Async concurrency for mere mortals",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=oLkfnc_UMcE"
+    }
+  ]
+}

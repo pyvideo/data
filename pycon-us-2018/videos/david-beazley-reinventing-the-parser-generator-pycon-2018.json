@@ -1,0 +1,37 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Writing lexers and parsers is a complex problem that often involves the use of special tools and domain specific languages (e.g., the lex/yacc tools on Unix).  In 2001, I wrote Python versions of these tools which can be found in the PLY project.  PLY predates a huge number of modern Python features including the iteration protocol, generators, decorators, metaclasses, and more.  As such, it relied on a variety of clever hacks to layer a domain specific parser specification language on top of Python itself.\n\nIn this talk, I discuss a modernization of the PLY project that abandons its past and freely abuses modern Python features including advanced metaclasses, guaranteed dictionary ordering, class decorators, type hints, and more.   The result of this work can be found in the SLY project.  However, this talk isn't so much about SLY as it is focused on how far you can push Python metaprogramming features to create domain-specific languages.   Prepare to be horrified--and to write code that will break your IDE.\n",
+  "duration": 2701,
+  "language": "eng",
+  "recorded": "2018-05-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2018/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (Github)",
+      "url": "https://github.com/PyCon/2018-slides"
+    },
+    {
+      "label": "Conference slides (SpeakerDeck)",
+      "url": "https://speakerdeck.com/pycon2018"
+    }
+  ],
+  "speakers": [
+    "David Beazley"
+  ],
+  "tags": [
+    "ply",
+    "sly",
+    "parser"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/zJ9z6Ge-vXs/maxresdefault.jpg",
+  "title": "Reinventing the Parser Generator",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zJ9z6Ge-vXs"
+    }
+  ]
+}

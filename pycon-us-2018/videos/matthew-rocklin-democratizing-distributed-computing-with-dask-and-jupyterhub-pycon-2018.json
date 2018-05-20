@@ -1,0 +1,38 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "We use JupyterHub, XArray, Dask, and Kubernetes to build a cloud-based system to enable scientists to analyze and manage large datasets.  We use this in practice to serve a broad community of atmospheric and climate scientists.\n\nAtmospheric and climate scientists analyze large volumes of observational and simulated data to better understand our planet.  They have historically used tools like NumPy and SciPy along with Jupyter notebooks to combine efficient computation with accessibility.  However, as datasets increase in size and collaboration extends to new populations of scientists these tools begin to feel their age.  In this talk we use more recent libraries to build a modern deployment for academic scientists.  In particular we use the following tools:\n\n- **Dask:** to parallelize and scale NumPy computations\n- **XArray**: as a self-discribing data model and tool kit for labeled and index arrays\n- **JupyterLab:** to enable more APIs for users beyond the classic notebook\n- **JupyterHub:** to manage users and maintain environments for a new population of cloud-friendly users\n- **Kubernetes:** to manage everything and deploy easily on cloud hardware\n\nThis talk will focus less on how these libraries work and will instead be a case study of using them together in an operational setting.  During the talk we will build up and deploy a running system that the audience can then use to access distributed computing resources.",
+  "duration": 1925,
+  "language": "eng",
+  "recorded": "2018-05-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2018/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (Github)",
+      "url": "https://github.com/PyCon/2018-slides"
+    },
+    {
+      "label": "Conference slides (SpeakerDeck)",
+      "url": "https://speakerdeck.com/pycon2018"
+    }
+  ],
+  "speakers": [
+    "Matthew Rocklin"
+  ],
+  "tags": [
+    "jupyterhub",
+    "xarray",
+    "dask",
+    "kubernetes"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Iq72dt1gO9c/maxresdefault.jpg",
+  "title": "Democratizing Distributed Computing with Dask and JupyterHub",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Iq72dt1gO9c"
+    }
+  ]
+}

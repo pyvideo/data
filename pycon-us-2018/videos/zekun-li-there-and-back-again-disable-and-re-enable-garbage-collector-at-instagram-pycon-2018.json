@@ -1,0 +1,35 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Python's cyclic garbage collector wonderfully hides the complexity of memory management from the programmer. But we pay the price in performance. Ever wondered how that works? In this talk, you'll learn how garbage collection is designed in Python, what the tradeoffs are and how Instagram battled copy-on-write memory issues by disabling the garbage collector entirely.\n\nYou'll also learn why that isn't such a great idea after all and how we ended up extending the garbage collector API which allowed us to (mostly) re-enable garbage collection. We'll discuss our upstream contributions to the garbage collector that landed in Python 3.6 and 3.7.\n\nThis is an in-depth talk about memory management but no prior experience with CPython internals is necessary to follow it.",
+  "duration": 1451,
+  "language": "eng",
+  "recorded": "2018-05-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2018/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (Github)",
+      "url": "https://github.com/PyCon/2018-slides"
+    },
+    {
+      "label": "Conference slides (SpeakerDeck)",
+      "url": "https://speakerdeck.com/pycon2018"
+    }
+  ],
+  "speakers": [
+    "Zekun Li"
+  ],
+  "tags": [
+    "garbage collector"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WVnACT48CkE/maxresdefault.jpg",
+  "title": "There and Back Again: Disable and re-enable garbage collector at Instagram",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WVnACT48CkE"
+    }
+  ]
+}

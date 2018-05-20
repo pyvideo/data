@@ -1,0 +1,45 @@
+{
+  "copyright_text": "Standard YouTube License",
+  "description": "Occasionally we\u2019ll find that some bit of Python we\u2019ve written doesn\u2019t\nrun as fast as we\u2019d like, what can we do? Performance bottlenecks aren\u2019t\nalways intuitive or easy to spot by reading code so we need to collect\ndata with `profiling`_. Once we\u2019ve identified the bottleneck we\u2019ll need\nto change our approach, but what options are faster than others?\n\nThis talk illustrates a Python performance investigation and\nimprovements using an `Advent of Code`_ programming challenge. I\u2019ll walk\nthrough starting from a slow (but correct) solution, look at profiling\ndata to investigate *why* it\u2019s slow, and explore multiple paths for\nimproving performance, including more efficient algorithms and using\nthird-party tools like `Cython`_. You\u2019ll leave this talk with a recipe\nfor analyzing Python performance and information about some options for\nimproved performance.\n\n.. _profiling: https://docs.python.org/3.6/library/profile.html\n.. _Advent of Code: http://www.adventofcode.com/\n.. _Cython: http://cython.org/",
+  "duration": 1835,
+  "language": "eng",
+  "recorded": "2018-05-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2018/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (Github)",
+      "url": "https://github.com/PyCon/2018-slides"
+    },
+    {
+      "label": "Conference slides (SpeakerDeck)",
+      "url": "https://speakerdeck.com/pycon2018"
+    },
+    {
+      "label": "profiling",
+      "url": "https://docs.python.org/3.6/library/profile.html"
+    },
+    {
+      "label": "Advent of Code",
+      "url": "http://www.adventofcode.com/"
+    },
+    {
+      "label": "Cython",
+      "url": "http://cython.org/"
+    }
+  ],
+  "speakers": [
+    "Matt Davis"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yrRqNzJTBjk/maxresdefault.jpg",
+  "title": "Python Performance Investigation by Example",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yrRqNzJTBjk"
+    }
+  ]
+}
