@@ -19,7 +19,6 @@ import csv
 import json
 import logging
 import os.path
-import sys
 from constants import JSON_FORMAT_KWARGS
 
 
@@ -45,8 +44,8 @@ def csv_description_to_rst(filename, url):
             hiperlink_underscore = '_'
         return ("   * - {}{}\n"
                 "     - {}\n"
-                "     - {}\n").format(time, hiperlink_underscore, speaker,
-                                      title)
+                "     - {}\n").format(time, hiperlink_underscore,
+                                      speaker.strip(), title.strip())
 
     head = (".. list-table:: Lightning Talks\n"
             "   :widths: 10 30 60\n"
@@ -61,9 +60,16 @@ def csv_description_to_rst(filename, url):
         lightning_reader = csv.DictReader(csvfile)
         for row in lightning_reader:
             body += body_line(row['Time'], row['Speaker'], row['Title'])
-            minutes, seconds = row['Time'].split(':')
-            footer += ".. _{}: {}{}t={}m{}s\n".format(
-                row['Time'], url, url_argument_operator, minutes, seconds)
+            timestamp = row['Time'].split(':')
+            if len(timestamp) == 2:
+                minutes, seconds = timestamp
+                footer += ".. _{}: {}{}t={}m{}s\n".format(
+                    row['Time'], url, url_argument_operator, minutes, seconds)
+            elif len(timestamp) == 3:
+                hours, minutes, seconds = timestamp
+                footer += ".. _{}: {}{}t={}h{}m{}s\n".format(
+                    row['Time'], url, url_argument_operator, hours, minutes,
+                    seconds)
     return head + body + footer
 
 
