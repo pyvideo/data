@@ -14,10 +14,10 @@
   ],
   "summary": "Tiffany steht f\u00fcr beliebiges Tiff. Das kleine Modul l\u00f6st eine grosse\nMenge\n\nvon Problemen, hat keine Abh\u00e4ngigkeiten, keine Binaries und l\u00e4uft\n\n\u00fcberall wo Python l\u00e4uft.\n\nBei der Entwicklung von Pydica (Distributed Document Capture) wurden wir\n\nmit dem Problem konfrontiert, mehrseitige Tiff-Dateien anzuzeigen. Das\n\nGUI-Toolkit PySide (Qt) unterst\u00fctzt zwar Tiff, zeigt jedoch nur die\nerste Seite.\n\nZudem behandeln wir Fax-komprimierte Dateien, was Qt aber unterst\u00fctzt.\n\nPIL verf\u00fcgt \u00fcber eine Bereinigung der Tiff-Tags, kommt aber nicht mit\nder\n\nFax-Kompression zurecht. Es gibt seit langem einen Patch daf\u00fcr, jedoch\nist\n\nder Build-Prozess erschwert und zieht mit libtiff eine Kette von\nAbh\u00e4ngigkeiten\n\nnach sich.\n\nDaher benutzt Tiffany einige wenige Dateien aus PIL ohne diese zu\nver\u00e4ndern und t\u00e4uscht\n\nvor, die Tiff-Dateien zu entpacken, tut es aber nicht. Es werden\nlediglich die\n\nTiff-Tags ordentlich aufbereitet. Die komprimierten Daten werden so\n\u00fcbernommen\n\nwie sie sind. Beim Schreiben von Dateien werden daher lediglich die\nvorhandenen\n\nDaten in anderer Reihenfolge wieder zusammengesetzt.\n\nIm Vortrag werde ich die Implementierung vorstellen sowie weitere\nAlternativen,\n\ndie Zukunft von PIL sowie auf weitere Tips und Kniffe in unserem Projekt\neingehen.\n",
   "tags": [
-    " distributed document capture",
-    " monkey-patching",
+    "distributed document capture",
+    "monkey-patching",
     "multipage-tiff",
-    " pil"
+    "pil"
   ],
   "thumbnail_url": "http://i2.ytimg.com/vi/qiZS1b_XFGs/hqdefault.jpg",
   "title": "Tiffany - Multipage-Tiff Lesen und Schreiben mit PIL ohne PIL ",

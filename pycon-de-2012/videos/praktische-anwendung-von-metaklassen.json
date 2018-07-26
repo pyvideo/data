@@ -15,7 +15,7 @@
   "summary": "Metaklassen (metaclasses) in Python werden oft als exotische\nSpracheigenschaft betrachtet. Der Vortrag zeigt anhand konkreter\nBeispiele, wie sich Metaklassen in realen Projekten zum Debuggen und zum\nCode vereinfachen einsetzen lassen.\n\nPraktische Anwendungen von Metaklassen\n======================================\n\nPython besitzt mit den Metaklassen ein sehr m\u00e4chtiges Werkzeug, um\northogonale Eigenschaften eines Programms zu Implementieren. Das\nStichwort dazu lautet \"aspektorientiertes Programmieren\". Leider werden\nMetaklassen aber oft als komplex und schwierig angesehen.\n\nDer Vortrag zeigt an einem konkreten Beispiel, wie sich durch die\nVerwendung von Metaklassen Programmentwicklung vereinfachen kann.\nKonkret wird die Implementation eines einfachen Debug- und Trace\nFrameworks vorgestellt.\n\nDieses erlaubt das nachtr\u00e4gliche instrumentieren von Klassen-Methoden,\num eine selektive Ablaufverfolgung von Methodenaufrufen auf Objekten\nerm\u00f6glicht. Dies wird erreicht, ohne das diese Debug Aufrufe im normalen\nQuellcode erscheinen oder bei nicht Benutzung Performance Auswirkungen\nhaben.\n",
   "tags": [
     "debugging",
-    " metaclasses"
+    "metaclasses"
   ],
   "thumbnail_url": "http://i2.ytimg.com/vi/-dU-O8ksYDM/hqdefault.jpg",
   "title": "Praktische Anwendung von Metaklassen",
