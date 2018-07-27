@@ -1,0 +1,36 @@
+{
+  "description": "Pythran is an open source compiler for scientific kernels written in Python.\n\nIts goal is to turn scientific kernels written in Python into native modules that runs much faster, take advantage of SIMD instruction units, multi-cores, get rid of the GIL without sacrifying high-level programing. As such it understands a strict subset of the Python language, keeping 100% backward compatibiliy with the original language.\n\nLooks cool? It is. But the target niche is small (high performance computing in Python and several great tools already exist (Cython, Numba). How have Pythran survived in the OSS jungle for 6 years while gathering a small but living community?\n\nThe following points will be discussed:\n\n * making reasonable technical choices\n * targeting a niche\n * sharing the joy\n * surviving the Python3 switch\n * building a community\n * surviving the bus factor\n * finding funding\n * not becoming a workaholic\n",
+  "duration": 2800,
+  "language": "eng",
+  "recorded": "2018-02-03",
+  "related_urls": [
+    {
+      "label": "Pythran on Github",
+      "url": "https://github.com/serge-sans-paille/pythran"
+    },
+    {
+      "label": "Talk conference schedule",
+      "url": "https://fosdem.org/2018/schedule/event/pythran/"
+    }
+  ],
+  "speakers": [
+    "Serge Guelton"
+  ],
+  "tags": [
+    "pythran\n"
+  ],
+  "thumbnail_url": null,
+  "title": "Surviving in an Open Source Niche: the Pythran case",
+  "videos": [
+    {
+      "length": 2800,
+      "type": "webm",
+      "url": "https://ftp.osuosl.org/pub/fosdem/2018/K.1.105%20(La%20Fontaine)/pythran.webm"
+    },
+    {
+      "length": 2800,
+      "type": "mp4",
+      "url": "https://ftp.osuosl.org/pub/fosdem/2018/K.1.105%20(La%20Fontaine)/pythran.mp4"
+    }
+  ]
+}

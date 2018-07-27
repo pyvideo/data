@@ -1,0 +1,40 @@
+{
+  "description": "Fast native code for Python\n\nThe Cython compiler is the most widely used static compiler for Python. It is used to speed up Python code and to extend the CPython runtime with fast native extension modules that process huge amounts of data all around the world. This talk by one of the core developers gives a quick intro into the compiler, the language, and some of its main applications in the Python big-data ecosystem.\n\nCython is not just a Python compiler or a native code wrapping tool, but also a programming language in its own right that mixes the Python language with C and C++ data types. The fact that you can simply drop Python code into it and compile it gives a very low entry level into performance optimisation by statically compiling your critical code and then tuning it into fast C to make it run faster.\n\nIn this talk, I will guide you through some examples where the compilation of regular Python code leads to faster execution, and present ways how to make the code run much faster.",
+  "duration": 2994,
+  "language": "eng",
+  "recorded": "2018-02-03",
+  "related_urls": [
+    {
+      "label": "Talk slides",
+      "url": "https://fosdem.org/2018/schedule/event/cython/attachments/slides/2137/export/events/attachments/cython/slides/2137/Stefan_Behnel_Cython_FOSDEM_2018.pdf"
+    },
+    {
+      "label": "Jupyter notebook",
+      "url": "https://fosdem.org/2018/schedule/event/cython/attachments/other/2138/export/events/attachments/cython/other/2138/JupyterNotebook_Cython.ipynb"
+    },
+    {
+      "label": "Talk conference schedule",
+      "url": "https://fosdem.org/2018/schedule/event/cython/"
+    }
+  ],
+  "speakers": [
+    "Stefan Behnel"
+  ],
+  "tags": [
+    "cython"
+  ],
+  "thumbnail_url": null,
+  "title": "Lift your Speed Limits with Cython",
+  "videos": [
+    {
+      "length": 2994,
+      "type": "webm",
+      "url": "https://ftp.osuosl.org/pub/fosdem/2018/K.1.105%20(La%20Fontaine)/cython.webm"
+    },
+    {
+      "length": 2994,
+      "type": "mp4",
+      "url": "https://video.fosdem.org/2018/K.1.105%20(La%20Fontaine)/cython.mp4"
+    }
+  ]
+}
