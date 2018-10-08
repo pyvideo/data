@@ -1,5 +1,5 @@
 {
-  "description": "Writing a function that the compiler will accept is much easier than writing a function that will get through code review on the first pass. I've written and reviewed lots of functions and the same advice comes up again and again.\n\n* Your function should have three parts: input, transform, and output. You should do them in order and not intermingle the three.\n\n* Keep the function readable by giving your reader context and keeping the amount of implied context low.\n\n* You can mostly ignore cargo cult practices like one-entry-one-exit and strict function length limits. We'll talk about why those cults exist and how to defend against them in a code review.\n\nPresentation page -- https://2017.pycon.ca/schedule/1/",
+  "description": "Writing a function that the compiler will accept is much easier than writing a function that will get through code review on the first pass. I've written and reviewed lots of functions and the same advice comes up again and again.\n\n* Your function should have three parts: input, transform, and output. You should do them in order and not intermingle the three.\n\n* Keep the function readable by giving your reader context and keeping the amount of implied context low.\n\n* You can mostly ignore cargo cult practices like one-entry-one-exit and strict function length limits. We'll talk about why those cults exist and how to defend against them in a code review.",
   "duration": 1776,
   "language": "eng",
   "recorded": "2017-11-18",
@@ -7,6 +7,10 @@
     {
       "label": "Event schedule",
       "url": "https://us.pycon.org/2017/schedule/talks/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/1/"
     }
   ],
   "speakers": [
