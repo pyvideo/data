@@ -14,15 +14,14 @@
   ],
   "summary": "Es wird das Konzept vorgestellt, wie man Projekte strukturieren kann um\nvon der ersten Minute an eine mind. dreistufige Landschaft (Entwicklung,\nQualit\u00e4tssicherung, Produktiv) vorzusehen.\n\nDie zentrale Rolle spielen getrennte Systemnutzer um isolierte\nUmgebungen zu erstellen. Dieser Ansatz ist f\u00fcr Python-Server-Anwendungen\nwie z.B Django- Anwendungen sehr gut anwendbar.\n\nSeit einiger Zeit setzen wir getrennte Linux-Nutzer anstatt virtualenv\nein. Das zentrale Merkmal, ist der Name des Systemnutzers:\n\nNamensschema des Linux-Nutzers: app\\_customer\\_stage\n\n-  app ist die Anwendung (zB cms)\n-  customer ist ein K\u00fcrzel f\u00fcr den Kunden\n-  stage ist d, q, p (dev, qual, prod).\n\nBeispiel:\n\n-  mycms\\_customer1\\_d Entwicklungssystem\n-  mycms\\_customer1\\_q Qualit\u00e4tssicherung\n-  mycms\\_customer1\\_p Produktivsystem\n\nIn einer zentralen Datei wird konfiguriert auf welchem Host welches\nSystem l\u00e4uft. Jedes System kennt das n\u00e4chste System (Bsp dev->qual), so\ndass ein Abgleich relativ einfach m\u00f6glich ist.\n\nDas simple System hat viele Vorteile, die ich in dem Vortrag vorstellen\nm\u00f6chte.\n",
   "tags": [
-    " deployment",
-    " linux",
+    "deployment",
+    "linux",
     "virtualenv"
   ],
   "thumbnail_url": "http://i1.ytimg.com/vi/hOqwe3wY7Yw/hqdefault.jpg",
   "title": "dev --+ qual --+ prod",
   "videos": [
     {
-      "length": null,
       "type": "mp4",
       "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/dev_qual_prod.mp4?Signature=8EQJ6QQ8BRflklrGTVxP5md1EBA%3D&Expires=1352283643&AWSAccessKeyId=FEWGReWX3QbNk0h3"
     },

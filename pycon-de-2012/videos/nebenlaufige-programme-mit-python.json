@@ -14,18 +14,17 @@
   ],
   "summary": "In diesem Vortrag soll es um Grundlagen nebenl\u00e4ufiger Programme gehen,\nwie sie mit den Modulen threading und multiprocessing m\u00f6glich sind.\n\nZuerst wird erkl\u00e4rt, in welchen F\u00e4llen Nebenl\u00e4ufigkeit sinnvoll ist.\nDanach wird auf die grunds\u00e4tzlichen Probleme nebenl\u00e4ufiger Programme\neingegangen, insbesondere \u00c4nderungen an gemeinsam genutzten Ressourcen\n(zum Beispiel Dateien oder auch \"nur\" Objekte im Speicher) durch mehrere\nThreads oder Prozesse. Schlie\u00dflich wird gezeigt, wie man solche\nRessourcen-Zugriffe durch Locks oder Queues entsch\u00e4rfen kann.\n",
   "tags": [
-    " deadlock",
+    "deadlock",
     "gil",
-    " multiprocessing",
-    " nebenl\u00e4ufigkeit",
-    " queue",
-    " threading"
+    "multiprocessing",
+    "nebenl\u00e4ufigkeit",
+    "queue",
+    "threading"
   ],
   "thumbnail_url": "http://i3.ytimg.com/vi/6Tb8TdovzGM/hqdefault.jpg",
   "title": "Nebenl\u00e4ufige Programme mit Python",
   "videos": [
     {
-      "length": null,
       "type": "mp4",
       "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Nebenlaufige_Programme_mit_Pyt.mp4?Signature=hgj654cto48%2BRi1MuwistmFeXFw%3D&Expires=1351855656&AWSAccessKeyId=FEWGReWX3QbNk0h3"
     },

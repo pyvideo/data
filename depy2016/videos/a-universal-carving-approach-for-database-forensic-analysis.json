@@ -1,7 +1,7 @@
 {
   "category": "DePy 2016",
   "copyright_text": "",
-  "description": "Forensic tools assist analysts with recovery of data and understanding system events, even when working with corrupted data storage. These tools rely on \"file carving\" techniques to restore files with damaged metadata by analyzing raw file content. While much of the sensitive data is stored and processed by databases, file carving tools for databases are practically non-existent because most databases (particularly commercial ones) do not document their storage formats. Internally, database content is kept in individual \"pages\" and follows a unique, yet consistent, set of rules for storage and maintenance. By directly accessing raw database storage, we can recover corrupted contents and reveal user activities that are hidden even from database administrators.\r\n\r\nThere are a number of database-specific tools developed for recovery and monitoring purposes but they are surprisingly limited in face of corruption or \"unintentional\" side-effects caused by normal database execution. In this talk, we present a universal tool that seamlessly supports many different databases, rebuilding table and other data content from any remaining storage fragments on disk or in memory. We also demonstrate just how much activity takes place under the hood of a database and present an overview of some things that can be discovered by directly investigating database internals.",
+  "description": "Forensic tools assist analysts with recovery of data and understanding system events, even when working with corrupted data storage. These tools rely on \"file carving\" techniques to restore files with damaged metadata by analyzing raw file content. While much of the sensitive data is stored and processed by databases, file carving tools for databases are practically non-existent because most databases (particularly commercial ones) do not document their storage formats. Internally, database content is kept in individual \"pages\" and follows a unique, yet consistent, set of rules for storage and maintenance. By directly accessing raw database storage, we can recover corrupted contents and reveal user activities that are hidden even from database administrators.\n\nThere are a number of database-specific tools developed for recovery and monitoring purposes but they are surprisingly limited in face of corruption or \"unintentional\" side-effects caused by normal database execution. In this talk, we present a universal tool that seamlessly supports many different databases, rebuilding table and other data content from any remaining storage fragments on disk or in memory. We also demonstrate just how much activity takes place under the hood of a database and present an overview of some things that can be discovered by directly investigating database internals.",
   "duration": null,
   "id": 4728,
   "language": "eng",
@@ -17,7 +17,6 @@
   "title": "A Universal Carving Approach for Database Forensic Analysis",
   "videos": [
     {
-      "length": null,
       "type": "youtube",
       "url": "http://youtu.be/I0ecuo8nGks"
     }

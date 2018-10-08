@@ -14,18 +14,17 @@
   ],
   "summary": "Python-Projekte haben immer h\u00e4ufiger alternative Datenbanken aus der\nnosql /newsql-Familie in ihrem Stack, seien es Graphendatenbanken wie\nNeo4j, Key- Value-Stores wie Redis oder dokumentenorientierte\nDatenbanken wie MongoDB.\n\nSo verschiedenartig diese Datenbanken auch sind, gemeinsam ist ihnen,\ndass sie nicht das relationale Datenmodell implementieren, Daten nicht\nin miteinander in Beziehung stehenden Entit\u00e4ten ablegen. W\u00e4hrend\nNicht-Normalisirung bei relationalen Datenbanken meist als Anti-Pattern\nangesehen wird, ist es bei schemafreien Datenbanken Prinzip, das\nschnelles und agiles Entwickeln und Deployen f\u00f6rdert.\n\nDieser Talk zeigt an Hand eines konkreten Use-Cases, welche Auswirkungen\ndie Verwendung einer nicht-relationalen Datenbank auf den\nEntwicklungsprozess hat, zeigt wie Daten modelliert werden k\u00f6nnen und\nauch, wie Ver\u00e4nderungen am Datenbankmodell implementiert werden k\u00f6nnen,\nwenn es kein \"Alter table\" mehr gibt.\n\nDiskutiert werden sollen dabei auch die Pros und Kontras der\nverschiedenen Datenmodelle hinsichtlich ihrer Query-M\u00f6glichkeiten, der\nQuery-Performance, Anforderungen an Plattenplatz und Auswirkungen auf\ndie Client/Anwendungsseite.\n",
   "tags": [
-    " agile softwareentwicklung",
-    " datenbank",
-    " datenmodellierung",
-    " nosql",
+    "agile softwareentwicklung",
+    "datenbank",
+    "datenmodellierung",
+    "nosql",
     "orm",
-    " python"
+    "python"
   ],
   "thumbnail_url": "http://i1.ytimg.com/vi/0re7PgM9Duc/hqdefault.jpg",
   "title": "Beziehungen? Nein danke! - Agile Datenbankentwicklung mit schemafreien Datenbanken und Python",
   "videos": [
     {
-      "length": null,
       "type": "mp4",
       "url": "http://s3.us.archive.org/nextdayvideo/pyconde/pyconde2012/Vortrag_Beziehungen_Nein_danke.mp4?Signature=GwcLq3LbRvmkwcwlWe3K%2FBqDsnE%3D&Expires=1351856279&AWSAccessKeyId=FEWGReWX3QbNk0h3"
     },
