@@ -1,0 +1,41 @@
+{
+  "copyright_text": null,
+  "description": "As Machine Learning models rely on data in order to make their predictions, data quality evaluation is a crucial aspect of any ML pipeline. We as Engineers/Data-Scientists, should validate our data in the same manner in which we validate our code. Data errors can lead to: Bad and costly decisions, Inaccurate predictions due to invalid data and Time waste. There is an abundance of different libraries that perform various kinds of data integrity checks. I will specifically focus on Dataframe validation.\n\nIn this talk, I will present the problem and give a practical overview (accompanied by Jupyter Notebook code examples) of three libraries that aim to address it:\n\n* Voluptuous - Which uses Schema definitions in order to validate data [https://github.com/alecthomas/voluptuous]\n* Engarde - A lightweight way to explicitly state your assumptions about the data and check that they're actually true [https://github.com/TomAugspurger/engarde]\n* TDDA - Test Driven Data Analysis [ https://github.com/tdda/tdda]\n\nBy the end of this talk, you will understand the Importance of data validation and get a sense of how to integrate data validation principles as part of the ML pipeline.",
+  "duration": 1570,
+  "language": "eng",
+  "recorded": "2018-06-04",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://il.pycon.org/2018/schedule/"
+    },
+    {
+      "label": "Talk slides",
+      "url": "https://s3-eu-west-1.amazonaws.com/pyconil-data-amit/presentations/DataFrame_Validation_PyconIl2018.pdf"
+    },
+    {
+      "label": "tdda repository",
+      "url": "https://github.com/tdda/tdda"
+    },
+    {
+      "label": "voluptuous repository",
+      "url": "https://github.com/alecthomas/voluptuous"
+    },
+    {
+      "label": "engarde repository",
+      "url": "https://github.com/TomAugspurger/engarde"
+    }
+  ],
+  "speakers": [
+    "Yotam Perkal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/1fHGXOfiDO0/maxresdefault.jpg",
+  "title": "Dataframe Validation In Python - A Practical Introduction",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1fHGXOfiDO0"
+    }
+  ]
+}

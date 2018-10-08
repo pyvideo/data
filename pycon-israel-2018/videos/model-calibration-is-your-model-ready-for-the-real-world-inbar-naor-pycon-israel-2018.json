@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Evaluating the performance of a machine learning model is important, but in many real world applications it is not enough. We often care about the confidence of the model in its predictions, its error distribution and how probability estimates are being made. Many classifiers have good overall results but bad probability estimates. For these cases, different calibration techniques have been developed over the years. Intuitively, a model is calibrated if among the samples that get 0.8 probability estimates, about 80% actually belong to the positive class. Even good data scientists sometimes forget about calibration and wrongly treat the model output as real probabilities, which could result in poor system performance or bad decision making. In this talk I will present different methods to calibrate a model such as platt scaling and isotonic regression, discuss how they behave with different classification methods and show how to test the calibration of your model. The lecture will be accompanied by code examples in python.",
+  "duration": 1290,
+  "language": "eng",
+  "recorded": "2018-06-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://il.pycon.org/2018/schedule/"
+    },
+    {
+      "label": "Talk slides",
+      "url": "https://s3-eu-west-1.amazonaws.com/pyconil-data-amit/presentations/Inbar+Naor_Calibration.pdf"
+    }
+  ],
+  "speakers": [
+    "Inbar Naor"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/FkfDlOnQVvQ/maxresdefault.jpg",
+  "title": "Model Calibration - is your model ready for the real world?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FkfDlOnQVvQ"
+    }
+  ]
+}

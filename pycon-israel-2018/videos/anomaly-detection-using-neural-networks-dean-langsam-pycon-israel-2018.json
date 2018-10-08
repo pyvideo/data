@@ -1,0 +1,33 @@
+{
+  "copyright_text": null,
+  "description": "BlueVine is a leading provider of funding for small and medium sized businesses with a primary focus on speed, simplicity and transparency. Models that make decisions in real-time are a critical part of that effort and must be strictly monitored. Consequently, it is the responsibility of every data scientist at BlueVine to both develop and maintain a high level of performance for every model they own. Maintaining code is a hard task in itself and it is discussed a lot among software developers: code needs to run without errors, and more importantly - must run as expected. In data science, the notion of what\u2019s expected becomes quite complex and sometimes not well-defined, due to the statistical nature of the problems. Without anomaly detection, it is possible for critical decisions to be made based on unexpected changes in the data or simply incorrect calculations. Therefore, it is critical to be able to detect such anomalies quickly while getting a concise message as to what is their nature. This quickly becomes a challenging task when keeping the human factor in mind - too many false positive may cause the user to become alert prone, thus rendering them useless, while a low detection rate may affect the integrity of our data. We leverage our historical data and some of the most advanced techniques in the field to classify anomalies against normal behaviour. We use Keras to train a neural network that predicts expected values in a time series using a series of previous timestamps. We also add auxiliary information for a rich multi-input prediction. If there were clear labels for anomalous data, a classifier could then be employed. This is not our case, and we need to find another strategy. We start with a trivial approach, comparing the difference between the prediction and the actual values. This method proved problematic as they would yield too many false positives and as robust thresholds would be hard to set manually for hundreds of time series. Therefore we used other methods for detection such as accumulating repeating anomalies that indicate continuous bursts and bayesian inference to detect shift in value distributions. Detecting changes in the behaviour of our data lets us quickly adapt and react. We can fix errors, change our ETL methods or retrain our models in a proactive manner.",
+  "duration": 1713,
+  "language": "eng",
+  "recorded": "2018-06-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://il.pycon.org/2018/schedule/"
+    },
+    {
+      "label": "Talk slides (Pdf)",
+      "url": "https://s3-eu-west-1.amazonaws.com/pyconil-data-amit/presentations/180605+Pycon-PyData+Dean+Langsam.pdf"
+    },
+    {
+      "label": "Talk slides (online)",
+      "url": "https://www.slideshare.net/DeanLangsam/anomaly-detection-using-neural-networks"
+    }
+  ],
+  "speakers": [
+    "Dean Langsam"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/A0Q9z2AKTlU/maxresdefault.jpg",
+  "title": "Anomaly Detection using Neural Networks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=A0Q9z2AKTlU"
+    }
+  ]
+}

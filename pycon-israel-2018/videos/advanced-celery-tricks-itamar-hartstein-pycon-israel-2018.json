@@ -1,0 +1,31 @@
+{
+  "copyright_text": null,
+  "description": "Advanced Celery Tricks - How we adapted and extended Celery to fit our data pipeline\n\nIn Singular, we have a data pipeline which consists of hundreds of thousands of daily tasks, in varying length (from less than a second to hours per task), and with complex dependencies between them. In addition, we integrate with hundreds of third-party providers, which means that tasks are not necessarily reliable / predictable, so we need to be robust to failures and delays and be able to monitor them easily. We found Celery to be highly suitable to our needs as a task infrastructure, especially due to its distributed nature, its support for various workflows and its modular design. In particular, the fact that it is compatible with multiple technologies for conveying messages (\"brokers\") and storing results (\"backends\") greatly appealed to us.\n\nIt wasn't an immediate fit however. We needed to extend Celery so it will fit our use cases: (1) We implemented a custom backend and a custom serialization method. (2) We tweaked the behavior of Celery's workflows (chains, groups and chords). (3) We needed to be able to update code easily without restarting workers. (4) and more..\n\nIn this session we will discuss how we adapted Celery to our needs, as well as tools we developed for working with it better, and various advanced tips & tricks.",
+  "duration": 1444,
+  "language": "eng",
+  "recorded": "2018-06-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://il.pycon.org/2018/schedule/"
+    },
+    {
+      "label": "Talk slides",
+      "url": "https://s3-eu-west-1.amazonaws.com/pyconil-data-amit/presentations/Itamar_Hartstein_Celery+-+PyCon+Presentation.pdf"
+    }
+  ],
+  "speakers": [
+    "Itamar Hartstein"
+  ],
+  "tags": [
+    "celery"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Bo6UtRhedjE/maxresdefault.jpg",
+  "title": "Advanced Celery Tricks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Bo6UtRhedjE"
+    }
+  ]
+}

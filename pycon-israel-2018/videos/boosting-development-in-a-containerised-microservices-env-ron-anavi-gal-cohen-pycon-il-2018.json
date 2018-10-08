@@ -1,0 +1,30 @@
+{
+  "copyright_text": null,
+  "description": "We started as a development team of two people working on 2 containerised services. While we were concerned about scale, we weren't concerned about scaling the team itself, so we built our services using simple makefiles and each service had its own compose file. After a few months we found ourselves working with ~20 developers from 3 different teams, across several countries, collaborating on the same project, with 25 containerised python microservices.\n\nA major growing pain we experienced was the \u201conboarding\u201d process for our new team members. In order to automate and expedite the process, we wrote deployment scripts intended to easily create new dev environments. It didn\u2019t work out as planned and the consequence was the vast majority of developers debugging/testing their own code remotely, rather than on their local machines.\n\nAfter taking some time to reflect on the topic, we set out to solve the challenge of maintaining a stable and scalable dev environment within a growing team. These efforts can be summarized as the following:\n\n* Simplify container orchestration for local development environments\n* Build time optimization for local and CI processes\n* Maintaining and developing on multiple python environments (Python2/Python3/PyPy) with minimal setup overhead\n* Taking care of different caching aspects related to our CI and local builds\n* Enabling debug of the code in the container using its python interpreter\n* Creation of a monitoring solution for inter-service communication\n\nThis was and continues to be a journey towards improving our processes and mindset of growing a development team while reducing unnecessary pain. After learning the lessons above, we are excited to share our experiences with the community in an effort to help us all grow and improve together.",
+  "duration": 1434,
+  "language": "eng",
+  "recorded": "2018-06-04",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://il.pycon.org/2018/schedule/"
+    },
+    {
+      "label": "Talk slides",
+      "url": "https://s3-eu-west-1.amazonaws.com/pyconil-data-amit/presentations/ron_anavi_gal_cohen_+Boosting+development+in+a+containerised.pptx"
+    }
+  ],
+  "speakers": [
+    "Ron Anavi",
+    "Gal Cohen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/eWtdLgZSmDs/maxresdefault.jpg",
+  "title": "Boosting development in a containerised microservices environment",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=eWtdLgZSmDs"
+    }
+  ]
+}

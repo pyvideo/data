@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Data leakage: How to avoid one of the most deceptive mistakes in data science\n\nRecently, my team started working on a project that aimed to detect fraud attacks. The performances of the initial model were excellent and we started to fantasize about moving to production. A more in-depth investigation discovered that our model suffered from data leakage. Data leakage is the creation of unexpected additional information in the training data, allowing a model or machine learning algorithm to make unrealistically good predictions. But the joy of good predictions won\u2019t last long since the model learns from information that will not be available in real life. Data leakage is a wide field of problems ranging from the obvious mistake of using the target itself as an input to the model, to leaking of information from the future into the past. In this talk, I will explain what data leakage is, give real-world examples and share my experience with the audience. In addition, I will sharpen the differences between overfitting and data leakage and explain how to avoid both. During the talk I will also demonstrate some cool and useful pandas \u201cgood to know\u201d tricks.",
+  "duration": 1336,
+  "language": "eng",
+  "recorded": "2018-06-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://il.pycon.org/2018/schedule/"
+    },
+    {
+      "label": "Talk slides",
+      "url": "https://s3-eu-west-1.amazonaws.com/pyconil-data-amit/presentations/Noah_Altman_data_leakage.pptx"
+    }
+  ],
+  "speakers": [
+    "Noah Eyal Altman"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/YmZGE_46LhM/maxresdefault.jpg",
+  "title": "Data leakage: How to avoid one of the most deceptive mistakes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YmZGE_46LhM"
+    }
+  ]
+}
