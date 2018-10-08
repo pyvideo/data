@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Every time you type pip install -r requirements.txt, you are putting your web application and user data at risk. Modern web applications are using dozens of 3rd party components, that are totally out of your control. You\u2019ve already learned you should test your code, but I\u2019ll do my best to convince you that you should test external code for the security vulnerabilities too.\n\nIn January, two biggest vulnerabilities, Meltdown and Spectre, were publicly disclosed. Those are the most known ones, but smaller vulnerabilities are published nearly every day. And all of them can be exploited and used to abuse your application. The attacker might try to take your application out, steal your user\u2019s data or take advantage of your computer power.\n\nSince vulnerabilities are disclosed, they can be also mitigated. There are multiple vendors dealing with security testing and I\u2019ll focus on the solutions for PyPI package scans. During the talk, I\u2019ll show you how a vulnerability can be exploited, where and how it is reported (you\u2019ll learn what the CVE is) and how you can secure your application using \u201cGitHub\u2019s security alerts for vulnerable dependencies\u201d and Snyk.io on various levels (repository integration, CI server, CLI integration).",
+  "duration": 1886,
+  "language": "eng",
+  "recorded": "2018-06-03",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://cz.pycon.org/2018/programme/schedule/"
+    }
+  ],
+  "speakers": [
+    "M\u00edla Votradovec"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/03FODN78s38/hqdefault.jpg",
+  "title": "Security of your application is just a few clicks away",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=03FODN78s38"
+    }
+  ]
+}

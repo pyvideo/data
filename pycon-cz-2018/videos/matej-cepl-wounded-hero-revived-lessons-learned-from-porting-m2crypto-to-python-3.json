@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "The purpose of this talk is to remind people about M2Crypto. After many years of very light almost non-maintenance only by the brave RHEL maintainer, I have taken over M2Crypto to port it to Py3k and hoped to be done in a month the most. Now, two years later, the merge finally happened and M2Crypto has another chance to survive in the world where Py3k compatibility is a necessity.\n\nThis presentation is about the experience of porting large project combining Python and C from 2.5 to Py3k compliance. I would like to describe the biggest problems and tools which helped me. The formers were (aside from plenty of lingering bugs) complete mess of using 'bytes' and 'str' in Py2k code. What helped a lot were PEP-484 annotations (working in Py2k in the comment form), compatibility macros which are actually present in Python since 2.6.",
+  "duration": 1621,
+  "language": "eng",
+  "recorded": "2018-06-03",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://cz.pycon.org/2018/programme/schedule/"
+    }
+  ],
+  "speakers": [
+    "Mat\u011bj Cepl"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/znF2wVjdb0k/hqdefault.jpg",
+  "title": "Wounded hero revived: Lessons learned from porting M2Crypto to Python 3",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=znF2wVjdb0k"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "DataFrames have become ubiquitous when it comes to fast analyses of complex data. They go beyond SQL by not adhering to a strict schema and offer a rich API, where you chain methods, which fosters exploratory analytics.\n\nWhile newcomers to Python usually learn about pandas early on, they sometimes struggle as their underlying data grow in size. Given the in-memory nature of pandas' storage system, one can usually only scale up.\n\nI'd like to outline several workflows for adapting to the ever-increasing size of datasets:\n\nChanging application logic to handle streams rather than loading the whole dataset into memory.\nActually scaling up \u2013 locally by buying more memory and/or faster disk drives, or by deploying servers in the cloud and SSH tunneling to remote Jupyter instances.\nScaling your data source and utilizing pandas' SQL connector. This will help in other areas as well (e.g. direct connections in BI).\nUsing a distributed DataFrame engine \u2013 Dask or PySpark. These scale from laptops to large clusters, using the very same API the whole way through.\nI will cover the various differences between these approaches and will outline their set of upsides (e.g. scaling and performance) and downsides (DevOps difficulties, cost).",
+  "duration": 1880,
+  "language": "eng",
+  "recorded": "2018-06-03",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://cz.pycon.org/2018/programme/schedule/"
+    }
+  ],
+  "speakers": [
+    "Ond\u0159ej Koke\u0161"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/aJsdeIcU9HE/hqdefault.jpg",
+  "title": "DataFrames: scaling up and out",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aJsdeIcU9HE"
+    }
+  ]
+}

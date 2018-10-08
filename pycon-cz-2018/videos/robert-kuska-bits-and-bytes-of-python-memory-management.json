@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Is it true that Python is not returning memory back to OS? What happens with variables which are no longer needed? How important is a garbage collector? How to trace and profile memory usage?\n\nLet's find out answers to these and maybe some more questions.\n\nTalk overview:\n\nIntroduction: Why do I need to care about memory management in Python? Objects in Python \u2013 what are they?\nMemory management: How memory is being allocated at start/while running \u2013 blocks/pools/arenas? How is memory being freed \u2013 reference counting/garbage collector? Extras - small integer\u2019s identity, sys.intern, sys.getsizeof, lists/dicts dynamic allocations. How to find cycles in variables referencing?\nTools for memory management: Overview of available tools for managing memory. How and why Instagram disabled/re-enabled garbage collector?",
+  "duration": 2081,
+  "language": "eng",
+  "recorded": "2018-06-03",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://cz.pycon.org/2018/programme/schedule/"
+    }
+  ],
+  "speakers": [
+    "Robert Kuska"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ALDUKcg6W9o/hqdefault.jpg",
+  "title": "Bits and bytes of Python memory management",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ALDUKcg6W9o"
+    }
+  ]
+}
