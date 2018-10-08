@@ -1,0 +1,27 @@
+{
+  "description": "Pinterest decreased latency and shrunk their front-end fleet by over 40% with less than 100 lines of python. This was done by understanding how a significant amount of latency and consumed resources were the result of gevent\u2019s cooperative multitasking. 4 different open source python profilers, were then used together to identify and fix bottlenecks and inefficiencies in the code base. Most profilers are too slow to use in production, so profiling of web servers often occurs in synthetic environments. But to get an accurate picture of what is happening you need production profiling data, so a production ready Linux signal (SIGVTALRM) based python profiler was used. This talk will cover how Pinterest shrunk their front-end fleet, the techniques and tooling used to improve performance and how they can be applied elsewhere.",
+  "duration": 1691,
+  "language": "eng",
+  "recorded": "2017-11-18",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/59/"
+    }
+  ],
+  "speakers": [
+    "Joe Gordon"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/B9Kv3Fije1I/hqdefault.jpg",
+  "title": "Python profiling and performance tuning in production",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=B9Kv3Fije1I"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "This talk is to show to the public how python is used daily by visual effects (VFX) houses to create amazing feature films and commercials. Not your regular CRUD application. Lot's of opportunities.\n\nIntroduction to VFX\n---------------------------------\nA high level overview to introduce the subject to the audience will start by covering, in a high level, the different departments involved in creating the magic images we see in the cinema. Modelling, lighting, rigging, animation, fx and composition.\n\nThe tools that each department use in their day to day and how these tools integrate with python /provide a python API is going to be briefly explained.\n\nThe workflow between the departments and their interaction comes next.\n\nVFX backend services\n-------------------------------------\n\nThe backend of a VFX pipeline consists of two main concepts: asset management and the render farm.\n\nBoth of those concepts will be explained and practical use cases / challenges that come with them will be presented.\n\nOther services such as authentication / authorization, production management and disk (HUGE NFS!) will be briefly explained.\n\nVFX devops\n---------------------\nVFX is a global industry, studios need to share work between different localizations like NY, LA, Vancouver, Sydney, London and etc.\n\nAt this part of the talk the main focus will be about deployment of services (ansible), service discovery (consul) and the challenges of syncing huge amounts of data between different localizations.\n\nVFX data\n---------------\n\nHow we use data to drive our decisions in a VFX house. Possibilities of applying machine learning to VFX.",
+  "duration": 1827,
+  "language": "eng",
+  "recorded": "2017-11-19",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/29/"
+    }
+  ],
+  "speakers": [
+    "Andre\u0301 Prado"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/HuV0_AbDgYk/hqdefault.jpg",
+  "title": "The backend of a global visual effects pipeline",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HuV0_AbDgYk"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "This talk showcases various example scenarios around the ins/outs of managing Python packages. Scenarios range from intra-package problems of how to build a package, inter-package problems of how to connect packages, to general usage/environment/setup problems that developers have a hard time debugging. For each of these scenarios, I'll highlight the pros/cons, best practices, and how to overcome the issues developers commonly face.\n\nSome examples:\n\n- installing packages from public, local file system, git (ssh + https), and how this affects deployment procedures\n- handling systems with multiple Python versions or package managers\n- how app structures and imports can affect testability\n- relative vs absolute imports\n- virtual environments\n- setup scripts\n- package versioning (why, when, how)\n- how new code changes could not be taking effect (old .pyc files, or updated import not catching)\n- handling sub-packages/dependencies that utilize parent configuration files\n- working with `PYTHONPATH`\n- executing python as modules or scripts",
+  "duration": 1510,
+  "language": "eng",
+  "recorded": "2017-11-18",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/2/"
+    }
+  ],
+  "speakers": [
+    "Devon Bernard"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ASw2htNYa1E/hqdefault.jpg",
+  "title": "Effective Python package management",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ASw2htNYa1E"
+    }
+  ]
+}

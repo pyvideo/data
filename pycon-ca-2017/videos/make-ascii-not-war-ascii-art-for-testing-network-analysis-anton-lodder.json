@@ -1,0 +1,27 @@
+{
+  "description": "Test-driven development can be hard -- the more exhaustive your tests are, the more challenging they can be to comprehend and iterate on. This talk explores a side-project-turned-testing-framework for describing networks using ascii art, turning long and boring tests into beautiful snippets. \n\nThis tool came about after we observed a funny pattern in the tests we were writing for our power-systems software: developers would smudge together 40+ lines of xml (or an equivalent number of lines of variables and class instantiations) in order to make a test with the cases they were interested in, and then they would draw a little ascii-shorthand of the network they had just described, because they wanted to be able to remember what they had made later on. This led us to wonder, \"What if those diagrams were the test?\". So we build an ascii-diagram parser that made networks into networkx graphs, and then we built a tool to turn a networkx graph into a set of objects representing a power grid.",
+  "duration": 1153,
+  "language": "eng",
+  "recorded": "2017-11-18",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    }
+  ],
+  "speakers": [
+    "Anton Lodder"
+  ],
+  "tags": [
+    "ascii-art",
+    "networking"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JfLEz_1jTXI/hqdefault.jpg",
+  "title": "Make ASCII, not war: ascii-art for testing network analysis",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JfLEz_1jTXI"
+    }
+  ]
+}

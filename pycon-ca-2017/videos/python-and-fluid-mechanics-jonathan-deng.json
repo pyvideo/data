@@ -1,0 +1,31 @@
+{
+  "description": "Introduction\n========================\n\nFluid mechanics is the study of fluids (obvious examples are air and water). This could involve anything from studying how to reduce drag over the latest commercial airliners to the ideal design of a water turbine for extracting energy in dams.\n\nWorried that you\u2019ve never studied fluid mechanics before? Come and join us to hear how we\u2019ve been using Python in science. Don\u2019t worry, we\u2019ll explain everything!\n\nWhat is Particle Image Velocimetry?\n-------------------------------------------------------\n\nOn the experimental side of fluid mechanics these problems are studied by constructing experiments that represent the problem being studies (one common example of this that might pop into your head is that of a car inside a wind tunnel with a streak of smoke flowing over its surface). To analyze these experiments, various techniques are used (such as the smoke visualization mentioned earlier, or colored dye in water based studies). One of the most powerful of these techniques is Particle Image Velocimetry (or PIV).\n\nPIV involves 3 key things:\n\n1. Dispersing many small particles throughout a fluid flow \n2. High intensity illumination (usually lasers) to illuminate the particles \n3. High-speed cameras to record the motion of the particles\n\nThe end result of this technique is a series of images, each of which looks like a field of small bright speckles (each speckle being a illuminated particle). By correlating these images across time, PIV analysis software can determine the velocity at regularly spaced points in the image.  \n\nAnalysis of PIV vector fields\n-------------------------------------------------------\n\nAfter obtaining these vector fields, the real science comes in analyzing them. For example one might be interested in what the pressure distribution over an airfoil is. This could be done by reconstructing the pressure field from the vector field. Another example is determining what the average turbulence level is in a jet of air. Now this is where Python comes in! \n\nA Python Package for Analysis of PIV Data\n================================================\n\nTo facilitate analysis of PIV data we have developed a package that can perform many of these analysis tasks and further provides awesome visualization tools that aid in the PIV analysis workflow.\n\nThe package provides 4 main functionalities:\n\n1. A PIV data set object that contains analysis functions for analyzing its data\n2. Utilities for loading PIV vector data sets from PIV processing software file formats \n3. Visualization tools\n\nUtilities\n-------------------------------------------------------\n\nTypically the actual processing of images into vector fields is done by specialized PIV software such as DaVis (by LaVision). We use the package ReadIM by user fleming79 (https://github.com/fleming79/readim) to accomplish this. In the future other file formats from different PIV software providers would be supported too.\n\nAnalysis Tools\n-------------------------------------------------------\n\nAnalysis functions include calculation of turbulence quantities such as: turbulent kinetic energy production, and turbulent kinetic energy.\n\nFunctions for calculating mean quantities in the flow also exist, such as calculation of the Reynold's number and mean velocity.\n\nTypically these functions are all implemented of the core scientific programming packages for Python: Numpy and Scipy.\n\nIn the talk we will visually demonstrate a workflow showing what these functions actually produce (and what they even mean, if you're not familiar with fluid mechanics!).\n\nInteractive Data Visualization\n-------------------------------------------------------\n\nOne of the biggest problems in working with PIV data is in visualizing the data.\n\nIn many cases, just to check if the analysis did what you thought it should, one must write several lines of code just to display a figure. This can make the data analysis workflow extremely cumbersome.\n\nIncluded in our package are functions that easily show researchers the data they want to see without having to write several lines of code to do it.\n\nThese are implemented with Bokeh and HoloViews.\n\nA Side Note on the Open Science Initiative\n================================================\n\nPart of the motivation for developing such a package is the fact that many of these analysis functions are routinely used by researchers all over the world. However due to lack of collaboration, different researchers implement their own version of essentially the same function. Furthermore new-comers into the field often have to re-write their functions from scratch, or if lucky, inherit them from there close predecessors.\n\nAn open source package would make the codes used for PIV analysis available to all. This means that results produced from the code can be scrutinized in depth. Furthermore this would contribute to the reproducibility of results. For example, one researcher's average velocity code may return a different result from another's'. If researchers shared the code they used, reproducibility would be much easier.\n\nBy creating this package, we hope to initiate collaboration such that we can produce better science than we could individually.",
+  "duration": 471,
+  "language": "eng",
+  "recorded": "2017-11-19",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/24/"
+    },
+    {
+      "label": "ReadIM",
+      "url": "https://github.com/fleming79/readim"
+    }
+  ],
+  "speakers": [
+    "Jonathan Deng"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JQr8OpcTMUc/hqdefault.jpg",
+  "title": "Python and fluid mechanics",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JQr8OpcTMUc"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "When an architect designs a building, or an engineer designs a bridge, they don\u2019t scribble rough sketches on paper and declare \u201cWe\u2019re agile, we\u2019ll figure out the details later!\u201d. They create precise designs, and are able to prove important safety properties about their work before a single shovel hits the dirt.\n\nBut when designing highly complex, concurrent, fault-tolerant systems, developers often don\u2019t create more than rough pseudo-code and a few Visio diagrams, before starting work and hoping that any design bugs will be discovered before going to production.\n\nPlusCal/TLA+ is a pseudo-code language that allows for precise descriptions of digital systems, and provides tooling to run automated and exhaustive tests on the pseudo-code itself. Developers can discover design bugs before a single line of \u201creal\u201d code has been written.\n\nDevelopers at AWS, Microsoft/Azure, etc. have used PlusCal to help design systems and find serious, highly-subtle bugs in products including S3, EC2, EBS, DynamoDB, the Xbox 360 memory system, and many others.\n\nIts use at Amazon has been so successful that management now explicitly allocates engineering time to TLA+. To quote Chris Newcombe, former AWS Principal Engineer:\n\nTLA+ is the most valuable thing that I\u2019ve learned in my professional career. It has changed how I work by giving me an immensely powerful tool to find subtle flaws in system designs. It has changed how I think\u2026\n\nThis talk will provide a short introduction to specifying software designs and PlusCal.",
+  "duration": 1769,
+  "language": "eng",
+  "recorded": "2017-11-18",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/61/"
+    }
+  ],
+  "speakers": [
+    "Jay Parlar"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/LAEXHua4MQQ/hqdefault.jpg",
+  "title": "Debugging software designs using testable pseudo-code",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LAEXHua4MQQ"
+    }
+  ]
+}

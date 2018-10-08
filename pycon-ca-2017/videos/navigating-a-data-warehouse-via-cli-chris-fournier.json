@@ -1,0 +1,27 @@
+{
+  "description": "At Shopify we have over 3000 Python batch ETL jobs. These jobs depend upon each other\u2019s output forming a directed acyclic graph that, when visualized, is indiscernible from the hairballs that my cat pukes up.\n\nThese jobs are created by a team of over 100 analysts and engineers who deploy on average 15 changes to them per day to production. With so many people and such a rapid pace of change, understanding how a dataset is constructed, debugging relationships, tracing the flow of data, or even just asking how prevalent a feature or type of relationship is becomes has been a daunting task requiring tracing not only 20k lines of YAML schedule files and 50k lines of Python code.\n\nTo make asking questions about these jobs tractable, we\u2019ve created a series of CLI tools that, when combined with unix tools, makes answering questions about our schedule possible.\n\nI\u2019ll cover how we flatten that graph into a series of tables that we can output using a CLI tool and then how one can use grep, awk, sort, join, and column to answer some real questions that we had about our schedule.",
+  "duration": 1728,
+  "language": "eng",
+  "recorded": "2017-11-19",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/20/"
+    }
+  ],
+  "speakers": [
+    "Chris Fournier"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/F3gWppj7lWk/hqdefault.jpg",
+  "title": "Navigating a Data Warehouse via CLI",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=F3gWppj7lWk"
+    }
+  ]
+}

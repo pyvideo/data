@@ -1,0 +1,27 @@
+{
+  "description": "This talk will start off with a brief introduction to the LTTng project, and tracing in general, to show how it can be used to understand the interactions between Python applications and the Linux kernel. This knowledge is handy to both improve performance of Python applications and understand the interactions between multiple applications.\n\nSince kernel traces contain so much information, we need powerful tools to filter through the noise. Babeltrace 2's Python bindings allow developers to quickly build scripts that identify a number of problems.\n\nThe talk will rely primarily on demos showing how to instrument a Python application, how to trace both the application and the Linux kernel, and how to extract meaningful metrics using LTTng analyses and the Babeltrace Python bindings.",
+  "duration": 1650,
+  "language": "eng",
+  "recorded": "2017-11-18",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/26/"
+    }
+  ],
+  "speakers": [
+    "J\u00e9r\u00e9mie Galarneau"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/gKmtmPqr6H8/hqdefault.jpg",
+  "title": "Using Python to make sense of system traces",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gKmtmPqr6H8"
+    }
+  ]
+}

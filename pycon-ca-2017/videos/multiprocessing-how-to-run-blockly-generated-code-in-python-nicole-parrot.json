@@ -1,0 +1,27 @@
+{
+  "description": "Blockly is a front-end GUI developed by Google that allows developers to create a drag-and-drop language for their product. However Blockly only generates a string and does not run code directly. I will take a look at the various potential approaches to execute code that is in a string: \n\n* exec - quick for short commands \n* subprocess - can be interrupted\n* multiprocessing - can pass data back and forth by using queues\n\nThe talk is mainly about launching processes, dealing with zombies, interrupting processes based on user input and passing data back and forth between processes. Brief mentions of Flask are to be expected. Examples will be based on my experience in developing Bloxter a graphical drag-and-drop language for the GoPiGo3 to be used at home or in classrooms.",
+  "duration": 1764,
+  "language": "eng",
+  "recorded": "2017-11-19",
+  "related_urls": [
+    {
+      "label": "Event schedule",
+      "url": "https://2017.pycon.ca/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://2017.pycon.ca/schedule/40/"
+    }
+  ],
+  "speakers": [
+    "Nicole Parrot"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/QyzghBuQSzw/hqdefault.jpg",
+  "title": "Multiprocessing: how to run Blockly generated code in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QyzghBuQSzw"
+    }
+  ]
+}
