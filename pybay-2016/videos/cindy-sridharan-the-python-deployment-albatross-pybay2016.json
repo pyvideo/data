@@ -1,0 +1,17 @@
+{
+  "description": "Python deployments can be notoriously tricky - a lot more trickier than they need to be. This talk will briefly outline the history of Python deployments, explore in depth the current landscape and will shed light on the variety of tools and techniques available to deploy Python applications, from the popular to the trendy/state-of-the-art to the esoteric and my experiences with them.\n\u200b\nAbstract\nTo understand the current state of packaging, distribution and deployment of Python artifacts, it's important to understand the architecture and internals of commonly used tools such as distutils, setuptools, eggs, pip, PyPI, virtualenv, wheels and building compiled extensions.\n\nIn the recent few years, an interesting development from Twitter has been PEX - P(ython) EX(ecutable). PEX is famously being used at companies like Twitter, Square and LinkedIn to deploy *all* applications. This talk will chart our history of using PEX (along with the Pants build system) at imgix over the course of the last 2 years.\n\nNo talk on python packaging and distribution will be complete without mentioning the D word - yes, you guessed it right - Docker. This talk will explore the current state of Python deployment using Docker/containers as well as several anti patterns. The talk will highlight the challenges containerization calls for and why it might not be the right solution for many use cases. I'll be drawing on my experience running a Dockerized Tornado application in production.\n\nLastly, the talk will explore Nix - a powerful open source package manager for Linux and other Unix systems that makes package management reliable and reproducible. The talk will detail some of our experience with Nix so far as well as some of the issues we ran into, and whether Nix is a viable alternative to the existing tools in the ecosystem.",
+  "duration": 3149,
+  "language": "eng",
+  "recorded": "2016-08-20",
+  "speakers": [
+    "Cindy Sridharan"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/nwsCUfodq7I/hqdefault.jpg",
+  "title": "The Python Deployment Albatross",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nwsCUfodq7I"
+    }
+  ]
+}
