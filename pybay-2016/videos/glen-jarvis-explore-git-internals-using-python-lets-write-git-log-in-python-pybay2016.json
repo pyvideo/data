@@ -1,0 +1,17 @@
+{
+  "description": "Git is a powerful tool for source control. It's often misunderstood and abused. Under the surface Git is an elegant and simple data structure. When you don't understand that data structure, you don't really understand Git. It is flexible enough to give you all the rope that you need to hang yourself in Git hell. However, if you understand it, you are released from Git hell.\n\u200b\nAbstract\nIn this talk, we start with a simple explanation of the Git data structure on disk. We discuss where the local Git repo is stored: `.git`. From there, we discuss the `config, `HEAD`, `refs/heads`, and `objects`.\n\nWe use Python to read those data structures and reconstruct a `git log` command for any arbitrary git repository. When finished, we should have our own working command that does the same thing as `git log` for any arbitrary repository, on any branch. We'll simply start at `HEAD` and work our way down the data structure.\n\nAlthough it is not *useful* to have a Python version of Git, it is *fun*. Also, this exploration helps you understand the Git tool on a much deeper level. When you can program something, you can understand it. And, understanding Git helps you be a better developer and collaborator.\n\nBio\nGlen Jarvis has been programming Python for over 8 years and has been programming in different languages for longer. He has been certified in Linux/Unix administration by UC-Berkeley. He gained the highest certification available for Informix DBAs. He is also certified in MongoDB as Developer and Administrator. He has worked for companies such as IBM, UC-Berkeley, Sprint and Silicon Valley Start-ups. He has worked in the fields of Databases, DataScience, Bioinformatics and Web Technologies.",
+  "duration": 3149,
+  "language": "eng",
+  "recorded": "2016-08-20",
+  "speakers": [
+    "Glen Jarvis"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/1R8FDhv3a24/hqdefault.jpg",
+  "title": "Explore Git internals using Python | Let's write `git log` in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1R8FDhv3a24"
+    }
+  ]
+}

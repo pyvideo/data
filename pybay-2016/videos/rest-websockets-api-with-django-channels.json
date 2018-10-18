@@ -1,5 +1,7 @@
 {
   "description": "Building REST APIs over HTTP has been discussed time and again. But could we do the same with WebSockets? What is the performance benefit? What learnings can we carry over from HTTP to WS? This talk will describe how engineers can build a REST API over WebSockets using Django and Channels. It is largely based on my experiences trying to build a REST WebSocket API.\n\u200b\nAbstract\nWebsockets have been around for a number of years but popular web frameworks have been slow to integrate because of their asynchronous nature. With Django Channels we\u2019ve finally broken that frontier in a synchronous way. How will developers use this new territory? I will outline some of my explorations that I have serialized into a library I call channels-api. It takes familiar patterns from Django Rest Framework and applies them to websocket land. I will walk through a sample project to demonstrate the configuration and installation of the library. I will demonstrate using these patterns we can create a \u201cREST like\u201d API relatively quickly. We can also implement new features that HTTP doesn\u2019t support like server side push.\n\n**Bio:** \nAuthor of channels-api library. Former Lead engineer at a number of startups.\n\n\nhttps://speakerdeck.com/pybay2016/sam-bolgert-rest-websockets-api-with-django-channels",
+  "duration": 2031,
+  "language": "eng",
   "recorded": "2016-08-21",
   "speakers": [
     "Sam Bolgert"

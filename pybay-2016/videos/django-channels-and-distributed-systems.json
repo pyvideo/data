@@ -1,5 +1,7 @@
 {
   "description": "Learn about the Django Channels project, how it makes WebSockets easy, how it's not just limited to Django, and the difficulty of building WebSocket and other stateful protocol handling at scale.\n\u200b\nAbstract\nDjango Channels' headline feature is bringing WebSocket support to Django, but what it provides is far more useful than that. Underlying it is a robust, generic cross-process communication mechanism, built to support and scale with stateful protocols like WebSockets.\n\nThis talk will look at the design of this mechanism - codenamed ASGI - and the difficulties of building an entire system to support WebSockets and broadcast systems across a large number of servers, and how Django encapsulates this to provide you a simple but powerful interface with good performance characteristics.\n\nWe'll also take a brief look at how parts of Channels are useable outside of Django with other web frameworks or pure Python code, and how it lets us build better systems overall.\n\n**Bio:** Andrew is a Python programmer, Django core developer and Senior Engineer at Eventbrite. He's behind Django's migration and channels systems, and in his spare time enjoys mountains, archery, and cheese.\n\nhttps://speakerdeck.com/pybay2016/andrew-godwin-django-channels-and-distributed-systems",
+  "duration": 2467,
+  "language": "eng",
   "recorded": "2016-08-21",
   "speakers": [
     "Andrew Godwin"
