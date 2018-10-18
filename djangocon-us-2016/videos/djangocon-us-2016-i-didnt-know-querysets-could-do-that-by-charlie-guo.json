@@ -1,0 +1,17 @@
+{
+  "description": "QuerySets and object Managers are a core part of Django, and can be extremely powerful. But I didn't always know about some of their more advanced capabilities.\n\nBASIC METHODS\n\nYou have likely used filter(), exclude(), and order_by(). You've even probably used an aggregation method like Sum() or Count(). Less common, however, are query(), only()/defer(), and select_related().\n\nF EXPRESSIONS / Q OBJECTS\n\nFor some more complex queries, those basic functions and filters won't cut it. How do you construct a query that needs to check for field A or field B? What do you do if you need to multiply two fields together and then sum them? Look no further than F() and Q().\n\nRAW SQL / THE EXTRA() METHOD\n\nAs a last resort, it's entirely possible to use raw SQL queries to get the database results that you need. The sky's the limit, but there are definitely downsides to this approach; pitfalls include SQL injections and database backend portability issues.\n\nMANAGERS\n\nA talk on QuerySets would be incomplete without mentioning Managers, and how to leverage Manager customization to make your life easier. Writing methods on existing Managers, and creating custom ones can go a long way towards being DRY and reducing the potential for errors.",
+  "duration": 1555,
+  "language": "eng",
+  "recorded": "2016-07-19",
+  "speakers": [
+    "Charlie Guo"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/5y7vU52jOiQ/hqdefault.jpg",
+  "title": "I Didn't Know Querysets Could do That",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5y7vU52jOiQ"
+    }
+  ]
+}
