@@ -1,8 +1,8 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "**Stephan Jaensch** , Yelp\n\n`**Type annotations with large(r)\ncodebases** </2018/program/content/Jaensch/>`__\n\nYou've heard about type annotations, you know they help reduce bugs and\nimprove documentation especially for large codebases, and you've\nattended an introductory talk or read a tutorial about using them. But\nhow do you get started using them with your big, existing codebase? How\ndo you make sure your colleagues will be annotating new code they write\n- or existing code they're changing? And how do you get around some of\nthe issues you might run into when using the still-beta type checker\nmypy on your codebase?\n\nThis talk will start where the typical introductory Python type\nannotation talks end and discuss the real-world challenges when starting\nto annotate types with an existing codebase of tens or hundreds of\nthousands of lines of code. I'll walk you through best practices learned\nfrom doing just that at Yelp, telling you about some of the roadblocks\nwe hit (and how we got past them). We'll also take a look at:\n\n\u2014 how you can get the most out of type annotations even with\nnon-annotated third-party libraries\n\n\u2014 how to deal with decorators and other things that currently don't\nalways work well with annotations\n\n\u2014 when the only way to get proper type checking is through refactoring\nyour code.\n",
   "duration": 2587,
-  "language": "rus",
+  "language": "eng",
   "recorded": "2018-06-22",
   "related_urls": [
     {
@@ -10,10 +10,12 @@
       "url": "http://pycon.ru/2018/en/program/content/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Stephan Jaensch"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/UVAyBDe0--s/maxresdefault.jpg",
-  "title": "Stephan Jaensch, Yelp \u00abType annotations with large(r) codebases\u00bb",
+  "title": "Type annotations with large(r) codebases",
   "videos": [
     {
       "type": "youtube",
