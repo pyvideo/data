@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Pickle is a compact serialisation protocol for Python objects. It could\nbe a convenient way for Python programs and distributed systems to\ncommunicate. Unfortunately pickle is widely considered to be unsafe, and\nit has lead to several vulnerabilities over the years. As the Python\nmanual warns\n\n    The pickle module is not secure against erroneous or maliciously\n    constructed data. Never unpickle data received from an untrusted or\n    unauthenticated source.\n\nDoes this have to be the case? Can we use Pickle safely?\n\nThis talk will be a deep dive into what an attacker can do with a\nmaliciously constructed pickles. I\u2019ll show what defences you can\nimplement against the common attacks, especially those that gain\narbitrary code execution. I will present new research into other\nattacks, and mitigations. Finally I will review a few less known\nalternatives to pickle.\n\nThis talk will expand on a `PyLondinium 2018 lightning\ntalk <https://www.youtube.com/watch?v=5omAT9sqguE&list=PLWsDEQH0HiPZUhtqGczfDnNdiJMhWpmWd&index=9&t=13m10s>`__\n",
+  "duration": 1806,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Alex Willmer"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/M8lASUaogbA/maxresdefault.jpg",
+  "title": "Rehabilitating Pickle",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=M8lASUaogbA"
+    }
+  ]
+}

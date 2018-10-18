@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "With the increase in computing power, harnessing and controlling one\u2019s\ncode out of the single-threaded realm becomes an ever-increasing\nproblem, coupled with the desire to stay in the Python layer. With the\nrecent tools and frameworks that have been published, escaping the GIL\ncleanly is much easier than before, allow one\u2019s Python code to\neffectively utilize multi-core and many core architectures in the most\nPythonic ways possible. In this talk, learn about how to utilize static\nmultiprocessing for process pinning, and effectively balancing thread\npools with a monkey-patched import of threading modules.\n\nOverview:\n\nIntroduction to multithreading and multiprocessing in Python\n\n-  History of multithreading+multiprocessing in Python, classic\n   frameworks\n\n-  Problems that can occur (oversubscription, nested parallelism issues,\n   process hopping, pool resource on shared machines)\n\n-  Python accessing bigger hardware over the last few years (28+ cores,\n   etc)\n\nWhen to stay in the GIL, and when to escape it\n\n-  The advantages and safety of the GIL\n\n-  Python-level exiting of the GIL; analysis of when to return to\n   single-threaded, and when threading is a deceivingly bad idea\n\n-  Accountability of frameworks that natively exit the GIL\n\nThe new multithreading and multiprocessing libraries and techniques\n\n-  static multiprocessing module (smp) (and monkey patching of\n   multiprocessing)\n\n-  thread pool control with command line calls of Python ( python -m tbb\n   -p 8)\n\nPutting it all together\n\n-  Examples of using static multiprocessing on a large machine to stop\n   oversubscription\n\n-  Example of pseudo-daemon process on 4-core machine by processor\n   pinning\n\n-  Thread pool control on a simple NumPy example\n\nSummary - Best practices for using above methods to control\nmultithreading+multiprocessing\n\n-  What needs to be done in the space (frameworks and things that need\n   to be exposed)\n\n-  Problems that still exist in the area\n\nQ&A\n",
+  "duration": 2551,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "David Liu"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/REWgzcIzSAA/maxresdefault.jpg",
+  "title": "Addressing multithreading and multiprocessing in transparent and Pythonic ways",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=REWgzcIzSAA"
+    }
+  ]
+}

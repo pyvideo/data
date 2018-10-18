@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Materials are available at\nhttps://github.com/hchasestevens/europython-2018\n\nThis session will introduce attendees to Python\u2019s rich ecosystem of\nabstract syntax tree tooling and libraries, with an emphasis on\npractical applications in static analysis and metaprogramming. Attendees\nshould be fully comfortable with Python syntax and semantics, but\nfamiliarity with the ast module itself will not be necessary.\n\nThe talk will begin with a conceptual overview of ASTs, including a\nbrief look at Python\u2019s built-in introspection capabilities. It will\nintroduce tools for AST visualization (astor, showast,\npython-ast-explorer), creation (asttools, meta), and transformation to\nsource code (codegen).\n\nHow the AST can be used for static analysis will be covered; this will\ninclude discussion of Python\u2019s built-in facilities (NodeVisitor) as well\nas of the 3rd party tools astsearch, astpath, and bellybutton. The talk\nwill demonstrate the advantages and limits of these tools in comparison\nto other static analysis tooling (pylint, mypy); particular attention\nwill be paid to how these tools can be incorporated into attendees\u2019\nworkflows and existing codebases and projects.\n\nTooling for Python AST manipulation and metaprogramming will be the\nfinal topic covered, focusing on the use of the NodeTransformer\nbuilt-in. The talk will cover practical applications and examples of\nmetaprogramming, such as metaprogramming for DSLS (pony, xpyth), runtime\ncode manipulation (patterns, yield-from), and others (e.g. assertion\nrewriting in pytest).\n\nWhile the talk will touch only briefly on each of the applications\ndiscussed, by the end of the session attendees should have a firm grasp\nof the kinds of problems the AST can be used to solve, what existing AST\ntooling can accomplish, and what resources are available for the\ndevelopment of their own AST tools.\n",
+  "duration": 2827,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Chase Stevens"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Yq3wTWkoaYY/maxresdefault.jpg",
+  "title": "Exploring the Python AST Ecosystem",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Yq3wTWkoaYY"
+    }
+  ]
+}

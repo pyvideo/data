@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Learning to use the awesome Pandas toolkit helped me immensely in lots\nof ways. Finding novel, efficient solutions to complex day-to-day\nproblems with Pandas not only saves time, but can be fun and rewarding\nexperience.\n\nIn this talk I\u2019ll present use cases I had to solve, but the\n\u201ctraditional\u201d approach proved tough and/or otherwise frustrating\nimplement nicely. Since I was just starting to learn Pandas, decided to\ntry an alternative solution with it. What I learned changed the way I\nthink about data processing with Python, and it only got better since!\n\nThe use cases deals with extracting pen strokes from handwritten SVG\nsamples, and recomposing them into reusable letters and numbers. When\nyou need to compare each stroke to all others, often more than once,\nresulted in inefficient, slow, and hard to maintain code. Even a naive\nPandas approach with loops helped to reduce both the memory footprint,\nand improve the performance considerably! Improving the implementation\nfurther, vectorizing inner loops, and taking advantage of multi-index\noperations, I managed to get the same results, using less memory and a\nlot faster (by orders of magnitude).\n",
+  "duration": 1353,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Dimiter Naydenov"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/8YH9u29_3dQ/maxresdefault.jpg",
+  "title": "All You Need is Pandas: Unexpected Success Stories",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8YH9u29_3dQ"
+    }
+  ]
+}

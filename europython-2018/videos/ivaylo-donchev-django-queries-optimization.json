@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Collecting data from multiple Models is a common flow in Django\ndevelopment. In most of the cases ``prefetch_related`` and\n``select_related`` do all of the job for optimizing the queries.\n\nWhen the models structure become complicated enough and we\u2019ve put our\nlogic for collecting these items in models\u2019 properties we suddenly\ncannot use ``prefetch_related`` or ``select_related`` anymore. Our View\n\u2018s queries count depends on selected items count with high complexity.\nThe problem is in the selection logic: we\u2019ve implemented an algorithm\nwhich calculates something and we cannot prefetch or select all of the\nobjects.\n\nSo this talk\u2019s purpose is: To show how to use Django ORM to move the\nselection logic, the calculations, the aggregations over group of\nobjects from our python code to our database and moving all of the logic\nfor this in one place - the queryset and test it easily.\n",
+  "duration": 1878,
+  "language": "eng",
+  "recorded": "2018-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Ivaylo Donchev"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/qDyxmgWkjvI/maxresdefault.jpg",
+  "title": "Django queries optimization",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qDyxmgWkjvI"
+    }
+  ]
+}

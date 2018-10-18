@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Draft of the talk:\n\n-  Growing populary of the Python programming language\n\n   -  Defacto language in the scientific world, replacing other closed\n      source and more specialized but limited language\n   -  Favorite programming language used as the first language to learn\n      programming\n\n-  Port Python 2 code to Python 3\n\n   -  Port Python 2 code to Python 3\n\n   -  No: \u201cAdd support for Python 3\u201d, don\u2019t loose Python 2 support\n\n   -  Port Python 3 code to Python 2\n\n   -  Python changes to make the transition smoother:\n\n   -  PEP 414: u\"syntax\u201d reintroduced in Python 3.3\n\n   -  PEP 461: bytes % args, Python 3.5\n   -  More \u201cPy3k\u201d warnings added to Python 2.7.x\n   -  Linters like flake8 detect some issues\n   -  six, futures, modernize, 2to6, etc.\n\n-  Analysis of the transition\n\n   -  Good: At Pycon US 2014, Guido van Rossum announced that the Python\n      2.7 support was extended from 2015 to 2020 to give more time to\n      companies to port their applications to Python 3.\n   -  Bad: 2to3: \u201cdrop Python2 support at once\u201d, don\u2019t work when you\n      have dependencies.\n   -  If done again, would it be different? Yes, obviously.\n   -  Python 4 will be different than Python 3: no more \u201cbreak the\n      world\u201d release, but a \u201cregular deprecation period\u201d release, as\n      *any* other release. Break things, one by one :-)\n\n-  Bugs that won\u2019t be fixed in Python 2 anymore\n\n   -  Some bugs cannot be fixed without breaking the backward\n      compatibility\n   -  Unicode Support\n   -  Python 2 I/O stack bugs: rely on libc stdio.h\n   -  Security: hash DoS, enabled by default in Python 3.3, Python 3.4\n      now uses SipHash\n   -  subprocess is not thread-safe in Python 2. Python 2 subprocess has\n      many race conditions: fixed in Python 3 with a C implementation\n      which has less or no race condition. Handling signals while\n      forking in complex.\n   -  threading.RLock is not \u201csignal safe\u201d in Python 2\n   -  Python 2 requires polling to wait for a lock or for I/O. Python 3\n      uses native threading API with timeout and has asyncio.\n   -  Python 3 uses a monotonic clock to not crash on system clock\n      update (ex: DST change).\n   -  Python 3 has a better GIL.\n   -  Python 2 inherits file descriptors on fork+exec by default. Python\n      3 don\u2019t: PEP 446.\n   -  Functions can fail with OSError(EINTR) when interrupted by a\n      signal, need to be very careful everywhere. SIGCHLD when a child\n      process completes, SIGWINCH when using ncurses. Python 3.5\n      restarts the interrupted system call for you.\n\n-  Performance\n\n   -  Python 3.6 is now faster than Python 2.7\n   -  https://speed.python.org/\n\n-  Evolutions of the Python language\n\n   -  Python 3.5\n\n   -  PEP 492: async/await \u201ckeywords\u201d for asyncio. (Really keywords in\n      Python 3.7.)\n\n   -  PEP 461: bytes % args and bytearray % args\n   -  PEP 465, a new matrix multiplication operator: a @ b.\n   -  PEP 448: Generalized unpacking:\n      ``head, *tail = list``mylist = [1, 2, **other_list]``mydict = {\"key\": \"value\", **other_dict}``\n\n   -  Python 3.6\n\n   -  PEP 515: ``million = 1_000_000``\n\n   -  PEP 498: f-string: ``name = \"World\"; print(f\"Hello {name}!\")``\n   -  PEP 526, syntax for variable annotations.\n   -  PEP 525, asynchronous generators.\n   -  PEP 530: asynchronous comprehensions.\n\n-  Bury Python 2?\n\n   -  \u201cPython 3 only\u201d\n   -  https://pythonclock.org/\n   -  http://www.python3statement.org/\n   -  Fedora 23, Ubuntu 17.10: no python2 (/usr/bin/python) in the base\n      system\n   -  2017, April: IPython 6.0\n   -  2017, December: Django 2\n",
+  "duration": 2696,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Victor Stinner"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OHaxQZPKURg/maxresdefault.jpg",
+  "title": "Python 3: ten years later",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OHaxQZPKURg"
+    }
+  ]
+}

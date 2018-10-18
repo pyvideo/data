@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "You\u2019ve heard about type annotations, you know they help reduce bugs and\nimprove documentation especially for large codebases, and you\u2019ve\nattended an introductory talk or read a tutorial about using them. But\nhow do you get started using them with your big, existing codebase? How\ndo you make sure your colleagues will be annotating new code they write\n- or existing code they\u2019re changing? And how do you get around some of\nthe issues you might run into when using the still-beta type checker\nmypy on your codebase?\n\nThis talk will start where the typical introductory Python type\nannotation talks end and discuss the real-world challenges when starting\nto annotate types with an existing codebase of tens or hundreds of\nthousands of lines of code. I\u2019ll walk you through best practices learned\nfrom doing just that at Yelp, telling you about some of the roadblocks\nwe hit (and how we got past them).\n\nWe\u2019ll also take a look at: - how you can get the most out of type\nannotations even with non-annotated third-party libraries - how to deal\nwith code patterns that currently don\u2019t always work well with\nannotations - when the only way to get proper type checking is through\nrefactoring your code.\n",
+  "duration": 1809,
+  "language": "eng",
+  "recorded": "2018-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Stephan Jaensch"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pWnETtscNS0/maxresdefault.jpg",
+  "title": "Type annotations with larger codebases",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pWnETtscNS0"
+    }
+  ]
+}

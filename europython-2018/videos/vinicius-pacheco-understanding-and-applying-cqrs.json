@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Creating scalable applications has a number of complex variables and one\nof them is to work with scalability and performance in the database\nlayer. Command Query Responsibility Segregation (CQRS) is a design\npattern that helps produce more performance and resilience in\napplications where data access is intense. In this talk, we will\nunderstand when to use and the problems that CQRS solves. We will also\napply CQRS in a Python application using the Nameko framework.\n\nThe outline talk is: \u25cb (4 minutes) - Present a real problem of a web\napplication, when creating new instances is not a solution, because the\ndatabase receives an overwrite of writing and unfeasible to read the\ndata, collapsing the application. \u25cb (6 minutes) - Present the CQRS\npattern conceptually and how this design pattern solves this type of\nproblem using the structure of Command Stack and Query Stack \u25cb (3\nminutes) - Show Nameko as an interesting tool to apply the CQRS. It will\ndemonstrate the use of HTTP, RPC and the possibility of applying\npub/sub. \u25cb (6 minutes) - Create (live code) the Command Stack layer\nusing Nameko on a Postgresql database. \u25cb (5 minutes) - Create (live\ncode) the Query Stack layer using Nameko over a MongoDB database. \u25cb (3\nminutes) - Explain common myths and mistakes about CQRS (3 minutes) - Q\n& A Session\n",
+  "duration": 2863,
+  "language": "eng",
+  "recorded": "2018-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Vinicius Pacheco"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/395r-jzj8_k/maxresdefault.jpg",
+  "title": "Understanding and Applying CQRS",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=395r-jzj8_k"
+    }
+  ]
+}

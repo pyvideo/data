@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "This talk will briefly go over the various decorator syntaxes before\nbreaking up the common usages of decorators into 5 categories.\nEffectively, these are design patterns for decorators. The usages to be\nconsidered are:\n\n-  A - Argument Changing Decorators \u2013 Decorators that change a\n   function\u2019s arguments, including changing its signature\n-  B - Binding Decorators \u2013 Decorators that implement the Descriptor\n   Protocol, such as the builtins: @property, @classmethod, and\n   @staticmethod\n-  C - Control Flow Decorators \u2013 Decorators that change when or whether\n   the function will be called, such as @retry or @lrucache\n-  D - Descriptive Decorators \u2013 Decorators that do not change the\n   function, but create a reference to it elsewhere, like pytest.mark\n   and flask.app.route\n-  E - Execution Decorators \u2013 Decorators that retrieve source code\n   and/or AST and alter it.\n",
+  "duration": 1758,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Andy Fundinger"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pEL1THG6ysY/maxresdefault.jpg",
+  "title": "A Taxonomy of Decorators: A-E",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pEL1THG6ysY"
+    }
+  ]
+}

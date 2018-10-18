@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The cPython\u2019s startup speed generally quite fast compared to other\nsimilar dynamic language interpreters. Despite this, the interpreter\u2019s\nstartup time increases linearly with the number and size of imported\npython modules. Although interpreter startup speed isn\u2019t a significant\nconcern in long running servers, it does matter for the command line and\nother frequently launched applications.\n\nOne of the oldest tricks in the book, when it comes to performance\noptimizations is to perform frequent and expensive operations fewer\ntimes and reuse results from previous invocations. We noticed that the\noverhead of reading and un-marshalling .pyc files at startup can be\neliminated if we could directly embed code objects and their associated\nobject graph from .pyc files into the data segment of the cPython\nbinary. This technique is quite similar to the approach taken by image\nbased languages like Smalltalk in the past. Implementing this for\ncPython is made simpler because marshaled code objects in .pyc files\ncontain a subset of the types of objects that marshal format supports.\nWith this approach, loading a module included in the python binary is as\ncheap as dereferencing a pointer, albeit at the cost of increased binary\nsize.\n\nThis talk will discuss the approach taken to implement the\naforementioned idea for Python 3.6 and the challenges faced in\nimplementing it. It will also talk about benchmark results from the\nimprovements and possible future directions for this work. Although this\ntalk delves into cPython internals, no prior experience with cPython\ninternals is required to follow along.\n",
+  "duration": 1675,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Jeethu Rao"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KRqv2Bm1J18/maxresdefault.jpg",
+  "title": "Faster Python startup",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KRqv2Bm1J18"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "This talk is about applying deep learning to music. We will look at the\nraw music data and discover the following:\n\n-  How to detect instruments from a piece of music\n-  How to detect what is being played by what instrument\n-  How to isolate instruments in multi-instrument (polyphonic) music\n\nInstead of applying it to existing music we will generate our own music\nusing some simple musical rules. The benefit of this is that we are in\ncontrol of the complexity and we know exactly what is being played. We\nstart out simple and then start adding more instruments, different\ntimbres, etc. As we go up in complexity, we shall see how to adapt our\nmodels to be able to deal with it. This gives interesting insights in\nwhat structures in deep nets work well.\n\nI will show:\n\n-  How to build a simple synthesizer using numpy\n-  How to create an unlimited data set of improvisation that sounds\n   musical\n-  How to use this data set for detecting instruments using deep\n   learning\n-  How to filter out one instrument when multiple synthesizers are\n   playing at once\n\nFor more info, see the github repository at\nhttps://github.com/marcelraas/music-generator\n",
+  "duration": 2634,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Marcel Raas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/epPFCdEgHxM/maxresdefault.jpg",
+  "title": "Change music in two epochs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=epPFCdEgHxM"
+    }
+  ]
+}

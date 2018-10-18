@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "`Repository <https://github.com/Guillemdb/hacking-rl>`__\n\n`Slides with\nnotes <https://docs.google.com/presentation/d/1aquFoqMz8gYhua2zr-%20PCckL2-6-weQFfbZ4fRVywW2Y/edit?usp=sharing>`__\n\nCreating huge datasets of top performing examples for Reinforcement\nLearning (RL) has always been tricky, but if we allow ourselves to cheat\na bit it can be done very easily. During this talk, I will present a new\nfamily of algorithms that allow to efficiently generate very high\nquality samples for any known RL environment.\n\nThis new generation of planning algorithms achieves a performance which\nis several orders of magnitude higher than any other existing\nalternative, while offering linear time complexity and good scalability.\n\nThe talk\n--------\n\nThis talk will be a practical example of how we can use new tools for\nhacking any reinforcement learning environment, and make it generate\nsuperhuman level games.\n\nHacking RL, as any other hacking process will be divided in four phases:\n\n1. Information Gathering\n~~~~~~~~~~~~~~~~~~~~~~~~\n\nDuring information gathering, I will briefly explain what are the main\nideas behind Reinforcement Learning. I will also talk about how our\ntheory (FractalAI) came to be, and what are the fundamental concepts\nbehind it.\n\n2. Scanning and vulnerability detection\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nWe will find an attack vector against the environment API, and explain\nhow it can be exploited. I will explain the fundamental concepts needed\nto build a new generation of exploits, that will allow us to have\ncomplete control over the data the environment produces.\n\n3.Exploitation & privilege escalation\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nThis is the time to test the new exploits and to show a proof of\nconcept. We will exploit the attack vector to gain access to the\nenvironment. Using only a laptop I will show how it is possible to\nsample data which surpasses human performance way faster than real time.\n\n4. Maintaining access & managing tracks\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nOnce we have gained control of the environment, we will measure how well\nthe exploits work, and how well the techniques presented can generalize\nto other types of environments.\n\nThe Q&A\n-------\n\nI want the talk to be as simple and fast as possible, with a lot of\ngraphical examples, videos, and a Jupyter notebook. The Q&A session is\nthe time to apply some social engineering to get me to talk about the\ndetails that you find more interesting. I have prepared additional\nmaterial covering the most common questions and concerns, but feel free\nto ask whatever you want, I love challenging questions ;)\n\nSome of the topics covered in the additional material are:\n\n-  Reinforcement Learning as a supervised problem\n-  Improving AlphaZero\n-  Hacking OpenAI baselines\n-  How the algorithm works\n-  An overview of the FractalAI repository\n-  Improving world models\n-  Combining FractalAI with neural networks\n\nReferences\n----------\n\n1. Repository with the code of the Swarm Wave and Fractal Monte Carlo\n   algorithms: https://github.com/FragileTheory/FractalAI\n2. `Planning with Pixels in (Almost) Real\n   Time <https://arxiv.org/pdf/1801.03354.pdf>`__\n3. `Blind Search for Atari-Like Online Planning\n   Revisited <https://www.ijcai.org/Proceedings/16/Papers/460.pdf>`__\n4. `Google spreadsheet with all bencharks on\n   Atari <https://docs.google.com/spreadsheets/d/1JcNw2L0YL_I2iGZPJ0bNKJshlTaqMuEl5CP2W5zie6M/edit?usp=sharing>`__\n\n5. `Code used to run the\n   examples <https://github.com/Guillemdb/FractalAI/tree/learning>`__.\n   (Not merged to the FractalAI repo yet)\n",
+  "duration": 2607,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Guillem Duran"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rZpZU8LHPco/maxresdefault.jpg",
+  "title": "Hacking Reinforcement Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rZpZU8LHPco"
+    }
+  ]
+}

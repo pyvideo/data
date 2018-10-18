@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Apache Parquet Data Format\n==========================\n\nApache Parquet is a binary, efficient columnar data format. It uses\nvarious techniques to store data in a CPU and I/O efficient way like row\ngroups, compression for pages in column chunks or dictionary encoding\nfor columns. Index hints and statistics to quickly skip over chunks of\nirrelevant data enable efficient queries on large amount of data.\n\nApache Parquet with Pandas & Dask\n=================================\n\nApache Parquet files can be read into Pandas DataFrames with the two\nlibraries fastparquet and Apache Arrow. While Pandas is mostly used to\nwork with data that fits into memory, Apache Dask allows us to work with\ndata larger then memory and even larger than local disk space. Data can\nbe split up into partitions and stored in cloud object storage systems\nlike Amazon S3 or Azure Storage.\n\nUsing Metadata from the partiton filenames, parquet column statistics\nand dictonary filtering allows faster performance for selective queries\nwithout reading all data. This talk will show how use partitioning, row\ngroup skipping and general data layout to speed up queries on large\namount of data.\n",
+  "duration": 2312,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Peter Hoffmann"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fcPzcooWrIY/maxresdefault.jpg",
+  "title": "Using Pandas and Dask to work with large columnar datasets  in Apache Parquet",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fcPzcooWrIY"
+    }
+  ]
+}

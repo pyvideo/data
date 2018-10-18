@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "PyPy is a fast and compliant implementation of Python. In other words,\nit\u2019s an interpreter for the Python language that can act as a full\nreplacement for the reference interpreter, CPython. It\u2019s optimised to\nenable efficient just-in- time compilation of Python code to machine\ncode, and has releases matching versions 2.7, 3.5 and soon(ish) 3.6. The\nPyPy project also developed cffi as a clean and efficient way of\ninterfacing with C code.\n\nHowever, many libraries in the Python ecosystem are implemented as C\nextensions, which target CPython\u2019s C API. Many others use Cython, which\nbuilds C extensions under the hood. Therefore, PyPy needs an emulation\nlayer for the C API.\n\nThis emulation needs to bridge the differences between the\nimplementation languages and the object models of CPython and PyPy. The\nsolution is called cpyext. It\u2019s implemented in a mixture of RPython and\nC, with most of the API functions and macros implemented in RPython.\ncpyext exposes PyObjects to the extension code that appear similar to\nCPython objects (as long as extension writers stay within the fuzzily\ndefined boundaries of the public API) but are merely \u2018shadows\u2019 of the\nreal PyPy objects.\n\nAfter a brief presentation of PyPy, its goals, and its current statuts\nand roadmap, this talk will dive into the vexed topic of its handling of\nC extensions. By the end of it, the audience should understand the\noperating principles of cpyext and have a clearer understanding of what\nhappens when you install and run numpy, for instance, on top of PyPy.\nSome basic familiarity with CPython internals and how C extensions are\nmade will be assumed.\n",
+  "duration": 1798,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Ronan Lamy"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/qH0eeh-4XE8/maxresdefault.jpg",
+  "title": "Adventures in compatibility: emulating CPython's C API in PyPy",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qH0eeh-4XE8"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "In an online betting exchange, thousands of money related transactions\nare generated per minute. This data flow transforms a common and, in\ngeneral, tedious task such as accounting into an interesting big data\nengineering problem. At Smarkets, accounting reports serve two main\npurposes: housekeeping of our financial operations and documentation for\nthe relevant regulation authorities. In both cases, reliability and\naccuracy are crucial in the final result. The fact that these reports\nare generated daily, the need to cope with failure when retrieving data\nfrom previous days, and the fast growing transaction volume obsoleted\nthe original accounting system and required a new pipeline that could\nscale.\n\nThis talk presents the ETL pipeline designed to meet the constraints\nhighlighted above, and explains the motivations behind the tech stack\nchosen for the job, which includes Python3, Luigi and Spark among\nothers. These topics will be covered by describing the main technical\nproblems solved with our design: - Fault tolerance and reliability, i.e\nability to identify faulty steps and only rerun those instead of the\nwhole pipeline. - Fast input/output. - Fast computations.\n",
+  "duration": 1498,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Isabel Lopez"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/jNt37Sj4ebM/maxresdefault.jpg",
+  "title": "ETL pipeline to achieve reliability at scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jNt37Sj4ebM"
+    }
+  ]
+}

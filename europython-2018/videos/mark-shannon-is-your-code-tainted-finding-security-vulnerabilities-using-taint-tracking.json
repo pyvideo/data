@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "\u201cTaint tracking\u201d is a technique used in code analysis to find security\nvulnerabilities and other problems.\n\nAny data that comes from an untrusted source, for example a HTTP\nrequest, is treated as \u201ctainted\u201d. If that \u201ctainted\u201d data is able to\nreach a vulnerable part of your code, then you have a problem.\nSophisticated code analysis tools can track this data, and reveal\npotential security problems. Examples of the sort of problem that can be\nfound include cross-site scripting (XSS), code injection, SQL injection\nand others.\n\nIn this talk I will show how taint tracking analysis works in practice,\nintroducing the concepts of source, sink and sanitizer. I will then\ndemonstrate using taint tracking to find a XSS vulnerability in a django\napp. (We will chose a project that is designed to teach django security,\nwhere the vulnerability is deliberate.)\n\nI will also explain how thinking in terms of \u201ctaint\u201d can help you write\nsafer code, even without access to code analysis.\n\nDuring this talk I will use the code analysis tools on lgtm.com to\ndemonstrate the analysis. lgtm.com is free to use for open-source\nprojects. A paid version is available.\n",
+  "duration": 1626,
+  "language": "eng",
+  "recorded": "2018-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Mark Shannon"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/VQkFhrXvRbw/maxresdefault.jpg",
+  "title": "Is your code tainted? Finding security vulnerabilities using taint-tracking.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VQkFhrXvRbw"
+    }
+  ]
+}

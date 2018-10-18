@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The composability of fixtures in pytest is an improvement over\ntraditional xUnit setup/teardown, reducing the incentive to commit\ntesting crimes such as multi-stage and stepwise tests. This is great out\nof the box for unit tests, but I\u2019m going to show how to combine the\npower of pytest fixtures with Docker to build high-level integration\ntests for microservices or other complex systems with multiple\ncomponents. I\u2019ll then build on that to show how to embed mock web\nservices written with Flask right into the test code.\n\nWith a sample Java application that makes use of some external resources\nto offer a data processing service I\u2019ll first quick an overview of\nPytest, Docker, and Flask. Then I\u2019ll mix some pre-built code with live\ntest coding to demonstrate how to build high-level system tests which\nspin up the application and its dependencies in Docker. I\u2019ll then mock\none of the external dependencies using Flask, allowing the test to\ncontrol and verify interaction between the system components. Finally\nI\u2019ll show how to wrap the Flask application in a WSGI middleware that\nlets the test inspect interaction with the mocked service.\n\nFrom a learning and development point of view, building your own is\nbetter than re-using someone else\u2019s code so I\u2019ll show how the support\ncode for these features is relatively simple and how the audience can\nbuild it themselves to exactly meet their own needs. And I\u2019ll do it all\nwith a sense of fun, a joke or two and maybe a little storytelling.\n",
+  "duration": 2028,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Neil Gall"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/IZmlkoOO8Mg/maxresdefault.jpg",
+  "title": "System testing with Pytest, Docker, and Flask",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IZmlkoOO8Mg"
+    }
+  ]
+}

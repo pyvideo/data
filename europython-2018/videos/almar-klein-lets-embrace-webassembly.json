@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "WebAssembly (WASM) is an open, low level binary format designed to be\ncompact and run at native speed, while being memory-safe. WASM is\nprimarily intended to run code in browsers, but its by no means limited\nto this. This makes it an interesting intermediate language (IR); code\nthat compiles to WASM will (in the future) run basically anywhere. In\nshort: WASM is coming and its great!\n\nUnsurprisingly, WASM is being embraced by many communities, such as C++,\nRust, Lua, and .NET. Sadly, there does not seem to be a lot of\nenthusiasm from the Python community yet\u2026\n\nPerhaps this is because Python is interpreted and can therefore not\n(easily) use WASM as a compilation target. It should be possible to\ncompile a Python interpreter (like CPython or Pypy) to WASM and thereby\nrun Python code in a browser. But the result would be pretty\nheavy-weight, so it would arguably not be a very practical.\n\nWithin the PPCI project (a pure Python compiler infrastructure) tooling\nhas been developed to load, inspect, compile and even run WASM modules.\nThis allows combining WASM and Python in new ways. In this talk we\ndiscuss two approaches by which the Python community might embrace WASM.\n\nFirstly, various projects already exist that compile Python functions to\nother languages (e.g. Numba, PScript), and we have type annotations. If\nPython functions would be compiled to WASM, the resulting code would run\nin any WASM runtime (e.g. the browser). This will be demonstrated with\nan example, for which the resulting code can be run either in a browser\nor inside Python itself. In either case, it\u2019s pretty darn fast.\n\nSecondly, rather than *using* WASM, it might be interesting for Python\nto function as a platform to *run* and *bind* WASM modules. Two of\nPython\u2019s greater strengths are its rich ecosystem and its ability to\nglue things together. Let\u2019s build on that! Imagine creating an\napplication that consists of multiple WASM modules, perhaps compiled\nfrom different languages, and binding these together into a single\nPython app.\n\nThis will be demonstrated with a game, which is written in Rust,\ncompiled to WASM, and running inside a Python process. The WASM module\nconsumes a drawing API, which is in this case provided by Python, and\nPython feeds the WASM module with user input.\n\nI hope that this talk inspires other Pythonistas to think about the\nadvantages that WASM can bring to our ecosystem, and also about the role\nthat Python can play in the growing WASM ecosystem.\n",
+  "duration": 1828,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Almar Klein"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/u2kKxmb9BWs/maxresdefault.jpg",
+  "title": "Let\u2019s embrace WebAssembly!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=u2kKxmb9BWs"
+    }
+  ]
+}

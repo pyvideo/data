@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Using for loops and list comprehensions in Python is basic and quite\ncommon, right? But how does iteration in Python actually work \u201cunder the\nhood\u201d? The words \u201citerator\u201d and \u201citerable\u201d each occur over 500 times in\nthe Python documentation, but what does an iterator actually *do* , as\nopposed to an iterable? And how do they do it? Learn the details as we\nturn the iteration protocol inside out, with live coded demonstrations\nalong the way.\n\nThis talk will start from the way Python iterates of over a sequence, in\ncomparison with iterating by index, like C. The key point of iterating\nover a sequence is that something needs to track which item in the\nsequence is next, which is something that Python\u2019s iteration protocol\nmanages.\n\nThe iterable section will demonstrate creating a simple object that\nreturns items by index (e.g., a fibonacci series), showing that\n**getitem** is really all you need for an iterable, since an iterator is\ncreated for such objects when iterated upon. BUT, this doesn\u2019t answer\nthe question of how Python keeps track of which item is next.\n\nThe iterator section answers that question by converting the iterable\njust created to an iterator - adding **iter** and **next** methods and\nshowing how the iterator saves state and essentially drives the\niteration protocol.\n\nHaving an accurate understanding of iteration protocol will help\ndeveloping Pythonistas reason better about both iterating over existing\nobjects and creating their own iterables and iterators.\n",
+  "duration": 1912,
+  "language": "eng",
+  "recorded": "2018-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Naomi Ceder"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/kXd1sIbdM8w/maxresdefault.jpg",
+  "title": "Iteration Inside Out - Python's Iteration Protocol",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kXd1sIbdM8w"
+    }
+  ]
+}

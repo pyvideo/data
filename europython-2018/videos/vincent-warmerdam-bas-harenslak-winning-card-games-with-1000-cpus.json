@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Vincent was playing a card game against his girlfriend and he kept\nloosing. So he wanted to train a bot to play on his behalf. This is our\nstory.\n\nWe\u2019re using AWS Lambda to get better at a card game named SushiGO. We\nmake a small genetic algorithm in Python that uses AWS Lambda as a\nbackend. The talk consists of these parts:\n\n-  Quick Explanation of the rules of the SushiGo Card Game\n-  Translation of real life to an algorithm\n-  Explain why this problem needs a lot of CPU\n-  Explain why AWS Lambda fits the simulation use-case\n-  How to quickly hack Concurrency in Python\n-  How to deploy lambda very quickly with chalice\n-  Experimentation Results\n\nThis talk will discuss an algorithm that we\u2019ve tried to improve in three\nways:\n\n-  Applying simple maths to make the search algorithm better\n-  Throwing lots (lots!) of CPU\u2019s against the problem by leveraging AWS\n   Lambda and python concurrency\n\nWe will conclude by discussing whether or not AWS Lambda is suitable for\na gridsearch/grid simulation (hint, it\u2019s not meant for this task, but it\nactually kind of works very well).\n",
+  "duration": 2494,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "vincent warmerdam",
+    "Bas Harenslak"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KUvB1hqF2OA/maxresdefault.jpg",
+  "title": "Winning card games with 1000+ CPUs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KUvB1hqF2OA"
+    }
+  ]
+}

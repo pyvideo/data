@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Concurrent programs are super useful: think of web apps juggling lots of\nsimultaneous downloads and websocket connections, chat bots tracking\nmultiple concurrent conversations, or web spiders fetching pages in\nparallel. But writing concurrent programs is complicated, intimidating\nto newcomers, and often challenging even for experts.\n\nDoes it have to be? Python is famous for being simple and\nstraightforward; can Python make concurrent programming simple and\nstraightforward too? Trio is an attempt to address this question by the\npositive !\n\nBy taking advantage of new Python 3 features (async/await keywords,\nasync loops and context managers etc.) while dropping legacy concepts\nthat older asynchronous frameworks has to maintain, Trio defines a new\nset of primitives that make it dramatically easier to write correct\nconcurrent programs.\n\nIn this talk, we will describe those primitives, and demonstrate how to\nuse them to implement a basic algorithm for speeding up TCP connections.\nCompared to the best previous Python implementation, our version turns\nout to be easier to understand, more correct, and dramatically shorter.\n",
+  "duration": 1784,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Emmanuel Leblond"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DK4SwlyWm-k/maxresdefault.jpg",
+  "title": "Trio: A pythonic way to do async programming",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DK4SwlyWm-k"
+    }
+  ]
+}

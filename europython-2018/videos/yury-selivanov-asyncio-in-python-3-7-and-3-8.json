@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The talk is aimed to give attendees a clear picture of new asyncio\nfeatures in Python 3.7 and give an idea of what to expect in Python 3.8.\nAs a CPython core developer and the lead asyncio maintainer I believe I\nhave a unique perspective to share with EuroPython guests.\n\nPython 3.7 boasts a number of new amazing features:\n\n-  sendfile\n-  start TLS\n-  new high performance buffered protocols\n-  context-local state via PEP 567\n-  asyncio.run & create\\_task & other usability improvements\n-  many performance improvements\n\nThe first part of the talk will be focusing on new APIs to explain them\nand give ideas how they can be used in production.\n\nThe second part of the talk will be focused on what to expect to see in\nasyncio in Python 3.8:\n\n-  new performance tracking & profiling API\n-  supervisors & cancel scopes\n-  new timeouts API\n-  a completely new way of writing asyncio applications\n\nSome of these ideas are borrowed from Trio and Curio (two other popular\nasync/await Python frameworks), many are borrowed from languages like\nErlang and Scala. One thing I can say for certain is that 3.8 will be\nthe biggest and most interesting asyncio release ever!\n",
+  "duration": 2627,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Yury Selivanov"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ReXxO_azV-w/maxresdefault.jpg",
+  "title": "Asyncio in Python 3.7 and 3.8.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ReXxO_azV-w"
+    }
+  ]
+}

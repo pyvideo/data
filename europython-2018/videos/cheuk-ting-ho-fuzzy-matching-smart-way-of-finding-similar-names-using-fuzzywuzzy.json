@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Matching strings should be one of the first natural language processing\nproblem that human encounter since we start use computer to handle data.\nUnlike numerical value which has an exact logic to compare them, it is\nvery hard to say how alike two strings are for a computer. One may\ncompare them character by character and have an idea of how many\ncharacters in the pair of stings are the same. Unfortunately in most\napplication we need computer to perceive strings like we do and\ntherefore we have to use fuzzy matching. Fuzzy matching on names is\nnever straight forward though, the definition of how \u201cdifference\u201d of two\nnames are really depends case by case. For example with restaurant\nnames, matching of words like \u201ccafe\u201d \u201cbar\u201d and \u201crestaurant\u201d are consider\nless valuable then matching of some other less common words. Also, do we\nconsider company names that matches partly (like \u201cHappy Unicorn company\u201d\nand Happy Unicorn co.\u201d) are the same?\n\nIn the first half of the talk Levenshtein Distance, a measure of the\nsimilarity between two strings, will be explained. Different functions\nin Fuzzywuzzy like \u201cpartial *ratio\u201d and \u201ctoken* sort\\_ratio\u201d will also\nbe explored and compared for difference. It is very important to\nunderstand our tool and choose the right one for our task. Then in the\nsecond half, we will start tackling the example problem: matching\ncompany names, we will show that besides using Fuzzywuzzy, we have to\nalso handle problem like finding and avoid matching of common words and\nspeeding up the matching process by grouping the names. By combining all\ntricks and techniques that we demonstrate, we will also evaluate how\nefficient this method is and the advantage of using this method.\n\nThis talk is for people in all level of Python experience who would like\nto learn a trick or two and would like to be able to solve similar\nproblems in the future. Theory of how the library works will be\nexplained and It is easy to be pick up even for beginners.\n",
+  "duration": 1788,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Cheuk Ting Ho"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/NRAqIjXaZvw/maxresdefault.jpg",
+  "title": "Fuzzy Matching - Smart Way of Finding Similar Names Using Fuzzywuzzy",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NRAqIjXaZvw"
+    }
+  ]
+}

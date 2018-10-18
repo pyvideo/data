@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Maintaining an open source project can be a drag. Especially when you\nhave dozens of them. Besides being tedious , making a new release can be\na very error prone process. Maybe you forgot to run the full test suite,\nforgot to update the release version or tag the release on VCS or maybe\nyou bungled up the upload to PyPI. Fortunately there are things you can\ndo to eliminate entire categories of human errors in the release process\n\u2013 by automating them.\n\nThis talk uses a trivial project as an example to present a release\npipeline, from packaging and testing to deployment, that only requires\nyou to push a git tag to your Github repository. Automation then takes\ncare of the rest and you end up with a new release on PyPI (yay!).\n\nThis talk is mostly useful for open source developers using Github to\nhouse their projects, as it heavily leans on Travis, its continuous\nintegration provider . You also need to be at least somewhat familiar\nwith Python packaging and testing in order to follow along. Familiarity\nwith common tools like pytest and tox helps but is not strictly\nrequired.\n",
+  "duration": 2661,
+  "language": "eng",
+  "recorded": "2018-07-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Alex Gr\u00f6nholm"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/btqFjNDdTlE/maxresdefault.jpg",
+  "title": "Automating testing and deployment with Github and Travis",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=btqFjNDdTlE"
+    }
+  ]
+}

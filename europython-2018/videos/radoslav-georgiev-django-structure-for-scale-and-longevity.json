@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Django structure for scale and longevity\n========================================\n\nWhy\n---\n\nDjango is great.\n\nBut as we add new features, as our dev team grows & the software needs\nto be stable on production, things can get quite messy.\n\nWe are going to look at some common patterns, derived from experience,\non how to structure your Django project for scale and longevity.\n\nWhat\n----\n\n**Main topics are:**\n\n-  Django service layer or where should business logic live?\n-  Using Django Rest Framework in a clean & repeatable way & combining\n   it with the service layer.\n-  Testing everything that matters, without repeating ourselves in\n   different tests.\n\nWe are going to talk about when to rely on existing abstraction so it\u2019s\nactually helpful & when to avoid existing abstraction, and code things\nourselves.\n\nThe examples showed in this talk are derived from working with Django in\nthe last 5 years on projects with:\n\n-  Daily production usage & production deploys.\n-  Dozens of apps.\n-  Hundreds of models & APIs.\n-  Tens of integrations working simultaneously.\n-  Teams of 5 to 10 people.\n\nWho\n---\n\n**Key takeaways from the talk:**\n\n-  Increased productivity when developing with Django.\n-  Deeper understanding of the software development process with Django.\n-  Demo project with everything mentioned in it.\n\nThe talk is great for all levels of Django knowledge - from beginners to\nadvanced users & teams.\n\nHow\n---\n\nThe main way of getting the point across is going to be by showing\nregular code, talking how it can get messy & then following up with\nexamples of improving that code. Hopefully this talk will start a lot of\ndiscussion afterwards.\n\n**Breakdown of the talk:**\n\n-  Django service layer\n\n   -  Fat models or fat views?\n   -  Where do I put my business logic?\n   -  What is a service & what goes into a service?\n   -  What is a selector & what goes into a selector?\n\n-  General Django structure\n\n   -  How many apps should I have?\n   -  Structuring your code so you\u0440 team can be more productive and have\n      less conflicts.\n   -  Common modules & utilities.\n\n-  Doing APIs with Django Rest Framework\n\n   -  Splitting APIs in 2 groups - \u201cgiving data\u201d and \u201ctaking data\u201d\n   -  Using a lot of generics for \u201cgive data\u201d\n   -  When do to selectors?\n   -  Using no generics for \u201ctake data\u201d (APIView + Services)\n   -  Handling errors from services\n   -  Inlining serializers & avoiding serializers reuse\n   -  A neat ``inline_serializer`` util\n   -  Introducing general error formatting for your API\n\n-  Testing all of that - what should be & not be tested?\n",
+  "duration": 2727,
+  "language": "eng",
+  "recorded": "2018-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Radoslav Georgiev"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yG3ZdxBb1oo/maxresdefault.jpg",
+  "title": "Django structure for scale and longevity",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yG3ZdxBb1oo"
+    }
+  ]
+}

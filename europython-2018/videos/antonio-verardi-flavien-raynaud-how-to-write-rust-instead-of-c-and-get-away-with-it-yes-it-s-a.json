@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Have you ever tried optimizing a super-slow Python application and\nthought: \u201cOh! I wish I could just write this bit it in Rust\u201d? Well,\nturns out you can! We will show you how Rust is a better alternative\nthan C to make your programs lightning fast, and how to get away with\nit; without your users even noticing.\n\nAs Infrastructure Engineers at Yelp, the challenge we face everyday is:\nscale. Yelp is mostly a Python shop and while this is great for\ndevelopment velocity, our work often revolves around making Python\napplications run faster. Until now, we have been using different\ntechniques: faster interpreters, or, more often, C code.\n\nGiven its safety guarantees, performance and promise of better tooling\nthan C, we decided we had to give Rust a try. The initial results helped\nreinforce that there was a lot of opportunity for Rust to play an\nimportant role in our production code.\n\nYelp heavily relies on the Apache Avro (https://avro.apache.org/)\nserialization format for its internal infrastructure. During the talk,\nwe will show how we implemented an Avro serialization/deserialization\nlibrary in Rust, how we were able to call it from Python (and in theory\nfrom any other language) with very little code, using tools such as\ncbindgen (https://github.com/eqrion/cbindgen/), CFFI\n(https://cffi.readthedocs.io/en/latest/) and Milksnake\n(https://github.com/getsentry/milksnake/).\n\nThis talk would outline how easy it is to write performant code in a\nlanguage like Rust and call it from Python applications without users\neven realizing it, making this a great solution for production services.\n",
+  "duration": 2529,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Antonio Verardi",
+    "Flavien Raynaud"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/u6ZbF4apABk/maxresdefault.jpg",
+  "title": "How to write Rust instead of C, and get away with it (yes, it's a Python talk)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=u6ZbF4apABk"
+    }
+  ]
+}

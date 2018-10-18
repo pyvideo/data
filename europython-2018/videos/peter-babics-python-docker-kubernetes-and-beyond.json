@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Have you ever tried to manage deployment of multiple python applications\nthrough various linux distributions ? If so, you must have heard of\nDocker and maybe also Kubernetes. Distributing python applications using\ndocker is simple and allows to create static packages containing\neverything required for them to run. Also it allows to freeze\neverything, packages, available libraries, files on filesystem. In my\nspeech I would like to tell you about our brief journey, of moving our\ntrading platform from standalone application directly on host system,\nthrough deploying it in docker and latter moving it to kubernetes. I\nwill explain our struggles with implementing stable and fast CI using\nGitlab CI and Docker, image (package) storage and cleanup of old images\nand finally I will tell you how we are deploying our platform to\nkubernetes, with nothing more than yaml-s and templating.\n",
+  "duration": 1805,
+  "language": "eng",
+  "recorded": "2018-07-25",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2018.europython.eu/p3/schedule/ep2018/"
+    }
+  ],
+  "speakers": [
+    "Peter Babics"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KF6lU_fm_Bg/maxresdefault.jpg",
+  "title": "Python, Docker, Kubernetes, and beyond ?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KF6lU_fm_Bg"
+    }
+  ]
+}
