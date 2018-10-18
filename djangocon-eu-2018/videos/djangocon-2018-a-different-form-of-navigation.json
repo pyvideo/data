@@ -1,0 +1,17 @@
+{
+  "description": "Web tooling for data analysis requires, at its heart, a way to select the data a user want's to analyze. This talk shows how you can use forms to pass data among pages, retain the selected form elements through the request/response cycle and build web interfaces that utilize forms while looking like simple link elements. I will also show how I use my [django-modelqueryform](https://django-modelqueryform.readthedocs.io/en/latest/) package to facilitate an advanced user-centric data filtering interface.\n\nData analysis and visualization tools are different than many applications we build with django. They are not simple CRUD apps, and different users often want to use vastly different data subsets for their analysis. \n\n- The talk will start with a quick demo of such an application to give context. \n- Overview of the functionality provided by [django-modelqueryform](https://django-modelqueryform.readthedocs.io/en/latest/\n- Building widgets that encapsulate an instance of the form\n- Coding required to maintain the form context through the request/response cycle so that the data selection is maintained through navigation to different analysis types\n- Questions/Comments\n\nChaim Kirby",
+  "duration": 1371,
+  "language": "eng",
+  "recorded": "2018-05-23",
+  "speakers": [
+    "Chaim Kirby"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/d9vozZTJOrU/hqdefault.jpg",
+  "title": "A different Form of navigation",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=d9vozZTJOrU"
+    }
+  ]
+}
