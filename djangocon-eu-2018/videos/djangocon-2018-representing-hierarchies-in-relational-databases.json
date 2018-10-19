@@ -1,0 +1,17 @@
+{
+  "description": "In this talk, I\u2019ll explain the fundamental problem representing deep hierarchies in relational databases. To address this problem, we can use a database design pattern, named Materialized Path Trees.\n\nMany data structures require a representation, where one parent node can have any arbitrary number of children. Inside relational databases, this typically is represented by a foreign key onto its own table. In Django\u2019s ORM, we use ``models.ForeignKey('self', ...)``, to create this kind of recursive relationship.\nThe major problem with this kind of representation is, that it doesn\u2019t scale for deep trees. Whenever we have to traverse the tree from a given starting node, our code has to perform one database query per hierarchy level.\nTo circumvent this, some database vendors implemented SQL dialects, to fetch a whole subtree with one query. Long time ago, Oracle for instance implemented 'CONNECT BY', which is proprietary and not part of the SQL standard. Nowadays, newer releases of most major database vendors implemented the 'WITH RECURSIVE' clause, which has been added to the SQL-99 standard. This allows us to build recursive queries.\n\nFortunately there is a clever recipe to represent hierarchies in relational databases using standard SQL techniques, but without the mentioned scaling problem: Materialized Path Trees, discovered by Vadim Tropashko. Django\u2019s ecosystem offers two libraries, which implement this design pattern: **django-mptt** and **django-treebeard**. I also would like to mention **django-tree**, which only works on Postgres, using their SQL extension mentioned before.\nIn this talk I\u2019ll explain the design patterns for Materialized Path Trees. Furthermore I\u2019ll show the pros and cons of both libraries.\n\nJacob Rief",
+  "duration": 1637,
+  "language": "eng",
+  "recorded": "2018-05-23",
+  "speakers": [
+    "Jacob Rief"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CRxjoklS8v0/hqdefault.jpg",
+  "title": "Representing Hierarchies in Relational Databases",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CRxjoklS8v0"
+    }
+  ]
+}

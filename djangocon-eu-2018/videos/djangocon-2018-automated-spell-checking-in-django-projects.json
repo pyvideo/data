@@ -1,0 +1,17 @@
+{
+  "description": "I'm aiming to show how avoid spelling errors by showing ways to implement automated spell-checking.\n\nNearly all Django applications have two main textual bodies that users come in touch with: First, any text in the application and its translation, second the documentation. Since both are usually written by humans, they will contain spelling errors.\nThis is considered harmful and can from time to time hinder the user trying to understand what to do.\nTherefore, an automated spell-checking tool should be a part of any CI-cyle.\n\nFor spell-checking documentation, I will give a short demonstration on how to use the \"sphinxcontrib-spelling\"-tool written by Doug Hellmann, the problems we had and how we overcame them.\nFor spell-checking text in the application and its translations that are usually found in .po-files, I have implemented a small tool called \"potypo\" (name and development in progress).\nI will present this tool and show challenges and problems on the way to implementing automated spell checking for .po-files.\n\nJakob Schnell",
+  "duration": 1923,
+  "language": "eng",
+  "recorded": "2018-05-24",
+  "speakers": [
+    "Jakob Schnell"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/oPX7LtMNBto/hqdefault.jpg",
+  "title": "Automated spell-checking in Django projects",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=oPX7LtMNBto"
+    }
+  ]
+}

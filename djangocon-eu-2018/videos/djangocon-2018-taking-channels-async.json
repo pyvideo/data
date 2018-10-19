@@ -1,0 +1,17 @@
+{
+  "description": "We take a look at Channels 2.0 and the changes it brings by going fully async, examining not only why the change makes things better, but also how we've managed to bridge between Django's synchronous world and the async world, and what the future might hold for Django and Channels.\n\nThe Channels project has taken a major turn with version 2.0, embracing Python's async functionality and building applications around an async event loop rather than worker processes. But why the big change? And what does it mean for Django?\n\nWe'll look at the progress Channels is making in turning more of the request/response cycle into native async code - how far can we get down the stack before making APIs async becomes hard? Can we make it as far as the ORM? How do we bridge between Django's synchronous world and the async world when we do reach that boundary?\n\nWe also take a look at how it's changed both Channels consumers, opening up the possibility of mixing async calls in with your synchronous code, and how it's changed what the ASGI spec looks like and what that might mean for adoption.\n\nAnd, finally, we'll look what's next for Django and Channels, and maybe how it will affect the Python web world as a whole.\n\nAndrew Godwin",
+  "duration": 1722,
+  "language": "eng",
+  "recorded": "2018-05-24",
+  "speakers": [
+    "Andrew Godwin"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/qSsM97u-Cc8/hqdefault.jpg",
+  "title": "Taking Channels Async",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qSsM97u-Cc8"
+    }
+  ]
+}
