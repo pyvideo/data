@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "In recent years, models based on Convolutional Neural Networks (CNNs) have revolutionized the entire field of computer vision. Problems like image classification can now be considered solved, and it is easy to construct implementations with any modern Deep Learning framework using fine tuning with pre-trained weights on datasets such as ImageNet.\n\nIn this talk, we will explore how and why these techniques work, getting an understanding of the intuitive aspects of what the networks are actually doing. Moreover, this intuition will enable us to understand how to jump from image classification to the more complex problem of object detection, explaining the workings of the Faster R-CNN algorithm in the process.\n\nWe will also speak about an open source Python object detection toolkit based on TensorFlow called Luminoth, going over the motivation behind it and showing how it can be integrated to your application.\n",
   "duration": 3561,
   "language": "eng",
   "recorded": "2018-06-01",
@@ -8,14 +8,20 @@
     {
       "label": "Conference schedule",
       "url": "https://pycon.sg/schedule/"
+    },
+    {
+      "label": "Talk slides",
+      "url": "https://speakerdeck.com/tryolabs/introduction-to-for-object-detection-pycon-apac-2018"
     }
   ],
   "speakers": [
     "Katharine Jarmul"
   ],
-  "tags": [],
+  "tags": [
+    "keynote"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/n7dWUQTDC5U/maxresdefault.jpg",
-  "title": "Opening Keynote",
+  "title": "Introduction to object detection",
   "videos": [
     {
       "type": "youtube",
