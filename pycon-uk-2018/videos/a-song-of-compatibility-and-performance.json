@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Ronan Lamy\n\nSunday 16th, 15:00 (Assembly Room)\nA talk (25 minutes)\nThis is the story of how PyPy achieves compatibility with CPython together with high performance.\n\nPyPy is an interpreter for the Python language that can act as a full replacement for the reference interpreter, CPython, with releases matching versions 2.7 and 3.5. It\u2019s implemented in RPython, a statically compilable subset of Python, and uses just-in-time compilation to run Python code efficiently. The PyPy project also developed cffi as a clean and fast way of interfacing with C code.\n\nHowever, many libraries in the Python ecosystem are implemented as C extensions, which target CPython\u2019s C API. Many others use Cython, which builds C extensions under the hood. Therefore, PyPy needs an emulation layer for the C API: cpyext. It bridges the differences between the implementation languages and the object models of CPython and PyPy and allows most extensions to work (as long as they stay within the fuzzily defined boundaries of the public API) just by recompiling against the PyPy headers. Thanks to this, PyPy now supports numpy, scipy, pandas, scikit-learn, and many more.",
   "duration": 1564,
   "language": "eng",
   "recorded": "2018-09-17",
