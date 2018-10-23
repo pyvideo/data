@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "*not actually magic\nFrederike Jaeger\n\nSaturday 15th, 15:00 (Ferrier Hall)\nA talk (25 minutes)\nWith more data than we can handle being produced every day, data science is the new big thing in tech and taking the world by storm. People like me (a proud physicist) are doing a big chunk of the data science model development, often relying on engineers to help them take their model to the masses. Unfortunately, not every data scientist has an engineer at hand at all times. So what if they still want to deploy their model using an API?\n\nTo help scientists without a strong engineering background do just that, we created an open source python package called revelio, which lets users create a basic API with minimal effort. The idea is that you supply your trained data science model and some sample input, and the package does everything else for you - including input validation and creating some documentation. To make things better, you can also monitor the API requests and predictions. The aim is to make the data science pipeline easier, especially for data scientists working in small teams with less support.\n\nIn this talk, I will walk you through creating APIs in Flask, highlight common patterns in data science and show how revelio makes implementing these easier. By the end of the talk, you\nwill feel confident prototyping, deploying and monitoring data science APIs!\n\nThe speaker suggested this session is suitable for new programmers.\nThe speaker suggested this session is suitable for data scientists.",
+  "description": "*not actually magic\n\nWith more data than we can handle being produced every day, data science\nis the new big thing in tech and taking the world by storm. People like\nme (a proud physicist) are doing a big chunk of the data science model\ndevelopment, often relying on engineers to help them take their model to\nthe masses. Unfortunately, not every data scientist has an engineer at\nhand at all times. So what if they still want to deploy their model\nusing an API?\n\nTo help scientists without a strong engineering background do just that,\nwe created an open source python package called revelio, which lets\nusers create a basic API with minimal effort. The idea is that you\nsupply your trained data science model and some sample input, and the\npackage does everything else for you - including input validation and\ncreating some documentation. To make things better, you can also monitor\nthe API requests and predictions. The aim is to make the data science\npipeline easier, especially for data scientists working in small teams\nwith less support.\n\n| In this talk, I will walk you through creating APIs in Flask,\n  highlight common patterns in data science and show how revelio makes\n  implementing these easier. By the end of the talk, you\n| will feel confident prototyping, deploying and monitoring data science\n  APIs!",
   "duration": 1251,
   "language": "eng",
   "recorded": "2018-09-15",
@@ -10,10 +10,12 @@
       "url": "http://2018.pyconuk.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Frederike Jaeger"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/6pql8tLWXr8/maxresdefault.jpg",
-  "title": "Data science APIs for everyone created by magic",
+  "title": "Data science APIs for everyone created by magic*",
   "videos": [
     {
       "type": "youtube",

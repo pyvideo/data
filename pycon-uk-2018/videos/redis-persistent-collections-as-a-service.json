@@ -1,19 +1,21 @@
 {
   "copyright_text": null,
-  "description": "A quick introduction to Redis, and why I really like it\nTibs / Tony Ibbs\n\nTuesday 18th, 14:30 (Assembly Room)\nA talk (25 minutes)\nI recently had to learn about Redis for work, and was very pleased at how well designed it is, and how much fun it is to use. Several times I went to look for a piece of functionality, and there it was, doing exactly what I wanted. I am especially fond of BRPOPLPUSH.\n\nI propose to give a brief introduction to what Redis is and does, an overview of the redis-py client and fakeredis for unit testing, and if there's time, some discussion of asyncio programming using aioredis.\n\nAt the end, I hope that the audience will know a bit about a genuinely useful tool that can be used as a datestore, and also for cross-communication between many programming languages. And maybe they'll share some of my enthusiasm.",
+  "description": "A quick introduction to Redis, and why I really like it\n\nI recently had to learn about Redis for work, and was very pleased at\nhow well designed it is, and how much fun it is to use. Several times I\nwent to look for a piece of functionality, and there it was, doing\nexactly what I wanted. I am especially fond of BRPOPLPUSH.\n\nI propose to give a brief introduction to what Redis is and does, an\noverview of the redis-py client and fakeredis for unit testing, and if\nthere's time, some discussion of asyncio programming using aioredis.\n\nAt the end, I hope that the audience will know a bit about a genuinely\nuseful tool that can be used as a datestore, and also for\ncross-communication between many programming languages. And maybe\nthey'll share some of my enthusiasm.",
   "duration": 1488,
   "language": "eng",
-  "recorded": "2018-09-19",
+  "recorded": "2018-09-18",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "http://2018.pyconuk.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Tibs / Tony Ibbs"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/39zPLAlKB3U/maxresdefault.jpg",
-  "title": "Redis persistent collections as a service",
+  "title": "Redis: persistent collections as a service (and for fun)",
   "videos": [
     {
       "type": "youtube",

@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "Learning the hard way how not to take down your entire production service, again, and again, and again\n\nQasim Khalil\n\nTuesday 18th, 14:30 (Ferrier Hall)\nTuesday 18th, 12:30 (Ferrier Hall)\nA talk (25 minutes)\nMigrating databases can't be that hard right? Change some fields, auto-generate the migration files, and deploy. Bam - you're do- Why is literally everything suddenly giving errors... Wait- why is everything back to normal now by itself...\n\nWhen you're small you write a monolithic application because it is efficient to do so. However, as your application becomes larger in every way, certain things can start becoming much more difficult, in particular, modifying your database schema via your models or fields becomes hazardous.\n\nThis talk will look at the various ways that I, or someone on my team, took down our entire production web service with some kind of - perfectly innocent-looking - database migration. We gradually accumulated a set of best practices and wrote a comprehensive manual on how to do them right.",
+  "description": "Learning the hard way how not to take down your entire production service, again, and again, and again\n\nMigrating databases can't be that hard right? Change some fields, auto-\ngenerate the migration files, and deploy. Bam - you're do- Why is\nliterally everything suddenly giving errors... Wait- why is everything\nback to normal now by itself...\n\nWhen you're small you write a monolithic application because it is\nefficient to do so. However, as your application becomes larger in every\nway, certain things can start becoming much more difficult, in\nparticular, modifying your database schema via your models or fields\nbecomes hazardous.\n\nThis talk will look at the various ways that I, or someone on my team,\ntook down our entire production web service with some kind of -\nperfectly innocent- looking - database migration. We gradually\naccumulated a set of best practices and wrote a comprehensive manual on\nhow to do them right.",
   "duration": 1590,
   "language": "eng",
   "recorded": "2018-09-18",
@@ -10,10 +10,12 @@
       "url": "http://2018.pyconuk.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Qasim Khalil"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/y1mQ99vUBx8/maxresdefault.jpg",
-  "title": "Taking down production with simple database migrations edit",
+  "title": "Taking down production with simple database migrations",
   "videos": [
     {
       "type": "youtube",
