@@ -1,17 +1,25 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "いろんな書き方をあえて許容しないPythonの文法は、コードの可読性を大きく高めますが、一方で文法の強制力が強いために柔軟性にはやや欠けます。 特にDSL (Domain Specific Language) を設計するうえでは、自由な書き方が制限されるというPythonの性質上、様々な困難が生じます。\n本発表では、筆者が過去に作成したプロダクト (Oktest, Tenjin, Benchmarker, Kook, etc) の経験をもとに、PythonでDSLを設計するうえでの問題点と解決策を、豊富な具体例を使って紹介します。\nPython’s code is very readable because Python doesn’t allow users to write code in various ways. But as the other side, there is less “syntax freedom” due to Python’s nature. This will be large restriction when you design DSL (Domain Specific Language) in Python.\nIn this session, I’ll show you problems and solutions about DSL design in Python which were happened through development of my products (Oktest, Tenjin, Benchmarker, Kook, etc).",
   "duration": 1588,
-  "language": "eng",
+  "language": "jpn",
   "recorded": "2012-09-16",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2012.pycon.jp/en/program/index.html"
+    },
+    {
+      "label": "Session Information",
+      "url": "https://2012.pycon.jp/program/sessions.html#session-16-1745-room357-ja"
+    },
+    {
+      "label": "Slides",
+      "url": "https://www.slideshare.net/kwatch/fantastic-dsl-in-python"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": ["桑田 誠", "Makoto Kuwata"],
+  "tags": ["dsl"],
   "thumbnail_url": "https://i.ytimg.com/vi/l8ptNmtB0G8/hqdefault.jpg",
   "title": "Fantastic DSL in Python - Python\u3067\u3064\u304f\u308bDSL\u306e\u30c6\u30af\u30cb\u30c3\u30af -",
   "videos": [

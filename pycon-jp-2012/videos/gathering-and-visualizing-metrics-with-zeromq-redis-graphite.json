@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "I will present a small system to collect, summarize and graph detailed application metrics. The system is simple, reliable and easy to extend. In this talk, I’ll walk through the tools, configuration and Python code which glues everything together.",
   "duration": 1916,
   "language": "eng",
   "recorded": "2012-09-15",
@@ -8,10 +8,18 @@
     {
       "label": "Conference schedule",
       "url": "https://2012.pycon.jp/en/program/index.html"
+    },
+    {
+      "label": "Session Information",
+      "url": "https://2012.pycon.jp/program/sessions.html#session-15-1630-room351a-ja"
+    },
+    {
+      "label": "Slides",
+      "url": "https://github.com/briandorsey/metrics_talk"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": ["Brian Dorsey"],
+  "tags": ["metrics", "logging", "zeromq", "redis", "graphite"],
   "thumbnail_url": "https://i.ytimg.com/vi/FTGdLnx_ep0/hqdefault.jpg",
   "title": "Gathering and visualizing metrics with ZeroMQ, Redis & Graphite",
   "videos": [
