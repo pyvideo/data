@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "aka. How to Convince Your Boss that you need Machine Learning\n\nThis presentation comes from a recurring question I get from my\nstudents: \"OK, all this machine learning stuff is great but how do you\nuse it in real life?\"\n\nThe students ask this because they come from what several of us would\ncall old-fashioned programming jobs, where you actually program every\nstep of what a computer does with the data. Sounds crazy, right? But\nthat is still the reality in several companies. There are several\nreasons for dealing with data in that way: legacy applications, belief\nthat hand-coded rules get 100% accuracy (yeah, right), or simply an\nattitude of don't fix what ain't broken - despite the fact that it is\nbroken.\n\n| I point such students towards *Anomaly Detection* (AD). Why? Because\n  AD is an easy technique to plug into a non-ML system. Every company\n  has some form of data aggregation - and data scrutiny - system: be it\n  webserver logs, forex trades, or hotel bookings data. In that scrutiny\n  system dirty data exist, or is fed in, and there are coded rules to\n  prevent processing of this bad data.\n| Instead of hand-coded rules, that is the place where ML techniques\n  should be used, notably AD.\n\nAD is quite easy to explain without going into mathematics, which is a\ngood thing if you need to convince your boss. AD can be used as a\nsubstitute for hand-coded rules, as a way of tuning (hyper-)parameters\nfor rules, or even working alongside such rules. Moreover most AD\ntechniques can be used on both: static datasets or running time series.\n\nWe will discuss a couple of examples of AD use. AD may appear as a\nrather specific field to a typical programmer but that's far from true.\nAD is just a clever (read: slightly different) way of using well known\nML techniques.",
   "duration": 1532,
   "language": "eng",
   "recorded": "2018-09-17",
@@ -10,7 +10,9 @@
       "url": "http://2018.pyconuk.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Michal Grochmal"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/nGv7HKz83m8/maxresdefault.jpg",
   "title": "Anomaly Detection",

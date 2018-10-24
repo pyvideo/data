@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Using Python for authorship attribution in Renaissance drama.\n\nAbout a third of the plays written for the London theatres of 400 years\nago -- when Shakespeare was writing -- were published anonymously, so we\ndon't know who wrote them. For the last century, investigators have\ncounted things in these plays in an attempt to decide who wrote them.\nSuch inquiries have been helped by advances in technology. We can now\nstore these texts electronically and automate much of the counting.\nThese advances have led to a refinement in methods for attributing\nauthorship, with scholars having a battery of reliable tests for\ndetermining the author or authors of a piece of writing.\n\nScholars who specialise in authorship attribution tend to give their\nattention almost exclusively to Shakespeare's writing and few use\nautomated means to produce their results. This talk -- and the programs\nbehind it -- addresses both these facts. It will show how authorship\nattribution, by a number of methods, can be automated in Python and\nyield worthwhile results for the study of Renaissance drama. By using\nits inbuilt data structures and a few libraries (like pandas, numpy, and\nmath), we can write programs that find likely candidate authors for\nwriting from the period.\n\nDiscovering more about authorship in the Renaissance is vital to our\nunderstanding of the period. Slowly, ideas that placed Shakespeare alone\nas a solitary genius are being replaced by models of a more\ncollaborative theatre industry, where people co-authored plays more\nfrequently than previously thought. This talk will help to continue this\nwork as well as showing how researchers can automate their endeavours in\na way that others can replicate and understand with only a little\nprogramming knowledge.",
   "duration": 1533,
   "language": "eng",
   "recorded": "2018-09-15",
@@ -10,10 +10,13 @@
       "url": "http://2018.pyconuk.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Paul Brown",
+    "Katie Jones"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/SwnlZeGCyPs/maxresdefault.jpg",
-  "title": "Is it Shakespeare",
+  "title": "Is it Shakespeare?",
   "videos": [
     {
       "type": "youtube",

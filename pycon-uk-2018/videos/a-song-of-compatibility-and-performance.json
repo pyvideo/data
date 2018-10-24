@@ -1,16 +1,18 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "This is the story of how PyPy achieves compatibility with CPython\ntogether with high performance.\n\nPyPy is an interpreter for the Python language that can act as a full\nreplacement for the reference interpreter, CPython, with releases\nmatching versions 2.7 and 3.5. It\u2019s implemented in RPython, a statically\ncompilable subset of Python, and uses just-in-time compilation to run\nPython code efficiently. The PyPy project also developed cffi as a clean\nand fast way of interfacing with C code.\n\nHowever, many libraries in the Python ecosystem are implemented as C\nextensions, which target CPython\u2019s C API. Many others use Cython, which\nbuilds C extensions under the hood. Therefore, PyPy needs an emulation\nlayer for the C API: cpyext. It bridges the differences between the\nimplementation languages and the object models of CPython and PyPy and\nallows most extensions to work (as long as they stay within the fuzzily\ndefined boundaries of the public API) just by recompiling against the\nPyPy headers. Thanks to this, PyPy now supports numpy, scipy, pandas,\nscikit-learn, and many more.\n",
   "duration": 1564,
   "language": "eng",
-  "recorded": "2018-09-17",
+  "recorded": "2018-09-16",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "http://2018.pyconuk.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Ronan Lamy"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/tWcm_0H18uI/maxresdefault.jpg",
   "title": "A song of compatibility and performance",

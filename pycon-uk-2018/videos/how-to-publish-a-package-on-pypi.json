@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "| Always wanted to publish a package on PyPI, but didn't know where to\n  start?\n| This talk is for you! Starting with nothing, we'll build a package and\n  publish it on PyPI using current best practices.\n\nPublishing a package on PyPI used to be a cargo cult. (And often still\nis!) Instead of copying and pasting from other projects' ``setup.py``\nwithout fully understanding what's happening, discover how to package\nyour code for PyPI from scratch - then learn how to avoid doing any of\nthis completely! (But now know you'll know what's going on).\n\n-  *Why* should you package your code for PyPI?\n-  How to structure your project and your code, including why you need a\n   ``src`` folder!\n-  Discover what goes in your ``Pipfile`` and your ``setup.py``, and\n   why. Learn\n   the difference between installing your library to use it, and\n   installing it to develop on it.\n-  Write tests for your project, and run them using Tox.\n-  Ensure your code will work in different on different platforms with\n   Continuous Integration!\n-  Document your code so people won't ask you loads of questions!\n-  How to actually get your code on PyPI using Twine. Configure your\n   machine\n   for PyPI and test your package release on the PyPI test server.\n-  Finally, learn how avoid doing any of this yourself (or avoid doing\n   it\n   twice) using CookieCutter templates.\n\nBy the end of this talk, you'll be so comfortable packaging projects you\nwon't avoid writing ``setup.py`` files any more! Maybe you'll even start\nwriting new code just so you can publish it on PyPI!\n",
   "duration": 1271,
   "language": "eng",
   "recorded": "2018-09-16",
@@ -10,7 +10,9 @@
       "url": "http://2018.pyconuk.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Mark Smith"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/Jg9OGuxrpxk/maxresdefault.jpg",
   "title": "How To Publish A Package On PyPI",
