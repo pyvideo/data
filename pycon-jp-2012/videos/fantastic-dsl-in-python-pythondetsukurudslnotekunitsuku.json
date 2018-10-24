@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "いろんな書き方をあえて許容しないPythonの文法は、コードの可読性を大きく高めますが、一方で文法の強制力が強いために柔軟性にはやや欠けます。 特にDSL (Domain Specific Language) を設計するうえでは、自由な書き方が制限されるというPythonの性質上、様々な困難が生じます。\n本発表では、筆者が過去に作成したプロダクト (Oktest, Tenjin, Benchmarker, Kook, etc) の経験をもとに、PythonでDSLを設計するうえでの問題点と解決策を、豊富な具体例を使って紹介します。\nPython’s code is very readable because Python doesn’t allow users to write code in various ways. But as the other side, there is less “syntax freedom” due to Python’s nature. This will be large restriction when you design DSL (Domain Specific Language) in Python.\nIn this session, I’ll show you problems and solutions about DSL design in Python which were happened through development of my products (Oktest, Tenjin, Benchmarker, Kook, etc).",
+  "description": "\u3044\u308d\u3093\u306a\u66f8\u304d\u65b9\u3092\u3042\u3048\u3066\u8a31\u5bb9\u3057\u306a\u3044Python\u306e\u6587\u6cd5\u306f\u3001\u30b3\u30fc\u30c9\u306e\u53ef\u8aad\u6027\u3092\u5927\u304d\u304f\u9ad8\u3081\u307e\u3059\u304c\u3001\u4e00\u65b9\u3067\u6587\u6cd5\u306e\u5f37\u5236\u529b\u304c\u5f37\u3044\u305f\u3081\u306b\u67d4\u8edf\u6027\u306b\u306f\u3084\u3084\u6b20\u3051\u307e\u3059\u3002 \u7279\u306bDSL (Domain Specific Language) \u3092\u8a2d\u8a08\u3059\u308b\u3046\u3048\u3067\u306f\u3001\u81ea\u7531\u306a\u66f8\u304d\u65b9\u304c\u5236\u9650\u3055\u308c\u308b\u3068\u3044\u3046Python\u306e\u6027\u8cea\u4e0a\u3001\u69d8\u3005\u306a\u56f0\u96e3\u304c\u751f\u3058\u307e\u3059\u3002\n\u672c\u767a\u8868\u3067\u306f\u3001\u7b46\u8005\u304c\u904e\u53bb\u306b\u4f5c\u6210\u3057\u305f\u30d7\u30ed\u30c0\u30af\u30c8 (Oktest, Tenjin, Benchmarker, Kook, etc) \u306e\u7d4c\u9a13\u3092\u3082\u3068\u306b\u3001Python\u3067DSL\u3092\u8a2d\u8a08\u3059\u308b\u3046\u3048\u3067\u306e\u554f\u984c\u70b9\u3068\u89e3\u6c7a\u7b56\u3092\u3001\u8c4a\u5bcc\u306a\u5177\u4f53\u4f8b\u3092\u4f7f\u3063\u3066\u7d39\u4ecb\u3057\u307e\u3059\u3002\nPython\u2019s code is very readable because Python doesn\u2019t allow users to write code in various ways. But as the other side, there is less \u201csyntax freedom\u201d due to Python\u2019s nature. This will be large restriction when you design DSL (Domain Specific Language) in Python.\nIn this session, I\u2019ll show you problems and solutions about DSL design in Python which were happened through development of my products (Oktest, Tenjin, Benchmarker, Kook, etc).",
   "duration": 1588,
   "language": "jpn",
   "recorded": "2012-09-16",
@@ -18,8 +18,13 @@
       "url": "https://www.slideshare.net/kwatch/fantastic-dsl-in-python"
     }
   ],
-  "speakers": ["桑田 誠", "Makoto Kuwata"],
-  "tags": ["dsl"],
+  "speakers": [
+    "\u6851\u7530 \u8aa0",
+    "Makoto Kuwata"
+  ],
+  "tags": [
+    "dsl"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/l8ptNmtB0G8/hqdefault.jpg",
   "title": "Fantastic DSL in Python - Python\u3067\u3064\u304f\u308bDSL\u306e\u30c6\u30af\u30cb\u30c3\u30af -",
   "videos": [
