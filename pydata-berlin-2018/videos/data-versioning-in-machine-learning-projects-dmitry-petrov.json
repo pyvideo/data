@@ -1,19 +1,22 @@
 {
+  "abstract": "It is easy to get lost in your data files versions when you work on\nmachine learning projects: - Did you ever forget what does file name\nmodel\\_withvgg16\\_l45tune\\_120e.pkl stands for? - Did you ever lose a\nright version of a data file that was used for training a particular\nversion of your machine learning code?\n\nData Version Control or DVC is an open source tool for data science\nprojects that was created to solve the issue of discrepancy between code\nand data files. DVC works on top of any Git repository, extends Git by a\nset of data versioning related command with a similar to Git semantic.\nThe tool maintains data files outside of your Git repository in a\nkey-value store on your hard drive.\n\nDVC gives you the ability to switch back and forth between your Git\nbranches and extracts not only source code but a right version of data\nfiles from the key-value store.\n\nIntegration with remote computers in a Git manner and a cloud storages\nsupport gives you the ability to efficiently sync your code and data\nfiles between your laptop, a desktop machine with GPU and a cloud\ninstance with extra memory.\n\nDVC project page: https://github.com/dataversioncontrol/dvc/\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In machine learning projects it is easy to get lost in many versions of\nyour data files. Data Version Control or DVC is an open source tool for\ndata science projects that was created to solve the issue of discrepancy\nbetween code and data files. It works on top of Git and helps you switch\nbetween Git branches and extracts not only source code but a right\nversion of data files.\n",
   "duration": 2084,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dmitry Petrov"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/BneW7jgB298/maxresdefault.jpg",
-  "title": "Data versioning in machine learning projects - Dmitry Petrov",
+  "title": "Data versioning in machine learning projects",
   "videos": [
     {
       "type": "youtube",

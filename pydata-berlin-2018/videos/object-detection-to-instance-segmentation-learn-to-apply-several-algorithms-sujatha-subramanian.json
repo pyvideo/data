@@ -1,19 +1,22 @@
 {
+  "abstract": "Object detection is about identifying object instances of certain\nclass(like person, traffic light, car etc) and localizing the bounding\nbox of objects positions .Image segmentation is the process of assigning\na label to every pixel in an image such that boundaries of objects are\ndelineated. Applications of object detection and segmentation are wide\nand are used in medical imaging, smart video surveillance, satellite\nimagery, logo detection, product placements, self-driving car, creating\npersonalized experiences to name a few.\n\nSelective Search is a hierarchical grouping algorithm for finding the\nregional proposals. Earlier methods like R-CNN uses Selective Search for\nfinding the proposals for Object Detection. Faster-RCNN uses smaller\nconvolutional networks like VGGNet or deeper residual network like\nResNets as the feature generator. It also uses, RPN(Regional Proposed\nNetwork) which outputs the object proposals. RPN uses Anchors to provide\nan \"objectness score\" for foreground background binary classification\nand the bounding box regression. Quantized ROI Pooling down samples\nfeatures before feeding the data into R-CNN for multi-class\nclassification and bounding box regression.Mask RCNN expands on\nFaster-RCNN models and provides instance segmentation. Instead of ROI\npooling it uses ROI Align for preserving pixel alignment and avoiding\ninformation loss. Object detection as a regression problem is an idea\nbehind YOLO and SSD(Single Shot Detectors) and operates without using\nregional proposals like in the case of Faster R-CNN.\n\nIn this talk, I will give you an intuition about how deep learning is\napplied to object detection and segmentation. Using different models\nlike Faster-RCNN , Mask R-CNN , SSD and YOLO on a new dataset and\nevaluating the outcome. Focus will be on how we put it all together,\nfrom getting the right day, identifying the pre-trained models for\ntransfer training, picking the right meta- algorithms for object\ndetection and segmentation and seeing it all in action. This talk will\nnot cover the basics of the how Convolutional Neural Network work. It\nwill provide high level overview of Object detection algorithms and\nemphasis will be on how to apply it.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In the recent times, several meta-algorithms in deep learning have\nopened up the possibility to use Computer Vision in various\napplications. Particularly in the field of Object detection, Semantic\nSegmentation and Instance Segmentation there has been a steady\nimprovement in algorithms like Faster R-CNN, SSD, YOLO, MASK-RCNN. When\nto apply what and how to leverage those in real-world applications?\n",
   "duration": 2142,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Sujatha Subramanian"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/yt1RSUw0YO4/maxresdefault.jpg",
-  "title": "Object detection to Instance segmentation: Learn to apply several algorithms...- Sujatha Subramanian",
+  "title": "Object detection to Instance segmentation: Learn to apply several algorithms along the way",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "When we seek a predictive model that can easily be reasoned about, we\nare faced with a problem. Linear models are very intuitive but can\nsuffer from high bias, while more flexible models are typically black\nboxes that cannot be decomposed.\n\nGeneralized Additive Models (GAMs) address this problem by making\npredictions from the sum of several feature functions. Since the overall\nmodel is additive, it is easy to diagnose the contribution of each\nfeature to the final prediction, while holding all other predictors\nconstant.\n\nThe individual feature functions are built using penalized splines,\nwhich allows us to automatically model non-linear relationships without\nhaving to manually try out many different transformations on each\nvariable. And, we can penalize excessive wiggliness of the feature\nfunctions via a single smoothing parameter.\n\nThe result is a flexible model, where it is easy to incorporate prior\nknowledge and control overfitting. However, there exist few options for\nfitting GAMs in Python.\n\n``pyGAM`` is a new open-source library that offers to fill this gap. In\nthis talk I will cover how to ``train GAMs`` with ``pyGAM``, show how to\n``inspect each feature's contribution`` to the prediction, illustrate\nhow to ``automatically choose`` the right amount of ``smoothing``, give\nsome intuitions about the ``mathematics of GAMs``, and show some of the\n``cool things you can do with GAMs``.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "With nonlinear models it is difficult to find a balance between\npredictive power and interpretability. How does feature A affect the\noutput y? How will the model extrapolate? Generalized Additive Models\nare flexible and interpretable, with great implementations in R, but few\noptions in the Python universe. pyGAM is a new open source library that\noffers to fill this gap.\n",
   "duration": 1909,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dani Serv\u00e9n Mar\u00edn"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/XQ1vk7wEI7c/maxresdefault.jpg",
-  "title": "pyGAM: balancing interpretability and predictive power using... - Dani Serv\u00e9n Mar\u00edn",
+  "title": "pyGAM: balancing interpretability and predictive power using Generalized Additive Models in Python",
   "videos": [
     {
       "type": "youtube",

@@ -1,6 +1,7 @@
 {
+  "abstract": "**Agenda** : - Why you need a service for your model? - Short intro to\nAWS Lambda and API gateway - Constructing a service around your model -\nSetting up AWS & deployment environment - Using the serverless framework\nto deploy your service to AWS - Things you should be aware of\n\n| **Prerequisites** : You should be familiar with using\n  `Docker <https://docs.docker.com/install/>`__ and have it installed.\n  Please refer to the GitHub repo accompanying this workshop and\n| `**install the necessary software** :\n  bweigel/ml\\_at\\_awslambda\\_pydatabln2018 <https://github.com/bweigel/ml_at_awslambda_pydatabln2018#pydata-%20attendees>`__.\n\nAlso, you should already have an `Amazon Web Services\n(AWS) <https://aws.amazon.com/>`__ account if you want to follow this\nsession.\n\nWe will be using the `free tier <https://aws.amazon.com/free/>`__ of\nAWS.\n\n**Slides for the talk:**\n`https://bweigel.github.io/pydata\\_bln\\_2018/ <https://bweigel.github.io/pydata_bln_2018/index.html#/>`__\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Take your machine learning model out of your desk drawer and show its\nbenefit to the world through a simple API using AWS Lambda and API\ngateway. This tutorial will bridge the gap between having a machine\nlearning model (e.g. in your Jupyter notebooks) and taking it to a level\nwhere others can benefit from it (i.e. through an API).\n",
   "duration": 5235,
   "language": "eng",
   "recorded": "2018-07-06",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dr. Benjamin Weigel"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/4ocbx9IeBMU/maxresdefault.jpg",
-  "title": "Deploying a machine learning model to the cloud using AWS Lambda - Dr. Benjamin Weigel",
+  "title": "Deploying a machine learning model to the cloud using AWS Lambda",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "A monoalphabetic substitution cipher (MASC) is the simplest kind of\nencryption scheme, in which every plaintext character is replaced by\nexactly one ciphertext character. I'll explain a naive algorithm --\ngenerally known and not original work -- for breaking MASCs using\ncharacter-level statistics on a training text, under the artificial\nassumptions that (i) We know the underlying language of the ciphertext\nmessage, and (ii) The spaces have been preserved in the ciphertext. Here\nis a python implementation:\n\nhttps://github.com/enrightward/masc-cracker\n\nNOTE: This talk is an exposition of old ideas, and contains no original\nscientific work.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "A historical text may now be unreadable, because its language is\nunknown, or its script forgotten (or both), or because it was\ndeliberately enciphered. Deciphering needs two steps: Identify the\nlanguage, then map the unknown script to a familiar one. I\u2019ll present an\nalgorithm to solve a cartoon version of this problem, where the language\nis known, and the cipher is alphabet rearrangement.\n",
   "duration": 2465,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Stephen Enright-Ward"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/pF-DzPOCeM8/maxresdefault.jpg",
-  "title": "Solving very simple substitution ciphers algorithmically - Stephen Enright Ward",
+  "title": "Solving very simple substitution ciphers algorithmically",
   "videos": [
     {
       "type": "youtube",

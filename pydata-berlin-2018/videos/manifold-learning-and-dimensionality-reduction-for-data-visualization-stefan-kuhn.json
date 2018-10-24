@@ -1,19 +1,22 @@
 {
+  "abstract": "Slides\n~~~~~~\n\n<https://de.slideshare.net/StefanKhn4/talk-at-pydata-berlin-about-manifold-\nlearning-and-applications>\n\nJupyter Notebooks\n~~~~~~~~~~~~~~~~~\n\nhttps://github.com/cc-skuehn/Manifold_Learning\n\n**At the end of the slide deck (or in the Readme of the github repo)\nthere are some links to interesting resources, e.g the respective parts\nof the scikit- learn documentation.**\n\nOutline\n~~~~~~~\n\nDimensionality reduction techniques are not only useful for denoising\npurposes or making the data better accessible, they are also very\nimportant for any meaningful Exploratory Data Analysis or EDA,\nespecially with respect to Data Visualization. Manifold Learning\nsubsumes a collection of advanced methods from the field of Unsupervised\nLearning that allow us to capture different aspects of the given\nhigh-dimensional data in a low-dimensional manifold. Hereby, each method\ntries to preserve an important quantity - distances between points,\nvariance, statistical or distributional properties. The variety of these\ndifferent prespectives onto the data is not only helpful for EDA and\nDataviz but also offers some new and interesting options when it comes\nto Feature Engineering and the ultimate task of Machine Learning and AI\n- \"Learning from Data\".\n\n-  Introduction to Dimensionality Reduction and Manifold Learning\n-  Important properties of manifolds and visualizations\n-  Manifold Learning in scikit-learn\n-  Worked examples - Live demo covering Locally Linear Embedding,\n   Isomap, Multi-Dimensional Scaling, Random Projections and many more\n-  Advanced topics - A deeper look at t-SNE\n-  Improving your Feature set\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Dimensionality Reduction methods like PCA - Principal Component Analysis\n- are widely used in Machine Learning for a variety of tasks. But\nbesides the well- known standard methods there are a lot more tools\navailable, especially in the context of Manifold Learning. We will\ninteractively explore these tools and present applications for Data\nVisualization and Feature Engineering using scikit-learn.\n",
   "duration": 2271,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Stefan K\u00fchn"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/j8080l9Pvic/maxresdefault.jpg",
-  "title": "Manifold Learning and Dimensionality Reduction for Data Visualization... - Stefan K\u00fchn",
+  "title": "Manifold Learning and Dimensionality Reduction for Data Visualization and Feature Engineering",
   "videos": [
     {
       "type": "youtube",

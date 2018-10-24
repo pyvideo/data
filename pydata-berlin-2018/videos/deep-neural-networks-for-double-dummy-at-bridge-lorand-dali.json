@@ -1,19 +1,22 @@
 {
+  "abstract": "Double dummy is a simplified version of Bridge where all cards are\nvisible to all players. In this setting a tree-search algorithm [1] can\nbe used to exactly predict the outcome (i.e the number of tricks taken\nby each team assuming that every player plays optimally). Although a big\nsimplification, double dummy is still a very important building block in\ntoday\u2019s best bridge playing programs, most of which use Monte Carlo [2]\nsampling to deal with uncertainty in the game. Sampling a large number\nof possible layouts of the cards from the hidden hands, solving all\nsampled layouts double dummy, and choosing the action which has the best\noutcome on most of the samples was originally proposed in GIB [3] in\n2001, and is still used by most bridge software, including the reigning\nworld champion of computer bridge.\n\nThe difficulty with double dummy solvers is that the exhaustive\ntree-search is expensive, which makes it hard for bridge programs to\nconsider more than 100 samples for making a decision. The small sample\nsizes have too high variance to enable reliably choosing the optimal\naction in practice [4]. We trained a deep neural network to predict the\noutcome of double dummy play, and propose to apply it as an approximate\nevaluation function used in the sampling approach, as an alternative to\nthe exact solvers that are much slower. Hence, we enable the use of a\nlarger sample, making the choice of the optimal action more reliable.\n\nThe talk will describe the architecture and TensorFlow implementation of\nthe proposed neural network, introducing a novel approach of using\nconvolutional layers to extract features from the layout of the cards in\na card game. The proposed approach is compared to the state-of-the-art\ndouble dummy neural network model published in [5].\n\nCode examples will be made available on github.\n\n*References*\n\n[1] E. Berlekamp. Program for double-dummy bridge problems a new\nstrategy for mechanical game playing. Journal of the ACM (JACM),\n10(3):357\u2013364, 1963 [2] N. Metropolis, S. Ulam. The monte carlo method.\nJournal of the American statistical association, 44(247):335\u2013341, 1949.\n[3] M. Ginsberg. Gib: Imperfect information in a computationally\nchallenging game. Journal of Artificial Intelligence Research,\n14:303\u2013358, 2001 [4] V. Ventos, Y. Costel, O. Teytaud, S.T. Ventos\nBoosting a Bridge Artificial Intelligence. ICTAI, 2017 [5] J. Mandziuk,\nK. Mossakowski, Neural networks compete with expert human players in\nsolving the Double Dummy Bridge Problem, IEEE Symposium on Computational\nIntelligence and Games, 2009\n",
   "copyright_text": null,
-  "description": "",
+  "description": "The game of Bridge is one of the most challenging and popular card games\nsimilarly to Chess and Go, it is often regarded as a mind sport. The AI\ncommunity has taken interest in developing algorithms that can play\nbridge. We present a deep neural network to the double dummy problem at\nBridge, and go through the design and implementation using TensorFlow.\n",
   "duration": 2373,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Lorand Dali"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/CRBNI8UdHhE/maxresdefault.jpg",
-  "title": "Deep Neural Networks for Double Dummy at Bridge - Lorand Dali",
+  "title": "Deep Neural Networks for Double Dummy at Bridge",
   "videos": [
     {
       "type": "youtube",

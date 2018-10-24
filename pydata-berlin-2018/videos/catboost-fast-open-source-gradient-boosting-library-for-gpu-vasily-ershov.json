@@ -1,19 +1,22 @@
 {
+  "abstract": "Gradient boosting is a powerful machine-learning technique that achieves\nstate-of-the-art results in a variety of practical tasks. For a number\nof years, it has remained the primary method for learning problems with\nheterogeneous features, noisy data, and complex dependencies: web\nsearch, recommendation systems, weather forecasting, and many others.\nCatBoost (http://catboost.yandex) is a new open-source gradient boosting\nlibrary, that outperforms existing publicly available implementations of\ngradient boosting in terms of quality. It has a set of addional\nadvantages, and among them - the fastest GPU training implementation of\nall existing open-source GBDT libraries.\n\nIn this talk we'll provide a brief overview of problems which could be\nsolved with CatBoost. The we will walk you through main features of the\nCatBoost library. We will also explain how to use GPUs to accelerate\ngradient boosting on decision trees. We'll provide benchmarks that shows\nthat our GPU implementation is five to 40 times faster compared to Intel\nserver CPUs. We'll also provide performance comparison against GPU\nimplementations of gradient boosting in other open-source libraries.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "CatBoost (http://catboost.yandex) is a new open-source gradient boosting\nlibrary, that outperforms existing publicly available implementations of\ngradient boosting in terms of quality. It also has a great advantage -\nit has very fast GPU training implementation. In this talk we will walk\nyou through major features of the library and will explain why and how\nyou should use GPU training.\n",
   "duration": 2408,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Vasily Ershov"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/aHSw4BQkK3s/maxresdefault.jpg",
-  "title": "CatBoost: Fast Open-Source Gradient Boosting Library For GPU - Vasily Ershov",
+  "title": "CatBoost: Fast Open-Source Gradient Boosting Library For GPU",
   "videos": [
     {
       "type": "youtube",

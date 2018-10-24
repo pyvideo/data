@@ -1,19 +1,22 @@
 {
+  "abstract": "Whether looking at trends across location or augmenting your data sets\nwith the copious available data, the ability to handle spatial data is a\nkey skill for a data scientist. Unfortunately, accessing this data has a\nsteep learning curve. This talk aims to give a background and basic\ntooling to get started working with spatial data in python. Examples\nwill be drawn from agriculture in East Africa with an emphasis on\nleveraging publicly available data.\n\nBackground theory\n-----------------\n\nThough it is often possible to have success without delving deep into\nthe theory behind coordinate reference systems, having a familiarity\nwith the concepts makes understanding the tools much easier. We'll\ndefine the terms and data structures seen in the often opaque user docs\nas well as a *very* brief diversion into mapping and projection theory.\n\nPython tools\n------------\n\nDiscuss briefly the tools available in python focusing on\n\n-  Fiona - reading and writing spatial files\n-  Shapely - manipulation of geometric objects such as calculating\n   areas, distances, etc.\n-  Rasterio - reads and writes geospatial raster images\n-  Geopandas - a high level library that provides a Pandas like\n   interface for spatial data\n-  Cartopy - plotting for geospatial data\n",
   "copyright_text": null,
-  "description": "",
+  "description": "The explosion of geolocation sensors and spatial data has unlocked a\nwealth of potential for visualization and analytics. This talk provides\nan introduction to how to work with spatial data using the excellent\npython tooling.\n",
   "duration": 2244,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dillon R. Gardner, PhD"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/eHRggqAvczE/maxresdefault.jpg",
-  "title": "Spatial Data Analysis With Python - Dillon R  Gardner, PhD",
+  "title": "Spatial Data Analysis With Python",
   "videos": [
     {
       "type": "youtube",

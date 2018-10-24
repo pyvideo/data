@@ -1,19 +1,22 @@
 {
+  "abstract": "| The aim of this talk is to describe a non-linear dimensionality\n  reduction algorithm based on spectral techniques introduced in\n  \\\\cite{BN2003}.\n| The goal of non-linear dimensionality reduction algorithms, so called\n  *manifold learning algorithms*, is to construct a representation of\n  data on a low dimensional manifold embedded in a high dimensional\n  space. The particular case we are going to present exploits various\n  relations of geometric and spectral methods (discrete and continuous).\n  Spectral methods are sometimes motivated by Marc Kac's question\n  *Can One Hear the Shape of a Drum?* which makes\n  reference to the idea of recovering geometrical properties from the\n  eigenvalues (spectrum) of a matrix (linear operator). Concretely, the\n  approach followed in \\\\cite{BN2003} has its foundation on\n  the spectral analysis of the graph Laplacian of the adjacency graph\n  constructed from the data (\\\\cite{vonLuxburg2007}). The\n  motivation of the construction relies on the continuous limit\n  analogue, the Laplace-Beltrami operator, in providing an optimal\n  embedding for manifolds. We will also indicate the relation with the\n  associated heat kernel operator (\\\\cite{Ham2004}). Instead\n  of following a pure formal approach we will present the main geometric\n  and computational ideas of the algorithm. Hence, with basic knowledge\n  of linear algebra (eigenvalues) and differential calculus you will be\n  able to follow the talk. Finally we will show a concrete example in\n  Python using scikit-learn.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "The aim of this talk is to describe the non-linear dimensionality\nreduction algorithm based on spectral techniques introduced in\n\\\\cite{BN2003}. This approach has its foundation on the\nspectral analysis of graph Laplacian. The motivation of the construction\ncomes from the role of the continuous limit, the Laplace-Beltrami\noperator, in providing an optimal embedding for manifolds.\n",
   "duration": 2285,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Juan Orduz"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/U31TIICsHiA/maxresdefault.jpg",
-  "title": "On Laplacian Eigenmaps for Dimensionality Reduction - Juan Orduz",
+  "title": "On Laplacian Eigenmaps for Dimensionality Reduction",
   "videos": [
     {
       "type": "youtube",

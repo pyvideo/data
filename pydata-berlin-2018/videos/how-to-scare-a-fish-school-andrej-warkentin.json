@@ -1,19 +1,22 @@
 {
+  "abstract": "One of the crucial tasks in the life of many animals is to escape from\npredators. Fish often do this with a rather stereotypical escape\nresponse that you might observe by tapping on the aquarium glass. The\nneurobiology behind this behavior is quite well-studied so that we\nwanted to find a neuronal mechanism that could explain it.\n\nBut many fish are not travelling alone and rather come together in large\nfish schools. How would neighbouring fish react if one of them shows the\nmentioned escape response? Using a model for collective behavior and\ncombining it with the neuronal mechanism of the first part we can also\nlook at this question.\n\nIn this talk I will sketch the computational models and their analysis\nand at the same time present use-cases for several python packages:\n\n-  numba to boost simulation time of the models\n-  pypet for managing numerical simulations\n-  pandas for data storage\n-  seaborn for visualization of the results\n-  matplotlib for animations of the fish school\n-  ipython widgets for interactive exploration of model parameters\n-  jupyter notebook and RISE for the presentation itself\n\nTaken together this project also shows how the python ecosystem allows\nto easily integrate many different packages in a project and thus\nenables reproducible science.\n\nYou can find all related code and material in the following github\nrepository: https://github.com/awakenting/master-thesis\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Did you ever try to scare a fish by tapping on the glass of an aquarium?\nWhat happens in the fish brain if you do that? What would happen in a\nfish school? In my project I tried to answer these questions via\ncomputational modelling and I will tell you how packages such as numba,\npypet, and matplotlib allowed me to efficiently simulate the model and\nvisualize results in a reproducible way.\n",
   "duration": 1404,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Andrej Warkentin"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/1mDL5PGnDLc/maxresdefault.jpg",
-  "title": "How to scare a fish (school) - Andrej Warkentin",
+  "title": "How to scare a fish (school)",
   "videos": [
     {
       "type": "youtube",

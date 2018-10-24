@@ -1,6 +1,7 @@
 {
+  "abstract": "In this tutorial we will briefly introduce GANs and discuss how they can\nbe used in a semi-supervised learning setup, to improve generalization\nwhen used in addition to a few labeled examples. Specifically, using as\nbasis open source datasets we will demonstrate how we can train the\ndiscriminator part of the GAN on a combination of real labeled images,\nreal unlabeled images, as well as artificially generated images from the\nGAN. By combining these three sources of data instead of just one, the\nfinal model will generalize to the test set much better than a\ntraditional classifier trained on only one source of data. The tutorial\nwill also cover deployment options for the developed model, including\nmanaged deployment with AWS Sagemaker as well as serverless deployment\nwith AWS Lambda.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In many practical machine learning classification applications, the\ntraining data for one or all of the classes may be limited. We will\nexamine how semi- supervised learning using Generative Adversarial\nNetworks (GANs) can be used to improve generalization in these settings.\nThe full approach from training to model deployment will be\ndemonstrated, using AWS Lambda and/or AWS Sagemaker\n",
   "duration": 5234,
   "language": "eng",
   "recorded": "2018-07-06",
@@ -10,10 +11,14 @@
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Andreas Merentitis",
+    "Carmine Paolino",
+    "Vaibhav Singh"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/j_-JaMPnhr0/maxresdefault.jpg",
-  "title": "Semi-supervised learning with GANs - Andreas Merentitis, Carmine Paolino, Vaibhav Singh",
+  "title": "Using GANs to improve generalization in a semi-supervised setting - trying it in open datasets",
   "videos": [
     {
       "type": "youtube",

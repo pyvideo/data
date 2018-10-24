@@ -1,19 +1,22 @@
 {
+  "abstract": "Challenge\n=========\n\nWhen trying to parse natural language time and date expressions like\ne.g. ``\"next Monday afternoon before 4pm\"`` into something structured,\nthe choice in the python eco-system is limited. There are some libraries\nlike e.g. ``dateparser``, but they can only really handle reasonably\nformal expression (the mentioned one already not being formal enough).\n\nAmongst the best alternatives is probably wit.ai/facebook's ``duckling``\n(https://github.com/facebook/duckling). However, it also has some major\nshortcomings, amongst others that it is not native python and offers\nlittle control over what is going on - unless you are a Haskell pro. And\nto our experience, the details of the use case are very important.\n\nSolution\n========\n\nTo this end we developed ``ctparse``\n(https://github.com/comtravo/ctparse). In many ways it is similar to\n``duckling``, albeit admittedly having a significantly smaller scope\nright now. ``ctparse`` implements a regular- expression and rule based\nsystem to parse time and date expressions, equipped with a statistical\nmodel to favour reasonable resolutions over others. Whilst still in a\npretty early stage, we can outperform ``duckling`` in our application -\nwhich is parsing date/time expressions from e-mail booking requests -\nboth, in terms of speed and accuracy.\n\nI will lay out the basic concepts and ideas behind building this PCFG\n(probabilistic context free grammar) inspired parser, discuss in detail\nsome of the more challenging algorithmic building blocks and demonstrate\nhow python is actually a very good choice to implement such a system.\nWhilst the currently implemented parsing rules might be too specific for\nother use cases, adjustments to other use cases should be easy given the\nbackground insights from this presentation.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Parsing natural language time expressions into structured data is\nchallenging. Whilst there are quite a few tools, many are either too\nsimplistic or problematic in a python setup. ``ctparse`` is a pure\npython library (MIT- License) build on straight forward concepts,\nallowing to parse complex expressions efficiently and can easily be\nadjusted for domain specific use cases.\n",
   "duration": 2552,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dr. Sebastian Mika"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/1By9HIOfM-o/maxresdefault.jpg",
-  "title": "ctparse: a practical parser for natural language time expressions... - Dr  Sebastian Mika",
+  "title": "ctparse: a practical parser for natural language time expressions in pure python",
   "videos": [
     {
       "type": "youtube",

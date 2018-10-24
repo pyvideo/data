@@ -1,19 +1,22 @@
 {
+  "abstract": "In the past years, we see a growing interested in probabilistic\nprogramming and Bayesian statistics. While modern probabilistic library\nsuch as PyMC3 and Stan provide flexibility to the user to write down\ncomplex model easily, it is not always intuitive how inference is done.\nMore specifically, what is the sampler \"seeing\"? Learning about\nlikelihood is central to the understanding of how inference is\nperformed. In this tutorial, I would like to give some introduction to\nlikelihood function and why they are important, what does mean to put\nconstraints in the likelihood, how to get likelihood from PyMC3 and what\nis the correspondent input.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "The likelihood is a central concept in Bayesian computation. In this\ntutorial, we will learn about what is the likelihood function and how do\nwe use it for inference. Using PyMC3, I will demonstrate how to get the\nlikelihood from a model, how does it connect to inference using NUTS or\nVariational approximation, and some practical usage of the model\nlikelihood to perform model comparisons.\n",
   "duration": 2436,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Junpeng Lao"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/0_oonRc7Sn8/maxresdefault.jpg",
-  "title": "All that likelihood with PyMC3 - Junpeng Lao",
+  "title": "All that likelihood with PyMC3",
   "videos": [
     {
       "type": "youtube",

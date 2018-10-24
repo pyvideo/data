@@ -1,19 +1,22 @@
 {
+  "abstract": "Getting GPUs fully utilized can be tricky when dealing with video data.\nIn this talk I will explore this topic in depth and present some\ninsights gained during a year of Deep Learning on videos at TwentyBN.\nSpecifically, the problem is that such data may no longer fit into\nsystem-memory and we had to devise some efficient loading and decoding\nschemes to load data as quickly as possible. The talk will feature set\nof best practices and some open source recommendations that can help\naccelerate your deep learning process on video problems in practice.\nImportantly, I will discuss various options and ideas for data storage,\nincluding our own open source video and image format: GulpIO. I will\ndiscuss the effect that a good video codec has and how various codecs\ncompare to each other. Also, I will explain how to properly benchmark\nprograms that read from disc using a tool called ``nocache``. Finally, I\nwill present a set of benchmarks on real-world data under real-world\nconditions.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Getting GPUs fully utilized can be tricky when dealing with video data.\nIn this talk I will explore this topic in depth and present some\ninsights gained during a year of Deep Learning on videos at TwentyBN.\nThe talk will feature set of best practices and some open source\nrecommendations that can help accelerate your deep learning process on\nvideo problems in practice.\n",
   "duration": 1958,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Valentin Haenel"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/wtcvD3RQt3c/maxresdefault.jpg",
-  "title": "Battle-hardened advice on efficient data loading for deep learning on videos - Valentin Haenel",
+  "title": "Battle-hardened advice on efficient data loading for deep learning on videos.",
   "videos": [
     {
       "type": "youtube",

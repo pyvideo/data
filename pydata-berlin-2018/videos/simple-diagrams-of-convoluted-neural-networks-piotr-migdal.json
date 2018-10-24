@@ -1,19 +1,22 @@
 {
+  "abstract": "Artificial neural network models consist of many layers. How can we\npresent a deep learning model architecture in a way that shows key\nfeatures, while avoiding being too complex or repetitive? There is no\nstandard for plots - neither for research nor didactic projects. It\nremains a challenge at the intersection of deep learning and data\nvisualization.\n\nArguably the most important diagram of a neural network, AlexNet,\nconsists of a cropped image of an otherwise wonderful diagram. I think\nwe should aim for better, with usefulness and aestheticism in mind.\n\nI will cover various aspects of neural network visualization:\n\n-  Complex blocks (e.g. `LSTMs by Chris\n   Olah <http://colah.github.io/posts/2015-08-Understanding-LSTMs/>`__\n   and `convolutions by Explained\n   Visually <http://setosa.io/ev/image-kernels/>`__)\n-  Architecture (with classic examples: VGG, Inception, ResNet, U-Net)\n-  Cost functions (in more complex cases e.g. YOLO for image detection)\n\nI will show an overview of tools for visualizing whole networks and\nparticular blocks, from very simple ones (e.g. my ASCII diagrams of\nsequential models in Keras) to complex\n(`TensorBoard <https://www.tensorflow.org/programmers_guide/graph_viz>`__\ndiagrams are verbose). Using existing visualizations (tools and manually\ncreated diagrams) I will discuss the following trade-offs:\n\n-  data viz vs data art (useful vs beautiful)\n-  explicit vs implicit (should I show ReLU all the time? But what about\n   tensor dimensions?)\n-  shallow vs hierarchical (e.g. as in `this detailed\n   diagram <https://blog.deepsense.ai/wp-content/uploads/2017/04/architecture_details.png>`__)\n-  static (works well in publications) vs interactive (provides more\n   information)\n-  specific vs general (does it work for a reasonably broad family of\n   neural networks?)\n-  top to bottom, bottom to top, or left to right (conceptual metaphors\n   related to space in action)\n\nThe author created an open source Python package\n`keras\\_sequential\\_ascii <https://github.com/stared/keras-sequential-ascii>`__\nconverting sequential models in Keras into ASCII diagrams. He works on a\ngeneral D3.js visualization of neural network diagrams.\n\nSlides:\nhttps://www.dropbox.com/s/a7xako61ihuh82k/20180707\\_network\\_viz\\_pydata\\_berlin.pdf?dl=0\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Neural networks are complicated, multidimensional, nonlinear array\noperations. How can we present them in a way that is clear, didactic and\ninsightful? (Bonus points if it is beautiful as well!) I will present an\noverview of tools and techniques for visualizing whole networks and\nparticular blocks, including my project (ASCII diagrams of Keras models)\nand proposing new solutions.\n",
   "duration": 1942,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dr. Piotr Migda\u0142"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/nhHkiglbnBQ/maxresdefault.jpg",
-  "title": "Simple diagrams of convoluted neural networks - Piotr Migda\u0142",
+  "title": "Simple diagrams of convoluted neural networks",
   "videos": [
     {
       "type": "youtube",

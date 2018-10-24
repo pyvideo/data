@@ -1,19 +1,22 @@
 {
+  "abstract": "In this talk, we will use a task: hiring a GPU on Google Cloud Platform\nto train neural network, as an example to show how an application can be\ndeployed on a cloud platform with Docker and Terraform. The goal is to\nhave Jupyter Notebook running in an environment with Tensorflow (GPU\nversion) and other libraries installed on a Google Compute Engine.\n\nFirst we will briefly explain what it Docker and what is Terraform for\naudiences who has no experience in either or both of them. Some basic\nconcepts of both tools will also be covered. After that, we will\nwalk-through each steps of the work flow, which includes designing and\nbuilding a Docker image, setting up a pipeline on Github and Docker Hub,\nwriting the Terrafrom code and the start up script, launching an\ninstance. From that, audiences will have an idea of how both tools can\nbe use together to deploy an app onto a cloud platform and what\nadvantages each tool can bring in the process.\n\nThis talk is for people with no experience in application deployment on\ncloud service but would benefit form computational reproducibility and\ncloud service, potentially data scientists/ analysts or tech\npractitioners who didn't have a software developing background. We will\nuse an example that is simple but useful in data science to demonstrate\nbasic usage of Docker and Terraform which would be beneficial to\nbeginners who would like to simplify their work flow with those tools.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "There are lots of reasons using a cloud service is favorable, but how to\nmake sure consistency between development and deployment? With Docker,\nwe can \"ship\" the project to different platforms in the same\nenvironment. Going one step further we can also create the cloud\ninfrastructure as code with Terraform. As an example, we will deploy a\nJupyter notebook on Google Cloud Platform using both tools.\n",
   "duration": 1721,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Cheuk Ting Ho"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/-Q8gp7rr10U/maxresdefault.jpg",
-  "title": "Launch Jupyter to the Cloud: an example of using Docker and Terraform - Cheuk Ting Ho",
+  "title": "Launch Jupyter to the Cloud: an example of using Docker and Terraform",
   "videos": [
     {
       "type": "youtube",

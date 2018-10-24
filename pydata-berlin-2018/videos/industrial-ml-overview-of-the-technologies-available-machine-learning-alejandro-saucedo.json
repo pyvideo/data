@@ -1,19 +1,22 @@
 {
+  "abstract": "Industrial ML - Overview\n========================\n\nThis talk will provide useful and practical understanding on how to\nbuild industry-ready machine learning models in python through\ndistributed, horizontally-scalable architectures. This talk will also go\ninto detail on the motivations for such architectures, the technologies\nrequired, best practices, caveats and practical use-cases in industry.\nWe will use a practical implementation of a distributed machine learning\npipeline to process predictions of the most popular cryptocurrencies\nusing celery (and rabbitmq) for the distributed processing, and Docker\nplus Kubernetes to manage the scalable infrastructure in AWS.\n\nWhy\n===\n\nIndustry-ready Machine Learning systems have to be bullet-proof. Some of\nthe biggest challenges in Machine Learning involve the heavy RAM usage,\nvaried machine learning model library, heavy computation, security,\ndevops complexity, scalability, deployment and many many more. It is\nimportant to understand some of the key challenges that most large scale\nprojects, startups and companies bump into when developing and expanding\ntheir Machine Learning capabilities, and what are some best practices,\nreliable frameworks and tips/tricks to address these.\n\nHow\n===\n\nThere are multiple ways to address the challenges that a fast-growing\nproject, startup or company will face in their journey. Luckily there\nare several open source technologies to address these. Python of course\ncomes with a massive library of machine learning toolboxes that allow us\nto benefit from the most brilliant minds contributing to top performing\nalgorithms - scipy, sklearn, tensorflow, numpy, pandas are but a few key\ntools in your machine learning toolbox. For distributed computing,\ncelery is certainly a great contender, which allows for easy creation of\na manager server architecture with RabbitMQ. Docker allows us to\ncontainerise our applications to ensure they can be deployed in a\nconsistent environment. Finally Kubernetes allows us to manage our\nDevOps infrastructure with quite a lot of the hard work managed\nautomatically.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "This talk will provide useful and practical understanding on how to\nbuild industry-ready machine learning pipelines in python through\ndistributed, horizontally-scalable architectures. This talk will also go\ninto detail on the motivations for such architectures, the technologies\nrequired, best practices, caveats and practical use-cases in industry.\n",
   "duration": 2667,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Alejandro Saucedo"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/c32L0Yv-aMg/maxresdefault.jpg",
-  "title": "Industrial ML - Overview of the technologies available...machine learning - Alejandro Saucedo",
+  "title": "Industrial ML - Overview of the technologies available to build scalable machine learning",
   "videos": [
     {
       "type": "youtube",
