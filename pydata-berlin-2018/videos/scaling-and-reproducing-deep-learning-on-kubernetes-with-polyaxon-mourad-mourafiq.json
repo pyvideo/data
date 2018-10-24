@@ -1,6 +1,7 @@
 {
+  "abstract": "Building modern machine learning systems involve various components and\noften requires connecting and managing different services, which\nintroduces huge barriers of complexity in adopting machine learning.\nInfrastructure engineers and data scientists will often spend a\nsignificant amount of time manually tweaking deployments.\n`Polyaxon <https://github.com/polyaxon/polyaxon>`__ is an extensible\nopen source machine learning stack on Kubernetes that addresses these\nconcerns.\n\nPolyaxon is built on Kubenernetes to make machine learning,\nreproducible, scalable, and portable. It uses the container technology\nto abstract any dependencies required for the process of the\nexperimentation. And it has a built-in versioning mechanism for code,\ndata, and experiments.\n\nThe goal is to provide a stack that is easy to use and at the same time\nextensible, to enable data scientists to iterate faster on their\nalgorithms.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "This talk introduces Polyaxon, an open source platform on Kubernetes for\ntraining, monitoring, and reproducing machine learning and deep learning\napplications.\n",
   "duration": 4667,
   "language": "eng",
   "recorded": "2018-07-06",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Mourad Mourafiq"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/Iexwrka_hys/maxresdefault.jpg",
-  "title": "Scaling and reproducing deep learning on Kubernetes with Polyaxon - Mourad Mourafiq",
+  "title": "Scaling and reproducing deep learning on Kubernetes with Polyaxon",
   "videos": [
     {
       "type": "youtube",

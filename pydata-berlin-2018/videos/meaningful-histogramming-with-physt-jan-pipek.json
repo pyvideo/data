@@ -1,19 +1,22 @@
 {
+  "abstract": "Numpy algorithms for calculating bins and their content are very\nefficient, matplotlib produces nice histogram plots, several plotting\nlibraries combine this with useful interactive exploratory features.\n\nBut what if you suddenly decide to add new values to an already existing\nhistogram (and did not specify a proper value range from the start)?\nWhat if you want to automatically find human-friendly bin edges (ever\nwondered why we should count people that are from 168.47854 to 173.45667\ncm tall?)? What if you want to project or slice your multidimensional\nhistograms? What if you wanted cylindrical or spherical histograms? What\nif you want to add the values of two histograms? What if you want to\npersist bins and meta-data alongside with the calculated values?\n\nThe physt library takes histograms as proper objects and combines the\ncomputing power of numpy with visualization posibilities of matplotlib\n(and optionally other backends) and a level of semantics and more\nadvanced functionality.\n\nIn this talk, I will describe the object model behind the library and\nshow a live demo what it can help you accomplish.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Histogram is a very simple and powerful statistical tool (disclaimer: it\nhas its weaknesses too). Standard Python scientific libraries offer\nmethods for calculating and visualizing histograms but there is much\nmore (fun as well as boring) stuff that can be done with them. The physt\nlibrary focuses especially on those fun parts.\n",
   "duration": 2045,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jan Pipek"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/ZG-wH3-Up9Y/maxresdefault.jpg",
-  "title": "Meaningful histogramming with Physt - Jan Pipek",
+  "title": "Meaningful histogramming with Physt",
   "videos": [
     {
       "type": "youtube",

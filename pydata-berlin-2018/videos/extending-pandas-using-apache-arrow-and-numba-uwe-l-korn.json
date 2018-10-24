@@ -1,19 +1,22 @@
 {
+  "abstract": "In the 0.23 release of Pandas, the concept of ExtensionArrays was\nintroduced. They allow the extension of Pandas DataFrames and Series\nwith custom, user- defined typed. The most prominent example is\ncyberpandas which adds an IP dtype that is backed by the appropriate\nrepresentation using NumPy Arrays. While using NumPy arrays will be\nsufficient for a great set of custom dtypes, it's focus on matrices\nmeans that some kinds of data cannot be represented in an optimal way.\nApache Arrow on the other hand is aimed at standardizing columnar memory\nand provides efficient columnar storage for many data types.\n\nApache Arrow boasts a broad set of types and also has a vast integration\ntest suite that ensures that the data can be passed between different\nprogramming languages. It is sadly still missing an analytic layer on\ntop. This is the missing component that is the core compentence of\nPandas. Combining the modern columar storage of Arrow with Pandas'\nanalytic layer enables new data types. These will not only be primitive\nones like a string but can also extend to nested types like lists.\n\nThe core algorithms of Apache Arrow are written in C++ internally. This\nenables reuse between multiple languages like Python and R while\nachieving maximum performance. But this also lead to an entry barrier\none needs to overcome first to extend it. Adding a new storage type to\nPandas is only one part of the implementation of an ExtensionArray. One\nalso needs to implement a basic set of algorithms so that Pandas'\noperations like groupy or slice work on top of the new structures.\nAdditionally each new data type has also its own special operations that\nusers frequently want to apply. To implement these algorithms using pure\nPython but in a performant fashion, we are utilising Numba. It allows us\nto define arbitrary operations on the Arrow memory structures and\ncompiles them using its Just-in-time compiler to efficient, vectorized\ncode. As the operations are all done on native Arrow memory, we can also\nmake use of Numba's parallization features as well as we are able to\nrelease the GIL.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "With the latest release of Pandas the ability to extend it with custom\ndtypes was introduced. Using Apache Arrow as the in-memory storage and\nNumba for fast, vectorized computations on these memory regions, it is\npossible to extend Pandas in pure Python while achieving the same\nperformance of the built-in types. In the talk we implement a native\nstring type as an example.\n",
   "duration": 1990,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Uwe L. Korn"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/tvmX8YAFK80/maxresdefault.jpg",
-  "title": "Extending Pandas using Apache Arrow and Numba - Uwe L  Korn",
+  "title": "Extending Pandas using Apache Arrow and Numba",
   "videos": [
     {
       "type": "youtube",

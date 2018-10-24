@@ -1,6 +1,7 @@
 {
+  "abstract": "Abstract In this workshop we will be dealing with the entire text\nanalysis process - this means we'll do a little bit of tweet collection\nand web scraping, set up a pipeline to clean our text, annotate it, and\nthen have it ready to do some more advanced analysis. We will also spend\na while discussing the different ways you can actually create your own\ndataset for text analysis, and how many of our personal textual data\n(e-mails, messages, tweets) can be accessed and used.\n\nAfter this, we'll introduce two different approaches to playing with\ntext - one is a more statistical, machine learning apporach, where we\nwill use Topic Modelling, Clustering/Classification, and Deep Learning\ntechniques to understand what may be hidden in our text. The other\ntechnique is a Computational Linguistics approach, where we will use\nlinguistic information such as Part-Of-Speech tags, Named Entity\nRecognizers and Dependancy trees.\n\nThe tutorial will be carried out via a Jupyter Notebook, and the\npackages we will use will be spaCy, Gensim, and Keras. The purpose of\nthe tutorial is to introduce the audience to the different source of\ntextual data available, and give a taste of the different ways we can\napproach our analysis. It is meant to be more of a breadth than depth\nsurvey of the techniques in the field, and we leave the audience to\ndecide which technique would be most useful for their particular\nuse-case.\n\nPlease have a look at\nhttps://github.com/bhargavvader/personal/tree/master/notebooks/text\\_analysis\\_tutorial\nbefore attending.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "There is an abundance of easily mineable text data (Whatsapp, twitter,\nand even our own e-mails!), and we have no excuse to not analyse it. In\nthis workshop, we will learn some tips and tricks to deal with messy\ntext data, before moving on to some lesser looked at text analysis\ntechniques, such as text summarisation, working with distance metrics,\nand an old personal favorite - topic models.\n",
   "duration": 5298,
   "language": "eng",
   "recorded": "2018-07-06",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Bhargav Srinivasa Desikan"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/M8HAp1-Uzao/maxresdefault.jpg",
-  "title": "Tricks, tips and topics in Text Analysis - Bhargav Srinivasa Desikan",
+  "title": "Tricks, tips and topics in Text Analysis",
   "videos": [
     {
       "type": "youtube",

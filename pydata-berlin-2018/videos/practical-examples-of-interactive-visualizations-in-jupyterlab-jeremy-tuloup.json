@@ -1,19 +1,22 @@
 {
+  "abstract": "The Jupyter notebook has been the reference tool for interactive\ncomputing. Looking at the `Python Visualization\nLandscape <https://www.youtube.com/watch?v=FytuB8nFHPQ>`__, we can\nnotice a huge list of libraries, each serving a specific purpose and\ntype of data.\n\nBut what if we want to visualize a very domain specific data set, not\ncovered by these tools?\n\nRecent additions to the Jupyter ecosystem such as the Jupyter Widgets\nand JupyterLab provide a more convenient way to leverage existing\nJavaScript libraries to create rich interactive experiences in the\nbrowser. And this will be the purpose of this presentation: going\nthrough examples of widgets built with Pixi.js for specific use cases.\n\nThe first part of the presentation will be an overview of the Jupyter\nWidgets and the `Pixi.js <https://github.com/pixijs/pixi.js>`__\nJavaScript rendering library and how they can be combined to draw\nsquares and circles and interact with them.\n\nA second slightly more advanced example will show how to visually\nunderstand a computer science concept such as recursion.\n\nThe last example will be a demo of how to embed an existing web-based\ntool used to visualize and analyze the game state of users, directly in\nJupyterLab.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "The Jupyter ecosystem already comes with popular libraries for creating\ninteractive charts such as Bokeh and Plotly. But in some situations, we\nneed access to a lower level API to draw custom shapes (triangles,\ncircles, squares). The purpose of this presentation is to go through\nexamples of custom JupyterLab extension using Jupyter Widgets and a\nJavaScript library called Pixi.js.\n",
   "duration": 1456,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jeremy Tuloup"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/TcuJILbTPZg/maxresdefault.jpg",
-  "title": "Practical examples of interactive visualizations in JupyterLab...- Jeremy Tuloup",
+  "title": "Practical examples of interactive visualizations in JupyterLab with Pixi.js and Jupyter Widgets",
   "videos": [
     {
       "type": "youtube",

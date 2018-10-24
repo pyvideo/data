@@ -1,6 +1,7 @@
 {
+  "abstract": "We will cover: - Machine Learning 101 recap: model + loss + optimization\n- PyTorch basics - tensors (and variables) - automatic differentiation\nand gradient descent - PyTorch's take on neural networks - Deep neural\nnetworks / convolutional networks for computer vision - transfer\nlearning and fine- tuning - build your convolutional network from\nscratch\n\nIf there is time left we might touch on: - Implement a Recurrent Neural\nNetworks (RNN) from scratch - Simple recommender engines/collaborative\nfiltering\n\nGoals: - understand PyTorch's concepts - be able to use transfer\nlearning in PyTorch - build simple PyTorch models from scratch\n\nPrerequisites: - you have implemented machine learning models yourself -\nyou know what deep learning is - you have used numpy - maybe you have\nused tensorflow or similar libs - if you use PyTorch on a daily basis,\nthis tutorial is probably not for you\n\nMaterials will be made available via\nhttps://github.com/sotte/pytorch\\_tutorial. Please install the\ndependencies as instructed in the README.md.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Learn PyTorch and implement deep neural networks (and classic machine\nlearning models). This is a hands on tutorial which is geared toward\npeople who are new to PyTorch.\n\nPyTorch is a relatively new neural network library which offers a nice\ntensor library, automatic differentiation for gradient descent, strong\nand easy gpu support, dynamic neural networks, and is *easy to debug*.\n",
   "duration": 5158,
   "language": "eng",
   "recorded": "2018-07-06",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Stefan Otte"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/_H3aw6wkCv0/maxresdefault.jpg",
-  "title": "Deep Neural Networks with PyTorch - Stefan Otte",
+  "title": "Deep Neural Networks with PyTorch",
   "videos": [
     {
       "type": "youtube",

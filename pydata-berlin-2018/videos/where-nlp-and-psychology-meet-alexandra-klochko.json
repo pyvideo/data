@@ -1,19 +1,22 @@
 {
+  "abstract": "Company culture was identified as the most significant barrier to\neffectiveness. Traditional survey-based psychometric approaches usually\ndo not help team leaders to manage high-performing teams successfully or\nto hire the talent with the best cultural fit. However, NLP techniques\napplied to communication data with the help of Python-friendly libraries\nmake it possible. The first part of a talk offers lessons of how NLP can\nbe used to break through first steps of solving issues such as\nquantifying organizational culture without surveys. I will demonstrate\nscoring engine that was created to help with it. Second part will cover\ninsights that we found applying this engine to different text data.\n\nI will start with a quick real time demo of a labeling system that was\ncreated to identify pattern of behavior in teams. It is associated with\na psychological dimension that has been established by C. O\u2019Reilly\n(2015) at Stanford University as a foundation of organizational culture.\nIt measures the following dimensions: adaptability, collaboration,\ncustomer-orientation, detail-orientation, result-orientation. I will\ndemonstrate how this technology can be applied though examples based\nmovie character communication. Then, I will briefly cover how this\nengine was created and why. I will explain how - instead of running\nsurveys and long time-consuming manual labeling of texts \u2013 we created an\nengine that label text automatically. I will provide examples of how\nunsupervised methods (topic extraction and word2vec) can be useful when\nresearchers need to modify existing knowledge from other areas to their\nspecific research question and how these algorithms can be used to make\na scoring engine richer and more sensitive to the topics, lexicon that\nare determined by data generating process/ context. And the last part of\nmy talk will provide interesting insights that we have found applying\nour scoring engine to different data sources. Firstly, the engine was\nused to understand the differences in cultural behavior between\ndifferent teams. After the analysis of half a million slack messages\nthat have been generated primarily by tech startup, we found out that\nspecific cultural dimensions are associated with certain roles in a\nteam. In particular, we found that a significant number of teams that\ncan be defined as detail-oriented based on O\u2019Reilly are associated with\ndesign and front end roles. On the other hand, backend teams, while\ndiscussing releases and code reviews, contributed a lot to the terms\nthat refer to result-orientation and integrity terms. Moreover,\nleadership positions are usually filled with people who demonstrate\nadaptable and principle-focused behavior. Secondly, we applied our\nscoring system on Glassdoor reviews to develop detailed cultural\nprofiles of 335 startups based in the world\u2019s leading startup\necosystems: Silicon Valley, New York City, London, and Berlin. The\nanalysis included 41 unicorns, extraordinarily successful startups with\n$1 Billion+ valuations such as Slack, Uber and Airbnb, whose data\nprovided key insights about what factors contribute to a startup\u2019s\nsuccess. The results of the investigation of \u201cecosystem cultures\u201d shows\ndifferentiating factors of companies in Silicon Valley and New York from\nthose in London and Berlin. Examining the unicorns, their significantly\nhigher adaptability proofed to be the distinguishing factor that set\nthem apart from less highly-valued companies.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Company culture was identified as the most significant barrier to\neffectiveness. The first part of a talk offers lessons of how NLP can be\nused to break through first steps of solving issues such as quantifying\norganizational culture without surveys. I will demonstrate scoring\nengine that was created to help with it. Second part will cover insights\nthat we found applying this engine.\n",
   "duration": 1982,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Alexandra Klochko"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/PCmfNT_m2fk/maxresdefault.jpg",
-  "title": "Where NLP and psychology meet - Alexandra Klochko",
+  "title": "Where NLP and psychology meet",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "Monitoring the growth of an online platform means keeping track of a\nvariety of metrics: activity, user retention, revenue, marketing\ncampaigns etc. These metrics are often split according to different\ncharacteristics like gender and country. This multitude of trackable\nmetrics quickly exceeds what can be maintained and monitored manually.\nMore importantly, unexpected increases or decreases may require action\nand at the least raise the following questions: Which parts of the\napplication platform are affected? Can the effect be isolated to single\ndevice types, countries or other dimensions? Possible causes (e.g.\noutages, spam-attacks, bug-fixes, changes in marketing activity) are in\nmost cases not obvious, particularly when multiple factors interact.\nKnowledge about which metrics evolve in a similar way is essential for\nunderstanding how they interact and impact each other. However,\ncomparing pairwise correlations of metrics manually is tedious and will\nnot reveal the whole picture. Taking clusters of similar metrics into\nconsideration can provide better insights than investigating single\nmetrics or single pairs of metrics. Clusters of similar metrics allow us\nto obtain a clear representation of the evolution of dynamics.\nFurthermore, the cluster assignments provide information about which\nmetrics are closely connected in terms of positive correlation. To\nobtain a proper clustering we create a matrix of similarities for each\npair of metrics and use then Spectral Clustering to detect a block\nstructure in similarity matrix. In the talk we will sketch how spectral\nclustering works on a toy example of a small perturbed block matrix with\nthree (quasi-)blocks, as well as apply the algorithm to real masked\ndata. Once connected clusters of metrics have been identified, we can\ncompute representative averages for each cluster. We will close the talk\nwith a visualization that highlights, which metrics enter into\nparticular clusters together with confidence bounds for the cluster\naverages illustrating the spread of each cluster. The examples will be\navailable as jupyter notebook on\nhttps://github.com/metterlein/spectral\\_clustering .\n",
   "copyright_text": null,
-  "description": "",
+  "description": "On a fast growing online platform arise numerous metrics. With\nincreasing amount of metrics methods of exploratory data analysis are\nbecoming more and more important. We will show how recognition of\nsimilar metrics and clustering can make monitoring feasible and provide\na better understanding of their mutual dependencies.\n",
   "duration": 2172,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Evelyn Trautmann"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/3heWpR6dC8k/maxresdefault.jpg",
-  "title": "Extracting relevant Metrics with Spectral Clustering - Evelyn Trautmann",
+  "title": "Extracting relevant Metrics with Spectral Clustering",
   "videos": [
     {
       "type": "youtube",

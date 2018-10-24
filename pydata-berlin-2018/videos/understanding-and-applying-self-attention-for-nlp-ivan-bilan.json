@@ -1,19 +1,22 @@
 {
+  "abstract": "Outline\n~~~~~~~\n\n1. Introduction to Attention for NLP: [ A brief overview of how\n   attention is used to improve the performance of LSTMs. We will look\n   into several approaches and how they can impact the quality of your\n   NLP models. ]\n2. Neural Machine Translation (NMT) and seq2seq: [ Short motivation on\n   how sequence to sequence (seq2seq) models were introduced and their\n   contribution to the field of NMT. ]\n3. Self-attention in Detail: [ We will look into the Encoder/Decoder\n   architecture of the Google Transformer and talk in detail about the\n   Multi-Head Attention. ]\n4. Overview of Relation and Argument Extraction: [A quick refresher on\n   how a typical Relation Extraction and Argument Extraction task looks\n   like to get you up to speed on this field of research. ]\n5. Adapting Self-Attention for Relation Extraction: [ In this part, we\n   will look into how self-attention can be adapted to work on relation\n   extraction. What changes to the Encoder layer are more beneficial and\n   what parts of the architecture are more crucial.]\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Understanding attention mechanisms and self-attention, presented in\nGoogle's \"Attention is all you need\" paper, is a beneficial skill for\nanyone who works on complex NLP problems. In this talk, we will go over\nthe main parts of the Google Transformer self-attention model and the\nintuition behind it. Then we will look on how this architecture can be\nused for other NLP tasks, i.e. slot filling.\n",
   "duration": 2261,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Ivan Bilan"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/OYygPG4d9H0/maxresdefault.jpg",
-  "title": "Understanding and Applying Self-Attention for NLP - Ivan Bilan",
+  "title": "Understanding and Applying Self-Attention for NLP",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "While fitting machine learning models to data has become a\nstraight-forward task, finding the right models to do so often is not.\nMany models literally have countless configurations, so-called\nhyperparameters. Simply trying out all configurations is therefore not\nan option. This is why Data Scientists often manually tweak their\nmodels, trying to improve them. Even though this activity can be\npleasant, one nagging question often remains: would the next\nhyperparameter change have improved my model further?\n\nA promising solution to automating model tuning is hyperparameter\noptimization, i.e. applying rigorous optimization methods to those\nparameters whose values are set before model training. The value to be\noptimized is model performance after training. This talk will introduce\nand compare methods of hyperparameter optimization. This will include\nthe Python libraries ``skopt``, ``hyperopt``, ``bayes_opt``, ``smac``,\nas well as the most common approaches Random Search, and Grid Search.\nThe most important optimization methods will be explained.\n\nTo evaluate the potential of the different hyperparameter optimization\napproaches, they will be benchmarked against each other, and against\nhuman experts. Focus of this benchmark will be on hyperparameter tuning\nfor supervised learning on table-structured data with XGBoost models.\nFor increased robustness, we benchmark on multiple datasets.\n\nWith our talk we intend to give practical understanding on automated\nmodel tuning, but also on the general potential of automating machine\nlearning. We will highlight the parts of machine learning workflows that\nhyperparameter tuning might automate effectively. Based on this, we will\nmap other tasks in machine learning that would benefit from automation.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Fine-tuning machine learning models (hyperparameter tuning) is crucial\nbut tedious. Fortunately, optimization promises to automate this task.\nWe give an overview on algorithms for this task and explain their inner\nworkings. To help you selecting one for your project, we benchmark\nimplementations in Python against human experts. We link to the\ndiscussion on automating machine learning in general.\n",
   "duration": 2168,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dr. Thorben Jensen"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/7lvwCZsrTn4/maxresdefault.jpg",
-  "title": "Towards automating machine learning - Dr Thorben Jensen",
+  "title": "Towards automating machine learning: benchmarking tools for hyperparameter tuning",
   "videos": [
     {
       "type": "youtube",

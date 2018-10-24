@@ -1,19 +1,22 @@
 {
+  "abstract": "Deep Learning is really good when dealing with images where conventional\nmachine learning methodologies fell short. Still when training a deep\nneural network we need a lot of labeled examples unlike a human which\ncan learn an object from even a single image. Collecting labeled images\nis not only cumbersome but also expensive. This can be solved either by\naugmenting existing images or generating new images from them. Some\npractical demos and code in the talk would explain these concepts.\n\nOn a different note a typical convolution neural network contains\nthousands of parameters. Training a class with few examples will simply\noverfit on the training dataset and will not generalize well. I would\ncover some approaches on how to regularize and learn these parameters in\nCNN's showcasing works from Ruslan Salakhutdinov, Hugo Larochelle.\n\nAll in all this talk will cover some of the approaches that can be used\nto train a Neural network based image classifier given few examples from\none class. Audience will get to learn the concept of few shot learning,\ncurrent research trends, common approaches to tackle the problem and\nfinally some practical implementations.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk I will try to explain the concept of few shot learning and\nwill also give a brief glimpse where current research trends are in this\nfield. Finally I will present some practical approaches on how to train\na classifier with help of GAN\u2019s and siamese networks given few labeled\nexamples. Slides:\nhttps://www.slideshare.net/VaibhavSingh2/visual-concept-learning\n",
   "duration": 2421,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-07",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Vaibhav Singh"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/YDJ9sNCO4u4/maxresdefault.jpg",
-  "title": "Visual concept learning from few images - Vaibhav Singh",
+  "title": "Visual concept learning from few images",
   "videos": [
     {
       "type": "youtube",

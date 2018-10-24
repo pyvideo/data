@@ -1,19 +1,22 @@
 {
+  "abstract": "More Serious Business Kitty Description:\n\nWhile some deep learning systems have promised to not require any kind\nof data preparation or cleaning, in practice many folks find that\neffectively training their models requires some amount of data\npreparation and often we spend more time on our data preparation than\nanything else. This talk will examine tools for data preparation that\ncan be used at scale on \"big-data\" and then how to use their results\non-line at serving time (where we hopefully no longer require a cluster\nto predict every new user).\n\nLess Serious Business Kitty Description:\n\nDeep Learning, in addition to being a world class tool for detecting the\npresence of cats, requires large amounts of data for training. As much\nvendors may say \"no data prep required\", they are all lying\\*. This talk\nwill look tools to build a deep learning pipeline with feature prep on\ntop of existing big data technologies without rewriting your code for\nserving.\n\nTraditionally feature prep done in a big data system, like Spark, Flink,\nor Beam, would have to be rewritting for the on-line serving component.\nThis is about as much fun as when we have to rewrite our sample Python\ncode into Java, as for some reason that's what a lot companies associate\nwith \"production.\" Come for the deep learning buzz-words, stay for the\nhow to perform on-line serving without writing Java code.\n\n\\*All vendors are optimists when it comes to their own products,\nincluding the vendors who pay Holden and Gris but they pay us so its ok.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Deep Learning, in addition to being a world class tool for detecting the\npresence of cats, requires large amounts of data for training. As much\nvendors may say \"no data prep required\", they are all excessively\noptimistic\\*. This talk will look tools to build a deep learning\npipeline with feature prep on top of existing big data technologies\nwithout rewriting your code for on-line serving.\n",
   "duration": 2200,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Holden Karau"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/sqmswiPL5YI/maxresdefault.jpg",
-  "title": "Simplifying Training Deep & Serving Learning Models...using Tensorflow - Holden Karau",
+  "title": "Simplifying Training Deep & Serving Learning Models with Big Data in Python using Tensorflow",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "Light Field reconstruction is a relatively new technique for 3D\nreconstruction and rendering, that can be used to compute the depth of\nobjects from a particular scene (physical subspace) given a set of\nimages from different viewpoints. This technique has gained a lot of\ninterest in the last ten years due the applications to Virtual and\nAugmented Reality; reflected most recently on the acquisition of the\ncompany Lytro (Light Field Camera Developer) by Google on March of this\nyear\n(https://www.theverge.com/2018/3/21/17148622/google-lytro-acquisition-light-\nfield), and the recent advances presented also by Google\n(https://www.blog.google/products/google-vr/experimenting-light-fields/)\nand Magic Leap\n(https://www.wired.com/story/magic-leap-lightwear-headset- hardware/)\nfor Light Field Applications on the new VR media revolution.\n\nMost of the Light Field reconstruction methods are computationally\nexpensive, and depending on very large data sets of high resolution\nimages. In addition with this issue, the existing research on this field\nlacks of clarity and reproducibility, this mainly caused by the high\nindustrial interests behind.\n\nInspired by the search of interesting applications of the julia package\nShearlab.jl (https://github.com/arsenal9971/Shearlab.jl, developed by me\nand presented at the last JuliaCon and PyData Berlin) and the open\nsource spirit, I developed a julia library for Light Field\nreconstruction that optimizes the computation by using the Shearlet\ntransform to represent sparsely the Light Field, called LightFields.jl\n(https://github.com/arsenal9971/LightFields.jl).\n\nThis software is not just fully open source but presents clear\nimprovements in the processing time of Light Fields in comparison with\nmost of the modern industrial solutions. In addition to this I developed\na open hardware Light Field camera with a Raspberry Pi board that uses\nthe library, and cost more than five times less than the existing\ncommercial Light Field cameras. I would like to present both software\nand hardware at the PyData Berlin 2018.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Virtual Reality plays the leading role on the new media revolution with\nLight Field reconstruction as a common technique for content\ngeneration.High industrial interests make this technique hard to\nunderstand and implement, I will present a novel method to reconstruct\nthe depth of objects in images.\n",
   "duration": 2497,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Hector Andrade Loarca"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/db41SdFrXIA/maxresdefault.jpg",
-  "title": "LightFields.jl: Fast 3D image reconstruction for VR applications - Hector Andrade Loarca",
+  "title": "LightFields.jl: Fast 3D image reconstruction for VR applications",
   "videos": [
     {
       "type": "youtube",

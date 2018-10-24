@@ -1,19 +1,22 @@
 {
+  "abstract": "Computational methods that automatically extract knowledge from\nmaterials science data are critical for enabling the discovery of novel\nnanomaterials for technological applications.\n\nA reliable identification of nanomaterials' crystal type is a crucial\nfirst step for materials characterization and analytics. Current methods\nare unable to identify the correct crystal type for defective\nstructures, i.e. structures with displaced or missing atoms.\n\nHere, we present a new machine-learning-based approach to automatically\nclassify nanomaterials by crystal type. First, we represent\nnanomaterials by their diffraction pattern, expand it on spherical\nharmonics, and then use a convolutional neural network for\nclassification.\n\nWe show that this approach can correctly classify a data set comprising\nmore than 80,000 structures, including heavily defective ones, and\nallows to build easily interpretable structural-similarity maps.\n\nThe internal operations of the convolutional neural network are\nunraveled through attentive response maps, demonstrating that it uses\nthe same landmarks a materials scientist would use, although never\nexplicitly instructed to do so.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Artificial intelligence is emerging as a new paradigm in materials\nscience. This talk describes how physical intuition and (insightful)\nmachine learning can solve the complicated task of structure recognition\nin materials at the nanoscale.\n",
   "duration": 2657,
   "language": "eng",
-  "recorded": "2018-07-06",
+  "recorded": "2018-07-08",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/berlin2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Angelo Ziletti"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/r7O0-J1t4H0/maxresdefault.jpg",
-  "title": "The Face of Nanomaterials: Insightful Classification Using Deep Learning - Angelo Ziletti",
+  "title": "The Face of Nanomaterials: Insightful Classification Using Deep Learning",
   "videos": [
     {
       "type": "youtube",
