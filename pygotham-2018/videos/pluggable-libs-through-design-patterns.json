@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Design Patterns are a standardized way to talk about certain code architectures. They've been first formally introduced through the book \"Design Patterns: Elements of Reusable Object-Oriented Software\" and we are still discovering new ones. They are such a good way to architecture code that even Python comes with some of them, such as the iterator, built into the language.\n\nIn this talk I'll will walk the audience through 3 popular design patterns: Adapter, Strategy and Pipeline. Some of the best examples of use cases for those are open source libraries. Open source libraries heavily rely on patterns to allow flexibility and pluggability. A very good example of this if the Python Social Auth (PSA) project. PSA allows applications to integrate with a huge number of web authentication service providers. It works with frameworks such as Django, Flask, Tornado and Pyramid and knows how to handle OAuth1, OAuth2, OpenID and SAML (and its slight customizations through each provider). This kind of flexibility is only possible because PSA has design patterns in its core.\n\nBefore observing patterns in the libraries, attendees will be presented to real world situations being tackled with poorly designed software. This will give context before we move on to understand how we can use a pattern to improve the quality of it and a give a more detailed explanation on how it works. This will lead to examples of tools that implement that pattern and an exploration of the architecture and the source code.",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-05",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/pluggable-libs-through-design-patterns/"
+  ],
+  "speakers": [
+    "Filipe Ximenes"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/PfgEU3W0kyU/maxresdefault.jpg",
+  "title": "Pluggable Libs Through Design Patterns",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/PfgEU3W0kyU"
+    }
+  ]
+}

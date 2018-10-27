@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Consider the process of importing data into a SQL database with a SQL COPY within your Python app. As data grows, it becomes more and more important that your preprocessing steps are as efficient as possible.\n\nYou must validate and reformat before importing the data. If SQL has control over the import step, most would think that at least one additional iteration is needed to validate and format before sending to COPY. But what if you tricked the copy step into doing the validating and formatting for you?\n\nIn this talk, I will demonstrate how to create a file-like object that COPY will use to validate and reformat the data as it is read. This will remove inefficiencies when processing large data sets and prevent execution time from growing. While this talk explores sending a file-like object to a copy command, the technique can be extended to any method that reads from an object.",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-05",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/how-to-trick-sql-into-doing-all-the-work-for-you/"
+  ],
+  "speakers": [
+    "Molly Leen"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/1984uglrQSo/maxresdefault.jpg",
+  "title": "How to Trick SQL into Doing All the Work for You",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/1984uglrQSo"
+    }
+  ]
+}

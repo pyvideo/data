@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Types in Python make it easier to understand how code works and helps catch bugs before they affect users, but require a significant upfront investment.  At first when a team embarks on adding types to an existing codebase, they frankly don't have a ton of value, because there's nothing to typecheck against other than typeshed, and if it's a well-tested codebase that already has users it likely doesn't have many glaring issues.  Eventually the codebase will have a critical mass of types where adding types is a no-brainer - everything else is typed so by adding a few annotations in the type signature helps ensure your code is correct.  \n\nThis talk will go over the basics of types in Python, the current ecosystem, and then go into detail on how teams can quickly type large chunks of their codebase using pyannotate - a tool that can be used to observe types from running code and apply those types to a codebase.  We'll also go over how to integrate types into CI to ensure the codebase remains safely typed.",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/a-practical-guide-to-adopting-python-types/"
+  ],
+  "speakers": [
+    "Roy Williams"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/4QArKcPRmCE/maxresdefault.jpg",
+  "title": "A Practical Guide to Adopting Python Types",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/4QArKcPRmCE"
+    }
+  ]
+}

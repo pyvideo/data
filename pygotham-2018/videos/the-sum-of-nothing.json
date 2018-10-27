@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The [release](https://pandas.pydata.org/pandas-docs/stable/whatsnew.html#v0-22-0-december-29-2017) of pandas version 0.22.0 in December 2017 introduced several major changes. As someone who works with missing data quite a lot, I was particularly confused and somewhat dismayed by its \"new\" treatment of NaNs (\"null values\"). Specifically:\n\n- the sum of a series of NaNs was now 0 \n- the product of a series of NaNs was now 1\n\nIn the previous version, these values were NaN, which I thought was the \"right\" way to do things. After all, how can the sum (or product) of nothing turn into something? I went on a journey (or maybe the proper term is \"rabbit hole\" to explore this question, going through historical GitHub issues logs, pandas-dev mailing list messages, even contacting a core pandas developer and looking up how other programming languages like R handled the same issue.\n\nI learned that really, it all just comes down to math.\n\nIn this talk, I'll make the case that while the current behavior is *mathematically* consistent, it is often counterintuitive. Because who says math is supposed to make sense at first glance?",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/the-sum-of-nothing/"
+  ],
+  "speakers": [
+    "Christine Zhang"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/35cdJR4hjxE/maxresdefault.jpg",
+  "title": "The Sum of Nothing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/35cdJR4hjxE"
+    }
+  ]
+}

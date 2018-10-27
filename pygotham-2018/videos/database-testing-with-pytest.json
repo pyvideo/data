@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Options for testing relational databases aren't as renown as what's available for application testing. We've all heard of unittest and pytest, but testing database objects are sometimes forgotten about, or tested through the application. However, pytest\u2019s flexibility along with Python's rich library of modules means that we can accomplish database testing in a way familar to Python developers.\n\nWe'll be exploring how to use PyTest to create a suite of tests for database objects. This will include setting up our testing environment, populating conftest.py with our fixtures, and using transactions to our advantage. As we'll be testing against a real live Microsoft SQL Server database, we'll see how to use pyodbc to set up a connection to it. Then we'll dive into a few tests to show how we can gain confidence in our DB functions and stored procedures. Of course there are alternative ways to do this, and I'll share a few of them along with the benefits and drawbacks of using pytest.\n\nIf time allows we'll show an Postgres equivalent to illustrate that this approach is not limited to a single product.",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-05",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/database-testing-with-pytest/"
+  ],
+  "speakers": [
+    "Dan Clark"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/c9oeoN1AnUM/maxresdefault.jpg",
+  "title": "Database Testing with pytest",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/c9oeoN1AnUM"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Believe me or not, but your database is not your application. Neither are ORM models or even your framework. They are not reasons for building yet another project. The real motivation is to satisfy some business needs. Unfortunately, it might get out of sight due to years spent on writing Django- or Rails-like web applications. Their ORMs usually dominates in applications, coupling business logic to the framework and making it impossible to (unit) test it without database access. The fact is you can develop and test features without even thinking about how business objects map into database tables. Software engineering brought several solutions over last few years, and I want to share with you one of them, called Clean Architecture.\n\nClean Architecture is an approach that puts your customer's concerns in the centre of your software. All other issues, such as persistence are treated as implementation details. This is achieved thanks to a careful layering of the project. There are few interesting outcomes. Firstly, business rules layer knows nothing about a framework or a database. Therefore you can develop and test all business logic without saving results anywhere. Secondly, upgrading or even swapping a framework is less painful. The same is true for every third-party service as they are abstracted away. Thirdly, Clean Architecture makes introducing new team members to the project much simpler since everything has its place. Last, but certainly not least - as time passes and project grows Clean Architecture lets you maintain order remain flexible.",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-05",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/clean-architecture-in-python/"
+  ],
+  "speakers": [
+    "Sebastian Buczy\u0144ski"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/18IqltQ4XE4/maxresdefault.jpg",
+  "title": "Clean architecture in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/18IqltQ4XE4"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Did you know every Django app already behaves like a distributed system, even when it's running only on one server?\nIn this talk I'll go over some of the distributed systems & database fundamentals that you'll neeed to understand when \nbuilding a Python project that handles sensitive data.  We'll focus on intermediate and advanced usage of the\nDjango ORM, but many of the concepts apply equally well to SQLAlchemy and other Python ORMs.\n\nWe'll go over:\n\n - how to use append-only logs to order events across your system\n - the meaning of transaction isolation levels\n - how and when to use atomic compare-and-swap operations\n - type safety for currencies\n - new distributed-SQL databases like spanner, TiDB, and Cockroachdb\n - transaction lifecycles when doing async processing with django-channels\n\nWe spent the last two years building an online poker engine based on Django + channels, and we have plenty of stories about our failures and discoveries to share along the way.\nCome learn about all the ways it's possible to screw up when handling sensitive data, and how to avoid them!",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/how-i-learned-to-stop-worrying-and-love-atomic-banking-blunders-and-concurrency-challenges/"
+  ],
+  "speakers": [
+    "Nick Sweeting"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VJSznZMvA1M/maxresdefault.jpg",
+  "title": "How I Learned to Stop Worrying and Love atomic(): Banking Blunders and Concurrency Challenges",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/VJSznZMvA1M"
+    }
+  ]
+}

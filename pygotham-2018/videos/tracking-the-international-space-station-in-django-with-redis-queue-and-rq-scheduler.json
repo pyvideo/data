@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The international space station (ISS) is an orbital outpost circling high above our heads. Given a location on Earth (latitude, longitude) the ISS Open Notify API will compute the next `n` number of times that the ISS will be overhead. I will cover step by step how to build a web application that notifies users via text message when the ISS is passing over them. \n\nIn this session, attendees will learn how to:\n- Access and interpret data from the [ISS Open Notify API](http://open-notify.org/Open-Notify-API/ISS-Pass-Times/) on the exact timing on when the ISS will next pass a given geolocation.\n- Use Redis Queue as a lightweight alternative to Celery for executing asynchronous tasks.\n- Use RQ Scheduler to schedule tasks to be performed at a specific datetime.\n- Integrate RQ and RQ Scheduler into a Django web application.\n- Respond to webhook requests with Django.\n- Access client-side geolocation data using JavaScript.\n- Send text message notifications using the Twilio SMS API.\n\nIn the Django app built during this talk, Redis will be used to store subscriber information such as a user's phone number and geolocation. RQ and RQ Scheduler will be used to execute a function that sends a text message notification using the Twilio API at a given datetime. \n\nAt the end of my talk, I will send a text message containing the code I wrote, and a walkthrough on how to get it running to all of the audience members who interacted with the live-coded web application from my session.",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-05",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/tracking-the-international-space-station-in-django-with-redis-queue-and-rq-scheduler/"
+  ],
+  "speakers": [
+    "Sam Agnew"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/lal6eWVCEJs/maxresdefault.jpg",
+  "title": "Tracking the International Space Station in Django with Redis-Queue and RQ Scheduler",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/lal6eWVCEJs"
+    }
+  ]
+}
