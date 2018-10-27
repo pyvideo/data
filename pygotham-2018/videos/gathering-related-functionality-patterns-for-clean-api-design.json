@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "What do you do when you have to choose between designing your function for one of two common use cases?\n\nHow about when the same logical operations (say, multiplication or concatenation) need to have different implementations depending on the type of the arguments they are applied to?\n\nThese kinds of questions can be vexing when trying to design a clean, well-scoped API.\n\nThis talk will cover several strategies for grouping related functionality in a way that presents a logically clean interface to both humans and static analysis tools like type checkers and document generators.\n\nThis talk covers:\n\n- Alternate constructors with `@classmethod`\n- Namespacing functions under a class with `@staticmethod`\n- Dispatch by type\n- A new convention for namespacing functions: `variants`",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2018-10-05",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/gathering-related-functionality-patterns-for-clean-api-design/"
+  ],
+  "speakers": [
+    "Paul Ganssle"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/nmoT-E8fi_8/maxresdefault.jpg",
+  "title": "Gathering Related Functionality: Patterns for Clean API Design",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/nmoT-E8fi_8"
+    }
+  ]
+}

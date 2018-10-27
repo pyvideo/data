@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Record Deduplication, or more generally, Record Linkage is the task of finding which records refer to the same entity, like a person or a company. It's used mainly when there isn't a unique identifier in records like Social Security Number for US citizens. This means one can't trivially find duplicate records in a single dataset, neither easily link records from different datasets. Without an identifier, record linkage looks for matches by cleaning and comparing record attributes in a fuzzy way. Imagine you have two datasets with information about people, but without any unique identifier in the records. You have to compare attributes like name, date of birth, and address in a smart way to find which records from the two datasets refer to the same person. A similar approach must be used to dedupe records in a single dataset, so Record Deduplication is a kind of Record Linkage.\n\nThere are a number of important applications of data deduplication in government and business. For example, by deduping records from Census data, the Australian government was able to find there were 250,000 fewer people in the country than they previously thought. This reduction impacted the estimations of government agencies and even caused the revision economical projections. Similarly, businesses can use record linkage techniques to enrich their customers' data with publicly available datasets.\n\nIn this talk, you'll learn with Python examples the main concepts of Record Deduplication, what kinds of problems can be solved, what's the most common workflow for the process, what algorithms are involved, and which tools and libraries you can use. Although some of the discussed concepts are related to data mining, any intermediate-level Python developer will be able to learn the basics of how to dedupe data using Python.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2018-10-05",
+  "related_urls": [
+    "https://2017.pygotham.org/talks/1-1-1-or-record-deduplication-with-python/"
+  ],
+  "speakers": [
+    "Fl\u00e1vio Juvenal"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/4O87RdBgRJ4/maxresdefault.jpg",
+  "title": "1 + 1 = 1 or Record Deduplication with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/4O87RdBgRJ4"
+    }
+  ]
+}
