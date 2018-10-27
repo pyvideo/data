@@ -129,7 +129,7 @@ other information about the video.
 
 *Speakers*
 
-If a speaker has multiple names - for instace, their speaker profile includes both the Chinese character representation
+If a speaker has multiple names - for instance, their speaker profile includes both the Chinese character representation
 and the Latin alphabet representation of their name - each variation on their name should be recorded as a separate list
 item. This enables users to search by all variations of the speaker's name in our web interface.
 
