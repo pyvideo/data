@@ -1,19 +1,22 @@
 {
+  "abstract": "Large-scale optimization problems which require bespoke implementation\nare common in business. We will overview the entire stage of development\nof a portfolio allocation algorithm, from prototyping to profiling and\noptimizing for speed using the PyData stack. In the process, we will\nexamine common bottlenecks in scientific computing and discuss\nimplementation strategies for cases when Pandas is not enough. In\nparticular, we will discuss computation in pure Numpy, just-in-time\ncompilation via Numba, parallelization using joblib and how they work\nbehind the scenes.\n\nWe will present a case study of portfolio optimization from a pool with\nmillions of assets and thousands of investors. Our problem is closely\nrelated to computer science problems known to be NP-hard. We will\ndiscuss how, at our scale, exact solvers turned out to be prohibitively\nslow and how, consequently, we designed our custom algorithm based on\nheuristic optimization.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "We will present a case study of portfolio allocation on a Peer 2 Peer\nplatform. Within the context of development of a heuristic optimization\nalgorithm, we will focus on the bottlenecks of data manipulation in\npandas, how to resolve them by using pure Numpy, compilation with Numba\nand embarrassingly parallel loops and explain how they work under the\nhood.\n",
   "duration": 1880,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dat Nguyen"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/fxnriEhgEq4/maxresdefault.jpg",
-  "title": "Python Doesn\u2019t Have to Be Slow: Speeding Up a Large-Scale Optimization Algorithm - Dat Nguyen",
+  "title": "Python Doesn\u2019t Have to Be Slow: Speeding Up a Large-Scale Optimization Algorithm",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "Time-series forecasting is a well-studied research area and various\nforecasting techniques have been developed to fulfill business analytics\nuse- cases. However, forecasting in real-time involves additional\nchallenges as the models cannot be fine-tuned incorporating known\nexternalities or excluding anomalies. The most commonly used algorithms\nare slow when run on fine-grained data, and they also perform badly in\nthe presence of noise, spikes and dips, as well as when the time-series\nbehavior changes over time (e.g., level shifts, slope changes, etc.).\nWhen the data is coming from various sources, the models at work need to\nbe versatile to handle all kinds of patterns. For real-time monitoring\npurposes, forecasting algorithms need to both run quickly and be\nreactive to new trends, so as to notify as soon as possible when a\nproblematic outlook is detected. In addition, they also need to be\naccurate and robust, to avoid false positives and alert fatigue. In this\ntalk, we will discuss forecasting methods that achieve these goals and\nwe will show how Python tools such as NumPy and Cython can help.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Time-series forecasting is a well-studied research area but commonly\nused forecasting techniques usually fall short when used in a real-time\nsetting for which computation speed, reactiveness to new patterns,\nrobustness, and reliability are essential. In this talk, we will discuss\nforecasting methods that achieve those goals and will show how Python\ntools such as NumPy and Cython can help.\n",
   "duration": 2484,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Charles Masson"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/0zpg9ODE6Ww/maxresdefault.jpg",
-  "title": "Reliably forecasting time-series in real-time - Charles Masson",
+  "title": "Reliably forecasting time-series in real-time",
   "videos": [
     {
       "type": "youtube",

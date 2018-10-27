@@ -1,19 +1,22 @@
 {
+  "abstract": "At `Textkernel <https://www.textkernel.com/>`__ we apply AI techniques\nto match people to jobs. The backbone of this technology is our\nmultilingual CV and vacancy parsing service. This service takes the\nunstructured text from these documents and parses out important\ninformation (job titles, companies, dates, skills, etc). Recently we\nreduced errors in this service by ~30% while reducing the need for\nmanual feature engineering by replacing our classical NLP pipeline with\nRNNs.\n\nIn this talk we will show how to set up and train a BLSTM-CRF sequence\nlabeling model, which is at the core of our new pipeline. We will\ndiscuss the choices we made and what issues you will run into when\nproductizing these models. We will also cover some of the extensions\nthat we made to this model, such as learning line embeddings and\ntraining multilingual models. The talk will be illustrated through\nTensorflow code snippets.\n\nWho is this talk for?\n---------------------\n\nThis talk is targeted at machine learning engineers, data scientists,\nNLP engineers and other machine learning practitioners that want to\nlearn how to build and train a sequence labeling model in Tensorflow.\nYou should be somewhat familiar with word embeddings, RNNs, and\nTensorflow basics to make the most of this talk.\n\nFind the `slides and the notebook\nhere <https://github.com/cvanweelden/sequence_labeling_example>`__.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk we will show how we improved our CV parsing performance by\ntraining RNN models using Tensorflow. We will demonstrate how to set up\nand train a BLSTM sequence labeling model and discuss extensions such as\nlearning line representations, combining RNN and CRF layers and training\nmultilingual models.\n",
   "duration": 2361,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Carsten van Weelden"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/xUxjW308CcI/maxresdefault.jpg",
-  "title": "RNN sequence labeling for document parsing in Tensorflow - Carsten van Weelden",
+  "title": "RNN sequence labeling for document parsing in Tensorflow",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "In many real-life Natural Language Processing (NLP) settings a\nresearcher develops a pipeline of models, with each stage dependent on\nthe output of its predecessor. When datasets extend to tens or hundreds\nof millions of documents, even simple pre-processing tasks such as\nparsing, tokenisation, lemmatisation, and vectorisation can result in\ntransformation pipelines of challenging scale. Common NLP tasks such as\nsentiment classification or topic modelling add-in multiple further\nstages. Visualising these pipelines and the models they represent can be\nvery challenging.\n\nIn this talk I will introduce Pynorama \u2013 a visualisation system to\naddress these challenges. Pynorama is easy to setup, scalable,\nextensible, highly interactive and allows you to browse, analyse and\nunderstand your datasets and machine learning models. Pynorama is\ndeveloped in Python and JavaScript. It allows you to plug in datasets\nand custom visualisations and is designed to fit with the workflows of\ndata scientists and machine learning researchers. I will cover\nPynorama\u2019s core features: browsing datasets, constructing NLP pipeline\ngraphs, manipulating data (searching, sorting, filtering) and navigating\nthrough the different pipeline stages.\n\nWe have been actively using and developing Pynorama at Man AHL, and are\ncurrently working on making it open-source and available to everyone.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Visualising Natural Language Processing pipelines can be tricky,\nespecially at scale. In this talk I will introduce Pynorama \u2013 a\nvisualisation system that is written in Python, easy to setup, scalable,\nextensible, highly interactive and allows you to browse, analyse and\nunderstand your datasets and machine learning models.\n",
   "duration": 2041,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Slavi Marinov"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/IQjfQqDOYno/maxresdefault.jpg",
-  "title": "Visualising NLP pipelines with Pynorama - Slavi Marinov",
+  "title": "Visualising NLP pipelines with Pynorama",
   "videos": [
     {
       "type": "youtube",

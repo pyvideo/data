@@ -1,19 +1,22 @@
 {
+  "abstract": "There is no doubt that pandas popularity is sky rocketing. StackOverflow\nrecently published that 1% of their traffic from high-income countries\nis to pandas tagged questions. Besides its unquestionable popularity,\nthis is also caused by pandas often behaving in tricky and unexpected\nways, especially to inexperienced users. By gaining an understanding of\npandas internals, attendees to this talk will be able to write more\npredictable, robust and performant code.\n\nThe talk does not assume prior knowledge on data structures, computer\narchitectures and low level Python. They will be covered in the first\npart. Computer engineers may find this part a bit basic, but it should\nbe very useful for the many pandas users coming from other areas\n(economics, physical sciences...).\n\nIn a second part, the talk will focus on pandas itself. On how pandas\nrepresents information, and on what happens behind the scenes when we\nperform operations on a pandas structure like Series or DataFrame.\nUnderstanding how things work under the hood, will make it easy to\nunderstand things in pandas that often seem wrong or counter-intuitive.\nFor example, why pandas convert integer columns with missing values\nautomatically to float. Or why the famous SettingWithCopyWarning\nhappens, and what to do about it.\n\nThe talk will be concluded with an overview of pandas 2. A short note on\nhow Apache Arrow and Ibis will make the pandas of the future more\nrobust, less tricky, and much more scalable.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "pandas high-level API makes it easy for newcomers to do data wrangling\nand analysis, without having to know much about data structures or low\nlevel computing. But this initial easiness of use can become a problem\nwhen performing complex operations, or when facing performance problems\nwhen dealing with large volumes of data. In this talk, the essentials of\ndata structures and pandas will be covered\n",
   "duration": 2511,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Marc Garcia"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/F37fV0uFf60/maxresdefault.jpg",
-  "title": "Demystifying pandas internals - Marc Garcia",
+  "title": "Demystifying pandas internals",
   "videos": [
     {
       "type": "youtube",

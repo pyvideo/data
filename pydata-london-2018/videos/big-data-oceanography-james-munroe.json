@@ -1,19 +1,22 @@
 {
+  "abstract": "A historical challenge in oceanography has been a limited amount of\nobservational data. The ocean is effectively opaque to electromagnetic\nradiation and in-situ measurements traditionally require very expensive\nship- based observations. Recently, there has been an explosive increase\nin data richness as new initiatives such as cabled ocean observatories\nand autonomous sensor platforms are deployed. Programs such as the\ninternational ARGO program, the international Global Drifter program,\nand the Ocean Observatory Initiative are producing unprecedented amounts\nof in-situ oceanographic data at very high resolutions.\n\nMultiplying the ocean data volume growth of observations by a factor of\n100 or more is the output produced by numerical ocean-ice-atmosphere\nanalysis and prediction systems. This is being done on high-performance\ncomputing in supercomputing centres running on thousands of cores\nconcurrently. The volume of this data output constantly increases in\ntime, as computer capacity increases and ocean-ice model resolution\nincreases. For example, global ocean circulation models are routinely\nrun at one-quarter of a degree resolution and configurations as high as\n1/30th of a degree resolution are being proposed. Regional models are\nbeing produced up to 1/32nd degree resolution over substantial\ngeographic areas. Such simulations are typically run daily for short\nperiod forecasts (2-90 days) and in planned long-term runs of decades or\nmore (projections). Furthermore, there is a move to expand simulations\nto ensemble runs, where these already large ocean models are run 50 to\n100 times using various stochastic perturbations to create an ensemble\nof ocean conditions.\n\nAccurately and effectively finding meaning in this volume of data poses\na substantial challenge. The traditional approach has been to run a\nmodel on a supercomputer and then download the output as well as\nobservation data onto a local workstation for further analysis,\nprocessing, and synthesis into journal papers and plots to increase our\nunderstanding. The challenge here is that the size of the model output\ncan be larger than the physical resources (memory, computing power and\nstorage) of the workstation, and Internet transfer of large data is\nprohibitively slow. To keep data volume within local workstation limits,\nthe researcher often aggregates data into spatial or temporal means, or\nre-grids to a coarser numerical grid. The former is a problem if the\nresearcher is studying extreme events, and the latter if she is\ninterested in the detailed ocean conditions in a specific area. Full\ngrid resolution output provides maximum accuracy and the best\nflexibility for downstream analysis.\n\nProblems introduced by large-scale data are not unique to oceanography,\nand various approaches exist to manage this data. However, these\napproaches are often not compatible with existing workflows or the data\ntraining scientists receive. A related challenge is the reproducibility\nof data-intensive computations; there is a fragmentation of software\ntools and environments render most atmospheric, ocean, and climate\nresearch effectively unreproducible and prone to failure. In this talk,\nI will discuss recent progress in trying to close this technology gap to\nenable scientists to work with the ever-increasing size of datasets and\nsome ideas on making scientific workflows more reproducible. As a\nspecific example, I will present techniques for performing offline\ndiagnostics for ocean models that are currently limited by insufficient\nmemory or disk space. The Python modules xarray (N-D labelled arrays and\ndatasets) and dask (a parallel computing library) will be discussed as\ntools that can build scalability into oceanographic analysis.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Oceanography and climate science is experiencing a rapid growth in both\nobservational data and numerical model output. The tools and workflows\nprofessional researchers and students currently use are not keeping pace\nwith this growth. Recent additions to the Python data stack, such as\nxarray and dask, provide a way to enable scientists to work with the\never-increasing size of datasets.\n",
   "duration": 2268,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "James Munroe"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/gJd-Ohf1FfM/maxresdefault.jpg",
-  "title": "Big Data Oceanography - James Munroe",
+  "title": "Big Data Oceanography",
   "videos": [
     {
       "type": "youtube",

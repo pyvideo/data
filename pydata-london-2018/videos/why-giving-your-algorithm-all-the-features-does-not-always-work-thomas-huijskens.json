@@ -1,19 +1,22 @@
 {
+  "abstract": "In general, I want to keep it light on the maths and talk a lot about\npractical (code) examples of feature selection algorithms. I want to\nconvince the audience that it pays off to do feature selection, and\nintroduce them to some of the Python frameworks out there that do\nfeature selection.\n\nThe talk will start with motivating why to do feature selection, and\nintroduce the three main types of feature selection methods: wrapper,\nfilter, and embedded methods. I'll have diagrams illustrating these\nthree types of methods as part of the presentation.\n\nI. Why should I care to do feature selection? (3 min)\n\n-  Feature collinearity and scarceness of data means we can't just give\n   a model many features and let it decide which ones are useful and\n   which ones are not.\n-  Business constraints might also mean the shotgun/kaggle approach to\n   feature engineering will not work.\n\nII. What makes a good feature selection algorithm? (5 min)\n\n-  A good feature selection algorithm will select a compact set of\n   variables that relate to your target variable in a meaningful way.\n-  What does 'compact' mean here? It means that we'd like to reduce the\n   overlap in information between the variables in the subset of\n   selected features, and remove variables that contain redundant\n   information about the target variable.\n-  A good feature selection algorithm also shouldn't look at variables\n   purely in isolation:\n\n   -  Two variables that are useless by themselves can be useful\n      together.\n   -  Very high variable correlation (or anti-correlation) does not mean\n      absence of variable complementarity. I'll provide simple examples\n      for each point.\n\nIII. Wrapper methods: performance based (5 min)\n\n-  The simplest class of feature selection algorithms are wrapper\n   methods. A subset of features is selected based on the out-of-sample\n   performance of a model that uses only those features.\n-  Example (with code): Iterate over subsets of features using a random\n   forest and a hold-out set.\n-  As wrapper methods train a new model for each subset of variables,\n   they are very computationally intensive, but usually provide the best\n   performing feature set for that particular type of model.\n\nIV. Filter methods: mutual information based (7 min)\n\n-  Filter models do not use a learner on the original data X, but only\n   considers statistical characteristics of the data set. A filter\n   method use a statistical measure to decide which features are\n   relevant to the target variable.\n-  Example (with code): the ``mifs`` and ``skfeature`` libraries that\n   perform filter based feature selection. They use mutual information\n   based methods for feature selection.\n-  The advantage of filter methods is that they typically scale better\n   to high-dimensional data sets, are computationally simpler, and\n   independent of the learning algorithm.\n-  However, they do ignore the interaction with the learner, and often\n   employ lower-dimensional approximations to make computations more\n   tractable. This means they may ignore interactions between different\n   features.\n\nV. Embedded methods: stability selection (7 min)\n\n-  Embedded methods are a catch-all group of techniques which perform\n   feature selection as part of the model construction process. Some\n   examples include recursive feature elimination (RFE), Boruta feature\n   selection, and stability selection.\n-  Example (with code): `Implementation of stability\n   selection <https://github.com/thuijskens/stability-selection>`__\n   (sklearn-like API).\n-  Embedded methods lie somewhere between wrapper and filter methods in\n   terms of computational complexity. The advantage of embedded methods\n   is that they do take the interaction between feature subset search\n   and model selection, and the ability to take into account feature\n   dependencies.\n\nVI.  Practical tips (3 min)\n\nVII. Q&A (5 minutes)\n",
   "copyright_text": null,
-  "description": "",
+  "description": "We'd like to think of ML algorithms as smart, and sophisticated,\nlearning machines. But they can be fooled by the different types of\nnoise present in your data. Training an algorithm on a large set of\nvariables, hoping that your model will separate signal from noise, is\nnot always the right approach. We'll discuss different ways to do\nfeature selection, and discuss open-source implementations.\n",
   "duration": 2284,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Thomas Huijskens"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/JsArBz46_3s/maxresdefault.jpg",
-  "title": "Why giving your algorithm ALL THE FEATURES does not always work - Thomas Huijskens",
+  "title": "Why giving your algorithm ALL THE FEATURES does not always work.",
   "videos": [
     {
       "type": "youtube",

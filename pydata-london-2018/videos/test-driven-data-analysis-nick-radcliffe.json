@@ -1,6 +1,7 @@
 {
+  "abstract": "TDDA aims to bring the ideas and benefits of test-driven development to\nthe arena of data analysis, augmenting those ideas as appropriate. There\nare two central planks of TDDA at present: 1. The idea of a reference\ntest, which is a lot like a system or integration test for an analytical\nprocess 2. The idea of using constraints to verify input, intermediate\nand output data for/from analytical processes.\n\nThe tdda library (available from Github and PyPI) provides tooling\nsupport for both of these, major current components being - Support for\nwriting tests, under unittest or pytest, than involve comparison of\ncomplex objects (e.g. graphs, dataframes etc.), possibly with variable\ncomponents, and regenerating reference (\"expected\") results easily when\nthey have changed (after verification!) - Support for automatically\ngenerating suggested constraints from example datasets/data frames\n(including Pandas DataFrames) - Support for verifying a\ndataset/dataframe against a set of constraints - Support for generating\nregular expressions from example strings, for possible use as\nconstraints (or otherwise). (It will probably do more by May, but these\nthings are there now!)\n\nThis tutorial will introduce users to using these ideas through the tdda\nlibrary. Users will be able to use their own analytical processes and/or\ndatasets, or to use example data that will be provided.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "This tutorial will introduce attendees to the concepts of test-driven\ndata analysis and practical, hands-on use of the tdda library (available\nfrom Github and PyPI) for (1) writing reference tests, and (2)\ngenerating and verifying constraints from data, using Pandas data\nframes.\n",
   "duration": 5363,
   "language": "eng",
   "recorded": "2018-04-27",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Nick Radcliffe"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/fw6P6VFPo24/maxresdefault.jpg",
-  "title": "Test-Driven Data Analysis - Nick Radcliffe",
+  "title": "Test-Driven Data Analysis",
   "videos": [
     {
       "type": "youtube",

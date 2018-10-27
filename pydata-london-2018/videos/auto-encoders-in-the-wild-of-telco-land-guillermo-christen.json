@@ -1,19 +1,22 @@
 {
+  "abstract": "**Learning Objective**\n\nThe **Primary Objective** is to learn about implementing and using an\nauto- encoder (and their utility). The secondary objective is to learn\nabout the practicalities of actually implementing an auto-encoder in\n*MxNet*.\n\n**Type**\n\nThis talk will not contain a *lot* of math. It will discuss\nimplementation, loss functions, and the idea behind KL divergence.\n\n**Outline**\n\nThe talk will first lay out prerequisite knowledge (basics of deep\nlearning) and then introduce auto-encoders. It\u2019ll then introduce the\ncontext of their use in this talk. It will successively introduce more\ncomplex auto-encoders applied to a real world problem, in particular\nconcentrating on choice of loss function, then multiple tasks, and\nfinally utilising KL divergence for sparsity.\n\nThis talk will teach you about:\n\n-  Auto-encoders\n-  Applied to sparse-ish data\n-  Used to find smaller \u2018useful\u2019 representations\n-  For downstream modelling tasks\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Telcos have vast amounts of data about user behaviour, but it is often\nextremely highly dimensional and sparsely populated, making it hard to\nlearn from using conventional ML techniques. By compressing this data\ninto a smaller space, we can build simple downstream models that\nleverage subtle features in the data - like predicting gender or churn -\nwithout handcrafted features.\n",
   "duration": 1848,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Guillermo Christen"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/rT--Qyd9Ij8/maxresdefault.jpg",
-  "title": "Auto-encoders in the wild... of telco land - Guillermo Christen",
+  "title": "Auto-encoders in the wild... of telco land.",
   "videos": [
     {
       "type": "youtube",

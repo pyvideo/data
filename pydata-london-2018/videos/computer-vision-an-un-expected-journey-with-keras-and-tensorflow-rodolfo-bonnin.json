@@ -1,6 +1,7 @@
 {
+  "abstract": "This tutorial will allow you to grasp of the fundamental concepts you\nneed to solve common Computer Vision problems (Classification,\nDetection, and Segmentation), using state of the art Deep Neural Models,\nwith the help of two of the most well known Machine Learning libraries,\nKeras and Tensorflow.\n\nThis talk is ideal for Python Programmers who want to have a quick and\npractical introduction to Computer Vision, and to be able to apply these\nconcepts solving their own problems\n\n**Pre-requisites:** The participants should have a basic/intermediate\nknowledge of the Python language, and the main Machine Learning\nconcepts. The training itself requires bringing a notebook Jupyter\nNotebook along with the Keras library installed. Some of the tasks are\ncomputationally expensive, so a powerful notebook will reduce the\ntraining time greatly. Having the last version of Anaconda installed,\nwith keras and opencv additional packages installed via \"conda install\nkeras opencv\" will be definitely a plus.\n\n**Strategy:** Jupyter notebooks and sample datasets will be provided to\nallow a quick setup and running of the initial tasks, and at the same\ntime allowing for free experimentation and enrichening of the models, as\nthe training progresses.\n\n**Outline**\n\n-  Intro and environment setup\n\n-  A tour of Neural Models with Fashion MNIST: In this section we will\n   perform clothing classification, using a variety of models, starting\n   from a simple Perceptron, to very advanced Convolutional Neural\n   Networks.\n\n-  Using the best parts (Transfer Learning for classification) In this\n   section, we will use the visual knowledge stored in a state of the\n   art Deep Neural Network, adapting it to recognize visual classes of\n   our interest.\n\n-  Detect your own stuff (Object detection with Tensorflow Object\n   Detection API): In this section, we will train an advanced\n   lightweight Deep Neural Network, to localize objects of our interest.\n\n-  Separate what's distinct (Object Segmentation): This section will\n   allow you to detect and select elements of interest in your images.\n\n-  Final Topics and conclusion: In this section, we review other\n   existing techniques, and will review how the future looks for the\n   field of Computer Vision.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "A hands-on tutorial which will allow you to practice and finally train\ncutting-edge Deep Learning models, covering the most active and demanded\nskills in the field: Image Classification, Feature detection and Image\nSegmentation.\n",
   "duration": 5358,
   "language": "eng",
   "recorded": "2018-04-27",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Rodolfo Bonnin"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/AYPyQAvH5Cg/maxresdefault.jpg",
-  "title": "Computer Vision: An (Un?)Expected Journey, with Keras and Tensorflow - Rodolfo Bonnin",
+  "title": "Computer Vision: An (Un?)Expected Journey, with Keras and Tensorflow",
   "videos": [
     {
       "type": "youtube",

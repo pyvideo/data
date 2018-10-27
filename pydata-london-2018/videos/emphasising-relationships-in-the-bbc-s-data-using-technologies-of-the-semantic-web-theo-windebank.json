@@ -1,19 +1,22 @@
 {
+  "abstract": "Data and the BBC (and Me) [5 min]\n---------------------------------\n\nAs a public service organisation, the BBC strives to achieve its mission\nto inform, educate and entertain. Without the intelligent use of data,\nthis would be a challenging affair. Thankfully, we at the BBC have a\nlittle bit of data\u2026 Okay, we have a *lot*. How should we use it? Are\ntechnologies of the Semantic Web, specifically *Linked Data* , the\nanswer? I will be posing the challenges we face in this section, talking\nthrough the unique aspects that arise when working with data as a public\nservice organisation, and perhaps I\u2019ll tell you a little about myself.\n\nThe Semantic Web and Linked Data - What Are They? [15 min]\n----------------------------------------------------------\n\nThe Semantic Web, proposed by Tim Berners-Lee, extends the standards of\nthe World Wide Web to promote common data formats and exchange\nprotocols; Linked Data is a progression of these ideas, focused on a\nmore practical implementation. During this part of the talk, concepts\nthat constitute the Linked Data will be picked apart and explained, with\nno expectations of prior knowledge. These concepts include, but are not\nlimited to, the Resource Description Framework (RDF), the Web Ontology\nLanguage (OWL), the SPARQL query language, and, at a higher level, what\na knowledge graph is. Limitations will discussed, such as the\nimplications of RDF only supporting binary predicates, and comparisons\nwill be drawn to other data storage paradigms. On finishing this\nsection, you will have an idea of the concepts that the Semantic Web\ndepends on, and *even better* , you will know when to use them.\n\nHow Do I Use Them? [7 min]\n--------------------------\n\nThe concepts discussed so far will be applied here using the python\nlibrary ``RDFLib``, among other tools. This will leave you with the\nskills to get started on your own RDF-fueled projects.\n\nHow Does The BBC Use Them? [8 min]\n----------------------------------\n\nIn the past, the BBC have used Linked Data technologies in a number of\nways, including facilitation of outstanding Olympics coverage and\npowering News and Sport behind the scenes. Now, there is great incentive\nto create pan-BBC information retrieval systems with a focus on\nsemantics, being pushed by recently developed in-house systems for\nautomated content tagging. Talking through applications of these\ntechnologies in a wider context will give you a better idea of the power\nof them at scale, the ethics, and the associated responsibilities we\nhave as a public service organisation.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Put your hands up if you haven\u2019t heard of the BBC! None of you? Thought\nso\u2026 Not only will this talk give you an insight into the unique\nchallenges and opportunities alike the BBC faces with data, but you will\nalso gain an entry- level understanding Semantic Web technologies, and\nhow concepts such as knowledge graphs can provide powerful ways to\nanalyse and emphasise relationships in data.\n",
   "duration": 2338,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Theo Windebank"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/fz3YEX8NgtI/maxresdefault.jpg",
-  "title": "Emphasising Relationships in the BBC's Data Using Technologies of the Semantic Web - Theo Windebank",
+  "title": "Emphasising Relationships in the BBC's Data Using Technologies of the Semantic Web",
   "videos": [
     {
       "type": "youtube",

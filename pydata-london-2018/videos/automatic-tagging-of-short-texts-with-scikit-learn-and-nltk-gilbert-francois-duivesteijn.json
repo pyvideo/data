@@ -1,6 +1,7 @@
 {
+  "abstract": "What\n----\n\nThe talk is about automatic tagging of short texts with a set of\npredefined tags. The method will be illustrated with short messages from\na Slack channel, but the method is applicable to all kind of short\nmessages, e.g. email subjects, tweets, sms messages and more.\n\nHow\n---\n\nThe method is as follows:\n\n-  Extract data from slack using slack API, looking at the data and\n   define topics.\n-  Convert the raw data to a *n* -gram/vector model and apply stemming.\n-  Train a SVM classifier to classify each text to a predefined topic.\n-  Apply the model on new texts and compute some statistics.\n\nIt will be demonstrated in a Jupyter notebook file, available for\neverybody to play with during and after the hands-on talk. If time\npermits, an application of the trained model will be shown in a online\ndashboard, build with Flask.\n\nWho\n---\n\nThe talk is intended for entry level audience with basic knowledge of\npython and applied machine learning.\n\nWhy\n---\n\nThe message and take-a-way will be that simple things can be done\nsimple. With just a few lines of code you can have a great starting\npoint with reasonable performance. The method itself might not be state\nof the art with top-grade error performance. What makes the method so\ninteresting is that the method enables you to get first results in less\nthan a day. Then, refine, iterate and make it better, if desired.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Automatic tagging of short text messages with NLTK and scikit-learn,\napplicable to all kind of short messages, like email subjects, tweets,\nor as demonstrated in this hands-on tutorial, Slack messages. The\ntutorial will show step by step how to do automated tagging of short\ntexts, enabling the analyst to structure the data and get meaningful\nstatistics.\n",
   "duration": 4139,
   "language": "eng",
   "recorded": "2018-04-27",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Gilbert Fran\u00e7ois Duivesteijn"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/FnuTpcd6mS0/maxresdefault.jpg",
-  "title": "Automatic tagging of short texts with scikit-learn and NLTK - Gilbert Fran\u00e7ois Duivesteijn",
+  "title": "Automatic tagging of short texts with scikit-learn and NLTK",
   "videos": [
     {
       "type": "youtube",

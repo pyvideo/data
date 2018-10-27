@@ -1,19 +1,22 @@
 {
+  "abstract": "The main aim of this talk is to introduce developers, data scientists\nand data team leads to the capabilities of JupyterHub (what problems can\nit solve) and how to best deploy and manage it in production on a cloud\nprovider. No previous knowledge or JupyterHub internals or experience in\nrunning it on cloud providers is required so this talk is suitable for\ncomplete novices.\n\nThe talk will be divided into four parts:\n\nIntroduction to JupyterHub\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nIn this section, I will give a brief overview of the JupyterHub project\nand how it can be used to provision Jupyter notebooks for classroom or\nindustry use.\n\nA brief tour of JupyterHub internals\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nIn this section, we will explore the components that make up a\nJupyterHub deployment: the HTTP proxy, the Hub and the Jupyter notebook\nservers for individual users. We will use the insight we gain in this\nsection to understand how to run a production ready JupyterHub\ndeployment on a cloud provider's infrastructure.\n\nRunning JupyterHub in the cloud with Kubernetes and Helm\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nNow that we understand the basics of how JupyterHub works, we can deploy\nit to a cloud provider (Google Cloud will be used as an example\nthroughout the talk) with Kubernetes. Never heard or Kubernetes or not\nsure what value it can add to a JupyterHub deployment? Not to worry -\nbefore we a do a deep dive into the deployment demo, we will briefly go\nover what problems Kubernetes helps to solve and how it does this. To\nwrap up this section, we will talk about making JupyterHub deployments\neasier with the help of Helm charts and what are some known pitfalls in\nrunning JupyterHub in production.\n\nSecurity and Cost\n~~~~~~~~~~~~~~~~~\n\nLast (but definitely by no means least ) is making sure that our\nJupyterHub deployment is secure. This means ensuring that clients\ncommunicate with the Hub using HTTPS and that authentication is properly\nset up. Finally, I will compare the costs of hosting JupyterHub\ndeployments on AWS, Google Cloud and Azure.\n\nKey takeaways\n~~~~~~~~~~~~~\n\nBy the end of this talk, audiences will have learned about the following\nthings:\n\n-  what is JupyterHub, how it works and how I can use it in my\n   organisation to help make data scientists/data analysts more\n   productive\n-  how to securely deploy and manage JupyterHub in the cloud with\n   Kubernetes\n",
   "copyright_text": null,
-  "description": "",
+  "description": "JupyterHub is a great way to provide a data analytics environment for a\nclass, a research group or a team of data scientists. In this talk, we\nwill go through JupyterHub: what it is and how it works and how to setup\na secure and production ready deployment on a cloud provider using\nKubernetes and Helm.\n",
   "duration": 2192,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Camilla Montonen"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/rVOLdTE5bg0/maxresdefault.jpg",
-  "title": "JupyterHub from the Ground Up with Kubernetes - Camilla Montonen",
+  "title": "JupyterHub from the Ground Up with Kubernetes",
   "videos": [
     {
       "type": "youtube",

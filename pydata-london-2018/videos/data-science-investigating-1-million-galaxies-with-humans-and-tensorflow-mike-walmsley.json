@@ -1,19 +1,22 @@
 {
+  "abstract": "Modern telescopes automatically detect far more galaxies than\nastronomers can ever actually look at. To turn a million galaxy images\ninto something meaningful, science needs to learn from data science.\n\nI'll give a crash course on galaxies and introduce you to `The\nZooniverse <www.zooniverse.org>`__, a free platform for researchers to\ncrowdsource labels. I'll show how I use TensorFlow and the PyData stack\nto build a galaxy image classification algorithm from noisy crowdsourced\nlabels and then ensemble them together to outperform both humans and\nmachines. I'll highlight where science and data science diverge, and\nwhat we can learn from each other.\n\n-  Everything you should know about galaxies in 60 seconds\n\n   -  What do we want to discover?\n\n-  Welcome to `The Zooniverse <www.zooniverse.org>`__\n\n   -  Open science: how to get the `telescope\n      data <http://legacysurvey.org/viewer?ra=147.45674&dec=1.09255&zoom=14&layer=decals-dr5>`__\n      and `labels <http://data.galaxyzoo.org>`__\n   -  Using crowdsourced labels effectively\n   -  Troll-slaying: aggregation to discount bad actors\n   -  Why science isn't Agile\n\n-  Classifying galaxy images with TensorFlow\n\n   -  Human-machine ensembles for supervised learning\n   -  Kaggle nostalgia: how can we prove it works?\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Deep learning is making astrophysicists excited and afraid. We're\nexcited because we can show a neural network every galaxy in the sky and\nask questions, and afraid because we don't understand the answers. I'll\ntalk about how you can investigate galaxy evolution with TensorFlow and\ncrowdsourced labels, what we're discovering, and where it all falls\napart.\n",
   "duration": 2327,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Mike Walmsley"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/UOWXRBX-z4s/maxresdefault.jpg",
-  "title": "Data, Science: Investigating 1 Million Galaxies with Humans and TensorFlow - Mike Walmsley",
+  "title": "Data, Science: Investigating 1 Million Galaxies with Humans and TensorFlow",
   "videos": [
     {
       "type": "youtube",

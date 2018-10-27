@@ -1,6 +1,7 @@
 {
+  "abstract": "When we are trying to compare datasets, we often need a way to be\nconfident knowing if datasets are significantly different from each\nother. Some situations involve correlating numerical data, such as:\n\n-  A professor expects an exam average to be roughly 75%, and wants to\n   know if the actual scores line up with this expectation. Was the test\n   actually too easy or too hard?\n-  A manager of a chain of stores wants to know if certain locations\n   have different revenues on different days of the week. Are the\n   revenue differences a result of natural fluctuations or a significant\n   difference between the stores' sales patterns?\n-  A Product Manager for a website wants to compare the time spent on\n   different versions of a homepage. Does one version make users stay on\n   the page significantly longer?\n\nOthers involve categorical data, such as:\n\n-  A pollster wants to know if men and women have significantly\n   different yogurt flavor preferences. Does a result where men more\n   often answer \"chocolate\" as their favorite reflect a significant\n   difference in the population?\n-  Do different age groups have significantly different emotional\n   reactions to different ads? In this lesson, you will learn how about\n   how we can use hypothesis testing to answer these questions. There\n   are several different types of hypothesis tests for the various\n   scenarios you may encounter. Luckily, SciPy has built-in functions\n   that perform all of these tests for us, normally using just one line\n   of code.\n\nFor numerical data, we will cover: *One-Sample T-Tests* Two-Sample\nT-Tests *ANOVA* Tukey Tests\n\nFor categorical data, we will cover: *Binomial Tests* Chi Square\n\nAfter this lesson, you will have a wide range of tools in your arsenal\nto find meaningful correlations in data.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Using freely-available material from Codecademy's Introduction to Data\nAnalysis intensive, we'll learn the basics of hypothesis testing using\nSciPy. You\u2019ll practice making mathematically informed decision-making\nand experimental design used by marketers, social scientists, product\nmanagers, and data analysts everywhere.\n",
   "duration": 4253,
   "language": "eng",
   "recorded": "2018-04-27",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Hillary Green-Lerman"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/dPXBN8ms-cU/maxresdefault.jpg",
-  "title": "Hypothesis Testing with SciPy - Hillary Green-Lerman",
+  "title": "Hypothesis Testing with SciPy",
   "videos": [
     {
       "type": "youtube",

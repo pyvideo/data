@@ -1,6 +1,7 @@
 {
+  "abstract": "Apache Airflow is a pipeline orchestration tool for Python initially\nbuilt by Airbnb and then open-sourced. It allows data engineers to\nconfigure multi- system workflows that are executed in parallel across\nany number of workers. A single pipeline may contain single or multiple\noperations like python, bash or submitting a spark-job into the cloud.\nAirflow is written in python and users can write their custom operators\nin python.\n\nA data pipeline is a critical component of an effective data science\nproduct, and orchestrating pipeline tasks enables simpler development\nand more robust and scalable engineering.\n\nIn this tutorial, we will give a practical introduction to Apache\nAirflow. We will cover:\n\n-  Core ideas in Airflow\n-  Building pipelines and tasks in Google Cloud Platform\n-  Scheduling a task/pipeline\n-  Built-in capability and UI\n-  PlugIn option\n-  Custom operator development\n-  Deployment and management of pipelines\n\n**Prerequisite:** basic familiarity of python.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Introducing the basics of Airflow and how to orchestrate workloads on\nGoogle Cloud Platform (GCP). A GCP environment will be provided, users\nwill just need to login with a Google account.\n",
   "duration": 5105,
   "language": "eng",
   "recorded": "2018-04-27",
@@ -10,10 +11,13 @@
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Satyasheel",
+    "Kaxil Naik"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/ZZ5okeRGRB8/maxresdefault.jpg",
-  "title": "Apache Airflow in the Cloud: Programmatically orchestrating workloads w/ Py - Satyasheel, Kaxil Naik",
+  "title": "Apache Airflow in the Cloud: Programmatically orchestrating workloads with Python",
   "videos": [
     {
       "type": "youtube",
