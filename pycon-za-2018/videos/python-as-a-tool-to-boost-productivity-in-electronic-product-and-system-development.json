@@ -1,16 +1,22 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "The general take away from this talk will be to motivate the use of\nPython not only as the implementation language to develop your\napplication, but also to use Python to develop your own automation tools\nthat fit your development process. By doing this, you will be able to\nimplement faster, more accurate, have a better tested result and along\nthe way derive many benefits that you won\u2019t foresee when you start.\n\nAlthough my talk will speak from an embedded engineering point of view\nand not an IT or web development point of view, I belief the principles\napplies generally. Over many years and through the life cycle of many\nproducts I have evolved a development methodology that uses Python as\nthe language of choice to develop my own tools for code generation (for\n\u2018C\u2019 and Python), software and firmware test automation, systems\ncompliance testing and hardware manufacturing test automation.\n\nMy process is that I start a project by defining XML object definitions\nfor all instances of configuration, data or communication objects. From\nthe XML, on the embedded firmware side, I generate \u2018C\u2019 structures,\nenum\u2019s and prototype function bodies to use in my coding. On the PC or\nserver side, I generate Python data object definitions from the XML.\nThese are imported into Python programs that are written to operate on\nthe object definitions, giving me free reuse of all the interfacing,\ntesting, visualization etc. code that I have developed in the past.\n",
   "duration": 2573,
   "language": "eng",
-  "recorded": "2018-10-11",
+  "recorded": "2018-10-12",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/python-as-a-tool-to-boost-productivity-in-electronic-product-and-system-development-by-johan-hartman"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Johan Hartman"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/1gawSOnw1dI/maxresdefault.jpg",
   "title": "Python as a tool to boost productivity in (electronic) product and system development.",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=1gawSOnw1dI"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Python_as_a_tool_to_boost_productivity_in_electronic_product_and_system_development"
     }
   ]
 }

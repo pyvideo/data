@@ -1,16 +1,22 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "One evening, my little sister asked me for help with her homework at\n9pm. She had already asked her classmates on a WhatsApp group, but\nnobody was able to help as all her peers had the same limited resources\navailable to them. This gave me the idea for Buza (Zulu for \u201cask\u201d), a\nplatform for high school learners to ask questions that could be\nanswered by volunteer university students in their free time.\n\nBuza is the first side project of mine that I\u2019ve ever truly wanted to\ndeploy. After months of coding and adding loads of features, I finally\nreached out to a senior developer to help me deploy my truck of\nfeatures. The first thing she said was \u201cA lot of this code will have to\nbe replaced with production-ready code\u201d. These are words you never want\nto hear.\n\nUniversity Computer Science equipped me with the ability to write code\nto solve problems, but in industry extra skills were required to build\nproduction-ready software. This talk will share the valuable lessons I\nlearned from getting this Django web app production-ready. This will\nstart with how to c **hoose the right tools, framework, environment for\nyour project**. I will also cover how to set up **testing and continuous\nintegration for your project**.\n\n*What I will cover (Zero to Hero):*\n\n-  No code is the best code\n-  Framework: DJango\n-  Environment: Pipenv\n-  Static Tests: Flake8, Mypy (checks types), isort(sorts imports)\n-  Test Driven Development\n-  Automated testing: Tox and Travis\n-  Code Coverage\n",
   "duration": 2349,
   "language": "eng",
-  "recorded": "2018-10-11",
+  "recorded": "2018-10-12",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/from-zero-to-kind-of-a-hero-getting-your-python-side-project-ready-for-deployment-by-sewagodimo-matlapeng"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Sewagodimo Matlapeng"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/0fP-Fjij97A/maxresdefault.jpg",
   "title": "From Zero to kind of a hero: Getting your Python side project ready for deployment",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=0fP-Fjij97A"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-From_Zero_to_kind_of_a_hero_Getting_your_Python_side_project_ready_for_deployment"
     }
   ]
 }

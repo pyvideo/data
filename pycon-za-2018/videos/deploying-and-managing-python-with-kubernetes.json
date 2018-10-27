@@ -1,16 +1,22 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Because of the benefits of containers, python applications have been\ncontainerized recently. Containers have magically changed the way we\ndeploy and manage python applications allowing us to build, develop,\ntest, and even deploy python applications on a single system with no\nupgrade downtimes.\n\nKubernetes is the missing layer that gives us the ability to manage many\ncontainers by providing features that enable containers to scale, talk\nto each other and work in harmony.\n\nThis talk will focus on how python developers can leverage Kubernetes to\nmanage any sort of python application on Kubernetes from simple to\ncomplex applications.\n\nThe talk will cover:\n\n-  The basics of Kubernetes.\n-  The basics of containerizing python applications.\n-  How to run and deploy simple, web and deep learning python pipelines\n   on Kubernetes.\n-  How to manage or work with Kubernetes using the Kubernetes python\n   client.\n\nThis talk will cover in summary the topics I talk about in my upcoming\nbook \"Deploying and Managing Python with Kubernetes\" published by Apress\nsometime this year.\n",
   "duration": 2130,
   "language": "eng",
-  "recorded": "2018-10-12",
+  "recorded": "2018-10-11",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/deploying-and-managing-python-with-kubernetes-by-joannah-nanjekye"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Joannah Nanjekye"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/N0-_Pt6Q52Y/maxresdefault.jpg",
   "title": "Deploying and Managing Python with Kubernetes",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=N0-_Pt6Q52Y"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Sanic_Async_Python_uvloop_with_a_familiar_flask_like_feel"
     }
   ]
 }

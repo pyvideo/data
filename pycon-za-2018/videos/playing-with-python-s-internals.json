@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "This talk will look at two of my libraries which stretch the limits of\nwhat's possible with Python:\n\n1. `birdseye <https://github.com/alexmojaki/birdseye>`__, a debugger\n   that records the value of every expression for easy viewing, and\n2. `sorcery <https://github.com/alexmojaki/sorcery>`__, a framework for\n   writing magical functions which know the context in which they are\n   called.\n\nThey work by inspecting and manipulating Python's inner workings:\nexecution frames, code objects, and most importantly the Abstract Syntax\nTree (AST). I will give an overview of these concepts and explain how\nsome parts of the libraries work.\n\nThis is for people interested in peeking under the hood of Python from\nwithin Python, i.e. no C and no messing with the interpreter.\n",
   "duration": 2461,
   "language": "eng",
   "recorded": "2018-10-11",
@@ -8,9 +8,19 @@
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/playing-with-pythons-internals-by-alex-hall"
+    },
+    {
+      "label": "Slides with notes",
+      "url": "https://docs.google.com/presentation/d/1VeJiCMhYAlpYJvqWsRHV3ebmkpBeo-iSXlHAEptZBZA/edit?usp=sharing"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Alex Hall"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/Wm47491S-Fo/maxresdefault.jpg",
   "title": "Playing with Python's internals",
@@ -18,6 +28,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=Wm47491S-Fo"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Playing_with_Pythons_internals"
     }
   ]
 }

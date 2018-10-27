@@ -1,16 +1,22 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "As more and more software is packaged in Docker images, it has become\nincreasingly important that the Dockerfiles and scripts that these\nimages are built from are correct. If Docker images are built and\ndeployed as part of an automated pipeline, it is also important that\nthey continue to work as expected when changes are made upstream.\n\nStart testing your Docker images without relying on Bash scripts! We\u2019ll\ncover why we decided to write a testing library and how to use it. We\u2019ll\nalso talk about some of the test fixtures we developed for common\ninfrastructure such as RabbitMQ and PostgreSQL. Finally, we\u2019ll explore\nsome of the limitations and workarounds of creating a test environment\nof Docker containers.\n\nSome of the best tools for working with Docker are already written in\nPython, for example, docker-compose. Bringing together the Python\necosystems around Docker and test frameworks, we created a new Python\nlibrary called Seaworthy. Seaworthy can be used to verify that a Docker\nimage works as expected in an isolated environment. It provides rich\ntools for asserting on processes, logs, and HTTP requests.\n",
   "duration": 2035,
   "language": "eng",
-  "recorded": "2018-10-12",
+  "recorded": "2018-10-11",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/test-your-docker-images-with-python-by-jamie-hewland"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jamie Hewland"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/NY---NXXHjQ/maxresdefault.jpg",
   "title": "Test your Docker images with Python",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=NY---NXXHjQ"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Test_your_Docker_images_with_Python"
     }
   ]
 }
