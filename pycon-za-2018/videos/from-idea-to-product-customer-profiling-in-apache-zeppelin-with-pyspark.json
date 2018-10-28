@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Zeppelin is a web based notebook which enables interactive data\nanalytics on big data. Data can easily be ingested from a variety of\ndatabases and analysis can be performed in Python and Pyspark.\nVisualisations can be built and displayed together with the code, using\nZeppelin\u2019s built in tool Helium, or Python specific tools such as\nMatplotlib and Bokeh. The web based interface facilitates easy sharing\nof results, and collaboration on projects.\n\nDeveloping in Zeppelin has changed the way we approach model\ndevelopment. We are able to take a project from an idea to a product all\nwithin one tool using the following process:\n\n1. Come up with an idea. Write some notes in a Zeppelin notebook\n   describing how we would like the idea implemented.\n2. Slowly start fleshing out the idea, with real code, until the\n   solution is built. This is great to demo, as the code is in bite size\n   chunks, and visualisations can be added directly in.\n3. Take the code into production. It can be scheduled it to run directly\n   in Zeppelin with a cron scheduler, or from a tool such as Nifi.\n   Interactive visualisations can be embedded in a web-based frontend.\n\nThis talk is aimed at data scientists, particularly those working with\nbig data. We will demonstrate how we have built a catalogue of\nsubscriber attributes based on customer mobile usage and purchase\nbehavior using Zeppelin and Pyspark. These attributes can be used to\nprofile subscribers, and are the starting point for indivisualised\ncustomer engagement. Anyone who attends this talk will get an\nintroduction to Zeppelin and Pyspark and an overview of what can be\nachieved with these tools.\n",
   "duration": 2165,
   "language": "eng",
   "recorded": "2018-10-11",
@@ -8,9 +8,15 @@
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/from-idea-to-product-customer-profiling-in-apache-zeppelin-with-pyspark-by-sarah-sprich"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Sarah Sprich"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/K2ZMU2VV9OM/maxresdefault.jpg",
   "title": "From Idea to Product: Customer Profiling in Apache Zeppelin with PySpark",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=K2ZMU2VV9OM"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-From_Idea_to_Product_Customer_Profiling_in_Apache_Zeppelin_with_PySpark"
     }
   ]
 }

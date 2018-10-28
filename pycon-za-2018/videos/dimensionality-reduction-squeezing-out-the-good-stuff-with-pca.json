@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Data is often high-dimensional - millions of pixels, frequencies,\ncategories. A lot of this detail is unnecessary for data analysis - but\nhow much exactly? This talk will discuss the ideas and techniques of\ndimensionality reduction, provide useful mathematical intuition about\nhow it's done, and show you how Netflix uses it to lead you from binge\nto binge.\n\nIn this session, we'll start by remembering what data really is and what\nit stands for. Data is a structured set of numbers, and these numbers\ntypically (hopefully!) hold some information. This will lead us\nnaturally to the concept of a *high-dimensional dataspace* , the\nmystical realm in which data lives. It turns out that data in this space\ndisplays an extremely useful 'selection bias' - ***a datapoint can be\nknown by the company it keeps***. This is one of the basic ideas behind\n**k-means clustering** , which we will briefly discuss.\n\nWe'll then talk about the *informative-ness* of certain dimensions of\nthe data space over others. This lays the mathematical foundation for\nthe technique of **Principal Component Analysis** (PCA), which we will\nrun on the Netflix movie dataset using *scikit-learn*.\n\nWe will also touch upon **tSNE** , another popular\ndimensionality-reduction algorithms.\n\nI will be using *scikit-learn* for processing and *matplotlib* for\nvisualization. The purpose of this session is to introduce\ndimensionality- reduction to those who do not know it, and to provide\nuseful guiding intuitions to those who do. We'll also discuss some\nseminal use-cases, with tips and warnings for your own applications.\n",
   "duration": 2380,
   "language": "eng",
   "recorded": "2018-10-12",
@@ -8,9 +8,15 @@
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/dimensionality-reduction-squeezing-out-the-good-stuff-with-pca-by-aabir-abubaker-kar"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Aabir Abubaker Kar"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/OXzk7u5u_Ts/maxresdefault.jpg",
   "title": "Dimensionality reduction - squeezing out the good stuff with PCA",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=OXzk7u5u_Ts"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Dimensionality_reduction_squeezing_out_the_good_stuff_with_PCA"
     }
   ]
 }

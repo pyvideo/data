@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "This talk is intended for anyone interested in deploying microservices\nin their environment. It examines what is involved in developing,\ndeploying and maintaining a distributed microservices architecture.\nMoving from a monolithic architecture to a services oriented\narchitecture has many benefits and tradeoffs that need to be addressed.\n\nOne has to consider whether to go with an off the shelf solution or\nbuild your own. When does it make sense to do the latter? Tasks like\nmonitoring and debugging is more difficult with the added complexity\nthat is inherent with a distributed system.\n\nThis first part of the talk reviews what needs to be considered when\ndeciding to build applications on a distributed microservices\narchitecture. Topics that will be covered include:\n\n-  Why choose a microservices architecture, and when not to?\n-  Objectives of a distributed services architecture\n\n   -  Service presence\n   -  Heartbeating\n   -  Logging\n   -  Security\n   -  Reliability\n   -  Performance and Scalability\n   -  Monitoring\n   -  Troubleshooting\n   -  Message contracts\n\nThe second part of the talk delves into the micorservices framework\nbuilt and used by CareerJunction. It is an in house framework written in\nPython 3 (3.5+) which uses asyncio for nonblocking I/O and ZeroMQ as a\nconcurrency networking library.\n\nIn simple terms, the framework implements a reliable service-oriented\nrequest- reply dialog between a set of client applications, a set of\nbrokers and a set of worker applications.\n\nThe features of the framework include those discussed in the first part\nof the talk and will be showcased by coding and deploying a service.\nAbove and beyond that, the following topics will be covered:\n\n-  Conceptual architecture\n-  Architecture goals\n-  Coding a service\n\n   -  Creating and running a service\n   -  Message contract parameters\n   -  Exposing services via HTTP\n   -  Scheduled Jobs\n\nThe last part of the talk examines the lessons learnt over the past few\nyears, what to avoid and the benefits it brought not only to the IT\nteam, but to the business as a whole. Topics that will be covered\ninclude:\n\n-  IT benefits\n-  Business benefits\n-  What to avoid?\n",
   "duration": 3460,
   "language": "eng",
   "recorded": "2018-10-11",
@@ -8,9 +8,15 @@
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/distributed-microservices-in-the-real-world-by-imraan-parker"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Imraan Parker"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/Lvw3Lp3KrTM/maxresdefault.jpg",
   "title": "Distributed microservices in the real world",

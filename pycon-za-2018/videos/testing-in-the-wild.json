@@ -1,16 +1,22 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "**Introduction**\n\nThis talk is aimed at anyone interested in testing real code with real\ndeadlines. In this talk Test Driven Development (TDD) will be explored\nalong with alternatives to TDD. By the end of this talk participants\nwill have a greater understanding of how to apply one of the tools of\ntesting in the real world and how to ensure they have time in the\ndevelopment cycle to test their code.\n\n**Questions covered**\n\nAlmost everyone talks about TDD these days. TDD is taken as the thing to\naim for and the one thing you must do as a developer. But does TDD\nactually work when you are out of the classroom context and in the real\nworld? Are there alternatives to TDD that are better to use? How do you\nbegin to test legacy code so that you can change it safely? What about\nthat new feature that marketing wants ASAP and you have to quickly pull\na rabbit out the hat for? How should one ensure that this new code is\nadded rapidly but with good tests? These and many other questions will\nbe briefly explored in this talk.\n\n**Tools used**\n\nThis talk will focus on unit testing and will use `Python\nnose <https://pypi.org/project/nose/>`__ as the test runner. Python nose\nextends `unittest <https://docs.python.org/2/library/unittest.html>`__\nand makes it easier to setup, discover and run tests with Python. Some\nbrief examples of tests will be shown using Python 2.7 but the broader\nconcepts apply equally well to Python 3.\n",
   "duration": 1607,
   "language": "eng",
-  "recorded": "2018-10-12",
+  "recorded": "2018-10-11",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/testing-in-the-wild-by-heather-williams"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Heather Williams"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/VUyyr52aEm0/maxresdefault.jpg",
   "title": "Testing in the wild",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=VUyyr52aEm0"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Testing_in_the_wild"
     }
   ]
 }

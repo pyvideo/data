@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Concurrent programming is useful any time one needs to deal with\nmultiple concurrent tasks: a server answering requests from multiple\nclients, a client scraping data from multiple servers, a workflow\nmanager running external processes in a pipeline, and more.\n\nWhile there are many concurrent programming frameworks for Python, there\nis one that is included out of the box: asyncio. I will introduce the\nframework and explain the syntax and APIs. Perhaps more importantly, I\nwill offer practical tips on development with asyncio, such as exception\nhandling, testing, debugging, and integration with existing code.\n\nAttendees will come away with an understanding of why they will want to\nuse asyncio instead of multi-threading, an understanding of the basic\nconcepts, and knowledge of some additional libraries that will help them\nbe productive with asyncio.\n",
   "duration": 2083,
   "language": "eng",
   "recorded": "2018-10-11",
@@ -8,9 +8,15 @@
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/an-introduction-to-concurrent-programming-with-asyncio-by-bruce-merry"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Bruce Merry"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/x1RXHcE3oVI/maxresdefault.jpg",
   "title": "An introduction to concurrent programming with asyncio",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=x1RXHcE3oVI"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Deploying_and_Managing_Python_with_Kubernetes"
     }
   ]
 }

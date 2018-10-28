@@ -1,16 +1,22 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Overview\n--------\n\nIt's never been easier to use all manner of interesting computing\ndevices such as multicore CPUs, GPUs and FPGAs using\n`OpenCL <https://www.khronos.org/opencl/>`__, an open heterogeneous\ncomputing standard, supported by major hardware vendors:\n`Intel <https://software.intel.com/en-us/articles/opencl-drivers>`__,\n`NVIDIA <https://developer.nvidia.com/opencl>`__,\n`AMD <https://www.amd.com/en-%20us/solutions/professional/hpc/opencl>`__,\n`ARM <https://developer.arm.com/graphics/resources/tutorials/opencl-%20tutorials>`__,\netc. And it's never been easier to use OpenCL via the excellent Python\nbindings, `PyOpenCL <https://documen.tician.de/pyopencl/>`__.\n\nIn this talk, I will introduce the basics of the OpenCL programming and\nruntime APIs, using examples run in Jupyter notebooks on a variety of\ndevices. I will also help identify the situations where it makes sense\nto accelerate portions of a codebase.\n\nAudience\n--------\n\nThis talk is aimed at anyone who loves the expressiveness of Python, but\nhas bumped into its performance limitations. I assume no background in\nHPC and/or heterogeneous computing, and will be using simple, yet\nhopefully relevant examples such as fundamental linear algebra and\nanalysis applications.\n\nBy the end of the talk, provided it isn't a post-lunch slot, the\naudience should be ready to identify the hotspots in their code, and\nstart accelerating using the CPUs, GPUs and FPGAs in their laptops and\nfavourite public clouds such as AWS, Azure and GCE.\n",
   "duration": 2290,
   "language": "eng",
-  "recorded": "2018-10-11",
+  "recorded": "2018-10-12",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/parallel-programming-with-py-opencl-for-fun-and-profit-by-gordon-inggs"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Gordon Inggs"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/hqieYt9sXPU/maxresdefault.jpg",
   "title": "Parallel Programming with (Py)OpenCL for Fun and Profit",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=hqieYt9sXPU"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Parallel_Programming_with_PyOpenCL_for_Fun_and_Profit"
     }
   ]
 }

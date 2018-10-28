@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "A fast Random Number Generator (RNG) is key to doing Monte Carlo\nsimulations, efficiently initialising machine learning models, shuffling\nlong sequences of numbers and many tasks in scientific computing.\nCPython and NumPy use implementations of the Mersenne Twister RNG and\nrejection sampling to generate random numbers in an interval. The NumPy\nimplementation trades more samples for cheaper division by a power of\ntwo. The implementation is very efficient when the random interval is a\npower of two, but on average generate many more samples compared to the\nGNU C or Java algorithms. The Python RNG uses an algorithm similar to\nGNU C.\n\nA recent paper by Daniel Lemire (https://arxiv.org/abs/1805.10941)\ndiscusses an efficient division light method to generate uniform random\nnumbers in an interval. This method is apparently used in the Go\nlanguage. On 64-bit platforms there are also fast alternative RNGs that\nperform comparatively on statistical examinations passing tests like\nBigCrush. The splitmix64 (part of the standard Java API) and lehmer64\nRNGs, for example, require approximately 1.5 cycles to generate 32\nrandom bits (without using SIMD) while the 32-bit Mersenne Twister\nrequires approximately 10 cycles per 32 bits.\n\nThis talk will discuss the inclusion of Lemire's method in NumPy as an\nalternative to the current rejection sampling implementation. My\nimplementation results in a 2x - 3x improvement in the performance of\ngenerating a sequence of random numbers. Using splitmix64 or lehmer64\nRNGs in NumPy instead of the Mersenne Twister results in a further 2x\nperformance improvement.\n\nThe random module in Python does not do the rejection sampling in C like\nNumPy does. Much of the time to get a random number is therefore spent\nin the Python code. This talk will also discuss a fast random Python\nmodule that implements Lemire's method instead of the current rejection\nsampling, provides alternative RNGs and moves more of the code into C.\n\nI'm considering doing pull requests for both the NumPy modification and\nthe Python fast random module and will present a detailed analysis of\nthe proposed modifications.\n",
   "duration": 2372,
   "language": "eng",
   "recorded": "2018-10-12",
@@ -8,9 +8,15 @@
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/fast-random-number-generation-in-python-and-numpy-by-bernardt-duvenhage"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Bernardt Duvenhage"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/jWXZ07YBsPM/maxresdefault.jpg",
   "title": "Fast random number generation in Python and NumPy",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=jWXZ07YBsPM"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-An_introduction_to_concurrent_programming_with_asyncio"
     }
   ]
 }

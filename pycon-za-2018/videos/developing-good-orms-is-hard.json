@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "As with many people, I was looking for an ORM for ``asyncio`` Python.\n\n| Whilst ``asyncio`` is a great framework for I/O bound applications,\n  there isn't any mature, recommendable ORMs for it.\n| Many attempts to wrap an existing sync Python ORM (such as peewee or\n  sqlAlchemy) by having them run in a separate thread, and then dealing\n  with synchronising between the event loop and threads got abandoned,\n  due to a myriad of problems, including performance, correctness and\n  blocking.\n| Other ORMs were abandoned before they worked, or had so many layers of\n  abstraction that I feared to touch it.\n\n| Then I came across `Tortoise\n  ORM <http://tortoise-orm.readthedocs.io/>`__\n| It had a simple design. (Inspired by the Django ORM syntax)\n| It actually worked when I tried it out.\n\nSo I decided to jump in, and help with development.\n\n| In this talk I'll talk about my experience of being on a development\n  team on an ORM.\n| There is a reason there are so few successful ORM projects out there.\n\nDeveloping good ORMs are **HARD**\n",
   "duration": 2556,
   "language": "eng",
   "recorded": "2018-10-12",
@@ -8,9 +8,15 @@
     {
       "label": "Conference schedule",
       "url": "https://2018.za.pycon.org/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://speakerdeck.com/pyconza/developing-good-orms-is-hard-by-nickolas-grigoriadis"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Nickolas Grigoriadis"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/MHPimjGY2As/maxresdefault.jpg",
   "title": "Developing good ORMs is HARD!",
@@ -18,6 +24,10 @@
     {
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=MHPimjGY2As"
+    },
+    {
+      "type": "archive.org",
+      "url": "https://archive.org/details/pyconza2018-Fast_random_number_generation_in_Python_and_NumPy"
     }
   ]
 }
