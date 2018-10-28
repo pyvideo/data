@@ -1,19 +1,22 @@
 {
+  "abstract": "During concept design phases, there is limited information available to\nhelp designers understand what designs work well. In product design,\nevaluating a design requires a time-consuming process of prototyping and\ntesting. In engineering design, evaluating a design may be based on\nusing complex computer codes with long run times. In both cases,\ninformation is expensive (in cost or time) and making decisions that\nlead to design improvements can be a challenging task.\n\nBayesian methods lend themselves to the design process as they have the\nproperty of taking prior estimates and update them over time as new\ninformation becomes available. In cases where evaluating a design is\nexpensive, Bayesian optimisation with Gaussian processes can be used to\naccelerate design improvements. Furthermore, acquisition functions can\nbe carefully designed to encourage exploitation of known designs,\nexplore novel designs, seek trade-offs between competing performance\nmetrics and incorporate subjective preferences.\n\nWe will make effort to expose any mysteries around Bayesian optimisation\nand show how a simple strategy can be developed using nothing more than\nnumpy. We will introduce some more sophisticated approaches using GPFlow\nand illustrate some examples from our everyday work using python for\ndesign optimisation, geometry parameterisation and encouraging\nhuman-machine interaction through a web interface.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Design engineers are often faced with the challenge of finding novel and\nhigh performing designs with limited information available to them.\nBayesian methods lend themselves to design problems where information is\nlimited and beliefs about what is a good design update over time. Using\npython is a great way to integrate design tools with Bayesian methods\nand accelerate the design process.\n",
   "duration": 2478,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jim Parr"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/DUWQiLAvr5I/maxresdefault.jpg",
-  "title": "Planes, Trains, and Skateboard Shoes - Bayesian methods in engineering and product design - Jim Parr",
+  "title": "Planes, Trains, and Skateboard Shoes - Bayesian methods in engineering and product design",
   "videos": [
     {
       "type": "youtube",

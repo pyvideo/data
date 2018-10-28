@@ -1,19 +1,22 @@
 {
+  "abstract": "This talk will be a mix of discussing current events and the latest\nmachine learning bloopers and presenting concrete recommendations and\nexisting tools for being good rather than being evil as a data\nscientist. In particular, the audience can expect practical guidance\n(and preferably audience input on):\n\nData discovery a. Examples of how \u2018bad\u2019 or incomplete data sets can lead\nto discriminatory models b. How to examine your input data and balance\nyour input data before inputting into an analysis pipeline\n\nData processing a. Examples of how data processing has resulted in\ndiscriminatory models b. How to examine your preprocessing pipeline to\nprevent discriminatory inputs c. Examples of how data processing has\nresulted in privacy-violating models d. How to examine your process for\nprivacy leaks\n\nModeling a. Examples of how choice of model can lead to discriminatory\nresults b. Examples of how models can be designed to be more or less\nvulnerable to discriminatory input data c. How to test your model &\nexamine final parameters/fits for discriminatory behavior for a variety\nof common model families\n\nAuditing your model a. Examples of how even models following processes\nabove may still yield discriminatory behavior b. Auditing your model as\na blackbox with existing Python language solutions\n\nResearch frontiers a. Updates on how computer scientists and\nsociologists are developing new methods to avoid discriminatory and\nprivacy-violating models. Several newly published papers will be\npresented to give audience a sense of the breadth and current state of\nthis active area of research\n",
   "copyright_text": null,
-  "description": "",
+  "description": "There is mounting evidence that the widespread deployment of machine\nlearning and artificial intelligence in business and government is\nlikely reproducing or even amplifying existing prejudices and\ninequalities. Even when an analyst wants to pursue fairness and\naccuracy, it is easy to unintentionally create discriminatory code. I\nwill discuss how to be good and avoid being part of the problem.\n",
   "duration": 2495,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Aileen Nielsen"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/FEoJmLyp8MY/maxresdefault.jpg",
-  "title": "Be good (and don't be evil): how to audit your work for fairness and inclusion - Aileen Nielsen",
+  "title": "Be good (and don't be evil): how to audit your work for fairness and inclusion",
   "videos": [
     {
       "type": "youtube",

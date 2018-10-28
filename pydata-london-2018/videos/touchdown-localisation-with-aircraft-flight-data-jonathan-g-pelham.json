@@ -1,19 +1,22 @@
 {
+  "abstract": "Touchdown Localisation with aircraft flight data\n================================================\n\nIn order to better understand the risks involved in aircraft landing and\nthe different factors that can increase or decrease those risks a better\nunderstanding is needed of exactly where the aircraft touched down on on\nthe runway. The current methods have good temporal sensitivity but are\ninaccurate in determining where the aircraft touched down relative to\nthe runway aim point and to the centreline of the runway.\n\nThis research reconstructed a terrain profile of the ground beneath the\naircraft flight path and then matched it to a digital terrain model to\nreconstruct a more accurate ground track and predict where the aircraft\ntouched down relative to the runway. This reconstructed ground track was\nthen compared to the taxiway map as a way of validating the prediction.\nThe results are then plotted for review.\n\nDramatis Personae\n~~~~~~~~~~~~~~~~~\n\n-  Pandas\n-  Geopandas\n-  Folium\n-  Bokeh\n-  sklearn\n-  geopy\n-  geojson\n-  numpy\n-  html\n-  multiprocessing\n-  itertools\n-  shapely\n",
   "copyright_text": null,
-  "description": "",
+  "description": "How to take data from an aircraft black box and use it in the real world\nto improve landing safety using python. A discussion of methods, data\nquality, and finding solutions.\n",
   "duration": 2112,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jonathan G. Pelham"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/LQhKqn3bSWE/maxresdefault.jpg",
-  "title": "Touchdown Localisation with aircraft flight data - Jonathan G. Pelham",
+  "title": "Touchdown Localisation with aircraft flight data",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "Finding exact duplicates is trivially easy\n(``if (md5(doc1) == md5(doc2))``), but finding near duplicates is much\nharder. Many document collections, from tweets to news text to forum\ndiscussions, contain documents that are almost exactly the same, with a\nfew sentences that differ. A hash function such as ``md5`` will not find\nthese near duplicates as they are not the same on the byte level, but\nrather on the semantic level. Finding these semantic duplicates can be\ndone, for instance, by using n-gram shingles and computing the Jaccard\nsimilarity of the shingle sets. This is computationally very expensive\nas the similarity between all pairs of documents needs to be computed.\n\nLocality senstive hashing (LSH) relies on two methods, a hash\nfingerprint of each document and a locality sensitive hash that is\napplied to the fingerprint. If the fingerprint is generated using\n``minhash`` the probability of a hash collision is equal to the Jaccard\ndistance of the documents. In this talk I will present the idea behind\nlocality sensitive hashing as well as an MIT licensed Python\nimplementation of the method.\n\nThe library is available at https://github.com/mattilyra/lsh\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Finding documents that are almost exact duplicates is difficult. Exact\nhashing algorithms do not work and pairwise comparisons do not scale.\nLocality Sensitive Hashing (LSH) is a scalable method for detecting near\nduplicate content that allows computation to be exchanged for accuracy.\nI will present the theoretical side of LSH and an open source Python\nimplementation of the technique.\n",
   "duration": 2386,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Matti Lyra"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/n3dCcwWV4_k/maxresdefault.jpg",
-  "title": "Data Deduplication using Locality Sensitive Hashing - Matti Lyra",
+  "title": "Data Deduplication using Locality Sensitive Hashing",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "Anomaly detection using machine learning has applications in many\nfields, including fraud detection. Automated transaction monitoring is\nanother area where automatic anomaly detection is being used,\nspecifically in fighting financial crimes like money laundering. This\ntalk will briefly review the most common unsupervised anomaly detection\nmethods, and will focus on the Isolation Forest algorithm (Liu et al.\n2008)..\n\nPerhaps the most important step towards successfully detecting money\nlaundering is to recognise that often a transaction can be described as\nanomalous only under a certain set of factors. Such factors, being non-\nobvious, are revealed with the help of considerable subject matter\nexpertise. Knowing revealing factors allows one to use the right\nattributes, but still leverage unsupervised learning.\n\nThis talk will cover:\n\n1. Why detecting money laundering is different from other anomaly\n   detection problems (and how it further varies by the banking type).\n\n2. Brief review of unsupervised learning models for anomaly detection.\n\n3. Description of Isolation Forest algorithm.\n\n4. Short overview of its implementation in scikit-learn.\n\n5. Walk-through a Python workbook with Isolation Forest algorithm\n   applied to an anomaly detection task.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "This talk will focus on the importance of correctly defining an anomaly\nwhen conducting anomaly detection using unsupervised machine learning.\nIt will include a review of Isolation Forest algorithm (Liu et al.\n2008), and a demonstration of how this algorithm can be applied to\ntransaction monitoring, specifically to detect money laundering.\n",
   "duration": 1967,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Elena Sharova"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/5p8B2Ikcw-k/maxresdefault.jpg",
-  "title": "Unsupervised Anomaly Detection with Isolation Forest - Elena Sharova",
+  "title": "Unsupervised Anomaly Detection with Isolation Forest",
   "videos": [
     {
       "type": "youtube",

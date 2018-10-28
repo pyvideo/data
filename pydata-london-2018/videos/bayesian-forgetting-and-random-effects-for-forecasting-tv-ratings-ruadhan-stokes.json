@@ -1,19 +1,22 @@
 {
+  "abstract": "The use of a random effects model allows us to capture the inherent\nappeal of a programme, which is not described by predictors such as time\nand genre. However, as we will illustrate, the ratings of an individual\nprogramme often drift slowly, or shift suddenly, up or down.\nConsequently, the random effects parameters should be treated as time\nvarying. This can be achieved by inclusion of a fixed \u2018forgetting\nfactor\u2019 to down-weight older data. This concept is central to the\npopular recursive least squares algorithm. Similarly, with Bayesian\nforgetting the posterior is most effected by more recent data. In both\ncases there is little principled guidance for tuning the forgetting\nfactor, and being fixed means sudden parameter changes are hard to deal\nwith. Recent developments in the field suggest algorithms for Bayesian\nestimation of a time varying forgetting factor which is appropriate for\ntracking rapidly changing parameters.\n\n**Without dwelling on derivations, we will discuss:**\n\n-  Why a random effects model is chosen over a linear regression.\n-  What is 'forgetting' and why we use it to forecast TV ratings.\n-  The Bayesian interpretation of forgetting.\n-  The intuitively appealing and surprisingly simple estimation\n   algorithm that results from this interpretation.\n-  Results on TV ratings data.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "At Channel 4 we use ratings forecasts to help advertisers who work with\nus to reach the right audience. To provide forecasts that respond to the\nchanging tastes and trends in television, we explore general methods of\nmixed effects modelling and Bayesian filtering which will be of interest\nto data scientists and researchers from a range of industries.\n",
   "duration": 2231,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Ruadh\u00e1n Stokes"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/lRz0_ExQud0/maxresdefault.jpg",
-  "title": "Bayesian forgetting and Random Effects for forecasting TV ratings - Ruadh\u00e1n Stokes",
+  "title": "Stationary data? Forget about it! Bayesian forgetting and Random Effects for forecasting TV ratings",
   "videos": [
     {
       "type": "youtube",

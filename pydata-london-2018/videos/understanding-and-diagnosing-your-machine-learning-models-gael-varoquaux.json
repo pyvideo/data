@@ -1,6 +1,7 @@
 {
+  "abstract": "Often achieving a good prediction is only half of the job. Questions\nimmediately arise: How to improve this prediction? What drives the\nprediction? Can we operate changes to the system based on the\npredictions? All these questions require understanding how good is the\nmodel prediction, and how do the model predict.\n\nThis tutorial assumes basic knowledge of scikit-learn. It will focus on\nstatistics, tests, and interpretation rather than improving the\nprediction. Below is a tentative outline.\n\nUnderstanding how well a classifier predicts\n============================================\n\nMetrics to judge the success of a classifier\n--------------------------------------------\n\nThere are many metrics, for regression (r2 score, mean squared error,\nmean absolute error), and for classification (zero-one accuracy, area\nunder the ROC curve, area under the precision-recall curve). I will\nexplain the pros and con in terms of interpretation for each of these.\n\nCross-validation: some gotchas\n------------------------------\n\nThe variance of measured accuracy\n\nConfounding effects and non independence\n\nPermutation to measure chance\n\nUnderfit vs overfit: do I need more data, or more complex models?\n-----------------------------------------------------------------\n\nTrain error versus test error\n\nLearning curves\n\nTuning curves\n\nUnderstanding why a classifier predicts\n=======================================\n\nBlack-box interpretation of models: LIME\n----------------------------------------\n\nhttps://marcotcr.github.io/lime/ LIME can be used to understand which\nfeatures locally drive the predictions of a model.\n\nInterpreting linear models\n--------------------------\n\nConditional versus marginal relations (and the link to univariate\nfeature selection)\n\nThe challenge of correlated features\n\nGauging significance of observed associations\n\nThe effect of regularization\n\nInterpreting random forests\n---------------------------\n\nHow the random forests makes their decision, and how feature importances\ncan be interpreted.\n\nPartial dependence plots\n------------------------\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Given a predictive model, questions immediately arise: How to improve\nthis prediction? What drives it? Can we operate changes to the system\nbased on the predictions? All these questions require understanding how\ngood is the model prediction, and how do the model predict.\n\nThis tutorial will focus on statistics and interpretation rather than\nimproving prediction.\n",
   "duration": 5589,
   "language": "eng",
   "recorded": "2018-04-27",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Ga\u00ebl Varoquaux"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/kbj3llSbaVA/maxresdefault.jpg",
-  "title": "Understanding and diagnosing your machine-learning models - Ga\u00ebl Varoquaux",
+  "title": "Understanding and diagnosing your machine-learning models",
   "videos": [
     {
       "type": "youtube",

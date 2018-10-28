@@ -1,19 +1,22 @@
 {
+  "abstract": "Multi-touch attribution is a popular marketing science challenge. This\nis a tricky problem to solve as the goal label we need to train for is a\nlatent variable i.e. can\u2019t be directly observed in the real world. The\ne-commerce industry is actively looking at using fancy ML techniques to\ndesign a solution.\n\nHowever, the question still remains, how do we know which methodology is\nthe best for Multi-touch Attribution?\n\n`At Skyscanner, we have explored this problem space\nfurther <https://medium.com/@SkyscannerEng/lets-make-roi-a-fair-%20game-e2eb734a9560>`__.\nWe use a *simulated marketing environment* to benchmark different\nmethodologies. In this talk I will discuss:\n\n-  Benefits of benchmarking in a simulated environment.\n-  How to build your own simulated environment.\n-  Stress testing the solution with alternative scenarios.\n\nAn overview of this talk can be seen in `this\nblog <http://bit.ly/Multi-%20TouchAttribution>`__ and `this research\nposter <http://bit.ly/MTA-Poster>`__\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk, I focus on a key challenge of designing a Multi-touch\nattribution solution - Identifying which methodology is best for this\nproblem. This is a thorny issue as the variable we are trying to study\nisn't directly observable. I\u2019ll discuss a novel approach to tackle this\nproblem through simulated marketing environment.\n\nHowToTrainYourMLSolutionForLatentVariables\n==========================================\n",
   "duration": 2244,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Sri Sri Perangur"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/LDU87WlOhWg/maxresdefault.jpg",
-  "title": "Multi-touch Attribution: What am I training for? - Sri Sri Perangur",
+  "title": "Multi-touch Attribution: What am I training for ?",
   "videos": [
     {
       "type": "youtube",

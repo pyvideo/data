@@ -1,19 +1,22 @@
 {
+  "abstract": "In this talk we present data science approach to evaluate, predict and\noptimize financial regulation. Since the financial crisis in 2007/08\nthere has been a vibrant discussion on how to reduce systemic risk in\nthe financial system and various legislations have been passed. Yet a\ndecade later, experts still do not agree in their judgement on whether\nor not current regulation is sufficient in order to prevent a future\neconomic meltdown. If expert judgement is inconclusive, how can data\nscience help?\n\nWe introduce a model of financial systems that captures the impact of a\nfinancial regulation on all levels of detail - from a single trade to\nsystemic effects - using weighted directed graphs. As virtually all\ntrade data of the real financial system is proprietary, we show how to\nuse random graph algorithms calibrated to realistic distributions to\ngenerate financial systems, which are open and completely accessible to\nscientific research. Finally, we simulate how these financial systems\nevolve over time under different regulations. This provides a data set\non which the impact of financial regulation on systemic risk can be\nstudied by data science techniques such as summarization, visualization\nand anomaly detection. We will illustrate this method on prominent\nfinancial regulation passed since the crisis.\n\nThe research heavily relies on open source technologies in Python\n(networkx, numpy, pandas, matplotlib) and C++ (boost, QuantLib, Open\nSource Risk Engine). The talk is based on a sequence of papers, see\nbelow, and ongoing research. No prior knowledge of finance or regulation\nis neccessary.\n\n[1] O\u2019Halloran, Sharyn; Nowaczyk, Nikolai; Gallagher, Donal A.. A Data\nScience Approach to Predict the Impact of Collateralization on Systemic\nRisk, Available at SSRN: https://ssrn.com/abstract=3090617\n\n[2] O\u2019Halloran, Sharyn; Nowaczyk, Nikolai; Gallagher, Donal A.. Big Data\nand Graph Theoretic Models: Simulating the Impact of Collateralization\non a Financial System, Proceedings of the 2017 IEEE/ACM International\nConference on Advances in Social Networks Analysis and Mining 2017,\nASONAM \u201917, p. 1056\u20131064, https://doi.org/10.1145/3110025.3120989,\nAvailable at SSRN: https://ssrn.com/abstract=3090617\n\n[3] Caspers, Peter; Giltinan, Paul; Lichters, Roland; Nowaczyk ,\nNikolai. Forecasting Initial Margin Requirements \u2013 A Model Evaluation,\nJournal of Risk Management in Financial Institutions, Vol. 10 (2017),\nNo. 4, https://www.henrystewartpublications.com/jrm/v10, Available at\nSSRN: https://ssrn.com/abstract=2911167\n",
   "copyright_text": null,
-  "description": "",
+  "description": "We present data science approach to evaluate, predict and optimize\nfinancial regulation. As the trade data of the real financial system is\nproprietary, we use random graph generation to produce a dataset of\nsimulated financial systems and study the impact of prominent\nregulations like Initial Margin over time. This uses various open source\ntechnologies in Python and C++.\n",
   "duration": 2171,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Nikolai Nowaczyk"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/3tRRmsVRUWg/maxresdefault.jpg",
-  "title": "A Data Science Approach to Systemic Risk - Nikolai Nowaczyk",
+  "title": "A Data Science Approach to Systemic Risk",
   "videos": [
     {
       "type": "youtube",

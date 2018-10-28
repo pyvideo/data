@@ -1,19 +1,22 @@
 {
+  "abstract": "This talk is an update on Full Fact's keynote at last year's PyData\nLondon. I will describe the steps involved in producing a factcheck and\nwhich of them can be automated. Transfer learning technique called\nInferSent is really useful in solving this problem.\n\nThe first step in automating a factchecking workflow is to extract the\nsentences containing claims from the rest of the text. The percentage of\nverifiable claims among all the spoken sentences varies greatly between\npolitical programmes - from 32% during Parliamentary Prime Minister\u2019s\nquestions to 8% in political interviews in The Sunday Politics show.\nBeing able to detect them efficiently saves a lot of time for a\nfact-checker as it filters out most of the text.\n\nThere are a lot of models for encoding the meaning of a word in a word\nembedding but very few models for sentences. Popular solutions are naive\naveraging of word embeddings and doc2vec.\n\nI would like to discuss a new neural sentence embedding InferSent from\nFacebook. https://github.com/facebookresearch/InferSent\n\nIt is originally designed to detect if two sentences imply or contradict\neach other but also works quite well for sentence classification task.\n\nThe annotations to train the model were collected using a closed-source\nPython annotation tool Prodigy which I will briefly touch on as well.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "There are a lot of models for individual word embeddings but few that\nencode the meaning of the whole sentence. i will introduce InferSent\nembedding for deciding if one sentence infers another. I will apply it\nto detecting factual claim sentence in text. It's the first step in\nautomating a fact-checking process at Full Fact as only 15% of political\nTV subtitles contain verfiable claims.\n",
   "duration": 2261,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Lev Konstantinovskiy"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/ddf0lgPCoSo/maxresdefault.jpg",
-  "title": "Sentence embeddings for automated factchecking - Lev Konstantinovskiy",
+  "title": "Sentence embeddings for automated factchecking",
   "videos": [
     {
       "type": "youtube",

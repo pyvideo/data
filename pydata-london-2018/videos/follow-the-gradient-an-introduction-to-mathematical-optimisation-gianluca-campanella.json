@@ -1,6 +1,7 @@
 {
+  "abstract": "The workshop starts with a brief introduction to optimisation theory,\nintroducing a common notation as well as a taxonomy of objective\nfunctions and constraints.\n\nThis is followed by a review of continuous optimisation problems and\ntechniques. Methods and ideas from the field are then related to\npractical machine learning applications such as quantile regression,\npenalised linear regression, and deep neural networks.\n\nOptimisation methods are introduced by first presenting the motivating\nideas and corresponding ML algorithms, followed by a more formal\nmathematical treatment and examples using different Python packages.\n\nAudience\n^^^^^^^^\n\nThe workshop will be of interest to anyone seeking to develop an\nintuition for the practical implications of optimisation choices on\ntraining and performance of ML algorithms, particularly with regard to\ncustom model development.\n\nWhilst mathematical formalism is kept to a minimum, it is recommended\nthat attendees are comfortable with undergraduate-level calculus.\n\nMaterials\n^^^^^^^^^\n\nSlides are notebook are available at\n<https://github.com/gcampanella/pydata- london-2018>.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Optimisation is at the heart of many mathematical models (including most\nML algorithms), but it's often overlooked as an implementation detail.\nConversely, developing an appreciation for optimisation techniques leads\nto a better understanding of their impact on these applications.\n\nThis workshop provides a comprehensive overview of continuous\noptimisation, with a practical ML focus.\n",
   "duration": 5256,
   "language": "eng",
   "recorded": "2018-04-27",
@@ -10,10 +11,12 @@
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Gianluca Campanella"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/-ofK_SMKjUY/maxresdefault.jpg",
-  "title": "Follow the gradient: an introduction to mathematical optimisation - Gianluca Campanella",
+  "title": "Follow the gradient: an introduction to mathematical optimisation",
   "videos": [
     {
       "type": "youtube",

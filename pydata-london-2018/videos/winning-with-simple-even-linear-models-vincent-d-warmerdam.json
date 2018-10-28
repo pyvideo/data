@@ -1,19 +1,22 @@
 {
+  "abstract": "It's not like deep learning isn't amazing, it is, but the hype is\ndistracting people from great ideas. You may be doing yourself short if\nyou pay too much attention to them. You can often win with simpler\nmodels that have properties that are much nicer in situations beyond a\njupyter notebook (production).\n\nI'll be discussing approaches that are dated, but useful. My goal is to\nlure you back to the domain of boring, old but ultimately simpler models\nthat can win the day. I'll share some war-stories from my last 4 years\nof consulting work as well as some hard learned lessons.\n\nThe following topics will be discussed:\n\n-  how to solve the xor problem with linear models\n-  how to win at timeseries with radial basis features\n-  how to use weighted regression to deal with historical overfitting\n-  how deep learning models introduce a new theme of horror in\n   production\n-  how to play with domain specific languages for ML models\n-  how to apply domain knowledge for graphical models\n-  how to create streaming models using passive aggressive updating\n-  how to build a real-time video game ranking system using mere\n   histograms\n-  how to create a well performing recommender with two SQL tables\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Simple models work. Linear models work. No need for deep learning or\ncomplex ensembles, you can often keep it simple. In this talk I'll\ndiscuss and demonstrate some winning tricks that you can apply on\nsimple, even linear models.\n",
   "duration": 2612,
   "language": "eng",
-  "recorded": "2018-04-27",
+  "recorded": "2018-04-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Vincent D. Warmerdam"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/68ABAU_V8qI/maxresdefault.jpg",
-  "title": "Winning with Simple, even Linear, Models - Vincent D. Warmerdam",
+  "title": "Winning with Simple, even Linear, Models",
   "videos": [
     {
       "type": "youtube",
