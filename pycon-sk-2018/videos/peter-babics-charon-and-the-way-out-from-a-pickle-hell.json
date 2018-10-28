@@ -1,0 +1,30 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Pickle ako form\u00e1t pre serializ\u00e1ciu je tu s nami u\u017e dlh\u00fa dobu, jeho\nprednosti s\u00fa jasn\u00e9, r\u00fdchla serializ\u00e1cia a implement\u00e1cia v \u0161tandardnej\nkni\u017enici.\n\nTaktie\u017e m\u00e1 aj ur\u010dit\u00e9 nev\u00fdhody, ktor\u00e9 \u010dasto dok\u00e1\u017eu prev\u00fd\u0161i\u0165, medzi nimi\ns\u00fa napr\u00edklad bezpe\u010dnostn\u00e9 hrozby a minim\u00e1lna podpora migr\u00e1ci\u00ed. U n\u00e1s v\nQuantlane bola hlavn\u00fdm probl\u00e9mom ch\u00fdbaj\u00faca podpora migr\u00e1cii, nako\u013eko\nakt\u00edvny v\u00fdvoj aplik\u00e1cie v\u017edy vedie k zmen\u00e1m v d\u00e1tov\u00fdch \u0161trukt\u00farach.\n\nZ tohto d\u00f4vodu sme vytvorili ``charon``, jednoduch\u00fd serializa\u010dn\u00fd\nn\u00e1stroj, ktor\u00fd si kladie za cie\u013e previes\u0165 komplexn\u00e9 d\u00e1tov\u00e9 \u0161trukt\u00fary do\njednoduch\u00fdch z\u00e1kladn\u00fdch typov (dict, list, skal\u00e1rne hodnoty), ktor\u00e9 sa\nn\u00e1sledne daj\u00fa jednoducho serializova\u0165 pomocou \u010fa\u013e\u0161\u00edch kni\u017en\u00edc ako\nnaprikl\u00e1d json, yaml a in\u00e9. Kni\u017enica pon\u00faka r\u00f4zne metatesty ako\nnapr\u00edklad kontrolovanie verzie serializa\u010dn\u00fdch funkci\u00ed vo\u010di d\u00e1tov\u00fdm typom\npomocou hashov AST, kontrolu serializa\u010dnej pipeline alebo aj kontrola \u010di\nmaj\u00fa v\u0161etky serializa\u010dn\u00e9 funkcie test.\n",
+  "duration": 1898,
+  "language": "slk",
+  "recorded": "2018-03-11",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2018.pycon.sk/en/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Peter B\u00e1bics"
+  ],
+  "tags": [
+    "Charon",
+    "Pickle",
+    "PyCon SK",
+    "Python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/GueV1hA8s7A/maxresdefault.jpg",
+  "title": "Charon and the way out from a pickle hell",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=GueV1hA8s7A"
+    }
+  ]
+}

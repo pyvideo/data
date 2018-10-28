@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Recommender systems are successfully used in several domains, e.g.\nproduct or movie recommendation. In e-commerce, the aim is to provide\npersonalized suggestions to users for relevant items out of all products\navailable.\n\nIn this talk, I will focus on item recommendation for anonymous users\nwhen no historical data about user is available (also referred as a\ncold-start problem) and challenges we have encountered. Firstly, I will\ndig deeper into similar item recommendation by NLP model comparing\ntextual descriptions of items. This approach is based on word embeddings\nextracted from neural network models, such as word2vec or fasttext.\n\nFinally, I will talk about how to apply the same idea of word embeddings\nto learn a representation of each product. With the product embedding\nrepresentation, it is easy to calculate similarities between products in\nreal- time. Moreover, we found out that product embeddings are able to\ncapture style of a product, color, category or a price level.\n\nAll of the examples will be practical using data about restaurants\nreviews and fashion products. Open-source NLP library Gensim is used in\ncode samples. Presentation will be supported by visualization of\nembeddings to get the idea behind. Everybody with any interest in\nmachine learning is welcome. After the presentation, you will know how\nto compute relationship between pizza and pasta or how to capture a\nfashion style of a user.\n",
+  "duration": 1674,
+  "language": "eng",
+  "recorded": "2018-03-09",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2018.pycon.sk/en/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Jakub Ma\u010dina"
+  ],
+  "tags": [
+    "NLP",
+    "PyCon SK",
+    "Python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/6dTjDg8Nvt0/maxresdefault.jpg",
+  "title": "Real-time personalized recommendations using embeddings",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6dTjDg8Nvt0"
+    }
+  ]
+}

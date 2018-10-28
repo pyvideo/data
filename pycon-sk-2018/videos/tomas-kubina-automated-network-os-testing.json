@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "| Our target was to automate recurring testing done to secure stability\n  of software deployed for Orange BS international networks (JunOS,\n  CISCO IOS).\n| Target is to make this automation as reliable as manual tests,\n  user-friendly, faster, so people can focus on more complex test and\n  simple and mid-simple test to be executed during nights/weekends and\n  be able to run them more frequently.\n\nWe have an lab network and decided to use NAPALM framework (library that\nimplements a set of functions to interact with different router vendor\ndevices using a unified API) as it supports all types of devices that we\nneed to test. There is support for configuring devices, but mainly for\nretrieving operational state of devices, that is key for our testing.\n\nAs a result of several months work we have now basic environment for\ntesting thanks to NAPALM, but for our need we had to extend it with\nseveral functions for parsing operational data. These functions are\ncovering different areas as IS-IS, LDP, BFD, BGP, PIM, MPLS TE and help\nus to properly check overall status of the box. As I work for OBS these\nfunctions are Service Provider oriented. Our goal is to publish them\neither as part of NAPALM official package or external extension. So also\nothers can benefit from the work that was done as part our project.\n",
+  "duration": 1517,
+  "language": "eng",
+  "recorded": "2018-03-10",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://2018.pycon.sk/en/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Tom\u00e1\u0161 Kubina"
+  ],
+  "tags": [
+    "NAPALM",
+    "PyCon SK",
+    "Python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/2BSzYilc7Ts/maxresdefault.jpg",
+  "title": "Automated network OS testing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2BSzYilc7Ts"
+    }
+  ]
+}
