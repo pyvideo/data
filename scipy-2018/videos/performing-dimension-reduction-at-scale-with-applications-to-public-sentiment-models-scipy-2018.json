@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "We discuss our experience with dimension reduction for big datasets. We\ninvestigate the controlled performance decrease of our public sentiment\nmodels under transformations that reduce the number of features in the\ndataset. This feature reduction speeds up our real-time data science\ntools and helps to counter the curse of dimensionality. We outline the\nPython workflow that both produces and validates the quality of these\ntransformations at scale in the AWS ecosystem, and we detail our\nprogramming and design choices, touching on the scikit-learn API,\nconfiguration versus code, SQL templatization, and our open source API\nclient.Presenter(s): Speaker: Walt Askew, Civis Analytics\n",
   "duration": 1365,
   "language": "eng",
-  "recorded": "2018-07-09",
+  "recorded": "2018-07-12",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -14,10 +14,12 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Walt Askew"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/31YeSfDklfc/maxresdefault.jpg",
-  "title": "Performing Dimension Reduction at Scale with Applications to Public Sentiment Models | SciPy 2018",
+  "title": "Performing Dimension Reduction at Scale with Applications to Public Sentiment Models",
   "videos": [
     {
       "type": "youtube",

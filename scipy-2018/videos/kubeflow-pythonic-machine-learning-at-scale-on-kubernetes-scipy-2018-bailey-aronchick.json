@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "\u201cKubeFlow marks the beginning of the end of the data scientist and/or\nsoftware engineer as disparate roles. Like DevOps has merged operations\nand development, DataDevOps will consume data science.\u201d - Philip Winder,\nan engineer and consultant at Container Solutions http://container-\nsolutions.com/tensorflow-on-kubernetes-kubeflow/ You've created and\ntuned a machine learning model, using TensorFlow, PyTorch, or\nscikit-learn - now what? How can you ensure that the model is deployed\nto your DevOps team as production-ready code, and can scale as needed on\nincoming data? How can you seamlessly migrate a model from your local\nlaptop / virtual machine to a hosted server on your cloud platform of\nchoice? This talk walks through the architecture of Kubeflow: a project\ndedicated to answering those questions - and to making machine learning\non Kubernetes simple, portable and scalable. We will describe, in\ndetail, the three components of the project: \\* a JupyterHub platform\nfor creating and managing Jupyter notebook servers that are used by data\nscience and research groups; \\* a Tensorflow Customer Resource for\nmanaging compute resources to a specific cluster size; and \\* a\nTensorflow Serving container to house the machine learning work. By the\nend of this talk, you will have a firm understanding of why Kubernetes\nwould be useful to machine learning engineers, and how you can deploy\nit, today, to support your predictive models.\nhttps://github.com/kubeflow/kubeflowPresenter(s): Speaker: Paige Bailey,\nMicrosoft Speaker: David Aronchick, Google\n",
   "duration": 1691,
   "language": "eng",
-  "recorded": "2018-07-15",
+  "recorded": "2018-07-13",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -14,10 +14,13 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Paige Bailey",
+    "David Aronchick"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/b_CvqzmB51M/maxresdefault.jpg",
-  "title": "KubeFlow: Pythonic Machine Learning at Scale on Kubernetes | SciPy 2018 | Bailey & Aronchick",
+  "title": "KubeFlow: Pythonic Machine Learning at Scale on Kubernetes",
   "videos": [
     {
       "type": "youtube",

@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "With the increase in computing power, harnessing and controlling one\u2019s\ncode out of the single threaded realm becomes an ever-increasing\nproblem, coupled with the desire to stay in the Python layer. With the\nrecent tools and frameworks that have been published, escaping the GIL\ncleanly is much easier than before, and can allow one\u2019s Python code to\neffectively utilize multi-core and many core architectures in the most\nPythonic ways possible. In this talk, learn about how to utilize static\nmultiprocessing for process pinning, and effectively balancing thread\npools with a monkey-patched import of threading modules.Presenter(s):\nSpeaker: David Liu, Intel Speaker: Anton Malakhov, Intel Corporation\n",
   "duration": 1679,
   "language": "eng",
-  "recorded": "2018-07-13",
+  "recorded": "2018-07-12",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -14,10 +14,13 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "David Liu",
+    "Anton Malakhov"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/HKjM3peINtw/maxresdefault.jpg",
-  "title": "Addressing Multithreading & Multiprocessing in Transparent & Pythonic Methods | SciPy 2018 | David L",
+  "title": "Addressing Multithreading and Multiprocessing in Transparent and Pythonic Methods",
   "videos": [
     {
       "type": "youtube",

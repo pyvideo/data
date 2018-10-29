@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In this tutorial, you will learn how to use the PyViz suite of tools to quickly build simple or complex visualizations that reveal and give insight into your data. You'll start by using the HoloViews library to annotate your numpy, pandas, or xarray data and make it have an instantly available visual representation. These declarative objects make it easy to visualize how different sets of data relate to each other, by flexibly overlaying and laying out data in any combination. Once you have these objects, you can select, slice, or sample your data as needed, quickly making new types of plots so that you can fully understand your data. You'll be able to choose between Matplotlib plots suitable for publications, or Bokeh plots that support interactive exploration in Jupyter Notebooks or as separate dashboard apps. You'll then see how to use HoloViews and related tools to transform your data for viewing in different ways, defining complex analysis pipelines if needed that preserve the raw data while making each step visible for analysis. When your datasets are too large for web browsers, we'll show how to use Datashader to reveal *all* of the data faithfully, rendering it into an image that can be displayed safely even for billions of datapoints. When it is time to share your results with non-developer colleagues, we'll show how to use Param to add interactive widgets to let them explore parameter spaces, how to link plots to respond to user selections and events, and how to put plots and widgets together into a separately launchable dashboard. Throughout, we will demonstrate how to customize plots as needed, how to follow up on specific topics to get more information, and how and when to use each of the libraries described. The aim is to give users the tools and know-how to effectively explore, analyze and visualize even large and complex datasets easily, concisely, and reproducibly. You can see a detailed breakdown of the topics included, including the full training materials as Jupyter notebooks, at https://pyviz.github.io/pyviz/tutorial/00_Welcome.html .",
   "duration": 12237,
   "language": "eng",
   "recorded": "2018-07-12",
@@ -14,10 +14,16 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "James A. Bednar",
+    "Jean-Luc Stevens",
+    "Christopher Ball"
+  ],
+  "tags": [
+    "tutorial"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/aZ1G_Q7ovmc/maxresdefault.jpg",
-  "title": "PyViz: Easy Visualization and Exploration for all your Data | SciPy 2018 Tutorial | James A. Bednar",
+  "title": "PyViz: Easy Visualization and Exploration for all your Data",
   "videos": [
     {
       "type": "youtube",

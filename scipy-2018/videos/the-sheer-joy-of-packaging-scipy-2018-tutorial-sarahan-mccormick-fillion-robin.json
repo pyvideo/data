@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Building packages in Python used to be hard, especially the ones\nincluding compiled extensions. Fortunately, it is getting easier thanks\nto efforts in the scientific Python community. However, there are still\na lot of challenges and complexities facing the package builder.There\nare at least two major packaging systems (pip/wheel and conda), and lots\nof different ways to do work with these systems. This tutorial will\ncover packaging from start to finish for both PyPI and conda, including\nsetup.py, flit, wheels, twine, conda-build, scikit-build, anaconda\ncloud, and conda-forge. Particular attention will be paid to critical\ndetails, such as binary compatibility and platform\ndifferences.Presenter(s): Speaker: Michael Sarahan, Anaconda, Inc.\nSpeaker: Matthew McCormick, Kitware, Inc. Speaker: Jean-Christophe\nFillion-Robin, Kitware, Inc. Speaker: Filipe Fernandes, SECOORA Speaker:\nChris Barker, NOAA Speaker: Matt Craig, Minnesota State University\nMoorhead Speaker: Jonathan Helmus, Anaconda, Inc. Speaker: Ray Donnelly,\nAnaconda, Inc.\n",
   "duration": 12562,
   "language": "eng",
-  "recorded": "2018-07-09",
+  "recorded": "2018-07-10",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -14,10 +14,19 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Michael Sarahan",
+    "Matthew McCormick",
+    "Jean-Christophe Fillion-Robin",
+    "Filipe Fernandes",
+    "Chris Barker",
+    "Jonathan Helmus"
+  ],
+  "tags": [
+    "tutorial"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/xiI1i525ljE/maxresdefault.jpg",
-  "title": "The Sheer Joy of Packaging | SciPy 2018 Tutorial | Sarahan, McCormick, Fillion-Robin...",
+  "title": "The Sheer Joy of Packaging",
   "videos": [
     {
       "type": "youtube",
