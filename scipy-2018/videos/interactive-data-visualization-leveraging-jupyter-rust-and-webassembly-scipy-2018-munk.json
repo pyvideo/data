@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "his talk covers a Jupyter widget built using Rust and WebAssembly for\ninteractive, browser-based visualization of datasets with yt, a python\npackage used to analyze and visualize volumetric data in a number of\nscientific domains. Users can interact and explore datasets of varying\nsizes with our Jupyter widget. We minimize latency that results from\ndata transmission between yt and the browser by compiling our\npixelization routines to WebAssembly and pushing data to the browser.\nOperations on the canvas are subsequently done in the browser. Our tool\nenables interactive data exploration accessible to a broad user\nbase.Presenter(s): Speaker: Madicken Munk, University of Illinois at\nUrbana-Champaign Speaker: Nathanael Claussen, University of Illinois at\nUrbana-Champaign\n",
   "duration": 1746,
   "language": "eng",
-  "recorded": "2018-07-15",
+  "recorded": "2018-07-13",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -14,10 +14,13 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Madicken Munk",
+    "Nathanael Claussen"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/5dl_m_6T2bU/maxresdefault.jpg",
-  "title": "Interactive Data Visualization Leveraging Jupyter, Rust and WebAssembly | SciPy 2018 |  Munk",
+  "title": "Interactive Data Visualization Leveraging Jupyter, Rust and WebAssembly",
   "videos": [
     {
       "type": "youtube",

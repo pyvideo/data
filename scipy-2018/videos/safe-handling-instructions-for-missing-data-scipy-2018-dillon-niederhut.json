@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In machine learning tasks, it is common to handle missing data by simply\nremoving observations with missing values, or just replacing missing\ndata with the mean value for its feature. To show why this is\nproblematic, we use listwise deletion and mean imputing to recover\nmissing values from artificially created datasets, and we compare those\nmodels against ones with full information. Unless quite strong\nindependence assumptions are met, we observe large biases in the\nresulting coefficients and an increase in the model's prediction error.\nWe conclude by repeating the experiment on a real dataset, and showing\nthe appropriate diagnostic and correction steps to handle missing\nvalues.Presenter(s): Speaker: Dillon Niederhut, Enthought\n",
   "duration": 1947,
   "language": "eng",
-  "recorded": "2018-07-15",
+  "recorded": "2018-07-13",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -14,10 +14,12 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dillon Niederhut"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/2gkw2T5jAfo/maxresdefault.jpg",
-  "title": "Safe Handling Instructions for Missing Data | SciPy 2018 | Dillon Niederhut",
+  "title": "Safe Handling Instructions for Missing Data",
   "videos": [
     {
       "type": "youtube",

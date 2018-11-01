@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In this presentation, we introduce Cloudknot, a software library that\nsimplifies cloud-based distributed computing by programmatically\nexecuting user-defined functions (UDFs) in AWS Batch. It takes as input\na Python function, packages it as a container, creates all the necessary\nAWS constituent resources to submit jobs, monitors their execution and\ngathers the results, all from within the Python environment. Cloudknot\novercomes limitations of previous similar libraries, such as pywren,\nthat runs UDFs on AWS Lambda, because most data science workloads exceed\nthe AWS Lambda limits on execution time, RAM, and local\nstorage.Presenter(s): Speaker: Adam Richie- Halford, University of\nWashington Speaker: Ariel Rokem, The University of Washington eScience\nInstitute\n",
   "duration": 1684,
   "language": "eng",
-  "recorded": "2018-07-09",
+  "recorded": "2018-07-12",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -14,10 +14,13 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Adam Richie-Halford",
+    "Ariel Rokem"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/D9LPzqoZ3f8/maxresdefault.jpg",
-  "title": "Cloudknot: A Python Library to Run your Existing Code on AWS Batch | SciPy 2018 | Richie-Halford",
+  "title": "Cloudknot: A Python Library to Run your Existing Code on AWS Batch",
   "videos": [
     {
       "type": "youtube",

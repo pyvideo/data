@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "`Binder <http://mybinder.org/>`__ allows researchers to quickly create\nand share computational environments needed to interact with research\ncode and data. In this talk, we discuss the technical decisions and\nchanges made in Binder 2.0. Many changes focus on deployment \u2014\nmodern-day cloud management tools (Kubernetes and Helm) and JupyterHub\nmake the service more reliable, scalable, and easier to deploy. We focus\non improvements for researchers using Binder to share their work.\nSupporting new workflows, languages, and REST APIs in Binder 2.0\nrequired developing two new components: repo2docker and BinderHub. We\nwill describe how these components work and how researchers can best use\nthem. We will conclude with a vision for the future of\nBinder.Presenter(s): Speaker: M Pacer, University of California,\nBerkeley Speaker: Chris Holdgraf, University of California, Berkeley\nSpeaker: Min Ragan-Kelley, IPython/Jupyter\n",
   "duration": 1708,
   "language": "eng",
-  "recorded": "2018-07-15",
+  "recorded": "2018-07-12",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -14,10 +14,14 @@
       "url": "https://github.com/deniederhut/Slides-SciPyConf-2018"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "M Pacer",
+    "Chris Holdgraf",
+    "Min Ragan-Kelley"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/KcC0W5LP9GM/maxresdefault.jpg",
-  "title": "Binder 2.0: Next Gen of Reproducible Scientific Environments w/ repo2docker & BinderH | SciPy 2018",
+  "title": "Binder 2.0: The Next Generation of Reproducible Scientific Environments with repo2docker and BinderHub",
   "videos": [
     {
       "type": "youtube",
