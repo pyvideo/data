@@ -1,7 +1,7 @@
 {
   "alias": "video/2743/fundamentals-of-the-ipython-display-architecture",
   "category": "SciPy 2014",
-  "copyright_text": "http://www.youtube.com/t/terms",
+  "copyright_text": "https://www.youtube.com/t/terms",
   "description": "IPython provides an architecture for interactive computing. The IPython\nNotebook is a web-based interactive computing environment for\nexploratory and reproducible computing. With the IPython Notebook, users\ncreate documents, called notebooks, that contain formatted text,\nfigures, equations, programming code, and code output.\n\nThe IPython Notebook generalizes the notion of output to include images,\nLaTeX, video, HTML, JavaScript, PDF, etc. These output formats are\ndisplayed in the Notebook using IPython\u2019s display architecture, embedded\nin notebook documents and rendered on the IPython Notebook Viewer. By\ntaking advantage of these rich output formats users can build notebooks\nthat include rich representations and visualizations of data and other\ncontent. In this tutorial, we will describe the display architecture,\nexisting Python APIs and libraries that already use it (mpld3, vincent,\npolotly, etc.), and how users can define custom display logic for their\nown Python objects.\n\nAs of version 2.0, the IPython Notebook also includes interactive\nJavaScript widgets. These widgets provide a way for users to interact\nwith UI controls in the browser that are tied to Python code in running\nin the kernel. We will begin by covering the highest-level API for these\nwidgets, \u201cinteract,\u201d which automatically builds a user interface for\nexploring a Python function. Next we will describe the lower-level\nwidget objects that are included with IPython: sliders, text boxes,\nbuttons, etc. However, the full potential of the widget framework lies\nwith its extensibility. Users can create their own custom widgets using\nPython, JavaScript, HTML and CSS. We will conclude with a detailed look\nat custom widget creation.\n",
   "duration": null,
   "id": 2743,
@@ -23,7 +23,7 @@
     {
       "length": 0,
       "type": "youtube",
-      "url": "http://www.youtube.com/watch?v=aIXED26Wppg"
+      "url": "https://www.youtube.com/watch?v=aIXED26Wppg"
     }
   ]
 }

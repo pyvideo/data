@@ -1,7 +1,7 @@
 {
   "alias": "video/1633/web-server-bottlenecks-and-performance-tuning-0",
   "category": "PyCon AU 2012",
-  "copyright_text": "http://www.youtube.com/t/terms",
+  "copyright_text": "https://www.youtube.com/t/terms",
   "description": "A benchmark of a hello world application is often what developers use to\nmake the all important decision of what web hosting infrastructure they\nuse. Worse is that in many cases this is the only sort of performance\ntesting or monitoring they will ever do. When it comes to their\nproduction applications they are usually flying blind and have no idea\nof how it is performing and what they need to do to tune their web\napplication stack.\n\nThis talk will provide an overview as to where in your overall request\nhandling pipeline the main overheads are going to arise. It will then\nzoom in and discuss different limiting factors or bottlenecks which can\narise within your WSGI server stack and system that can directly affect\nthe performance of your Python web application.\n\nSuch factors that will be discussed will include:\n\n-  Use of threads vs processes.\n-  Number of processors available.\n-  Python global interpreter lock (GIL)\n-  Amount of memory available.\n-  Slow HTTP browsers/clients.\n-  Browser keep alive connections.\n-  Need to handle static assets.\n\nFrom this will be provided some general guidelines of what is a good\nconfiguration/architecture to use for different types of Python web\napplications.\n\nThe importance of continuous production monitoring will also be covered,\nensuring that you know when the performance of your system is dropping\noff due to changing traffic patterns as well as code changes you have\nmade in your actual web application.\n",
   "duration": null,
   "id": 1633,
@@ -17,13 +17,13 @@
     "bottlenecks",
     "performance"
   ],
-  "thumbnail_url": "http://i.ytimg.com/vi/eOkxLCCbU9w/hqdefault.jpg",
+  "thumbnail_url": "https://i.ytimg.com/vi/eOkxLCCbU9w/hqdefault.jpg",
   "title": "Web Server Bottlenecks And Performance Tuning",
   "videos": [
     {
       "length": 0,
       "type": "youtube",
-      "url": "http://www.youtube.com/watch?v=eOkxLCCbU9w"
+      "url": "https://www.youtube.com/watch?v=eOkxLCCbU9w"
     }
   ]
 }

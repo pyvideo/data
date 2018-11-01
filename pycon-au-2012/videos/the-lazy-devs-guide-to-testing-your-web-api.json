@@ -1,7 +1,7 @@
 {
   "alias": "video/1646/the-lazy-devs-guide-to-testing-your-web-api",
   "category": "PyCon AU 2012",
-  "copyright_text": "http://www.youtube.com/t/terms",
+  "copyright_text": "https://www.youtube.com/t/terms",
   "description": "Do you enjoy writing test cases for your web application? If so then\nthis may not be the talk for you. I'm going to show you how to make a\nsingle test suite perform triple testing duty, so you can get on with\nwriting the fun stuff.\n\nFirst, I'll show you how to use WebTest to construct a simple functional\ntestsuite for your application. By running in-process against a WSGI\ncallable, the tests can be fast and light enough to form part of your\nregularly-executed suite.\n\nSecond, we'll use WSGIProxy to turn this into a deployment/acceptance\ntest script that you can point at a real live server to verify its\nbehaviour. Run this after every deployment to make sure you haven't\nbroken something in the wild.\n\nFinally, we'll connect the suite to FunkLoad and pummel the server with\na distributed barrage of tests, to see how it copes under pressure.\n",
   "duration": null,
   "id": 1646,
@@ -16,13 +16,13 @@
   "tags": [
     "WebTest"
   ],
-  "thumbnail_url": "http://i.ytimg.com/vi/8fB2qY8s2i4/hqdefault.jpg",
+  "thumbnail_url": "https://i.ytimg.com/vi/8fB2qY8s2i4/hqdefault.jpg",
   "title": "The Lazy Dev's Guide to Testing Your Web API",
   "videos": [
     {
       "length": 0,
       "type": "youtube",
-      "url": "http://www.youtube.com/watch?v=8fB2qY8s2i4"
+      "url": "https://www.youtube.com/watch?v=8fB2qY8s2i4"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "alias": "video/2818/building-petabyte-scale-comparative-genomics-pipe",
   "category": "SciPy 2014",
-  "copyright_text": "http://www.youtube.com/t/terms",
+  "copyright_text": "https://www.youtube.com/t/terms",
   "description": "We introduce a high-performance, open-source application written in\nPython that models genomic data with a context-free grammar (CFG), a\nconstruct from formal language theory. This approach is intended to\nadvance fundamental science by delivering a more extensive model of the\ngenetic interaction of diseases. Current comparative models treat\ngenomic sequences as strings, and recent advances are little more than\noptimizations of the \"grep approach\". However a genome is a grammar: it\nis parsed, follows rules, and has an inherent hierarchical structure.\nUnderstanding the structure and rules of this implied grammar are\nessential for mapping loci to diseases when those loci are distributed\nacross genomic regions.\n\nTo produce the CFGs, we have implemented the Sequitur algorithm to run\non the AWS Elastic MapReduce platform. This application is written in\nPython and uses the following packages: MRjob, boto, and pandas. This is\na petascale computing pipeline that is successful because it uses\ninherently scalable services and is able to take advantage of the 100G\nInternet2 connection between Amazon Web Services and the National\nInstitutes of Health (NIH). This architecture delivers unprecedented\ntransfer speeds and relatively low latency.\n\nWe discuss the advantages of this architecture, especially for groups\nwithout comparable local resources. In reviewing the results of our\ncomputation, we not only look at methods to measure the utility of our\nCFG models, but also the computational advantages of this approach. Just\nlike the fastest alignment algorithms, this complex approach still\noperates within linear-space. In addition, future pairwise comparisons\nare faster because our CFGs act as a compressed representation of the\nraw sequence data. Our hope is that this CFG approach is further tested\nas a replacement for raw sequence analysis. In addition, we hope that\nour bioinformatics pipeline serves as an example for the SciPy community\non how to perform large computations across the many petabytes made\navailable by NIH.\n",
   "duration": null,
   "id": 2818,
@@ -20,7 +20,7 @@
     {
       "length": 0,
       "type": "youtube",
-      "url": "http://www.youtube.com/watch?v=g_QVAp1YkRI"
+      "url": "https://www.youtube.com/watch?v=g_QVAp1YkRI"
     }
   ]
 }
