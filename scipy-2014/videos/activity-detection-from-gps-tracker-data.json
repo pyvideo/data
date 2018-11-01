@@ -1,7 +1,7 @@
 {
   "alias": "video/2806/activity-detection-from-gps-tracker-data",
   "category": "SciPy 2014",
-  "copyright_text": "http://www.youtube.com/t/terms",
+  "copyright_text": "https://www.youtube.com/t/terms",
   "description": "Most modern GPS processing techniques started to utilise the time\ninterval between points as a major indicator for finding POIs in a\nuser's trajectories. We are taking step back in this process, and only\naccount for the spatial distribution of measured points in order to\nextract POIs. Time is solely used as a secondary indicator and for\nordering purposes.\n\nPoints are first cleaned of any highly inaccurate data and stored in a\nPostGIS environment. Using developed python module, we extract the point\ndata and order them by time into one large trajectory. Then, for each\npoint, we begin selecting its neighbours (both previous and following)\nuntil we reach one within a specified distance of 50m from the first\npoint.The number of the selected points is added to the original point\nas a new attribute.Continuing with the process the newly calculated\nvalues create an imitation of signal, reflecting a point density.\n\nShift in strength of the signal signifies a change in a user's travel\nmode which can be used for segmentation of the trajectory into\nhomogeneous parts. Identification of these parts is currently based on\nthe decision tree, where individual aspects of the segment (like average\nspeed, signal strength, time elapsed or centroid) are evaluated and the\nsegment is categorized.\n\nCurrent work seeks to incorporate neural networks into the processing\nframework. Since the signal pattern of the each mode of transportation\n(car, bus, walk, etc.) is independent from the user behaviour, a\nproperly trained model should classify more accurately activities for a\nbroad range of users.\n",
   "duration": null,
   "id": 2806,
@@ -20,7 +20,7 @@
     {
       "length": 0,
       "type": "youtube",
-      "url": "http://www.youtube.com/watch?v=8t__23WhJ1U"
+      "url": "https://www.youtube.com/watch?v=8t__23WhJ1U"
     }
   ]
 }

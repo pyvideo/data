@@ -1,7 +1,7 @@
 {
   "alias": "video/2731/intergrating-pylearn2-and-hyperopt-taking-deep-l",
   "category": "SciPy 2014",
-  "copyright_text": "http://www.youtube.com/t/terms",
+  "copyright_text": "https://www.youtube.com/t/terms",
   "description": "Deep learning algorithms have recently garnered much attention for their\nsuccesses in solving very difficult industrial machine perception\nproblems. However, for many practical purposes, these algorithms are\nunwieldy due to the rapid proliferation of \"hyperparameters\" in their\nspecification -- architectural and optimization constants which\nordinarily must be specified a priori by the practitioner. There is a\ngrowing interest within the machine learning community, and acutely so\namongst deep learning researchers, in intelligently automating the\nselection of hyperparameters for machine learning algorithms by through\nthe use of sequential model-based optimization techniques.\n[Hyperopt][http://hyperopt.github.io/hyperopt/] is software package\ndesigned for this purpose, architected as a general framework for\nhyperparameter optimization algorithms with support for complicated,\nawkward hyperparameter spaces that, e.g., involve many hyperparameters\nthat are only meaningful in the context of certain values of other\nhyperparameters.\n\n[Pylearn2][http://deeplearning.net/software/pylearn2] is a framework for\nmachine learning developed by the LISA laboratory at Universit\u00e9 de\nMontr\u00e9al; it is a research and prototyping library aimed primarily at\nmachine learning researchers, with a focus on \"deep learning\"\nalgorithms. Despite being far from a stable release, it has had\nconsiderable impact and developed a very active user community outside\nof the laboratory that birthed it.\n\nThis talk will deecribe recent efforts in building a flexible,\nuser-friendly bridge between Pylearn2 and Hyperopt for the purpose of\noptimizing the hyperparameters of deep learning algorithms. Briefly, it\nwill outline the relevant problem domain and the two packages, the\ntechnical challenges we've met in adapting the two for use with one\nanother and our solutions to them, in particular the development of a\nnovel common deferred evaluation/call-graph description language based\non ``functools.partial``, which we hope to make available in the near\nfuture as a standalone package.\n",
   "duration": null,
   "id": 2731,
@@ -26,7 +26,7 @@
     {
       "length": 0,
       "type": "youtube",
-      "url": "http://www.youtube.com/watch?v=t50CGzbtcrY"
+      "url": "https://www.youtube.com/watch?v=t50CGzbtcrY"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "alias": "video/2723/wcsaxes-a-framework-for-plotting-astronomical-an",
   "category": "SciPy 2014",
-  "copyright_text": "http://www.youtube.com/t/terms",
+  "copyright_text": "https://www.youtube.com/t/terms",
   "description": "Astronomical data (whether images on the sky, or other data) are\ntypically stored with information about their corresponding projection\n(Gnomonic, Mercator, Conical, Aitoff, and *many* more) and coordinate\nsystem (Equatorial, Galactic, Ecliptic, and so on).\n\nI will present `WCSAxes <https://github.com/astrofrog/wcsaxes>`__, a new\nframework for plotting such astronomical data, developed as part of the\n`Astropy <http://www.astropy.org>`__ project. WCSAxes consists primarily\nof a `Matplotlib <http://www.matplotlib.org>`__ Axes sub-class that\nseamlessly handles the plotting of ticks, tick labels, and grid lines\nfor arbitrary coordinate systems and projections.\n\nAs an example, the following plot was produced with WCSAxes:\n\n.. figure:: http://www.mpia.de/~robitaille/chandra_avm_small.png\n   :alt: The Galactic center as seen by the Chandra X-ray observatory\n\n   The Galactic Center as seen by Chandra\n\n(Image Credit: NASA/CXC/UMass/D. Wang et al. -\nhttp://chandra.harvard.edu/photo/2009/gcenter/)\n\nSince it is a sub-class of the Matplotlib Axes class, all the default\nMatplotlib methods such as plot, scatter, imshow, contour, as well as\npatches, lines, collections, and so on are supported, and WCSAxes - in\ncombination with Matplotlib's ability to accept arbitrary\ntransformations - makes it very easy to define whether the plotting\nshould apply to pixel coordinates, or a world coordinate system related\nto the data.\n\nWCSAxes has been designed as a framework that can be easily used in\nother Python tools, and it is planned for inclusion in\n`Glue <http://www.glueviz.org>`__, `APLpy <http://aplpy.github.io>`__,\nand other astronomical tools. While originally written for Astronomical\nimages, it should be easily extendable to any kind of map (such as\nEarth-based geospatial data) provided that the projection and coordinate\nsystem can be represented by a pixel-to-world transformation.\n",
   "duration": null,
   "id": 2723,
@@ -32,7 +32,7 @@
     {
       "length": 0,
       "type": "youtube",
-      "url": "http://www.youtube.com/watch?v=ukR5a2TJJt4"
+      "url": "https://www.youtube.com/watch?v=ukR5a2TJJt4"
     }
   ]
 }
