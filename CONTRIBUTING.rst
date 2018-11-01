@@ -127,6 +127,12 @@ Since the list of speakers, event name, and other metadata are captured elsewher
 it is suggested that the value of the ``title`` string contain only the title of the video and not contain any
 other information about the video.
 
+*Speakers*
+
+If a speaker has multiple names - for instance, their speaker profile includes both the Chinese character representation
+and the Latin alphabet representation of their name - each variation on their name should be recorded as a separate list
+item. This enables users to search by all variations of the speaker's name in our web interface.
+
 *Tags*
 
 For consistency, tag strings should be:
@@ -148,6 +154,28 @@ Examples:
 If there are other resources available and related to the video (slide decks, etc),
 it is suggested that they are referenced in the ``related_urls`` array of URLs
 rather than in the description.
+
+Data Completeness
+~~~~~~~~~~~~~~~~~
+
+If an issue is tagged as `minimal download` in the Issue Tracker, some data has been loaded, but is incomplete.
+To address the ticket check the following requirements to consider talk data reasonably complete
+
+* `Title`: Only contains the actual talk title (No speaker name, no year, no conference name)
+* `Description`: Correct restructured text, only describing the talk content (no speaker name/bio, no conference name/data)
+* `Tags`: Definitely tag a video if it is either a `keynote` or a collection of `lightning talks`
+* `Language`
+* `Speakers`
+
+Even better:
+
+* Add meaningful `tags` related to talk content
+* `Related urls`: Add talk slides or talk repository links where available
+
+Above and beyond:
+
+* `Recorded`: Check to make sure the date is correct (rather than just the estimation from minimal download) or add datetime with time zone
+* `Related urls`: Add any url mentioned in the talk
 
 
 JSON Files
