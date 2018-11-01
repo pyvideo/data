@@ -1,6 +1,7 @@
 {
+  "abstract": "Abstract\n========\n\nWe will briefly cover the Kroger Company and its digital properties,\nalong with its current recommendation systems and need for a new one. We\nwill then move into a deep dive of the system we developed, covering the\nPython APIs for large-scale data processing tool Spark, and the\nunderlying Hadoop Distributed File System (HDFS) - focusing on how we\nutilized each in our implementation. We\u2019ll also discuss process\nscheduling and coordination via Apache Airflow, along with its Python\nAPI and use of Python eggs. Finally, we will show the recommendation\nsystem in action, and discuss plans for testing and improvement.\n\nTalk will be organized as follows:\n\nIntro - Context Setting (5 min)\n-------------------------------\n\n-  What is Kroger?\n-  What is 84.51?\n\n   -  What is Digital Personalization at 84.51?\n\n-  Landscape: Kroger\u2019s digital properties\n\n-  Typically use Retention-focused Recommendation Systems\n\n   -  These tend to work extremely well with grocery\u2019s cyclic purchase\n      cycles\n\n-  Need for Acquisition-based Recommendation System\n\nBody - Technical Deep Dive (20 min)\n-----------------------------------\n\nNew Product Recommender - Ensemble Recommendation System\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nPart 0:\n~~~~~~~\n\n-  Hadoop & Spark, and their Python API\n\nPart 1: Collaborative Filtering\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n-  Overview\n-  Training (PySpark)\n-  Implementation (PySpark)\n\n   -  Roadblocks\n\nPart 2: Regularized Regression\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n-  Overview\n-  Training\n-  Implementation (PySpark)\n\nPart 3: Process Scheduling\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n-  Overview of Airflow\n\n   -  Directed Acyclic Graphs\n   -  Python directive script layout\n   -  Python Eggs\n\nPart 4: Live view of system on kroger.com\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nConclusion (5 min)\n------------------\n\n-  Next Steps - Testing\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "New product discovery is an established activity within brick-and-mortar\ngrocery stores, but is still ripe for experimentation within an online\nsetting. In this talk, we discuss a customer-level product\nrecommendation system we developed for the Kroger Company, using Python,\nApache Spark, and Apache Airflow.\n",
   "duration": 1550,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,9 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Phil Anderson"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/oAByzl71Ak4/maxresdefault.jpg",
   "title": "Large-Scale Recommendation System with Python and Spark",

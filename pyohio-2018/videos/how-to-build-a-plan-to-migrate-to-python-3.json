@@ -1,6 +1,7 @@
 {
+  "abstract": "Many organizations haven't yet made the switch to Python 3. Time is\nrunning out for them since **Python 2 will no longer be supported past\n2020**. Organizations with larger projects to migrate will need to start\nvery soon in order to meet the deadline.\n\nMigrating from 2 to 3 can seem overwhelming, but it doesn't have to be\nif you **make a plan, take it step by step, and use the right tools**.\nWhat's more, there's a great deal you can do immediately (while still in\nPython 2) to make your code more compatible with Python 3.\n\n**This talk is for anyone facing a 2-to-3 migration that they'd like to\nfeel more confident about.** The talk will discuss five areas of focus\n-- choosing a Python 3 version, identifying test gaps, reviewing\ndependencies, prepping one's code for Python 3, and the actual\nswitchover. I'll discuss strengths and weaknesses of the tool\n``caniusepython3`` for assessing dependencies. I'll also go into a fair\namount of detail on Python's tool ``2to3``, including how (and when) to\nuse it effectively.\n\n**Attendees will leave confident that the migration is manageable.**\nThey'll have the outline of a plan, some specific areas on which to\nfocus, a knowledge of helpful tools, and links to resources they can use\nafter the talk.\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Python 2 will no longer be supported past 2020, yet many organizations\nstill haven't made the switch to Python 3. This talk is for anyone\nfacing a 2-to-3 migration that they'd like to feel more confident about.\nAttendees will leave with the outline of a migration plan, some\nsuggested focus areas, a knowledge of helpful tools, and links to\nresources they can use after the talk.\n",
   "duration": 2664,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,9 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Philip Semanchuk"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/fEJXyEJruy8/maxresdefault.jpg",
   "title": "How to Build a Plan to Migrate to Python 3",

@@ -1,16 +1,19 @@
 {
+  "abstract": "This talk is designed to explain container concepts in a way that is\nfamiliar to Python developers. We will *not* focus on specific\nframeworks or cloud services that help deploy containers. We *will*\nexplain what containers are, how they work, and how to get started\ncontainerizing your app.\n\nWhat are containers?\n--------------------\n\n-  What is a container.\n-  Conceptual difference between running your app in a container versus\n   \"normally\".\n-  Pros and cons of container concepts.\n\nHow do containers work?\n-----------------------\n\n-  Comparison to virtualenv.\n-  Overview of LXC (Linux containers).\n-  Overview of Docker.\n-  How to shift your thinking from LAMP stack mentality to Docker\n   mentality.\n\nContainerizing your app\n-----------------------\n\n-  Treating new shiny syndrome: real-world use-cases why you should or\n   shouldn't containerize your app.\n-  Getting started checklist for dockerizing your existing python web\n   app.\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "If you've ever seen a talk on containers or Docker, it usually goes\nsomething like this: A \"hello world\" app is deployed and massively\nscaled up using some kind of magic framework or API. Nothing short of a\nmagic trick, we usually feel impressed but have no idea what just\nhappened. This talk is an intro to containers as explained by a Python\ndev for Python devs, without the magic tricks.\n",
   "duration": 1828,
   "language": "eng",
-  "recorded": "2018-07-28",
+  "recorded": "2018-07-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Vince Salvino"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/trEyB3rjE9w/maxresdefault.jpg",
   "title": "Containers Without the Magic",

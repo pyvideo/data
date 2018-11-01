@@ -1,16 +1,19 @@
 {
+  "abstract": "This talk will cover the hardware, code and libraries I used to build a\ndigital baseball scoreboard for tracking my favorite MLB team. If sports\naren't your thing, that's OK - there will be plenty of information\napplicable to other IoT/maker projects.\n\nI'll cover use of the threading, queue and sched modules from the\nstandard library. I'll also share how I used the mlbgame and gpiozero\nlibraries. Finally, as a novice hardware hacker myself, I'll share what\nI've learned about hardware hacking including soldering tips, useful\nequipment, etc.\n\n-  The Scoreboard Project\n-  7-segment displays\n-  Shift registers\n-  Transistors and multiplexing\n-  Soldering\n-  Raspberry Pi Zero W and gpiozero\n-  MLB API and the mlbgame package\n-  sched, threading and queue(s) (oh my!)\n-  Opening Day\n-  Future Directions\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "This talk covers the intersection of hardware, software, peanuts and\ncracker jacks. I'll share how I built an IoT baseball scoreboard using\nreadily available hardware and software written in Python. I hope anyone\nwho attends this talk will be entertained, learn some new things and\nleave feeling empowered to make their own IoT (field of) dreams come\ntrue.\n",
   "duration": 1847,
   "language": "eng",
-  "recorded": "2018-07-28",
+  "recorded": "2018-07-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Christian Wyglendowski"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/uiebU2iE8TM/maxresdefault.jpg",
   "title": "Creating an IoT Baseball Scoreboard with Python",

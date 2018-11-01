@@ -1,16 +1,19 @@
 {
+  "abstract": "This talk will start with a background on testing and quality assurance:\n\n-  Terminology\n-  Unit vs. Integration vs. System (end-to-end)\n-  Automated vs. Exploratory\n\n-  Goals of end-to-end testing\n\n-  Test production server configurations\n-  Test JavaScript engines in browsers\n-  Responsiveness/visual testing\n-  External API hookups\n\nThe next section will outline a layered approach for writing end-to-end\ntests with each step building on the last:\n\n-  Selenium basics\n-  Language bindings (Python examples)\n-  Sequential test scripts\n-  Adopting the \u201cPage Object Model\u201d\n-  Using a WebDriver API wrapper (Splinter examples)\n-  Helper functions to enable automated exploratory testing\n\nBefore the final section, there will be a demo of the previous examples\nrun against a live website.\n\nThe final section will recommend an approach to building tests against\nyour own site:\n\n-  Alternatives\n-  Dogfooding\n-  Beta testers\n-  Manual testers\n\n-  Make your site testable\n\n-  Name your forms and fields\n-  Accessible sites are testable sites\n-  Test mode for account signups\n-  Expose internal state when possible\n-  Allow \u201ccheats\u201d on your staging server\n\n-  Writing tests\n\n-  Start with under-tested, high-risk features\n-  Make your bot users identifiable for easy cleanup\n-  Run your tests every time you deploy\n-  Incorporate logging, screenshots, and reports\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "So you wrote a bunch of great unit tests but your site is still broken?\nMaybe it\u2019s time to start investing in a suite of end-to-end regression\ntests. In this talk we'll explore practical examples of developing\nautomated tests using Selenium (via Splinter) and exploratory testing\nusing Jupyter sessions.\n",
   "duration": 1442,
   "language": "eng",
-  "recorded": "2018-07-29",
+  "recorded": "2018-07-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jace Browning"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/LupsQgPsNXw/maxresdefault.jpg",
   "title": "Automated Regression Testing with Splinter and Jupyter",

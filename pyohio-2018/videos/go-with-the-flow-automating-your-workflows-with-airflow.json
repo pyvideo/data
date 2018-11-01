@@ -1,6 +1,7 @@
 {
+  "abstract": "Apache Airflow is an open-source Python project that, in the words of\nApache, \"is a platform to programmatically author, schedule and monitor\nworkflows.\". In this talk, I will focus on the basics of Airflow: what\nis it, and what can it do for me? In a nutshell, Airflow is a library\nfor workflow management. The most common uses of Airflow revolve around\ndata pipelines and processing, e.g. ETL pipes, but in reality, it can be\nused for pretty much any workflow that has discrete steps which can be\nperformed independently. In addition, the scheduling capabilities of\nAirflow provide a high powered replacement for cron tables. I will\ndiscuss how to set up workflows, connect to other systems, and leverage\nthe automation power of Airflow. Concepts covered will include DAGs,\nOperators, and Hooks. Finally, I will share some gotchas that I have\ncome across while setting up my own workflows.\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "We all have workflows in our daily lives. From simple ones in our\npersonal lives, to terribly complex ones in our daily work, we could all\nbenefit from automating these workflows. Airflow is the mechanism with\nwhich we can do this. In this talk, we will explore what Airflow is, and\nhow we can leverage it to automate some of the tedium out of our daily\nlives.\n",
   "duration": 1546,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,9 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Leo Guinan"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/MUPv3YnaSUQ/maxresdefault.jpg",
   "title": "Go with the Flow: Automating Your Workflows with Airflow",

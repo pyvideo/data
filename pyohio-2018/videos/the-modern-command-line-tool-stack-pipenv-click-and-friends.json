@@ -1,6 +1,7 @@
 {
+  "abstract": "I've been a Python developer since 2001, and when I sit down to make a\nnew command-line Python tool, I often write them like it's still early\nlast decade. Late last year, I built a new command-line program that has\nproven to be reasonably popular, but I found that getting my tool up and\nrunning cleanly, with predictable dependencies, was a problem.\n\nEarly this year, I decided to modernize this particular project,\nsimplifying it so that anyone could get set up with exactly the same\ndependencies I had, and improving the user experience by making the tool\na modern one.\n\nThis talk will cover how I use Pipenv to modernize the experience of\nusing my tool after cloning it from GitHub, transparently setting up a\nvirtualenv in one command without reconfiguring their working\nenvironment.\n\nI'll also talk about libraries I now use to build the app, including\nClick, and a number of other things both in and out of the standard\nlibrary that give the tool a modern command-line UX and make it a good\ncitizen of the OS.\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Until recently, I was still writing Python command-line tools like it's\nthe mid-00s. In this talk, you'll learn about the tools I found to\nmodernize development, installation, and isolation as well as the\nlibraries that make building CLIs and working with the OS easy. We'll\ncover Pipenv and how best to use it with setuptools, as well as Click\nand other libraries useful for this task.\n",
   "duration": 1677,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,9 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Matt Behrens"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/rQABEcZ3wyo/maxresdefault.jpg",
   "title": "The Modern Command-Line Tool Stack: Pipenv, Click, and Friends",

@@ -1,16 +1,19 @@
 {
+  "abstract": "Last year I was given a task by the publishers of the CATAN board game.\nThey wanted a tournament management tool that could help them organize,\nrun, seat, and rank players in their world championships and several\nlocal qualifying events around the world. Most of the application was\nstraightforward but they also had a very specific seating problem, and\nafter doing some investigation I learned that their specific\nrequirements made the task an NP-hard problem. The problem is this:\n\nGiven some number of players. Generate a number of tables where each\ntable has 4 or 3 seats. Then from round to round seat players in such a\nway so that A) no player plays in the same seating position they\npreviously sat in, and B) no player plays against someone they played\nagainst previously. Players should be seated as fairly as possible from\nround to round, and where there is a perfect solution the algorithm\nshould arrive at it, and when there isn't it should arrive at the\n\"fairest\" solution possible. It should be able to handle any arbitrarily\nlarge number of players, and should run in seconds.\n\nIn this talk, I'm going to talk a bit more about this specific problem\nand how I solved it using Python. I will walk you through my different\nattempts and thought processes while attempting to develop a good\nsolution. You will walk away with a process and framework to solve your\nown difficult problems and develop a scientific mindset that can help\nlead you to new discoveries.\n\nFinally, I will present how the algorithm works, and make suggestions to\nhow it can be applied to solve other similar types of problems. I\nproudly present to you: The Gamer's Algorithm.\n\nP.S. The algorithm will be used for the first time in the wild at the\nCATAN World Championships at Origin Games Fair and the U.S. National\nChampionships at Gencon in 2018.\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "You've just been given a task by your client. The problem seems simple\nat first, but after some research you find out that your problem is not\njust hard, it's NP-Hard! At first, a solution appears impossible but\nyou're not to be stopped! You're a programmer! You got this! You have\nthe Python! But... now what? How do you solve it?\n",
   "duration": 1742,
   "language": "eng",
-  "recorded": "2018-07-28",
+  "recorded": "2018-07-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Raymond Chandler III"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/IBnOLU5q0m8/maxresdefault.jpg",
   "title": "Solving an NP-Hard Problem for Fun and Profit",
