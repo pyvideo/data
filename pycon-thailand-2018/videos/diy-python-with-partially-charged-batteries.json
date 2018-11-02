@@ -1,16 +1,19 @@
 {
+  "abstract": "We discuss re-implement some features of standard Python library using a subset of Python itself (e.g. range, namedtuple, property, Enum, dataclass, etc.). This allows us to gain more in-depth understanding the mechanisms inside Python as well as introducing some obscure but useful Python features.",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "In this talk, we discuss how some features in standard Python library can be manually re-implemented using a subset of Python itself. Examples include:\n- built-in ``range`` function\n- ``namedtuple`` class constructor\n- ``property`` decorator\n- ``Enum`` class (since Python 3.4)\n- ``dataclass`` (since Python 3.7)\n- etc.\nThroughout the process of re-implementing these features, we should gain more in-depth understanding the mechanisms inside Python.\n\n\n\n--------\n\nProgrammer: Specialized in problem solving, algorithm and data structure. Interested in robotics.",
   "duration": 1875,
-  "language": null,
-  "recorded": "2018-06-16",
+  "language": "tha",
+  "recorded": "2018-06-17",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://th.pycon.org/en/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Watcharapol Watcharawisetkul"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/ivxwQ-DLAq0/maxresdefault.jpg",
   "title": "DIY: Python with partially charged batteries",

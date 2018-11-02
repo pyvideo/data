@@ -1,8 +1,9 @@
 {
+  "abstract": "Asynchronous networking may seem hard to understand at first, in this talk I will show this is not the case. In 100 lines of code, I will write a low level async network stack in front of your eyes, explaining how things work as we go. By the end, you should understand how and why async code works!",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "If you want to write an efficient server, asynchronous networking is an excellent strategy to do so. To build a production ready system, you would use asyncio, tornado, twisted, trio or another popular implementation. However, to fully understand how and why it works, I will ignore these solutions and instead craft an artisanal asynchronous implementation in front of your very eyes. Step by step we will turn a blocking socket server, only capable of handling a single connection at a time, into a beautiful non blocking server that has no trouble dealing with many connections at once. By the end, you should see that asynchronous code is not magical at all, but nevertheless incredibly useful.\n\n\n\n--------\n\nI'm a Python developer from Switzerland, living in Japan. I got started with Python developing modifications for the video game Counter-Strike before getting my first job building websites using Django. There I got involved with the popular open source Content Management System django CMS. Nowadays I work primarily with the Tornado framework and various asyncio libraries.",
   "duration": 1546,
-  "language": null,
+  "language": "eng",
   "recorded": "2018-06-16",
   "related_urls": [
     {
@@ -10,7 +11,9 @@
       "url": "https://th.pycon.org/en/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jonas Obrist"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/jEZ__hyl7Eg/maxresdefault.jpg",
   "title": "Artisanal Async Adventures",
