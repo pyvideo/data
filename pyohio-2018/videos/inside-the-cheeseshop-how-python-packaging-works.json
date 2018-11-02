@@ -1,16 +1,19 @@
 {
+  "abstract": "Questions and confusion about the Python packaging ecosystem abound.\nWhat is this ``setup.py`` file? What's the difference between wheels and\neggs? Do I use setuptools or distutils? Why should I use twine? Do I put\nmy projects dependencies in a ``requirements.txt`` or in ``setup.py``?\nHow do I just get my module up on PyPI? Wait, what is Warehouse?\n\nThis talk will identify the key tools one might encounter when trying to\ndistribute Python software, what they are used for, why they exist, and\ntheir history (including where their weird names come from). In\naddition, we'll see how they all work together, what it takes to make\nthem work, and what the future has in store for Python packaging.\n\nThis talk is for any Pythonista that has been confused by Python\nPackaging (read: everyone).\n\nThis talk requires that the audience has just the slightest familiarity\nwith how Python Packaging works -- that you need to upload your source\ncode, that there are a few popular and familiar tools, and that they are\nall a little confusing. Attendees do not need to be publishers of Python\nPackages but likely will be people interested in publishing someday.\n\nAfter watching this talk, attendees should have a significant amount of\ntheir confusion about the Python packaging ecosystem resolved, and\nshould be able to make informed, reasonable decisions when they want to\npublish a package (without having to be told step by step instructions,\nor given extremely opinionated advice).\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "This talk will identify the key tools one might encounter when trying to\ndistribute Python software, what they are used for, why they exist, and\ntheir history (including where their weird names come from). In\naddition, we'll see how they all work together, what it takes to make\nthem work, and what the future has in store for Python packaging.\n",
   "duration": 1932,
   "language": "eng",
-  "recorded": "2018-07-29",
+  "recorded": "2018-07-28",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dustin Ingram"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/YItZVgRDrjM/maxresdefault.jpg",
   "title": "Inside the Cheeseshop: How Python Packaging Works",

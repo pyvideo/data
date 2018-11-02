@@ -1,6 +1,7 @@
 {
+  "abstract": "-  Why environmental reproducibility is important\n-  Overview of best practices for environmental reproducibility (~3-4\n   min per topic)\n\n   -  Dependency Management\n   -  pip freeze > requirements.txt\n   -  Pipfile.lock\n   -  Containerization\n   -  Automated Provisioning\n   -  Environment management\n   -  Pulpproject\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Trustworthy results require reproducibility. Publishing code is\nnecessary but not sufficient for complete reproducibility. Complex\nprograms often depend on external code. This talk will introduce you to\nseveral ways to manage your software dependencies and data to pass\nreproducible software environments to peer-reviewers.\n",
   "duration": 1356,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,10 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dana Walker",
+    "Bihan Zhang"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/_t0nx1ECgcI/maxresdefault.jpg",
   "title": "Reproducible Environments for Reproducible Results",

@@ -1,16 +1,19 @@
 {
+  "abstract": "In this presentation I would like to introduce implementing static\ntyping to people who may not be familiar, and give reason for why static\ntypes can be valuable, and discuss how it can reduce the potential for\nbugs. I will briefly talk about the history that led to the current and\nfuture state of static type support within Python.\n\n-  Code examples for implementing type checking for common scenarios\n-  Auto-generating static type annotations with MonkeyType\n-  Comparing mypy and Pyre for type checking\n-  Questions and answers\n\nRelavent PEPs:\n~~~~~~~~~~~~~~\n\n`PEP483 <https://www.python.org/dev/peps/pep-0483/>`__\n`PEP484 <https://www.python.org/dev/peps/pep-0484/>`__\n`PEP526 <https://www.python.org/dev/peps/pep-0526/>`__\n\nLibraries:\n~~~~~~~~~~\n\n`mypy <http://mypy-lang.org/>`__\n`Pyre <https://github.com/facebook/pyre-check>`__\n`MonkeyType <https://github.com/Instagram/MonkeyType>`__\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "This talk is intended to be an introduction to implementing static\ntyping into your python code. I will present information on how to\nimplement static typing into new and existing code bases. Talk about the\nreasons why someone would want to implement static types and why I was\nagainst it only one year ago.\n",
   "duration": 1451,
   "language": "eng",
-  "recorded": "2018-07-28",
+  "recorded": "2018-07-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Brad Hurley"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/X8xMlHXuH9k/maxresdefault.jpg",
   "title": "Duck Typing Is For The Birds",

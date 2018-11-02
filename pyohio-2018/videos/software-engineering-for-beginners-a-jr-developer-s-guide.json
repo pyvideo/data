@@ -1,6 +1,7 @@
 {
+  "abstract": "An Outline of the Talk\n======================\n\nVersion Control (Git)\n=====================\n\n-  Why\n\n   -  Protect yourself from mistakes\n   -  Enable yourself to take chances & try new things\n   -  Learning to work w/ a team\n\nWhen?\n=====\n\n-  10 or more lines of working code that you're scared to change because\n   it might break\n\nWhat/How\n========\n\n-  Basic feature branch/merge workflow\n\nReference: Pro Git Chapters `1-3 <https://git-scm.com/book/en/v2>`__\n====================================================================\n\nDocumentation\n=============\n\nIn Code vs About Code: Start w/ In Code\n=======================================\n\nWhy\n===\n\n-  Help your future self\n-  Help your teammates help you\n-  Avoid that form of technical debt\n\nWhen\n====\n\n-  Writing code using a new technique\n-  Writing functions, especially if they call other functions\n\nHow\n===\n\n-  Docstrings for functions (minimums)\n\n   -  What the function does\n   -  What it takes as input (include data type)\n   -  What it produces as output (include data type)\n\nNext Step: Learn about ReStructured Text and/or Sphinx for general\n==================================================================\n\ndocumentation\n\nTesting & TDD\n=============\n\nTesting vs \"PURE\" TDD\n---------------------\n\nWhy\n---\n\n-  Tests protect you from future changes breaking things\n-  TDD: \"write tests first\" forces you to think before you type\n\nWhen\n----\n\n-  As soon as possible\n-  Art + Science: experience helps\n\nHow\n---\n\n-  New coders: Python unittest and doctests\n-  Experienced coders: pytest\n\nNext Step\n---------\n\n-  New coders: pytest\n-  Experienced coders: Continuous Integration\n\nOther\n=====\n\nDependency Management/Deployment\n--------------------------------\n\n-  VMs\n-  Containers\n-  Virtual Env\n\nDevelopment Environment\n-----------------------\n\n-  CLI vs. GUI\n-  Linux/Unix/Windows/OS X\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Speaking English alone won't make you a journalist or author. The same\nis true of Python and becoming a professional developer or open source\ncontributor. Many people are 'learning to code' to switch careers, but\noverlooking the other skills they'll need. New developers will learn the\nwhen, why, and how of those other skills, while experienced devs can use\nthis as a roadmap for mentoring.\n",
   "duration": 2763,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,9 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Kojo Idrissa"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/_7dmHvibbEA/maxresdefault.jpg",
   "title": "Software Engineering For Beginners: A Jr. Developer's Guide",

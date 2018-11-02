@@ -1,6 +1,7 @@
 {
+  "abstract": "When bundling up data, sometimes tuples and dictionaries don't quite cut\nit. Python's classes are powerful tools for data storage and\nmanipulation, but it can take quite a bit of boilerplate code to make a\nwell-behaved Python class. In this talk we're going to discuss how a\nwell-behaved class should work and take a look at a number of helper\nlibraries for creating well-behaved classes.\n\nWe'll first see how to make classes with proper string representations,\ncomparability, iterability, and immutability. Then we'll dive into\nhelper tools built-in to the standard library and available in\nthird-party libraries.\n\nWe'll look at namedtuple, NamedTuple (not a typo), attrs, and the new\nPython 3.7 dataclasses.\n\nMost of the libraries discussed in this talk are only available in\nPython 3, so if you're not using Python 3, hopefully this talk will\nencourage you to upgrade.\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "In this talk we'll take a look at how to cut down on the boilerplate\nrequired in making a well-behaved Python class. We'll first see how to\nmake classes with proper string representations, comparability,\niterability, and immutability. Then we'll dive into helper tools\nbuilt-in to the standard library and available in third-party libraries.\n",
   "duration": 1927,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,9 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Trey Hunner"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/COMRNKAVesI/maxresdefault.jpg",
   "title": "Easier Classes: Python Classes Without All the Cruft",

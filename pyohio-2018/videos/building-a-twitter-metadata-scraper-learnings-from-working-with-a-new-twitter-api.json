@@ -1,6 +1,7 @@
 {
+  "abstract": "BuzzFeed (especially our News team) creates a lot of time-sensitive\ncontent. But when shared on Twitter, the twitter-share data would remain\nfixed. This could lead to articles that changed from \"So-and-so leads in\nelection\" to \"so and so won the election\" still being shared with an old\ntitle. BuzzFeed worked with Twitter on the development of a new API that\ncould be used to rescrape the metadata to update share card information\non request. I then built a \"twitter scraper\" using Python 3.5 that would\nrequest a rescrape every time we updated a published article. This\nproved especially tricky as existing twitter API support did not not\nquite fit our needs, requiring new solutions on our end. In this talk\nI'll go through the challenges involved in working with the new Twitter\nAPI and how I ultimately solved them.\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "BuzzFeed identified a need for Twitter to scrape our metadata more\nfrequently, and worked with Twitter to build a new API that is currently\nin beta testing. In this talk I will go through the process of building\na \"Twitter Scraper\" that accesses this new API. I will highlight various\nchallenges encountered along the way, and show how I ultimately solved\nthese problems.\n",
   "duration": 1868,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,9 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Elizabeth Wehner"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/kS7Mut9G3V0/maxresdefault.jpg",
   "title": "Building a Twitter Metadata Scraper: Learnings from Working with a New Twitter API",

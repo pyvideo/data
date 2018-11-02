@@ -1,6 +1,7 @@
 {
+  "abstract": "Software design is hard. That's why we invented design patterns. Design\npatterns abstract common approaches to problem solving into generic\napproaches that can be modified to suit the application at hand.\n\nMany of the design patterns in common use today are inspired by static\nobject- oriented Enterprise languages like Java. These languages have a\nfeature set that is somewhat more restrictive than Python's, and many\ndesign patterns are built to provide elegant ways around these\nrestrictions.\n\nDesign patterns, like Dependency Injection, and the Visitor Pattern\narise from restrictions on how you can pass code around at runtime.\nOther patterns, like Iterators, have been replaced by first-class\nlanguage features of their own.\n\nAnd some patterns, like Threads just never worked at all.\n\nIn this talk, we'll build up several design patterns, and then look at\nthe Python features that make each pattern unnecessary. In doing so,\nyou'll get a view into idiomatically translating code into Python, and a\ngreater understanding of design decisions users of other languages need\nto make.\n",
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Not every design pattern makes sense in Python. This talk builds up\ndesign patterns commonly used in enterprise languages, and shows the\nfeatures in Python that make these approaches unnecessary.\n",
   "duration": 1719,
   "language": "eng",
   "recorded": "2018-07-28",
@@ -10,7 +11,9 @@
       "url": "https://www.pyohio.org/2018/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Christopher Neugebauer"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/dg-Vm9W3Tlc/maxresdefault.jpg",
   "title": "You Don't Need That!",
