@@ -1,0 +1,28 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "As more public, large datasets are becoming available, distributed data processing tools such as Apache Spark are vital for data scientists. While SparkML provides many machine learning algorithms, standard pipelines, and a basic linear algebra library, it does not support training deep learning models. Due to the rise of Tensorflow in the last two years, Lifeomic built the Sparkflow library to combine the power of the Pipeline api from Spark with training Deep Learning models in Tensorflow. Sparkflow uses the Hogwild algorithm to train deep learning models in a distributed manor, which underneath leverages the driver/executor architecture in Spark to manage copied networks and gradients. In this session, we describe some of the lessons learned in building Sparkflow, the pros and cons of asynchronous distributed deep learning, how to use Spark Pipelines with Tensorflow with very few lines of code, and where we are headed with the library in the near future.",
+  "duration": 1420,
+  "language": "eng",
+  "recorded": "2018-10-12",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.meetup.com/fr-FR/indypy/events/252203530/"
+    }
+  ],
+  "speakers": [
+    "Derek Miller"
+  ],
+  "tags": [
+    "Pyspark",
+    "Tensorflow"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/nNrdv45O3pE/maxresdefault.jpg",
+  "title": "Sparkflow: Utilizing Pyspark for Training Tensorflow Models on Large Datasets",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nNrdv45O3pE"
+    }
+  ]
+}

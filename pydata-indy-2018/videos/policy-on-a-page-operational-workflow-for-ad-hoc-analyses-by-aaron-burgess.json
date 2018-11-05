@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The majority of requests to FSSA Data & Analytics are ad-hoc analyses. Ad-hoc analyses had suffered from two major issues. One was an inferred belief that stakeholders wanted data points when they really wanted a statement of fact that could be cited or applied. The other issue was an over-simplified workflow for ad-hoc requests that featured no version control and \"wild west\" peer review.\n\nThe solution to managing the workflow for ad-hoc analyses was to immediately implement Git and (due to existing licenses) BitBucket policies and procedures. This included a standard ad-hoc repo template, repeated training on best practices such as immediately opening a pull request upon branch creation and peer review responsibilities. JIRA was already in place for task management. In addition, Bamboo was utilized to introduce the concept of continuous integration where ad-hoc requests should be ran automatically on every data refresh with change detection scripts as an early warning system. Finally, making use of Jupyter Notebooks and the respective extensions to deliver well-groomed html exports of deliverables became a standard practice. These deliverables focused on clearly defining an objective, methodology, results, and a \"statement of fact\" for use by stakeholders.\n\nImplemented changes have resulted in clearer expectations for Data & Analytics team members. The standard Jupyter Notebook html extracts have been well-received by stakeholders and greatly reduced the level of \"data heavy; information light\" deliverables. The resulting trust from stakeholders has increased our request load and opened up opportunities to work on more complex modeling.",
+  "duration": 2500,
+  "language": "eng",
+  "recorded": "2018-10-12",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.meetup.com/fr-FR/indypy/events/252203530/"
+    }
+  ],
+  "speakers": [
+    "Aaron Burgess"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/kHytmsrK2Zc/maxresdefault.jpg",
+  "title": "Policy on a Page: Operational Workflow for Ad-Hoc Analyses",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kHytmsrK2Zc"
+    }
+  ]
+}
