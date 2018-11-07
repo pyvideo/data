@@ -1,19 +1,28 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Description\n===========\n\nCPython, what\u2019s CPython. CPython is the official implementation of\nPython, written in C. And it\u2019s not just a implementation, it is a group\nof volunteers and where they daily work on the project but there is no\nmany active contributors.\n\nIn this talk, I would like to prove to you than you can become an active\ncontributor of CPython.\n\nThe core developers of CPython need your help, for example, with the\nreview of some patches, you can comment a patch or try to reproduce a\nbug.\n\nIn the past, when you wanted to contribute to CPython, you had to use\nthe bug tracker interface and send a patch, this patch was reviewed if\nyou were lucky and after commented etc\u2026. but this process was really\nlong and time consuming.\n\nNow with the new process based on GitHub and Git, you can create a new\nbranch on your local repository and just send a Pull Request. The Pull\nRequest is just awesome, it will be reviewed really quickly, we will\ncomment your Pull Request and if the code is correct and the tests pass,\nthen you PR will be merged in CPython.\n\nWe love and need your Pull Requests for CPython.\n\nAudience\n========\n\nFor new comers to CPython and the future contributors and of course for\nthe regular contributors and core-dev of CPython.\n\nWith this migration to GitHub, I will show the work done by the\nmigration team, the benefits of this migration and the new\ntools/workflow. Few tools have been developed to help the core-dev. For\nexample, Miss Islington has been developed for an automatic back-port of\na branch from Python \u2018master\u2019 to Python 3.6 or 3.5, just with a \u201clabel\u201d\non the Pull Request\n\nI will show some stats about the contributors and the contributions on\nthe CPython project. For example, in November 2017, 4207 pull requests\nfrom the community since the migration in Feb 2017.\n\nThe talk is explained with a story \u201cOnce upon a time\u201d and with humour.\n\nOutline\n=======\n\n-  Introduction\n\n   -  small history about the beginning of Python, the status and the\n      challenges.\n\n-  Former workflows, former tools:\n\n   -  the CLA (PSF Contributor Agreement)\n   -  the bug tracker\n   -  patch review with the Rietveld tool\n   -  typical workflow\n   -  conclusion: We have an issue for the new comers\n\n-  New workflow, new tools\n\n   -  Git, why?\n   -  Github, why?\n   -  Web interface, Pull Requests, Dashboards\n   -  REST API, GraphQL API for the statistics\n   -  Automation with Travis, AppVeyor\n   -  New Bots: Bedevere, Miss Islington, \u201cThe Knights who say ni!\u201d\n   -  New tool: Blurb\n\n-  Comparison between the former and new workflow\n-  Statistics (between Feb 2017, and Nov 2017)\n\n   -  Number of Pull Requests (4204)\n   -  Number of Contributors (586) vs Core Dev\n   -  Merge time, Top, Average, etc\u2026.\n\n-  Q&A ?\n\nAdditional notes\n================\n\nThis talk has been presented at PyCon Canada in November 2017 at\nMontreal in front of two core-devs of Python, Brett Cannon and Mariatta\nWijaya. Also reviewed by Victor Stinner core-dev python\n\nMy talk has been shared on the python-dev mailing list by Victor\nStinner:\nhttps://mail.python.org/pipermail/python-dev/2017-December/151051.html\nbecause the statistics were interesting for the core-dev.\n\nPresentation at PyCon Canada 2017: https://2017.pycon.ca/schedule/4/\nSlides:\nhttps://speakerdeck.com/matrixise/cpython-loves-your-pull-requests\n\nMy experience, speaker at PyCon Canada 2015, 2016 and 2017 Python FOSDEM\n2013, 2014, 2015 and 2017 PyCon Ireland 2015, 2016, and 2017 PyCon\nFrance 2012, 2014, 2016, 2017 PyCon UK 2015 EuroPython 2015, 2016 and\n2017. Montreal Python September 2015 and November 2017.\n\nOrganizer of Python FOSDEM (+- 600 people) in Belgium Co-Organizer of\nEuroPython 2015, 2016 and 2017 (as member of the Web workgroup).\n\nFellow Member of the Python Software Foundation since 2013 Member of the\nFellow Workgroup for the PSF Member of the Marketing Workgroup for the\nPSF\n\nOf course, contributor of CPython, mainly on Devguide and sometimes on\nthe main repository with some fixes, new features.\n\nFor my contribution to the migration of Python.\nhttps://mail.python.org/pipermail/python-committers/2017-February/004220.html\n\nOthers presentations where I explain the interpreter and the bytecode of\nPython https://speakerdeck.com/matrixise/architecture-of-cpython-part-1\nhttps://speakerdeck.com/matrixise/exploring-our-python-interpreter\n\nin \\_\\_on **sabato 21 aprile** at 17:45 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 2385,
-  "language": null,
-  "recorded": "2018-04-20",
+  "language": "eng",
+  "recorded": "2018-04-21",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "St\u00e9phane Wirtel"
+  ],
+  "tags": [
+    "statistics",
+    "core-programming",
+    "CPython",
+    "community",
+    "github",
+    "git"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/czH647G8dmg/maxresdefault.jpg",
-  "title": "S. Wirtel - CPython loves your Pull Requests",
+  "title": "CPython loves your Pull Requests",
   "videos": [
     {
       "type": "youtube",

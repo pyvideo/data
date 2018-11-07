@@ -1,19 +1,26 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Outreachy program offers three-month internships for people from groups\nunderrepresented in tech. Interns are paid a stipend of $5,500 and have\na $500 travel stipend available to them. Interns work remotely with\nmentors from Free and Open Source Software (FOSS) communities on\nprojects not limited to just programming but also user experience,\ndocumentation, illustration and graphical design.\n\nI am currently interning with Fedora under the Outreachy program, where\nmy task is to is to develop administrative tools for the 389 Directory\nServer, an enterprise class LDAP (Lightweight Directory Access Protocol)\nserver, used in businesses globally to authenticate and identify people.\nLDAP is a standard application protocol for accessing and maintaining\ndistributed directory information services over an Internet Protocol\n(IP) network. I am helping Fedora improve the Directory Servers Python\ncommand line tools. In addition to this, the team at Fedora is also\ninvestigating into integrating existing C code with Rust (watch here:\nIntegrating Rust with existing C) to improve performance and\nmaintainability. Hence, I am also working on establishing proof of\nconcept for using Rust instead of C and also using Rust with existing C.\n\nI started with fixing bugs in the Directory Server and it enabled me to\nget more understanding about LDAP concepts, since LDAP has a steep\nlearning curve. My first task was to add the command line support for\nautomember plugin to the Directory Server. Automembership allows a\nstatic group to act like a dynamic group, for adding new members to the\ngroup. Different automembership definitions create searches that are\nautomatically run on all new directory entries. The automembership rules\nsearch for and identify matching entries and then explicitly add those\nentries as members to the group. I started by added the classes (Auto\nMembership Plugin, Auto Member Definition, Auto Member Definitions),\nmethods and the tests for these classes and methods (Pull Request). Then\nI added the support for automember by command line which included\ncreating, removing, editing and showing the automember definitions. This\nincluded writing the tests as well. By the end of this task, I learnt\nabout Python decorators, lazy evaluation in Python, using pytest testing\ntool and writing command line parser and arguments using the argparse\nlibrary. (This will be shown with live coding and screenshots).\n\nI am currently working on another task which involves building an LRU\ncache in Rust which stores C allocated strings and can retrieve them.\nThis project will be built using the meson build system. I will also\nprovide tests and asan builds. This task will act as a proof of concept\nfor investigating if meson can replace autotools as the Directory Server\nbuild system. During this task, I hope to learn about build systems, LRU\ncaching concept and Rust types and safety.\n\nAs you can deduce from my tasks and the key learnings, doing this\nOutreachy internship with Fedora is helping me to stand at the forefront\nof technology, learning about LDAP, Python and Rust (polyglot!), which\nwill definitely enable me to become a better programmer and a\ncollaborative community member for Fedora. And I hope to inspire other\nunderrepresented people in tech with my talk about the Outreachy\ninternship and my progress.\n\nin \\_\\_on **sabato 21 aprile** at 14:45 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 2132,
-  "language": null,
-  "recorded": "2018-04-20",
+  "language": "eng",
+  "recorded": "2018-04-21",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Alisha Aneja"
+  ],
+  "tags": [
+    "open source",
+    "#remote",
+    "#community",
+    "user-groups"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/-UzMJiNLpG8/maxresdefault.jpg",
-  "title": "A. Aneja - Working for FOSS can make you a better programmer",
+  "title": "Working for FOSS can make you a better programmer: Insights into my Outreachy internship with Fedora",
   "videos": [
     {
       "type": "youtube",

@@ -1,8 +1,8 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "    Not everything that counts can be counted, and not everything that\n    can be counted counts. A. Einstein\n\nHumans are routinely asked to evaluate the performance of other\nindividuals, separating success from failure and affecting outcomes from\nscience to education and sports. Yet, little is known about the aspects\nthat determine the human perception of performance. How do expert\nreviewers, as well as ordinary people, arrive to their evaluations? To\nwhat extent these evaluations are based on objective performance\nfeatures? How are they affected by subjective biases or contextual\ninfluences?\n\nThis talk will answer these fascinating questions focusing on *soccer* ,\nthe most popular sport in the world. Firstly, we will show how machine\nlearning can accurately reproduce the mechanisms human judges use to\nevaluate the performance of soccer players, uncovering limits and\ncharacteristics of the human evaluation process. Second, we design a\nPython package that allows, in a completely unsupervised and data-driven\nway, to (i) evaluate the quality of a player\u2019s performance and (ii) rank\nsoccer players based on their performances.\n\nThe first part of the talk will show how soccer ratings assigned to\nevery player of a game by sport-specialized newspapers are associated\nwith a high- dimensional vector of features extracted by massive data\nwhich describe any quantifiable aspects of soccer games. The talk will\nshow how, by using Scikit- learn, we can train an *artificial judge*\nwhich learns the relation between technical performance and soccer\nratings, hence *accurately reproducing* the human evaluation process. By\ninspecting the structure of the artificial judge, the talk will show\nthat the human evaluation criteria follow a simplistic cognitive process\nbased on a simple heuristic: judges first select a limited number of\nfeatures which attract their attention and then rate a performance based\non the presence of noticeable values, i.e., features values far from the\nnorm that can be easily brought to mind.\n\nThe second part of the talk will show how to overcome the simplicity of\nthe human evaluation process presenting **PlayeRank** , a Python package\nwhich implements an unsupervised data-driven framework to evaluate the\nperformance of soccer players in the main European leagues. The talk\nwill show how to use PlayeRank to construct a data-driven ranking of\nplayers and highlight the factors which determine why celebrated\nplayers, like Messi and Cristiano Ronaldo, actually result to be the top\nplayers in the world. The modules composing PlayeRank will be presented,\nshowing how they allow the user to define the features characterizing a\nperformance, to detect in an automatic way the relevance of each\nplayer\u2019s action to a game outcome, to detect the role of a player given\nhis game data, to rate every performance as well as to obtain a final\nranking of all players in Europe. A short demo will be provided during\nthe talk through a Jupyter notebook, exploiting interactive data\nvisualization with the Bokeh package.\n\nThe audience will learn how to use Python to construct evaluation\nalgorithms entirely based on machine learning and big data, a step\nforward to a thorough and objective evaluation of performance which\novercomes the biases and the limitations of human perception of\nperformance. Just a basic knowledge of Python and of data mining\nprinciples is required for a full understanding of the talk.\n\nin \\_\\_on **venerd\u00ec 20 aprile** at 15:15 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 3007,
-  "language": null,
+  "language": "eng",
   "recorded": "2018-04-20",
   "related_urls": [
     {
@@ -10,10 +10,23 @@
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Luca Pappalardo",
+    "Paolo Cintia"
+  ],
+  "tags": [
+    "mathematical-modelling",
+    "Python",
+    "bigdata",
+    "sports-analytics",
+    "Machine Learning",
+    "analytics",
+    "Algorithms",
+    "Data Mining",
+    "sklearn"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/ixs9XutuOSA/maxresdefault.jpg",
-  "title": "L. Pappalardo, P. Cintia - Sports performance evaluation",
+  "title": "Sports performance evaluation: from cognitive mechanisms to data-driven algorithms",
   "videos": [
     {
       "type": "youtube",

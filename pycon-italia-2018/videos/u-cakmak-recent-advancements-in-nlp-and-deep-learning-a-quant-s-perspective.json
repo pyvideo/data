@@ -1,19 +1,30 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Summary\n=======\n\nThere is a gold-rush among hedge-funds for text mining algorithms to\nquantify textual data and generate trading signals. Harnessing the power\nof alternative data sources became crucial to find novel ways of\nenhancing trading strategies.\n\nWith the proliferation of new data sources, natural language data became\none of the most important data sources which could represent the public\nsentiment and opinion about market events, which then can be used to\npredict financial markets.\n\nTalk is split into 5 parts;\n\n-  Who is a quant and how do they use NLP?\n-  How deep learning has changed NLP?\n-  Let\u2019s get dirty with word embeddings\n-  Performant deep learning layer for NLP: The Recurrent Layer\n-  Using all that to make money\n\n1. Who is a quant and how do they use NLP?\n------------------------------------------\n\nQuants use mathematical and statistical methods to create algorithmic\ntrading strategies.\n\nDue to recent advances in available deep learning frameworks and\ndatasets (time series, text, video etc) together with decreasing cost of\nparallelisable hardware, quants are experimenting with various NLP\nmethods which are applicable to quantitative trading.\n\nIn this section, we will get familiar with the brief history of text\nmining work that quants have done so far and recent advancements.\n\n2. How deep learning has changed NLP?\n-------------------------------------\n\nIn recent years, data representation and modeling methods are vastly\nimproved. For example when it comes to textual data, rather than using\nhigh dimensional sparse matrices and suffering from curse of\ndimensionality, distributional vectors are more efficient to work with.\n\nIn this section, I will talk about distributional vectors a.k.a. word\nembeddings and recent neural network architectures used when building\nNLP models.\n\n3. Let\u2019s get dirty with word embeddings\n---------------------------------------\n\nModels such as Word2vec or GloVe helps us create word embeddings from\nlarge unlabeled corpus which represent the relation between words, their\ncontextual relationships in numerical vector spaces and these\nrepresentations not only work for words but also could be used for\nphrases and sentences.\n\nIn this section, I will talk about inner workings of these models and\nimportant points when creating domain-specific embeddings (e.g. for\nsentiment analysis in financial domain).\n\n4. Performant deep learning layer for NLP: The Recurrent Layer\n--------------------------------------------------------------\n\nRecurrent Neural Networks (RNNs) can capture and hold the information\nwhich was seen before (context), which is important for dealing with\nunbounded context in NLP tasks.\n\nLong Short Term Memory (LSTM) networks, which is a special type of RNN,\ncan understand the context even if words have long term dependencies,\nwords which are far back in their sequence.\n\nIn this talk, I will compare LSTMs with other deep learning\narchitectures and will look at LSTM unit from a technical point of view.\n\n5. Using all that to make money\n-------------------------------\n\nFinancial news, especially if it\u2019s major, can change the sentiment among\ninvestors and affect the related asset price with immediate price\ncorrections.\n\nFor example, what\u2019s been communicated in quarterly earnings calls might\nindicate whether the price of share will drop or increase based on the\nlanguage used. If the message of the company is not direct and featuring\ncomplex sounding language, it usually indicates that there\u2019s some shady\nstuff going on and if this information extracted right, it\u2019s a valuable\ntrading signal. For similar reasons, scanning announcements and\nfinancial disclosures for trading signals became a common NLP practice\nin investment industry.\n\nIn this section, I will talk about the various data sources that\nresearchers can use and also explain common NLP workflows and deep\nlearning practices for quantifying textual data for generating trading\nsignals.\n\nI will end with summary with application architecture in case anyone\nwould like to implement similar systems for their own use.\n\nin \\_\\_on **sabato 21 aprile** at 14:45 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 2276,
-  "language": null,
-  "recorded": "2018-04-20",
+  "language": "eng",
+  "recorded": "2018-04-21",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Umit Mert Cakmak"
+  ],
+  "tags": [
+    "nlp",
+    "data-science",
+    "Keras",
+    "Python",
+    "Deep-Learning",
+    "machine-learning",
+    "spaCy",
+    "nltk"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/H_6VRrSaND0/maxresdefault.jpg",
-  "title": "U. Cakmak - Recent advancements in NLP and Deep Learning: A Quant's Perspective",
+  "title": "Recent advancements in NLP and Deep Learning: A Quant's Perspective",
   "videos": [
     {
       "type": "youtube",
