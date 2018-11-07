@@ -1,19 +1,26 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "The OpenStack Infra team runs one of the world\u2019s largest Open Source\nCI/CD systems in service of OpenStack\u2019s early decision to mandate that\nall merges only be performed by automation if and only if all tests\npass. Accomplishing this at scale involves a combination of software and\npolicy.\n\nZuul is the software engine developed to handle this. It is, of course,\nwritten in Python. (Python3 to be exact!)\n\nZuul is not OpenStack specific. With the rise of microservices and\nkubernetes, the number of multi-repo projects is increasing, as is the\nneed for CI systems that understand them. The most recent version of\nZuul has been reworked to make it easy for other people, communities or\norganizations to harness its power regardless of any relationship with\nOpenStack.\n\nWe\u2019ll talk about the things that make Zuul special - multi-repository\ndependencies, optimistic branch prediction and deep Ansible integration.\nAnd we\u2019ll walk through how to get started with a private or a public\nZuul.\n\nThere are also the parts of the equation that Zuul doesn\u2019t cover.\nHandling thousands of different python projects requires some specific\nchoices and tradeoffs, so we\u2019ll discuss how we structure the projects,\ndependency management and release engineering.\n\nin \\_\\_on **sabato 21 aprile** at 09:45 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 3146,
   "language": null,
-  "recorded": "2018-04-20",
+  "recorded": "2018-04-21",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Monty Taylor"
+  ],
+  "tags": [
+    "OpenStack",
+    "ansible",
+    "zuul",
+    "python3"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/6AcEzLchDi0/maxresdefault.jpg",
-  "title": "M. Taylor - Testing Thousands of Python Projects Every Day",
+  "title": "Testing Thousands of Python Projects Every Day",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,31 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In modern automated systems (Interactive Voice Response, help chatbots,\nrouting systems, etc.) it is very often important to be able to predict\nwhat is the most likely next step for the current user. One way of\naddressing this issue is using sequence algorithms such as Markov\nChains.\n\nAfter a quick introduction to the concept of Markov chains and Markov\nprocesses, we will explore the basics and the implementation of a simple\nHigh Order Markov chain to predict what the most likely next state in a\nsequence, based on previous states. We will be using anonymized\nreal-life data of an automated system and we will try to come up with a\nmodel that can give us the most probable next state using Markov chains\nof different orders.\n\nThings we will see in detail: - Mathematics and rationale behind Markov\nChains; - Basic implementation of First Order Markov Chains; -\nImplementation of High Order Markov Chains; - Real life application of\nthe developed model.\n\nAn undergraduate level of understanding of Linear Algebra and basic\nPython skills will be useful to follow the talk.\n\nin \\_\\_on **sabato 21 aprile** at 15:30 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 1842,
   "language": null,
-  "recorded": "2018-04-20",
+  "recorded": "2018-04-21",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Pietro Mascolo"
+  ],
+  "tags": [
+    "pydata",
+    "Pyston",
+    "algebra",
+    "Machine Learning",
+    "scipy",
+    "data-analysis",
+    "mathematics",
+    "data",
+    "python3"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/9pFZqopxb3Y/maxresdefault.jpg",
-  "title": "P. Mascolo - Predicting future state using High Order Markov Chains",
+  "title": "Predicting future states using High Order Markov Chains",
   "videos": [
     {
       "type": "youtube",

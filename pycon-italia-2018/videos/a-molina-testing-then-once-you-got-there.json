@@ -1,19 +1,27 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "I benefici di una testsuite completa e coerente sono un dato di fatto,\nma una volta completata la nostra test suite \u00e8 l\u00ec che cominciano i veri\nproblemi ed \u00e8 l\u00ec che diventa meno chiaro come muoversi.\n\nChe rapporto tenere tra le tipologie di test? Le Unit Test sono\nefficienti per identificare problemi e garantire comportamenti\nconsistenti sul lungo termine, ma sono come verificare che le gambe\ncamminano e le braccia fanno le flessioni senza verificare che un uomo\nintero riesca a camminare e fare le flessioni. I test e2e invece sono\nefficacissimi nel garantire il comportamento del sistema nel suo\ninsieme, ma possono rapidamente diventare lenti ed insostenibili.\n\nSappiamo bene che ci sono i mock e fake objects, ma quando veramente mi\nconviene usare uno, l\u2019altro o l\u2019implementazione reale? Un test che\nriceve dei MagicMock e ritorna un MagicMock quanto \u00e8 affidabile\nrealmente?\n\nSe ho decine di sviluppatori quanto serve testare i feature branches\nisolatamente dagli altri feature branches?\n\nQuesto talk cerca di evidenziare le problematiche che si devono\naffrontare quando si parla di testing di un progetto di grande\ncomplessit\u00e0, che integra decine di servizi e cerca di fornire alcune\nbest practices pur conscio che non c\u2019\u00e8 mai una sola risposta.\n\nin \\_\\_on **sabato 21 aprile** at 12:45 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 3203,
   "language": null,
-  "recorded": "2018-04-20",
+  "recorded": "2018-04-21",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Alessandro Molina"
+  ],
+  "tags": [
+    "best-practices",
+    "testing",
+    "software-engineering",
+    "coverage",
+    "application-development"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/kMQIP83e0l0/maxresdefault.jpg",
-  "title": "A. Molina - Testing, then once you got there?",
+  "title": "Testing, then once you got there?",
   "videos": [
     {
       "type": "youtube",

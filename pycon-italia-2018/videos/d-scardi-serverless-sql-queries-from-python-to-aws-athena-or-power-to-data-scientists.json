@@ -1,19 +1,27 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "**Audience** : beginner\n\n**Description** The goal of this talk is to explain how Athena, a\nserverless sql-like query service provided by Amazon\u2019s AWS, combined\nwith a Python library called PyAthena, made it possible to store and\nquery as much data as needed with low costs, high performances and in a\nPythonesque way.\n\n**Abstract** We found ourselves in a sticky situation: for monitoring\nand debugging reasons we had the need to store a large amount of data\n(around 200 million rows), trying not to spend the entire year\u2019s budget\nbut still managing to efficiently query the data in an interactive\nsetting. With such Big Data, we could not simply resort to Data Science\ntools like Pandas and hope for the best. Our first idea was to just\nshove it all in our Postgres DB: since both data and database were\nstored on Amazon\u2019s AWS infrastructure, all we had to do was to write\nad-hoc import and update queries. Sadly, our poor Postgres machine took\nthe hit, and was not able to respond to our requirements without greatly\nincreasing our costs. Then we found out about Athena: a serverless,\nPresto-based, sql compliant database, that reads directly from S3\nfolders and creates a virtual table on which you can run sql queries.\nUsing Python\u2019s Athena library (PyAthena) our query execution time\ndropped from hours to seconds, we simplified the infrastructure and\ndecreased our costs, without the need to pay and maintain a dedicated\nserver. In this talk we will show why Athena was the right solution for\nour use case and present its Python library with its functionalities.\n\nin \\_\\_on **domenica 22 aprile** at 15:30 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 1313,
   "language": null,
-  "recorded": "2018-04-20",
+  "recorded": "2018-04-22",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Daniela Scardi"
+  ],
+  "tags": [
+    "Python",
+    "aws",
+    "storage",
+    "cloud",
+    "sql"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/nAL0RoHJSTc/maxresdefault.jpg",
-  "title": "D. Scardi - Serverless SQL queries from Python to AWS Athena... or power to Data Scientists!",
+  "title": "Serverless SQL queries from Python with AWS Athena...or power to Data Scientists!",
   "videos": [
     {
       "type": "youtube",

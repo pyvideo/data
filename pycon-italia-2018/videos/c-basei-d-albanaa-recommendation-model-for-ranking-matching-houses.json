@@ -1,19 +1,28 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "We aim to address the problem of missing data for recommendation systems\nwith Python 2.7 and the H2O package. To this end, we \u201cre-impute\u201d\nartificially removed values into a dataframe with the help of two\nmodels: (1) **Deep Learning with Autoencoder** & (2) **Generalized Low\nRank Model** (GLRM). To tune and evaluate both models, we implement a\ncross validation that optimizes the imputation accuracy of the\nartifically removed values. As a result, **Deep Learning with\nAutoencoder** consistently preforms better in terms of precision, wheras\n**GLRM** performs better in terms of execution time. Finally, we also\npresent a new ranking formula which is inspired by *Lucene Similarity*\nbut weighs the cosine similarity according to the percentage of matches.\n\nIt will be shown an implementation of the recommendation system to real\nestate data. We will show:\n\n(1) some tuning plots of the models for imputation of missing features\n    of real estate queries;\n\n(2) a discussion about approximation of the scoring formula to rank the\n    matching houses;\n\n(3) a excerpt of the recommendation system front-end implemented in\n    Flask.\n\nTo attend this talk, a basic knowledge about statistics and Python is\nhelpful.\n\nin \\_\\_on **sabato 21 aprile** at 17:45 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 1939,
   "language": null,
-  "recorded": "2018-04-20",
+  "recorded": "2018-04-21",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Chiara Basei",
+    "Daniah Albanaa"
+  ],
+  "tags": [
+    "Deep-Learning",
+    "GLRM",
+    "Autoencoder",
+    "H2O",
+    "Recommendation"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/NgvdpR9ySR4/maxresdefault.jpg",
-  "title": "C. Basei, D. Albanaa - Recommendation Model for Ranking Matching Houses",
+  "title": "Recommendation Model\u00a0for\u00a0Ranking\u00a0Matching Houses",
   "videos": [
     {
       "type": "youtube",
