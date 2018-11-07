@@ -1,8 +1,8 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Serverless architectures refer to applications that significantly depend\non \u201ccloud\u201d services (knows as Backend as a Service) or on custom code\nthat\u2019s run in ephemeral runtime (Function as a Service or \u201cFaaS\").\n\nTo application developers, \u201cserverless\u201d mean app where some certain\nlogic of it is still written by the developer but unlike traditional\narchitectures or microservices is run in stateless compute runtime that\nis event-triggered, may only last for one invocation, and fully managed\nby a cloud. Serverless helps developers to transfer responsibility for\nkeeping their apps up and running as well as scaling out their workload\ncapacity without involving DevOps/ops as we got used to.\n\nIn this talk we will go through whole \u201cserverless\u201d thing: from\ndecomposing app and its logic to microservices and further to smaller\nbits, i.e. functions to defining data flow through functions and\nbuilding their fault-tolerant pipeline. Moreover, we will go through a\ndemo that highlights key takeaways:\n\n-  what are functions, what it could and could not be\n\n-  how to design scalable architecture without getting into troubles by\n   hitting concrete bottlenecks\n\n-  how serverless can help scaling in/out compute capacity for data\n   processing\n\nThe demo itself will include examples of applying serverless\narchitecture pattern to emotion recognition app based on TensorFlow and\nOpenCV 3.3\n\nin \\_\\_on **Friday 20 April** at 15:15 `**See\nschedule** </en/sprints/schedule/pycon9/>`__\n",
   "duration": 1569,
-  "language": null,
+  "language": "eng",
   "recorded": "2018-04-20",
   "related_urls": [
     {
@@ -10,10 +10,21 @@
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Denis Makogon"
+  ],
+  "tags": [
+    "serverless",
+    "image-processing",
+    "data-exploration",
+    "emotion-recognition",
+    "Deep-Learning",
+    "opencv",
+    "tensorflow",
+    "python3"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/QVGHS3frwzw/maxresdefault.jpg",
-  "title": "D.  Makogon - Applying serverless architecture pattern to distributed data processing",
+  "title": "Applying serverless architecture pattern to distributed data processing",
   "videos": [
     {
       "type": "youtube",

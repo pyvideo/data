@@ -1,19 +1,26 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk, the audience will learn how to build from scratch with\nPython machine learning models for predicting spatiotemporal activities\nin cities using location data.\n\nThe growing availability of data from cities (e.g., traffic flow, human\nmobility and geographical data) opens new opportunities for predicting\nand thus optimizing human activities. These may include human mobility,\nland use classification, event detection and location recommendation.\n\n-  How do we characterize the main activity of an area (e.g. Business,\n   Commercial, Nightlife)?\n\n   -  How to detect and forecast unusual spatiotemporal events (e.g.\n      protest, sport game, concert)?\n   -  How to understand why people are moving between places?\n\nThis talk will try to answers these questions explaining how, making use\nof Python, it is possible to (i) collect and aggregate geo-located data;\nand (ii) build machine learning models to predict spatiotemporal\nactivities. For example, an unusual activity in a local area at a\nspecific time can be predicted by analyzing the text from geo-located\ntweets.\n\nFirstly, we will present an organized picture of geo-located data such\nas mobile phone data, geo-located texts from social networks (e.g.\nFoursquare and Twitter), census and Open Street Map. Then, we will\nbriefly discuss how to collect and aggregate such data using Python\npackages such as GeoPandas and OSMnx. Finally, we will cover topics\nrelated to cities activities including event detection and forecasting,\nhuman mobility, and location recommendation and prediction.\n\nAs location data, we will mostly use samples from Open Street Map and\nFoursquare. The example code will make use of (basics) Pandas and\nGeoPandas. However, this is a beginner talk and it will be\nself-contained as much as possible.\n\nin \\_\\_on **domenica 22 aprile** at 12:45 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 1973,
-  "language": null,
-  "recorded": "2018-04-20",
+  "language": "eng",
+  "recorded": "2018-04-22",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Gianni Barlacchi"
+  ],
+  "tags": [
+    "geo-data-science",
+    "Machine Learning",
+    "open-data",
+    "location-data"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/vrXvLFK9-jI/maxresdefault.jpg",
-  "title": "G. Barlacchi - What's going on there? Understanding cities with location data",
+  "title": "What's going on there? Understanding cities with location data.",
   "videos": [
     {
       "type": "youtube",

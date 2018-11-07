@@ -1,8 +1,8 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "**This talk aims to answer a few questions:**\n\n-  What do you do when you need to move your model from your laptop to\n   production?\n-  Is ``big data == I need to use JVM`` the right assumption?\n-  How can I put my jupyter notebook in production?\n-  How do you apply the best software engineering practices (testing and\n   ci for example) inside your data science process?\n-  How do you \u201cdecouple\u201d your data scientists, developers and devops\n   teams?\n-  How do you guarantee the reproducibility of your models?\n-  How do you scale your training process when does not fit in memory\n   anymore?\n-  How do you serve your models and provide an easy rollback system?\n\nThe Agenda:\n\n-  The Data Science workflow\n-  Scaling is not just a matter of the size of your Data\n-  Scaling when the size of your Data matters\n-  DDS, Dockerized Data Science\n-  Cassiny\n\nI\u2019ll share my experience highlighting some of the challenges I faced and\nthe solutions I came up to answer these questions.\n\nDuring this presentation I will mention libraries like jupyter, atom,\nscikit- learn, dask, ray, parquet, arrow and many others.\n\nThe principles and best practices I will share are something that you\ncan apply, more or less easily, if you are running or in the process to\nrun a production system based on the Python stack.\n\nThis talk will focus on (my) best practices to run the Python Data stack\ntogether and I will also talk about Cassiny, an open source project I\nstarted, that aims to simplify your life if you want to use a completely\nPython based solution in your data science workflow.\n\nin \\_\\_on **Friday 20 April** at 11:00 `**See\nschedule** </en/sprints/schedule/pycon9/>`__\n",
   "duration": 2227,
-  "language": null,
+  "language": "eng",
   "recorded": "2018-04-20",
   "related_urls": [
     {
@@ -10,10 +10,24 @@
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Christian Barra"
+  ],
+  "tags": [
+    "Jupyter",
+    "CloudComputing",
+    "pydata",
+    "#lessonslearned",
+    "Big-Data",
+    "S3",
+    "Data-Scientist",
+    "#amicodialessia",
+    "java",
+    "docker",
+    "cloud"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/rK4rGrhIWsk/maxresdefault.jpg",
-  "title": "C.  Barra - Scaling your Data infrastructure",
+  "title": "Scaling your Data infrastructure",
   "videos": [
     {
       "type": "youtube",

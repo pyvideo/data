@@ -1,19 +1,31 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In my talk I will introduce a new pytest plugin with which it is very\neasy (even for non-technical) go to create and run new integration\ntesting at any level of IOT complex systems.\n\npytest-play is a pytest plugin that allows you to play a JSON file that\ndescribes some actions and assertions. We can use actions like: -\nSelenium, driving the browser for the UI test - MQTT messages,\nsimulating a device - API calls - queries to Cassandra or PostgresSQL\n(in the future) - custom commands, thanks to the pluggable architecture\nOther advantages: - UI tests more reliable with implicit waits before\ninteracting with the elements - BDD support to make the scenario more\nlegible - reusability of steps\n\nI will show you how easy it is to create a json and execute it on the\nfly on a Continuous Integration system. So let\u2019s start having fun in\ntesting with pytest-play.\n\nReferences:\n\nin \\_\\_on **domenica 22 aprile** at 12:00 `**See\nschedule** </p3/schedule/pycon9/>`__\n",
   "duration": 1703,
-  "language": null,
-  "recorded": "2018-04-20",
+  "language": "eng",
+  "recorded": "2018-04-22",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon9/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Serena Martinetti"
+  ],
+  "tags": [
+    "continuous-integration",
+    "open source",
+    "Python",
+    "testing",
+    "selenium",
+    "integration",
+    "api",
+    "pytest",
+    "Functional Testing"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/qSZ7frslX5I/maxresdefault.jpg",
-  "title": "S. Martinetti - Integration tests ready to use with pytest-play",
+  "title": "Integration tests ready to use with pytest-play",
   "videos": [
     {
       "type": "youtube",
