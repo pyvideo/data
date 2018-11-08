@@ -1,19 +1,27 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "The wayback machine is a high traffic website that has been online for over a decade. It was a mostly Java application. One component of the application is the Liveweb proxy. This is an HTTP proxy that archives a resource which is requested through it and the core data source for the wayback machine.\nThe liveweb proxy was rearchitected from scratch in Python and deployed on the actual website and has been running for a few months now without a single hitch. There were limitations in the standard library which needed to be worked around, careful tuning of parameters to balance disk I/O and memory usage, fine details of the HTTP protocol that needed to be understood and respected.\nThis talk discusses the architecture and design of the new system to handle the kind of traffic and patterns which are expected of an archiving proxy and how it was deployed.",
   "duration": 2663,
   "language": "eng",
-  "recorded": "2012-09-28",
+  "recorded": "2012-09-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://in.pycon.org/2012/index.html#schedule"
+    },
+    {
+      "label": "Session Information",
+      "url": "https://in.pycon.org/2012/funnel/pyconindia2012/19-rewriting-the-wayback-machines-live-web-proxy-in-python/"
+    },
+    {
+      "label": "Liveweb Proxy Rearchitected in Python",
+      "url": "https://github.com/internetarchive/liveweb"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": ["Noufal Ibrahim", "Anand Chitipothu"],
+  "tags": ["wayback machine", "liveweb", "http"],
   "thumbnail_url": "https://i.ytimg.com/vi/pDlOpMDwb-Q/maxresdefault.jpg",
-  "title": "Rewriting the Wayback machine's live web proxy in Python - Noufal Ibrahim & Anand Chitipothu",
+  "title": "Rewriting the Wayback machine's live web proxy in Python",
   "videos": [
     {
       "type": "youtube",

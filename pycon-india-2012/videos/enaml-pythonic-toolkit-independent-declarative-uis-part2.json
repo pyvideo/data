@@ -1,19 +1,31 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Enaml is a DSL for writing platform independent, declarative UIs. In a model-view-controller world, Enaml makes it very easy to develop the view and controller. Typically, the model is built with Traits, but it's model is framework agnostic and provides hooks for using custom model frameworks.\nThe DSL is a strict superset of Python and provides a simple Pythonic syntax for declaring a UI that binds and reacts to changes in the models. Enaml is dynamically executed and it lets you bind to arbitrary Python expressions. It uses a constraint based layout system which makes it possible to have layouts that are not typically possible with traditional UI toolkits. Enaml also supports asynchronous UIs which allow one to have multiple UIs connecting to the same model running in the same process or out of process. This, in theory, opens up the possibility for a web-based UI to be used to control a model.",
   "duration": 1034,
   "language": "eng",
-  "recorded": "2012-09-28",
+  "recorded": "2012-09-29",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://in.pycon.org/2012/index.html#schedule"
+    },
+    {
+      "label": "Session Information",
+      "url": "https://in.pycon.org/2012/funnel/pyconindia2012/72-enaml-pythonic-toolkit-independent-declarative-uis/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://github.com/punchagan/talks/blob/master/pycon-2012-enaml/enaml.pdf"
+    },
+    {
+      "label": "Part 3",
+      "url": "https://www.youtube.com/watch?v=7tfKL-crKVQ"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": ["Puneeth Chaganti"],
+  "tags": ["enaml", "dsl"],
   "thumbnail_url": "https://i.ytimg.com/vi/Jy4d8x4hjTg/maxresdefault.jpg",
-  "title": "Enaml: Pythonic, toolkit independent, declarative UIs - part2",
+  "title": "Enaml: Pythonic, toolkit independent, declarative UIs - Part 2",
   "videos": [
     {
       "type": "youtube",
