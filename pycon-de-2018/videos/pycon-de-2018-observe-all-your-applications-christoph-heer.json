@@ -1,6 +1,7 @@
 {
+  "abstract": "This talk will give you an overview how we monitor our full stack from\nthe 2000 physical machines up to the 10,000 parallel running Python\napplication processes, micro-service instances and batch processing\njobs.\n\n*Tags:* DevOps, Infrastructure, Networks, Programming, Python\n\nScheduled on `thursday 16:00 </schedule/#thu-16:00-cubus>`__ in room\ncubus\n",
   "copyright_text": null,
-  "description": "",
+  "description": "You just deployed your new version of an application or micro-service;\nhow do you know everything works as expected? You run your comprehensive\ntest suite to verify functional correctness for known scenarios and\nperformance tests before deploying, but does your application really\nwork at the moment or is it just responding with error messages to all\nincoming requests?\n\nI\u2019m part of the team that runs a huge infrastructure for the SAP HANA\ndevelopment. This infrastructure is vital for nearly all development &\ntesting activities of SAP HANA. As this infrastructure is powered by\nmultiple in-house developed applications, we immediately want to know if\nan application starts to fail and we need to be able to quickly diagnose\nwhat caused the failure.\n\nThis talk will give you an overview how we monitor our full stack from\nthe 2000 physical machines up to the 10,000 parallel running Python\napplication processes, micro-service instances and batch processing\njobs. It includes a review about the used tools, bad and good examples\nof instrumentation in Python code, the resulting visualisation and an\noutlook on upcoming improvements.\n",
   "duration": 1708,
   "language": "eng",
   "recorded": "2018-10-25",

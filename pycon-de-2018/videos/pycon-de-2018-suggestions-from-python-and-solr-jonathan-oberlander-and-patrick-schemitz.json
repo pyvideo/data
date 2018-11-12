@@ -1,6 +1,7 @@
 {
+  "abstract": "Trying to guess what a user wants when she's typing something into the\nsearch box of our price comparison website is a surprisingly complex\nendevour. Our solution is based on the Solr SuggestComponent, heavily\nfortified with Python logic.\n\n*Tags:* Algorithms\n\nScheduled on `friday 11:20 </schedule/#fri-11:20-cubus>`__ in room cubus\n",
   "copyright_text": null,
-  "description": "",
+  "description": "When a user types a query into the search box of our price comparison\nwebsite, we try to figure out what they search, and provide suggestions\nas they type along. What product, what brand, from which categories?\nSolr provides a SuggestComponent that is a good start, but in a lot of\nsituations we need fallback strategies: what should we show to a user\nsearching for just a brand name? Or for a singular offer we can't\nactually show them? What alternatives can we dig up? And behind all this\nbackfill logic lurks that dreaded question: what amount of irrelevant\ngarbage is worse than the horror vacui of an empty result set?\n",
   "duration": 1816,
   "language": "eng",
   "recorded": "2018-10-26",

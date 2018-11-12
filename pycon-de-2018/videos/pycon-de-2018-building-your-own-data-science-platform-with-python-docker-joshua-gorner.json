@@ -1,6 +1,7 @@
 {
+  "abstract": "This talk will interactively show a potential reference architecture for\na self-build data science platform using Python & Docker. The presented\nservices tackle common data science pain points such as model\npersistence, concurrent model training, scheduled model retraining,\nmodel exposure, etc.\n\n*Tags:* Artificial Intelligence, Algorithms, Data Science, DevOps,\nInfrastructure, Jupyter, Machine Learning, Programming, Python\n\nScheduled on `thursday 14:00 </schedule/#thu-14:00-lounge>`__ in room\nlounge\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Interactive notebooks like Jupyter have become more and more popular in\nthe recent past and build the core of many data scientist's workplace.\nBeing accessed via web browser they allow scientists to easily structure\ntheir work by combining code and documentation.\n\nYet notebooks often lead to isolated and disposable analysis artefacts.\nKeeping the computation inside those notebooks does not allow for\nconvenient concurrent model training, model exposure or scheduled model\nretraining.\n\nThose issues can be addressed by taking advantage of recent developments\nin the discipline of software engineering. Over the past years\ncontainerization became the technology of choice for crafting and\ndeploying applications. Building a data science platform that allows for\neasy access (via notebooks), flexibility and reproducibility (via\ncontainerization) combines the best of both worlds and addresses Data\nScientist's hidden needs.\n",
   "duration": 1667,
   "language": "eng",
   "recorded": "2018-10-25",

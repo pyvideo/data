@@ -1,6 +1,7 @@
 {
+  "abstract": "This talk is about our experience using Python on a Linux based IoT\ndevice, the problems we were facing and the lessons we learned. An\nappliance using Bluetooth Low Energy, D-Bus, NetworkManager and a\nproprietary sensor interface - What could possibly go wrong?\n\n*Tags:* DevOps, Infrastructure, Networks, Programming, Python\n\nScheduled on `wednesday 12:20 </schedule/#wed-12:20-lounge>`__ in room\nlounge\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In a distributed sensor network system with a Java based Cloud\napplication, mobile apps and a proprietary radio protocol accompanying\nit we developed an IoT appliance that connects the existing radio\ninfrastructure to the Cloud service developed in-house.\n\nUsing CPython 3.5 + Debian GNU/Linux 9 on an ARMv7 platform, we\ndeveloped the following features:\n\nOver the course of this project, we learned a lot about Test Driven\nDevelopment of Python apps in teams and DevOps in the IoT space. We\nwould now like to share our experience developing a Python application\nfor a headless IoT device and the things we would liked to have known\nupfront.\n\nThe talk is held both by Matthias Schmidt (Senior Architect at diva-e)\nand Thomas Keppler (Software Developer at diva-e).\n",
   "duration": 2538,
   "language": "eng",
   "recorded": "2018-10-24",

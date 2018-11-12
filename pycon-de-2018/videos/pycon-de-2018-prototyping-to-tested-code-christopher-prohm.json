@@ -1,6 +1,7 @@
 {
+  "abstract": "Developing prototypes and their tests both in Jupyter notebooks.\n\n*Tags:* Data Science, Machine Learning\n\nScheduled on `friday 11:55 </schedule/#fri-11:55-lecture>`__ in room\nlecture\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Jupyter notebooks are a great environment to prototype solutions and\nexplore their design. Turning these solutions into reusable components\nusually requires moving them out of the notebook environment into\nexternal python packages. Often, at this stage, the code is refactored\nand test are written.\n\nIn this talk, I will demo\n```ipytest`` <https://github.com/chmp/ipytest>`__, a small tool to run\ntests inside notebooks. It supports ```pytest`` <http://pytest.org/>`__\nas well as the standard\n```unittest`` <https://docs.python.org/3/library/unittest.html>`__\nframework. It allows to start prototypes in a notebook and to develop\nthe tests with the code in an highly interactive environment. As the\ncode grows, it can be transparently moved outside notebooks and\ntransformed into reusable components. By bringing support for tests to\nthe notebook environment,\n```ipytest`` <https://github.com/chmp/ipytest>`__ bridges the artificial\ngap between notebooks and reusable components.\n",
   "duration": 1656,
   "language": "eng",
   "recorded": "2018-10-26",

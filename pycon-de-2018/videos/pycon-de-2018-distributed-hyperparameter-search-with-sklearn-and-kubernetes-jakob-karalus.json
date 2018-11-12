@@ -1,6 +1,7 @@
 {
+  "abstract": "In this talk, I will show how you can harness the scheduling of\nkubernetes for distributing hyperparameter search with sklearn onto a\ncluster of nodes. This can be achieved quite easily and with just a few\nchanges to the original code, so the Data Scientist won't be bothered by\ncomplex kubernetes internals.\n\n*Tags:* Algorithms, Big Data, Data Science, DevOps, Infrastructure,\nMachine Learning\n\nScheduled on `wednesday 17:10 </schedule/#wed-17:10-media>`__ in room\nmedia\n",
   "copyright_text": null,
-  "description": "",
+  "description": "While sklearn provides a good interface to do hyperparameter search on\nlarge & complex model (pipelines), doing these can take up a lot of\ntime. The traditional way usually includes one beefy machine and a lot\nof waiting. In other cases, people tend to \u201cmanually\u201d schedule parameter\nranges between nodes, but that can also be problematic since these won't\ntalk to each other. Kubernetes itself is currently the most prominent\nscheduler and shines at distributing task, but is a pretty complex\nsystem in itself.\n\nIn this talk, I will show how you can harness the scheduling of\nkubernetes for distributing hyperparameter search with sklearn onto a\ncluster of nodes. This can be achieved quite easily and with just a few\nchanges to the original code, so the Data Scientist won't be bothered by\ncomplex kubernetes internals.\n",
   "duration": 950,
   "language": "eng",
   "recorded": "2018-10-24",

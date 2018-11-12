@@ -1,6 +1,7 @@
 {
+  "abstract": "This is a talk about building, packaging, and deploying Python code with\nPants and PEX (https://www.pantsbuild.org).\n\n*Tags:* DevOps, Infrastructure\n\nScheduled on `thursday 11:20 </schedule/#thu-11:20-lecture>`__ in room\nlecture\n",
   "copyright_text": null,
-  "description": "",
+  "description": "What is the best outfit for comfortable, but highly productive\nprogramming at home? While this is definitely an important question,\nthis talk will focus on a topic that is slightly more controversial:\nmonorepos and their build tools. Specifically, the talk will have a\ncloser look at Pants (https://www.pantsbuild.org).\n\nPants is a build system for large or rapidly growing code bases. It\nsupports all stages of a typical build ( bootstrapping, dependency\nresolution, compilation, linting, ...) and allows users to organize\ntheir code via targets for binaries, libraries, and tests. For Python\nprogrammers, pants is especially interesting, as it makes the\nmanipulation and distribution of hermetically sealed Python environments\npainless - so called PEXes.\n\nThe talk will motivate Pants and its usage in the context of a large\ncompany- wide monorepo. It will then focus on important Python-centric\nfeatures, and shortly explain how those work under the hood. The talk\nwill conclude with a discussion of usecases for Pants outside of a\nmonorepo, i.e. for the rest of us.\n",
   "duration": 1683,
   "language": "eng",
   "recorded": "2018-10-25",

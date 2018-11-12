@@ -1,6 +1,7 @@
 {
+  "abstract": "Monitoring performance metrics in network traffic is important in\ntechnology- driven trading, but not every metric is visible to measure.\nHere I discuss how to tackle this problem via Bayesian inference using\nPyMC3 package.\n\n*Tags:* Data Science, Networks\n\nScheduled on `thursday 11:55 </schedule/#thu-11:55-lounge>`__ in room\nlounge\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Technology-driven trading is a field with many challenges, and\nperformance and availability of the network communication is essential\nto the business. To have a good understanding on the performance and\navailability, we monitor certain metrics - however not every interesting\nmetric is readily available to measure. Some of these have to be\ninferred from the data we see in production by incorporating our own\nknowledge. What complicates this further is that the relationship\nbetween the hidden variables and the output data is not a deterministic\none, as we are often dealing with a stochastic system.\n\nBayesian inference is a suitable way to tackle this issue - it allows\nencoding our knowledge as a prior distribution of the model parameters.\nHere we will go through real-world uses of Bayesian inference at IMC,\nusing PyMC3 to make an estimate for the hidden metrics in the network\ntraffic.\n\nKnowledge: No prior knowledge of PyMC3 is required. Since this is a\nshort presentation, the talk with approach the problem and the solution\nat a high level instead of implementation details.\n",
   "duration": 1116,
   "language": "eng",
   "recorded": "2018-10-25",

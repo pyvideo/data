@@ -1,6 +1,7 @@
 {
+  "abstract": "In situations where unlabeled data is abundant but labeled data cannot\nbe obtained easily active learning can be utilized to build classifiers\nby intelligently querying users for labels. This talks shows the core\nconcepts and algorithms of active learning based on a real-world\nproject.\n\n*Tags:* Artificial Intelligence, Algorithms, Data Science, Machine\nLearning, Python\n\nScheduled on `wednesday 14:50 </schedule/#wed-14:50-media>`__ in room\nmedia\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In many situations large datasets are available but unfortunately\nlabeling is expensive and time consuming. Active Learning is a concept\nfor building classifiers by letting the algorithm choose the training\ndata it uses. This achieves greater accuracy than just labeling a random\nsubset of the available dataset.\n\nThe active learning algorithm selects some unlabeled data instances\nwhich are then labeled by a human annotator. Given this information a\nclassifier is trained and new instances for the human annotator to label\nare selected. This iterative process tries to label as few instances as\npossible while achieving high classification accuracy.\n\nIn this talk I will give a general overview of the core concepts and\ntechniques of active learning like algorithms for selecting the queries\nand convergence criteria.\n",
   "duration": 2793,
   "language": "eng",
   "recorded": "2018-10-24",
