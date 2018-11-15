@@ -1,6 +1,7 @@
 {
+  "abstract": "When you make a search for a hotel room, do you know how many travel\nagents are searching for you at the same time? In this talk, we\ndemonstrate how to use the millions of searches a sourcing company\nreceived to build a network of travel agents and finding the main hubs\namong them using NetworkX.\n\n*Tags:* Algorithms, Networks, Python\n\nScheduled on `wednesday 16:00 </schedule/#wed-16:00-cubus>`__ in room\ncubus\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Network analysis is getting more and more attention in Business\nIntelligence, people hope to get information out of the structure of an\norganization or a communication network. In this talk, we use the hotel\nroom search requests from travel agents, including online public\nwebsite, B2C, B2B and B2B2C, to build a relational network among them.\nBy using this network as an example, we demonstrate how insights can be\nextract by studying network properties.\n\nIn the first half of the talk, we will explain how the network is built\nusing NetworkX, an open-source python library that is designed for the\ncreation, manipulation, and study of the structure, dynamics, and\nfunctions of complex networks. When 2 agents are making the same search\nat the same time , a link ( or an \u201cedge\u201d in network analysts terms) is\nmade pointing form the initial searcher to the subsequent searcher.\nUsing a list of these searches, a directed graph is built. We will also\ndemonstrate how to pick the biggest connected component out form the\ngraph. In the second half, with the graphs created, we show how\ndifferent functions of NetworkX can be used to study the graphs. By\ncompare the graph properties of our graph to the other popular network\ngraphs, we can get the insight of how the network was created. Also by\nstudying the graphs, we can understand the behavior of the agents and\ncan even figure out which agents are acting as main hubs in the network.\n\nThis talk is for people who are interested in network analysis and would\nlike to see how it can be used in a business case. Audiences with any\nlevel of python experience can learn some basic concept of network\nanalysis work and how it can be applied to provide business insights.\n",
   "duration": 1763,
   "language": "eng",
   "recorded": "2018-10-24",
@@ -10,10 +11,16 @@
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Cheuk Ting Ho"
+  ],
+  "tags": [
+    "Algorithms",
+    "Networks",
+    "Python"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/h_nYy9XEPvY/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Understanding Agent Connections Using NetworkX - Cheuk Ting Ho",
+  "title": "Case Study in Travel Business - Understanding agent connections using NetworkX",
   "videos": [
     {
       "type": "youtube",

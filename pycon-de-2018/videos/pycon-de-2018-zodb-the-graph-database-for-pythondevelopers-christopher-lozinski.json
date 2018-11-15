@@ -1,19 +1,24 @@
 {
+  "abstract": "The ZODB is a mature graph database written in Python and optimized in\nC. Just subclass off of class Persistent Object, and Persistent\nContainer, and your objects, graphs and applications become persistent.\nThis talk teaches you what you need to know to start using a pythonic\ngraph database.\n\n*Tags:* Web\n\nScheduled on `thursday 11:20 </schedule/#thu-11:20-cubus>`__ in room\ncubus\n",
   "copyright_text": null,
-  "description": "",
+  "description": "You can see the current version of the slides at\nhttps://pythonlinks.info/presentations/zodbtalk.pdf\n\nI invite you to first watch the full but slightly earlier version of the\ntalk at PythonLinks.info/zodb\n\nAnd then read the following summary to see what else is being added to\nthe talk.\n\nThe ZODB is a mature graph database written in Python and optimized in\nC. Just subclass off of class Persistent Object and Persistent\nContainer, and your objects, graphs and applications become persistent.\n\nThe market for Graph Databases has recently exploded, as evidenced by\nover $200 Million invested in graph database companies. Most of the\ngraph databases are written in Java.\n\nIf you are a Python developer, you will find much greater productivity\nusing a graph database written in Python, than one written in statically\nbound Java. You cannot add or remove an attribute to an object at\nrun-time in a statically typed language. Furthermore, the major Java\ndatabases constrain you to one of several persistent data types.\nPersistent Python, supported by the ZODB allows you to make any Python\ndata structure persistent. Publishing JSON, YAML and Pickles are well\nsupported. GraphQL is conceptually very close to the ZODB schema\napproach.\n\nOkay, the ZODB is interesting, but is it risky? The ZODB is mature, rock\nsolid and well supported. The ZODB is quite heavily used in the Plone\nworld. Just the government of Brazil has over 100 websites using the\nZODB. That includes the President's office, parliament and many other\ngovernmet offices. Recently the ZODB has been reengineered. It now\nsupports thousands of write transactions per second.\n\nThe major applications of graph databases are fraud detection, social\nnetworks and computer networks. NLP is an interesting application area.\n\nThe talk reviews the basic concepts of traversal and views on objects.\n\nIt is important to understand the basics of how objects are stored on\ndisk. Objects are pickled. There are multiple ways to store those\npickles. When using File Storage, the objects in a transaction are\nappended to he end of the database files. When using relstorage, a\nrecord is created with the object id, the version number, and the\npickle. The talk reviews how objects are distributed across multiple\nPython processes. With ZEO the pickles are served across the network.\nConnections are encrypted. The talk also discusses how to build\nreal-time (chat and iOT) applications using the MQTT message broker with\nthe ZODB.\n\nPerformance, scalability, and number of objects, are all discussed.\nComparisons are made to traditional relational databases.\n\nThe ZODB Demo makes it very easy to start building your own applications\non top of the ZODB. You can start by customizing the TreeLeaf,\nTreeBranch and TreeRoot classes and their templates. You get CRUD for\nfree.\n\nThe demo includes traditional relational CRUD, Create, Read, Update, and\nDelete. But it also includes the extended graph CRUD. Rename a Leaf or\nBranch. Cut and paste leaves or branches, copy and paste leaves or\nbranches. View and restore historic versions are demonstrated.\n\nOf course the real reason to use a graph database is to improve the user\nexperience. A basic concept in human factors is to limit lists to 7\nitems. That is why librarians use hierarchy. The Panama Papers\njournalists said a graph database was more intuitive. Have you ever\nselected your country from a list of 150 countries. Much better to use a\nhierarchical list. Have you ever used a Google map with thousands of\npins. Much better to have one page for each city.\n\nAnd of course the most important reason for using a graph database is\nnot what the software does, but how it changes how we humans think about\nour problems, and how we make decisions. Graph databases enable a\ndifferent approach to distributing applications across the network. They\nencourage a different approach to managing the git development process.\nThey enable a different set of decisions to be made.\n\nBy the end of this talk, readers should have a much better appreciation\nfor the rich but little known and under appreciated ZODB ecosystem.\n",
   "duration": 1627,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-25",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Christopher Lozinski"
+  ],
+  "tags": [
+    "Web"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/tcYyiqbUdKI/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: ZODB: The Graph Database For PythonDevelopers - Christopher Lozinski",
+  "title": "ZODB: The Graph Database for PythonDevelopers",
   "videos": [
     {
       "type": "youtube",

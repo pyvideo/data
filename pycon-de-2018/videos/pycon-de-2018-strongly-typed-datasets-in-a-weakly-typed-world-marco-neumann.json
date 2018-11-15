@@ -1,19 +1,27 @@
 {
+  "abstract": "Strongly typed Parquet Datasets / Hive Tables are often used to exchange\nand preserve data in a Pandas-driven environment, where types are rather\nunstable. This results in multiple issues and these as well as potential\nsolutions will be presented, together with an RFC directed to the\ncommunity.\n\n*Tags:* Algorithms, Big Data, Data Science, Parallel Programming\n\nScheduled on `friday 11:20 </schedule/#fri-11:20-lecture>`__ in room\nlecture\n",
   "copyright_text": null,
-  "description": "",
+  "description": "We at Blue Yonder use Pandas quite a lot during our daily data science\nand engineering work. This choice, together with Python as an underlying\nprogramming language gives us flexibility, a feature-rich interface, and\naccess to a large community and ecosystem. When it comes to preserving\nthe data and exchanging it with different software stacks, we rely on\nParquet Datasets / Hive Tables. During the write process, there is a\nshift from a rather weakly typed world to a strongly typed one. For\nexample, Pandas may convert integers to floats for many operations\nwithout asking, but parquet files and the schema information stored\nalongside them dictate very precise types. The type situation may get\neven more \"colorful\", when datasets are written by multiple code\nversions or different software solutions over time. This then results in\nimportant questions regarding type compatibility.\n\nThis talk will first represent an overview on types at different layers\n(like NumPy, Pandas, Arrow and Parquet) and the transition between this\nlayers. The second part of the talk will present examples of type\ncompatibility we have seen and why+how we think they should be handled.\nAt the end there will be a Q+A, which can be seen as the start of a\npotentially longer RFC process to align different software stacks (like\nHive and Dask) to handle types in a similar way.\n",
   "duration": 1239,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-26",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Marco Neumann"
+  ],
+  "tags": [
+    "Algorithms",
+    "Big Data",
+    "Data Science",
+    "Parallel Programming"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/wtpQTWROPc0/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Strongly Typed Datasets In A Weakly Typed World - Marco Neumann",
+  "title": "Strongly typed datasets in a weakly typed world",
   "videos": [
     {
       "type": "youtube",

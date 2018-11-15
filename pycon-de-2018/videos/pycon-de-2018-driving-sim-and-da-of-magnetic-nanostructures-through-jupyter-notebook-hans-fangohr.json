@@ -1,19 +1,28 @@
 {
+  "abstract": "We present ongoing work from a project that makes a particular computer\nsimulation (implemented in C++ and Tk/Tcl) accessible through a Python\ninterface, and through the Jupyter Notebook. The talk describes the\nmotivation, benefits and current status of the project.\n\n*Tags:* Data Science, Jupyter, Programming, Python, Science\n\nScheduled on `thursday 16:35 </schedule/#thu-16:35-media>`__ in room\nmedia\n",
   "copyright_text": null,
-  "description": "",
+  "description": "We present ongoing work from a project that makes a particular computer\nsimulation (implemented in C++ and Tk/Tcl) accessible through a Python\ninterface, and through the Jupyter Notebook. The talk describes the\nmotivation and current status of the project.\n\nIn more detail, the computer simulation in question is the Object\nOriented Micromagnetic Modelling Framework\n(`OOMMF <http://math.nist.gov/oommf/>`__) which is likely the most\nwidely used micromagnetic simulation package. It can be driven through a\ngraphical (Tk) user interface or through a configuration file that\ndefines a simulation run.\n\nIn this talk, we first show a Python interface to OOMMF that allows the\ndriving of OOMMF simulations from a Python program or interpreter\nprompt. This way we embed a widely used scientific code from 1990s in a\ngeneral purpose programming language\n[`1 <https://doi.org/10.1063/1.4977225>`__] and enable the full use of\nthe ecosystem of scientific libraries available for Python. For example,\ndesign optimisation, specialised post-processing, and the creation of\nfigures can all be carried out using a single script; making the work\nmore easily reproducible.\n\nSecond, we integrate the Python interface to OOMMF into a Jupyter\nnotebook, so that all existing benefits of using Jupyter are inherited\nfor the use in computational micromagnetics, which is the reason we\nnamed our code Jupyter- OOMMF (`JOOMMF <http://joommf.github.io/>`__). A\n`JupyterHub installation <https://tryjoommf.soton.ac.uk/>`__ of the tool\nreduces barriers in uptake, and all the code is `on\ngithub <https://github.com/joommf>`__.\n\nWe discuss the benefits of driving computer simulation and data analysis\nthrough Jupyter Notebooks.\n\nThis project is a part of the Jupyter-OOMMF (JOOMMF) activity in the\n`OpenDreamKit <http://opendreamkit.org/>`__ project and we acknowledge\nfinancial support from Horizon 2020 European Research Infrastructures\nproject (676541). The work is also supported by the EPSRC CDT in Next\nGeneration Computational Modelling EP/L015382/1, and the EPSRC grants\nEP/M022668/1 and EP/N032128/1.\n\nFor additional context: micromagnetic modelling is a key research method\nin academia and industry to support development of high-capacity\nmagnetic storage devices that are cheap, fast, and reliable, and to\nenable research into future alternative storage and processing\ntechnologies such as spintronics. The OOMMF modelling package has been\nused in `over 2500\npublications <https://math.nist.gov/oommf/oommf_cites.html>`__ since\n1999.\n\n[1] Beg, M., Pepper, R. A., and Fangohr, H. User interfaces for\ncomputational science: A domain specific language for OOMMF embedded in\nPython. AIP Advances 7, 056025 (2017), https://doi.org/10.1063/1.4977225\n",
   "duration": 1392,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-25",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Hans Fangohr"
+  ],
+  "tags": [
+    "Data Science",
+    "Jupyter",
+    "Programming",
+    "Python",
+    "Science"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/ZrpJ_H0LCOA/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Driving Sim And DA Of Magnetic Nanostructures Through Jupyter Notebook - Hans Fangohr",
+  "title": "Driving simulation and data analysis of magnetic nanostructures through Jupyter Notebook",
   "videos": [
     {
       "type": "youtube",

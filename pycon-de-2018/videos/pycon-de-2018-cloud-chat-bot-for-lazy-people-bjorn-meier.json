@@ -1,19 +1,25 @@
 {
+  "abstract": "These days with chat applications everywhere people tend to ask other\npeople about things there although a direct answer would not be far on a\nwebsite or it would be the first Google search result. It is\nunderstandable because mankind is lazy, so I am. Therefore, I want to\nlet bots answer the easy questions for me. In my situation as a DevOps\nperson these questions can be about the health of a service I am\nresponsible for. I will show you how you can run a Python bot with\n`Azure bot\nservice <https://azure.microsoft.com/en-%20us/services/bot-service/>`__,\nreachable by `Slack <https://slack.com/>`__ which gives you a service\nhealth status based on information from a\n`Prometheus <https://prometheus.io/>`__ monitoring system.\n\n*Tags:* DevOps, Infrastructure\n\nScheduled on `thursday 17:10 </schedule/#thu-17:10-media>`__ in room\nmedia\n",
   "copyright_text": null,
-  "description": "",
+  "description": "At work we established Slack years ago as our chat application and by\nnow quite a percentage of communication goes through it. As a result it\ngot much easier to contact one person or a group simultaneously. And\nthis is good as we can share our knowledge save each other time. But it\nalso introduced a category of questions in the chat which only require\nsimple tedious tasks to get the answer and then post it as a response.\nOne possibility is to educate and point others to the place where they\ncan find the answer or what tasks they have to do. The other one is use\na chat bot for this. Both ways have advantages and for the bot it is\nthat you can import a specific type of response more easily into a\nconversation without first gathering the information and copy and paste\nit. I am a developer and service operator and one category of questions\nwhich fits this is the category of service health questions, like \"Does\nservice X has a problem right now?\". Hence, I will use a bot to answer\nthem. First I will show you how you can create a python bot for the\nAzure bot service. With it the questioner then can either directly use\nthe bot to answer his question or you can just create the response for\nhim without going to the service health monitoring. In this case the\nservice health information has to be obtained from a Prometheus\nmonitoring service and then transformed into a chat message.\n",
   "duration": 924,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-25",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Bj\u00f6rn Meier"
+  ],
+  "tags": [
+    "DevOps",
+    "Infrastructure"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/oLCy7UrD-gU/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Cloud Chat Bot For Lazy People - Bj\u00f6rn Meier",
+  "title": "Cloud chat bot for lazy people",
   "videos": [
     {
       "type": "youtube",

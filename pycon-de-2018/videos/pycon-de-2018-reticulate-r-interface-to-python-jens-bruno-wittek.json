@@ -1,6 +1,7 @@
 {
+  "abstract": "This talk presents the R package reticulate introduced by RStudio in\n2018. It allows to import Python modules, source scripts, convert and\nmanipulate objects and use a Python repl in R.\n\n*Tags:* Artificial Intelligence, Algorithms, Big Data, Deep Learning &\nArtificial Intelligence, Data Science, NLP, Machine Learning,\nVisualisation\n\nScheduled on `wednesday 11:30 </schedule/#wed-11:30-lounge>`__ in room\nlounge\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Python and R are the preferred languages for data science. In 2018,\nRStudio introduced its package reticulate and clearly demonstrates that\nit favours to join forces. Both languages have strengths and weaknesses.\nTools to combine the strengths will enable easier collaboration in\nprojects and more possibilities to succeed. Using Python from R gives R\nusers wider access to functions and makes it easier for Python beginners\nto just run scripts and being able to collaborate in Python projects.\nThe talk will show the possibilities of reticulate: The main part starts\nwith demonstrating the Python interpreter within R. It will show how to\nsource Python scripts as well as install and import modules. Then it\nwill deal with the most important types of Python objects, how they are\nrepresented in R and how to further manipulate them. Thereby, a special\nfocus is on using Python for data science. In addition, it will be\npresented how Conda environments can be created and used from R. A\nfurther application will be the creation of reports with Markdown and\nLaTeX where R and Python can be used within one document and share\nobjects. A last topic is about showing the possibilities for easier\ndevelopment in RStudio (help regarding Python functions, auto\ncompletion).\n",
   "duration": 2577,
   "language": "eng",
   "recorded": "2018-10-24",
@@ -10,10 +11,21 @@
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Jens Bruno Wittek"
+  ],
+  "tags": [
+    "Artificial Intelligence",
+    "Algorithms",
+    "Big Data",
+    "Deep Learning & Artificial Intelligence",
+    "Data Science",
+    "NLP",
+    "Machine Learning",
+    "Visualisation"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/EJxQSa9lwfM/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Reticulate: R Interface To Python - Jens Bruno Wittek",
+  "title": "reticulate: R interface to Python",
   "videos": [
     {
       "type": "youtube",

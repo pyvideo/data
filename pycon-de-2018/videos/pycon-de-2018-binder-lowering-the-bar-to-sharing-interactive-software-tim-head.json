@@ -1,6 +1,7 @@
 {
+  "abstract": "In this talk I will introduce the audience to the concepts and ideas\nbehind the Binder project. I will showcase examples from the community\nto illustrate use-cases and show off the power of Binder using the\nmybinder.org service.\n\n*Tags:* Community, Data Science, DevOps, Jupyter, Science, Web\n\nScheduled on `wednesday 16:35 </schedule/#wed-16:35-cubus>`__ in room\ncubus\n",
   "copyright_text": null,
-  "description": "",
+  "description": "The Binder project drastically lowers the bar to sharing and re-using\nsoftware. As a user wanting to try out someone else\u2019s work I only have\nto click a single link. As the author preparing a binder-ready project\nis much easier than having to support many different platforms and for\nmany projects involves little additional work.\n\nIn this talk I will introduce the audience to the concepts and ideas\nbehind the Binder project. I will showcase examples from the community\nto illustrate use-cases and show off the power of Binder.\n\nThree pieces of software power Binder:\n`repo2docker <http://repo2docker.readthedocs.io/en/latest/>`__,\n`BinderHub <https://binderhub.readthedocs.io/en/latest/>`__ and\n`JupyterHub <http://jupyterhub.readthedocs.io/en/stable/>`__. Using an\nexample repository I will go through the steps required to make a\nrepository binder- ready and what happens when a user launches it. At\neach step I will illustrate the role that each of the three software\ncomponents play and how they interact.\n\nBinder is a project created by its community. I will present pathways\nfor getting involved with the community.\n\nTo wrap up I will highlight plans for future developments and features\nof Binder.\n",
   "duration": 1833,
   "language": "eng",
   "recorded": "2018-10-24",
@@ -10,10 +11,19 @@
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Tim Head"
+  ],
+  "tags": [
+    "Community",
+    "Data Science",
+    "DevOps",
+    "Jupyter",
+    "Science",
+    "Web"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/TQY_fVPEWTw/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Binder - Lowering The Bar To Sharing Interactive Software - Tim Head",
+  "title": "Binder - lowering the bar to sharing interactive software",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,26 @@
 {
+  "abstract": "Deploying a machine learning model as an API is not a trivial task.\nRequires understanding of some web framework, worrying about data\nvalidation, authentication and deploying etc. Even after the API is\nready, figuring out how to use it in the client is an added pain. This\ntalk takes the participants though the journey of building a machine\nlearning model and deploying it as API.\n\n*Tags:* Machine Learning, Python, Web\n\nScheduled on `thursday 10:30 </schedule/#thu-10:30-lounge>`__ in room\nlounge\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Often, the most convenient way to deploy a machine model is an API. It\nallows accessing it from various programming environments and also\ndecouples the development and deployment of the models from its use.\n\nHowever, building an good API is hard. It involves many nitty-gritties\nand many of them need to repeated everytime an API is built. Also, it is\nvery important to have a client library so that the API can be easily\naccessed. If you every plan to use it from Javascript directly, then you\nneed to worry about cross-origin-resource-sharing etc. All things add up\nand building APIs for machine very tedious.\n\nIn this talk demonstrates how deploying machine learning models an APIs\ncan be made fun by using right programming abstractions. This presents\ncouple of opensource libraries\n`firefly <https://firefly-%20python.readthedocs.io/en/latest/>`__ and\n`rorolite <https://rorodata.github.io/rorolite/>`__ which are built for\nthis very purpose.\n",
   "duration": 2448,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-25",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Anand Chitipothu"
+  ],
+  "tags": [
+    "Machine Learning",
+    "Python",
+    "Web"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/zud6CTR1NLk/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: How To Deploy ML Models As APIs Without Going Nuts - Anand Chitipothu",
+  "title": "Machine Learning as a Service: How to deploy ML Models as APIs without going nuts",
   "videos": [
     {
       "type": "youtube",

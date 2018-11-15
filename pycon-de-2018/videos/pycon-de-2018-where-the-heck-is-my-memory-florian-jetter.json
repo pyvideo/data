@@ -1,19 +1,26 @@
 {
+  "abstract": "In this talk I want to introduce you to python memory management and\nwant to convince you that it is worth knowing a few details about it\neven while writing pure python code. In the end, I want you to leave\nwith a better knowledge about what\u2019s going on and equip you with a few\ntools and best practices to face the harsh world of memory management.\n\n*Tags:* Big Data, DevOps, Infrastructure\n\nScheduled on `thursday 17:10 </schedule/#thu-17:10-lecture>`__ in room\nlecture\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Memory management is something the common Python user doesn\u2019t need to\nbother with because the gory details of it are hidden deep within the\ninterpreter itself. The garbage collector takes out the trash and we can\nspend our precious time bothering with more important things on our\nminds. Living in this encapsulated utopia is nice but sometimes it is\nworth it to peak behind the curtains to unleash the full power of your\napplication. In this talk I want to show you when it is necessary to\nface this harsh world and convince you that it is in fact not as scary\nas it may seem. Using real life examples, I\u2019m going to show you how to\nuse the garbage collector and open source tooling to get control over\nthe memory you might not even know you had at your disposal.\n",
   "duration": 962,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-25",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Florian Jetter"
+  ],
+  "tags": [
+    "Big Data",
+    "DevOps",
+    "Infrastructure"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/C-1XWTgFo5g/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Where The Heck Is My Memory? - Florian Jetter",
+  "title": "Where the heck is my memory?",
   "videos": [
     {
       "type": "youtube",

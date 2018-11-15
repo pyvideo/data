@@ -1,6 +1,7 @@
 {
+  "abstract": "Presenting Pyccel, a source-to-source Python-Fortran, and DSL enabling\nHPC capabilities.\n\n*Tags:* Artificial Intelligence, Algorithms, Astronomy, Parallel\nProgramming, Programming, Python, Science\n\nScheduled on `wednesday 17:10 </schedule/#wed-17:10-cubus>`__ in room\ncubus\n",
   "copyright_text": null,
-  "description": "",
+  "description": "*Pyccel* is a new **static compiler** for Python that uses **Fortran**\nas backend language while enabling High-Performance Computing **HPC**\ncapabilities.\n\nFortran is a computer language for scientific programming that is\ntailored for efficient run-time execution on a wide variety of\nprocessors. Even if the *2003* and *2008* standards added major\nimprovements like *OOP, Coarrays, Submodules, do concurrent* , etc ...\nthey are not covered by all available compilers. Moreover, the Fortran\ndeveloper still suffers from the lack of **meta-programming** compared\nto **C++** ones. Therefore, it is more and more difficult for applied\nmathematicians and computational physicists to write applications at the\n*state of art* (targeting CPUs, GPUs, MICs) while implementing\ncomplicated algorithms or numerical schemes.\n\nPyccel can be used in two cases:\n\nIn order to achieve the second point, we developed an internal DSL for\n*types* and *macros*. The later is used to map sentences based on\n*mpi4py* , *scipy.linalg.blas or lapack* onto the appropriate calls in\nFortran. Moreover, two parsers, for *OpenMP* and *OpenACC* , were added\ntoo, allowing for explicit parallelism through the use of pragmas.\n\nLast but not least, Pyccel is an extension of **Sympy**. Actually, it\nconverts a Python code to symbolic expressions/trees, from a Full Syntax\nTree ( *RedBaron* ), then annotates the new AST using types or different\nsettings provided by the user.\n\nIn this talk, after a brief description of Pyccel, I will show different\napplications including Finite Elements (1d, 2d, 3d), Semi-Lagrangian\nschemes (4d), Kronecker linear solvers, diagnostics for 5D kinetic\nsimulations and Machine Learning for Partial Differential Equations.\n",
   "duration": 934,
   "language": "eng",
   "recorded": "2018-10-24",
@@ -10,10 +11,20 @@
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Dr. Ing. Ratnani Ahmed"
+  ],
+  "tags": [
+    "Artificial Intelligence",
+    "Algorithms",
+    "Astronomy",
+    "Parallel Programming",
+    "Programming",
+    "Python",
+    "Science"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/79FhJgy27bU/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Pyccel, A Fortran Static Compiler For Scientific HP Computing - Ratnani Ahmed",
+  "title": "Pyccel, a Fortran static compiler for scientific High-Performance Computing",
   "videos": [
     {
       "type": "youtube",

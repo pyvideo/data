@@ -1,19 +1,27 @@
 {
+  "abstract": "A very brief introduction to reinforcement learning theory followed by a\nhands on section in which it is demonstrated how to train an algorithm\nto play space invaders. After this talk you should now what\nreinforcement learning is and where to dig deeper if you like it.\n\n*Tags:* Deep Learning & Artificial Intelligence, Jupyter, Python,\nScience\n\nScheduled on `thursday 16:00 </schedule/#thu-16:00-media>`__ in room\nmedia\n",
   "copyright_text": null,
-  "description": "",
+  "description": "First things first: playing good old Atari games might be cool but why\nshould I write a program for doing it? Well teaching a computer to play\na game means teaching it to develop strategies and use foresight\nplanning to solve a certain problem. The tools you gather while solving\ni.e. space invaders are the same you may use to solve any problem which\nrequires a sequential set of decisions in order to find an optimal\nsolution to some problem, like i.e. controlling a robot that collects\ngarbage. Furthermore, there is a lot of scientific research on\nreinforcement learning that focuses on solving Atari games which makes\nit a good starting point, as large amounts of publications and open\nsource code already exists.\n\nWhat to expect from this talk? At first there will be a very short\nintroduction to reinforcement learning theory, just the very basics,\ncommon applications and some references for further reading. Next points\nare, how to run Atari games from inside python for a learning task (with\nOpenAI's gym), and where to find an algorithm for the actual learning\nproblem. Finally it will be shown how to build it all together in a\njupyter notebook and let the algorithm play the game. Et voil\u00e0 that's\nyour computer beating you in space invaders.\n",
   "duration": 1603,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-25",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "David W\u00f6lfle"
+  ],
+  "tags": [
+    "Deep Learning & Artificial Intelligence",
+    "Jupyter",
+    "Python",
+    "Science"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/2KfyvrEn8p8/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: How To Teach Space Invaders To Your Computer - David W\u00f6lfle",
+  "title": "How to teach space invaders to your computer",
   "videos": [
     {
       "type": "youtube",

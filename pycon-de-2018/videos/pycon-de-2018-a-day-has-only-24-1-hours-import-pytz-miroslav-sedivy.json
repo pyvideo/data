@@ -1,6 +1,7 @@
 {
+  "abstract": "Handle easily all those timezone issues your system knows about. Fear\nthose it doesn't.\n\n*Tags:* Data Science, Science\n\nScheduled on `wednesday 16:00 </schedule/#wed-16:00-media>`__ in room\nmedia\n",
   "copyright_text": null,
-  "description": "",
+  "description": "On the last Sunday of October \u201cwe get one more hour of sleep\u201d but may\nspend much more time debugging code dealing with the timezones, daylight\nsaving time shifts and datetime stuff in general.\n\nWe'll look at a few pitfalls you may encounter when working with\ndatetimes in Python. We'll discover the ``pytz`` module and explain why\n``pytz.all_timezones`` contains over 500 individual timezones. We'll\nalso find the reason why ``pytz`` is not part of the standard Python,\nwhy it gets updated so often and why even that won't solve all your\nproblems.\n",
   "duration": 1522,
   "language": "eng",
   "recorded": "2018-10-24",
@@ -10,10 +11,15 @@
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Miroslav \u0160ediv\u00fd"
+  ],
+  "tags": [
+    "Data Science",
+    "Science"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/IRGKlwkio0Y/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: A Day Has Only 24\u00b11 Hours: Import Pytz - Miroslav \u0160ediv\u00fd",
+  "title": "A Day Has Only 24\u00b11 Hours: import pytz",
   "videos": [
     {
       "type": "youtube",

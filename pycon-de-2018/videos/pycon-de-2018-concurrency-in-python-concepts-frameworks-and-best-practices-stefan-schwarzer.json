@@ -1,19 +1,26 @@
 {
+  "abstract": "This talk discusses: - concurrency concepts (e. g. atomicity, race\nconditions and deadlocks) - frameworks for concurrency and their use\n(``threading``, ``multiprocessing``, ``concurrent.futures``,\n``asyncio``) - higher abstractions, e. g. queues and active objects -\nbest practices for writing concurrent code\n\n*Tags:* Parallel Programming, Programming, Python\n\nScheduled on `friday 10:30 </schedule/#fri-10:30-lecture>`__ in room\nlecture\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Have you run in situations where concurrent execution could speed up\nyour Python code? Are you using a GUI toolkit?\n\nThis talk gives you the background to use concurrency in your code\nwithout shooting yourself in the foot - which is quite easy if you don't\nunderstand how concurrent execution differs from linear execution!\n\nThe presentation starts with explaining some concepts like concurrency,\nparallelism, resources, atomic operations, race conditions and\ndeadlocks.\n\nThen we discuss the commonly-used approaches to concurrency:\nmultithreading with the ``threading`` module, multiprocessing with the\n``multiprocessing`` module, and event loops (which include the\n``asyncio`` framework). Each of these approaches has its typical use\ncases, which are explained.\n\nYou can implement concurrency on a number of abstraction levels. The\nlowest level consists of primitives like locks, events, semaphores and\nso on. A higher abstraction level is using queues, typically with worker\nthreads or processes. Even higher abstraction levels are active objects\n(hiding primitives or queues behind an API; this includes \"actors\" if\nyou heard of them), the thread and process pools in\n``concurrent.futures`` and the ``asyncio`` framework. Finally, you can\n\"outsource\" concurrency by leaving it to a message broker, which is a\ndistinct process that receives and distributes messages.\n\nThe talk closes with some tips and best practices, mainly:\n",
   "duration": 2661,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-26",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Stefan Schwarzer"
+  ],
+  "tags": [
+    "Parallel Programming",
+    "Programming",
+    "Python"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/Do7JtnPh1Mg/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Concurrency In Python Concepts, Frameworks And Best Practices - Stefan Schwarzer",
+  "title": "Concurrency in Python - concepts, frameworks and best practices",
   "videos": [
     {
       "type": "youtube",

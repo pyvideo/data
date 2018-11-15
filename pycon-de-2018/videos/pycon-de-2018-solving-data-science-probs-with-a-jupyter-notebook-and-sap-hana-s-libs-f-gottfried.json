@@ -1,19 +1,28 @@
 {
+  "abstract": "During this talk we will present how a Data Scientist can work on\ndatasets stored in SAP HANA's Database leveraging in-database machine\nlearning libraries. Data will reside in the database and calcuations\nwith be pushed down to the DB minimizing data transfer to the client.\n\n*Tags:* Big Data, Data Science, Jupyter, Machine Learning, Visualisation\n\nScheduled on `thursday 16:35 </schedule/#thu-16:35-cubus>`__ in room\ncubus\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Companies store their data in databases with highly restricted access\nregulations. The latest regulatorily changes enforces the need to work\non the datasets in this controlled environment without created\nadditional external copies. However Data Scientists prefer to work with\ntools they are most familiar like Python, R and Jupyter Notebooks using\nto a large amount of open- source packages (numpy, matplotlib, pandas,\n..). SAP HANA provides highly optimized in-database machine learning\nlibraries. In this talk we will present how a Data Scientist can work in\nan environment he/she is most familiar with and access the data stored\nin SAP HANA using SAP HANA machine learning libraries with a\nscikit-learn type interface. Data will remain in the database and will\nbe exposed as dataframes (similar to Pandas dataframes). We will explain\nthe software architecture and present a complete end-to-end use case by\nusing a Jupyter Notebook.\n",
   "duration": 1750,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-25",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Dr Frank Gottfried"
+  ],
+  "tags": [
+    "Big Data",
+    "Data Science",
+    "Jupyter",
+    "Machine Learning",
+    "Visualisation"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/iHCxCgjbmW8/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Solving Data Science Probs With A Jupyter Notebook And SAP HANA's Libs - F. Gottfried",
+  "title": "Solving Data Science Problems using a Jupyter Notebook and SAP HANA's in-database Machine Learning Libraries",
   "videos": [
     {
       "type": "youtube",

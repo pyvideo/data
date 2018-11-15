@@ -1,6 +1,7 @@
 {
+  "abstract": "Selinon is a task flow manager that enhances Celery and gives you an\nability to create advanced task flows serving large workflows in your\ncluster.\n\n*Tags:* Big Data, Infrastructure, Parallel Programming, Programming,\nPython\n\nScheduled on `wednesday 14:50 </schedule/#wed-14:50-lecture>`__ in room\nlecture\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Have you ever tried to define and process complex workflows for data\nprocessing? If the answer is yes, you might have struggled to find the\nright framework for that. You've probably came across Celery - popular\ntask flow management for Python. Celery is great, but it does not\nprovide enough flexibility and dynamic features needed badly in complex\nflows. As we discovered all the limitations, we decided to implement\nSelinon.\n\nHave you ever tried to define and process complex workflows for data\nprocessing? If the answer is yes, you might have struggled to find the\nright framework for that. You've probably came across Celery - popular\ntask flow management for Python. Celery is great, but it does not\nprovide enough flexibility and dynamic features needed badly in complex\nflows. As we discovered all the limitations, we decided to implement\nSelinon.\n\nSelinon enhances Celery task flow management and allows you to create\nand model task flows in your distributed environment that can\ndynamically change behavior based on computed results in your cluster,\nautomatically resolve tasks that need to be executed in case of\nselective task runs, automatic tracing mechanism and many others.\n",
   "duration": 2726,
   "language": "eng",
   "recorded": "2018-10-24",
@@ -10,10 +11,18 @@
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Fridol\u00edn Pokorn\u00fd"
+  ],
+  "tags": [
+    "Big Data",
+    "Infrastructure",
+    "Parallel Programming",
+    "Programming",
+    "Python"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/UDr9Lp_0rp0/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Selinon - Dynamic Distributed Task Flows - Fridol\u00edn Pokorn\u00fd",
+  "title": "Selinon - dynamic distributed task flows",
   "videos": [
     {
       "type": "youtube",

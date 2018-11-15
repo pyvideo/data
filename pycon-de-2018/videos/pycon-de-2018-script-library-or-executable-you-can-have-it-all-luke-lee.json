@@ -1,6 +1,7 @@
 {
+  "abstract": "Sometimes a stand-alone script contains useful code to share across\nprojects so you refactor into an importable library. After that library\ngains traction some less tech-savvy users want the functionality in a\nGUI. It can be difficult for beginner or intermediate Python developers\nto structure a Python package that can provide a good interface to CLI\nusers, developers, and GUI lovers. This talk will describe one potential\nproject layout, API guidelines, and tools to easily grow a project to\nsupport all of these.\n\n*Tags:* Programming, Python\n\nScheduled on `wednesday 16:00 </schedule/#wed-16:00-lounge>`__ in room\nlounge\n",
   "copyright_text": null,
-  "description": "",
+  "description": "I will describe one possible way to achieve this using the following\nfeatures:\n\nWe want to create a package layout that can support a CLI interface, an\nimportable library, and a GUI all while sharing as much code as\npossible.\n\nAlthough text and graphical interfaces are very different we can provide\na consistent API with careful consideration. This way users can easily\nuse our library or either interface without starting all over again.\n\nFirst we will layout a single-file CLI script using argparse similar to\nthe Unix ``wc`` tool that takes a text file and outputs the following\ninformation:\n\nWe'll discuss the ``__name__ == __main__`` Python idiom, separating the\nargument parsing from the main function, and why keeping as little as\npossible in ``__main__`` is better for reusability.\n\nThere are several pros and cons to providing others with a single-file\nscript. It's easy to develop and simple to read, but it requires any\nuser to have the correct version of Python installed. It's also\ndifficult for other developers to reuse the code in their own projects\nor deploy to PyPI.\n\nNext we'll take our single-file script and expand it into a basic Python\npackage using a main folder, **init**.py, and a cli.py script to expose\nthe same CLI as before.\n\nWe'll discuss how to restructure the main and parsing functions from\nstep 1 into an public API defined by the **init**.py that exposes the\nsame CLI functionality as a library.\n\nWe won't dive into setup.py at all, but there will be links and a brief\ndescription on the various tools to layout a package such as\ncookiecutter and setup.py.\n\nThe `Gooey <https://github.com/chriskiehl/Gooey>`__ project can easily\nexpose a CLI as GUI with a few decorators. We'll discuss briefly how to\nuse Gooey and some of the extra functionality it provides to create more\nadvanced GUIs.\n\nWe'll also give a simple mental model for how it maps argparse argument\ntypes to GUI widgets.\n\nUntil step 3 all we required of users was a working Python 3\ninstallation. However, adding Gooey requires users to have a working\nPython installer, the Gooey library, and wxPython. Typically GUIs are\nmeant for higher-level users so asking them to install all of this to\nbenefit from our little app is too much.\n\nInstead we'll see how we run PyInstaller on our entry script to package\nup all our dependencies **including** Python itself into a simple\nexecutable. We'll briefly discuss the build and dist output folders from\nPyInstaller along with the ability to use it to package all sorts of\ncomplicated Python applications using Qt, Numpy, etc.\n\nEnd-users in management don't even have to know we used Python!\n",
   "duration": 1870,
   "language": "eng",
   "recorded": "2018-10-24",
@@ -10,10 +11,15 @@
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Luke Lee"
+  ],
+  "tags": [
+    "Programming",
+    "Python"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/7jpM1Iw3OKk/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Script, Library, Or Executable: You Can Have It All! - Luke Lee",
+  "title": "Script, Library, or Executable: You can have it all!",
   "videos": [
     {
       "type": "youtube",

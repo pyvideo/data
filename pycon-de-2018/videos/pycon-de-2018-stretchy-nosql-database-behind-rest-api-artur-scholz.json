@@ -1,19 +1,26 @@
 {
+  "abstract": "A dynamic REST API database. Think of \"elasticsearch\", but brutally\nsimple.\n\n*Tags:* Big Data, Data Science, Web\n\nScheduled on `thursday 15:25 </schedule/#thu-15:25-cubus>`__ in room\ncubus\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Stretchy is built as a microservice that provides a simple and intuitive\nREST API with a NoSQL database as backend. No need for database\nmigrations or upfront schema design. The basic CRUD (create, read,\nupdate, delete) operations are available for getting data in and out\nfrom the database.\n\nStretchy is free and open source software built with Python 3, using\nFlask web framework. It currently uses MongoDB as its backend database.\nSince it is interfaced through the REST API however, Stretchy is\ntechnology agnostic and developers can create bindings to other\ndatabases, including SQL databases.\n\nThis presentation reviews the reasons for creating Stretchy, its current\napplications, an short tutorial on how to use it, and tips on how to\ndeploy it.\n",
   "duration": 970,
   "language": "eng",
-  "recorded": "2018-10-24",
+  "recorded": "2018-10-25",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://de.pycon.org/schedule/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Artur Scholz"
+  ],
+  "tags": [
+    "Big Data",
+    "Data Science",
+    "Web"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/FzXejIzMQ30/maxresdefault.jpg",
-  "title": "PyCon.DE 2018: Stretchy - NoSQL Database Behind REST API - Artur Scholz",
+  "title": "Stretchy - NoSQL Database behind REST API",
   "videos": [
     {
       "type": "youtube",
