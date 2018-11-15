@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Depuis plusieurs ann\u00e9es, les outils de qualit\u00e9 ont \u00e9volu\u00e9s, les outils\nde CI sont de plus en plus scalables, les librairies d'\u00e9criture de tests\nsont plus nombreuses et ont bien m\u00fbries et de nouveaux outils sont\napparus pour am\u00e9liorer encore plus la qualit\u00e9 du code que l'on produit.\n\nN\u00e9anmoins, la plupart des outils de CI se contentent de lancer un script\net de v\u00e9rifier le code de retour, la plupart des librairies de tests\nnous imposent de choisir entre lancer l'ensemble de nos suites de tests\nou s'arr\u00eater pour voir le d\u00e9tail du test en \u00e9chec et enfin la plupart\ndes innovations des outils de CI, l'ex\u00e9cution en parall\u00e8le et\nl'ex\u00e9cution \u00e0 distance, n'ont pas encore trouv\u00e9 le chemin jusqu'au\nd\u00e9veloppeurs.\n\nComment am\u00e9liorer la situation ? Je vous pr\u00e9senterai l'un de mes\nprojets, LITF (https://github.com/Lothiraldan/litf) un nouveau format\nd'entr\u00e9e et de sortie pour les librairies de test et BALTO\n(https://github.com/lothiraldan/balto), un orchestrateur de tests\nutilisant ce nouveau format. BALTO est \u00e9crit en Python 3.6 / Asyncio et\nsupporte bien entendu Pytest comme premi\u00e8re librairie compatible.\n\nGr\u00e2ce \u00e0 ce nouveau format, BALTO peut ex\u00e9cuter plusieurs suites de tests\ndans des langages diff\u00e9rents, \u00e0 distance sur un clusteur Kubernetes et\nle tout en parall\u00e8le. En tout cas, c'est le but pour la version stable.\n",
+  "duration": 1527,
+  "language": "fra",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.pycon.fr/2018/program/"
+    }
+  ],
+  "speakers": [
+    "Boris Feld"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/eAT0o4YZf_Y/maxresdefault.jpg",
+  "title": "La r\u00e9volution dans le monde des tests",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=eAT0o4YZf_Y"
+    }
+  ]
+}

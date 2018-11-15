@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Contexte : J'ai commenc\u00e9 \u00e0 faire des cartes avec les donn\u00e9es INSEE\ndisponibles sur opendata il y a 2 semaines.\n\nJ'ai trouv\u00e9 quelques outils comme qGIS, mais ayant une machine\nasthmatique, j'ai fini par construire les cartes depuis rien, juste en\nregardant les fichiers sources, et les cartes SVG et c'est facile : tout\nle monde peut y arriver.\n\nC'est si simple avec les bons outils (python + SVG + HTML + matplotlib\net une connaissance minimale en math), que ce serait bien de rendre ce\nsavoir disponible pour tous.\n\nLa plupart des difficult\u00e9s techniques comme : un point est il dans un\npolygone ?\n\nQuel sont les points minimum et le maximum dans une carte ?\n\nSont r\u00e9solues simplement sans classe avec un outil mal aim\u00e9 de python :\nles nombres complexes.\n\n(Ceci au passage est un \"rant\" contre la classe point 2D qui est donn\u00e9e\nen exemple comme la classe pour apprendre, et une r\u00e9affirmation que les\nmaths sont une abstraction plus importante que l'objet.)\n\nDans un premier temps on va prendre un fichier source, le regarder, et\ntenter na\u00efvement de construire une carte.\n\nOn va rappeler *tr\u00e8s* rapidement ce qu'est un nombre complexe.\n\nOn va prendre un fichier de destination et le regarder, et sans\nconnaissance du SVG tenter de le construire.\n\nEnsuite on va utiliser matplotlib pour automatiser la coloration par\ngradient.\n\nOn va y arriver.\n\nOn va aussi d\u00e9couvrir une m\u00e9thode de r\u00e9solution des probl\u00e8mes de\ncontraste par \"non lin\u00e9arisation\" des niveaux de couleurs (tri ordonn\u00e9)\nqui marche \u00e0 quasiment tous les coups (merci les OrderedDict et les\nsets).\n\nOn va utiliser un algo simple pour trouver le polygone qui contient un\npoint et le mettre en \u0153uvre. Parler de distance et \u00e9viter en beaut\u00e9 le\nprobl\u00e8me des projections en cartographie car j'y connais rien.\n\nOn va peut \u00eatre comparer avec qgis en terme de vitesse pour la\ng\u00e9n\u00e9ration de carte SVG, et aux tutos disponibles sur internet, et se\ndire que \u00e7a vaut le coup de partager ce savoir.\n\nEnfin on va montrer que la complexit\u00e9 aff\u00e9rente \u00e0 \u00e9crire un cadricel\n\u00e9tant sup\u00e9rieure \u00e0 la 100 aine de ligne de codes pour faire le travail\nsans se fatiguer, c'est peut \u00eatre pas n\u00e9cessaire de faire un cadriciel.\n\nEt \u00e9videmment, je vais conclure sur les quaternions, et leur utilisation\npar les riggers dans l'industrie du jeu plut\u00f4t que les matrices pour la\n3D et souligner qu'on a des modules pour les quaternions en python,\nparce qu'on a une communaut\u00e9 de qualit\u00e9 avec des scientifiques qui\ncontribuent et que sans eux, ce serait bien plus dur de faire le kakou\nen 100 lignes de codes. Remercions aussi les initiatives d'opendata sans\nlesquelles on pourrait rien faire et rendons hommage \u00e0 la qualit\u00e9 de\ndonn\u00e9es si simple que leur mise en \u0153uvre est ais\u00e9e.\n\nEt voil\u00e0 comment on construit une carte de repr\u00e9sentation de donn\u00e9es\nsans rien y conna\u00eetre en cartographie. Parce qu'il y a des gars biens\nqui partagent les donn\u00e9es sans les \"obscurcir\" et d'autres leur code et\nqu'il y a une communaut\u00e9 au milieu pour mettre les savoirs en relation.\n",
+  "duration": 3228,
+  "language": "fra",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.pycon.fr/2018/program/"
+    }
+  ],
+  "speakers": [
+    "Julien Tayon"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-B5dIhaM9Lk/maxresdefault.jpg",
+  "title": "La cartographie c'est simple et \"complexe\"",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-B5dIhaM9Lk"
+    }
+  ]
+}

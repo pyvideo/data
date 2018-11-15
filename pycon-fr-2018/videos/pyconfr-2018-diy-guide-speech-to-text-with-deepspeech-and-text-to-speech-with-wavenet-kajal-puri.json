@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "After watching Google I/O 2018, one thing we've realized is that the\nvoice of the artificially intelligent system is going to be a\nsignificant interface to interact with a human, apart from the text. The\nresearch on speech-to-text has been going on since quite a few years\nafter we've taken a big leap on the Deep Learning approach. In this\ntalk, I'm going to talk mainly about the Mozilla's DeepSpeech open\nsource project to convert speech-to-text in Python.\n\nNow, the new problem at hand is how an artificially intelligent system\ncan give a human-like voice to the written text because when a human\nspeaks, there are a lot of intricacies in our speech that is so obvious\nfor the human brain. Expressions in our voice, where to give a pause,\nand accent etc are few important factors that play a big role in how\nhumans talk to each other. So, here I'm going to introduce WaveNet.\n\nThe talk will be divided in following four segments :\n\n-  0-5 minutes: The talk will begin with explaining the Speech-to-text\n   earlier existing libraries and which machine learning models they\n   used. Comparison of various libraries like Cloud speech-to-text by\n   Google, IBM Watson and DeepSpeech will be done\n-  5-25 minutes: DeepSpeech is based on Baidu's DeepSpeech research\n   paper. This model directly translates raw audio data into text -\n   without any domain specific code in between. I'll quickly brief about\n   the underlying deep learning architecture used in DeepSpeech. A short\n   live-demo will be given and the code, written in Python, will be\n   explained with the tips on hyper-parametric tuning to get the best\n   possible results.\n-  25-45 minutes: Now, the talk will switch to the latest research going\n   on in the field of Text-to-speech and how products like Alexa, Siri,\n   Google Assistant etc are leveraging this to behave like a human. The\n   deep learning architecture of WaveNet, open sourced by Google's\n   DeepMind, will be discussed followed by the live-demo and explaining\n   the code written in Python.\n-  45-50 minutes: For QA session.\n",
+  "duration": 2144,
+  "language": "eng",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.pycon.fr/2018/program/"
+    }
+  ],
+  "speakers": [
+    "Kajal Puri"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/t5KPy5Nw1Z0/maxresdefault.jpg",
+  "title": "DIY guide to convert Speech-to-text with DeepSpeech AND Text-to-speech with WaveNet",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=t5KPy5Nw1Z0"
+    }
+  ]
+}

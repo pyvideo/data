@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "A talk on a technological iteration journey: replacing MongoDB + Hive by\nScyllaDB in production to meet the requirements of business critical\nwork loads.\n\nI will share my recent experience in migrating our most intensive and\nJOIN hungry production work load from MongoDB + Hive to ScyllaDB.\n\nThis work and iteration allowed us to JOIN billions of rows in seconds\nwhile drastically reducing operation and development complexity by using\none database (ScyllaDB) instead of two (MongoDB + Hive).\n\nScyllaDB is a C++ drop-in replacement of Cassandra that proved that its\ndesign was up to the challenge by squeezing every bit of performance\nfrom hardware. We will cover the approach and key aspects of this NoSQL\ndatabase.\n\nI will finally present the results of the benchmarks between Dask and\nSpark and highlight their differences and what we learned along the way.\n\nDraft of the agenda\n\n-  Business context and work load details\n-  Problems and limitations in handling this work load using MongoDB +\n   Hive\n-  How we conducted a thorough evaluation of ScyllaDB to replace MongoDB\n   + Hive\n-  How we ended up challenging Spark with Dask\n-  Lessons learned and production feedback\n",
+  "duration": 3350,
+  "language": "eng",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.pycon.fr/2018/program/"
+    }
+  ],
+  "speakers": [
+    "Alexys Jacob"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DUDaXiuwkkM/maxresdefault.jpg",
+  "title": "My journey into joining billions of rows in seconds with ScyllaDB",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DUDaXiuwkkM"
+    }
+  ]
+}

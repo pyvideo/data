@@ -1,0 +1,26 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Notre \u00e9quipe, compos\u00e9e de 4 d\u00e9veloppeurs chez OVH, travaille depuis\nplusieurs mois sur un projet nomm\u00e9 DEPC (Dependency Checker).\n\nCet outil, compos\u00e9 d'une API et d'une WebUI, offre 2 fonctionnalit\u00e9s\nprincipales :\n\n-  manager un graphe de d\u00e9pendances entre les services d'OVH via la base\n   de donn\u00e9es Neo4j,\n-  calculer la QOS de chaque noeud du graphe en fonction de metrics\n   h\u00e9berg\u00e9es sur des bases de donn\u00e9es TimeSeries.\n\nL'outil a \u00e9t\u00e9 initialement d\u00e9velopp\u00e9 avec Flask et SQLAlchemy, mais\nquelques probl\u00e8mes de performance, li\u00e9 \u00e0 des soucis de scaling Celery,\nnous ont pouss\u00e9s \u00e0 le migrer vers une solution asynchrone. Nous sommes\ndonc parti sur Asyncio via le framework Sanic, en combinaison avec Gino\npour l'acc\u00e8s \u00e0 la base de donn\u00e9es.\n\nLe sujet de cette conf\u00e9rence portera sur ce retour d'exp\u00e9rience : nous\naborderons les gains de performances par rapport \u00e0 l'ancienne stack,\nmais \u00e9galement les probl\u00e8mes que nous avons rencontr\u00e9s durant la\nmigration.\n",
+  "duration": 3343,
+  "language": "fra",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.pycon.fr/2018/program/"
+    }
+  ],
+  "speakers": [
+    "Nicolas Crocfer",
+    "Anthony Olea"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/hVGsDIkiChA/maxresdefault.jpg",
+  "title": "Calculer la QOS de vos infrastructures avec Asyncio",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hVGsDIkiChA"
+    }
+  ]
+}

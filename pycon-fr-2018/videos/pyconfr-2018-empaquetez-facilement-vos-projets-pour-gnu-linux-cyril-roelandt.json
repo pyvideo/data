@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "De nos jours, la plupart des langages fournissent leur propre\ngestionnaire de paquets (pip, gem, etc.) ainsi que leur propre archive\nde paquets (PyPI, RubyGems, etc.). Il existe \u00e9galement de nombreuses\ndistributions GNU/Linux (Debian, Fedora, etc.) et \\*BSD (FreeBSD,\nOpenBSD, etc.).\n\nLes empaqueteurs doivent convertir les paquets \"upstream\" (disponibles\ndans les archives de paquets des langages) en paquets \"downstream\" (les\npaquets de nos distributions). Divers outils ont \u00e9t\u00e9 \u00e9crits pour les\naider dans ce travail quelque peu fastidieux : on trouve ainsi pypi2rpm,\ngem2rpm, pypi2deb, url2pkg, portgen, pytoport et bien d'autres. Tous ces\noutils ont une interface et un comportement diff\u00e9rents. Ils\nr\u00e9impl\u00e9mentent tous du code similaire : lire des m\u00e9tadonn\u00e9es depuis les\narchives de paquets, et \u00e9crire des paquets Debian/RPM/etc.\n\nDurant cette pr\u00e9sentation, je pr\u00e9senterai upt (Universal Packaging Tool,\ndisponible \u00e0 https://framagit.org/upt/upt), un outil modulaire combinant\ndes \"lecteurs\" (qui lisent les m\u00e9tadonn\u00e9es) et des \"\u00e9crivains\" (qui\n\u00e9crivent les paquets Debian/RPM/etc.) gr\u00e2ce \u00e0 une repr\u00e9sentation\ninterm\u00e9diaire unifi\u00e9e des paquets. Je le comparerai \u00e0 des projets\nsimilaires et montrerai comment ajouter facilement le support pour votre\nlangage ou votre distribution pr\u00e9f\u00e9r\u00e9.\n",
+  "duration": 1558,
+  "language": "fra",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://www.pycon.fr/2018/program/"
+    }
+  ],
+  "speakers": [
+    "Cyril Roelandt"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/znCzyVujRCY/maxresdefault.jpg",
+  "title": "Empaquetez facilement vos projets pour GNU/Linux et *BSD !",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=znCzyVujRCY"
+    }
+  ]
+}
