@@ -145,7 +145,8 @@ Even in the case of proper nouns or brand names, tag strings should be lowercase
 Examples:
 
 -  `docker`
--  `lightning talk`
+-  `lightning talks`
+-  `keynote`
 -  `continuous integration`
 
 
