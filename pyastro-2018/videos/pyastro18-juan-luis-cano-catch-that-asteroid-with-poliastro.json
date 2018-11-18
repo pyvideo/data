@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "`poliastro`_ is a Python library for Astrodynamics focused on interplanetary trajectories, interactive visualization and user friendliness. It features core algorithms like propagation (Kepler problem), orbit determination (Lambert problem), orbital maneuvers computation (Hohmann, bielliptic) and conversion between classical, equinoctial and cartesian orbital elements. It also ships simple methods for orbit plotting and makes heavy use of astropy.units, astropy.time and astropy.coordinates for correctness.\n\nIn this talk I will present benchmarks of some poliastro algorithms accelerated with numba against its FORTRAN counterparts, review its interactive plotting capabilities and comment about the validation strategies used for the algorithms.\n\n.. _poliastro: http://docs.poliastro.space/\n",
   "duration": 1174,
   "language": "eng",
   "recorded": "2018-04-30",
@@ -8,14 +8,20 @@
     {
       "label": "Conference web",
       "url": "http://openastronomy.org/pyastro/2018/"
+    },
+    {
+      "label": "poliastro",
+      "url": "http://docs.poliastro.space/"
     }
   ],
   "speakers": [
-    "TODO"
+    "Juan Luis Cano"
   ],
-  "tags": [],
+  "tags": [
+    "poliastro"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/95EmSoUdKR0/maxresdefault.jpg",
-  "title": "PyAstro18 - Juan Luis Cano - Catch that asteroid with poliastro",
+  "title": "Catch that asteroid with poliastro",
   "videos": [
     {
       "type": "youtube",
