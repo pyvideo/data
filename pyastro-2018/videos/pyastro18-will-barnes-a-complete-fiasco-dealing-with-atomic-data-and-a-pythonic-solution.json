@@ -1,0 +1,35 @@
+{
+  "copyright_text": null,
+  "description": "Atomic data is used ubiquitously throughout the astrophysics and\nastronomy community. Whether it is performing radiative transfer\ncalculations in a protoplanetary disk or interpreting observed spectra\nin the solar corona, observers and modelers alike rely heavily on vast\namounts of detailed atomic data. These databases, which contain data\nfrom both laboratory experiments and large simulation codes, are often\ndifficult to access, have no common format, and require a great deal of\neffort (and funding) to assemble. One such example is the `CHIANTI\natomic database`_ which has been maintained continuously since 1995 and\nis heavily used by solar physicists. Recently I\u2019ve begun work on a\npackage called `fiasco`_ (the Italian name for the style of bottle used\nto store a Chianti wine) which provides a high-level interface to the\nCHIANTI database. In this talk, I\u2019ll discuss the difficulties of working\nwith this data, the software and techniques used to parse the data, and\nthe high-level interface. Additionally, and most importantly, I will\ndiscuss the possible use of fiasco as a general interface to any atomic\ndatabase and how this might extend the usefulness of the package into\nthe general astronomy community. My hope is that this last point in\nparticular will generate much discussion and interest in how to improve\nprogrammatic interfaces to this type of data.\n\n.. _CHIANTI atomic database: http://www.chiantidatabase.org/\n.. _fiasco: https://github.com/wtbarnes/fiasco\n",
+  "duration": 1148,
+  "language": "eng",
+  "recorded": "2018-04-30",
+  "related_urls": [
+    {
+      "label": "Conference web",
+      "url": "http://openastronomy.org/pyastro/2018/"
+    },
+    {
+      "label": "fiasco repository",
+      "url": "https://github.com/wtbarnes/fiasco"
+    },
+    {
+      "label": "CHIANTI atomic database",
+      "url": "http://www.chiantidatabase.org/"
+    }
+  ],
+  "speakers": [
+    "Will Barnes"
+  ],
+  "tags": [
+    "fiasco"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7_Nr700kBME/maxresdefault.jpg",
+  "title": "A Complete fiasco - Dealing with Atomic Data and a Pythonic Solution",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7_Nr700kBME"
+    }
+  ]
+}

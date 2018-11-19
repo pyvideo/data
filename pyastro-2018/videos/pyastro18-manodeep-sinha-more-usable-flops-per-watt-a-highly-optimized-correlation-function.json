@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Galaxy clustering is determined by a combination of cosmological parameters, non-linear gravitational collapse, and the physics of galaxy formation. Consequently, comparing the observed and predicted correlation functions provides a stringent test for galaxy formation theories as well as precise values of cosmological parameters. However, quantifying the clustering strength requires computing pair-wise separations -- an inherently quadratic process. Since large galaxy surveys, and consequently the theoretical models, contain millions of galaxies, computing the correlation function becomes a bottleneck in the analysis pipeline. With upcoming surveys like Large Synoptic Survey Telescope and the Square Kilometre Array (SKA), the number of detected sources will increase many-folds, and will exacerbate the bottleneck. I will show that software tuned to the underlying CPU hardware can speed up the calculation by almost two orders of magnitude. For modern CPUs, such a tuning involves proper utilization of the cache hierarchy, vectorized code targeting the Single Instruction Multiple Data (SIMD) capable wide vector registers as well as many-core parallelization. Here I present Corrfunc -- a suite of OpenMP-parallelized clustering codes that exploit current CPU micro-architecture with custom Advanced Vector Extensions (AVX) and Streaming SIMD Extensions (SSE) intrinsics. Corrfunc can compute a variety of correlation functions for source positions in either a Cartesian geometry (i.e., generated from cosmological simulations) or for positions on the sky. The algorithm within Corrfunc can be easily adapted to a variety of different measurements and has already been implemented for nearest neighbour searches, group finding in galaxy surveys, weak lensing measurements etc. By design, Corrfunc is highly optimized and can compute wprp for mathcal{O}(1 million) galaxies in ~ 6 seconds on a post-2011 CPU, which is at least a factor of few faster than existing public correlation function routines. Corrfunc is covered by a suite of tests, extensive documentation and is publicly available at https://github.com/manodeep/Corrfunc.\n",
+  "duration": 1191,
+  "language": "eng",
+  "recorded": "2018-04-30",
+  "related_urls": [
+    {
+      "label": "Conference web",
+      "url": "http://openastronomy.org/pyastro/2018/"
+    },
+    {
+      "label": "Corrfunc repository",
+      "url": "https://github.com/manodeep/Corrfunc"
+    }
+  ],
+  "speakers": [
+    "Manodeep Sinha"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OHbOncVRgFE/maxresdefault.jpg",
+  "title": "More Usable Flops per Watt - A Highly-optimized Correlation Function",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OHbOncVRgFE"
+    }
+  ]
+}
