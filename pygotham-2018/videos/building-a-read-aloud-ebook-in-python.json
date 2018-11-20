@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "This is a project by Binod Gyawali, Beata Beigman Klebanov, and Anastassia Loukina.\n\nNowadays books are increasingly consumed not only through reading but also through listening. But what does it take to create an eBook where the reader can switch between the two modalities? In this talk we describe how Python can be used to apply NLP and speech processing technologies to combine an existing eBook in EPUB format and an audio book into a single Read Aloud book. The system we developed uses Python libraries to read the EPUB file contents, NLP methods to process the content, open-sourced speech processing tools (Kaldi-based forced alignment) to align the audio files with the eBook content, and finally creates a Read Aloud book using the alignment information, EPUB content, and the audio files. We use the ebooklib Python library (with some updates to add Read Aloud EPUB generation functionality) to generate the final Read Aloud book. \n\nWe'll conclude with a demonstration of a Read Aloud eBook and showcase an educational application which uses such a book. In this application a student alternates between listening to audiobook and reading aloud. During listening, the text of the book is highlighted along with the audio playback to help students follow along with the narration and maintain focus. \n\nThe talk will be an informative talk with no coding involved.  We will discuss the system to generate the Read Aloud eBook, show the demo of the book and discuss the challenges that we faced in the process. The targeted audience will be beginner level. Though we do not require the audience to have any prior understanding of eBook structure or forced alignment, familiarity with these would be an advantage.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    "https://2018.pygotham.org/talks/building-a-read-aloud-ebook-in-python/"
+  ],
+  "speakers": [
+    "Max Schwartz"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/yEjVo_JdxdI/maxresdefault.jpg",
+  "title": "Building a Read Aloud eBook in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/yEjVo_JdxdI"
+    }
+  ]
+}
