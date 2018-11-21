@@ -1,0 +1,24 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "`git` is a powerful tool with a confusing interface. Many struggle with commands beyond `git add`, `git commit`, `git pull`, and `git push`, because the underlying model for `git` is poorly communicated. But once a user has a thorough understanding of `git` internals, the reasoning behind its (admittedly rough) interface becomes much clearer, and the path to mastery becomes clear.\n\nRather than present the internals of `git` through dry explanation, this talk explains the internals of `git` through live coding and live interaction with a `git` repo. Our goal: to write a minimal `git` client from scratch without the help of any \"heavy\" libraries like `libgit2`. Instead, we'll cover the contents of `./.git`, how to interact with them, the \"theory\" behind `git` (e.g., what does it mean that `git` is an immutable, content-addressible store?), and slowly develop a tool to do basic `git` operations.",
+  "duration": 1800,
+  "language": "eng",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    "https://2018.pygotham.org/talks/write-a-git-client-from-scratch/"
+  ],
+  "speakers": [
+    "James Powell"
+  ],
+  "tags": [
+    ""
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/xvzo_nV9PjU/maxresdefault.jpg",
+  "title": "Write a Git Client from Scratch",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/xvzo_nV9PjU"
+    }
+  ]
+}
