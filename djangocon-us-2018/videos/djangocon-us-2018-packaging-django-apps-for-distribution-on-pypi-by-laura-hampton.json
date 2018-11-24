@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "One of the strengths of Django is that it allows you to use apps created\nby other developers, so you don\u2019t have to spend time rewriting something\nthat someone else has already written. However, creating Python packages\nfor distribution via the Python Package Index is a process that is\nunfamiliar to most developers. In this talk, you will learn about\ncreating a reusable Django app. The talk will cover how a Django app\ndiffers from a package like requests, and how an app interacts with\nmodels and URLs in an existing project.\n\nWhile the talk will include a discussion of how to upload a Django app\nto PyPI, the parts that discuss how to make reusable Django apps will be\nuseful to developers who are working at organizations where they may not\nbe able to open-source their code.\n\nThis talk is intended for Django developers who have some familiarity\nwith how Django works, and an interest in code reuse and packaging.\n\nOutline\n\n-  Introduction (3 min)\n\n   -  the difference between a Django app and a utility package (like\n      Requests)\n   -  the relationship between a Django project and an app\n\n-  How the packaging considerations for a Django app differ from a\n   utility package (4 min)\n\n   -  ``requirements.txt`` versus ``setup.py``: how they are different\n\n-  How a packaged Django app is structured (3 min)\n\n   -  including documentation in the package\n\n-  Creating a Django app for packaging (10 min)\n\n   -  considerations for making reusable Django apps\n   -  interacting with existing models and data\n   -  interacting with URLs\n\n-  Creating a source archive and wheel and uploading it with twine (5\n   min)\n\n   -  use ``test.pypi.org`` before uploading your package to\n      ``pypi.org``\n",
   "duration": 1146,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-15",
   "related_urls": [
     {
       "label": "Conference schedule",

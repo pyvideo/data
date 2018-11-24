@@ -1,13 +1,17 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "A common set of considerations when planning to release a new\napplication are around hosting and resources:\n\n1. Which platforms will support my app?\n2. What OS should I use?\n3. What WSGI server should I use?\n4. How much memory and CPU do I need?\n\nZappa, a framework for running serverless WSGI applications on top of\nAWS Lambda, can help address these and other questions around\napplication deployment. With some configuration (as code), Zappa can get\nyou up and running quickly, letting you focus on developing the\napplication instead of the infrastructure.\n\nIn this talk we\u2019ll go through some of these kinds of questions to see\nhow they might be answered in traditional solutions and then see how\nZappa handles them. We\u2019ll also talk about a few specific configuration\noptions for handling SSL certificates and running Django commands on the\nZappa-deployed application.\n",
   "duration": 1457,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-16",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.djangocon.us/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://speakerdeck.com/daneah/serverless-django-with-zappa"
     }
   ],
   "speakers": [

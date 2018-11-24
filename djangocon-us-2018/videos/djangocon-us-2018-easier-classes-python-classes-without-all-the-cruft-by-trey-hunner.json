@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "When bundling up data, sometimes tuples and dictionaries don\u2019t quite cut\nit. Python\u2019s classes are powerful tools for data storage and\nmanipulation, but it can take quite a bit of boilerplate code to make a\nwell-behaved Python class. In this talk we\u2019re going to discuss how a\nwell-behaved class should work and take a look at a number of helper\nlibraries for creating well-behaved classes.\n\nWe\u2019ll first see how to make classes with proper string representations,\ncomparability, iterability, and immutability. Then we\u2019ll dive into\nhelper tools built-in to the standard library and available in\nthird-party libraries and briefly discuss which of these tools makes\nsense to use with Django\u2019s classes.\n\nWe\u2019ll look at namedtuple, NamedTuple (not a typo), attrs, and the new\nPython 3.7 dataclasses.\n\nMost of the libraries discussed in this talk are only available in\nPython 3, so if you\u2019re not using Python 3, hopefully this talk will\nencourage you to upgrade.\n",
   "duration": 1298,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-17",
   "related_urls": [
     {
       "label": "Conference schedule",

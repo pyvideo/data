@@ -1,13 +1,17 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "You have got this super awesome REST API served through Django/DRF based\nproject and suddenly these requirements come in:\n\nWe need to have a local support for the Chinese language!\n\nIn case, you\u2019ve not written your application with localization and\ninternationalization in mind, then \u201cBoy! You\u2019re in danger! You should\nbetter start praying to almighty to give you strength and endurance to\nsupport yet another language in your app\u201d.\n\nIn this talk, we\u2019ll see how do we support localization and serve our app\nin different languages, based on what language the client wants to\ncommunicate in. As a backend, we should be language agnostic and allow\nall clients to communicate with us in one of the languages we support.\n\nWe\u2019ll see how to support translation for static data (using makemessages\n/ compilemessages) and dynamic data, using various third-party services\nsuch as django-translations and transifex.\n\nHere, static data is translations for all the fields, error messages\netc. that the app already has and dynamic data is the custom data input\nby the user in the app.\n\nThis would enable you to have your admin panel, as well as RESTful APIs,\nserved in different languages.\n",
   "duration": 1506,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-15",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.djangocon.us/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://speakerdeck.com/curiouslearner/becoming-a-mutltilingual-superhero-in-django-v2-dot-0"
     }
   ],
   "speakers": [

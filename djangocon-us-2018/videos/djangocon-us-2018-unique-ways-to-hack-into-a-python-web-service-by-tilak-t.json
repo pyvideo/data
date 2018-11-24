@@ -1,13 +1,17 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Python covers a significant portion of the present day Web services\nlandscape because of frameworks like Django, Flask, CherryPy etc. Many\nHighly Scalable services are built on one or more of these frameworks.\n\nHowever, there is a perception among developers that these frameworks\nprotected all classes of Web attacks and the OWASP Top 10\nvulnerabilities. This is because of the inherent middleware that has\nbattle-tested controls against some common vulnerabilities like CSRF,\nSQL Injection, and XSS. However, I have observed that many Python devs\ndo not watch out for lesser- known vulnerabilities that seem to be rife\nin many Python Web Apps. For instance, in more recent security tests\nagainst Python Web Services that our team executes, I find that\nvulnerabilities like Insecure Deserialization, XML External Entities,\nServer-Side Template Injection and Authorization Flaws are quite\nprevalent.\n\nAs a developer (largely of Python Web Apps), I find that there are some\nsimple steps that engineering teams can take towards finding and fixing\nsuch vulnerabilities with Python Web Services built on Django and Flask.\nMy talk is meant to be a holistic perspective on finding and fixing some\nuncommon flaws in Python Web Apps. The talk will be replete with\nmultiple demos, anecdotes, and examples of secure and insecure code in\nPython. I will also delve into SAST and DAST techniques (AST and ZAP\nCustom Scripts) to identify such flaws in python web applications.\n\nThe example repository will be available on GitHub for the community to\nuse.\n",
   "duration": 2598,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-17",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.djangocon.us/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://www.slideshare.net/tilaknairmelpal/unique-waytohackintoapythonwebservice-119972991"
     }
   ],
   "speakers": [

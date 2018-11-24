@@ -1,13 +1,17 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "What does it take to build a web application that can serve millions of\nconcurrent users? This talk will dissect Open edX, the open source\nonline learning platform that powers edX.org and hundreds of other sites\naround the world.\n\nOpen edX is written in Django but relies on a slew of other software to\nwork at scale. We\u2019ll break down the components of the entire software\narchitecture, and explain how each component is used. This will give\nattendees some insights into how they might architect their web\napplication if they\u2019re building software to serve a large audience.\n\nWe\u2019ll discuss how Open edX utilizes both MySQL and MongoDB as data\nstores and why it uses MySQL for student data and MongoDB for course\ndata. We\u2019ll describe the queing architecture of Celery and RabbitMQ to\nprocess background jobs, and Hadoop for processing terabytes of learner\nanalytics data.\n\nDevOps enthusiasts will not be disappointed as we\u2019ll go into the use of\nAnsible and Terraform for deploying the entire suite of software in a\nconsistent and repeatable way up to popular cloud providers such as AWS,\nGoogle Cloud and Azure.\n\nWhat will attendees learn? The attendees will get a close look at a\nmodern Django-based web application to see how it\u2019s architected, and\ncome away with a better understanding of design decisions when building\na web application that needs to serve 35M users from every country in\nthe world. Attendees will also be equipped with the knowledge to run\nOpen edX on their laptop or in the cloud, if they want to explore the\nsoftware further.\n",
   "duration": 2004,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-17",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.djangocon.us/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://www.slideshare.net/nateaune/anatomy-of-open-edx-at-djangocon-2018-san-diego"
     }
   ],
   "speakers": [
@@ -15,7 +19,7 @@
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/7BBvxn4o_uE/maxresdefault.jpg",
-  "title": "Anatomy of Open edX - a modern online learning platforms...",
+  "title": "Anatomy of Open edX - a modern online learning platform serving over 35 million users",
   "videos": [
     {
       "type": "youtube",
