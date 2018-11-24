@@ -1,13 +1,17 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Task Queues is a topic which most developers will eventually have to\ndive into, specially in today\u2019s web development world. The idea is\nreally simple: whenever one has any functionality which might take too\nlong to perform, one can spawn a process which will take care of this\nfunctionality without having to block the app\u2019s main loop. A task queue\nwill use worker processes to execute these long-running tasks and the\nuser does not have to wait until the task is done. Instead, an\nacknowledged message is presented to de user while the task is executed\nin the background. This concept is really important when building web\napplications. HTTP Requests have timeout and making the user wait a long\ntime for something to finish is not a good user experience practice.\nUsually, these tasks are used in groups creating a workflow where the\nwork is distributed into smaller tasks.\n\nCelery is usually the first project one encounters when searching for\ntask queues and Django. I have been using Celery for over four years.\nThe Celery project is one of the most robust task queues out there. It\nis certainly not the only task queue. And, it can be difficult planning\nthe correct architecture for a specific workflow. This talk will explain\nenough of Celery\u2019s basics to understand how to build workflows with\nCelery.\n\nBuilding workflows with Celery is never straight forward. This is mainly\nbecause Celery offers the building blocks to build workflows but it\ntries to move out of the way. By not being too intrusive, Celery allows\nbuilding complex workflows. I will explain common patters and tips to\nsuccessfully use celery to build workflow of different complexities.\n\nOutline\n=======\n\n1. Introduction\n\n   1. Basics of Celery\u2019s architecture\n   2. Caveats when using Celery\n\n2. Workflows\n\n   1. What are Workflows and why use them\n   2. Celery\u2019s building blocks\n   3. Common workflows techniques\n   4. Real World Example\n\n3. Tips and Tricks\n\n   1. Caveats\n   2. Testing\n   3. Local development\n   4. Using Celery in production\n",
   "duration": 1421,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-15",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.djangocon.us/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://docs.google.com/presentation/d/1muDz5nzOTbXTi8rQX4n7B-8bQOMPUry5nJK0xfY8jWM/edit"
     }
   ],
   "speakers": [

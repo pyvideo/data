@@ -1,13 +1,17 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Docker or more generally, containers, are great for lots of use cases,\nbut they don\u2019t come for free. Container runtimes, network\nvirtualization, orchestration platforms, and registries are all added to\nthe stack. Like all software, they bring their own bugs and operational\nburden with them. For most Django sites, containers are a heavyweight\nsolution to a lightweight problem.\n\nDespite the overhead, Docker gets a lot of things right. It makes it\neasy to generate an image of your application in a known state, test the\nimage, pull the image down to your server, apply a specific\nconfiguration environment, and run it in a secure sandbox.\n\nBut guess what? We can do all that without Docker! Using mostly \u201cboring\u201d\nsoftware that is already a part of your server or development\nenvironment. I\u2019ll walk you through each step of the pipeline and show\nyou how to:\n\n-  Generate immutable deployment artifacts\n-  Test the artifact\n-  Deploy the artifact\n-  Sandbox your application to improve security\n-  Quickly rollback to a previous version\n",
   "duration": 2301,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-15",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.djangocon.us/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://speakerdeck.com/ipmb/containerless-django"
     }
   ],
   "speakers": [

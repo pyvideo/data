@@ -1,13 +1,17 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "There\u2019s a good practice that says \u201ca database is a representer of\nfacts\u201d. If there\u2019s more than one way to extract a single fact from the\ndatabase, then there\u2019s a redundancy in it. Every redundancy can cause\ndifferent anomalies in the data, which in turn cause bugs in the\napplication. To avoid that, there\u2019s a process called normalization,\nwhich involves following sets of rules to restructure the database to\nremove redundancies without losing the original facts. The traditional\nset of normalization rules are the so-called Normal Forms: First Normal\nForm, Second, Third, etc. Unfortunately, those are frequently overlooked\nby developers due to their excessive formalism. But in fact, even the\nNormal Forms aren\u2019t enough to avoid anomalies, since they\u2019re concerned\nabout redundancies only in a single table\\*. Since cross-table\ndependencies are very common in modern applications, we must go beyond\nnormal forms to prevent problems.\n\nIn this talk, we\u2019ll present normalization rules on a friendly language,\ngoing beyond normal forms. We\u2019ll understand how the software\nrequirements cause dependencies in database tables, both in-table and\ncross-tables. We\u2019ll show real examples of non-trivial dependencies that\nhappen on Django models. We\u2019ll discuss how normalization prevents\nredundancies, inconsistencies, anomalies, and bugs. Knowing that\nnormalization can cause slowdowns in queries, we\u2019ll present how to\nincrease performance with denormalization, which is not the same of not\nnormalizing. Instead, denormalization means being able to represent data\nin multiple ways to speed up queries without introducing\ninconsistencies. We\u2019ll discuss Django-related denormalization tools that\nuse cronjobs, indexes, caching, materialized views and triggers, and\nNoSQL.\n\n-  *It\u2019s common to ignore the fact that normal forms only discuss\n   redundancies inside a single table/record/relval. More about this\n   in\\ `this article <http://www.bkent.net/Doc/simple5.htm#label6>`__\n   reviewed by Codd, Fagin and Date, key figures of the relational\n   model.*\n\nHere\u2019s the planned outline:\n\n-  [1 minute ] Who am I.\n\n-  [6 minutes] Explaining normalization without normal forms formalism:\n\n   -  Defining Normalization.\n   -  Normalization with only two concepts: Candidate Keys and\n      Dependencies.\n   -  Normalization Rule: every field must provide a fact about the\n      whole candidate key and nothing but the key.\n   -  Violating the Rule: denormalized example, along with anomalies it\n      has.\n   -  Prevent anomalies with a solution based on the Rule.\n   -  Setting a Candidate Key in Django: unique\\_together. Concurrency\n      issues without unique\\_together.\n\n-  [4 minutes] How that\u2019s relevant for Django? Doesn\u2019t modeling with the\n   ORM kind of solves that?\n\n   -  Tricky case of field migration.\n   -  Tricky case of historical field.\n\n-  [4 minutes] What about cross-table dependencies?\n\n   -  A good practice: \u201cDatabase is Representer of Facts\u201d. If there\u2019s\n      more than one way to extract a single fact from the database,\n      there\u2019s a redundancy. If it\u2019s possible to compute a field value by\n      looking only for other table fields, there\u2019s a redundancy.\n   -  Solution: compute at DB-level and query-time using query\n      expressions, conditional expressions and database functions.\n\n-  [1 minutes] What about performance?\n\n   -  Certain facts are naturally expensive to compute.\n   -  But design can\u2019t be thought a priori to solve them. Performance is\n      easier to solve than imprecision.\n   -  Therefore: \u201cNormalize until it hurts; denormalize until it works\u201d.\n      To denormalize you have first to normalize.\n\n-  [3 minutes] How to denormalize?\n\n   -  Separate concerns: OLTP vs. OLAP. Transactional data vs.\n      Analytical data.\n   -  Easy way: aggregation queries + extra denormalized models +\n      cronjob.\n\n-  [6 minutes] Other less trivial ways to denormalize:\n\n   -  Indexes\n   -  Caching\n   -  Materialized Views\n   -  Triggers\n   -  SQL + NoSQL\n",
   "duration": 1455,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-16",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.djangocon.us/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "http://bit.ly/django-norm"
     }
   ],
   "speakers": [
@@ -15,7 +19,7 @@
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/01Hm2-NAM3w/maxresdefault.jpg",
-  "title": "\"Normalize until it hurts; denormalize until it works\"...",
+  "title": "\"Normalize until it hurts; denormalize until it works\" in Django",
   "videos": [
     {
       "type": "youtube",

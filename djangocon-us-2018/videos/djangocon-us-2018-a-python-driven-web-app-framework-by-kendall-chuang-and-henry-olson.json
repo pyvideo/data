@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "At our company, we have faced a monumental task: designing a simple\nframework for data scientists to create powerful, dynamic web\napplications using only Python. In order to utilize the power of our\nmachine-intelligence platform, we need to be able to quickly generate\nweb applications to cater to different client solutions. We wanted to\nmove standard data analysis workflows out of the command line, and into\nsleek, modern web apps that allow for dynamic construction of charts,\ntables, and other visualizations.\n\nOur talk will focus on how we addressed this problem statement with the\ndevelopment of an application framework built on Django, Channels, and\nReact. We picked these technologies for several reasons. Django is\nalready an incredibly powerful web framework, and we realized very early\non that we could use Django Models, Forms, and Form Validation to serve\nas the core of our backend. However, we opted to take a different\napproach than server-side rendering, and opted to utilize React on the\nfrontend to display large trees of dynamically-generated components.\n\nTo connect these two segments, we decided to use websockets, via Django\nChannels. Our machine intelligence platform is incredibly powerful, and\nit allows us to perform tasks on big data with long-running jobs, such\nas topological modeling, auto-group generation, and feature selection.\nWe use Channels as a way for the Django server to notify the React\nclient on updates to these processes and to refresh different charts and\ntables.\n\nLastly, we designed our own Python SDK to allow data scientists to\neasily generate Python objects which are serialized and converted into\nReact components. A developer using this framework doesn\u2019t need to know\nDjango, React, or Channels, but can utilize the power of all three in\nconcert to quickly prototype powerful machine-learning applications with\nappealing user interfaces.\n\nThroughout this talk, we will focus on how these technologies interact\nwith one another, the benefits of these design-choices, and the\nchallenges that we faced. The potential applications of this\narchitecture extend far beyond our solutions, and it\u2019s valuable for\nlisteners to understand how Django can be used outside of traditional\ncontexts. Hopefully this talk will inspire other Django developers to\nconsider how their apps can utilize websockets, client- side rendering,\nand other web-development paradigms to address different and unique\nuse-cases.\n",
   "duration": 2507,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-15",
   "related_urls": [
     {
       "label": "Conference schedule",
@@ -11,11 +11,12 @@
     }
   ],
   "speakers": [
-    "Kendall Chuang and Henry Olson"
+    "Kendall Chuang",
+    "Henry Olson"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/eDUg1h3mxbA/maxresdefault.jpg",
-  "title": "A Python-Driven Web App Framework...",
+  "title": "A Python-Driven Web App Framework with Django, Channels, and React",
   "videos": [
     {
       "type": "youtube",

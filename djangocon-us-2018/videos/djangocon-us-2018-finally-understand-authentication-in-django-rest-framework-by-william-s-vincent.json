@@ -1,13 +1,17 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Traditional Django handles user authentication for us. REST Framework?\nNot so much. The abundance of choice is overwhelming and typically THE\nbiggest obstacle for newcomers.\n\nThis talk is a deep dive on authentication in Django REST Framework.\nWe\u2019ll start with an overview of HTTP and REST APIs before demonstrating\nhow to implement the 4 built-in auth modes and their respective\npros/cons. Special attention will be paid to common gotchas such as, Why\ndo I need \u201cboth\u201d TokenAuth and SessionAuth? What are JWTs?\n\nNext we\u2019ll implement a real-world REST auth setup that includes user\nregistration, password reset/confirm, social auth, and endpoints for\nsign up, log in, and log out. The third-party packages\n``django-rest-auth`` and ``django- allauth`` will be used .\n\nBy the end of the talk attendees will understand the basics of REST\nauthentication, the tradeoffs involved, and walk away with a working\nimplementation to jumpstart their future projects.\n",
   "duration": 2293,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-16",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://2018.djangocon.us/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://tinyurl.com/djangocon2018-rest-auth"
     }
   ],
   "speakers": [

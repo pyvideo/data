@@ -1,9 +1,9 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "The General Data Protection Regulation, better known as GDPR, is a\nregulation on data protection and privacy for all individuals within the\nEuropean Union. GDPR went into effect on May 25, 2018 and was the cause\nof the \u201cGreat Privacy Policy Update\u201d that occurred in the weeks prior.\n\nThis talk will cover what GDPR is and why you should care about it, but\nwe won\u2019t stop there. This is not going to be another talk on data\nprotection policy. No.\n\nIn this talk, we\u2019re going to jump right into discussing HOW to implement\ndata patterns that comply with regulations like GDPR by examining a\npattern known as pseudonymization.\n\nPseudonymization is a data de-identification procedure where fields of\npersonally identifiable information (PII) within a data record are\nreplaced by one or more artificial identifiers. These artificial\nidentifiers are also called pseudonyms. Pseudonyms make a data record\nless identifiable without sacrificing data analysis and processing. GDPR\nrequires that PII undergo either pseudonymization or complete data\nanonymization.\n\nFor the hands-on portion of this talk, we\u2019ll construct a Django User\nModel where we apply pseudonyms to the data attributes which qualify as\nPII. We\u2019ll explore a couple strategies for implementing a compliant\npseudonymization pattern, examining their individual approaches and\nperformance, and we\u2019ll discuss limitations of pseudonymizing certain\nattributes and how to achieve compliance through consent.\n\nGDPR sets a precedent for responsible data management. Whether your\napplication serves citizens of the EU or not, the regulations serve as\nan encouragement for protecting your user\u2019s identities. This talk is\ngreat for everyone from beginners to expert Django developers\u2026 and fans\nof Phil Collins :)\n",
   "duration": 1780,
   "language": "eng",
-  "recorded": "2018-10-19",
+  "recorded": "2018-10-17",
   "related_urls": [
     {
       "label": "Conference schedule",
