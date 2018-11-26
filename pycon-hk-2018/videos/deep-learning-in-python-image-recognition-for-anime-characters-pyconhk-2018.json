@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Deep learning is a booming machine-learning technique which we often\nread in a lot of articles nowadays. Deep learning sounds like an\nintimidating concept for a lot of people, but everyone believes that\ndeep learning is a cutting- edge tool to solve a lot of problems. In\nthis talk, we will see how Python and various open-source tools are very\neasy to use and very powerful for solving deep learning problems. For\nthe study case, we will have a 30-minute journey in revisiting image\nrecognition problem with anime characters.\n\nI will briefly explain how traditional machine learning works with\nTensorFlow and introduces some alternatives tools out there. After that,\nwe will see how deep learning enhances our knowledge in the traditional\nmachine learning and how we can get more benefits from it. All of these\nexamples will be presented in the context of image recognition problem,\nand while on it, we will also see the use cases of other tools, such as\nOpenCV, OpenFace, etc.\n\nIn the main part of the talk, we will see that images of anime\ncharacters are limited by nature, since it totally depends on number of\nexisting fan arts. In addition, 3D model (human face) cannot be applied\ndirectly in solving this problem since 2D model (anime character face)\ntotally depends on the illustrator. Therefore, we will explore how we\ncan utilize transfer learning for model training with small amount of\ndataset. Finally, we will build our own simple app with Sanic to serve\nour ready-built model for other users.\n\nThis talk will introduce the concept of deep learning, transfer\nlearning, and how we can apply it to our own existing problems. In\naddition, we will present some alternative PaaS as a comparison to build\na model from scratch.\n",
   "duration": 2066,
   "language": "eng",
   "recorded": "2018-11-23",
@@ -10,10 +10,12 @@
       "url": "http://pycon.hk/schedule-2018/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Iskandar Setiadi"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/sQ37OE_1EfY/maxresdefault.jpg",
-  "title": "Deep Learning in Python: Image Recognition for Anime Characters | PyConHK 2018",
+  "title": "Deep Learning in Python: Image Recognition for Anime Characters",
   "videos": [
     {
       "type": "youtube",
