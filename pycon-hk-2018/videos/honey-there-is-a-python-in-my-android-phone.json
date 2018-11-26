@@ -1,6 +1,6 @@
 {
   "copyright_text": "Creative Commons Attribution license (reuse allowed)",
-  "description": "",
+  "description": "Simple scripting, such as Python, Bash, PHP, Perl are all embedded in\nmodern operating system. Since Android is also a linux-based operating\nsystem, with some techniques, it is also possible for us to write a\nscript. Unfortunately before SL4A arrives (Scripting Language 4\nAndroid), it is not possible for us to script on Android phone. SL4A\nprovides rich APIs that allow user to access Android intents such as GPS\nlocation, Accelerometer, Camera, Battery status, and etc. through\nscripting. Hence with the rich APIs, the user can build a very simple\nscript to interact with those APIs, without building a complex app.\n\nThis talks shows how we can interact with android intents and APIs via\nRPC using python client embedded inside the android app, through SL4A\napp. First the speaker introduces various python related apps available\nfor android OS. Next the speaker will show the relationship and\ninteraction between Android API and Python API inside SL4A, and how RPC\nis used as communication between two APIs, hence demonstrate how a new\ndifferent service/intent can be built based on the provided Android API,\nby doing some hacking on Python API inside SL4A.\n\nThe speaker will begin his talk with introduction on the basic of RPC,\nand illustrate the relationship between Android APIs and Python APIs in\nSL4A, by comparing both Android and Python code. The speaker will then\ndemonstrate how different android intents can be accessed on the android\ndevices, through various demo, such as reading GPS coordinate and x, y,\nz position from the accelerometer, together with making a phone call\nthrough python client on android phone. In the end, the speaker will\ndemonstrate how a flask application that allows user to send SMS\nmessages through Rest APIs, can be built on top on the android.\n",
   "duration": 1630,
   "language": "eng",
   "recorded": "2018-11-23",
@@ -10,10 +10,12 @@
       "url": "http://pycon.hk/schedule-2018/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Ing Wei, Tang"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/8B9YLP4L488/maxresdefault.jpg",
-  "title": "Honey, There is a Python in my Android Phone!",
+  "title": "Honey, there is a Python in my Android Phone!",
   "videos": [
     {
       "type": "youtube",
