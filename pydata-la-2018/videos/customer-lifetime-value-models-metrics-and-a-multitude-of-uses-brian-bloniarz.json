@@ -1,9 +1,10 @@
 {
+  "abstract": "Businesses derive value from their customer base. This makes it critical\nto be able to forecast the value of a customer to the business. At the\nsame time, modeling customer behavior is not a straightforward\nmeasurement -- the data generating process is subtle, data is\ncharacteristically sparse & stochastic, and heterogeneity abounds.\n\nWe'll look at business analysis from a customer-centric mindset, where\nanalysis of growth and retention is at the core. We'll dive into the\nmodel of Fader & Hardie, which provides a principled, probabilistic\nmodel to forecast customer lifetime value (CLV) from a stream of\npurchases. We'll motivate multilevel models and show how they can\naccount for customer heterogeneity in purchase behavior. We'll analyze\npredictive fits using lifetimes, an open- source implementation of\nseveral useful Bayesian CLV models. We'll look across businesses and\nbriefly cover insights that come from looking at large-scale datasets of\ncustomer purchase behavior.\n\nCLV estimates have a multitude of business uses, across: *forecasting of\ncashflow, profitability and demand* investment & valuation *customer\nbase segmentation* allocation of marketing spend, or \\* monitoring the\nhealth of the business\n\nData scientists and business analysts should leave this talk with\nanother tool in their predictive modeling toolkit. More importantly,\nthey should have clarity on how customer lifetime value is defined, how\nit can be reasoned about, and how forward-looking estimates can be fit\nfrom purchase data.\n",
   "copyright_text": null,
-  "description": "PyData LA 2018\n\nBusinesses derive value from their customer base. This makes it critical to forecast the value of a customer to the business -- critical but tricky. We'll introduce probabilistic models for estimating customer lifetime value, look at real world data across industries, and talk about how this fits into a business analysis toolbox (spoiler alert: it's everywhere).\n\nRepo - https://github.com/b11z/pydata-la-18-clv\n---\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.\n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "description": "Businesses derive value from their customer base. This makes it critical\nto forecast the value of a customer to the business -- critical but\ntricky. We'll introduce probabilistic models for estimating customer\nlifetime value, look at real world data across industries, and talk\nabout how this fits into a business analysis toolbox (spoiler alert:\nit's everywhere).\n",
   "duration": 2159,
   "language": "eng",
-  "recorded": "2018-10-22",
+  "recorded": "2018-10-23",
   "related_urls": [
     {
       "label": "schedule",
@@ -15,11 +16,11 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Brian Bloniarz"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/f3ua_dDjTNU/maxresdefault.jpg",
-  "title": "Customer Lifetime Value: Models, Metrics and a Multitude of Uses - Brian Bloniarz",
+  "title": "Customer Lifetime Value: Models, Metrics and a Multitude of Uses",
   "videos": [
     {
       "type": "youtube",

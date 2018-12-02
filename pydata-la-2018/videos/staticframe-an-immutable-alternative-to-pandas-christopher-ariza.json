@@ -1,9 +1,10 @@
 {
+  "abstract": "Immutable data structures reduce opportunities for error and promote the\ndesign of pure functions, offering programs that are easier to reason\nabout and maintain. While Pandas is used in many domains where such\nbenefits are highly desirable, there is no way to enforce immutability\nin Pandas.\n\nStaticFrame offers an alternative to Pandas, leveraging familiar Pandas\ninterfaces and operations while enforcing immutability and providing\nmore narrow and consistent interfaces. StaticFrame depends only on\nNumPy, and offers comparable performance in many areas.\n\nIn this talk I will introduce the StaticFrame library. I will\ndemonstrate how it accomplishes immutability while still permitting\nflexible assignment-to- copy statements and grow-only, column-based\noperations.\n\nAdditional design choices and features will be discussed, including more\nnarrow and uniform operations and interfaces, the strict prohibition of\nduplicate index labels, embracing the full range of NumPy types, and a\nfamily of axis and value iterators that support function application\nwith built-in concurrency.\n",
   "copyright_text": null,
-  "description": "PyData LA 2018\n\nStaticFrame provides Pandas-like data structures that enforce immutability. StaticFrame narrows and refines Pandas-style interfaces, which, when combined with immutability, reduces opportunities for error. In addition, StaticFrame offers a range of new and powerful iterators for function application with built-in concurrency.\n\n---\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.\n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "description": "StaticFrame provides Pandas-like data structures that enforce\nimmutability. StaticFrame narrows and refines Pandas-style interfaces,\nwhich, when combined with immutability, reduces opportunities for error.\nIn addition, StaticFrame offers a range of new and powerful iterators\nfor function application with built-in concurrency.\n",
   "duration": 2162,
   "language": "eng",
-  "recorded": "2018-10-22",
+  "recorded": "2018-10-23",
   "related_urls": [
     {
       "label": "schedule",
@@ -11,11 +12,11 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Christopher Ariza"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/LDmor_m27-8/maxresdefault.jpg",
-  "title": "StaticFrame: An Immutable Alternative to Pandas - Christopher Ariza",
+  "title": "StaticFrame: An Immutable Alternative to Pandas",
   "videos": [
     {
       "type": "youtube",
