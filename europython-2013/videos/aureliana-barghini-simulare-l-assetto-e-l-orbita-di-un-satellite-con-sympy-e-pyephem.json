@@ -1,8 +1,8 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In questa presentazione descriviamo la componente geometrica di un\nsimulatore di immagini da satellite; in sostanza si tratta di un sistema\nche restituisce dove si trova (posizione) e dove guarda (assetto) un\nsatellite a partire da opportune informazioni di input. La soluzione\ndeve essere sufficientemente flessibile da accettare leggi orarie\narbitrarie per poter simulare il movimento di satelliti differenti.\n\nPer questo motivo si \u00e8 scelto di ultilizzare la libreria di calcolo\nsimbolico SymPy per il calcolo dell\u2019orientamento del satellite definito\nda funzioni del tempo generiche (pitch, roll, yaw), e la libreria\nastronomica PyEphem il calcolo della posizione orbitale.\n\nIntegrando PyEphem con SymPy \u00e8 stato possibile sviluppare un sistema\ndinamico duttile e di facile utilizzo, capace di gestire facilmente\nmolteplici sistemi di riferimento mobili, posizioni e direzioni.\n",
   "duration": 1399,
-  "language": "eng",
+  "language": "ita",
   "recorded": "2013-07-02",
   "related_urls": [
     {

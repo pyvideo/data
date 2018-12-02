@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk I show you how to set up a python and PostgreSQL based\nsystem which is easy to set up and easy to scale, provides ACID\nguarantees where they are needed and delays time-consistency between\nunrelated objects for scalability and availability where the latter are\ndeemed more important.\n\nThe best thing is that this kind of scalability work for both OLTP and\nOLAP workloads, so with some planning you can have just a single large\n\u201cdatabase\u201d which can take almost any type of load.\n\nAlso, if you hate SQL, you can do all the OLTP stuff in a pythonic way\nusing an automagically generated ORM layer inside the database, near the\ndata. If you are really masochistic, you can use the same ORM also for\nmap-reduce type distributed data processing, though on this side the\nsmall effort of learning SQL usually pays off when queries get more\ncomplex. But as I said, everything runs inside the databse, near the\ndata and thus even the ORM & map-reduce analytics works fast.\n",
   "duration": 3200,
   "language": "eng",
   "recorded": "2013-07-02",

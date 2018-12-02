@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "This talk aims to discuss problems and solutions when implementing an\nend-to- end Python environment for a big company.\n\nThe term \u2018Enterprise\u2019 often has negative connotations in much of the\nopen- source world, usually along the lines of \u2018expensive and bloated\u2019.\nIn this case I\u2019d like to use it for describing a systems environment\nwhere the freedoms of a developer working at home with her laptop are\nnot always available or practical. For example, coding on the holodeck\nof the Starship Enterprise.\n\nBig teams and codebases need tools that make it very easy for new\ndevelopers to get up and running writing code with the minimum of fuss.\nLarge software platforms needs tools to manage complex package\ndependency graphs and release workflows. Also, production environments\ndon\u2019t always have compilers or direct internet access so many of\nPython\u2019s standard packaging tools make it a bit tricky to get things\ngoing in these regards.\n\nI\u2019d like to present how we managed to solve a number of these problems\nfor a recent client, a task which happily culminated in much of the\nsoftware being open-sourced at https://github.com/eeaston/pkglib\n\nEdit: The software also has numerous testing tools included which I\u2019ll\ndemonstrate, including py.test fixtures for mongo, redis, pyramid and\ngeneric servers, selenium webdriver and C/C++ code coverage and\nprofiling.\n",
   "duration": 2125,
   "language": "eng",
   "recorded": "2013-07-05",
