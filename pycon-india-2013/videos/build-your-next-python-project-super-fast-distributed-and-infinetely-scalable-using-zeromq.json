@@ -1,19 +1,22 @@
 {
+  "abstract": "To learn how to build a high performance distributed systems using\nZeroMQ and Python. And also to make it work with other programming\nlanguages.",
   "copyright_text": null,
-  "description": "",
+  "description": "All web applications aren't as simple as following a 20 minute blog\ntutorial in a web framework. There are lot of components which handle\nthe business logic and they might all not work on the same machine (or\neven be built using the same programming language).\n\nWhen you build at web scale, you should look at how to build your system\ndistributed across multiple machines.\n\nThe talk will be about\n\n-  Why use a message queue.\n-  How zeromq is different from other message queues.\n-  How to write a basic networked program using zeromq.\n-  How you can use zeromq to write concurrent & parallel systems.\n-  The various patterns & configurations zeromq can be used in to build\n   your distributed system.\n-  Various protocols that can be used\n-  How to make your python program talk with any other programming\n   language easily.",
   "duration": 2404,
   "language": "eng",
-  "recorded": "2013-08-30",
+  "recorded": "2013-08-31",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://in.pycon.org/2013/index.html#schedule"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Srinivasan R"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/luQkcKhpd0c/maxresdefault.jpg",
-  "title": "Build your next python project: Super fast,distributed and infinetely scalable, Using ZeroMQ",
+  "title": "Build your next python project - Super fast, distributed and infinitely scalable, Using ZeroMQ",
   "videos": [
     {
       "type": "youtube",

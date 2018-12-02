@@ -1,19 +1,22 @@
 {
+  "abstract": "This session will introduce the working principles of the\n`Storm <https://web.archive.org/web/20140707222153/http://www.storm-%20project.net/>`__\nreal-time computation system and the\n`Neo4J <https://web.archive.org/web/20140707222153/http://www.neo4j.org/>`__\ngraph database and how to use them in conjunction to perform stream\ncomputations on distributed graph data systems using Python APIs.",
   "copyright_text": null,
-  "description": "",
+  "description": "Storm\n~~~~~\n\nWe will briefly outline the installation and features of Twitter\u2019s Storm\nframework and basic operations which make it an ideal tool for real-time\nstream processing of data. We will also look into it's Fault-Tolerance\ncapabilities using programmatic implementations.\n\nNeo4J\n~~~~~\n\nWe will briefly introduce Neo4j, a No-SQL graph Database \u2013 how it works,\nits APIs, working with REST and Cypher.\n\nDistributed Graph Operations\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nWe shall then focus on how Storm and Neo4J can be made to work in co-\nordination in a distributed environment to produce efficient and fast\noperations on significantly large graph data. The session will also\ninclude a live implementation of a scenario to demonstrate the use of\nStorm, Neo4J and their co-ordinated jobs in Python.\n\nFinally the growing social applications of graph databases will not be a\nmystery anymore !",
   "duration": 2862,
   "language": "eng",
-  "recorded": "2013-08-30",
+  "recorded": "2013-09-01",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://in.pycon.org/2013/index.html#schedule"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Sonal Raj"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/bp1NmA4rZuI/maxresdefault.jpg",
-  "title": "Real-Time stream computation on graphs using Storm, Neo4j and Python - Sonal Raj",
+  "title": "Real-Time stream computation on graphs using Storm, Neo4j and Python",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,22 @@
 {
+  "abstract": "This talk aims to share some best practices and tips on logging and\nintroducing tools for a scalable setup for logging, collection of logs\nand parsing/visualizing interesting metrics derived from them. If your\napplication or webserver writes logs then this is the talk for you.",
   "copyright_text": null,
-  "description": "",
+  "description": "This talk will introduce some best practices around logging in Python(we\nwill use Django as an example) web apps and how to get the maximum out\nof it. We will cover use case for both webserver logs and application\nlogs and alternative formats for logs like json. We will cover some\nadvanced features in python library and will move on to a full fledged\narchitecture to write, collect, parse and visualize logs from a cluster\nof application(s) using open source tools like Logstash, Elasticsearch\netc.",
   "duration": 1204,
   "language": "eng",
-  "recorded": "2013-08-30",
+  "recorded": "2013-08-31",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://in.pycon.org/2013/index.html#schedule"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Ajay Yadav"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/7d5QKmGPh74/maxresdefault.jpg",
-  "title": "Logging on Steroids - How we manage logs at Inmobi - Ajay Yadav",
+  "title": "Logging on Steroids - How we manage logs at Inmobi",
   "videos": [
     {
       "type": "youtube",
