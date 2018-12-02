@@ -1,19 +1,22 @@
 {
+  "abstract": "Introduction to an alternative to the mainstream configuration\nmanagement tools like Chef and Puppet, and what makes Ansible a better\nalternative to them. Also a demonstration of how to write your own\nconfigurations for a simple infrastructure setup in ansible at the end\nof the session. A definite benefit for those looking out for a more\nlightweight option as compared to Chef and Puppet.",
   "copyright_text": null,
-  "description": "",
+  "description": "Ansible is unlike mainstream configuration management tools as in, it\ndoes not require a centralised server for management. It's very\nlightweight and doesn't require any kind of client daemon to be running\non every managed instance. This along with it's ease of configuration in\nyaml, make it a very good candidate for managing small to medium sized\ninfrastructures where the overhead of having a constantly polling client\ndaemon would be quite visible.\n\nA benefit over the more popular tools like Chef and Puppet includes the\nfact that for the most part, one does not need to write code for setting\nup common infrastructures, machine configurations are done in yaml.\nPython knowledge would be required when writing plugins to add more\nfunctionality to ansible.\n\nI will cover the architecture of ansible and yaml configurations.\nFinally, I'll demonstrate the use of it to set up a small infrastructure\nby writing playbooks for it.",
   "duration": 2226,
   "language": "eng",
-  "recorded": "2013-08-30",
+  "recorded": "2013-08-31",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://in.pycon.org/2013/index.html#schedule"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Ausmarton Zarino Fernandes"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/BEumdXZ_pnA/maxresdefault.jpg",
-  "title": "Ansible: Configuration Management Simplified - Ausmarton Zarino Fernandes",
+  "title": "Ansible: Configuration Management Simplified",
   "videos": [
     {
       "type": "youtube",
