@@ -1,0 +1,26 @@
+{
+  "abstract": "Immutable data structures reduce opportunities for error and promote the\ndesign of pure functions, offering programs that are easier to reason\nabout and maintain. While Pandas is used in many domains where such\nbenefits are highly desirable, there is no way to enforce immutability\nin Pandas.\n\nStaticFrame offers an alternative to Pandas, leveraging familiar Pandas\ninterfaces and operations while enforcing immutability and providing\nmore narrow and consistent interfaces. StaticFrame depends only on\nNumPy, and offers comparable performance in many areas.\n\nIn this talk I will introduce the StaticFrame library. I will\ndemonstrate how it accomplishes immutability while still permitting\nflexible assignment-to- copy statements and grow-only, column-based\noperations.\n\nAdditional design choices and features will be discussed, including more\nnarrow and uniform operations and interfaces, the strict prohibition of\nduplicate index labels, embracing the full range of NumPy types, and a\nfamily of axis and value iterators that support function application\nwith built-in concurrency.\n",
+  "copyright_text": null,
+  "description": "StaticFrame provides Pandas-like data structures that enforce\nimmutability. StaticFrame narrows and refines Pandas-style interfaces,\nwhich, when combined with immutability, reduces opportunities for error.\nIn addition, StaticFrame offers a range of new and powerful iterators\nfor function application with built-in concurrency.\n",
+  "duration": 2162,
+  "language": "eng",
+  "recorded": "2018-10-23",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Christopher Ariza"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/LDmor_m27-8/maxresdefault.jpg",
+  "title": "StaticFrame: An Immutable Alternative to Pandas",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LDmor_m27-8"
+    }
+  ]
+}

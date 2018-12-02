@@ -1,0 +1,26 @@
+{
+  "abstract": "As a company that processes billions of dollars of transactions for\nhundreds of thousands of merchants across the globe, it is imperative\nfor Stripe to protect our merchants from as much fraud as possible.\nHowever, machine learning models that fight credit card fraud have\nreal-world implications for merchants when they get a decision wrong:\nfalse positives result in lost revenue and customer churn, while false\nnegatives lead to the loss of the sold items.\n\nIn order to effectively protect our merchants from fraud, Stripe must\nconstantly retrain our transaction fraud models and evaluate their\nperformance in the real world. We have encountered three major\nchallenges in this process:\n\n1. It\u2019s not always easy to agree on a definition for what fraud means.\n   For instance, a merchant may consider a charge by a customer it\n   *believes* to be fraudulent as \u201cfraud\u201d even if the charge doesn\u2019t\n   actually end up being fraud.\n2. Training on highly imbalanced data usually doesn\u2019t result in the\n   best-performing models. Only a very small percentage of all charges\n   end up being fraudulent, regardless of how you define fraud. If you\n   trained on charge data as-is, you might get a model that appears\n   reasonable at first glance. However, the model will often exhibit\n   artifacts of the class imbalance in the data (e.g., it\u2019s hard to get\n   very high precision when your target label is so rare).\n3. Evaluating performance in production, and generating training data\n   for future models, is not straightforward. If Stripe blocks a\n   transaction because we think it is fraudulent, we don\u2019t actually know\n   if we got it right\u2014we have no way to observe the charge\u2019s ultimate\n   outcome. If we naively just used transactions for which we had true\n   outcomes (i.e., ones that we did not block) for training, we\u2019d\n   ultimately get a training set that under-represents fraud, and new\n   models would \u201cforget\u201d how to detect that fraud.\n\nIn this talk, I\u2019ll first focus on how Stripe decided on what labels to\nuse for fraudulent charges. Then, I\u2019ll talk about techniques we use to\nboost signal of fraudulent charges in the imbalanced data set (and thus\nimprove overall model performance) during our training process. Once\nwe\u2019ve discussed how to handle labeling and class imbalance, I\u2019ll dive\ninto the most challenging aspect of our model pipeline: developing an\neffective counterfactual evaluation technique that we use to both gauge\nhow well our model is doing in the real world, as well as generate\nunbiased training data. I\u2019ll describe two different approaches we have\nemployed for counterfactual evaluation, and why we ultimately decided\nthat one of them was more effective.\n",
+  "copyright_text": null,
+  "description": "This talk covers three major ML problems Stripe faced (and solved!) in\nbuilding its credit card fraud detection system: choosing labels for\nfraud that work across all merchants, addressing class imbalance\n(legitimate charges greatly outnumber fraudulent ones), and performing\ncounterfactual evaluation (to measure performance and obtain training\ndata when the ML system is changing outcomes itself).\n",
+  "duration": 2805,
+  "language": "eng",
+  "recorded": "2018-10-23",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Leela Senthil Nathan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rHSpab1Wi9k/maxresdefault.jpg",
+  "title": "Train, Evaluate, Repeat: Building a Credit Card Fraud Detection System",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rHSpab1Wi9k"
+    }
+  ]
+}

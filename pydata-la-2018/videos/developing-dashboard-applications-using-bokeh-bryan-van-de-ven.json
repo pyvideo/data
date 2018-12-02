@@ -1,0 +1,26 @@
+{
+  "abstract": "When the Dask Distributed project wanted to develop a diagnostic\ninterface to allow users to visualize the progress of their distributed\ncomputations and identify performance bottlenecks, they chose to use\nBokeh because of its ability to define dashboard elements and their\nstreaming update logic in Python.\n\nThis talk will highlight the best practices of developing Bokeh\ndashboard applications, which arose from writing the Dask Distributed\nUI, while creating a new dashboard application to identify faces using\nOpenCV. This includes how to:\n\n-  Use the bokeh.models API to organize your dashboard code into\n   discrete elements and update logic\n-  Connect to data sources like files, databases, or message queues\n-  Use layouts including templates for custom layouts and responsive\n   behavior\n-  Add pleasing and consistent styling using themes\n-  Deploy your standalone Bokeh dashboard or embed it within larger\n   applications\n",
+  "copyright_text": null,
+  "description": "This talk will cover learn best practices for creating interactive,\nstreaming dashboard applications using Bokeh, based on the learnings\nfrom developing the Dask Distributed diagnostic UI. During this talk,\nwe\u2019ll develop a new Bokeh dashboard application to identify faces using\nOpenCV.\n",
+  "duration": 2692,
+  "language": "eng",
+  "recorded": "2018-10-22",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Bryan Van de Ven"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/HmI1foA0MZc/maxresdefault.jpg",
+  "title": "Developing Dashboard Applications Using Bokeh",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HmI1foA0MZc"
+    }
+  ]
+}

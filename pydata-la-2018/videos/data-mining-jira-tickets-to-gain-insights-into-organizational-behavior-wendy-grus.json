@@ -1,0 +1,26 @@
+{
+  "abstract": "Detailed outline:\n\n1. Introduction to Wendy (1 min)\n2. Description of our operational intelligence tool Glyph (1 min)\n3. Brief introduction to JIRA (1 min)\n4. Say why I want to track who uses Glyph and why I turned to JIRA (6\n   min)\n5. Libraries used to build my app a. flask (2 min) b. jira (6 min) c.\n   pygal (3 min)\n6. Lessons learned (3 min)\n7. Next steps (3 min)\n8. Questions (~4 min)\n\nWho should attend this talk?\n\n-  Anyone who is interested in data mining their JIRA tickets with\n   Python\n\n-  Data analysts who want to build a simple flask app that displays meta\n   usage data in tabular or plot format\n\n-  Data analysts who want to ask \u201cWhy?\u201d instead of just \u201cWho?\u201d and\n   \u201cWhen?\u201d\n",
+  "copyright_text": null,
+  "description": "My team at Hulu makes a tool called Glyph that is used internally to\ncreate realtime reports to monitor app health and feature usage. While\nexisting telemetry tells us the who and when of Glyph usage, it does not\ntell us why it is used. To gain insights into how Glyph is used by\nproduct and tech, I built a flask app to mine JIRA data for references\nto Glyph reports using the Python jira library.\n",
+  "duration": 2003,
+  "language": "eng",
+  "recorded": "2018-10-22",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Wendy Grus"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/3K-YTCPI1fY/maxresdefault.jpg",
+  "title": "Data Mining JIRA Tickets to Gain Insights into Organizational Behavior",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3K-YTCPI1fY"
+    }
+  ]
+}

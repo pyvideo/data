@@ -1,0 +1,27 @@
+{
+  "abstract": "I will start off this tutorial by quickly going over the oh so\nimportant, ND Array. I will then talk about indexing and broadcasting as\nthey are features that make Numpy unique. Once this short introduction\nis done, I will get into the more advanced Numpy features. I will try to\ncover as many of the following topics.\n\n``Ufuncs`` in Numpy\n\n``Stride tricks`` is one of my favourite Numpy features and I will show\nyou how to do clever things with this like applying a sliding window to\nyour array and convolution operations in a few lines of code.\n\n``Einsum`` is a powerful function that gives you the ability to\nimplement Einstein summation techniques on your arrays.\n\nI will talk about how to subclass numpy arrays, as this is useful to\nknow if you're ever creating your own libraries that leverage Numpy\ncapabilities.\n\nIn addition to this, I will show you cool ways to draw shapes like\ncircles or ellipses inside a Numpy array using ``masks`` and I will\nintroduce you to the Numpy mesh function ``np.ix_``.\n\nFor those of you who generally work with large data sets, you'll find\nthat loading/saving your data into files can be a performance bottleneck\nand sometimes infeasible. I will introduce ``Memory mapped files`` and\nshow you how you can work with large files without compromising on\nperformance.\n\nI will take you through each of these functions and talk about how they\ncan help you, and how they have helped me with some of my projects.\n\nThis will be an interactive tutorial where the focus will be on\nattendees getting hands on experience with these Numpy features so that\nthey can use them in their projects.\n",
+  "copyright_text": null,
+  "description": "Numpy is a premier scientific computing library that can turn any\nproblem into a piece of cake if used correctly. It is highly optimized\nto give you all the functionality you need without having to compromise\non performance. In this tutorial I will take you through some of the\nmore powerful Numpy functions that will help you solve your problems\nbetter and in fewer lines of code.\n",
+  "duration": 5481,
+  "language": "eng",
+  "recorded": "2018-10-21",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    },
+    "https://github.com/kirit93/NumpyTutorial"
+  ],
+  "speakers": [
+    "Kirit Thadaka"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/poD8ud4MxOY/maxresdefault.jpg",
+  "title": "Making Computation Easier with Cool Numpy Tricks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=poD8ud4MxOY"
+    }
+  ]
+}

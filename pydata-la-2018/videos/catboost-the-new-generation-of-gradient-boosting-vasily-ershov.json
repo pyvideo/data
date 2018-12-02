@@ -1,0 +1,28 @@
+{
+  "abstract": "Gradient boosting is a powerful machine-learning technique that achieves\nstate-of-the-art results in a variety of practical tasks. For a number\nof years, it has remained the primary method for learning problems with\nheterogeneous features, noisy data, and complex dependencies: web\nsearch, recommendation systems, weather forecasting, and many others.\nCatBoost (http://catboost.yandex) is a new open-source gradient boosting\nlibrary, that outperforms existing publicly available implementations of\ngradient boosting in terms of quality. It has a set of addional\nadvantages. 1. CatBoost is able to incorporate categorical features in\nyour data (like music genre, URL, search query, etc.) in predictive\nmodels with no additional preprocessing. For more details on our\napproach please refer to our NIPS 2017 ML Systems Workshop paper\n(http://learningsys.org/nips17/assets/papers/paper\\_11.pdf). 2. CatBoost\ninference is 20-60 times faster then in other open-source gradient\nboosting libraries, which makes it possible to use CatBoost for\nlatency-critical tasks. 3. CatBoost has the fastest GPU and multi GPU\ntraining implementations of all the openly available gradient boosting\nlibraries. 4. CatBoost requires no hyperparameter tunning in order to\nget a model with good quality.\n\nThe talk will cover a broad description of gradient boosting and its\nareas of usage and the differences between CatBoost and other gradient\nboosting libraries. We will also briefly explain the details of the\nproprietary algorithm that leads to a boost in quality.\n",
+  "copyright_text": null,
+  "description": "CatBoost (http://catboost.ai) is a new open-source gradient boosting\nlibrary, that outperforms existing publicly available implementations of\ngradient boosting in terms of quality. The talk will cover a broad\ndescription of gradient boosting and its areas of usage and the\ndifferences between CatBoost and other gradient boosting libraries. We\nwill also briefly explain the details of the proprie\n",
+  "duration": 5234,
+  "language": "eng",
+  "recorded": "2018-10-21",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    },
+    "https://bit.ly/2NRI9rR",
+    "http://catboost.ai"
+  ],
+  "speakers": [
+    "Vasily Ershov"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZAGXnXmDCT8/maxresdefault.jpg",
+  "title": "CatBoost - The New Generation of Gradient Boosting",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZAGXnXmDCT8"
+    }
+  ]
+}

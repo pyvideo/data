@@ -1,0 +1,28 @@
+{
+  "abstract": "We will present a case study of how rearchitecting our data science\ntools to move computation into the web browser has improved\ncollaboration among data scientists at Mozilla, and in the broader open\nsource community.\n\nComputational notebooks based on the traditional client/server model\n(such as Jupyter, Zeppelin, etc.) require specialized IT resources to\ndeploy, which makes it harder for data scientists to replicate and reuse\neach others\u2019 work, whether on the open web or behind a corporate\nfirewall. The Iodide project provides a development environment where\ncomputation happens entirely in the web browser, making sharing as\nsimple as posting content to a website.\n\nThe project has 3 components:\n\n-  A frontend for notebook-like experimentation and the publishing of\n   interactive reports and dashboards. While this began in the model of\n   a traditional computational notebook, it has since grown some\n   significant user experience improvements beyond that. Since all\n   computation happens in the browser, the wide selection of\n   browser-side visualization and UI libraries are available to the data\n   scientist in a natural way.\n\n-  Data science libraries that can run in the browser. This is\n   two-pronged: On the one hand is curation of the nascent Javascript\n   data science ecosystem. On the other, the more mature Python data\n   science ecosystem has been ported to run in the browser by compiling\n   it to WebAssembly. Additionally, we are experimenting with bringing\n   Rust data science tools to the browser, and this could grow to\n   include R or Julia. Apache Arrow is likely to act as the important\n   glue between all of these runtimes.\n\n-  A server for collaboration and interoperability. Importantly, the\n   server doesn\u2019t provide computation kernels. It is only tasked with\n   collaboration (sharing, forking and commenting on notebooks) and data\n   access (accessing data from remote sources, through database queries\n   or tools like Dat).\n",
+  "copyright_text": null,
+  "description": "An introduction to Iodide and Pyodide: tools for doing data science\nentirely in the web browser.\n",
+  "duration": 1865,
+  "language": "eng",
+  "recorded": "2018-10-22",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Michael Droettboom",
+    "Brendan Colloran",
+    "Hamilton Ulmer"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Psnosvt6O34/maxresdefault.jpg",
+  "title": "Iodide and Pyodide: Bringing Data Science Computation to the Web Browser",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Psnosvt6O34"
+    }
+  ]
+}

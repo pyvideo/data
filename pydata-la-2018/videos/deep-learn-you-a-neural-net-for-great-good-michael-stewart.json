@@ -1,0 +1,26 @@
+{
+  "abstract": "Neural networks and deep learning are fundamental to modern machine\nlearning, yet often appear scarier than they really are. Many users of\nScikit-learn et al. can apply ML techniques (perhaps including deep\nlearning) through these tools, but do not always \"grok\" fully what\nhappens beneath the surface. Other more engineering-oriented\npractitioners are put off entirely by the seeming complexity of DL. I\nwalk through a live coding practicum (in a RISE Jupyter Notebook\nslideshow) in which I implement a feed-forward, fully-connected neural\nnet in numpy, initially training it via a for-loop to demonstrate core\nconcepts, and finally codifying the NN as a Scikit-learn style\nclassifier with which one can fit & predict on one\u2019s own data.\n\nThe focus of this talk is on the practicum of implementing one\u2019s own NN\nalgorithm, though I also review the most important mathematical and\ntheoretical components of NNs to ground the practicum for attendees.\nMathematical review touches on the nature of gradients, what they are,\nhow they relate to derivates, and how back propagation works at a high\nlevel. This talk does not include a formal derivation of the various\nloss functions used in NNs, nor does it require mastery of calculus.\nAttendees will leave the talk with a better understanding of deep\nlearning through iterative optimization, as well as a template of their\nown for a from-scratch neural net in Python, should they feel this would\nenrich their understanding.\n",
+  "copyright_text": null,
+  "description": "Together we live code (in a RISE slideshow) a fully-connected neural net\nfrom scratch via numpy, initially training it using a for-loop to\ndemonstrate core concepts, and finally codifying it as a Scikit-learn\nclassifier with which one can fit & predict on one\u2019s own data. To close,\nI walk through a toy example which logistic regression can\u2019t properly\nclassify, but which our NN can.\n",
+  "duration": 2569,
+  "language": "eng",
+  "recorded": "2018-10-22",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Stu (Michael Stewart)"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/WlNj_sgjGLQ/maxresdefault.jpg",
+  "title": "(Deep) Learn You a Neural Net for Great Good!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WlNj_sgjGLQ"
+    }
+  ]
+}

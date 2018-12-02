@@ -1,0 +1,26 @@
+{
+  "abstract": "In this talk we'll first see the basic idea behind serverless and learn\nhow to deploy a very simple web application to AWS Lambda using Zappa.\nWe'll then look in detail at the \"embarrassingly parallel\" problems\nwhere serverless really shines for data scientists. In particular we'll\ntake a look at PyWren, an ultra-lightweight alternative to heavy big\ndata distributed systems such as Spark. We'll learn how PyWren uses AWS\nLambda as its computational backend to churn through huge analytics\ntasks. PyWren opens up big data to mere mortal data scientists who don't\nhave the budget or engineering support for a long- lived cluster. We'll\nfinish up by using PyWren and Zappa to train and deploy a production\nmachine learning model.\n",
+  "copyright_text": null,
+  "description": "Working in the cloud means you don\u2019t have to deal with hardware. The\ngoal of \"serverless\" is to also avoid dealing with operating systems. It\noffers instances that run for the duration of a single function call.\nThese instances have limitations, but a lot of what data scientists do\nis a perfect fit for this new world! We'll see how to train and deploy\nmachine learning using this infrastructure.\n",
+  "duration": 2747,
+  "language": "eng",
+  "recorded": "2018-10-22",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Mike Lee Williams"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/_wBj4PM8awM/maxresdefault.jpg",
+  "title": "Serverless for Data Scientists",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_wBj4PM8awM"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "abstract": "At the Southern California Gas Company, we need to distinguish between\nvarious types of abnormal gas usage. SoCalGas has built predictive\nmodels to detect such instances. For example, we need to identify water\nleaks from gas leaks and respond appropriately.\n\nSoCalGas has very large datasets collected from almost six million\nresidential smart meters in our region. The data collected for analysis\nand modeling includes gas consumption, temperature, service operation\ntimes, meter location etc. Via customer pattern analyses data, SoCalGas\nattempts to identify the different patterns of water leaks.\n\nHowever, building predictive model, requires very large sets of\naccurately labeled and cleaned data. There are practical resource\nlimitations to a manual labeling process, especially with consumption\ndata that can be noisy. Another modeling challenge is that the meters,\nwhich are the data sources, are from different families and in different\ngeographical locations.\n\nFor these reasons, we propose the use of a Variational Autoencoder (VAE)\nmodel as a semi-supervised learning method. With a certain amount of\nlabeled data, we can train a much larger data set a) without bias from\npartial data and b) reduce the noise in the larger dataset. This\napproach has allowed us to differentiate and predict abnormal\nconsumption patterns due to water leaks.\n\nThe VAE is known as a generative model. The VAE model is an upgraded\narchitecture of a regular autoencoder by replacing the usual\ndeterministic function Q with a probabilistic function q((z\\|x)). A VAE\nmodel learns soft ellipsoidal regions in latent space by effectively\nforce filling the gaps where labels are missing. The missing labels are\nable to be filled via this method when we apply the VAE model to the\ndata. Also, the VAE model is encoded to the latent space and decoded to\nreconstruct the data. In this process, just like autoencoder, any noise\nis reduced.\n\nIn experiments, we compared VAE results with our consumption data\nanalytics pattern recognition results and also with autoencoder results.\nThis model showed efficient prediction of missing labels and prediction\nof properties of various areas. Depending on different ratios of labeled\ndata and non-labeled data, the performance and accuracy of model were\naffected.\n",
+  "copyright_text": null,
+  "description": "At the Southern California Gas Company, we need to distinguish between\nvarious types of abnormal gas usage. SoCalGas has built predictive\nmodels to detect such instances. For example, we need to identify water\nleaks from gas leaks and respond appropriately. The Hot Water Leak\nDetection was performed by Using Variational Autoencoder Model\n",
+  "duration": 2249,
+  "language": "eng",
+  "recorded": "2018-10-22",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Jay Kim"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/RKu4tC0MAC8/maxresdefault.jpg",
+  "title": "Hot Water Leak Detection Using Variational Autoencoder Model",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RKu4tC0MAC8"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "abstract": "With the advent of large, pre-trained, neural networks for object\ndetection, it\u2019s pretty straightforward to leverage transfer learning,\nand train a model that can recognize cats, hot dogs, or anything you\nplease. But what about when you\u2019re trying to detect the ABSENCE of an\nobject?\n\nLet\u2019s say you\u2019re given a mass of contracts, and you want to train a\nmodel that can tell which ones have been signed and which haven\u2019t. You\nlabel all the signatures and create a train/test split. You download the\nweights for Resnet or Inception, set your classes, choose your\nhyperparameters, and you\u2019re off to the races. Your final model can find\nsignatures on a page with 95% precision and recall.\n\nYou still haven\u2019t solved the original problem \u2014 finding the unsigned\ndocuments. To do this, you need to go further and treat the absence of a\nsignature as an object in itself. That\u2019ll get you part of the way there.\nTo achieve the highest possible accuracy, we\u2019ve used a couple of\ntask-specific features: optical character recognition (like banks use to\nread checks at ATMs), and page length data. This has allowed us to\nachieve very high accuracy even with only 3,000 labeled examples. We\u2019ve\nalso successfully extended the solution beyond the realm of binary\nclassification into object localization.\n",
+  "copyright_text": null,
+  "description": "This talk discusses using transfer learning and novel forms of feature\nengineering to detect and localize the absence of signatures in legal\ndocuments. This talk is targeted towards attendees with some familiarity\nwith computer vision who are interested in an applied case study,\nlearning how to leverage deep learning with small amounts of data, or\napplying computer vision to text documents.\n",
+  "duration": 1902,
+  "language": "eng",
+  "recorded": "2018-10-22",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Jordan Bramble"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ygIDEaPlAJ8/hqdefault.jpg",
+  "title": "Detecting Signed and Unsigned Documents with Deep Learning - Beyond Transfer Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ygIDEaPlAJ8"
+    }
+  ]
+}

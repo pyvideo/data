@@ -1,0 +1,27 @@
+{
+  "abstract": "Training deep neural network models requires a highly tuned system with\nthe right combination of software, drivers, compute, memory, network,\nand storage resources. Deep learning frameworks like TensorFlow,\nPyTorch, Caffe, Torch, Theano, and MXNet have contributed to the\npopularity of deep learning by reducing the effort and skill needed to\ndesign, train, and use deep learning models. Fabric for Deep Learning\n(FfDL, pronounced \u201cfiddle\u201d) provides a consistent way to run these deep\nlearning frameworks as a service on Kubernetes. FfDL uses a\nmicroservices architecture to reduce coupling between components, keep\neach component simple and as stateless as possible, isolate component\nfailures, and allow each component to be developed, tested, deployed,\nscaled, and upgraded independently.\n\nAnimesh Singh shared lessons learned while building and using FfDL and\ndemonstrate how to leverage it to execute distributed deep learning\ntraining for models written using multiple frameworks, using GPUs and\nobject storage constructs. They then explain how to take models from\nIBM\u2019s Model Asset Exchange, train them using FfDL, and deploy them on\nKubernetes for serving and inferencing.\n",
+  "copyright_text": null,
+  "description": "Learn how to use Fabric for Deep Learning (FfDL) to execute distributed\ndeep learning training for models written using multiple frameworks\n",
+  "duration": 1755,
+  "language": "eng",
+  "recorded": "2018-10-23",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Animesh Singh",
+    "Tommy Li"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/_qq5k-qW5KI/maxresdefault.jpg",
+  "title": "Deploy and Use a Multiframework Distributed Deep Learning Platform on Kubernetes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_qq5k-qW5KI"
+    }
+  ]
+}
