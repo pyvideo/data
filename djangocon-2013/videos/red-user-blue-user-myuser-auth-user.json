@@ -9,7 +9,7 @@
   "recorded": "2013-10-03",
   "slug": "red-user-blue-user-myuser-auth-user",
   "speakers": [
-    "Dr. Russell Keith-Magee"
+    "Russell Keith-Magee"
   ],
   "summary": "Red User, Blue User, MyUser, auth.User\n\nWednesday 11:30 a.m.--12:15 p.m.\n\nAudience level: Intermediate\n\nDescription\n\nAn exploration of one of the banner features of Django 1.5 -- Custom\nUser models. Includes worked examples, a discussion of design decisions\nthat must be made, and a look at the internal architecture that makes it\nall possible. Abstract\n\nOne of the banner features of Django 1.5 was the introduction of custom\nUser models. Using this new feature, you are free to use any model you\nwish as your User, instead of being bound to the '30 character username\nand optional email' requirement of auth.User.\n\nIn this talk, Django core developer Russell Keith-Magee will give an\noverview of the API, and walk through some examples for some common --\nand some not so common -- use cases for a custom User.\n\nHe will also explore some common pitfalls and limitations of the custom\nUser model API, and look at the design decisions that face any use of\nthe custom User model API.\n\nFinally, we'll take a brief look under the hood to see how the feature\nactually works, and see how the same technique could be used for other\npluggable apps.\n",
   "tags": [],
