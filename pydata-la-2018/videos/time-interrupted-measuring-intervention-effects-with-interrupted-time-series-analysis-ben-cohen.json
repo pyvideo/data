@@ -1,0 +1,26 @@
+{
+  "abstract": "A/B testing and other related experimental designs are familiar ways to\ndetermine the effect of an intervention or change. They do this by\ncomparing a treatment group with a randomized control group. But often,\nwe want to measure effects in cases where it's not possible to have a\ncontrol group or to limit the exposure of the intervention. Some example\nscenarios include attributing sales to a national TV campaign,\nestimating the cost of a service outage, assessing the business impact\nof a PR event, and quantifying the public health consequences of a\npolicy change.\n\nIn these situations, we can often still make a probabilistic inference\nabout the effect by building a predictive model for what might have\nhappened in the absence of the intervention (a counterfactual). In\nparticular, the above examples all deal with time series data. We can\ntake advantage of that property by using standard time series modeling\ntechniques to create a baseline prediction, and comparing it with what\nwe observed. This method is called interrupted time series analysis\n(ITS), and it has broad applications to real world data.\n\nIn this talk, we'll discuss the structure and principles of ITS\nanalysis, and go over common use cases. We'll work through an\nimplementation on an example data set and consider various practical\nconsiderations and modeling choices. We'll also address some caveats.\nITS is considered a quasi-experimental method because the \"control\" is\ninferred, not observed. As a result, its estimates can only be trusted\nunder certain assumptions. We'll discuss the main threats to validity\nfor an ITS analysis and look at ways to mitigate them.\n\nInterrupted time series analysis is a powerful and useful tool when used\nappropriately, and this talk aims to provide a theoretical and practical\nintroduction to its application.\n",
+  "copyright_text": null,
+  "description": "How can we estimate the impact of a historical event where there is no\nway to run a controlled experiment? For example, we may want to assess\nthe impact of a TV campaign or account for lost sales during an outage.\nThis talk presents a brief overview of interrupted time series analysis,\na technique commonly used in econometrics and public health that is\ndesigned to address this type of problem.\n",
+  "duration": 2673,
+  "language": "eng",
+  "recorded": "2018-10-22",
+  "related_urls": [
+    {
+      "label": "schedule",
+      "url": "https://pydata.org/la2018/schedule/"
+    }
+  ],
+  "speakers": [
+    "Ben Cohen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/uuo8SwA1HO8/maxresdefault.jpg",
+  "title": "Time, Interrupted: Measuring Intervention Effects with Interrupted Time-Series Analysis",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uuo8SwA1HO8"
+    }
+  ]
+}
