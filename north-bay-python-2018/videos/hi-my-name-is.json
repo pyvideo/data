@@ -1,9 +1,10 @@
 {
+  "abstract": "This talk will take a tour through some of the ways usernames (and other\nidentifiers) can be trickier than we expect, or even genuinely\ndangerous, and will discuss ways you can use Python and its web\nframeworks to mitigate these risks and protect your sites and your\nusers.\n\nSome of the issues include:\n\n-  The difficulty of choosing between different types of unique\n   identifier for users; they all have issues, and get worse when they\n   start being exposed to the world (like in a profile-page URL).\n-  Ensuring uniqueness is surprisingly difficult! Usernames can have\n   issues with case sensitivity, Unicode normalization, and confusingly\n   similar-looking characters. Email addresses also present uniqueness\n   issues, due to both the complexity of the standards for addresses and\n   the quirks of popular email providers.\n-  Usernames as attack vectors: like any user-supplied input, they can\n   be vectors for SQL injection and cross-site scripting attacks, but\n   carefully-chosen usernames can also interfere with important\n   services, or enable social engineering attacks. Real-world examples\n   will be provided for many of these issues, along with tips on\n   specific tools and techniques – including both standard and\n   third-party Django and Python libraries – for protecting against\n   them.\n\nThis talk is designed for developers of any level of experience; both\nnovices and veterans will probably learn something new!\n",
   "copyright_text": null,
-  "description": "",
+  "description": "If XKCD’s “Little Bobby Tables” signed up for your website, what would\nhappen? What if someone tried to sign up as a user named\n‘administrator’? Usernames may be more complex than you expect! Come\nlearn some of the ways they can be tricky or even dangerous, and how you\ncan protect your sites and your users.\n",
   "duration": 1649,
   "language": "eng",
-  "recorded": "2018-11-03",
+  "recorded": "2018-11-04",
   "related_urls": [
     {
       "label": "Group web",
@@ -14,7 +15,9 @@
       "url": "https://2018.northbaypython.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "James Bennett"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/NIebelIpdYk/maxresdefault.jpg",
   "title": "Hi! My name is...",
