@@ -1,9 +1,10 @@
 {
+  "abstract": "Have you ever wished you could automate any task in a website? Be it\nordering food from your favorite vendor with an online shopping cart, or\nfind out the weekly items for sale in your local grocery store website.\nDue to the rise of libraries like React and the proliferation of\nclient-side rendered webapps, chances are that you may be inclined to\nuse dynamic scrapers like `Selenium <https://www.seleniumhq.org/>`__ or\n`Puppeteer <https://developers.google.com/web/tools/puppeteer/>`__.\nHowever, because these webapps need to initialize their components, they\nstill make AJAX calls to services, exposing \u201cinternal\u201d APIs we can use.\nThis is not how its developers intended us to use the site, because it\ncan change without notice, but that doesn\u2019t mean it\u2019s not useful! After\nleaving this talk, you\u2019ll be able to backwards-engineer these \u201cinternal\u201d\nAPIs and replicate any trivial flow as well as knowing how to use\nPuppeteer to directly interact with the page. You\u2019ll also learn the\ncriteria to choose when to use a dynamic scraper vs just using the\n\u201cinternal\u201d API webapps use.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Have you ever wished you could click a button and order a pizza? There\nis a catch: your favorite pizzeria doesn\u2019t have a button-to-order app,\nits website is client-side rendered and doesn\u2019t have a public developer\nAPI. We\u2019ll learn two ways to still get you that pizza, compare them and\nlearn when to use which.\n",
   "duration": 1556,
   "language": "eng",
-  "recorded": "2018-11-04",
+  "recorded": "2018-11-03",
   "related_urls": [
     {
       "label": "Group web",
@@ -14,7 +15,9 @@
       "url": "https://2018.northbaypython.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Diego Berrocal"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/AwUl0h8A7xU/maxresdefault.jpg",
   "title": "Better Web Scraping Through Reverse Engineering AJAX Calls",

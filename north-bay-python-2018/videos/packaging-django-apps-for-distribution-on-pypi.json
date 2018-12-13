@@ -1,6 +1,7 @@
 {
+  "abstract": "One of the strengths of Django is that it allows you to use apps created\nby other developers, so you don\u2019t have to spend time rewriting something\nthat someone else has already written. However, creating Python packages\nfor distribution via the Python Package Index is a process that is\nunfamiliar to most developers. In this talk, you will learn about\ncreating a reusable Django app. The talk will cover how a Django app\ndiffers from a package like requests, and how an app interacts with\nmodels and URLs in an existing project.\n\nWhile the talk will include a discussion of how to upload a Django app\nto PyPI, the parts that discuss how to make reusable Django apps will be\nuseful to developers who are working at organizations where they may not\nbe able to open-source their code.\n\nThis talk is intended for Django developers who have some familiarity\nwith how Django works, and an interest in code reuse and packaging. I am\naiming this talk at people who have completed a basic Django tutorial\nsuch as the Django Girls tutorial or the tutorial in the Django\ndocumentation.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Django lets you to use apps installed with pip, but have you ever wanted\nto package and distribute your own apps? In this talk, you will learn\nabout creating a Django app and packaging it for distribution on\nWarehouse (the new PyPI). The talk will also discuss some best practices\nfor packaging.\n",
   "duration": 1347,
   "language": "eng",
   "recorded": "2018-11-03",
@@ -14,7 +15,9 @@
       "url": "https://2018.northbaypython.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Laura Hampton"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/RQrZRFcbYM0/maxresdefault.jpg",
   "title": "Packaging Django Apps for Distribution on PyPI",

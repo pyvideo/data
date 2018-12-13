@@ -1,9 +1,10 @@
 {
+  "abstract": "Python includes a concrete syntax tree (CST) in the standard library,\nuseful for mass refactoring code bases of all sizes. I'll walk through\nthe differences between abstract and concrete syntax trees (AST and\nCST), why a CST is useful for refactoring, and how you can build basic\nrefactoring tools on top of a CST to modify your entire code base\nquickly and safely. Lastly, I'll demonstrate what's possible with these\ntools, including upgrading code to new interfaces, or wholesale movement\nof code between modules. This talk assumes a basic understanding of how\nPython works, but will otherwise provide enough context to be useful to\nthose who haven't previously worked with syntax trees.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "What if you could refactor your entire code base, safely and\nautomatically? How much old code could you fix or replace if you didn't\nworry about updating every reference by hand? I'll show you how a\nconcrete syntax tree (CST) can help you do just that using only the\nstandard Python library.\n",
   "duration": 1470,
   "language": "eng",
-  "recorded": "2018-11-03",
+  "recorded": "2018-11-04",
   "related_urls": [
     {
       "label": "Group web",
@@ -14,7 +15,9 @@
       "url": "https://2018.northbaypython.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "John Reese"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/KxWsM9Kh1FY/maxresdefault.jpg",
   "title": "Refactoring Code with the Standard Library",

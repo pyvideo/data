@@ -1,9 +1,10 @@
 {
+  "abstract": "The Hypothesis library by David McIver is a property testing library for\nPython. Property testing is related to fuzz testing, a technique\ncommonly applied in fields where correctness is paramount. With a little\nguidance from you, the programmer, Hypothesis can generate a wide\nvariety of valid -- and invalid -- inputs to your functions, and test\nscenarios you might never have considered. It can generate instances of\nyour custom objects, and isn't limited just to simple functions. On top\nof all of this, when Hypothesis finds a failure, it will simplify the\nfailing case, which aids tremendously in diagnosing what is actually\nwrong in your code.\n\nWe'll take a look at what Hypothesis has to offer, and how you can apply\nit to your codebase. We'll see how to generate custom test case\nstrategies, and how to generate instances of your own objects. Finally,\nwe'll glance under the hood to see how Hypothesis generates test cases,\nand how it can automatically simplify them, to gain confidence that it's\nhelping us find real bugs and not just flukes.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "We don't like to admit it, but our code is riddled with bugs. Even for\nvery experienced developers, even if we've seen it all before, even on\nthe fifth time we've written an essentially identical function, our code\nstill has bugs. In this talk we'll look at a library that can\nautomatically uncover these bugs, and learn how to apply it to\nreal-world codebases to find and mediate these problems.\n",
   "duration": 1735,
   "language": "eng",
-  "recorded": "2018-11-03",
+  "recorded": "2018-11-04",
   "related_urls": [
     {
       "label": "Group web",
@@ -14,7 +15,9 @@
       "url": "https://2018.northbaypython.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Dan Crosta"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/kMNL4RNUyP0/maxresdefault.jpg",
   "title": "Let The Computer Write The Tests",
