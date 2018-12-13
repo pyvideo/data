@@ -1,9 +1,10 @@
 {
+  "abstract": "Jupyter Basics (7m)\n===================\n\nJupyter is an interactive development environment based on the\nread-edit-eval loop. We will examine a bit of its history, and show-case\nhow it works for those new to Jupyter -- while also showing a few tricks\neven experienced Jupyterians will appreciate.\n\nIncremental Development (7m)\n============================\n\nNext we will discuss best practices for incremental development.\nIncremental development is slightly different from writing code in\nPython modules. The global namespace matters a lot more, and must be\nmanaged carefully. Writing code with less side-effects allows using the\nsame data structure multiple times, increasing iteration speed. Finally,\nit is often useful to write little snippets which will crawl\nintermediate results and verify them for correctness.\n\nCollaboration (7m)\n==================\n\nThere are things to keep in mind when collaborating with Jupyter\nnotebooks. Since they are edited by an automatic tool, they can often\naccumulate \"cruft\" which confuses version control systems. Having\nutilities for cleaning notebooks pre-commit, as well as linting them in\na continuous integration environment post-commit, allows managing such\ncruft, and getting usable, reviewable, diffs. It is useful, as well, to\nbe able to \"run\" notebooks in continuous integration, verifying\ncorrectness.\n\nProduction (7m)\n===============\n\nIf we develop our code in Jupyter, we need to somehow get it to run in\nproduction. Luckily, modern Python import machinery is flexible enough\nthat we can write packages that look, to the users, like regular Python\ncode. We will cover how to mark cells appropriately as \"tests\" or\n\"code\", and how to set up such machinery -- all the way to building\nPyPI-ready wheels.\n\nSummary (2m)\n============\n\nIf we recognize that writing code is a process of successive\napproximation, we can stop having \"IDE-envy\" of static languages with\nall their facilities and develop *with* the Python grain: interactively,\nusing the dynamicity to make the programming environment better, not\nworse.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Can Jupyter change how we develop software? Instead of having an\nedit-debug cycle, we can iterativey build up code snippets with\nconfidence, seeing how they process their inputs. Jupyter lets us refine\nideas in real time, integrating testing with development.\nExploration-oriented programming is developing inside an interactive\nenvironment.\n",
   "duration": 1631,
   "language": "eng",
-  "recorded": "2018-11-04",
+  "recorded": "2018-11-03",
   "related_urls": [
     {
       "label": "Group web",
@@ -14,7 +15,9 @@
       "url": "https://2018.northbaypython.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Moshe Zadka"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/nfeExDL7B1c/maxresdefault.jpg",
   "title": "Exploration-Oriented Programming",

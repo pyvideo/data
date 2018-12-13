@@ -1,9 +1,10 @@
 {
+  "abstract": "In 2015, the PHP project released version 7.0 of the PHP language. Doing\nso was the culmination of several years of discussion and hard work to\nresolve what a new major version would look like, what would be\nincluded, and most importantly, what would be broken for existing users.\n\nIn the end, PHP 7 was released with almost no backward compatibility\nbreaks for well written, modern PHP 5 code. As a result, uptake of PHP 7\nafter two and a half years has been \u2014 depending on which source you use\nand how you measure it \u2014 between 33% and 67%.\n\nThe PHP project had a significant advantage, though: other languages had\nbeen through the same thing before. In particular, an example that was\nrepeatedly used and examined was the transition that was still taking\nplace from Python 2 to 3.\n\nIn this talk, I'll discuss the insights that were gleaned from observing\nthat process (mostly) from the outside looking in, and how that was\nreflected in the uptake curve of Python 3.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "In 2015, the PHP project released version 7.0 of the PHP language. This\nwas the culmination of years of discussion about the scope of the\nversion, and what we were willing to break. An advantage we had in PHP\nwas that Python had gone through a similar process with Python 3 seven\nyears earlier. I'll discuss the lessons we took from the Python 2-3\ntransition, and how we used them.\n",
   "duration": 1426,
   "language": "eng",
-  "recorded": "2018-11-04",
+  "recorded": "2018-11-03",
   "related_urls": [
     {
       "label": "Group web",
@@ -14,7 +15,9 @@
       "url": "https://2018.northbaypython.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Adam Harvey"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/BDj_F0J6cnc/maxresdefault.jpg",
   "title": "What PHP learned from Python",

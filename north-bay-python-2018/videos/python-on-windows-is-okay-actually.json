@@ -1,9 +1,10 @@
 {
+  "abstract": "Packages that won't install, encodings that don't work, installers that\nask too many questions, and having to own a PC are all great reasons to\njust ignore Windows. Or they would be, if they were true.\n\nDespite community perception, more than half of Python usage still\nhappens on Windows, including web development, system administration,\nand data science, just like on Linux and Mac. And for the most part,\nPython works the same regardless of what operating system you happen to\nbe using. Still, many library developers will unnecessarily exclude half\nof their potential audience by not even attempting to be compatible.\n\nThis session will walk through the things to be aware of when creating\ncross- platform libraries. From simple things like using ``pathlib``\nrather than ``bytes``, through to all the ways you can get builds and\ntests running on Windows for free, by the end of this session you will\nhave a checklist of easy tasks for your project that will really enable\nthe whole Python world to benefit from your work.\n",
   "copyright_text": null,
-  "description": "",
+  "description": "Despite more than half of Python's users being on Windows, it is\ngenerally believed that you can't do it. In this talk, I will provide an\noverview of why it's not as bad as people think, and the specific things\nyou can do today to make sure your projects work well for ALL Python\nusers, no matter where they work.\n",
   "duration": 1608,
   "language": "eng",
-  "recorded": "2018-11-03",
+  "recorded": "2018-11-04",
   "related_urls": [
     {
       "label": "Group web",
@@ -14,7 +15,9 @@
       "url": "https://2018.northbaypython.org/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Steve Dower"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/0u04fm61LBc/maxresdefault.jpg",
   "title": "Python on Windows is Okay, Actually",
