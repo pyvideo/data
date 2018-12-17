@@ -1,4 +1,5 @@
 {
+  "abstract": "My name is Sam and I am the head of technical documentation department\nat Zodiac Interactive.\n\nAt Zodiac we create low-level software (we call it 'middleware') that\nruns inside cable TV set-top boxes. Most cable companies in North\nAmerica use our products; most probably, your set-top box runs at least\nsome code written by Zodiac.\n\nZodiac has R&D departments all over the world; my office is located in\nNovosibirsk, Russia \u2013 right in the center of Siberia (so yes, there is a\nbig probability that your set-top box runs some code that was written in\nthe midst of Siberian taiga)\n\nDocumentation department at our R&D center concentrates only on\narchitectural documentation: our docs explain the design and\narchitectural decisions of our software components to other teams and\nR&D centers all over the world . We don't document user interface, write\nclient knowledge bases, or do UI copy. Our technical writers must be\ntech-savvy enough to understand the architectural peculiarities of\ncomplex multithreaded applications, must be able to read code in C++\nand, above all, must have perfect written English \u2013 Zodiac is an\nAmerican company, and we write all our docs in English, not Russian.\n\nDuring the last 5 years our R&D center went from not having any\ndocumentarians at all to a team of 4 excellent and capable technical\nwriters. We were able to set up effective processes of integrating\ndocumentation in overall development activities and find out good\nmetrics for quality of architectural docs.\n\nDocumentation processes and documentation quality are frequent topics at\nWrite the Docs, so I want to talk about more generic things:\ninterviewing, assessing and hiring technical writers.\n\nMy talk will tackle the following questions:\n\n-  How hard is it to find a \"highly technical\" technical writer?\n   (remember that our documentarians must read and understand C++ code)\n\n-  Is it possible to switch your non-documentarian team members to\n   writing documentation full-time? Do developers make good technical\n   writers? What about QA engineers? (our answer was no: it's better to\n   hire new documentarians than to evolve existing team members into\n   technical writers)\n\n-  Which one is easier: hiring a technically capable person and teaching\n   them to write well, or hiring a person with good writing skills but\n   no technical knowledge whatsoever and then training them on technical\n   stuff? (we went with the second option)\n\n-  Assessing the candidates: what is the perfect pre-interview\n   assignment test and is it OK if the typical candidate spends 10-14\n   days to complete it? Should your candidates write something that\n   resembles your working docs, or some generic texts on complex topics\n   are enough? (for example, we ask our candidates to explain SSL\n   certificates to their math-savvy, but not-cryptographically-inclined\n   uncle: private/public keys, digital signatures, chains of trust and\n   so on)\n\n-  Interviewing candidates for a technical writer position: are\n   interviews necessary at all? Can a good interview outweigh a bad\n   assignment test? Can a bad interview spoil the impression after a\n   good assignment test? What things should be asked during an\n   interview?\n",
   "copyright_text": null,
   "description": "",
   "duration": 1480,
@@ -10,10 +11,12 @@
       "url": "http://www.writethedocs.org/conf/na/2017/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Sam Faktorovich"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/tcjLbCLcPTo/maxresdefault.jpg",
-  "title": "Write the Docs Portland 2017: Interviewing and hiring technical writers... by Sam Faktorovich",
+  "title": "Interviewing and hiring technical writers: the Siberian way",
   "videos": [
     {
       "type": "youtube",
