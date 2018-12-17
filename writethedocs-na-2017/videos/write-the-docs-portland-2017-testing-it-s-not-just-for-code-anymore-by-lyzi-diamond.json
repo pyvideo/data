@@ -1,4 +1,5 @@
 {
+  "abstract": "We call ourselves technical writers, but many of us spend more time\nediting the work of others than writing ourselves. When you have a large\nteam or a large product (or both!), the cooks in the documentation\nkitchen come from all parts of the company: marketing, product,\nengineering, sales, and more. This adds a significant burden on you and\nyour team to make sure the content they produce is accurate, fits within\nyour style guide, uses the correct tone, and doesn''t add additional\nconfusion.\n\nAt Mapbox, we have both a large team and a complex product, which means\nmany different writers with individual writing styles and varying depth\nof knowledge of the product. To keep our work accurate and unified under\na common voice while avoiding breaking our necks with editing, we\nimplemented an automated content testing system (fully open source!) to\ndo some of the work for us. Automated tests have helped us embed quality\nwriting and editing into the development process as much as code testing\ndoes. \"It''s not finished until it''s documented\" is more than just a\nhappy thought -- it''s now an immovable part of our workflow.\n\nIn this talk, I will discuss the reasons you might want to implement an\nautomated testing system in your organization, examples of how it''s\nbeen beneficial, the story of how we set up our system, and a brief\noverview of the tools that exist for doing this work. I''ll also cover\nthe ways that automated tests can sometimes make funny mistakes and how\nwe found the balance between making tests too precise and not precise\nenough. For those who are interested in implementing right away, I will\nalso provide a comprehensive list of resources for getting started.\n",
   "copyright_text": null,
   "description": "",
   "duration": 1487,
@@ -10,10 +11,12 @@
       "url": "http://www.writethedocs.org/conf/na/2017/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Lyzi Diamond"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/e1_MMEr4kNU/maxresdefault.jpg",
-  "title": "Write the Docs Portland 2017: Testing: it's not just for code anymore by Lyzi Diamond",
+  "title": "Testing: it's not just for code anymore",
   "videos": [
     {
       "type": "youtube",
