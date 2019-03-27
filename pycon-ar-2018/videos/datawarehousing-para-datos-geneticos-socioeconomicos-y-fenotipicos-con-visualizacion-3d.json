@@ -1,0 +1,18 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Se presenta una aplicaci\u00f3n para el almacenamiento, an\u00e1lisis, y visualizaci\u00f3n interactiva de datos heterog\u00e9neos pertenecientes al biobanco de la Patagonia (proyecto RAICES), basado en herramientas libres como Django Rest Framework, Vue.js, Bokeh, THREE.js, y contenedores de Docker.\n\nEl Instituto Patag\u00f3nico de Ciencias Sociales y Humanas de Ciencias\nSociales y Humanas (`IPCSH-CONICET`_) estudia c\u00f3mo se relacionan las\ncostumbres y herencias de la regi\u00f3n con variables f\u00edsicas de inter\u00e9s\nm\u00e9dico, en particular con rasgos de riesgo para enfermedades complejas\ncomo obesidad, sobrepeso y s\u00edndrome metab\u00f3lico, entre otras. El proyecto\n`RAICES`_ (iniciativa propia del IPCSH-CONICET) busca generar un banco\nde datos gen\u00e9ticos o biobanco de la Patagonia que pueda servir para\nfuturas aplicaciones en el dise\u00f1o de pol\u00edticas p\u00fablicas de salud. Este\ntrabajo, realizado a trav\u00e9s de una pasant\u00eda promovida por el Laboratorio\nde Ciencias de las Im\u00e1genes (LCI) de la Universidad Nacional del Sur,\npresenta la implementaci\u00f3n de un datawarehouse (basado en Python y\nMongoDB) que permite a los investigadores del proyecto almacenar,\nconsultar y analizar datos heterog\u00e9neos propios de la colecta (encuestas\nsocioecon\u00f3micas, informaci\u00f3n geogr\u00e1fica y gen\u00e9tica, h\u00e1bitos\nalimenticios, modelos 3D, v\u00eddeos de cuerpo completo, medidas\nantropom\u00e9tricas, entre otros). Dado que las fuentes de datos eran\ndiversas, se trabaj\u00f3 en un m\u00f3dulo de *ETL* (*Extract, Transform and\nLoad*) para normalizar los datos y adaptarlos al modelo del\ndatawarehouse. Junto con el datawarehouse se dise\u00f1\u00f3 y desarroll\u00f3 una\n`aplicaci\u00f3n web`_ para la carga masiva de datos y acceso a los mismos en\nforma selectiva, brindando tambi\u00e9n una plataforma interactiva de\nvisualizaci\u00f3n de datos exploratoria (gr\u00e1ficos y modelos 3D). Se tiene\ncomo resultado un framework f\u00e1cilmente generalizable basado en\ntecnolog\u00edas libres disponible para ser utilizado en otros \u00e1mbitos\ncient\u00edficos Las tecnolog\u00edas utilizadas para el desarrollo del trabajo\nfueron las siguientes: Django Rest Framework, Vue.js, Bokeh, THREE.js,\nPandas, pyocr, pillow, Mongoengine, Docker Este trabajo fue realizado a\ntrav\u00e9s de una pasant\u00eda promovida por el Laboratorio de Ciencias de las\nIm\u00e1genes (LCI) de la Universidad Nacional del Sur.\n\n.. _IPCSH-CONICET: http://www.ipcsh.conicet.gob.ar/\n.. _RAICES: https://www.facebook.com/proyecto.raices.patagonia/\n.. _aplicaci\u00f3n web: https://youtu.be/CIpbHRLAG0I\n",
+  "language": "spa",
+  "recorded": "2018-11-24",
+  "speakers": [
+    "Luciano Serruya Aloisi",
+    "Pablo Toledo Margalef"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/RD3m0Z6OpIA/hqdefault.jpg",
+  "title": "Datawarehousing para datos gen\u00e9ticos, socioecon\u00f3micos y fenot\u00edpicos, con visualizaci\u00f3n 3D",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RD3m0Z6OpIA"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Mediante un proyecto con django rest framework, veremos como lidiar con las distintas unidades de medida, monedas y fechas seg\u00fan las preferencias del usuario, utilizando nuestros propios serializers, fields y views de este framework.\n\nCuando se desarrolla un sistema que maneja datos de clima (temperatura, presi\u00f3n atmosf\u00e9rica, viento, radiaci\u00f3n), \u00e9stos puede querer ser visto por el usuario, en distintas unidades (grados \u00b0C o \u00b0F, hPa o mBar, km/h o m/s, etc). Por otro lado, el usuario puede querer ingresar estos datos en las unidades que le son comunes. Esto implica la conversi\u00f3n en ambos sentidos (entrada y salida) para mantener la consistencia de los datos en el sistema y de los datos que ve el usuario. Otros ejemplos de esto son los precios de 'cosas' (en distintas monedas) y los formatos de fecha. En la charla, se mostrar\u00e1 una forma 'pythonica' de manejar estas conversiones mediante distintos serializers, fields y viewsets utilizando django rest framework. Veremos un ejemplo andando de como funciona todo.\n",
+  "language": "spa",
+  "recorded": "2018-11-24",
+  "speakers": [
+    "Matias Varela"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8g97P6S6Yyk/hqdefault.jpg",
+  "title": "Lidiando con formatos y unidades en nuestra API REST",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8g97P6S6Yyk"
+    }
+  ]
+}

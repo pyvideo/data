@@ -1,0 +1,17 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "En esta charla vamos a hablar sobre la nueva sintaxis de anotaciones de tipos introducidos en Python 3 y extendidos en Python 3.5/3.6. Si alguna vez un AttributeError te agarr\u00f3 desprevenido, ven\u00ed a escuchar c\u00f3mo se puede prevenir sin tener que mudarte a un lenguaje est\u00e1ticamente tipado.\n\nUna de las principales ventajas de Python es su sistema de tipado, conocido informalmente como \u201cduck typing\u201d: si un objeto sabe responder el mensaje quack() entonces el env\u00edo de ese mensaje no va a provocar un error. Esto acelera mucho el desarrollo y ayuda a construir modelos con bajo acoplamiento: implementar una interfaz en Python es tan simple como escribir los m\u00e9todos que se esperan, sin heredar de nadie. Sin embargo, este sistema de tipado es tambi\u00e9n una gran causa de dolores de cabeza a la hora de programar: qui\u00e9n no se encontr\u00f3 un AttributeError: \u201c\u2018Dog\u2019 object has no attribute \u2018quack\u2019\u201d en un c\u00f3digo que cre\u00eda perfecto. En esta charla buscamos introducir al p\u00fablico a la sintaxis de anotaci\u00f3n de tipos introducida en Python 3, y su implementaci\u00f3n efectiva con la librer\u00eda typing disponible desde Python 3.5. La mayor parte de la bibliograf\u00eda ser\u00e1 la oficial (PEPs 483, 484, 526 y la documentaci\u00f3n de typing), y usaremos tambi\u00e9n videos / c\u00f3digo en vivo de la herramienta PyCharm y de mypy, que tienen soporte para anotaciones de tipos en tiempo de compilaci\u00f3n.\n",
+  "language": "spa",
+  "recorded": "2018-11-24",
+  "speakers": [
+    "Nahuel Lascano"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/cUPcnv7zfrY/hqdefault.jpg",
+  "title": "AttributeError: \u2018Talk\u2019 object has no attribute \u2018title\u2019",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cUPcnv7zfrY"
+    }
+  ]
+}
