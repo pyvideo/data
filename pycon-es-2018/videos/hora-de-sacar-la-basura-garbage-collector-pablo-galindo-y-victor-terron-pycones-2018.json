@@ -1,0 +1,26 @@
+{
+  "copyright_text": null,
+  "description": "Uno de los motivos por los que programar en Python es c\u00f3modo y sencillo es que no tenemos que preocuparnos por el tiempo de vida de nuestros objetos. Es decir, una vez que deja de ser necesaria, una variable desaparece de la memoria \u201cmagicamente\u201d. Esto puede \u2014err\u00f3neamente\u2014 llevarnos a creer que no es necesario preocuparnos por lo que ocurre entre bastidores.\n\nNada m\u00e1s alejado de la realidad: conocer c\u00f3mo Python gestiona la memoria es fundamental en ciertos escenarios, y desconocer qu\u00e9 est\u00e1 ocurriendo puede tener consecuencias tan importantes como desagradables. Por ejemplo, si nuestros programas gestionan una gran cantidad de datos al mismo tiempo o lanzan m\u00faltiples processos en paralelo esto deja de ser una cuesti\u00f3n te\u00f3rica y convierte en algo que a nosotros, mentes pragm\u00e1ticas, tambi\u00e9n nos importa.\n\nPython utiliza para manejar la memoria una estrategia combinada consistente en dos intimidantes t\u00e9rminos: (1) conteo de referencias y (2) colector de basura generacional. Entender c\u00f3mo ambos sistemas trabajan juntos y cu\u00e1les son las limitaciones de cada uno nos ayudar\u00e1 a entender aspectos espec\u00edficos de nuestra programaci\u00f3n del d\u00eda a d\u00eda. Ejemplos: (a) qu\u00e9 ocurre con la memoria exactamente cuando hay multiples hilos o procesos, (b) qu\u00e9 pasa si nuestras estructuras de datos se contienen a si mismas, un escenario posible al trabajar con grafos, o (c) qu\u00e9 hace Python con los valores temporales que se producen, sin ir m\u00e1s lejos, al sumar dos n\u00fameros o dos arrays de NumPy.\n\nAunque estos conceptos suelen considerarse avanzados y dif\u00edciles de entender, veremos que no es as\u00ed. \u00c9ste no es un asunto meramente te\u00f3rico ni es dif\u00edcil encontrar sus aplicaciones pr\u00e1cticas. En esta charla explicaremos por qu\u00e9 es algo que debe importarnos y hablaremos de c\u00f3mo aplicar los conocimientos que hemos adquirido a problemas espec\u00edficos.\n\nResumen esquem\u00e1tico de la charla:\n\n#. Repaso express: qu\u00e9 son las variables en Python\n\n   #. Variables como etiquetas\n   #. Variables vs objetos\n\n#. Qu\u00e9 es la recoleci\u00f3n de basura.\n#. Conteo por referencias\n\n   #. Qu\u00e9 problema resuelve.\n   #. Problemas del conteo por referencia.\n\n      #. Hilos\n      #. Ciclos\n\n#. Recolector de basura para ciclos\n\n   #. Las tres generaciones.\n   #. El algoritmo\n\n#. Aplicaciones pr\u00e1cticas y conocimiento \u00fatil.\n\n   #. Que ocurre al implementar ``__del__()``.\n   #. Copy-on-write.\n   #. ``__slots__``\n   #. Hilos versus procesos.\n   #. Extras\n",
+  "duration": 1524,
+  "language": "spa",
+  "recorded": "2018-10-07",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "Pablo Galindo",
+    "Victor Terr\u00f3n"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/G9wOSExzs5g/maxresdefault.jpg",
+  "title": "Hora de sacar la basura: garbage collector",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=G9wOSExzs5g"
+    }
+  ]
+}

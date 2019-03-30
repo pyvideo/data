@@ -1,0 +1,31 @@
+{
+  "copyright_text": null,
+  "description": "In this talk, we'll go through our project called NuCypher, a network to empower privacy and data confidentiality in decentralized systems based on the use of advanced cryptographic techniques. In particular, we use \"proxy re-encryption\", a special type of cryptosystem that allows to delegate decryption rights of encrypted information. Nodes in our network provide a cryptographically-enforced access control service that allows users to securely share information with others, but in such a way that nodes are completely oblivious to the data that is encrypted: at no point nodes can read anything.\n\nWe'll cover how Python has enabled the vast majority of our implementation, from constructing a low-level library for elliptic curve arithmetic on top of cryptography.io, to interacting with the Ethereum blockchain with py-geth and web3.py. Finally, you'll see a practical example of the use of pyUmbral, our cryptographic library (https://github.com/nucypher/pyUmbral), and a live demo of how to share data securely with the NuCypher network.\n",
+  "duration": 1687,
+  "language": "eng",
+  "recorded": "2018-10-07",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    },
+    {
+      "label": "pyUmbral",
+      "url": "https://github.com/nucypher/pyUmbral"
+    }
+  ],
+  "speakers": [
+    "David N\u00fa\u00f1ez"
+  ],
+  "tags": [
+    "nucypher"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/S3D3ey824ZA/maxresdefault.jpg",
+  "title": "Using Python to build a data privacy layer for decentralized applications",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=S3D3ey824ZA"
+    }
+  ]
+}

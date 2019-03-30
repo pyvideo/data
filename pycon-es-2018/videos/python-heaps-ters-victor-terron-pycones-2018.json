@@ -1,0 +1,45 @@
+{
+  "copyright_text": null,
+  "description": "La documentaci\u00f3n de Python del `m\u00f3dulo heaqp`_ nos da el ejemplo de que\npueden usarse para implementar colas de prioridad. M\u00e1s all\u00e1 de eso\nencontramos escasa informaci\u00f3n acerca de sus aplicaciones pr\u00e1cticas y\n\u2014quiz\u00e1\u2014 demasiados detalles acerca de invariantes y `la teor\u00eda`_ detr\u00e1s\nde esa estructura de datos llamada *heap*. Es f\u00e1cil echar un vistazo\nsuperficial y encogerse de hombros, sin haber entendido mucho y con la\nsensaci\u00f3n de que \u00e9ste no es un m\u00f3dulo que vayamos a necesitar alg\u00fan d\u00eda.\n\nPero no es as\u00ed. Las heaps importan, y mucho: del mismo modo que es\nrazonable afirmar que las `tablas hash`_ (conocidas en Python como\ndiccionarios) son la estructura de datos m\u00e1s importante conocida por la\nhumanidad, la `heap`_ se encuentra f\u00e1cilmente entre las tres m\u00e1s\nimportantes. Nos permiten acceder en todo momento al mayor (o menor)\nelemento en tiempo constante, O(1), mientras que insertar elementos\nocurre en tiempo logar\u00edtmico, O(log n). Las ramificaciones de estas\npropiedades son inmensas, y \u2014sin ir m\u00e1s lejos\u2014 es lo que subyace en el\nalgoritmo de ordenaci\u00f3n `heapsort`_.\n\nProblemas que de otra forma ser\u00edan intratables (ejemplo: \u201c\u00bfcu\u00e1les son\nlos *n* menores elementos de este fichero con diez billones de\nenteros?\u201d) tienen una soluci\u00f3n elegante y de apenas unas l\u00edneas de\nc\u00f3digo cuando podemos usar una heap. En esta charla vamos a incorporar\nesta estructura de datos a nuestro arsenal, entender c\u00f3mo funciona y\naprender a reconocer cu\u00e1ndo es la herramienta adecuada para enfrentarnos\na nuestro problema.\n\nResumen esquem\u00e1tico de la charla:\n\n#. Qu\u00e9 es una heap:\n\n   -  Inserci\u00f3n: O(log n)\n   -  Consultar la ra\u00edz: O(1)\n   -  Borrado: O(log n)\n\n#. Por qu\u00e9 importan y qu\u00e9 problema resuelven.\n\n#. Aplicaciones de una heap:\n\n   -  Los *n* menores elementos de un conjunto.\n   -  `Heapsort`_.\n   -  Medianas.\n\n#. Reconocer cu\u00e1ndo hemos de usar una heap.\n\n#. Dos opciones para la implementaci\u00f3n:\n\n   -  \u00c1rbol binario.\n   -  Vector.\n\n#. Heaps en Python: el m\u00f3dulo `heapq`_.\n#. Idea: encapsularlo en nuestra propia clase.\n\n.. _m\u00f3dulo heaqp: https://docs.python.org/3/library/heapq.html\n.. _la teor\u00eda: https://docs.python.org/3/library/heapq.html#theory\n.. _tablas hash: https://en.wikipedia.org/wiki/Hash_table\n.. _heap: https://en.wikipedia.org/wiki/Binary_heap\n.. _heapsort: https://en.wikipedia.org/wiki/Heapsort\n.. _heapq: https://docs.python.org/3/library/heapq.html\n",
+  "duration": 1480,
+  "language": "spa",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    },
+    {
+      "label": "m\u00f3dulo heaqp ",
+      "url": "https://docs.python.org/3/library/heapq.html"
+    },
+    {
+      "label": "m\u00f3dulo heaqp (teor\u00eda)",
+      "url": "https://docs.python.org/3/library/heapq.html#theory"
+    },
+    {
+      "label": "tablas hash",
+      "url": "https://en.wikipedia.org/wiki/Hash_table"
+    },
+    {
+      "label": "heap",
+      "url": "https://en.wikipedia.org/wiki/Binary_heap"
+    },
+    {
+      "label": "heapsort",
+      "url": "https://en.wikipedia.org/wiki/Heapsort"
+    }
+  ],
+  "speakers": [
+    "V\u00edctor Terr\u00f3n"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/lIoKC5p7sug/maxresdefault.jpg",
+  "title": "Python Heaps-ters",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lIoKC5p7sug"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "copyright_text": null,
+  "description": "Construir un motor de optimizaci\u00f3n para la planificaci\u00f3n de rutas de veh\u00edculos de recogida de residuos, de reparto de mercanc\u00edas, u otras muchas aplicaciones, no es tarea f\u00e1cil por dos importantes motivos:\n\n*    La enorme cantidad de restricciones involucradas en el problema: restricciones a la hora de circular con los veh\u00edculos, puntos de parada que hay que visitar a cierta hora, conductores con horarios, camiones que se llenan y vac\u00edan, entregas y recogidas\u2026\n*    Es un problema de optimizaci\u00f3n combinatoria bestial (NP-duro). Por ejemplo, para un s\u00f3lo veh\u00edculo que tendr\u00eda que visitar 100 localizaciones, existen ``100!`` rutas posibles\u2026 ``100! = 9.33 * 10^157``. El n\u00famero estimado de \u00e1tomos en el universo visible es s\u00f3lo ``10^80``, \u00a1casi nada!\n\nCayetano y Josema forman parte del equipo de Geographica que ha desarrollado una soluci\u00f3n para resolver este tipo de problemas. Nos contar\u00e1n como han montado este motor de optimizaci\u00f3n de rutas usando datos de OpenStreetMaps, PostgreSQL (con sus extensiones PostGIS y PgRouting) para ingestionarlos y procesarlos, las metaheuristicas de OR-Tools para darles sentido y Apache Airflow con Kuberntes para orquestar a estas bestias. Todo esto apoyado muy s\u00f3lidamente con el SciPy ecosystem, lo mejor de Python para computaci\u00f3n cient\u00edfica: Pandas, NumPy, Scikit-learn\u2026\n",
+  "duration": 1211,
+  "language": "spa",
+  "recorded": "2018-10-07",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "Josema Camacho",
+    "Alberto Asuero",
+    "Cayetano Benavent"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/qPzUNpegl5k/maxresdefault.jpg",
+  "title": "Motor de optimizaci\u00f3n de rutas para el mundo real: Python y otras bestias",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qPzUNpegl5k"
+    }
+  ]
+}

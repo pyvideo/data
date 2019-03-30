@@ -1,0 +1,73 @@
+{
+  "copyright_text": null,
+  "description": "Durante las \u00faltimas d\u00e9cadas del siglo XX el mundo acad\u00e9mico llev\u00f3 a cabo numerosas investigaciones y desarrollos relacionados con el an\u00e1lisis de time series (TS). Sin embargo, no es hasta estos \u00faltimos a\u00f1os en los que la industria se ha lanzado al an\u00e1lisis y c\u00f3mputo masivo de este tipo de datos. El auge del Internet de la Cosas y la necesidad de analizar y monitorizar datos en los que el tiempo no es una simple m\u00e9trica m\u00e1s, sino el eje principal sobre el que versan otras variables es lo que ha puesto el foco de atenci\u00f3n en el an\u00e1lisis de time series. Esta nueva demanda de c\u00f3mputo debe ser acompasada por las \u00faltimas generaciones de procesadores, (multicore y GPUs), as\u00ed como en el desarrollo de tecnolog\u00edas de Big Data y de computaci\u00f3n distribuida, las cuales proporcionan los medios para tratar estos grandes vol\u00famenes de datos en tiempo real suave.\n\nEn el contexto de Python, en la actualidad existen algunas librer\u00edas que ofrecen funciones para analizar time series. Si nos centramos en librer\u00edas de pre-procesamiento, encontramos librer\u00edas como Pandas [1] y tspreprocess [2], las cuales ofrecen funciones para la carga y almacenamiento de TS, adem\u00e1s de funciones de conversi\u00f3n, resampling y desplazamiento de tiempo. Por otro lado, encontramos las librer\u00edas Prophet [3], PyFlux [4] y Pyramid [5], que nos ofrecen funciones de forecasting para predecir futuros valores en una time series. Por \u00faltimo, hay otro grupo de librer\u00edas como, tsfresh [6], tslearn [7] y shapelets [8] que generan clasificadores y regresores para time series. A pesar de la existencia de estas librer\u00edas que tratan time series, observamos principalmente dos limitaciones: 1) La funcionalidad que ofrecen estas librer\u00edas se encuentra muy fragmentada en librer\u00edas inconexas y 2) la mayor\u00eda de estas librer\u00edas son secuenciales, es decir, se ejecutan en un \u00fanico thread, por lo que no son capaces de sacar ventaja de los procesadores paralelos como GPUs o CPUs multicores.\n\nPara superar las dos limitaciones anteriores, presentamos Khiva [9], una librer\u00eda opensource que permite la ejecuci\u00f3n de una larga lista de algoritmos de an\u00e1lisis de time series sobre GPUs. Khiva incorpora algoritmos de reducci\u00f3n de dimensionalidad, c\u00e1lculo de distancias, normalizaci\u00f3n, regresi\u00f3n, regularizaci\u00f3n, extracci\u00f3n de caracter\u00edsticas, estad\u00edsticos descriptivos, b\u00fasqueda de patrones, etc. Para la implementaci\u00f3n de todos los algoritmos hemos usado la librer\u00eda Arrayfire [10] como capa de abstracci\u00f3n de las principales APIs de GPUs para c\u00f3mputo, OpenCL [11] y Nvidia CUDA [12]. De esta forma, somos capaces de asegurar que la librer\u00eda Khiva se puede ejecutar en cualquier plataforma independientemente de la GPU que se encuentre disponible. Adem\u00e1s de la aceleraci\u00f3n del tiempo de ejecuci\u00f3n, otra de las principales ventajas que proporciona Khiva, es que la mayor\u00eda de los algoritmos mencionados son concatenables. Debido a que implementamos una estrategia lazy para las transferencias de memoria entre CPU y GPU, as\u00ed solo se transfieren datos entre CPU y GPU si es estrictamente necesario, por lo que evitamos todas aquellas transferencias que son innecesarias.\n\nDurante la charla, ofreceremos una introducci\u00f3n a las time series y a los problemas que se pueden resolver con el tratamiento de \u00e9stas. Posteriormente, presentaremos los aspectos de implementaci\u00f3n m\u00e1s importantes, aqu\u00ed profundizaremos en los mecanismos que hemos usado para ejecutar nuestros algoritmos en GPU y finalizaremos con una sencilla demostraci\u00f3n en Python (live coding), utilizaremos Khiva para analizar un conjunto de datos de consumo energ\u00e9tico para encontrar patrones comunes entre ellos.\n\nWorks Cited\n\n[1] \"Pandas Library Documentation,\" [Online]. Available: https://pandas.pydata.org/pandas-docs/version/0.22.0/timeseries.html. [Accessed 04 06 2018].\n\n[2] \"tspreprocess,\" Maximilian Christ, [Online]. Available: https://github.com/MaxBenChrist/tspreprocess. [Accessed 04 06 2018].\n\n[3] \"Prophet,\" Facebook, [Online]. Available: https://github.com/facebook/prophet. [Accessed 20018 06 04].\n\n[4] \"PyFlux,\" Ross Taylor, [Online]. Available: https://github.com/RJT1990/pyflux. [Accessed 04 06 2018].\n\n[5] \"Pyramid,\" Taylor G Smith, [Online]. Available: https://github.com/tgsmith61591/pyramid. [Accessed 04 06 2018].\n\n[6] \"tsfresh,\" Blue-yonder, [Online]. Available: https://github.com/blue-yonder/tsfresh. [Accessed 04 06 2018].\n\n[7] \"tslearn,\" Romain Tavenard, [Online]. Available: https://github.com/rtavenar/tslearn. [Accessed 04 06 2018].\n\n[8] \"shaplets-python,\" Mohamed Abdulaziz Ali Haseeb, [Online]. Available: https://github.com/mohaseeb/shaplets-python. [Accessed 04 06 2018].\n\n[9] \"Khiva Library,\" Shapelets.io, [Online]. Available: https://github.com/Shapelets/Khiva. [Accessed 04 06 2018].\n\n[10] \"Arrayfire Documentation,\" ArrayFire, [Online]. Available: https://arrayfire.org/docs/index.htm. [Accessed 04 06 2018].\n\n[11] \"OpenCL,\" Khronos Group, [Online]. Available: https://www.khronos.org/opencl/. [Accessed 04 06 2018].\n\n[12] \"Nvidia Cuda,\" Nvidia, [Online]. Available: https://developer.nvidia.com/cuda-toolkit. [Accessed 04 06 2018].\n",
+  "duration": 1713,
+  "language": "spa",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    },
+    {
+      "label": "Pandas Library Documentation",
+      "url": "https://pandas.pydata.org/pandas-docs/version/0.22.0/timeseries.html"
+    },
+    {
+      "label": "tspreprocess",
+      "url": "https://github.com/MaxBenChrist/tspreprocess"
+    },
+    {
+      "label": "Prophet",
+      "url": "https://github.com/facebook/prophet"
+    },
+    {
+      "label": "PyFlux",
+      "url": "https://github.com/RJT1990/pyflux"
+    },
+    {
+      "label": "Pyramid",
+      "url": "https://github.com/tgsmith61591/pyramid"
+    },
+    {
+      "label": "tsfresh",
+      "url": "https://github.com/blue-yonder/tsfresh"
+    },
+    {
+      "label": "tslearn",
+      "url": "https://github.com/rtavenar/tslearn"
+    },
+    {
+      "label": "shaplets-python",
+      "url": "https://github.com/mohaseeb/shaplets-python"
+    },
+    {
+      "label": "Khiva Library",
+      "url": "https://github.com/Shapelets/Khiva"
+    },
+    {
+      "label": "Arrayfire Documentation",
+      "url": "https://arrayfire.org/docs/index.htm"
+    },
+    {
+      "label": "OpenCL",
+      "url": "https://www.khronos.org/opencl/"
+    },
+    {
+      "label": "Nvidia Cuda",
+      "url": "https://developer.nvidia.com/cuda-toolkit"
+    }
+  ],
+  "speakers": [
+    "Antonio Vilches"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/FwwXLEvvXjk/maxresdefault.jpg",
+  "title": "Khiva: C\u00f3mo Al Juarismi reventaba GPUs para analizar time series",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FwwXLEvvXjk"
+    }
+  ]
+}

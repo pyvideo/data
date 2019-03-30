@@ -1,0 +1,26 @@
+{
+  "copyright_text": null,
+  "description": "La mayor\u00eda de problemas reales que abordamos con Aprendizaje Autom\u00e1tico requieren ingerir datos de diversa naturaleza y fuentes de procedencia: los atributos de nuestras muestras pueden tener car\u00e1cter num\u00e9rico, categ\u00f3rico, o textual.\n\nLos modelos de Aprendizaje Autom\u00e1tico necesitan que la informaci\u00f3n entrante est\u00e9 expresada en un formato adecuado, en la mayor\u00eda de ocasiones como vector o tensor num\u00e9rico. Es imperativo pues definir una cadena de operaciones para transformar nuestros datos originales al formato tolerado por el modelo en cuesti\u00f3n, a la vez que intentamos extraer nuevas variables que faciliten el aprendizaje del modelo y mejoren su poder predictivo.\n\nDado que las operaciones a realizar depender\u00e1n de la tipolog\u00eda de partida de los atributos, estas cadenas de operaciones o pipelines pueden llegar a ser complejas y dif\u00edciles de encapsular, pudiendo dificultar el posterior mantenimiento y provocar potenciales errores metodol\u00f3gicos en la etapa de validaci\u00f3n del modelo o de puesta en producci\u00f3n.\n\nScikit-learn ha incluido una nueva funcionalidad en su recientemente lanzada versi\u00f3n 0.20, que complementa a su poderoso \u201cPipeline\u201d para construir arquitecturas multimodales como la esbozada: \u201cColumnTransformer\u201d.\n\nEn esta charla presentaremos a trav\u00e9s de ejemplos pr\u00e1cticos la problem\u00e1tica que puede plantear el procesamiento de datos mixtos y c\u00f3mo scikit-learn nos proporciona una potente soluci\u00f3n 'off-the-shelf'.\n",
+  "duration": 1108,
+  "language": "spa",
+  "recorded": "2018-10-07",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "Pedro Morales",
+    "Enrique Colin"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yYgY1R2QhI0/maxresdefault.jpg",
+  "title": "Scaling beyond scikit-learn's Pipeline: handling mixed data types easily!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yYgY1R2QhI0"
+    }
+  ]
+}

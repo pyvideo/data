@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "En txerpa.com llevamos alrededor de 4 a\u00f1os usando django tenants schemas para ofrecer un producto multitenant. Hace algo menos de dos a\u00f1os nos encontramos con un problema grave, las migraciones tardaban mucho m\u00e1s de lo que era aceptable para nosotros, est\u00e1bamos afrontando un cambio importante en la estructura de datos y ten\u00edamos m\u00e1s de 3000 schemas en los que aplicar los cambios.\n\nEntonces decidimos aportar nuestro granito de arena al proyecto y adaptamos la gesti\u00f3n de migraciones para que se pueda hacerse en paralelo. Este cambio nos permiti\u00f3 reducir el tiempo de las migraciones a menos de una tercera parte. No obstante el procesos sigue siendo demasiado lento para ciertas migraciones y sobretodo obliga a parar el servicio entero mientras se est\u00e1n realizando y en estos momentos estamos desarrollando una nueva mejora para la gesti\u00f3n de las migraciones, que permita usar celery en lugar de hilos, permitiendo un mayor nivel de concurrencia y mayor control a la hora de realizar migraciones.\n\nMi propuesta es hablar de como gestionar el proceso de migraciones cuando tenemos que trabajar con miles de esquemas en Django tenant esquemas, a partir de nuestra experiencia y de las soluciones que hemos implantado.\n",
+  "duration": 1266,
+  "language": "spa",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "Xavier Gil Estarellas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/5nD2wRkn9CY/maxresdefault.jpg",
+  "title": "Multitenant, el infierno de las migraciones",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5nD2wRkn9CY"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Un **drone**, una **RaspberryPi**, una **c\u00e1mara con visi\u00f3n nocturna**,\nuna **web dise\u00f1ada mediante Flask** que permite controlar ese drone de\nforma totalmente remota, y desde cualquier lugar del mundo... y todo\nello bien conectado por el lenguaje que hoy nos ha traido aqu\u00ed:\n\n|PYTHON|\n\n**S\u00ed... Pocas palabras juntas podr\u00edan atraer tanta atenci\u00f3n.**\n\n\n____________________\n\n**\u00bfTe gusta(n)...**\n\n-  ...programar en **Python**? Menuda pregunta, si no \u00bfqu\u00e9 ibas a hacer\n   aqu\u00ed?\n\n-  ...los **drones**? Menuda pregunta, \u00bfa qui\u00e9n no?\n\n-  ...las **RaspberryPi**? Deme diez, pero d\u00e9melas ya.\n\n-  ...las enumeraciones interminables?\n\nEsta charla es un ejemplo perfecto de **que** se puede conseguir con\nPython. Una implementaci\u00f3n que pasa de la simple teor\u00eda a algo real,\ntremendamente divertido, y potencialmente peligroso **:D**.\n\nEn esta charla se mostrar\u00e1 como se han integrado diferentes tecnolog\u00edas\nmediante Python, para conseguir controlar un drone conectado a una\nRaspberryPi.\n\n____________________\n\nHablaremos de...\n~~~~~~~~~~~~~~~~\n\nFlask\n~~~~~\n\nUtilizado en el dise\u00f1o y gesti\u00f3n de la p\u00e1gina web, as\u00ed como de\nSQLAlchemy para mantener la base de datos, Flask-SocketIO para\ncomunicaci\u00f3n en tiempo real con WebSockets y otros m\u00f3dulos compatibles\ncon este peque\u00f1o gran framework.\n\nWebSockets\n^^^^^^^^^^\n\nUn poco de JavaScript para ayudarnos a comunicar el input de usuario con\nla aplicaci\u00f3n web basada en Flask.\n\nWebRTC\n^^^^^^\n\nUna de las tecnolog\u00edas m\u00e1s prometedoras para el **streaming de video en\nriguroso directo**, y con una latencia m\u00ednima.\n\nPython\n~~~~~~\n\nComunicaci\u00f3n Serie\n^^^^^^^^^^^^^^^^^^\n\nDe alguna forma se tiene que **establecer comunicaci\u00f3n entre la\nRaspberryPi y el drone**, y Python provee de mecanismos que permiten\nimplementar un protocolo de comunicaci\u00f3n muy avanzado, de forma\nrelativamente sencilla.\n\nThreads y Sockets\n^^^^^^^^^^^^^^^^^\n\nHay que mantener ese **servidor de control remoto** const\u00e1ntemente\natento y listo para recibir \u00f3rdenes!\n\nNumpy\n^^^^^\n\nUtilizado para implemnetar un sistema de **evasi\u00f3n de obst\u00e1culos** de\nforma eficiente, y un sistema de **localizaci\u00f3n sin GPS**, basando ambos\nen las posibilidades del c\u00e1lculo vectorizado que ofrece Numpy.\n\n____________________\n\nY por supuesto...\n~~~~~~~~~~~~~~~~~\n\n``DEMO || GT*O``\n\nDemo!\n~~~~~\n\nPara la admiraci\u00f3n, sorpresa y/o terror (no son excluyentes) de los\nasistentes, se llevar\u00e1 a cabo una peque\u00f1a demo en la que se har\u00e1 volar\nun drone basado en el sistema expuesto. Siempre contemplando una serie\nde medidas de seguridad, por supuesto.\n\nRonda de preguntas\n~~~~~~~~~~~~~~~~~~\n\n.. |PYTHON| image:: https://www.python.org/static/community_logos/python-logo.png\n",
+  "duration": 1407,
+  "language": "spa",
+  "recorded": "2018-10-07",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "Mario Bartolome Manovel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2_aKKT_22SM/maxresdefault.jpg",
+  "title": "Un dron vol\u00f3 sobre el nido de Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2_aKKT_22SM"
+    }
+  ]
+}

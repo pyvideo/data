@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "La retina de los vertebrados est\u00e1 formada por distintos circuitos\nneuronales compuestos por varios tipos de c\u00e9lulas diferentes, cada uno\ncon su propio rol y su caracter\u00edstica particular de respuesta ante\nest\u00edmulos visuales. Dichas neuronas est\u00e1n dispuestas en tres capas\ncelulares distintas que definen entre ellas dos interfaces de conexi\u00f3n\nque llamamos capas sin\u00e1pticas [1].\n\nPor otra parte, uno de los principales objetivos de la neurociencia es\ncomprender c\u00f3mo se codifica la informaci\u00f3n visual en la retina por parte\nde las neuronas que la forman. Adem\u00e1s, las enfermedades que afectan a la\nvisi\u00f3n, como la retinosis pigmentaria o la degeneraci\u00f3n macular asociada\na la edad, tienen una incidencia cada vez m\u00e1s acusada a\u00f1o tras a\u00f1o en\npersonas de todo el mundo. Esto define el enorme desaf\u00edo para nuestra\nsociedad de dar soluci\u00f3n a estos problemas, mediante el uso de terapias\ngen\u00e9ticas y neuropr\u00f3tesis visuales [2]. Es por ello que es muy\nimportante disponer de modelos computacionales de la retina, para\nconocer m\u00e1s su estructura y funcionamiento as\u00ed como para poder ser\nutilizados en neuropr\u00f3tesis visuales.\n\nEn este estudio se presenta un **modelo computacional de la retina** que\nse encarga de transformar est\u00edmulos visuales en patrones de disparo de\npotenciales de acci\u00f3n de manera precisa. Se aborda el problema del\nentrenamiento de modelos neuronales de c\u00e9lulas ganglionares de la retina\n(RGC) as\u00ed como de grupos de c\u00e9lulas ganglionares, todo ello haciendo uso\nde registros electrofisiol\u00f3gicos de ratones. De manera espec\u00edfica, se\nmodelan **redes neuronales convolucionales (CNN)** para aprender a\npredecir las respuestas neuronales de RGC individuales y poblaciones de\n\u00e9stas ante un est\u00edmulo de ruido natural. Los modelos se han desarrollado\nhaciendo uso de los **frameworks TensorFlow y Keras para Python**. Los\nresultados muestran que las CNN pueden ser utilizadas de manera efectiva\npara modelar y aprender los procesos computacionales llevados a cabo en\nla retina en forma de redes neuronales multicapa similares a los\ncircuitos neuronales de la misma.\n\n\n#. Kolb H, Fernandez E, Nelson R, editors. Webvision: The Organization\n   of the Retina and Visual System [Internet]. Salt Lake City (UT):\n   University of Utah Health Sciences Center; 1995. Available from:\n   https://www.ncbi.nlm.nih.gov/books/NBK11530/\n#. Fern\u00e1ndez, E. and Normann, R. A. (2017). CORTIVIS Approach for an\n   Intracortical Visual Prostheses (Cham: Springer International\n   Publishing). 191\u2013201. doi:10.1007/978-3-319-41876-6 15\n",
+  "duration": 1414,
+  "language": "spa",
+  "recorded": "2018-10-07",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "Rub\u00e9n Crespo Cano"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/8UAL-qIZKxY/maxresdefault.jpg",
+  "title": "YADLRetina: Yet Another Deep Learning Retina",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8UAL-qIZKxY"
+    }
+  ]
+}

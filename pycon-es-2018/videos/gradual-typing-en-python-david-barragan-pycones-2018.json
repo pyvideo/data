@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Los sistemas de tipado est\u00e1tico son aquellos que definen y verifican los tipos en tiempo de compilaci\u00f3n. Estos sistemas no son flexibles y cualquier cambio puede generar una gran reescritura del c\u00f3digo.\n\nLos sistemas de tipado din\u00e1mico son aquellos que usan un conjunto de etiquetas en tiempo de ejecuci\u00f3n para distinguir los diferentes tipos de estructuras. Por tanto la verificaci\u00f3n de tipos se realiza en tiempo de ejecuci\u00f3n. Estos sistemas ofrecen una mayor flexibilidad y expresividad, acelerando el proceso de desarrollo y ofreciendo una mayor tolerancia a fallos. Por contra son sistemas m\u00e1s lentos y la detecci\u00f3n de errores se realiza en tiempo de ejecuci\u00f3n.\n\nGradual typing integra ambas tecnolog\u00edas permitiendo controlar qu\u00e9 fragmentos de c\u00f3digo utilizar\u00e1n tipado est\u00e1tico y cuales tipado din\u00e1mico.\n\nEn esta charla se realizar\u00e1 una introducci\u00f3n al gradual typing y veremos c\u00f3mo podemos aplicarla en Python mediante anotaciones en el c\u00f3digo apoy\u00e1ndonos en la teor\u00eda del \u201cType Hints\u201d descrita en PEP 483 y PEP 484 y la biblioteca mypy. Esta nueva notaci\u00f3n aporta muchas ventajas a nuestro c\u00f3digo: mejora su documentaci\u00f3n, reduce el n\u00famero de bugs, acelera su aparici\u00f3n y mejorando los mensajes de las excepciones, mejora los tiempos de ejecuci\u00f3n de nuestros programas y nos facilita la labor de desarrollo, aumentando las funcionalidades de nuestros IDEs (autocompletado, validaciones, refactorizaci\u00f3n,...).\n",
+  "duration": 1361,
+  "language": "spa",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "David Barrag\u00e1n Merino"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/NroqMzpyemQ/maxresdefault.jpg",
+  "title": "Gradual typing en Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NroqMzpyemQ"
+    }
+  ]
+}

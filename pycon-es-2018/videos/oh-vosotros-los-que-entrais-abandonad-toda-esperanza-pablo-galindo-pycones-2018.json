@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Como programadores de Python, estamos acostumbrados a usar nuestro\nlenguaje favorito continuamente pero alguna vez que otra pasa por\nnuestra cabeza la duda de c\u00f3mo funciona todo esto. \u00bfC\u00f3mo est\u00e1\nimplementado un lenguaje de programaci\u00f3n? \u00bfC\u00f3mo sabe Python si lo que\nescribo es correcto o no? \u00bfC\u00f3mo se transforma y ejecuta el c\u00f3digo que\nescribimos?\n\nEl objetivo de esta charla es aprender todo lo posible acerca de\nsintaxis, gram\u00e1tica, `\u00e1rboles sint\u00e1cticos abstractos`_, como un lenguaje\ncomo Python funciona y c\u00f3mo `CPython`_ (la implementaci\u00f3n por defecto\ndel int\u00e9rprete) en particular est\u00e1 implementado. Para que la sesi\u00f3n no\nsea simplemente una serie de diatribas te\u00f3ricas, utilizaremos la excusa\nde modificar, retorcer y extender la gram\u00e1tica de Python como hilo\nconductor para entender c\u00f3mo todas las piezas encajan y para aprender\nc\u00f3mo funcionan todas las t\u00e9cnicas avanzadas de an\u00e1lisis y modificaci\u00f3n\nde c\u00f3digo. Para ello empezaremos hablando de c\u00f3mo modificar c\u00f3digo de\nPython modificando su \u00e1rbol sint\u00e1ctico abstracto y veremos algunos\nejemplos de librer\u00edas (pytest, 2to3\u2026) que utilizan esta t\u00e9cnica. Despu\u00e9s\nveremos como extender la gram\u00e1tica de Python \u201cinformalmente\u201d utilizando\nun `c\u00f3dec`_ personalizado y qu\u00e9 aplicaciones podr\u00eda tener esto.\nFinalmente hablaremos de c\u00f3mo modificar realmente la gram\u00e1tica de Python\ncreando nuestro propio int\u00e9rprete modificado en caso de que alg\u00fan d\u00eda\nqueramos implementar nuestro propio lenguage o modificar el propio\nPython.\n\nTras terminar la charla (\u00a1para aquellos que sobrevivan a los nueve\ncirculos!) ganaremos conocimiento de como funciona Python y, por\nextensi\u00f3n, otros lenguajes de programaci\u00f3n adem\u00e1s de tener un mont\u00f3n de\nmalas ideas inmantenibles en mente para la pr\u00f3xima vez que queramos\nasustar a nuestros compa\u00f1eros programadores.\n\n.. _\u00e1rboles sint\u00e1cticos abstractos: https://en.wikipedia.org/wiki/Abstract_syntax_tree\n.. _CPython: https://en.wikipedia.org/wiki/CPython\n.. _c\u00f3dec: https://docs.python.org/3/library/codecs.html\n",
+  "duration": 1604,
+  "language": "spa",
+  "recorded": "2018-10-06",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2018.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "Pablo Galindo Salgado"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vOGacccUsog/maxresdefault.jpg",
+  "title": "\u00a1Oh vosotros los que entr\u00e1is, abandonad toda esperanza!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vOGacccUsog"
+    }
+  ]
+}
