@@ -1,0 +1,63 @@
+{
+  "copyright_text": null,
+  "description": "Speaker: Mike M\u00fcller\n\nOptimization can often help to make Python programs faster or use less memory. Developing a strategy, establishing solid measuring and visualization techniques as well as knowing about algorithmic basics and datastructures are the foundation for a successful optimization. The tutorial will cover these topics. Examples will give you a hands-on experience on how to approach efficiently.\n\nPython is a great language. But it can be slow compared to other languages\nfor certain types of tasks. If applied appropriately, optimization may reduce\nprogram runtime or memory consumption considerably. But this often comes at a price. Optimization can be time consuming and the optimized program may be more complicated. This, in turn, means more maintenance effort. How do you find out if it is worthwhile to optimize your program? Where should you start? This tutorial will help you to answer these questions. You will learn how to find  an optimization strategy based on quantitative and objective criteria. You will experience that one's gut feeling what to optimize is often wrong.\n\nThe solution to this problem is: \u201eMeasure, Measure, and Measure!\u201c. You will\nlearn how to measure program run times as well as profile CPU and memory.\nThere are great tools available. You will learn how to use some of them.\nMeasuring is not easy because, by definition, as soon as you start to measure,\nyou influence your system. Keeping this impact as small as possible is important. Therefore, we will cover different measuring techniques.\n\nFurthermore, we will look at algorithmic improvements. You will see that the\nright data structure for the job can make a big difference. Finally, you will\nlearn about different caching techniques.\n\n## Software Requirements\n\nYou will need Python 3.7 installed on your laptop. Python 2.7 or 3.5/3.6\nshould also work. Python 3.x is strongly preferred.\nYou may use Python 3.8 if is released at the time of the tutorial and all\ndependencies can be installed.\n\n### JupyterLab\n\nI will use a JupyterLab for the tutorial because it makes a very good\nteaching tool. You are welcome to use the setup you prefer, i.e editor, IDE,\nREPL. If you also like to use a JupyterLab, I recommend `conda` for\neasy installation. Similarly to `virtualenv`, `conda` allows creating isolated\nenvironments but allows binary installs for all platforms.\n\nThere are two ways to install `Jupyter` via `conda`:\n\n1. Use [Minconda][1]. This is a  small install and (after you installed it)\nyou can use the command  `conda` to create an environment:\n`conda create -n pycon2019 python=3.7`\nNow you can change into this environment:\n`conda activate pycon2019`. The prompt should change to `(pycon2019)`.\nNow you can install JupyterLab: `conda install jupyterlab`.\n\n2. Install [Anaconda][2] and you are ready to go if you don't mind installing\nlots of packages from the scientific field.\n\nPersonally, I prefer the Miniconda approach.\n\n\n### Working witch ``conda`` environments\n\nAfter creating a new environment, the system might still work with some\nstale settings. Even when the command ``which`` tells you that you are using an\nexecutable from your environment, this might actually not be the case.\nIf you see strange behavior using a command line tool in your environment,\nuse ``hash -r`` and try again.\n\n[1]: https://conda.io/miniconda.html\n[2]: https://www.anaconda.com/download/\n\n\n### Tools\n\nYou can install these with ``conda`` or ``pip`` (in the active ``conda`` environment):\n\n* [SnakeViz][3]\n* [line_profiler][4]\n* [Pympler][5]\n* [memory_profiler][6]\n\n\n\n\n#### Linux\n\nUsing the package manager of your OS is alternative if you prefer this approach.\n\n\n[3]: http://jiffyclub.github.io/snakeviz/\n[4]: https://pypi.python.org/pypi/line_profiler/\n[5]: https://pypi.python.org/pypi/Pympler\n[6]: https://pypi.python.org/pypi/memory_profiler\n\n\nSlides can be found at: https://speakerdeck.com/pycon2019 and https://github.com/PyCon/2019-slides",
+  "duration": 11881,
+  "language": "eng",
+  "recorded": "2019-05-04",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "https://www.anaconda.com/download/",
+      "url": "https://www.anaconda.com/download/"
+    },
+    {
+      "label": "https://pypi.python.org/pypi/memory_profiler",
+      "url": "https://pypi.python.org/pypi/memory_profiler"
+    },
+    {
+      "label": "https://speakerdeck.com/pycon2019",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "https://github.com/PyCon/2019-slides",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "https://pypi.python.org/pypi/line_profiler/",
+      "url": "https://pypi.python.org/pypi/line_profiler/"
+    },
+    {
+      "label": "http://jiffyclub.github.io/snakeviz/",
+      "url": "http://jiffyclub.github.io/snakeviz/"
+    },
+    {
+      "label": "https://pypi.python.org/pypi/Pympler",
+      "url": "https://pypi.python.org/pypi/Pympler"
+    },
+    {
+      "label": "https://conda.io/miniconda.html",
+      "url": "https://conda.io/miniconda.html"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Mike M\u00fcller",
+    "coding",
+    "pycon",
+    "python",
+    "tutorial"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/EcGWDNlGTNg/maxresdefault.jpg",
+  "title": "Mike M\u00fcller - Faster Python Programs - Measure, don't Guess - PyCon 2019",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EcGWDNlGTNg"
+    }
+  ]
+}

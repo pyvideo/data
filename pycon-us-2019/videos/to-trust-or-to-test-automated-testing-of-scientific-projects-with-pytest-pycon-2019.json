@@ -1,0 +1,40 @@
+{
+  "copyright_text": null,
+  "description": "Speakers: Dorota Jarecka, Anna Jaruga\n\nMany researchers rely strongly on numerical computations.  Unfortunately, testing scientific code is a hard task. Often there is no ground truth available for comparison and the end result of the simulation is unknown even to the code developer herself/himself. Often the user-base of the scientific code is small and the work environment does not provide incentives for testing.\n\nHowever, there are always parts of the code that are relatively easy to cover by Unit Tests. Scientific pipelines could and should have Regressions Tests, which ensure that previously developed software still performs after changes in the code, or in external libraries and computational environment. An automatic test suite should not be a burden and can become a game-changer even for a small programming project.\n\nThis tutorial is meant to be an introduction to testing in general and to pytest library. Pytest is a full feature tool to test the Python code, it offers a simple way to get started and scales from simple unit testing to complex functional testing. We will begin with simple assert statements and finish with pytest.fixture and pytest.parametrization. The tutorial will also cover a simple integration of the tests suit with Continuous Integration platforms using GitHub and Travis/CircleCI.\n\n**Audience:** The tutorial is designed for scientist and data scientists who would like incorporate testing to their everyday work. We expect that people know basic Python and NumPy, and are familiar with simple shell commands. Basic knowledge of Git/GitHub will be useful in the second half of the tutorial.\n\n\n\nSlides can be found at: https://speakerdeck.com/pycon2019 and https://github.com/PyCon/2019-slides",
+  "duration": 11889,
+  "language": "eng",
+  "recorded": "2019-05-04",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "https://speakerdeck.com/pycon2019",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "https://github.com/PyCon/2019-slides",
+      "url": "https://github.com/PyCon/2019-slides"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Anna Jaruga",
+    "Dorota Jarecka",
+    "coding",
+    "pycon",
+    "python",
+    "tutorial"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/G-MAMrJ-CSA/maxresdefault.jpg",
+  "title": "To trust or to test?: Automated testing of scientific projects with pytest  - PyCon 2019",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=G-MAMrJ-CSA"
+    }
+  ]
+}
