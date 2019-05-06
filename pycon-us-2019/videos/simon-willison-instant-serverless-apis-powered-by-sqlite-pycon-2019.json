@@ -1,0 +1,55 @@
+{
+  "copyright_text": null,
+  "description": "Serverless computing is all about paying only for what you use: it can\nscale up to handle millions of requests, but it can also scale down to\n0, costing you nothing if your application is not receiving any traffic.\n\nServerless tends to get expensive when databases are involved.... but if\nyour data is static or changes infrequently, you can use serverless\ntools to provide powerful interactive APIs extremely cheaply.\n\n`Datasette <https://datasette.readthedocs.io/>`__ is an open-source\nPython tool that provides an instant, read-only JSON API for any SQLite\ndatabase. It also provides tools for packaging the database up as a\nDocker container and instantly deploying that container to a number of\ndifferent serverless hosting platforms.\n\nThis makes it a powerful tool for sharing interesting data online, in a\nway that allows users to both explore that data themselves and build\ntheir own interpretations of the data using the Datasette JSON API.\n\nIn this session I'll show you how to use Datasette to publish data, and\nillustrate examples of the exciting things people have already built\nusing the tool - including a number of real-world data journalism\nprojects.\n\nI'll also teach people how to use some of the other tools in the\nDatasette ecosystem:\n\n-  `Datasette Publish <https://publish.datasettes.com/>`__, which allows\n   CSV data to be published using Datasette to a serverless hosting\n   account owned by the user, without any engineering experience\n   required.\n-  `csvs-to-sqlite <https://pypi.org/project/csvs-to-sqlite/>`__, a tool\n   for efficiently converting large numbers of CSV files into a\n   Datasette-compatible SQLite database.\n-  `sqlite-utils <https://sqlite-utils.readthedocs.io/>`__, a library\n   that lets users create complex databases from custom data feeds in\n   just a few lines of Python code (ideal for working with Jupyter\n   notebooks).\n\nI'll discuss the philosophy and design behind Datasette, including how\nimmutable SQLite databases make for an impressively scalable solution\nfor inexpensively serving complex data on the internet. Finally, I'll be\nexploring how Datasette takes advantage of Python 3 asyncio and the new\nASGI specification.\n",
+  "duration": 2572,
+  "language": "eng",
+  "recorded": "2019-05-04T12:10:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "https://publish.datasettes.com/",
+      "url": "https://publish.datasettes.com/"
+    },
+    {
+      "label": "https://sqlite-utils.readthedocs.io/",
+      "url": "https://sqlite-utils.readthedocs.io/"
+    },
+    {
+      "label": "https://pypi.org/project/csvs-to-sqlite/",
+      "url": "https://pypi.org/project/csvs-to-sqlite/"
+    },
+    {
+      "label": "https://datasette.readthedocs.io/",
+      "url": "https://datasette.readthedocs.io/"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/171/"
+    }
+  ],
+  "speakers": [
+    "Simon Willison"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/pTr1uLQTJNE/maxresdefault.jpg",
+  "title": "Instant serverless APIs, powered by SQLite",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pTr1uLQTJNE"
+    }
+  ]
+}

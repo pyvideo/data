@@ -1,0 +1,43 @@
+{
+  "copyright_text": null,
+  "description": "Object Relational Mappers (ORMs) are awesome enhancers of developer\nproductivity. The freedom of having the library write that SQL and give\nyou back a useful, rich model instance (or a bunch of them) instead of\njust a tuple or a list of records is simply amazing.\n\nBut if you forget you have an actual database behind all that\nconvenience, then it'll bite you back, usually when you've been in\nproduction for a while, after you've accumulated enough data that your\nonce speedy application starts slowing down do a crawl.\n\nDatabases work best when you ask them once for (or to do) a bunch of\nstuff, instead of asking them lots of times for small stuff.\n\nWe'll discuss how innocent looking attribute accesses on your model\ninstances translate to sequential queries (the infamous `N+1\nproblem <https://docs.sqlalchemy.org/en/latest/glossary.html#term-n-plus-one-problem>`__).\n\nThen we'll go through some practical solutions, taken from real cases\nthat resulted in massive speed ups. We'll cover how changes in Python\ncode resulted in changes to the resulting SQL Queries\n\nSolutions not only for queries, but also inserts and updates, which tend\nto be less well documented.\n\nThough this talk focuses on SQLAlchemy, the lessons should be applicable\nto most ORMs in most programing languages. The ideas discussed, and\nsolutions proposed are also valid for any storage backend, not only SQL\ndatabases.\n",
+  "duration": 2632,
+  "language": "eng",
+  "recorded": "2019-05-03T12:10:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "https://docs.sqlalchemy.org/en/latest/glossary.html#term-n-plus-one-problem",
+      "url": "https://docs.sqlalchemy.org/en/latest/glossary.html#term-n-plus-one-problem"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/170/"
+    }
+  ],
+  "speakers": [
+    "Leonardo Rochael Almeida"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/kEShMV4VfWE/maxresdefault.jpg",
+  "title": "From days to minutes, from minutes to milliseconds with SQLAlchemy",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kEShMV4VfWE"
+    }
+  ]
+}

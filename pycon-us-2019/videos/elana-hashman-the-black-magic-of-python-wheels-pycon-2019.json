@@ -1,0 +1,39 @@
+{
+  "copyright_text": null,
+  "description": "If you\u2019ve ever ``pip install``\\ ed a Python package with C extensions on\nLinux, it was probably a painful experience, having to download and\ninstall development headers for libraries you\u2019ve never even heard of.\nMaybe you\u2019ve given up on pip and have switched to Conda. But it doesn\u2019t\nhave to be this way! The Python Packaging Authority has been working\nhard to solve this problem with a new distribution format for compiled\nPython code, called \u201cwheels.\u201d\n\nIn this talk, we\u2019ll descend into the practice of PEPs 513 and 571:\narcane scrolls that can equip Python developers with spells to\npre-compile applications and libraries in a way that allows most Linux\nend users to run them directly. I\u2019ll show you how to hex compiled\nartifacts and source code into the wheel format, harness application\nbinary interfaces (ABIs) to use external libraries, brave the eldritch\nhorrors of the dynamic linker, and bind these all together in the\nmanylinux environment. Come learn to harness the black magic of Python\nwheels, and you too can spare your users pain\u2026 for a price.\n",
+  "duration": 1582,
+  "language": "eng",
+  "recorded": "2019-05-04T11:30:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/186/"
+    }
+  ],
+  "speakers": [
+    "Elana Hashman"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/02aAZ8u3wEQ/maxresdefault.jpg",
+  "title": "The Black Magic of Python Wheels",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=02aAZ8u3wEQ"
+    }
+  ]
+}

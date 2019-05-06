@@ -1,0 +1,39 @@
+{
+  "copyright_text": null,
+  "description": "It\u2019s 2019, and Moore\u2019s Law is dead. CPU performance is plateauing, but\nGPUs provide a chance for continued hardware performance gains, if you\ncan structure your programs to make good use of them.\n\nCUDA is a platform developed by Nvidia for GPGPU--general purpose\ncomputing with GPUs. It backs some of the most popular deep learning\nlibraries, like Tensorflow and Pytorch, but has broader uses in data\nanalysis, data science, and machine learning.\n\nThere are several ways that you can start taking advantage of CUDA in\nyour Python programs.\n\nFor some common Python libraries, there are drop-in replacements that\nlet you start running computations on the GPU while still using familiar\nAPIs. For example, CuPy provides a NumPy-like API for interacting with\nmulti-dimensional arrays. Similarly, cuDF is a recent project that\nmimics the pandas interface for dataframes.\n\nIf you want more control over your use of CUDA APIs, you can use the\nPyCUDA library, which provides bindings for the CUDA API that you can\ncall from your Python code. Compared with drop-in libraries, it gives\nyou the ability to manually allocate memory on the GPU, and write custom\nCUDA functions (called kernels). However, its drawbacks include writing\nyour CUDA code as large strings in Python, and compiling your CUDA code\nat runtime.\n\nFinally, for the best performance you can use the Python C/C++ extension\ninterface, the approach taken by deep learning libraries like Pytorch.\nOne of the strengths of Python is the ability to drop down into C/C++,\nand libraries like NumPy take advantage of this for increased speed. If\nyou use Nvidia\u2019s nvcc compiler for CUDA, you can use the same extension\ninterface to write custom CUDA kernels, and then call them from your\nPython code.\n\nThis talk will explore each of these methods, provide examples to get\nstarted, and discuss in more detail the pros and cons of each approach.\n",
+  "duration": 1613,
+  "language": "eng",
+  "recorded": "2019-05-04T17:10:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/206/"
+    }
+  ],
+  "speakers": [
+    "William Horton"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/iw8RU4m4Dlo/maxresdefault.jpg",
+  "title": "CUDA in your Python: Effective Parallel Programming on the GPU",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iw8RU4m4Dlo"
+    }
+  ]
+}
