@@ -1,0 +1,39 @@
+{
+  "copyright_text": null,
+  "description": "Why come to yet another talk about CPython's GIL? [1] Sure, we'll spend\na little time on what it is, who it affects (and doesn't), and how to\nwork around it. However, what you want to come hear is what the future\nholds for the GIL.\n\nWe'll take most of the time talking about life *after* the GIL! Come see\nwhat recent developments and ongoing work will allow us to either\ncircumvent the GIL and get rid of it, unlocking true multi-core\ncapability in Python code.\n\n[1] In case you don't know, the GIL is a global lock that prevents\nmulti-core parallelism in pure Python code. It has a controversial place\nin the community. Look it up (or come to this talk)!\n",
+  "duration": 1830,
+  "language": "eng",
+  "recorded": "2019-05-03T14:35:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/163/"
+    }
+  ],
+  "speakers": [
+    "Eric Snow"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7RlqbHCCVyc/maxresdefault.jpg",
+  "title": "to GIL or not to GIL: the Future of Multi-Core (C)Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7RlqbHCCVyc"
+    }
+  ]
+}

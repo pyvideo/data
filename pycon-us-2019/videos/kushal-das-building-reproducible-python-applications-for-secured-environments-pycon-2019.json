@@ -1,0 +1,59 @@
+{
+  "copyright_text": null,
+  "description": "We all have to package Python based applications for various\nenvironments, starting from command line tools, to web applications. And\ndepending on the users, it can be installed on thousands on computers or\non a selected few systems. https://pypi.org is our goto place for\nfinding any dependencies and also in most of the time we install binary\nwheels directly from there, thus saving a lot time.\n\nBut, Python is also being used in many environments where security is\nthe utter most important, and validating the dependencies of project is\nalso very critical along with the actual project source code. Many of\nnoticed the recent incident where people were being able to `steal\nbticoins using a popular\nlibrary <https://www.theregister.co.uk/2018/11/26/npm_repo_bitcoin_stealer/>`__.This\ntalk will take `SecureDrop client\napplication <https://github.com/freedomofpress/securedrop-client>`__ for\njournalists as an example project and see how we tried to tackle the\nsimilar problem. SecureDrop is an Open Source whistleblower system which\nis deployed over 75 news organizations all over the world. Our threat\nmodel has nation state actors as possible threats, so, security and\nprivacy of the users of the system is a very important point of the\nwhole project. The tools in this case are build and packaged into\nreproducible Debian deb packages and are installed on Qubes OS in the\nfinal end user systems.\n\nThere are two basic ways we handle Python project dependencies, for most\nof the development work, we use a virtualenv, and directly install the\ndependencies using wheels built from pypi.org. When we package the\napplication for the end users, many times we package them using a\noperating system based package manager and ask the users to install\nusing those (say RPM or Debian's deb package). In the second case, all\nthe dependencies come as separate packages (and most of the time from\nthe OS itself). The dependency is being handled by the OS package\nmanager itself. That case, we can not update the dependencies fast\nenough if required, it depends on the packagers from the community who\nmaintains those said packages in the distribution.\n\nWe use `dh-virtualenv <https://dh-virtualenv.readthedocs.io/en/1.0/>`__\nproject to help us to use our own wheels + a virtualenv for the project\nto be packaged inside the debian .deb package. This talk will go throuh\n`the process <https://github.com/freedomofpress/securedrop-client>`__ of\nbuilding wheels from known (based on sha256sum) source tarballs, and\nthen having a gpg signed list of updated wheels and `a private\nindex <https://github.com/freedomofpress/securedrop-debian-packaging/tree/master/simple>`__\nfor the same. And also how we are verifying the wheels' sha256sum (and\nthe signature of that list) during the build process. The final output\nis reproducible Debian packages.\n",
+  "duration": 1828,
+  "language": "eng",
+  "recorded": "2019-05-04T17:10:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "https://github.com/freedomofpress/securedrop-client",
+      "url": "https://github.com/freedomofpress/securedrop-client"
+    },
+    {
+      "label": "https://github.com/freedomofpress/securedrop-debian-packaging/tree/master/simple",
+      "url": "https://github.com/freedomofpress/securedrop-debian-packaging/tree/master/simple"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "https://pypi.org",
+      "url": "https://pypi.org"
+    },
+    {
+      "label": "https://dh-virtualenv.readthedocs.io/en/1.0/",
+      "url": "https://dh-virtualenv.readthedocs.io/en/1.0/"
+    },
+    {
+      "label": "https://www.theregister.co.uk/2018/11/26/npm_repo_bitcoin_stealer/",
+      "url": "https://www.theregister.co.uk/2018/11/26/npm_repo_bitcoin_stealer/"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/209/"
+    }
+  ],
+  "speakers": [
+    "Kushal Das"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/wRHi8Ui5vWA/maxresdefault.jpg",
+  "title": "Building reproducible Python applications for secured environments",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=wRHi8Ui5vWA"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "copyright_text": null,
+  "description": "Floating point numbers have been given a bad rap. They're mocked,\nmaligned, and feared; the but of every joke, the scapegoat for every\nrounding error.\n\nBut this stigma is not deserved. Floats are friends! Friends that have\nbeen stuck between a rock and a computationally hard place, and been\nforced to make some compromises along the way\u2026 but friends never the\nless!\n\nIn this talk we'll look at the compromises that were made while\ndesigning the floating point standard (IEEE754), how to work within\nthose compromises to make sure that ``0.1 + 0.2 = 0.3`` and not\n``0.30000000000000004``, how and when floats can and cannot be safely\nused, and some interesting history around fixed point number\nrepresentation.\n\nThis talk is ideal for anyone who understands (at least in principle)\nbinary numbers, anyone who has been frustrated by ``nan`` or the fact\nthat ``0.3 == 0.1 + 0.2 => False``, and anyone who wants to be the life\nof their next party.\n\nThis talk will *not* cover more complicated numerical methods for, ex,\nensuring that algorithms are floating-point safe. Also, if you're\nalready familiar with the significance of \"52\" and the term \"mantissa\",\nthis talk might be more entertaining than it will be educational for\nyou.\n",
+  "duration": 1775,
+  "language": "eng",
+  "recorded": "2019-05-04T10:50:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/221/"
+    }
+  ],
+  "speakers": [
+    "David Wolever"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/zguLmgYWhM0/maxresdefault.jpg",
+  "title": "Floats are Friends: making the most of IEEE754.00000000000000002",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zguLmgYWhM0"
+    }
+  ]
+}

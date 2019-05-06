@@ -1,0 +1,39 @@
+{
+  "copyright_text": null,
+  "description": "Inheritance is among the first concepts we learn when studying\nobject-oriented programming. But inheritance comes with some unhappy\nstrings attached. Inheritance, by its very nature, tends to bind a\nsubclass to its superclass. This means that modifying the behavior of a\nsuperclass might alter the behavior of all its subclasses, sometimes in\nunanticipated ways. Furthermore, it\u2019s commonly accepted that inheritance\nactually breaks encapsulation. So, if inheritance has these issues, what\nalternative do we have? More than two decades ago, The Gang of Four\n(Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides) suggested\nin their famous *Design Patterns* book that we should favor object\ncomposition over class inheritance.\n\nIn this talk I will show some code examples in Python where inheritance\ngoes astray and demonstrate how to correct them by using composition. My\nintention is not to demonize inheritance, but instead present how to use\nit wisely in order to improve the design of our object-oriented software\nso that it\u2019s more flexible and easier to maintain.\n",
+  "duration": 1850,
+  "language": "eng",
+  "recorded": "2019-05-04T16:30:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/204/"
+    }
+  ],
+  "speakers": [
+    "Ariel Ortiz"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/YXiaWtc0cgE/maxresdefault.jpg",
+  "title": "The Perils of Inheritance: Why We Should Prefer Composition",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YXiaWtc0cgE"
+    }
+  ]
+}

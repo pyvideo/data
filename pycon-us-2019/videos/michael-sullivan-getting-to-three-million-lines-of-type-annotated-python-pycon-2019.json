@@ -1,0 +1,39 @@
+{
+  "copyright_text": null,
+  "description": "Dropbox is a heavy user of the mypy type checker, recently passing three\nmillion lines of type-annotated Python code, with over half of that\nadded in 2018. Type checking is helping find bugs, making code easier to\nunder stand, enabling refactors, and is an important aid to our ongoing\nPython 3 migration.\n\nIn this talk, we discuss how we got there. We\u2019ll talk about what we\ntried in order to get our engineers to type annotate their code\u2014what\nworked, what didn\u2019t, and what our engineers had to say about it.\n\nAdditionally, we\u2019ll discuss the performance problems we faced as the\nsize of our checked codebase grew, and the techniques we employed to\nallow mypy\u2014which is implemented in Python\u2014to efficiently check (faster\nthan a second, for most incremental checks) millions of lines of code,\nwhich culminated in mypyc, a new ahead-of-time compiler for\ntype-annotated Python!\n",
+  "duration": 2743,
+  "language": "eng",
+  "recorded": "2019-05-04T16:15:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/223/"
+    }
+  ],
+  "speakers": [
+    "Michael Sullivan"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mh9jQSxzv0c/maxresdefault.jpg",
+  "title": "Getting to Three Million Lines of Type-Annotated Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mh9jQSxzv0c"
+    }
+  ]
+}

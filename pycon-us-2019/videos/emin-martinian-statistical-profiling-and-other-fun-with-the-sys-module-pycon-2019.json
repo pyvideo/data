@@ -1,0 +1,39 @@
+{
+  "copyright_text": null,
+  "description": "Profiling involves computing a set of data about how often and how long\nvarious parts of your program are executed. Profiling is useful to\nunderstand what makes your program slow and how you can improve it.\nAfter a quick review of deterministic profiling tools and techniques, I\nwill describe how you can do statistical profiling with existing\npackages or write your own from scratch.\n\nStatistical profiling involves occasionally sampling what your program\nis doing instead of watching each line or function. A key feature of\nstatistical profiling is that by using a moderate sampling frequency,\nyou can profile your production code with almost no overhead. This lets\nyou find the actual bottlenecks in real use cases.\n\nThe core technical focus of the talk is python's sys module and how it\nlets you easily examine a running program. I also describe some tricks\nto be aware of related to threading, context switches, locks, and so on.\nAt the conclusion of the talk, you will hopefully understand how to use\nan existing statistical profiler or write a customized version yourself.\n",
+  "duration": 1998,
+  "language": "eng",
+  "recorded": "2019-05-04T14:35:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2019/schedule/talks/"
+    },
+    {
+      "label": "Conference slides (github)",
+      "url": "https://github.com/PyCon/2019-slides"
+    },
+    {
+      "label": "Conference slides (speakerdeck)",
+      "url": "https://speakerdeck.com/pycon2019"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://us.pycon.org/2019/schedule/presentation/197/"
+    }
+  ],
+  "speakers": [
+    "Emin Martinian"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/d5SGUscT2GA/maxresdefault.jpg",
+  "title": "Statistical Profiling (and other fun with the sys module)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=d5SGUscT2GA"
+    }
+  ]
+}
