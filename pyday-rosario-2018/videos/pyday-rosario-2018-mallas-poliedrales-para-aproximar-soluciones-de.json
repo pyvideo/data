@@ -1,0 +1,16 @@
+{
+  "description": "Muchos problemas de la geometr\u00eda y de la f\u00edisica se modelizan en t\u00e9rminos de ecuaciones diferenciales, que son ecuaciones que relacionan a una funci\u00f3n desconocida con algunas de sus derivadas. En casi todos los casos, si bien est\u00e1 demostrada la existencia y unicidad de la soluci\u00f3n de una de tales ecuaciones, es imposible computarla anal\u00edticamente de manera exacta, y entonces un abordaje posible es construir un m\u00e9todo num\u00e9rico para construir otra funci\u00f3n que sea una aproximaci\u00f3n (todo lo cercana que se quiera) de esta funci\u00f3n desconocida. Estas aproximaciones se dan en forma de una funci\u00f3n definida por partes, siguiendo una cierta subdivisi\u00f3n de la regi\u00f3n del espacio en donde ocurre el fen\u00f3meno f\u00edsico de inter\u00e9s. La definici\u00f3n y construcci\u00f3n de un m\u00e9todo num\u00e9rico propio comienza, entonces, con la explicitaci\u00f3n del proceso de mallado, que consiste en una sucesi\u00f3n infinita de subdivisiones del dominio, con elementos de medida tan peque\u00f1a como se quiera. Despu\u00e9s de esto, la definici\u00f3n de todos los objetos de c\u00e1lculo concreto y de an\u00e1lisis te\u00f3rico concernientes al m\u00e9todo num\u00e9rico depende de cu\u00e1les son precisamente los puntos, las aristas, las caras y los poliedros de las mallas. Un programa de mallado debe tomar como entrada alguna informaci\u00f3n geom\u00e9trica sucinta de la regi\u00f3n a subdividir y entregar como salida alguna tabulaci\u00f3n concreta de los puntos, aristas, caras y poliedros de la malla. Por ejemplo una lista de archivos de texto. Presento una primera versi\u00f3n del programa en Python que implementa (y grafica) la familia de mallas que dan lugar al m\u00e9todo num\u00e9rico construido y propuesto en mi trabajo de tesis doctoral. Adem\u00e1s muestro brevemente parte del programa en GNU Octave que ensambla el sistema lineal de ecuaciones, a partir de las mallas, cuya soluci\u00f3n son las coordenadas que determinan a la soluci\u00f3n aproximada de una ecuaci\u00f3n diferencial modelo.",
+  "language": "spa",
+  "recorded": "2018-10-27",
+  "speakers": [
+    "Alexis Jawtuschenko"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/icG4DA4n2_Q/hqdefault.jpg",
+  "title": "Mallas Poliedrales para Aproximar Soluciones de Ecuaciones Diferenciales en Derivadas Parciales",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=icG4DA4n2_Q"
+    }
+  ]
+}
