@@ -1,6 +1,7 @@
 import argparse
 import json
 import sys
+import textwrap
 
 import docutils
 from docutils.parsers import rst
@@ -65,8 +66,8 @@ def check_render_rest(data_root, verbose=False):
                     valid = False
 
                 if error:
-                    msg = 'ReST validation error (level {level}):\n\tFile: {fp}\n\tKey: {key}'
-                    print(msg.format(fp=file_path, key=field, level=level), flush=True)
+                    msg = 'ReST validation error (level {level}):\n\tFile: {fp}\n\tKey: {key}\n\tError:\n{error}'
+                    print(msg.format(fp=file_path, key=field, level=level, error=textwrap.indent(error,'\t\t')), flush=True)
                     if verbose:
                         print('\t', error, sep='', flush=True)
 
