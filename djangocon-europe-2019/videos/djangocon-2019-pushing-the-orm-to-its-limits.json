@@ -1,0 +1,27 @@
+{
+	"description": "**You can do a lot more with the Django ORM than you might think, and when something isn't possible using the existing primitives, you can easily add your own. In this talk you will learn about both advanced features of the ORM and how to run your own SQL queries.**\nDjango's ORM makes it super simple to run quick queries against your database, but it can do a lot more for you than you might think. Need to get some statistics on a monthly-basis? Easy, just annotate your queryset with year and month using ``ExtractYear`` and ``ExtractMonth``, and you can use ``.values()`` to get the data aggregated by month.\nWhen you find yourself in need of something that is not already covered by the existing ORM functions, you will often be able to create it yourself. Have you modelled your data with separate date and time fields, but need to compare this to a datetime field? You can make a custom expression in Django for combining the date and time into a datetime in the database.\nStarting with Django 1.11, you can easily make subqueries using the Django ORM. In Django 2.0 we got support for window functions. Django 2.1 exposes additional functions that are available in many databases, and version 2.2 will introduce support for custom constraints and extends the primitives for custom indexes.\nIt is also easy to drop down to writing raw SQL if you need to. It is probably not something you need to do every day, but it's good to know that the option is there, and know how and when to do it.",
+	"duration": 1514,
+	"language": "eng",
+	"recorded": "2019-04-20",
+	"speakers": [
+		"Sigurd Ljødal"
+	],
+	"thumbnail_url": "https://i.ytimg.com/vi/MPpPu6c8wsM/hqdefault.jpg",
+	"title": "Pushing the ORM to its limits",
+	"videos": [
+		{
+			"type": "youtube",
+			"url": "https://www.youtube.com/watch?v=MPpPu6c8wsM"
+		}
+	],
+	"tags": [
+		"django",
+		"orm"
+	],
+	"related_urls": [
+		{
+			"label": "talk slides",
+			"url": "https://members.2019.djangocon.eu/media/Pushing_the_Django_ORM_to_its_limit.pdf"
+		}
+	]
+}
