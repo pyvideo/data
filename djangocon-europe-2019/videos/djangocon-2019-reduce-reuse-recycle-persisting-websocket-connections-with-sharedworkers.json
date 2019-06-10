@@ -1,0 +1,13 @@
+{
+  "description": "When using WebSockets to communicate between your server and the client every new browser context–tab, window, iframe, and so on–is likely to create another WebSocket connection. All these open connections can quickly take a toll on your server resources, or if you’re using a PaaS which charges for each connection, it could quickly add up to a big bill.\nIn this talk, we’ll look at how you can use SharedWorkers to create a single persistent WebSocket which can be used by every browser context to communicate with your Django Channels WebSocket server\n",
+  "recorded": "2019-04-21",
+  "speakers": ["Aaron Basset"],
+  "thumbnail_url": "https://i.ytimg.com/vi/Z9aLkfgfrW4/hqdefault.jpg",
+  "title": "Reduce, Reuse, Recycle - Persisting WebSocket connections with SharedWorkers",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Z9aLkfgfrW4"
+    }
+  ]
+}
