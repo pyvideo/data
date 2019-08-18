@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "www.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.\n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "description": "Man Alpha Technology provides the front-office technology for the investments engines within Man. The Data Engineering team is responsible for delivering live financial data to systematic trading strategies and maintaining historical data store for research purposes.\n\nWe have multiple live data feeds from various vendors which tick real time data onto a live message bus. This message bus does not maintain any history which we require for both research and trading purposes. To satisfy these requirements we by and large use two technologies; Kafka and Mongo. Both of these technologies are driven from our in-house Python clients.\n\nEach \"tick\" is first written to Kafka under a topic that corresponds to the upstream data vendor by a set of tick collectors that consume from the live message bus and publish to Kafka. Each message is then transformed into a standard MarketData message structure which is encoded into binary payloads using MsgPack. Another set of Python processes consume from Kafka and write to an Arctic datastore backed by Mongo. Arctic is a high performance datastore for numeric time-series data which Man Alpha Technology has open sourced (https://github.com/manahl/arctic).\n\nTo make the most of our Kafka pipelines we have our own Python Kafka clients built on top of the open source clients that provide a number of additional features. For example, the client deterministically assigns market data symbols to a Kafka partitions to maintain time ordering of the messages for each symbol and it allows us to use timestamps as a first class concept when seeking and consuming from Kafka. Although this feature is now available natively at the broker level (Time Based Search), this has been implemented in our client since 2014.\n\nIn the talk we will dive deeper into the details of our data pipelines as described above, as well as how we monitor, deploy and maintain the production and research pipelines.",
   "duration": 2427,
   "language": "eng",
   "recorded": "2019-07-13",
@@ -8,6 +8,14 @@
     {
       "label": "Conference schedule",
       "url": "https://pydata.org/london2019/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://pydata.org/london2019/schedule/presentation/27/kafka-in-finance-processing-1-billion-market-data-messages-a-day/"
+    },
+    {
+      "label": "Arctic",
+      "url": "https://github.com/manahl/arctic"
     }
   ],
   "speakers": [
