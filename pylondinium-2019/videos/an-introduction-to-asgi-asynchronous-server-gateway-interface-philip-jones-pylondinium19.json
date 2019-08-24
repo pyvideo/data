@@ -1,0 +1,16 @@
+{
+    "description": "If you develop web applications in Python you will almost certainly be doing so using WSGI, with the most popular frameworks, Django and Flask, as well as the majority of others being based upon it. WSGI specifies the interface between servers and applications, simplified this interface is,\n\ndef application(environ, start_response):\n    start_response(\"200 OK\", [(\"Content-Type\", \"text/plain\")])\n    return b\"Hello, World\"\nwith the application called on each request. The request description and environment is specified in the environ dict and the start_response is called to send the response status code and headers before the body, which is returned by the application.\n\nASGI also aims to specify the interface between servers and applications, only using the async/await syntax, the interface can be simplified to\n\nasync def application(scope, receive, send):\n    await send({\"type\": \"http.response.start\", \"status\": 200, \"headers\": [(b\"Content-Type\", \"text/plain\")]})\n    await send({\"type\": \"http.response.body\", \"body\": b\"Hello World\"})\nwith the application awaited on each request and scope fulfilling a similar role to environ.\n\nIn this talk I'll explain the above and how it limits WSGI and why ASGI is the solution. I'll also introduce the current ASGI ecosystem and features.\n\nOutline\n- Introduction to WSGI (basic code)\n- WSGI ecosystem servers (Gunicorn, uWSGI, mod_wsgi) and frameworks (Flask, Django)\n- WSGI limitations e.g. Websockets\n- ASGI Introduction (basic code)\n- ASGI development and history\n- ASGI features, websockets, HTTP/2\n- ASGI ecosystem servers (Hypercorn, Daphne, Uvicorn) and frameworks (Starlette, Django, Quart).",
+    "lang": "eng",
+    "recorded": "2019-06-15",
+    "speakers": [
+        "Philip Jones"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/t3gCK9QqXWU/hqdefault.jpg",
+    "title": "An introduction to ASGI, Asynchronous Server Gateway Interface",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=t3gCK9QqXWU"
+        }
+    ]
+}
