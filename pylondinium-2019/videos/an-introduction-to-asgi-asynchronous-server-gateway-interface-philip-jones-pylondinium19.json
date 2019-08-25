@@ -1,0 +1,29 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "If you develop web appliations in Python you will almost certainly be\ndoing so using WSGI, with the most popular frameworks, Django and Flask,\nas well as the majority of others being based upon it. WSGI specifies\nthe interface between servers and applications, simplified this\ninterface is,\n\n.. code:: python\n\n       def application(environ, start_response):\n           start_response(\"200 OK\", [(\"Content-Type\", \"text/plain\")])\n           return b\"Hello, World\"\n\nwith the ``application`` called on each request. The request description\nand environment is specified in the ``environ`` dict and the\n``start_response`` is called to send the response status code and\nheaders before the body, which is returned by the ``application``.\n\nASGI also aims to specify the interface between servers and\napplications, only using the async/await syntax, the interface can be\nsimplified to\n\n.. code:: python\n\n       async def application(scope, receive, send):\n           await send({\"type\": \"http.response.start\", \"status\": 200, \"headers\": [(b\"Content-Type\", \"text/plain\")]})\n           await send({\"type\": \"http.response.body\", \"body\": b\"Hello World\"})\n\nwith the ``application`` awaited on each request and ``scope``\nfulfilling a similar role to ``environ``.\n\nIn this talk I'll explain the above and how it limits WSGI and why ASGI\nis the solution. I'll also introduce the current ASGI ecosystem and\nfeatures.\n\nOutline\n\n- Introduction to WSGI (basic code)\n- WSGI ecosystem servers (Gunicorn, uWSGI, mod_wsgi) and frameworks (Flask, Django)\n- WSGI limitations e.g. Websockets\n- ASGI Introduction (basic code)\n- ASGI development and history\n- ASGI features, websockets, HTTP/2\n- ASGI ecosystem servers (Hypercorn, Daphne, Uvicorn) and frameworks (Starlette, Django, Quart).",
+  "duration": 1450,
+  "language": "eng",
+  "recorded": "2019-06-15",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pylondinium.org/schedule.html"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://pylondinium.org/talks/talk-11.html"
+    }
+  ],
+  "speakers": [
+    "Philip Jones"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/t3gCK9QqXWU/maxresdefault.jpg",
+  "title": "An introduction to ASGI, Asynchronous Server Gateway Interface",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=t3gCK9QqXWU"
+    }
+  ]
+}

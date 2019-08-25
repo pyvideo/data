@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "This talk is a destructive examination of the workings of Python's inheritance model. We'll learn how it works by breaking it. After starting with a discussion of how we got to where we are, we'll then move on to the hooks that Python gives us to interact with it. These include using the metaclass to alter the class during construction, as well as using the *__init_subclass__* and *__subclasscheck__* hooks.\n\nParticular examples will include:\n\n- Implementing interfaces in Python\n- Turning inheritance off in favor of explicit reuse\n- Simplifying classes by disabling a selection of features you don't wish to use\n\nWhile none of these are meant to be particularly useful implementations, they make good use cases to show the machinery.",
+  "duration": 1530,
+  "language": "eng",
+  "recorded": "2019-06-16",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pylondinium.org/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Andy Fundinger"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/kzLe3yZ0YEc/maxresdefault.jpg",
+  "title": "Making Multiple Inheritance not work in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kzLe3yZ0YEc"
+    }
+  ]
+}
