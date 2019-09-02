@@ -12,11 +12,16 @@ import json
 import os
 from pprint import pprint
 import re
+from pathlib import Path
+import logging
 
+PATTERNS = {'one' : r'\s*(?P<speakers>.*)\s*:\s*(?P<title>.*)\s*\|\s*(?P<event>.*)',
+            'two' : r'\s*(?P<speakers>.*)\s*-\s*(?P<title>.*)\s*-\s*(?P<event>.*)' }
 
-PAT = re.compile(r'^(.*)')
-SOURCE_KEY = 'description'
-CATEGORY = 'writethedocs-na-2016'
+PYVIDEO_DATA = Path(os.environ['PYVIDEO_DATA'])
+PAT = { key : re.compile(pattern) for key, pattern in PATTERNS.items() }
+SOURCE_KEY = 'title'
+CATEGORY = 'pydata-london-2019'
 
 
 def parse(path):
@@ -28,24 +33,32 @@ def parse(path):
             raise
 
     source = data.get(SOURCE_KEY, '')
-    match = PAT.match(source)
-    parsed_content = match.group(1).strip() if match else ''
+    match = None
+    for pattern in PAT.values():
+        match = pattern.match(source)
+        if match:
+            break
+
+    parsed_title    = match.group('title').strip() if match else ''
+    parsed_speakers = match.group('speakers').split(',') if match else []
 
     # UPDATE this placement code
     speakers = data.get('speakers', [])
-    speakers.append(parsed_content)
+    speakers.extend(parsed_speakers)
     data['speakers'] = speakers
+    data['title2'] = data['title']
+    data['title']    = parsed_title
     # DONE UPDATING
 
-    #pprint(data)
+    # pprint(data)
 
     with open(path, 'w') as fp:
         json.dump(data, fp)
 
 
 def main():
-    video_pattern = os.path.join(CATEGORY, 'videos/*.json')
-    for path in glob.iglob(video_pattern):
+    videos = PYVIDEO_DATA / CATEGORY / 'videos'
+    for path in videos.glob('*.json'):
         parse(path)
 
 

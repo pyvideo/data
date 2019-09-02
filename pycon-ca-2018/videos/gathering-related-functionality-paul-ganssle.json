@@ -1,0 +1,40 @@
+{
+  "copyright_text": "Creative Commons Attribution License (CC-BY)",
+  "description": "This talk will arm you with some tools to design a library that 'just works', but also has obvious escape hatches to handle corner cases. It covers several patterns for cleanly organizing related and overlapping functionality in a way that statisfies both humans and static analysis tools.\n\n---\n\nWhat do you do when you have to choose between designing your function for one of two common use cases?\n\nHow about when the same logical operations (say, multiplication or concatenation) need to have different implementations depending on the type of the arguments they are applied to?\n\nThese kinds of questions can be vexing when trying to design a clean, well-scoped API.\n\nThis talk will cover several strategies for grouping related functionality in a way that presents a logically clean interface to both humans and static analysis tools like type checkers and document generators.\n\nThis talk covers:\n\n- Alternate constructors with @classmethod\n- Inheritance with @staticmethod and @classmethod\n- Dispatch by type\n- A new convention for namespacing functions: variants\n",
+  "duration": 1809,
+  "language": "eng",
+  "recorded": "2018-11-11",
+  "relatd_urls": [
+    {
+      "label": "Author website",
+      "url": "https://ganssle.io"
+    },
+    {
+      "label": "Talk page",
+      "url": "https://2018.pycon.ca/talks/talk-PC-52797/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pganssle-talks.github.io/pycon-ca-2018-clean-apis"
+    },
+    {
+      "label": "Github Repository",
+      "url": "https://github.com/pganssle-talks/pycon-ca-2018-clean-apis"
+    }
+  ],
+  "speakers": [
+    "Paul Ganssle"
+  ],
+  "tags": [
+    "library",
+    "api design"
+  ],
+  "thumbnail_url": "http://i3.ytimg.com/vi/s8Rn188mNW4/hqdefault.jpg",
+  "title": "Gathering Related Functionality: Patterns for Clean API Design",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=s8Rn188mNW4"
+    }
+  ]
+}

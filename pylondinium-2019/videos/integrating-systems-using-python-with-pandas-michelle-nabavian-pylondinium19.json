@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "The problem we aimed to solve broadly was to (1) replace the data inputs of a newly acquired product and software and to (2) replace this system with a more modern one in phases. We had already accomplished being able to run this acquired system on our hardware, and it was backing a critical product in production. Hence, an additional requirement was to (3) ensure the production system continued to run by limiting any large-scale changes to its interfaces or data model.\n\nThe destination interface required a file input. We created a Python service to translate acquired data from our modern system into files in the form required by the destination systems. The Python code read file configurations that were easy to create. Python was useful and new configurations did not require re-linking code to deploy them.\n\nWe also needed to deliver different variants of the same data, joined or concatenated data, or pivoted data to different end points. End-point applications had different expectations. We were able to use pandas to solve all of these data transformation problems. We did not need to change the system where we acquired the data. And we could use either a database or an existing file as a data input. We then used pandas to suck the data into an in-memory data structure to which it was easy to apply merges, concatenations and pivots. The result was that neither the producer of the data or the consumer of the data needed to make any concessions for the other\u2019s data model or interface.\n\nIn conclusion, the pandas feature set enabled us to build an integration facility to connect and transfer data between diverse systems with different requirements related to the form and content of the payload \u2013 without the producers and consumers of the data needing to change or be aware of the other\u2019s data model or interface.",
+  "duration": 1409,
+  "language": "eng",
+  "recorded": "2019-06-16",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pylondinium.org/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Michelle Nabavian"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2WEfmILo3Cs/maxresdefault.jpg",
+  "title": "Integrating Systems Using Python with pandas",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2WEfmILo3Cs"
+    }
+  ]
+}

@@ -35,7 +35,7 @@
       "anyOf": [{"type": "null"}, {"type": "string"}]
     },
     "recorded":{
-      "description":"ISO 8601 Date on which video was recorded (YYYY-MM-DD[Thh:mm[+hh:mm]])",
+      "description":"ISO 8601 Date on which video was recorded (YYYY-MM-DD[Thh:mm:ss[+hh:mm]])",
       "anyOf": [
         {"type": "null"},
         {

@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "When your Python needs to be fast, one powerful tool is the ability to write compiled extension modules. Normally this is done using the C API, but that requires managing reference counts and memory allocation and is nearly impossible to do correctly for non-trivial programs. In this talk, we'll look at how you can write extension modules in Rust - a memory-safe systems programming language that is increasingly popular as a replacement for C and C++, and the most loved language in the Stack Overflow developer survey 4 years running.\n\nThis talk will focus on pyo3 and milksnake, two popular libraries that provide very different approaches for writing Rust extensions; it will cover a basic introduction to the libraries, and compare their relative strengths and weaknesses. These will also be compared to C and Cython extension modules from a performance, safety and maintainability perspective.\n\nThis talk assumes some basic familiarity with extension modules. It is aimed at Pythonistas who are interested in Rust and at people who currently write extension modules and are looking for a safer alternative to the C API. Familiarity with the syntax and basic concepts of Rust is helpful, but the talk should be understandable even for Rust beginners.",
+  "duration": 1568,
+  "language": "eng",
+  "recorded": "2019-06-16",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pylondinium.org/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Paul Ganssle"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/IqQDl_2BsNs/maxresdefault.jpg",
+  "title": "Build your Python Extensions with Rust!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IqQDl_2BsNs"
+    }
+  ]
+}
