@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "This talk is a case study that describes how a Python image processing pipeline was optimized for increased throughput of 5-7x on a high-performance system. The workflow of using profiling tools to find candidate kernels for optimization and the techniques for speeding up these kernels will be described. The most successful method used to obtain speedup was just-in-time compiling using Numba; several successful examples will be provided. Parallelization strategies using MPI and Dask will be compared, and preliminary considerations for moving the code to GPUs will be discussed.\n\nSee the full SciPy 2019 playlist at https://www.youtube.com/playlist?list=PLYx7XA2nY5GcDQblpQ_M1V3PQPoLWiDAC\n\nConnect with us!\n*****************\nhttps://twitter.com/enthought\nhttps://www.facebook.com/Enthought/\nhttps://www.linkedin.com/company/enthought",
+  "description": "This talk is a case study that describes how a Python image processing pipeline was optimized for increased throughput of 5-7x on a high-performance system. The workflow of using profiling tools to find candidate kernels for optimization and the techniques for speeding up these kernels will be described. The most successful method used to obtain speedup was just-in-time compiling using Numba; several successful examples will be provided. Parallelization strategies using MPI and Dask will be compared, and preliminary considerations for moving the code to GPUs will be discussed.\n",
   "duration": 1813,
   "language": "eng",
   "recorded": "2019-07-11",
