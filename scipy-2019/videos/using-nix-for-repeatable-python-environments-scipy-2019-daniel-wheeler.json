@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Packaging and dependency management is foundational in software deployment, but is often implemented so that outcomes depend on state and are not repeatable. This has implications for reproducing computational experiments, which require repeatable deployment of environments whenever possible. For example, the popular package managers Conda and Pip are both examples of imperative and stateful implementations. In contrast, the Nix package manager is a functional package manager that implements fully repeatable environment deployment in a systematic manner. The talk will introduce the Nix package manager and demonstrate using Nix to generate repeatable Python environments as well as environments involving multiple languages.",
   "duration": 2028,
   "language": "eng",
   "recorded": "2019-07-11",

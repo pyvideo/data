@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "This talk is a case study that describes how a Python image processing pipeline was optimized for increased throughput of 5-7x on a high-performance system. The workflow of using profiling tools to find candidate kernels for optimization and the techniques for speeding up these kernels will be described. The most successful method used to obtain speedup was just-in-time compiling using Numba; several successful examples will be provided. Parallelization strategies using MPI and Dask will be compared, and preliminary considerations for moving the code to GPUs will be discussed.",
   "duration": 1813,
   "language": "eng",
   "recorded": "2019-07-11",
