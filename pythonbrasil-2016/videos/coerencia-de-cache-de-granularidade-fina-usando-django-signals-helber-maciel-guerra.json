@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Fazendo o uso do cache do nginx, podemos ter melhoria de desempenho de\nAPIs restful e conte\u00fados de 1000X ou mais. Mas como ter controle do que\nest\u00e1 no cache e se este conte\u00fado \u00e9 coerente com o que est\u00e1 no backend?\n\nCom sistemas de cache utilizando nginx ou varnish, geralmente s\u00e3o\nbaseados em tempo (valid 10 min., 24h, \u2026) mas muitas vezes ao fazer\nmodifica\u00e7\u00f5es em models do django, seria muito bom que este cache fosse\ninvalidado no momento da modifica\u00e7\u00e3o (post_save, post_delete, pre_save,\netc).\n\nO django-cache-coherence foi criado para atender esta necessidade. Para\ncada requisi\u00e7\u00e3o em uma url requisitada e est\u00e1 configurada para fazer\ncache, os dados da requisi\u00e7\u00e3o s\u00e3o salvos em um banco e registrado um\nsignal para fazer a limpeza deste cache (PURGE). Assim que houver uma\nchamada do signal registrado, \u00e9 feito uma consulta neste banco de\nrequisi\u00e7\u00f5es cacheadas, e disparado as limpezas, invalidando o cache\nsomente da informa\u00e7\u00e3o modificada, deixando integro o restante ndo cache.\n\nPara ativar este tipo de funcionalidade no nginx \u00e9 utilizado o m\u00f3dulo\n`ngx_cache_purge`_\n\nVou mostrar a configura\u00e7\u00e3o do nginx e como fazer inclusive cache de\nAPIs, com e sem autentica\u00e7\u00e3o. Mostrando como garantir e entrega com\ncache de informa\u00e7\u00f5es sensiveis de usu\u00e1rios.\n\nPara a valida\u00e7\u00e3o de verifica\u00e7\u00e3o do funcionamento s\u00e3o feitos testes de\nintegra\u00e7\u00e3o com testes unit\u00e1rios e containers docker.\n\n.. _ngx_cache_purge: https://github.com/FRiCKLE/ngx_cache_purge/",
+  "duration": 1740,
+  "language": "por",
+  "recorded": "2016-10-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "http://2016.pythonbrasil.org.br/#schedule"
+    }
+  ],
+  "speakers": [
+    "Helber Maciel Guerra"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XPNqkb1rEBE/maxresdefault.jpg",
+  "title": "Coer\u00eancia de cache de granularidade fina, usando django signals",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XPNqkb1rEBE"
+    }
+  ]
+}
