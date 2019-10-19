@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "En este estudio se exploran t\u00e9cnicas de aprendizaje computacional profundo con el fin de predecir las propiedades f\u00edsicas de los hidrocarburos a partir de firmas espectrales, este tipo particular de informaci\u00f3n se describe como un vector continuo que mide la reflectancia de la luz sobre cualquier objeto en funci\u00f3n del espectro electromagn\u00e9tico, este tipo de dato es usado por la NASA para la identificaci\u00f3n de agujeros negros. Por lo que su comprensi\u00f3n y uso en la industria petrolera es fundamental para la identificaci\u00f3n y caracterizaci\u00f3n de manifestaciones de hidrocarburo en superficie (rezumaderos). Por consiguiente se quiere aprovechar el potencial de las firmas espectrales para predecir la propiedad f\u00edsica de la gravedad API, la cual describe la relaci\u00f3n de densidades entre el hidrocarburo y el agua. A partir de dicha relaci\u00f3n, se puede estimar c\u00f3mo ser\u00e1 el comportamiento de los fluidos en el yacimiento, construyendo las bases para la planeaci\u00f3n estrat\u00e9gica de los campos petroleros. La presente propuesta se concibe como una herramienta predictiva compuesta de dos partes. La primera parte, especializada en el pre-procesamiento de firmas espectrales, donde se extraen las bandas m\u00e1s relevantes de acuerdo con t\u00e9cnicas de selecci\u00f3n de variables, se realiza un proceso de limpieza e imputaci\u00f3n de datos; y la segunda, donde se crean dos modelos de aprendizaje profundo, uno para las firmas espectrales de campo y otro para las firmas de las im\u00e1genes del sat\u00e9lite WorldView3. De esta manera, la herramienta tiene el objetivo de aprender los patrones de absorci\u00f3n del hidrocarburo dentro de una firma espectral, generalizando este aprendizaje para predecir dicha propiedad en los rezumaderos de la cuenca en estudio. SpectralNET, fue desarrollada en Python sobre la plataforma Google-Colab usando todo el potencial de este lenguaje en inteligencia artificial, la elegancia de su sintaxis para lograr las mejores eficiencias en el desempe\u00f1o de los modelos y por su puesto todo el estado del arte en librer\u00edas de ETL, modelaje y visualizaci\u00f3n de datos que han permitido simplicidad y robustez en la investigaci\u00f3n. Como resultado se consigue un RMSE de 2.6 para las firmas de campo y RMSE 5.1 para las firmas extra\u00eddas de las im\u00e1genes, siendo muy satisfactorio si se compara con el error te\u00f3rico bayesiano calculado en laboratorio de 1.5 grados API, estos resultados permiten la identificaci\u00f3n y comprensi\u00f3n de nuevas estructuras petrol\u00edferas, la prevenci\u00f3n de desastres ambientales dada la migraci\u00f3n vertical de crudo a superficie permitiend o monitorear anticipadamente las microfugas, con ahorros que pueden llegar hasta $2MUSD. Como investigaci\u00f3n futura, se propone probar SpectralNet sobre im\u00e1genes satelitales de Aster y Landsat, as\u00ed mismo extrapolar los modelos a otras propiedades f\u00edsicas e investigar la resoluci\u00f3n espectral que puedan llevar a obtener un modelo m\u00e1s parsimonioso y posiblemente m\u00e1s preciso.",
+  "duration": 1639,
+  "language": "spa",
+  "recorded": "2019-10-09",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://conf.scipyla.org/en/program/schedule/"
+    }
+  ],
+  "speakers": [
+    "Sergio Castelblanco"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/lfoD3EDAjbg/maxresdefault.jpg",
+  "title": "SpectralNET: redes neuronales e hidrocarburos",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lfoD3EDAjbg"
+    }
+  ]
+}

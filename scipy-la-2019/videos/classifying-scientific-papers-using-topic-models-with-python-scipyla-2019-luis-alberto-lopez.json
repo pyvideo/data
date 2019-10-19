@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "The amount of information generated every year by the scientific community has been steadily increasing, making it almost impossible for scientists to stay up-to-date with all the data that may impact their research. There is a need for methods and tools that automate knowledge extraction to help scientist understand high level trends and topics around a particular field. Topic modelling is a well known technique in the natural language processing world that addresses part of this problem. This talk presents the results of using probabilistic topic modelling to analyze 10 years of scientific papers submitted to the European Geophysical Union yearly meeting (EGU). The first step in advancing scientific research is to understand what is in a text document. We need to know which topics are included and how they are distributed. We might not fully solve your homework but topic modelling will give you a good idea of the content of a document without you having to read it. Our prototype for text classification started as a side project for the NSF EarthCube project, the original idea was to create a \u201cGoogle\u201d for scientific data. We succeeded in implementing a focused crawler (derived from Apache Nutch) that indexed billions of links with scientific information. In order to analyze this vast data set we started exploring the idea of using Natural Language Processing tools to gain insights on it. We used NLP techniques on scientific papers, conference abstracts and websites to build topic models and create useful interactive data visualizations. All this work would not have been possible without the use of NLP libraries in Python such as PyLDAvis, scikit-learn, ScatterText, NLTK and others. This talk will cover what data we used for this research and how to recreate our results with topic modelling using Jupyter notebooks. Lastly, I will discuss how these techniques can be applied to other domains.",
+  "duration": 2086,
+  "language": "spa",
+  "recorded": "2019-10-09",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://conf.scipyla.org/en/program/schedule/"
+    }
+  ],
+  "speakers": [
+    "Luis Alberto Lopez"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/QsvGkO_P8x0/maxresdefault.jpg",
+  "title": "Classifying scientific papers using topic models with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QsvGkO_P8x0"
+    }
+  ]
+}

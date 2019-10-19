@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Customer churn predictive modeling deals with predicting the probability of a customer defecting using historical, behavioral and socio-economical information. This tool is of great benefit to subscription based companies allowing them to maximize the results of retention campaigns. The problem of churn predictive modeling has been widely studied by the data mining and machine learning communities. It is usually tackled by using classification algorithms in order to learn the different patterns of both the churners and non-churners. Nevertheless, current state-of-the-art classification algorithms are not well aligned with commercial goals, in the sense that, the models miss to include the real financial costs and benefits during the training and evaluation phases. In the case of churn, evaluating a model based on a traditional measure such as accuracy or predictive power, does not yield the best results when measured by the actual financial cost, ie. investment per subscriber on a loyalty campaign and the financial impact of failing to detect a real churner versus wrongly predicting a non-churner as a churner. In this talk, I will present a cost-sensitive framework for customer churn predictive modeling using CostCla a cost-sensitive classification python library. First we define a financial based measure for evaluating the effectiveness of a churn campaign taking into account the available portfolio of offers, their individual financial cost and probability of offer acceptance depending on the customer profile. Then, using a real-world churn dataset from Rappi, we compared different cost-insensitive and cost-sensitive classification algorithms and measure their effectiveness based on their predictive power and also the cost optimization. The results show that using a cost-sensitive approach yields to an increase in cost savings of up to 26.4 %.",
+  "duration": 1731,
+  "language": "eng",
+  "recorded": "2019-10-09",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://conf.scipyla.org/en/program/schedule/"
+    }
+  ],
+  "speakers": [
+    "Alejandro Correa"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/NbqX2TOyLy4/maxresdefault.jpg",
+  "title": "Maximizing Churn Campaign Profitability with Cost-Sensitive Machine Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NbqX2TOyLy4"
+    }
+  ]
+}

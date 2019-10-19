@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Para tratar el tema de la distancia entre el desarrollo experimental de un modelo de machine-learning y los desaf\u00edos de servirlo como un servicio production-ready, voy a aprovechar una experiencia de la vida real. En Mercadolibre existe Fury: una plataforma de infraestructura y desarrollo, para el despliegue de microservicios. La misma provee features para build, deploy, gesti\u00f3n de entornos de desarrollo, automatizaci\u00f3n de la creaci\u00f3n de infraestructura, monitoreo, m\u00e9tricas, servicios, etc. Es uno de los principales factores que permiti\u00f3 crecer de 400 desarrolladores a los ~3000 que somos ahora, en pocos a\u00f1os.  El problema es que dicha infraestructura no fue dise\u00f1ada para lidiar con las particularidades asociadas a los sistemas de machine-learning: entornos de experimentaci\u00f3n para data-scientists, procesos de ETL, entrenamiento de modelos, acceso a infraestructura espec\u00edfica como GPU, etc. Entonces, en un esfuerzo transversal a la organizaci\u00f3n, con la colaboraci\u00f3n de varios equipos, desarrollamos Fury Data Apps: una extensi\u00f3n a Fury que provee herramientas y servicios para que cualquiera pueda dise\u00f1ar, experimentar, desarrollar y desplegar sistemas basados en machine-learning, a la escala que Mercadolibre necesita. En esta charla voy a presentar: las caracter\u00edsticas principales de la plataforma los problemas que soluciona el stack tecnol\u00f3gico que la soporta en general, c\u00f3mo cubre el gap entre un POC y un sistema production-ready",
+  "duration": 1896,
+  "language": "spa",
+  "recorded": "2019-10-09",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://conf.scipyla.org/en/program/schedule/"
+    }
+  ],
+  "speakers": [
+    "Carlos De la Torre"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/AQ-ctn7GwWo/maxresdefault.jpg",
+  "title": "Del POC a producci\u00f3n - Infraestructura para machine-learning en Mercadolibre",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=AQ-ctn7GwWo"
+    }
+  ]
+}
