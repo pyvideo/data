@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "When your Python needs to be fast, one powerful tool is the ability to write\ncompiled extension modules. Normally this is done using the C API, but that\nrequires managing reference counts and memory allocation and is nearly\nimpossible to do *correctly* for non-trivial programs. In this talk, we'll\nlook at how you can write extension modules in Rust - a memory-safe systems\nprogramming language that is increasingly popular as a replacement for C and\nC++, and the [most loved language in the Stack Overflow developer survey 4\nyears running](https://insights.stackoverflow.com/survey/2019#technology-_-\nmost-loved-dreaded-and-wanted-languages).\n\nThis talk will focus on `pyo3` and `milksnake`, two popular libraries that\nprovide very different approaches for writing Rust extensions; it will cover\na basic introduction to the libraries, and compare their relative strengths\nand weaknesses. These will also be compared to C and Cython extension\nmodules from a performance, safety and maintainability perspective.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2019-10-05",
+  "related_urls": [
+    "https://2019.pygotham.org/talks/build-your-python-extensions-with-rust/"
+  ],
+  "speakers": [
+    "Paul Ganssle"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/1KC43QuJKlE/maxresdefault.jpg",
+  "title": "Build your Python Extensions with Rust!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/1KC43QuJKlE"
+    }
+  ]
+}
