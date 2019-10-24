@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "This talk will teach you to finally integrate Django and Elasticsearch \"like\nit's 2019\".\n\nElasticsearch is a great addition to the Django developer's toolkit: it\nsupports performant complex full-text queries and filters on huge datasets,\nwhere traditional relational database-only solutions fall short. But\nintegrating Django with Elasticsearch usually is a pain: you need logic to\nkeep database tables and Elasticsearch indexes in sync. Since data is stored\nin two places, it can become out-of-sync if care is not taken. Dirty index\ndata will generate wrong search results, defeating the purpose of the\nintegration.\n\nA new alternative is [django-\nzombodb](https://github.com/vintasoftware/django-zombodb), a Django app that\nuses a Postgres extension for syncing tables with Elasticsearch indexes at\ntransaction time. With django-zombodb, developers can treat an ElasticSearch\nindex just like an internal Postgres index. This means no code is needed to\nsynchronize Postgres with Elasticsearch, you just need to run a Django\nmigration that executes a CREATE INDEX in the database and you're done. Any\nnew inserts, updates or deletes on that model will reflect on an\nElasticsearch index at transaction time!\n\ndjango-zombodb also offers a Pythonic/Djangonic API to make Elasticsearch\nqueries over Django models using the ORM in a queryset-friendly way.\nDevelopers are able to compose Elasticsearch queries with regular ORM\nqueries by just chaining queryset methods and composing Q-like objects. In\nthis talk, you'll learn django-zombodb advantages over other solutions, how\nit works, how to use it, and even you can contribute to it.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2019-10-04",
+  "related_urls": [
+    "https://2019.pygotham.org/talks/django-elasticsearch-without-invalidation-logic/"
+  ],
+  "speakers": [
+    "Fl\u00e1vio Juvenal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vCSaTs75-z8/maxresdefault.jpg",
+  "title": "Django + ElasticSearch without invalidation logic",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/vCSaTs75-z8"
+    }
+  ]
+}
