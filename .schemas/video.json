@@ -88,7 +88,8 @@
       "description":"Array of tags describing video",
       "items":{
         "description":"Tag describing video",
-        "type":"string"
+        "type":"string",
+        "minLength": 1
       },
       "type": "array",
       "uniqueItems":true
