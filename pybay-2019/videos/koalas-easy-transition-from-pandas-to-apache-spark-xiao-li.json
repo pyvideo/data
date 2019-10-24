@@ -1,0 +1,15 @@
+{
+  "description": "This talk was presented at PyBay2019 - 4th annual Bay Area Regional Python conference. See pybay.com for more details about PyBay and click SHOW MORE for more information about this talk.\n\nDescription\nIn this talk, we present Koalas, a new open source project that was announced at the Spark + AI Summit in April. Koalas is a Python package that implements the pandas API on top of Apache Spark, to make the pandas API scalable to big data. Using Koalas, data scientists can make the transition from a single machine to a distributed environment without needing to learn a new framework.\n\nAbstract\nPandas is the standard tool for data science in python, and it is typically the first step to explore and manipulate a data set by data scientists. The problem is that pandas does not scale well to big data. It was designed for small data sets that a single machine could handle.. When data scientists work today with very large data sets, they either have to migrate to PySpark to leverage Spark or downsample their data so that they can use pandas.\n\nThis presentation will give a deep dive into the conversion between Spark and pandas dataframes. Through live demonstrations and code samples, you will understand: - how to effectively leverage both pandas and Spark inside the same code base - how to leverage powerful pandas concepts such as lightweight indexing with Spark - technical considerations for unifying the different behaviors of Spark and pandas\n\nAbout the speaker\nXiao Li is an engineering manager, Apache Spark Committer, and PMC member at Databricks. His main interests are on Spark SQL, data replication and data integration. Previously, he was an IBM master inventor and an expert on asynchronous database replication and consistency verification. He received his Ph.D. from University of Florida in 2011.\n\nSponsor Acknowledgement\nThis and other PyBay2019 videos are via the help of our media partner AlphaVoice (https://www.alphavoice.io/)!\n\n#pybay #pybay2019 #python #python3 #gdb",
+  "recorded": "2019-08-17",
+  "speakers": [
+    "Xiao Li"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/cMDLoGkidEE/hqdefault.jpg",
+  "title": "Koalas: Easy Transition from pandas to Apache Spark",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cMDLoGkidEE"
+    }
+  ]
+}

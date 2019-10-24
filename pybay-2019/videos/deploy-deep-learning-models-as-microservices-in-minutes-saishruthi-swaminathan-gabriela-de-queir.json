@@ -1,0 +1,16 @@
+{
+  "description": "This talk was presented at PyBay2019 - 4th annual Bay Area Regional Python conference. See pybay.com for more details about PyBay and click SHOW MORE for more information about this talk.\n\nDescription\nSeamlessly serve state-of-the-art deep learning models as web microservices in minutes and create an application around it without having prior deep learning experience.\n\nAbstract\nPowering your application with deep learning is no walk in the park, but is certainly attainable with some tricks and good practice. Serving a deep learning model on a production system demands the model to be stable, reproducible, capable of isolation and to behave as a stand-alone package. One possible solution to this is a containerized microservice.\n\nIdeally, serving deep learning microservices should be quick and efficient, without having to dive deep into the underlying algorithms and their implementation. Too good to be true? Not anymore! Together, we will demystify the process of developing, training, and deploying deep learning models as a web microservice using Model Asset Exchange, an open source framework developed in Python at the IBM Center for Open Source Data and AI Technologies (CODAIT).\n\nWe will kick off with an overview of how deep learning models are best published as Docker Images on DockerHub, and are best prepared for deployment in local or cloud environments using Kubernetes or Docker. We highlight the following benefits of such an approach: Standardized REST API implementation and application-friendly output format (JSON) Abstracting out the complex pre and post-processing portions of the model inputs and outputs.\n\nWe will walk you through some super cool applications such as automatic image cropping, age estimation from videos/webcam and Veremin - a video theremin. All these applications and the framework itself are open source and we conclude by inviting contributions and opening the gates for you to be a part of this amazing initiative!\n\nOriginal slides: https://t.ly/3vKN7\n\nAbout the speaker\nSaishruthi Swaminathan is a developer advocate and data scientist in the IBM CODAIT team whose main focus is to democratize data and AI through open source technologies. She has a Masters in Electrical Engineering specializing in Data Science and a Bachelor degree in Electronics and Instrumentation. Her passion is to dive deep into the ocean of data, extract insights and use AI for social good. Previously, she was working as a Software Developer. On a mission to spread the knowledge and experience, she acquired in her learning process. She also leads education for rural children initiative and organizing meetups focussing women empowerment.\n\nSponsor Acknowledgement\nThis and other PyBay2019 videos are via the help of our media partner AlphaVoice (https://www.alphavoice.io/)!\n\n#pybay #pybay2019 #python #python3 #gdb",
+  "recorded": "2019-08-16",
+  "speakers": [
+    "Saishruthi Swaminathan",
+    "Gabriela de Queir"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/L8nuj_RxbUk/hqdefault.jpg",
+  "title": "Deploy Deep Learning models as Microservices in minutes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=L8nuj_RxbUk"
+    }
+  ]
+}

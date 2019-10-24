@@ -1,0 +1,15 @@
+{
+  "description": "This talk was presented at PyBay2019 - 4th annual Bay Area Regional Python conference. See pybay.com for more details about PyBay and click SHOW MORE for more information about this talk.\n\nDescription\nAsyncio is the latest and greatest way to write concurrent code, but are the principles behind it really novel? At its core, asyncio just an implementation of single-threaded, cooperative concurrency. Thats a lot of buzzwords! Let's zoom in on single-threaded, cooperative concurrency more broadly, explore what that means, how it works, and why it's valuable.\n\nAbstract\nThere are a few ways to do things at the same time (or almost at the same time) in Python: using multiple threads, multiple processes, and now with asyncio. But there are really only a few ways to do so where the multitasking is cooperative (I'm looking at you asyncio). We will zoom into this third option, which can more broadly be described as single-threaded, cooperative concurrency.\n\nThis talk will explore what each of these terms mean, and why this approach is becoming increasingly popular. Along the way, we will pay homage to some of the precursors of asyncio to understand and appreciate whats going on under the hood. Get ready to roll your sleeves up, dive into the code for simple concurrent programs, and walk away with a better understand of what single-threaded, cooperative concurrency means.\n\nOriginal slides: https://t.ly/j9gd3\n\nAbout the speaker\nAnnie is a Senior Software Engineer at Nylas, where she works almost exclusively in Python. Outside of work, Annie volunteers with Code Nation and teaches computer science at an all-girls high school. She is passionate about making complicated topics accessible and helping others grow as engineers. Annie loves to hike, knit and bake bread.\n\nSponsor Acknowledgement\nThis and other PyBay2019 videos are via the help of our media partner AlphaVoice (https://www.alphavoice.io/)!\n\n#pybay #pybay2019 #python #python3 #gdb",
+  "recorded": "2019-08-16",
+  "speakers": [
+    "Annie Cook"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/9g5IZDkwAC0/hqdefault.jpg",
+  "title": "Understanding Concurrency in Python!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9g5IZDkwAC0"
+    }
+  ]
+}
