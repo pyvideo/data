@@ -1,0 +1,15 @@
+{
+  "description": "This talk was presented at PyBay2019 - 4th annual Bay Area Regional Python conference. See pybay.com for more details about PyBay and click SHOW MORE for more information about this talk.\n\nDescription\nHave you ever wondered how Python debugging looks on the inside? During this session, we\u2019ll share how debugging actually works in Python. We\u2019ll discuss the differences between CPython and PyPy interpreters, explain the underlying debugging mechanism and show you how to utilize this knowledge at work and up your watercooler talk game.\n\nAbstract\nThe mainstream and off-the-beaten-track Python debuggers out there: pdb/bdb, PyDev Debugger - Eclipse/IntelliJ, IDLE, Atom, and others.\n\nWhat is the underlying tech of Python debuggers? 1. Introduce the (hard to decipher) sys.settrace function and review its public documentation 2. Provide the missing documentation for sys.settrace and explain what it actually does.\n3. Show a snippet of example code and explain how to handle multithreading when debugging\n\nCPython Performance Benchmarks. 1. Review the performance optimizations we've done to maximize sys.settrace 2. Introduce the CPython Performance Benchmarks 3. Deep-dive into these benchmarks - why they matter 4. Discuss the alternatives of sys.set_trace\n\nQuick intro to PyPy interpreter . 1. Share the performance benchmarks for PyPy 2. Discuss our insights (\n\nWhat do you do once your debugger stopped? 1. Introduce the Python frame object and inspect module 2. Share example code 3. Discuss possible use cases\n\nOriginal slides: https://t.ly/LdK68\n\nAbout the speaker\nLiran is the Co-Founder and CTO of Rookout, the data collection and delivery company. He\u2019s an advocate of modern software methodologies like agile, lean and devops. Liran\u2019s passion is to understand how software actually works. When he's not thinking of code, he's usually diving or hiking\n\nSponsor Acknowledgement\nThis and other PyBay2019 videos are via the help of our media partner AlphaVoice (https://www.alphavoice.io/)!\n\n#pybay #pybay2019 #python #python3 #gdb",
+  "recorded": "2019-08-17",
+  "speakers": [
+    "Liran Haimovitch"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JU4ZuvWqOak/hqdefault.jpg",
+  "title": "Understanding Python's Debugging Internals",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JU4ZuvWqOak"
+    }
+  ]
+}

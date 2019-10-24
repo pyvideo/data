@@ -1,0 +1,15 @@
+{
+  "description": "This talk was presented at PyBay2019 - 4th annual Bay Area Regional Python conference. See pybay.com for more details about PyBay and click SHOW MORE for more information about this talk.\n\nDescription\nHeard of Apache Airflow? Do you work with Airflow or want to work with Airflow? Ever wonder how to better test Airflow? Have you considered all data workflow use cases for Airflow? Come be reminded of key concepts and then we will dive into Airflow\u2019s value add, common use cases, and best practices. Some use cases: Extract Transform Load (ETL) jobs, snapshot databases, and ML feature extraction.\n\nAbstract\nBackground - What is Airflow? Explain Cron and how it compares to Airflow High level explain the key concepts of Airflow * Direct Acyclic Graph (DAG) - nodes are tasks and edges are dependency structure * Third Party Integrations (Slack, Google Cloud Platform, AWS, etc) * Airflow Hooks & Operators * What is Airflow? * Programmatically author workflows * Stateful scheduling * Rich CLI and UI that make development easy * Logging, monitoring, and alerting * Modularity lends itself well to testability * Solves common problems with batch processing * Open sourced by AirBnB in 2015\n\nEvaluating Airflow * What value does Airflow add? * Retries task elegantly, which handles transient network errors * Alerts on failure (email or slack) * Can re-run specific tasks in a large DAG * Support distributed execution * Great OSS community and momentum * Can be hosted on AWS, Azure, or GCP * Managed options for Airflow - AWS Glue, GCP Cloud Composer, or Azure Data Factory\n\nDoes Airflow Have an Ugly Side? How to Overcome Challenges?\nUpgrades can be more challenging when you have custom hooks and operators\nenv vars vs variables vs xcoms\nCommon Use Cases Extract Transform Load (ETL) Jobs * Airflow enables moving data and transforming data very easily * Can create custom Hooks for Third Party APIs Efficiently Snapshot Databases Create Test Environments for QA ML Feature Extraction\n\nBest Practices Testing * Unit tests from lib functions * Acceptance tests to run list_dags Doc MD for the DAG * Contain Points of Contact * What remediation/escalation steps should the on-call person take when this DAG fails?\n\nExciting New/New(ish) Features * Lineage * Role Based Access Control * Airflow 2.0 Improvements\n\nOriginal slides: https://t.ly/xYJk9\n\nAbout the speaker\nSoftware Engineer at Blue Apron on the Data Engineering team. Work daily using Python on our data pipeline. Excited by how Python is transforming Data Engineering.\n\n\n\nSponsor Acknowledgement\nThis and other PyBay2019 videos are via the help of our media partner AlphaVoice (https://www.alphavoice.io/)!\n\n#pybay #pybay2019 #python #python3 #gdb",
+  "recorded": "2019-08-16",
+  "speakers": [
+    "Sarah Schattschneider"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XD7euLOzKbs/hqdefault.jpg",
+  "title": "Airflow in Practice: Stop Worrying Start Loving DAGs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XD7euLOzKbs"
+    }
+  ]
+}

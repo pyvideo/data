@@ -1,0 +1,15 @@
+{
+  "description": "This talk was presented at PyBay2019 - 4th annual Bay Area Regional Python conference. See pybay.com for more details about PyBay and click SHOW MORE for more information about this talk.\n\nDescription\nAPIs are important. It's how your packages relate to the rest of a program and their users and they are a fundamental defense against complexity. Discussions on how to write good APIs are long on opinion and short on concrete and unambiguous steps a developer can take. At the opposite end, I decided to focus on the very specific subject of API consistency and to provide a package that supports the writing of consistent APIs by factoring out their syntactic and semantic aspects. From argument naming and ordering, to initialization and checking, to documentation, autosig provides a way to concisely describe an API, minimizing repetition and the possibility of error, or just messiness. In this talk, we will introduce the package by way of two examples of increasing complexity, then discuss with the audience directions in which the package should go.\n\nAbstract\nGood APIs are important and we know one when we use it. There are plenty of guidelines on how to write one, but nothing that is \"set in code\". autosig aims to be an API for API design, implementing fairly uncontroversial API design guidelines in a package. It is focused on consistency and reuse of API elements such as arguments and signatures and on a mix of syntactic and semantic aspects, from naming and ordering of arguments to type checking and conversion, to meta-data such as documentation. This talk will explain what autosig can do for the API designer going through a basic example first, followed by a real application -- the statistical graphics package altair_recipes. The talk will end with a call for feedback from the experienced API designers in the audience and all interested developers: could you use autosig in your work? What other aspects could or should it cover? What could it do better?\n\nOriginal slides: https://t.ly/0vzbG\n\nAbout the speaker\nComplete, experienced data scientist with industrial and academic backgrounds. Most recent work on big data packages for R (rmr2, plyrmr, tidyr.big), R developer tools (quickcheck), information filtering (rightload), A/B testing, web ranking. Cited 7000+ times in the scientific literature for work in bioinformatics and computational learning.\n\nSponsor Acknowledgement\nThis and other PyBay2019 videos are via the help of our media partner AlphaVoice (https://www.alphavoice.io/)!\n\n#pybay #pybay2019 #python #python3 #gdb",
+  "recorded": "2019-08-16",
+  "speakers": [
+    "Antonio Piccolboni"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/vrIC1K9lj1U/hqdefault.jpg",
+  "title": "Writing good python APIs with autosig",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vrIC1K9lj1U"
+    }
+  ]
+}
