@@ -1,0 +1,15 @@
+{
+  "description": "\"Downloading a Billion Files in Python\n[EuroPython 2019 - Talk - 2019-07-12 - Shanghai]\n[Basel, CH]\n\nBy James Saryerwinnie\n\nYou've been given a task.  You need to download some files from a server to your local machine.   The files are fairly small, and you can list and access these files from the remote server through a REST API.  You'd like to download them as fast as possible.  The catch?  There's a billion of them.  Yes, one billion files.\n\nHow would would you do this?  Would you do this synchronously in a single for loop?  Would you use a producer/consumer queue with threads?  Multiprocessing?  Asyncio?\n\nIn this talk, we'll examine 3 different mechanisms for concurrently downloading files: multithreading, multiprocessing, and asyncio.\n\nFor each of these mechanisms we'll look at design best practices, how to handle debugging and error handling, and of course the overall performance.  By examining three different approaches using the same data set, we gain a better understanding of the tradeoffs of each approach so we can pick the right library for the job.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/",
+  "recorded": "",
+  "speakers": [
+    "James Saryerwinnie"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/E_oIU4IU2W8/hqdefault.jpg",
+  "title": "Downloading a Billion Files in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=E_oIU4IU2W8"
+    }
+  ]
+}

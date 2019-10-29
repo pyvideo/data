@@ -1,0 +1,15 @@
+{
+  "description": "\"Go(lang) to Python\n[EuroPython 2019 - Talk - 2019-07-12 - Osaka / Samarkand]\n[Basel, CH]\n\nBy Stefan Baerisch\n\nPython and Go are a great combination. Like Python, Go is easy to learn, powerful to use and has many useful libraries. Go and Python work great together: Go has better performance and parallelism, while Python is more expressive. Wouldn't it be nice if you could combine the benefits of Go and Python in one program? This talk shows you how.\n\nWhy you may want to attend\nExtension modules written in C/C++ or other languages are one of the major strength Python. Go is a useful language to extend Python. This talk explains to you how to implement extension modules in Go.\n\nContent of the Talk\nThe talk shows how to use CGO to make Go code available as a C library and then to use Cython to make this library available as a Python extension module. \n\nWe start by building a wrapper for simple Go code that adds some numbers and returns the results. This program is our end-to-end example to demonstrate the steps necessary to create a Python extension module in Go.\nNext, we move to more complex use cases. We look at different ways to share complex data and to use Python callbacks from Go.\nThen, we see how to how to handle Go's Garbage Collector when exposing with Go Objects. \nFinally, the talk goes into the advantages and disadvantages of Go as an extension language for Python. We also look at some of the alternative ways to make Go code available in Python.\n\nRecommended Prerequisites\nTo get the most out of the talk, you should know about the difference between native Python modules and extension modules written in other languages. Some background on concepts like garbage collection, stack and heap, and dynamic/shared libraries are beneficial. Knowledge of the Python C API is not required.\nYou do not need to know how to write Go code to follow the talk - the talk explains all the required Go.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/",
+  "recorded": "",
+  "speakers": [
+    "Stefan Baerisch"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ILfPgkqdSYc/hqdefault.jpg",
+  "title": "Go(lang) to Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ILfPgkqdSYc"
+    }
+  ]
+}
