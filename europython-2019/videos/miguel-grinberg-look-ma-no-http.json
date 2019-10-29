@@ -1,6 +1,6 @@
 {
   "description": "\"Look Ma, No HTTP!\n[EuroPython 2019 - Talk - 2019-07-12 - Shanghai]\n[Basel, CH]\n\nBy Miguel Grinberg\n\nIn this talk I'm going to live code a web application that is built exclusively on top of WebSocket, without using HTTP at all!\n\nWhat's the benefit of using WebSocket over HTTP, you may ask? With WebSocket each client establishes a permanent connection to the server, so there is no request/response cycle and no need for the client to poll the server for data. Each side can freely send data to the other side at any time, so this is an ideal stack for building highly dynamic, event-driven applications.\n\nFor this live coding exercise I'm going to use the Socket.IO server for Python, and the Socket.IO client for JavaScript. No Flask, no Django, no HTTP!\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/",
-  "recorded": "",
+  "recorded": "2019-07-12",
   "speakers": [
     "Miguel Grinberg"
   ],
