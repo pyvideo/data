@@ -1,0 +1,16 @@
+{
+  "description": "\"Evolving a helper script into a 180,000-lines-of-Python-code project\n[EuroPython 2019 - Talk - 2019-07-12 - Singapore]\n[Basel, CH]\n\nBy Mikhail Bushkov, Max Vogler\n\nGRR Rapid Response (https://github.com/google/grr) is an incident response framework focused on remote live forensics.\n\nIt consists of a Python client (agent) that is installed on target systems, and Python server infrastructure that can manage and talk to clients. The goal of GRR is to support forensics and investigations in a fast, scalable manner to allow analysts to quickly triage attacks and perform analysis remotely.\n\nGRR was started at Google in 2009 as a simple Python helper script used by Incident Response engineers. Eventually a little Python script got a little server component, was adapted to run on multiple systems (Mac, Linux, Windows), then a little UI was added and a few nice features were introduced (large-scale hunts, collection of predefined artifacts, memory analysis). A helper script has eventually evolved into a sophisticated framework with 180,000 lines of Python code.\n\nIn the presentation we\u2019ll talk about the process of evolving a small prototype-like Python project into a production-ready system, using GRR as an example. The topics that we\u2019ll cover are:\n* Taking shortcuts - both in terms of design and implementation. Reasons for taking them and their eventual costs.\n* Relying on Python\u2019s power features (i.e. meta-classes, mixins)? Long-term consequences on maintainability and readability. \n* Organising the project into separate PyPI packages - benefits of doing that.\n* Continuous integration, testing and automated builds for various platforms - implementation costs and maintainability effects.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/",
+  "recorded": "2019-07-12",
+  "speakers": [
+    "Mikhail Bushkov",
+    "Max Vogler"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/hlqwf6lkPj0/hqdefault.jpg",
+  "title": "Evolving a helper script into a 180,000-lines-of-Python-code project",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hlqwf6lkPj0"
+    }
+  ]
+}
