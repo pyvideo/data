@@ -38,4 +38,4 @@ to the public domain worldwide. These files are distributed without
 any warranty.
 
 You should have received a copy of the CC0 license in the file LICENSE.
-If not, see http://creativecommons.org/publicdomain/zero/1.0
+If not, see https://creativecommons.org/publicdomain/zero/1.0
