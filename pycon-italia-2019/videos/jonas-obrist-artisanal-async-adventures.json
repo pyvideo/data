@@ -1,19 +1,25 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "If you want to write an efficient server, asynchronous networking is an\nexcellent strategy to do so. To build a production ready system, you\nwould use asyncio, tornado, twisted, trio or another popular\nimplementation. However, to fully understand how and why it works, I\nwill ignore these solutions and instead craft an artisanal asynchronous\nimplementation in front of your very eyes. Step by step we will turn a\nblocking socket server, only capable of handling a single connection at\na time, into a beautiful non blocking server that has no trouble dealing\nwith many connections at once. By the end, you should see that\nasynchronous code is not magical at all, but nevertheless incredibly\nuseful.\n\n**Feedback form:** https://python.it/feedback-1742\n\nin \\_\\_on **Saturday 4 May** at 11:30 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 2428,
-  "language": null,
-  "recorded": "2019-05-03",
+  "language": "en",
+  "recorded": "2019-05-04",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Jonas Obrist"
+  ],
+  "tags": [
+    "async",
+    "event-driven-architecture",
+    "python3"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/dTKntbaoYOc/maxresdefault.jpg",
-  "title": "Jonas Obrist - Artisanal Async Adventures",
+  "title": "Artisanal Async Adventures",
   "videos": [
     {
       "type": "youtube",

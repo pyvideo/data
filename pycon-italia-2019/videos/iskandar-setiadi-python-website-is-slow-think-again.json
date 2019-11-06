@@ -1,19 +1,28 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "As a Python avid user, we read a lot of articles that describe Python as\na slow, interpreted language. At a certain point, some people start to\nblame the language itself for performance problems and consider to\nmigrate their codebase to other languages. However, the success story of\nInstagram in handling four hundred million users has shown us that\nPython is not the bottleneck, but our codebase is.\n\nIn this talk, the speaker will share a tale of improving Python website\nperformances in medium-sized enterprise (serving million users) that I\u2019m\ncurrently working at. In a year, we finally achieved speed improvement\nfrom the average response time of 400 ms to 150 ms per request and we\ncould save around $100k per year in AWS EC2 instance provisioning, which\nis around 60% of total cost.\n\nSeveral key points that we have learned from our development process\nincludes:\n\n-  Tracking database queries with Python decorator will reduce number of\n   unnecessary queries\n-  Using an async framework does not guarantee your codebase is\n   implementing it correctly\n-  Default configured third-party library is not always suitable for all\n   use cases\n-  Utilizing memory profiler and pdb properly will help you in\n   pinpointing application bottleneck\n-  Python for-loops vs generators\n-  And several other common pitfalls\n\nExpected level of audience: This talk is mainly targeted for beginner to\nintermediate web developer who are interested in improving the cost-\nperformance of their web applications. After listening to this talk, the\naudiences are expected to understand that good coding practices (e.g.:\nimplement asyncio correctly, track number of DB queries with decorators,\netc) will make their web application a lot faster and cut down\noperational costs by a large margin.\n\n**Feedback form:** https://python.it/feedback-1592\n\nin \\_\\_on **Sunday 5 May** at 12:30 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 1387,
-  "language": null,
-  "recorded": "2019-05-03",
+  "language": "en",
+  "recorded": "2019-05-05",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
-    }
+    },
+    "https://www.pycon.it/media/conference/slides/python-website-is-slow-think-again.pdf"
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Iskandar Setiadi"
+  ],
+  "tags": [
+    "tornado",
+    "best-practices",
+    "aws",
+    "web-development",
+    "web"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/HTrIWD9fLAk/maxresdefault.jpg",
-  "title": "Iskandar Setiadi - Python Website is Slow? Think Again!",
+  "title": "Python Website is Slow? Think Again!",
   "videos": [
     {
       "type": "youtube",

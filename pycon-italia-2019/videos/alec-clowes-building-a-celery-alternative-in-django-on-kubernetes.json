@@ -1,19 +1,28 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Every used Celery and been frustrated by the complexity of RabbitMQ, the\nRedis visibility timeout, or the deprecated Postgres support? Wish there\nwas better support for composing tasks into workflows and a web UI for\nviewing status and logs? I\u2019ve been working with Celery for years; it is\na great tool but I wanted to build something that fit my use cases\nbetter so I started a new task execution framework.\n\nThis talk isn\u2019t about that framework, however. It is about how to use\nDjango and React together, how to take advantage of more advanced\nPostgres features like recursive queries and select-for-update row\nlocking, and how to deploy the resulting application onto Google Cloud\nPlatform\u2019s hosted Kubernetes solution. I hope it is valuable as a how-to\nguide covering many current best practices, from CLI and API design to\nhigh-availability and continuous deployment. Everything is open-sourced\non GitHub at https://github.com/aclowes/yawn.\n\nFeedback form: https://python.it/feedback-1568\n\nin \\_\\_on **Friday 3 May** at 17:15 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 1783,
-  "language": null,
+  "language": "en",
   "recorded": "2019-05-03",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
-    }
+    },
+    "https://www.pycon.it/media/conference/slides/building-a-celery-alternative-in-django-on-kubernetes.pptx"
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Alec Clowes"
+  ],
+  "tags": [
+    "celery",
+    "reactjs",
+    "postgresql",
+    "kubernetes",
+    "django"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/fdY6G2u8tRs/maxresdefault.jpg",
-  "title": "Alec Clowes - Building a Celery alternative in Django on Kubernetes",
+  "title": "Building a Celery alternative in Django on Kubernetes",
   "videos": [
     {
       "type": "youtube",

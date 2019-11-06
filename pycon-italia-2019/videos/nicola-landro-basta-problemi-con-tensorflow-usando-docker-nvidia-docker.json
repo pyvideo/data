@@ -1,19 +1,31 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Di sicuro vi sar\u00e0 capitato che condividendo o effettuando un progetto\ntensorflow questo non funzioni correttamente. Soprattutto non riesco a\nfar scalare la mia app perch\u00e8 non ho abbastanza macchine con GPU e\neseguire lo scale su macchine con solo CPU \u00e8 costoso per poi ottenere\nscarsi benefici. La soluzione \u00e8 utilizzare Docker e Nvidia Docker.\nVedremo perch\u00e8 Docker \u00e8 migliore di una macchina virtuale e come\ncambiano le prestazioni rispetto ad andare direttamente sulla macchina.\nVedremo trucchi su come strutturare dei docker-compose file senza\nduplicazione per poter sviluppare agilmente sia con GPU che senza, poter\neffettuare un deploy con tranquillit\u00e0 e poter scalare facilmente anche\nsenza GPU. Slide Link: <https://www.slideshare.net/NicolaLandro/basta-\nproblemicontensorflowusandodockernvidiadocker>\n\nFeedback form: https://python.it/feedback-1528\n\nin \\_\\_on **Saturday 4 May** at 10:45 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 1847,
-  "language": null,
-  "recorded": "2019-05-03",
+  "language": "it",
+  "recorded": "2019-05-04",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
-    }
+    },
+    "https://www.pycon.it/media/conference/slides/basta-problemi-con-tensorflow-usando-docker-nvidia-docker.pdf"
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Nicola Landro"
+  ],
+  "tags": [
+    "OSX",
+    "windows",
+    "devops",
+    "Machine Learning",
+    "GNU/Linux",
+    "cuda",
+    "tensorflow",
+    "docker"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/JYngCzFnWaM/maxresdefault.jpg",
-  "title": "Nicola Landro - Basta problemi con tensorflow usando Docker & Nvidia Docker",
+  "title": "Basta problemi con tensorflow usando Docker & Nvidia Docker",
   "videos": [
     {
       "type": "youtube",
