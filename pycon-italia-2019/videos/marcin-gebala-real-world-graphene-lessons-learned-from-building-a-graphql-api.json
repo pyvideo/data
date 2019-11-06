@@ -1,19 +1,27 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Graphene is currently the most popular framework for building a GraphQL\nin Python and it\u2019s also an obvious choice for adding a GraphQL layer to\nDjango applications. Over the course of a year, we successfully built an\nAPI with about 50 queries and over 100 mutations on top of existing\nDjango project (Saleor), but we also learned some hard lessons and had\nto overcome several shortcomings of the framework along the way.\n\nIn this talk, I\u2019d like to share some practical tips to overcome the most\ncommon problems that a Django developer might face when building an\noptimized and maintainable API with Graphene, such as: - using useful\nabstractions to build queries and mutations faster - optimizing database\nqueries in a graph - structuring a large Graphene project - unified\nerror handling\n\nI\u2019d also like to bring up a few limitations of the framework that we\ndiscovered as we were working on the project and then end the talk with\nthe most important benefits that adoption of GraphQL brings to modern\nweb applications development - both for the backend and frontend.\n\nPrerequisites: - Intermediate knowledge of Django - Familiarity with API\ndesign and concepts in terms of web development - Basic knowledge of\nGraphQL or interest in it\n\nI think the talk would be of great value to anyone working with a\nGraphene framework and those who want to know more about building\nGraphQL in Python.\n\nAll code examples in the presentation would be based on Saleor\n(https://github.com/mirumee/saleor).\n\n**Feedback form:** https://python.it/feedback-1644\n\nin \\_\\_on **Sunday 5 May** at 11:45 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 2119,
-  "language": null,
-  "recorded": "2019-05-03",
+  "language": "en",
+  "recorded": "2019-05-05",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Marcin G\u0119bala"
+  ],
+  "tags": [
+    "API Design",
+    "e-commerce",
+    "graphql",
+    "open-source",
+    "django"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/bPWEKKYf17c/maxresdefault.jpg",
-  "title": "Marcin G\u0119bala - Real world Graphene - lessons learned from building a GraphQL API",
+  "title": "Real world Graphene - lessons learned from building a GraphQL API on top of a large Django project",
   "videos": [
     {
       "type": "youtube",

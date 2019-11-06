@@ -1,8 +1,8 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Con la transizione dagli applicativi su server proprietari agli\napplicativi in cloud nasce l\u2019esigenza di separare i dati dal loro\nstorage fisico sul server dove risiede l\u2019applicazione.\n\nPer soddisfare questa esigenza abbiamo provveduto a implementare in\nGenropy delle API per rendere trasparente l\u2019accesso al filesystem e\nconsentire quindi di scrivere procedure che possano funzionare\nindifferentemente appoggiandosi in locale o in cloud\n(`S3 <https://aws.amazon.com/it/s3/>`__ o simili)\n\nEsamineremo brevemente la gestione dei servizi di Genropy e parleremo in\nparticolare del servizio di Storage che consente di astrarre delle\ndirectory logiche su cui operare nell\u2019applicativo, potendo decidere\ndurante l\u2019istallazione la corrispondenza con una directory locale o nel\ncloud.\n\nNel talk vedremo come rimpiazzare tutte le chiamate al FileSystem con le\ncorrispondenti chiamate alle API del servizio di Storage. Ci\nsoffermeremo sulla classe StorageNode che implementa sia i metodi\nnecessari per le operazioni di scrittura, lettura e cancellazione di\nFile e Directory indipendentemente dalla loro collocazione locale o in\ncloud sia un metodo che fornisce l\u2019URL da servire per vedere o scaricare\nil contenuto statico.\n\nNel caso di servizi S3 o simili viene gestita automaticamente la\ngestione di un token di autorizzazione temporaneo basato sui privilegi\ndell\u2019utente che effettua la richiesta. Questo consente di servire\ndirettamente i file statici direttamente dal cloud invece di farli\ntransitare dal server applicativo.\n\n**Feedback form:** https://python.it/feedback-1761\n\nin \\_\\_on **Friday 3 May** at 17:15 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 1367,
-  "language": null,
+  "language": "it",
   "recorded": "2019-05-03",
   "related_urls": [
     {
@@ -10,10 +10,17 @@
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Francesco Porcari"
+  ],
+  "tags": [
+    "S3",
+    "genropy",
+    "cloud",
+    "deploy"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/bKh0goqeWIw/maxresdefault.jpg",
-  "title": "Francesco Porcari - Genropy e lo storage di file in cloud",
+  "title": "Genropy e lo storage di file in cloud",
   "videos": [
     {
       "type": "youtube",

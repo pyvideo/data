@@ -1,19 +1,27 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Abstract\n========\n\nWith the rise of JavaScript as the lingua-franca of the web and the\nsteady growth of libraries like React, today\u2019s web developers can build\nrich and well structured frontend experiences. Pair that with Django and\nDjango REST framework and you get the perfect combination. But it\u2019s not\nall bells and whistles. What challenges are we going to face when\ndecoupling Django with Django REST? What are the best practices? How to\nstructure such a project? In this talk I\u2019ll guide Django developers\n(both beginners and intermediate) from 0 to structuring a decoupled\nDjango project.\n\nDescription\n===========\n\nThe goal of this talk is to give Django developers an overview of a\nDjango REST project, paired with React, as well as the tradeoffs of the\ndecoupled approach. By the end of the talk the developer should be able\nto configure a new Django REST project and use a frontend library for\ninteracting with the API.\n\n1. Why and when to decouple Django\n----------------------------------\n\nThere are many ways for decoupling a Django application and each one\ndepends on the use case. In this section we\u2019ll outline what decoupling\nis, why decoupling is a great approach and why sometimes it is not the\nright thing to do. We\u2019ll see what the challenges of such approach are\nand how to deal with authentication in a decoupled context.\n\n2. Django REST fundamentals\n---------------------------\n\nDjango REST framework is a Django application for exposing API endpoints\nfrom a Django project. It this section we\u2019ll see the building blocks of\na Django API app: the model, the serializer and the view. Models should\nnot be a surprise for the audience, they come from Django. Serializers\ninstead are provided by Django REST. We\u2019ll also see how a Django REST\nview looks like and how to leverage both function based views and\ngeneric views within the project.\n\n3. Setting up the frontend\n--------------------------\n\nThe key for a truly decoupled experience is a frontend for consuming and\ninteracting with the API. In this section we\u2019ll see how to structure a\nDjango REST project alongside with React. We will explore two\napproaches: fully decoupled frontend and mixed frontend.\n\n4. A note on testing and closing words\n--------------------------------------\n\nIn the context of a decoupled Django site we move from the typical\nDjango tests to testing the API\u2019s response instead. We will see how a\nsimple API test looks like. And for the JavaScript frontend we\u2019ll take a\nlook at the current available tooling for functional testing.\n\nQuestions?\n\n**Feedback form:** https://python.it/feedback-1735\n\nin \\_\\_on **Sunday 5 May** at 10:15 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 2307,
-  "language": null,
-  "recorded": "2019-05-03",
+  "language": "en",
+  "recorded": "2019-05-05",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
-    }
+    },
+    "https://www.pycon.it/media/conference/slides/decoupling-django-with-django-rest-and-a-sprinkle-of-react.pdf"
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Valentino Gagliardi"
+  ],
+  "tags": [
+    "javascript",
+    "django-rest-framework",
+    "REST",
+    "django"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/eGqmqqX-zRs/maxresdefault.jpg",
-  "title": "Valentino Gagliardi - Decoupling Django with Django REST (and a sprinkle of React)",
+  "title": "Decoupling Django with Django REST (and a sprinkle of React)",
   "videos": [
     {
       "type": "youtube",

@@ -1,19 +1,35 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Material forecast is the process of deciding which items to stock in the\ninventory, how much, and when. Aim of the forecast is to increase parts\navailability with the less possible impact on inventory, having enough\nstock in the warehouse to ensure the business keeps moving but not\nenough stock to drain its limited cash reserves. This decision process\nis being profoundly revised in its foundational concepts, thanks to new\nclassification methodologies enabled by Machine Learning. We integrated\ndomain knowledge and ML to create a new classification and level setting\nprocess, leveraging on 6 years of data and new statistical indicators\nfor demand patter. These new features are used to run the machine\nlearning algorithm that classify Make To Stock / Make To Order items in\na single flow approach. The validation phase is reduced at each\niteration as ML model can be re-trained to incorporate past validations,\nincreasing efficiency and performances. Level setting problem is\naddressed benchmarking ML methods (Reinforcement Learning), Montecarlo\nsimulations and traditional statistical methodologies. Regarding RL and\nMontecarlo we established punishments for letting an particular\ninventory item run out of stock and we also punish the model for stock\ntoo higher value for too long. For rewards, we primarily focus on\nordering items within a safe window before the demand. First application\nof this new methodology brings a 20% reduction of inventory, without\nimpact on sales, and a workload reduction of about 70%.\n\nFeedback form: https://python.it/feedback-1554\n\nin \\_\\_on **Saturday 4 May** at 12:15 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 2036,
-  "language": null,
-  "recorded": "2019-05-03",
+  "language": "en",
+  "recorded": "2019-05-04",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
-    }
+    },
+    "https://www.pycon.it/media/conference/slides/machine-learning-for-inventory-management.pptx"
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Laura De Stefanis",
+    "Ciro Campese",
+    "Amr Abdullatif"
+  ],
+  "tags": [
+    "logistics",
+    "clustering",
+    "statistics",
+    "Python",
+    "Big-Data",
+    "gestionali",
+    "django",
+    "supplychain",
+    "sql",
+    "Artificial Intelligence"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/ePO2ryp0CRs/maxresdefault.jpg",
-  "title": "Laura De Stefanis , Ciro Campese , Amr Abdullatif - Machine Learning for Inventory Management",
+  "title": "Machine Learning for Inventory Management",
   "videos": [
     {
       "type": "youtube",

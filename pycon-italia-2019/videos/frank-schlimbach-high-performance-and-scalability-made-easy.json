@@ -1,19 +1,22 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Is your data-analysis code running for too long with Scikit-Learn,\nNumpy, Scipy and/or Pandas? Does your data-set blow your memory? Are\nspark/dask/\u2026 not giving you the scalability and/or ease-of-use your\nneed?\n\nIntel implemented optimizations in Numpy, Scikit-Learn, Scipy and Pandas\nwhich achieve up to orders of magnitude better performance for many\nfunctionalities compared to standard implementations. The optimized\npackages are drop-in replacements which do not require any code changes\nand allow processing more data in less time.\n\nMoreover, two new tools allow you to easily bring your full data\nanalytics pipeline to unprecedented scales: daal4py and HPAT. Daal4py is\na convenient Python API to Intel\u00ae DAAL (Intel\u00ae Data Analytics\nAcceleration Library). While its interface is scikit-learn-like, its\nMPI-based engine under the hood allows scaling machine learning\nalgorithms to bare-metal cluster performance with only little code\nchanges. HPAT (High Performance Analytics Toolkit) scales analytics\ncodes using Pandas/Python to bare-metal cluster performance. It\nautomatically compiles a subset of Python (Pandas/Numpy/Daal4py) to\nefficient parallel binaries with MPI, also requiring only minimal code\nchanges. With these tools your code can be orders of magnitude faster\nthan alternatives like Apache Spark - without the pain of dealing\ndirectly with lower-level languages and/or tools like C and/or message\npassing.\n\n**Feedback form:** https://python.it/feedback-1805\n\nin \\_\\_on **Friday 3 May** at 15:45 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 3272,
-  "language": null,
+  "language": "en",
   "recorded": "2019-05-03",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
-    }
+    },
+    "https://www.pycon.it/media/conference/slides/high-performance-and-scalability-made-easy-data-analyticsmachine-learning-codes.pdf"
   ],
-  "speakers": [],
+  "speakers": [
+    "Frank Schlimbach"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/fioJOP2W3_4/maxresdefault.jpg",
-  "title": "Frank Schlimbach - High Performance and Scalability Made Easy",
+  "title": "High Performance and Scalability Made Easy For Data-Analytics/Machine-Learning Codes",
   "videos": [
     {
       "type": "youtube",
