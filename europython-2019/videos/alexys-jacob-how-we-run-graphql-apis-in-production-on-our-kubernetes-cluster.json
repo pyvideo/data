@@ -1,8 +1,21 @@
 {
-  "description": "\"How we run GraphQL APIs in production on our Kubernetes cluster\n[EuroPython 2019 - Talk - 2019-07-12 - Singapore]\n[Basel, CH]\n\nBy Alexys Jacob\n\nIn this talk I would like to share the workflow and tools we use to build, deploy and operate GraphQL APIs on our on-premise Kubernetes cluster.\n\nI will share code and command examples explaining how we are operating our applications since our recent transition from REST APIs on Web servers to GraphQL APIs containers on Kubernetes. \n\nThis talk will not be about the difference between REST and GraphQL but focus on the workflow, tools and experience we gained in switching our run time environments and API models.\n\nAt Numberly, we have built and are operating our own on-premise Kubernetes cluster so we will also be talking about its capabilities and share some of the experience we gained in doing so.\n\nProposed agenda:\n- Our previous workflow and its limitations\n- How we designed our Kubernetes cluster, its capabilities and the choices we made\n- Developer workflow, environments management and deployment\n- Our GraphQL stack, featuring a sample application\n- What we're still working on to improve\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/",
+  "description": "In this talk I would like to share the workflow and tools we use to\nbuild, deploy and operate GraphQL APIs on our on-premise Kubernetes\ncluster.\n\nI will share code and command examples explaining how we are operating\nour applications since our recent transition from REST APIs on Web\nservers to GraphQL APIs containers on Kubernetes.\n\nThis talk will not be about the difference between REST and GraphQL but\nfocus on the workflow, tools and experience we gained in switching our\nrun time environments and API models.\n\nAt Numberly, we have built and are operating our own on-premise\nKubernetes cluster so we will also be talking about its capabilities and\nshare some of the experience we gained in doing so.\n\n| Proposed agenda:\n| - Our previous workflow and its limitations\n| - How we designed our Kubernetes cluster, its capabilities and the\n  choices we made\n| - Developer workflow, environments management and deployment\n| - Our GraphQL stack, featuring a sample application\n| - What we're still working on to improve",
   "recorded": "2019-07-12",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/ywgFVAj-how-we-run-graphql-apis-in-production-on-our-kubernetes-cluster.pdf"
+    }
+  ],
   "speakers": [
     "Alexys Jacob"
+  ],
+  "tags": [
+    "APIs",
+    "Best Practice",
+    "Case Study",
+    "Docker",
+    "Infrastructure"
   ],
   "thumbnail_url": "https://i.ytimg.com/vi/CRf7HS_iflU/hqdefault.jpg",
   "title": "How we run GraphQL APIs in production on our Kubernetes cluster",
