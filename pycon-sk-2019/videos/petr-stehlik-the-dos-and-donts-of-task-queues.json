@@ -1,0 +1,17 @@
+{
+  "description": "Let's talk about our experience with Celery and intentions to switch to\nRQ which failed. We'll show our setup of larger and more complex apps\nthan the ones presented in doc examples together with some useful tips\nand tricks and how-tos on orchestrating such apps for thousands of tasks\na day.\n\nAt Kiwi.com we heavily rely on task queues and asynchronous execution of\ncode to process large amounts of requests coming to our back-ends. With\nthe separation of our codebase to microservices, we can quickly try new\ntools and different approaches to process these large volumes of\nrequests. The microservice we'll be talking about is making unreliable\nslow 3rd party services reliable and asynchronous with a bit of business\nlogic sprinkled on top of it. We\u2019ll tell a failure story of ours but\nresulting in a valuable lesson.\n\nMost of our services use Celery and it's the go-to tool for new services\nas well but we wanted to be different with this new microservice. RQ is\nthe next best choice for task queues and it is presented as simpler and\nmore straightforward than Celery. That can definitely be true but after\n3 weeks of research, development and struggling we found out the\nunpleasant truth about being simple and making the right choices. We\nwon't talk about comparing the frameworks but rather about the approach\non how to experiment with new things in your environment. After that,\nwe'll present our current setup which can take upon any number of tasks.\nHow we orchestrate the app and continuously integrate and deploy and\nwhat fun things await ahead of us in the development.\n",
+  "duration": 2680,
+  "published_at": "2019-08-06T12:19:31.000Z",
+  "recorded": "2019-03-24",
+  "speakers": [
+    "Petr Stehl\u00edk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7kpktljGZHg/hqdefault.jpg",
+  "title": "The dos and don'ts of task queues",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7kpktljGZHg"
+    }
+  ]
+}
