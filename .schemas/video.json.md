@@ -2,18 +2,66 @@
 
 [PyVideo.org](https://pyvideo.org) runs on github and every video is described by some json code based on the [official schema](https://github.com/pyvideo/data/blob/master/.schemas/video.json).
 
+The following are some samples of how this file should look like.
+
+```json
+{
+  "copyright_text": null,
+  "description": "",
+  "duration": 1667,
+  "language": "eng",
+  "recorded": "2019-05-10",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pydata.org/amsterdam2019/schedule/"
+    }
+  ],
+  "speakers": [
+    "Ritchie Vink"
+  ],
+  "tags": [
+    "pydata"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mIAeSDcM1zg/maxresdefault.jpg",
+  "title": "Build Facebook's Prophet in PyMC3",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mIAeSDcM1zg"
+    }
+  ]
+}
+
+{
+  "description": "Day 3, R2 11:30\u201312:00\n\nToday, there are many tasks to repeat in the company/community.\r\nIn addition, we often use chat such as Slack for daily communication.\r\nSo, I created a chatbot([PyCon JP Bot](https://github.com/pyconjp/pyconjpbot)) to automate various boring tasks related to holding PyCon JP.\r\n\r\nIn this talk, I will first explain how to create a chatbot using [slackbot](https://github.com/lins05/slackbot).\r\nI will tell you how to registers bot's integration on Slack and how to create a simple bot in Python that responds to specific keywords.\r\n\r\nAnd as a specific case, I will explain how to make a bot command to perform the following operations and technical problems.\r\n\r\n- Emoji reaction\r\n- Calculator: SymPy\r\n- Karma(plusplus): Peewee\r\n- Search issues, display issue details: JIRA API\r\n- Create multiple issues from a template: JIRA API, Sheets Spreadsheet API\r\n- Search files from Google Drive: Google Drive API\r\n- Account management of G Suite(user, alias, group and member): G Suite API\r\n- etc.\n\nSlides: https://gitpitch.com/takanory/slides?p=20190922pycontw#/\n\nSpeaker: Takanori Suzuki\n\nTakanori is a Vice Chairperson of PyCon JP Committee(www.pycon.jp).\r\nHe is also a director of BeProud Inc.(www.beproud.jp), and his title is \"Python Climber\".\r\nTakanori held PyCon JP 2014 to 2016 as the chairperson.\r\nCurrently he teaches Python to beginners as a lecturer at Python Boot Camp(pycamp.pycon.jp) all over Japan.\r\nIn addition, he published several Python books.\r\nTananori plays trumpet, climbs boulder, loves Lego, ferrets and beer.",
+  "recorded": "2019-09-22",
+  "speakers": [
+    "Takanori Suzuki"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XGHR4D8_fjQ/hqdefault.jpg",
+  "title": "Automate the Boring Stuff with Slackbot",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XGHR4D8_fjQ"
+    }
+  ]
+}
+```
+
 ## copyright_text
 This parameter is optional. It should have the text of the license under which the media is being shared or a link to a license if it exists. The copyright_text may also be "null"
 #### examples
 ```json
 {
-	"copyright_text" : null
+    "copyright_text" : null
 }
 {
-	"copyright_text" : "THIS VIDEO AND THE SOFTWARE IT DESCRIBES IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "copyright_text" : "THIS VIDEO AND THE SOFTWARE IT DESCRIBES IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 }
 {
-	"copyright_text" : "https://opensource.org/licenses/AGPL-3.0"
+    "copyright_text" : "https://opensource.org/licenses/AGPL-3.0"
 }
 ```
 ## description
@@ -21,7 +69,7 @@ This is an optional field that is used to provide information about the video be
 ### examples
 ```json
 {
-	"description" : null
+    "description" : null
 }
 {
     "description" : "DjangoCon 2019 - Just Add Await: Retrofitting Async Into Django by Andrew Godwin\n\nWriting async code from scratch is hard; trying to add it into a large, existing framework is harder. Learn about the problems we face trying to make Django async while maintaining backwards compatibility, as well as the problems maintaining hybrid sync-and-async Python codebases in general.\n\nThis talk was presented at: https://2019.djangocon.us/talks/just-add-await-retrofitting-async-into/\n\nLINKS:\nFollow Andrew Godwin \ud83d\udc47\nOn Twitter: https://twitter.com/andrewgodwin\nOfficial homepage: http://www.aeracode.org\n\nFollow DjangCon US \ud83d\udc47\nhttps://twitter.com/djangocon\n\nFollow DEFNA \ud83d\udc47\nhttps://twitter.com/defnado\nhttps://www.defna.org/\n\nIntro music: \"This Is How We Quirk It\" by Avocado Junkie.\nVideo production by Confreaks TV.\nCaptions by White Coat Captioning."
@@ -128,11 +176,11 @@ This is a required parameter. This is an array of the speakers in the video arra
     "speakers": ["Eugenio Llanos"]
 }
 {
-"speakers": [ "James Bednar", 
-              "Philipp Rudiger", 
-              "Julia Signell",
-              "Jean-Luc Stevens"
-],
+    "speakers": [ "James Bednar", 
+                  "Philipp Rudiger", 
+                  "Julia Signell",
+                  "Jean-Luc Stevens"
+                ],
 }
 ```
 ## summary
