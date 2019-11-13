@@ -1,6 +1,6 @@
 # Schema for Video Record.
 
-The data behind [PyVideo.org](https://pyvideo.org) is hosted on github and every video is described by some json code based on the [official schema](https://github.com/pyvideo/data/blob/master/.schemas/video.json).
+The data behind [PyVideo.org](https://pyvideo.org) is hosted on Github and every video is described by some json code based on the [official schema](https://github.com/pyvideo/data/blob/master/.schemas/video.json).
 
 The following are some samples of how this file should look like.
 
