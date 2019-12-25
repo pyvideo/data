@@ -15,7 +15,7 @@ You'll need a Google API key:
     - Set an environmental variable named GOOGLE_API_KEY with your API key as its value
 
 Get playlist ID to pull data from. For example, if you have a link to a
-playlist like the following: 
+playlist like the following:
 
     https://www.youtube.com/playlist?list=UUrJhliKNQ8g0qoE_zvL8eVg
 
@@ -234,6 +234,15 @@ def normalize(path):
 
 
 def main():
+    print("""
+        This program is deprecated!!!
+        Instead use pyvideo_scrape (https://github.com/pyvideo/pyvideo_scrape)
+        Continue? yes/[no]
+        """)
+    stay = ("yes" == input().lower())
+    if not stay:
+        exit(0)
+
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '-k', '--api-key',
