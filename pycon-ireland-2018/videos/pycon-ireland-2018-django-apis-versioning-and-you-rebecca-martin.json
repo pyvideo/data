@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "This talk will attempt to explain how to version an API within the Django framework. Say you need to change the data that your API returns to your users, but any major changes would result in breaking the API for users of any previous versions. This talk will explain how to avoid this problem, which as a developer who works on APIs with the Django framework every day is a constant problem that I would have to face. This talk will cover: 1.) Why do I even have to version my API in the first place? Surely I can just make changes? 2.) Okay, now I understand why to version my API in Django. What about the how? (this will mainly focus on the Django REST framework's library of versioning, but other methods will be considered) 3.) Live Demo of breaking changes (oh no!) and how we can apply our knowledge from the second part of the talk and avoid these.",
   "duration": 989,
   "language": "eng",
   "recorded": "2018-11-10",
@@ -10,10 +10,10 @@
       "url": "http://schedule.pycon18.python.ie/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": ["Rebecca Martin"],
+  "tags": ["django", "APIs"],
   "thumbnail_url": "https://i.ytimg.com/vi/uVzZRjzIUjo/maxresdefault.jpg",
-  "title": "Pycon Ireland 2018: Django APIs, Versioning and You - Rebecca Martin",
+  "title": "Django APIs, Versioning and You",
   "videos": [
     {
       "type": "youtube",
