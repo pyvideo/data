@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "According to industry surveys [1], the number one hassle of data\nscientists is cleaning the data to analyze it. Textbook statistical\nmodeling is sufficient for noisy signals, but errors of a discrete\nnature break standard tools of machine learning. I will discuss how to\neasily run machine learning on data tables with two common dirty-data\nproblems: missing values and non-normalized entries. On both problems, I\nwill show how to run standard machine-learning tools such as\nscikit-learn in the presence of such errors. The talk will be didactic\nand will discuss simple software solutions. It will build on the latest\nimprovements to scikit-learn for missing values and the DirtyCat package\n[2] for non normalized entries. I will also summarize theoretical\nanalyses in recent machine learning publications.\n\nThis talk targets data practitioners. Its goal are to help data\nscientists to be more efficient analysing data with such errors and\nunderstanding their impacts.\n\nWith missing values, I will use simple arguments and examples to outline\nhow to obtain asymptotically good predictions [3]. Two components are\nkey: imputation and adding an indicator of missingness. I will explain\ntheoretical guidelines for these, and I will show how to implement these\nideas in practice, with scikit-learn as a learner, or as a preprocesser.\n\nFor non-normalized categories, I will show that using their string\nrepresentations to \u201cvectorize\u201d them, creating vectorial representations\ngives a simple but powerful solution that can be plugged in standard\nstatistical analysis tools [4].\n\n| [1] Kaggle, the state of ML and data science 2017\n  https://www.kaggle.com/surveys/2017\n| [2] https://dirty-cat.github.io/stable/\n| [3] Josse Julie, Prost Nicolas, Scornet Erwan, and Varoquaux Ga\u00ebl\n  (2019). \u201cOn the consistency of supervised learning with missing\n  values\u201d. https://arxiv.org/abs/1902.06931\n| [4] Cerda Patricio, Varoquaux Ga\u00ebl, and K\u00e9gl Bal\u00e1zs. \"Similarity\n  encoding for learning with dirty categorical variables.\" Machine\n  Learning 107.8-10 (2018): 1477 https://arxiv.org/abs/1806.00979",
+  "duration": 2572,
+  "language": "eng",
+  "recorded": "2019-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    }
+  ],
+  "speakers": [
+    "Gael Varoquaux"
+  ],
+  "tags": [
+    "Big Data",
+    "Data",
+    "Data Science",
+    "Machine-Learning",
+    "Scientific Libraries (Numpy/Pandas/SciKit/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/dw5u4nth6_M/maxresdefault.jpg",
+  "title": "Machine learning on non curated data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dw5u4nth6_M"
+    }
+  ]
+}

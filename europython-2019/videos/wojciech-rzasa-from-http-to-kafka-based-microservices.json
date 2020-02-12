@@ -1,0 +1,26 @@
+{
+  "description": "HTTP or asynchronous communication in microservices? This question is\nfrequently repeated and discussed. Obviously, HTTP-based communication\nis easier for developers and architects. Even if your developers have no\nprior experience with microservices, they will probably understand how\nto implement an HTTP service well. While asynchronous communication has\na lot of advantages that allow to design and implement really robust\nmicroservices system, they also bring new challenges not so obvious for\npeople who didn\u2019t have a chance to work with such an environment before.\n\nIn FLYR we mostly have HTTP-based Inter Process Communication (IPC) in\nour infrastructure. At some point, we realized that to provide the\nfunctionality required by our product we needed something more flexible\nand more\u2026 asynchronous. We designed and implemented a Python library to\nfacilitate switching to asynchronous IPC, supporting one- or two-way or\neven single- request \u2013 multi-response communication. An important thing\nin the design process was to provide developers having HTTP experience a\ntool that would ease the process of switching to asynchronous\ncommunication. Consequently, to switch an HTTP server-side endpoint to\nasynchronous IPC is a straightforward task.\n\nWe selected Kafka for our message broker, not surprisingly by comparing\nits performance reports with our very rough, but no less demanding\nperformance requirements. But we also took care to hide the details of\nthe broker logic from developers. Yes, we don\u2019t use all Kafka\ncapabilities, if you need e.g. Kafka Streams, you will have to use\nanother solution. But we can decide what capabilities are used in our\nmicroservices and how we can make changes in the way our services\ncommunicate in a single place. There are also hooks, Kubernetes health\nchecks and more with a lot of flexibility available out of the box.\n\nWe plan to opensource our library. At the moment of writing it\n\u2018opensourcing\u2019 is still a work in progress and we didn\u2019t have sufficient\ntime to do it due to strict time constraints we have on delivering\nfunctionality to our customers, but we hope to be able to do it soon. In\nthis talk I would like to describe how we solved particularly important\nproblems, what solutions we developed, how we use them and what problems\nstill need to be addressed by developers. In other words, I would like\nto describe you the journey we made from HTTP to Kafka-based\nmicroservices.",
+  "recorded": "2019-07-12",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/HcEaJ6d-from-http-to-kafka-based-microservices.pdf"
+    }
+  ],
+  "speakers": [
+    "Wojciech Rz\u0105sa"
+  ],
+  "tags": [
+    "ASYNC / Concurrency",
+    "Communication",
+    "Distributed Systems"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/YsQ7Ps0qH7k/hqdefault.jpg",
+  "title": "From HTTP to Kafka-based microservices",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YsQ7Ps0qH7k"
+    }
+  ]
+}

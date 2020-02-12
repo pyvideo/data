@@ -1,19 +1,28 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Taking deep learning models to production and doing so reliably is one\nof the next frontiers of DevOps. With the advent of Redis modules and\nthe availability of C APIs for the major deep learning frameworks, it is\nnow possible to turn Redis into a reliable runtime for deep learning\nworkloads, providing a simple solution for a model serving microservice.\nIn this talk we will introduce RedisAI, a joint effort by Orobix and\nRedisLabs that introduces tensors and graphs as new Redis data types and\nallows to execute graphs over tensors using multiple backends (PyTorch,\nTensorFlow, and ONNXRuntime), both on the CPU and GPU. The module also\nsupports scripting with TorchScript, which provides a Python-like tensor\nlanguage that can be used to facilitate pre- and post-processing\noperations, like input shaping or output ensambling. In addition, thanks\nto its support for the ONNX standard, including ONNX-ML, RedisAI is not\nstrictly limited to deep learning, but it offers support for general\nmachine learning algorithms. In this talk, we will demonstrate a full,\nPython-powered journey from fine tuning a model to a scalable Flask +\nRedisAI deployment. Last, we will lay down the roadmap for the future,\nlike automated batching, sharding, integration with Redis data types\n(e.g. streams) and advanced monitoring. The talk will include sample\ncode, best practices and a live demo.\n\n**Feedback form:** https://python.it/feedback-1756\n\nin \\_\\_on **Sunday 5 May** at 12:30 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 2024,
-  "language": null,
-  "recorded": "2019-05-03",
+  "language": "en",
+  "recorded": "2019-05-05",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Luca Antiga"
+  ],
+  "tags": [
+    "database",
+    "redis",
+    "devops",
+    "Machine Learning",
+    "deployment",
+    "neural network"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/cVOlx94Xd0M/maxresdefault.jpg",
-  "title": "Luca Antiga - RedisAI",
+  "title": "RedisAI",
   "videos": [
     {
       "type": "youtube",

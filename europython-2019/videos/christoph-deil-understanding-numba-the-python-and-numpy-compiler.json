@@ -1,0 +1,35 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Do you have numerical code written in Python and Numpy? Do you wish it\nran faster, using the full potential of your CPU?\n\nThen you should try Numba, a JIT compiler that translates a subset of\nPython and Numpy code into fast machine code.\n\nThis talk will explain how Numba works, and when and how to use it for\nnumerical algorithms, focusing on how to get very good performance on\nthe CPU.\n\nTo understand this talk, only a basic knowledge of Python and Numpy is\nneeded.\n\nYou will learn how Python compiles functions to bytecode and how Numba\ncompiles bytecode to machine code. Why algorithms implemented using\nNumpy sometimes don't yield great performance, and how to do better\nusing Numba. You will learn about the @numba.jit and @numba.vectorize\ndecorators and how to create functions that use the CPU well by using\ne.g. multi-threading (several CPU cores), vector instructions (single\ninstruction multiple data) and fast math (trade float accuracy for\nspeed).\n\nYou will also learn when it does and doesn't make sense to use Numba, by\ncontrasting it briefly with some other options for high-performance\ncomputing from Python: PyPy, C, C++, Cython, Numexpr, Dask, PyTorch,\nTensorflow and Google JAX",
+  "duration": 1829,
+  "language": "eng",
+  "recorded": "2019-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/hsbcAZF-understanding-numba-the-python-and-numpy-compiler.pdf"
+    }
+  ],
+  "speakers": [
+    "Christoph Deil"
+  ],
+  "tags": [
+    "CPython",
+    "Compiler and Interpreters",
+    "Multi-Threading",
+    "Performance",
+    "Scientific Libraries (Numpy/Pandas/SciKit/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/UaFSnaYh2b8/maxresdefault.jpg",
+  "title": "Understanding Numba - the Python and Numpy compiler",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UaFSnaYh2b8"
+    }
+  ]
+}

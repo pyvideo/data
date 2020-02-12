@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "This talk demonstrates how to use Dask and Jupyter on large high-performance computing (HPC) systems to scale and accelerate large interactive data analysis tasks -- effectively turning HPC systems into interactive big-data platforms. We will introduce dask-jobqueue which allows users to seamlessly deploy and scale dask on HPC clusters that use a variety of job queuing systems such as PBS, Slurm, SGE, and LSF. We will also introduce dask-mpi, a Python package that makes deploying Dask easy from within a distributed MPI environment.",
   "duration": 1769,
   "language": "eng",
   "recorded": "2019-07-13",
@@ -10,10 +10,16 @@
       "url": "https://www.scipy2019.scipy.org/confschedule"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Anderson Banihirwe",
+    "Joseph Hamman",
+    "Julia Kent",
+    "Kevin Paul",
+    "Matthew Rocklin"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/vhawO8fgD64/maxresdefault.jpg",
-  "title": "Turning HPC Systems into Interactive Data Analysis Platforms | SciPy 2019 | A. Banihirwe",
+  "title": "Turning HPC Systems into Interactive Data Analysis Platforms",
   "videos": [
     {
       "type": "youtube",

@@ -1,0 +1,21 @@
+{
+  "description": "Ensuring reliably repeatable dependency installation has long been an\nunsolved problem for many Python projects. Pinning dependencies via\nsetup.py and requirements.txt has historically been met with extra work\nand unexpected results, particularly when managing the dependencies of\ndependencies.\n\nThanks to PEP 518, Python projects can now more easily manage\ndependencies via the new pyproject.toml file specification. In its wake,\na number of useful tools have arisen that use this file to provide\nenhanced dependency resolution, including Poetry, Hatch, and Pipenv.\n\nAttendees of this talk will take home the following knowledge and\nskills:\n\n-  how to replace three files (setup.py, requirements.txt, and\n   MANIFEST.ini) with just one: pyproject.toml\n-  why dependency resolution is hard and why it matters\n-  how Poetry, Hatch, and Pipenv differ and when to use each\n-  why one might use a less magical alternative: pip-tools\n-  how to use pipx to isolate system-wide Python tools",
+  "recorded": "2019-07-12",
+  "speakers": [
+    "Justin Mayer"
+  ],
+  "tags": [
+    "Deployment/Continuous Integration and Delivery",
+    "Open-Source",
+    "Packaging",
+    "PyPi"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/asL0dbN6pAY/hqdefault.jpg",
+  "title": "Zen of Python Dependency Management",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=asL0dbN6pAY"
+    }
+  ]
+}

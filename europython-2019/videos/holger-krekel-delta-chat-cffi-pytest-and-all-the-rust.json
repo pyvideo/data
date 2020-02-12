@@ -1,0 +1,22 @@
+{
+  "description": "Delta Chat, a new approach to decentralized messaging, uses Python in\nseveral ways. Delta Chat is a Whatsapp/Telegram-style messenger app\nwhich uses the existing e-mail server network instead of central\nservers. There is no address book upload, and no necessity to tie\naccounts to mobile numbers. We'll live- demo how \"Chat over E-mail\"\nworks, with random audience members, in real-time.\n\nWe'll then look into how Python is used for automated testing (with\npytest) against the messenger core library which is exposed through\nCFFI. However, the core library will soon be ported to full Rust. Are\nthere better ways to interface Rust with Python than going through\nC-interfaces?\n\nIn the third part we'll introduce first example Chat Bots, written in\nPython. Do you want to send an machine-generated system allert to a\nsysadmin group? Or safely archive all media that is posted to a family\ngroup? Or have your IoT sensor react to commands or send info? Just do\nit without registering a bot to some central cite, or by exposing all\ncontent information to (e. g. Telegram) servers. A Chat Bot only needs\naccess to a standard IMAP/SMTP account. We'll look at the simple Python\nAPI for writing and testing powerful and versatile Chat bots.\n\n| - Delta Chat: https://delta.chat\n| - Core library and Py bindings:\n  https://github.com/deltachat/deltachat-core\n| - Deltabot: https://github.com/deltachat/deltabot/",
+  "recorded": "2019-07-12",
+  "speakers": [
+    "Holger Krekel"
+  ],
+  "tags": [
+    "Development",
+    "Python general",
+    "Rust",
+    "Sensors",
+    "System Administration"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/prfgtpdeoNA/hqdefault.jpg",
+  "title": "Delta Chat, CFFI, pytest and all the Rust",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=prfgtpdeoNA"
+    }
+  ]
+}

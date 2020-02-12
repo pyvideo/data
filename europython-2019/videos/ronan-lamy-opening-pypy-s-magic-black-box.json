@@ -1,0 +1,32 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "PyPy is a fast and compliant implementation of Python. In other words,\nit's an interpreter for the Python language that can act as a full\nreplacement for the reference interpreter, CPython. It's optimised to\nenable efficient just-in- time (JIT) compilation of Python code to\nmachine code, and has releases matching versions 2.7, and 3.6. It now\nalso supports the main pillars of the scientific ecosystem (numpy,\nCython, scipy, pandas, ...) thanks to its emulation layer for the C API\nof CPython.\n\n| The PyPy JIT is often just described as \"magically running your code\n  faster\", but is actually what is known as a \"meta-tracing JIT\".\n| A tracing JIT optimises loops by recording and optimising a single,\n  hopefully representative, execution of the loop. While crude, that\n  approach is known to be effective for just-in-time compiler.\n  Additionally, PyPy's JIT is \"meta\" in the sense that it traces the\n  execution of the interpreter while it runs some user-code instead of\n  tracing the user-code directly. This again simplifies the compiler. We\n  will explore how all this works together and is implemented (spoiler:\n  it's Python all the way down!).\n\nThis talk assumes no prior knowledge of compiler theory nor of PyPy\ninternals, and should be of interest to anybody who wishes that their\npure-Python code would run faster. The audience will gain a firmer\nunderstanding of how PyPy operates and optimises code, and how to how to\nget the most out of the PyPy JIT.",
+  "duration": 2732,
+  "language": "eng",
+  "recorded": "2019-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/898p5T5-opening-pypys-magic-black-box.pdf"
+    }
+  ],
+  "speakers": [
+    "Ronan Lamy"
+  ],
+  "tags": [
+    "Compiler and Interpreters",
+    "PyPy"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/knj2-VcF2d8/maxresdefault.jpg",
+  "title": "Opening PyPy's magic black box",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=knj2-VcF2d8"
+    }
+  ]
+}

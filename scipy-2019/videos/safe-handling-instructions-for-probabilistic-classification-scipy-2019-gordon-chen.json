@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In machine learning, a common task is to predict whether an unclassified observation belongs to one class or another. However, people are often actually more interested to know the probability of belonging to a class rather than just the most likely class. In such cases, a traditional classification problem becomes a probabilistic classification problem. This distinction is subtle yet crucial. Firstly, the probability-ish outputs of most classifiers are not true probabilities. Moreover, if we use traditional metrics such as the AUC score on probabilistic classification problems, we may end up selecting the wrong models. Fortunately, probability calibration techniques, advanced model stacking/blending methods, and more suitable metrics can fix these issues.",
   "duration": 1579,
   "language": "eng",
   "recorded": "2019-07-11",
@@ -10,10 +10,12 @@
       "url": "https://www.scipy2019.scipy.org/confschedule"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Gordon Chen"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/RXMu96RJj_s/maxresdefault.jpg",
-  "title": "Safe Handling Instructions for Probabilistic Classification | SciPy 2019 | Gordon Chen",
+  "title": "Safe Handling Instructions for Probabilistic Classification",
   "videos": [
     {
       "type": "youtube",

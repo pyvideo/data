@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Since the start of the project 10 years ago, pandas has grown in popularity, to become almost a standard for data wrangling and analysis in Python. While pandas has served well the needs of many of its users, several new projects have been started in the last years to respond to needs that pandas is not able to address. For example, Dask provides a pandas-like API to distribute jobs over a cluster. Vaex provides a pandas-like API to perform out-of-core computation. cuDF is reimplementing a pandas-like dataframe for GPUs. Koalas implements a pandas-like API for Apache Spark. And there are even more projects like Modin or static-frame. At the same time, pandas itself has been trying to address new needs from the users, like adding the ability to use third-party data types (besides the original numeric and datetime ones from NumPy). For example CyberPandas extends pandas with an efficient IP address type. And GeoPandas does the same with geolocations. Other work has been done to break parts of pandas, so it can be better extended, and used to solve new problems. For example, pandas 0.25 decoupled all plotting code in pandas, to allow the use of third-party plotting libraries. This allows for example to generate the same plots pandas is able to generate, but interactive, using Bokeh, HoloViews, Altair or others. The future of pandas and its ecosystem is uncertain. In this talk I'll give an insider point of view on what can be broken in pandas, so many projects are being implemented to address the same needs. How pandas can be broken even more, to cover more user needs. What are the current and planned developments, and what users can expect from pandas in the future.",
+  "duration": 1713,
+  "language": "eng",
+  "recorded": "2019-10-10",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://conf.scipyla.org/en/program/schedule/"
+    }
+  ],
+  "speakers": [
+    "Marc Garc\u00eda"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/hlZsecUPEdU/maxresdefault.jpg",
+  "title": "The pandas of the future",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hlZsecUPEdU"
+    }
+  ]
+}

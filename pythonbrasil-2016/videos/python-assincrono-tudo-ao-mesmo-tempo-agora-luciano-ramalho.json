@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Python 3.4 incorporou um loop de eventos e a biblioteca **AsyncIO**. No\n3.5 ganhamos 4 constru\u00e7\u00f5es sint\u00e1ticas novas: **await**, **async def**,\n**async for** e **async with**, junto com v\u00e1rios m\u00e9todos especiais para\nsuportar essas constru\u00e7\u00f5es, como **\\__aiter_\\_** e **\\__anext_\\_**. E\nagora temos o pacote \\ **uvloop**, que traz para o Python o alto\ndesempenho da biblioteca **libuv** -- o motor ass\u00edncrono do **Node.js**.\nEstamos mais preparados do que nunca para resolver problemas envolvendo\nalta concorr\u00eancia de I/O. Vejam o que diz a `engenharia de\ninfra-estrutura do Facebook`_:\n\nWe are increasingly relying on AsyncIO, which was introduced in Python  3.4, and seeing huge performance gains as we move codebases away from  Python 2.\n\n(Estamos contando cada vez mais com AsyncIO, que foi lan\u00e7ado no Python\n3.4, e observando grandes ganhos de desempenho \u00e0 medida que convertemos\nnosso legado de Python 2). Vamos falar sobre isso, e -- com sorte -- at\u00e9\nouvir depoimentos dos presentes sobre usos de AsyncIO!\n\n.. _engenharia de infra-estrutura do Facebook: https://code.facebook.com/posts/1040181199381023/python-in-production-engineering/",
+  "duration": 2448,
+  "language": "por",
+  "recorded": "2016-10-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "http://2016.pythonbrasil.org.br/#schedule"
+    }
+  ],
+  "speakers": [
+    "Luciano Ramalho"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/JijvNVKI0nY/maxresdefault.jpg",
+  "title": "Python Ass\u00edncrono: tudo ao mesmo tempo agora - Luciano Ramalho",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JijvNVKI0nY"
+    }
+  ]
+}

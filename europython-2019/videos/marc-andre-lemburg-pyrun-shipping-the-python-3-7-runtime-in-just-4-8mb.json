@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Python has become the defacto standard tool for many people to write\ntools, command scripts, smaller applications and even large\napplications.\n\nOn Windows, it is fairly easy to build application bundles using e.g.\npy2exe, but on Unix, the situation is less obvious, unless you want to\nrely on OS specific Python distributions, which often require severall\n100MB with of installation on the system and are usually customized in\ndistribution specific ways.\n\nInstead of relying on OS installed Python distributions on Unix, our\nopen- source eGenix PyRun provides a more or less complete Python\nruntime (interpreter and stdlib modules) in a single file, which can be\n\"installed\" by simply copying the binary to the destination system. The\nfile can be as small as 4.8MB for Python 3.7, by using compressors such\nas upx.\n\nDue to its size, it's also the perfect Python distribution for Docker\ncontainers.\n\nThe talk will show how PyRun works, is built, how to customize it to\ninclude additional modules and applications.",
+  "duration": 1867,
+  "language": "eng",
+  "recorded": "2019-07-10",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    }
+  ],
+  "speakers": [
+    "Marc-Andre Lemburg"
+  ],
+  "tags": [
+    "CPython",
+    "Development",
+    "Linux",
+    "Tooling",
+    "Use Case"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JdorsyCim5U/maxresdefault.jpg",
+  "title": "PyRun - Shipping the Python 3.7 runtime in just 4.8MB",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JdorsyCim5U"
+    }
+  ]
+}

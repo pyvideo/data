@@ -1,0 +1,35 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "At Kiwi.com we heavily rely on task queues and asynchronous execution of\ncode to process large amounts of requests coming to our back-ends. With\nthe separation of our codebase to microservices, we can quickly try new\ntools and different approaches to process these large volumes of\nrequests. The microservice we\u2019ll be talking about is making unreliable\nslow 3rd party services reliable and asynchronous with a bit of business\nlogic sprinkled on top of it. We\u2019ll tell a failure story of ours but\nresulting in a valuable lesson.\n\nMost of our services use Celery and it\u2019s the go-to tool for new services\nas well but we wanted to be different with this new microservice. RQ is\nthe next best choice for task queues and it is presented as simpler and\nmore straightforward than Celery. That can definitely be true but after\n3 weeks of research, development and struggling we found out the\nunpleasant truth about being simple and making the right choices. We\nwon\u2019t talk about comparing the frameworks but rather about the approach\non how to experiment with new things in your environment. After that,\nwe\u2019ll present our current setup which can take upon any number of\ntasks\\*. How we orchestrate the app and continuously integrate and\ndeploy and what fun things await ahead of us in the development.\n\n\\*Conditions may apply.",
+  "duration": 1741,
+  "language": "eng",
+  "recorded": "2019-07-10",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/c2XWWBE-the-dos-and-donts-of-task-queues.pdf"
+    }
+  ],
+  "speakers": [
+    "Petr Stehl\u00edk"
+  ],
+  "tags": [
+    "ASYNC / Concurrency",
+    "Architecture",
+    "Best Practice",
+    "Case Study",
+    "failures/mistakes"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/gV01ZPxWuZg/maxresdefault.jpg",
+  "title": "The dos and don'ts of task queues",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gV01ZPxWuZg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "description": "This talk was presented at PyBay2019 - 4th annual Bay Area Regional Python conference. See pybay.com for more details about PyBay and click SHOW MORE for more information about this talk.\n\nDescription\nProgramming for the Web requires 5 languages and 5+ frameworks. Wouldn\u2019t it be easier if we could do it all in Python?\n\nMeredydd will discuss how he built Anvil, a tool for building full-stack web apps with nothing but Python. Topics include compiling Python to JS, how autocompletion works, capability-based security, and why true accessibility means more than \u201cusable by beginners\u201d.\n\nAbstract\nModern Web programming is a usability nightmare. A typical web app translates every action, and every piece of data, into six different representations (Database, server-side model, JSON, client-side model, HTML DOM, and pixels). To navigate this complexity requires five different programming languages and five or more separate frameworks, just to get to \u201cHello, World\u201d. And that\u2019s before you fire up Webpack and friends! Is this complexity really necessary?\n\nIn this talk, Meredydd will discuss how he built Anvil, a system for web programming in which one language (Python) and one representation (Python objects) can express the entirety of a web app. This allows us to bring back lost luxuries from the 1990s, like drag-and-drop component design and end-to-end autocompletion.\n\nHe will discuss in detail why and how Anvil was built, including:\n\nWhy the modern Web is so hard to program for\nHow we compile Python to Javascript for front-end code\nHow capability-based access control lets you avoid plumbing every action through five layers of your stack\nHow Anvil\u2019s end-to-end Python autocompleter works\nWhy code is good, and why true accessibility means more than just \u201cusable by beginners\u201d\n\nOriginal slides: https://t.ly/Yrkj5\n\nAbout the speaker\nMeredydd has been programming since the halcyon days of Visual Basic. He holds a PhD in the usability of programming systems from the University of Cambridge, and has a few years\u2019 frustration with the Web platform to get off his chest. This led him to co-create Anvil.\n\nHe has contributed to open source since high school, and is currently a core maintainer of the Skulpt Python-to-Javascript compiler. In his spare time, he dances (he has competed for England) and flies light aircraft.\n\nSponsor Acknowledgement\nThis and other PyBay2019 videos are via the help of our media partner AlphaVoice (https://www.alphavoice.io/)!\n\n#pybay #pybay2019 #python #python3 #gdb",
+  "recorded": "2019-08-17",
+  "speakers": [
+    "Meredydd Luff"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/41de0Xc5XRw/hqdefault.jpg",
+  "title": "Full Stack Web with Nothing but Python: How Anvil Works",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=41de0Xc5XRw"
+    }
+  ]
+}

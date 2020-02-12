@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "On days of privacy scandals, the concern about securing customers' data is\nbigger than ever, and the solution is farther from locking everything in a\nsafe box. Sharing data is inevitable, in this talk we will approach the data\nanonymity problem, exploring how to use anonymization techniques to secure\nusers personal information when analyzing, testing, processing, or sharing a\ndatabase.\n\nCustomers\u2019 data is important. The number of privacy laws in recent years has\ngrown from 20 to 100, to name a few: PCI compliance in the payment industry,\nthe European GDPR regulation, and the Brazilian LGPD. All these new\nregulations attempt to bridge an old gap: data anonymity. How to handle data\nand protect the individuals comprised in it? Companies often face lawsuits\nto compensate for personal information breaches in their database.\n\nCode must be tested. In classic development workflow, many times production\ndata is copied onto test, QA or staging environments, only to be followed by\nexposure to the eyes of testers, receivers, or unauthorized developers on\nmachines less protected than production environments. It is not seldom for\nfiles also to be shared with external partners, who often require but a\nsmall part of the data transferred, and granting access to user\u2019s data might\nbe a breach. If in one hand sharing data is both necessary and inevitable,\non the other technologies that assure the privacy of individuals details are\nno longer only desirable, but essential.\n\nA Jane Doe is a person without a name that is able to perform actions even\nthough without any recollection of personal information. We will use this\nprinciple to approach two important areas in software development: how to\nstreamline when testing complex systems and how to manage data whilst\nsecuring users\u2019 personal information. We will create a boilerplate project\nto expose different techniques of anonymization and pseudonymization,\nshowing that solving the anonymity problem is much more complex than\nreplacing names, last names, and social security numbers - and all of that\navoiding bottlenecking Django projects.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2019-10-05",
+  "related_urls": [
+    "https://2019.pygotham.org/talks/jane-doe-will-help-you-improve-your-project/"
+  ],
+  "speakers": [
+    "Rebeca Sarai"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/5pqUjJelIcU/maxresdefault.jpg",
+  "title": "Jane Doe will help you improve your project",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/5pqUjJelIcU"
+    }
+  ]
+}

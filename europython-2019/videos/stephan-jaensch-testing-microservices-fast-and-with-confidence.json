@@ -1,0 +1,34 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "A main advantage of microservices is improved developer velocity. One\nroadblock to achieving it is giving developers the confidence that their\nchanges are correct and safe, which is a challenging problem in such a\ndistributed architecture. Typical approaches involve relying on\nautomated end- to-end testing, which is costly to set up, develop tests\nfor and run.\n\nIn this talk I will explore an approach to testing that does not require\nthe presence of any external dependencies (not even \"fake\" or \"test\ndouble\" implementations of them), but provides many of the benefits of\nan end-to-end test. Come by to learn about how we can use a downstream\nservice's API specification to make sure the system under test interacts\nwith it in the correct way (\"contract testing\") - a key ingredient\nmissing from most unit or integration test setups. We'll then go even\nfurther to cover testing scenarios that previously could only be covered\nwith end-to-end tests: how to maintain and validate state of your\ndownstream dependencies.",
+  "duration": 1415,
+  "language": "eng",
+  "recorded": "2019-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/MkYs6YT-testing-microservices-fast-and-with-confidence.pdf"
+    }
+  ],
+  "speakers": [
+    "Stephan Jaensch"
+  ],
+  "tags": [
+    "Distributed Systems",
+    "Microservices",
+    "Testing",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/5NV5QWMGzcc/maxresdefault.jpg",
+  "title": "Testing Microservices: fast and with confidence",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5NV5QWMGzcc"
+    }
+  ]
+}

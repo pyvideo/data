@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "It's known that ORMs are a powerful tool to manipulate databases with ease.\nIn Django, there are a set of out-of-the-box abstractions to help perform\nqueries and shape them through annotations, aggregations, order by, and so\non, hence saving one's time. A common solution to filtering when models grow\nlarger over time is creating redundant fields; a better solution is using\nDjango built-in resources called query expressions.\n\nQuery expressions are smart yet straightforward functions that one can use\nto compute values on query execution and do string manipulation,\ncalculations, among others, thus removing the burden of having unnecessary\nextra columns in our database. Using query expressions effectively can help\nto generate performant queries, avoiding potential inconsistencies and\nseparating concerns.\n\nThis talk focuses on further optimizing Django queries by walking through\ncode comparisons and examples with a dataset, diving into subjects such as\ncustom database functions, conditional expressions, and filtering so to\nanswer questions about the data.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2019-10-04",
+  "related_urls": [
+    "https://2019.pygotham.org/talks/building-effective-django-queries-with-expressions/"
+  ],
+  "speakers": [
+    "Vanessa Barreiros"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/oGhO8aa5Wbk/maxresdefault.jpg",
+  "title": "Building effective Django queries with expressions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/oGhO8aa5Wbk"
+    }
+  ]
+}

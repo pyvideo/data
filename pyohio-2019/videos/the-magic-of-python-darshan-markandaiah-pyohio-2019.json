@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Python has many built in magic functions that are used internally by\nclasses for certain actions. For example, adding two numbers calls the\n``__add__`` method and iterating over a list calls the ``__iter__``\nmethod. I will expand on this Duck Typing principle and enumerate over a\nrange of magic methods that you can add to your classes to have a\ncleaner codebase.\n\nIn this talk, I will introduce and enumerate over magic methods\navailable in Python. This is an introductory talk for anyone with basic\nfamiliarity of Python. For each class of magic methods that I introduce,\nI'll provide example code samples.\n\nI will start off by introducing basic magic methods that allow you to do\nthings like initializing objects and printing readable versions of\nobjects. I will then go over select magic methods that allow for\nemulating numeric types. I will then cover methods that enable you to\nemulate sequences and write objects that can be indexed and iterated\nover. I will conclude by talking about context managers (that allow for\nmanaging pre-step and post-step actions) and Abstract Base Classes in\nthe abc module that will allow for you to get free functionality if you\nprovide the implementation for certain magic methods on your classes.\n",
+  "duration": 1523,
+  "language": "eng",
+  "recorded": "2019-07-27T15:00:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pyohio.org/2019/events/schedule"
+    }
+  ],
+  "speakers": [
+    "Darshan Markandaiah"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/X9poNqBfX4Q/maxresdefault.jpg",
+  "title": "The Magic of Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=X9poNqBfX4Q"
+    }
+  ]
+}

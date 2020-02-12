@@ -1,19 +1,27 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "0/1, False/True, off/on, etc.: the computers which we\u2019re working on are\nbased, from very long time, on the so called binary arithmetic/logic.\n\n\u201cTwo states to rule them all\": with these we built a complete ecosystem\nwhich goes from the hardware to the software\u2026 showing even this text\nthat you\u2019re reading now.\n\nHowever the possibility to use the ternary logic instead, that started\njust a joke some years ago, generated recent papers and researches about\nit, with interesting features exploited and documented.\n\nAn FPGA project is in development to implement a \u201cternary CPU\u201d and an\nISA (Instruction Set Architecture) draft was roughly defined (and\nevolving).\n\nBut a CPU without code to execute is useless and here comes Python,\nwhich allows to quickly implement (and test) some simple, primitive\nassembler to generate executables (\"ternaries\u201d?), which can then be\ntransferred to the FPGA board and run.\n\nA basic emulator with a minimal set of instructions is implemented, in\norder to test the code even without the physical board.\n\nThis talk provides a short overview of the ternary logic, some\nchallenges, and how the basic assembler and emulator are written,\ntested, and work.\n\n**Feedback form:** https://python.it/feedback-1793\n\nin \\_\\_on **Sunday 5 May** at 10:15 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 2469,
-  "language": null,
-  "recorded": "2019-05-03",
+  "language": "en",
+  "recorded": "2019-05-05",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "https://www.pycon.it/p3/schedule/pycon10/"
-    }
+    },
+    "https://www.pycon.it/media/conference/slides/ternary-cpus-how-they-work-and-how-python-helps-designing-one.pptx"
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": [
+    "Cesare Di Mauro"
+  ],
+  "tags": [
+    "TernaryLogic",
+    "Assembler",
+    "emulator",
+    "CPU"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/ohhkcVuTL5k/maxresdefault.jpg",
-  "title": "Cesare Di Mauro - Ternary CPUs: how they work and how Python helps designing one",
+  "title": "Ternary CPUs: how they work and how Python helps designing one",
   "videos": [
     {
       "type": "youtube",

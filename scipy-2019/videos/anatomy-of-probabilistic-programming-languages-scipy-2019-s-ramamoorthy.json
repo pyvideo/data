@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "The ability to estimate uncertainty and incorporate it in decision making is crucial to sensitive applications like Self-driving Cars, Industrial Automation, etc, where the consequences of a wrong decision is potentially catastrophic. A Probabilistic Program is the natural way to express such probabilistic models. This talk demonstrates how to build a minimal PPL on top of python. We leverage tensor manipulation and optimization tools provided by machine learning frameworks including pytorch and tensorflow. We will use our PPL implementation to build Bayesian Linear Regression and Logistic Regression models, and perform inference conditioned on data.",
   "duration": 1312,
   "language": "eng",
   "recorded": "2019-07-13",
@@ -10,10 +10,12 @@
       "url": "https://www.scipy2019.scipy.org/confschedule"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Suriyadeepan Ramamoorthy"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/jvuQFmscL3k/maxresdefault.jpg",
-  "title": "Anatomy of Probabilistic Programming Languages | SciPy 2019 | S. Ramamoorthy",
+  "title": "Anatomy of Probabilistic Programming Languages",
   "videos": [
     {
       "type": "youtube",

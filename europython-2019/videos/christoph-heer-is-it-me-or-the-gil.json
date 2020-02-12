@@ -1,0 +1,35 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Python's Global Interpreter Lock is a friend and rival at the same time.\nWe, as developers, can focus on the design and implementation of\napplications without the hassle of memory management. On the other side,\nwe complain about the GIL as the limiting factor of performance\nsensitive applications. Therefore, it is common to refactor parts of\nsystems when the system doesn't perform or scale enough anymore. The\nrefactoring often includes the switch of the used concurrency paradigms\nlike replacing multithreading with multiprocessing or asyncio. Another\noption is moving logic of CPU-bound workload into C extensions or a full\nrewrite in a \"GIL-free\" language. But how do you know that the GIL is\nthe actual performance bottleneck?\n\nWhile scaling and developing performance sensitive components in Python,\nmy colleagues and I often also assumed the GIL as cause of our\nperformance problems because it is a common and simple answer for this\nusually complex and varied problems. Instead of starting a rewrite or\nmajor refactoring, we took a step back and tried to prove our\nassumption. With the result that analyzing the impact of the GIL\ncontention on the overall performance is a very interesting problem\nwithout common practices or easy usable set of tools that support Python\ndevelopers. Within this talk, I will share and explain the methods and\ntools, which we use to analyze the relevance of the GIL on our\napplication performance and how it helped us to stay focused on the\nactual problematic areas of our applications that required improvements\nto meet our performance goals.",
+  "duration": 2244,
+  "language": "eng",
+  "recorded": "2019-07-10",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/Lj9n5pc-is-it-me-or-the-gil.pdf"
+    }
+  ],
+  "speakers": [
+    "Christoph Heer"
+  ],
+  "tags": [
+    "ASYNC / Concurrency",
+    "Multi-Threading",
+    "Performance",
+    "Scaling",
+    "Tooling"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/HtbLNgXmLrw/maxresdefault.jpg",
+  "title": "Is it me, or the GIL?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HtbLNgXmLrw"
+    }
+  ]
+}

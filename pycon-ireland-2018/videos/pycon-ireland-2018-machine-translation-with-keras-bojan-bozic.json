@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk I will describe and present ideas for a machine translation prototype implemented in Keras. I will cover Neural Machine Translation, which is an approach to machine translation that uses a large neural network. It departs from phrase-based statistical approaches that use separately engineered subcomponents. E.g. Google uses Google Neural Machine Translation (GNMT) in preference to its previous statistical methods. NMT has highly promising performance for large training data. The common principle is encoding the meaning of input into concept space and performing translation based on encoding which leads to deeper understanding and learning of translation rules, for better translation than SMT. The problem is the tendency towards overfitting to frequent observations and overlooking special cases. With the cause that the translational function is shared, so high- and low-frequency pairs impact each other by adapting shared parameters. Smoothness of translation function makes infrequent pairs seem like noise.",
   "duration": 1737,
   "language": "eng",
   "recorded": "2018-11-10",
@@ -10,10 +10,10 @@
       "url": "http://schedule.pycon18.python.ie/"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": ["Bojan Bozic"],
+  "tags": ["keras", "machine translation"],
   "thumbnail_url": "https://i.ytimg.com/vi/c0AVGS3msXc/maxresdefault.jpg",
-  "title": "Pycon Ireland 2018: Machine Translation with Keras - Bojan Bozic",
+  "title": "Machine Translation with Keras",
   "videos": [
     {
       "type": "youtube",

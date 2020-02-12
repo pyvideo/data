@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Cancer treatment often focuses on organ of origin, but different types\ncan occur in one organ. Gene expression provides valuable clues of the\ncancer type, but studying data manually is difficult. Instead, we use\nvariational autoencoding, a deep learning method, to derive\n36-dimensional feature space from 5000-dimensional gene space and show\nits efficacy in classification and a TSNE visualization.\n\nWhile many other diseases are relatively predictable and treatable,\ncancer is very diverse and unpredictable, making diagnosis, treatment,\nand control extremely difficult. Traditional methods try to treat cancer\nbased on the organ of origin in the body, such as breast or brain\ncancer, but this type of classification is often inadequate. If we are\nable to identify cancers based on their gene expressions, there is hope\nto find better medicines and treatment methods. However, gene expression\ndata is so vast that humans cannot detect such patterns. In this\nproject, the approach is to apply unsupervised deep learning to\nautomatically identify cancer subtypes. In addition, we seek to organize\npatients based on their gene expression similarities, in order to make\nthe recognition of similar patients easier.\n\nWhile traditional clustering algorithms use nearest neighbor methods and\nlinear mappings, we use a recently developed technique called\nVariational Autoencoding (VAE) that can automatically find clinically\nmeaningful patterns and therefore find clusters that have medicinal\nsignificance. Python-based deep learning framework, Keras, offers an\nelegant way of defining such a VAE model, training, and applying it. In\nthis work, the data of 11,000 patients across 32 different cancer types\nwas retrieved from The Cancer Genome Atlas. A VAE was used to compress\n5000 dimensions into 100 clinically meaningful dimensions. Then, the\ndata was reduced to two dimensions for visualization using tSNE\n(t-distributed stochastic neighbor embedding). Finally, an interactive\nJavascript scatter plot was created. We noticed that the VAE\nrepresentation correctly clustered existing types, identified new\nsubtypes, and pointed to similarities across cancer types. This\ninteractive plot of patient data also allows the study of nearest\npatients, and when a classification task was created to validate the\naccuracy of the representation, it achieved 98% accuracy. The hope is\nthat this tool will allow doctors to quickly identify specific subtypes\nof cancer found using gene expression and allow for further study into\ntreatments provided to other patients who had similar gene expressions.\n",
+  "duration": 1614,
+  "language": "eng",
+  "recorded": "2019-07-28T14:30:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pyohio.org/2019/events/schedule"
+    }
+  ],
+  "speakers": [
+    "Shruthi Ravichandran"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/og-K4CbyOiw/maxresdefault.jpg",
+  "title": "Automated Discovery of Cancer Types from Genes",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=og-K4CbyOiw"
+    }
+  ]
+}

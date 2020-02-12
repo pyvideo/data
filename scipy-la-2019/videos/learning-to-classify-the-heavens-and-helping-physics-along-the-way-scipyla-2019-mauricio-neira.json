@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "The talk is aimed at disseminating the work done over the past 2 years in constructing a data set for astronomical transient events (objects in the sky with aperiodic behaviour...more in the talk :D) and classifying them using state of the art machine learning methods. The abstract of the paper that summarizes our work can be found below: We introduce MANTRA, an annotated dataset of 4869 transient and 16940 non-transient object lightcurves built from the Catalina Real Time Transient Survey. We provide public access to this dataset as a plain text file to facilitate standardized quantitative comparison of astronomical transient event recognition algorithms. Some of the classes included in the dataset are: supernovae, cataclismic variables, active galactic nuclei, high proper motion stars, blazars and flares. As a complement to the dataset, we experiment with multiple data pre-processing methods, feature selection techniques and popular machine learning algorithms (Support Vector Machines, Random Forests and Neural Networks). We assess quantitative performance in two classification tasks: binary (transient/non-transient) and eight-class classification. The best performing algorithm in both task is the Random Forest Classifier. It achieves an F1-score of 86.61%in the binary classification and 50.38%in the eight-class classification. For the latter, the class with the highest F1-score are non-transients (87.12%)and the lowest corresponds to flares (11.96%); for supernovae it achieves a value of 50.07%, close to the average across classes.",
+  "duration": 1322,
+  "language": "eng",
+  "recorded": "2019-10-09",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://conf.scipyla.org/en/program/schedule/"
+    }
+  ],
+  "speakers": [
+    "Mauricio Neira"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/RyNRxCDS8-k/maxresdefault.jpg",
+  "title": "Learning to classify the heavens...and helping physics along the way",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RyNRxCDS8-k"
+    }
+  ]
+}

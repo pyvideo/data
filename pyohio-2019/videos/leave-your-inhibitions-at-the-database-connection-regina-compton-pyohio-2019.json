@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "It is easy to cling to the familiar to avoid the unknown \u2013 even when\nunfamiliar approaches better serve your work. My talk explores this\nfact, specifically, by looking at the technical and emotional dimensions\nof my less- than-easy journey from writing raw SQL to using the Django\nORM.\n\nAbstract\n--------\n\nReconciling old assumptions with new approaches can be difficult. This\nreconciliation can be especially difficult, when those assumptions and\napproaches correspond with one\u2019s emerging professional identity. A\nmusicologist turned developer, a Rubyist turned Pythonist, I know well\nhow intrapersonal tensions can shape (or hinder) approaches to writing\ncode. This talk confronts these tensions by describing the technical and\nemotional dimensions of my less-than-easy journey from SQL to the Django\nORM.\n\nDjango supports two basic approaches to interacting with a database: (1)\nrunning queries with the Django database-mapper (more commonly described\nas the \u201cORM\u201d), and (2) performing raw SQL. My first Django projects\ndisplay a strong preference for the latter approach. I came to Django\nwith very limited coding experience. I started my job at a Python shop\nas a freshly minted grad of Dev Bootcamp, where I had acquired some\nknowledge of Ruby on Rails and its ORM, but also learned about the\npossibilities and easeful-ness of SQL. I eschewed the Django ORM, in\npart because of its seeming unknowableness, but mainly because SQL was a\nfamiliar face in an unfamiliar land. In Django, I wrote SQL for simple\nqueries (selecting with a WHERE clause), moderately challenging ones\n(joining multiple tables + ordering with CASE expressions), and\nobscenely complex ones (subqueries + aggregate functions + string\nmanipulations). Whatever case, I generally found my queries to be\ntransparent, flexible, and friendly.\n\nIt took over a year for me to appreciate that the Django ORM does clever\nand astonishing things. I eventually found joy in annotating querysets\nwith derived values, and I stood in awe of the Prefetch object in\nelaborate prefetch operations. The ORM, I learned, could produce clean\ncode and also bypass the performance loss that comes with transforming\nSQL results into more amenable data types (e.g., namedtuple).\n\nIn this talk, I will share some lessons in Django. But also, I will\nsuggest strategies for evaluating solid, familiar approaches and\nreplacing them with alternative ones.\n",
+  "duration": 1802,
+  "language": "eng",
+  "recorded": "2019-07-28T12:45:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pyohio.org/2019/events/schedule"
+    }
+  ],
+  "speakers": [
+    "Regina Compton"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/H_NrL7lTV8E/maxresdefault.jpg",
+  "title": "Leave Your Inhibitions at the Database Connection",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=H_NrL7lTV8E"
+    }
+  ]
+}

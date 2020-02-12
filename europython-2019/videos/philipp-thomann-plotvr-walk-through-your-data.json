@@ -1,0 +1,35 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Are you bored by 3D-plots that only give you a simple rotatable\n2d-projection? plotVR is an open source package that provides a simple\nway for data scientists to plot data, pick up a phone, get a real 3d\nimpression - either by VR or by AR - and use the computer's keyboard to\nwalk through the scatter plot:\n\nhttps://www.github.com/thomann/plotVR\n\nAfter installing and plotting your dataframe open your phone's browser\nand use your GoogleVR Cardboard. Furthermore performant Android- and\niOS-apps are available - both support VR-Cardboard and the iOS-Version\nalso AR.\n\nOnce you are immersed in your Cardboard how do you navigate through the\nscatter? plotVR lets you use the computer's keyboard to walk as you\nwould in any first person game.\n\nYou want to share your impression? Just save the HTML and publish it.\n\nThe technologies beneath this project are: a web server that handles the\ncommunication between the DataScience-session and the phone, WebSockets\nto quickly proxy the keyboard events, QR-codes facilitate the simple\npairing of both, and an HTML-Page on the computer to grab the keyboard\nevents. And the translation of these keyboard events into 3D terms is a\nnice exercise in three.js, OpenGL, and SceneKit for HTML, Android, and\niOS resp.\n\nReady to see your data as you have never seen before? Join the talk!",
+  "duration": 1595,
+  "language": "eng",
+  "recorded": "2019-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/TCQY2s8-plotvr-walk-through-your-data.pdf"
+    }
+  ],
+  "speakers": [
+    "Philipp Thomann"
+  ],
+  "tags": [
+    "3D",
+    "Augmented Reality",
+    "Data Science",
+    "Open-Source",
+    "Visualization"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/O1y96EG0bTw/maxresdefault.jpg",
+  "title": "PlotVR - walk through your data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=O1y96EG0bTw"
+    }
+  ]
+}

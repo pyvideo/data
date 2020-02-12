@@ -31,11 +31,11 @@ For example, here's a JSON object containing data about a talk at PyGotham 2015:
         "related_urls": [
             {
               "label": "talk slides",
-              "url": "http://example.com/the/slide/deck.pdf"
+              "url": "https://example.com/the/slide/deck.pdf"
             },
             {
               "label": "example notebook",
-              "url": "http://example.com/a/notebook.nb"
+              "url": "https://example.com/a/notebook.nb"
             }
         ],
         "speakers": [
@@ -47,12 +47,12 @@ For example, here's a JSON object containing data about a talk at PyGotham 2015:
         "videos": [
             {
                 "type": "youtube",
-                "url": "http://youtu.be/APC5HvHZaf0"
+                "url": "https://youtu.be/APC5HvHZaf0"
             },
             {
                 "size": 123456789,
                 "type": "mp4",
-                "url": "http://example.com/some/place/on/the/web.mp4"
+                "url": "https://example.com/some/place/on/the/web.mp4"
             }
         ]
         ...
@@ -140,7 +140,7 @@ For consistency, tag strings should be:
 -  lowercase
 -  space separated
 
-Even in the case of proper nouns or brand names, tag strings should be lowercase. Also, if adding a tag, `use existing tags <http://pyvideo.org/tags.html>`_ where possible, to improve consistency. If an existing tag does not comply with the standards listed above, please create a new tag that does. Correcting the non-compliant tag would also be greatly appreciated, but that can be a separate step/commit.
+Even in the case of proper nouns or brand names, tag strings should be lowercase. Also, if adding a tag, `use existing tags <https://pyvideo.org/tags.html>`_ where possible, to improve consistency. If an existing tag does not comply with the standards listed above, please create a new tag that does. Correcting the non-compliant tag would also be greatly appreciated, but that can be a separate step/commit.
 
 Examples:
 

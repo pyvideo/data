@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "| In this session, we will report about a forklift hailing application\n  we built using MicroPython and the ESP32-based prototyping hardware\n  M5Stack.\n| In a production facility, machine operators can hail a forklift using\n  an ESP32 device running MicroPython. The device sends a request to a\n  forklift dispatcher software, written in Python. The request is queued\n  and subsequently, the next available forklift is notified and sent to\n  the machine. Each forklift is also fitted with an ESP32 device. In\n  this project, the prototyping hardware M5Stack was used. It features\n  an ESP32 micro controller with Bluetooth, WIFI, GPIO, three buttons,\n  and a display.\n\nAttendees will learn how MicroPython and prototyping hardware can be\nused to scale from an idea on the developers desk to a working system in\na rough Industry 4.0 production environment. The talk will recap our\njourney with MicroPython, the lessons learned, and the pitfalls to\navoid. Furthermore, the tooling setup will be introduced, including our\nM5Stack GUI-simulator to mock the M5Stack display.\n\nThe central dispatch server is built using Python and deployed in a\nDocker container. Messages are exchanged using MQTT, a popular IoT\nmessage protocol. The talk will conclude with a live demonstration of\nthe forklift hailing system. Attendees should be comfortable with the\nPython syntax but are not expected to have any MicroPython, MQTT, Docker\nor domain knowledge.\n\nMaterials can be found at https://gitlab.com/fwahl/europython2019.",
+  "duration": 1824,
+  "language": "eng",
+  "recorded": "2019-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    }
+  ],
+  "speakers": [
+    "Florian Wahl"
+  ],
+  "tags": [
+    "Cross-Platform-Development",
+    "DIY",
+    "Hardware/IoT",
+    "Internet of Things (IoT)",
+    "MicroPython"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/atmdimiU9Jc/maxresdefault.jpg",
+  "title": "Building Industry 4.0 logistics applications with MicroPython and ESP32 MCUs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=atmdimiU9Jc"
+    }
+  ]
+}

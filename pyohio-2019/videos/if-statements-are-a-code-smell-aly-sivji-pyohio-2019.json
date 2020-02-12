@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "``if`` statements allow us to selectively execute code based on\nconditional logic. Overusing conditionals results in code that is hard\nto understand and difficult to modify. This talk will demonstrate how to\nrefactor ``if`` statements into polymorphic classes, resulting in\ncleaner program design. After this session, you will be able to\nimplement complex conditional logic using simple Python classes.\n\nWriting software is about making trade-offs between getting things done\nand doing them right. Time constraints often force us to take shortcuts\nto handle slight variations resulting in patches of conditional logic\nsprinkled throughout our codebase. Workarounds that once allowed us to\nmove quickly now hinder our progress in getting new features out to\ncustomers. It doesn't have to be this way!\n\nThis talk will demonstrate how to use Object-Oriented programming\npatterns, specifically polymorphism, to handle conditional logic\nresulting in code that is easy to modify. The material will be presented\nin the context of a real- world code refactor for an open-source\nproject. We will examine the initial solution, discuss its limitations,\nand walk through the process of refactoring nested ``if`` blocks into\npolymorphic classes.\n\nThe session is geared towards developers who do not have a lot of\nexperience implementing Object-Oriented solutions. After this talk, you\nwill be able to identify situations where Object-Oriented design can be\nused to simplify complex conditional logic. Using the steps outlined,\nyou will be able to refactor code to improve software architecture\nwithout changing existing functionality.\n",
+  "duration": 1454,
+  "language": "eng",
+  "recorded": "2019-07-27T15:00:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pyohio.org/2019/events/schedule"
+    }
+  ],
+  "speakers": [
+    "Aly Sivji"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Gxfvef2OUcg/maxresdefault.jpg",
+  "title": "If Statements are a Code Smell",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Gxfvef2OUcg"
+    }
+  ]
+}

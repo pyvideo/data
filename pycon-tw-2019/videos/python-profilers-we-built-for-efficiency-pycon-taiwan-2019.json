@@ -1,0 +1,15 @@
+{
+  "description": "Day 1, R2 11:30\u201312:00\n\nTo solve efficiency issue of our Python application. We started with cProfile to profile function call CPU cost and found it couldn't differentiate call-stacks sharing the same function calls. Asyncio makes the issue worse, since gathered functions all have the event loop as caller. We ended up build our own function call profilers:\r\n* CPU cost profiler: CPU instructions per function call with complete call stack.\r\n* Latency profiler with asyncio support: collect timestamp/latency per function call and yield from await.\r\n* Profiler identifies lru_cache opportunities: functions have high cost and high hit rate of parameters/returns.\r\n\r\nWe share how we implemented those profilers. After this talk, you'll have learned how to:\r\n* Build profilers by registering a callback function for function calls.\r\n* Handle call stacks in asyncio world.\r\n* Use different timers and traversing through call-stack.\r\n* Implement a CPU profiler, latency profiler lru_cache opportunities profiler.\n\nSlides: https://github.com/jimmylai/talks\n\nSpeaker: Jimmy Lai\n\nJimmy Lai is a Software Engineer in Instagram Infrastructure. His recent interest is Python efficiency, including profiling, optimization and asyncio. He has been sharing his experiences in PyCon Taiwan since 2012. This year, he plan to share his latency efficiency experiences on large scale Python web application.",
+  "recorded": "2019-09-20",
+  "speakers": [
+    "Jimmy Lai"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/liOWqXkAy8s/hqdefault.jpg",
+  "title": "Python Profilers We Built for Efficiency",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=liOWqXkAy8s"
+    }
+  ]
+}

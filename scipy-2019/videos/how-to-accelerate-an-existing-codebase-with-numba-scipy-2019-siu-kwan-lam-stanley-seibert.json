@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "If you have ever said to yourself \"my code works, but it is too slow!\" then this is the talk for you. We will describe best practices for applying the Numba just-in-time compiler to an existing project. This includes techniques for assessing whether Numba is appropriate for your use case, analyzing your program to identify where Numba can help, modifying your core algorithms to be Numba compatible, and understanding compiler errors. In addition, we'll discuss considerations for packaging and distribution of projects that depend on Numba.",
   "duration": 1831,
   "language": "eng",
   "recorded": "2019-07-13",
@@ -10,10 +10,13 @@
       "url": "https://www.scipy2019.scipy.org/confschedule"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Siu Kwan Lam",
+    "Stanley Seibert"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/-4tD8kNHdXs/maxresdefault.jpg",
-  "title": "How to Accelerate an Existing Codebase with Numba | SciPy 2019 | Siu Kwan Lam, Stanley Seibert",
+  "title": "How to Accelerate an Existing Codebase with Numba",
   "videos": [
     {
       "type": "youtube",

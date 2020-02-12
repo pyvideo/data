@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "When you have 60,000 tables and views across hundreds of schemata sitting on\ntop of a 3 petabyte storage footprint, automation and access privileges are\nkey if you want to expose these data through a RESTful API. Our University's\nresearch service leverages Python, Django, Django REST Framework, and\nPostgreSQL to accomplish this. We are continuing to open source the tools we\nhave built to make this possible!\n\nDatabases stay relevant by continuing to reinvent themselves to serve new\ntechnologies further up the stack. The latest buzzwords further up that\nstack are APIs and microservices, so prevalent that it is hard to see a tech\nadvertisement that doesn\u2019t mention them. While related to \u201cthe cloud\u201d and\n\u201cbig data\u201d, whatever the heck those terms actually mean, APIs and\nmicroservices have a slightly less annoying marketing schtick and more\nconcrete relations to relational databases.\n\nBut what do these relations look like in practice? In this talk, the speaker\nwill show how his team at the University has evolved from providing\nfinancial data exclusively in SAS data formats to a robust backend powered\nby PostgreSQL, which allows financial research to happen in many ecosystems:\nstill available in SAS, but also R, Python, Perl, Matlab, Julia, and more.\nThe speaker will present a case study of using Django REST Framework to\nbuild an \u201cAPI through introspection.\u201d This case study will show how Django\nweb site and RESTful web service were built by introspecting financial data\nstored in a PostgreSQL database cluster.\n\nThe models for the ORM, serializers for the RESTful API, views for\npresenting the data to a user, filters for refining queries, URL routing,\nweb browsable interface, user token authorization, and permissions, are all\ncreated by introspecting the PostgreSQL database information schema, all\nwith Python. These components have now been open-sourced, including the\nendpoint spreadsheet exporter and the generic automated API builder.",
+  "duration": 2400,
+  "language": "eng",
+  "recorded": "2019-10-04",
+  "related_urls": [
+    "https://2019.pygotham.org/talks/absolutely-awesome-automated-apis/"
+  ],
+  "speakers": [
+    "Timothy Allen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/dFwemQATgUU/maxresdefault.jpg",
+  "title": "Absolutely Awesome Automated APIs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/dFwemQATgUU"
+    }
+  ]
+}

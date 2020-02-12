@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "| Images are an ubiquitous form of data in various fields of science and\n| industry. Images often need to be transformed and processed, for\n  example for helping medical diagnosis by extracting regions of\n  interest or measures, or for building training sets for machine\n  learning.\n\n| In this talk, I will present and discuss several tools for automatic\n  and\n| interactive image processing with Python. I will start by a short\n| introduction to scikit-image (https://scikit-image.org/), the\n  open-source\n| image processing toolkit of the Pydata ecosystem, which aims at\n| processing images from a large class of modalities (2-D, 3-D, etc.)\n  and\n| strives to have a gentle learning curve with pedagogical example-based\n| documentation. scikit-image provides users with a simple API based on\n  a large number of functions, which can be used to build pipelines of\n  image processing workflows.\n\n| In a second part, I will explain how to use Dash for building\n  interactive\n| image processing operations. Dash (https://dash.plot.ly/) is an\n| open-source Python web application framework developed by Plotly.\n  Written on top of Flask, Plotly.js, and React.js, Dash is meant for\n  building data visualization apps with highly custom user interfaces in\n  pure Python. The dash-canvas component library of Dash\n  (https://dash.plot.ly/canvas) is an interactive component for\n  annotating images with several tools (freehand brush, lines, bounding\n  boxes, ...). It also provides utility functions for using\n  user-provided annotations for several image processing tasks such as\n  segmentation, transformation, measures, etc. The latter functions are\n  based on libraries such scikit-image and openCV. A gallery of examples\n  showcases some typical uses of Dash for image processing on\n| https://dash-canvas.plotly.host/. Also, other components of Dash can\n  be leveraged easily to build powerful image processing applications,\n  such as widgets to tune parameters or data tables for inspecting\n  object\n| properties.",
+  "duration": 1842,
+  "language": "eng",
+  "recorded": "2019-07-10",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    }
+  ],
+  "speakers": [
+    "Emmanuelle Gouillart"
+  ],
+  "tags": [
+    "Computer Vision",
+    "Data Science",
+    "Image Processing",
+    "JavaScript Web Frameworks (AngularJS/ReactJS/...)",
+    "Scientific Libraries (Numpy/Pandas/SciKit/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/RYcLq_HwXSc/maxresdefault.jpg",
+  "title": "Image processing with scikit-image and Dash",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RYcLq_HwXSc"
+    }
+  ]
+}

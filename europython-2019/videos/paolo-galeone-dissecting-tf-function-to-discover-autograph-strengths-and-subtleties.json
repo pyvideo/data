@@ -1,0 +1,34 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "AutoGraph is one of the most exciting new features of Tensorflow 2.0: it\nallows transforming a subset of Python syntax into its portable, high-\nperformance and language agnostic graph representation bridging the gap\nbetween Tensorflow 1.x and the 2.0 release based on eager execution.\n\nUsing AutoGraph with the ``@tf.fuction`` decorator seems easy, but in\npractice, writing efficient and correctly graph-convertible code\nrequires to know in detail how AutoGraph and tf.function work.\n\nIn particular, knowing how:\n\n| - A graph is created and when it is re-used;\n| - To deal with functions that create a state;\n| - To correctly use the Tensorflow ``tf.Tensor`` object instead of\n  using the Python native types to speed-up the computation;\n\ndefines the minimum skill-set required to write correct\ngraph-accelerable code.\n\nThe talk will guide you trough AutoGraph and ``tf.function``\nhighlighting all the peculiarities that are worth knowing to build the\nright skill-set.",
+  "duration": 1632,
+  "language": "eng",
+  "recorded": "2019-07-10",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/vDUYo7h-dissecting-tffunction-to-discover-autograph-strengths-and-subtleties.pdf"
+    }
+  ],
+  "speakers": [
+    "Paolo Galeone"
+  ],
+  "tags": [
+    "Data-Structures",
+    "Machine-Learning",
+    "New Features",
+    "Software Design"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JCpuRWB5BvU/maxresdefault.jpg",
+  "title": "Dissecting tf.function to discover AutoGraph strengths and subtleties",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JCpuRWB5BvU"
+    }
+  ]
+}

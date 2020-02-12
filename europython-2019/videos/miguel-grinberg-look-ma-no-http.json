@@ -1,0 +1,20 @@
+{
+  "description": "In this talk I'm going to live code a web application that is built\nexclusively on top of WebSocket, without using HTTP at all!\n\nWhat's the benefit of using WebSocket over HTTP, you may ask? With\nWebSocket each client establishes a permanent connection to the server,\nso there is no request/response cycle and no need for the client to poll\nthe server for data. Each side can freely send data to the other side at\nany time, so this is an ideal stack for building highly dynamic,\nevent-driven applications.\n\nFor this live coding exercise I'm going to use the Socket.IO server for\nPython, and the Socket.IO client for JavaScript. No Flask, no Django, no\nHTTP!",
+  "recorded": "2019-07-12",
+  "speakers": [
+    "Miguel Grinberg"
+  ],
+  "tags": [
+    "ASYNC / Concurrency",
+    "Web Protocols",
+    "Web Servers and MicroFWs"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/dfe8MUdSoXs/hqdefault.jpg",
+  "title": "Look Ma, No HTTP!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dfe8MUdSoXs"
+    }
+  ]
+}

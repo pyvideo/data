@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "You might have overheard yet another acronym \"gRPC\" getting thrown when\ntalking about a replacement of REST or when mentioning microservices. In\nthis talk, we will be looking into what gRPC is, the reasons why you\nwould use it, how you would use it with Python and talk about\nconsiderations for running gRPC services in production.\n\ngRPC and what, why, how?\n========================\n\nIn this talk, we will be covering the following topics:\n\n-  **What is gRPC?** We will be talking about serialization and what RPC\n   is in general. We will quickly skim over the history of previous\n   similar protocols for example: SOAP and CORBA. We will be talking\n   about the problem space these protocols tried to resolve and why it\n   slowly lost popularity.\n\nWe will be giving a quick overview of RESTful services and what has been\ndone so far to support RESTful services.\n\nWe will look into the history of gRPC and how it came to be.\n\n-  **Why use gRPC?** With a segway from the first topic we will be\n   looking into what gRPC is doing differently than the previous\n   generation RPC solutions and pros/cons against using REST.\n\n-  **How can we use gRPC with Python?** Will showcase via live coding(or\n   code samples for backup) the creation of a 'Hello World' application.\n   We will write a simple proto file, generate code from it and start it\n   as a service and query the service using an open source tool. We will\n   also demonstrate how quick someone might create a client for the gRPC\n   service.\n\n-  **Production Considerations:** We will go over the most important\n   considerations when deciding to use gRPC in production. Such as build\n   tooling, testing, deployment and load management considerations.\n\n-  **Q &A:** Time allowing will open the floor to questions that people\n   might have\n",
+  "duration": 1509,
+  "language": "eng",
+  "recorded": "2019-07-28T12:45:00",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pyohio.org/2019/events/schedule"
+    }
+  ],
+  "speakers": [
+    "John Roach"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Kqjf4XgT7xU/maxresdefault.jpg",
+  "title": "gRPC and What, Why, How?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Kqjf4XgT7xU"
+    }
+  ]
+}

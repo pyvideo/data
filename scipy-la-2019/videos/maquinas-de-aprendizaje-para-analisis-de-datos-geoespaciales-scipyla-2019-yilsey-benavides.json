@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "El procesamiento digital de im\u00e1genes est\u00e1 estrictamente ligado a los software y se ha convertido en una herramienta necesaria para procesar, analizar y presentar resultados, por este motivo, diferentes empresas y p\u00fablicas han desarrollado proyectos para analizar y gestionar de una manera eficiente este tipo de informaci\u00f3n, una de ellas es el IDEAM que ha desarrollado la adaptaci\u00f3n del OPEN DATACUBE de im\u00e1genes de sat\u00e9lite para Colombia, esta plataforma permite realizar el procesamiento, an\u00e1lisis y clasificaci\u00f3n de las im\u00e1genes del cubo en lenguaje Python, por medio de algoritmos desarrollados que se conectan a la base de datos del cubo de datos de im\u00e1genes de sat\u00e9lite de Colombia, este cuenta con datos de sensores remotos \u00f3pticos y de radar tomadas peri\u00f3dicamente desde hace 19 a\u00f1os. Los datos del cubo cuentan con una estructura est\u00e1ndar y las bandas de las im\u00e1genes se pueden consultar como matrices en formato xarray , lo cual permite realizar operaciones y generar algoritmos sobre las im\u00e1genes digitales de una manera m\u00e1s sencilla. La industria del procesamiento digital de im\u00e1genes de sat\u00e9lite ha venido desarrollando una serie de algoritmos espec\u00edficos para el tratamiento de las mismas en busca de la optimizaci\u00f3n de resultados, dentro de la propuesta actual se presenta una clasificaci\u00f3n supervisada semiautom\u00e1tica en jupyter notebook con m\u00e1quinas de aprendizaje (Machine Learning), utilizando librer\u00edas como scikit-learn y numpy. La metodolog\u00eda se desarrolla con la selecci\u00f3n y apilamiento de im\u00e1genes consultadas del cubo de datos manteniendo la estructura de los distintos espectros(bandas espectrales) ejecutando algunas mascaras que permiten la mejora de los datos, posteriormente se emplean las maquinas de aprendizaje con una incorporaci\u00f3n de modelos de entrenamiento o datos vector que servir\u00e1n como insumo para la clasificaci\u00f3n, en esta oportunidad se realiza la incorporaci\u00f3n de varios clasificadores para obtener una imagen clasificada optimizada controlando cada paso en el procedimiento, finalmente con la imagen clasificada con coberturas se realiza una validaci\u00f3n cruzada de resultados y una validaci\u00f3n de exactitud tem\u00e1tica, en comparaci\u00f3n con los procesamientos de clasificaci\u00f3n de otros tipos software, con esta metodolog\u00eda podemos emplear m\u00e1s de un insumo de entrada (diferentes im\u00e1genes o dem) y clasificar por m\u00e1s de un algoritmo, obteniendo mejores resultados tem\u00e1ticos sin perder la informaci\u00f3n de localizaci\u00f3n espacial de los insumos empleando la librer\u00eda gdal. En conclusi\u00f3n el manejo de datos en plataformas como OPEN DATACUBE permiten una trazabilidad de los procesos y errores obtenidos en los mismos, obteniendo una identificaci\u00f3n de la cobertura m\u00e1s acertada a la realidad con un seguimiento temporal de resultados realizando operaciones sobre los datos base que favorecen una la metodolog\u00eda de trabajo particular y resultante respecto al \u00e1rea espec\u00edfica de investigaci\u00f3n.",
+  "duration": 1939,
+  "language": "spa",
+  "recorded": "2019-10-09",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://conf.scipyla.org/en/program/schedule/"
+    }
+  ],
+  "speakers": [
+    "Yilsey Benavides"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/adTA4V7dRLU/maxresdefault.jpg",
+  "title": "M\u00e1quinas de aprendizaje para an\u00e1lisis de datos geoespaciales en procesos de clasificaci\u00f3n de cobertura terrestre",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=adTA4V7dRLU"
+    }
+  ]
+}

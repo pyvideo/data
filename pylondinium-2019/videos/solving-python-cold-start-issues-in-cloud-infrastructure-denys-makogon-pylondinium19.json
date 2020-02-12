@@ -1,0 +1,25 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "We all do cloud applications, no matter if they were built with the cloud (an app that consumes cloud services) or for cloud (an app that was designed to run within cloud/container). The only thing that we, as Python community, haven\u2019t talked out loud is imports performance that is so critical for business especially when you run your own business and cloud provider charges your own credit card. Until Python 3.7 it was quite challenging to profile application code dependencies and imports specifically. With a new imports profiler, Python developers can measure how much time each import takes at the startup. The interesting thing, a new profiler opened the whole new Python problem - cold start issue. In this talk, we will go through one very challenging case: Python in serverless and why most of the Python libraries were never been designed to start fast.",
+  "duration": 1489,
+  "language": "eng",
+  "recorded": "2019-06-15",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pylondinium.org/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Denys Makogon"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/lxYVJa5esbk/maxresdefault.jpg",
+  "title": "Solving Python cold start issues in cloud infrastructure",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lxYVJa5esbk"
+    }
+  ]
+}

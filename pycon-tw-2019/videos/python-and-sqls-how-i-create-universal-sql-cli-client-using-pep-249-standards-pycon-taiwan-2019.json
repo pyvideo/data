@@ -1,0 +1,15 @@
+{
+  "description": "Day 3, R2 10:50\u201311:20\n\nThe SQL client is ubiquitous and impossible for developers not to have one in their toolbag. However potentially there is a unforeseen situation that the developers are forbid to use SQL client to access the cloud/on-premise SQL DB. This proposal primarily addresses the issue of such scenario and provides a solution based on the hacker's mindset. In this proposal, the author will show how he tackles this pain point in his workplace, by creating a universal SQL client CLI that allows him to connect to the SQL DB in his DB cluster, hence extends this project to other SQL DB using the API standardization in PEP 249. Apart from integrating all the SQL connectors, the author also implemented standardize hotkey for all the SQL DB, by studying the internal core of the SQL standards, and retrieving SQL metadata using pure SQL queries through the hotkeys.\n\nSlides not uploaded by the speaker.\n\nSpeaker: Ing Wei Tang\n\nIng Wei is the chair for PyCon MY 2019, the co-chair of PyCon MY 2018, and vice president of MyPOP. He has spoken in various PyCons, particularly in PyCon APAC 2018, as well as involving in PyCon communities actively in Malaysia.\r\n\r\nHe uses python a lot in his daily work, especially coding the automation process and flow. During his past time, he likes to experience and perform hacking different things on operating system level.\r\n\r\nApart from programming language, he can also speak 5 different types of languages concurrently in one sentence. Please ask for demo if time permits.",
+  "recorded": "2019-09-22",
+  "speakers": [
+    "Ing Wei Tang"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3tP3UHfv9rs/hqdefault.jpg",
+  "title": "Python and SQLs: How I Create Universal SQL CLI Client using PEP 249 standards",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3tP3UHfv9rs"
+    }
+  ]
+}

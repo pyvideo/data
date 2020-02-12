@@ -1,0 +1,24 @@
+{
+  "description": "Have you ever realized how dynamic CPython interpreter is? Maybe it is\nthe most dynamic interpreter you may see. It gives interfaces to\ninternal things like garbage collector or AST, allows to alter functions\ncode, modify built-in functions etc.\n\nThis talk will go beyond that dynamism. From adding a new syntax to\nhooking the evaluation loop, it will show how to hack parts of python.\n\nBefore understanding these hacks, you will learn internals of CPython\nstep-by- step. Steps are important because in every step we have at\nleast one hacking option. Also it gives the audience a short brief of\nhow python works.\n\nAfter learning how cpython works, we'll cover how to hack (use things\nthat is not their main purpose) the interpreter and the interfaces it\ngave. For an example we will disassembly the bytecode and then assemble\nit again with adding our statements or adding a new syntax for python at\nruntime with AST.\n\n| Talk will hack these steps:\n| - AST\n| - Bytecode\n| - CTypes\n| - CPython evaluation loop",
+  "recorded": "2019-07-12",
+  "related_urls": [
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/C3We3Fp-hack-the-cpython.pdf"
+    }
+  ],
+  "speakers": [
+    "Batuhan Ta\u015fkaya"
+  ],
+  "tags": [
+    "CPython"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/yJPpFDM_0NE/hqdefault.jpg",
+  "title": "Hack The CPython",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yJPpFDM_0NE"
+    }
+  ]
+}

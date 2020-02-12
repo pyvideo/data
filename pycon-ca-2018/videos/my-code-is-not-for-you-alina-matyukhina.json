@@ -1,0 +1,26 @@
+{
+  "description": "OSS is open to anyone by design, whether it is developers or malicious users. Authors typically hide their identity through nicknames, however they have no protection against attribution techniques. This talk will present attacks on Python developers identity and discuss protection methods.\n\n---\n\nThe rapid increase in open source software is an attestation of a new standard in software development. Today over 80 percent of any software code is open source, according to a recent study by Sonatype. Python replaced Java as the second-most popular language on GitHub, with 40 percent more pull requests opened this year than last by GitHub Inc.'s annual report.\n\nAs the popularity of open source software increases, so do privacy concerns of individual contributors that often wish to remain anonymous. The majority of open-source repositories (GitHub, Google Code, SourceForge, etc.) allow users to keep their identity private while sharing their code. While in the past it was often sufficient, with the evolution of author attribution technology the question of how private the identity of software developers is becoming increasingly important.\n\nSoftware author attribution aims to decide who wrote a computer program, given its source or binary code. The main premise of this technique lies in the assumption that programmers unconsciously tend to use the same coding patterns. These patterns comprised of a number of distinctive features allow to characterise a programmer\u2019s style and uniquely identify his/her works. Applications of software author attribution are wide and include software forensics - where the analyst wants to determine the author of a program given a set of potential programmers, plagiarism detection - where the analyst wants to identify illicit code reuse, ghostwriting detection - where given a suspicious piece of code the analysis wants to determine if it has been plagiarized from one of the programs in a given set, and in general any scenario where software ownership needs to be determined.\n\nIn this session we will show how analysts can identify the author of Python software and how this process can be deceiving. We present two attacks on current attribution systems: author imitation and author hiding. The first attack can be applied on Python developer's identity in open-source projects. The attack transforms syntactical representation of attacker\u2019s source code to a version that mimics the victim\u2019s coding style while retaining functionality of original code. This is particularly concerning for Python open-source contributors who are unaware of the fact that by contributing to open-source projects they reveal identifiable information that can be used to their disadvantage. For example, one can easily see that by imitating someone\u2019s coding style it is possible to implicate any software developer in wrongdoing. To resist this attack we discuss multiple approaches of hiding a coding style of Python software author before contribute to open-source.",
+  "duration": 1705,
+  "recorded": "2018-11-11",
+  "relatd_urls": [
+    {
+      "label": "Talk page",
+      "url": "https://2018.pycon.ca/talks/talk-PC-55116/"
+    }
+  ],
+  "speakers": [
+    "Alina Matyukhina"
+  ],
+  "tags": [
+    "analytics",
+    "identity protection"
+  ],
+  "thumbnail_url": "http://i3.ytimg.com/vi/AMdZpDxrl6s/hqdefault.jpg",
+  "title": "My code is not for you: Protecting Python developer\u2019s identity in OSS",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=AMdZpDxrl6s"
+    }
+  ]
+}

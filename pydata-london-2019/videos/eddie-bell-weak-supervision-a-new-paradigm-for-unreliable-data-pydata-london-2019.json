@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Machine learning is easier when you have access to a large number of quality labels. Unfortunately acquiring labels is expensive or impossible in many domains. Recently, the new paradigm of weak-supervision has emerged in which a set of weak and cheap labelling sources are mapped to high-quality labels. In this presentation, I'll describe the methods and research underpinning weak-supervision.\n\nAcquiring quality labels for supervised models is expensive and sometimes impossible. Unsupervised models usually perform poorly and semi-supervised models make strong similarity assumptions so that labels can be propagated. Recently, a new paradigm has emerged: weak supervision. A weakly supervised model has a set of unreliable labelling functions such as heuristic rules, similarity methods, weak classifiers and human labelling. As such, weak supervision can be considered a generalisation of semi-supervised learning.\n\nThe labelling functions should be selected to promote diversity, much like an ensemble, with a variety of bias-variance tradeoff profiles and correlations. The characteristics of each labelling function do not have to be known explicitly but after training the model can provide feedback on the quality of labelling sources.\n\nThe weakly-supervised model combines, disambiguates and prunes the unreliable labels using an unsupervised generative component to produce a reliable probabilistic label set which can then be consumed by a traditional supervised component. Some practitioners have even heralded weak-supervision as software 2.0 in which a central ML model governs the behaviour of an application based upon vast quantities of weak labels provided by non-experts.\n\nIn this presentation, I'll describe the methods and research underpinning weak-supervision.",
+  "duration": 1972,
+  "language": "eng",
+  "recorded": "2019-07-13",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pydata.org/london2019/schedule/"
+    },
+    {
+      "label": "Talk schedule",
+      "url": "https://pydata.org/london2019/schedule/presentation/12/weak-supervision-a-new-paradigm-for-unreliable-labels/"
+    }
+  ],
+  "speakers": [
+    "Eddie Bell"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KRcgteDTm3k/maxresdefault.jpg",
+  "title": "Weak supervision: a new paradigm for unreliable labels",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KRcgteDTm3k"
+    }
+  ]
+}

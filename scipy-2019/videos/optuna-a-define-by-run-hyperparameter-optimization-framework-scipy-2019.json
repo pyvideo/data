@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk, we introduce Optuna, a next-generation hyperparameter optimization framework with new design-criteria: (1) define-by-run API that allows users to concisely construct dynamic, nested, or conditional search spaces, (2) efficient implementation of both sampling and early stopping strategies, and (3) easy-to-setup, versatile architecture that can be deployed for various purposes, ranging from scalable distributed computing to lightweight experiment conducted in a local laptop machine. Our software is available under the MIT license (https://github.com/pfnet/optuna/)",
   "duration": 1597,
   "language": "eng",
   "recorded": "2019-07-11",
@@ -8,12 +8,22 @@
     {
       "label": "Conference schedule",
       "url": "https://www.scipy2019.scipy.org/confschedule"
+    },
+    {
+      "label": "optuna repository",
+      "url": "https://github.com/pfnet/optuna/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Takuya Akiba",
+    "Masonori Koyama",
+    "Takeru Ohta",
+    "Shotaro Sano",
+    "Toshihiko Yanase"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/J_aymk4YXhg/maxresdefault.jpg",
-  "title": "Optuna: A Define by Run Hyperparameter Optimization Framework | SciPy 2019 |",
+  "title": "Optuna: A Define by Run Hyperparameter Optimization Framework",
   "videos": [
     {
       "type": "youtube",

@@ -1,0 +1,33 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Python has built-in tracing and profiling facilities in form of callback\nhooks in the sys module. The settrace and setprofile callbacks have\nseveral drawbacks. They slow down the Python interpreter considerable\nand only allow tracing of Python code. Modern OS and CPUs come with a\nvariety of APIs for efficient and low-level tracing down to system\ncalls, Kernel space code, and hardware events. Some tools even create\ncode that runs in Kernel space.\n\nThis talks is an introduction and comparison of various low and high\nlevel tools for profiling and tracing as well as visualization tools\nlike flame graphs. It covers ptrace, perf, SystemTap, and BCC/eBPF.\nPtrace based commands like strace are easy to use but slow. Perf allows\nlightweight profiling of hardware events and CPU instructions. SystemTap\nis a powerful toolkit plus DSL to instrument probe points inside the\nKernel as well as static SystemTap/DTrace markers in libs and languages\nlike Java, PHP, and Python. CPython comes with a set of instrumentations\nfor SystemTap. BCC is a collection of tools that run as JIT optimized\neBPF code in Kernel space.\n\nThe talk is an introduction to basic concepts of low-level tracing and\nprofiling on Linux. The main goal is the show the potential of the\ntools.",
+  "duration": 2721,
+  "language": "eng",
+  "recorded": "2019-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    },
+    {
+      "label": "slides",
+      "url": "https://ep2019.europython.eu/media/conference/slides/es2pZ6C-introduction-to-low-level-profiling-and-tracing.pdf"
+    }
+  ],
+  "speakers": [
+    "Christian Heimes"
+  ],
+  "tags": [
+    "CPython",
+    "DevOps general",
+    "Performance"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NS8aU-Rpfvg/maxresdefault.jpg",
+  "title": "Introduction to low-level profiling and tracing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NS8aU-Rpfvg"
+    }
+  ]
+}

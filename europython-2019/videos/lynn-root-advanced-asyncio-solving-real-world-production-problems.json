@@ -1,0 +1,20 @@
+{
+  "description": "By building a simplified chaos monkey service, we will walk through how\nto create a good foundation for an asyncio-based service, including\ngraceful shutdowns, proper exception handling, and testing asynchronous\ncode. We\u2019ll get into the hairier topics as well, covering topics like\nworking with synchronous code, debugging and profiling, and working with\nthreaded code. We\u2019ll learn how to approach asynchronous and concurrent\nprogramming with Python\u2019s asyncio library, take away some best\npractices, and learn what pitfalls to avoid.\n\nOutline:\n(40 minutes + 5 min Q&A, if unable to get 45 minutes, then 30 min slot\nwith no time for Q&A)\n\nIntro (2m)\n----------\n\n  - Speaker/company intro\n  - Setting the context/purpose of talk\n\nFoundations (9m - trimmed to 6m for 30 min slot)\n------------------------------------------------\n\n  - Initial setup of an asyncio service (2m)\n\n    - Required boilerplate code\n    - Inspiration from official asyncio tutorial docs\n\n  - Making a service *actually* concurrent (5m)\n\n    - non-blocking vs concurrent\n    - when to be concurrent vs serial\n    - using callbacks vs awaits vs scheduling tasks (create\\_task) vs\n      asyncio.Events\n    - Making synchronous code asyncio-friendly (2m)\n\nIntermediate (9m - trimmed to 6m for 30 min slot)\n-------------------------------------------------\n\n  - Graceful shutdowns (3m)\n\n    - What a signal handler is, why it\u2019s needed\n    - What signals to listen to\n    - Gotchas of cancelling tasks, asyncio.shield + shutdown behavior\n\n  - Exception handling (3m)\n\n    - Difference between top-level exception handling and handling\n      within other coroutines\n    - Avoid mistakenly swallowing/missing raised exceptions\n    - Making use of loop.set\\_exception\\_handler\n\n  - Making threaded code asyncio-\u201cfriendly\u201d (3m)\n\n    - Calling threaded code from coroutines (aka running within a\n      ThreadPoolExecutor)\n    - Calling coroutines from from threaded code (aka\n      run\\_coroutine\\_threadsafe)\n\nAdvanced (19m - trimmed to 15m for 30 min slot)\n-----------------------------------------------\n\n  - Testing asyncio code (7m)\n\n    - Benefits of debug mode\n    - How to mock coroutines\n  \n  - Debugging an asyncio service (5m)\n\n    - Reinforce debug mode\n    - Using \u201ctricks\" like ``asyncio.all_tasks`` with logging,\n      ``loop.slow_callback_duration``, adding context/stack trace in default\n      exception handler\n\n  - Profiling (7m)\n\n    - Basic profiling (cProfile, strace) - not that different from sync\n      code\n    - Continuous profiling with 3rd party tools, i.e. github.com/what-\n      studio/profiling\n    - PyCharm\u2019s asyncio & thread profiler\n    - How to properly trace a workflow/request (e.g. for the purpose of\n      distributed tracing) (to be cut if not enough time)\n\nWrap up/Review (1m)\n-------------------",
+  "recorded": "2019-07-12",
+  "speakers": [
+    "Lynn Root"
+  ],
+  "tags": [
+    "ASYNC / Concurrency",
+    "Best Practice",
+    "Development"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/sW76-pRkZk8/hqdefault.jpg",
+  "title": "Advanced asyncio: Solving Real-world Production Problems",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sW76-pRkZk8"
+    }
+  ]
+}

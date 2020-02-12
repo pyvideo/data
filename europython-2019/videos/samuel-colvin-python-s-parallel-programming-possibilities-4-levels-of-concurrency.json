@@ -1,0 +1,31 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "I'm going to talk about the 4 main levels of parallelism in modern\nComputing:\n\n| - multiple (virtual) machines\n| - multiple processes\n| - multiple threads\n| - multiple green threads, aka asyncio\n\nWhy you might use each of them, how to go about doing so with python and\nsome of the pitfalls you might fall into along the way.\n\nTo do so, I'll give short examples in code of achieving each level:\n\n| - leveraging multiple hosts using RQ, and also the possibility of RPC\n  with HTTP\n| - multiprocessing and threading using their respective modules from\n  the python standard library\n| - asyncio demonstrated with AIOHTTP\n\nThat sounds great, but there are \"gotchas\" you should know about before\nyou get started, for example:\n\n| - multiple machines can actually be multiple virtual machines on the\n  same host\n| - effectively communicating between processes is hard, how can we go\n  about making it easier?\n| - the limitations of threading and the GIL\n| - run\\_in\\_executor - do we ever really need to use multiprocessing or\n  threading directly again\n| - use of asyncio when dealing with both networking between hosts and\n  between processes - you end up using two different kinds of\n  concurrency at the same time. That can be confusing, but also awesome.\n\nI'll finish of by showcasing a library I built, arq which is a job\nqueueing and RPC library for python which uses asyncio and Redis.",
+  "duration": 1944,
+  "language": "eng",
+  "recorded": "2019-07-10",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2019.europython.eu/schedule/"
+    }
+  ],
+  "speakers": [
+    "Samuel Colvin"
+  ],
+  "tags": [
+    "ASYNC / Concurrency",
+    "Messaging and Job Queues",
+    "Multi-Processing",
+    "Multi-Threading",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/0RaotdCa_j0/maxresdefault.jpg",
+  "title": "Python's Parallel Programming Possibilities - 4 levels of concurrency",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0RaotdCa_j0"
+    }
+  ]
+}
