@@ -121,19 +121,22 @@ these resources:
 - Sphinx's reStructuredText Primer (http://www.sphinx-doc.org/en/stable/rest.html)
 - reStructuredText Markup Specification (http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
 
-*Title*
+Title
+^^^^^
 
 Since the list of speakers, event name, and other metadata are captured elsewhere in each video's JSON object,
 it is suggested that the value of the ``title`` string contain only the title of the video and not contain any
 other information about the video.
 
-*Speakers*
+Speakers
+^^^^^^^^
 
 If a speaker has multiple names - for instance, their speaker profile includes both the Chinese character representation
 and the Latin alphabet representation of their name - each variation on their name should be recorded as a separate list
 item. This enables users to search by all variations of the speaker's name in our web interface.
 
-*Tags*
+Tags
+^^^^
 
 For consistency, tag strings should be:
 
