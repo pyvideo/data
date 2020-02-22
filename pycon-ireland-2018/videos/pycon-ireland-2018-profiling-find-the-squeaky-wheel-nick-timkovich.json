@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "Python sometimes gets a bad rap for being a slow language, but slow code can be written in any language. The first step towards accelerating code is identifying where it’s slow: a 100x speed up to something that takes 1% of the time pales in comparison to a 1.1x speed up of something that takes 50% of the time. The Python Standard Library provides a collection of packages to get started--profile, cProfile, and pstats--and the community well goes deeper with interactive visualizations, deterministic vs. statistical, line vs. call stack profilers. In this talk, we will demo how to instrument sample slow code using cProfile, then find the source of the problem using the interactive tool SnakeViz. Another demo will be shown using py-spy, a statistical profiler which can be attached to running processes, requiring no modification to existing code.",
+  "description": "Python sometimes gets a bad rap for being a slow language, but slow code can be written in any language. The first step towards accelerating code is identifying where it\u2019s slow: a 100x speed up to something that takes 1% of the time pales in comparison to a 1.1x speed up of something that takes 50% of the time. The Python Standard Library provides a collection of packages to get started--profile, cProfile, and pstats--and the community well goes deeper with interactive visualizations, deterministic vs. statistical, line vs. call stack profilers. In this talk, we will demo how to instrument sample slow code using cProfile, then find the source of the problem using the interactive tool SnakeViz. Another demo will be shown using py-spy, a statistical profiler which can be attached to running processes, requiring no modification to existing code.",
   "duration": 2151,
   "language": "eng",
   "recorded": "2018-11-10",
@@ -10,8 +10,13 @@
       "url": "http://schedule.pycon18.python.ie/"
     }
   ],
-  "speakers": ["Nick Timkovich"],
-  "tags": ["profiling", "py-spy"],
+  "speakers": [
+    "Nick Timkovich"
+  ],
+  "tags": [
+    "profiling",
+    "py-spy"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/fLtRogRgifI/maxresdefault.jpg",
   "title": "Profiling: Find the Squeaky Wheel",
   "videos": [
