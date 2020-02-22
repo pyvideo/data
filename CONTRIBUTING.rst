@@ -160,18 +160,18 @@ Data Completeness
 ~~~~~~~~~~~~~~~~~
 
 If an issue is tagged as `minimal download` in the Issue Tracker, some data has been loaded, but is incomplete.
-To address the ticket check the following requirements to consider talk data reasonably complete
+To address the ticket edit the data (try editing with `pyvideo_lektor`_) and check the following requirements to consider talk data reasonably complete:
 
 * `Title`: Only contains the actual talk title (No speaker name, no year, no conference name)
-* `Description`: Correct restructured text, only describing the talk content (no speaker name/bio, no conference name/data)
+* `Description`: Correct restructured text (`pyvideo_lektor`_ will be very helpful here), only describing the talk content (no speaker name/bio, no conference name/data)
 * `Tags`: Definitely tag a video if it is either a `keynote` or a collection of `lightning talks`
-* `Language`
+* `Language` (`ISO 639-3`_ coded)
 * `Speakers`
 
 Even better:
 
-* Add meaningful `tags` related to talk content
-* `Related urls`: Add talk slides or talk repository links where available
+* Add meaningful `tags` related to talk content. No speaker name, no conference/meetup name, no "python" (all videos are about python), ...
+* `Related urls`: Add talk slides or talk repository links where available. When scraped urls are available, take a look if you want to label it more descriptive than the url and if they refer to the talk contents.
 
 Above and beyond:
 
@@ -204,6 +204,7 @@ you can use the following command to re-serialize the whole repo::
 
 .. note:: Before using the tools, you should install some packages. In order to
    obtain them, you can run the following command::
+
        $ pip install -r tools/requirements.txt
 
 Finally, video JSON files should go in a directory called ``videos`` that is
@@ -247,23 +248,11 @@ For a full schema of a category JSON object, please see https://github.com/pyvid
 Creating Data From Youtube Channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can easily create some basic data from a youtube list
+* Create some basic data from a youtube list with `pyvideo_scrape`_ (See it's README)
+* Find created git branch and directory, and fill in missing data with `pyvideo_lektor`_ (See it's README)
 
-Install requirements::
-
-   $ pip install -r tools/requirements.txt
-
-Get youtube api key from google console, please see https://developers.google.com/youtube/registering_an_application
-Set GOOGLE_API_KEY environment::
-
-   $ export GOOGLE_API_KEY=what_you_get_from_google_console
-
-Run ./tools/youtube.py -l playlist ID # ( in this case pycon jp 2015 )::
-
-   $ python tools/youtube.py -l PLMkWB0UjwFGkE3BIm4qpwaK5oPrmLLJoT
-
-Find created directory, rename it and fill in missing data.
-
+..  _`pyvideo_scrape`: https://github.com/pyvideo/pyvideo_scrape
+..  _`pyvideo_lektor`: https://github.com/pyvideo/pyvideo_lektor
 
 Pull Request
 ~~~~~~~~~~~~
