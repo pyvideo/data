@@ -98,6 +98,7 @@ BASE_VIDEO_BLOB = {
     'title': '',
     'recorded': '',
     'videos': [],
+    'language': '',
 }
 
 
