@@ -2,7 +2,7 @@
   "copyright_text": null,
   "description": "https://github.com/morlandi/sinewave\n\nL\u2019esempio proposto ha lo scopo di esaminare alcuni possibili paradigmi\ndi comunicazione fra dispositivi periferici e un server centrale, con\nparticolare riferimento al protocollo PUB/SUB reso disponibile da Redis.\nL\u2019invio di informazioni da parte del dispositivo pu\u00f2 essere\nconcretizzato sia utilizzando una delle tante librerie client\ndisponibili (Python o altri linguaggi), sia mediante una funzione\n\u201cpublish\u201d minimale (per es. scritta in C); questa seconda opzione pu\u00f2\nessere convenientemente utilizzata in contesti limitati quali Arduino o\naltre schede embedded. Le informazioni ricevute sul server possono\nessere ulteriormente propagate ad eventuali clients web che avessero\nmanifestato il proprio interesse, predisponendo sul server un processo\n\u201clistener\u201d incaricato di raccogliere i dati come subscriber, per poi\neseguirne il broadcast via WebSocket; l\u2019esempio proposto illustra una\nsemplice implementazione basata su django-channels.\n\n**Feedback form:** https://python.it/feedback-1726\n\nin \\_\\_on **Friday 3 May** at 12:00 `**See\nschedule** </en/sprints/schedule/pycon10/>`__\n",
   "duration": 2685,
-  "language": "it",
+  "language": "ita",
   "recorded": "2019-05-03",
   "related_urls": [
     {
