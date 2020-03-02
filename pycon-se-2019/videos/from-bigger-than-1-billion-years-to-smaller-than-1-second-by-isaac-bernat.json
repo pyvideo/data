@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "The goal of this talk is to empower people with over a dozen optimisation techniques which may be effectively used in a wide variety of situations, even beyond Python.  I will present best practices, typical pitfalls and common tools, but the main focus will be on a practical approach. I will showcase a small problem and a naive solution, just a few lines of Python, so that it's easily understood. Iteratively I will apply each optimisation, explain the reasoning behind it and note how execution time is reduced. By the end of the talk, one will see how the code evolved from something that would take >1 billion years to compute to <1 second on a regular laptop.  I will also compare running times between Python, PyPy and C++ implementations (one being just a few milliseconds), and show how the techniques may achieve vastly different speedups from the python versions.",
   "duration": 1826,
   "language": "eng",
   "recorded": "2019-10-31",
@@ -10,10 +10,10 @@
       "url": "http://www.pycon.se/index.html#talks"
     }
   ],
-  "speakers": [],
-  "tags": [],
+  "speakers": ["Isaac Bernat"],
+  "tags": ["Performance", "optimization", "optimisation"],
   "thumbnail_url": "https://i.ytimg.com/vi/asZ0SDTKqvM/maxresdefault.jpg",
-  "title": "From bigger than 1 billion years to smaller than 1 second by Isaac Bernat",
+  "title": "From bigger than 1 billion years to smaller than 1 second",
   "videos": [
     {
       "type": "youtube",
