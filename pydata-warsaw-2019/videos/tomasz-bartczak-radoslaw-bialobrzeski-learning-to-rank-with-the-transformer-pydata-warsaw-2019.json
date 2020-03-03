@@ -1,11 +1,14 @@
 {
-  "description": "Learning to Rank (LTR) is concerned with optimising the global ordering of a list of items, according to their utility to the users. In this talk, we present the results of ongoing research at Allegro.pl into applying the Transformer architecture known from Neural Machine Translation literature to the LTR setting and introduce allRank, an open-source, Pytorch based framework for LTR.\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "description": "Learning to Rank (LTR) is concerned with optimising the global ordering\nof a list of items, according to their utility to the users. In this\ntalk, we present the results of ongoing research at Allegro.pl into\napplying the Transformer architecture known from Neural Machine\nTranslation literature to the LTR setting and introduce allRank, an\nopen-source, Pytorch based framework for LTR.\n\nSelf-attention based architectures fuelled recent breakthroughs in many\nNLP tasks. Models like The Transformer, GPT-2 or BERT pushed the\nboundaries of what's possible in NLP and made headlines along the way.\nSelf-attention mechanism can be seen as an encoder for an unordered set\nof objects, taking into account interactions between items in the set.\nThis property makes self- attention mechanism an attractive choice for\nLearning to Rank (LTR) models, which usually struggle with modelling\ninter-item dependencies.\n\nIn this talk, we present the results of ongoing research in applying\nself- attention based architectures to LTR. Our proposed model is a\nmodification of the popular Transformer architecture, adapted to the LTR\ntask. We guide the audience into both the setting of LTR and its most\npopular algorithms as well the details of self-attention mechanism and\nthe Transformer architecture. We present results on both proprietary\ndata of Allegro's clickthrough logs and most popular LTR dataset,\nWEB30K. We demonstrate considerable performance gains of self-attention\nbased models over MLP baselines across popular pointwise, pairwise and\nlistwise losses. Finally, we present allRank, an open- source, Pytorch\nbased framework for neural ranking models. After the talk, the audience\nwill have a good understanding of the basics of LTR and its importance\nto the industry, as well as will see how to get started in training\nstate-of-the-art neural network models for learning to rank using\nallRank.\n",
   "duration": 1769,
   "published_at": "2020-01-02T16:35:46.000Z",
-  "recorded": "",
-  "speakers": [],
+  "recorded": "2019-12-12 00:00:00",
+  "speakers": [
+    "Tomasz Bartczak",
+    "Radoslaw Bialobrzeski"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/44vX7QDD3VQ/hqdefault.jpg",
-  "title": "Tomasz Bartczak & Radoslaw Bialobrzeski: Learning to rank with the Transformer | PyData Warsaw 2019",
+  "title": "Learning to rank with the Transformer",
   "videos": [
     {
       "type": "youtube",

@@ -1,11 +1,13 @@
 {
-  "description": "A lot of the Data Scientists and Engineers don\u2019t come from Software Engineering background and even they have an experience with writing spark code they might luck the knowledge about application structure principals. This talk is designed to help them write better and more readable code.\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "description": "A lot of the Data Scientists and Engineers don\u2019t come from Software\nEngineering background and even they have an experience with writing\nspark code they might luck the knowledge about application structure\nprincipals. This talk is designed to help them write better and more\nreadable code.\n\nPySpark has become really popular for last couple of years and is now a\ngo-to tool for building and managing data-heavy applications. One of the\nmost common ways how Spark is used is moving some data around by writing\nETL/ELT jobs. Doing that your code should be manageable and\nunderstandable to others. In this talk I will try to introduce good\npractice how to structure PySpark application and write jobs and also\nsome naming conventions.\n\nI will start this talk with an example of bad way of writing PySpark job\nand during the course of it we will gradually improve it so at the end\nour application is going to be production ready, easy to manage and\nshare with other developers.\n\nDuring this talk I will try to answer this questions: - How to structure\nPySpark ETL application - How to write ETL job - How to package your\ncode and dependencies - What are some coding and naming conventions\n",
   "duration": 1788,
   "published_at": "2020-01-03T08:00:08.000Z",
-  "recorded": "",
-  "speakers": [],
+  "recorded": "2019-12-12 00:00:00",
+  "speakers": [
+    "Przemek Chrabka"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/Bp0XvA3wIXw/hqdefault.jpg",
-  "title": "Przemek Chrabka: How to structure PySpark application | PyData Warsaw 2019",
+  "title": "How to structure PySpark application",
   "videos": [
     {
       "type": "youtube",
