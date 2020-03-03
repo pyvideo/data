@@ -1,11 +1,13 @@
 {
-  "description": "www.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "description": "In this tutorial, we'll delve into the depths of biological data\nanalysis. Using publicly available datasets, we'll use machine learning\nto try to solve one of life's biggest mysteries: that of completing the\nwiring diagrams of genetic regulatory networks.\n\n**Genes that fire together wire together**\n\nIn every living cell, there are genetic regulatory networks that dictate\nhow genes are turned on and off. This networks have evolved to help the\ncell to fine-tune the number and speed of the biomolecules that make up\nthe cell. Despite studying gene networks for more than 30 years in model\norganisms, the community still faces some problems. The problem we're\ngoing to address in this tutorial is to try to make guesses of the\n\"missing wires\" of this gene networks.\n\nWe'll be using the Keras API to build our neural nets and pandas / numpy\n/ sci-kit learn to wrangle through this massive datasets. Using publicly\navailable RNAseq datasets, we'll train a neural network to predict the\nbiological module of some of the missing nodes in the network. We'll\nalso use the NetworkX library to work with the genetic networks.\n",
   "duration": 4723,
   "published_at": "2019-12-23T21:00:27.000Z",
-  "recorded": "",
-  "speakers": [],
+  "recorded": "2019-12-03",
+  "speakers": [
+    "Manu Flores"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/EvanBa6o11E/hqdefault.jpg",
-  "title": "Manu Flores: Analyzing Genetic Networks Using Neural Networks | Pydata LA 2019",
+  "title": "Analyzing genetic networks using neural networks",
   "videos": [
     {
       "type": "youtube",
