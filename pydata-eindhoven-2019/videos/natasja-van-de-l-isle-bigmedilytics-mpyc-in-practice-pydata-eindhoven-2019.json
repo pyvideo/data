@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk we would like to introduce secure Multi-Party Computation\n(MPC) - as it allows for privacy preserving analytics - and show the\npossibilities of the framework MPyC. By utilizing MPyC, TNO, together\nwith an insurance company and a hospital, have built a solution that can\npredict the number of hospitalization days on datasets from both\nparties, without them sharing their data.\n\nTNO together with an insurance company and a hospital are analyzing data\nof heart failure patients. The insurance company has a lot of data on\nmedical compliance and claim behavior, whereas the hospital has data\nfrom an academic study of hundreds of people that we tracked throughout\nseveral years. The hospital has data among others about exercising\nperformance, alcohol intake, smoking behavior, etc. history. Combining\nthese datasets can create more insights than analysis on each dataset\nseparately. However, given the privacy concerns, this is not feasible.\nThis is where Multi-Party Computation (MPC) offers a solution. MPC\ncomprises of a set of cryptographic techniques that enable analysis in\nthe encrypted domain. With these techniques it can be mathematically\nshown that no sensitive data is leaked, when performing an analysis.\nMPyC, developed by Berry Schoenmakers (TU/e), is a python library that\nis an MPC framework based on the technique secret sharing. By using this\nlibrary, we have been able to successfully implement a LASSO regression.\n",
   "duration": 1300,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Natasja van de L'Isle"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/EZE_1qNukSU/maxresdefault.jpg",
-  "title": "Natasja van de L'Isle: BigMedilytics: MPyC in practice | PyData Eindhoven 2019",
+  "title": "BigMedilytics: MPyC in practice",
   "videos": [
     {
       "type": "youtube",

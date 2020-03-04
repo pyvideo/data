@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In this talk (/workshop) we introduce the field of process mining as\nwell as the PM4Py library, i.e., a python library implementing process\nmining algorithms. Process mining is a collection of tools, techniques,\nmethods etc. aimed at analyzing operational process data, stored during\nthe execution of (business) processes.\n\nThe execution of business processes, in modern organizations, is often\nsupported by different information systems. Clearly, the better one\nunderstands its core processes, the easier to steer the process towards\nan increased overall process performance. In order to gain a detailed\nunderstanding of the execution of a process, i.e., in terms of its\nperformance and conformance, different techniques and methods\noriginating from the process mining domain are typically used.\nEssentially, process mining techniques aim to distill actionable\nknowledge and insights of a process, on the basis of historical\nexecution data. For example, process discovery algorithms are able to\ntranslate the captured even data into a process model, e.g., into a BPMN\nmodel. Furthermore, conformance checking algorithms allow us to compute,\nin an exact manner, whether or not the execution of the process, i.e.,\nas captured in the data, is in line with a reference model.\nAdditionally, heaps of techniques exist that allow us to compute\ninsights in the performance of the process.\n\nOver the past twenty years, process mining has remained a relatively\nunknown, scientific, endeavor. However, recently, there has been a keen\ninterest from industry in this technology as well. This is best\nillustrated by the German process mining company Celonis, recently\nvalued over 1 billion dollars of net worth. Furthermore, the 1st\ninternational conference on process mining (https://icpmconference.org),\nheld in June 2019, attracted a total number of 20 sponsors from industry\n(mainly process mining vendors) and a total of 400 participants.\n\nDespite the vast increase in commercial/industrial interest, the amount\nof open-source tools supporting process mining techniques has, until\nrecently, been very little. For years, ProM (http://promtools.org) and\nApromore (https://apromore.org/) have been the de-facto leading\nopen-source process mining solutions. However, these tools are primarily\ndesigned to be used by end-users, i.e., they provide a front-end and are\nnot easily integrated in other software solutions. Only recently,\nsolutions in R, i.e., bupaR (https://www.bupar.net/) and Python, i.e.,\nPM4Py (https://pm4py.fit.fraunhofer.de), have been developed.\n\nIn this talk, we present the main idea of process mining, i.e., going\nfrom captured event data process insights, and, we briefly show an\nexample in python. In case of a possible workshop, we will elaborate\nmore on the algorithmic details of one (of the many) state-of-the-art\nprocess mining algorithms.\n",
   "duration": 1938,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Sebastiaan J. van Zelst"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/i6NGHvZyHXY/maxresdefault.jpg",
-  "title": "Sebastiaan J. van Zelst: Process Mining in Python | PyData Eindhoven 2019",
+  "title": "Process Mining in Python",
   "videos": [
     {
       "type": "youtube",
