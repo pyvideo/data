@@ -1,0 +1,17 @@
+{
+  "description": "At System1, data scientists are faced with the task of predicting\nrevenue and cost per click across millions of unique keywords that drive\ntraffic to our sites or monetize on a pay per click basis. This talk\nwill show a variety of techniques we use to extract the most information\nfrom categorical variables, especially anonymized, sparse, high\ncardinality categorical variables, like search terms.\n\nCategorical variables are easily interpretable by data scientists and\nnon- technical people, but they can also be difficult to translate into\nmachine learning algorithms. Categorical variables need to be converted\nto quantitative values to be used in machine learning models and can\nvery quickly explode the feature space of a model, add noise or\nunintended signals to the data, or simply not include all the meaning\nand predictive power that feature provides for the dependent variable.\nThere are many popular and effective libraries that abstract categorical\nvariable feature creation. However, if a model is sensitive from a\nfinancial, data ethics, or some level of public visibility standpoint,\nor simply prone to overfitting, it is vital to understand how the model\nis capturing all features and how to tune model parameters or input\ndata. Furthermore, if dealing with personal or sensitive data, machines\nneed to be able to handle anonymized categories while still allowing a\nhuman to interpret the source data. One of the problems we face at\nSystem1 is that individual keywords can receive very little traffic,\nsometimes less than a click per day; however, across millions of\nkeywords, these long- tail keywords comprise significant revenue.\nFurthermore, data science models need to be proactive and adjust bids\nand traffic based on seasonal components even if there is no data from\nthe prior season. This talk will present a variety of practical\ntechniques to extract and retain information and predictive power for\ncategorical variables. We will talk about model selection, feature\ncreation and techniques for converting categorical variables to\nquantitative values for modeling. Finally, the talk will present an\ninteresting technique that utilizes embedding layers and transfer\nlearning in a neural network framework to predict cost per click values\non search terms.\n",
+  "duration": 2111,
+  "published_at": "2019-12-29T22:30:13.000Z",
+  "recorded": "2019-12-05",
+  "speakers": [
+    "Fletcher Riehl"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/icmjDyNaj2E/hqdefault.jpg",
+  "title": "Modeling Search Term Revenue: Using Embedding Layers to Manage High Cardinality Categorical Data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=icmjDyNaj2E"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Real-world data is messy and missing, yet most statistical models\nrequire it to be clean and complete. Analysts are often well versed in\nmodeling, but few are familiar with handling missingness. This talk\nteaches data professionals best practices for dealing with missingness\nand introduces Autoimpute, our Python package that helps users grapple\nwith missing data during statistical analysis.\n\nMost real-world datasets contain missing data, but many statistical\nmodels expect input datasets to be complete. This disconnect requires\nanalysts to figure out what to do about missing data before they can\nproceed with statistical analysis.\n\nUnfortunately, most aspiring data professionals spend the bulk of their\ntime studying statistical models themselves, not techniques to handle\nmissing data. As a result, individuals opt for simple methods such as\nlistwise deletion or mean imputation and underestimate the impact these\nmethods have on parameter inference of statistical models.\n\nThis problem inspired us to create Autoimpute, a Python package that\noffers a framework for properly handling missing data during end-to-end\nanalysis. In this talk, we focus on handling missing data during\nregression analysis, and we demonstrate how to use Autoimpute to tackle\nthe problem methodologically.\n\nTo start, we provide context to understand different types of missing\ndata, and we define terminology used in the remainder of the talk. We\nthen walk through examples that contain different types of missingness.\nEach example use a four-step methodology we developed to perform\nstatistical analysis with missing data. We start by assessing the extent\nof the missing data problem using descriptive and visual measures. We\nend by measuring the impact of imputation on the bias and variance of\nparameters derived from regression models built on imputed data.\n\nBy the end of the talk, each listener should leave equipped with a\nmethodological approach to handling missing data during statistical\nanalysis. Additionally, the audience should feel comfortable using the\nAutoimpute package as a tool in their Python data analysis ecosystem.\n",
+  "duration": 2826,
+  "published_at": "2019-12-23T21:03:06.000Z",
+  "recorded": "2019-12-04",
+  "speakers": [
+    "Joseph Kearney",
+    "Shahid Barkat"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/QZRwg1NHB_Y/hqdefault.jpg",
+  "title": "Introducing Autoimpute: a Python Package for Grappling with Missing Data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QZRwg1NHB_Y"
+    }
+  ]
+}

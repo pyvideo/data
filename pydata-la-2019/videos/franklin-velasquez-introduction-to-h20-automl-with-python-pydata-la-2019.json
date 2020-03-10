@@ -1,0 +1,17 @@
+{
+  "description": "In this tutorial, we intend to do automated modeling on a subset of the\nloan- level data from Fannie Mae and Freddie Mac using H2O's automated\nalgorithm(AutoML). We will solve a binary classification problem\n(predicting if a loan is delinquent or not). Also, we will explore a\nregression use-case (predicting interest rates on the same dataset). We\nwill be using the h2o Python module in a JupyterLab.\n\nChoosing the best machine learning models and tuning them can be time\nconsuming and exhaustive. Often, it requires levels of expertise to know\nwhat parameters to tune. The field of Automated Machine Learning\n(AutoML) focuses on solving this issue. AutoML is useful both for\nexperts, by automating the process of choosing and tuning a model; and\nfor non-experts as well, by helping them to create high performing\nmodels in a short time frame. H2O is an open-source, distributed machine\nlearning platform with APIs in Python, R, Java, and Scala. H2O AutoML is\nan automated algorithm for automating the machine learning workflow,\nwhich includes automatic training, hyper-parameter optimization, model\nsearch and selection under time, space, and resource constraints. H2O's\nAutoML further optimizes model performance by stacking an ensemble of\nmodels.\n\nReferences\n~~~~~~~~~~\n\n-  `H2O\n   AutoML <http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html>`__\n\n-  `An Open Source AutoML\n   Benchmark <https://arxiv.org/pdf/1907.00909.pdf>`__\n\nPrerequisites:\n~~~~~~~~~~~~~~\n\n-  Basic knowledge of Machine Learning\n\n-  Familiarity with Python\n\n-  JupyterLab\n\n-  H2O installed on local machine or cloud environment\n\n   -  Quick H2O installation (requires Java and h2o Python module)\n\nOutline:\n~~~~~~~~\n\n-  Task 0: Introduction to Automatic Machine Learning, H2O and H2O\n   AutoML (15 min)\n-  Task 1: Importing libraries, initializing H2O, importing data (5 min)\n-  Task 2: Data Preparation and Transformations (5 min)\n-  Task 3: H2O AutoML Classification and Model Evaluation\n   (Interpretation) (15 min)\n-  Task 4: H2O AutoML Regression and Model Evaluation (Interpretation)\n   (15 min)\n-  Task 5: H2O AutoML Classification in Flow (10 min)\n-  Task 6: H2O AutoML Regression in Flow (15 min)\n-  Task 7: Q&A (10 min)\n",
+  "duration": 4681,
+  "published_at": "2019-12-24T04:05:00.000Z",
+  "recorded": "2019-12-03",
+  "speakers": [
+    "Franklin Velasquez"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/EUNHDIzSt8Q/hqdefault.jpg",
+  "title": "Introduction to H2O AutoML with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EUNHDIzSt8Q"
+    }
+  ]
+}

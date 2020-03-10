@@ -1,0 +1,17 @@
+{
+  "description": "Recent versions of Pandas have warned users of the imminent deprecation\nof the Panel, Panda\u2019s name-sake data structure for storing\nthree-dimensional data. This talk will examine the tradeoffs in\nperformance and interface between two types of Panel alternatives: using\nhierarchical indices in Pandas and StaticFrame, or using true\nn-dimensional arrays in NumPy or xarray.\n\nThis talk will aid those working in data science and related fields by\nexamining the tradeoffs between working with data in true\nmultidimensional data structures (i.e., NumPy and xarray) versus working\nwith hierarchical index implementations on one- or two-dimensional data.\n\nThe immediate point of departure is Pandas imminent deprecation of the\nPanel: for Pandas users who have used the Panel, this talk will\nillustrate how to transition away from the Panel and the tradeoffs in\nPanel alternatives.\n\nThis talk will explain how hierarchical indices work by comparing two\nimplementations: the Pandas MultiIndex and the StaticFrame\nIndexHierarchy. The StaticFream IndexHierarchy offers a new, independent\nimplementation of hierarchical indices that deviates from Pandas in\nsignificant ways: the index is literally composed of other index\nobjects, permitting usage of specialized index types (such as datetime\nindices), efficient memory usage of shared immutable objects, and the\nenforcement of a strict tree graph.\n\nAfter demonstrating how hierarchical indices can support higher\ndimensional data in one or two-dimensional arrays, the power and\nflexibility of selecting and slicing data with hierarchical indices will\nbe demonstrated.\n\nThe talk will close with performance analysis, isolating the overhead of\nusing hierarchical indices over true multi-dimensional array\nrepresentations, and comparing the performance of selection, slicing,\ngrouping, and function application of hierarchical data in NumPy,\nxarray, Pandas and StaticFrame.\n\nThis talk is aimed at both beginners, new to hierarchical indices, and\nmore advanced users interested in interface design and performance\ntradeoffs. Basic familiarity with NumPy and Pandas is expected. Audience\nmembers will leave with a better understanding of how hierarchical\nindices work, and what tradeoffs are made when using them.\n",
+  "duration": 1914,
+  "published_at": "2019-12-23T21:04:46.000Z",
+  "recorded": "2019-12-05",
+  "speakers": [
+    "Christopher Ariza"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/xX8tXSNDpmE/hqdefault.jpg",
+  "title": "Fitting Many Dimensions into One: The Promise of Hierarchical Indices for Data Beyond Two Dimensions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xX8tXSNDpmE"
+    }
+  ]
+}

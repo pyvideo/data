@@ -1,0 +1,17 @@
+{
+  "description": "Dynamic programming turns up in many machine learning algorithms, maybe\nbecause dynamic programming excels at solving problems involving\n\"non-local\" information. I explore one technique used in machine\nlearning, Hidden Markov Models, and how dynamic programming is used when\napplying this technique. Then, I'll show a few real-world examples where\nHidden Markov Models are used.\n\nA Hidden Markov Model deals with inferring the state of a system given\nsome unreliable or ambiguous observations from that system. One\nimportant characteristic of this system is the state of the system\nevolves over time, producing a sequence of observations along the way.\nBy incorporating some domain-specific knowledge, it\u2019s possible to take\nthe observations and work backwards to a maximally plausible ground\ntruth.\n\nThis talk explores Hidden Markov Models in three steps:\n\n-  First, I define Hidden Markov Models and how they apply to machine\n   learning problems.\n\n-  Next, I build up an understanding of the Viterbi algorithm, used to\n   infer the state of the system given a sequence of observations. This\n   involves some basic math, but the goal is to form an intuition for\n   the algorithm. Some sample Python code is presented to demonstrate\n   how simple the algorithm is.\n\n-  Finally, I introduce several real-world applications of Hidden Markov\n   Models in machine learning. In this section, real-world\n   considerations like feature extraction and training are discussed.\n\nBasic math knowledge is expected, just the ability to express concepts\nas equations and an understanding of Big-O notation. Basic Python\nknowledge is also expected, as code samples will be presented. The goal\nis build up intuition.\n\n`The content of this talk is available as an article on my personal\nblog. <https://avikdas.com/2019/06/24/dynamic-programming-for-machine-%20learning-hidden-markov-models.html>`__\n",
+  "duration": 2365,
+  "published_at": "2019-12-23T21:04:11.000Z",
+  "recorded": "2019-12-05",
+  "speakers": [
+    "Avik Das"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/MADX-L75ub8/hqdefault.jpg",
+  "title": "Dynamic programming for machine learning: Hidden Markov Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MADX-L75ub8"
+    }
+  ]
+}
