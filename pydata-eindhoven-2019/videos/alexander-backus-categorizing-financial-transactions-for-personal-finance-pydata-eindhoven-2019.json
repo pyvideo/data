@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "At Yolt (ING), we continuously work on our transaction categorization\nengine to provide app users with a practical financial overview. But how\nto approach this seemingly clear-cut classification task and what are\nthe key considerations? In this talk, I discuss all aspects, from\nbusiness requirements to algorithms, starting with a simple model and\nmoving on to label embedding neural networks.\n\nAt the advent of the second `Payment Services\nDirective <https://en.wikipedia.org/wiki/Payment_Services_Directive>`__\n(PSD2) and growing assortment of Personal Finance Management apps,\ntoday\u2019s consumers are more than ever expecting accurate categorization\nof their transactions to get a comprehensive overview of their income\nand spendings. At `Yolt <https://www.yolt.com/>`__, a fintech venture of\nING Bank, we are continuously working to create the best financial\ntransaction categorization engine in the world in order to deliver this\ncustomer promise. Interestingly, from a data science perspective, this\nseemingly straightforward classification task comes with its own\nintricacies. In this talk, I discuss the ins and outs of this real-life\nuse case, including how evolving business requirements and product\ndesign influence modeling decisions. In particular, I highlight the\ntrade-off between personalization and generalization, and both the\ncomplications and opportunities of feedback loops. I cover several\nmodeling approaches, ranging from vanilla multiclass classification, to\na hyper- personalized learning system and label embedding deep neural\nnetwork architectures. For the latter, I will explain the `Facebook\nStarSpace <https://arxiv.org/abs/1709.03856>`__ architecture and\npossible extensions, including how to create transaction embeddings from\nmixed feature types, metric learning concepts, triplet loss functions\nand potential for one- shot learning. Conceptual machine learning model\ndesigns are interspersed with snippets of Python code to provide\npractical handles. In conclusion, I briefly discuss open challenges and\nprovide key take-aways. After this talk, the audience will be familiar\nwith all aspects of the industry use case of transaction categorization,\nfrom problem statement and data, to metrics and modeling approaches.\n",
   "duration": 1917,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Alexander Backus"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/_I_HCr-mfhM/maxresdefault.jpg",
-  "title": "Alexander Backus: Categorizing financial transactions for personal finance.. | PyData Eindhoven 2019",
+  "title": "Categorizing financial transactions for personal finance management at Yolt",
   "videos": [
     {
       "type": "youtube",

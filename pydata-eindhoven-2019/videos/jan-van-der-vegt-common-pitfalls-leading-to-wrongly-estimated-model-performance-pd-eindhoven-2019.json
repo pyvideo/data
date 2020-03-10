@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Overfitting is something every data scientist is aware of. Using\ntechniques like cross validation can help detect overfitting.\nUnfortunately, regular cross validation still fails detecting certain\nerrors. Assumptions can be violated and intricate feature engineering\ncan lead to target leakage. The goal of this talk is to learn more about\nthe experimental setup and better approaches.\n\nOverfitting is a common issue and something every data scientist is\naware of. By using techniques like cross validation, metrics can be used\nto approximate the performance of a model on unseen data. Unfortunately,\nregular cross validation often still fails the assumptions required for\nunbiased performance estimation. Certain statistical assumptions can be\nviolated and intricate feature engineering can introduce obscure target\nleakage that lead to biased estimations.\n\nThe statistical assumptions that we will talk about are the i.i.d.\nassumption and the lack of concept drift. The i.i.d. assumption means\nthat random samples are independent and identically distributed (i.i.d).\nThe lack of concept drift entails that samples are stationary if we look\nat the time dimension of data collection, which means that the\nrelationship between the features and targets does not depend on the\nimplicit time.\n\nValidation schemas are meant to simulate reality as closely as possible.\nWe will look at the theory behind training, validation and test sets\nbefore discussing issues with standard crossvalidation. Possible\nsolutions include nested crossvalidation, time window validation and\ngrouped validation. While the only true verification happens in\nproduction, we will also look into approaches that minimize the risk of\nmissing target leakage in the validation phase.\n\nThe goal of this talk is to learn more about the intuition behind proper\nexperimental setup, potential pitfalls to keep in mind and tools to\nminimize the associated risks.\n",
   "duration": 1651,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jan van der Vegt"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/Ad-IfhFkDhU/maxresdefault.jpg",
-  "title": "Jan van der Vegt: Common pitfalls leading to wrongly estimated model performance | PD Eindhoven 2019",
+  "title": "Common pitfalls leading to wrongly estimated model performance",
   "videos": [
     {
       "type": "youtube",

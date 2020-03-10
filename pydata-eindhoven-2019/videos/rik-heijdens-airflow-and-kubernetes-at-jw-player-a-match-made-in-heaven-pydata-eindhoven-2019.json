@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Learn how JW Player leverages Apache Airflow and Kubernetes to author,\nschedule, execute and monitor workflows containing thousands of tasks on\na monthly basis. In this talk we'll provide an overview of our\narchitecture, best practices for designing jobs and share some of the\nlessons that we learned.\n\nAt JW Player multiple teams use Apache Airflow to author, schedule and\nmonitor workflows defined as acyclic graphs (DAGs) of tasks. Every\nsingle month we use Apache Airflow to run thousands of tasks. Our tasks\nare very heterogeneous: we have tasks that perform conventional ETL, but\nalso more complicated tasks that train and evaluate Machine Learning\nmodels, or use existing Machine Learning models to analyze new data that\nflows into our systems at a daily basis. Our tasks interact with many\ndifferent systems ranging from databases (PostgreSQL, Snowflake), to\nmachine learning frameworks (TensorFlow), to storage systems (S3), to\nHadoop clusters running Spark on EMR.\n\nWhile the tasks that we run through Apache Airflow are very diverse and\ntouch many different systems, they have one thing in common: every\nsingle task that we run at JW Player through Airflow is packaged as a\nDocker image. This has several benefits, but the most important one is\nthat it allows us to leverage Kubernetes' JobController to execute our\ntasks through a (custom variant of) the KubernetesPodOperator. This\nallows us to use and scale our compute resources more effectively while\nalso providing engineers certain guarantees around reproducibility and\nisolation due to the nature of Docker containers.\n\nIn this talk aimed at Software Engineers and Data Scientists we will\nprovide an overview of the architecture that we adopted for Apache\nAirflow at JW Player. We will share some insights into the engineering\ndecisions that we have made and we will share best practices for\ndesigning and testing jobs themselves.\n",
   "duration": 1436,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Rik Heijdens"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/-ArkjfTmLz0/maxresdefault.jpg",
-  "title": "Rik Heijdens: Airflow and Kubernetes at JW Player, a match made in heaven? | PyData Eindhoven 2019",
+  "title": "Airflow and Kubernetes at JW Player, a match made in heaven?",
   "videos": [
     {
       "type": "youtube",

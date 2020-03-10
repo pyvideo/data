@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "If you want to implement a ML prediction model in healthcare, you should\nmake sure that your algorithm performs well also in a domain different\nthan the one used during development. In this talk, I will share the\nlessons we learned at Pacmed while externally validating Pacmed\nCritical, a model that supports doctors in deciding the best moment to\ndischarge patients from the Intensive Care Unit.\n\nPacmed Critical predicts the probability that a patient will die or be\nreadmitted to the Intensive Care Unit, if he/she is discharged now. This\ninformation will help doctors identify the best moment to discharge\ntheir patients. The model has been developed using data from the\nAmsterdam UMC but it needs to be validated on an external dataset from a\ndifferent hospital before it is implemented in practice.\n\nIn this talk you will discover the most common reasons why external\nvalidation can go wrong, namely concept shift and covariate drift. You\nwill also learn how domain adaptation can address such problems by 1)\ngiving more weights to the examples that are more similar between the\ntwo domains (importance weighting), 2) regularising the external model\ntowards the original one (sequential models), 3) including the\nprediction of the original model as a feature of the external one\n(another flavour of sequential models) and 4) defining different\nhierarchies of domain-specific model coefficients (hierarchical models).\nWhich of these performs best depends on whether you can train a model on\nboth domains at the same time or if you can only do it separately. By\nthe end of the talk, you will know which techniques is the most suited\nfor your problem.\n\nThe presentation will be at the intermediate level: I will briefly\nintroduce the theory behind the domain-adaptation techniques discussed\nand, then, I will focus on their applicability and impact in practice.\nThe presentation is targeted to data scientists who have experience in\nthe different phases of model development.\n",
   "duration": 1364,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Mattia Fornasa"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/v4PKZStpaa4/maxresdefault.jpg",
-  "title": "Mattia Fornasa: Transferring clinical prediction models across hospitals... | PyData Eindhoven 2019",
+  "title": "Transferring clinical prediction models across hospitals using domain-adaptation techniques",
   "videos": [
     {
       "type": "youtube",

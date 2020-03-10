@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "The news domain presents many interesting challenges for recommender\nsystems - a continuous cold start problem to recommend newly published\narticles, learning from the implicit feedback of user clicks, a\ntypically high amount of user traffic, that nevertheless suffers from\nsparsity. This talk will show how we tackled these challenges to build a\ncontent-based recommender system for financial news.\n\nThe news domain poses an interesting challenge for recommender systems -\nwhen reading news, users prefer the most recently published articles\n(i.e. the breaking news), and yet new articles without a reading history\nsuffer from the *cold start problem* and are more difficult to recommend\nto users. Other interesting challenges are how to *learn from the\nimplicit feedback of user clicks* , how to handle the *typically high\namount of user traffic and transform it into training data* , how to\ndeal with *sparsity in the data* (most users read a small number of\narticles per day, and a small amount of articles get the majority of\nuser clicks), and what are *the right natural language processing tools\nfor Dutch language*.\n\nIn this talk we discuss how we tackled these challenges to build a\ncontent- based recommender system for Het Financieele Dagblad, a daily\nDutch newspaper focusing on business and financial news. To represent\nthe content of the article, we implemented a wide array of enrichment\ntechniques (e.g. representing the articles in a word vector space,\nsentiment analysis), by using libraries such as ``textpipe`` and\n``spaCy``. But the most meaningful features that we found referred to\nthe overlap between the user profile and the article representation,\nsuch as the overlap in article tags between the article and the set of\nmost frequent tags read by the user. The talk will describe how our\nrecommender system was modeled as a gradient-boosting decision tree, and\nimplemented using the ``xgboost`` library.\n",
   "duration": 1748,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,13 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Anca Dumitrache",
+    "Feng Lu"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/kI6VbkrIbpg/maxresdefault.jpg",
-  "title": "Anca Dumitrache, Feng Lu: A content-based recommender system for financial news | PD Eindhoven 2019",
+  "title": "A content-based recommender system for financial news",
   "videos": [
     {
       "type": "youtube",

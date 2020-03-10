@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "Losing customers, also referred to as churning, is something that any\ncompany wants to prevent. But not by predicting churn, assuming\ncorrelation is causation, or by acting on prescribed actions. Let me\nshow how to combine techniques from uplift modelling, causal inference\nand reinforcement learning, into one contextual bandit system that\nbalances exploitation & exploration and deals with biases.\n\nLosing customers, also referred to as churning, is something that any\ncompany wants to prevent, especially in industries with many subscribed\ncustomers, like Telco, Media, Finance and Insurance. The challenge then\nis to determine which, if any, intervention (also referred to as\ntreatment or countermeasure) can retain a customer. In the Telco case\nthis could be giving a discount or sending specific emails. In common\napproaches I see three issues: to predict churn, to assume correlation\nis causation, and to act on the prescribed actions. Please join me in\nconstructing a more effective solution, combining techniques from uplift\nmodelling, causal inference and reinforcement learning. Let us solve the\ncorrect business problem, deal with biased historical data, and balance\nexploration and exploitation. Along the way the audience will get a good\ngrasp of possible design choices and techniques, with their\nimplications. The end result will be a full contextual bandit solution,\nutilizing various techniques like inverse propensity scaling, Bayesian\nneural networks and Thompson sampling.\n",
   "duration": 1643,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Gerben Oostra"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/n1uqeBNUlRM/maxresdefault.jpg",
-  "title": "Gerben Oostra: Preventing churn like a bandit | PyData Eindhoven 2019",
+  "title": "Preventing churn like a bandit",
   "videos": [
     {
       "type": "youtube",

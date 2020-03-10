@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "We tend to skip the step of exploring and analysing the data while\nworking with images. In this talk, we will look at EDA and visualisation\ntechniques for image segmentation tasks by reviewing three different\ncompetition I have participated recently on Kaggle. I will also\nsummarise with a guideline for EDA and visualisation for image\nsegmentation challenges.\n\nIn computer vision, image segmentation is the process of assigning\nlabels to every pixel of an image. An example use case of this could be\nidentifying some kind of defect from an image where every pixel is\nlabeled ok or not ok. Data for image segmentation typically comes in two\nparts: the image data and mask to label the class and area of interest.\nIn practice, we label each pixel by building a deep learning model to\nautomatically produce the mask as an output.\n\nFor traditional datasets, like text data, understanding the data by\ndoing an exploratory data analysis (EDA) is almost a mandatory step\nbefore doing any modelling. However, for image segmentation tasks, this\nstep often goes missing. This is partly because as the input data is\nliterally images, there is less opportunity to be creative. Of course we\ncan print out a few images, and the masks; but this will not give us the\nwhole story. As we often skip EDA and jump right to modelling without\nunderstanding the content of the data, we less aware about different\ntraining strategies for building our model.\n\nRecently, I have participated in three image segmentation competitions\non Kaggle, which were were very interesting on their own. For example,\none of the competition challenge was to identify and label pneumothorax,\na type of lung inflammation, from chest x rays of the patient. For all\nthree competitions I created notebooks to perform exploratory data\nanalysis (EDA) before creating a model. The analysis from these\nnotebooks brought a lot of useful insights to the Kaggle community, and\nhelped them come up with better strategies to train the model they have\nbuilt. All three notebooks went on to receive a gold medal on Kaggle and\nlink to these notebooks are attached.\n\nIn this talk, I want to walk the audience through the process of doing\nexploratory data analysis and visualisation for image segmentation tasks\nby reviewing the three kernels linked below. These kernels uses everyday\npython libraries like Pandas, Open-CV, Matplotlib, Plotly, and MLxtend.\nAfter walking through the examples from the kernel below, I will\nsummarise with a guideline, which others working with image segmentation\ntasks can use as a starting point.\n\nhttps://www.kaggle.com/ekhtiar/finding-pneumo-part-1-eda-and-unet\nhttps://www.kaggle.com/ekhtiar/defect-area-segments-eda-with-plotly-fp-mining\nhttps://www.kaggle.com/ekhtiar/eda-find-me-in-the-clouds\n",
   "duration": 1423,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Ekhtiar Syed"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/YFvtZfHaPR8/maxresdefault.jpg",
-  "title": "Ekhtiar Syed: Exploratory Data Analysis (EDA) and Visualization Techniques.. | PyData Eindhoven 2019",
+  "title": "Exploratory Data Analysis (EDA) and Visualization Techniques for Image Segmentation Challenges",
   "videos": [
     {
       "type": "youtube",

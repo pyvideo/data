@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "With computer vision we\u2019re able to localize assets and determine their\ncondition. In this talk we will dive into the details of convolutional\nneural networks and we\u2019ll show how they help ProRail maintain 7000 km of\nrailway track.\n\nProRail manages and maintains over 7000 km of railway track. In order to\nprevent and solve delays, accurate knowledge about the location and\nstate of the various assets is required. Special camera-equipped trains\ncover the entire railway track twice a year, providing over 50 million\nimages of the railway. Using computer vision, these images can be used\nto both localize assets and determine their condition. This technology\nis currently being put into production at ProRail, where the focus is\nfirst on the localization of important assets and next on quantifying\ntheir state.\n\nIn this talk, we will dive into how computer vision is applied at\nProRail. First, we will discuss the convolutional neural network that we\nuse in order to detect our main asset of interest: the insulation joint.\nWe will elaborate on the specific choices we made and the tools we used\nduring the implementation. However, a simple cnn might not cut it for us\nwhen trying to distinguish between 28 slightly different assets. In the\nsecond part of our talk we\u2019ll touch on more advanced techniques such as\ntransfer learning, and compare them on the use case.\n\nNo prior knowledge is required for this talk.\n",
   "duration": 1678,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,13 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Jasper Derikx",
+    "Richard Bartels"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/cUwVraDm98E/maxresdefault.jpg",
-  "title": "Jasper Derikx, Richard Bartels: Next-Gen railway asset management with... | PyData Eindhoven 2019",
+  "title": "Next-Gen railway asset management with computer vision at ProRail",
   "videos": [
     {
       "type": "youtube",

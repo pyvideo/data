@@ -1,6 +1,6 @@
 {
   "copyright_text": null,
-  "description": "",
+  "description": "In high dimensions data becomes increasingly sparse, and the\nconventional methods to detect outliers do not work effectively. I shall\ndiscuss the application of two open source libraries in Python to build\nan application that can reveal the presence of outliers in the\nhigh-dimensional noisy data from ASML sensors.\n\nStatistical outlier mining depends on identifying a contrast between\ninliers and outliers. As the dimensionality of data increases, this\ncontrast starts to decrease owing to what is known as the curse of\ndimensionality, and the data points start to become equidistant. A way\nto prevent this is to use dimensionality reduction techniques.\n\nHere we build an application to detect outliers in the noisy data\ncollected by ASML sensors using open source Python packages. We first\nuse a neighbor graph based algorithm, to embed the high dimensional data\ninto low (2-3) dimensions, to aid in easy visualization. This is\nfollowed by clustering the embedded data to reveal the distinct types of\noutliers. All this is achieved in a completely unsupervised way.\n\nThe application provides valuable clues to an expert user trying to\ndecipher the sanity of data. A correlation of the physical pattern of\nthe detected outliers with location/time-stamp of the measurements helps\nin the determination of the reason behind the failed measurements.\n",
   "duration": 1469,
   "language": "eng",
   "recorded": "2019-11-30",
@@ -10,10 +10,12 @@
       "url": "https://pydata.org/eindhoven2019/schedule/"
     }
   ],
-  "speakers": [],
+  "speakers": [
+    "Satej Khedekar"
+  ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/DinhTHoDRjk/maxresdefault.jpg",
-  "title": "Satej Khedekar: A Python application to flag outliers in very high... | PyData Eindhoven 2019",
+  "title": "A Python application to flag outliers in very high dimensional sensor data.",
   "videos": [
     {
       "type": "youtube",
