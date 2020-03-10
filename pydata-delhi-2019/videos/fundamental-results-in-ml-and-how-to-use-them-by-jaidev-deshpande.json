@@ -1,0 +1,17 @@
+{
+  "description": "We\u2019ve all heard terms like Bayes error, perceptron learning theorem, the\nfundamental theorem of statistical learning, VC dimension, etc. This\ntalk is about using the math-heavy fundamentals of machine learning to\nunderstand the very solvability of classification problems. By the end\nof the talk, you will get a clear picture of how these ideas can be\npractically applied to classification problems.\n\nWhy does a classifier not fit? This can only happen for two reasons:\n\n-  Because the model is not smart enough, or\n-  Because the training data itself is not \u201cclassifiable\u201d.\n\nUnfortunately, the only obvious way to determine the *classifiability*\nor *separability* of a training dataset is to use a variety of\nclassification models with a variety of hyperparameters. In other words,\nseparability of classes in a dataset is usually expressed only in terms\nof which model worked on that dataset.\n\nUnfortunately, this does not answer the fundamental question of whether\na dataset is classifiable or not. If we keep on increasing the\ncomplexity of models and trying them out on a dataset without success,\nall we can infer from this is that the set of models we have tried out\n*so far* are incapable of learning the classification problem. It does\nnot necessarily mean that the problem is unsolvable.\n\nFortunately, many shallow learning models have been widely studied and\nare well understood. As such, it is quite possible to place theoretical\nbounds on their performance in the context of a dataset. There are a\nvariety of statistics that we can use *a priori* to determine the\nlikelihood of a model fitting a dataset.\n\nThis talk is about how we can use these results towards developing a\nstrategy, a structured approach for carrying out machine learning\nexperiments, instead of blindly running models and hoping that one of\nthem works. Starting from elementary results like Bayes theorem and the\nperceptron learning rule all the way up to complex ideas like kernel\nmethods and VC dimension, this talk develops a framework for the\nanalysis of data in the context of separability of classes.\n\nWhile the talk might sound theoretical, major focus will be on how to\nmake practical, hands-on use of these concepts to better understand your\ndata and your models. By the end of the talk, you will have learnt how\nto *prioritize* which models to use on which dataset, and how to compute\nthe likelihood of them fitting on the data. This rigorous analysis of\nmodels and data saves a lot of effort and money, as the talk will\ndemonstrate with real-world examples.\n",
+  "duration": 1755,
+  "published_at": "2019-10-17T18:19:41.000Z",
+  "recorded": "2019-08-03",
+  "speakers": [
+    "Jaidev Deshpande"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ehGf73dd9bQ/hqdefault.jpg",
+  "title": "Fundamental Results in ML and How to Use Them",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ehGf73dd9bQ"
+    }
+  ]
+}
