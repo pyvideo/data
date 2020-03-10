@@ -1,0 +1,15 @@
+{
+  "description": "EuroSciPy 2019 Bilbao \nSeptember 5, Thursday \nMitxelena. Talk. 12.00\n\nHigh quality video experience using deep neural networks\nMarco Bertini and Tiberio Uricchio\n\nVideo compression algorithms used to stream videos are lossy, and when compression rates increase they result in strong degradation of visual quality. We show how deep neural networks can eliminate compression artefacts and restore lost details.\n\nVideo compression algorithms result in a reduction of image quality, because of their lossy approach to reduce the required bandwidth. This affects commercial streaming services such as Netflix, or Amazon Prime Video, but affects also video conferencing and video surveillance systems. In all these cases it is possible to improve the video quality, both for human view and for automatic video analysis, without changing the compression pipeline, through a post-processing that eliminates the visual artefacts created by the compression algorithms. In this presentation we show how deep convolutional neural networks implemented in Python using TensorFlow, Scikit-Learn and Scipy can be used to reduce compression artefacts and reconstruct missing high frequency details that were eliminated by the compression algorithm.\n\nIn particular, we follow an approach based on Generative Adversarial Networks, that in the scientific literature have obtained extremely high quality results in image enhancement tasks. However, to obtain these results, typically, large generators are employed, resulting in high computational costs and processing time, and thus the method can be implemented using GPUs usually available only on desktop machines.\nIn this presentation we show also an architecture that can be used to reduce the computational cost and that can be implemented also on mobile devices.\n\nA possible application is to improve video conferencing, or live streaming. Since in these cases there is no original uncompressed video stream available, we report results using no-reference video quality metric showing high naturalness and quality even for efficient networks.\n\nPython Skill Level \u2013 basic \nDomains \u2013 Image Processing \nDomain Expertise \u2013 some \nAbstract as a tweet \u2013 Improving video quality using deep neural networks \nProject Homepage / Git \u2013 https://www.micc.unifi.it/projects/deep-compression-artifact-removal/",
+  "duration": 2009,
+  "published_at": "2020-03-06T12:30:17.000Z",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/PPkLP8n7CKY/hqdefault.jpg",
+  "title": "EuroSciPy 2019 Bilbao - High quality video experience using deep neural networks - Marco and Tiberio",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=PPkLP8n7CKY"
+    }
+  ]
+}

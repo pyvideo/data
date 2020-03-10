@@ -1,0 +1,15 @@
+{
+  "description": "EuroSciPy 2019 Bilbao \nSeptember 5, Thursday \nOteiza. Talk. 14.45\n\nMatrix calculus with SymPy\nFrancesco Bonazzi \n\nIn this talk we explore a recent addition to SymPy which allows to find closed-form solutions to matrix derivatives. As a consequence, generation of efficient code for optimization problems is now much easier.\n\nThe recent popularization of libraries relying on tensor algebra operations has led to a rise in the requirement of computational tools to calculate the gradient and hessian of tensorial expressions. The derivative of a tensor A by tensor B is the tensor containing all combinations of the elements of A derived by the elements of B. While tensor derivative operations are commonly supported by most computer algebra systems and frameworks through iterative algorithms, these derivatives can be expressed mathematically in closed-form solutions, which are computationally many orders of magnitude faster.\n\nSymPy has been recently extended in order to support the computation of symbolic matrix derivatives, and is currently the only computer algebra system endowed with this feature (lacking even in Wolfram Mathematica). Matrix calculus plays indeed a central role in optimization and machine learning, but was unfortunately often limited to pen on papers or chalk on blackboards.\n\nIn this talk, we will introduce matrix expressions in SymPy, and address the three ways they can be represented:\n\n    explicit matrices with symbolic entries,\n    indexed symbols with proper summation convention,\n    implicit matrix expressions.\n\nWe illustrate the way matrix derivatives are implemented for all three representations, with special emphasis to the third way, the fastest and most elegant. The derived expressions can then be passed to SymPy's code generation utilities and the resulting code can be compared in speed with other frameworks, such as TensorFlow.\n\nThe support of matrix derivatives can turn SymPy into a simple tool to create the code for optimization algorithms or the code to train machine learning algorithms. The code generation utilities of SymPy are indeed aware of how to export matrix expressions into other programming languages and frameworks. We will give some examples using maximum likelihood estimation and the expectation-maximization algorithms.\n\nAbstract as a tweet \u2013 Matrix calculus support in SymPy, now you can calculate matrix derivatives in closed-form. \nProject Homepage / Git \u2013 https://www.sympy.org/en/index.html \nPython Skill Level \u2013 basic \nDomain Expertise \u2013 some \nProject Homepage / Git \u2013 https://github.com/sympy/sympy \nDomains \u2013 Machine Learning, Open Source, Statistics, Vector and array manipulation",
+  "duration": 1694,
+  "published_at": "2020-03-06T15:07:44.000Z",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rBH_7knxZQQ/hqdefault.jpg",
+  "title": "EuroSciPy 2019 Bilbao - Matrix calculus with SymPy - Francesco Bonazzi",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rBH_7knxZQQ"
+    }
+  ]
+}

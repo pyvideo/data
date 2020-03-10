@@ -1,0 +1,15 @@
+{
+  "description": "EuroSciPy 2019 Bilbao \nSeptember 4, Wednesday \nOteiza Track. Talk. 16.30\n\nPyFETI - An easy and massively Dual Domain Decomposition Solver for Python\nGuilherme Jenovencio \n\nPyFETI is a python implementation of Finite-Element-Tearing-Interconnecting Methods. The library provides a massive linear solver using Domain Decomposition method, where problems are solved locally by Direct Solver and at the interface iteratively.\n\nPyFETI is a python implementation of Finite-Element-Tearing-Interconnecting Methods. The library provides a massive linear solver that uses Domain Decomposition Techniques. FETI methods rely in the solution of a linear system, based on to linear solver algorithm strategies, Direct and Iteratively. A big problem is decomposed in subdomains, generating an additional set of constraints at the interface among subdomains. The local problem solution is formulated based on a new interface force at the interface that must connect the subdomains. Therefore, given an interface force, the local problems are solved based on a direct solver, e.g SuperLU, and the update of interface force is performed by Preconditioned Conjunged Projected Gradient. The library has been tested for large linear elastic problems at the IT4I supercomputer center.\n\nDomains \u2013 Parallel computing / HPC, Simulation \nProject Homepage / Git \u2013 https://github.com/jenovencio/PYFETI \nDomain Expertise \u2013 some \nPython Skill Level \u2013 professional Project \nHomepage / Git \u2013 https://github.com/jenovencio/PYFETI \nAbstract as a tweet \u2013 PyFETI - An easy and massive Python FETI solver for linear solid mechanics problem",
+  "duration": 1075,
+  "published_at": "2019-12-02T13:27:12.000Z",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UC3gMOV2Jls/hqdefault.jpg",
+  "title": "EuroSciPy 2019 Bilbao - PyFeti - Guilherme Jenovencio",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UC3gMOV2Jls"
+    }
+  ]
+}

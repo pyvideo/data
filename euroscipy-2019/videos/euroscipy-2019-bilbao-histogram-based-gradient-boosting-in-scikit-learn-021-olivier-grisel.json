@@ -1,0 +1,15 @@
+{
+  "description": "EuroSciPy 2019 Bilbao \nSeptember 5, Thursday \nBaroja. Talk. 11.00\n\nHistogram-based Gradient Boosting in scikit-learn 0.21\nOlivier Grisel\n\nIn this presentation we will present some recently introduced features of the scikit-learn Machine Learning library with a particular emphasis on the new implementation of Gradient Boosted Trees.\n\nscikit-learn 0.21 was recently released and this presentation will give an overview its main new features in general and present the new implementation of Gradient Boosted Trees.\n\nGradient Boosted Trees (also known as Gradient Boosting Machines) are very competitive supervised machine learning models especially on tabular data.\n\nScikit-learn offered a traditional implementation of this family of methods for many years. However its computational performance was no longer competitive and was dramatically dominated by specialized state of the art libraries such as XGBoost and LightGBM. The new implementation in version 0.21 uses histograms of binned features to evaluate the tree node spit candidates. This implementation can efficiently leverage multi-core CPUs and is competitive with XGBoost and LightGBM.\n\nWe will also introduce pygbm, a numba-based implementation of gradient boosted trees that was used as prototype for the scikit-learn implementation and compare the numba vs cython developer experience.\n\nDomain Expertise \u2013 some \nDomains \u2013 Big Data, Machine Learning, Parallel computing / HPC, Statistics \nProject Homepage / Git \u2013 https://scikit-learn.org \nAbstract as a tweet \u2013 Histogram-based Gradient Boosted Trees in scikit-learn 0.21 \nProject Homepage / Git \u2013 https://scikit-learn.org \nPython Skill Level \u2013 basic",
+  "duration": 1614,
+  "published_at": "2020-03-06T15:54:47.000Z",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/JoI4F7TID5w/hqdefault.jpg",
+  "title": "EuroSciPy 2019 Bilbao - Histogram-based Gradient Boosting in scikit-learn 0.21 - Olivier Grisel",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JoI4F7TID5w"
+    }
+  ]
+}

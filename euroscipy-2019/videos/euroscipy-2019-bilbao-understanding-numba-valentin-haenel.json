@@ -1,0 +1,15 @@
+{
+  "description": "EuroSciPy 2019 Bilbao \nSeptember 5, Thursday \nBaroja. Talk. 14.45\n\nUnderstanding Numba\nValentin Haenel\n\nIn this talk I will take you on a whirlwind tour of Numba and you will be quipped with a mental model of how Numba works and what it is good at. At the end, you will be able to decide if Numba could be useful for you.\n\nIn this talk I will take you on a whirlwind tour of Numba, the just-in-time, type-specializing, function compiler for accelerating numerically-focused Python. Numba can compile the computationally intensive functions of your numerical programs and libraries from Python/NumPy to highly optimized binary\ncode. It does this by inferring the data types used inside these functions and uses that information to generate code that is specific to those data types and specialised for your target hardware. On top of that, it does all of this on-the-fly---or just-in-time---as your program runs. This significantly reduces the potential complexity that traditionally comes with pre-compiling and shipping numerical code for a variety of operating systems, Python versions and hardware architectures. All you need in principle, is to conda install numba and decorate your compute intensive functions with @nuba.jit!\n\nThis talk will equip you with a mental model of how Numba is implemented and how it works at the algorithmic level. You will gain a deeper understanding of the types of use-cases where Numba excels and why. Also, you will understand the limitations and caveats that exist within Numba, including any potential\nideas and strategies that might alleviate these. At the end of the talk you will be in a good position to decide if Numba is for you and you will have learnt about the concrete steps you need to take to include it as a dependency in your program or library.\n\nAbstract as a tweet \u2013 A whirlwind tour of Numba: the just-in-time, type-specializing, function compiler for accelerating numerically-focused Python. \nProject Homepage / Git \u2013 http://numba.pydata.org/ \nPython Skill Level \u2013 expert \nDomain Expertise \u2013 none \nDomains \u2013 Open Source, Parallel computing / HPC, Vector and array manipulation",
+  "duration": 1775,
+  "published_at": "2020-03-06T16:46:59.000Z",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/WQ1ybsGUkyk/hqdefault.jpg",
+  "title": "EuroSciPy 2019 Bilbao - Understanding Numba - Valentin Haenel",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WQ1ybsGUkyk"
+    }
+  ]
+}

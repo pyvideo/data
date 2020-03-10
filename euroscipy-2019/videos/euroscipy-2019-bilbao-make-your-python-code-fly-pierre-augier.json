@@ -1,0 +1,15 @@
+{
+  "description": "EuroSciPy 2019 Bilbao \nSeptember 4, Wednesday \nOteiza Track. Talk. 15:45\n\nMake your Python code fly at transonic speeds!\nPierre Augier \n\nTransonic is a new pure Python package to easily accelerate modern Python-Numpy code with different accelerators (like Cython, Pythran, Numba, Cupy, etc...).\n\nSlides available at https://tiny.cc/euroscipy2019-transonic\n\nTransonic is a pure Python package (requiring Python higher than 3.6) to easily accelerate modern Python-Numpy code with different accelerators (like Cython, Pythran, Numba, Cupy, etc...) opportunistically (i.e. if/when they are available).\n\nWe will first present the context of the creation of this package, i.e. the Python's High Performance Computing (HPC) Landscape. We will show how Transonic can be used to write elegant and very efficient HPC codes with Python, with examples taken from real-life research simulation codes (fluidfft and fluidsim). We will discuss the advantages of using Transonic instead of writing big Cython extensions or using Numba or Pythran directly.\n\nA strategy to quickly develop a very efficient scientific application/library with Python and Transonic could be:\n\n    Use modern Python coding, standard Numpy/Scipy for the computations and all the cool libraries you want.\n\n    Profile your applications on real cases, detect the bottlenecks and apply standard optimizations with Numpy.\n\n    Add few lines of Transonic to compile the hot spots.\n\nWe won't forget to also discuss some limitations of Transonic, and more generally of Python and its numerical ecosystem for High Performance Computing.\n\nDomains \u2013 General-purpose Python, Parallel computing / HPC, Simulation, Vector and array manipulation \nProject Homepage / Git \u2013 https://bitbucket.org/fluiddyn/transonic/ \nDomain Expertise \u2013 some \nPython Skill Level \u2013 basic \nProject Homepage / Git \u2013 https://bitbucket.org/fluiddyn/transonic/ \nAbstract as a tweet \u2013 Make your numerical Python code fly at http://transonic.readthedocs.io/ speed!",
+  "duration": 1255,
+  "published_at": "2019-12-02T12:46:28.000Z",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/3SzcmSRhVjg/hqdefault.jpg",
+  "title": "EuroSciPy 2019 Bilbao - Make your Python code fly - Pierre Augier",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3SzcmSRhVjg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "description": "EuroSciPy 2019 Bilbao \nSeptember 5, Thursday \nBaroja. Talk. 11.30\n\nRecent advances in python parallel computing\nPierre Glaser \n\nModern hardware is multi-core. It is crucial for Python to provide\nefficient parallelism. This talk exposes the current state and advances in Python parallelism, in order to help practitioners and developers take better decisions on this matter. Parallel computing in Python: Current state and recent advances\n\nModern hardware is multi-core. It is crucial for Python to provide\nhigh-performance parallelism. This talk will expose to both data-scientists and library developers the current state of affairs and the recent advances for parallel computing with Python. The goal is to help practitioners and developers to make better decisions on this matter.\n\nI will first cover how Python can interface with parallelism, from leveraging external parallelism of C-extensions \u2013especially the BLAS family\u2013 to Python's multiprocessing and multithreading API. I will touch upon use cases, e.g single vs multi machine, as well as and pros and cons of the various solutions for each use case. Most of these considerations will be backed by benchmarks from the scikit-learn machine learning library.\n\nFrom these low-level interfaces emerged higher-level parallel processing libraries, such as concurrent.futures, joblib and\nloky (used by dask and scikit-learn) These libraries make it easy for Python programmers to use safe and reliable parallelism in their code. They can even work in more exotic situations, such as interactive sessions, in which Python\u2019s native multiprocessing support tends to fail. I will describe their purpose as well as the canonical use-cases they address.\n\nThe last part of this talk will focus on the most recent advances in the Python standard library, addressing one of the principal performance bottlenecks of multi-core/multi-machine processing, which is data communication. We will present a new API\nfor shared-memory management between different Python processes, and performance improvements for the serialization of large Python objects (PEP 574, pickle extensions). These performance improvements will be leveraged by distributed data science frameworks such as dask, ray and pyspark.\n\nAbstract as a tweet \u2013 Parallel computing in Python: Current state and recent advances \nPython Skill Level \u2013 professional \nDomain Expertise \u2013 none \nDomains \u2013 Parallel computing / HPC",
+  "duration": 1802,
+  "published_at": "2020-03-06T16:20:12.000Z",
+  "recorded": "",
+  "speakers": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ifESLJWE1i8/hqdefault.jpg",
+  "title": "EuroSciPy 2019 Bilbao - Recent advances in python parallel computing - Pierre Glaser",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ifESLJWE1i8"
+    }
+  ]
+}
