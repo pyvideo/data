@@ -1,0 +1,17 @@
+{
+  "description": "The need for speed remains important for scientific computing.\nHistorically, computers were limited to few dozens of processors, but\nwith modern GPUs, we can have thousands, or even millions of cores\nrunning in parallel on distributed systems.\n\nHowever, developing software for distributed GPU systems can be\ndifficult, both because writing GPU code can be challenging for\nnon-experts, and because distributed systems are inherently complex. We\ncan work to address these challenges by using GPU-enabled libraries that\nmimic parts of the SciPy ecosystem, such as CuPy, RAPIDS, and Numba,\nabstracting GPU programming complexity, combined with Dask to abstract\ndistributed computing complexity.\n\nWe talk about how Dask has come a long way to support distributed\nGPU-enabled systems by leveraging community standards and protocols,\nreusing open source libraries for GPU computing, and keeping it simple\nand complication-free to build highly-configurable accelerated\ndistributed software.\n\nDask has evolved over the last year to leverage multi-GPU computing\nalongside its existing CPU support. We present how this is possible with\nthe use of NumPy-like libraries and how to get started writing\ndistributed GPU software.\n",
+  "duration": 1560,
+  "published_at": "2019-10-27T17:39:18.000Z",
+  "recorded": "2019-09-04",
+  "speakers": [
+    "Peter Andreas Entschev"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8smUdz_DFok/hqdefault.jpg",
+  "title": "Distributed GPU Computing with Dask",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8smUdz_DFok"
+    }
+  ]
+}

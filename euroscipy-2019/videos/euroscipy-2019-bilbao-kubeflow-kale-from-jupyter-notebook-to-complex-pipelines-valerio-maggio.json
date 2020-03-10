@@ -1,0 +1,17 @@
+{
+  "description": "In this talk I will present a new solution to automatically scale\nJupyter notebooks to complex and reproducibility pipelines based on\nKubernetes and KubeFlow.\n\nNowadays, most of the High Performance Computing (HPC) tasks are carried\nout in the Cloud, and this is as much as in industry as in research.\n\nMain advantages provided by the adoption of Cloud services include (a)\nconstant up-to-date hardware resources; (b) automated infrastructure\nsetup; (c) simplified resource management. Therefore, new solutions have\nbeen recently released to the community (e.g. *Kubernetes* by Google)\nproviding custom integrations to specifically support the migration of\nexisting Machine/Deep Learning pipelines to the Cloud.\n\nHowever, a shift towards a complete Cloud-based computational paradigm\nimposes new challenges in terms of data and model reproducibility,\nprivacy, accountability, and (efficient) resource configuration and\nmonitoring. Moreover, the adoption of these technologies still imposes\nadditional workloads requiring significant software and system\nengineering expertise (e.g. set up of containerised environments,\nstorage volumes, clusters nodes).\n\nIn this talk, I will present **kale** (``/\u02c8ke\u026ali\u02d0/``) - a new Python\nsolution to ease and support ML workloads for HPC in the Cloud is\npresented.\n\nKale leverages on the combination of Jupyter ``notebooks``, and\n*Kubernetes/Kubeflow Pipelines* (``KFP``) as core components in order\nto:\n\n-  (``R1``) automate the setup and deployment procedures by automating\n   the creation of (distributed) computation environments in the Cloud;\n\n-  (``R2``) democratise the execution of machine learning models at\n   scale by instrumented and reusable environments;\n\n-  (``R3``) provide a simple interface (UI, and SDK) to enable\n   researchers to deploy ML models without requiring extensive\n   engineering expertise.\n\nTechnical features of Kale as well as open challenges and future\ndevelopment will be presented, along with working examples integrating\n``kale`` with the complete ML/DL workflows for pipeline reproducibility.\n\nDomains:\n^^^^^^^^\n\n-  Jupyter\n-  Machine Learning\n-  DevOps\n-  Parallel Computing/HPC\n\nGitHub:\n^^^^^^^\n\nhttps://github.com/orgs/kubeflow-kale\n",
+  "duration": 1816,
+  "published_at": "2020-03-06T15:07:44.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Valerio Maggio"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/nD3rn9pIUGA/hqdefault.jpg",
+  "title": "Kubeflow Kale: from Jupyter Notebook to Complex Pipelines",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nD3rn9pIUGA"
+    }
+  ]
+}

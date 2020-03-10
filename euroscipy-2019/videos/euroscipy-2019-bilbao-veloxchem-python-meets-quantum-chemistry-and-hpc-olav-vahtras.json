@@ -1,0 +1,17 @@
+{
+  "description": "| Zilvinas Rinkevicius, Xin Li, Olav Vahtras, Manuel Brand, Karan\n  Ahmadzadeh, Magnus\n| Ringholm, Nanna List, and Patrick Norman\n\n| With the ease of Python library modules, VeloxChem offers a front end\n  to quantum chemical\n| calculations on contemporary high-performance computing (HPC) systems\n  and aims at\n| harnessing the future compute power within the EuroHPC initiative. At\n  the heart of this\n| software lies a module for the evaluation of electron-repulsion\n  integrals (ERIs) using the ObaraSaika recurrence scheme, where a high\n  degree of efficiency is achieved by employing\n| architecture-independent vectorization via OpenMP SIMD pragmas in the\n  auto- generated C++\n| source code. The software is topology aware and with a\n  Python-controlled work and task flow,\n| the idle time is minimized using an MPI/OpenMP partitioning of\n  resources.\n| In the second software layer, we have implemented a highly accurate\n  SCF start guess based\n| on atomic densities and a first-level of iterations in a reduced\n  version of the user-defined basis\n| set, leading to a very smooth convergence in the subsequent standard\n  DIIS scheme. This layer\n| also includes vectorized and OpenMP/MPI parallelized modules for\n  efficient generation of DFT\n| grid points and weights as well as kernel integration.\n| In the third software layer, we present real and complex response\n  functions as to address\n| dispersive and absorptive molecular properties in spectroscopy. The\n  kernel module in this layer\n| is the iterative linear response equation solver that we have\n  formulated and implemented for a\n| combination of multiple optical frequencies and multiple perturbation\n  operators. With efficient\n| use of computer memory, we enable the simultaneous reference to, and\n  solving of, in the order\n| of 1,000 response equations for sizable biochemical systems without\n  spatial symmetry, and we\n| can thereby determine electronic response spectra in arbitrary\n  wavelength regions, including\n| UV/vis and X-Ray, without resolving the sometimes embedded excited\n  states in the spectrum.\n| E.g. the electronic CD spectrum (involving the Cartesian sets of\n  electric and magnetic\n| perturbations) over a range of some 10 eV is obtained at a\n  computational cost comparable to\n| that of determining the transition energy of the lowest excited state,\n  or optimizing the electronic\n| structure of the reference state.\n\n| A new and efficient Python/C++ modular library for real and complex\n  response functions at the\n| level of Kohn-Sham density functional theory\n",
+  "duration": 1276,
+  "published_at": "2020-03-06T15:07:43.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Olav Vahtras"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/IaXTdkMc7gE/hqdefault.jpg",
+  "title": "VeloxChem: Python meets quantum chemistry and HPC",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IaXTdkMc7gE"
+    }
+  ]
+}

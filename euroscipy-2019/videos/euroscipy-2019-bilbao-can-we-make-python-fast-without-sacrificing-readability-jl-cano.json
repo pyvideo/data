@@ -1,0 +1,17 @@
+{
+  "description": "We are lucky there are very diverse solutions to make Python faster that\nhave been in use for a while: from wrapping compiled languages (NumPy),\nto altering the Python syntax to make it more suitable to compilers\n(Cython), to using a subset of it which can in turn be accelerated\n(numba). However, each of these options has a tradeoff, and there is no\nsilver bullet.\n\npoliastro is a library for Astrodynamics written in pure Python. All its\ncore algorithms are accelerated with numba, which allows poliastro to be\ndecently fast while having minimal code complexity and avoid using other\nlanguages.\n\nHowever, even though numba is quite mature as a library and most of the\nPython syntax and NumPy functions are supported, there are still some\nlimitations that affect its usage. In particular, we strive to offer a\nhigh-level API with support for physical units and reusable functions\nwhich can be passed as arguments, which sometimes require using complex\nobjects or introspective Python behavior which is not available.\n\nIn this talk we will discuss the strategies and workarounds we have\ndeveloped to overcome these problems, and what advanced numba features\nwe can leverage.\n\nThere are several solutions to make Python faster, and choosing one is\nnot easy: we would want it to be fast without sacrificing its\nreadability and high-level nature. We tried to do it for an\nAstrodynamics library using numba. How did it turn out?\n",
+  "duration": 893,
+  "published_at": "2020-03-06T17:39:14.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Juan Luis Cano Rodr\u00edguez"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/o5Rszihvp6Q/hqdefault.jpg",
+  "title": "Can we make Python fast without sacrificing readability? numba for Astrodynamics",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=o5Rszihvp6Q"
+    }
+  ]
+}

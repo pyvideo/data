@@ -1,0 +1,17 @@
+{
+  "description": "Symbols, words, categories etc. need to be converted into numbers before\nthey can be processed by neural networks or used into other ML methods\nlike clustering or outlier detection.\n\nIt is desirable to have the converted numbers represent semantics of the\nencoded categories. That means, numbers close to each other indicate\nsimilar semantics.\n\nIn this session you will learn what you need to train a neural network\nfor such embeddings. I will bring a complete example including code that\nI will share using TensorFlow 2 functional API and the Colab service.\n\nI will also share some tricks how to stabilize embeddings when either\nthe model changes or you get more training data.\n\nNeural Embeddings are a powerful tool of turning categorical into\nnumerical values. Given reasonable training data semantics present in\nthe categories can be preserved in the numerical representation.\n",
+  "duration": 1501,
+  "published_at": "2020-03-06T12:30:16.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Oliver Zeigermann"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/2QtqNWMPMqg/hqdefault.jpg",
+  "title": "The Magic of Neural Embeddings with TensorFlow 2",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2QtqNWMPMqg"
+    }
+  ]
+}

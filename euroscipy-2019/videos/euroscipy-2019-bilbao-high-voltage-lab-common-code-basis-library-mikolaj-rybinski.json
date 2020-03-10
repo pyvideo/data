@@ -1,0 +1,17 @@
+{
+  "description": "| At the heart of ETH High Voltage Lab's (HVL) research are industrial\n  devices put\n| together into code-automated experiments. It's a zoo of industrial\n  communication\n| protocols one needs to handle when controlling these devices. HVL\n  decided to switch from\n| MATLAB to Python as a programming and analysis tool. Python community\n  provides solutions\n| to majority of technicalities involved in handling multitude of\n  industrial communication\n| protocols used to control high voltage research experiment devices.\n  Moreover\n| Python seems to be a more future-proof choice, meeting industry demand\n  for a more\n| cost-effective and collaborative solution.\n\n| The HVL Common Code Basis library (``hvl_ccb``) provides a uniform\n  user-friendly\n| object-oriented API as well as implementation for multiple of high\n  voltage engineering\n| devices and their respective communication protocols. The library\n  leverages Python's\n| open source community - implementations of specific communication\n  protocols, but also\n| relies heavily on some of the languages newer features such as typing\n  hints, dataclasses\n| or enums.\n\n| Python typing hints are used not only for their static type checking\n  and autocompletion\n| support from IDEs, but also for dynamic type checking of the\n  communication protocol's\n| and devices' configurations. The configurations themselves are a\n  customized\n| implementation of Python's 3.7 dataclasses. Configurations properties\n  rely heavily on\n| Python (advanced) enumerations.\n\n| Currently, the library supports serial port, VISA over TCP, Modbus\n  TCP, LabJack LJM and\n| OPC UA communication protocols. These protocols are used within code\n  abstraction of\n| devices such MBW973 SF6 Analyzer / dew point mirror, LabJack (T7-PRO)\n  device, Schneider\n| Electric ILS2T stepper motor drive, Elektro-Automatik PSI9000 DC power\n  supply, Rhode &\n| Schwarz RTO 1024 oscilloscope, or the Lab's state-of-the-art Supercube\n  platform, which\n| encapsulates safety components, the voltage source, as well as other\n  auxiliary devices.\n\nThe library leverages Python richness to provide a uniform user-friendly\nAPI for a zoo of industrial communication protocols used to control high\nvoltage engineering devices, together with abstraction and\nimplementations for such devices.\n",
+  "duration": 1143,
+  "published_at": "2019-12-02T13:27:09.000Z",
+  "recorded": "2019-09-04",
+  "speakers": [
+    "Miko\u0142aj Rybi\u0144ski"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/AVVasLFQYXM/hqdefault.jpg",
+  "title": "High Voltage Lab Common Code Basis library: a uniform user-friendly object-oriented API for a high voltage engineering research.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=AVVasLFQYXM"
+    }
+  ]
+}

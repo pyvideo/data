@@ -1,0 +1,17 @@
+{
+  "description": "For instance, when predicting the salary to offer given the descriptions\nof professional experience, the risk is to capture indirectly a gender\nbias present in the distribution of salaries. Another example is found\nin biomedical applications, where for an automated radiology diagnostic\nsystem to be useful, it should use more than socio-demographic\ninformation to build its prediction.\n\nHere I will talk about confounds in predictive models. I will review\nclassic deconfounding techniques developed in a well-established\nstatistical literature, and how they can be adapted to predictive\nmodeling settings. Departing from deconfounding, I will introduce a\nnon-parametric approach \u2013that we named \u201cconfound-isolating\ncross-validation\u201d\u2013 adapting cross-validation experiments to measure the\nperformance of a model independently of the confounding effect.\n\nThe examples are mentioned in this work are related to the common issues\nin neuroimage analysis, although the approach is not limited to\nneuroscience and can be useful in another domains.\n\nConfounding effects are often present in observational data: the effect\nor association studied is observed jointly with other effects that are\nnot desired.\n",
+  "duration": 889,
+  "published_at": "2019-12-01T13:49:34.000Z",
+  "recorded": "2019-09-04",
+  "speakers": [
+    "Darya Chyzhyk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Jz8u4NusWjM/hqdefault.jpg",
+  "title": "Controlling a confounding effect in predictive analysis.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Jz8u4NusWjM"
+    }
+  ]
+}

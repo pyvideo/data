@@ -1,0 +1,17 @@
+{
+  "description": "| In this talk I will take you on a whirlwind tour of Numba, the\n  just-in-time,\n| type-specializing, function compiler for accelerating\n  numerically-focused\n| Python. Numba can compile the computationally intensive functions of\n  your\n| numerical programs and libraries from Python/NumPy to highly optimized\n  binary\n| code. It does this by inferring the data types used inside these\n  functions and\n| uses that information to generate code that is specific to those data\n  types\n| and specialised for your target hardware. On top of that, it does all\n  of this\n| on-the-fly---or just-in-time---as your program runs. This\n  significantly reduces\n| the potential complexity that traditionally comes with pre-compiling\n  and\n| shipping numerical code for a variety of operating systems, Python\n  versions and\n| hardware architectures. All you need in principle, is to\n  ``conda install numba``\n| and decorate your compute intensive functions with ``@nuba.jit``!\n\n| This talk will equip you with a mental model of how Numba is\n  implemented and\n| how it works at the algorithmic level. You will gain a deeper\n  understanding of\n| the types of use-cases where Numba excels and why. Also, you will\n  understand\n| the limitations and caveats that exist within Numba, including any\n  potential\n| ideas and strategies that might alleviate these. At the end of the\n  talk you\n| will be in a good position to decide if Numba is for you and you will\n  have\n| learnt about the concrete steps you need to take to include it as a\n  dependency\n| in your program or library.\n\nIn this talk I will take you on a whirlwind tour of Numba and you will\nbe quipped with a mental model of how Numba works and what it is good\nat. At the end, you will be able to decide if Numba could be useful for\nyou.\n",
+  "duration": 1775,
+  "published_at": "2020-03-06T16:46:59.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Valentin Haenel"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WQ1ybsGUkyk/hqdefault.jpg",
+  "title": "Understanding Numba",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WQ1ybsGUkyk"
+    }
+  ]
+}

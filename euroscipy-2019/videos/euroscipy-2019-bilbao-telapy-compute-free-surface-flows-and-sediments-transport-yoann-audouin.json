@@ -1,0 +1,17 @@
+{
+  "description": "This talk is focused on the application of TelApy module\n(`www.opentelemac.org <http://www.opentelemac.org>`__). TelApy aims to\nprovide a Python wrapper of TELEMAC-MASCARET API (Application Program\nInterface). The goal of TelApy is to have a full control on the\nsimulation while running a case. For example, it must allow the user to\nstop the simulation at any time step, get values of some variables and\nchange them. In order to make this possible, a Fortran structure called\ninstantiation was developed with the API. It contains a list of strings\npointing to TELEMAC variables. This gives direct access to the physical\nmemory of variables, and allows therefore to get and set their values.\nFurthermore, changes have been made in TELEMAC-MASCARET main subroutines\nto make hydraulic cases execution possible time step by time step. It is\nuseful to drive the TELEMAC-MASCARET SYSTEM APIs using Python\nprogramming language. In fact, Python is a portable, dynamic,\nextensible, free language, which allows (without imposing) a modular\napproach and object oriented programming. In addition of benefits of\nthis programming language, Python offers a large amounts of\ninteroperable libraries. The link between various interoperable\nlibraries with TELEMAC-MASCARET SYSTEM APIs allows the creation of an\never more efficient computing chain able to more finely respond to\nvarious complex problems. Therefore, the TelApy module has the ambition\nto enable a new way of use for the TELEMAC-MASCARET system. In\nparticular one can think about high performance computing for the\ncalculation of uncertainties, optimization, code coupling and so on. The\nobjectives of this talk is to present some examples of the TelApy module\nin the case of Uncertainty Quantification, Optimization, Reduced Order\nModel.\n\nTelApy a Python module to compute free surface flows and sediments\ntransport in geosciences and examples of how it is used to inter-operate\nwith other Python libraries for Uncertainty Quantification,\nOptimization, Reduced Order Model.\n",
+  "duration": 939,
+  "published_at": "2020-03-06T15:07:44.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Yoann Audouin"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/uMASPCr_YRE/hqdefault.jpg",
+  "title": "TelApy a Python module to compute free surface flows and sediments transport in geosciences",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uMASPCr_YRE"
+    }
+  ]
+}

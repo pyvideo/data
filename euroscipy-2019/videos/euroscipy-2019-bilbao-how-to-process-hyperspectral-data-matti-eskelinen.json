@@ -1,0 +1,17 @@
+{
+  "description": "Our lab specializes in hyperspectral imaging using a spectral imager\nthat combines tunable filters with colour sensors. Compared to simpler,\nmore established imaging systems, this results in some unique challenges\nfor the data processing. Especially, many of the original imaging\nparameters need to be preserved an d joined with calibration-derived\nvalues to actually compute radiance values from the raw sensor data\nsince they are not automatically handled by the hardware. Handling this\nmetadata with the resulting hyperspectral images results in combined\ndatasets of large 3-dimensional datacube, and multiple smaller 2D and 1D\narrays with linked dimensions.\n\nWe have built our solution to this problem utilizing Xarray for handling\nthe multiple arrays of data as well as the existing Dask integration for\nproviding easy parallelization for the required preprocessing. Xarray\nalso provides us many other advantages, such as:\n\n-  Exploration of very complex multi-dimensional datasets (especially\n   when utilizing holoviews)\n-  Interoperability with the scikit ecosystem\n-  Serialization to NetCDF preserving all the data in a single file\n\nHowever, our extensive and somewhat non-conventional use of Xarray does\nalso bring out it's shortcomings when trying to develop such a library\nas ours, such as indexing issues with multiple possible overlapping\ncoordinates and performance issues with complex datasets.\n\nWe present a collection of software for handling hyperspectral data\nacquisition and preprocessing fully in Python utilising Xarray for\nmetadata preservation from start to finish.\n",
+  "duration": 986,
+  "published_at": "2020-03-06T12:30:17.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Matti Eskelinen"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/y3b2NT3XEWo/hqdefault.jpg",
+  "title": "How to process hyperspectral data from a prototype imager using Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=y3b2NT3XEWo"
+    }
+  ]
+}

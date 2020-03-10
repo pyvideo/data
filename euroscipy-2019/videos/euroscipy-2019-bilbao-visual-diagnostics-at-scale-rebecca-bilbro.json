@@ -1,0 +1,17 @@
+{
+  "description": "Even with a modestly-sized dataset, the hunt for the most effective\nmachine learning model is *hard*. Arriving at the optimal combination of\nfeatures, algorithm, and hyperparameters frequently requires significant\nexperimentation and iteration. This leads some of us to stay inside\nalgorithmic comfort zones, some to trail off on random walks, and others\nto resort to automated processes like gridsearch. But whatever path we\ntake, we are often left in doubt about whether our final solution really\nis the optimal one. And as our datasets grow in size and dimension, so\ntoo does this ambiguity.\n\nFortunately, many of us have developed strategies for steering model\nsearch. Open source libraries like\n`seaborn <https://seaborn.pydata.org/>`__,\n`pandas <https://pandas.pydata.org/>`__ and\n`yellowbrick <https://www.scikit-%20yb.org/en/latest/>`__ can help make\nmachine learning more informed with visual diagnostic tools like\nhistograms, correlation matrices, parallel coordinates, manifold\nembeddings, validation and learning curves, residuals plots, and\nclassification heatmaps. These tools enable us to tune our models with\nvisceral cues that allow us to be more strategic in our choices.\nVisualizing feature transformations, algorithmic behavior,\ncross-validation methods, and model performance allows us a peek into\nthe multi-dimensional realm in which our models operate.\n\nHowever, large, high-dimensional datasets can prove particularly\ndifficult to explore. Not only do the majority of people struggle to\nvisualize anything beyond two- or three-dimensional space, many of our\nfavorite open source Python tools are not designed to be performant with\narbitrarily big data. So how well *do* our favorite visualization\ntechniques hold up to large, complex datasets?\n\nIn this talk, we'll consider a suite of visual diagnostics \u2014 some\nfamiliar and some new \u2014 and explore their strengths and weaknesses with\nseveral publicly available datasets of varying size. Which suffer most\nfrom the curse of dimensionality in face of increasingly big data? What\nare the workarounds (e.g. sampling, brushing, filtering, etc.) and when\nshould we use them? And most importantly, how can we continue to steer\nthe machine learning process \u2014 not only purposefully but at scale?\n\nMachine learning is a search for the best combination of features,\nmodel, and hyperparameters. But as data grow, so does the search space!\nFortunately, visual diagnostics can focus our search and allow us to\nsteer modeling purposefully, and at scale.\n",
+  "duration": 1773,
+  "published_at": "2020-03-06T15:54:33.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Dr. Rebecca Bilbro"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3-3BH-PNECk/hqdefault.jpg",
+  "title": "Visual Diagnostics at Scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3-3BH-PNECk"
+    }
+  ]
+}

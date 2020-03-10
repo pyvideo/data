@@ -1,0 +1,17 @@
+{
+  "description": "PSYDAC is a Python 3 library for the solution of partial differential\nequations. Its current focus is on isogeometric analysis using B-spline\nfinite elements, but extensions to other methodologies are under\nconsideration. In order to use PSYDAC, the user defines geometry and\nmodel equations in an abstract form using SymPDE, an extension of Sympy\nthat provides the mathematical expressions and checks their semantic\nvalidity. Once a finite element discretization has been chosen, PSYDAC\nmaps the abstract concepts into concrete objects, the basic building\nblocks being MPI-distributed vectors and matrices. Python code is\ngenerated for all the computationally intensive operations (matrix and\nvector assembly, matrix-vector products, etc.), and it is accelerated\nusing either Numba, Pythran, or Pyccel. We present the library design,\nthe user interface, and the performance results.\n\nPSYDAC takes input from SymPDE (a SymPy extension for partial\ndifferential equations), applies a finite-element discretization,\ngenerates MPI-parallel code, and accelerates it with Numba, Pythran, or\nPyccel. We present design, usage and performance.\n",
+  "duration": 969,
+  "published_at": "2020-03-06T17:38:47.000Z",
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Yaman G\u00fc\u00e7l\u00fc"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/xmrlqrI2kLg/hqdefault.jpg",
+  "title": "PSYDAC: a parallel finite element solver with automatic code generation",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xmrlqrI2kLg"
+    }
+  ]
+}

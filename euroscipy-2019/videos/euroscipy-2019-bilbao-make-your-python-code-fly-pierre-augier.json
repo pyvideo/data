@@ -1,0 +1,17 @@
+{
+  "description": "Slides available at https://tiny.cc/euroscipy2019-transonic\n\n`Transonic <http://transonic.readthedocs.io/>`__ is a pure Python\npackage (requiring Python >= 3.6) to easily accelerate modern\nPython-Numpy code with different accelerators (like Cython,\n`Pythran <https://github.com/serge-sans-%20paille/pythran>`__, Numba,\nCupy, etc...) opportunistically (i.e. if/when they are available).\n\nWe will first present the context of the creation of this package, i.e.\nthe Python's High Performance Computing (HPC) Landscape. We will show\nhow Transonic can be used to write elegant and very efficient HPC codes\nwith Python, with examples taken from real-life research simulation\ncodes (`fluidfft <https://fluidfft.readthedocs.io>`__ and\n`fluidsim <https://fluidsim.readthedocs.io>`__). We will discuss the\nadvantages of using Transonic instead of writing big Cython extensions\nor using Numba or Pythran directly.\n\nA strategy to quickly develop a very efficient scientific\napplication/library with Python and Transonic could be:\n\n1. Use modern Python coding, standard Numpy/Scipy for the computations\n   and all the cool libraries you want.\n\n2. Profile your applications on real cases, detect the bottlenecks and\n   apply standard optimizations with Numpy.\n\n3. Add few lines of Transonic to compile the hot spots.\n\nWe won't forget to also discuss some limitations of Transonic, and more\ngenerally of Python and its numerical ecosystem for High Performance\nComputing.\n\n`Transonic <http://transonic.readthedocs.io>`__ is a new pure Python\npackage to easily accelerate modern Python-Numpy code with different\naccelerators (like Cython, Pythran, Numba, Cupy, etc...).\n",
+  "duration": 1255,
+  "published_at": "2019-12-02T12:46:28.000Z",
+  "recorded": "2019-09-04",
+  "speakers": [
+    "Pierre Augier"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3SzcmSRhVjg/hqdefault.jpg",
+  "title": "Make your Python code fly at transonic speeds!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3SzcmSRhVjg"
+    }
+  ]
+}

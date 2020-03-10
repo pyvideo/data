@@ -1,0 +1,17 @@
+{
+  "description": "Once your machine learning POC seems promising and your development\nenvironment is set up, the next step is to refactor your code and write\nTESTS. We know that a lot of people think tests are too complicated and\nboring to write and they are not very useful. Some manual checks can\naddress the need.\n\n| It is not totally false. Tests can be really boring and time consuming\n  to write when you don't have the right tools, the right APIs, the\n  right environments or the right code structure.\n| But it is always a bad idea to ignore tests or to perform them\n  manually. If you want to be involved in your project life cycle, if\n  you want to bring it from POC to production you need to care about\n  tests. After some years tackling production bugs, you can't feel safe\n  delivering without tests as you can't start driving until your seat\n  belt is fastened.\n\nThere is more than one way to test. Tests can be split on several levels\n(unit, component, functional, performances, etc...) to be able to\nquickly identify the faulty code/data/parameter. Tests must also be\nautomated in a Continuous Integration and run at least on each\nexperiment before merging it in the baseline pipeline as it is done in\nsoftware engineering (the CI is triggered on each feature branch).\n\nThis talk is about how to easily write tests and testable code, how to\navoid most common traps and what are the benefits of tests on\nunrealistic data in your Machine Learning project.\n\n(Tests on real data are also really important but they are not the main\npurpose of this talk.)\n\nSlides are here:\n`sdg.jlbl.net/slides/tests\\_for\\_datascientist/presentation.html <http://sdg.jlbl.net/slides/tests_for_datascientist/presentation.html>`__\n\nGood practices tell you must write tests! But testing Machine Learning\nprojects can be really complicated. Test writing seems often\ninefficient. Which kind of test should be written? How to write them?\nWhat are the benefits?\n",
+  "duration": 1843,
+  "published_at": "2019-12-02T12:00:10.000Z",
+  "recorded": "2019-09-04",
+  "speakers": [
+    "Sarah Diot-Girard"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8ujjMzXI78A/hqdefault.jpg",
+  "title": "What about tests in Machine Learning projects?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8ujjMzXI78A"
+    }
+  ]
+}
