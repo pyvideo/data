@@ -1,0 +1,17 @@
+{
+  "description": "Transfer learning is a powerful technique to boost the performance of a\ndeep learning model. However, the healthcare industry often has very\nspecific image data sets that are dissimilar to the large-scale data\nsets used to pretrain the publicly available models. Therefore, are\nthere any benefits of applying transfer learning in healthcare? Come and\nlisten to find out.\n\nThe idea of transfer learning is to reuse features learned on a related\ntask to improve the performance of a model on a new task. The advantages\nof transfer learning are well known: faster training, less labeled data\nneeded and higher accuracy of the final model. Therefore, the use of\npretrained models became a de facto standard in many practical\napplications, among others in computer vision. This is all under the\nassumption that the features learned on the source task are generic\nenough to be reused on a target task. However, the healthcare industry\noften has very specific data sets that are rather dissimilar to the\nlarge-scale and publicly available data sets used to pretrain the\nmodels. The goal of the presentation is to show if there are any\nadvantages of using pretrained models in such settings.\n\nTo find out, we have designed a dedicated experiment in which we compare\nthe performance of various CNN architectures applied to different\nmedical imaging data sets, both public and private. We initialize the\nmodels either randomly or with ImageNet pretrained parameters with\nvarious settings. We also compare the results to the performance of a\nsmall, custom designed CNN networks.\n\nThe presentation will have the following outline. First, the audience\nwill be introduced to the transfer learning and its variants. Later, the\ndesign of the dedicated computational experiments will be presented,\nfollowed by the results and conclusions. The latter will be compared to\nthe conclusions from the latest state of the art papers on the topic.\n\nThe participants will have a unique opportunity to learn about the\nbenefits and pitfalls of applying transfer learning to imaging data sets\nthat are much more specific than natural images from ImageNet.\n\nBackground knowledge required to understand the presentation:\nintermediate knowledge about machine learning, deep learning and CNNs.\n",
+  "duration": 1788,
+  "published_at": "2020-01-03T00:30:43.000Z",
+  "recorded": "2019-12-12",
+  "speakers": [
+    "Micha\u0142 Kierzynka"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/al-N-ocSmXQ/hqdefault.jpg",
+  "title": "Transfer learning for image recognition in healthcare industry",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=al-N-ocSmXQ"
+    }
+  ]
+}

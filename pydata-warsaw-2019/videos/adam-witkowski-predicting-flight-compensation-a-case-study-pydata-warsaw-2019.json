@@ -1,0 +1,17 @@
+{
+  "description": "Under EU law, airplane passengers have the right to be compensated if\ntheir flight is sufficiently delayed. GIVT helps passengers file such\nclaims. Every claim needs to be verified as there are various conditions\nthat can invalidate it: extreme weather, strikes, bird hit, etc. In this\ntalk, I will describe a machine learning system which replaces manual\nverification of claims.\n\nThis talk describes the process of implementing a machine learning model\nin production. I will talk about various problems that we encountered\nand how we solved them.\n\nFirst, I will describe the problem: verification if the airline should\ncompensate the passenger for the flight. This depends on many factors,\nsome of which are easy to define (is the flight delayed more than 180\nminutes? is the airline from EU?) and some are not (is the weather bad\nenough to invalidate the claim? is there a strike?). Of course, with\nperfect data, those questions would be very easy, but in practice we do\nnot have the luxury of working with ideal data. For example, the weather\nreports are not available in real time and we know they are available\nfor the airports, not the whole route of the flight. I will tell you\nwhat data we had and what features we extracted from it.\n\nThen I will briefly describe the algorithms we used and why,\nunsurprisingly, we ended up using GBM. After the model was ready, we ran\nit in parallel to manual verification for several weeks so the\npredictions of the model could be compared to human work. One important\naspect of running the model in production is explaining the model\ndecisions to the verification team (and end users). I will talk about\ntechniques that can be used to 'explain' the model's decision, for\nexample, SHAP.\n\nThe main value of my talk will be practical lessons for solving a real\nbusiness problem with machine learning.\n",
+  "duration": 1796,
+  "published_at": "2020-01-03T02:09:49.000Z",
+  "recorded": "2019-12-13",
+  "speakers": [
+    "Adam Witkowski"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/cxDvSRSOdfI/hqdefault.jpg",
+  "title": "Predicting flight compensation - a case study",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cxDvSRSOdfI"
+    }
+  ]
+}

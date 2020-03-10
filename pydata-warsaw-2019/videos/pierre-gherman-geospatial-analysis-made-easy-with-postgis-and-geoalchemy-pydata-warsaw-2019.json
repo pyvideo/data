@@ -1,0 +1,18 @@
+{
+  "description": "Using geospatial data is easier than ever. Data can easily be found on\nopen data portals or simply on Open Street Map. But how can we use this\ndata? What kind of tools are there to store and analyse this data in an\noptimal manner? During this talk we will answer these questions. We will\ndiscuss particularly about PostGIS, an extension of PostgreSQL database,\nand GeoAlchemy, a Python library.\n\nErik Brynjolfsson, a professor at MIT, once said that \"Every time we\ninvent something, we make it easier to invent something else\". That is\nprobably especially true in the digital space, given the pace at which\ntechnology is evolving. While working on a pricing model that is\nevaluating the price of apartments in Italy, based on information such\nas location, size or status, we realized that it would be very useful to\nhave more information about the area where the apartments are located.\nThis helped us discover that finding open geospatial data is not very\ndifficult these days, but processing and storing it require some\nparticular skills and tools. PostGis is an open source extension of the\nPostgreSQL Database Management system that allows users to store\ngeospatial data as specific data types (geometries and geographies). In\naddition, it helps the user handle this data using some specific spatial\nfunctions such as distance, area, etc. SQLAlchemy is a SQL library of\nPython implementing an object-relational mapping concept. The advantage\nof this library is that developers no longer need to write SQL queries\nin their Python code when working with a database, but they can write\nPython classes instead that are translated to SQL statements. GeoAlchemy\nis an extension of SQLAlchemy that facilitates working with spatial\ndatabases, such as PostGIS. During this talk we will shortly talk about\nthe use-case that required the use of the tools mentioned above and walk\nyou though an example using data from Open Street Map, stored in geojson\nfiles. Our aim is to raise awareness in the audience about how\ngeospatial data can be manipulated and stored using Python and open\nsource database management systems. The talk is aimed at scientists and\ndevelopers interested in working with geospatial data using Python.\nThere are no advanced topics in the talk, but in order to get most of\nthe talk you should have some knowledge of Python and SQL.\n",
+  "duration": 1775,
+  "published_at": "2020-01-03T08:00:08.000Z",
+  "recorded": "2019-12-12",
+  "speakers": [
+    "Nicolas Pierre",
+    "Ioana Gherman"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7RaQjy_RpaA/hqdefault.jpg",
+  "title": "Geospatial analysis made easy with PostGIS and Geoalchemy",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7RaQjy_RpaA"
+    }
+  ]
+}
