@@ -1,11 +1,13 @@
 {
-  "description": "EuroSciPy 2019 Bilbao \nSeptember 5, Thursday \nBaroja. Talk. 16.45\n\nPSYDAC: a parallel finite element solver with automatic code generation\nYaman G\u00fc\u00e7l\u00fc \n\nPSYDAC takes input from SymPDE (a SymPy extension for partial differential equations), applies a finite-element discretization, generates MPI-parallel code, and accelerates it with Numba, Pythran, or Pyccel. We present design, usage and performance.\n\nPSYDAC is a Python 3 library for the solution of partial differential equations. Its current focus is on isogeometric analysis using B-spline finite elements, but extensions to other methodologies are under consideration. In order to use PSYDAC, the user defines geometry and model equations in an abstract form using SymPDE, an extension of Sympy that provides the mathematical expressions and checks their semantic validity. Once a finite element discretization has been chosen, PSYDAC maps the abstract concepts into concrete objects, the basic building blocks being MPI-distributed vectors and matrices. Python code is generated for all the computationally intensive operations (matrix and vector assembly, matrix-vector products, etc.), and it is accelerated using either Numba, Pythran, or Pyccel. We present the library design, the user interface, and the performance results.\n\nProject Homepage / Git \u2013 https://github.com/pyccel/psydac \nAbstract as a tweet \u2013 PSYDAC takes input from SymPDE (a SymPy extension for partial differential equations), applies a finite-element discretization, generates MPI-parallel code, and accelerates it with Numba, Pythran, or Pyccel. \nPython Skill Level \u2013 basic \nDomain Expertise \u2013 some \nDomains \u2013 Parallel computing / HPC, Simulation, Vector and array manipulation",
+  "description": "PSYDAC is a Python 3 library for the solution of partial differential\nequations. Its current focus is on isogeometric analysis using B-spline\nfinite elements, but extensions to other methodologies are under\nconsideration. In order to use PSYDAC, the user defines geometry and\nmodel equations in an abstract form using SymPDE, an extension of Sympy\nthat provides the mathematical expressions and checks their semantic\nvalidity. Once a finite element discretization has been chosen, PSYDAC\nmaps the abstract concepts into concrete objects, the basic building\nblocks being MPI-distributed vectors and matrices. Python code is\ngenerated for all the computationally intensive operations (matrix and\nvector assembly, matrix-vector products, etc.), and it is accelerated\nusing either Numba, Pythran, or Pyccel. We present the library design,\nthe user interface, and the performance results.\n\nPSYDAC takes input from SymPDE (a SymPy extension for partial\ndifferential equations), applies a finite-element discretization,\ngenerates MPI-parallel code, and accelerates it with Numba, Pythran, or\nPyccel. We present design, usage and performance.\n",
   "duration": 969,
   "published_at": "2020-03-06T17:38:47.000Z",
-  "recorded": "",
-  "speakers": [],
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Yaman G\u00fc\u00e7l\u00fc"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/xmrlqrI2kLg/hqdefault.jpg",
-  "title": "EuroSciPy 2019 Bilbao - PSYDAC: a parallel finite element solver - Yaman G\u00fc\u00e7l\u00fc",
+  "title": "PSYDAC: a parallel finite element solver with automatic code generation",
   "videos": [
     {
       "type": "youtube",

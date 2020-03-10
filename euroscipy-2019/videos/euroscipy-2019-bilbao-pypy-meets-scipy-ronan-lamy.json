@@ -1,11 +1,13 @@
 {
-  "description": "EuroSciPy 2019 Bilbao \nSeptember 5, Thursday \nBaroja. Talk. 15.15\n\nPyPy meets SciPy\nRonan Lamy \n\nPyPy, the fast and compliant alternative implementation of Python, is now compatible with the SciPy ecosystem. We'll explore how scientific programmers can use it.\n\nPyPy is a fast and compliant implementation of Python. In other words, it's an interpreter for the Python language that can act as a full replacement for the reference interpreter, CPython. It's optimised to enable efficient just-in-time compilation of Python code to machine code, and has releases matching versions 2.7, and 3.6. It now also supports the main pillars of the scientific ecosystem (numpy, Cython, scipy, pandas, ...) thanks to its emulation layer for the C API of CPython.\n\nPerformance is a major concern for Python programmers. When using CPython, this leads to splitting out the performance-sensitive parts of the computation and rewriting them in a faster, but less convenient, language such as C or Cython. With PyPy, there is no need to choose between clear, Pythonic code and good performance. This talk aims to convince the audience that PyPy should be part of every scientific programmer's toolbox.\n\nAbstract as a tweet \u2013 Why PyPy should be part of every scientific programmer's toolbox \nPython Skill Level \u2013 professional \nDomain Expertise \u2013 some \nDomains \u2013 General-purpose Python",
+  "description": "PyPy is a fast and compliant implementation of Python. In other words,\nit's an interpreter for the Python language that can act as a full\nreplacement for the reference interpreter, CPython. It's optimised to\nenable efficient just-in- time compilation of Python code to machine\ncode, and has releases matching versions 2.7, and 3.6. It now also\nsupports the main pillars of the scientific ecosystem (numpy, Cython,\nscipy, pandas, ...) thanks to its emulation layer for the C API of\nCPython.\n\nPerformance is a major concern for Python programmers. When using\nCPython, this leads to splitting out the performance-sensitive parts of\nthe computation and rewriting them in a faster, but less convenient,\nlanguage such as C or Cython. With PyPy, there is no need to choose\nbetween clear, Pythonic code and good performance. This talk aims to\nconvince the audience that PyPy should be part of every scientific\nprogrammer's toolbox.\n\nPyPy, the fast and compliant alternative implementation of Python, is\nnow compatible with the SciPy ecosystem. We'll explore how scientific\nprogrammers can use it.\n",
   "duration": 1666,
   "published_at": "2020-03-06T16:55:59.000Z",
-  "recorded": "",
-  "speakers": [],
+  "recorded": "2019-09-05",
+  "speakers": [
+    "Ronan Lamy"
+  ],
   "thumbnail_url": "https://i.ytimg.com/vi/8PKqNYunhM4/hqdefault.jpg",
-  "title": "EuroSciPy 2019 Bilbao - PyPy meets SciPy - Ronan Lamy",
+  "title": "PyPy meets SciPy",
   "videos": [
     {
       "type": "youtube",
