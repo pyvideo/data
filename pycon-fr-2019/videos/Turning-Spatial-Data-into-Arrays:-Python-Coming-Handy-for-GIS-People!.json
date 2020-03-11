@@ -1,0 +1,32 @@
+{
+  "description": "GIS software is used to analyze spatial data. In some cases, GIS data can be voluminous and Python can come in handy.\n\nSuch a case will be described here. I was trying to visualize superpositions between rectangular extents (a lot of rectangular extents !) and found QGIS and PostGIS too slow for the job (although I must say I'm no PostGIS guru). I then used Python to convert my extents into arrays of 0 and 1 and could add them all in a few minutes, and visualize superpositions by turning the resulting array into an asc file. Sorry if this is not quite clear, it's easier to explain with a few pictures, as often is the case with spatial data !\n\nI then tried to substract 2 of the resulting asc files to visualize the evolution between 2 dates, and stumbled upon a problem in Python : the files were too big to be held in memory. A developer helped me solved this problem and I undestood better how memory is used in Python and how to hold in memory only one line of a file.\n\nAll in all, this is a story about GIS people venturing into Python programming !\n\nScripts can be found here : https://github.com/UMR-PASSAGES/metadata-extents",
+  "duration": 608,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Julie Pierson"
+  ],
+  "title": "Turning Spatial Data into Arrays: Python Coming Handy for GIS People!",
+  "videos": [
+    {
+      "size": 246120774,
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-19/Julie%20Pierson%20-%20Turning%20Spatial%20Data%20into%20Arrays-%20Python%20Coming%20Handy%20for%20GIS%20People/Julie%20Pierson%20-%20Turning%20Spatial%20Data%20into%20Arrays-%20Python%20Coming%20Handy%20for%20GIS%20People.mp4"
+    },
+    {
+      "size": 56164099,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Julie%20Pierson%20-%20Turning%20Spatial%20Data%20into%20Arrays-%20Python%20Coming%20Handy%20for%20GIS%20People/Julie%20Pierson%20-%20Turning%20Spatial%20Data%20into%20Arrays-%20Python%20Coming%20Handy%20for%20GIS%20People.webm"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=oDNt1gwjM8k"
+    }
+  ]
+}

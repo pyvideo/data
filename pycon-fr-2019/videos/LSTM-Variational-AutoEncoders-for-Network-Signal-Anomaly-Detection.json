@@ -1,0 +1,32 @@
+{
+  "description": "A major French telecom provider has entrusted our team to develop a tool capable of accurately detecting anomalies in their network. This tool is to be deployed in a central surveillance cockpit that monitors the whole network in order to assist analysts in detecting and identifying risks, vulnerabilities and incidents in the network in real time. \n\nThe solution proposedis based on state-of-the-art Deep Learning technology, more specifically, we developed the \"Croissant\" model, a Bidirectional LSTM Variational Autoencoder (VAE) that monitors the traffic in the network and triggers an alarm when an anomaly is detected. To cope with the large amounts of data, e.g., the number of inbound and outbound bytes of more than 300K devices within the network every 5 minutes, our model was developed to function at scale and using an adapted software and hardware solutions such as DGX stations for training and server equipped with NVIDIA T4s for inference/operations. \n\nThe talk with go deeply into the architecture of the selected model and explaining step by step why it works and how it is going to be implemented.",
+  "duration": 2286,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Facundo Calcagno"
+  ],
+  "title": "LSTM Variational AutoEncoders for Network Signal Anomaly Detection",
+  "videos": [
+    {
+      "size": 1564088776,
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-19/Facundo%20Calcagno%20-%20LSTM%20Variational%20AutoEncoders%20for%20Network%20Signal%20Anomaly%20Detection/Facundo%20Calcagno%20-%20LSTM%20Variational%20AutoEncoders%20for%20Network%20Signal%20Anomaly%20Detection.mp4"
+    },
+    {
+      "size": 220119851,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Facundo%20Calcagno%20-%20LSTM%20Variational%20AutoEncoders%20for%20Network%20Signal%20Anomaly%20Detection/Facundo%20Calcagno%20-%20LSTM%20Variational%20AutoEncoders%20for%20Network%20Signal%20Anomaly%20Detection.webm"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=L7m8wIRA11A"
+    }
+  ]
+}

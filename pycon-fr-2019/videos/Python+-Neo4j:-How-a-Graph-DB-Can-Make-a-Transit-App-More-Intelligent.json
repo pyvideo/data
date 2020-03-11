@@ -1,0 +1,32 @@
+{
+  "description": "Although there are tens of transit applications available in national and global levels, most of them (more or less) perform in the same way: mapping the desired path asked by the user (origin, destination) on the timetable provided by the transportation company and providing official schedules to the user. While this process was acceptable years ago, with the advances in the computer science and evolution of unstructured databases we can expect to receive something more robust than a digital version of the (train, bus, \u2026) timetable, something that provide us with the expected delays based on the current situation (weather, temperature, events,\u2026)\n\nIn this talk, I show you how I\u2019ve used python to create a database for various parameters impacting transportation delays using web scrapping and how using Neo4j, I\u2019ve created a transportations network which is used for finding the best path based on transportation times.\n\nTopics: - Scrapping and data storage (structures and Unstructured): Getting weather, temperature, local events, planned maintenances and saving them in MongoDB and SQL databases - Creating a Neo4j database: Mapping the actual connections between transportation means - Finding the best path: using Dijkstra and A* algorithms to find the best paths, minimizing the travel time.\n\nLevel of expected Audience: Basic knowledge of Python and databases",
+  "duration": 812,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Navid Nobani"
+  ],
+  "title": "Python\u00a0+ Neo4j: How a Graph DB Can Make a Transit App More Intelligent",
+  "videos": [
+    {
+      "size": 62609290,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Navid%20Nobani%20-%20Python%20%2B%20Neo4j-%20How%20a%20Graph%20DB%20Can%20Make%20a%20Transit%20App%20More%20Intelligent/Navid%20Nobani%20-%20Python%20%2B%20Neo4j-%20How%20a%20Graph%20DB%20Can%20Make%20a%20Transit%20App%20More%20Intelligent.webm"
+    },
+    {
+      "size": 327118384,
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-19/Navid%20Nobani%20-%20Python%20%2B%20Neo4j-%20How%20a%20Graph%20DB%20Can%20Make%20a%20Transit%20App%20More%20Intelligent/Navid%20Nobani%20-%20Python%20%2B%20Neo4j-%20How%20a%20Graph%20DB%20Can%20Make%20a%20Transit%20App%20More%20Intelligent.mp4"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Jfm-Vhy4Stc"
+    }
+  ]
+}
