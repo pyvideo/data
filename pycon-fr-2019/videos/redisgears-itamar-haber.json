@@ -1,0 +1,33 @@
+{
+  "description": "Redis is an in memory, key-value, database written in C. The main advantages of Redis are performance, simplicity and extensibility. It introduces some common datatypes (like Strings, Hashes, Lists) and allows you to query the data using simple commands like GET/SET which retrieve the exact key you were asking for or allowing single key in-place update\n\nOne shortcoming of Redis is that it does not support cross-key/cross-shards aggregation queries, while there are several use-cases in which users might want to e.g count how many times a property appears in subset of all hashes or group by some value and return a unique count.\n\nIn order to achieve these things a user usually has three patterns he can use:\n1. Retrieve all the data from the Redis and run the aggregation on the client side.\n2. Analyze the data by another system like spark/hadoop and perform those queries there.\n3. Use Redis embedded Lua capabilities and write some lua code that performs the aggregation on the server side.\n\nThe first and the second option require moving all the data over the network. While the third option is good for a single Redis server, but it does not support clustering and requires writing a Lua script which is not a common programming language that most engineers/data scientists are familiar with.\n\nIn the last couple of months we, at Redislabs, developed a new programming module called RedisGears. RedisGears utilizes an embedded python interpreter to allow the users to run their Python based Map-Reduce on Redis. The API allows to the user to perform aggregation queries on all or part of the data by defining python lambda functions that will be executed on all or part of the data in Redis.\n\nRedisGears uses an internal CPython C API like sub-interpreter and GIL handling to allow environment distinction between different Redis clients executions. In addition RedisGears uses the CPython API to expose inner Redis capabilities via a Python script (like command execution and internal modules integration).\n\nLast, following the Streams support in Redis,  it also supports Streaming API processing, allowing the user to trigger a Python based execution plan on a Stream event.",
+  "duration": 3781,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Itamar Haber"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JcKQokxw8ww/hqdefault.jpg",
+  "title": "RedisGears",
+  "videos": [
+    {
+      "size": 1514212042,
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-19/Itamar%20Haber%20-%20RedisGears/Itamar%20Haber%20-%20RedisGears.mp4"
+    },
+    {
+      "size": 324162816,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Itamar%20Haber%20-%20RedisGears/Itamar%20Haber%20-%20RedisGears.webm"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JcKQokxw8ww"
+    }
+  ]
+}

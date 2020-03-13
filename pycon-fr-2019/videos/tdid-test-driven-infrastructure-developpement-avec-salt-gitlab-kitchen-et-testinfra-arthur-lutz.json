@@ -1,0 +1,28 @@
+{
+  "description": "D\u00e9ployer une infrastructure avec SaltStack avec l'assurance qualit\u00e9 assur\u00e9e dans Gitlab avec des linters, et des tests en machine virtuelle avec Kitchen et testinfra.\n\nPour une infrastructure complexe g\u00e9r\u00e9 en infrastructure-as-code avec SaltStack, comment nous avons mis en place de l'assurance qualit\u00e9, des tests pour faciliter l'int\u00e9gration de modifications, ainsi que l'assurance que la description de l'infrastructure peux s'appliquer. Retour d\u2019exp\u00e9rience de travaux effectu\u00e9 avec un h\u00e9bergeur utilisant Salt pour sa gestion d'infrastructure et ses d\u00e9ploiements. \n\nComposants expos\u00e9s : \n\n* saltstack  pour d\u00e9crire son infrastructure\n* salt-formulas pour un d\u00e9ploiement de services avec du code mutualis\u00e9\n* yamllint pour tester la syntaxe et les conventions du yaml\n* flake8 pour le code python (pep8 compliance) \n* pytest pour tester certains templates jinja\n* doc8 pour tester la documentation d'infrastructure\n* tox pour lancer les tests dans des environnements reproductibles\n* kitchen (ruby) pour piloter le cycle de test (cr\u00e9ation machine virtuelle, application de l'\u00e9tat d\u00e9sir\u00e9, lancement des tests, destruction de la machine virtuelle)\n* testinfra pour \u00e9crire des tests d'infrastructure en python\n* gitlab pour lancer l'ensemble en int\u00e9gration continue",
+  "duration": 2990,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Arthur Lutz"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/6Rj3d8Yh_aA/hqdefault.jpg",
+  "title": "TDID\u00a0\u2212 \u00ab\u202fTest Driven Infrastructure Developpement\u202f\u00bb avec Salt, GitLab, Kitchen et Testinfra",
+  "videos": [
+    {
+      "size": 196967274,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Arthur%20Lutz%20-%20TDID%20-%20%22Test%20Driven%20Infrastructure%20Developpement%22%20avec%20Salt%2C%20GitLab%2C%20Kitchen%20et%20Testinfra/Arthur%20Lutz%20-%20TDID%20-%20%22Test%20Driven%20Infrastructure%20Developpement%22%20avec%20Salt%2C%20GitLab%2C%20Kitchen%20et%20Testinfra.webm"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6Rj3d8Yh_aA"
+    }
+  ]
+}

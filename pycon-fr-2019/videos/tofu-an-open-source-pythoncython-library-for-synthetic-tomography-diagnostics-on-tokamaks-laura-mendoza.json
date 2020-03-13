@@ -1,0 +1,33 @@
+{
+  "description": "Nuclear fusion comes along with great promises of almost limitless energy with little risks and waste. But it also comes with significant scientific and technological complexities. Decades of efforts may find an echo in ITER, an international tokamak being built to address this challenge. A tokamak is a particular kind of advanced experimental nuclear fusion reactor. It is a torus-shaped vacuum vessel in which a hydrogen plasma of very low density is heated up to temperatures (10-100 millions of degrees Celsius) allowing nuclear fusion reactions to occur. The torus-shaped plasma radiates light, which is measured in various wavelength domains by dedicated sets of detectors (called diagnostics), like 2D cameras observing visible light, 1D arrangements of diodes sensitive to X-rays, ultra-violet spectrometers... Due to the torus shape, the plasma is axisymmetric, and like in medical imaging, tomography methods can be used to diagnose the light radiated in a plasma cross-section.\nFor all diagnostics, one can seek to solve the direct or the inverse problem. The direct problem consists in computing the measurements from a known plasma light emissivity, provided by a plasma simulation for example. \nThe inverse problem consists in computing the plasma light emissivity from experimental measurements. The algorithms involved in solving both the direct and inverse problem are very similar, no matter the wavelength domain.\n\nLike many, the fusion community tends to suffer from a lack of reproducibility of the results it publishes. This problem is particularly acute in the case of tomography diagnostics since the inverse problem is ill-posed and the solution unicity is not guaranteed. There are also many possible simplifying hypotheses that may, or may not, be relevant for each diagnostic. In this regard, the historical uses of the community display a large variety of single-user black-box codes, each typically designed by a student, and often forgotten or left as is until a new student is hired and starts all over again.\n\nIn this context, a machine-independent, open-source and documented python library, ToFu, was started to provide the fusion community with a common and free reference tool. \nWe thus aim at improving reproducibility by providing a known and transparent tool, able to efficiently solve both the direct and inverse problem for tomography diagnostics. It can use very simple hypothesis or very complete diagnostics descriptions alike, one of the ideas being that it should allow users to perform accurate calculations easily, sparing them the need to simplify hypotheses that are not always valid.\n\nA zero version of tofu, fully operational but not user-friendly enough, was first developed between 2014 and 2016 when it was used for published results. Strong with this first proof of principle, a significant effort was initiated in 2017 to completely re-write the code with a stronger emphasis on python community standards (PEP8), version control (Github), performance (cython), packaging (pip and conda), continuous integration (nosetests and travis), modularity (architecture refurbishing), user-friendliness (renamings, utility tools) and object-oriented coding (class inheritance). \nThis effort is still ongoing to this day and is scheduled to go on for the next 2.5 years. However, the first milestones have been reached, and we would like to present the first re-written modules to the python community, for publicity, advice, feedback, mutually enriching exchanges and more generally because we feel tofu is part of the large open-source python scientific community.\n\nThe code is composed of several modules: a geometry module, a data visualization module, a meshing module, and an inversion module. We will present the geometry module (containing ray-tracing tools, spatial integration algorithms...) and the data module (making use of ``matplotlib`` for pre-defined interactive figures). Using profiling tools, the numerical core of the geometry module was optimized and parallelized recently in ``Cython`` making the code more than ten thousand times faster than the previous version on some test cases. Memory usage has also been reduced by half on the largest test cases.",
+  "duration": 3222,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Laura Mendoza"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/A5aFZnHgIP8/hqdefault.jpg",
+  "title": "ToFu \u2212 An Open-Source Python/Cython Library for Synthetic Tomography Diagnostics on Tokamaks",
+  "videos": [
+    {
+      "size": 252544465,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Laura%20Mendoza%20-%20ToFu%20-%20An%20Open-Source%20Python-Cython%20Library%20for%20Synthetic%20Tomography%20Diagnostics%20on%20Tokamaks/Laura%20Mendoza%20-%20ToFu%20-%20An%20Open-Source%20Python-Cython%20Library%20for%20Synthetic%20Tomography%20Diagnostics%20on%20Tokamaks.webm"
+    },
+    {
+      "size": 1750142247,
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-19/Laura%20Mendoza%20-%20ToFu%20-%20An%20Open-Source%20Python-Cython%20Library%20for%20Synthetic%20Tomography%20Diagnostics%20on%20Tokamaks/Laura%20Mendoza%20-%20ToFu%20-%20An%20Open-Source%20Python-Cython%20Library%20for%20Synthetic%20Tomography%20Diagnostics%20on%20Tokamaks.mp4"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=A5aFZnHgIP8"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "mots cl\u00e9s: Python gRPC micro-services NPL Spacy packaging architecture Docker\n\nApr\u00e8s une (courte) pr\u00e9sentation du framework Google gRPC (paradigmes, protocoles, API de communications, ...), on s'int\u00e9ressera \u00e0 son binding sp\u00e9cifique Python.\nOn pr\u00e9sentera une utilisation (concr\u00e8te) des outils du framework gRPC (Python) via le d\u00e9veloppement d'une (mini) application Python.\nL'application permet d'analyser des contenus textes (texte associ\u00e9 \u00e0 des tweets).\nCette analyse (s\u00e9mantique) s'appuie sur des outils (python) de NPL (Natural Processing Langage).\nL'\u00e9tude (du d\u00e9veloppement) de cette application nous offre un cadre de (semi)production,\n\u00e0 travers lequel on pourra aborder des consid\u00e9rations de production (ou mise en production) d'applications python.\nOn s'int\u00e9ressera particuli\u00e8rement \u00e0 des notions d'architecture et (un peu) d'infras:\n\n* propositions de strat\u00e9gie de packaging/structuration/versionnement de projets python avec micros-services\n* tests unitaires: comment tester des micro-services gRPC ? (framework de tests: PyTest)\n* docker: outils de dev, containeurs de production, strat\u00e9gie de releases\n* CI/CD: CircleCI, TravisCI",
+  "duration": 2135,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Lionel Atty"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/99uF4pfXmDI/hqdefault.jpg",
+  "title": "gRPC/Python\u202f: Exemple pratique d'utilisation de micro-services pour une (mini) application d'analyse s\u00e9mantique de textes (NPL)",
+  "videos": [
+    {
+      "size": 273805595,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Lionel%20Atty%20-%20gRPC-AME%3A%20utilisation%20de%20micro-services%20pour%20une%20%28mini%29%20application%20d%27analyse%20semantique%20de%20textes%20%28NPL%29/Lionel%20Atty%20-%20gRPC-AME%3A%20utilisation%20de%20micro-services%20pour%20une%20%28mini%29%20application%20d%27analyse%20semantique%20de%20textes%20%28NPL%29.webm"
+    },
+    {
+      "size": 855325496,
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-19/Lionel%20Atty%20-%20gRPC-AME%3A%20utilisation%20de%20micro-services%20pour%20une%20%28mini%29%20application%20d%27analyse%20semantique%20de%20textes%20%28NPL%29/Lionel%20Atty%20-%20gRPC-AME%3A%20utilisation%20de%20micro-services%20pour%20une%20%28mini%29%20application%20d%27analyse%20semantique%20de%20textes%20%28NPL%29.mp4"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=99uF4pfXmDI"
+    }
+  ]
+}

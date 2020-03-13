@@ -1,0 +1,33 @@
+{
+  "description": "Oslandia est un prestataire de service sp\u00e9cialis\u00e9 en architecture SIG (Syst\u00e8mes d'Information G\u00e9ographique) et en d\u00e9veloppement Open Source utilisant Python au quotidien. Dans le cadre de notre activit\u00e9 de R&D, nous avons \u00e9t\u00e9 amen\u00e9s \u00e0 d\u00e9velopper un programme pour la segmentation automatique de nuages de points en 3D.\n\nLa pr\u00e9sentation sera l'occasion de faire un retour sur ce projet, entre description du contexte du projet, d\u00e9veloppement en Python, et construction d'algorithme de machine learning.\n\nTout d'abord, un besoin m\u00e9tier : en environnement montagneux, il convient donc de ma\u00eetriser les risques d'\u00e9boulement en r\u00e9pondant \u00e0 une question tr\u00e8s simple : *de quoi sont constitu\u00e9es les falaises* ? Ensuite, tr\u00e8s vite, un constat douloureux : impossible de faire de l'apprentissage supervis\u00e9 sans donn\u00e9es labellis\u00e9es (exit le Deep Learning...).\n\n\u00c0 partir de prises de vue photogramm\u00e9triques, nous d\u00e9taillerons le petit pipeline de traitement de donn\u00e9es d\u00e9velopp\u00e9 pour l'occasion, qui mobilise des biblioth\u00e8ques telles que `laspy`, `pandas` ou encore `scikit-learn`. Compte tenu des quantit\u00e9s de donn\u00e9es mobilis\u00e9es, une bonne touche de `multiprocessing` agr\u00e9mentera aussi un expos\u00e9 o\u00f9 la question des performances aura une place de choix.",
+  "duration": 1668,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Raphael Delhome"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZAablsmrES8/hqdefault.jpg",
+  "title": "Classification automatique de nuage de points en 3D\u202f: dessine-moi une falaise\u202f!",
+  "videos": [
+    {
+      "size": 668946555,
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-19/Raphael%20Delhome%20-%20Classification%20automatique%20de%20nuage%20de%20points%20en%203D%20-%20dessine-moi%20une%20falaise%20%21/Raphael%20Delhome%20-%20Classification%20automatique%20de%20nuage%20de%20points%20en%203D%20-%20dessine-moi%20une%20falaise%20%21.mp4"
+    },
+    {
+      "size": 158650136,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Raphael%20Delhome%20-%20Classification%20automatique%20de%20nuage%20de%20points%20en%203D%20-%20dessine-moi%20une%20falaise%20%21/Raphael%20Delhome%20-%20Classification%20automatique%20de%20nuage%20de%20points%20en%203D%20-%20dessine-moi%20une%20falaise%20%21.webm"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZAablsmrES8"
+    }
+  ]
+}

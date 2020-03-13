@@ -1,0 +1,33 @@
+{
+  "description": "Did you know American singer/songwriter Joan Baez has a near-homonym in Colombia, Joan B\u00e1ez, who plays progressive rock?\nDid you know there are (at least) two bands called Aggression that play thrash metal?\nJazzman Avishai Cohen, anyone? There are two contemporary jazz musicians who go by that name.\n\nAt Deezer, the data we receive from music labels is often ambiguous. And if we display an album in the wrong artist page, users get (rightfully!) mad and may turn to the competition the next time they want to listen to their favorite tracks.\n\nIn this talk, I'll present some of the techniques we use to verify our metadata and fix our music catalog.\nWe leverage several metadata sources to consolidate a \"source of truth\" which then helps us spot & correct errors in our database.\nWe'll explore topics like record linkage, bag-of-words, TF-IDF, graph algorithms and community detections. All of this in Python using scikit-learn, scipy and networkx.\n\nSlides available at https://speakerdeck.com/ptrmbrth/how-to-trust-music-metadata-pycon-fr-2019",
+  "duration": 2024,
+  "language": "fra",
+  "recorded": "2019-11-02",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2019/fr/schedule.html"
+    }
+  ],
+  "speakers": [
+    "Paul Tremberth"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/v_H_QENcito/hqdefault.jpg",
+  "title": "Comment faire confiance aux m\u00e9tadonn\u00e9es de musique",
+  "videos": [
+    {
+      "size": 834943486,
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-19/Paul%20Tremberth%20-%20Comment%20faire%20confiance%20aux%20metadonnees%20de%20musique/Paul%20Tremberth%20-%20Comment%20faire%20confiance%20aux%20metadonnees%20de%20musique.mp4"
+    },
+    {
+      "size": 171693796,
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-19/Paul%20Tremberth%20-%20Comment%20faire%20confiance%20aux%20metadonnees%20de%20musique/Paul%20Tremberth%20-%20Comment%20faire%20confiance%20aux%20metadonnees%20de%20musique.webm"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=v_H_QENcito"
+    }
+  ]
+}
