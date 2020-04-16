@@ -3,19 +3,37 @@
   "description": "Test Fast, Fix More \u2013 Property based in Python testing with Hypothesis Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture.  In this talk I will focus on a wonderful Python library called Hypothesis but the concepts apply to other languages as well. Hypethesis is based on the same concept as the famous QuickCheck library for Haskell, which in turn have been ported a large number of languages. Hypothesis uses a wide range of input to find edge cases that you could otherwise easily miss, once it finds these cases it narrows down the input to the minimal breaking example to provide failures which are easier to understand.",
   "duration": 1605,
   "language": "eng",
-  "recorded": "2019-10-31",
+  "recorded": "2019-11-01",
   "related_urls": [
     {
       "label": "Conference schedule",
       "url": "http://www.pycon.se/index.html#talks"
+    },
+    {
+      "label": "Slides",
+      "url": "https://slides.com/hultner/pycon-se-2019/fullscreen#/"
+    },
+    {
+      "label": "@ahultner on Twitter",
+      "url": "https://twitter.com/ahultner"
+    },
+    {
+      "label": "Additional information",
+      "url": "https://hultner.se/Test-faster-fix-more/"
+    },
+    {
+      "label": "Github repository",
+      "url": "https://github.com/Hultner/Test-faster-fix-more/"
     }
   ],
   "speakers": [
-    "Alexander Hult\u00e9r"
+    "Alexander Hultn\u00e9r"
   ],
   "tags": [
     "hypothesis",
-    "testing"
+    "testing",
+    "pytest",
+    "propety based testing"
   ],
   "thumbnail_url": "https://i.ytimg.com/vi/MKf6KfdTems/maxresdefault.jpg",
   "title": "Test Fast, Fix More - Property based testing with Hypothesis",
