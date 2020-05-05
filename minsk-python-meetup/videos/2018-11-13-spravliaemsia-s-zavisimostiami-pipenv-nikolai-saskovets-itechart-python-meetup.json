@@ -1,73 +1,60 @@
 {
-  "copyright_text": null,
-  "description": "Почему стоит обратить внимание на Pipenv и попробовать его, если вы всё ещё используете старый добрый pip.\nPipenv — это молодой проект, который реализует удобную работу с виртуальными окружениями и работу с Pipfile. Pipfile — это новый подход в управлении зависимостями в python-проектах, который рано или поздно заменит старый и широко распространённый подход с requirements.txt.\nВ видео описаны как основы работы с Pipenv и Pipfile, так и некоторые его особенности. Будут рассмотрены имеющиеся на данный момент препятствия и способы преодоления некоторых из этих препятствий.\n\nPython Meetup - встречи минского сообщества любителей языка программирования Python.\nПрисоединяйся к нам!\nМы на youtube: https://www.youtube.com/channel/UCxI3LMtt1tVSwYs0Vstus8w\nМы на Facebook: https://www.facebook.com/MinskPythonMeetup/\nМы в Telegram: https://t.me/minsk_python\nМы на github: https://goo.gl/n571V7\n\nСпасибо за поддержку сообщества компании iTechArt Group.\niTechArt Group – это более 1200 специалистов в сфере разработки, сервисной поддержки программных продуктов, модернизации и интеграции бизнес-приложений.\nДля iTechArt Python – одна из самых прогрессивных и гибких технологий разработки. В компании было реализовано множество успешных бизнес-приложений в сфере электронной торговли, здоровья и фитнеса, путешествий. Именно поэтому iTechArt не могла остаться равнодушной к будущему сообщества, которое помогает развиваться Python-специалистам, дает возможность найти ответы на волнующие вопросы, обсудить последние тренды и найти правильное решение.\nhttps://www.itechart.by/",
-  "duration": 1671,
-  "language": "rus",
-  "recorded": "2018-12-04",
-  "related_urls": [
-    {
-      "label": "Telegram",
-      "url": "https://t.me/minsk_python"
-    },
-    {
-      "label": "GitHub",
-      "url": "https://github.com/minskpython"
-    },
-    {
-      "label": "Facebook",
-      "url": "https://www.facebook.com/MinskPythonMeetup"
-    },
-    {
-      "label": "Minsk Coding Dojo",
-      "url": "https://github.com/minsk-python-dojo"
-    },
-    {
-      "label": "https://goo.gl/n571V7",
-      "url": "https://goo.gl/n571V7"
-    },
-    {
-      "label": "https://t.me/minsk_python",
-      "url": "https://t.me/minsk_python"
-    },
-    {
-      "label": "https://www.itechart.by/",
-      "url": "https://www.itechart.by/"
-    },
-    {
-      "label": "https://www.youtube.com/channel/UCxI3LMtt1tVSwYs0Vstus8w",
-      "url": "https://www.youtube.com/channel/UCxI3LMtt1tVSwYs0Vstus8w"
-    },
-    {
-      "label": "https://www.facebook.com/MinskPythonMeetup/",
-      "url": "https://www.facebook.com/MinskPythonMeetup/"
-    }
-  ],
-  "speakers": [
-    "Николай Сасковец"
-  ],
-  "tags": [
-    "Belarus",
-    "Minsk",
-    "Minsk Python",
-    "Minsk Python Meetup",
-    "Pipenv",
-    "Pipfile",
-    "Python",
-    "Python Meetup",
-    "iTechArt",
-    "pip",
-    "requirements",
-    "requirements.txt",
-    "txt",
-    "Николай Сасковец",
-    "Сасковец"
-  ],
-  "thumbnail_url": "https://i.ytimg.com/vi/4lW2iZz7WBc/maxresdefault.jpg",
-  "title": "Справляемся с зависимостями: Pipenv",
-  "videos": [
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=4lW2iZz7WBc"
-    }
-  ]
+    "copyright_text": null,
+    "description": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0441\u0442\u043e\u0438\u0442 \u043e\u0431\u0440\u0430\u0442\u0438\u0442\u044c \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 Pipenv \u0438 \u043f\u043e\u043f\u0440\u043e\u0431\u043e\u0432\u0430\u0442\u044c \u0435\u0433\u043e, \u0435\u0441\u043b\u0438 \u0432\u044b \u0432\u0441\u0451 \u0435\u0449\u0451 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0435 \u0441\u0442\u0430\u0440\u044b\u0439 \u0434\u043e\u0431\u0440\u044b\u0439 pip.\nPipenv \u2014 \u044d\u0442\u043e \u043c\u043e\u043b\u043e\u0434\u043e\u0439 \u043f\u0440\u043e\u0435\u043a\u0442, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0440\u0435\u0430\u043b\u0438\u0437\u0443\u0435\u0442 \u0443\u0434\u043e\u0431\u043d\u0443\u044e \u0440\u0430\u0431\u043e\u0442\u0443 \u0441 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u043e\u043a\u0440\u0443\u0436\u0435\u043d\u0438\u044f\u043c\u0438 \u0438 \u0440\u0430\u0431\u043e\u0442\u0443 \u0441 Pipfile. Pipfile \u2014 \u044d\u0442\u043e \u043d\u043e\u0432\u044b\u0439 \u043f\u043e\u0434\u0445\u043e\u0434 \u0432 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0438 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044f\u043c\u0438 \u0432 python-\u043f\u0440\u043e\u0435\u043a\u0442\u0430\u0445, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0440\u0430\u043d\u043e \u0438\u043b\u0438 \u043f\u043e\u0437\u0434\u043d\u043e \u0437\u0430\u043c\u0435\u043d\u0438\u0442 \u0441\u0442\u0430\u0440\u044b\u0439 \u0438 \u0448\u0438\u0440\u043e\u043a\u043e \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0451\u043d\u043d\u044b\u0439 \u043f\u043e\u0434\u0445\u043e\u0434 \u0441 requirements.txt.\n\u0412 \u0432\u0438\u0434\u0435\u043e \u043e\u043f\u0438\u0441\u0430\u043d\u044b \u043a\u0430\u043a \u043e\u0441\u043d\u043e\u0432\u044b \u0440\u0430\u0431\u043e\u0442\u044b \u0441 Pipenv \u0438 Pipfile, \u0442\u0430\u043a \u0438 \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0435\u0433\u043e \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438. \u0411\u0443\u0434\u0443\u0442 \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u044b \u0438\u043c\u0435\u044e\u0449\u0438\u0435\u0441\u044f \u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u043f\u0440\u0435\u043f\u044f\u0442\u0441\u0442\u0432\u0438\u044f \u0438 \u0441\u043f\u043e\u0441\u043e\u0431\u044b \u043f\u0440\u0435\u043e\u0434\u043e\u043b\u0435\u043d\u0438\u044f \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0438\u0437 \u044d\u0442\u0438\u0445 \u043f\u0440\u0435\u043f\u044f\u0442\u0441\u0442\u0432\u0438\u0439.\n\nPython Meetup - \u0432\u0441\u0442\u0440\u0435\u0447\u0438 \u043c\u0438\u043d\u0441\u043a\u043e\u0433\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u043b\u044e\u0431\u0438\u0442\u0435\u043b\u0435\u0439 \u044f\u0437\u044b\u043a\u0430 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f Python.\n\u041f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0439\u0441\u044f \u043a \u043d\u0430\u043c!\n\u041c\u044b \u043d\u0430 youtube: https://www.youtube.com/channel/UCxI3LMtt1tVSwYs0Vstus8w\n\u041c\u044b \u043d\u0430 Facebook: https://www.facebook.com/MinskPythonMeetup/\n\u041c\u044b \u0432 Telegram: https://t.me/minsk_python\n\u041c\u044b \u043d\u0430 github: https://goo.gl/n571V7\n\n\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 iTechArt Group.\niTechArt Group \u2013 \u044d\u0442\u043e \u0431\u043e\u043b\u0435\u0435 1200 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u043e\u0432 \u0432 \u0441\u0444\u0435\u0440\u0435 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438, \u0441\u0435\u0440\u0432\u0438\u0441\u043d\u043e\u0439 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u044b\u0445 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432, \u043c\u043e\u0434\u0435\u0440\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439.\n\u0414\u043b\u044f iTechArt Python \u2013 \u043e\u0434\u043d\u0430 \u0438\u0437 \u0441\u0430\u043c\u044b\u0445 \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u044b\u0445 \u0438 \u0433\u0438\u0431\u043a\u0438\u0445 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438. \u0412 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0431\u044b\u043b\u043e \u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043e \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0445 \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0432 \u0441\u0444\u0435\u0440\u0435 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u0438, \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0438 \u0444\u0438\u0442\u043d\u0435\u0441\u0430, \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0439. \u0418\u043c\u0435\u043d\u043d\u043e \u043f\u043e\u044d\u0442\u043e\u043c\u0443 iTechArt \u043d\u0435 \u043c\u043e\u0433\u043b\u0430 \u043e\u0441\u0442\u0430\u0442\u044c\u0441\u044f \u0440\u0430\u0432\u043d\u043e\u0434\u0443\u0448\u043d\u043e\u0439 \u043a \u0431\u0443\u0434\u0443\u0449\u0435\u043c\u0443 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044c\u0441\u044f Python-\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0430\u043c, \u0434\u0430\u0435\u0442 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u0439\u0442\u0438 \u043e\u0442\u0432\u0435\u0442\u044b \u043d\u0430 \u0432\u043e\u043b\u043d\u0443\u044e\u0449\u0438\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b, \u043e\u0431\u0441\u0443\u0434\u0438\u0442\u044c \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u0442\u0440\u0435\u043d\u0434\u044b \u0438 \u043d\u0430\u0439\u0442\u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u0435.\nhttps://www.itechart.by/",
+    "duration": 1671,
+    "language": "rus",
+    "recorded": "2018-12-04",
+    "related_urls": [
+        {
+            "label": "Telegram",
+            "url": "https://t.me/minsk_python"
+        },
+        {
+            "label": "GitHub",
+            "url": "https://github.com/minskpython"
+        },
+        {
+            "label": "Facebook",
+            "url": "https://www.facebook.com/MinskPythonMeetup"
+        },
+        {
+            "label": "Minsk Coding Dojo",
+            "url": "https://github.com/minsk-python-dojo"
+        },
+        {
+            "label": "https://goo.gl/n571V7",
+            "url": "https://goo.gl/n571V7"
+        },
+        {
+            "label": "https://t.me/minsk_python",
+            "url": "https://t.me/minsk_python"
+        },
+        {
+            "label": "https://www.itechart.by/",
+            "url": "https://www.itechart.by/"
+        },
+        {
+            "label": "https://www.youtube.com/channel/UCxI3LMtt1tVSwYs0Vstus8w",
+            "url": "https://www.youtube.com/channel/UCxI3LMtt1tVSwYs0Vstus8w"
+        },
+        {
+            "label": "https://www.facebook.com/MinskPythonMeetup/",
+            "url": "https://www.facebook.com/MinskPythonMeetup/"
+        }
+    ],
+    "speakers": [
+        "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u0421\u0430\u0441\u043a\u043e\u0432\u0435\u0446"
+    ],
+    "tags": [
+        "belarus",
+        "minsk"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/4lW2iZz7WBc/maxresdefault.jpg",
+    "title": "\u0421\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u0441\u044f \u0441 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044f\u043c\u0438: Pipenv",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=4lW2iZz7WBc"
+        }
+    ]
 }

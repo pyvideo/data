@@ -1,67 +1,56 @@
 {
-  "copyright_text": null,
-  "description": "Знакомство с Hy / Андрей Жлобич / Web Developer Wargaming\nЯзык Hy – это новый диалект Lisp, транслируемый в Python AST. При его использовании разработчик может работать с любыми Python-библиотеками и фреймворки, а гомоиконная природа Lisp позволяет взаимодействовать с кодом как с данными, что полезно при написании DSL. Андрей рассказывает о том, что такое Hy и каковы его преимущества и недостатки.\nПрезентация: http://www.slideshare.net/MinskPythonMeetup/ss-46157207\n\nPython Meetup - встречи минского сообщества любителей языка программирования Python.\nПрисоединяйся к нам!\nМы в twitter: https://twitter.com/pythonminsk\nМы на youtube: http://www.youtube.com/pythonMinsk\nМы на slideshare: http://www.slideshare.net/MinskPythonMeetup",
-  "duration": 1464,
-  "language": "rus",
-  "recorded": "2015-03-25",
-  "related_urls": [
-    {
-      "label": "Telegram",
-      "url": "https://t.me/minsk_python"
-    },
-    {
-      "label": "GitHub",
-      "url": "https://github.com/minskpython"
-    },
-    {
-      "label": "Facebook",
-      "url": "https://www.facebook.com/MinskPythonMeetup"
-    },
-    {
-      "label": "Minsk Coding Dojo",
-      "url": "https://github.com/minsk-python-dojo"
-    },
-    {
-      "label": "https://twitter.com/pythonminsk",
-      "url": "https://twitter.com/pythonminsk"
-    },
-    {
-      "label": "http://www.slideshare.net/MinskPythonMeetup/ss-46157207",
-      "url": "http://www.slideshare.net/MinskPythonMeetup/ss-46157207"
-    },
-    {
-      "label": "http://www.slideshare.net/MinskPythonMeetup",
-      "url": "http://www.slideshare.net/MinskPythonMeetup"
-    },
-    {
-      "label": "http://www.youtube.com/pythonMinsk",
-      "url": "http://www.youtube.com/pythonMinsk"
-    }
-  ],
-  "speakers": [
-    "Андрей Жлобич"
-  ],
-  "tags": [
-    "Belarus",
-    "Hy",
-    "Meetup",
-    "Minsk",
-    "Programming",
-    "Python",
-    "Python (Programming Language)",
-    "Python Meetup",
-    "Wargaming",
-    "Андрей",
-    "Андрей Жлобич",
-    "Жлобич",
-    "знакомство"
-  ],
-  "thumbnail_url": "https://i.ytimg.com/vi/o8Ns3oGdO6Y/maxresdefault.jpg",
-  "title": "Знакомство с Hy",
-  "videos": [
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=o8Ns3oGdO6Y"
-    }
-  ]
+    "copyright_text": null,
+    "description": "\u0417\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 Hy / \u0410\u043d\u0434\u0440\u0435\u0439 \u0416\u043b\u043e\u0431\u0438\u0447 / Web Developer Wargaming\n\u042f\u0437\u044b\u043a Hy \u2013 \u044d\u0442\u043e \u043d\u043e\u0432\u044b\u0439 \u0434\u0438\u0430\u043b\u0435\u043a\u0442 Lisp, \u0442\u0440\u0430\u043d\u0441\u043b\u0438\u0440\u0443\u0435\u043c\u044b\u0439 \u0432 Python AST. \u041f\u0440\u0438 \u0435\u0433\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u043c\u043e\u0436\u0435\u0442 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0441 \u043b\u044e\u0431\u044b\u043c\u0438 Python-\u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430\u043c\u0438 \u0438 \u0444\u0440\u0435\u0439\u043c\u0432\u043e\u0440\u043a\u0438, \u0430 \u0433\u043e\u043c\u043e\u0438\u043a\u043e\u043d\u043d\u0430\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u0430 Lisp \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0441 \u043a\u043e\u0434\u043e\u043c \u043a\u0430\u043a \u0441 \u0434\u0430\u043d\u043d\u044b\u043c\u0438, \u0447\u0442\u043e \u043f\u043e\u043b\u0435\u0437\u043d\u043e \u043f\u0440\u0438 \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u0438\u0438 DSL. \u0410\u043d\u0434\u0440\u0435\u0439 \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u043e \u0442\u043e\u043c, \u0447\u0442\u043e \u0442\u0430\u043a\u043e\u0435 Hy \u0438 \u043a\u0430\u043a\u043e\u0432\u044b \u0435\u0433\u043e \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u0438 \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043a\u0438.\n\u041f\u0440\u0435\u0437\u0435\u043d\u0442\u0430\u0446\u0438\u044f: http://www.slideshare.net/MinskPythonMeetup/ss-46157207\n\nPython Meetup - \u0432\u0441\u0442\u0440\u0435\u0447\u0438 \u043c\u0438\u043d\u0441\u043a\u043e\u0433\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u043b\u044e\u0431\u0438\u0442\u0435\u043b\u0435\u0439 \u044f\u0437\u044b\u043a\u0430 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f Python.\n\u041f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0439\u0441\u044f \u043a \u043d\u0430\u043c!\n\u041c\u044b \u0432 twitter: https://twitter.com/pythonminsk\n\u041c\u044b \u043d\u0430 youtube: http://www.youtube.com/pythonMinsk\n\u041c\u044b \u043d\u0430 slideshare: http://www.slideshare.net/MinskPythonMeetup",
+    "duration": 1464,
+    "language": "rus",
+    "recorded": "2015-03-25",
+    "related_urls": [
+        {
+            "label": "Telegram",
+            "url": "https://t.me/minsk_python"
+        },
+        {
+            "label": "GitHub",
+            "url": "https://github.com/minskpython"
+        },
+        {
+            "label": "Facebook",
+            "url": "https://www.facebook.com/MinskPythonMeetup"
+        },
+        {
+            "label": "Minsk Coding Dojo",
+            "url": "https://github.com/minsk-python-dojo"
+        },
+        {
+            "label": "https://twitter.com/pythonminsk",
+            "url": "https://twitter.com/pythonminsk"
+        },
+        {
+            "label": "http://www.slideshare.net/MinskPythonMeetup/ss-46157207",
+            "url": "http://www.slideshare.net/MinskPythonMeetup/ss-46157207"
+        },
+        {
+            "label": "http://www.slideshare.net/MinskPythonMeetup",
+            "url": "http://www.slideshare.net/MinskPythonMeetup"
+        },
+        {
+            "label": "http://www.youtube.com/pythonMinsk",
+            "url": "http://www.youtube.com/pythonMinsk"
+        }
+    ],
+    "speakers": [
+        "\u0410\u043d\u0434\u0440\u0435\u0439 \u0416\u043b\u043e\u0431\u0438\u0447"
+    ],
+    "tags": [
+        "belarus",
+        "minsk"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/o8Ns3oGdO6Y/maxresdefault.jpg",
+    "title": "\u0417\u043d\u0430\u043a\u043e\u043c\u0441\u0442\u0432\u043e \u0441 Hy",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=o8Ns3oGdO6Y"
+        }
+    ]
 }
