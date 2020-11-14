@@ -1,0 +1,45 @@
+{
+  "copyright_text": null,
+  "description": "\"So, You Want to Build an Anti-Virus Engine?\nEuroPython 2020 - Talk - 2020-07-23 - Ni\nOnline\n\nBy JunWei Song, KunYu Chen\n\nhttps://github.com/quark-engine/quark-engine\n\nAndroid malware analysis engine is not a new story. Every antivirus company has their own secrets to build it. With python and curiosity, we develop a malware scoring system from the perspective of Taiwan Criminal Law in an easy but solid way.\n\nWe have an order theory of criminal which explains stages of committing a crime. For example, crime of murder consists of five stages, they are determined, conspiracy, preparation, start and practice. The latter the stage the more we\u2019re sure that the crime is practiced.\n\nAccording to the above principle, we developed our order theory of android malware. We develop five stages to see if the malicious activity is being practiced. They are\n\nol\nPermission requested.\nNative API call.\nCertain combination of native API.\nCalling sequence of native API.\nAPIs that handle the same register.\n/ol\n\nWe not only define malicious activities and their stages but also develop weights and thresholds for calculating the threat level of a malware.\n\nMalware evolved with new techniques to gain difficulties for reverse engineering. Obfuscation is one of the most commonly used techniques. In this talk, we present a Dalvik bytecode loader with the order theory of android malware to neglect certain cases of obfuscation.\n\nInspired by the design principles of the CPython interpreter, our Dalvik bytecode loader consists of functionalities such as 1. Finding cross-reference and calling sequence of the native API. 2. Tracing the bytecode register. The combination of these functionalities (yes, the order theory) not only can neglect obfuscation but also match perfectly to the design of our malware scoring system.\n\nFurther, we will also show a case study of Android malware and demonstrate how the obfuscation technique is useless to our engine. Last but not least, we will be open-sourcing everything (Malware Scoring System, Dalvik Bytecode Loader) during our presentation.\n\nAudience\n1. Who is this talk for?\n- Anyone who's interested in cyber security or anyone that wants to know how to build an anti-virus engine with Python.\n\nol\nWhat background knowledge or experience do you expect the audience to have?\nA little of Android application development and malware analysis.\nWhat do you expect the audience to learn or do after watching the talk?\nThe Dalvik bytecode loader is written as a python module, the audiences can use this module to boost up their malware analysis.\nThe malware scoring system can be applied not only to Android malware but also can be applied for PE files or ELF files in other OS. The audience can copy our ideas to extend their work.\nEverything\u2019s open-sourced.\n/ol\n\nOutline\n\nol\nIntroduction of Malware Scoring System.\nFirst, we will detail how we decode Criminal Law to simple principles. For example, principles to define crime, penalty and the order theory of criminal, etc. And then we will detail how do we develop the order theory of android malware and other developed theories that construct the malware scoring.\nDesign Logic of the Dalvik Bytecode Loader.\nOnce the malware scoring system were built, this will discuss the design logic of our Dalvik bytecode loader which includes our obfuscation-neglect module and bytecode register tracing module. We will also detail why the order theory of android malware succeeds at neglecting the obfuscation.\nQuark Engine Practice - Case Study of Android Malware\nNext, we will practice our engine and case study through an android malware. Moreover, we will also demonstrate our obfuscation-neglect technique against obfuscation malware.\nFuture works\nHere, we will discuss the limitations of our engine. For example, the challenge of our Dalvik bytecode loader. Also, we will share our plans of implementing more detection techniques conquering the escape detection of malware.\n/ol\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n\n    \"",
+  "duration": 2501.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "https://github.com/quark-engine/quark-engine",
+      "url": "https://github.com/quark-engine/quark-engine"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/OWeAumHkv7A/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBIARq5NYmmCC7hyeqvhVbYLQUZwg",
+  "title": "JunWei Song, KunYu Chen - So, You Want to Build an Anti-Virus Engine?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OWeAumHkv7A"
+    }
+  ]
+}

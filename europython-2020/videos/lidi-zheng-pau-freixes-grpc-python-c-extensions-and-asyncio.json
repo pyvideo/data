@@ -1,0 +1,41 @@
+{
+  "copyright_text": null,
+  "description": "\"gRPC Python, C Extensions, and AsyncIO\nEuroPython 2020 - Talk - 2020-07-24 - Microsoft\nOnline\n\nBy Lidi Zheng, Pau Freixes\n\nGoal - Encourage Python developers to understand C extensions by sharing gRPC Python\u2019s practice, and advocate the adoption of AsyncIO.\n\nPrerequisite\n- Understand thread vs. process;\n- Interested in asynchronous programming.\n\ngRPC Brief\n- What\u2019s gRPC Core? And what is gRPC Python?\n\nCython To The Rescue\n- Why we picked Cython among all other available tools (e.g., pybind11, ctypes)\n- Debuggability: pdb &amp; gdb\n\nThe GIL Friction\n- How to delegate work to C extension\n- How to make multithreading work\n\nAsyncIO Topic\n- Not blocking the loop, the main headache.\n- Non-blocking I/O solution 1: replacing C libraries\u2019 I/O operations\n- Non-blocking I/O solution 2: dedicated background poller thread\n- Performance improvement (10k - 20k for client, 4k - 16k for server)\n\nMigration to AsyncIO\n- Tolerate multithreading and AsyncIO in the same application\n- Make both API co-existable in the same application\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n\n    \"",
+  "duration": 1446.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VtxdY9YtN-4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCQ3xmtf4ZbT8QnDulzCS1QUCP07Q",
+  "title": "Lidi Zheng, Pau Freixes - gRPC Python, C Extensions, and AsyncIO",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VtxdY9YtN-4"
+    }
+  ]
+}
