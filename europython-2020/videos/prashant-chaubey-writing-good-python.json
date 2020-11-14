@@ -1,41 +1,54 @@
 {
-  "copyright_text": null,
-  "description": "\"Writing Good Python\nEuroPython 2020 - Talk - 2020-07-24 - Brian\nOnline\n\nBy Prashant Chaubey\n\nLike other programming languages, it is easy to write cryptic, unmaintainable, and rigid Python code. Moreover, in teams, this problem escalates due to varied coding styles of developers. How to ensure code quality and consistency? My goal with this talk is to educate my audience about some tools and libraries that can help us in making our code more consistent. \nI was a Software Engineer who wrote Automation systems in Python for some of the fortune 500s. I intend to cover the following major ideas:\n\u2022   What is a high-quality code? How consistency is an important aspect of maintainability?\n\u2022   Ways to achieve consistency in Python\n    o   What is PEP8?\n    o   \u201cpylint\u201d - a source code, bug, and quality checker for python       and follows the style recommended by PEP 8\n    o   What is PEP257? \n    o   \u201cpydocstyle\u201d checks compliance with Python docstring conventions.\n    o   What is PEP484? \n    o   \u201cmypy\u201d provides optional static type checking.\n    o   \u201cbandit\u201d which can find common security issues in Python code.\n    o   \u201cblack\u201d which is a Python source code formatter.\n\u2022   Ways to integrate mentioned tools in development life cycle \n    o   While writing (IDE extensions)\n    o   During commit (pre-commit hooks)\n    o   After push (Build pipelines)\n\u2022   \u201cpre-commit\u201d is a framework for managing and maintaining multi-language pre-commit hooks\n\u2022   Example of an Azure DevOps pipeline integrating all mentioned tools.\npylint, pydocstyle, mypy, bandit, black and pre-commit are available on PyPI. My audience should know how to install Python libraries from PyPi using pip.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n\n    \"",
-  "duration": 1066.0,
-  "language": "eng",
-  "recorded": "2020-07-23",
-  "related_urls": [
-    {
-      "label": "Conference schedule",
-      "url": "https://ep2020.europython.eu/schedule/"
-    },
-    {
-      "label": "Conference Website",
-      "url": "https://ep2020.europython.eu/"
-    },
-    {
-      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-    },
-    {
-      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
-      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
-    }
-  ],
-  "speakers": [
-    "TODO"
-  ],
-  "tags": [
-    "europython",
-    "europython-2020",
-    "europython-online"
-  ],
-  "thumbnail_url": "https://i.ytimg.com/vi/vnCXToWqz3M/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDKe3SDkd75E7dvoqtyEk5JUPw8kw",
-  "title": "Prashant Chaubey - Writing Good Python",
-  "videos": [
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=vnCXToWqz3M"
-    }
-  ]
+    "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+    "description": "Tools and libraries for achieving code consistency\n\nLike other programming languages, it is easy to write cryptic, unmaintainable, and rigid Python code. Moreover, in teams, this problem escalates due to varied coding styles of developers. How to ensure code quality and consistency? My goal with this talk is to educate my audience about some tools and libraries that can help us in making our code more consistent. \r\nI was a Software Engineer who wrote Automation systems in Python for some of the fortune 500s. I intend to cover the following major ideas:\r\n\u2022\tWhat is a high-quality code? How consistency is an important aspect of maintainability?\r\n\u2022\tWays to achieve consistency in Python\r\n\to\tWhat is PEP8?\r\n\to\t\u201cpylint\u201d - a source code, bug, and quality checker for python \t\tand follows the style recommended by PEP 8\r\n\to\tWhat is PEP257? \r\n\to\t\u201cpydocstyle\u201d checks compliance with Python docstring conventions.\r\n\to\tWhat is PEP484? \r\n\to\t\u201cmypy\u201d provides optional static type checking.\r\n\to\t\u201cbandit\u201d which can find common security issues in Python code.\r\n\to\t\u201cblack\u201d which is a Python source code formatter.\r\n\u2022\tWays to integrate mentioned tools in development life cycle \r\n\to\tWhile writing (IDE extensions)\r\n\to\tDuring commit (pre-commit hooks)\r\n\to\tAfter push (Build pipelines)\r\n\u2022\t\u201cpre-commit\u201d is a framework for managing and maintaining multi-language pre-commit hooks\r\n\u2022\tExample of an Azure DevOps pipeline integrating all mentioned tools.\r\npylint, pydocstyle, mypy, bandit, black and pre-commit are available on PyPI. My audience should know how to install Python libraries from PyPi using pip.",
+    "duration": 1066.0,
+    "language": "eng",
+    "recorded": "2020-07-23",
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://ep2020.europython.eu/schedule/"
+        },
+        {
+            "label": "Conference Website",
+            "url": "https://ep2020.europython.eu/"
+        },
+        {
+            "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        },
+        {
+            "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+            "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+        },
+        {
+            "label": "Talk URL",
+            "url": "/schedule/24-july?selected=4SKFTZa-writing-good-python"
+        },
+        {
+            "label": "Slides",
+            "url": "/media/conference/slides/4SKFTZa-writing-good-python.pdf"
+        }
+    ],
+    "speakers": [
+        "Prashant Chaubey"
+    ],
+    "tags": [
+        "europython",
+        "europython-2020",
+        "europython-online",
+        "Best Practice",
+        "Code Analysis",
+        "Documentation",
+        "Static Analysis",
+        "Type-Hinting"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/vnCXToWqz3M/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDKe3SDkd75E7dvoqtyEk5JUPw8kw",
+    "title": "Prashant Chaubey - Writing Good Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=vnCXToWqz3M"
+        }
+    ]
 }
