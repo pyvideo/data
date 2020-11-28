@@ -97,7 +97,7 @@ tags                                   array of strings                       (s
 For a full schema of a video JSON object, please see
 https://github.com/pyvideo/data/blob/master/.schemas/video.json
 
-.. _ISO 639-3: https://en.wikipedia.org/wiki/ISO_639-3
+.. _ISO 639-3: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
 *Requirements of the Description String*
 
