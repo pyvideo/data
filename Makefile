@@ -39,6 +39,10 @@ test-render-rest: install-deps
 test-shape: install-deps
 	$(PY) $(TESTSDIR)/shape.py -d $(BASEDIR) -v $(VERBOSE)
 
-test: test-schemas test-ids-unique test-slugs-unique test-render-rest
+test-languages: install-deps
+	$(PY) $(TESTSDIR)/languages.py -d $(BASEDIR) -v $(VERBOSE)
 
-.PHONY: help test test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape
+
+test: test-schemas test-ids-unique test-slugs-unique test-render-rest test-languages
+
+.PHONY: help test test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape test-languages
