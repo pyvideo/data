@@ -1,0 +1,23 @@
+{
+  "description": "The application and request contexts are key parts of any Flask application, as they control which variables are and are not globally accessible. Understanding how each context works is important when developing Flask applications, and yet they are often misunderstood. This talk dives into how the application and request contexts work when handling a request. The concept of proxies is discussed for providing thread-local access to the application and request contexts. To really illustrate how the application context works, pytest will be utilized to show how the application context works outside of a request. This example shows a common error ('Working outside of application context') during testing and how it should be solved by pushing to the application context stack.",
+  "recorded": "2020-07-04",
+  "related_urls": [
+
+  ],
+  "speakers": [
+    "Patrick Kennedy"
+  ],
+  "tags": [
+    "flask context",
+    "Flask", 
+    "FlaskCon"
+  ],
+  "thumbnail_url": "https://img.youtube.com/vi/fq8y-9UHjyk/default.jpg",
+  "title": " Demystifying Flask's Application and Request Contexts with pytest",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fq8y-9UHjyk"
+    }
+  ]
+}
