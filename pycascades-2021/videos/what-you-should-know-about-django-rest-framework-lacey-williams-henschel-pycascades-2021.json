@@ -1,0 +1,45 @@
+{
+  "copyright_text": "CC BY-NC-SA 4.0",
+  "description": "My goal with this talk is to make Django REST Framework easier and more approachable for developers who are new to DRF. Many people feel that you should start in DRF with the `APIView` and a manual serializer, but I disagree! DRF ships with some powerful tools that make developers' lives easier, and many people never even learn what those tools are. Using the built-in tools like `ModelViewSet`, coupled with always having Classy DRF open in a tab, helped me gain a full understanding of how DRF worked (and a better understanding of how Django worked). \r\n\r\nThis talk is not a DRF tutorial. \r\n\r\n- 1 min: Intro, why the audience can trust me\r\n- 3 min (running total: 4 min): `ModelViewSet` and how it's composed of all the mixins that allow you to perform different operations on your database objects (`CreateModelMixin`, `RetrieveModelMixin`, etc.). \r\n- 2 min (running total: 6 min) The basic attributes that are added to most Viewsets like `permission_classes`, `queryset`, and `serializer_class`. \r\n- 5 min (running total: 11 min) How to override built-in methods to customize behavior, like overriding `get_serializer_class()` to return different serializers for List vs. Detail requests. \r\n- 4 min (running total: 15 min) How to add multiple permission classes to `permission_classes` to create modular permissions. Note: This will not cover how to write custom permission classes, only how to use them. \r\n- 5 min (running total: 20 min) Overview of the generic views, noting how they are also just combinations of the `APIView` and the necessary mixins. Notes on when you might use them (example: you want a viewset that allows all actions except delete) \r\n- 4 min (running total: 24 min) How to customize the API by adding an action to a viewset when you need something different than the built-in CRUD operations \r\n- 1 min (running total: 25 min) Outro, where to find me to ask questions, where to find the slides, links to further learning \r\n\r\nI will be referring to [Classy DRF](http://www.cdrf.co/) throughout the talk. In my experience, many people find the [Classy Class-Based Views](https://ccbv.co.uk/), [Classy DRF](http://www.cdrf.co/), and that family of helper websites confusing, until they learn how to use them. I want to help the audience learn to use these tools. \r\n\r\nNote: This is a new talk for me. I tend to rehearse my talks a lot, so if time is too tight I will know that ahead of time. The section I would cut for time would be \"Overview of the generic views,\" because this idea will be introduced in the `ModelViewSet` section.\n\nAfter three amazing in-person conferences, this time we're moving PyCascades online.\r\n\r\nPyCascades is a regional PyCon in the Pacific Northwest, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.\r\n\r\nVideos are released as CC BY-NC-SA 4.0.\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#pycascades #pycon #python #conference\n\nSat Feb 20 11:05:00 2021 at Prerecorded Talks",
+  "duration": 1647,
+  "language": "eng",
+  "recorded": "2021-02-20",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2021.pycascades.com/program/schedule/"
+    },
+    {
+      "label": "https://ccbv.co.uk/",
+      "url": "https://ccbv.co.uk/"
+    },
+    {
+      "label": "https://pretalx.com/pycascades-2021/talk/NH8C8U/",
+      "url": "https://pretalx.com/pycascades-2021/talk/NH8C8U/"
+    },
+    {
+      "label": "http://www.cdrf.co/",
+      "url": "http://www.cdrf.co/"
+    },
+    {
+      "label": "https://nextdayvideo.com.au",
+      "url": "https://nextdayvideo.com.au"
+    }
+  ],
+  "speakers": [
+    "Lacey Williams Henschel"
+  ],
+  "tags": [
+    "#pycascades#pycon#python#conference",
+    "pycascades",
+    "pycascades2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/06DJBu1zwoY/maxresdefault.webp",
+  "title": "\"What You Should Know About Django REST Framework\" - Lacey Williams Henschel (PyCascades 2021)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=06DJBu1zwoY"
+    }
+  ]
+}

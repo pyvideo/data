@@ -1,0 +1,38 @@
+{
+  "copyright_text": "CC BY-NC-SA 4.0",
+  "description": "Traditionally Jupyter Notebook users have had an excellent experience around exploring code solutions with an interactive development environment. However, the Jupyter Notebook document that\u2019s produced -- the *.ipynb* file -- was not easily testable in the same variety of coding situations as other extension formats like plain *.py* files. For certain situations end-to-end execution tools like papermill allow for testing the entire document as one unit, but individual unittesting of code snippets from the file was difficult or impossible to achieve without exporting to a new format and refactoring.\r\n\r\nNotebooks in recent years have exploded in popularity, with millions of notebooks on github alone. To alleviate the pain point for testing these notebooks, we created a new library called testbook. The testbook library is a unit testing framework for testing code in Jupyter Notebooks with pytest patterns.\r\n\r\nPrevious attempts at unit testing notebooks involved writing the tests in the notebook itself, which was faulty, difficult to read, and even more difficult to maintain. However, testbook allows for unit tests to be run against notebooks in separate test files, hence treating .ipynb files as .py files.\r\n\r\n### Features of the testbook library\r\n\r\n- Write conventional unit tests for Jupyter Notebooks\r\n- Execute all or some specific cells before unit test\r\n- Share kernel context across multiple tests (using pytest fixtures)\r\n- Support for patching objects\r\n- Inject code into Jupyter notebooks\r\n- Works with any unit testing library - unittest, pytest or nose\r\n\r\n### Outline of the talk\r\n\r\n- Brief context about the landscape of Jupyter notebooks - 2 mins\r\n- Context/Rationale behind creating testbook - 5 mins\r\n    - Reproducibility of explored code paths\r\n    - Reliability of re-execution with different inputs\r\n    - Notebooks moving from experimentation to production environments\r\n- Intro to testbook and its features - 15-20 mins\r\n    - Brief demo of testbook (through images / gifs)\r\n    - How testbook works\r\n    - Walkthrough of key features of testbook\r\n        - Showing simple test functions\r\n        - Execute specific cells before test\r\n        - Share kernel context\r\n        - Support for patching objects\r\n- When to use or not use testbook (Who is testbook for) - 2 mins\r\n- Future/Roadmap of testbook - what we have in store for future releases - 1 min\r\n    - Use cases for education and teaching\r\n    - Better support of non-Python kernels\r\n\r\n### Who the talk is for\r\n\r\nThis talk is for anyone has ever worked with Jupyter Notebooks. Common users of notebooks are Data Scientists, Data Engineers, System Automation Engineers, and Teachers.\n\nAfter three amazing in-person conferences, this time we're moving PyCascades online.\r\n\r\nPyCascades is a regional PyCon in the Pacific Northwest, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.\r\n\r\nVideos are released as CC BY-NC-SA 4.0.\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#pycascades #pycon #python #conference\n\nSat Feb 20 16:00:00 2021 at Prerecorded Talks",
+  "duration": 1578,
+  "language": "eng",
+  "recorded": "2021-02-20",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2021.pycascades.com/program/schedule/"
+    },
+    {
+      "label": "https://pretalx.com/pycascades-2021/talk/M3NAHV/",
+      "url": "https://pretalx.com/pycascades-2021/talk/M3NAHV/"
+    },
+    {
+      "label": "https://nextdayvideo.com.au",
+      "url": "https://nextdayvideo.com.au"
+    }
+  ],
+  "speakers": [
+    "Matthew Seal",
+    "Rohit Sanjay"
+  ],
+  "tags": [
+    "#pycascades#pycon#python#conference",
+    "pycascades",
+    "pycascades2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/4BFytJoOmOA/maxresdefault.webp",
+  "title": "\"Unit Testing Jupyter Notebooks - testbook\" - Rohit Sanjay, Matthew Seal (PyCascades 2021)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4BFytJoOmOA"
+    }
+  ]
+}

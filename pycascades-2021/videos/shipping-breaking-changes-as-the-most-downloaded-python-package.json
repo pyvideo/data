@@ -1,0 +1,37 @@
+{
+  "copyright_text": "CC BY-NC-SA 4.0",
+  "description": "The talk will start with a brief introduction into what urllib3 is, what it accomplishes, and why it was created:\r\n\r\n\u201curllib3 is a tool that speaks a special language that lets you download puppy pictures from the Internet\u201d. That language that urllib3 speaks is \u201cHTTP\u201d. HTTP is one of the most important network protocols ever invented, so much so that engineers are rewriting TCP just so cellphones can speak HTTP better and DNS is done over HTTPS because it\u2019s easier to secure HTTP than it is to secure DNS. HTTP is ubiquitous and it\u2019s likely not going away any time soon.\r\n\r\nSo then it matters that Python\u2019s HTTP story is a very good one.  In the beginning Python\u2019s included HTTP library had a few key missing features, like supporting HTTPS for security, redirects, connection pooling, thread safety, multipart encoding, retries, and compression.  All of these features are necessities of an HTTP library and when urllib3 was first written these things weren\u2019t so easy with the standard library, so Andrey created urllib3 in 2008.\r\n\r\nAround that same time came Python 3, things became even tougher because the HTTP library had changed between Python 2 and 3 along with Python\u2019s handling of binary strings. urllib3 juggles all of these nuances to make HTTP easy for users, especially those who were trying to write libraries that also supported Python 2 and 3 to make the migration between the two major versions smoother.\r\n\r\nNow that 12 years have passed, urllib3 is as ubiquitous within the Python ecosystem as HTTP. The package was downloaded over a billion times in the past 12 months, about 3 millions times per day. And with Python 2 riding off into the sunset our team is looking to solve new challenges coming for Python and HTTP.\n\nAfter three amazing in-person conferences, this time we're moving PyCascades online.\r\n\r\nPyCascades is a regional PyCon in the Pacific Northwest, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.\r\n\r\nVideos are released as CC BY-NC-SA 4.0.\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#pycascades #pycon #python #conference\n\nSat Feb 20 16:40:00 2021 at Prerecorded Talks",
+  "duration": 1253,
+  "language": "eng",
+  "recorded": "2021-02-20",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2021.pycascades.com/program/schedule/"
+    },
+    {
+      "label": "https://nextdayvideo.com.au",
+      "url": "https://nextdayvideo.com.au"
+    },
+    {
+      "label": "https://pretalx.com/pycascades-2021/talk/CCS83U/",
+      "url": "https://pretalx.com/pycascades-2021/talk/CCS83U/"
+    }
+  ],
+  "speakers": [
+    "Seth Michael Larson"
+  ],
+  "tags": [
+    "#pycascades#pycon#python#conference",
+    "pycascades",
+    "pycascades2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/o9ESKvkuvXM/maxresdefault.webp",
+  "title": "Shipping Breaking Changes as the Most Downloaded Python Package",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=o9ESKvkuvXM"
+    }
+  ]
+}
