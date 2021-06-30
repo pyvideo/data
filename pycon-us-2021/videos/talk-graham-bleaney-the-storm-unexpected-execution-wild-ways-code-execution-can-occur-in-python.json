@@ -1,0 +1,34 @@
+{
+  "copyright_text": null,
+  "description": "Every Python user knows that you can execute code using eval or exec, but what about yaml or str.format? This talk will take you on a walk through all the weird and wild ways that you can achieve code execution on a Python server (and trust me, I didn\u2019t spoil the surprise by putting the weirdest ones in the description).\n\nThe talk should be equal parts practical and entertaining as we work through both real examples of code execution vulnerabilities found in running code as well as absurd remote code execution exploits. The talk will end on a practical note by explaining how Facebook detects and prevents the exploit vectors we discussed, using an open source Python Static Analyzer called Pysa.\n\nAll demos are available at:\nhttps://github.com/gbleaney/python_security\n\nAttendees are encouraged to download the demos and follow along at home.\n\nTo get started using static analysis to detect the vulnerabilities discussed in this talk, check out:\nhttps://pyre-check.org/docs/pysa-quickstart/",
+  "duration": 1481,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://pyre-check.org/docs/pysa-quickstart/",
+      "url": "https://pyre-check.org/docs/pysa-quickstart/"
+    },
+    {
+      "label": "https://github.com/gbleaney/python_security",
+      "url": "https://github.com/gbleaney/python_security"
+    }
+  ],
+  "speakers": [
+    "Graham Bleaney",
+    "the_storm"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/R1KrPc1IOeE/maxresdefault.webp",
+  "title": "Unexpected Execution: Wild Ways Code Execution can Occur in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=R1KrPc1IOeE"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Few things are more frustrating -- or inefficient -- than having a team of brilliant Python folks get stuck at the initial \"get the data\" stage of a project, because that data is \"trapped\" in a Hive/Spark-based datalake or requires complex SQL queries to assemble. Let's get unstuck, with dask-sql!\n\nPyData tooling and Dask are immensely popular in data pipelines, but the beginning stages of those pipelines -- often involving SQL data extraction from enterprise datalakes -- have traditionally required Java/JVM-based tools, such as Apache Spark.\n\nThat changed in the past year, with the release of dask-sql. Dask-sql empowers Pythonistas with little or no knowledge of the JVM/Hadoop world to create end-to-end data projects.\n\nIn this talk, we'll explore how we can use Python and dask-sql to perform SQL data/feature extraction from datalakes and Hive tables. We'll see how we can immediately refine and use that data for machine learning, analytics, or transformation workloads with our favorite PyData tools.\n\nWe'll also discuss the design of dask-sql: an innovative project that combines battle-tested SQL optimization from Apache Calcite, scalable dataframe operations via Dask, and integration to the enterprise-standard Hive metastore data catalog.\n\nSlides: https://github.com/adbreind/pycon2021-dask-sql",
+  "duration": 1576,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://github.com/adbreind/pycon2021-dask-sql",
+      "url": "https://github.com/adbreind/pycon2021-dask-sql"
+    }
+  ],
+  "speakers": [
+    "Adam Breindel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/z7xKikaScxg/maxresdefault.webp",
+  "title": "Dask-SQL: Empowering Pythonistas for Scalable End-to-End Data Engineering",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=z7xKikaScxg"
+    }
+  ]
+}

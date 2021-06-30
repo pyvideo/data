@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "A phrase that I hear a lot is \"Python is easy to learn, but hard to master\". In a way that's true: Python is easy to learn because its high level of abstraction allows you to focus on the business logic of what you're trying to do instead of the lower-level implementation details.\n\nAt the same time, Python's abstraction isn't magical: Its versatile data model allows you to hook into almost every part of the language to implement objects that behave just as Python's built-in objects do, enabling you to create similarly high-leveled interfaces for your own objects. That's where \"hard to master\" comes in: There is so much to learn that you're never done learning.\n\nIn this talk, I want to entice you to look beyond Python's high-level interface into the wonderful landscape of its data model. I'll do that by explaining one of Python's most \"magical\" features: The automatic insertion of self into methods. Often, to beginners, the insertion of the instance as the first argument to methods is explained as something that Python just does for you: \"Don't worry about it, it just happens!\". More intermediate Python programmers typically get so used to self that they hardly notice it anymore in their function signatures, let alone wonder about what's powering it.\n\nTo explain this bit of Python magic, I\u2019ll give you an informal introduction to something called descriptors. To be sure, this talk isn\u2019t going to be an in-depth discussion of the finer details of the descriptor protocol. Rather, it\u2019s aimed at advanced beginners and intermediate Python developers who are eager to get an idea of what lies beneath the surface of Python. With this talk, I hope to pique your curiosity about the more advanced features of the Python programming language and hopefully give you a glimpse of all the things that are possible.\n\nSlides: https://sebastiaanzeeff.nl/pycon",
+  "duration": 1505,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://sebastiaanzeeff.nl/pycon",
+      "url": "https://sebastiaanzeeff.nl/pycon"
+    }
+  ],
+  "speakers": [
+    "Sebastiaan Zeeff"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/ANLjBsWHshc/maxresdefault.webp",
+  "title": "The magic of \"self\": How Python inserts \"self\" into methods.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ANLjBsWHshc"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "So your Python application is running under asyncio or similar framework-- congratulations! But what does that mean to you? More efficient use of compute resources? Simpler program structure and avoiding callbacks? It should mean even more. Cooperative multitasking opens new doors for inspecting the state of a program at runtime, which has valuable development uses.\n\nThis talk covers how Python's async is useful for \"development views\"-- visualizing and interacting with the state of your running app-- and gives some working examples that run concurrently and don't require intrusive changes to program structure:\n\nremote REPL - open one or more interpreter sessions over HTTP to\ninspect and modify internal state of your app while it's running\ngraphical visualizations - view custom graphical representations of\nstate remotely from a web browser. These are written alongside the\ncode being visualized, and have zero overhead when not observed.\nKeyboard and mouse input is possible too.\nWhat kind of visualizations? For a Python app embedded in a home robot, these might include a local map of obstacles; display of orientation, speed, power usage; low res. camera or depth camera feeds; representations of internal state machines deciding behavior; etc.\n\nSlides: https://docs.google.com/presentation/d/e/2PACX-1vQqzFgzYqKinBkIBMpe20Jv_6pyYN1iTkKrDrOQRlqoMSBg4SyWQRnkGc0hBgTxQN_UteHdDe_Cge5h/pub",
+  "duration": 1579,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://docs.google.com/presentation/d/e/2PACX-1vQqzFgzYqKinBkIBMpe20Jv_6pyYN1iTkKrDrOQRlqoMSBg4SyWQRnkGc0hBgTxQN_UteHdDe_Cge5h/pub",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vQqzFgzYqKinBkIBMpe20Jv_6pyYN1iTkKrDrOQRlqoMSBg4SyWQRnkGc0hBgTxQN_UteHdDe_Cge5h/pub"
+    }
+  ],
+  "speakers": [
+    "John Belmonte"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/olT7ejlv0uE/maxresdefault.webp",
+  "title": "Your app is async so take advantage of it for development!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=olT7ejlv0uE"
+    }
+  ]
+}
