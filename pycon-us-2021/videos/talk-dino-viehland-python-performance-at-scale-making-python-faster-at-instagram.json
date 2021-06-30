@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Python is used in a large number of web sites where the performance of the web tier is a significant cost. There are multiple ways to improve the performance of these applications: improving the Python code itself, moving code out of Python using tools like Cython, and extreme options like directly improving the performance of the Python interpreter.\n\nIn this talk we\u2019ll explore some of the changes we\u2019ve made to the CPython runtime to improve the performance of our workload. We\u2019ll start with a high level overview of our architecture which isn\u2019t atypical for a Python web application and see opportunities and challenges that has provided for optimization. Then we\u2019ll go deep down the rabbit hole and look at common hot spots in the Python runtime and the results we\u2019ve had in reducing the overhead of them.\n\nAlong the way we\u2019ll look at both targeted optimization opportunities and classic techniques such as inline caching, a JIT compiler, and leveraging type annotations for performance. We\u2019ll cover techniques that we\u2019ve proven successful, and ones that are still experimental. We\u2019ll see how these can be applied to the Python runtime and what are the performance results of doing so: overall we\u2019ve seen a 20-30% improvement in our production workload and up to 7x improvement on benchmarks.\n\nSlides: https://www.viehland.com/PyCon_2021.pdf",
+  "duration": 1562,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://www.viehland.com/PyCon_2021.pdf",
+      "url": "https://www.viehland.com/PyCon_2021.pdf"
+    }
+  ],
+  "speakers": [
+    "Dino Viehland"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/xGY45EmhwrE/maxresdefault.webp",
+  "title": "Python Performance at Scale - Making Python Faster at Instagram",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xGY45EmhwrE"
+    }
+  ]
+}

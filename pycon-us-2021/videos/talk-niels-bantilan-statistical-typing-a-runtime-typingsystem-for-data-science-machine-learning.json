@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Data science and machine learning rely on high quality datasets for visualization, statistical inference, and modeling. However, the barriers to testing data processing, analysis, or model-training code are high, even with the extensive tooling that the python ecosystem offers, such as\npandas, pytest, and hypothesis.\n\nTo address this problem, in this talk I define statistical typing as a general concept describing a runtime typing system, which extends primitive data types like bool, str, and float into the class of statistical data types. By providing additional semantics about the properties held by a collection of data points, statistical typing enables us to naturally express types as multivariate schemas. It also enables us to implement schemas as generative data contracts, which serve to both validate data at runtime and generate valid samples for testing purposes.\n\nI'll use pandera, a pandas data testing library, to illustrate how statistical typing makes data testing easier by enabling you to validate real-world data with reusable schemas and isolate units of processing, analysis, and model-training code.\n\nSlides: https://pandera-dev.github.io/pandera-presentations/slides/20210515_pycon_statistical_typing.slides.html",
+  "duration": 1344,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://pandera-dev.github.io/pandera-presentations/slides/20210515_pycon_statistical_typing.slides.html",
+      "url": "https://pandera-dev.github.io/pandera-presentations/slides/20210515_pycon_statistical_typing.slides.html"
+    }
+  ],
+  "speakers": [
+    "Niels Bantilan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/PI5UmKi14cM/maxresdefault.webp",
+  "title": "Statistical Typing: A Runtime TypingSystem for Data Science&Machine Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=PI5UmKi14cM"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "I will use a JupyterLab for the tutorial because it makes a very good teaching tool. You are welcome to use the setup you prefer, i.e editor, IDE, REPL. If you also like to use a JupyterLab, I recommend conda for easy installation. Similarly to virtualenv, conda allows creating isolated environments but allows binary installs for all platforms.\n\nThere are two ways to install Jupyter via conda:\n\n1. Use Minconda. This is a small install and (after you installed it)\nyou can use the command conda to create an environment:\nconda create -n pycon2021py39 python=3.9\nNow you can change into this environment:\nconda activate pycon2021py39. The prompt should change to (pycon2021py39).\nNow you can install JupyterLab: conda install jupyterlab.\n\n2. Install Anaconda and you are ready to go if you don't mind installing\nlots of packages from the scientific field.\n\n3. Install the dependencies:\n* Jupyter Lab 2 conda install jupyterlab\n* more_itertools conda more_itertools\n* toolz conda install toolz\n\n4. Hint: You do all this in one command:\nconda create -n pycon2021py39 python=3.9 jupyterlab more-itertools toolz\n\nYou can create a comparable setup with virtual environments and pip, if you prefer.\n\nWORKING WITCH CONDA ENVIRONMENTS\nAfter creating a new environment, the system might still work with some stale settings. Even when the command which tells you that you are using an executable from your environment, this might actually not be the case. If you see strange behavior using a command line tool in your environment, use hash -r and try again.",
+  "duration": 8874,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    }
+  ],
+  "speakers": [
+    "Mike M\u00fcller"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/8w1mqprAPaI/maxresdefault.webp",
+  "title": "Functional Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8w1mqprAPaI"
+    }
+  ]
+}

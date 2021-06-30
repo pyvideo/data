@@ -1,0 +1,69 @@
+{
+  "copyright_text": null,
+  "description": "Wondering how to keep your application config from getting outdated? Looking for a way to future-proof it in a backwards-compatible manner, keeping previous versions reproducible? Join this talk, we\u2019ll share how declarative configs can be leveraged to make your code maintainable and reproducible at the same time.\n\nTherefore, an overview across the application config landscape is given \u2013 from inputs as cli-args, env-vars, and config-files, to their representations in code, covering serialization & deserialization, type-safety with config-schemas and evolutions. We\u2019ll recommend cherries to pick for a maintainable and expressive declarative config system.\n\nAll code examples are available at\nhttps://github.com/jstriebel/declarative-configs\n\n00:18 *Introduction & Problem Domain*\nhttps://scalableminds.com\nhttps://webknossos.org\nhttps://twitter.com/jostriebel\n\n03:02 *Goals: Maintainability & Reproducability*\n\n*Declarative Configurations and their Pythonic Representations*\n04:16 Toy Experiment\n05:07 Declarative Configuration Exctraction\n06:08 Input Formats, Representations & Deserialization\nhttps://typer.tiangolo.com\nhttps://www.attrs.org\nhttps://cattrs.readthedocs.io\n08:49 Landscape Overview\nBlog Post comparing attrs, dataclasses & pydantic:\nhttps://stefan.sofa-rockers.org/2020/05/29/attrs-dataclasses-pydantic\n\n*Code Examples*\n10:10 Toy Example\n11:08 Split Configuration\n13:46 Type Checking\nhttps://mypy.readthedocs.io/\nhttps://nbqa.readthedocs.io\n15:15 Complex Example with Nested Configurations\n18:45 Evolution of Old Configurations\n\n*Recap & Summary*\n20:15 Schema Versions & Evolutions\n21:04 Experiment Tracking\n21:34 Summary\n\nSlides: https://speakerdeck.com/jstriebel/declarative-configs-for-maintainable-reproducible-code",
+  "duration": 1415,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://scalableminds.com",
+      "url": "https://scalableminds.com"
+    },
+    {
+      "label": "https://mypy.readthedocs.io/",
+      "url": "https://mypy.readthedocs.io/"
+    },
+    {
+      "label": "https://nbqa.readthedocs.io",
+      "url": "https://nbqa.readthedocs.io"
+    },
+    {
+      "label": "https://typer.tiangolo.com",
+      "url": "https://typer.tiangolo.com"
+    },
+    {
+      "label": "https://webknossos.org",
+      "url": "https://webknossos.org"
+    },
+    {
+      "label": "https://cattrs.readthedocs.io",
+      "url": "https://cattrs.readthedocs.io"
+    },
+    {
+      "label": "https://speakerdeck.com/jstriebel/declarative-configs-for-maintainable-reproducible-code",
+      "url": "https://speakerdeck.com/jstriebel/declarative-configs-for-maintainable-reproducible-code"
+    },
+    {
+      "label": "https://stefan.sofa-rockers.org/2020/05/29/attrs-dataclasses-pydantic",
+      "url": "https://stefan.sofa-rockers.org/2020/05/29/attrs-dataclasses-pydantic"
+    },
+    {
+      "label": "https://twitter.com/jostriebel",
+      "url": "https://twitter.com/jostriebel"
+    },
+    {
+      "label": "https://github.com/jstriebel/declarative-configs",
+      "url": "https://github.com/jstriebel/declarative-configs"
+    },
+    {
+      "label": "https://www.attrs.org",
+      "url": "https://www.attrs.org"
+    }
+  ],
+  "speakers": [
+    "Jonathan Striebel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/omhJrT90lXU/maxresdefault.webp",
+  "title": "Using Declarative Configs for Maintainable Reproducible Code",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=omhJrT90lXU"
+    }
+  ]
+}

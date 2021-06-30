@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "The static type system supporting type hints in Python is becoming more expressive with each new PEP, but PEP 544--Protocols: Structural subtyping (static duck typing) is the most important enhancement since type hints were first introduced. The typing.Protocol special class lets you define types in terms of the interface implemented by objects, regardless of type hierarchies, in the spirit of duck typing--but in a way that can be verified by static type checkers and IDEs.\n\nWithout typing.Protocol, it was impossible to correctly annotate many APIs considered Pythonic, including many functions in the standard library itself. In this talk you will learn the concepts and benefits of static duck typing, through actual examples of increasing complexity taken from type hints of standard library functions in the official typeshed project.\n\nSlides: https://speakerdeck.com/ramalho/protocol-keystone-of-python-type-hints",
+  "duration": 1693,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://speakerdeck.com/ramalho/protocol-keystone-of-python-type-hints",
+      "url": "https://speakerdeck.com/ramalho/protocol-keystone-of-python-type-hints"
+    }
+  ],
+  "speakers": [
+    "Luciano Ramalho"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/kDDCKwP7QgQ/maxresdefault.webp",
+  "title": "Protocol: the keystone of type hints",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kDDCKwP7QgQ"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Data validation is checking if data follows certain requirements needed for data pipelines to run reliably. It is used by data scientists and data engineers to preserve the integrity of existing workflows, especially as they get modified. As an example, extreme machine learning predictions can be stopped from being displayed to application users if a new model is bad. Missing data can be flagged if it has the potential to break downstream operations.\n\nAs data volume continues to increase, we will examine how data validation differs between a single-machine setting and a distributed computing setting. We will show what validations become more computationally expensive in Spark and Dask. For large scale data, there is sometimes also a need to apply different validations on different partitions of data. This is currently not feasible with any single library. In this talk, we will show how we can achieve this by combining the strengths of different frameworks.\n\nTo demonstrate the data validation journey, we'll go over a fictitious case study. The data will start small, and we'll apply Pandas-based validations with Pandera and Great Expectations while discussing the pros and cons of each. As data size increases, we'll go over in detail the pain points of transitioning to a distributed setting. We'll show one way to reuse the same Pandas-based validations on Spark and Dask by wrapping them with Fugue.\n\nSlides: https://drive.google.com/file/d/1x3w4pfk8PVw1dcy1717Qi-_kt67xQj-S/view?usp=sharing",
+  "duration": 1552,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://drive.google.com/file/d/1x3w4pfk8PVw1dcy1717Qi-_kt67xQj-S/view?usp=sharing",
+      "url": "https://drive.google.com/file/d/1x3w4pfk8PVw1dcy1717Qi-_kt67xQj-S/view?usp=sharing"
+    }
+  ],
+  "speakers": [
+    "Kevin Kho"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/2AdvBgjO_3Q/maxresdefault.webp",
+  "title": "Large Scale Data Validation (with Spark and Dask)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2AdvBgjO_3Q"
+    }
+  ]
+}

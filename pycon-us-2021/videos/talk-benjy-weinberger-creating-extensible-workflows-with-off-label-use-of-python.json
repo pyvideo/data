@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "Workflow-oriented systems have many uses, including data processing and analysis, ETL, CI/CD, and more. But creating a programmatic interface to a workflow system is a delicate balancing act: we want the API to be flexible enough to support useful work, but also constrained enough that tasks run cooperatively within the larger system.\n\nWe faced this challenge when designing the task API for the Pants build system. We needed to allow custom task code to enjoy the benefits of complex features like caching, concurrency and remote execution, without every task author having to reason about them.\n\nIn this talk we'll show how we found the right balance through unconventional use of Python's type annotations, coroutines, and dataclasses. Combining these seemingly disparate features in the context of a workflow engine allows you to build elegant extensibility APIs with just the right amount of flexibility.\n\nSlides: https://docs.google.com/presentation/d/1aWZjk3tZUp37RDmZZxy0j8OjbatzkuWLfuSh84Lzwfk/edit?usp=sharing",
+  "duration": 1620,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://docs.google.com/presentation/d/1aWZjk3tZUp37RDmZZxy0j8OjbatzkuWLfuSh84Lzwfk/edit?usp=sharing",
+      "url": "https://docs.google.com/presentation/d/1aWZjk3tZUp37RDmZZxy0j8OjbatzkuWLfuSh84Lzwfk/edit?usp=sharing"
+    }
+  ],
+  "speakers": [
+    "Benjy Weinberger"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/HA5gzP4Ncao/maxresdefault.webp",
+  "title": "Creating extensible workflows with off-label use of Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HA5gzP4Ncao"
+    }
+  ]
+}

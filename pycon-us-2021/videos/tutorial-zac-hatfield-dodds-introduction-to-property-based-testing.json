@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Has testing got you down? Ever spent a day writing tests, only to discover that you missed a bug because of some edge case you didn\u2019t know about? Does it ever feel like writing tests is just a formality - that you already know your test cases will pass?\n\nProperty-based testing might be just what you need!\n\nAfter this introduction to property-based testing, you\u2019ll be comfortable with Hypothesis, a friendly but powerful property-based testing library. You\u2019ll also known how to check and enforce robust properties in your code, and will have hands-on experience finding real bugs.\n\nWhere traditional example-based tests require you to write out each exact scenario to check - for example, assert divide(3, 4) == 0.75, property-based tests are generalised and assisted. You describe what kinds of inputs are allowed, write a test that should pass for any of them, and Hypothesis does the rest!\n\nfrom hypothesis import given, strategies as st\n\n@given(a=st.integers(), b=st.integers())\ndef test_divide(a, b):\nresult = a / b\nassert a == b * result\nThere\u2019s the obvious ZeroDivisionError, fixable with b = st.integers().filter(lambda b: b != 0), but there\u2019s another bug lurking. Can you see it? Hypothesis can!",
+  "duration": 4966,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    }
+  ],
+  "speakers": [
+    "Zac Hatfield-Dodds"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/uN6JjpzVsAo/maxresdefault.webp",
+  "title": "Introduction to Property-Based Testing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uN6JjpzVsAo"
+    }
+  ]
+}

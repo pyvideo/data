@@ -1,0 +1,32 @@
+{
+  "copyright_text": null,
+  "description": "Despite the hype cycle, each day machine learning becomes a little less magic and a little more real. Predictions increasingly drive our everyday lives, embedded into more of our everyday applications. To support this creative surge, development teams are evolving, integrating novel open source software and state-of-the-art GPU hardware, and bringing on essential new teammates like data ethicists and machine learning engineers. Software teams are also now challenged to build and maintain codebases that are intentionally not fully deterministic.\n\nThis nondeterminism can manifest in a number of surprising and oftentimes very stressful ways! Successive runs of model training may produce slight but meaningful variations. Data wrangling pipelines turn out to be extremely sensitive to the order in which transformations are applied, and require thoughtful orchestration to avoid leakage. Model hyperparameters that can be tuned independently may have mutually exclusive conditions. Models can also degrade over time, producing increasingly unreliable predictions. Moreover, open source libraries are living, dynamic things; the latest release of your team's favorite library might cause your code to suddenly behave in unexpected ways.\n\nPut simply, as ML becomes more of an expectation than an exception in our industry, testing has never been more important! Fortunately, we are lucky to have a rich open source ecosystem to support us in our journey to build the next generation of apps in a safe, stable way. In this talk we'll share some hard-won lessons, favorite open source packages, and reusable techniques for testing ML software components.\n\nSlides: https://docs.google.com/presentation/d/1Qrg0C5L6-5uQCtkUdqgw5UZPyFoCNJ07LxHWXVAzx2g",
+  "duration": 1601,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://docs.google.com/presentation/d/1Qrg0C5L6-5uQCtkUdqgw5UZPyFoCNJ07LxHWXVAzx2g",
+      "url": "https://docs.google.com/presentation/d/1Qrg0C5L6-5uQCtkUdqgw5UZPyFoCNJ07LxHWXVAzx2g"
+    }
+  ],
+  "speakers": [
+    "Rebecca Bilbro",
+    "Daniel Sollis",
+    "Mark",
+    "Patrick Deziel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/GycRK_K0x2s/maxresdefault.webp",
+  "title": "PyTesting the Limits of Machine Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=GycRK_K0x2s"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "OpenTelemetry nace de la fusi\u00f3n de OpenTracing y OpenCensus, dos proyectos similares que brindan un conjunto de APIs para tracing distribuido y m\u00e9tricas.\n\nEl tracing distribuido nos permite monitorear sistemas distribuidos recolectando informaci\u00f3n de monitoreo que es generada por los diferentes componentes. Para generar esta informaci\u00f3n, los desarrolladores instrumentan las aplicaciones y librer\u00edas introduciendo peque\u00f1as porciones de c\u00f3digo que env\u00edan informaci\u00f3n a un sistema colector que analiza y ensambla todos los datos para dar una visi\u00f3n general de las interacciones de los diferentes componentes del sistema.\n\nOpenTelemetry tambi\u00e9n provee un mecanismo de instrumentaci\u00f3n autom\u00e1tica que permite generar informaci\u00f3n de tracing en aplicaciones que no incluyen soporte para OpenTelemetry. Este mecanismo se basa en el hecho que la mayor\u00eda de aplicaciones usan un conjunto de librer\u00edas est\u00e1ndar que est\u00e1 instrumentado con OpenTelemetry.\n\nEsta charla explica el concepto de tracing distribuido, brinda una visi\u00f3n general de OpenTelemetry, presenta una demostraci\u00f3n de una aplicaci\u00f3n simple y como el sistema de instrumentaci\u00f3n autom\u00e1tica puede ser usado en aplicaciones que no tienen soporte nativo para OpenTelemetry.\n\nDiapositivas: https://tinyurl.com/pyconus-2021",
+  "duration": 1596,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://tinyurl.com/pyconus-2021",
+      "url": "https://tinyurl.com/pyconus-2021"
+    }
+  ],
+  "speakers": [
+    "Mauricio V\u00e1squez"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/QA7fVDpueaY/maxresdefault.jpg",
+  "title": "Tracing Distribuido con OpenTelemetry",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QA7fVDpueaY"
+    }
+  ]
+}

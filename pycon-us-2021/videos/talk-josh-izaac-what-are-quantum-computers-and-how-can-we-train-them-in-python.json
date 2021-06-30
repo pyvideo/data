@@ -1,0 +1,29 @@
+{
+  "copyright_text": null,
+  "description": "\u201cLet me just go run this on my quantum computer.\u201d\n\nQuantum computers aren\u2019t what-ifs anymore \u2014 they are available now, and publicly accessible over the internet. And Python is rapidly becoming the language of choice for accessing and programming quantum computers, with Python SDKs available from Google (Cirq), IBM (Qiskit), and others. However, early quantum computers are small, noisy, and error prone. Simultaneously, it has never been easier to perform differentiable programming in Python; simply swap out NumPy for TensorFlow, PyTorch, or JAX, and you have the ability to differentiate and train the program itself.\n\nSo what would happen if we attempted to combine the two?\n\nUsing a mixture of real Python examples and illustrated diagrams, we show how to not only evaluate, but also differentiate small quantum programs directly on quantum hardware. By extracting the gradients, we can integrate these quantum programs directly into larger differentiable programs in Python, and train/optimize the full (hybrid quantum-classical!) program. Over the course of this talk, quantum-curious Python developers will see first-hand how quantum programming looks in Python, and get an idea of how (and when) it makes sense to take advantage of these novel hardware devices.\n\nSlides: https://iza.ac/pdf/pycon2021.pdf",
+  "duration": 1600,
+  "language": "eng",
+  "recorded": "2021-05-14",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2021/schedule/"
+    },
+    {
+      "label": "https://iza.ac/pdf/pycon2021.pdf",
+      "url": "https://iza.ac/pdf/pycon2021.pdf"
+    }
+  ],
+  "speakers": [
+    "Josh Izaac"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/o377m0doD6M/maxresdefault.webp",
+  "title": "What are quantum computers, and how can we train them in Python?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=o377m0doD6M"
+    }
+  ]
+}
