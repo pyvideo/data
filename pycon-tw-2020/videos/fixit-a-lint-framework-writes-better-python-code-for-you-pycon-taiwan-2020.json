@@ -1,0 +1,15 @@
+{
+  "description": "Day 1, R1 13:45\u201314:15\n\nPython is flexible and allows us to implement the same function in different ways. Some ways are simpler, more efficient, or more secure than others and are preferred as coding conventions. We have a big codebase with hundreds of developers and thus coding convention is especially important to prevent bad patterns being copy-pasted and spread around. We started with building lint rules as Flake8 plugins and found limitations. We also wanted to be able to provide auto-fixes for lint violations. So we built Fixit.\nFixit is a lint framework that complements Flake8. It\u2019s based on LibCST which makes it possible to provide auto-fixes. Lint rules are made easy to build through matcher pattern, test toolkit, utility helpers (e.g. scope analysis) for non-trivial boilerplate. It is optimized for efficiency, easy to customize and comes with many builtin lint rules. In this talk, you\u2019ll learn our story of building Fixit and learn to use it in your project to help you write better Python code!\n\nSlides: https://github.com/jimmylai/talks/blob/master/pycon_taiwan_2020_fixit.pdf\n\nSpeaker: Jimmy Lai\n\nJimmy Lai is a Software Engineer in Instagram Infrastructure. His recent interest is Python efficiency, including profiling, optimization and asyncio. He has been sharing his experiences in PyCon Taiwan since 2012. This year, he plan to share his automated refactoring experience on large scale Python codebase.",
+  "recorded": "2020-09-05",
+  "speakers": [
+    "Jimmy Lai"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Hr_H0NfclE0/hqdefault.jpg",
+  "title": "Fixit - a lint framework writes better Python code for you \u2013 PyCon Taiwan 2020",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Hr_H0NfclE0"
+    }
+  ]
+}

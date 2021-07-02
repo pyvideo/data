@@ -1,0 +1,15 @@
+{
+  "description": "Day 2, 14:30\u201315:00\n\nCelery is a popular framework for deferred, offline, or scheduled processing. Celery itself is written in Python, and it can well fit into docker, stack, and cluster structure.\nIn real situation, we might have requirement or usage like this: to ensure only one instance of celery task running. Celery itself could not do this out of the box. So there are some patches implementations or usage strategies to support singleton task. However all of them have their pros and cons. Sadly these patches need more dependencies and not robust enough, thus they could not fit to our situations.\nIn this talk, I will share some implementation strategies, discuss characteristics, explain their weak points. After that, I will introduce a strategy which has different characteristics, pros, and cons from other strategies. And this strategy totally fit our requirement.\n\nSlides: https://hackmd.io/@fieliapm/B10XOgeXD#/\n\nSpeaker: \u90ed\u5b78\u8070 (Hsueh-Tsung Kuo)\n\n\u53f0\u7063\u67d0game\u6703\u793e\u7684\u5c0f\u5c0fRD\n\u76ee\u524d\u662fCPPRG(C# Perl Python Ruby Golang)\u719f\u624b\nSmalltalk\u8207Scheme\u57fa\u672c\u6559\u7fa9\u6d3e\n\u4e0d\u662f\u592a\u5947\u602a\u7684\u7a0b\u5f0f\u8a9e\u8a00\u90fd\u6703\u4e00\u4e9b\n\n\u8acb\u591a\u591a\u6307\u6559\u239d\uff08\u02f6\u2032\u25e1\u2035\u02f6\uff09\u23a0",
+  "recorded": "2020-09-06",
+  "speakers": [
+    "\u90ed\u5b78\u8070 (Hsueh-Tsung Kuo)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/5is_dp6XgZ8/hqdefault.jpg",
+  "title": "Celery meets Singleton \u2013 PyCon Taiwan 2020",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5is_dp6XgZ8"
+    }
+  ]
+}
