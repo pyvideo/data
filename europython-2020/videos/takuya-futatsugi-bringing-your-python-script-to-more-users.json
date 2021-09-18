@@ -1,0 +1,52 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Quick tour from CLI through GUI to Web app with image size reduction script\n\nIt is wonderful to automate boring stuffs with Python.\r\nIn Japan, new introductory books are being published every month and more and more Pythonistas are working on automation.\r\nA Python script that is useful to you may be useful to others.\r\nSo I talk about how to enable others to use your script.\r\n\r\nIn this talk, I use a simple script which can reduce the width and the height of a specified image in your computer.\r\nI assume someone who's read the introductory book can understand the script.\r\n\r\nFirst, I introduce Command Line Interface (CLI) to solve hardcoding in the sample script.\r\nAfter implementing CLI, you don't need to edit the script.\r\nSecond, I introduce Grafical User Interface (GUI) to make the script more user-friendly.\r\nFinally, I introduce web application so that users can the script without installation. All users have to do is connecting the Internet!\r\n\r\nThe timeline is supposed to be the following:\r\n\r\n# Introduction (3min)\r\n- self-introduction\r\n- motivation of this talk\r\n- sample script (pathlib, Pillow)\r\n\r\n# CLI (5min)\r\n- problem: need to edit the script\r\n- introduce argparse module (pass target file path from command line)\r\n- about positional arguments and optional arguments\r\n- check whether a path points an existing file (type parameter of add_argument())\r\n\r\n# GUI (9min)\r\n- problem: CLI is not easy to handle than GUI\r\n- introduce eel\r\n- eel's elements: HTML, CSS, JavaScript\r\n- hello world in eel\r\n- file access in eel app\r\n- convert sample script to eel app (user can see which image is specified as target\ud83d\ude03)\r\n- how to distribute\r\n\r\n# Web app (9min)\r\n- problem: Users need to install\r\n- introduce Web app\r\n- server / client\r\n- actually eel's elements are used in web app (we can recycle codes)\r\n- introduce Flask\r\n- hello world in flask\r\n- static files in web app\r\n- how to deploy (heroku)\r\n\r\n# wrap up (1min)\r\n# Q&A (3min)",
+  "duration": 1827.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=CvdM2Qa-bringing-your-python-script-to-more-users"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/CvdM2Qa-bringing-your-python-script-to-more-users.pdf"
+    }
+  ],
+  "speakers": [
+    "Takuya Futatsugi"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Beginners",
+    "Command-Line",
+    "Web Servers and MicroFWs (Flask/Tornado/Nginx/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/yP0zfOUuDdw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAD54zjTGkuLxjzJnoECx6WoBBqYQ",
+  "title": "Bringing your Python script to more users!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yP0zfOUuDdw"
+    }
+  ]
+}

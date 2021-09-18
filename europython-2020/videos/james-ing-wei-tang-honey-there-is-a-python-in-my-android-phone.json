@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "This project was initiated during my Christmas vacation, inspired by Android Barcode Scanner as I was looking on the solution that I could catalogue my books by scanning the ISBN using android phone.\nThis quick solution did save me enormous amount of time in cataloguing my books. Intriguing by the design of APIs that can interact with android intents, I decided to dig further to understand how the APIs works. In concept, there is an RPC call between android app and python interpreter within the app that acts as a bridge, which allows python APIs to trigger Android intents, upon calling related APIs. For example, using the code snippet above, when Python GPS API is executed, the API will send request to Android GPS intent via the RPC call. Once Android intent receives the request, it will grab the GPS data, and passes the GPS data back to Python GPS API through the same channel.",
+  "duration": 1761.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=5q86Huj-honey-there-is-a-python-in-my-android-phone"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/5q86Huj-honey-there-is-a-python-in-my-android-phone.pdf"
+    }
+  ],
+  "speakers": [
+    "James Ing Wei Tang"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "python",
+    "Gadgets",
+    "General",
+    "Python 3"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/S32Z55c_GkY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBcxlv3o06seNjEvtmigqVHvAcA4w",
+  "title": "Honey, There Is a Python in My Android Phone!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=S32Z55c_GkY"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Beyond PEP-484 \u2013 ensure type consistency between layers\n\nThe introduction of PEP-484 gave us an option to enforce the internal type consistency of our Python applications. Our web projects, however, consist of multiple layers, with the Python app taking the role of an HTTP backend. What options do we have to ensure consistency across our stack?\r\nIn this talk, we will see some technologies that we can employ to enforce the contract between the layers of our stack. Especially between the frontend and backend. We will demo, how this can be achieved with REST/Swagger and with GraphQL. As both the Graphene library and the open API support for django-rest-framework are both a work-in-progress, we would check, what is possible, and what is still lacking. We will also discuss various approaches to the design: backend first, auto-generating backend from the spec, and TDD, with their advantages and disadvantages.\r\nThe topic would be discussed on a simple web application. We would try to play some realistic scenarios, where a careless developer breaks the contract to see how such a mistake can be spotted in the CI phase of the development cycle.\r\nBasic knowledge of Django and JavaScript is required to understand the talk. Some familiarity with TypeScript and ReactJS would also be helpful. However, I plan to explain the code to the listeners that didn\u2019t have prior exposure to these technologies.",
+  "duration": 1615.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=5muMqs3-full-stack-type-safety"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/5muMqs3-full-stack-type-safety.pdf"
+    }
+  ],
+  "speakers": [
+    "Szymon Py\u017calski"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "APIs",
+    "Django",
+    "JavaScript",
+    "Type-Hinting",
+    "Web Protocols"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/hAzg2iBe6cg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAqH811EDSuHSVDKvP7xfI1qdD9Fg",
+  "title": "Full Stack Type Safety",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hAzg2iBe6cg"
+    }
+  ]
+}

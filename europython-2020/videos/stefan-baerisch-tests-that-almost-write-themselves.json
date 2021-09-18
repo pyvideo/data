@@ -1,0 +1,53 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Hints for Golden Master Testing in Python\n\nWhat do we do when the only test requirements we have are \"the new system should have the exact same results as the old system\"? Golden Master Testing may help.\r\nThe idea behind golden master testing, also called characterization testing, is quite simple: We don't write test cases that specify what the expected result is. Instead, we take the output from a prior, working version of a program (the golden master) and compare it to the result of the current version. If there is a difference between the output of the current system and the golden master, we may have found a bug.\r\n\r\nIf implemented right, Golden Master testing can be very useful to test legacy systems or data processing programs with complex input and outputs. Golden Master Testing is also a good addition to our regression testing processes.\r\n\r\nIn practice, implementing Golden Master testing is not quite that easy.  Just checking if the outputs are equal will often not work: If the output includes times and dates or random elements, a simple comparison will not be enough. Luckily for use, with Python, we have the perfect tool to process all kinds of outputs and only look at the parts of the output that are important for the outcome of the test.\r\n\r\nIn this talk, we will look at best practices for Golden Master Testing with Python. We will see techniques to identify and quantify the relevant differences between our golden master and the current output.",
+  "duration": 2087.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=4ALvmfv-tests-that-almost-write-themselves"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/4ALvmfv-tests-that-almost-write-themselves.pdf"
+    }
+  ],
+  "speakers": [
+    "Stefan Baerisch"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Best Practice",
+    "Test Libraries (pytest/nose/...)",
+    "Testing",
+    "Tooling"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CSwm95DLRf4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBrh91yiJCRMClWQ1WbJv3u1ruN4A",
+  "title": "Tests that (Almost) Write Themselves",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CSwm95DLRf4"
+    }
+  ]
+}

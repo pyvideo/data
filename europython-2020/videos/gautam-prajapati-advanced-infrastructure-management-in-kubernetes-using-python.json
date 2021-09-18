@@ -1,0 +1,62 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Automate managing complex applications in a cloud native way using Operators written in Python\n\nMany of us are using Kubernetes in production. A Kubernetes Operator is a way to automate packaging, deploying, and managing of a Kubernetes Application. It is a software alternative to a human operator who has deep knowledge of how to set up, deploy, and manage a particular piece of infrastructure and what to do if it isn\u2019t behaving correctly. Let\u2019s see how we can automate all of this while staying in the Python ecosystem.\r\n\r\nIt will be helpful to know some basic concepts of Kubernetes(Deployments, Services, Pods, Configmap etc.) and Celery(docs.celeryproject.org) to get the most out of this talk.\r\n\r\nTalk is divided into four phases.\r\n\r\nPhase I - Problems and Opportunities\r\nWe're going to see some simple examples/problems where a lot of manual effort is involved so as to connect audience to the problem.\r\nWe're going to discuss problems with configuration management, database cluster setup and introduce the focus problem of the talk which is around automating the setup of a Celery cluster.\r\n\r\nPhase II - Incrementally Approaching the Solution\r\nWe're going to incrementally approach the automation each of the manual steps involved in running a Celery cluster in Production. We're going to discuss the extension capabilities in Kubernetes using CRDs and Custom Controllers which are going to help us manage our Celery cluster automagically.\r\n\r\nPhase III - Celery Operator in action\r\nWe're going to see the code of custom controller and the whole operator in action. We create the newly defined celery resource and see how the operator works on bringing up the worker and flower deployments and handles autoscaling based on queue length.\r\n\r\nPhase IV - Conclusion and Q&A\r\nWe're going to talk about different use-cases and what is world doing with Operators. We'll discuss the next steps for the Celery operator and some resources to help build operators. We'll end the talk with a Q&A.\r\n\r\nSlides for the talk are available on - https://bit.ly/europython20-ppt\r\nCelery Operator POC I built for this talk is open source - https://github.com/brainbreaker/Celery-Kubernetes-Operator",
+  "duration": 2517.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "https://github.com/brainbreaker/Celery-Kubernetes-Operator",
+      "url": "https://github.com/brainbreaker/Celery-Kubernetes-Operator"
+    },
+    {
+      "label": "https://bit.ly/europython20-ppt",
+      "url": "https://bit.ly/europython20-ppt"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=BbvZjFa-advanced-infrastructure-management-in-kubernetes-using-python"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/BbvZjFa-advanced-infrastructure-management-in-kubernetes-using-python.pdf"
+    }
+  ],
+  "speakers": [
+    "Gautam Prajapati"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "DevOps general",
+    "Distributed Systems",
+    "Infrastructure",
+    "Messaging and Job Queues (RabbitMQ/Redis/...)",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/A-IM9IBlmgs/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCTlTyUsCy0CYMeqbI65ik1smz-YA",
+  "title": "Advanced Infrastructure Management in Kubernetes using Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=A-IM9IBlmgs"
+    }
+  ]
+}

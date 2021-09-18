@@ -1,0 +1,50 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "In spite of the dynamic nature of their favorite language, some Python developer have a huge desire to statically analyse it. This can indeed be useful for linters, type inference, auto-completion and all the tooling some developers expect from modern IDE.\r\nWe all know that lazy binding prevents even the simplest function call or attribute lookup to be reliably analyzed. Yet we try. And Python as this fabulous ``ast`` module, saving us from writing a parser! Isn't that a strong incentive to do static analysis?\r\n\r\nThis talk presents two modules developers can build upon to build such analyzers:\r\n    \r\n    - gast, a generalization of the Python AST that provides a common API for all the variant of the Python AST, from python 2.7 to Python 3.8\r\n    - beniget, an analyzer of the Python AST (built upon gast) that provides a useful and well-known abstraction to understand programs: use-def chains\r\n    \r\nBuilt upon these two modules, memestra is a static analyzer of deprecated function calls, developed in partnership with QuantStack. A tool which, given a module, reports any use of deprecated APIs. Let's explore how such a module can be built and unveil the mysteries of static analysis.",
+  "duration": 1712.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=3k93S3j-tooling-for-static-analysis-of-python-programs"
+    },
+    {
+      "label": "Slides",
+      "url": "http://serge-sans-paille.github.io/talks/europython2020/output/index.html"
+    }
+  ],
+  "speakers": [
+    "Serge Sans Paille"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Compiler and Interpreters"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_xi213GG89Q/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD8nwX8VchzyhayY6wb3AxnEOcmIQ",
+  "title": "Tooling for Static Analysis of Python Programs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_xi213GG89Q"
+    }
+  ]
+}

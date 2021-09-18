@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "How to make AsyncIO work with the gRPC Core\n\nGoal - Encourage Python developers to understand C extensions by sharing gRPC Python\u2019s practice, and advocate the adoption of AsyncIO.\r\n\r\nPrerequisite\r\n- Understand thread vs. process;\r\n- Interested in asynchronous programming.\r\n\r\ngRPC Brief\r\n- What\u2019s gRPC Core? And what is gRPC Python?\r\n\r\nCython To The Rescue\r\n- Why we picked Cython among all other available tools (e.g., pybind11, ctypes)\r\n- Debuggability: pdb & gdb\r\n\r\nThe GIL Friction\r\n- How to delegate work to C extension\r\n- How to make multithreading work\r\n\r\nAsyncIO Topic\r\n- Not blocking the loop, the main headache.\r\n- Non-blocking I/O solution 1: replacing C libraries\u2019 I/O operations\r\n- Non-blocking I/O solution 2: dedicated background poller thread\r\n- Performance improvement (10k -> 20k for client, 4k -> 16k for server)\r\n\r\n\r\nMigration to AsyncIO\r\n- Tolerate multithreading and AsyncIO in the same application\r\n- Make both API co-existable in the same application",
+  "duration": 1446.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=AfUnDYW-grpc-python-c-extensions-and-asyncio"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/AfUnDYW-grpc-python-c-extensions-and-asyncio.pdf"
+    }
+  ],
+  "speakers": [
+    "Lidi Zheng",
+    "Pau Freixes"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "ASYNC / Concurreny",
+    "CPython",
+    "Cython",
+    "Performance"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VtxdY9YtN-4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCQ3xmtf4ZbT8QnDulzCS1QUCP07Q",
+  "title": "gRPC Python, C Extensions, and AsyncIO",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VtxdY9YtN-4"
+    }
+  ]
+}

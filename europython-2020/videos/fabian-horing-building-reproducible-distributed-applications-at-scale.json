@@ -1,0 +1,53 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Packaging in Python is hard. Packaging is particularly hard when code needs to run in a distributed computing environment where it is difficult to know what runs where and which parts of the code are available to run there. \r\n\r\nIn this talk we will present different ways to ship Python code to a compute cluster, what Python's \"pickling\" feature has to do with this, what self contained executables are and the challenges we met when shipping Python code to a cluster with 1000s of nodes running 1000s of jobs like TensorFlow or Spark.\r\n\r\nAs an example, we will show how one can run a PySpark job on top of S3 storage using PEX as a self contained executable artifact. Finally we will explain how those ideas generalize for different Jobs (like Tensorflow, Dask), different virtual environments (like Anaconda or vanilla Python virtual envs) and different distributed storage's (like S3 or HDFS). \r\n\r\nThe auditor will get an overview of the challenges of Python packaging for distributed applications and see code samples that can be applied in his own project.",
+  "duration": 1841.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=8pZT8ii-building-reproducible-distributed-applications-at-scale"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/8pZT8ii-building-reproducible-distributed-applications-at-scale.pdf"
+    }
+  ],
+  "speakers": [
+    "Fabian H\u00f6ring"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Big Data",
+    "Distributed Systems",
+    "Packaging",
+    "Virtual Env"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/d-XQqBclLnE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD4jp3bFqDrONgq4ERr7BGry2KPow",
+  "title": "Building reproducible distributed applications at scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=d-XQqBclLnE"
+    }
+  ]
+}

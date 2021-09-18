@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Docker has become a standard tool for developers around the world to deploy applications in a reproducible and robust manner. The existence of Docker and Docker compose have reduced the time needed to set up new software and implementing complex technology stacks for our applications. Now, six years after the initial release of Docker, we can say with confidence that containers and containers orchestration have become some of the defaults in the current technology stacks.\r\n\r\nThere are thousands of tutorials and getting started documents for those wanting to adopt Docker for apps deployment. However, if you are a Data Scientist, a researcher or someone working on scientific computing wanting to adopt Docker, the story is quite different. There are very few tutorials (in comparison to app/web) and documents focused on Docker best practices for DS and scientific computing. If you are working on DS, ML or scientific computing, this talk is for you. We'll cover best practices when building Docker containers for data-intensive applications, from optimising your image build, to ensuring your containers are secure and efficient deployment workflows. We will talk about the most common problems faced while using Docker with data intensive applications and how you can overcome most of them. Finally I'll give some practical and useful tips for you to improve your Docker workflows and practises.\r\n\r\nAttendees will leave the talk feeling confident about adopting Docker across a range of DS, ML and research projects.\r\n\r\nWho and Why (audience)\r\nThis talk is designed for folks working in data-intensive environments (i.e. Machine Learning, Data Science, research and scientific computing) and that are either using Docker or want to learn more about how to use Docker in these environments. Attendees will leave the talk feeling confident about adopting Docker in their workflows as well as have acquired several best practices and guidelines to do this robustly.\r\nIntroduction (5 minutes)\r\nAbout me\r\nWhen is Docker the right choice?\r\nDocker for all Python users: introduction to Docker in Machine Learning (ML), Data Science (DS) and research contexts\r\nThe usual culprits\r\nOptimising for data-oriented application (10 minutes)\r\nCreating a data-oriented Docker image - how is this different from an app/web image?\r\nChoosing the right base image - set yourself for success\r\nDependencies, volumes and code best practices\r\nSecurity and performance (10 minutes)\r\nFinding vulnerabilities in your images\r\nImage consistency and reproducibility\r\nOptimising image building - cache and image size considerations\r\nDo not reinvent the wheel - automate! (10 minutes)\r\nConsider tools to assist with Dockerfile generation - e.g. repo2docker, dokta\r\nCreating templates for projects\r\nAutomating image build and publishing - e.g. GitHub actions\r\nAutomated deployment strategies - going from local to deploying your containerised application\r\nConclusions (5 minutes)\r\nTop 10 best practices when working with Docker and Python for DS/ML and research\r\nAdditional resources\r\nThanks and getting in touch",
+  "duration": 2762.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=4bVczWt-docker-and-python-making-them-play-nicely-and-securely-for-data-science-and-ml"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/4bVczWt-docker-and-python-making-them-play-nicely-and-securely-for-dat_veC0l2l.pdf"
+    }
+  ],
+  "speakers": [
+    "Tania Allard"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Conda / conda forge",
+    "Data Science",
+    "Deep Learning",
+    "Machine-Learning",
+    "Scientific Libraries (Numpy/Pandas/SciKit/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ycMlokcQ9iE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC4Ef2pMtlNNldegfJxzuy3dk0LKw",
+  "title": "Docker and Python: making them play nicely and securely for Data Science and ML",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ycMlokcQ9iE"
+    }
+  ]
+}

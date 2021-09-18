@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "How isolating your dependencies can affect your architecture choices and lead to nicer tests\n\nHave you ever imagined life without your tests breaking due to an external dependency having changed? My team chased the dream. We used mocks, stubs, other dependency isolation techniques, and the result was \u2026 a lot of ugly tests.\r\n\r\nWe soon realized our tests required more care and they invoked some difficult questions. Is it possible that the limitations of the testing framework add or give away flaws on your design? Should your architecture be affected by your efforts to test the system? What did we learn in the process?\r\n\r\nThis presentation will introduce some testing isolation concepts and discuss how the choice of each can affect your architecture design. We will go through the basics of the unittest.mock library and the pytest framework and explore their potential. By diving into scenarios, attendees will learn where these features can be applied more effectively, and more importantly, how an API design can and should be driven by the value of testability, allowing the tests to be structured around clarity, readability and a happy Continuous Integration platform.\r\n\r\nThe target audience includes beginner Pythonistas, who are looking for ways to structure and test their code cleanly, while intermediate developers will enjoy a fun refreshment on dependency isolation and leave the session with practical examples on how to use it more effectively.",
+  "duration": 1485.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=AVFKwwM-social-distancing-from-your-systems-dependencies-an-apis-story"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/AVFKwwM-social-distancing-from-your-systems-dependencies-an-apis-story.pdf"
+    }
+  ],
+  "speakers": [
+    "Olga Matoula"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Clean Code",
+    "System Architecture",
+    "TDD",
+    "Test Libraries (pytest/nose/...)",
+    "Testing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/sgGOqb85VSU/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDss8GxJBx0fSCZ8IWghDd_fNU3Mg",
+  "title": "Social distancing from your system\u2019s dependencies: An API\u2019s Story",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sgGOqb85VSU"
+    }
+  ]
+}

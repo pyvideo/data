@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Processing Massively Parallel Stream of Data with Python (+ Kafka, SKlearn, SpaCy and Seldon)\n\nThis talk will provide a practical insight on how to build scalable data streaming machine learning pipelines to process large datasets in real time using Python and popular frameworks such as Kafka, SpaCy and Seldon.\r\n\r\nWe will be covering a case study performing automated content moderation on Reddit comments in real time. Our dataset will consist of 200k reddit comments from /r/science, 50,000 of which have been removed by moderators. We will be handling the stream data in a Kubernetes cluster, and the stream processing will be handled using the stream processing library Kafka. We will be running the end-to-end pipeline in Kubernetes with various components legeraging SKLearn, SpaCy and Seldon.\r\n\r\nWe will then dive into fundamental concepts on stream processing such as windows, watermarking and checkponting, and we will show how to use each of these frameworks to build complex data streaming pipelines that can perform real time processing at scale by building, deploying and monitoring a machine learning model which will process production incoming data..\r\n\r\nFinally we will show best practices when using these frameworks, as well as a high level overview of tools that can be used for monitoring in-depth.",
+  "duration": 1571.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=Ccb6D5Z-real-time-stream-processing-for-machine-learning-at-massive-scale"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/Ccb6D5Z-real-time-stream-processing-with-python-at-massive-scale.pdf"
+    }
+  ],
+  "speakers": [
+    "Alejandro Saucedo"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "ASYNC / Concurreny",
+    "Best Practice",
+    "Big Data",
+    "Distributed Systems",
+    "Scientific Libraries (Numpy/Pandas/SciKit/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Kkt986ZhKxs/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD9CdGFDsBoTYkivMnbSzypzlQsVQ",
+  "title": "Real Time Stream Processing for Machine Learning at Massive Scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Kkt986ZhKxs"
+    }
+  ]
+}

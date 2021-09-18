@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "An iterative packaging plan for your Python application\n\nYou know the basics of packaging your Python application for Docker, but do you know enough to run that image in production? Bad packaging can result in security and production problems, not to mention wasted time try to debug unreproducible errors.\r\n\r\nAnd even if you figure out the best practices, there's still a huge number of details to get right, many of which interact with each other in unexpected ways. My personal list includes over 60 Docker packaging best practices, and it keeps growing. So where do you start? What should you do first?\r\n\r\nTo help you quickly package your application in a production-ready way, this talk will give you a plan to help you prioritize and iteratively implement these best practices, by starting with the highest priority best practices (security, automation), moving on the correctness and reproducibility, and finally focusing on optimization.\r\n\r\nTo make this process more concrete, along the way you'll also learn some of the techniques needed to build production-ready images:\r\n\r\n* Running as a non-root, for increased security.\r\n* Debugging C crashes with faulthandler.\r\n* Faster startup with pre-compiled .pycs.\r\n* Smaller images by disabling pip caching.\r\n* Avoiding Alpine Linux.\r\n* And more!\r\n\r\nAt the end of the talk you'll also get some resources to teach you even more best practices that can't be fit in a 30-minute talk.\r\n\r\nThis talk is for Python programmers who know the basics of Docker packaging, and need to run the resulting images in a production environment.",
+  "duration": 1926.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=CeKGczx-best-practices-for-production-ready-docker-packaging"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/CeKGczx-best-practices-for-production-ready-docker-packaging.pdf"
+    }
+  ],
+  "speakers": [
+    "Itamar Turner-Trauring"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Deployment/Continuous Integration and Delivery",
+    "DevOps general",
+    "Docker",
+    "Packaging",
+    "Security"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/H0UPw-ILiz4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCmTkf9dIT3qmzE7t9ILeFHF-YpEA",
+  "title": "Best practices for production-ready Docker packaging",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=H0UPw-ILiz4"
+    }
+  ]
+}

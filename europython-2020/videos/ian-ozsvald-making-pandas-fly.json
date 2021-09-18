@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Process bigger-than-RAM data using Pandas, Dask and Vaex\n\nLarger datasets can't fit into RAM - suddenly you can't use Pandas any more - but we need to analyse that data! First we'll review techniques to compress our data (maybe cutting our DataFrame RAM usage in half!) so we can process more rows using regular Pandas. Next we'll look at clever ways to make common operations run faster on DataFrames including dropping down to numpy, compiling with Numba and running multi-core. Finally for still-larger datasets we'll review Dask on Pandas and the new Vaex competitor solution. You'll leave with new techniques to make your DataFrames smaller and ideas for processing your data faster.\r\nThis talk is inspired by Ian's work updating his O'Reilly book High Performance Python to the 2nd edition for 2020. With over 10 years of evolution the Pandas DataFrame library has gained a huge amount of functionality and it is used by millions of Pythonistas - but the most obvious way to solve a task isn't always the fastest or most RAM efficient. This talk will help any Pandas user (beginner or beyond) process more data faster, making them more effective at their jobs.",
+  "duration": 1819.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=A7TniMV-making-pandas-fly"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/A7TniMV-making-pandas-fly.pdf"
+    }
+  ],
+  "speakers": [
+    "Ian Ozsvald"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Big Data",
+    "Data Science",
+    "Multi-Processing",
+    "Performance",
+    "Scientific Libraries (Numpy/Pandas/SciKit/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JgBV7p9jNo0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDCxQiROb6M6BwdCZr5y94-y1-CWw",
+  "title": "Making Pandas Fly",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JgBV7p9jNo0"
+    }
+  ]
+}

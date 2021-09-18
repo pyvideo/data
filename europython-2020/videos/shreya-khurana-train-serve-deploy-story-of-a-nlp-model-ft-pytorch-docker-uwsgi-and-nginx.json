@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Quickly prototype a machine translation model from scratch and learn how to serve it in production\n\nNatural language processing has seen leaps of technology progress with Machine Learning becoming the norm of solving the major problems in this area, with Machine translation being one of the major problems in this area. Neural machine translation systems are now used to convert sentences or phrases from one language to another, or in general, for sequence to sequence modeling. In this talk, we\u2019ll be covering the steps from scratch to preprocess, train and serve a NMT model using PyTorch. While building a highly accurate model is a prerequisite to getting good quality translations, often in industry, we also need to make sure we can serve the model to customers without getting timeouts or delays. The practice of serving models requires creating a web app to get client requests and process them in a way the model would understand. For this, we\u2019ll use  the various components of the application server environment - Flask, Docker, uwsgi and nginx. This talk is suitable for audience who is working in general with ML models and want to learn how to serve them or working specifically with NMT and want to learn about some quick prototyping tips. \r\n\r\nPrerequisites: Audience should be comfortable with the basic ML terminology and procedure of training models. NLP knowledge will be good, but is not a necessity as the focus will be on quick prototyping in production.\r\n\r\nBy the end of the talk, the audience will have:\r\n- Learnt how to preprocess data for NLP systems\r\n- Learnt how to quickly prototype and train a translation model\r\n- Learnt how to create a web app for the NLP model using Flask\r\n- Learnt how to containerize a pytorch model using Docker\r\n- Learnt how to serve the model as an app using uwsgi, nginx and \r\n\r\nOutline:\r\n\r\n- Introduction to translation systems, machine translation framework\r\n\r\nML Modelling \r\n- Preprocessing data\r\n- Training \r\n- Generating new translations \r\n\r\nServing and prototyping \r\n- Flask app \r\n- Docker container  \r\n- Nginx + uwsgi + supervisord configurations \r\n- Putting it all together \r\n\r\nGood practices \r\nQ/A (optional?)",
+  "duration": 1782.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=7W3cA68-train-serve-deploy-story-of-a-nlp-model-ft-pytorch-docker-uwsgi-and-nginx"
+    },
+    {
+      "label": "Slides",
+      "url": "https://slides.com/shreyakhurana-1/deck"
+    }
+  ],
+  "speakers": [
+    "Shreya Khurana"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Data Science",
+    "Deep Learning",
+    "Machine-Learning",
+    "Natural Language Processing",
+    "Web Servers and MicroFWs (Flask/Tornado/Nginx/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/BSDW8PWUVF0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA521Lkhf3rXa8WwFTyfcsD-FmTxw",
+  "title": "Train. Serve. Deploy! Story of a NLP Model ft. PyTorch, Docker, Uwsgi and Nginx",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BSDW8PWUVF0"
+    }
+  ]
+}

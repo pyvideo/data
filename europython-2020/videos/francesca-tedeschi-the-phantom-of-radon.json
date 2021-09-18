@@ -1,0 +1,58 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "A story of analytical sinograms\n\nThis project contains an open source Python library for image reconstruction in Axial Computed Tomography (TAC), based on the analytical Radon transforms of some classes of phantoms. \r\nThe package is available on GitHub at the following address: https://github.com/francescat93/Exact_sinogram.\r\nThe mathematical phantoms are fictitious images, composed of very simple geometric figures (ellipses, squares and rectangles) that, sampled with the Radon transform allows to build a fictitious signal, called (exact) sinogram.  Using a phantom gives the advantage to test the reconstruction algorithm on a zero-noise data so the error we get is only due to numerical inaccuracies in the algorithm itself. We want to calculate two reconstructed images from the approximated and exact sinograms, obtained applying the iradon function of the Python library scikit-image on both of them. We expect a smaller error on the exact reconstructed image. This turns to be true on continuous regions, but near the discontinuities of the phantom the Gibbs phenomenon prevents us to obtain the same enhancement.",
+  "duration": 2627.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "https://github.com/francescat93/Exact_sinogram.",
+      "url": "https://github.com/francescat93/Exact_sinogram."
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=37ngjLY-the-phantom-of-radon"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/37ngjLY-the-phantom-of-radon.pdf"
+    }
+  ],
+  "speakers": [
+    "Francesca Tedeschi"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Education",
+    "Image Processing",
+    "Open-Source",
+    "Science",
+    "Teaching"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/uKFXt0eiEJg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCyrS63e7Xfv9j3VD_IQQWyJ5H3FQ",
+  "title": "The Phantom of Radon",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uKFXt0eiEJg"
+    }
+  ]
+}

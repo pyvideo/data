@@ -1,0 +1,52 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Memory address in Python\n\nThis talk is intended to explain to participants what is happening under the hood when they are playing around with different python built-in data structures. Explain the concepts such that they are not surprised by the behavior of Python.\r\n\r\nPre-requisites:\r\nAnyone who knows built-in python data structures like List, Dictionaries, set, etc.\r\n\r\nCuriosity questions that the talk answers:\r\n1. What happens to the memory address when * operator is used?\r\n2. When does python create a new object in memory?\r\n3. What does it refer to the mutability and immutability of objects in Python?\r\n4. If the outer object is immutable but the reference objects are mutable. Can the elements be added?\r\n5. What is the difference at the memory level when we refer to deep copy and shallow copy in lists?\r\n6. Operations like List.sort and sorted in python? What to use, when to use? What happens at the memory level?\r\n7. What is the difference between is vs ==? When should it be used?\r\n8. Lots and lots of interesting examples. \r\n9. How do we determine the memory reference id associated with the object?\r\n10. Meaning of assigning a value to a variable in Python. \r\n\r\nThe existing slides use screenshots. But, I'll be including more interesting examples and would replace the screenshots with GIFs. So, that folks get a feeling of live coding and remain interested in the presentation. Along with the visual representation of what is happening at the memory level.",
+  "duration": 1541.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=DLWTgr3-object-internals"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/DLWTgr3-object-internals.pdf"
+    }
+  ],
+  "speakers": [
+    "Mridu Bhatnagar"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Data-Structures",
+    "Development",
+    "Python 3"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/UkUY6cVxlLY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD8O73eV-UyrR0E0imEv9UIasnXtg",
+  "title": "Object Internals",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UkUY6cVxlLY"
+    }
+  ]
+}

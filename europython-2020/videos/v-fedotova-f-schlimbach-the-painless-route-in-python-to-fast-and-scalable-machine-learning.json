@@ -1,0 +1,48 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Python is the lingua franca for data analytics and machine learning. Its superior productivity makes it the preferred tool for prototyping. However, traditional Python packages are not necessarily designed to provide high performance and scalability for large datasets.\r\nWe start our tutorial with a short introduction on how to get close-to-native performance with Intel-optimized packages, such as numpy, scipy, and scikit-learn. The next part of the tutorial is focused on getting high performance and scalability from multi-cores on a single machine to large clusters of workstations. We will demonstrate that with Python it is possible to achieve the same performance and scalability as with hand-tuned C++/MPI code:\r\n-\tScalable Dataframe Compiler (SDC) is used to compile analytics code using pandas/Python and scale it to bare-metal cluster performance. It compiles a subset of Python code into efficient parallel binaries that use message passing to perform collective communications.\r\n-\tA convenient Python API to data analytics and machine learning primitives (daal4py). While its interface is scikit-learn-like, its MPI-based engine allows to scale machine learning algorithms to bare-metal cluster performance.\r\n-\tIn the tutorial, we will use SDC and daal4py together to build an end-to-end analytics pipeline that scales to clusters, requiring only minimal code changes.",
+  "duration": 2563.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "David Liu",
+    "Victoriya Fedotova",
+    "Frank Schlimbach"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Analytics",
+    "Big Data",
+    "Distributed Systems",
+    "Machine-Learning",
+    "Scientific Libraries (Numpy/Pandas/SciKit/...)"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/0lA7qQWxMMA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAmLIDDd0AtCkRMtTnJteaoIUiKVQ",
+  "title": "The Painless Route in Python to Fast and Scalable Machine Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0lA7qQWxMMA"
+    }
+  ]
+}

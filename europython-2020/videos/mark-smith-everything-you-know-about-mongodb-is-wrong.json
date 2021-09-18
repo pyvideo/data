@@ -1,0 +1,54 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "(Probably)\n\nMongoDB is webscale, right? It's a JSON database, it's eventually consistent, and you use map-reduce to query it. Oh, and it's insecure.\r\n\r\nLet me clear up some things: MongoDB is an ACID-compliant database with transactions, schemas & relationships. It includes a powerful aggregation query language; map-reduce has been deprecated for some time now. MongoDB doesn't speak or store JSON, and nowadays it comes with pretty good security defaults (we think).\r\n\r\nThere are many myths around about MongoDB - what it is, how it works, and what it does wrong. Like any database product, you need to know its capabilities and how to get the best out of it. On top of this, the product has changed _a lot_ over the years, but lots of information out there hasn't caught up.\r\n\r\nI'll cover 8 myths around MongoDB, explain how they're wrong, why the myth originated in the first place (some of them weren't originally myths).\r\n\r\n* What exactly _is_ MongoDB?\r\n* What is the current release of MongoDB?\r\n* MongoDB is _not_ a JSON database.\r\n* MongoDB _has_ transactions.\r\n* MongoDB allows relationships.\r\n* You should only consider sharding if you _must_.\r\n* MongoDB _is secure_.\r\n* MongoDB stores your data reliably.\r\n* MongoDB is a big product, with lots to learn.\r\n\r\nAlong the way, I'll explain some of MongoDB's best-kept secrets, and provide practical tips and tricks for using it. The audience will leave with a good idea of what MongoDB is, what it isn't, and how to best develop with it.",
+  "duration": 1501.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/24-july?selected=5PgqYn3-everything-you-know-about-mongodb-is-wrong"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/5PgqYn3-everything-you-know-about-mongodb-is-wrong.pdf"
+    }
+  ],
+  "speakers": [
+    "Mark Smith"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Big Data",
+    "Data",
+    "Databases",
+    "Development",
+    "MongoDB"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ISfzI7LTDL4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB44mhCXFJgqtY9zDs7gBl2wU-cYQ",
+  "title": "Everything You Know About MongoDB is Wrong!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ISfzI7LTDL4"
+    }
+  ]
+}

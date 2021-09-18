@@ -1,0 +1,52 @@
+{
+  "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
+  "description": "Simulating hours of robots' work in minutes\n\nOur product uses a fleet of real (not virtual) robots to perform different tasks in a fulfillment warehouse. Simulation is an essential tool in this kind of product: it allows to perform regression tests and test new features without the need for real and expensive hardware, to compare the impact of different algorithms and optimizations, to inject failures, and more.\r\n\r\nTasks performed by physical robots take time (movement over the warehouse, box lifting, etc.), but in simulation, where virtual robots are used, there is no need to wait all that time. I will describe our implementation of the Discrete-Event Simulation approach which allows us to simulate hours of real-life in minutes.\r\n\r\nShortening simulation time improves the development process by providing faster feedback to developers and quicker CI and testing cycles. Another powerful advantage is a more deterministic simulation - using this approach, each component in the system gets equal opportunity (CPU time) in each time tick, which is not affected by the underlying machine that the simulation is running on. Also, it is possible to simulate any date and hour easily, and by that we wouldn't panic before the \"Y2K bug\".\r\n\r\nI will elaborate on some challenges we encountered: time leak of event-driven components, differences between dev and production environments and running a distributed simulation due to the transition to microservices.",
+  "duration": 1563.0,
+  "language": "eng",
+  "recorded": "2020-07-23",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2020.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2020.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    {
+      "label": "https://ep2020.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2020.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "Talk URL",
+      "url": "https://ep2020.europython.eu/schedule/23-july?selected=9k2qHA7-boosting-simulation-performance-with-python"
+    },
+    {
+      "label": "Slides",
+      "url": "/media/conference/slides/9k2qHA7-boosting-simulation-performance-with-python.pdf"
+    }
+  ],
+  "speakers": [
+    "Eran Friedman"
+  ],
+  "tags": [
+    "europython",
+    "europython-2020",
+    "europython-online",
+    "Architecture",
+    "Robotics",
+    "Testing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/HHTd-eCnQ-8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD5LM9Cd053CQcDwjWfEmkxnVky4w",
+  "title": "Boosting simulation performance with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HHTd-eCnQ-8"
+    }
+  ]
+}
