@@ -1,0 +1,41 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Zac Hatfield-Dodds\n\nhttps://2020.pycon.org.au/program/TCT3GH\n\nWe often think of manual testing as slower and less effective than automated testing,\r\nbut most test suites haven't automated that much!  Computers can execute all our \r\npre-defined tests very quickly - and this is definitely a good thing, especially for \r\nregression tests - but the tricky parts are still done by humans.\r\n\r\nWe select test cases (inputs) and check that the corresponding outputs make sense;\r\nwe write functions that \"arrange, act, and assert\" for our tests; and we decide -\r\nor script via CI systems - which tests to execute and when.\r\n\r\nSo lets explore some next-generation tools that we could use to automate these \r\nremaining parts of a testing workflow!\r\n\r\nPROPERTY-BASED TESTING helps you to write more powerful tests by automating selection \r\nof test cases: instead of listing input-output pairs, you describe the kind of data \r\nyou want and write a test that passes *for all X...*.  We'll see a live demo, and \r\nlearn something about the Python builtins in the process!\r\n\r\nCODE INTROSPECTION, and a handy templating tool, can help write tests for you.\r\nDo you need to know any more than which code to test, and what properties should hold?\r\n\r\nADAPTIVE FUZZING tools take CI to its logical conclusion: instead of running a fixed\r\nset of tests on each push, they sit on a server and run tests full-time... fine-tuning\r\nthemselves to find bugs in *your* project and pulling each new commit as it lands!\r\n\r\nBy the end of this talk, you'll know what these three kinds of tools can do - \r\nand how to get started with automating the *rest* of your testing tomorrow.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nSat Sep  5 11:35:00 2020 at Curlyboi",
+  "duration": 1776,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/TCT3GH",
+      "url": "https://2020.pycon.org.au/program/TCT3GH"
+    }
+  ],
+  "speakers": [
+    "Zac Hatfield-Dodds"
+  ],
+  "tags": [
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "ZacHatfield-Dodds",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/tiy031EoDXo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB39yeSbsa1yeUfIWv8Ic3XiR2BIA",
+  "title": "Stop Writing Tests!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tiy031EoDXo"
+    }
+  ]
+}

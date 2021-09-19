@@ -1,0 +1,41 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Thomas Woolford\n\nhttps://2020.pycon.org.au/program/USWEYZ\n\nScientists, Researchers and Software Engineering projects should be paying attention to the reproducibility of their results. The best way to guarantee that the project you build today will be the same when built next week is to exactly specify your dependency tree. \r\n\r\nImperative package management approaches (such as apt/pip/conda) provide few assurances that the package version you get today is the same version you'll get tomorrow, or that installing packages in a different order won't change the versions resolved. The problem gets even harder when you want to integrate with native extensions that rely on platform libraries and the ephemeral contents of /usr/share/. \r\n\r\nIn this talk I'll discuss how Nix package manager can provide a complete dependency management solution for python projects on Linux and Mac. Nix can install and track exact, reproducible versions of python packages and their transitive dependencies including platform libraries, down to the compiler version that created them. No more guessing why your teammate can trigger a bug that you can't reproduce.\r\n\r\nNix can use this dependency info to quickly get new teammates up and running with a full development environment, no worries about the setup instructions being out of date or incompatible with their chosen OS flavor. Finally, Nix can build your project in a sealed build environment that prevents your project sneakily including files that haven't been declared as dependencies. You can then confidently deploy these builds as minimal docker images, VM images, or directly via nix package caches.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nFri Sep  4 13:20:00 2020 at Obvious",
+  "duration": 1446,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/USWEYZ",
+      "url": "https://2020.pycon.org.au/program/USWEYZ"
+    }
+  ],
+  "speakers": [
+    "Thomas Woolford"
+  ],
+  "tags": [
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "ThomasWoolford",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8ng4v1g5q7s/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEtmvSeN9hZcFBEZDgDzGTlJuxGw",
+  "title": "A sack full of angry snakes: Taming your python dependencies with Nix",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8ng4v1g5q7s"
+    }
+  ]
+}

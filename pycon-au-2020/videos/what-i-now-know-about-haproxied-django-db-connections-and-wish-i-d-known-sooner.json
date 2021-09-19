@@ -1,0 +1,41 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Florian Haas\n\nhttps://2020.pycon.org.au/program/YZYTMX\n\nWhen you\u2019re running a Django application, the following things are all pretty commonplace:\r\n\r\n* You use MySQL or MariaDB as your Django database backend.\r\n* You don\u2019t run a single standalone MySQL/MariaDB instance, but a Galera cluster.\r\n* You run asynchronous tasks in Celery.\r\n\r\nNow suppose your application doesn\u2019t talk to your Galera cluster directly, but via HAProxy. That\u2019s not exactly unheard of; in fact it\u2019s an officially documented HA option for Galera. And, to complicate things further, this may be a feature of your setup that you, the application developer, don't necessarily have control over.\r\n\r\nIn such a scenario, you may be dealing with very \"interesting\" features of HAproxy which \u2014 if you are unfamiliar with them \u2014 can throw you very nasty curveballs.\r\n\r\nHaving been in the position where, together with my team, I *was* indeed unfamiliar with some of HAProxy's/Galera's intricacies and we were thus on he receiving end of those curveballs, I am taking this opportunity to share our findings so that our pain is someone else's gain. You have multiple options at your disposal \u2014 some in your infrastructure setup, and some in your Django application code. This talk covers both those angles.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nFri Sep  4 13:55:00 2020 at Obvious",
+  "duration": 1467,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/YZYTMX",
+      "url": "https://2020.pycon.org.au/program/YZYTMX"
+    }
+  ],
+  "speakers": [
+    "Florian Haas"
+  ],
+  "tags": [
+    "FlorianHaas",
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/2qDh7tl-wpg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCr6hT3il00CzkA1QqBWyqSrgLkGQ",
+  "title": "What I now know about HAproxied Django DB connections, and wish I'd known sooner",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2qDh7tl-wpg"
+    }
+  ]
+}

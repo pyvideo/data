@@ -1,0 +1,41 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Andrew Godwin\n\nhttps://2020.pycon.org.au/program/SLXVBU\n\nThe quest to add \"hybrid\" asynchronous support to Django - where it can run both synchronous and asynchronous code - is a long one. Django 3.1 reached an important milestone with synchronous and asynchronous views, and now the next big step is to take a long, hard look at the thing that makes up over half the Django codebase: the ORM.\r\n\r\nThe ORM is gigantic, old, and complex - and has an API designed and tweaked over many years. We'll look at some of those design decisions and how they reflect in the world of async, the challenges that underlie a hybrid API, as well as how the safety-first nature of the ORM has to evolve to deal with new and exciting async ways of breaking things.\r\n\r\nWe'll also dive into what it means to have asynchronous database backends, and how support for those are progressing in the Python world - and how we're trying to ship something that's useful before fully asynchronous database APIs are done.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nFri Sep  4 17:10:00 2020 at Python 2",
+  "duration": 1510,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/SLXVBU",
+      "url": "https://2020.pycon.org.au/program/SLXVBU"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    }
+  ],
+  "speakers": [
+    "Andrew Godwin"
+  ],
+  "tags": [
+    "AndrewGodwin",
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ibAmA4QQDhs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAa82ht2tMZ_FlYSyfRMc0mc5XILg",
+  "title": "Taking Django's ORM Async",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ibAmA4QQDhs"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Cheng-Lin Yang\n\nhttps://2020.pycon.org.au/program/Y3SXGF\n\nIf you've been a data scientist or researcher long enough, you must have encountered a situation where your NumPy code ran quickly on small datasets in a testing environment but performed poorly on real-world datasets (100x larger or more). In this talk, I will introduce three Pythonic solutions to improve NumPy performance drastically without modifying too many codes.\r\n\r\nAt the beginning of the talk, a math equation: logsumexp, which is widely used in machine learning, will be illustrated. I will show how it is implemented with pure NumPy and use it as a benchmark so we can compare it to three proposed solutions at the end of the talk.\r\n\r\nThen, three solutions: CuPy, Numba, and Pythran will be presented in separate sections. In each section, I will give a brief introduction to the solution and show how to apply this solution to our benchmark code.\r\n\r\nAt the end of the talk, I will compare these solutions from different aspects:\r\n\r\n    * How much performance is boosted after each solution is applied\r\n    * Ease to apply on your existing code (including the ease of debugging)\r\n    * Limitations of each solution\r\n    * Which solution should be applied first in given scenarios\r\n\r\nLast but not the least, I will show a relatively new but interesting solution: Transonic to the audience so they can give it a try on their side project.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nSat Sep  5 16:00:00 2020 at Obvious",
+  "duration": 1541,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/Y3SXGF",
+      "url": "https://2020.pycon.org.au/program/Y3SXGF"
+    }
+  ],
+  "speakers": [
+    "Lin Yang"
+  ],
+  "tags": [
+    "Cheng-LinYang",
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Xkq12Zz8fro/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBEOQUzgPYCNoO8JnWomJpDoD-MRQ",
+  "title": "Your Escape Plan From Numpy + Cython",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Xkq12Zz8fro"
+    }
+  ]
+}

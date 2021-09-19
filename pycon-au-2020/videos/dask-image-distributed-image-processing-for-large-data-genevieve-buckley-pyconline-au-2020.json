@@ -1,0 +1,49 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Genevieve Buckley\n\nhttps://2020.pycon.org.au/program/KHULAN\n\nImage datasets are large, and becoming larger. The widely used benchmark dataset COCO (Common Objects in Context) contains 330,000 individual images. The average size of a single entry on the image database EMPIAR is over 1TB, and can easily reach several terabytes.  Even where individual images are small enough to fit in-memory, many existing parallelization methods are difficult to scale seamlessly between a laptop and a supercomputing cluster. For instance, the python multiprocessing module is restricted to a single mode and can't take advantage of multiple compute nodes on a distributed supercomputing cluster.\r\n\r\nWe need easy ways to work with large image data. This talk introduces dask-image, a python library for distributed image processing. The target audience are python programmers currently using numpy and scipy with large array data, where the whole dataset cannot fit in memory or is close to that limit. It's for people who want to get started with parallel processing, either because they have large single-image data, or because they want to do batch processing applying the same analysis to many smaller images (sometimes known an embarrassingly parallel problem). The specific image analysis functions provided by dask-image are of broad interest to a diverse range of analysis applications including (but not limited to) video/streaming data, computer vision, and scientific fields including astronomy, microscopy and geosciences.\r\n\r\nSpecifically, this talk will cover:\r\n\r\n* An overview of the dask-image library\r\n    * Lazy image loading\r\n    * Image pre-processing functionality (convolutions, filters, etc.)\r\n    * Analysis of segmented images (distributed labeling, and measurements of those label regions)\r\n* Mixing in your own custom analysis functions (using dask delayed, map_blocks, and map_overlap)\r\n* A practical case study of a Python image processing pipeline\r\n\r\ndask-image is open source, released under a BSD 3-Clause license, and can be installed using conda or pip. You can find the source code at https://github.com/dask/dask-image and the quickstart guide at https://github.com/dask/dask-examples/blob/master/applications/image-processing.ipynb\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nFri Sep  4 13:55:00 2020 at Curlyboi",
+  "duration": 1571,
+  "language": "eng",
+  "recorded": "2020-09-06",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://github.com/dask/dask-examples/blob/master/applications/image-processing.ipynb",
+      "url": "https://github.com/dask/dask-examples/blob/master/applications/image-processing.ipynb"
+    },
+    {
+      "label": "https://github.com/dask/dask-image",
+      "url": "https://github.com/dask/dask-image"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/KHULAN",
+      "url": "https://2020.pycon.org.au/program/KHULAN"
+    }
+  ],
+  "speakers": [
+    "Genevieve Buckley"
+  ],
+  "tags": [
+    "GenevieveBuckley",
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/MpjgzNeISeI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2ScczmaCbpYkoaEmyrjen2_yEVw",
+  "title": "dask-image: distributed image processing for large data",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MpjgzNeISeI"
+    }
+  ]
+}

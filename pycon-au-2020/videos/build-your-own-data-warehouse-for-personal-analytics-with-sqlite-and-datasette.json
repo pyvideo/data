@@ -1,0 +1,41 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Simon Willison\n\nhttps://2020.pycon.org.au/program/73UK8X\n\nMany data enthusiasts dream of analyzing their own personal data, but few find time to build their own pipeline for it. This talk will show you how to get started with personal analytics with the highest possible return on your invested effort.\r\n\r\nSQLite is the ideal tool for building a personal data analysis pipeline: it's free, fast and widely supported. Each database is a single file on disk, so you don't need to set up a database server to start using it. Tools that import data into SQLite can be written in any programming language, and its JSON support means it can even ingest data that may not fit neatly in a standard relational database table.\r\n\r\nDatasette is a Python application that provides an interface over SQLite. It lets you bookmark and queries in your browser and export the results as JSON and CSV. The Datasette plugin ecosystem has over 30 plugins that extend Datasette in different ways, adding visualization tools, alternative export formats and more.\r\n\r\nI'll show how to combine SQLite, Datasette and some simple Python scripts to ingest personal data from multiple different sources and build a personal data warehouse for your digital life. Data sources will include:\r\n\r\n- Twitter\r\n- Facebook\r\n- Apple Photos\r\n- LinkedIn\r\n- Google (via Google Takeout)\r\n- Foursquare / Swarm\r\n- GitHub\r\n- Apple Health\r\n- 23AndMe\r\n\r\nTechniques that work for an individual can work for organizations too. I'll finish by showing how this approach to working with data can scale up to solving professional problems in addition to personal analytics.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nFri Sep  4 16:00:00 2020 at Curlyboi",
+  "duration": 1429,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/73UK8X",
+      "url": "https://2020.pycon.org.au/program/73UK8X"
+    }
+  ],
+  "speakers": [
+    "Simon Willison"
+  ],
+  "tags": [
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "SimonWillison",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CPQCD3Qxxik/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBATY8dvwR6FsDlc2gfAF4BV8oqHQ",
+  "title": "Build your own data warehouse for personal analytics with SQLite and Datasette",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CPQCD3Qxxik"
+    }
+  ]
+}

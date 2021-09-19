@@ -1,0 +1,41 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Julin S\n\nhttps://2020.pycon.org.au/program/HWU9J7\n\n#### Why\r\nMost of the well established projects follow some practices and has some mechanism in place to ensure better maintainability.\r\n\r\nBut we can find a good number of packages online which are being developed without an equivalent mechanism.\r\n\r\nIn this talk, I will mention some tools, which when used, can lay the foundation for a well formed package.\r\n\r\n#### Well-formed package\r\n\r\nA package whose source has some structure which makes testing and development more efficient and less error-prone.\r\n\r\nSuch a package also makes working with its source a more pleasant experience.\r\n\r\nA well-formed package makes things easier for both the developer and the user.\r\n\r\nBut it is easier to get started with a structure than to maintain that form. Which calls for a mechanism to maintain that structure.\r\n\r\n#### How\r\n\r\nThe source code should adopt a style and stick with it. A linting tool like pylint can help with it.\r\nOr you could use black.\r\n\r\nUse type annotations along with tools like mypy.\r\n\r\nEliminate unused code with `vulture`.\r\n\r\nAdd tests to be sure that the different functionalities work as intended using tools like pytest or the built-in unittest.\r\nThis will be extremely useful to be sure that further modifications do not break existing code.\r\n\r\nEnsure proper test coverage with coverage.py\r\nAfter all, adding tests isn't everything. One got to make sure it reaches every nook and corner.\r\n\r\nAutomate tests with tox, nox, etc.\r\n\r\nPackage the project in tune with the future of packaging.\r\nsetuptools, flit or poetry\r\n\r\nAnd add some CI/CD.\r\n\r\nOther tools like pre-commit, bumpversion, etc may also be used.\r\n\r\n#### Intended audience\r\n\r\nPeople who create and publish python packages.\r\nThe presentation is from the package developer's perspective and not exactly about the innards of the different python packaging tools.\r\n\r\n#### Pre-requisites\r\n\r\nBasic Python programming.\r\nGit\r\n\r\n## Tentative talk outline\r\n\r\n - Linting\r\n - Type checking\r\n - Eliminating dead code\r\n - Tests\r\n - Test coverage\r\n - Test automation\r\n - Packaging\r\n - CI/CD\r\n - Other tools\r\n - Future of packaging\r\n\r\n#### Speaker info (anonymized):\r\n\r\nUsing Python for 5 years. Interested in text processing.\r\n\r\nPublished a few packages to PyPI using different packaging tools.\r\n\r\nThe proposed talk is derived from experience of creating them.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nSat Sep  5 13:00:00 2020 at Floperator",
+  "duration": 1528,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/HWU9J7",
+      "url": "https://2020.pycon.org.au/program/HWU9J7"
+    }
+  ],
+  "speakers": [
+    "Julin S"
+  ],
+  "tags": [
+    "JulinS",
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_b8D4v7YIME/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_d1PsxvgCBXUz5Hjje09ZANrn1A",
+  "title": "Publishing well-formed Python packages",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_b8D4v7YIME"
+    }
+  ]
+}

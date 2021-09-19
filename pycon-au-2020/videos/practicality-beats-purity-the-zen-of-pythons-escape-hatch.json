@@ -1,0 +1,41 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Christopher Neugebauer\n\nhttps://2020.pycon.org.au/program/VVNEZR\n\nWhen you type \u201cimport this\u201d into a Python interpreter, you get PEP-20, 20* aphorisms that describe what \u201cGood\u201d Python code looks like. Most of these are prescriptive, and have been used to settle countless arguments about how Python should grow, or how new ideas should be implemented.\r\n\r\nBut in these 20 aphorisms (which you may know as the \u201cZen of Python\u201d), there are some inherent contradictions. \r\n\r\nWhen \u201cexplicit is better than implicit\u201d and \u201csimple is better than complex\u201d, what does it mean when being explicit means you must introduce complexity? \r\n\r\nWhen \u201creadability counts\u201d and \u201cspecial cases aren\u2019t special enough to break the rules\u201d, what does it mean when making code more readable presents a special case in your codebase?\r\n\r\nThe answer lies in one often-forgotten aphorism: \u201cpracticality beats purity\u201d. When you can weigh practicality as a factor, you can decide that other factors are restrictive, and discard them as \u201cimpractical\u201d. This idea shows up in many places in Python:\r\n\r\nType hints can help you to be explicit, but they introduce complexity. Focusing on practicality means you can adopt type hints only when you need them. Decorators are simple, but can be used to introduce ambiguity. In many cases, the practical benefits of decorators outweigh their potential for misuse.\r\n\r\nBut how far can the pursuit of practicality let you go? Does practicality let you treat the other 19 aphorisms as optional? Does practicality give you an escape hatch from the rest of the Zen of Python? \r\n\r\nIn this talk, we\u2019ll look at how practicality has been a guiding principle in the evolution of Python. We\u2019ll look at how to weigh practicality in the face of the other 19 aphorisms of PEP-20, and we\u2019ll look at how focusing on practicality can guide you towards these other attributes of good Python.\r\n\r\n\r\n(* per PEP-20, the Zen of Python contains \u201c20 aphorisms, only 19 of which have been written down.\u201d)\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nSat Sep  5 10:25:00 2020 at Curlyboi",
+  "duration": 1662,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/VVNEZR",
+      "url": "https://2020.pycon.org.au/program/VVNEZR"
+    }
+  ],
+  "speakers": [
+    "Christopher Neugebauer"
+  ],
+  "tags": [
+    "ChristopherNeugebauer",
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XU9_3AlCy84/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1RY1ZHLyittR-5NlDAlJDVerp5A",
+  "title": "Practicality Beats Purity: The Zen of Python\u2019s Escape Hatch?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XU9_3AlCy84"
+    }
+  ]
+}

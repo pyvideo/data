@@ -1,0 +1,43 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Dipam Paul, Alankrita Tewari\n\nhttps://2020.pycon.org.au/program/DUGUZZ\n\nAlmost every individual today in the field of Data Science would know about the concept of Ensemble Learning in ML (ideally, the last chapter we read in the Machine Learning pedagogy). However, it is to also note that very few literatures exists to ensemble Deep Neural Architectures. Therefore, this is where we step forward and propose an approach to solve (almost) any medical imaging problem with the means of our Ensemble approach. Our approach does not just \"solve\" medical imaging problems but help practitioners to build unique and seamless architectures that almost never goes wrong (at least, not on your good days).\r\n\r\nWhy use an Ensemble at all?\r\n\r\n\r\nIn this section, I will try to anticipate the common notions one would have while reading this proposal and try to address the same in advance.\r\n\r\nOf course, there are brilliant pre-trained architectures available and building up a custom CNN architecture takes seconds today, right? Then, why take the extra headache of combining architectures after all?\r\n\r\nI wanted to give you a solid reason why then I thought I'll give you three:\r\n\r\n1. Attaining state-of-the-art accuracy:\r\n\r\nTo elucidate on this, let's recall a very famous (or, infamous) chapter from our old books on Elementary Statistics that is - Central Limit Theorem. This theorem gives us two very important implications:\r\n\r\nThere are two big implications of the Central Limit theorem:\r\n\r\nEnsembles of many random processes/variables converge to Gaussian distributions. That\u2019s why normal distributions are everywhere.\r\nWhen adding together random numbers, the variance of the sum is the sum of the variances of those numbers.\r\nWhich, in the essence of Machine/Deep Learning, translates to the fact that when we combine n (number of) architectures together then the combined architecture let's say, x will at all times produce better performance or results on standard metrics that every individual model in the n-cluster of models.\r\n\r\nA slight limitation:\r\n\r\nCentral Limit Theorem also states that no matter how many models one tries to Ensemble one can never reach the accuracy of 1 (or, 100).\r\n\r\nBut that's alright, I believe. We don't need to attain a full 100% accuracy to prove the reliability of a model, do we?\r\n\r\nFurthermore, we have proven this hypothesis of ours of attaining state-of-the-art accuracy in our published works with regards to the same. Kindly, refer.\r\n\r\n1. Model Diversity: \r\n\r\nThis is arguably the most important contribution of ours out of all three which gives an indication of the reliability of our approach. Our experiments (which are also included in our papers) also goes on to show how well the architecture performs on external unseen examples - images which are not even part of the dataset.\r\n\r\nWhy is this important?\r\n\r\nElementary. We are dealing with Medical data where there is a plethora of possibilities, complications and unique cases. Hence, we can NEVER be too sure. Therefore, this was one of the most instrumental steps we had to set in motion in order to know if it's actually working or not.\r\n\r\nFuture tangible implementation scope: Mobile App or Web App to be used in Clinics and Hospitals.\r\n\r\n1. Tackling the problem of Model Over-fitting:\r\n\r\nIn this contribution, we try to mitigate the problem of over-fitting to the greatest extent possible WITHOUT employing techniques such as Cross-Validation. The reason behind taking the entire dataset at once is very simple: Let's say you are dealing with a Binary-Class data with a huge class imbalance problem. Cross-Validation will not let you manually select the number of images that goes into each split that you make from each individual classes. It is also important to mention that the randomisation process ain't so bad altogether however, there's always room for improvements and alternate doors can also lead to better destinations.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nSat Sep  5 13:00:00 2020 at Obvious",
+  "duration": 1485,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/DUGUZZ",
+      "url": "https://2020.pycon.org.au/program/DUGUZZ"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    }
+  ],
+  "speakers": [
+    "Alankrita Tewari",
+    "Dipam Paul"
+  ],
+  "tags": [
+    "AlankritaTewari",
+    "DipamPaul",
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WXrTPvhB3BU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGWsfBEn0jpG76FGPeADMsGK2TCQ",
+  "title": "Ensemble-X: Your personal strataGEM to build Ensembled Deep Learning Models for Medical Imaging",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WXrTPvhB3BU"
+    }
+  ]
+}

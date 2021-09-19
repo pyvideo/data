@@ -1,0 +1,53 @@
+{
+  "copyright_text": "CC-BY-NC-SA 4.0",
+  "description": "Shivashis Padhi\n\nhttps://2020.pycon.org.au/program/Q7GJNZ\n\n### Introduction\r\n\r\nEvery Python script involves import statements. And if you develop software with Python, you might already have come across import and path related errors like ImportError, ModuleNotFoundError, etc.\r\n\r\nIt's important to know the import mechanics, both for general knowledge, and to develop custom plugins to tweak the import system. In this talk, we'd discuss in detail about how the import system works, its components and what tasks they perform respectively.\r\n\r\n### Who should attend this talk?\r\nThis talk is most suitable for beginner to intermediate level Pythonistas.\r\n\r\n### How does the talk proceed?\r\n- The talk starts with packages in Python, and how to organize Python files in order to make them distributable, and importable.\r\n- It proceeds to discuss about $PATH and $PYTHONPATH, and how they are used to enable system-wide imports, and how capable are Python's path based import handlers, if they let a programmer import from remote URIs, etc.\r\n- Different types of packages such as regular packages, namespace packages, frozen modules, etc. are discussed.\r\n- After that, some key components are introduced i.e sys.modules and how modules are refreshed and regulated in runtime, what finders and loaders are, and what 'import protocol' is, sys.meta_path, sys.path_hooks.\r\n\r\nThe talk then goes in detail about finders, the default finders in Python, spec object, and its functioning.\r\nAfter finders, loaders are discussed with sample code, explaining the steps involved from processing a spec, and creating, executing, and loading a module to sys.modules.\r\n- After finders and loaders, 'import hooks' are discussed i.e how Python allows injection of custom components to handle a pre-defined import statement.\r\n- This follows a demonstration of import hooks, implementation of a meta_path finder Class which protects importing of modules from an http server with a token exchange. (So the source code is protected, and it can be logged who requested the source code by a signature to act against misuse.)\r\n- The demonstration is followed by listing some important use cases of import hooks, and how folks have used it in the past.\r\n\r\n### What can someone get out of this talk?\r\n\r\nAn understanding of the import system's mechanics, which helps to quickly debug and fix path/import related errors.\r\nKnowledge of import hooks, to build custom import related plugins.\r\n\r\n### Outline\r\n\r\nTime Duration- Topic\r\n\r\n0- 4 Introduction to packages and how to organize packages\r\n\r\n4- 7 Types of packages in python, and the default ones the import system supports.\r\n\r\n7- 12 Components of import system- sys.modules- finders and loaders- chronology of import related tasks\r\n\r\n12- 15 Finders, examples of finders, and how they function, find_spec function\r\n\r\n15- 17 sys.meta_path, sys.path_hooks in detail\r\n\r\n17- 19 Introduction to PEP 302, and import hooks\r\n\r\n19- 22 explain loaders with template code\r\n\r\n23- 25 code walkthrough and demonstration of an implementation of import hooks\r\n\r\n25- 26 briefly cover 'importing of submodules' topic with an example\r\n\r\n26- 28 present use-cases of import hooks, and usage in industry, conclude.\r\n\r\n28- 30 Q&A\r\n\r\n### Prerequisites:\r\n\r\n- Syntactic knowledge of Python\r\n- Should have come across import/$PYTHONPATH related errors\r\n\r\nIf you don't know either and still like the talk idea, please follow [this gist](https://gist.github.com/plant99/9fee5dbe73f25d4da9c7fb956a36b889) to 'intentionally' come across the errors :)\r\n\r\n## Content URLs\r\n\r\n[WIP slides](https://speakerdeck.com/plant99/wip-what-happens-behind-execution-of-an-import-statement)\r\n\r\n[Longer description of the talk idea as blogpost](https://plant99.bitbucket.io/pages/blogs/ten.html)\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nSat Sep  5 11:00:00 2020 at Curlyboi",
+  "duration": 1546,
+  "language": "eng",
+  "recorded": "2020-09-05",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2020.pycon.org.au/program/"
+    },
+    {
+      "label": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+      "url": "https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1"
+    },
+    {
+      "label": "https://plant99.bitbucket.io/pages/blogs/ten.html",
+      "url": "https://plant99.bitbucket.io/pages/blogs/ten.html"
+    },
+    {
+      "label": "https://2020.pycon.org.au/program/Q7GJNZ",
+      "url": "https://2020.pycon.org.au/program/Q7GJNZ"
+    },
+    {
+      "label": "https://gist.github.com/plant99/9fee5dbe73f25d4da9c7fb956a36b889",
+      "url": "https://gist.github.com/plant99/9fee5dbe73f25d4da9c7fb956a36b889"
+    },
+    {
+      "label": "https://speakerdeck.com/plant99/wip-what-happens-behind-execution-of-an-import-statement",
+      "url": "https://speakerdeck.com/plant99/wip-what-happens-behind-execution-of-an-import-statement"
+    }
+  ],
+  "speakers": [
+    "Shivashis Padhi"
+  ],
+  "tags": [
+    "PyCon",
+    "PyConAU",
+    "PyConline",
+    "Python",
+    "ShivashisPadhi",
+    "pyconau",
+    "pyconau_2020"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WrWxThyEl9Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyBpIYxjhXkOmRUgJEXciiU9XPqw",
+  "title": "What happens behind execution of an `import` statement?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WrWxThyEl9Y"
+    }
+  ]
+}
