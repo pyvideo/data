@@ -1,0 +1,22 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "One of the most fraught questions in Python is \u201cWhat is a decorator?\u201d. Most\nanswers are simple, easy to understand, and wrong. So what's the right\nanswer?\n\nDecorators like `@wraps` or `@classmethod` change the behaviour of a\ncallable, and do so by returning a new callable. Other decorators, like\n`@property` accept a callable, but leave something completely different in\ntheir place.\n\nThis flexibility isn\u2019t just there for decorators that come with Python. You\ncan use this flexibility in your own decorators, and it offers the potential\nfor you to build interesting and unexpected new behaviour.\n\nIn this talk, we\u2019ll look at why Python has decorators, and how you can build\nthem.\n\nWe\u2019ll look at how some more popular decorators in Python do what they do.\nFinally, we\u2019ll look at how to harness decorators to do unexpected and\npotentially horrible things with Python.\n\nAfter this talk, you\u2019ll know how decorators work, how to write your own\ndecorators, and how decorators enable you to do extremely weird things in\nPython. Most importantly, you\u2019ll understand how to use decorators\nresponsibly, and definitely not to confuse your friends and colleagues.",
+  "duration": 1500,
+  "language": "eng",
+  "recorded": "2021-10-01",
+  "related_urls": [
+    "https://2021.pygotham.tv/talks/on-the-use-and-misuse-of-decorators/"
+  ],
+  "speakers": [
+    "Christopher Neugebauer"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OtuNIBsVoR8/maxresdefault.jpg",
+  "title": "On the Use and Misuse of Decorators",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/OtuNIBsVoR8"
+    }
+  ]
+}
