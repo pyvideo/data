@@ -1,15 +1,32 @@
 {
   "description": "Matrix.org is an open source project that creates a new ecosystem for interoperable decentralised communication.  Matrix publishes open standard HTTP APIs for synchronising arbitrary real-time data (chat messages, VoIP calls, IoT data etc) with no central point of control, maintaining cryptographic integrity by storing conversation history in Merkle DAGs and using state-of-the-art end-to-end encryption via the Olm cryptographic ratchet.  The aim of Matrix is to defragment online communication and make interoperable messaging/VoIP/IoT as simple and ubiquitous as sending an email. As well as the standard itself, Matrix.org releases Apache-licensed reference implementations of Matrix servers, bridges, bots, clients etc.\nOur primary reference server implementation of Matrix is Synapse (https://github.com/matrix-org/synapse), which is built entirely in Python/Twisted.  Since our initial release in September 2014, Synapse has grown to ~50KLOC and scales to ~300K users on the matrix.org server deployment and has hundreds of active deployments on the public internet.  In this talk we\u2019ll introduce Matrix and dig into both the good and bad sides of working with Twisted, the scalability challenges we\u2019ve faced, how we fixed them and what we learned along the way!\n",
   "recorded": "2016-10-15",
+  "language": "eng",
+  "duration": 2963160,
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2016/pages/programme.html"
+    },
+    {
+      "label": "talk slides",
+      "url": "https://pycon.fr/2016/videos/scalable-decentralised-communication-with-matrix-org-and-twisted.html"
+    }
+  ],
   "speakers": [
     "Matthew Hodgson"
   ],
-  "thumbnail_url": "https://i.ytimg.com/vi/14chyP8r0qo/maxresdefault.jpg",
+  "thumbnail_url": "https://i.ytimg.com/vi/ZYvlf6dxgTY/maxresdefault.jpg",
   "title": "Scalable decentralised communication with Matrix.org and Twisted",
   "videos": [
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=14chyP8r0qo"
+      "url": "https://www.youtube.com/watch?v=ZYvlf6dxgTY"
+    },
+    {
+      "type": "webm",
+      "url": "https://dl.afpy.org/pycon-fr-16/Scalable%20decentralised%20communication%20with%20Matrix.org%20and%20Twisted.webm",
+      "size": 188065046
     }
   ]
 }

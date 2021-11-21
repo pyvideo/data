@@ -1,15 +1,32 @@
 {
   "description": "Les protocoles de communication jouent un r\u00f4le majeur dans l'\u00e9tablissement d'une communication entre les diff\u00e9rents composants des syst\u00e8mes informatiques. Malheureusement, il est bien connu que les protocoles de communication peuvent \u00eatre vuln\u00e9rables aux attaques. Certaines de ces attaques d\u00e9pendant de faiblesses introduites (in)volontairements dans leurs impl\u00e9mentations. Ces travaux proposent une solution pratique permettant d'identifier ces faiblesses en utilisant le language Python.\nCette pr\u00e9sentation s'attachera \u00e0 illustrer l'emploi de biblioth\u00e8ques Python d\u00e9di\u00e9es \u00e0 la r\u00e9tro-conception de protocoles tels que Netzob et Pylstar. Il sera notamment pr\u00e9sent\u00e9 comment les utiliser pour 1) extraire la machine \u00e0 \u00e9tats d'une impl\u00e9mentation en boite noire et 2) comparer les machines \u00e0 \u00e9tats de plusieurs impl\u00e9mentations d'un m\u00eame protocole pour rechercher des vuln\u00e9rabilit\u00e9s. Le protocole HTTP2 servira d'exemple.\n",
   "recorded": "2016-10-15",
+  "language": "fra",
+  "duration": 1802040,
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2016/pages/programme.html"
+    },
+    {
+      "label": "talk slides",
+      "url": "https://pycon.fr/2016/videos/python-for-secops-recherche-de-vulnerabilites-dans-les-implementations-dun-protocole.html"
+    }
+  ],
   "speakers": [
     "Georges Bossert"
   ],
-  "thumbnail_url": "https://i.ytimg.com/vi/f3SvNK9tb2Q/maxresdefault.jpg",
+  "thumbnail_url": "https://i.ytimg.com/vi/RICSC6dbKc0/maxresdefault.jpg",
   "title": "Python for SecOps: recherche de vuln\u00e9rabilit\u00e9s dans les impl\u00e9mentations d'un protocole",
   "videos": [
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=f3SvNK9tb2Q"
+      "url": "https://www.youtube.com/watch?v=RICSC6dbKc0"
+    },
+    {
+      "type": "mkv",
+      "url": "https://dl.afpy.org/pycon-fr-16/Python%20for%20SecOps%3A%20recherche%20de%20vuln%C3%A9rabilit%C3%A9s%20dans%20les%20impl%C3%A9mentations%20d%27un%20protocole.mkv",
+      "size": 226951102
     }
   ]
 }

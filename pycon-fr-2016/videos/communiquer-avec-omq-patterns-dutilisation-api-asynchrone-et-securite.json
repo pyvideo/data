@@ -1,15 +1,32 @@
 {
   "description": "\u00d8MQ ou zeromq est une une boite \u00e0 outils r\u00e9seau extr\u00eamement l\u00e9g\u00e8re, flexible et performante permettant \u00e0 des acteurs distribu\u00e9s d'\u00e9changer un grand nombre de messages en utilisant des m\u00e9canismes de transport vari\u00e9s (in-process, inter-process, TCP, multicast). A la base con\u00e7ue et optimis\u00e9e pour le backend d'un syst\u00e8me de trading en ligne, cette biblioth\u00e8que est aujourd'hui une solution g\u00e9n\u00e9rique et multi-langage et elle est utilis\u00e9e par un large spectre d'applications: ipyparallel utilise zeromq pour la communication entre ses composants, les notebooks Jupyter l'utilisent pour s'entretenir avec les diff\u00e9rents kernels, et de nombreux (micro)services web l'utilisent pour l'\u00e9change de messages et du RPC au sein de leur backend, comme entre autres chez Spotify (python, Zeromq, protobuf et gevent). A l'institut ChemTech (Haute Ecole d'Ing\u00e9nierie et d'Architecture de Fribourg), on utilise cette technologie pour la communication en temps r\u00e9el entre microservices qui monitorent, analysent, optimisent et contr\u00f4lent une halle de production chimique. Cette pr\u00e9sentation propose de vous introduire aux patterns d'utilisation pythoniques de zeromq qui ont beaucoup \u00e9volu\u00e9s depuis Python 3.4 et l'arriv\u00e9e de asyncio, aux possibilit\u00e9s de cette biblioth\u00e8que en terme d'architectures de communication et de s\u00e9curit\u00e9, et de faire un \u00e9tat des lieux des forces, faiblesses et alternatives.\n",
   "recorded": "2016-10-15",
+  "language": "fra",
+  "duration": 2812280,
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2016/pages/programme.html"
+    },
+    {
+      "label": "talk slides",
+      "url": "https://pycon.fr/2016/videos/communiquer-avec-omq-patterns-dutilisation-api-asynchrone-et-securite.html"
+    }
+  ],
   "speakers": [
     "Thierry Chappuis"
   ],
-  "thumbnail_url": "https://i.ytimg.com/vi/SdTsfimT-Zo/maxresdefault.jpg",
+  "thumbnail_url": "https://i.ytimg.com/vi/5jsnbwimrp4/maxresdefault.jpg",
   "title": "Communiquer avec \u00d8MQ: patterns d'utilisation, API asynchrone et s\u00e9curit\u00e9",
   "videos": [
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=SdTsfimT-Zo"
+      "url": "https://www.youtube.com/watch?v=5jsnbwimrp4"
+    },
+    {
+      "type": "mkv",
+      "url": "https://dl.afpy.org/pycon-fr-16/Communiquer%20avec%20%C3%98MQ%3A%20patterns%20d%27utilisation%2C%20API%20asynchrone%20et%20s%C3%A9curit%C3%A9.mkv",
+      "size": 358870232
     }
   ]
 }
