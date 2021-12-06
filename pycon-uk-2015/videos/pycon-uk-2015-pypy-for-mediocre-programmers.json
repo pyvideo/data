@@ -1,6 +1,7 @@
 {
   "description": "This is a talk for mediocre Python programmers by a mediocre programmer.\nPyPy is an alternative implementation of Python. It is notorious for\nbeing fast, but also for using clever algorithms pertaining to advanced\nconcepts such as type inference, garbage collection, just-in-time\ncompilation, etc. So, can we, mediocre programmers, realistically use\nPyPy?\n\nYes, absolutely. In fact, PyPy developers did all that hard work so that\nwe wouldn't have to. As we'll see, it runs most Python code exactly like\nCPython does, save that it magically makes it faster.\n\nPorting existing applications is always more involved than running a\nsimple script, so we'll also examine likely difficulties such as code\nrelying on CPython implementation details, and dependencies on C\nextensions, and explore simple principles to let PyPy run your code even\nfaster.\n\nFinally, we'll have a glimpse of the future by looking at what's brewing\nin the PyPy lair, such as software transactional memory, new speed\noptimisations, better support for Python 3 and NumPy, ...",
   "duration": 1479,
+  "language": "eng",
   "recorded": "2015-09-18",
   "speakers": [
     "Ronan Lamy"

@@ -1,6 +1,7 @@
 {
   "description": "This short talk will look under the hood of how py.test uses assertion\nstatement rewriting to give users a better, more pythonic testing\nexperience.\n\nUsually in Python, assertion statements are quite simple and tedious to\nwork with, where a simple snippet of code like this:\n\n::\n\n    def double(x):\n        return x * 2\n    expected = 5\n    assert double(2) == expected\n\nfinishes with message that does not include any context:\n\n::\n\n    Traceback (most recent call last):\n      File \"t.py\", line 5, in <module>\n        assert double(2) == expected\n    AssertionError\n\nWith py.test, we get a lot more information with all intermittent values\nnicely described:\n\n::\n\n    t.py:5: in <module>\n        assert double(2) == expected\n    E   assert 4 == 5\n    E    +  where 4 = <function double at 0x1033add08>(2)\n\nDuring this talk you will learn about all the ingredients needed to\nreverse- engineer py.test behaviour, using import hooks described in PEP\n302, and the ast module from standard library. We will try to use these\nhidden gems in a broader context, outside of testing.",
   "duration": 1747,
+  "language": "eng",
   "recorded": "2015-09-19",
   "speakers": [
     "Tomek Paczkowski"

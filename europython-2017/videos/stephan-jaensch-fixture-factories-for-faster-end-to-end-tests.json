@@ -1,6 +1,7 @@
 {
   "description": "When developing and maintaining many different services, unit testing\nis not enough to make sure your code works in production. By now,\nmany teams doing SOA (service-oriented architectures) have a set of\nend-to-end tests that cover critical workflows to make sure these\nwork. For these tests, all of the utilized services need to have the\nproper test fixture data in their datastores. This often leads to\ndevelopers having to deal with raw datastore data (like JSON or SQL)\nfor these tests, making the authoring of those tests very slow,\ntedious, and error-prone.\n\nThis talk is going to discuss several approaches we tried at Yelp to\ngenerating these fixture data in a quicker, developer-friendly and\nmore correct way.\n\nThe main part of the talk will be a deep-dive into what fixture\nfactories are, how to implement them and how to integrate them with\npytest, the leading Python testing framework. I'll show you several\nother benefits this approach has over writing raw fixture data and\nhow this leads to more maintainable and easier to adapt code. We'll\nalso explore how you can then run your tests in parallel, cutting\ndown runtime drastically.",
   "duration": 1895,
+  "language": "eng",
   "recorded": "2017-07-13",
   "speakers": [
     "Stephan Jaensch"

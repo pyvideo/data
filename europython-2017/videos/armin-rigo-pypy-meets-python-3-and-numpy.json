@@ -1,6 +1,7 @@
 {
   "description": "PyPy is an alternative Python implementation whose JIT often gives\nseriously better performance than CPython.  Now PyPy supports, in\nbeta version, two major new application domains: Python 3.x, and\nNumpy and the rest of the scientific stack.  These are each an\nimportant milestone for a subset of the Python community.\n\nThanks to a grant by Mozilla, \"PyPy3\" now largely supports Python\n3.5 with one or two extensions from Python 3.6.  Full support should\nbe  very close.  (Note that PyPy2 will not disappear, if only because\nPyPy itself  is written in Python 2.7.) Numpy and the major packages\nof the scientific stack are now starting to work well with PyPy\n(PyPy2 mostly, but also PyPy3).  This is thanks to progress in\n\"cpyext\" emulating the CPython C API, as well as fixes to the\npackages in collaboration with the upstream developers.\n\nWe will also mention some more \"what's new in PyPy\" topics from the\nlast couple of years.",
   "duration": 1775,
+  "language": "eng",
   "recorded": "2017-07-14",
   "speakers": [
     "Armin Rigo"

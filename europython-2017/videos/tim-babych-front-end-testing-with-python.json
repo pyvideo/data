@@ -1,6 +1,7 @@
 {
   "description": "Web-developers use Python to develop web-applications, serving HTML\nor JSON content to user's browsers which render it. We test our\napplications to check that they serve content right and that they\nrespond to HTTP requests in an expected way. However, this is not all\nthat happens in a modern web application. There are lots of moving\nparts which are executed not on the server, but directly in user's\nbrowser, and they need to be tested too. The best way to check that\nour app works well in a browser is to test it in a browser, and\nPython gives you tools to do that conveniently.\n\nWith a Selenium tool and Python package, you can control the\nbrowsers, making them open web pages and interacting with them. I\nwill show how to install Selenium and needed drivers, and tell about\nbest practices for writing Selenium tests, such as\n\n- Page Object pattern\n- Put browser interactions in the page object, not the test\n- Put assertions in the test, not the page object\n- Never use time.sleep()\n- Always make pages wait for actions to complete\n- Wait for JavaScript to load\n\nTo test the visual look of your application there is a Needle tool,\nwhich lets you compare screenshots with baseline set, and highlight\nthe differences. I will talk about how to incorporate that\nfunctionality into your tests.\n\nAs browser testing can get quite slow, I will also show how to set up\nrunning them concurrently.",
   "duration": 1911,
+  "language": "eng",
   "recorded": "2017-07-10",
   "speakers": [
     "Tim Babych"

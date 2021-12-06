@@ -1,6 +1,7 @@
 {
   "description": "Filmed at PyData London 2017\n\nDescription\nAmateur sports video quality usually depends on how good your friends are with their camera-phone. In this talk I walk through the stages of how I designed and developed a machine vision model for tracking where the action is happening in a rugby match, and how I made it lightweight enough to run on a Raspberry Pi in real-time .\n\nAbstract\nInspired by the shaky camera work of friends and parents alike in school sports events; I've build a Raspberry Pi controlled robot that automatically points a camera at where the action is happening in a rugby match.\n\nThe talk will discuss the stages of developing an embedded machine vision model. Starting with a simple heuristic approach in order to collect the training data. Then how you can compress the feature space in order to reduce the computational load on the Raspberry Pi. Along with that, how using python multi-processing can help in sharing the load of the machine vision work and servo control.\n\nAfter the talk people should know a little about embedding machine learning using Raspberry Pi's as well as some insight in to SimpleCV (machine vision library for python) and multi-processing with python.",
   "duration": 2169,
+  "language": "eng",
   "recorded": "2017-05-07",
   "speakers": [
     "Zack Akil"

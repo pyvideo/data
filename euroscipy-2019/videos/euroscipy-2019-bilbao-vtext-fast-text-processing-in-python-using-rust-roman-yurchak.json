@@ -1,6 +1,7 @@
 {
   "description": "| Scientific Python has historically relied on compiled extensions for\n  performance critical parts of the code. In this talk, we outline how\n  to write Rust extensions for Python using\n  `rust-numpy <https://github.com/rust-%20numpy/rust-numpy>`__,\n| project. Advantages and limitations of this approach as compared to\n  Cython or wrapping Fortran, C or C++ are also discussed.\n\nIn the second part, we introduce the\n`vtext <https://github.com/rth/vtext>`__ project that allows fast text\nprocessing in Python using Rust. In particular, we consider the problems\nof text tokenization, and (parallel) token counting resulting in a\nsparse vector representation of documents. These can then be used as\ninput in machine learning or information retrieval applications. We\noutline the approach used in vtext and compare to existing solutions of\nthese problems in the Python ecosystem.\n\nIn this talk, we present some of the benefits of writing extensions for\nPython in Rust. We then illustrate this approach on the\n`vtext <https://github.com/rth/vtext>`__ project, that aims to be a\nhigh- performance library for text processing.\n",
   "duration": 965,
+  "language": "eng",
   "published_at": "2020-03-06T15:07:44.000Z",
   "recorded": "2019-09-05",
   "speakers": [

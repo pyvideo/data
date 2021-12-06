@@ -1,6 +1,7 @@
 {
   "description": "If your code calls a third party service then you may want to test\nthat your code works but you don't want to call the service in your tests.\n\nIt may be expensive, slow or impossible to call that service.\nFor example, if you are making a Slack bot, you want to create tests\nhich don't make calls across the network to Slack.\n\nOne approach is to create a mock of that service. Our tests can now run\nquickly, cheaply and reliably. But if we copy the service incorrectly,\nor if the service changes, our tests will pass while our code does not work.\n\nVerified fakes solve this problem. You can write tests which confirm\nthat your mock is an accurate representation of the service being mocked.\nThose tests can be a small subset of your test suite and they can be run\nperiodically, to verify the validity of the many tests which use the mock.\n\nThis talk will follow the example of VWS-Python, a verified fake\nfor a proprietary web service. It will discuss the practicalities\nof creating such a fake and it will focus on the trade-offs,\ntooling and approaches involved.\n\nBy the end of this talk the audience will understand how to tie together\npytest, Travis CI, requests and Responses to create a verified fake.\n\nThe talk is aimed at people who have an interest in writing correct\nsoftware. It is assumed that the audience is familiar with basic testing techniques.",
   "duration": 1977,
+  "language": "eng",
   "recorded": "2017-07-10",
   "speakers": [
     "Adam Dangoor"

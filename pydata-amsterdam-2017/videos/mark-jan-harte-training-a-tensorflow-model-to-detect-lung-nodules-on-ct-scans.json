@@ -1,6 +1,7 @@
 {
   "description": "PyData Amsterdam 2017\n\nTo detect early-stage lung cancer, radiologists make CT scans which they interpret to find potential abnormalities. Deep learning can be applied to automate this process. In this talk, we will describe the Python-based training pipeline for a TensorFlow model to detect these abnormalities.\n\nFinding a nodule of a few pixels in size is a challenge in a 3D volume of 200512512 voxels. To solve this, a two-stage deep learning model is defined to generate potential nodule locations, and to classify those candidates. The pipeline is written in Python and addresses a number of challenges regarding the size of the 3D dataset, normalization, annotation and labeling, model design and validation.",
   "duration": 1554,
+  "language": "eng",
   "recorded": "2017-04-08",
   "speakers": [
     "Mark-Jan Harte"

@@ -1,6 +1,7 @@
 {
   "description": "PyPy is a fast and compliant implementation of Python. In other words,\nit's an interpreter for the Python language that can act as a full\nreplacement for the reference interpreter, CPython. It's optimised to\nenable efficient just-in- time compilation of Python code to machine\ncode, and has releases matching versions 2.7, and 3.6. It now also\nsupports the main pillars of the scientific ecosystem (numpy, Cython,\nscipy, pandas, ...) thanks to its emulation layer for the C API of\nCPython.\n\nPerformance is a major concern for Python programmers. When using\nCPython, this leads to splitting out the performance-sensitive parts of\nthe computation and rewriting them in a faster, but less convenient,\nlanguage such as C or Cython. With PyPy, there is no need to choose\nbetween clear, Pythonic code and good performance. This talk aims to\nconvince the audience that PyPy should be part of every scientific\nprogrammer's toolbox.\n\nPyPy, the fast and compliant alternative implementation of Python, is\nnow compatible with the SciPy ecosystem. We'll explore how scientific\nprogrammers can use it.\n",
   "duration": 1666,
+  "language": "eng",
   "published_at": "2020-03-06T16:55:59.000Z",
   "recorded": "2019-09-05",
   "speakers": [

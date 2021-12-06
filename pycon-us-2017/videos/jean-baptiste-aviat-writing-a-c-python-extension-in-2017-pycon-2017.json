@@ -1,6 +1,7 @@
 {
   "description": "This talk describes the build of a C Python extension, with prebuilt\nbinaries, in 2017, where modern packaging standards, as well as Docker,\nhave been a game changer in the Python extensions world. Most examples\ncome from our experience building\n`PyMiniRacer <https://github.com/sqreen/PyMiniRacer>`__, an embedded\nPython / JavaScript bridge used in production across hundreds of\ncompanies.\n\nWe will describe the different aspects of building a binary extension,\nincluding:\n\n-  using the modern manylinux wheel type in order to ship a built\n   binary, usable in most Linux distributions;\n-  the choices offered to developers when building an extension: the\n   Python public C API, cffi, ...;\n-  testing of a binary module across various platforms;\n-  troubleshooting & debugging an extension: the basics you need to\n   tackle most common issues.\n",
   "duration": 1723,
+  "language": "eng",
   "recorded": "2017-05-20",
   "speakers": [
     "Jean-Baptiste Aviat"

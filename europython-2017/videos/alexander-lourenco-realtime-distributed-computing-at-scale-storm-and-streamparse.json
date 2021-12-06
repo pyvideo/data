@@ -1,6 +1,7 @@
 {
   "description": "Realtime distributed computing is tough, especially at scale:\nmanaging a large data pipeline is tough, and it\u2019s even tougher to keep\nlatency low and availability high when processing tens of thousands of\nitems per second. Many people turn in despair to Java or Scala when it\ncomes time to scale up, but we can do it in Python: Apache Storm is a\ndistributed realtime computation system that can let you scale up\n- and no need to reach for a new language!\n\nThis talk will walk the audience through the basics of Apache Storm\nand how it\u2019s an elegant, useful solution to realtime distributed computing,\nas well as how streamparse can let you write your storm components in\nPython by writing some code and a basic storm topology in Python.\nWe\u2019ll also look at how Parsely uses Storm in production to handle\nbillions of realtime events a month. If we have time, we\u2019ll go a bit\ninto how Storm has several advantages over other common Python computing\ndata streaming solutions, like Spark\u2019s microbatching.\n\nGoals:\n\nAt the end of the talk, ideally you should be able to understand:\n\n- What Apache Storm is, how it works generally, and what scenarios it\u2019s useful for\n- How streamparse can be used to write your Storm topologies\n- How Storm + streamparse is used in an actual high-availability, low-latency production environment",
   "duration": 1771,
+  "language": "eng",
   "recorded": "2017-07-12",
   "speakers": [
     "Alexander Lourenco"

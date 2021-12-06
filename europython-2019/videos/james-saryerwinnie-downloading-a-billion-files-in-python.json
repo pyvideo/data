@@ -1,5 +1,6 @@
 {
   "description": "You've been given a task. You need to download some files from a server\nto your local machine. The files are fairly small, and you can list and\naccess these files from the remote server through a REST API. You'd like\nto download them as fast as possible. The catch? There's a billion of\nthem. Yes, one billion files.\n\nHow would would you do this? Would you do this synchronously in a single\nfor loop? Would you use a producer/consumer queue with threads?\nMultiprocessing? Asyncio?\n\nIn this talk, we'll examine 3 different mechanisms for concurrently\ndownloading files: multithreading, multiprocessing, and asyncio.\n\nFor each of these mechanisms we'll look at design best practices, how to\nhandle debugging and error handling, and of course the overall\nperformance. By examining three different approaches using the same data\nset, we gain a better understanding of the tradeoffs of each approach so\nwe can pick the right library for the job.",
+  "language": "eng",
   "recorded": "2019-07-12",
   "related_urls": [
     {

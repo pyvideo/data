@@ -1,6 +1,7 @@
 {
   "description": "Python is an interpreted development language with powerful introspection\nfeatures, up to allow accesso to the byte code itself to see what the\nvirtual machine is going to do. Reaching down to byte code or low\nlevel inspection is usually a very uncommon need and it's usually only\ninvolved in debugging or understanding the interpreter internals,\nbut it can be a powerful tool to check that third parties code that\n(or the code we will write ourselves in the future) sticks to some\nprotocols or best practices that are supposed to be in place.\n\nMost of the needs for this checks are usually performed at execution\ntime or through techniques like metaclasses and monkeypatching of third\nparties code, but in some cases it would be possible to inadvertently\nskip those checks or work them around, while verifying the resulting\nbyte code allows us to check what's really going to be executed and\nenforce the required constraints.",
   "duration": 2492,
+  "language": "eng",
   "recorded": "2017-07-10",
   "speakers": [
     "Alessandro Molina"

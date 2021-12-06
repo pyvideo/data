@@ -1,5 +1,6 @@
 {
   "description": "DjangoCon US 2017 - Taking Django Distributed by Andrew Godwin\n\nWhile some code happily lives on a single server forever, most big projects will have to cross the boundary into running both their application and storing their data across multiple systems. The basic strategies are well-known, but we\u2019ll take a look at what to do as you cross the painful threshold where you can\u2019t run your app as a monolith or store everything on a single database server.\n\nAmong other things, we\u2019ll look at how to split up business logic and application code to run on different servers, how to scale to handle different kinds of web traffic (read-heavy, write-heavy, and long-connections/WebSockets), when and how to make parts of your code not run inline with HTTP processing, strategies for storing data across multiple machines, and how to structure your engineering team to best cope with all these changes.\n\nWe\u2019ll also look at a few apparently innocuous decisions and the spiral of bad performance they lead to, and how to recognise some of these common problems so you can avoid them yourself in future.",
+  "language": "eng",
   "recorded": "2017-08-14",
   "speakers": [
     "Andrew Godwin"

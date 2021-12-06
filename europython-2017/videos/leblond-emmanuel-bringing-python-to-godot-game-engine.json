@@ -1,6 +1,7 @@
 {
   "description": "https://godotengine.org/\n\nGodot is an advanced, feature-packed, multi-platform 2D and 3D open\nsource game engine. The project has joined the Software Freedom\nConservancy project and it growing community makes it hopes to become\na real alternative to Unity & GameMaker.\n\nThis talk cover a year long journey of the port of Python as a\nscripting language for the engine, starting from a rant against\nGodot's Python-like proprietary language.\n\nWe will have a look at Godot's internal architecture as  is it itself\na real interpreter with it garbage collector, dynamic typing,\nintrospection and even builtin custom scripting language. All of this\nhaving to work next to our Python interpreter and communicate back\nand forth with it.\n\nFinally we will see the different approaches that have been tried to\nbind Python to Godot each with there own pros & cons:\n\n- Using Micropython interpreter instead of CPython\n- Using PyBind11 to statically bind to Godot C++ API\n- Using CFFI and rely on a 3rd party C API\n\nThe audience should have some basic knowledge of C level computing\n(static vs dynamic language, compilation & linking).",
   "duration": 1695,
+  "language": "eng",
   "recorded": "2017-07-10",
   "speakers": [
     "Emmanuel Leblond"

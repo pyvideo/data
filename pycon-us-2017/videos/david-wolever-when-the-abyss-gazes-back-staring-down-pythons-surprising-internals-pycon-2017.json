@@ -1,6 +1,7 @@
 {
   "description": "Python's fantastic until it isn't. This talk dives into some of the\nsurprising implementation details of CPython, then explains exactly how\nthey could be discovered from first principles.\n\nAttendees will leave with some dangerous Python trivia, and the tools\nthey'll need to uncovery their own trivia when surprises strike.\n\nThe talk takes a deep dive into a StackOverflow question asking why\n``\"x\" in (\"x\", )`` is faster than ``\"x\" == \"x\"``\n(http://stackoverflow.com/questions/28885132/why-is-x-in-x-faster-than-x-x/28885213#28885213),\nincluding a discussion of ``dis.disassemble``, the Pyhton stack machine,\nand reading the CPython source. If time permits, there will be other fun\nexamples, a whirlwind tour of debugging, and a couple of homework\nassignments.\n",
   "duration": 1813,
+  "language": "eng",
   "recorded": "2017-05-20",
   "speakers": [
     "David Wolever"
