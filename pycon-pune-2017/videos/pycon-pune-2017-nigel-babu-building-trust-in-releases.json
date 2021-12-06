@@ -1,6 +1,7 @@
 {
   "description": "Releasing an open source project is easy. Push code on Github and\n(optionally) release the package on PyPI and distribution packages. How\ndo you build trust into releases so that your users can trust your\nproduct? If your product is critical to someone\u2019s infrastructure, trust\nis even more critical. This talk aims to lay down basic guidelines for\nreleases. I\u2019ll be specifically taking examples of requests, Gluster, and\nGerrit to talk about trust.\n\nThis talk is intended to remind the audience about their users. A good\nproduct is not only about good code. It\u2019s also about good experience and\nempathy for solving your user\u2019s problems. For instance, your users are\nnot going to be happy if you force large changes after an upgrade.\n\n\n-  Trust and importance of trust in releases\n-  What not to do.\n-  Importance of publically visible tests: Linting, Unit tests,\n   Functional tests, API tests.\n-  Everything cannot be tested, some things may need to be manually\n   done. Build your pipeline so you *only* test what cannot be\n   automated.\n-  The need for Release notes and Upgrade guides.\n-  Remember to create a good experience for all your consumers - end\n   users, sysadmins, and developers.\n-  Lessons from ``requests`` for developer experience.\n-  Lessons from ``ansible`` for for sysadmin experience.\n-  Lessons from Gerrit for user experience and upgrade experience.\n",
   "duration": 2505,
+  "language": "eng",
   "recorded": "2017-02-16",
   "speakers": [
     "Nigel Babu"

@@ -1,6 +1,7 @@
 {
   "description": "Building a NLU application like a chatbot seems easy nowadays, but\ngetting it right architecturally is harder than expected. Let's dive\ninto the problems I've encountered and an elegant-yet-simple solution to\nmake it really work. We'll look at understanding conversation not as a\npipeline, but as an orchestra of many components playing together\ntowards a shared goal.\n\nFor the last 6 years I've been working on a complex NLU system to\nunderstand human discourse, and have seen many approaches and promises\nto solve it \"easily\". This talk will unfold the journey of our\narchitecture from a simple pipeline to more complex solutions,\nhighlighting the difficulties of current approaches to tackle real\nconversations with real users.\n\nLooking at the problem from a different angle, we'll develop an elegant\nstructure of NLU applications as an orchestra of many components.\n\nThe proposed solution naturally handles many problems:\n\n-  Changing requirements, like new intents or entities\n-  Non-linear dependencies between components\n-  Using the full conversation as context\n",
   "duration": 1691,
+  "language": "eng",
   "published_at": "2020-01-02T15:29:34.000Z",
   "recorded": "2019-12-12",
   "speakers": [

@@ -1,5 +1,6 @@
 {
   "description": "The oldest known Colossal Cave source code we have is from 1977 and written for the then 11-year-old PDP-10 in a variant of FORTRAN IV that is now completely defunct and was specific to the PDP-10.\n\nWe'll talk briefly about a history of video games, FORTRAN, and the PDP machines that led to this, and explain how the quirks of this machine were baked into its variant of FORTRAN IV. We'll look at some ancient PDP manuals to discover the secrets you need to know to read this amazing source code.\n\nWe'll delve into how one goes about writing a simple interpreter in Python to run this FORTRAN IV code as-is: translating strings, implementing its odd arithmetic and conditional statements, reading in data from our \"tape\" drive, how we get input and send output using our \"teletype\".\n\nIf you want a demo of this game playing right now, it is running on Heroku and accessible via SMS. Just text anything to +1 (669) 238-3683 (\"669 ADVENT3\") to start a game. Send RESET to restart the game. Case doesn't matter when sending commands. It identifies you based on your phone number and will remember your game indefinitely. (We'll also talk about how we achieved this in Heroku.)",
+  "language": "eng",
   "recorded": "2017-12-02",
   "related_urls": [
     {

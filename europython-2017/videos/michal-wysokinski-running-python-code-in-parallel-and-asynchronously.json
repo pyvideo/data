@@ -1,6 +1,7 @@
 {
   "description": "My outline will be:\n\n1. What does it mean to run code in parallel in Python? How does it differ from concurrency? Can they be applied at the some time?\n2. GIL and why it complicates parallelism in Python (CPython), but only to some extent.\n3.  Difference between a thread and a process from the OS point of view.\n4. When parallelism in Python is useful and when to avoid it.\n5. Description of how to achieve parallel execution in CPython and how to do it properly.\n6. Possible traps when using parallel programming in Python.\n7. What happens if the code runs both in parallel and asynchronously?\n8. Is it really beneficial?\n9. How such execution can be achieved?\n\nAs the outline shows I will focus on the parallel part as it is an\nimportant topic in our current time of multicore processors and\nmultiprocessor systems.\n\nThe topic has been discussed a lot of times but mainly from the\nscientific point of view, where it's been used for speeding up\ncalulcations time.  I will not go into these use cases (e.g. using\nMPI) but rather discuss it from web development point of view (e.g.\nmulti worker applications).",
   "duration": 2609,
+  "language": "eng",
   "recorded": "2017-07-11",
   "speakers": [
     "Michal Wysokinski"

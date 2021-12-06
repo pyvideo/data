@@ -1,6 +1,7 @@
 {
   "description": "PyFETI is a python implementation of\nFinite-Element-Tearing-Interconnecting Methods. The library provides a\nmassive linear solver that uses Domain Decomposition Techniques. FETI\nmethods rely in the solution of a linear system, based on to linear\nsolver algorithm strategies, Direct and Iteratively. A big problem is\ndecomposed in subdomains, generating an additional set of constraints at\nthe interface among subdomains. The local problem solution is formulated\nbased on a new interface force at the interface that must connect the\nsubdomains. Therefore, given an interface force, the local problems are\nsolved based on a direct solver, e.g SuperLU, and the update of\ninterface force is performed by Preconditioned Conjunged Projected\nGradient. The library has been tested for large linear elastic problems\nat the IT4I supercomputer center.\n\nPyFETI is a python implementation of\nFinite-Element-Tearing-Interconnecting Methods. The library provides a\nmassive linear solver using Domain Decomposition method, where problems\nare solved locally by Direct Solver and at the interface iteratively.\n",
   "duration": 1075,
+  "language": "eng",
   "published_at": "2019-12-02T13:27:12.000Z",
   "recorded": "2019-09-04",
   "speakers": [

@@ -1,6 +1,7 @@
 {
   "description": "Dask is a general purpose parallel computing system capable of\nCelery-like task scheduling, Spark-like big data computing, and\nNumpy/Pandas/Scikit-learn level complex algorithms, written in Pure\nPython. Dask has been adopted by the PyData community as a Big Data\nsolution.\n\nThis talk focuses on the distributed task scheduler that powers Dask\nwhen running on a cluster. We'll focus on how we built a Big Data\ncomputing system using the Python networking stack (Tornado/AsyncIO) in\nservice of its data science stack (NumPy/Pandas/Scikit Learn).\nAdditionally we'll talk about the challenges of effective task\nscheduling in a data science context (data locality, resilience, load\nbalancing) and how we manage this dynamically with aggressive\nmeasurement and dynamic scheduling heuristics.\n",
   "duration": 2789,
+  "language": "eng",
   "recorded": "2017-05-19",
   "speakers": [
     "Matthew Rocklin"

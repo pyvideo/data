@@ -1,6 +1,7 @@
 {
   "description": "During my last CPython sprint, I started to contribute to the CPython code, and I wanted to understand the beast.\n\nIn this case, there is only one solution, trace the code from the beginning. From the command line to the interpreter, we will take part to an adventure.\n\nOverview of the structure of the Project and the directories.\nFrom the Py_Main function, to the interpreter\nthe used technics for the Lexer, Parser and the generation of the AST and of course of the Byte Code.\nwe will see some byte codes with the dis module\nHow does VM works, it\u2019s a stack machine.\nthe Interpreter and its main loop of the Virtual Machine.\nThe idea behind is just to show how CPython works for a new contributor to CPython",
   "duration": 977,
+  "language": "eng",
   "recorded": "2015-10-24",
   "speakers": [
     "St\u00e9phane Wirtel"

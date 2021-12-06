@@ -1,6 +1,7 @@
 {
   "description": "While demonstrating the pyboard to a group of colleagues, a challenge\nwas set to produce a practical demonstration of the device that would\nprovide automatic and continuous voice recording and playback of short\nspoken phrases similar to that found in a number of talking toys.\n\nThis talk covers the process of designing and testing the embedded\nreal-time Python solution and includes the architecture,\ntest methodologies and recordings as the stages progressed\nto the final source code.\nThe talk concludes with a live demonstration of the final application.\nThe solution uses MicroPython (an embedded implementation of Python 3),\nthe pyboard and its AMP Audio skin.\n\nMicroPython is a lean implementation of Python 3 that is optimised\nto run in a very small footprint on micro-controllers\nand in constrained environments.\nIt was created by the Australian programmer and physicist Damien George,\nafter a successful Kickstarter backed campaign in 2013.\n\nThe pyboard is the original reference hardware created to host MicroPython.\nIt is a compact low-power board based on an ARM processor with a heap\nof approximately 100kBytes that can run at 168MHz.\nIt has sufficient hardware services and real-time capabilities\nto control all kinds of electronic projects.\n\nThe AMP Audio skin is a small additional module that attaches\nto the pyboard that adds a small power amplifier, speaker\nand a microphone with a pre-amp.",
   "duration": 1706,
+  "language": "eng",
   "recorded": "2017-07-10",
   "speakers": [
     "Alan Christie"

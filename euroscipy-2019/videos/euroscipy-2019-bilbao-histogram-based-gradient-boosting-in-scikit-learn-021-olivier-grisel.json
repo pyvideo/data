@@ -1,6 +1,7 @@
 {
   "description": "scikit-learn 0.21 was recently released and this presentation will give\nan overview its main new features in general and present the new\nimplementation of Gradient Boosted Trees.\n\nGradient Boosted Trees (also known as Gradient Boosting Machines) are\nvery competitive supervised machine learning models especially on\ntabular data.\n\nScikit-learn offered a traditional implementation of this family of\nmethods for many years. However its computational performance was no\nlonger competitive and was dramatically dominated by specialized state\nof the art libraries such as XGBoost and LightGBM. The new\nimplementation in version 0.21 uses histograms of binned features to\nevaluate the tree node spit candidates. This implementation can\nefficiently leverage multi-core CPUs and is competitive with XGBoost and\nLightGBM.\n\nWe will also introduce pygbm, a numba-based implementation of gradient\nboosted trees that was used as prototype for the scikit-learn\nimplementation and compare the numba vs cython developer experience.\n\nIn this presentation we will present some recently introduced features\nof the scikit-learn Machine Learning library with a particular emphasis\non the new implementation of Gradient Boosted Trees.\n",
   "duration": 1614,
+  "language": "eng",
   "published_at": "2020-03-06T15:54:47.000Z",
   "recorded": "2019-09-05",
   "speakers": [

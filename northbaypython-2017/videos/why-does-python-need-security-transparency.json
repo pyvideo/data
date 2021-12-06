@@ -1,5 +1,6 @@
 {
   "description": "The days of \"software vulnerability\" being a synonym for \"buffer overflow\" are over. Modern vulnerabilities are those that enable attackers to get into your network and stay in your network. Beyond simple bugs, any tool that can execute arbitrary code becomes a vulnerability - _especially_ if you don't know when it is doing that.\n\nPython is a popular tool with attackers, in large part because it can download encrypted code, decrypt and execute it with a single line of code. And once that entire payload is running, nobody knows exactly what it is doing.\n\n`PEP 551`_ adds a range of auditing hooks to the Python runtime, enabling system administrators to see into how it is being used. You can inspect every piece of code that is compiled and executed, intercept calls that modify trace, and collect information on code that uses native through `ctypes`.\n\nThis session will look at why we need security transparency in Python. We will look at actual examples of malware written in Python, and see how the hooks provided by PEP 551 enable administrators to detect and prevent attacks on their systems.\n\n.. _PEP 551: https://www.python.org/dev/peps/pep-0551/",
+  "language": "eng",
   "recorded": "2017-12-02",
   "related_urls": [
     {

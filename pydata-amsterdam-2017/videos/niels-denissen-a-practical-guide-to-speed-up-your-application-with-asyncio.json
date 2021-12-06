@@ -1,6 +1,7 @@
 {
   "description": "PyData Amsterdam 2017\n\nAsynchronous programming in Python can be a very useful skill to have, especially when working with programs that require lots of data processing or other I/O operations. During this talk I'd like to introduce you to a package called asyncio. I'll cover the basics of why you would want to use it, how and some learning points I got out of working with it myself.\n\nSingle threaded synchronous code allows for only one task to be executed at a time. Apply this to a UI of a website for example and that means every button you click makes the website unresponsive until this action is completely finished. If you accidentally typed the wrong password upon login, you'll have to wait for the system to figure that out itself before you can retry.\n\nNow this problem can be solved in a couple different ways, among which is asynchrony. In short, this can allow a program to execute other functions while waiting for I/O operations.\n\nUnfortunately not all syntax is straightforward when writing asynchronous code in Python. The way functions are called and exceptions are handled can be surprising. During this talk I'll elaborate on how to write asynchronous code in Python and share some experiences I've had with asyncio.",
   "duration": 2017,
+  "language": "eng",
   "recorded": "2017-04-08",
   "speakers": [
     "Niels Denissen"

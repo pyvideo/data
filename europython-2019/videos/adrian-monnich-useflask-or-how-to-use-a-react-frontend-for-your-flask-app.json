@@ -1,5 +1,6 @@
 {
   "description": "Many Flask projects nowadays still use mostly static HTML, WTForms and\njust a bit of AJAX. All the JavaScript is usually included straight from\n.js files or just minified with Python tools like webassets.\n\nBut the JavaScript ecosystem has evolved a lot - one can now use tools\nlike Babel to write modern JS even when targeting older browsers and a\nWebpack+Babel build is very straightforward and allows for advanced\npreprocessing of JavaScript code.\n\nIn this talk we'll even go one step further and not only use Webpack to\nbuild the assets, but also integrate a small demo Flask app with a React\nfrontend where the Flask app only serves the static HTML page and uses a\nRESTful API to communicate with the React app.\n\nWe'll also look into how to keep convenient Flask features such as URL\nbuilding in client-side code (using the js-flask-urls package) and of\ncourse React hooks will be used!",
+  "language": "eng",
   "recorded": "2019-07-12",
   "related_urls": [
     {

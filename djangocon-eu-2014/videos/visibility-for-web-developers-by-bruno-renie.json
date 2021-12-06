@@ -1,6 +1,7 @@
 {
   "description": "Understanding how a site behaves outside of the developer's machine is\nextremely important. Gathering metrics and events in a production system\nlead to a better knowledge of pain points and eases troubleshooting a\nlot when issues arise. This talk will explain how to setup a rock-solid\nvisibility stack for your apps, how to feed data into it and how to\nextract meaningful information from that data.\n\nWe will start with the basics of exception handling and continue with\nthe meat of this talk consisting in two parts:\n\n1 - Events (i.e., mostly logging calls)\n\nAn introduction to logging in large production deployments:\n\n-  centralized logging with logstash and elasticsearch\n-  the case for structured logging\n-  rich dashboards with Kibana\n\n2 - Metrics\n\nAn opinionated take on monitoring:\n\n-  Riemann, the universal metrics hub\n-  simple thresholds and alerts\n-  persisting metrics data to Graphite\n-  Riemann and Graphite dashboards\n",
   "duration": 1200,
+  "language": "eng",
   "recorded": "2014-05-13",
   "speakers": [
     "Bruno Reni\u00e9"

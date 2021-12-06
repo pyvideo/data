@@ -1,6 +1,7 @@
 {
   "description": "Python developers use decorators and descriptors on a daily basis, but\nmany don't understand them well enough to create (or debug) them.\nDecorators are widely deployed in popular Python Web frameworks.\nDescriptors are the key to the database mappers used with those\nframeworks, but under the covers they play an even more crucial role in\nPython as the device that turns plain functions into bound methods,\nsetting the value of the ``self`` argument. This tutorial is a gentle\nintroduction these important language features, using a test-driven\npresentation and exercises, and covering enhancements in Python 3.6 that\nmake class metaprogramming easier to get right.\n\nDecorators without closures are presented first, highlighting the\ndifference between *run time* and *import time* that is crucial when\nmeta-programming. We then get a firm grounding on closures and how they\nare implemented in Python, before moving to higher order function\ndecorators and class decorators.\n\nCoverage of descriptors starts with a close look at Python's\n``property`` built-in function and dynamic attribute look up. We then\nimplement some ORM-like field validation descriptors, encounter a\nusability problem, and leverage PEP 487 -- Simpler customisation of\nclass creation -- to solve it. Alternative implementations using a class\ndecorator and a metaclass will be contrasted to the PEP 487 solution.\n",
   "duration": 10503,
+  "language": "eng",
   "recorded": "2017-05-17",
   "speakers": [
     "Luciano Ramalho"

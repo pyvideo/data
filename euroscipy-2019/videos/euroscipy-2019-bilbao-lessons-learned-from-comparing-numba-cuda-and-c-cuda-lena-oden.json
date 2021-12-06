@@ -1,6 +1,7 @@
 {
   "description": "Numba allows the development of GPU code in Python style. When a Python\nscript using Numba is executed, the code is compiled just-in-time (JIT)\nusing the LLVM framework. Using Python for GPU programming can mean a\nconsiderable simplification in the development of parallel applications\ncompared to C and C-CUDA.\n\n| Python, however, has to live with the prejudice of low performance,\n  especially in HighPerformance Computing.\n| We wanted to get to the bottom of whether this is really true and\n  where these differences come from. For this reason, we first analyzed\n  the performance of typical micro benchmarks used in HPC. By analyzing\n  the assembly codes, we learned a lot about the difference between\n  codes produced by C-CUDA and NUMBA- CUDA. Some of these insights have\n  helped us to improve the performance of our application - and also of\n  Numba-CUDA. With a few tricks it is possible to achieve very good\n  performance with our Numba-Codes, which are very close - or sometimes\n  even better than the C-CUDA versions.\n\nWe compared the performance of GPU-Applications written in C-CUDA and\nNumba- CUDA. By analyzing the GPU assembly code, we learned about the\nreasons for the differences. This helped us to optimize our codes\nwritten in NUMBA-CUDA and NUMBA itself.\n",
   "duration": 765,
+  "language": "eng",
   "published_at": "2019-10-27T17:39:09.000Z",
   "recorded": "2019-09-04",
   "speakers": [

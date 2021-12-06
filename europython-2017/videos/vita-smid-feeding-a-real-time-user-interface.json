@@ -1,6 +1,7 @@
 {
   "description": "Imagine you have some streaming computations running on a server.\nClient programs subscribe to real-time updates, so that they may\nvisualise the computations for end users.\n\nHow do you share this constantly changing server state with all\nconnected clients? Sending an entire snapshot after each change is\nvery inefficient, so you must implement some sort of incremental\nupdates \u2013 diffs.\n\nBut how do you generate these diffs on the server? And how do you\nrepresent them so the clients know how to apply them to update their\nown state?\n\nWe have been working on these problems for a long time while building\na stock trading platform in Python. I'd like to show you a couple of\nopen source libraries that we developed for this purpose, and share\nour experience with tracking state and propagating it to user\ninterfaces running in other processes.",
   "duration": 1478,
+  "language": "eng",
   "recorded": "2017-07-11",
   "speakers": [
     "Vita Smid"

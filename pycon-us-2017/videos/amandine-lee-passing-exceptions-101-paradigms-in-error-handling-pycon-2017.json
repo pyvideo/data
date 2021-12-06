@@ -1,6 +1,7 @@
 {
   "description": "Exception handling in Python can sometimes feel like a Wild West. If you\nhave a ``send_email`` function, and the caller inputs an invalid email\naddress, should it: A) Return ``None`` or some other special return\nvalue, B) Let the underlying exception it might cause bubble up, C)\nCheck via a regex and type checking and raise a ``ValueError``\nimmediately, or D) Make a custom ``EmailException`` subclass and raise\nthat?\n\nWhat if there is a network error while the email was sending? Or what if\nthe function calls a helper ``_format_email`` that returns an integer\n(clearly wrong!), or raises an ``TypeError`` itself? Should it crash the\nprogram or prompt a retry?\n\nThis talk will introduce the concept of an exception, explain the\nbuilt-in Python exception hierarchy and the utility of custom\nsubclasses, demonstrate try/except/finally/else syntax, and then explore\ndifferent design patterns for exception control flow and their tradeoffs\nusing examples. It will also make comparisons to error handling\nphilosophy in other languages, like Eiffel and Go.\n",
   "duration": 1876,
+  "language": "eng",
   "recorded": "2017-05-19",
   "speakers": [
     "Amandine Lee"

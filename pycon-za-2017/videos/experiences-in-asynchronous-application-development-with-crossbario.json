@@ -1,5 +1,6 @@
 {
   "description": "Recently at OpenDNA we've been rebuilding one of our core internal\napplications from the ground-up. Early on we decided that we wanted\nto make the new system completely asynchronous, leveraging the\nability of modern browsers to communicate with the server in a\nbi-directional fashion unconstrained by the usual flow of a RESTful\napplication.\n\nThere are a number of ways to implement this kind of application in\nPython but only one of them (in our humble opinion) is really worth\ninvesting time in: Crossbar.io\n\nIn this talk I will cover the process of developing a purely\nasynchronous application using Crossbar from top to bottom, detailing\neverything from high-level design considerations to low-level code\ndecisions to potential pitfalls and how to avoid them.\n\nThe aim: To convince you that your next application should be built\nusing Crossbar!\n\nThis talk should be suitable for any audience but will be of particular\ninterest to developers looking for a way to leverage WebSockets and/or\nWAMP to develop highly or even purely asynchronous applications.\n",
+  "language": "eng",
   "recorded": "2017-10-05",
   "related_urls": [
     {

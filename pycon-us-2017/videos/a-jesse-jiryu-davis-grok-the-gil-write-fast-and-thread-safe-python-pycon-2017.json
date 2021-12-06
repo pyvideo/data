@@ -1,6 +1,7 @@
 {
   "description": "I wrote Python for years while holding mistaken notions about the Global\nInterpreter Lock, and I've met others in the same boat. The GIL's effect\nis simply this: only one thread can execute Python code at a time, while\nN other threads sleep or await network I/O. Let's read CPython\ninterpreter source and try some examples to grok the GIL, and learn to\nwrite fast and thread-safe Python.\n",
   "duration": 2490,
+  "language": "eng",
   "recorded": "2017-05-19",
   "speakers": [
     "A. Jesse Jiryu Davis"

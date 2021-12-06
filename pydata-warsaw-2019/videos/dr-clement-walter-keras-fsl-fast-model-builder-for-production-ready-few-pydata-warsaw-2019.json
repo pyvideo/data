@@ -1,6 +1,7 @@
 {
   "description": "Few shot learning aims at leveraging huge database for training deep\nneural nets models to be used onto problems with very few data. Among\nother methods we will focus on metric learning algorithms because they\nallow for immediate adaptation of the model in production. To develop\nsuch model, fast experiment is key; we will present a versatile\nframework for their implementation in tf.keras.\n\nMost of the industrial cases we face do not have enough data to allow\nfor a complete end-to-end training of common deep architecture.\nFurthermore research paper often do not address real test cases. In this\ncontext there is a need for easy benchmarking of usual and custom models\nonto ones particular datasets.\n\nFurthermore best academic performers may not the preferred choice for\nproduction applications as simplicity, robustness and explicability are\nother factor of interest. Thus the need for a modularity in the\nimplementation to be able to mix the best of them to improve practical\nresults.\n\nWe will review some recent theoretical development in Few Shot learning\nand show their corresponding implementation in tf.keras. Finally I will\nshowcase the keras\\_fsl package with public notebooks and key results on\nusual benchmarks.\n",
   "duration": 1440,
+  "language": "eng",
   "published_at": "2020-01-03T00:31:00.000Z",
   "recorded": "2019-12-12",
   "speakers": [

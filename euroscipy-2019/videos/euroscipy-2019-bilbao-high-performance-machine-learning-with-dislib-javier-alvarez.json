@@ -1,6 +1,7 @@
 {
   "description": "PyCOMPSs is a distributed programming model and runtime for Python.\nPyCOMPSs' main goal is to make distributed computing accessible to\nnon-expert developers by providing a simple programming model, and a\nruntime that automates many aspects of the parallel execution. In\naddition to this, PyCOMPSs is infrastructure agnostic, and can run on\ntop of a wide range of platforms, from HPC clusters to clouds, and from\nGPUs to FPGAs.\n\nThis talk will present dislib, a distributed machine learning library\nbuilt on top of PyCOMPSs. Inspired by scikit-learn, dislib programming\ninterface is based on the concept of *estimators*. This provides a clean\nand easy-to-use API that highly increases the productivity of building\nlarge-scale machine learning pipelines. Thanks to PyCOMPSs, dislib can\nrun in multiple distributed platforms without changes in the source\ncode, and can handle up to billions of input samples using thousands of\nCPU cores. This makes dislib a perfect tool for scientists (and other\nusers) that are not machine learning experts, but that still want to\nextract useful knowledge from extremely large data sets.\n\nThis talk will present dislib, a distributed machine learning library\nbuilt on top of PyCOMPSs programming model. One of the main focuses of\ndislib is solving large-scale scientific problems on high performance\ncomputing clusters.\n",
   "duration": 1060,
+  "language": "eng",
   "published_at": "2020-03-06T17:30:18.000Z",
   "recorded": "2019-09-05",
   "speakers": [

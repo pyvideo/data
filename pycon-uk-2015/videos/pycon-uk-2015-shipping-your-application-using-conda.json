@@ -1,6 +1,7 @@
 {
   "description": "Shipping your Python application to customers has always been an\ninteresting challenge. Many Operating Systems ship with a Python\nversion, but they only ship that to support their applications and it\nwill probably miss dependencies you need or be the wrong version. So you\nneed to build and ship your own Python environment, but one which can\nwork on all these different platforms. This is never easy.\n\nRecently Continiuum Analytics have released their Conda package manager\nas open source, which is very well suited to address this problem. It\nhas support for building and distributing binary packages and is capable\nof creating a stand-alone environment for your application with no or\nminimal dependencies on the host OS. But even starting from a good tool\nthere are still a lot of tricks to building a good Python distribution.\nThis talk will concentrate on UNIX platforms and dive into the details\nof what needs to be done to create a portable distribution. It will then\ndiscuss how to fully bootstrap such a distribution using Conda.",
   "duration": 1705,
+  "language": "eng",
   "recorded": "2015-09-19",
   "speakers": [
     "Floris Bruynooghe"

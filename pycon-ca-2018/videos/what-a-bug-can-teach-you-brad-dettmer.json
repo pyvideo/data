@@ -1,6 +1,7 @@
 {
   "description": "We\u2019ll take a look at some Python code that has a strange bug in it. You\u2019ll learn why it\u2019s a bug and why it only occurs with larger numbers. We\u2019ll cover fixes, dive into how Python works and look at some CPython source code. You\u2019ll learn about \u201cis\u201d vs \u201c==\u201d and how to prevent bugs.\n\nWe\u2019ll take a look at some Python code that has a strange integer bug in it. You\u2019ll learn about how the bug was discovered, and by the end of the talk you\u2019ll understand why it\u2019s a bug and why the bug only occurs with larger integers. You\u2019ll see a one character fix to the bug, and then an even better fix. We\u2019ll look at CPython's longobject.c source code to understand how smaller integers are handled differently than larger ones. We\u2019ll explore the difference between comparing values in Python versus testing for identity. Hopefully you\u2019ll gain an appreciation that bugs can be your best teachers and be able to prevent more bugs.",
   "duration": 779,
+  "language": "eng",
   "recorded": "2018-11-11",
   "relatd_urls": [
     {

@@ -1,6 +1,7 @@
 {
   "description": "There is a lot more to parallel programming in Python than\nmultiprocessing.Pool().map.\n\nIn this talk I will share some hard-learned knowledge gained in\nseveral years of parallel programming.\n\nCovered topics will include performance, ways to measure the\nperformance, memory occupation, data transfer and ways to reduce the\ndata transfer, how to debug parallel programs and useful libraries.\n\nI will give some practical examples, both in enterprise programming\n(importing CSV files in a database) and in scientific programming\n(numerical simulations). The initial part of the talk will be\npedagogical, advocating the convenience of parallel programming in\nthe small (i.e. in single machine environment); the second part will\nbe more advanced and will touch a few things to know when writing\nparallel programs for medium-sized clusters.\n\nI will also briefly discuss the compatibility layer that we have\ndeveloped at GEM to be independent from the underlying\nparallelization technology (multiprocessing, concurrent.futures,\ncelery, ipyparallel, grid engine...).",
   "duration": 2060,
+  "language": "eng",
   "recorded": "2017-07-14",
   "speakers": [
     "Michele Simionato"
