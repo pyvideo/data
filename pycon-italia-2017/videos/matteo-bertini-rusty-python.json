@@ -1,6 +1,7 @@
 {
   "description": "Python \u00e8 un linguaggio \u201ccolla\u201d, esistono librerie per creare estensioni\nnei linguaggi pi\u00f9 vari, da C/C++ a Fortran con poche righe di codice\nabbiamo il nostro wrapper bello funzionante.\n\nDa qualche tempo un nuovo linguaggio di aggiunge alla lista: Rust!\n\nCi sono due strade, la prima \u00e8 quella di fare in modo che la libreria\nRust esponga una API C, e per poi usarla con ``ctypes`` o ``cffi``.\nL\u2019altra strada passa per ``rust-cpython``, un wrapper Rust per le API C\ndi Python, con cui \u00e8 possibile sia chiamare Python da Rust che estendere\nPython con moduli in puro Rust.\n\nIn questo talk vedremo come \u00e8 possibile esporre delle strutture Rust in\nmodo da offrire una interfaccia Pythonica senza venire a compromessi con\nle prestazioni.\n\nPrerequisiti:\n\n-  conoscenza base di Python\n-  conoscenza minima di Rust\n\nTake away:\n\n-  \u201cSi pu\u00f2 fare!!\u201d un modulo Python in Rust, con setup e test su Travis.\n",
   "duration": 2357,
+  "language": "ita",
   "recorded": "2017-04-07",
   "related_urls": [
     {
