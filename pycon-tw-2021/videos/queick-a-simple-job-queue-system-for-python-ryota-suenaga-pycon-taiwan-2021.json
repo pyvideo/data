@@ -1,0 +1,15 @@
+{
+    "description": "Day 1, 10:05-10:35\n\nAbstract\n\nIn this talk, I introduce the concept of a job queue system named Queick that I individually developed, its internal architecture, and comparison with other job queue systems. Queick is a simple job queue system for Python. The main features are; 1. only std libraries are used 2. in-memory data store 3. retry when network connection available Queick stands on the idea of \"Deadly Simple\", thus, it is made of only standard libraries. This talk includes 4 topics. First, the overview of Queick and its application. Second, the general architecture of a job-queue system. Third, the design and the internal implementation of Queick. In the end, I will explain my OSS development experience. You will get the following knowledge through my presentation; general features and architecture of a job-queue system and things to be aware of when multi-thread programming is needed by using Python. https://github.com/asmsuechan/queick\n\nDescription\n\nQueick is published at https://github.com/asmsuechan/queick. Also, there is a post at https://dev.to (https://dev.to/asmsuechan/queick-a-simple-job-queue-system-for-python-1jhi).\n\nI will give my audience not only Queick specific information like my effort and my hardships, but also general information about job-queue system. Actually, the main point of my presentation is a comprehension of job-queue system through my explanation of Queick architecture.\n\nSlides not uploaded by the speaker.\nHackMD: https://hackmd.io/@pycontw/2021/%2F%40pycontw%2FSkVaByKMF\n\nSpeaker: Ryota SUENAGA\n\nasmsuechan. A software developer working for M3, Inc. in Tokyo, Japan. \u5b9e\u9645\u4e0a\uff0c\u6211\u4f1a\u8bf4\u4e00\u70b9\u513f\u4e2d\u6587\u3002",
+    "speakers": [
+        "Ryota SUENAGA"
+    ],
+    "recorded": "2021-10-02",
+    "title": "Queick: A simple job-queue system for Python \u2013 Ryota SUENAGA (PyCon Taiwan 2021)",
+    "thumbnail_url": "https://i.ytimg.com/vi/reLHrYEj6AA/hqdefault.jpg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=reLHrYEj6AA"
+        }
+    ]
+}

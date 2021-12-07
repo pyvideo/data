@@ -1,0 +1,15 @@
+{
+    "description": "Title: Python/Raspberry Pi-based Low Energy Electron Diffraction Imaging and Analysis for Surface Science - David Mikolas \n\nDay 1, 13:40-13:55\n\nAbstract\n\nLow Energy Electron Diffraction (LEED) is a powerful tool for 2D structures on surfaces and is critical for studying new materials for superconductivity and quantum computing. Real time diffraction patterns on a hemispherical phosphor screen are recorded with high dynamic range and synchronized with other experimental variables. Spot pattern detection and automatic analysis provides experimental insight and system monitoring. I'll briefly introduce LEED and show how spot patterns are analyzed off-line then describe the new Raspberry Pi High Quality Camera and how to capture high dynamic range images. The Raspberry Pi 4 is a powerful computer which can coordinate the real-time imaging with other experimental parameters by directly controlling equipment via RS-232 and USB & monitoring others via GPIB. Last I'll show how automatic spot detection via NumPy/SciPy and OpenCV on Raspberry Pi are used to analyze data in real time and provide the experimenter new insight into the results.\n\nDescription\n\nFor 15 minute talk there will not be an overly large amount of details possible. Standard libraries like NumPy, SciPy, PIL and OpenCV are so popular that I will not spend any time explaining them. and instead point the audience to the most suitable tutorials and resources. Instead, I'll focus on A) several code snippets showing how to easily capture images and other types of data, B) how to ananlyze the images in my case (many small bright spots that need to be classified and their positions determined), and C) coordinate all of these steps a simple, easy script. I think it's most important that they have a clear path to how they can build a simple experimental system themselves and have some positive results quickly. WIth that, they can proceed at their own pace, or rope in a more experienced programmer. I want to help them understand how easy this is so that they are not scared to get their feet wet.\n\nSlides not uploaded by the speaker.\nHackMD: https://hackmd.io/@pycontw/2021/%2F%40pycontw%2Fr1ED4bYzY\n\nSpeaker: David Mikolas\n\n[0, None, False]",
+    "speakers": [
+        "David Mikolas"
+    ],
+    "recorded": "2021-10-02",
+    "title": "Raspberry Pi-based Low Energy Electron Diffraction Imaging ... - David Mikolas (PyCon Taiwan 2021)",
+    "thumbnail_url": "https://i.ytimg.com/vi/zFUINzoyMzg/hqdefault.jpg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=zFUINzoyMzg"
+        }
+    ]
+}
