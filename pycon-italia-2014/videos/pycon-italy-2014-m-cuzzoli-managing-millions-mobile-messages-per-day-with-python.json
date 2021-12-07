@@ -1,6 +1,7 @@
 {
   "description": "Worldwide mobile communications require solid infrastructures in terms of both performance and reliability. This case study illustrates how it is possible to build a high performance gateway component capable of dispatching million mobile messages everyday among content providers and phone companies across the world. All of this using Python.\n\nPerformance is just one of the requirements to satisfy in the \"real world\" scenario. In fact mobile networks are frequently subject to both protocol and carrier APIs changes, so it is crucial developing software components easy to adapt and extend. We introduced the concept of Protocol Adapter as development unit to isolate and simplify the integration with each phone company API we had interact with.\n\nThe key points of the talk are:\n\nMultitasking implementation of I/O bound tasks through the asynchronous main loop approach.\nEfficient network communications which take advantage of the asynchronous socket layer offered by the asyncore module.\nModular component design organized in one common core and several protocol adapters, where each protocol adapter extends the basic network capabilities of the core leveraging the object oriented model offered by the Python language.\nTo attend this talk it is required a basic knowledge of main network protocols like TCP, HTTP. Moreover the attendees should be familiar with the concept of socket.",
   "duration": 3057,
+  "language": "ita",
   "recorded": "2014-05-25",
   "speakers": [
     "Massimiliano Cuzzoli"
