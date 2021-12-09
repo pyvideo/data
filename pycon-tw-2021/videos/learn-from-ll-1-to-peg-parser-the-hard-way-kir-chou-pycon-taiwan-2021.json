@@ -1,0 +1,15 @@
+{
+    "description": "Day 2, 13:00-13:45\n\nAbstract\n\nDo you know Python parser? Do you know CPython changed its LL(1) parser to PEG parser from Python 3.9 (PEP 617)? Do you know the difference between parsing technologies, including traditional top-down parser, bottom-parser parser, and Packrat parser? Do you know why Python chose PEG parser instead of others? In this talk, you will get the answer and the idea behind all the above questions.\n\nDescription\n\nIn late 2019, Guido van Rossum wrote a series of articles about PEG parser on medium and gave the talk \"Writing a PEG parser for fun and profit\" in a couple of conferences, such as North Bay Python, mentioned the motivation of his research and prototype of PEG parser. In late 2020, other authors of PEP 617, Pablo Galindo and Lysandros Nikolaou, (created around mid of 2020) were interviewed on Podcast.__init__ to talk about the result of the new PEG parser in CPython.\n\nAbove contents assume the audience with solid compiler fundamental knowledge, but the fact is most People, including this talk's speaker, are not specialized in compiler. And another fact is most of the compiler class in school around the world only covers traditional top-down and bottom-up parsing techniques, not to mention PEG parser that appeared in the early 2000s.\n\nFor the above reasons, the speaker will stand on the shoulders of giants and share his hard way after a few months of study. He will talk about the fundamentals of Parser (part of compiler frontend), including CFG, traditional parsing techniques, PEG, Packrat parser, and PEG parser in CPython.\n\nSlides: https://www.slideshare.net/ssuser2cbb78/learn-from-ll1-to-peg-parser-the-hard-way-249883112\nHackMD: https://hackmd.io/@pycontw/2021/%2F%40pycontw%2Fryza07cMF\n\nSpeaker: Kir Chou\n\nA code monkey works at Google with some experience in building search services in Amazon jungle before. This will be the 5th year of his presence in PyCon TW. \u79d1\u9ad8\u83dc\u9ce5\u78bc\u7334\uff0c\u904e\u53bb\u66fe\u5728\u4e9e\u99ac\u905c\u505a\u641c\u7d22\u670d\u52d9\uff0c\u4eca\u5e74\u5c07\u6703\u662f\u5b83\u51fa\u73fe\u5728PyCon\u53f0\u7063\u7684\u7b2c\u4e94\u5e74\u3002(\u904e\u53bb\u6f14\u8b1b\uff1ahttps://note35.github.io/about/talks/\uff09",
+    "speakers": [
+        "Kir Chou"
+    ],
+    "recorded": "2021-10-03",
+    "title": "Learn from LL(1) to PEG parser the hard way \u2013 Kir Chou (PyCon Taiwan 2021)",
+    "thumbnail_url": "https://i.ytimg.com/vi/C-Dpf6K8hzo/hqdefault.jpg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=C-Dpf6K8hzo"
+        }
+    ]
+}

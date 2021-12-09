@@ -1,0 +1,15 @@
+{
+    "description": "Day 1,  10:40-11:25\n\nAbstract\n\nDjango ORM is amazing for handling a lot of database routines. However, if you don't know how it works under the hood, you may corrupt your data unconsciously. I will demonstrate some harmful ORM operations and fix them.\n\nDescription\n\nDjango ORM helps developer finish their job by abstracting a lot of database operations. however, unawareness of the ACID characters of a database system will result in a buggy system.\n\nOn the other hand. due to Django translate a series of function calls to some SQL query. if you don't understand the syntax of a SQL query. you may get incorrect results.\n\nTo help Django developers, this talk will comprise these parts.\n\nACID introduction\nUnderlying SQL produced by Django ORM\nExample of common mistakes\n\nSlides not uploaded by the speaker.\nHackMD: https://hackmd.io/@pycontw/2021/%2F%40pycontw%2FBJhI5kKGK\n\nSpeaker: Tim Hsu\n\nPython Developer from iCHEF. Love to chat.",
+    "speakers": [
+        "Tim Hsu"
+    ],
+    "recorded": "2021-10-02",
+    "title": "Django ORM  Be Careful \u2013 Tim Hsu (PyCon Taiwan 2021)",
+    "thumbnail_url": "https://i.ytimg.com/vi/teYDYu6c5SU/hqdefault.jpg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=teYDYu6c5SU"
+        }
+    ]
+}

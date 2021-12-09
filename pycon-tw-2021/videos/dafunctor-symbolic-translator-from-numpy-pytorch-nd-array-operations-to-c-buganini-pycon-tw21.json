@@ -1,0 +1,15 @@
+{
+    "description": "Day 1, 10:40-11:25\n\nAbstract\n\nDAFunctor aims to reduce the increasing gap between science and engineering. ND-Array is a crucial part of modern algorithm design. It reduces the mental burden for designers and bypasses Python's slow loop. However, using lower-level languages like C/C++ is sometimes unavoidable on productization. Some strict development guidelines like MISRA even forbid dynamic memory allocation, making engineering more difficult. Manual translation to C/C++ usually introduces human errors. Other function-to-function auto translators generate lots of boilerplate code and require many intermediate buffers. On the contrary symbolic translation generates only the essential logic. Imperative programming style makes the performance directly depends on the implementation; symbolic translation can also eliminate part of the inefficiency caused by the programmer, thus make benchmarking more normalized. The making of DAFunctor also involves fun low-level hacks on the Python interpreter.\n\nSlides: https://www.slideshare.net/Buganini/dafunctor-250351849\nHackMD: https://hackmd.io/@pycontw/2021/%2F%40pycontw%2FByS9zeYfK\n\nSpeaker: Buganini\n\nPythonista since 2008",
+    "speakers": [
+        "Buganini"
+    ],
+    "recorded": "2021-10-02",
+    "title": "DAFunctor: Symbolic translator from NumPy/PyTorch ND-Array operations to C \u2013 Buganini (PyCon TW21)",
+    "thumbnail_url": "https://i.ytimg.com/vi/aaPkvbZj6WU/hqdefault.jpg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=aaPkvbZj6WU"
+        }
+    ]
+}
