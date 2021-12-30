@@ -1,6 +1,7 @@
 {
   "description": "Getting peak performance with a GPU requires juggling concurrent tasks:\ncopying data to the GPU, processing data, and copying results back off\ncan all happen in parallel. In a distributed system, data arrives from\nthe network and results are sent back over the network. Python's asyncio\nmodule is a great way to manage all these concurrent tasks while\navoiding many of the hazards of multiple threads.\n\nThis talk will describe how I've used asyncio (actually trollius, the\nPython 2 backport) to make this all work for GPU-accelerated real-time\nprocessing in the MeerKAT radio telescope. I'll cover some helper\nclasses I've written for ensuring that operations happen in the right\norder, and talk about how changing from a threaded model to trollius has\nsimplified the code.\n\nNo experience with GPU programming or asyncio/trollius is required or\nexpected. Some prior exposure to event-driven programming or coroutines\nin Python would be useful.\n",
   "duration": 2374,
+  "language": "eng",
   "recorded": "2016-10-07",
   "related_urls": [
     "https://2016.za.pycon.org/talks/14/"

@@ -1,6 +1,7 @@
 {
   "description": "RevDB is an experimental \"reverse debugger\" for Python, similar to\nUndoDB-GDB or LL for C. You run your program once, in \"record\" mode,\nproducing a log file; once you get buggy behavior, you start the\nreverse-debugger on the log file. It gives an (improved) pdb-like\nexperience, but it is replaying your program exactly as it ran---all\ninput/outputs are replayed from the log file instead of being redone.\n\nThe main point is that you can then go *backward* as well as forward in\ntime: from a situation that looks really buggy you can go back and\ndiscover how it came to be. You also get \"watchpoints\", which are very\nuseful to find when things change. Watchpoints work both forward and\nbackward.\n\nI will show on small examples how you can use it, and also give an idea\nabout how it works. It is based on PyPy, not CPython, so you need to\nensure your program works on PyPy in the first place (but chances are\nthat it does).\n",
   "duration": 1940,
+  "language": "eng",
   "recorded": "2016-10-06",
   "related_urls": [
     "https://2016.za.pycon.org/talks/42/"

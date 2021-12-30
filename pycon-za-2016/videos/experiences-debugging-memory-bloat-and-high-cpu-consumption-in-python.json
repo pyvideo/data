@@ -1,6 +1,7 @@
 {
   "description": "Abstract:\n\nThis talk is targeted at python developers who develop long running\nservices, which are susceptible to memory issues or unacceptable CPU\nusage (as determined by the developer or operations teams). We focus on\ndebugging techniques that we have used in constrained environments\n(production like environments) where installation of additional software\npackages is not permitted, and techniques which we were able to use to\ndebug a python process without restarting it (to avoid state loss).\n\nTopics covered in the talk: \n\n1. An example debugging session in which memory bloat is diagnosed. \n2. An example debugging session in which high CPU usage is diagnosed. \n3. Tools which can be used in debugging these issues, and their limitations. \n4. Some thoughts about improving how we think about python, and assumptions made by python developers. \n5. Projects we are (slowly) working on to help us debug python processes in production, or production like environments.\n\nThe audience should learn about some useful standard python libraries\nwhich can be used to debug memory and CPU usage related issues, and how\nthey were effectively used to solve problems in an enterprise product.\nThe audience will also be encouraged to think differently about python\nprogramming, and encouraged to think about what it means to select\npython (or any other programming language) for a given task.\n",
   "duration": 2509,
+  "language": "eng",
   "recorded": "2016-10-07",
   "related_urls": [
     "https://2016.za.pycon.org/talks/23/"
