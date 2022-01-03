@@ -1,6 +1,7 @@
 {
   "description": "For the typical mobile data environment for smart phones there are many\ntools and frameworks available. However, Jumo's customer base typically\ndoesn't have access to data or sophisticated smart phones. Instead, the\ncustomer journey is implemented using USSD with out-of-band\ncommunications by SMS. Building a USSD framework to run as part of our\napplication rather than having to add the operational complexity of\nanother service was an obvious solution. Python was a great fit for this\nwork.\n\nThis talk will be a developer\u2019s look at how Jumo implemented a highly\nflexible USSD/SMS system with Python, built tools within our system to\nmanage the complexity of multiple products in multiple markets and\nscaled up the system to many tens of thousands of transactions per day.\nWe will focus on how Python\u2019s strengths fit well with the needs of\ntext-based mobile messaging, what techniques are used to build it for\nscale, and how tooling was constructed to deal with the complexity of\nmultiple user journeys.\n",
   "duration": 2454,
+  "language": "eng",
   "recorded": "2016-10-07",
   "related_urls": [
     "https://2016.za.pycon.org/talks/41/"

@@ -1,6 +1,7 @@
 {
   "description": "As a species, we're engaged in a crucial evolutionary struggle, and\nwe're losing: pathogens are evolving resistance to drugs faster than we\ncan make new ones. To slow down the clock and beat the bugs, we need to\nmake sure that resistant pathogens don't get a chance to replicate\nunchecked in their human hosts. This means doing drug resistance tests\nto ensure that we only give patients drugs that their infections will\nrespond to.\n\nAt Hyrax Biosciences, our software developers build web services that\nuse machine learning to analyse DNA for drug resistance. While building\nExatype, our drug resistance testing platform, we ran into a classic\nproblem: how do we build a validation test with a verified result, when\nwe're already the most sensitive tool on the market? To solve this\nproblem, we turned to simulation. This talk is about a multithreaded\npython tool (Biopython, multiprocessing, numpy, pysam) that simulates\nevery stage of the evolution of HIV drug resistance and the DNA\nsequencing process. Each run returns 300 unique, procedurally-generated\nHIV samples from \"patients\" with different histories and drug resistance\nprofiles. We host the tool on AWS and integrate with Slack to run\nvalidations and report results.\n\nThe code to simulate your own HIV dataset is available publicly at\nhttps://github.com/hyraxbio/simulated-data. Other pathogens coming soon.\n",
   "duration": 2171,
+  "language": "eng",
   "recorded": "2016-10-06",
   "related_urls": [
     "https://2016.za.pycon.org/talks/59/"

@@ -1,6 +1,7 @@
 {
   "description": "CommCare is an open source platform built in python (Django) designed\nfor mobile data collection, longitudinal client tracking, decision\nsupport, and behavior change communication. CommCare provides an online\napplication-building platform through which users build mobile\napplications for use by frontline workers.\n\nThe mobile application is used by client-facing frontline work workers\nas a client management, data collection and educational tool. Data\nentered in the mobile application is submitted to the CommCare servers.\n\nCurrently CommCare supports 14K active mobile users submitting over 1\nmillion forms a month. With new national projects launching soon, it\nwill need to be able to support 100K users and up to 10 million monthly\nforms by the end of 2016 and 1.4M users within the next few years. The\ncurrent architecture would not scale to that level due to limitations of\nthe database and increasing cost of ownership so we have embarked on an\ninternal project to re-design critical pieces of the platform in order\nto support this scale up.\n\nThis talk will describe the old and new architecture and delve into some\nof the details of the new architecture and decisions we\u2019ve made along\nthe way such as changing our primary database, database sharding and\nstream processing.\n",
   "duration": 2321,
+  "language": "eng",
   "recorded": "2016-10-07",
   "related_urls": [
     "https://2016.za.pycon.org/talks/5/"

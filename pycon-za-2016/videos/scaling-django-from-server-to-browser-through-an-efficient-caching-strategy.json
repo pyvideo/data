@@ -1,6 +1,7 @@
 {
   "description": "At Praekelt we're responsible for high traffic sites built in Django. An\nefficient caching strategy is required to minimize server load and in\nthis talk we illustrate the techniques we use to serve Telkom's web\nsite.\n\nThe talk assumes basic Django knowledge.\n\nWe will touch on:\n\n#. Volatile caching with memcached as backend.\n#. Template fragment caching.\n#. View caching.\n#. HTTP caching headers and how they affect Nginx and browsers.\n#. Automated cache invalidation.\n#. Automated Nginx reverse cache purging.\n\n",
   "duration": 2393,
+  "language": "eng",
   "recorded": "2016-10-06",
   "related_urls": [
     "https://2016.za.pycon.org/talks/12/"

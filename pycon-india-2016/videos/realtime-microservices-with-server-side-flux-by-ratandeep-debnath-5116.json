@@ -1,5 +1,6 @@
 {
   "description": "This talk will introduce the concept of Flux, a unidirectional data flow pattern proposed by Facebook, to implement better client side web applications; and how we took this pattern to the server side to implement realtime, scalable microservices. This talk will take you through our adventurous journey in rewriting a monolithic Waartaa into several microservices and how we implemented:\n\nInter process communication\nKeeping services as stateless as possible\nSingle source of truth\nRealtime publishers\nThe end result of this venture is ircb, a scalable IRB bouncer for humans, written using Python 3 asyncio, and on top of homebrewed zeromq based store.\n\nThe talk will be organized as:\n\nSetting the scene\nWhy move to microservices?\nManaging state in microservices can be a nightmare?\nServer side Flux to the rescue\nWalk through IRCB architecture\nDemo - concepts in action\nFuture\nQuestions",
+  "language": "eng",
   "recorded": "2016-09-23",
   "speakers": [
     "Ratandeep Debnath"

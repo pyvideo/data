@@ -1,6 +1,7 @@
 {
   "description": "Ever since test driven development took hold, people have been\nexperimenting with different ways to deal with setting up and tearing\ndown test objects and data (amongst other things).\n\nFocussing on this particular concern (set up and tear down of test\nobjects), this talk provides an overview of how the mainstream python\ntools have developed over time in this regard: unittest, nose and\npy.test. A bit of a wider context is also given in terms of two ideas\npioneered by tools in other languages: the annotations of TestNG and\nresources of Smalltalk's SUnit. Two ideas that address problems beyond\nthe reach of the tools themselves are also introduced, namely the\n\"object mother\" and \"builder pattern\".\n\nAgainst the backdrop of this overview, I also show some of our own\nexperiments (as part of `the Reahl project <http://www.reahl.org>`__) to\ntranslate a combination of the object mother and the builder pattern\ninto Python -- with surprising results.\n\nThe talk is aimed at people interested in improving the ways we can do\nset up for tests and people who are generally interested in how tests\ncan be made easier to write and more useful. I hope to stimulate more\nthoughts around the topic against the backdrop of a slight overview. The\ntalk is accessible to newcomers to this topic as well.\n",
   "duration": 2125,
+  "language": "eng",
   "recorded": "2016-10-06",
   "related_urls": [
     "https://2016.za.pycon.org/talks/26/"
