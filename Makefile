@@ -42,7 +42,9 @@ test-shape: install-deps
 test-languages: install-deps
 	$(PY) $(TESTSDIR)/languages.py -d $(BASEDIR) -v $(VERBOSE)
 
+test-filename-length: install-deps
+	$(PY) $(TESTSDIR)/filename_length.py -d $(BASEDIR) -v $(VERBOSE)
 
-test: test-schemas test-ids-unique test-slugs-unique test-render-rest test-languages
+test: test-schemas test-ids-unique test-slugs-unique test-render-rest test-languages test-filename-length
 
 .PHONY: help test test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape test-languages
