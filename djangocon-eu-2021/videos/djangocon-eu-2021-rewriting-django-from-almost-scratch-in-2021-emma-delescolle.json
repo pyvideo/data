@@ -1,0 +1,28 @@
+{
+  "description": "One of the decisions that was made 15 years ago was to use *home-made* code for everything. Django depends on very few libraries. Django doesn't use anything from the Python eco-system, when it comes to ORM, templates, routing, etc.\n\nAnd that is a decision I would probably have done at the time as well. The Python world was much less welcoming at the time and documentation was still regarded as a second-class citizen. Let's not even mention the wrath you were taking the risk of exposing yourself to if you dared make a pull request on a project you weren't involved with.\n\nThose choices are not the only reasons to consider a rewrite though... After attending several Django conferences, I noticed a few trends about what prominent Django developers would like to change. For example **WSGI middlewares** is something that's often put on the table, **websockets** is another of those things that comes up very often.\n\nIt is true that the world of the web is quite different today compared to what it was 15 years ago. It seems to me that today **REST API's** and **websockets** are first class citizens while server-rendered pages have become less important. Once again, that's just a personal feeling.\n\nA complete Django rewrite is also not my very own idea, several people have been working on a similar idea. Tom Christie has been working on many libraries in order to be able to rewrite Django as an async framework in order to better accommodate websockets. Others like Tobias have been working on something similar but starting at the other end of the problem. I guess this is just my own version of that thought experiment.\n\nFor this thought experiment I will care about retaining the \"spirit\" of Django as I perceive it but I will not care at all about backward compatibility!\n\n## What does a Django rewrite needs to achieve in 2021?\n\n- Batteries included: Anything that claims to be a Django-like needs to come with everything out of the box\n- A friendly ORM with a syntax that is closer to the objects than to SQL\n- Middlewares\n- Sessions\n- Authentication and authorization\n- Routing\n- Easy to build REST API's\n- Websockets\n- Template-based rendering\n- Static files serving during development\n- Easy documenting of API's\n- MVC implementation\n- Easy to use CRUD controller and associated views\n- A powerful admin(based on its own CRUD controllers)\n- Error management\n\nThis talk will cover all of those points, how they could be approached and whether using an existing Python library for that job might be a good idea\n\n**Code:**\n-  Cordy (https://gitlab.levitnet.be/levit/cordy/-/tree/master)\n- CookieCutter for starting a project (https://gitlab.levitnet.be/levit/cordy-project/-/tree/master)\n- Demo app (Splendid) (https://gitlab.levitnet.be/emma/splendid/-/tree/master)\n\n**Demo:** https://levit.be/uploads/Kazam_screencast_00003.mp4\n\n**Slides:** https://slides.com/emma_be/cordy",
+  "duration": 3343,
+  "language": "eng",
+  "recorded": "2021-06-04",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/QQJ9WB/index.html"
+    }
+  ],
+  "speakers": [
+    "Emma Delescolle"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/yaWGZnyzZqI/hqdefault.jpg",
+  "title": "Rewriting Django from almost scratch in 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yaWGZnyzZqI"
+    }
+  ]
+}

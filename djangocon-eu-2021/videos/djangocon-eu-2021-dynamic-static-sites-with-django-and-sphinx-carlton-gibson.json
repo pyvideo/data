@@ -1,0 +1,28 @@
+{
+  "description": "On a content site these days, especially on a personal project, or where the \nteam are technical, you often don't want the limitations and complexity of full \nCMS. No, you want to use familiar tools: you want to write in Markdown and \nmanage your content in git. \n\nThat doesn't necessarily fit the traditional Django workflow. You end up \nlooking at a static site. This is fine but you loose the ability of Django to \nserve dynamic pages. You have to decide which of the numerous generators \nyou're going to use, or whether indeed you'll roll your own. It's a bit of a \nmess. \n\nYou can have the best of all worlds though. Sphinx, yes the\ndocumentation builder, is a super capable static site builder. You can\nuse it to build your content. Yes it can handle Markdown. Then you can\nuse Django to serve that content, given auth, forms, interactivity,\ncustom content, and all the rest of it. \n\nI'm going to show you how. \n\nThe talk has two parts: Sphinx and then Django. \n\n* First we'll introduce using Sphinx to manage and build your content. \n* We'll look at project setup so you can use Markdown for files. \n* We'll organise those on the file system, and use git to manage them, rather \n  than a full-blown CMS. \n* We'll push to GitHub and use a GitHub Action to build on each commit. \n* Then we'll setup Django to serve our Sphinx built content. \n* We'll use the DTL to get control over our templates. \n* And we'll add auth, to provide dynamic per-user content.\n\nFrom there, the sky's the limit. Content management never looked so rosy.",
+  "duration": 2203,
+  "language": "eng",
+  "recorded": "2021-06-03",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/YY3LBL/index.html"
+    }
+  ],
+  "speakers": [
+    "Carlton Gibson"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/dvXmV4lY-eM/hqdefault.jpg",
+  "title": "Dynamic static sites with Django and Sphinx",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dvXmV4lY-eM"
+    }
+  ]
+}

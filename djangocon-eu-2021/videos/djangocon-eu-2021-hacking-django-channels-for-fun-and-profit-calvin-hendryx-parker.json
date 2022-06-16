@@ -1,0 +1,28 @@
+{
+  "description": "- Intro and Backstory on Django Channels history \u2014 3%\n    - Synchronous vs Async Request Loops\n    - WSGI vs ASGI for your Django Application\n- Intro to WebSockets \u2014 3%\n    - Demo of them used in the real world web applications\n    - How they interact with async event loops\n- Django Channels Core Concepts \u2014 10%\n    - Consumers\n    - Channel Layers\n    - Background Workers\n- Consumers and ASGI Routing Example \u2014 10%\n- Where to Background Workers Fit? \u2014 10%\n    - Lightweight Tasks\n    - Considerations when reliability is not needed\n- How about reversing the Consumer use case? \u2014 20%\n    - Create long-running Background Workers\n    - Connect to remote services such as Discord to create Bots\n- Example application integration with Discord \u2014 20%\n    - Connect to Discord on start and listen for messages and other events\n    - Send our own application messages into Discord\n- Building your own long-running Channel Worker \u2014 20%\n    - What to add to your project\n    - Define channel background tasks to run at start\n- Next steps for this project \u2014 2%\n    - Upstream or create Channels addon to make this functionality more generic\n    - Add ability to define one-shot tasks\n    - Add ability to define post-job tasks to run on stop\n- Conclusion \u2014 2%",
+  "duration": 1738,
+  "language": "eng",
+  "recorded": "2021-06-03",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/VYNPNR/index.html"
+    }
+  ],
+  "speakers": [
+    "Calvin Hendryx-Parker"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/DK74vjuhpuM/hqdefault.jpg",
+  "title": "Hacking Django Channels for Fun and Profit",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DK74vjuhpuM"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Introduction and Outline\n\nQuick introduction of myself followed by an outline of what will be covered and what you will learn.\n\nWhy we profile?\n\nA typical program spends almost all its time in a small subset of its code. Optimizing those hotspots is all that matters. This is what a profiler is for: it leads us straight to the functions where we should spend our effort.\n\nWhat types tools are available and how they work?\n\n-Deterministic Profilers\n-Statistical Profilers\n\nI will be walking over the different use cases, pros/cons for each type. Then I will dig in a bit deeper on how they work under the hood. Understanding the inner workings a bit might be helpful while analysing its output.\n\nWhat kind of information do we get?\n\nI'll describe what kind of output we get from different profilers. What kind of metrics are available(Wall time, CPU time, sub/cumulative time) and where are those metrics are most useful while hunting for performance problems especially\nfor Web applications. I will also walk over/explain different kind of visualisations that profilers generate: Flamegraphs, Callgraph, SpeedScope...etc.\n\nQuestions",
+  "duration": 2449,
+  "language": "eng",
+  "recorded": "2021-06-02",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/PLFDVE/index.html"
+    }
+  ],
+  "speakers": [
+    "S\u00fcmer Cip"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZBJ30MAlc_0/hqdefault.jpg",
+  "title": "Hunting Performance in Django Code",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZBJ30MAlc_0"
+    }
+  ]
+}

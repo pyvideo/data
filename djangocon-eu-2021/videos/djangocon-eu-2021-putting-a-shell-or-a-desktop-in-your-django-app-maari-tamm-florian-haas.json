@@ -1,0 +1,29 @@
+{
+  "description": "In our City Cloud Academy (https://academy.citycloud.com) learning platform, we enable learners to interact with real-world hands-on lab environments, so that they can learn complex technologies like OpenStack, Kubernetes, Terraform, Ceph, Ansible, and others. To do that, we use Apache Guacamole (https://guacamole.apache.org/)'s `guacd` service to provide learners with interactive shell terminals \u2014 or even full desktop environments \u2014 that run right in people's browsers, no additional software required.\n\nThe Guacamole platform is normally deployed in conjunction with a Java servlet environment (https://guacamole.apache.org/doc/gug/guacamole-architecture.html#web-application) (commonly Apache Tomcat). But the Guacamole protocol is not tied to the Java language in any way, and a Python websocket proxy (pyguacamole (https://pypi.org/project/pyguacamole/)) is readily available under an open source (MIT) license.\n\nIn this talk, we discuss how we implemented a learning platform (based on Open edX (https://open.edx.org)) that deploys an ASGI service under Daphne (https://docs.djangoproject.com/en/3.1/howto/deployment/asgi/daphne/), uses pyguacamole to provide an asynchronous websocket connection to a Guacamole service, and thus creates a highly scalable, interactive, and immersive learning environment that helps people learn complex technology with no hardware or cloud investment at all.\n\n## Slides\n\nThe slides (with full speaker notes) are up at https://fghaas.github.io/djceu2021 and https://mrtmm.github.io/djceu2021.",
+  "duration": 1357,
+  "language": "eng",
+  "recorded": "2021-06-04",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/LKQSE7/index.html"
+    }
+  ],
+  "speakers": [
+    "Maari Tamm",
+    "Florian Haas"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/wB9FTwH-GTY/hqdefault.jpg",
+  "title": "Putting a shell or a desktop in your Django app",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=wB9FTwH-GTY"
+    }
+  ]
+}
