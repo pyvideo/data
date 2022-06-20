@@ -2,7 +2,7 @@ import os
 import glob
 import re
 
-from jinja2 import Markup
+from jinja2.utils import markupsafe
 import six
 
 
@@ -26,7 +26,7 @@ def slugify(value, substitutions=()):
     Taken from Pelican sources.
     """
     # TODO Maybe steal again from current Django 1.5dev
-    value = Markup(value).striptags()
+    value = markupsafe.Markup(value).striptags()
     # value must be unicode per se
     import unicodedata
     from unidecode import unidecode
@@ -69,4 +69,3 @@ def slugify(value, substitutions=()):
     value = value.encode('ascii', 'ignore')
     # but Pelican should generally use only unicode
     return value.decode('ascii')
-
