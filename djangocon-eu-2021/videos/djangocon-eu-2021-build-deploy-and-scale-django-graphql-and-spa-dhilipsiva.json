@@ -1,0 +1,28 @@
+{
+  "description": "After building, deploying and scaling a dozen on products with the Django + GraphQL + SPA (React) setup, we have come to understand what works and what does not. In this talk, I will share our findings on how to do the same. \n\nI will be using a simplified StackOverflow clone for demonstration. First, I will introduce Python-Graphene (and few other related libraries), the library that is used to build GraphQL endpoints. Then the talk will focus on how to structure your Django GraphQL project. Share the toolchain (a few management command scripts) that are handy to export your constants & GraphQL schemas to be used with your SPA. Integrating with an SPA (React for demo purpose) Auth, API calls.  \n\nThen I will talk about how you go about deploying your API using 2 different strategies: \n1. Docker compose / swarm (Vendor independent, non-production workloads)\n2. AWS Fargate (Vendor dependant, production workloads, serverless containers)\n\nAnd a cost-effective and highly scale-able deployment strategy for your SPA (using AWS S3, CloudFront and ACM).",
+  "duration": 1837,
+  "language": "eng",
+  "recorded": "2021-06-04",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/GWVRVA/index.html"
+    }
+  ],
+  "speakers": [
+    "dhilipsiva"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/x9I6WaaLC3U/hqdefault.jpg",
+  "title": "Build, deploy and scale Django, GraphQL and SPA",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=x9I6WaaLC3U"
+    }
+  ]
+}

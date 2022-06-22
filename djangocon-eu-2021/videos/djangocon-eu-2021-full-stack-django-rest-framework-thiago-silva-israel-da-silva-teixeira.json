@@ -1,0 +1,29 @@
+{
+  "description": "In this talk, we want to share our experience going beyond JSON APIs and using more Serializers and Renderers' features to create full-stack applications using Django Rest Framework.\n\nAfter many years using only Django and creating many applications with the traditional HTML templates and forms, like most web developers, we started to go more and more into a separate solution of backend and frontend. To do that, we then used Django Rest Framework to create nice JSON APIs. But recently, we started to go back to our roots and create more full-stack applications, but using Rest Framework to get the most of both worlds.\n\nOur views now not only can render HTML templates and serializers as forms but also, with the support of Renderers, allow us to quickly have JSON and more complex formats like Microsoft Word or Excel document responses. With that, we can render our HTML templates in the backend but already have the same serializers to update our DOM dynamically or download the same data as a report.\n\nIt wasn't as easy as we thought, and we needed to learn a lot during the process, creating our own solutions and extending some parts of Rest Framework itself. We want to share all of that and maybe help you too.\n\nPhoto by Bekir D\u00f6nmez (https://unsplash.com/@bekirdonmeez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)",
+  "duration": 2714,
+  "language": "eng",
+  "recorded": "2021-06-02",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/NBUHRU/index.html"
+    }
+  ],
+  "speakers": [
+    "Thiago Silva",
+    "Israel da Silva Teixeira"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ICCo8HkmrDE/hqdefault.jpg",
+  "title": "Full stack Django Rest Framework",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ICCo8HkmrDE"
+    }
+  ]
+}

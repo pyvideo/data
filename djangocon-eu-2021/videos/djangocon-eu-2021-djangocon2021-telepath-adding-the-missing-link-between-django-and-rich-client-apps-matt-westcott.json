@@ -1,0 +1,28 @@
+{
+  "description": "In today's web applications, the traditional client/server division is falling out of favour - there's an increasing need for the client side to handle not just the presentation layer, but the data model too. But how do you do that without recreating all of your Django business logic in JavaScript?\n\nThis was the problem faced by Wagtail CMS (https://wagtail.io/) when building a new version of StreamField, the framework for editing and organising structured page content. Our solution was a new library, 'telepath (https://wagtail.github.io/telepath/)', which can be thought of as a cross-platform version of Python's pickle mechanism, allowing arbitrary object to be unpacked into JavaScript code.\n\nIn this talk, we'll show how Wagtail has used telepath to enhance Django forms with new client-side capabilities, and how you can use it in your projects to get the best of both the server-side and client-side world.",
+  "duration": 3040,
+  "language": "eng",
+  "recorded": "2021-06-02",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/DMYMEE/index.html"
+    }
+  ],
+  "speakers": [
+    "Matt Westcott"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/bUh6P32vSyc/hqdefault.jpg",
+  "title": "Telepath-adding the missing link between Django and rich client apps",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=bUh6P32vSyc"
+    }
+  ]
+}

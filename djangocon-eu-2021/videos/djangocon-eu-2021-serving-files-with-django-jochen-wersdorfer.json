@@ -1,0 +1,28 @@
+{
+  "description": "The fairly new support for real async views (since Django 3.1) opened up a lot of new possibilities. I was so excited about them that I wrote a longish blog post about the topic:\nDjango 3.1 Async (https://wersdoerfer.de/blogs/ephes_blog/django-31-async/)\n\nThis article was also published on paper in a german developer magazine:\nDjango wird asynchron (https://kiosk.entwickler.de/entwickler-magazin/entwickler-magazin-6-2020/django-wird-asynchron/)\n\nBack then I had trouble to come up with a compelling use case for those new async views. But now I believe file serving is one of them. Usually you would use nginx in front of your Django application servers, a CDN or just S3 / another object store. But let's face it: This will add another layer of architectural complexity and authentication/authorization will be a real PITA. And some things might get a lot easier with pure Django file serving - let's assume I want to know how long people listened to my podcast delivered via http live streaming on average. If the media file was delivered via Django, it would be possible to log those numbers directly in the App. Otherwise you would have to calculate them from aws access log files or something like that (good luck with that).\n\nSo, using nginx  will probably be still faster and you won't be able to saturate 100Gbit/s. But maybe you don't need to and Django alone is already fast enough. Until june I probably have some benchmarks to prove it or a story about an embarrassing failure :).",
+  "duration": 2443,
+  "language": "eng",
+  "recorded": "2021-06-04",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/E8AYPU/index.html"
+    }
+  ],
+  "speakers": [
+    "Jochen Wersd\u00f6rfer"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/axWjD3Es9G8/hqdefault.jpg",
+  "title": "Serving Files with Django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=axWjD3Es9G8"
+    }
+  ]
+}

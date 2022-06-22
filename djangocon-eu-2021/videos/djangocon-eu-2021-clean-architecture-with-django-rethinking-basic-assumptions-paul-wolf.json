@@ -1,0 +1,28 @@
+{
+  "description": "Clean Architectures and related architecture patterns like Hexagonal and Onion architecture are intended to provide more maintainable code and lower technical debt. \n\nTwo parts of Django's architecture, the Django ORM and 3rd party Django REST Frameworks, make it difficult to get the benefits of a Clean Architecture. We look at ways we can achieve the benefits of Clean Architecture (CA) while using the Django framework.\n\nWhat are the various Clean Architecture Patterns and what do they promise to do for you?\n\nWhat is the ideal architecture pattern that Django supports?\n\nProblem 1: most Object Relational Mappings including Django's do two things: \n\n 1) Specify the persistence model: normalisation of data, efficient storage, efficient lookup, etc.\n\n 2) Specify the business entity domain: what business objects does the domain manage\n\nThe problem is that these are two different goals handled in one framework component, the ORM. \n\nProblem 2: REST frameworks have a heavy reliance on the ORM. This ties together the business domain to storage semantics making it hard to achieve some of the benefits of a Clean Architecture.\n\nTwo solutions paths exist:\n\nDjango can serve a clean architecture-like paradigm, under specific circumstances. But there is some confusion about what CA looks like in practice that causes developers to go for solutions that are the opposite of CA. \n\nThe other solution is a more fundamental rethink of how to implement and use ORMs and REST frameworks (including remote request frameworks like GraphQL).",
+  "duration": 2899,
+  "language": "eng",
+  "recorded": "2021-06-03",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/NCTBUS/index.html"
+    }
+  ],
+  "speakers": [
+    "Paul Wolf"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/l5AtMQbAsAk/hqdefault.jpg",
+  "title": "Clean Architecture with Django Rethinking basic assumptions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=l5AtMQbAsAk"
+    }
+  ]
+}

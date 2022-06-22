@@ -1,0 +1,28 @@
+{
+  "description": "How exactly do web-servers communicate with Django? and what happens immediately after that? If you've ever wondered where the `request` object comes from? How the middleware-chain is put together? Or just what all those functions you see in your exception tracebacks do? Then join me in a deep dive of everything between the server, the view and back again, as we answer these questions and more. \n\nThis talk will be a look under the hood at Django's request handlers, middleware-chain and URL-resolvers. Focusing on just the WSGI route (not asynchronous), it aims to be accessible to beginners, but with the intention that a more experienced user will learn something new or interesting as well. \n\nWe will start off by replacing Django's `WSGIHandler` with our own \"hello world\" WSGI application. We'll then build back in additional features until it starts to resemble what we originally had. Along the way, we'll highlight lesser-known features, and give examples demonstrating how understanding the implementation will enable you to better take advantage of the features Django offers, and ultimately write better code.",
+  "duration": 2354,
+  "language": "eng",
+  "recorded": "2021-06-04",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/7B9YYD/index.html"
+    }
+  ],
+  "speakers": [
+    "Timothy McCurrach"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/P5gQmlrwLjc/hqdefault.jpg",
+  "title": "The request response cycle a Djangonautic journey",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=P5gQmlrwLjc"
+    }
+  ]
+}

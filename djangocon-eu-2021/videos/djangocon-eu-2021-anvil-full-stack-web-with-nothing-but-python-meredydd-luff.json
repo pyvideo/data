@@ -1,0 +1,28 @@
+{
+  "description": "Building a modern web app requires *so much*: HTML, CSS, JS, Python, SQL, React, Bootstrap, Webpack...and Django, of course ;). What if we could build a better abstraction?\n\nOur answer is Anvil: a full-stack Python environment where everything is a Python object, from your UI components to your database rows. In this talk, I'll walk you through how and why we constructed this new approach to the web.\n\nWe'll start with a question: Why is web programming hard? It's because your data takes so many forms: database rows, Python objects, JSON on REST, JS objects, HTML DOM, and finally pixels. Most of a web developer's job is translating between these awkwardly different  representations. Frameworks like Django help, but now you have a stack of leaky abstractions: web frameworks, ORMs, JS frameworks, CSS frameworks, build tools... These frameworks help you go faster, but they double the amount you need to know!\n\nSo I'll show our stab at an answer: A framework where everything is a Python object, requests to the server are function calls, and Python is a browser-side language. I'll talk about running Python in the browser. I'll talk about full-stack autocompletion. There will even be live coding.\n\nAnd then I'll talk about how it breaks. Because every abstraction breaks, and this abstraction is bigger than most. So I'll touch on what it means to go down with the ship, to use an ejector seat, or to open an escape hatch.\n\nJoin me for a rollicking tour of a new way to approach the web!",
+  "duration": 3337,
+  "language": "eng",
+  "recorded": "2021-06-03",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/KXQPUU/index.html"
+    }
+  ],
+  "speakers": [
+    "Meredydd Luff"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/uhV2ay0Yayo/hqdefault.jpg",
+  "title": "Anvil Full Stack Web with Nothing but Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uhV2ay0Yayo"
+    }
+  ]
+}
