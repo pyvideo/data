@@ -1,6 +1,9 @@
 PY?=python3
 
 BASEDIR=$(CURDIR)
+VENV=$(BASEDIR)/.venv
+BIN=$(VENV)/bin
+PYTHON=$(BIN)/python
 TESTSDIR=$(BASEDIR)/.tests
 SCHEMASDIR=$(BASEDIR)/.schemas
 export PYTHONPATH := $(BASEDIR):$(TESTSDIR)
@@ -21,29 +24,32 @@ help:
 	@echo 'e.g. make VERBOSE=1 test                                           '
 	@echo '                                                                   '
 
-install-deps:
-	pip install -r $(TESTSDIR)/requirements.txt
+.venv:
+	python3 -m venv $(VENV)
+
+install-deps: .venv
+	$(BIN)/pip install -r $(TESTSDIR)/requirements.txt
 
 test-schemas: install-deps
-	$(PY) $(TESTSDIR)/schemas.py -d $(BASEDIR) -s $(SCHEMASDIR) -v $(VERBOSE)
+	$(PYTHON) $(TESTSDIR)/schemas.py -d $(BASEDIR) -s $(SCHEMASDIR) -v $(VERBOSE)
 
 test-ids-unique: install-deps
-	$(PY) $(TESTSDIR)/ids_unique.py -d $(BASEDIR) -v $(VERBOSE)
+	$(PYTHON) $(TESTSDIR)/ids_unique.py -d $(BASEDIR) -v $(VERBOSE)
 
 test-slugs-unique: install-deps
-	$(PY) $(TESTSDIR)/slugs_unique.py -d $(BASEDIR) -v $(VERBOSE)
+	$(PYTHON) $(TESTSDIR)/slugs_unique.py -d $(BASEDIR) -v $(VERBOSE)
 
 test-render-rest: install-deps
-	$(PY) $(TESTSDIR)/render_rest.py -d $(BASEDIR) -v $(VERBOSE)
+	$(PYTHON) $(TESTSDIR)/render_rest.py -d $(BASEDIR) -v $(VERBOSE)
 
 test-shape: install-deps
-	$(PY) $(TESTSDIR)/shape.py -d $(BASEDIR) -v $(VERBOSE)
+	$(PYTHON) $(TESTSDIR)/shape.py -d $(BASEDIR) -v $(VERBOSE)
 
 test-languages: install-deps
-	$(PY) $(TESTSDIR)/languages.py -d $(BASEDIR) -v $(VERBOSE)
+	$(PYTHON) $(TESTSDIR)/languages.py -d $(BASEDIR) -v $(VERBOSE)
 
 test-filename-length: install-deps
-	$(PY) $(TESTSDIR)/filename_length.py -d $(BASEDIR) -v $(VERBOSE)
+	$(PYTHON) $(TESTSDIR)/filename_length.py -d $(BASEDIR) -v $(VERBOSE)
 
 test: test-schemas test-ids-unique test-slugs-unique test-render-rest test-languages test-filename-length
 
