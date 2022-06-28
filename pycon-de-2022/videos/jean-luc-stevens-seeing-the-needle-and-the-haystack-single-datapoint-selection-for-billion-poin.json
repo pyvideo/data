@@ -1,0 +1,31 @@
+{
+    "title": "Seeing the needle AND the haystack: single-datapoint selection for billion-poin...",
+    "description": "Speaker:: Jean-Luc Stevens\n\nTrack: PyData: Visualization\nPython tools like Bokeh and Dash let you build custom Web-based interactive visualization apps and dashboards.  While these solutions work well to visualize megabyte-sized datasets, web technologies (including WebGL) stuggle to render gigabyte or larger datasets efficiently, because they transfer all the data into the client browser. Pre-rendering the data on the server using a tool like Datashader can visualize such large datasets efficiently, but the resulting static renderings make exploring individual datapoints difficult.\r\n\r\nThis talk introduces an easy-to-use hvPlot API that leverages HoloViews, Datashader, Bokeh, and Panel to build dashboards that do server-side rendering of billions of data points without losing the ability to interactively inspect individual samples in the browser.\r\n\r\nThese tools let you dump in your data and immediately see both the overall structure and explore the individual data items without having to program with events, callbacks, or other advanced mechanisms, and with very little programming required at all.\r\n\r\nSee hvPlot.holoviz.org, holoviews.org, and panel.org for more details and how to get started!\n\n\nRecorded at the PyConDE & PyData Berlin 2022 conference, April 11-13 2022.\nhttps://2022.pycon.de\nMore details at the conference page: https://2022.pycon.de/program/9LDACE\nTwitter: https://twitter.com/pydataberlin\nTwitter: https://twitter.com/pyconde",
+    "thumbnail_url": "https://i.ytimg.com/vi/Nyf0oYWUN18/hqdefault.jpg",
+    "duration": 1771,
+    "speakers": [
+        "Jean-Luc Stevens"
+    ],
+    "language": "eng",
+    "recorded": "2022-05-11",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Nyf0oYWUN18"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pycon.de/program/9LDACE"
+        }
+    ],
+    "tags": [
+        "PyCon",
+        "PyConDE",
+        "pyconde2022",
+        "pydata",
+        "PyDataBerlin",
+        "pydataberlin2022"
+    ]
+}

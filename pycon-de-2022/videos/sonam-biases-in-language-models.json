@@ -1,0 +1,31 @@
+{
+    "title": "Biases in Language Models",
+    "description": "Speaker:: sonam\n\nTrack: General: Ethics\nThe talk is an attempt to measure biases in most popular language models and we propose a solution to reduce the bias, and promote social inclusion and diversity based on gender. We have covered both methods on contextual and non contextual word em- bedding debiasing techniques. We have also tried to compare the biases in different models, like Flair, Bert and glove. The dataset used is Winograd-schema style sentences with entities corresponding to people referred by their occupation (e.g. the nurse, the doctor, the carpenter).\r\nThe use of AI in sensitive areas including for hiring, criminal justice and health- care makes it more important to look under the hood for bias and fairness. AI being shaped by flawed and societal biases.\r\nUnderlying data rather than the algorithm itself are most often the main source of the issue. and how can we use finetuning and projection methods to overcome those biases in models\r\nThere have been several cases where google translator or any other language models have given racial or gender biased results. \r\nWhen a gender neutral language like finnish is translated to English it gives male biased results.\r\nDue to word embeddings trained on news articles may exhibit the gender stereotypes found in society.\r\nWe have finetuned model and have tried debiasing non contextual embeddings.\n\n\nRecorded at the PyConDE & PyData Berlin 2022 conference, April 11-13 2022.\nhttps://2022.pycon.de\nMore details at the conference page: https://2022.pycon.de/program/HXCMKR\nTwitter: https://twitter.com/pydataberlin\nTwitter: https://twitter.com/pyconde",
+    "thumbnail_url": "https://i.ytimg.com/vi/SdjmhbFNR_Q/hqdefault.jpg",
+    "duration": 1783,
+    "speakers": [
+        "sonam"
+    ],
+    "language": "eng",
+    "recorded": "2022-05-12",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=SdjmhbFNR_Q"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pycon.de/program/HXCMKR"
+        }
+    ],
+    "tags": [
+        "PyCon",
+        "PyConDE",
+        "pyconde2022",
+        "pydata",
+        "PyDataBerlin",
+        "pydataberlin2022"
+    ]
+}

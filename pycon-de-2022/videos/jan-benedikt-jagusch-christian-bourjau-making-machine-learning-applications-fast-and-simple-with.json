@@ -1,0 +1,32 @@
+{
+    "title": "Making Machine Learning Applications Fast and Simple with ONNX",
+    "description": "Speaker:: Jan-Benedikt Jagusch Christian Bourjau\n\nTrack: General: Production\nTaking trained machine learning models from inside a Jupyter notebook and deploying them into a production microservice is painful for two reasons:\r\n\r\n- Models are not fully self-contained and need to be packaged together with their environment\r\n- Models are optimized for batch processing but slow down for single-row predictions, which could lead to timeouts in a fast-paced online microservice.\r\n\r\nIn this talk, you will learn how to use the Open Neural Network Exchange (ONNX) framework to compile models into fully-self contained computational graphs, which can reduce single-row inference time by up to 99%, while also drastically simplifying model management.\r\n\r\nYou will be introduced to the ONNX ecosystem, such as the `sklearn-onnx` and `onnxmltools` libraries for converting models into ONNX graphs, and will learn how to write converters for custom estimators and transformers.\n\n\nRecorded at the PyConDE & PyData Berlin 2022 conference, April 11-13 2022.\nhttps://2022.pycon.de\nMore details at the conference page: https://2022.pycon.de/program/BLVRVL\nTwitter: https://twitter.com/pydataberlin\nTwitter: https://twitter.com/pyconde",
+    "thumbnail_url": "https://i.ytimg.com/vi/fucKKi2zMw4/hqdefault.jpg",
+    "duration": 2700,
+    "speakers": [
+        "Jan-Benedikt Jagusch",
+        "Christian Bourjau"
+    ],
+    "language": "eng",
+    "recorded": "2022-05-11",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=fucKKi2zMw4"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pycon.de/program/BLVRVL"
+        }
+    ],
+    "tags": [
+        "PyCon",
+        "PyConDE",
+        "pyconde2022",
+        "pydata",
+        "PyDataBerlin",
+        "pydataberlin2022"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "title": "You shall not share!",
+    "description": "Speaker:: G\u00f6n\u00fcl Ayc\u0131\n\nTrack: PyData: Machine Learning & Stats\nOnline social network users frequently share personal information online. While each post is targeted to a certain audience, it is not always easy to judge what the privacy implications of shared content will be. To ensure that privacy is preserved, each user has to think through these implications before sharing content, which is difficult at best. Recent work advocates the use of intelligent systems that can help people preserve their privacy by helping users decide whether a content is private or not so that the user can take an action accordingly; e.g., only share with family as opposed to publicly. \r\n\r\nIn this talk, I propose an agent that helps its user to determine the privacy of content she is willing to share. The agent uses only the content that the user has shared before, without discriminating between the content modality (e.g., image, text, and so on). Each content in the system is only represented with tags. The tags can be automatically created using a tool such as Clarifai, where 20 tags would automatically be assigned to an image. Alternatively, the user might herself choose to tag the content. This enables our approach to make use of content from different online social networks as long as tags are associated with the content. The agent learns the privacy label of a content using random forests, a well-known machine learning technique. The features are extracted using the Term Frequency\u2013Relevance Frequency (TF-RF) method.\n\n\nRecorded at the PyConDE & PyData Berlin 2022 conference, April 11-13 2022.\nhttps://2022.pycon.de\nMore details at the conference page: https://2022.pycon.de/program/KG3LKN\nTwitter: https://twitter.com/pydataberlin\nTwitter: https://twitter.com/pyconde",
+    "thumbnail_url": "https://i.ytimg.com/vi/v2ZucdZj3bY/hqdefault.jpg",
+    "duration": 1573,
+    "speakers": [
+        "G\u00f6n\u00fcl Ayc\u0131"
+    ],
+    "language": "eng",
+    "recorded": "2022-05-11",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=v2ZucdZj3bY"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pycon.de/program/KG3LKN"
+        }
+    ],
+    "tags": [
+        "PyCon",
+        "PyConDE",
+        "pyconde2022",
+        "pydata",
+        "PyDataBerlin",
+        "pydataberlin2022"
+    ]
+}
