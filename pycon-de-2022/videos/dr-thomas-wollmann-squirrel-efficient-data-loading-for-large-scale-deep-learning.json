@@ -1,0 +1,31 @@
+{
+    "title": "Squirrel - Efficient Data Loading for Large-Scale Deep Learning",
+    "description": "Speaker:: Dr. Thomas Wollmann\n\nTrack: PyData: Data Handling\nData stall in deep learning training refers to the case where combined throughput of data loading and transformation is less than the consumption rate of the model, leading to idling of expensive GPU resources and prolonged training. \r\n\r\nData loading in deep learning pipelines have a very specific set of constraints, performance requirements, and cost structure. While Object Store is a low-cost storage solution, repeated retrieval can be expensive and slow, which can lead to data stall. SSD is an expensive storage solution with fast retrieval, which is not as scalable as Object Store. Run-time transformation is a common subsequent step, which is highly variable across model configurations, and highly dependent on the data loading step. Any configuration of data loading which is optimal in one scenario is almost certainly sub-optimal in another. Therefore, an ideal data pipeline should be elastic and adaptable.\r\n\r\nWe present solutions to these challenges. Our approach uses chain-able components to express the deep learning data pipeline with pluggable executors to decouple IO-bound and CPU-bound operations, and to scale out to clusters of machines. We discuss the importance of sharding and caching for cost reduction, and the unification of storage and loading based on open standard file formats. We hope that our efforts make large-scale model training accessible to a wider community of researchers and practitioners, and enable sustainable deep learning pipelines.\n\n\nRecorded at the PyConDE & PyData Berlin 2022 conference, April 11-13 2022.\nhttps://2022.pycon.de\nMore details at the conference page: https://2022.pycon.de/program/CHTY3U\nTwitter: https://twitter.com/pydataberlin\nTwitter: https://twitter.com/pyconde",
+    "thumbnail_url": "https://i.ytimg.com/vi/pZPbi4EmqEo/hqdefault.jpg",
+    "duration": 2439,
+    "speakers": [
+        "Dr. Thomas Wollmann"
+    ],
+    "language": "eng",
+    "recorded": "2022-05-13",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=pZPbi4EmqEo"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pycon.de/program/CHTY3U"
+        }
+    ],
+    "tags": [
+        "PyCon",
+        "PyConDE",
+        "pyconde2022",
+        "pydata",
+        "PyDataBerlin",
+        "pydataberlin2022"
+    ]
+}
