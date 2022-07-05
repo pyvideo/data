@@ -1,0 +1,31 @@
+{
+  "description": "\"Modeling Financial Data In Cassandra To Serve Real Time And Batch Workloads At Same Time\" by: Gokul Prabagaren\nThis talk will explain how we have modeled customer rewards data in CapitalOne using Apache Cassandra to serve Real time microservice based workloads ( Customer accessing their rewards online ) and batch Apache Spark workloads ( Customer statements ) at same time.\n\nCapitalOne being Tech Company in Banking business, we are 100% Cloud operated Company. All our workloads are Cloud Native. This talk covers one of such use case which will explain how we have modeled customer rewards data in CapitalOne using Apache Cassandra to serve Real time microservice based workloads and batch Apache Spark workloads at same time. When customer accesses their Rewards from web or Customer receives their Rewards in Statements the Cassandra table we modeled plays a central role and services both the different workloads at same time. This talk will cover how Cassandra data is used by Spring based microservice and Spark based batch workload. I am part of team which designed and developed this application ground up and serving millions of customers now.\n\nRecorded at the 2021 Python Web Conference (https://2021.pythonwebconf.com)",
+  "duration": 1766,
+  "language": "eng",
+  "recorded": "2021-03-22",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2021.pythonwebconf.com/schedule"
+    },
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.pythonwebconf.com/presentations/modeling-financial-data-in-cassandra-to-serve-real-time-and-batch-workloads-at-same-time"
+    }
+  ],
+  "speakers": [
+    "Gokul Prabagaren"
+  ],
+  "tags": [
+    "PythonWebConf",
+    "PythonWebConf2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/gtrRY7XziXU/hqdefault.jpg",
+  "title": "Modeling Financial Data In Cassandra To Serve Real Time + Batch Workloads",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gtrRY7XziXU"
+    }
+  ]
+}

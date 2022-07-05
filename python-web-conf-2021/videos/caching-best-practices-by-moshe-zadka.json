@@ -1,0 +1,31 @@
+{
+  "description": "\"Caching Best Practices\" by: Moshe Zadka\n\nUsing a database? A microservice? Then you have probably considered whether to cache some of the data you retrieve from them. Caching is supposed to make the application go fast, right? Sometimes! Caching is a subtle topic. Using caches needs to be done with care. This care should manifest beforehand, by thinking ahead of time about the data needs and latencies involved. The care should manifest while writing the code, refactoring as appropriate to take proper advantage of the cache. The care must even be applied after the code is written, by monitoring cache hit/miss rates and alerting appropriately if the cache patterns change.\n\nUsing a cache well can make an application faster and cheaper to run. Using a cache badly can make an application slower, and consume more resources. Learn how to measure twice, and cache once.\n\nRecorded at the 2021 Python Web Conference (https://2021.pythonwebconf.com)",
+  "duration": 2040,
+  "language": "eng",
+  "recorded": "2021-03-22",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2021.pythonwebconf.com/schedule"
+    },
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.pythonwebconf.com/presentations/caching-best-practices"
+    }
+  ],
+  "speakers": [
+    "Moshe Zadka"
+  ],
+  "tags": [
+    "PythonWebConf",
+    "PythonWebConf2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7EB1pmTfR5Y/hqdefault.jpg",
+  "title": "Caching Best Practices",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7EB1pmTfR5Y"
+    }
+  ]
+}
