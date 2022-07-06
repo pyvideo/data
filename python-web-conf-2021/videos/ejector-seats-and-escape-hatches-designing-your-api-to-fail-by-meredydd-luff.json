@@ -1,0 +1,31 @@
+{
+  "description": "\"Ejector Seats and Escape Hatches: Designing Your API to Fail\" by: Meredydd Luff\nI hate to break it to you: Your API design isn't perfect. Whatever abstraction you create, it will leak, and it will fail. I don't mean throwing errors; I mean something worse: building an API that doesn't allow what your users need to do.\nWe've got this problem big-style at Anvil, where we're simplifying web development by letting you build *everything*  in Python - including the UI and browser-side code. It's a challenge: the existing HTML/JS/CSS/framework ecosystem is fiendishly complex, and so huge that we can't possibly cover everything in a nice, Pythonic API - however carefully we design it. \nSo we need to design our APIs to fail - and to fail well. In this talk, I'll be asking:\n- How do abstractions fail?\n- What happens when your abstraction prevents a user from doing what they need?\n- What are common strategies \"in the wild\"? Do you go down with the ship? Do you eject? Or can you build a real escape hatch?\n\nRecorded at the 2021 Python Web Conference (https://2021.pythonwebconf.com)",
+  "duration": 2658,
+  "language": "eng",
+  "recorded": "2021-03-22",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2021.pythonwebconf.com/schedule"
+    },
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.pythonwebconf.com/presentations/meredydd-luff"
+    }
+  ],
+  "speakers": [
+    "Meredydd Luff"
+  ],
+  "tags": [
+    "PythonWebConf",
+    "PythonWebConf2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/bR5Dq3m5wMg/hqdefault.jpg",
+  "title": "Ejector Seats and Escape Hatches: Designing Your API to Fail",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=bR5Dq3m5wMg"
+    }
+  ]
+}

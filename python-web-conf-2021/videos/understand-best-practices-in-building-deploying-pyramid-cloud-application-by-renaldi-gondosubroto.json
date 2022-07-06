@@ -1,0 +1,31 @@
+{
+  "description": "\"Understanding Best Practices in Building and Deploying Pyramid Cloud Application\" by: Renaldi Gondosubroto\n\nManaging small services and applications with the Pyramid framework is easy, but when we start getting into managing the bigger, cloud-based applications, we start to face challenges in ensuring that all components remains as they should be. This is one of the biggest challenges that Pyramid developers face in development of their applications. In this talk, I will talk about the pros and cons of using Pyramid for building applications as compared to other frameworks, outline how to manage such developments from the initial planning of the application based on the framework to the deployment on a cloud service based on best practices that are set out and how to avoid some of the mistakes I made when developing and deploying my own Pyramid-based services.\n\nI will cover best practice topics in planning including how to choose a persistence mechanism, planning for extensibility of the application as needed, and preparing the tools needed for the application\u2019s layers. For the development of the application itself, I will talk about how to properly utilize scaffolds, effectively use declarative configuration, understand how to make the best use of the authentication, manage view configurations with mechanisms such as URL dispatch and traversal, monitoring the deployment on a cloud service and more. Design patterns will be talked about alongside covering these topics and how they can benefit alongside the scaling of your application. For the deployment, I will be using AWS as the cloud platform to support this context, as I have performed my deployments with it.\n\nI will then conclude the talk with a case study based on one of my own previous projects involving the development and deployment of an application I scaled up and deployed on the cloud. This is particularly to highlight some initial mistakes I made that are quite prevalent in the Pyramid community and how developers can avoid making the same mistakes when they move onto developing their own Pyramid, Cloud-based applications. Attendees will leave the talk ready to start experimenting with, building, and deploying their Pyramid applications on the cloud.\n\nRecorded at the 2021 Python Web Conference (https://2021.pythonwebconf.com)",
+  "duration": 2608,
+  "language": "eng",
+  "recorded": "2021-03-22",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2021.pythonwebconf.com/schedule"
+    },
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.pythonwebconf.com/presentations/understanding-best-practices-in-building-and-deploying-pyramid-cloud-application"
+    }
+  ],
+  "speakers": [
+    "Renaldi Gondosubroto"
+  ],
+  "tags": [
+    "PythonWebConf",
+    "PythonWebConf2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VWOUc8AoA6U/hqdefault.jpg",
+  "title": "Understand Best Practices in Building/Deploying Pyramid Cloud Application",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VWOUc8AoA6U"
+    }
+  ]
+}

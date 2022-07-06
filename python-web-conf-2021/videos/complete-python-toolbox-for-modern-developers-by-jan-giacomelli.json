@@ -1,0 +1,31 @@
+{
+  "description": "\"Complete Python Toolbox For Modern Developers\" by: Jan Giacomelli\nThis talk looks at the various tools that simplify the development process for any developer, independent of their skill level. It starts with project creation with dependency management. It then continues on to look at tools used for testing, checking code quality, and type checking. In the end, we\u2019ll look at documenting code.\n\nIntroduction - 5min\nI\u2019ll start with the issues most Python developers face:\n- creating and re-creating virtual environments\n- installing, uninstalling, and updating dependencies\n- writing and running tests\n- following consistent code style\n- avoiding security vulnerabilities\n- documenting code\n\nModern Python Environments (dependency and workspace management) \nFirst, we\u2019ll take a look at how to manage Python versions with pyenv. Specifically, how to:\n- list available Python versions\n- install a specific version\n- select a specific version for your current project\n\nNext, we\u2019ll take a look at managing dependencies. We\u2019ll look at how to manage dependencies with several different tools:\n- venv + pip\n- Poetry\n- pipenv\nFor each, we\u2019ll look at how to manage dependencies along with the virtual environment.\nWe\u2019ll finish this section by comparing the tools (their pros and cons, things they support, etc.) to make it easier to choose the right one based on your specific situation.\n\nPython testing\nThis section looks at some tools and techniques that help make testing in Python easier.\n- Testing with pytest: How to install pytest, structure a project, run assertions, and run tests. We\u2019ll also look at the most used plugins.\n- Mocking: How to mock internal methods within your tests.\n- Code coverage: We\u2019ll discuss how to measure code coverage, which tool to use, and how to interpret the coverage percentage.\n\nPython Code Quality\nThis section answers the following questions:\n1. What exactly is code quality?\nHow do we measure it?\nHow do we improve code quality and clean up our Python code?\nWe\u2019ll look at how to improve the quality of your Python code with linters, code formatters, and security vulnerability scanners.\n\nPython Type Checking\nThis section answers the following questions:\n1. What is type checking?\n2. Why do we need it?\n3. What\u2019s the difference between static and runtime type checking?\nThis section looks at what type hints are and how they can benefit you. We\u2019ll also dive into how you can use Python\u2019s type system for type checking.\n\nDocumenting Python Code\nThis section answers the following questions:\n1. Why do you need to document your Python code?\n2. What should your project documentation include?\n3. How do you write and generate documentation?\nThis section looks at why you should document your Python code and how to generate project documentation with Sphinx and OpenAPI.\n\nRecorded at the 2021 Python Web Conference (https://2021.pythonwebconf.com)",
+  "duration": 2556,
+  "language": "eng",
+  "recorded": "2021-03-22",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2021.pythonwebconf.com/schedule"
+    },
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.pythonwebconf.com/presentations/complete-python-toolbox-for-modern-developers"
+    }
+  ],
+  "speakers": [
+    "Jan Giacomelli"
+  ],
+  "tags": [
+    "PythonWebConf",
+    "PythonWebConf2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/-Xh8wQ7i1Ps/hqdefault.jpg",
+  "title": "Complete Python Toolbox For Modern Developers",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-Xh8wQ7i1Ps"
+    }
+  ]
+}
