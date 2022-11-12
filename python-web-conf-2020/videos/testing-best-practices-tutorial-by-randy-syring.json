@@ -1,0 +1,31 @@
+{
+    "title": "Testing Best Practices (Tutorial)",
+    "description": "\"Testing Best Practices (Tutorial)\" by: Randy Syring\nWe'll use a non-trivial Flask application to review general best practices when testing. In addition, we'll examine methods for testing an application when it must interact with services outside itself. In particular, we will review how to test:\n\nDatabase\nCelery tasks\n3rd party external APIs (REST/JSON)\nCLI commands\nEmails\nUsing Continuous Integration (CI) services\nWe will discuss both principles and implementation so that even if you don't use Flask, the principles learned can be applied to other frameworks (Django, etc.).\n\nThis is an intermediate to advanced talk so attendees should feel comfortable:\n\nworking in Python\ncloning repos from GitHub\nusing pip and friends to create virtualenvs and install dependencies\nrunning applications from the command line\nusing Docker and docker-compose to spin up external services (database, email, RabbitMQ) or having those services installed & available at the OS level\nfamiliarity with using pytest will be helpful\n\nRESOURCES: https://2020.pythonwebconf.com/tutorials/testing-done-right\n\nRecorded at the 2020 Python Web Conference (https://2020.pythonwebconf.com)",
+    "thumbnail_url": "https://i.ytimg.com/vi/HH20YPp_5WI/hqdefault.jpg",
+    "duration": 6055,
+    "speakers": [
+        "Randy Syring"
+    ],
+    "language": "eng",
+    "recorded": "2020-06-17",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=HH20YPp_5WI"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://2020.pythonwebconf.com/schedule"
+        },
+        {
+            "label": "Talk announcement",
+            "url": "https://2020.pythonwebconf.com/tutorials/testing-done-right.html"
+        }
+    ],
+    "tags": [
+        "PythonWebConf",
+        "PythonWebConf2020"
+    ]
+}

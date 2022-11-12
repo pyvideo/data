@@ -1,0 +1,31 @@
+{
+    "title": "Serverless is for Pragmatists: CI/CD in the Age of IaC",
+    "description": "\"Serverless is for Pragmatists: CI/CD in the Age of IaC\" by: Anna Spysz and Chase Douglas\n\nOver the past 5 years, a common application development theme has emerged as the combination of both code and infrastructure to comprise applications. In particular, it's almost impossible to manage a serverless application without Infrastructure-as-Code, because any stateful application of reasonable scope will require a combination of compute resources alongside queues, pub-sub topics, databases, storage, and more.\n\nAs these application architectures mature, best practices are also developing. While we may understand CI/CD processes for application code, similar mechanisms for Infrastructure-as-Code may be less familiar. This talk will present best practices that we\u2019ve developed by working with our customers, including:\n\n* Managing and isolating environments across cloud accounts for parameters, secrets, and resources\n* Automated deployments of preview environments for PRs\n* Auditing infrastructure templates to ensure least-privileged permissions\n* Managing permissions and access controls for individual developers to be productive\n* Providing controls to meet regulatory compliance like SOC-2 for modern, serverless application delivery\n\nOur goal is to share these learnings with a broader set of people, and to reach those beyond our previous audiences within the serverless application development community. This talk will be focused on specific techniques and is meant to apply to a broad range of serverless and other IaC projects.\n\nRecorded at the 2020 Python Web Conference (https://2020.pythonwebconf.com)",
+    "thumbnail_url": "https://i.ytimg.com/vi/NFRJuFlBFzc/hqdefault.jpg",
+    "duration": 2328,
+    "speakers": [
+        "Anna Spysz and Chase Douglas"
+    ],
+    "language": "eng",
+    "recorded": "2020-06-18",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=NFRJuFlBFzc"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://2020.pythonwebconf.com/schedule"
+        },
+        {
+            "label": "Talk announcement",
+            "url": "https://2020.pythonwebconf.com/presentations/serverless-is-for-pragmatists-ci-cd-in-the-age-of-iac.html"
+        }
+    ],
+    "tags": [
+        "PythonWebConf",
+        "PythonWebConf2020"
+    ]
+}
