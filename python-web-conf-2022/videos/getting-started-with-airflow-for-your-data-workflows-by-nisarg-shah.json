@@ -1,0 +1,31 @@
+{
+    "title": "Getting Started with Airflow for Your Data Workflows",
+    "description": "While working with data products, a developer might have encountered some data tasks which require some scripts or cron jobs. A script might include a series of tasks which needs to be performed on that data. Also, the tasks might be dependent on each other\u2019s execution status and results. In these scenarios, how do you build flows in a structured way? How do you define the dependency of a task and check errors from logs? Using Airflow, you can do everything mentioned above with more flexibility and ease. The pipelines can be triggered daily, developers can get email on failures of specific tasks in the pipeline, and much more.\n\nIn this talk, initially I will go through some main benefits of using the Airflow orchestration tool. After that, I will show the comparison of python script and DAG defined in airflow. I will start from the basic installation, understanding DAG and tasks, exploring various operators (PythonOperator and BashOperator), and defining the structure. After this talk, anyone would be able to develop the pipelines in airflow which has the python/bash implementation in every task.\n\nAt the end, I would also touch upon some issues regarding fetching logs which a developer can face while using docker-swarm in the pipelines. The workaround is to use multithreading, one thread to read and print logs and the other to check the status of the service.\n\n#PWC2022 attracted nearly 375 attendees from 36 countries and 21 time zones making it the biggest and best year yet. The highly engaging format featured 90 speakers, 6 tracks (including 80 talks and 4 tutorials) and took place virtually on March 21-25, 2022 on LoudSwarm by Six Feet Up.\n\nMore information about the conference can be found at: https://2022.pythonwebconf.com",
+    "thumbnail_url": "https://i.ytimg.com/vi/4COujMP6_9I/hqdefault.jpg",
+    "duration": 1818,
+    "speakers": [
+        "Nisarg Shah"
+    ],
+    "language": "eng",
+    "recorded": "2022-03-24",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=4COujMP6_9I"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://2022.pythonwebconf.com/schedule"
+        },
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pythonwebconf.com/presentations/getting-started-with-airflow-for-your-data-workflows"
+        }
+    ],
+    "tags": [
+        "PythonWebConf",
+        "PythonWebConf2022"
+    ]
+}

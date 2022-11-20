@@ -1,0 +1,31 @@
+{
+    "title": "Continuously Deliver Content to my Blog with Markdown, GitHub, Python, and Netlify",
+    "description": "After being sick of long and broken builds from my javascript-based static site generator I decided it was time to switch to a language I was far more comfortable in. At the time I was really interested in learning how to build my own frameworks with pluggy, so a new static site generator was born.\n\nMarkata was born\nThe idea of markata is a plugins all the way down static site generator at the intersection of markdown and data. It comes with 6 defines lifecycle methods, 21 pre-defined plugins, a cache store built on diskcahe, and a configuration system. Creating new functionality is as easy as making as decorating lifecycle functions with a markata lifecycle method and adding it to the list of active plugins in your markata.toml.\n\n* 6 lifecycle methods\n* 21 pre-defined plugins\n* cache store\n* toml based configuration\n\nMarkdown\nAll of the content on this site is written in markdown and always has been. Moving to the new site I chose to use pymdown-extensions so that I could potentially use some of their great existing extensions.\n\nPluggy\nComes from pytest and allows users to easily modify the framework to their liking.\n\nDiskcache\nMarkata defines a diskcache cache for you. Markata provides a convenience function to help make your own unique cache key consistently. Plugins can access the cache, add to it, and set their own expiration interval.\n\nConfiguration\nEverything is in toml.\n\nGitHub Actions\nRendering the site inside of github actions with the cache is pretty straightforward with these four steps. Keying off of the configuration will bust the cache every time we change the configuration. You can hack a full rebuild by changing anything inside of the configuration file.\n\nI deploy to netlify but any static site host would work.\n#PWC2022 attracted nearly 375 attendees from 36 countries and 21 time zones making it the biggest and best year yet. The highly engaging format featured 90 speakers, 6 tracks (including 80 talks and 4 tutorials) and took place virtually on March 21-25, 2022 on LoudSwarm by Six Feet Up.\n\nMore information about the conference can be found at: https://2022.pythonwebconf.com",
+    "thumbnail_url": "https://i.ytimg.com/vi/JDZVjDCTKHE/hqdefault.jpg",
+    "duration": 2435,
+    "speakers": [
+        "Waylon Walker"
+    ],
+    "language": "eng",
+    "recorded": "2022-03-21",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=JDZVjDCTKHE"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://2022.pythonwebconf.com/schedule"
+        },
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pythonwebconf.com/presentations/how-i-continuously-deliver-content-to-my-blog-with-markdown-github-python-and-netlify"
+        }
+    ],
+    "tags": [
+        "PythonWebConf",
+        "PythonWebConf2022"
+    ]
+}
