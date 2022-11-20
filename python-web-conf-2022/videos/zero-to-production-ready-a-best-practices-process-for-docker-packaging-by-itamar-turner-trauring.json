@@ -1,0 +1,31 @@
+{
+    "title": "Zero to Production-Ready: A Best-Practices Process for Docker Packaging",
+    "description": "When it\u2019s time to package your Python application for Docker, there are a whole lot of best practices to follow: my personal list has 70 best practices and it keeps growing. As a result, it can be unclear what\u2019s important, what\u2019s not, where to start, and what to put off until later. If you\u2019re not careful, you can get distracted by optimizing your Docker image size, and neglect to make your image secure.\n\nThe underlying problem is that Docker packaging is complicated: it\u2019s at the intersection of multiple organizational processes, from development, to deployment, to debugging, to upgrades. Add on 50 years of technology development going back to early Unix design decisions, and the result is a huge number of details to get right, many of which interact with each other in unexpected ways.\n\nBut, once you understand how Docker packaging fits in with all the development and operational processes you\u2019re already doing, those details become a lot less daunting. In particular, by following a structured iterative process for creating your Docker packaging artifacts (Dockerfile etc.), you can think through the decisions you\u2019ll need to make, figure out which new processes you need to start implementing, and make sure you\u2019ve implemented the important details first.\n\nTo help you take control of your packaging, this talk will cover an iterative six-step process for packaging an application with Docker, starting with security and ending up with optimizations like build time and image size, along with a few examples of some of the relevant best practices.\n\n#PWC2022 attracted nearly 375 attendees from 36 countries and 21 time zones making it the biggest and best year yet. The highly engaging format featured 90 speakers, 6 tracks (including 80 talks and 4 tutorials) and took place virtually on March 21-25, 2022 on LoudSwarm by Six Feet Up.\n\nMore information about the conference can be found at: https://2022.pythonwebconf.com",
+    "thumbnail_url": "https://i.ytimg.com/vi/gVToiMRwmW4/hqdefault.jpg",
+    "duration": 2772,
+    "speakers": [
+        "Itamar Turner-Trauring"
+    ],
+    "language": "eng",
+    "recorded": "2022-03-22",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=gVToiMRwmW4"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://2022.pythonwebconf.com/schedule"
+        },
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pythonwebconf.com/presentations/zero-to-production-ready-a-best-practices-process-for-docker-packaging"
+        }
+    ],
+    "tags": [
+        "PythonWebConf",
+        "PythonWebConf2022"
+    ]
+}

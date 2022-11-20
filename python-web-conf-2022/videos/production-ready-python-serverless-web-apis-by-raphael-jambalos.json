@@ -1,0 +1,31 @@
+{
+    "title": "Production-Ready Python Serverless Web APIs",
+    "description": "After weeks of intensive research and a dozen small projects, you have now decided to use Serverless Framework to develop a huge production Python web API and deploy it to AWS Lambda. But how exactly do you transition from the simple app structure you saw in tutorials to the mature production-ready form you need? That's exactly the same problem we faced over the past 24 months. In this talk, I will share my team's experience on how we solved this problem.\n\nDirectory Structure - how to arrange your Python code\n* Controllers, Handlers, Helpers, Models, Gateways: Building your app's directories for single responsibility between components\n* Multi-repository vs. Single-repository approach: The pros and cons\n* Lambdalith (monolith Lambda) vs. Lambda Functions\n\nPython development in the context of AWS Lambda\n* Don't be afraid to use Exceptions - monitoring your app's performance with the error count in Lambda\n* Use print statements deliberately - using CloudWatch to create searchable logs and metric filters to create alarms out of your logs\n* Use AWS Lambda Layers to package Python packages with OS Native dependencies (i.e psycopg2, cryptography)\n\nTools of the trade: Leveraging AWS Services to reduce the development you have to do in-house and focus on the features that make your client's business stand out\n* Lambda - as your compute engine.\n* API Gateway - for your routes and data validation\n* DynamoDB - as your NoSQL database\n* SQS - for your queue service\n* Parameter Store - for storing configuration\n* Step Functions - orchestrating workflows in AWS\n* Cognito - using AWS' ready-made authentication service\n* ECS - when your workloads reach past 15mins, turn to ECS containers to finish the job\n\nBlack Belt Lambda: using Serverless Framework features to get ahead of Lambda's limitations and ensure best practices\n* Using AWS Layers\n* Prune your Lambda Applications regularly\n* Managing environment variables\n* Have a local environment\n\n #PWC2022 attracted nearly 375 attendees from 36 countries and 21 time zones making it the biggest and best year yet. The highly engaging format featured 90 speakers, 6 tracks (including 80 talks and 4 tutorials) and took place virtually on March 21-25, 2022 on LoudSwarm by Six Feet Up.\n\nMore information about the conference can be found at: https://2022.pythonwebconf.com",
+    "thumbnail_url": "https://i.ytimg.com/vi/zuxJBvidPJo/hqdefault.jpg",
+    "duration": 2719,
+    "speakers": [
+        "Raphael Jambalos"
+    ],
+    "language": "eng",
+    "recorded": "2022-03-23",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=zuxJBvidPJo"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://2022.pythonwebconf.com/schedule"
+        },
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pythonwebconf.com/presentations/production-ready-python-serverless-web-apis"
+        }
+    ],
+    "tags": [
+        "PythonWebConf",
+        "PythonWebConf2022"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "title": "Challenges of Spark Application Coexisting with NoSQL Databases",
+    "description": "CapitalOne is the first US bank to exist out of on-premises and moved completely on Cloud. Over this process of modernizing our application in CapitalOne Card Rewards, we developed ground up custom transactions processing application on open source technologies like Spark, Mongo, Cassandra etc. This application currently processes millions of customer transactions daily providing them millions of miles, cash and points everyday. In process of building our application, we came across many challenging issues to have Spark application process data from MongoDB and Cassandra backend to serve customers. This talk is going to focus on few of those issues, what is the impact of those issue and how to mitigate them. The following are list of issues this talk will focus on:\n* How Cassandra Key sequence is important and how it impacts in querying\n* How Cassandra batching helps and works well with Spark partitions\n* Importance of Cassandra Data Modeling and its implications after MVP/Deployment\n* How to manage Mongo Connection (at JVM level)\n* Implications of using MongoSpark connector on its Partitioner\n\nAll the issues highlighted are faced by us in our application. This talk will focus on what are these issues in Spark/Mongo/Cassandra app environment and how to mitigate them. Anyone using Spark apps with Mongo and Cassandra databases as backend can benefits from this talk.\n\n#PWC2022 attracted nearly 375 attendees from 36 countries and 21 time zones making it the biggest and best year yet. The highly engaging format featured 90 speakers, 6 tracks (including 80 talks and 4 tutorials) and took place virtually on March 21-25, 2022 on LoudSwarm by Six Feet Up.\n\nMore information about the conference can be found at: https://2022.pythonwebconf.com",
+    "thumbnail_url": "https://i.ytimg.com/vi/3izRxa0CixM/hqdefault.jpg",
+    "duration": 1258,
+    "speakers": [
+        "Gokul Prabagaren"
+    ],
+    "language": "eng",
+    "recorded": "2022-03-24",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=3izRxa0CixM"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://2022.pythonwebconf.com/schedule"
+        },
+        {
+            "label": "Talk announcement",
+            "url": "https://2022.pythonwebconf.com/presentations/challenges-of-spark-application-coexisting-with-nosql-databases"
+        }
+    ],
+    "tags": [
+        "PythonWebConf",
+        "PythonWebConf2022"
+    ]
+}
