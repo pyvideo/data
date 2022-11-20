@@ -34,8 +34,7 @@ class ReSTValidatorVisitor(docutils.nodes.SparseNodeVisitor):
 
 
 def validate_rest(text):
-    components=(docutils.parsers.rst.Parser,)
-    settings = docutils.frontend.OptionParser(components).get_default_values()
+    settings = docutils.frontend.get_default_settings(rst.Parser)
     document = docutils.utils.new_document('', settings)
     rst.Parser().parse(text, document)
 
