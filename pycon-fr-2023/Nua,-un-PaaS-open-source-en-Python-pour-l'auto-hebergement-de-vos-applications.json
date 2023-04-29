@@ -1,0 +1,17 @@
+{
+    "title": "Nua, un PaaS open source en Python pour l'auto-h\u00e9bergement de vos applications",
+    "description": "#### R\u00e9sum\u00e9\n\nNua est un projet de plateforme cloud open source lanc\u00e9 par Abilian en 2021. Il propose un PaaS (platform as a service) qui peut s'installer facilement sur des serveurs bare metal ou virtualis\u00e9s, et qui permet de faire tourner des applications web conteneuris\u00e9es, en g\u00e9rant leur cycle de vie, les ressources dont elles ont besoin (stockage, bases de donn\u00e9es, etc.), les droits d'acc\u00e8s des utilisateurs, les backups, le monitoring, les logs...\n\nNua permet de g\u00e9rer des applications issues d'un portefeuille applicatif (\"marketplace\"), i.e. packag\u00e9es et optimis\u00e9es par les d\u00e9veloppeurs de la plateforme (ou des tiers). Nua permet aussi de d\u00e9ployer des applications en cours de d\u00e9veloppement (d\u00e9mo / qualif / prod), y compris plusieurs instances d'une m\u00eame application, et y compris en d\u00e9ploiement automatique (exemple de use case: cr\u00e9er des instances de d\u00e9mo \u00e0 la demande de prospects, en optimisant la consommation de ressources).\n\nNua est bas\u00e9 sur les principaux standards du monde open source et du cloud: base de donn\u00e9es (Postgres, MySQL, Mongodb, Redis), stockage (S3), OCI, dockerfiles et buildpacks, LDAP et SSO, etc. Nua s'appuie actuellement sur Docker, mais permettra \u00e0 terme de d\u00e9ployer des applications dans d'autres environnements d'ex\u00e9cution (autres conteneurs, VMs classiques ou l\u00e9g\u00e8res, SlapOS...).\n\nDocumentation et code source:\n\n- https://nua.rocks\n- https://github.com/abilian/nua\n\n\n#### Plan de la pr\u00e9sentation\n\n- Vision et caract\u00e9ristiques principales du projet\n  - Simplification du packaging et du d\u00e9ploiement multi-instances,\n  - Auto-h\u00e9bergement, souverainet\u00e9 num\u00e9rique\n  - Architecture g\u00e9n\u00e9rale\n\n- Pourquoi python ?\n  - Un runtime python dans le container\n  - Un orchestrateur pilotant les containers\n  - R\u00e9utilisation de composants entre le packaging, l'ex\u00e9cution de scripts et l'orchestration\n\n- Exemples et d\u00e9mo\n  - Fichier de configuration (vue du packageur)\n  - D\u00e9ploiement de configurations (vue CLI de l'utilisateur)\n\n- Roadmap et comment contribuer\n\n#### Take-aways\n\n- Pour les d\u00e9veloppeurs / devops : comment Nua peut aider \u00e0 d\u00e9ployer rapidement des versions de dev en phase de dev / pr\u00e9prod / prod, et \u00e0 g\u00e9rer les contraintes de la production (backup, upgrades) ?\n- Pour les responsables informatiques: comment Nua permet de d\u00e9ployer et de g\u00e9rer facilement un portefeuille d'application Web open source (intranet / extranet / Web) ?\n- Pour les d\u00e9veloppeurs d'applications tierces: comment porter ses applications sous Nua?\n- Pour les contributeurs open source: quelle est la roadmap de Nua et comment y contribuer ?",
+    "duration": 1457,
+    "language": "fra",
+    "recorded": "2023-02-18",
+    "speakers": [
+        "Jerome Dumonteil"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "size": 155588018,
+            "url": "https://dl.afpy.org/pycon-fr-23//Jerome%20Dumonteil%20-%20Nua%2C%20un%20PaaS%20open%20source%20en%20Python%20pour%20l%27auto-h%C3%A9bergement%20de%20vos%20applications.mp4"
+        }
+    ]
+}

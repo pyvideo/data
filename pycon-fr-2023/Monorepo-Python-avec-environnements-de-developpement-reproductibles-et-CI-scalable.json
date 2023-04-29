@@ -1,0 +1,17 @@
+{
+    "title": "Monorepo Python avec environnements de d\u00e9veloppement reproductibles et CI scalable",
+    "description": "Cette ann\u00e9e j'ai \u00e9t\u00e9 charg\u00e9 de la mise en place d'un monorepo python dans une startup du domaine m\u00e9dical/machine learning. J'aimerais partager l'exp\u00e9rience acquise en pr\u00e9sentant le setup choisi, qui s'appuie sur pip, poetry, et pants; avec certains contraintes impos\u00e9es par des paquets de data science (pytorch). Dans cet expos\u00e9 je d\u00e9taillerai le setup initial du monorepo, la communication requise pour expliquer nos choix et faire passer notre exp\u00e9rience \u00e0 des \u00e9quipes pas toujours au point sur les meilleurs pratiques d'ing\u00e9ni\u00e9rie et de reproducibilit\u00e9, et mentionner l'importance de la motivation des choix techniques.\n\nEnfin mon expos\u00e9 comprendra une pr\u00e9sentation de notre utilisation de Pants (https://www.pantsbuild.org/) pour obtenir un CI modulaire et scalable, qui limite le boilerplate et supporte des usages locaux/CI similaires.",
+    "duration": 1842,
+    "language": "fra",
+    "recorded": "2023-02-18",
+    "speakers": [
+        "Cl\u00e9ment Hurlin"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "size": 209154189,
+            "url": "https://dl.afpy.org/pycon-fr-23//Cl%C3%A9ment%20Hurlin%20-%20Monorepo%20Python%20avec%20environnements%20de%20d%C3%A9veloppement%20reproductibles%20et%20CI%20scalable.mp4"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "title": "Une bonne quantit\u00e9 de Python peut-elle rendre Firefox moins vuln\u00e9rable aux supply chain attacks\u202f?",
+    "description": "La s\u00e9curit\u00e9 informatique, c\u2019est dur ! On doit :\n * \u00e9crire du code qui ne contient aucun exploit,\n * monitorer nos d\u00e9pendances (y compris les transitives),\n * \u00e9viter de faire fuiter des secrets,\n * utiliser une infrastructure dans laquelle on a confiance,\n * et plus encore !\n\nSi on n\u00e9glige un de ces points, on fait courir un risque \u00e0 nos utilisateurs. 3 de ces exemples peuvent \u00eatre regroup\u00e9s en un type de menace : les \u201csupply chain attacks\u201d, les attaques sur la cha\u00eene d\u2019approvisionnement. En d\u2019autres termes, les attaquants ne s\u2019en prennent pas \u00e0 votre produit en lui-m\u00eame, mais ils cherchent des vuln\u00e9rabilit\u00e9s sur ce qui entoure votre produit.\n\nIl y a plusieurs mani\u00e8res de pallier ce risque. Par exemple : une entreprise peut tout \u00e0 fait mettre en place une infrastructure priv\u00e9e pour builder, tester et d\u00e9ployer ses produits. Cependant, lorsqu\u2019il s\u2019agit de logiciel open source, on se doit de rendre public le plus de choses possibles.\n\nAu cours de cette pr\u00e9sentation, j\u2019aimerais vous montrer comment une bonne quantit\u00e9 de Python permet \u00e0 Mozilla de publiquement builder, tester et d\u00e9ployer Firefox. Tout ceci en ayant une confiance raisonnablement grande, pour dire que les binaires que Mozilla publie correspondent au code que les Mozilliens ont \u00e9crit.",
+    "duration": 1670,
+    "language": "fra",
+    "recorded": "2023-02-18",
+    "speakers": [
+        "Johan Lorenzo"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "size": 207895986,
+            "url": "https://dl.afpy.org/pycon-fr-23//Johan%20Lorenzo%20-%20Python%20peut-il%20rendre%20Firefox%20moins%20vuln%C3%A9rable%20aux%20supply%20chain%20attacks.mp4"
+        }
+    ]
+}

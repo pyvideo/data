@@ -1,0 +1,17 @@
+{
+    "title": "Introduction to Sigstore: cryptographic signatures made easier",
+    "description": "The last few years have seen a significant raise in Supply Chain attacks targeting third party software used in larger projects. With the need for developers to attest of the integrity and provenance of their software dependencies, alternatives have emerged to make tracing software back to the source more accessible, without a need for specific knowledge of cryptographic protocols used for generating and verifying artifact signatures.\n\nProject Sigstore (https://www.sigstore.dev/) is a new standard for signing, verifying and protecting software. This talk will provide an introduction to Sigstore, explaining the different components the project is built upon and how developers can use it to sign and verify software artifacts (Python packages, container images...) in a secure way.\nNotably, Sigstore solves the issue of private key storage and management by implementing \"keyless\" signing, where users can generate ephemeral key pairs and sign an artifact using an identity provider such as GitHub, Microsoft or Google.\n\nThe focus of this talk will be on the efforts made by the Python community to adopt Sigstore, showing how it is used to sign CPython releases and with a demo of the new sigstore-python client developers can use to get started with securing their Python projects.",
+    "duration": 1975,
+    "language": "fra",
+    "recorded": "2023-02-18",
+    "speakers": [
+        "Maya Costantini"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "size": 1574581204,
+            "url": "https://dl.afpy.org/pycon-fr-23//Maya%20Costantini%20-%20Introduction%20to%20Sigstore%20-%20Cryptographic%20signatures%20made%20easy.mp4"
+        }
+    ]
+}

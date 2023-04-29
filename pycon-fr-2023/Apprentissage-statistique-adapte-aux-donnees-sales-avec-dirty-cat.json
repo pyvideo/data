@@ -1,0 +1,17 @@
+{
+    "title": "Apprentissage statistique adapt\u00e9 aux donn\u00e9es sales avec dirty-cat",
+    "description": "Les data scientists sont souvent amen\u00e9s \u00e0 travailler avec des donn\u00e9es non standardis\u00e9es (avec erreurs de frappes, abr\u00e9viations, duplications, valeurs manquantes...).\n\nLe traitement ou nettoyage des donn\u00e9es prend un temps consid\u00e9rable sans fournir la garantie d'un bon r\u00e9sultat final.\n\ndirty-cat est une librairie open source en Python qui permet de faciliter le traitement des donn\u00e9es sales dans le but de faire de l'apprentissage statistique.\n\nLe point de d\u00e9part est souvent une collection de tables provenant de sources diff\u00e9rentes. Il faut par la suite:\n\n- joindre ces tables sur des cat\u00e9gories impr\u00e9cises (par exemple 'Bordeaux, FR' et 'Bordeaux');\n- d\u00e9dupliquer les valeurs d'une cat\u00e9gorie;\n- faire de l'encodage de ces cat\u00e9gories sachant que leur cardinalit\u00e9 peut \u00eatre grande due \u00e0 la pr\u00e9sence de valeurs inexactes.\n\nDans cette pr\u00e9sentation, je vais vous montrer les m\u00e9thodes et fonctions de dirty-cat et comment elles nous permettent d'obtenir de meilleurs r\u00e9sultats tout en diminuant le travail n\u00e9cessaire \u00e0 la pr\u00e9paration des donn\u00e9es.\n\nPour quelques exemples d'utilisation de dirty-cat voir:\n\n- https://dirty-cat.github.io/stable/\n- https://github.com/dirty-cat/dirty_cat/tree/main/examples",
+    "duration": 1728,
+    "language": "fra",
+    "recorded": "2023-02-18",
+    "speakers": [
+        "Jovan Stojanovic"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "size": 187239830,
+            "url": "https://dl.afpy.org/pycon-fr-23//Jovan%20Stojanovic%20-%20Apprentissage%20statistique%20adapt%C3%A9%20aux%20donn%C3%A9es%20sales%20avec%20dirty-cat.mp4"
+        }
+    ]
+}
