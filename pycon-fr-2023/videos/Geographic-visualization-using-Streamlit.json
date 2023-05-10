@@ -1,0 +1,17 @@
+{
+    "title": "Geographic visualization using Streamlit",
+    "description": "Among the plethora of libraries available in Python, I would like to discuss with you about\nsome of the capabilities of the Streamlit library towards geographic data visualization.\nUsing Streamlit we can create standalone web-apps. And here I want to show you how I\ngot to make Streamlit apps where the user could choose between different treatment/function to\napply :\n\n- interacting with the OSM database, (OSMNX)\n- extracting the content of the OSM database in a specific area described by a Polygon interactively (OSMNX),\n- filtering the results during and after the request (OSMNX, (Geo)pandas) with regard to the location, or any other attribute,\n- etc...\n\nAfter treatment of the spatial data you could also do statistics on attributes, or display it\non a map using different libraries to display different types of diagrams and maps. All these repre-\nsentations having parameters that can be dynamically customized by \u00ab non-dev \u00bb people through\nthe Streamlit app, such as :\n\n- the color map,\n- the variable displayed,\n- the boundary shown on the graph,\n- the animation time\n- etc...\n\nI\u2019ll show what I thought I could do with it and how I did it and maybe we could discuss\nother means or ideas...",
+    "duration": 1970,
+    "language": "fra",
+    "recorded": "2023-02-18",
+    "speakers": [
+        "Micka\u00ebl Carlos"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "size": 263942467,
+            "url": "https://dl.afpy.org/pycon-fr-23//Micka%C3%ABl%20Carlos%20-%20Geographic%20visualization%20using%20Streamlit.mp4"
+        }
+    ]
+}
