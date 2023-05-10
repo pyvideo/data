@@ -1,0 +1,17 @@
+{
+    "title": "Trying no GIL on scientific programming",
+    "description": "In this talk, we will have a look at what is no-gil Python and how it may improve the performance of some scientific calculations. First of all, we will touch upon the background knowledge of the Python GIL, what is it and why it is needed. On the contrary, why it is stopping multi-threaded CPU processes to take advantage of multi-core machines.\n\nAfter that, we will have a look at no-gil Python, a fork of CPython 3.9 by Same Gross. How it provides an alternative to using Python with no GIL and demonstrates it could be the future of the newer versions of Python. With that, we will try out this version of Python in some popular yet calculation-heavy algorithms in scientific programming and data sciences e.g. PCA, clustering, categorization and data manipulation with Scikit-learn and Pandas. We will compare the performance of this no-gil version with the original standard CPython distribution.\n\nThis talk is for Pythonistas who have intermediate knowledge of Python and are interested in using Python for scientific programming or data science. It may shine some light on having a more efficient way of using Python in their tasks and interest in trying the no-gil version of Python.",
+    "duration": 1334,
+    "language": "fra",
+    "recorded": "2023-02-18",
+    "speakers": [
+        "Cheuk Ting Ho"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "size": 980391943,
+            "url": "https://dl.afpy.org/pycon-fr-23//Cheuk%20Ting%20Ho%20-%20Trying%20no%20GIL%20on%20scientific%20programming.mp4"
+        }
+    ]
+}

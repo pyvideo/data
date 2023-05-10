@@ -1,0 +1,17 @@
+{
+    "title": "Cloud infrastructure from Python code: how far could we go?",
+    "description": "In this talk, I'm going to clarify the Infrastructure As Code (IaC) paradigm and its limitations, analyze the exact problems that Infrastructure From Code (IfC) is supposed to solve, compare recent IfC offerings, and propose what could and, in my opinion, should be done for the Python ecosystem. I will also share my personal experience of implementing such a system, code-named Cloud AI Operating System (CAIOS): what went well, what still needs to be resolved, and where, in my view, the Python community could contribute in making Python as the number one choice for cloud programming language.\n\nInfrastructure as Code - the use of repeatable scripts or SDKs to configure the cloud environment for an application - has expanded the possibilities of Serverless with Continuous Delivery. However, there are fundamental issues with IaC: it is a time-consuming and tedious process to prepare the scripts, the activity requires the involvement of DevSecOps experts, and the scripts are only loosely related to the application code. For any non-trivial application, these scripts grow very quickly in complexity and size. Applying IaC to optimize the configuration of the test, staging, and production environments only exacerbates these issues.\n\nInfrastructure from Code is a recent advancement over IaC that addresses these obstacles. IfC interprets a mainstream programming language code and automatically generates the specifications needed to configure a cloud environment. So far, the most advanced solutions, such as ServerlessCloud, Ampt, or Nitric, were proposed for the TypeScript ecosystem. While, for Python, AWS Chalice is a cloud-vendor-specific solution and offers a relatively limited feature set.",
+    "duration": 1639,
+    "language": "fra",
+    "recorded": "2023-02-18",
+    "speakers": [
+        "Asher Sterkin"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "size": 1345150812,
+            "url": "https://dl.afpy.org/pycon-fr-23//Asher%20Sterkin%20-%20Cloud%20infrastructure%20from%20Python%20code.mp4"
+        }
+    ]
+}
