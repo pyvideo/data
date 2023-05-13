@@ -10,7 +10,7 @@ from tools.constants import JSON_FORMAT_KWARGS
 
 
 EDITOR = os.environ.get('EDITOR', 'vim')
-URL_REPO='https://github.com/pyvideo/data/blob/master/'
+URL_REPO='https://github.com/pyvideo/data/blob/main/'
 
 
 def get_edited_text(original_text):
@@ -49,4 +49,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
