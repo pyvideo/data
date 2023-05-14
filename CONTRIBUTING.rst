@@ -95,7 +95,7 @@ tags                                   array of strings                       (s
 ==================================     ==================================     ==================================
 
 For a full schema of a video JSON object, please see
-https://github.com/pyvideo/data/blob/master/.schemas/video.json
+https://github.com/pyvideo/data/blob/main/.schemas/video.json
 
 .. _ISO 639-3: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
@@ -246,7 +246,7 @@ key                                    value type
 title                                  string
 ==================================     ==================================
 
-For a full schema of a category JSON object, please see https://github.com/pyvideo/data/blob/master/.schemas/category.json
+For a full schema of a category JSON object, please see https://github.com/pyvideo/data/blob/main/.schemas/category.json
 
 Creating Data From Youtube Channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
