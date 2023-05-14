@@ -2,24 +2,20 @@ name: CI
 
 on:
   push:
-    branches: '*'
+    branches: main
   pull_request:
-    branches: '*'
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.9]
 
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up Python ${{ matrix.python-version }}
+    - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: 3.11
 
     - name: Install
       run: make install-deps
