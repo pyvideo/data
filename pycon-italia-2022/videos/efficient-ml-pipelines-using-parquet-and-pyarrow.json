@@ -1,20 +1,20 @@
 {
   "copyright_text": null,
   "description": "Efficient ML pipelines using Parquet and PyArrow - PyCon Italia 2022\n\nParquet is an high-performance columnar data format that has become the de facto standard in the ML world. By leveraging the powerful PyArrow API, I\u2019ll show how to manage parquet datasets, ranging from a single local file to a partitioned cloud-based dataset updated in real time.\nAdvanced analytics and Machine Learning (ML) are increasingly used to drive business decisions or provide real-time services for end-users in virtually every industry. Tabular data is the most ubiquitous type of data. Therefore, efficient processing of handle tabular datasets is a critical requirement to deliver performant products or services.\n\nIn a proto-typical production ML workflow, an \u201cingestion pipeline\u201d needs to store large datasets on the cloud and continuously update them as new data becomes available. An \u201canalytics pipeline\u201d usually needs to process the entire dataset by reading it in batches, because the full dataset would be too large to fit in RAM. An \u201cinference pipeline\u201d provides real-time results (i.e. model predictions or other online statistics) and needs to process small batches of data in quasi-realtime. Finally, the presentation of analytics results requires not only to show the output from the models but also to provide context through \u201chistorical data\u201d for an arbitrary set of features. Therefore, low-latency access to a small group of columns from a large dataset represents an additional requirement.\n\nIn the Python ecosystem, we can leverage tools such as Parquet and PyArrow to address such complex workflow.\n\nApache Parquet is a columnar storage format initially created to address similar storage challenges in the Hadoop ecosystem. It has since become a standard for efficient storage of large datasets in all the major languages, including Python.\n\nThe Apache Arrow project provides a cross-language in-memory representation and query engine for tabular datasets and has a performant IO interface for Parquet datasets. Its Python interface, PyArrow, allows to query and process large partitioned datasets distributed across multiple files and folders on local and cloud storage.\n\nIn this talk, combining PyArrow and Parquet datasets, we will explore several techniques to address the use-cases of the typical production ML workflows delineated above.\n\n\nSpeaker:  Ingargiola",
-  "duration": "1691",
+  "duration": 1691,
   "language": "eng",
   "recorded": "2022-06-03",
   "speakers": [
     " Ingargiola"
   ],
   "tags": [
-    "Aws",
-    "Bestpractice",
-    "Infrastructure",
-    "Machine Learning",
-    "Pandas",
-    "Performance",
-    "Scaling"
+    "aws",
+    "best practice",
+    "infrastructure",
+    "machine learning",
+    "pandas",
+    "performance",
+    "scaling"
   ],
   "thumbnail_url": "https://i.ytimg.com/vi/_jYX1o-hsr0/maxresdefault.jpg",
   "title": "Efficient ML pipelines using Parquet and PyArrow",

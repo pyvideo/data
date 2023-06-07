@@ -1,16 +1,16 @@
 {
   "copyright_text": null,
   "description": "Stupid Things I've Done With Python - PyCon Italia 2022\n\nOn every computer I've had for the past 20 years, I've created a folder called \"stupid python tricks\".\nIt's where I put code that should never see the light of day.\nCode that abuses features like decorators, metaclasses, and dynamic typing to do terrible things.\n\nCode I'm going to teach you.\nI have a GitHub repository that contains a compilation of all the awful code I've written over the years, abusing features like metaclasses, decorators, various __dunder__ methods, and the mutable nature of Python's underlying data structures.\n\nIt's a funny way to see how Python works under the hood, but it's also educational.\n\nReally!\n\nEach of the tricks is entertainingly terrible. But they're also mostly self-contained ways to see what happens when you override certain behaviours of the Python language.\nAnyone with an intermediate level of Python understanding should be able to follow along and learn something.\n\nI will cover:\n\n* Replacing an imported module with a class, so attribute lookups can be @properties, with _hilarious_ results.\n* Overriding the `__sub__` magic method to create a hyphenated, fuzzy-matching version of a boolean.\n* Using `__getattr__` to save time implementing all the functions in the `math` module.\n* Using `__eq__` to make things that aren't really the same look the same.\n\nThis talk is an entertaining tour of the Python Data Model, and the things you can do - if you're so inclined.\n\n\nSpeaker: Mark Smith",
-  "duration": "1687",
+  "duration": 1687,
   "language": "eng",
   "recorded": "2022-06-03",
   "speakers": [
     "Mark Smith"
   ],
   "tags": [
-    "Abstractions",
-    "Bestpractice",
-    "Teaching"
+    "abstractions",
+    "best practice",
+    "teaching"
   ],
   "thumbnail_url": "https://i.ytimg.com/vi/7tdcBGUtOY8/maxresdefault.jpg",
   "title": "Stupid Things I've Done With Python",

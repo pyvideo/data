@@ -1,17 +1,17 @@
 {
   "copyright_text": null,
   "description": "Come sfruttare le potenzialit\u00e0 della session auth di Django in un progetto multi tenant - PyCon Italia 2022\n\nDescriver\u00f2 l'approccio e il metodo di implementazione di un'app multi tenant in Django, nella quale viene sfruttata la session auth di Django per recuperare il tenant che domina ogni risorsa richiesta dietro autenticazione. Una soluzione a cui la letteratura sul tema non fa solitamente riferimento.\nLa \"letteratura\" sull'argomento multi tenant \u00e8 abbastanza varia a approfondita e come del resto lo sono anche i metodi e gli approcci alla gestione a tenant multipli. In questo talk verr\u00e0 descritto, attraverso alcuni esempi, il metodo adottato per la gestione di un'app backend in Django, con gestione di tenant multipli e interfacciabile, dietro autenticazione, tramite chiamate API RESTful. Adottando la session authentication di Django, verr\u00e0 mostrato come sia possibile renderla depositaria del tenant che domina tutte le risorse richieste, per poter filtrarle dinamicamente sulla base dei dati depositati nella sessione di autenticazione di un utente.\n\n\n\n\nSpeaker: Matteo Vitali",
-  "duration": "1515",
+  "duration": 1515,
   "language": "ita",
   "recorded": "2022-06-03",
   "speakers": [
     "Matteo Vitali"
   ],
   "tags": [
-    "Apis",
-    "Authentication",
-    "Django",
-    "Rest"
+    "apis",
+    "authentication",
+    "django",
+    "rest"
   ],
   "thumbnail_url": "https://i.ytimg.com/vi/DjHa6wU3bZs/maxresdefault.jpg",
   "title": "Come sfruttare le session auth di Django per un progetto multi tenant",
