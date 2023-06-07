@@ -1,0 +1,24 @@
+{
+  "copyright_text": null,
+  "description": "HPy: the future of Python C extensions - PyCon Italia 2022\n\nC extensions plays a big role in the Python ecosystem, but the existing Python/C API has become a burden for alternative implementations and for innovation of CPython itself. HPy is a joint project by PyPy, CPython, Cython, Numpy and GraalPython developers to design a new future proof API.\nHPy provides a new API for extending Python in C. In other words, you use include hpy.h instead of include Python.h.\r\nThe talk will explain:\r\n1. Why the current Python/C API is problematic for alternative implementations such as PyPy and for CPython itself\r\n2. How HPy plans to solve the problem, and what is the migration path for existing extensions\r\n3. Why HPy is appealing for extension developers: in particular, higher performance on PyPy and GraalPython, and the \"debug mode\" which automatically catches many mistakes at runtime instead of hitting painful segfaults and/or memory leaks.\n\n\nSpeaker: Antonio Cuni",
+  "duration": "1768",
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Antonio Cuni"
+  ],
+  "tags": [
+    "Apis",
+    "Compilerandinterpreters",
+    "Cpython",
+    "Pypy"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/wkB5qxqg_D8/maxresdefault.jpg",
+  "title": "HPy: the future of Python C extensions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=wkB5qxqg_D8"
+    }
+  ]
+}

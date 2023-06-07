@@ -1,0 +1,26 @@
+{
+  "copyright_text": null,
+  "description": "Modern Python: Alla scoperta delle ultime novit\u00e0 di (C)Python - PyCon Italia 2022\n\nVi siete mai chiesti se ci fosse un modo migliore di scrivere il vostro codice? Una qualche feature di Python oscura di cui eravate all'oscuro? S\u00ec? Ebbene, insieme demistificheremo alcune delle ultime feature pi\u00f9 interessanti e pi\u00f9 sottovalutate del vecchio serpentone: sar\u00e0 uno spasso, promesso!\n Modern Python: Alla scoperta delle ultime novit\u00e0 di (C)Python\n\n Pubblico Consigliato\n\nQuesta presentazione \u00e8 diretta a sviluppatori Python con almeno qualche anno di esperienza sulle spalle e che siano interessati a rendere il proprio codice pi\u00f9 leggibile, idiomatico e magari anche pi\u00f9 _veloce_.\n\n Introduzione\nVi siete mai trovati a dover scrivere codice simile a questo:\n```python\nsome_var = some_function()\nif some_var:\n    ...    Code Here\n```\ne aver pensato: _\u201dCavolo, quell\u2019assegnamento sembra proprio di troppo!\u201d_? Se la risposta \u00e8 s\u00ec, allora questa presentazione fa per voi! Vi mostrer\u00f2 come migliorare l\u2019estetica, e magari anche la performance, del vostro codice, mantenendo la medesima funzionalit\u00e0. Imparerete concetti avanzati quali i generatori asincroni, introdotti nel lontano Python 3.6, il mitico operatore \u201ctricheco\u201d, la nuova e scintillante istruzione `match`, per un efficiente ed elegante pattern matching, ed altro ancora: Sar\u00e0 una figata, promesso!\n\n Abstract\n\nImmagino gi\u00e0 che qualcuno di voi si stia chiedendo, _\u201dMa, Matt, Python 3.6? \u00c9 vecchissimo! Perch\u00e8 sei venuto a parlarci di una feature introdotta nel 2016?\u201d_: Okay, diciamo che ho mentito (giusto un pochino).\n\nNon tutte le funzionalit\u00e0 di cui parler\u00f2 in questa presentazione sono _esattamente_ nuove di zecca, ma ho sempre avuto la sensazione che alcune\u2014 specialmente i generatori asincroni\u2014 non abbiano mai ricevuto l\u2019attenzione che meritavano e che siano andate piuttosto in sordina: ci\u00f2 \u00e8 stato probabilmente dovuto dal rilascio di Python 3.5 (che per rinfrescarvi la memoria ha finalmente standardizzato la programmazione asincrona, introducendo il concetto di coroutine e vari altri nuovi oggetti), e con questa presentazione vorrei rendere loro giustizia e al tempo stesso far notare alcune delle (spesso ben nascoste!) trappole in cui si pu\u00f2 cadere facendone uso. Giusto per dare un\u2019assaggio degli argomenti che voglio trattare, ecco cosa spero impariate dalla presentazione:\n- Migliorare le performance del vostro codice, parallelizzando le operazioni di I/O basata su file, utilizzando un solo thread grazie all\u2019aiuto dei generatori asincroni\n- Risparmiare prezioso spazio e tempo sostituendo `typing.Union[A, B, C]` con il suo (magnificamente idiomatico) equivalente `A | B | C`\n- Imparare la maniera _\u201dPythonica\u201d_ di effettuare pattern matching grazie all\u2019uso della nuova istruzione `match` introdotta in Python 3.10. Potete dire finalmente addio a codice del tipo\n ```python\n cases = {1: \"one\", 2: \"two\", 3: \"three\"}\n one_two_three = cases.get(some_var, default_value)\n ```\n- Altro ancora! Ma vi toccher\u00e0 venire alla presentazione per scoprirlo :)\n\n\nSpeaker: Mattia Giambirtone",
+  "duration": "960",
+  "language": "ita",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Mattia Giambirtone"
+  ],
+  "tags": [
+    "Abstractions",
+    "Bestpractice",
+    "Cleancode",
+    "Cpython",
+    "Performance",
+    "Type Hinting"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/LKpLvBfvRwE/maxresdefault.jpg",
+  "title": "Modern Python: Alla scoperta delle ultime novit\u00e0 di (C)Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LKpLvBfvRwE"
+    }
+  ]
+}

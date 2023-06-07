@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Leaflet on steroids with Django - PyCon Italia 2022\n\nDjango fornisce potenti strumenti per costruire applicazioni geospaziali. Ma cosa succede quando i dati da visualizzare diventano troppi, e gli strumenti di base non bastano pi\u00f9? Basato su un caso reale, in questo talk vedremo come rendere fruibile una mappa inizialmente lentissima da caricare.\nL'obiettivo del talk \u00e8 quello di fornire spunti e strumenti per affrontare ottimizzazioni lato backend e frontend su Leaflet e Django, molto utili nel caso di grandi quantit\u00e0 di dati geospaziali. In particolare vedremo nel dettaglio:\n\nIl problema, ovvero, una grande quantit\u00e0 di dati geospaziali da visualizzare in mappa, che prima dell'ottimizzazione sono praticamente inutilizzabili.\n\nLa soluzione lato backend. Vedremo l'impiego di:\n\n- filtri geospaziali intelligenti.\n- stream per servire grandi quantit\u00e0 di dati.\n\nLa soluzione lato frontend. Vedremo l'impiego di:\n\n- tecniche di ottimizzazione per il caricamento dinamico dei livelli Leaflet.\n- stream per il rendering progressivo dei dati geospaziali.\n- filtri intelligenti e relative librerie per ottimizzare le richieste verso il backend.\n- test unitari e funzionali per verificare tutte le feature della mappa.\n\n\nSpeaker: Valentino Gagliardi",
+  "duration": "913",
+  "language": "ita",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Valentino Gagliardi"
+  ],
+  "tags": [
+    "Apis",
+    "Django",
+    "Geoandgis",
+    "Javascript",
+    "Rest"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/p3_SFfl2ibg/maxresdefault.jpg",
+  "title": "Leaflet on steroids with Django",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=p3_SFfl2ibg"
+    }
+  ]
+}

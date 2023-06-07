@@ -1,0 +1,24 @@
+{
+  "copyright_text": null,
+  "description": "Efficient computer vision on edge devices: How we guide blind people using Python - PyCon Italia 2022\n\nIn real-life environments, performance and delay of algorithms matter. biped is an AI copilot that guides blind people with limited computation capabilities. In this talk we show how we dropped computation time by a factor of four relying on profiling, algorithmic design, multi-threading and Cython.\nbiped aims to bring autonomous driving capabilities to the human level, to safely guide blind and visually impaired people in the street. The device acquires 3D images and then detects, tracks and predicts trajectories of all surrounding elements, before warning the user via spatial sounds. In the process of working on this project we realized that for most problems that we encountered there is already an existing algorithm that roughly fits our requirements. The majority of the existing solutions though only work well on very powerful machines with dedicated GPUs. This is especially true for algorithms from the domain of Computer Vision.  \n\nMaking the same algorithm work on computationally limited devices, like a Raspberry Pi, opens up a new set of interesting and non-trivial problems. In this talk we want to explore some options to adjust new or existing algorithms to computationally constrained environments to make them work in the real world. We want to show some common pitfalls as well as best practices to optimize algorithms build with Numpy, OpenCV and Python. Furthermore we want to give a swift overview over system and algorithmic design decisions as well as what options exist to profile Python code. \n\nTo make it easier to understand the ideas and concepts and to follow along we will showcase some examples of our work at biped during the presentation. By presenting some algorithms of our perception pipeline, we can showcase some of the key aspects for the modelling and implementation of algorithms. In particular, we present how we implement the detection of ground in an image and how we optimized the algorithm to go from roughly two FPS to nearly real-time. We conclude the talk with a brief demonstration of the capabilities of our whole perception pipeline and discuss the performance we achieved by applying the ideas introduced in this talk.\n\n\nSpeaker: Vollmer",
+  "duration": "1730",
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Vollmer"
+  ],
+  "tags": [
+    "Cpython",
+    "Multi Processing",
+    "Numpy",
+    "Performance"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/YrkqAbR8oNM/maxresdefault.jpg",
+  "title": "Efficient computer vision on edge devices: How we guide blind people using Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YrkqAbR8oNM"
+    }
+  ]
+}

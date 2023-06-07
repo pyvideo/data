@@ -1,0 +1,24 @@
+{
+  "copyright_text": null,
+  "description": "Fuzzing Python code with Atheris - PyCon Italia 2022\n\nFuzz testing is a well-known technique for uncovering programming errors. Atheris is an open-source fuzzing engine for finding bugs in Python code and native extensions, released by the Google Information Security team. With this talk we'll learn how Atheris works and how it can be used in practice.\nFuzz testing is a well-known technique for uncovering programming errors. Many of these detectable errors have serious security implications. Atheris ( is an open-source fuzzing engine for automatically finding bugs in Python code and native extensions. Atheris is a \u201ccoverage-guided\u201d fuzzer, which means that Atheris will repeatedly try various inputs to your program while watching how it executes, and try to find interesting execution paths.\nIn the past, Atheris was used to find bugs in Pillow's native code (CVE-2020-35653) or to find differences in JSON parsing between Python's standard library and Ultrajson, or between Python's idna package and the native libidn2 library.\n\nIn this talk you can learn the basics of fuzzing, how Atheris works internally, and how it can be used for bug hunting.\n\n\nSpeaker: Federico Scrinzi",
+  "duration": "1657",
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Federico Scrinzi"
+  ],
+  "tags": [
+    "Codeanalysis",
+    "Open Source",
+    "Security",
+    "Testing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/OE3PTAvVIPU/maxresdefault.jpg",
+  "title": "Fuzzing Python code with Atheris",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OE3PTAvVIPU"
+    }
+  ]
+}
