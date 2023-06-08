@@ -1,0 +1,31 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Preventing security vulnerabilities often brings to mind heavyweight security tools. But what if it doesn\u2019t have to be that way? What if you could use the concepts already built into Python to make your code incrementally more secure?\n\nIn this talk, we'll see how Python types allow you to improve your project's security incrementally. First, we\u2019ll show how simple type annotations by themselves can prevent security-impacting logic errors. Second, we'll see how you can prevent injection vulnerabilities such as SQL injection using a special type in your APIs (PEP 675). Next, we demonstrate how to leverage runtime type validation to securely deal with user-controlled data (such as HTTP requests). Finally, we show how types naturally enable powerful typing-based tools like Pysa and CodeQL to perform static taint flow analysis and catch complex vulnerabilities that span multiple functions. No security tool is a panacea, however, so we\u2019ll also show you where typing and the tools that rely on it can fail.",
+  "duration": 1705,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/18/2022-04-28T19%3A35%3A09.209346/PyCon_2022_-_Typing_for_Security.pdf"
+    }
+  ],
+  "speakers": [
+    "Graham Bleaney",
+    "Pradeep Kumar Srinivasan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nRt_xk2MGYU/maxresdefault.jpg",
+  "title": "Securing Code with the Python Type System",
+  "videos": [
+    {
+      "length": 1705,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nRt_xk2MGYU"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Support for binary extensions is an exceptional advantage of Python that is too often avoided for smaller packages with low developer resources. Binary extensions are used to achieve high performance for libraries like PyTorch, MyPy, and many thousands more. Binary extensions also allow access to a wealth of existing compiled libraries. Building your own binary extension is plagued by historically poor documentation, bad common practices, and many misconceptions. But it is actually easy to write extensions today that work seamlessly on all common developer platforms using modern libraries and continuous integration.\n\nWe will take a look at packaging a binary extension from start to finish. This starts with pybind11 for C++ bindings, providing simple, header only builds and avoiding the need for a new language or pre-processor step. We will look at scikit-build for building, providing powerful CMake based builds with library search, multithreaded builds, and more. We will use PyPA's build to produce SDists. And we will use PyPA's cibuildwheel to produce binaries for all common platforms with minimal setup and simple CI code in GitHub Actions (but trivially movable to any other CI system). We will talk about how to automate common tasks, like using GitHub's Dependabot to keep cibuildwheel up-to-date while also ensuring reproducible builds.\n\nAfter this talk, it is our hope that you will no longer shy away from using compiled code in libraries, but will feel comfortable writing extensions to accelerate or advance your libraries functionality.",
+  "duration": 2373,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/57/2022-04-29T06%3A17%3A37.414348/CppCon2022_Building_Python_Extensions_AP1.pdf"
+    }
+  ],
+  "speakers": [
+    "Henry Fredrick Schreiner III"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/gROGDQakzas/maxresdefault.jpg",
+  "title": "Building a binary extension",
+  "videos": [
+    {
+      "length": 2373,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gROGDQakzas"
+    }
+  ]
+}

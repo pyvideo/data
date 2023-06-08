@@ -1,0 +1,26 @@
+{
+  "copyright_text": "CC BY",
+  "description": "You're all happy developing your application but when it comes the time to send it to production and have the first customers testing, you might realize that whenever a bug is found it is just too hard to understand what is going on in a production environment - you often don't have access to the user data, the user account and struggles to reproduce the error and support your customer properly.\n\nThe story is too familiar and probably happened to a lot of of us.\n\nIn this talk, we will walk through techniques and things to consider when writing an application that is going to be supported in a production environment with an eye for observability by having searchable, consistent, and rich log messages.\n\nAt first, the problem will be presented to the audience with a use-case scenario where a developer has no way of knowing what happened with a particular customer in a production environment if an API request fails.\nOpening the code for this request, we will add together the log messages that would've made it possible for the development to debug this problem properly - and then, talk through strategies to keep in mind during the early development of the code.\nWe will also walk through log levels and how to use them properly, making sure the log messages are clean and understandable, how to take take advantage of log's extra fields to have metadata about the messages that we are writing, and the best way to make log messages easily searchable.",
+  "duration": 1858,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Bianca Rosa"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/lxyrmsxY2KA/hqdefault.jpg",
+  "title": "Observability driven development",
+  "videos": [
+    {
+      "length": 1858,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lxyrmsxY2KA"
+    }
+  ]
+}

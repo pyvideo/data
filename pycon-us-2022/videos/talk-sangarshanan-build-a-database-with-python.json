@@ -1,0 +1,28 @@
+{
+  "copyright_text": "CC BY",
+  "description": "This talk will help unlock the internal workings of a Database by breaking down the abstractions that make it. We will use Python as our weapon of choice to slowly discuss how you would go about building the different components of a database.\n\n1. Talking to your Database: We start by building out an interface and a language that helps us communicate with our database. We will use Prompt toolkit to build a REPL & use a simple SQL-based language with basic regular expressions that can parse it to instruction to execute.\n2. Working with Data: Now that we can communicate with our database using instructions. we start the actual work in building out the Datastore, We initially store all the data in a simple in-memory dictionary and then move to persist this data to disk. We now read the data from the disk to memory every time we query the data and write back the data to the disk but this makes things very slow :( This problem is our entry into the beautiful world of Indexes so by building a very basic Btree index to store references in memory to quickly access only what we require from the data on disk we can actually speed up our access times for basic row access queries from O(N) to O(1) where N is the number of rows in a table\n3. Future: We can now proudly demo our new and polished database that can store data, persist it, and can run queries that are quite fast thanks to our Btree Indexes. We also discuss how this Database can be improved in the future by supporting full ACID Transactions, allowing concurrency, and handling locks\n\nThe best way to understand something is to build it yourself :)",
+  "duration": 1412,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Sangarshanan"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Ay9MNXXURBc/maxresdefault.jpg",
+  "title": "Build-a-Database with Python",
+  "videos": [
+    {
+      "length": 1412,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ay9MNXXURBc"
+    }
+  ]
+}

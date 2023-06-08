@@ -1,0 +1,26 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Migrating from python 2 to python 3 is not very easy, but it can be exacerbated by needing to port a large codebase modified frequently by many different developers. Our codebase was nearly 4 million lines of code modified dozens of times a day by hundreds of total developers. It is also business critical, containing a large portion of our most important code and data. We used several tools, techniques, and patterns to achieve the migration without disrupting day-to-day development and keeping regressions a minimum. In this talk, we\u2019ll detail our migration steps, our usage of pre-commit hooks to reduce regressions to fixes, our usage of a reverse proxy to allow granular, low risk rollout for a webapp, and our migration of pickle to rollforward safe json for caching.",
+  "duration": 1610,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Benjamin Bariteau"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/d6QAPcOX5OM/hqdefault.jpg",
+  "title": "How We Migrated 3.8 Million Lines of Python 2 Without Interrupting Development",
+  "videos": [
+    {
+      "length": 1610,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=d6QAPcOX5OM"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "copyright_text": "CC BY",
+  "description": "It's generally better to use libraries than to write your own code, but what happens when you run into an issue that is correctly solved by modifying the library code rather than your own code? What if you need to deploy a fix today, but you can't count on the upstream library applying the required fixes and getting a new release through your deployment system before your deadline? This presentation will cover various stop-gap strategies (of varying desirability) for dealing with this situation, including:\n\n- Working around the bug with wrapper functions\n- Monkey patching the offending methods or functions\n- Vendoring a patched version of the library into your application\n- Maintaining a forked version in your local package manager",
+  "duration": 1831,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/86/2022-04-27T18%3A09%3A54.168666/What_to_Do_When_the_Bug_is_in_Someone__vLd1Knp.pdf"
+    }
+  ],
+  "speakers": [
+    "Paul Ganssle"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/LTMguK-XJEo/maxresdefault.jpg",
+  "title": "What to Do When the Bug Is in Someone Else's Code",
+  "videos": [
+    {
+      "length": 1831,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LTMguK-XJEo"
+    }
+  ]
+}

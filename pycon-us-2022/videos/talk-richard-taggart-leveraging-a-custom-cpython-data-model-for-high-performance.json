@@ -1,0 +1,28 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Developing insights for problems encountered while building a high-performance microprocessor requires analyzing large amounts of data generated from a complicated design process. This is a Big Data problem. The four main challenges include: managing design components, reporting, linking data across time, and providing a reliable and scalable platform. The Design Data (DD) data model is a technological breakthrough to address the above challenges for integrated circuit design, analysis, and debug. The data model efficiently stores read-only design graph topology (e.g., inter-connected logic gates and wires), and derived analysis data (e.g., estimated signal delay and power usage) in a compressed binary file. DD is a custom domain-specific read-only binary data model with an extensive query API, which is implemented using C++, CPython, and Python method bindings.\n\nThe C++ data model implementation enables efficient graph traversal, custom interactive \"offline\" analysis, and design graph visualization. Every data file may be tagged and stored using the compressible binary format, which facilitates comparing different versions across a multi-year project. They can compare past and current data sets to identify and assess specific design trends and failure modes. This data analysis workflow powered by Python improves the quality of a chip design by allowing engineers to focus on the hard problems.\n\nThis talk will share our experience of incorporating modern Free Open-Source Software technologies into a complicated ecosystem of commercial toolchains and workflows for Electronic Design Automation (EDA). After this talk, I hope you will be inspired to experiment with integrating C or C++ and CPython bindings into your application workflow. I also hope this may help you think about different ways you might be able to integrate various methods of Data Science into your application domain.",
+  "duration": 1344,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Richard Taggart"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mbssZpB7U50/maxresdefault.jpg",
+  "title": "Leveraging a custom CPython data model for high-performance microprocessor design",
+  "videos": [
+    {
+      "length": 1344,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mbssZpB7U50"
+    }
+  ]
+}

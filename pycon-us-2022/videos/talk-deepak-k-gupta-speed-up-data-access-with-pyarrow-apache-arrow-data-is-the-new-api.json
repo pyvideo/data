@@ -1,0 +1,26 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Till now we\u2019re used to accessing data over API\u2019s and the API\u2019s used to make sure that we get the data in the desired format which unfortunately requires data to go through serialization / deserialization cycle before being returned by the API\n\nWhat if we can change or arrange the data in such a way where it neither needs an API nor any serialisation / deserialization to access and understand the data that too using multiple programming languages\n\nIf it sounds interesting then welcome to the world of Apache Arrow which defines a language independent columnar memory format which supports zero-copy reads for lightning-fast data access without serialization overhead.\n\nThe python library of the same is called PyArrow and can be integrated with python specific libraries like pandas and numpy and can propagate the benefits to the same.\n\nWelcome to this talk where you\u2019ll learn about the architecture, use cases and reasons for using Apache Arrow using PyArrow. I\u2019ll share how to as well as some of the interesting statistics of the difference it makes in our day to day access & analytics.\n\nI\u2019ll also talk about Apache Flight, which is a high performance wire protocol focused on bulk transfer for analytics.\n\nThis Session NOT a tutorial about PyArrow but a set of interesting improvements, facts and statistics which can help you to decide whether it makes sense to explore for the work you\u2019re doing.",
+  "duration": 1525,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Deepak K Gupta"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/akfsWPsvmrM/maxresdefault.jpg",
+  "title": "Speed Up Data Access with PyArrow (Apache Arrow) - Data is the new API",
+  "videos": [
+    {
+      "length": 1525,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=akfsWPsvmrM"
+    }
+  ]
+}

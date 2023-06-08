@@ -1,0 +1,26 @@
+{
+  "copyright_text": "CC BY",
+  "description": "There are so many tools to do data science today that it can be difficult to navigate. Many of them are AI platforms that \u201cdo everything by clicking on a UI\u201d and do not leverage pre-existing tools e.g., GIT for versioning, or good old python IDE instead of Jupyter Notebooks. On the other hand, ML engineering is not classical software engineering:\n\nin addition to the code, the data should also be versioned;\nin its essence, ML engineering is an exploratory work: one can not know if the model is going to work before testing it;\nthere is no clear way to guarantee the quality of the trained model: the data-scientist has to play with it to make it \u201ctalk\u201d.\nIn this talk, we will build a fully customizable and complete system in python to track Machine Learning experiments. For the purpose of this talk, we will train a neural network (Tensorflow) to classify images between cat and dog, though, the main focus is on the tooling and not the ML algorithm. We will use:\n\nDVC (Data Version Control) to 1) version the data alongside the code with GIT 2) build training pipelines to orchestrate the python scripts 3) version experiments.\nStreamlit to build data exploration apps to play with the trained models.\nBoth DVC and Streamlit are open-source libraries with python APIs.\nIn the second part of the talk, we will focus on various ways of combining DVC and Streamlit. For instance, we will see how to build a Streamlit app that allows selecting any trained model tracked with DVC (provided its GIT commit), loading it, and testing it on given input images.\n\nI will provide code samples and live demos throughout the talk.",
+  "duration": 1967,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Antoine Toubhans"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/EGIzJIfAy7g/maxresdefault.jpg",
+  "title": "Flexible ML Experiment Tracking System for Python Coders with DVC and Streamlit",
+  "videos": [
+    {
+      "length": 1967,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EGIzJIfAy7g"
+    }
+  ]
+}

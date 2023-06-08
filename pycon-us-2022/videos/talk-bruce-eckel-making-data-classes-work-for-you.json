@@ -1,0 +1,26 @@
+{
+  "copyright_text": "CC BY",
+  "description": "This will be a example-driven presentation. The first set of examples looks at\nan int which should be restricted to a value from one through ten.\n\nFirst I'll look at the problems in the traditional approach, passing an int\nto a function and checking to ensure it is within range.\n\nNext I'll encapsulate the int in a (regular) class OneToTen, which allows\nthe movement of the test into the constructor. Although this guarantees that\nobjects will be created correctly, such objects are mutable so they can be\nmodified to be invalid after creation.\n\nThe solution is to use @dataclass together with the frozen=True option, and\nadd a __post_init__ function to check the validity of the object once it's\nbeen initialized. Because such an object is invariant, it cannot be later\nmodified into an invalid state. This ensures that the new type can only ever\nexist as a legitimate value.\n\nNext I'll use this technique to create a Person type that is composed of\nFullName, BirthDate and EmailAddress fields, each of which validates\nitself. Finally, I'll compose BirthDate using Day, Month and Year\nfields.",
+  "duration": 1717,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Bruce Eckel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/w77Kjs5dEko/maxresdefault.jpg",
+  "title": "Making Data Classes Work for You",
+  "videos": [
+    {
+      "length": 1717,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=w77Kjs5dEko"
+    }
+  ]
+}

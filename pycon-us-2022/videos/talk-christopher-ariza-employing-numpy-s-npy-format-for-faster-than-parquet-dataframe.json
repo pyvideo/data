@@ -1,0 +1,30 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Over 14 years ago the first NumPy Enhancement Proposal (NEP) defined the NPY format (a binary encoding of array data and metadata) and the NPZ format (zipped bundles of NPY files). Those same formats, extended in a custom NPZ packaged with JSON metadata, can be used in Python to create a stable DataFrame storage format that can materially out-perform Parquet read / write times in a wide range of contexts. Unlike Parquet, all characteristics of a DataFrame can be encoded and all NumPy dtypes are supported. Implemented in StaticFrame, this format can take advantage of an immutable data model to memory-map full DataFrames from un-zipped directories of NPY. Given wide-spread use of Parquet files in data science workflows, a faster-than-Parquet file format can significantly reduce compute costs.\n\nI will begin this talk by introducing the challenge of serializing DataFrames, illustrating how nearly all stable encoding formats lack full support for all DataFrame characteristics. While the broadly-used Parquet format has been called a \"gold standard\" binary file format, its columnar representation will be shown to have limitations when used for encoding DataFrames.\n\nI will show how the NPY format, combined with JSON metadata, can be used to create a custom NPZ file with significant performance and compatibility advantages compared to Parquet. The details of this encoding scheme will be explained.\n\nI will close the talk by evaluating numerous read / write performance comparisons between Parquet (via Pandas) and NPZ (via StaticFrame), measured with a wide variety of DataFrame shapes and dtype compositions. I will share techniques used in implementing optimized Python routines for reading and writing NPY files, and demonstrate applications for memory-mapping complete DataFrames via the same NPY representation.",
+  "duration": 1704,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/29/2022-04-29T13%3A59%3A23.738312/pycon-ariza.pdf"
+    }
+  ],
+  "speakers": [
+    "Christopher Ariza"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/HLH5AwF-jx4/hqdefault.jpg",
+  "title": "Employing NumPy's NPY Format for Faster-Than-Parquet DataFrame Serialization",
+  "videos": [
+    {
+      "length": 1704,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HLH5AwF-jx4"
+    }
+  ]
+}

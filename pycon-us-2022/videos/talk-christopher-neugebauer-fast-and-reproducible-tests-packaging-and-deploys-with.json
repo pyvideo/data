@@ -1,0 +1,26 @@
+{
+  "copyright_text": "CC BY",
+  "description": "\u201cWorks on my machine\u201d: The cry of developers who can\u2019t reproduce a bug because their development environment is incompatible with their deployment environment. It\u2019s common because setting up clean environments is slow, tedious, and error-prone.\n\nMeanwhile, debugging errors introduced by incorrect environments is slow, tedious, and error-prone.\n\nEach step in your CI workflow theoretically only has inputs or outputs, but in reality, files can be left along the way by running tests or compiling extensions. These are side-effects, not inputs for subsequent steps in your workflow, let alone deployment, but if included they can affect correctness.\n\nYou can solve this using \u201chermetic environments\u201d: running every step of your workflow inside a fresh environment, so steps run truly independently of one another. You can do this manually with Docker, but it\u2019s difficult: you have to understand which inputs are necessary for a step, which newly generated files are meaningful outputs, and what should be discarded.\n\nPantsbuild uses hermetic builds automatically: it understands the inputs each step needs, what outputs it produces, and stores inputs and outputs inside a content-addressable database so it can rapidly build sandboxed environments for subsequent steps of your workflow.\n\nThe result is a build process where every step is run in isolation, with only the inputs each process truly needs, and only true outputs made available to each subsequent step. Pants\u2019 workflows are fast but verifiably correct \u2014 running against incorrect inputs is not a possible failure case.\n\nIn this talk, we\u2019ll explore how Pantsbuild enables truly hermetic builds. We\u2019ll look at other approaches to sandboxing and how they compare to Pants\u2019 approach, and how you can benefit from adding hermetic builds to your project.\n\nYou\u2019ll walk away being confident that \u201cworks on my machine\u201d means \u201cworks everywhere\u201d.",
+  "duration": 1746,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Christopher Neugebauer"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0INmW9KaAp4/maxresdefault.jpg",
+  "title": "Fast and reproducible tests, packaging, and deploys with Pantsbuild\u2019s hermetic environments",
+  "videos": [
+    {
+      "length": 1746,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0INmW9KaAp4"
+    }
+  ]
+}
