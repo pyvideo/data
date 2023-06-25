@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Vulture eats some Python - PyCon Italia 2022\n\nMaintaining a high level of code quality is important for any serious\nproject. One aspect of this is ensuring that all code is actually used.\nFinding and removing dead code allows to keep the code base clean and\nreduces bugs. This is a practical guide on using and configuring Vulture\nto do so. This talk is focused on how we can use Vulture to find dead\ncode. There are many reasons for dead code ending up in a project. The\nmost common is refactoring, but another is misspellings, which are only\ndetected at runtime for dynamic languages. Vulture helps you find unused\ncode in Python programs, and it is useful for cleaning up and finding\nerrors in large codebases. If you run Vulture on both your library and\ntest suite, you can find untested code.\n\nDue to Python\u2019s dynamic nature, static code analyzers like Vulture are\nlikely to miss some dead code. Also, code that is only called implicitly\n(e.g., using getattr) may be reported as unused. Nonetheless, Vulture\ncan be a very helpful tool for higher code quality.\n\nThe second part of this talk investigates ways to improve Vulture\u2019s\nreporting such that the results are actionable and optimized for a low\nnumber of false positives. It also discusses how to automate testing for\ndead code with Vulture \u2013 there are quite a few options available: 1. Add\na step in your continuous integration testing. 2. As a pre-commit hook.\n3. Run a script using Vulture API for more fine-grained control.\n\nThe third and last part of this talk discusses a brief overview of the\ninternal workings of the tool, along with the scope of future\nimprovements. After all, the motive of this talk is not only to\nencourage developers to prioritize code hygiene but also to inspire them\nto come up with ideas to *enable* it.\n\nSpeaker: Rahul Jha\n",
+  "duration": 1671,
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Rahul Jha"
+  ],
+  "tags": [
+    "best practice",
+    "clean code",
+    "code analysis",
+    "static analysis",
+    "tooling"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NraLRnN_cmA/maxresdefault.jpg",
+  "title": "Vulture eats some Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NraLRnN_cmA"
+    }
+  ]
+}

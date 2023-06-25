@@ -1,0 +1,21 @@
+{
+  "copyright_text": null,
+  "description": "Can Unsupevised ML Be Overfitted? - PyCon Italia 2022\n\nOverfitting is a widely discussed pitfall in ML. In ML 101 class, we are\ntaught how to identify and mitigate it in a Supervised ML setting. But\nwait, how about the Unsupervised setting? Can we overfit there as well?\nIn my talk, I will show that we sure can, and we will discuss what to do\nabout it. Throughout my career as a data scientist, I had the\nopportunity to work on many diverse Machine Learning (ML) projects. Some\nof my favourite projects deal with an unsupervised learning setting. At\nfirst glance, an unsupervised model may seem simpler to execute, and\nwith less potential for pitfalls along the way. For example, it does not\nrequire to split the data into training, test and validation datasets,\nand on the face of it, there is no risk of overfitting: we just run our\nML model on the dataset, and voila!\n\nSubsequently however, from my experience, when the model is deployed to\nproduction, we often measure poor performance. How can this be? In this\ntalk, I will present how, if we are not careful enough, unsupervised ML\nmodels can be overfitted. I will demonstrate overfitting on a clustering\nproblem, by simulating a clustering model selection. We will run several\nclustering models on the learning set and select the best model. Then,\nwe will see that it may be overfitted. But don\u2019t worry! We will also\ndiscuss some ways to mitigate the overfitting peril in an unsupervised\nsetting. I will provide a toolset to help you identify and avoid this\nsituation, and will show how each mitigation impacts our simulation\nresults.\n\nSpeaker: Dana Racah\n",
+  "duration": 1713,
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Dana Racah"
+  ],
+  "tags": [
+    "machine learning"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/37rxQw8VHbE/maxresdefault.jpg",
+  "title": "Can Unsupevised ML Be Overfitted?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=37rxQw8VHbE"
+    }
+  ]
+}

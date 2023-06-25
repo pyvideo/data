@@ -1,0 +1,25 @@
+{
+  "copyright_text": null,
+  "description": "Patti chiari amicizia lunga. Come disaccoppiamo lo sviluppo tramite i\ntest di contratto - PyCon Italia 2022\n\nFront-end, vi \u00e8 mai capitato che nonostante vi siate messi d\u2019accordo con\nil back-end l\u2019endpoint non vi espone qualcosa? Noi abbiamo risolto\nutilizzando il Contract testing, vi mostrer\u00f2 i vantaggi e alcuni casi\nreali di come scrivere un patto aiuta a rendere pi\u00f9 semplice lo sviluppo\nper tutti. Quando sono entrato in 20tab l\u2019azienda seguiva gi\u00e0 le\nmetodologie Lean e Agile ed era composta principalmente da sviluppatori\nPython/Django. Quando abbiamo deciso di disaccoppiare i servizi\n(back-end in Django e front-end in React JS) siamo andati incontro a\ndifficolt\u00e0 dovute ai differenti tempi di sviluppo o limiti tecnici. Come\nprima soluzione avevamo provato con alternare lo sviluppo dei due\nservizi prima iniziava il back-end, una volta completato partiva lo\nsviluppo front-end. Questo ci rendeva inefficienti a volte i dati che\narrivavano al front-end erano insufficienti o eccessivi rispetto\nall\u2019interfaccia che doveva costruire. Quindi abbiamo provato a\ndettagliare con maggior rigore tutti i requisiti tecnici necessari per\npartire in parallelo, ma lato front-end dovevamo sempre costruirci un\nserver finto per procedere con lo sviluppo. In questo ci \u00e8 venuto\nincontro il contract testing, entrambi i rappresentanti dei servizi si\nriuniscono prendono il design lo analizzano insieme e il front-end\nscrive un test di contratto dopo di che entrambi i servizi possono\nprocedere con i rispettivi sviluppi in maniera svincolata tra di loro.\nIl front-end pu\u00f2 sfruttare il pact-stub-server per scrivere test\nfunzionali con cypress e per lavorare senza neanche tirare su il\nservizio back-end. Questo ha portato il front-end a riorganizzare il\nproprio template, ora abbiamo 3 tipi di test diversi, quelli unitari sui\ncomponenti, quelli funzionali con cypress e quelli di contratto con Pact\nJS. Tutti questi test tramite Docker vengono eseguiti nelle nostre\npipeline e bloccano il nostro processo di deploy in caso di fallimento.\n\nSlide:\n\nSpeaker: Daniele Pompa\n",
+  "duration": 1786,
+  "language": "ita",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Daniele Pompa"
+  ],
+  "tags": [
+    "apis",
+    "django",
+    "docker",
+    "javascript",
+    "testing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/uPNTrTZM_Y8/maxresdefault.jpg",
+  "title": "Patti chiari, amicizia lunga. Disaccoppiamo lo sviluppo con test di contratto",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uPNTrTZM_Y8"
+    }
+  ]
+}

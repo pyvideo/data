@@ -1,0 +1,24 @@
+{
+  "copyright_text": null,
+  "description": "Generazione di file PDF con Transformers per affinamento dell\u2019object\ndetection in documenti testuali - PyCon Italia 2022\n\nDe-costruire un file PDF \u00e8 un task di sempre maggior interesse; questo\ntalk mostrer\u00e0 come sfruttare l\u2019informazione non strutturata dei dati per\nla generazione di PDF sintetici da utilizzare in sistemi di\napprendimento pi\u00f9 controllabili, con l\u2019uso di Transformers ed NLP su\ndataset ristretti di PDF. Il Portable Document Format (meglio noto come\nPDF) \u00e8 il formato di file pi\u00f9 utilizzato al mondo. All\u2019interno di un\nfile PDF possiamo trovare un\u2019ampia gamma di elementi diversi, non solo\nsemplice testo: elementi grafici come immagini ed algoritmi, tabelle,\ndidascalie, addirittura oggetti interattivi o firme digitali. La\ndecostruzione di un file PDF \u00e8 dunque un task difficile, per l\u2019alto\nlivello di eterogeneit\u00e0 dei dati e perch\u00e9 il formato stesso non \u00e8 stato\npensato per fornire in modo strutturato la disposizione delle diverse\nentit\u00e0 che costituiscono le pagine dei documenti. Tuttavia, questo tipo\ndi analisi sta attirando sempre pi\u00f9 l\u2019interesse di ricercatori e\naziende, perch\u00e9 le informazioni sul layout e i contenuti dei file di\ntesto possono essere utilizzate per aumentare i dataset esistenti per\nottenere miglioramenti qualitativi nell\u2019espletamento delle comuni\noperazioni di data mining, sfruttando le tecniche di deep learning pi\u00f9\ninnovative.\n\nQuesto talk, descrive un sistema che, partendo da un insieme ristretto\ndi file PDF, \u00e8 in grado di generarne un numero arbitrariamente grande\nper costituire un dataset di immagini da utilizzare per addestrare reti\nneurali a svolgere le classiche operazioni di object detection e\nrecognition; per fare questo, sar\u00e0 mostrata una pipeline capace di\nannotare automaticamente il contenuto di un PDF; dopodich\u00e9, sar\u00e0\nspiegato come utilizzare le annotazioni precedentemente ottenute come\ninput di una architettura a Transformers per generare layout artificiali\ndi documenti; infine, si passer\u00e0 all\u2019effettiva sintesi dei PDF: verr\u00e0\nindicato come popolare le parti testuali dei layout generati grazie a\ntecniche di NLP (Natural Language Processing), come popolare immagini,\ntabelle e formule e, infine, come utilizzare il dataset sintetico cos\u00ec\nottenuto.\n\nSpeaker: Lorenzo Pisaneschi\n",
+  "duration": 1890,
+  "language": "ita",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Lorenzo Pisaneschi"
+  ],
+  "tags": [
+    "big data",
+    "deep learning",
+    "machine learning",
+    "predictions"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Zy8Co-u65Qo/maxresdefault.jpg",
+  "title": "Generazione file PDF per affinamento dell'Object detection",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Zy8Co-u65Qo"
+    }
+  ]
+}
