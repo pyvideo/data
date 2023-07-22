@@ -1,0 +1,44 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "EuroPython 2022 - Python Packaging Automation \u2014 Auto-Publish to PyPI via Pull Requests - presented by Justin Mayer\n\n[The Auditorium on 2022-07-13]\n\n\nEmpowering anyone to issue a new release by submitting a pull request? At first glance, it seems like an outlandish idea. Upon further inspection, however, the benefits become clear.\n\nOne of the biggest sources of friction in software development is packaging and publishing new releases. Somebody has to sift through the commits and write a change-log, tag it with a new version number, and publish the package to PyPI. And usually only one or two people have the access necessary for this last step.\n\nThe unfortunate result is an infrequent release cadence. Bug fixes and new features are sitting there in the `main` branch, but hardly anybody is benefiting from them because they aren\u2019t in a shipped release yet.\n\nThankfully, there\u2019s a better way: a continuous release process where new versions are auto-published via pull requests \u2014 without any manual monkeying.\n\nIn this environment, all pull requests must include a release file that describes the changes within. This file must also include whether the new version should be a major, minor, or patch release.\n\nThe continuous integration (CI) process looks for this file, and if one hasn\u2019t been included, the tests will fail, and the pull request won\u2019t be merged. Otherwise, a maintainer merges the pull request, and the CI process then uses the release file to put the description into the change-log, increment the version number, commit, tag, build, and publish the new release to PyPI.\n\nSo with almost no human input, every code contribution results in a new release in a matter of minutes. Every feature and bug-fix has its own release, without anyone having to remember to package and publish a new version. Plus, if a bug is found, it\u2019s now much easier to trace it to a specific release version.\n\nPerhaps the best part is that all contributors get to issue their own releases. What better way to welcome new contributors than to reward them with a dedicated release composed entirely of their own work?\n\nAttendees of this talk will take home the following knowledge and skills:\n\n* what kinds of problems are introduced by an infrequent release cadence\n* how automated releases solve those problems and provide myriad ancillary benefits\n* how to format and parse the release file\n* how to use continuous integration (CI) systems to automate releases\n* how to add deployment code so new versions are released when PRs are merged\n* how to use AutoPub(https://github.com/autopub/autopub) to facilitate this process\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1608,
+  "language": "eng",
+  "recorded": "2020-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2022.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "https://github.com/autopub/autopub",
+      "url": "https://github.com/autopub/autopub"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2022",
+    "europython-dublin",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/TJ17rp_hUms/maxresdefault.jpg",
+  "title": "Python Packaging Automation \u2014 Auto-Publish to PyPI via Pull Requests - presented by Justin Mayer",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TJ17rp_hUms"
+    }
+  ]
+}

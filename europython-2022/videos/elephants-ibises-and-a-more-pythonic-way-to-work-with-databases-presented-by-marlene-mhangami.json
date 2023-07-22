@@ -1,0 +1,40 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "EuroPython 2022 - Elephants, ibises and a more Pythonic way to work with databases - presented by Marlene Mhangami\n\n[Liffey Hall 1 on 2022-07-13]\n\n\nA few weeks ago I was working on setting up a relational database to explore records from DataSF\u2019s Civic Art Collection. Whenever I attend a tech conference I try to spend a day or two in the city to check out its cultural scene, so this seemed like useful information! I decided to use MySQL as my database engine. Coming from a Pandas background I was surprised by how unproductive and restricted I felt writing raw SQL queries. I also spent a significant amount of time resolving errors in queries that worked with one flavor of SQL but failed with MySQL. Throughout the process, I kept thinking to myself if only there was a more Pythonic way!!! A few weeks later I was introduced to Ibis. \n\nI live in Zimbabwe and the first thing that pops into my mind when I think of the word ibis is a safari. One of my favorite things to do when I'm not working is to go on a game drive. Whenever I've been adventuring on safari I usually see ibises perched on top of an elephant. The contrast between the creatures is stark! The African Sacred Ibis is a small, elegant creature that's named after the ancient Egyptian god Thoth. While as many of us know, an elephant is a very big and complex animal. This image serves as a great metaphor for the Python package and how it interacts with big database engines. \n\nIbis allows you to write intuitive Python code and have that code be translated into SQL. Whether you\u2019re wanting to interact with SQL databases or wanting to use distributed DBMSs, Ibis lets you do this in Python. You can think of the python code as the less complex elegant layer sitting on top of any big data engine of your choice. At the moment, Ibis supports quite a few backends including:\n\nTraditional DBMSs: PostgreSQL, MySQL, SQLite Analytical DBMSs: OmniSciDB, ClickHouse, Datafusion Distributed DBMSs: Impala, PySpark, BigQuery In memory analytics: pandas and Dask. \n\nAnything you can write in an SQL select statement you can write in Ibis. You can carry out joins, filters, and other operations on your data in a familiar, Pandas-like syntax. In this talk, we'll go through several examples of these and compare what the SQL code would look like versus writing to the database with Ibis. Overall, using Ibis simplifies your workflows, makes you more productive, and keeps your code readable.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2162,
+  "language": "eng",
+  "recorded": "2020-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2022.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2022",
+    "europython-dublin",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/GVB7KsCb2uc/maxresdefault.jpg",
+  "title": "Elephants, ibises and a more Pythonic way to work with databases - presented by Marlene Mhangami",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=GVB7KsCb2uc"
+    }
+  ]
+}
