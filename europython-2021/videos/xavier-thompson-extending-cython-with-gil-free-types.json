@@ -1,0 +1,43 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Extending Cython with GIL-free types\n[EuroPython 2021 - Talk - 2021-07-28 - Brian]\n[Online]\n\nBy Xavier Thompson\n\nCython is a compiled language, largely inspired by Python, which can already provide both massive speedups and seamless interoperability with C libraries. In Cython, Python and C can freely mix thanks to a unified syntax and gradual typing. This opens the door to bypassing the GIL by restricting oneself to the C side of Cython, but it entails letting go of all the high-level semantics of Python and going back to low-level manual memory management, pointer arithmetic and good old segmentation faults... Not to mention all the joys of multi-threading in C!\n\nIn this talk, we will recount how we experimentally extended Cython to bridge that gap with GIL-free reference-counted types and a type system for thread-safe concurrency. We call this extension: Cython+.\n\nBy hacking a bit the Cython compiler, one can create new language features which translate under-the-hood to low-level GIL-agnostic C or C++. In this way we extended Cython with a new class system that looks familiar to a Python programmer, but can be used in Cython while the GIL is released because it does not depend on the Python/C API. By adapting the way Cython generates reference counting instructions for Python objects, we equipped our types with a thread-safe reference count. Thanks to Cython's expertise with the Python/C API, we wrapped our types into extension types, thus gaining interoperability with Python. And using Cython's static type checking, we are currently introducing an ownership type system for thread-safe concurrency inspired by Pony and Rust.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1795,
+  "language": "eng",
+  "recorded": "2020-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2021.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2021",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Lb6q1hhBp-k/hqdefault.jpg",
+  "title": "Xavier Thompson - Extending Cython with GIL-free types",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Lb6q1hhBp-k"
+    }
+  ]
+}

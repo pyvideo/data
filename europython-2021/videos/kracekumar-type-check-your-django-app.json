@@ -1,0 +1,67 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Type Check your Django app\n[EuroPython 2021 - Talk - 2021-07-28 - Ni]\n[Online]\n\nBy Kracekumar \n\nPython 3 introduced type hints and it's optional to use. The decision to use the type-hints in the python community is in two different camps - Embrace and skeptical.\n\nAdding type-hints has practical problems. One such example is the working of type-checker, mypy, and CPython interpreter. mypy behaves like a statically typed language (strict with type declaration and modification) whereas Python run-time is lenient. \n\nExample\na: int = 23\na = 'Django'\n\nMypy will complain about the above code whereas Python run-time will not complain.\n\nIn this talk, I'll cover the following topics:\n- how to add type-hints to Django project - views, models, and queryset.\n- Tools to help to add type-hints.\n- Adding type-hints to user-defined code.\n- Current limitation of the type-hints.\n- Tuning mypy to suit your needs - strict and lenient checking.\n\nAll the example code snippets will run on Python 3.9.4+.\n\nReferences:\n- Type Hints: https://docs.python.org/3/library/typing.html\n\n- Mypy - http://mypy-lang.org/\n- Django: https://www.djangoproject.com/\n- Django Stubs - https://github.com/TypedDjango/django-stubs\n- Django Restframeowrk - https://www.django-rest-framework.org/\n- Django Restframework stubs - https://github.com/typeddjango/djangorestframework-stubs\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1610,
+  "language": "eng",
+  "recorded": "2020-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2021.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://github.com/typeddjango/djangorestframework-stubs",
+      "url": "https://github.com/typeddjango/djangorestframework-stubs"
+    },
+    {
+      "label": "https://github.com/TypedDjango/django-stubs",
+      "url": "https://github.com/TypedDjango/django-stubs"
+    },
+    {
+      "label": "https://www.django-rest-framework.org/",
+      "url": "https://www.django-rest-framework.org/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    },
+    {
+      "label": "https://www.djangoproject.com/",
+      "url": "https://www.djangoproject.com/"
+    },
+    {
+      "label": "http://mypy-lang.org/",
+      "url": "http://mypy-lang.org/"
+    },
+    {
+      "label": "https://docs.python.org/3/library/typing.html",
+      "url": "https://docs.python.org/3/library/typing.html"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2021",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/LbaiQPPjZMY/maxresdefault.jpg",
+  "title": "Kracekumar  - Type Check your Django app",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LbaiQPPjZMY"
+    }
+  ]
+}
