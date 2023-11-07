@@ -1,0 +1,30 @@
+{
+  "category": null,
+  "copyright_text": "CC BY-NC-SA",
+  "description": "Python has a thriving ecosystem of single-purpose tools such as pytest, mypy, black and so on, but no standard orchestration tool to manage them efficiently. This makes it difficult to scale up Python codebases without a lot of bespoke scripting.\r\n\r\nAs a result, Python repos tend to be small, focused on building a single library or binary. Dependencies are managed by publishing versioned artifacts from one repo and consuming them in another repo by download.\r\n\r\nBut in the age of microservices, cloud functions, continuous delivery, and rapid iteration, this can be untenable. We often need to repeatedly build and deploy many small, interdependent parts out of a single large repo, and the sequential publishing cycle is too slow and cumbersome. \r\n\r\nPants is a build system with a focus on Python. It aims to be for Python what Cargo is for Rust: the one-stop shop for efficiently testing, typechecking, formatting, packaging and deploying code. Pants uses static analysis to grok your code's dependencies automatically, so you don't have to maintain large amounts of metadata. It uses this dependency data, along with its local and remote caching and concurrency capabilities, to dramatically speed up the development and CI cycle. \r\n\r\nThis talk will explain what Pants is and how it works. It will provide canonical examples of how to use Pants effectively with Python code, such Django apps and AWS Lambdas. And how to use it to package your code as a standalone binary or a Docker image.",
+  "language": "eng",
+  "quality_notes": null,
+  "recorded": "2023-10-08T12:15:00",
+  "slug": "Pants_Cargo_for_Python",
+  "source_url": "https://youtu.be/0-qKNTouuOY",
+  "speakers": [
+    "Benjy Weinberger"
+  ],
+  "summary": null,
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0-qKNTouuOY/hqdefault.jpg",
+  "title": "Pants: Cargo for Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/0-qKNTouuOY"
+    }
+  ],
+  "related_urls": [
+    {
+      "label": "conf",
+      "url": "https://pybay.com/speakers/#sz-speaker-06c2b133-a57d-492e-b98b-385f2e54f2a9"
+    }
+  ],
+  "veyepar_state": 10
+}
