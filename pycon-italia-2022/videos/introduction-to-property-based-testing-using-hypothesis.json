@@ -1,0 +1,23 @@
+{
+  "copyright_text": null,
+  "description": "Introduction to Property-Based testing using Hypothesis - PyCon Italia\n2022\n\nHas testing got you down? Ever spent a day writing tests, only to\ndiscover that you missed a bug because of some edge case you didn\u2019t know\nabout? Does it ever feel like writing tests is just a formality - that\nyou already know your test cases will pass? Hyphothesis might be just\nwhat you need! Property based testing relies on properties. It checks\nthat a function, program or whatever system under test abides by a\nproperty. Most of the time, properties do not have to go into too much\ndetails about the output. They just have to check for useful\ncharacteristics that must be seen in the output. Benefits are numerous:\n\n1. Cover the scope of all possible inputs: by construct, it does not\n   restrict the generated inputs if not asked to do so. Consequently it\n   can theorically generate all possible inputs and cover the whole\n   range of strings, integers or whatever type required by the system\n   under test.\n2. Shrink the input in case of failure: whenever it fails, the framework\n   tries to reduce the input to a smaller input. For instance: if the\n   condition of the failure is the existence of a given character in a\n   string it should return the one-character string having only this\n   character. This is certainly one of the most interesting features of\n   such approach as most of the time the failure can be summarized by a\n   very small case.\n3. Reproducible and replayable: each time it runs a property test, a\n   seed is produced in order to be able to re-run the test again on the\n   same datasets. Any run failure causes the framework to print both the\n   failing case and the seed in order to be able to fully reproduce the\n   run.\n\nIn this talk i\u2019ll present, the teorethical aspects behind the approach\nand the benefits of using Hypothesis with schemathesis, a modern API\ntesting tool for web applications built with Open API and GraphQL\nspecifications.\n\nSpeakers: Alessandro Molina, Aniello Barletta\n",
+  "duration": 1722,
+  "language": "ita",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Alessandro Molina",
+    "Aniello Barletta"
+  ],
+  "tags": [
+    "TDD",
+    "testing"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WBMfwr9Tu24/maxresdefault.jpg",
+  "title": "Introduction to Property-Based testing using Hypothesis",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WBMfwr9Tu24"
+    }
+  ]
+}

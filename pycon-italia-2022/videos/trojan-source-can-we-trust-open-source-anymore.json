@@ -1,0 +1,24 @@
+{
+  "copyright_text": null,
+  "description": "Trojan Source - Can we trust open-source anymore? - PyCon Italia 2022\n\nRecently, a paper is published to demonstrate how a visibly valid\ncontribution can contain malicious code by exporting the Unicode control\ncharacters. Some of these attacks has been tested on Python and it\nworks. Shall the Python and open-source communities be concerned?\nBackground:\n\nAfter researchers at the University of Cambridge published a paper(\nabout a malicious attack named Trojan Source, which exploited the fact\nthat some program interpreters, like CPython, can handle Unicode. This\nhas caused concerns in the open-source community about the malicious\ncontribution that looks totally legitimate in human eyes but contain\ninvisible attacks. As a member of the Python community, we should all be\naware of that and understand how we can prevent this attack to happen.\n\nAbout this talk:\n\nIn this talk, Cheuk will decode the finding in this paper to a level\nthat can be understood by everyone. She will start with a joke example\nwho you can mess up someone by using Unicode. She will then explain what\nis Unicode and why it causes trouble. Afterwards, she will explain the\nPython examples( in the paper and why it can be dangerous. Lastly, she\nwill open up a discussion on how we should defend ourselves from those\nattacks and what we can do as a community.\n\nOutline (30 mins talk):\n\n\\**5 minutes - Introduction, the opening of the talk\n\nIn this session, Cheuk will ask audiences to debug a code snippet that\nlooks absolutely fine but will not work as code. She will explain that\nthis is the same concept used in Trojan Source.\n\n\\**10 mins - What is Unicode\n\nIn this session, Cheuk will give an introduction about what is Unicode,\nwhat it is to a computer and why we need Unicode in computers. She will\nalso explain how the benefit of having Unicode can also be a downfall to\nmake us vulnerable to the Trojan Source attack.\n\n\\**10 mins - How Trojan Source works in Python\n\nIn this session, Cheuk will show a few examples using the Trojan Source\nin legitimate Python code. She will point out how the attack is hiding\nin the source code and in what cases it can be dangerous.\n\n\\**5 mins - How to protect ourselves\n\nIn this session, Cheuk will open the discussion and make a few\nsuggestions of how we can protect ourselves as a community. This will\nlead to the Q&A session where the audience can weigh in on their own\nthought.\n\nTarget audiences\n\nFrom those who are curious to maintainers of open-source libraries. This\nis the knowledge we should all know and be aware of. Cheuk will explain\nin a way that expects no prior knowledge is needed.\n\nWhat will audiences learn\n\nAbout Trojan Source attacks and how it works. They may also learn about\nhow interpreters, especially Python interpreters, works with Unicode.\nPlus, they may have increased awareness about security in the\nopen-source world.\n\nSpeaker: Cheuk Ho\n",
+  "duration": 1604,
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Cheuk Ho"
+  ],
+  "tags": [
+    "best practice",
+    "community",
+    "open source",
+    "security"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/OuXxWYPBxW4/maxresdefault.jpg",
+  "title": "Trojan Source - Can we trust open-source anymore?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OuXxWYPBxW4"
+    }
+  ]
+}

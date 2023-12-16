@@ -1,0 +1,23 @@
+{
+  "copyright_text": null,
+  "description": "Writing Faster Python 3 - PyCon Italia 2022\n\nSource code level optimization is often neglected - people don\u2019t bother,\nbecause getting a faster server often gives better results. But if you -\nlike me - always wonder what is the most efficient way to write some\ncode, then this talk is for you! Did you know that Python preallocates\nintegers from -5 to 257? Reusing them 1000 times, instead of allocating\nmemory for a bigger integer, can save you a couple milliseconds of\ncode\u2019s execution time. If you want to learn more about this kind of\noptimizations then, \u2026 well, probably this presentation is not for you :)\nInstead of going into such small details, I will talk about more \u201csane\u201d\nideas for writing faster code.\n\nAfter a brief overview of different levels of optimization and how they\nwork in Python, I will show you simple and fast ways of measuring the\nexecution time of your code and finally, discuss examples of how some\ncode structures could be improved.\n\nYou will see: \\* The fastest way of removing duplicates from a list \\*\nHow much faster your code is when you reuse the built-in functions\ninstead of trying to reinvent the wheel \\* What is faster than the \u201cfor\nloop\u201d \\* If the lookup is faster in a list or a set \\* When it\u2019s better\nto beg for forgiveness than to ask for permission\n\nSpeaker: Sebastian Witowski\n",
+  "duration": 1795,
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Sebastian Witowski"
+  ],
+  "tags": [
+    "best practice",
+    "cpython",
+    "development"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/LPpf7k3Cqoo/maxresdefault.jpg",
+  "title": "Writing Faster Python 3",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LPpf7k3Cqoo"
+    }
+  ]
+}

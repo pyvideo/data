@@ -1,0 +1,23 @@
+{
+  "copyright_text": null,
+  "description": "Debugging asynchronous programs in Python - PyCon Italia 2022\n\nRecently the interest in asynchronous programming has grown\ndramatically. Unfortunately, asynchronous programs do not always have\nreproducible behavior. Even when they are run with the same inputs,\ntheir results can be radically different. In this talk I\u2019ll show you\ndifferent approaches on how to debug asynchronous programs in Python.\nLuckily, when it comes to debugging asynchronous applications in python,\nwe have a couple of options to consider. The writers of the asyncio\nmodule have very kindly provided a debug mode, which is quite powerful\nand can really aid us in our debugging adventures without the overhead\nof modifying the system\u2019s code base too dramatically. In particular I\u2019ll\nshow you what asyncio debug mode means for developers, and how to source\ntracebacks for unhandled exceptions in futures. Also how to detect\naccidental blocking for I/O. We discuss how to monitor the asyncio event\nloop and collect metrics in statsD. Finally we discuss monitor and cli\ncapabilities for asyncio applications based on aiomonitor and\naioconsole. Also we discuss how asynchronous python works in REPL via\nautoawait based on ipython and how to do it in vanilla python REPL.\n\nSpeaker: Andrii Soldatenko\n",
+  "duration": 2022,
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Andrii Soldatenko"
+  ],
+  "tags": [
+    "asyncio",
+    "cpython",
+    "debugging"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/YwazLVJbHuk/maxresdefault.jpg",
+  "title": "Debugging asynchronous programs in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YwazLVJbHuk"
+    }
+  ]
+}

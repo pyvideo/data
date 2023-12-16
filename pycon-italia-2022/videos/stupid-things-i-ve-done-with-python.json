@@ -1,0 +1,23 @@
+{
+  "copyright_text": null,
+  "description": "Stupid Things I\u2019ve Done With Python - PyCon Italia 2022\n\nOn every computer I\u2019ve had for the past 20 years, I\u2019ve created a folder\ncalled \u201cstupid python tricks\u201d. It\u2019s where I put code that should never\nsee the light of day. Code that abuses features like decorators,\nmetaclasses, and dynamic typing to do terrible things.\n\nCode I\u2019m going to teach you. I have a GitHub repository that contains a\ncompilation of all the awful code I\u2019ve written over the years, abusing\nfeatures like metaclasses, decorators, various **dunder** methods, and\nthe mutable nature of Python\u2019s underlying data structures.\n\nIt\u2019s a funny way to see how Python works under the hood, but it\u2019s also\neducational.\n\nReally!\n\nEach of the tricks is entertainingly terrible. But they\u2019re also mostly\nself-contained ways to see what happens when you override certain\nbehaviours of the Python language. Anyone with an intermediate level of\nPython understanding should be able to follow along and learn something.\n\nI will cover:\n\n-  Replacing an imported module with a class, so attribute lookups can\n   be @properties, with *hilarious* results.\n-  Overriding the ``__sub__`` magic method to create a hyphenated,\n   fuzzy-matching version of a boolean.\n-  Using ``__getattr__`` to save time implementing all the functions in\n   the ``math`` module.\n-  Using ``__eq__`` to make things that aren\u2019t really the same look the\n   same.\n\nThis talk is an entertaining tour of the Python Data Model, and the\nthings you can do - if you\u2019re so inclined.\n\nSpeaker: Mark Smith\n",
+  "duration": 1687,
+  "language": "eng",
+  "recorded": "2022-06-03",
+  "speakers": [
+    "Mark Smith"
+  ],
+  "tags": [
+    "abstractions",
+    "best practice",
+    "teaching"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/7tdcBGUtOY8/maxresdefault.jpg",
+  "title": "Stupid Things I've Done With Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7tdcBGUtOY8"
+    }
+  ]
+}
