@@ -1,0 +1,38 @@
+{
+  "category": "ChiPy",
+  "copyright_text": "CC BY",
+  "description": "One shortfall of example-based unit tests is that they only test known examples. Property-based testing lets you test against randomized inputs if you can specify properties that must be true of the code's behavior (\"invariants\"). You also test your function against extreme-values (aka, fuzzing).\r\n\r\nIn this talk, will review some examples of property-based tests using the Hypothesis library. We will demo automated test generation (\"ghostwriting\" tests) to make writing tests easier. We will demo stateful testing to confirm that all possible states are valid in a program.\u00a0 Lastly, we will end with parting thoughts on how to specify properties. Often, the tricky part with PBT is knowing what to test! Since we are using randomized input, we need to specify properties that should hold true across all outputs.",
+  "language": "eng",
+  "quality_notes": null,
+  "recorded": "2024-04-11T18:30:00",
+  "slug": "Intro_to_PropertyBased_Testing_with_Hypothesis",
+  "source_url": "https://youtu.be/bhRTEyGTRU0",
+  "speakers": [
+    "Paul Zuradzki"
+  ],
+  "summary": null,
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/bhRTEyGTRU0/hqdefault.jpg",
+  "title": "Intro to Property-Based Testing with Hypothesis",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/bhRTEyGTRU0"
+    },
+    {
+      "type": "archive",
+      "url": "https://archive.org/details/Apr_24-Intro_to_PropertyBased_Testing_with_Hypothesis/Intro_to_PropertyBased_Testing_with_Hypothesis.mp4"
+    }
+  ],
+  "related_urls": [
+    {
+      "label": "archive",
+      "url": "https://archive.org/details/Apr_24-Intro_to_PropertyBased_Testing_with_Hypothesis"
+    },
+    {
+      "label": "conf",
+      "url": "https://www.chipy.org/meetings/247/"
+    }
+  ],
+  "veyepar_state": 5
+}
