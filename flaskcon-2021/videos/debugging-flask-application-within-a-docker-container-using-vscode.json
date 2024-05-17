@@ -1,0 +1,21 @@
+{
+  "language": "eng",
+  "title": "Debugging flask application within a docker container using VSCode",
+  "description": "We all love Docker which helps us a lot in deploying our applications without worrying about what OS we are using and what software versions we have. As a developer you come across a bug every now and then. To solve a bug debug comes very handy. In this talk, I would love to show you one of the ways to debug your flask application within a docker container using VSCode. To do that first, we will build a small flask application and write a Dockerfile for that and run the application. When we want to debug that application we need debugpy package which I don't want to put it in my final docker image so instead of building a different Dockerfile for each purpose we will get to know a bit about Docker multistage build concept and update the current Dockerfile and debug our flask application.",
+  "recorded": "2021-12-01",
+  "speakers": [
+    "Ashok Tankala"
+  ],
+  "tags": [
+    "flask",
+    "docker",
+    "debugging"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VjIYcJVZCP0/maxresdefault.jpg",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VjIYcJVZCP0"
+    }
+  ]
+}
