@@ -1,0 +1,29 @@
+{
+  "copyright_text": "CC BY-NC-SA 4.0",
+  "description": "(Rodrigo Gir\u00e3o Serr\u00e3o) The Zen of Python says \"there should be one -- and preferably only one -- obvious way to do it\", but what if there's a dozen obvious ways to do it?\n\nIn this talk we take a look at over a dozen implementations of a *very* simple function: the `sign` function.\nThe `sign` function should return -1 for negative numbers, 1 for positive numbers, and 0 if the input is 0. Simple, right?\nAnd it is, but there are multiple implementations that we can look at.\n\nAs we do so, we try to decide which alternative is the best and we even explore a couple of more intricate Python subtleties!\nAs an example of some of those subtleties, we'll look at Boolean arithmetic, Boolean to integer conversion, and (chained) conditional expressions.\n\nAs we look at different implementations, we try to decide which one is the best. We will do some profiling, but we'll also realise that that's hardly the most important metric to use!\n\nWhich implementation will be the best?\n\nYou can find the talk slides [on GitHub][1] and a written version of the talk [on my blog][2].",
+  "duration": 1888,
+  "language": "eng",
+  "recorded": "2022-02-06",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2022.pycascades.com/program/talks/"
+    },
+    {
+      "label": "Full playlist",
+      "url": "https://www.youtube.com/playlist?list=PLcNrB7gPa-NdPI2l70DwtUf8uO_pdXZ6H"
+    }
+  ],
+  "speakers": [
+    "Rodrigo Gir\u00e3o Serr\u00e3o"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/FkE-HrxSFCM/maxresdefault.jpg",
+  "title": "Fifty shades of `sign`",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FkE-HrxSFCM"
+    }
+  ]
+}
