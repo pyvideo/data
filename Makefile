@@ -8,7 +8,7 @@ TESTSDIR=$(BASEDIR)/.tests
 SCHEMASDIR=$(BASEDIR)/.schemas
 export PYTHONPATH := $(BASEDIR):$(TESTSDIR)
 
-VERBOSE ?= 0
+VERBOSE ?= 1
 
 help:
 	@echo 'Makefile for a testing pyvideo/data                                 '

@@ -1,0 +1,30 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Have you ever found yourself coding variations of a loop construct where fragments of the loop code were exactly the same between the variations? Or, in an attempt to factor out these common parts, you ended up with a loop construct containing a lot of conditional code for varying start, stop, or selection criteria?\n\nYou might have felt that the end result just didn't look right. Because of the duplicated parts in your code, you noticed that the code didn't conform to the DRY (Don't Repeat Yourself) principle. Or, after an attempt to combine the variations into a single loop, with consequently a lot of conditional code, your inner voice told you that the resulting code had become too complex and difficult to maintain.\n\nThis talk will show you a way out of this situation. It demonstrates how you can create a generator function that implements only the common parts of your loop construct. Subsequently you will learn how you can combine this generator function with distinct hand-crafted functions or building blocks from the standard library itertools module or the more-itertools package.\n\nAs an example, imagine you'd need to implement some varying functionality based on the Fibonacci sequence. This talk shows you how it would look like before and after you've refactored it into a pipeline of generators.\n\nAfter having seen this pattern, you will recognize more quickly when this kind of refactoring helps you to create more maintainable and more Pythonic code.",
+  "duration": 1643,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/121/2022-04-29T17%3A23%3A39.884992/How_to_Refactor_into_Generator_Functi_eM5I4Ei.pdf"
+    }
+  ],
+  "speakers": [
+    "Jan-Hein B\u00fchrman"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2gPdodp6i3Y/maxresdefault.jpg",
+  "title": "When to refactor your code into generators and how",
+  "videos": [
+    {
+      "length": 1643,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2gPdodp6i3Y"
+    }
+  ]
+}

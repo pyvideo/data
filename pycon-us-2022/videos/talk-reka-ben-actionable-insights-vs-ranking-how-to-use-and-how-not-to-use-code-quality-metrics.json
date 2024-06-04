@@ -1,0 +1,37 @@
+{
+  "copyright_text": "CC BY",
+  "description": "In this talk, we want to make two major points:\n\n- Metrics can facilitate better conversation about code quality. They help you focus more on technical problems and improvements instead of personal preferences and organizational issues.\n- Metrics can be misused very easily. Knowing their limitations is crucial.\n\nMETRICS\n\nFor each metric, we'll discuss:\n\n- code examples in Python\n- how to calculate\n- interpretation (incl. some comparison across open source Python projects)\n- actions\n- limitations\n\nMETHOD LENGTH\n\nThe simple.\n\nYou can calculate it without specific tools.\nFirst step: Extract functions.\nIt shows well some general limitations of code quality metrics.\n\nCYCLOMATIC COMPLEXITY\n\nThe old.\n\nShow the formula, but don't explain it in detail. :-)\nExtract functions. Remove redundant if conditions.\nIt doesn't account for nested coding constructs. It ignores some modern language patterns.\n\nCOGNITIVE COMPLEXITY\n\nThe human.\n\nCalculation and interpretation: see https://www.sonarsource.com/docs/CognitiveComplexity.pdf\nActions: Extract functions. Use shorthand structures. More Pythonic code is also more readable.\nLimitations: It ignores both the length of a linear block and the complexity of the expressions used in it.\n\nWORKING MEMORY\n\nAnother aspect of human understanding.\n\nCalculation: see https://sourcery.ai/blog/working-memory/\nInterpretation: The 7 +/- 2 rule of the human working memory.\nActions: Extract functions, some more specific refactorings this metric rewards.\nLimitations: It ignores the structure.\n\nLIMITATIONS AND PITFALLS\n\nGENERAL\n\n- They can be gamed.\n- They easily encourage one-sided thinking and behaviour.\n\nSPECIFIC FOR CODE QUALITY METRICS\n\n- Great as warning signs, not good as \"proof of excellence\".\n\nCOMPOUND METRICS\n\n- Giving a more versatile picture than a single metric.\n\nWHAT METRICS DON'T CAPTURE\n\n- naming, consistent terminology, ubiquitous language (DDD)\n- project structure\n- correctness",
+  "duration": 1676,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Calculation and interpretation",
+      "url": "https://www.sonarsource.com/docs/CognitiveComplexity.pdf"
+    },
+    {
+      "label": "Calculation",
+      "url": "https://sourcery.ai/blog/working-memory/"
+    }
+  ],
+  "speakers": [
+    "Reka",
+    "Ben"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/N_hgD1eA7ks/maxresdefault.jpg",
+  "title": "Actionable insights vs ranking: How to use and how NOT to use code quality metrics?",
+  "videos": [
+    {
+      "length": 1676,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=N_hgD1eA7ks"
+    }
+  ]
+}

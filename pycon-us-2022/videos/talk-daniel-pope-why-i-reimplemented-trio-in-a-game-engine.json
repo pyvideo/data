@@ -1,0 +1,30 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Trio is an asynchronous I/O framework. Unlike other async frameworks in Python, Trio offers structured concurrency: the structure of a program's concurrency tasks are reflected in its code.\n\nThe advantage of structured concurrency is that concurrent programs become easier to reason about, particularly if operations are cancelled.\n\nI reimplemented Trio-like structured concurrency in a game engine, Wasabi2D, and wrote some games with it. I found it to be an excellent fit that simplifies many game logic tasks.\n\nIn this talk I'll talk about concurrency in video games, present structured concurrency with examples found in game logic, and draw parallels between I/O based concurrency tasks and those found in video games.\n\nThe examples will also serve as a tutorial for writing games in Wasabi2D.\n\nFinally I will explore the differences between Wasabi2D and Trio's implementation of the structured concurrency concepts. By comparing the solutions we will see which elements of Trio are foundational to structured concurrency and which are specific choices for Trio's problem space.",
+  "duration": 1534,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/45/2022-04-27T13%3A04%3A31.199690/Why_I_reimplemented_Trio_in_a_game_engine.pdf"
+    }
+  ],
+  "speakers": [
+    "Daniel Pope"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/mxmnl3WJ4bc/hqdefault.jpg",
+  "title": "Why I reimplemented Trio in a game engine",
+  "videos": [
+    {
+      "length": 1534,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mxmnl3WJ4bc"
+    }
+  ]
+}

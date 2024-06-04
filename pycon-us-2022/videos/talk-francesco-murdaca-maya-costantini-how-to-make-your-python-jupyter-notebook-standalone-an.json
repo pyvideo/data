@@ -1,0 +1,27 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Even though many developers (including data scientists) focus on their core problems when working on their experiments, one basic aspect can make these projects not reusable. We are not considering anything machine learning-related yet.\n\nOne of the first steps during the development of a project is the selection of libraries or dependencies. When someone runs pip install package-name, they might not be aware that along with the library that is going to be installed, so-called direct dependency, many other dependencies will be installed on your machine, so-called transitive dependencies. Any change in one of those dependencies can break your experiment. It\u2019s fundamental to have a way to state all the dependencies used, including the operating system, python interpreter, and hardware used to run a certain experiment.\n\nIn this session, the speakers will present an open source JupyterLab extension for Python dependency management developed by the Thoth team. They will learn what resolution engine can be used (e.g. Pipenv, Thoth), the difference between these resolution engines. Moreover they will learn what to do in different scenarios emulating typical Jupyter notebook experiences to learn how to use the new extension.\n\nBy the end of this session, attendees will learn the importance of reproducibility, how to use the Thoth Jupyterlab extension for Python projects and the benefits of a cloud resolution engine with respect to other existing ones. They will be able to run a tutorial using only a GitHub account and a browser as it will be run in a completely open cloud environment.",
+  "duration": 1540,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Francesco Murdaca",
+    "Maya Costantini"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xJddVw_ALgY/hqdefault.jpg",
+  "title": "How to Make Your Python Jupyter Notebook Standalone and Reproducible to allow others to replicate your experiments",
+  "videos": [
+    {
+      "length": 1540,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xJddVw_ALgY"
+    }
+  ]
+}

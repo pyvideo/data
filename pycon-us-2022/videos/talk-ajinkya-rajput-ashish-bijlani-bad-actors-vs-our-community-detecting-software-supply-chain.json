@@ -1,0 +1,31 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Rapid prototyping or development is one of the most favourite features of the Python software ecosystem. This is possible due to efficient reuse of software libraries enabled by package managers such as PyPi. While PyPI maintainers have streamlined the process of publishing and distributing a package for developers, bad actors evidently exploit this infrastructure to propagate malware. For example, simply by publishing a malicious package with a name similar to a popular package, bad actors can exploit carelessness or inexperience of developers and elevate a simple installation typo to a remote code execution attack.\n\nIn this talk, we will present technical details of our large-scale vetting system that analyzes millions of published software package versions for malware and other \u201crisky\u201d attributes, such as sudo access, source inconsistencies, abandonware, and unsafe installation hooks. We will share our experience while building this system, and present examples of new malware we have detected as case studies. Finally, we will introduce our free tool OSSIE, a Python PyPi package, for developers to audit project dependencies and notify them when dependencies turn malicious. The presented tool is extremely user friendly and is an attempt towards furthering usable security.",
+  "duration": 1528,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/115/2022-04-30T23%3A12%3A58.090937/pycon22.pdf"
+    }
+  ],
+  "speakers": [
+    "Ajinkya Rajput",
+    "Ashish Bijlani"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Rcuqn56uCDk/maxresdefault.jpg",
+  "title": "Bad actors vs our community: detecting software supply chain attacks on Python ecosystem",
+  "videos": [
+    {
+      "length": 1528,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Rcuqn56uCDk"
+    }
+  ]
+}

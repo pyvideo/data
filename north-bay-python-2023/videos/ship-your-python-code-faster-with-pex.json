@@ -1,0 +1,20 @@
+{
+  "copyright_text": "",
+  "description": "A lot of Python code is shipped around in Docker images. But did you know there is another way to ship Python code to production that is... *better* in some situations? This talk covers our exploration into making code deployment faster for our users (our product runs user code in our cloud). We will cover the limits we faced with Docker builds and container provisioning, various options we explored, and why we settled on PEX.\n\n[PEX](https://pex.readthedocs.io) is a tool that packages Python code and dependencies into a single file. It provides various features such as determinism (given the same input files, you get a bit-for-bit identical output file), isolation (a PEX file runs in the bundled environment, isolated from the system\u2019s site-packages), composition (multiple PEX files can be combined to form new environments), and more. We used a number of these feature to great effect in our solution. By using PEX in addition to Docker we were able to reduce the time a developer waits for code to deploy from 3-4 minutes to about 30 seconds.\n\nShipping code isn't the only use for PEX. Once we see how PEX files work, we will also go over a few fun tips and tricks that are handy for everyday Python development.",
+  "duration": 1807,
+  "language": "eng",
+  "recorded": "2023-07-30",
+  "related_urls": [],
+  "speakers": [
+    "Shalabh Chaturvedi"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pyRwQByuFfc/maxresdefault.jpg",
+  "title": "Ship your Python code faster with PEX",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pyRwQByuFfc"
+    }
+  ]
+}

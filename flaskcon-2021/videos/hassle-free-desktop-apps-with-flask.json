@@ -1,0 +1,21 @@
+{
+  "language": "eng",
+  "title": "Hassle Free Desktop Apps with Flask",
+  "description": "Flaskwebgui is a Python package which helps you quickly create electron like desktop applications. That way, you can convert a web app into a desktop app with just two extra lines of code. \nFlaskwebgui just uses threading underneath to start a flask server and the browser in app mode (for chrome). It has some advantages over flask-desktop because it doesn't use PyQt5, so you won't have any issues regarding licensing and over Eel because you don't need to learn any logic other than Flask. Github link: https://github.com/ClimenteA/flaskwebgui Motivation: At first console apps were enough to solve what I needed, but in time more complex problems appeared that needed a user interface which does a lot of stuff. For something small (some inputs, buttons..) Tkinter does the job even though it looks uglyish. Other alternatives for more complex stuff are PyQT, PySide, wxPython, Kivy, which are good options and you can make nice GUIs with them, but.. I still found it pretty hard to get started. I like Flask - it was very easy to learn and I wanted to use it everywhere. Learning new libraries takes time and time is something we can't buy (yet). I looked for a solution to make the user interface in html/css/javascript with a backend in Flask. I found pywebview which was close of what I needed, but for whatever reason some javascript code didn\u2019t got executed as it should have(js worked in a normal browser, but not in pywebview window). I also had issues when I tried to freeze it with Pyinstaller \u2014 all of them probably having a solution somewhere, but I just wanted to ship it and leave it. That's how flaskwebgui was `born`.",
+  "recorded": "2021-12-01",
+  "speakers": [
+    "Alin Climente"
+  ],
+  "tags": [
+    "flask",
+    "desktop apps",
+    "gui"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/RApsKoC1a7s/maxresdefault.jpg",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RApsKoC1a7s"
+    }
+  ]
+}

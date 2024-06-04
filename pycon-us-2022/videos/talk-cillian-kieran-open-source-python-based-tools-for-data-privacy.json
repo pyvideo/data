@@ -1,0 +1,30 @@
+{
+  "copyright_text": "CC BY",
+  "description": "In this talk, I make the case that the developer community has an opportunity to profoundly improve data privacy by shifting privacy upstream into the SDLC, where it belongs. I will share resources and lessons learned from my team's development of open-source, Python-based devtools for data privacy. Analogous to physical infrastructure, our digital infrastructure needs to be designed with trustworthiness at the forefront. As developers, we have often been left out of important design decisions about how technical systems actually process personal data. Typically, privacy risk is addressed reactively, and developers have to manually fulfill users' privacy requests across disparate data infrastructure. This reactive, burdensome approach to privacy pits trustworthiness against innovation. To build trustworthy systems at scale, we need devtools for proactive privacy, and the tools must fit within existing developer workflows.\n\nI will walk through the existing points of friction for developers today, the power of privacy embedded into the SDLC, and the tight bond between open-source and privacy. My team and I have learned that we can improve privacy at scale when the tools for privacy fit into developers' existing workflows and the infrastructure they use every day, including Snowflake warehouses, mongoDB databases, Redis session stores, and more. I will demonstrate what proactive privacy can look like for developers and data engineers: automatic flags for privacy risk in the CI pipeline, and streamlined privacy request fulfillment by traversing distributed data systems for custom data operations\u2014such as deleting personal data while upholding referential integrity across databases.\n\nOpen-source and privacy go hand-in-hand in offering developers and end-users digital infrastructure that they can trust. To tackle a problem as complex as modern privacy, the solution requires all of us to build shared, transparent, and community-informed privacy standards for technology worldwide.",
+  "duration": 1750,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/59/2022-05-01T18%3A53%3A23.697439/Fides-PyCon2022.pdf"
+    }
+  ],
+  "speakers": [
+    "Cillian Kieran"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/tuhJiz9_V6o/hqdefault.jpg",
+  "title": "Open Source, Python Based Tools For Data Privacy",
+  "videos": [
+    {
+      "length": 1750,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tuhJiz9_V6o"
+    }
+  ]
+}

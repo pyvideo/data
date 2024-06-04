@@ -1,0 +1,29 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly. It includes a port of CPython 3.9 to WebAssembly/Emscripten, and makes it possible to install and run Python packages in the browser. Pyodide comes with a robust Javascript \u27fa Python foreign function interface so that you can mix these two languages in your code with minimal friction.\n\nWe will walk through simple examples of how to run Python applications in the browser with Pyodide. We will also discuss the process of porting existing Python packages, including what makes a package suitable to port and what challenges are likely to arise.\n\nSome Criteria that Determine Suitability of a Project for Porting:\n\nPurely computational projects are simple to port to run in the browser. We are missing threading and multiprocessing, so you will need to be able to run single threaded. File system code mostly works unchanged. However, much of the UI and network access are very different inside the browser. Packages with a clean divide between doing computation and doing UI will be simpler to port, the UI parts may need to be rewritten or shimmed but the pure computation need not be.",
+  "duration": 2471,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    }
+  ],
+  "speakers": [
+    "Roman Yurchak",
+    "Hood Chatham"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/6u2pqQ4pC04/hqdefault.jpg",
+  "title": "Pyodide: A Python distribution for the browser",
+  "videos": [
+    {
+      "length": 2471,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6u2pqQ4pC04"
+    }
+  ]
+}

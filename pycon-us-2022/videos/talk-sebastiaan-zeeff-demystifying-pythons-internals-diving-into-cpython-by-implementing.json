@@ -1,0 +1,32 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Diving into the CPython source code can feel daunting. Whether you want to start contributing or just want to get a better understanding of Python by exploring its source code, it\u2019s often difficult to know where to start or what you\u2019re missing.\n\nIn my talk, I will show you around the CPython source code by implementing a new operator, a pipe operator. While doing so, I will discuss core parts of the internals, such as Python\u2019s grammar, its syntax trees, and the underlying logic that will perform the operation. By the end, you will have a good idea of the moving parts involved in core language features.\n\nI will also take you through the steps necessary to make it all work. I\u2019ll show you how I obtained a copy of the source code, regenerated the parser and token files, and how I compiled my modified version of CPython. I will also write and run tests to help me implement my changes. This should give you a mental framework that helps you while diving into more comprehensive resources, like the excellent Python Developer\u2019s Guide.\n\nMy talk is aimed at everyone who wants to explore CPython\u2019s internals. You don\u2019t have to be an expert in Python, although some affinity with Python helps with understanding the internals. I will also use C to implement some of the operator logic, but knowledge of C is by no means required. In short, if you\u2019re interested in diving into the CPython source code, this talk is for you.",
+  "duration": 1826,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/71/2022-04-28T15%3A55%3A04.181398/demystifying_cpython_internals_HANDOUT.pdf"
+    }
+  ],
+  "speakers": [
+    "Sebastiaan Zeeff"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/HYKGZunmF50/hqdefault.jpg",
+  "title": "Demystifying Python\u2019s Internals: Diving into CPython by implementing a pipe operator",
+  "videos": [
+    {
+      "length": 1826,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HYKGZunmF50"
+    }
+  ]
+}

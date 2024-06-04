@@ -1,0 +1,32 @@
+{
+  "copyright_text": "CC BY",
+  "description": "Every team implements authorization in their app to control which users can do what. You'd think by now we'd have a standard set of best practices for how to build it. And yet, we don't! Especially in the Python ecosystem. Why is authorization so hard?\n\nAuthorization is made up of three building blocks, each of which presents its own challenges:\n\n1. Enforcing authorization is hard because it needs to happen in so many places. Controllers, database mappers, routers, and user interfaces all need to enforce authorization. As a result, there are limited off-the-shelf approaches that work in all cases.\n\n2. Decision architecture is hard because you want to separate authorization from the application, but a lot of authorization data is application data too. A monolith can check its own database when it needs to make a decision, but what happens if you want to consolidate authorization into a separate service? Many off-the-shelf solutions focus on the separation \u2013 coordinating it and keeping everything in sync is challenging too.\n\n3. Modeling authorization is hard too. It's easy to whip up the first use case \u2014 adding a roles table to your database works for a while. But it's hard to start simple and grow into your complexity as you need it. And it's hard to make something powerful that's simple to get started with. The options available typically err on one end of the spectrum or the other.\n\nIn this talk, you'll learn the approaches for how to solve each of these areas and the associated tradeoffs.",
+  "duration": 1719,
+  "language": "eng",
+  "recorded": "2022-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://us.pycon.org/2022/schedule/"
+    },
+    {
+      "label": "Slides",
+      "url": "https://pycon-assets.s3.amazonaws.com/2022/media/presentation_slides/11/2022-04-29T22%3A32%3A41.095872/deck-fa3c23.pdf"
+    }
+  ],
+  "speakers": [
+    "Sam Scott"
+  ],
+  "tags": [
+    "talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/2BN96ON48U8/maxresdefault.jpg",
+  "title": "Why Authorization is Hard",
+  "videos": [
+    {
+      "length": 1719,
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2BN96ON48U8"
+    }
+  ]
+}
