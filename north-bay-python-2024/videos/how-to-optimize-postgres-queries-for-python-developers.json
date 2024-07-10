@@ -1,0 +1,29 @@
+{
+  "copyright_text": "",
+  "description": "Many Python applications use Postgres as their backing database - and that means, when we think about our application performance, we have to think about the database. In this talk we'll do a dive into best practices for optimizing Postgres queries, aimed at application developers.\n\nStarting with EXPLAIN ANALYZE (which shows you a Postgres query plan), we'll walk through common situations like how to debug a bad query plan by looking at row estimates, understanding JOIN order, the role of indexes (and which index types exist in Postgres) and how we can understand how much data is being loaded by the database behind the scenes.\n\nWhether you work with Postgres day to day, or only think about it when there is a slow query problem in your Python application, this will help you have a more productive relationship with the database. And even if you use a different database, a lot of the principles of debugging apply universally.\n",
+  "duration": 1559,
+  "language": "eng",
+  "recorded": "2024-05-29",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2024.northbaypython.org/"
+    },
+    {
+      "label": "Full playlist",
+      "url": "https://www.youtube.com/playlist?list=PLaeNpBNgqQWu1WqbrERc3MyrT7jarNM_n"
+    }
+  ],
+  "speakers": [
+    "Lukas Fittl"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9Sg3ozDoZRA/maxresdefault.jpg",
+  "title": "How to optimize Postgres queries for Python developers",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9Sg3ozDoZRA"
+    }
+  ]
+}
