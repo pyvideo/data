@@ -1,0 +1,29 @@
+{
+  "copyright_text": "",
+  "description": "We introduce [marimo](https://github.com/marimo-team/marimo), an open-source reactive notebook for Python that addresses several [common complaints](https://docs.marimo.io/faq.html#faq-problems) about first-generation notebooks.\n\nmarimo notebooks are reproducible, with a [reactive runtime](https://docs.marimo.io/guides/reactivity.html) that eliminates hidden state; interactive, [with UI elements](https://docs.marimo.io/guides/interactivity.html) that are automatically synchronized with Python (no callbacks); expressive, supporting markdown that can be parametrized by arbitrary Python values; stored as pure Python files, so they are Git-friendly; executable as scripts; and shareable as web apps or WASM-powered static HTML.\n\nmarimo is used today by scientists and developers at several companies and research institutions, including SLAC and Stanford.\n\n## A reactive programming environment\n\nmarimo keeps code, outputs, and program state consistent. Run a cell and marimo reacts by automatically running the cells that reference its declared variables. Delete a cell and marimo scrubs its variables from program memory, eliminating hidden state. \n\nOur reactive runtime is based on static analysis, forming a dataflow graph based on variable declarations and references. To ensure the dataflow graph is well-formed, marimo imposes two constraints on user code: variables can be defined in at most one cell, and cyclic references across cells are disallowed. \n\n## The marimo library\n\nmarimo is both a notebook and a library \u2014 importing the marimo library provides the user with utilities for authoring dynamic markdown; creating interactive UI elements; rendering progress bars; and more. \n\nmarimo's interactive elements feed into reactivity: interacting with elements such as sliders or selectable plots automatically sends their values to Python and triggers execution of cells referencing variables bound to the interacted-with elements. We extend this rule to support higher-order elements such as submittable forms, dictionaries, and arrays of constituent elements.\n\n## A pure Python file format\nmarimo notebooks are stored as pure Python files, designed so that small changes in notebook code yield small diffs. These files are also executable, with cells run in a topologically sorted order. We discuss the design of this file format, as well as trade-offs made.\n\n## Shareability\nmarimo is easily shared: notebooks can be run as read-only apps from the command line, and exported as interactive WASM-powered static HTML.\n",
+  "duration": 1126,
+  "language": "eng",
+  "recorded": "2024-05-29",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2024.northbaypython.org/"
+    },
+    {
+      "label": "Full playlist",
+      "url": "https://www.youtube.com/playlist?list=PLaeNpBNgqQWu1WqbrERc3MyrT7jarNM_n"
+    }
+  ],
+  "speakers": [
+    "Akshay Agrawal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9R2cQygaoxQ/maxresdefault.jpg",
+  "title": "marimo: an open-source reactive notebook for Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9R2cQygaoxQ"
+    }
+  ]
+}
