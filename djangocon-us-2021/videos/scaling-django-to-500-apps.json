@@ -1,0 +1,22 @@
+{
+    "description": "Have you ever...\n- Felt like a Django codebase is a bit of a mess?\n- Struggled to find where something happens in a codebase?\n- Felt like Microservices is the only way to manage your complexity?\n\nThis talk is a tour of the techniques, conventions, and tools, that Thread uses to scale our Django codebase. These have helped us over the years to add more developers, more code, more functionality, and more frequent releases, while still being productive in one large Django codebase.\n\nWe have nearly 500 apps, around 450 models, around 400k lines of Python, and around 1000 URL patterns. We've also had many more over the past 8 years and 120k commits. Despite this, we release around 10-20 times a day with a small engineering team.\n\nSome of the things we'll cover include:\n- What goes into an app\n- Structuring apps for readability\n- Tools and techniques\n- Issues to be aware of\n- Things we got wrong when we started!\n- Our wishlist for improvements to Django to better support apps\n\nThis talk is targeted at those familiar with Django concepts, but those working day to day with other engineers on a Django codebase are likely to get the most out of it.",
+    "language": "eng",
+    "recorded": "2021-10-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2021.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Dan Palmer"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/NsHo-kThlqI/maxresdefault.jpg",
+    "title": "Scaling Django to 500 apps",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/NsHo-kThlqI"
+        }
+    ]
+}

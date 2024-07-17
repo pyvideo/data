@@ -1,0 +1,22 @@
+{
+    "description": "Though controversial, people generally agree that a major value of Python type hints is safety. Robust type safety reduces a whole category of defect to nothing, allowing developers to focus on bigger problems. What if we could do this for our API calls?\n\nGraphQL provides not just a query language, but a type system. The producer and consumer are both aware of the type schema, enabling a boost in productivity at an integration point where mistakes commonly occur. Django has long been a full stack engine at its core, and then a RESTful API engine with the wide adoption of django-rest framework. Where can it go next?\n\nThe graphene-django package enables a Django project to provide a GraphQL endpoint built from its models. Using a declarative style most Djangonauts will find beautifully familiar, graphene-django helps developers spin up APIs quickly for consumption by client-side GraphQL consumers like [Apollo](https://www.apollographql.com/).\n\nIf you attend this talk, you'll come away having learned:\n\n* How GraphQL compares to REST\n* Why this approach can help you maintain loose coupling between teams\n* How to build GraphQL types on top of your Django models\n* How to provide a schema that resolves queries to model fields\n* How to try your new API out in the browser",
+    "language": "eng",
+    "recorded": "2021-10-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2021.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Dane Hillard"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/LoJD36m1JRM/maxresdefault.jpg",
+    "title": "graphene-django or: How I learned to stop RESTing and Love the Graph",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/LoJD36m1JRM"
+        }
+    ]
+}

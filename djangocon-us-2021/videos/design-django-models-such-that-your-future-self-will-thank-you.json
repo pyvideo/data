@@ -1,0 +1,22 @@
+{
+    "description": "While designing Django models, our primary objective is to develop a structure that'll enable us to build the said product feature, but while doing so ~we~ I used to neglect things like a) Ease of debugging/Auditing, b) Query patterns, c) and Scalability, and later when push came to shove these things used to become a blocker. While we can't possibly think and preempt everything from day 1(and if you try to - it'll take long to roll that feature out), we can do something better \ud83e\udd14.\n\nIn this talk, we're going to be focusing on how you can avoid those mistakes early in your design phase \ud83d\ude0c - these are all the learnings I have had after making mistakes. We are going to cover the following - \n\n- Auditing your models\n- Boolean field for flags vs. timestamped field\n- Soft delete vs. hard delete\n- Many boolean flags in a model? \n- How do you decide when to de-normalize?\n- And much more ...\n\n *As with every piece of advice in life, the answer of whether you should apply these or not is - **\" it depends.\"** In this task, we'll also discuss when you can use this advice and when you can choose to skip it.*",
+    "language": "eng",
+    "recorded": "2021-10-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2021.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Tarun Garg"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/dXCh8m4P5Tc/maxresdefault.jpg",
+    "title": "Design django models such that your future self will thank you \ud83d\udc4b",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/dXCh8m4P5Tc"
+        }
+    ]
+}

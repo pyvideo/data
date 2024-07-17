@@ -1,0 +1,22 @@
+{
+    "description": "# REST, HATEOAS & Django -\n*it's OK to not use JSON... or Javascript* \n\n## Intro\n\nIn this talk we will revisit the basics of REST (REpresentational State Transfer), a term coined by Roy Fielding to describe the web network architecture, in contrast with older client-server network architectures.  In particular we will focus in on the \"Uniform Interface\" constraint and get to the bottom of what that means, discussing each of the following:\n\n* Resource identification in requests\n* Resource manipulation through representations \n* Self-descriptive messages\n* Hypermedia as the engine of application state (HATEOAS) \n\nwith a particular focus on the last two.\n\n## REST: Wandering in the Desert\n\nAfter gaining a deeper understanding of REST, we will look at the history of REST in development.  We will look at how the term was appropriated for use in XML APIs, when AJAX first emerged, and how it was then retained when APIs switched to JSON.  I will demonstrate why this is inappropriate by focusing on the ideas of the self-descriptive messages and HATEOAS constraints of REST.  We will look at recent developments in the JSON API space and how they are moving away from the concept of REST.\n\n## REST: A New Hope\n\nFinally, having established that REST does not apply well in the JSON API world, we will ask *where* it is appropriate and answer: in hypermedia systems.  And, it will turn out, tools like Django are wonderful for producing hypermedia systems!  In reexamining the hypermedia approach, and how it trivially satisfies the REST-ful architecture, we will look at a tool, htmx, that can help you create more advanced user experience while staying within the hypermedia architecture.\n\nIt's OK to not use JSON... or Javascript!",
+    "language": "eng",
+    "recorded": "2021-10-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2021.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Carson Gross"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/L_UWY-zHlOA/maxresdefault.jpg",
+    "title": "REST, HATEOAS & Django - It's OK to not use JSON... or Javascript",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/L_UWY-zHlOA"
+        }
+    ]
+}
