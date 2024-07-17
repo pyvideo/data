@@ -1,0 +1,22 @@
+{
+    "description": "Django migrations are a great tool for keeping track of changes you made to your models over time.\nAfter years of changes in a project they can become very numerous and you may notice that it takes a long time to create the test database.\n\n`squashmigrations` can help you reduce an existing set of many migrations down to one (or sometimes a few), which still represent the same changes.\nHowever it has some limitations, and it could work in a way you don't need.\n\nLet's inspect this command and the alternative of creating migrations \"from scratch\" in an existing project for improving your tests speed.\n\n- inspecting django migration commands\n    - `makemigrations`\n    - `migrate`\n    - `showmigrations`\n    - `sqlmigrate`\n- creating a sample project with multiple migrations\n- analyzing test performances\n- inspecting the `squashmigrations` command\n- squashing migrations in the sample project and comparing performances\n- not enough? Let's try an \"exotic/drastic\" way to squash our migrations\n- comparing performances of the \"exotic/drastic\" solution\n\nThe key point of this talk is to speed up django testing in projects with many migrations",
+    "language": "eng",
+    "recorded": "2023-10-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Denny Biasiolli"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/YYF1b1QdPlA/maxresdefault.jpg",
+    "title": "Django migrations, friend or foe? Optimize your Django migrations for faster testing",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/YYF1b1QdPlA"
+        }
+    ]
+}

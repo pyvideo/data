@@ -1,0 +1,22 @@
+{
+    "description": "It's easy to get caught up in testing metrics. We all do it. We aim for 100% code coverage, try to hit all branches, write good integration tests, and all the other good developer practices. These all indicate that we are building our product right, but are we building the right product?\n\nThere's a different mentality when it comes to answering this question. We, as developers, can't just make sure that the code does what *we* want it to do. We need to think about what our users want. We need good requirements and specifications and we need to make sure that we are covering user acceptance testing.\n\nIn this talk, we're going to discuss why requirements are hard to get right, and how we can solve some of those problems. We'll introduce strong traceabilty with executable specifications and then talk about how to tie that directly to your Python tests.\n\nWe'll discuss behavior driven development, primarily with the `behave` library. After we cover the basics, we'll look at a Django application and talk about the challenges in performing user acceptance testing on websites. We'll use the `selenium` library to drive website interactions through Python, and tie it all together with acceptance tests.\n\nThis talk assumes basic knowledge of testing practices, Python, and HTML/JavaScript.",
+    "language": "eng",
+    "recorded": "2023-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Pat Viafore"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/3VcprC3G7aQ/maxresdefault.jpg",
+    "title": "BDD To The Bone: Acceptance Testing with Behave and Selenium",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/3VcprC3G7aQ"
+        }
+    ]
+}

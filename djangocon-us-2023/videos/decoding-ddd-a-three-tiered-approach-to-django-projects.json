@@ -1,0 +1,22 @@
+{
+    "description": "## Audience\n\nThis talk is geared towards intermediate to advanced Django developers who want to improve the structure and maintainability of their projects.\n\n## Description\n\nEvery project has its unique history and limitations. In this session, I will navigate you through three levels of implementing DDD in Django, from basic to advanced. You will understand how to apply DDD to your Django project strategically and tactically and learn how to balance the costs and benefits of each level.\n\n**Level 0: Ubiquitous Language and Bounded Contexts**\n\nWe'll begin with an easy-to-implement approach, focusing on strategic DDD patterns. Then, we'll delve into creating Ubiquitous Language and discovering Bounded Contexts through Event Storming sessions - an engaging technique to visualize and define domains collaboratively.\n\n**Level 1: DDD tactical patterns**\n\nWe'll move on to tactical patterns like entity, aggregate, repository, and domain services. Here, you'll understand how the standard usage of Django models may lead to a lack of integrity and how DDD patterns can provide business-level integrity.\n\n**Level 2: Advanced DDD**\n\nFinally, we'll explore advanced DDD techniques. We'll cover how to design a domain layer in pure Python independent of the framework and why this approach can lead to cleaner, more testable code.\n\n## Takeaways\n\nBy the end of this talk, you will have:\n1. A clear understanding of implementing DDD in Django projects at different levels based on your requirements.\n2. A solid grasp of the strategic and tactical patterns in DDD and how they can improve your Django project.\n3. Hands-on experience in creating Ubiquitous Language and discovering Bounded Contexts through Event Storming sessions.\n4. Knowledge of how to ensure business-level integrity in your project using DDD tactical patterns.\n5. Insights on how to write a domain layer in pure Python, independent of the framework, and how it can lead to cleaner, more testable code.\n\n## Engagement\n\nIn this session, I will focus on linking theory with practical examples. Drawing from my experience refactoring a 5-year-old Django monolith, which continues to be actively developed by five different teams, I have many real-world examples to illustrate different approaches. These examples are particularly insightful as they are based on diverse DDD approaches tried in various parts of the project and incorporate feedback from developers and business experts.",
+    "language": "eng",
+    "recorded": "2023-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Pavel Sviridov"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/72V-5hrilv0/maxresdefault.jpg",
+    "title": "Decoding DDD: A Three-Tiered Approach to Django Projects",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/72V-5hrilv0"
+        }
+    ]
+}

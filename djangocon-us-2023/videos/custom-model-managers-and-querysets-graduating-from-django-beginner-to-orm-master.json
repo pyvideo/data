@@ -1,0 +1,22 @@
+{
+    "description": "In my journey as a Django developer, I know the moment when I did not consider myself a beginner anymore: when I started leveraging Django custom model managers and querysets. Initially they can seem intimidating and potentially complex. However, they can help make your use of the ORM more efficient, allow you to encapsulate complex and repetitive queries, and provide an API surface area that makes it easier to introduce certain changes to Model fields and queries, among other benefits.\n\nOutline:\n- A general overview of Model Managers/QuerySets\n- How to define a custom Manager/QuerySet and either override the built-in one Django provides or add additional ones.\n- The difference between a custom model manager and queryset and where you may use one over the other\n- A few useful patterns I keep reaching for:\n- `.for_user(user)` - filtering a queryset to include only the objects a user has access to\n- `.with_complicated_legacy_raw_SQL_query()` - when migrating a legacy system to Django, I used this extensively before translating the original raw SQL into Django ORM\n- `.exclude_some_condition(condition)` - excluding certain objects based on a condition\n\nThis talk is aimed at beginners and intermediates with a basic familiarity with the Django ORM. Towards the end of the talk, we will dip our toes in more advanced parts of the ORM (annotations/aggregations, subqueries, etc.) to show the potential of custom Managers/QuerySets.",
+    "language": "eng",
+    "recorded": "2023-10-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Josh Thomas"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/0irSaCTMb5E/maxresdefault.jpg",
+    "title": "Custom Model Managers and QuerySets: Graduating from Django Beginner to ORM Master",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/0irSaCTMb5E"
+        }
+    ]
+}

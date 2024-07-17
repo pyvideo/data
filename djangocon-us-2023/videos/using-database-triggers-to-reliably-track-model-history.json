@@ -1,0 +1,23 @@
+{
+    "description": "Tracking model history is an essential aspect of many web applications, as it allows developers to monitor and analyze changes made to the data over time. In Django, the majority of history tracking apps are implemented in Python at the application level, making a tamper-proof audit trail nearly impossible to implement accurately.\n\nBy utilizing triggers, developers can automate the process of capturing and storing changes made to models within the database itself. This approach offers several benefits. Firstly, it reduces the complexity of manually implementing and maintaining history tracking functionality in Django code. Triggers provide a centralized and standardized mechanism to monitor modifications, ensuring consistency and accuracy across multiple models and applications.\n\nSecondly, triggers enable the tracking of changes at a database level, resulting in improved performance and reduced overhead. Since the triggers are executed within the database engine, they can efficiently capture modifications without requiring additional round-trips between the application and the database. This efficiency is particularly valuable when dealing with large datasets or frequently updated models.\n\nFurthermore, triggers provide a reliable and tamper-proof history of model changes. By operating at the database level, triggers can capture modifications regardless of whether they originate from Django or other external sources. This capability ensures that all changes to the model are consistently tracked, eliminating the risk of data loss or incomplete history.\n\nAdditionally, utilizing triggers for model history tracking in Django promotes data integrity and compliance with auditing requirements. By maintaining a comprehensive record of changes, developers can trace back and analyze the evolution of data, helping to identify potential issues, perform forensic analysis, or meet regulatory obligations.\n\nIn this talk, we show how to implement history tracking using [django-pghistory](hub.com/opus10/django-pghistory), an app that uses Postgres triggers to track historical changes. We discuss the philosophy of django-pghistory and how it models historical changes so that engineers can use structured history tables that mirror tracked models. We show how users can attach free-form context from the application to group together changes, forming a more coherent audit trail. We also discuss several other application-specific examples of using django-pghistory in practice, for example, using conditional history triggers to track and snapshot specific events.",
+    "language": "eng",
+    "recorded": "2023-10-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Wes Kendall",
+        "Maxwell Muoto"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/LFIAqFt9z2s/maxresdefault.jpg",
+    "title": "Using database triggers to reliably track model history",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/LFIAqFt9z2s"
+        }
+    ]
+}

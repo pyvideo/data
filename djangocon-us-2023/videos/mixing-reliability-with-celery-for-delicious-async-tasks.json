@@ -1,0 +1,22 @@
+{
+    "description": "Celery is essential for asynchronous processing in Django backends. In multiple Django projects, we used far beyond the use case of sending emails without blocking HTTP responses. Celery helped us aggregate data, fill caches, run ETL workflows, parallelize heavy workloads, sync with external services, set up periodic background jobs, and much more.\n\nBut as with any distributed system, running Celery reliably in production is challenging. Due to the many issues we\u2019ve seen on Celery, we considered many times replacing it with other task queues. But we never found another library with the features Celery offers. So we had to learn to work around its shortcomings and pitfalls. After years of running it in multiple Django projects, we faced and solved several reliability problems. We remediated concurrency hazards. We dealt with lost tasks in multiple edges of the architecture. We read tons of docs, articles, and issues to properly tweak settings. We fixed weird serialization bugs after version upgrades. We found what kind of monitoring really needed.\n\nIn this talk, you will learn how to configure, use and monitor Celery successfully in production. Celery performs well in simple contexts, because of that it might induce a false sense of safety that can be misleading as usage picks up and flows become more complex. Understanding the many ways it can fail as projects grow will help developers to prepare in advance.\n\nOutline:\n- [2 minutes] Common concurrency issues\n- [5 minutes] Recommended settings\n- What Broker and Result Backend to use\n- What happens when using others\n- Serialization: pickle or not?\n- Thresholds and limits\n- Timeouts and expires\n- [5 minutes] How tasks can be lost and how Celery (tries) to solve that\n- ACKS_LATE, idempotency, and retries\n- Why that task again? Visibility timeout, prefetches, and automatic redelivering\n- Dead worker process, lost task\n- You need atomicity too\n- [5 minutes] Don\u2019t use Celery canvas workflows: you need DB-level state\n- [2 minutes] Multiple queues and workers will save you from complex incidents\n- [2 minutes] The only monitoring you can trust: probe tasks\n- [2 minutes] Graceful shutdowns: Celery and Continuous Deployment\n- [3 minutes] Questions",
+    "language": "eng",
+    "recorded": "2023-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Flávio Juvenal"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/VuONiF99Oqc/maxresdefault.jpg",
+    "title": "Mixing reliability with Celery for delicious async tasks",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/VuONiF99Oqc"
+        }
+    ]
+}

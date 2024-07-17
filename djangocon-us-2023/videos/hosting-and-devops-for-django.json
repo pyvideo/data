@@ -1,0 +1,22 @@
+{
+    "description": "Production server infrastructure is a complicated beast that requires configuring and coordinating dozens of tools and services.  You have a new Django application and you're ready to deploy it; what next?  You have an existing Django application and you set up the servers yourself; what can you do better?  One mistake in a server setup can lead to major downtime or a security breach of a website.  Short of that, it can cause a lot of headaches for developers as complexity spirals out of control.\n\nI\u2019m the co-founder CTO of [Zagaran, Inc.](https://zagaran.com), a software consulting company.  Over the past 10 years, we\u2019ve built, maintained, and deployed dozens of Django websites, and have an extensive playbook for how to do that well.  In this talk, I draw from that playbook and go through the main ingredients for creating a robust and secure Django deployment.  For each piece, we'll look at the technologies and techniques to do it well.  We'll focus on AWS as a hosting platform, but these approaches work on any major cloud provider.\n\nThis talk is aimed at anyone that is working with the servers and/or deployment process of a production Django project.  For people setting up a new set of servers for a Django project, this talk should be a good overview of the approach they need to take.  For people with an existing server setup for a Django project, this talk should help them identify issues that they had missed and ways to make their servers easier to manage.\n\nIn this talk, we'll look at three main ways to host an application:\n1. Platform as a Service\n2. Managed Container Service\n3. Kubernetes\n\nWith that as framing, we'll cover the following other aspects of DevOps:\n* Application hosting\n* Server security\n* Automating deployments\n* Databases and migrations\n* Secrets management\n* File storage\n* Server monitoring\n* Server maintenance\n* (and more!)",
+    "language": "eng",
+    "recorded": "2023-10-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Benjamin \"Zags\" Zagorsky"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/nCaEXtFTpKQ/maxresdefault.jpg",
+    "title": "Hosting and DevOps for Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/nCaEXtFTpKQ"
+        }
+    ]
+}

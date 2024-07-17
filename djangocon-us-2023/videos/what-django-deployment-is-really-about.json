@@ -1,0 +1,22 @@
+{
+    "description": "People often spend so much time learning how to build apps in Django that when it comes time for deployment, it feels like a whole new world that they don't understand. Deployment recipes might help them get their app online--but then again they might not, if the steps that worked yesterday don't work today. Even if they do get online, they might not understand that deployment process anymore than they did before.\n\nInstead of offering another set of steps, I think we can help beginners to make sense of deployment by reducing the entire process to four major areas of concern and equipping them to think through each of these on its own terms:\n\n1. Static Files - why do I have to worry about these now? I thought `{% raw %}{% static %}{% endraw %}` was handling it?\n2. Database - does my sqlite3 file not work in deployment? How do I use my cloud provider's remote DB?\n3. WSGI Server -  how do I run my app in production? Doesn't manage.py runserver work? I've never heard of WSGI, what is it and why does it matter to my Django project?\n4. Web Server (Apache/nginx/PaaS) - What do I need to understand about web servers like Apache or nginx to get my project online? Do I even need to configure a web server if I go with PaaS?\n\nWe'll also consider:\n- Django's deployment checklist\n- django-simple-deploy\n\nA link to slides will be posted after the talk at http://james.walters.click/",
+    "language": "eng",
+    "recorded": "2023-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "James Walters"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/t-wsiW5mkgA/maxresdefault.jpg",
+    "title": "What Django Deployment is Really About",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/t-wsiW5mkgA"
+        }
+    ]
+}

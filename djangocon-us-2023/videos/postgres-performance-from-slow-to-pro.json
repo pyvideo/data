@@ -1,0 +1,22 @@
+{
+    "description": "At some point, every application is limited by the database. You don\u2019t have to be a Postgres expert to get started with a few key performance improvements. This gentle introduction is meant for folks who\u2019ve never ventured into their database before, or those who have been turning knobs blindly. I\u2019ll present how Postgres uses memory. Then, I\u2019ll connect that to how you can monitor, tune, and optimize queries. You\u2019ll be ready to take on the challenge as your application grows.\n\n#### Review of how Postgres uses memory\nMeasuring cache hit ratio\nMeasuring memory usage and tuning\nMeasuring shared buffer usage and tuning\n\n#### Connection settings\nDefault connection settings, knowing when you need more\n\n#### Stop runwaywas\nSetting a statement timeout\nFinding and stopping transactions\n\n#### Query performance\nUsing EXPLAIN\nReading and understanding EXPLAIN plans\nLogging EXPLAIN plans\nAdding Indexes",
+    "language": "eng",
+    "recorded": "2023-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Elizabeth Christensen"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/gpbpVheR3gM/maxresdefault.jpg",
+    "title": "Postgres Performance: From Slow to Pro",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/gpbpVheR3gM"
+        }
+    ]
+}
