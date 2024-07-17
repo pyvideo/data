@@ -1,0 +1,22 @@
+{
+    "description": "There have been a number of updates in the Python & Django documentation ecosystem, and this talk is an overview of those changes. The goal is to give everyone in attendance the tools that they need to help their organization or open source project build good documentation culture.\n\nAuthoring: Historically using Sphinx & reStructuredText has been the standard in the Django community, but not using Markdown has been a historical barrier to adoption, especially when adapting standards inside a company that aren't just using Python. With Sphinx having solid Markdown support, this worry has now been mostly removed, and enables the full power of Sphinx without having to learn a new markdown format.\n\nDesign: Similarly, the style of the documentation that is created has been a very important consideration for most projects and companies. With new Sphinx themes like the Furo theme, it's much easier to have a modern theme that is customizable enough to make it fit into the style of the rest of your site and brand.\n\nUser experience: Once you have the basic authoring and styles for your documentation, there are a number of ways to improve the user experience of the site. In this section we cover a few of the newest Sphinx extensions that provide a nicer UX for users:\n\n* sphinx-copybotton: A simple extension that adds a copy button to every code block\n* sphinx-tabs: An extension that lets you have nice toggable tabs in your docs, for example multiple language examples\n* sphinx-hoverxref: An extension that gives you automatic tooltips on links to your documentation and other sphinx documentation via intersphinx\n* sphinx-design: A toolkit that adds a large number of design elements easily to your docs (buttons, grids, cards, etc.)\n\nDeployment: On the deployment side, there have also been a number of updates to Read the Docs, which is a common deployment platform. They now support pre-build steps that allow you to do a number of things before the building of your documentation. This talk will cover a few examples of valuable pre-build steps like generating API documentation from an external tool, doing a check in your git repo to see if you should even run the build, and a few other options.",
+    "language": "eng",
+    "recorded": "2022-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Eric Holscher"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/mqn0D4xat58/maxresdefault.jpg",
+    "title": "Documenting Django Code in 2022",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=mqn0D4xat58"
+        }
+    ]
+}

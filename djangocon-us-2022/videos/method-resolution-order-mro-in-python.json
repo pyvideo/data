@@ -1,0 +1,22 @@
+{
+    "description": "Imagine implementing inheritance in a programming language. At first, it looks like all the methods and attributes will be inherited by the child class. While it works for the majority of scenarios, as soon as we hit multiple-inheritance, deciding what method/attribute will take precedence, becomes a  daunting task.\n\nThis is also known as the diamond problem. While some languages use an algorithm such as right-first-depth-first search to solve this, Python 2 used Depth-first from Left to Right (DLR) and Python3 uses C3 Linearization Algorithm. Getting hold of this information will help you not succumbing to the common pitfalls with the arrangement of name lookups in a class hierarchy.\n\nMRO (Method Resolution Order) defines the class search path for linearizing the class ancestor tree. We\u2019ll also have a look at how C3 algorithm is monotonic as it guarantees that base class declaration is preserved and subclasses appear before base classes. We\u2019ll further explore MRO using `__bases__`, `__base__`, `__mro__` magic methods.",
+    "language": "eng",
+    "recorded": "2022-10-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Sanyam Khurana"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/lee9uKxzCcY/maxresdefault.jpg",
+    "title": "Method Resolution Order (MRO) in Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=lee9uKxzCcY"
+        }
+    ]
+}

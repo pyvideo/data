@@ -1,0 +1,22 @@
+{
+    "description": "Django ORM allows to seamlessly represent DB data as instances of Python classes (models).  This includes relationships between objects, such that when a model (A) has a foreign key relationship (let\u2019s say field name \u2018related_b\u2019) to another model (B), all you need to do to navigate from an instance of A (a) to the related instance of B (b) is \u201ca.related_b\u201d.  By default, this will fetch \u201cb\u201d from the database, which is both amazingly convenient and also terrifying.  I say terrifying with some degree of jest, but also plenty of seriousness that will be appreciated by those of us who know what it\u2019s like to deal with a production database that is melting under load.  While Django provides ways of dealing with this, such as select_related and prefetch_related, as well as cached properties, the need for intervention is not easy to realize until the said database starts melting.  In an application that has any degree of complexity, it would be advisable to guard against excessive queries at some granular level, such as, for example, a request.  The talk will cover:\n\n* How to Implement a middleware class that can accumulate and report on different sources of DB queries encountered during a request\n* A few non-trivial examples of excessive queries and showing various practical approaches to eliminating them\n* How to write tests that guard against increases in number of DB queries\n* How to ensure that all your endpoints are covered in the above tests\n\nIf you are familiar with basic workings of Django models and how they are persisted in relational databases, this talk will give some ideas for how to optimize your database interactions, especially in more complex and high-scale applications.",
+    "language": "eng",
+    "recorded": "2022-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Ilya Bass"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/bohQNa1AN9M/maxresdefault.jpg",
+    "title": "Herding your database queries: diagnosing, improving and guarding performance of DB interactions in your Django apps",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=bohQNa1AN9M"
+        }
+    ]
+}

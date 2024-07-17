@@ -1,0 +1,22 @@
+{
+    "description": "After working using the factory_boy library for over 3 years on a Django monolith containing +230 tables, +2200 relevant files, and +75k relevant lines of code, I've collected and listed all my biggest learnings.\n\nIn this presentation, I try to share some of my experiences, showing what I consider to be good practices in using factory_boy in complex systems.\n\nContent:\n\n* A short introduction of myself\n* factory_boy: what is it? - the definition and the purpose of the tool\n* Example application - a quick overview of the application we will use to demonstrate the best practices\n* How to install factory_boy\n* How to use factory_boy\n* Best Practices:\n\n1. Factories must represent their models\n2. Do not rely on defaults from factories\n3. Factories must have only the required data. if the field is nullable -> under traits.\n4. Build over create\n5. If FK is in the table -> SubFactory. If FK is in the other table -> RelatedFactory + trait\n6. Fixtures only to wrap factories in the test file\n7. Avoid using fixtures on shared files like conftest\n\n* Wrapping up\n\nRepository: https://github.com/camilamaia/factory-boy-best-practices",
+    "language": "eng",
+    "recorded": "2022-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Camila Maia"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/OR-HwCPdFxo/maxresdefault.jpg",
+    "title": "factory_boy: testing like a pro",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=OR-HwCPdFxo"
+        }
+    ]
+}

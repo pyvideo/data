@@ -1,0 +1,22 @@
+{
+    "description": "Predicting a lightning strike with 99.6% accuracy requires advanced algorithms, expert developers and data \u2014 a lot of data. FLASH Scientific Technology pulls data from a variety of sources including weather radars and location-specific information like altitude, moisture, wind direction and temperature. It was imperative that FLASH develop an application that could pull, read and process the data both quickly and accurately.\n\nIn this case study and product demo, you\u2019ll learn how to take an algorithm and idea from a Jupyter Notebook to production ready and cloud native.\n\n(1) Optimize Python code structure\n-- As the Zen of Python states, \u201csimple is better than complex.\u201d The first part of this presentation will focus on the importance of reviewing and simplifying code to ensure faster data processing speeds and that the code is easy to both read and duplicate.\n(2) Build fast, efficient and accurate APIs with Django\n--Once the code is optimized, it\u2019s ready for production. You\u2019ll learn how we built an interface that could both request data from various web services and quickly make accurate predictions using FLASH\u2019s proprietary and patent-issued algorithm. Specifically, this talk will feature:\n1. best practices and lessons learned, including insight into why we stored all of the Django application elements in a single library;\n2. why all of the data needed to be pulled directly from the cache; and\n3. why the algorithm was kept separate.\n(3) Deploy serverless and scalable applications using AWS Lambda and AWS Fargate\n--Finally, this talk will:\n1. showcase how the Django application we built integrates seamlessly with the serverless components of AWS including AWS Lambda and AWS Fargate;\n2. unveil the secrets of building Python Container Images for AWS Lambda (Hint: by using container images for Lambda code vs. manually submitting .zip files we saved significant time, money, and effort. We also reduced errors associated with manual changes.);\n3. review the importance of building applications to be serverless from the beginning.\n(4) Product Demo\n-- Today, the application \u2014 which initially took minutes to make lightning strike predictions with 99.6% accuracy and a 15- to 25-minute lead time (saving time, money and lives) \u2014 can predict when and where lightning will strike in just seconds. The presentation will conclude with a demo of the product, which is deployed with GitLab CI/CD merge request pipeline.\n\nBoth beginner and intermediate developers will benefit from this talk, and it is ideal for developers wanting to learn how to use Django for complex predictive-technology projects.",
+    "language": "eng",
+    "recorded": "2022-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Calvin Hendryx-Parker"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/77sIl2MsSgU/maxresdefault.jpg",
+    "title": "Predict Lightning Strikes using Django and AWS",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=77sIl2MsSgU"
+        }
+    ]
+}

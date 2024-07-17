@@ -1,0 +1,22 @@
+{
+    "description": "## Why Frontend Frameworks are getting Popular?\n\nYour User Interface is the first impression you make on your website visitors. Thus User Interface is a critical component of your web application. It becomes necessary to make it simple, efficient, and at the same time attractive. Developing complex user interfaces with traditional methods like Vanilla Javascript or Jquery library is time-consuming and can get messy after some time. Nowadays, there are many frontend frameworks such as React, Angular, Vue, and more. These frameworks make the process of frontend development much cleaner, faster, and easier.\n\n## How to use React with Django?\n\nThe most common solution shown by many tutorials and blogs on the Internet is to develop two isolated projects, one for the frontend and the other for the backend. All the interactions between these two projects happen through APIs. This approach is used in large projects since they generally have dedicated teams for the backend and frontend. But this approach may not be suitable for individual or small-scale projects due to a variety of reasons like the cost for deployment, time consumption, and losses of features provided by Django Framework (forms).\n\nA more Django-friendly approach would be to serve a single template (HTML) document, and then let React take over. This approach gives you the liberty to use plain HTML and Vanilla Javascript for simple pages or forms, and for highly interactive pages, one can take advantage of React. Using HTML and Vanilla Javascript for the simple pages can help reduce the bundle size of the frontend and thus help in reducing the loading time and improving the overall User Experience.\n\n## Why did I develop this Package?\n\nWhen I decided to integrate Django and React, it took me two full days only to configure the project. I had many errors while writing the Webpack configuration file and many dependencies issues. After this experience, I realized why not automate these steps so other users will not get demotivated from trying Django and React, and this is how django_webpack_dev_server was born.\n\n## How this Package Helps you!\n\nThe package provides a command to set up a React app in both Javascript and Typescript programming languages. The resulting app would be a Django app with a webpack configuration with CSS and SCSS support. The webpack dev server would proxy the Django server in the development phase. After running the build script, the frontend code gets bundled into a single Javascript file and is available for Django to serve from an HTML template. After the setup, it is easy to install other npm packages and modify the webpack configuration as per specific requirements. Since the package is used in development only, there is no need to add it to the requirements.txt file of the production environment.",
+    "language": "eng",
+    "recorded": "2022-10-19",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Jiten Sidhpura"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/0YRFxWSIZnI/maxresdefault.jpg",
+    "title": "Integrating React in the Django way!",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=0YRFxWSIZnI"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "description": "While containers have a lot of advantages they can also bring a lot complexity into deploying Django to production, but you don't need them to have a stable, reliable site.\n\nTo get started, you need to choose a web server. In this talk we'll compare synchronous servers, like gunicorn and cherrypy, to asynchronous servers such as Daphne and Uvicorn. We'll look at benchmarks, how they are configured, how they are managed and what they do to avoid resource contention and improve reliability of your site.\n\nWe'll also take a look at how your server of choice can be restarted during deploy by using supervisord or systemd.\n\nBy the end you'll be more informed on how to deploy your code, the complexities associated with it and have a set of best practices that can be used to bootstrap your production environment.",
+    "language": "eng",
+    "recorded": "2022-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Eduardo Felipe Castegnaro"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/O6xRrYMtKoE/maxresdefault.jpg",
+    "title": "You Don't Need Containers to Run Django in Production",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=O6xRrYMtKoE"
+        }
+    ]
+}
