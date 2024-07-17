@@ -1,0 +1,22 @@
+{
+    "description": "Over the last 6 years I've been working on many different projects that needed to manage great amounts of data. I've stumbled upon some common response time issues that could arise while developing production web applications in Django.\n\nThis talk will present some of these real use cases and how to prevent and solve them using best practices, most of them proposed by Django in their documentation, and different debug tools. The idea is also to stand out the importance of understanding which queries are performed under the hood in Django in order to determine what's the best solution in case response times need to be improved.\n\nWe\u2019ll cover:\nWhat could improve or prevent high response times in the Django admin. How to determine what's the cause if this happens.\nWhat could improve or prevent high response times with DRF. How to determine what's the cause if this happens.\nUnderstanding which queries are performed by Django and what we could do to improve them, such as checking the execution plan, which indexes are being used and their order, restricting the attributes in select clauses, filters and joins.\nWhat other options there are if no improvements could be done (cache, pre-calculated tables with Celery, materialized views)",
+    "language": "eng",
+    "recorded": "2022-10-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Carmela Beiro"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/vYWPnzhDpTo/maxresdefault.jpg",
+    "title": "Tips and tricks for optimizing Django response times",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=vYWPnzhDpTo"
+        }
+    ]
+}

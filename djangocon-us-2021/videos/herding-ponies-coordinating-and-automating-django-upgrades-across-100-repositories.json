@@ -1,0 +1,22 @@
+{
+    "description": "Over the course of upgrading multiple services (including one large enough to run afoul of seemingly every backwards-incompatible change) to new Django LTS releases several times, the Open edX project has developed a set of procedures and tools to help streamline the process.  Given how useful we've found these, and how late we often see other packages tackling these upgrades, we'd like to share what we've learned about keeping up with the upgrade treadmill.  Among the topics I'll cover are:\n\n* Code refactoring scripts (often using [Bowler](https://pybowler.io/)) to automatically fix some of the most common breaking changes\n* Scripts to automatically update tox and continuous integration configurations to start testing new Django versions (and drop support for ones no longer needed)\n* Scripts to track which dependencies claim to support the target release already, and manual processes to manage ones which don't use Trove classifiers correctly\n* A script to analyze and summarize deprecation warnings captured by pytest\n* Upgrading dependencies proactively to reduce the work needed at Django upgrade time\n* How to identify difficult parts of the upgrade early enough to solve them in time\n* How to handle package dependencies which don't support your target Django version by the time you need them to\n* How to track and schedule all of the above across dozens of repositories\n\nAll the scripts presented here are open source; links to the code will be provided, and I'll be here for the live chat if anyone wants to help refine them further.",
+    "language": "eng",
+    "recorded": "2021-10-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2021.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Jeremy Bowman"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ny-3AaNHbbs/maxresdefault.jpg",
+    "title": "Herding Ponies: Coordinating and Automating Django Upgrades Across 100+ Repositories",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/ny-3AaNHbbs"
+        }
+    ]
+}

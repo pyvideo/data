@@ -1,0 +1,22 @@
+{
+    "description": "Privacy is important, but permissions are hard. Even more, the Django permission framework only supports subject-verb relation guards (does *someone* have permission to *write*) but not subject-verb-object relations (does *someone* have permission to *write* in this *table*). Other existing Django middleware extensions such as django-guardian and django-rules address this, but require manual and explicit permission checking for every access.\n\nWouldn\u2019t it be nice if `Model.objects.all()` automatically only returned the set of objects which the active requesting user had permission to see? Or, if you tried to save a change to a model object you\u2019d automatically get an error if the user doesn\u2019t have the appropriate permissions? For this purpose, I developed a tool to do all of this as an easy-to-install and configure middleware with acceptable runtime overhead. It provides security-by-design, because it automatically takes permissions into account *system-wide*. Through that, it drastically reduces the possibility of high impact bugs and declutters the code from privacy checks. In this talk, I\u2019ll showcase how one can hook into Models, Managers and Descriptors to enable the \u2018magic\u2019 behind this framework. I\u2019ll also discuss key performance considerations as well as our experience running it in production.",
+    "language": "eng",
+    "recorded": "2021-10-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2021.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Madelaine Boyd"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/1NGGmHZJvyU/maxresdefault.jpg",
+    "title": "The Pit of Success for Per-Object Permissions in Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/1NGGmHZJvyU"
+        }
+    ]
+}

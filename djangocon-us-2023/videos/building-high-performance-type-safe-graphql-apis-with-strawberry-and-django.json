@@ -1,0 +1,22 @@
+{
+    "description": "In this talk, we will explore the world of GraphQL APIs with Strawberry, a new Python library that makes it easy to create GraphQL APIs with Django. We will dive into what GraphQL is, how it compares to traditional RESTful APIs, and what makes Strawberry stand out from other Python GraphQL libraries.\n\nOne of the biggest challenges in GraphQL API development is the N+1 problem, where queries can become exponentially slow as more data is requested. We will discuss how data loaders can help solve this problem, and go in-depth on how to use them in Strawberry. In this topic we will also cover how the Strawberry Django integration leverages query introspection and user defined hints to automatically call .only(\u2026)/.select_related(\u2026)/.prefetch_related(\u2026) on querysets, making your queries more efficient and avoiding common pitfalls. This is especially important in high-traffic, production environments where performance is critical.\n\nFinally, we will showcase some of the benefits of using Strawberry and Django together, including a type-safe approach to API development and streamlined code maintenance. By the end of this talk, you'll have the knowledge and tools you need to create high-performance GraphQL APIs with Strawberry and Django.\n\nIt will be presented in the following order:\n\n- Intro\n- Quick overview of what a GraphQL API looks like and its advantages\n- Writing general GraphQL APIs using Strawberry\n- Integrating the Django ORM with Strawberry\n- Some common pitfalls, with emphasis on the N+1 problem\n- GraphQL tools to avoid those pitfalls and how to use them with Strawberry\n- How the Strawberry Django integration uses introspection to automatically overcome those pitfalls and also improve performance when executing Django querysets",
+    "language": "eng",
+    "recorded": "2023-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Thiago Bellini Ribeiro"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/TP8MC2W3eIw/maxresdefault.jpg",
+    "title": "Building high-performance, type-safe GraphQL APIs with Strawberry and Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/TP8MC2W3eIw"
+        }
+    ]
+}

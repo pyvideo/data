@@ -1,0 +1,22 @@
+{
+    "description": "About This Talk\n\nWhen people are first learning Django, they do a lot of work to reach the point where they have a project that works locally. Then they think, \"All right! Now I can deploy my project and everyone can see how wonderful it is!\"\n\nWhat comes next? They have to identify a hosting service, hopefully find docs that are up to date enough to use, make a bunch of changes to their project, hope for no typos or misunderstandings, and maybe they'll end up with a deployed project. Many projects languish on local systems because of how difficult it can be to carry out your first deployment.\n\nI've written `django-simple-deploy` as a standalone management command that inspects a local project, and automatically configures the project for deployment to the specified hosting platform. If a project is being tracked with Git and has a requirements file, and you have an account on a hosting platform with their CLI installed, you can deploy in a few steps without ever visiting the hosting platform's docs.\n\nThis talk will cover:\n- A live demo.\n- Why the Django community needs a project like `django-simple-deploy`.\n- What does this mean for people who have just finished the Polls tutorial?\n- What does this mean for hosting companies?\n- How it works: What changes does `django-simple-deploy` make to your project?\n- How it works: How does `django-simple-deploy` make these changes?\n- Deep dive: How do you test a Django project that acts on another Django project, and targets a remote platform?\n- Open questions (my open questions)\n- Contributing\n\nThis talk is not just for beginners. Beginners will benefit from knowing about a simple deployment tool, but intermediate developers will probably learn something from peeking under the hood of a management command that acts on another project. And people who teach Django will probably appreciate having a tool that configures a project for deployment, without having to talk their students through all the steps of deploying to a specific platform.",
+    "language": "eng",
+    "recorded": "2022-10-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Eric Matthes"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/l17ZZrQnK4c/maxresdefault.jpg",
+    "title": "Your First Deployment Shouldn't Be So Hard!",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=l17ZZrQnK4c"
+        }
+    ]
+}

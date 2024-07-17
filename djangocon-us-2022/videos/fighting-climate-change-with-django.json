@@ -1,0 +1,22 @@
+{
+    "description": "Background on Energy Efficiency\n\nUtilities, which are often regulated, are responsible for generating a consistent supply of energy for their consumers at a stable price. Efficiency incentive programs that manage demand help insulate utilities from the costs associated with purchasing raw materials (coal, gas, etc.) and help reduce the need to build new power plants that are expensive to build, staff, insure, and supply with consumable, non-renewable resources.\n\nUtilities are also usually required by law to spend part of the budget they collect on customer bills on something to reduce the demand for energy in their territory. For instance, a utility might offer a $1,500 rebate (AKA incentive) for the sale of an industrial heat pump that is far more efficient than other industrial heat pumps, via an energy efficiency (EE) program. By incentivizing high efficiency equipment, utilities help move the market towards ever more efficient versions of equipment, thus locking in energy savings even after the EE programs end. In this way, we can help utilities and their customers save energy and move the needle away from climate change.\n\nDjango and Iris\n\nWhat is Iris?\n- Background of what Iris is, a measure matching application that allows multiple utilities from around the country, and vendors, offer rebates to consumers\n\nMeasure Matching: improving our algorithm by leaps and bounds\n- What are measures? How does an energy efficient water heater purchase turn into a claim for an energy efficiency rebate?\n- How we switched from a long-running loop over individual database records to a single database query and JSON data objects, and what were the performance gains from this change.\n\nMulti-tenancy for energy efficiency programs: One website - many different EE programs\n- Energy efficiency program design includes setting up qualifications and assigning incentives that allow the efficiency program to meet energy savings goals.\n- How we moved away from efficiency program-specific (ie. user-specific) code (AKA spaghetti code) in our former system, and how we built flexibility into Iris to allow many different utilities to use a single website.\n\nMajor Database Architecture Changes 2 years Later\n- In 2021, after Iris had been in production for about 2 years, we had a new feature request that would require a major change to our underlying database structures. Background on the changes we decided to make and how we made them.\n\nReporting on energy efficiency in Iris\n- Proving that energy efficiency programs are in fact saving energy and helping us fight climate change through reporting features",
+    "language": "eng",
+    "recorded": "2022-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Erin Mullaney"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/6HPA5QcbSH0/maxresdefault.jpg",
+    "title": "Fighting Climate Change with Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=6HPA5QcbSH0"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "description": "Django's migration system is one of its greatest strengths as a framework.  It can automatically generate migrations based on your changes to your models and can detect which migrations need to be applied to a database.  But, as the size of your development team and user base scale, there are pitfalls that you need to be aware of.  Not all migrations can be safely reversed, and trying to rewind bad migrations on a production database can cause a data disaster.  Not all migrations can be safely deployed without downtime, and trying to deploy them can give your users and your engineers a wall of errors.\n\nThis talk will cover the following:\n1. How to manage migrations across multiple code branches\n2. Reversible migrations: how to write migrations so that they can be safely undone\n3. Backwards compatible migrations: which migrations can be run as part of a deploy without causing downtime or errors\n4. Handling failed migrations as part of a deployment\n\nThis talk assumes familiarity with the management commands `makemigrations` and `migrate`.  It's likely to be most helpful for people working on a Django project where there are many branches being worked on simultaneously or for those working on applications with moderate to high uptime requirements.",
+    "language": "eng",
+    "recorded": "2022-10-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Benjamin \"Zags\" Zagorsky"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/5ErDx3oi1lI/maxresdefault.jpg",
+    "title": "Django Migrations: Pitfalls and Solutions",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=5ErDx3oi1lI"
+        }
+    ]
+}

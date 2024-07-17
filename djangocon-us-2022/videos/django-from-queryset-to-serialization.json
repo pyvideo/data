@@ -1,0 +1,22 @@
+{
+    "description": "Django don\u00b4t have an obvious way to avoid N+1 queries during objects serialization and it is easy to miss the right way in large projects.\n\nThis talk aims to show how I joined a project with a rudimentary serialization solution and improved it to be able to handle serializations without causing N+1 queries by accident, using django-qserializer (I'm the author).\n\nI will discuss other solutions, how to do that with plain Django, how DRF do the same thing, how other libs can contribute or make your code worse.",
+    "language": "eng",
+    "recorded": "2022-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Iuri de Silvio"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/1bkEaIw03KI/maxresdefault.jpg",
+    "title": "Django from queryset to serialization",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=1bkEaIw03KI"
+        }
+    ]
+}

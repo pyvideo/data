@@ -1,0 +1,22 @@
+{
+    "description": "There is a common misconception that Django's template-based views and \"heavyweight\" JavaScript frameworks such as Vue cannot co-exist without considerable compromise; that we are forced to choose between the two. For example, we may use Django Rest Framework as back-end while writing a JavaScript SPA front-end, making it difficult to utilize Django templates where convenient. Or we may use JavaScript frameworks from Django templates using browser `<script>` includes, but then lost is much of the tooling, testability, and ecosystem of the modern build-based JavaScript framework. This dilemma leads many Django developers to choose lighter-weight no-build Javascript frameworks as a means to add dynamic user experience.\n\nHowever, there is no need for compromise. **Vue can, surprisingly easily, be mingled directly into Django templates**, allowing us to mix-and-match these two front-end technologies as we wish, without sacrificing the strengths of either.\n\nThis talk will explain a unique new approach to integrating Vue 3 within Django Templates. Starting with a minimal Django project, I will demonstrate the addition of Vue components into a templated app, harmoniously combining both front-end frameworks. We will explore topics such as information passing from Django to Vue, Vite configuration and tooling, persistent state management with Pinia, and resources to jumpstart your own project.",
+    "language": "eng",
+    "recorded": "2023-10-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Mike Hoolehan"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/16rKyUZuttE/maxresdefault.jpg",
+    "title": "Vue + Django: Combining Django Templates and Vue Single File Components without compromise",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/16rKyUZuttE"
+        }
+    ]
+}

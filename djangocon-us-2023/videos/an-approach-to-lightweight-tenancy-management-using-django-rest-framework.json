@@ -1,0 +1,22 @@
+{
+    "description": "Over the last few years, I have run into the same multitenancy use case across different projects. This scenario is a \u201clightweight\u201d multitenancy use case, where we have a tenant model and tenants are instances of this model; all tenants share the same database, schema, and application instance. Resources belong to a single tenant, but users can belong to multiple tenants. Almost all API routes need to be nested under the tenant id, with urls of the form `api/tenants/tenant-id/some-resource`. The challenges we faced were how to effectively nest our API urls and how to consistently restrict access to resources, so that users could only access those resources that belong to tenants that the user has permission to access.\n\nWe\u2019ll cover:\n- A brief description of the use case and multitenancy\n- How we implemented nested routes in our API using [drf-nested-routers](https://github.com/alanjds/drf-nested-routers)\n- How we wrote a custom viewset to centralize all logic related to checking that the user has permission to access resources under a specific tenant\n- Custom model manager to avoid accidentally leaking information from other tenants\n- Uses and limitations of our approach\n- A different approach using an existing library ([drf-access-policy](https://github.com/rsinger86/drf-access-policy))\n\nAnyone with experience in Django is welcome!",
+    "language": "eng",
+    "recorded": "2023-10-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Eliana Rosselli"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/BW9ju19u1zU/maxresdefault.jpg",
+    "title": "An approach to lightweight tenancy management using Django Rest Framework",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/BW9ju19u1zU"
+        }
+    ]
+}

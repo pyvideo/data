@@ -1,0 +1,22 @@
+{
+    "description": "Is the front end of your Django project a disorganized mess? Have you ever tried to add React to a Django project and gotten discouraged because it was too complicated? Or have you worked in a project with completely separate front and back ends and wondered why you couldn't use just Django templates and forms for simple things and had to build an API for every little thing?\n\nIf so, this talk is for you.\n\nFirst I cover common Django / JavaScript architectures and their tradeoffs. Including:\n\n1. The most common \"ad-hoc\" approach, where JS just gets incrementally added to templates until you find yourself in a mess.\n2. The completely decoupled JS front-end and Django-API back end, which is popular, but complex and unfamiliar to Django developers.\n3. A \"hybrid architecture\", that combines modern JS with familiarity of working in Django.\n\nThe rest of the talk deep dives into building out a hybrid app with Django.\n\nThis process starts with the fundamentals of JS tooling, a prerequisite to working with modern JavaScript. I'll cover why it's so frustrating and confusing trying to add React to a Django project, then introduce the concept of a JavaScript toolchain, why you need them and what they do, and finally do a quick overview of the most common JS toolchain: NPM, Webpack, and Babel.\n\nFinally, we'll bring it back to Django, showing how you can add a JS toolchain to a Django project and use a React application inside Django without all the complexity of managing a separate standalone front end. I'll also cover some of the common patterns that are used to interact with data, and the benefits and tradeoffs of the hybrid architecture over other models.\n\nAlong the way, I'll also touch on some of the benefits of using modern JavaScript - and hopefully convince you that it's worth it!",
+    "language": "eng",
+    "recorded": "2021-10-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2021.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Cory Zue"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/bz33cFQIC9Q/maxresdefault.jpg",
+    "title": "Modern JavaScript for Django Developers",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/bz33cFQIC9Q"
+        }
+    ]
+}

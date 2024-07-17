@@ -1,0 +1,22 @@
+{
+    "description": "It is very hard for the average resident of a U.S. or Canadian city to know what\u2019s going on with their civic government. It\u2019s even harder for them to get any sort of historical context on why things are the way they are. Let\u2019s take my hometown, the City of Alameda. Six months ago if you wanted to know which city meetings had discussed rent control, your options were:\n\n- Have a friend who is a constant watcher of Alameda meetings\u200a/\u200athe #alamtg hashtag and could tell you\n- Go through every meeting minutes on the Alameda Legistar and hope you figured it out\n\nThis is pretty common across a lot of civic government. I don\u2019t think municipalities are willfully trying to hide this information from residents, and I don\u2019t think it\u2019s ineptitude. I think most cities, even the large ones, are understaffed, and without a concerted push it\u2019s hard to make \u201cvisibility of city documents\u201d a priority.\n\nWhat if we could have SQL-backed full text search of city meeting minutes? Well, thanks to Datasette, Python, AWS, and some Github actions, we can!\n\nHere's the process:\n\n1. Figure out where official city minutes are hosted\n2. Write a script to fetch and format those city minutes\n3. Upload all the fetched minutes to AWS S3\n4. Run s3-ocr across the corpus of minutes\n5. Download the ocr\u2019d pages into a sqlite DB\n6. Deploy a datasette instance to fly.io with that sqlite DB.\n7. Post to twitter so people know about it.\n\nIn this talk, I will cover this whole process in detail, including how to automate it, so that you can apply this process to your city, county, state, school board, or any other civic government you're interested in!",
+    "language": "eng",
+    "recorded": "2023-10-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Philip James"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/fHsMZ3cuMhU/maxresdefault.jpg",
+    "title": "Automate Your City Data with Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/fHsMZ3cuMhU"
+        }
+    ]
+}

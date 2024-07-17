@@ -1,0 +1,22 @@
+{
+    "description": "Building a usable prototype in a weekend is the dream of startups and established business alike.  This is the lean startup approach.  You have many ideas.  Not all of those ideas will work, and all of them take attention away from known ways of making money.  So, you need to validate those ideas as cheaply as possible.  This means you need to build MVPs (minimum viable products) as fast as possible.  But there is a danger; if you cut the wrong corners and one of these new products takes off, that MVP will be the seed for a massive product and you will be stuck with your mistakes for years to come.  This talk will show you the tools and techniques to build a rapid prototype in Django, as well as how to minimize regrets later.\n\nI'm the CTO of Zagaran, Inc., a contract software company based in Boston.  We've built dozens of Django websites.  Many of our projects have started with building a prototype on a small budget, and Django is one of our favorite technologies for doing this.  In this talk, we'll cover the following technologies and more:\n* [Django's model forms](https://docs.djangoproject.com/en/dev/topics/forms/modelforms/) (minimizes boilerplate code for HTML form rendering and validation)\n* [django-crispy-forms](https://django-crispy-forms.readthedocs.io) (gives you out of the box styling of forms and more backend control over layout)\n* [django-environ](https://django-environ.readthedocs.io) (improved ability to configure environment variables)\n* [django-storages](https://django-storages.readthedocs.io) (production-grade seamless file storage)\n* [social-auth-app-django](https://python-social-auth.readthedocs.io/en/latest/configuration/django.html) (makes oAuth logins easy)\n* [django-extensions](https://django-extensions.readthedocs.io) (makes debugging much easier)\n* [The Django Admin](https://docs.djangoproject.com/en/dev/ref/contrib/admin/) (easy creation of CRUD interfaces for internal users)\n\nSee [Zagaran's Django project template](https://github.com/zagaran/sample-django-app) for an example of these technologies in action.",
+    "language": "eng",
+    "recorded": "2021-10-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2021.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Benjamin \"Zags\" Zagorsky"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/V1dEWyzDfuY/maxresdefault.jpg",
+    "title": "Rapid Prototyping in Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/V1dEWyzDfuY"
+        }
+    ]
+}

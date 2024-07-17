@@ -1,0 +1,22 @@
+{
+    "description": "There are great accessibility guidelines out there. Great tools to evaluate individual websites too. Between the big picture and individual projects, we can look at what Django specifically does \u2013 and what changes at the level of the framework could improve large swaths of the Django web.\n\nWe will start by looking at the HTTP Archive\u2019s dataset of 8M websites, 30\u2019000 of which are built with Django. We can identify which issues are common compared to other frameworks, and review specific issues in more depth to understand where they might appear in Django.\n\nWe can then look into the implementation details to understand exactly how users of assistive technology would benefit or be harmed by Django\u2019s design choices. And accordingly highlight the correct approach.\n\nA practical example of this where we can go very deep is Django\u2019s implementation of HTML forms. Django\u2019s default markup previously left a lot to be desired, and it being \u201cthe default\u201d led to a lot of websites shipping with accessibility issues. This has been improved from release to release, addressing basic issues and introducing more advanced patterns like ARIA attributes for errors.",
+    "language": "eng",
+    "recorded": "2023-10-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Thibaud Colas"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/IXxwzFusFlM/maxresdefault.jpg",
+    "title": "Django\u2019s accessibility track record",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/IXxwzFusFlM"
+        }
+    ]
+}

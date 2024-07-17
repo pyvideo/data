@@ -1,0 +1,23 @@
+{
+    "description": "## Networking\n\nTo handle networking within the containers, the management layer integrates with Nginx and uWSGI.  During container startup, and when network configuration changes, the management layer generates Nginx site files and uWSGI config files on the fly based on current platform state.\n\nWe are running uWSGI in \u201cemperor\u201d mode, which allows us to create (and configure) separate uWSGI workers for each site.  Within the uWSGI config files, we are setting an environment variable based on each site\u2019s unique identifier.  As uWSGI initializes each worker, it also initializes Django.  We use that environment variable in our Django settings files to configure the database, cache key prefix, AWS S3 bucket (for file storage) and other site-specific settings.  This allows all platform sites to share a single codebase, but keeps each site\u2019s data completely separate.\n\n## Cluster Configuration\n\nAll cluster configuration data is stored in a Postgres database, which serves as the source of truth for platform state.  The management layer exposes an API and web dashboard for querying the current platform state and making configuration changes.  Administrators can perform actions like creating new sites, associating hostnames with sites, managing user permissions and monitoring platform health.\n\n## State Synchronization\n\nWithin each container, the management layer listens for state change events on a Postgres notification channel.  The change events are sent as JSON, and include the event type, timestamp and any associated metadata.  When a configuration change is made via the API, the container that handled the API request will broadcasts that change event to the entire cluster.  The management layer also performs regular integrity checks to ensure the state of each container matches the state of the platform.\n\n## Health Monitoring\n\nThe management layer performs automated healthchecks within each container by sending an internal request to each hostname associated with a site on the platform.  The response codes and latency for those requests are then stored and used to power monitoring tools and alerts via the API and web dashboard.\n\nIf an issue is detected, the management layer will attempt to resolve the issue by querying the latest platform state, and regenerating configuration files.  If the issue persists, the container will be automatically replaced within the cluster.",
+    "language": "eng",
+    "recorded": "2022-10-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Addison Hardy",
+        "James Ray"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ELm2mbgWOVY/maxresdefault.jpg",
+    "title": "A Management Layer for Scalable, Multitenant Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=ELm2mbgWOVY"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "description": "Web Authentication API (WebAuthn) is a phishing-proof technology that is expected to replace passwords. The technology is available since 2019, but in 2022, Apple, Google, and Microsoft agreed to support Passkeys, solving challenges facing the wide deployment of WebAuthn API. Passkeys is an extension to WebAuthn that allows the user to use a key credential stored in a device to log in on another device. e.g. you can use the key stored on your phone to log in on a browser on a Windows device. The communication is done over Bluetooth Low Energy (BLE). Passkeys are now supported on iOS/iPad 16, Mac OS X Ventura, and Andriod phones, and can be used by Chromium-based browsers and Safari.\nThe talk will cover the following\n*  what is WebAuthn and how it is phishing resistant even during a man-in-the-middle attack,\n* challenges in WebAuthn,\n* what are Passkeys and how they solved WebAuth challenges,\n* State of Passkeys,\n* Demo the usage of passkeys and their user experience.\n* How to integrate passkeys in your current Django project by `django-passkeys`.",
+    "language": "eng",
+    "recorded": "2023-10-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.djangocon.us"
+        }
+    ],
+    "speakers": [
+        "Mohamed ElKalioby"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/TLw2Lv5UPuw/maxresdefault.jpg",
+    "title": "Passkeys on Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/TLw2Lv5UPuw"
+        }
+    ]
+}
