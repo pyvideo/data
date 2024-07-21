@@ -1,0 +1,22 @@
+{
+    "copyright_text": "CC BY",
+    "description": "As we descend from the peak of the hype cycle around Large Language\nModels (LLMs), chat-based document interrogation systems have emerged as\na high value practical use case. The ability to ask natural language\nquestions and get relevant and accurate answers from a large corpus of\ndocuments can fundamentally transform organizations and make\ninstitutional knowledge accessible. Foundational LLM models like\nOpenAI\u2019s GPT4 provide powerful capabilities, but using them directly to\nanswer questions about a collection of documents presents\naccuracy-related limitations. Retrieval-augmented generation (RAG) is\nthe leading approach to enhancing the capabilities and usability of\nLarge Language Models, especially for personal or company-level\nchat-based document interrogation systems.\n\nRAG is a technique to share relevant context and external information\n(retrieved from vector storage) to LLMs, thus making them more powerful\nand accurate. In this tutorial, we\u2019ll dive into RAG by creating a\npersonal chat application that accurately answers questions about your\nselected documents. We\u2019ll use a new `OSS project called\nRagna <https://ragna.chat/en/latest/>`__ that provides a friendly Python\nand REST API, designed for this particular case. For our example, we\u2019ll\ntest the effectiveness of different LLMs and vector databases. We'll\nthen develop a web application that leverages the REST API, built with\n`Panel\u2013a powerful OSS Python application development\nframework <https://panel.holoviz.org>`__.\n\nBy the end of this tutorial, you will have an understanding of the\nfundamental components that form a RAG model, and practical knowledge of\nopen source tools that can help you or your organization explore and\nbuild on your own applications. This tutorial is designed to enable\nenthusiasts in our community to explore an interesting topic using some\nbeginner-friendly Python libraries.\n",
+    "language": "eng",
+    "recorded": "2024-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/103/"
+        }
+    ],
+    "speakers": [
+        "Pavithra Eswaramoorthy",
+        "Andrew Huang",
+        "Dharhas Pothina"
+    ],
+    "title": "From RAGs to riches: Build an AI document inquiry web-app"
+}

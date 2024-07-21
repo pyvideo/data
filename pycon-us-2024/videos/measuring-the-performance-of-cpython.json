@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Over the last few years, improving performance has been one of the main\nareas of focus for CPython. This talk focuses on how CPython's\nperformance is measured, and what it means when we say that one version\nis X% faster than another. Many of these techniques apply in general to\nall kinds of software.\n\nThis includes:\n\n-  A history of performance measurement in Python, and how measuring an\n   interpreter can be different from other kinds of software.\n\n-  An overview of CPython's ``pyperformance`` benchmark suite, and what\n   makes a benchmark more or less useful. Why is the concept of the\n   \"typical Python workload\" so elusive? An evaluation of the breadth of\n   the benchmark suite and a discussion of ways in which the Python\n   community can help to improve it.\n\n-  Why measuring time is hard, and how we improve that situation with\n   software, hardware, and statistics.\n\n-  An overview of our continuous benchmarking system, based on Github\n   Actions.\n\n-  Lastly, a discussion of how these techniques can be applied to\n   software in general.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/10/"
+        }
+    ],
+    "speakers": [
+        "Michael Droettboom"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/asTv4NwF0as/hqdefault.jpg",
+    "title": "Measuring the performance of CPython",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=asTv4NwF0as"
+        }
+    ]
+}

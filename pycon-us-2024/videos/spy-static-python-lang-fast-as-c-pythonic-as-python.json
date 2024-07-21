@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "SPy is a brand new statically typed variant of Python which aim to get\nperformance comparable to system languages such as C and C++, while\npreserving the \"Pythonic feeling\" of the language.\n\nThe main idea behind SPy is that \"modern Python\" is actually a subset of\nPython:\n\n-  many of the most dynamic features of the language are considered bad\n   practice and actively discouraged;\n\n-  the alway-increasingly adoption of typing leads to codebases which\n   are largerly statically typed.\n\nHowever, these rules are not enforced by the language, and there are\ncases in which \"breaking the rules\" is actually useful and make the code\neasier/better/faster.\n\nFrom the point of view of language implementors, the VM cannot easily\ntake advantage of the \"mostly static\" nature of programs because it has\nalways to be ready for the generic case.\n\nSPy tries to reconcile these two sides:\n\n-  it uses a static type system which is designed specifically for\n   safety and performance;\n\n-  the vast majority of \"dynamic\" feature of Python (like decorators,\n   metaclasses, ``__special_methods__``, ...) can be used at zero cost,\n   since they are resolved at compile time by using meta-programming and\n   partial evaluation techniques.\n\nThis talk will present in the details the ideas behind SPy and its\ncurrent status.\n",
+    "language": "eng",
+    "recorded": "2024-05-19",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/70/"
+        }
+    ],
+    "speakers": [
+        "Antonio Cuni"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/0UGFhldmSBA/hqdefault.jpg",
+    "title": "SPy (Static Python) lang: fast as C, Pythonic as Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=0UGFhldmSBA"
+        }
+    ]
+}

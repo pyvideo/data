@@ -1,0 +1,20 @@
+{
+    "copyright_text": "CC BY",
+    "description": "The talk will focus on a novel idea of efficient structured data sharing\nbetween Python subinterpreters. I'll be presenting a new Python\nframework \"memhive\", which implements a worker pool of subinterpreters,\nefficient RPC mechanism between them, async/await-ready API, as well as\nfundamental data structures ( tuples, mappings and scalar types).\n\nI'll demonstrate that it's possible to unlock true parallelism with\nsubinterpreters without paying the overhead of data serialization. I'll\nexplain how this is possible and what algorithms under the hood drive\nthis.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/67/"
+        }
+    ],
+    "speakers": [
+        "Yury Selivanov"
+    ],
+    "title": "Overcoming GIL with subinterpreters and immutability"
+}

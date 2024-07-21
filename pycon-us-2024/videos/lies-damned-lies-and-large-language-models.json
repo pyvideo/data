@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Would you like to use large language models (LLMs) in your own project,\nbut are troubled by their tendency to frequently \u201challucinate\u201d, or\nproduce incorrect information? Have you ever wondered if there was a way\nto easily measure an LLM\u2019s hallucination rate, and compare this against\nother models? And would you like to learn how to help LLMs produce more\naccurate information?\n\nIn this talk, we\u2019ll have a look at some of the main reasons that\nhallucinations occur in LLMs, and then focus on how we can measure one\nspecific type of hallucination: the tendency of models to regurgitate\nmisinformation that they have learned from their training data. We\u2019ll\nexplore how we can easily measure this type of hallucination in LLMs\nusing a dataset called *TruthfulQA* in conjunction with Python tooling\nincluding Hugging Face\u2019s ``datasets`` and ``transformers`` packages, and\nthe ``langchain`` package.\n\nWe\u2019ll end by looking at recent initiatives to reduce hallucinations in\nLLMs, using a technique called retrieval augmented generation (RAG).\nWe\u2019ll look at how and why RAG makes LLMs less likely to hallucinate, and\nhow this can help make these models more reliable and usable in a range\nof contexts.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/48/"
+        }
+    ],
+    "speakers": [
+        "Jodie Burchell"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/U5S1toALyoo/hqdefault.jpg",
+    "title": "Lies, damned lies and large language models",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=U5S1toALyoo"
+        }
+    ]
+}

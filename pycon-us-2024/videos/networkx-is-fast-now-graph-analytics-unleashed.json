@@ -1,0 +1,28 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Have you ever wondered how to find connections in your data and to gain\ninsights from them? Come discover how NetworkX makes this easy (and\nfast!).\n\nThis talk is broadly divided into two parts. First we will talk about\nthe power of graph analytics and how you can use tools like NetworkX to\nextract information from your data, and then we will talk about how we\nmade the machinery behind NetworkX work with heterogeneous backends like\nGraphBLAS (CPU optimized) and cuGraph (GPU optimized).\n\nPart I\n~~~~~~\n\nNetworkX is the most popular library in Python for graph theory and\napplied network science thanks to its extensive API and\nbeginner-friendly documentation. NetworkX is used \"everywhere\", because\ngraphs are everywhere. Don't believe me? We surveyed more than 300\nPython packages to understand how they use NetworkX in domains ranging\nfrom geoscience, neuroscience, genomics, biology, chemistry, quantum\ncomputing, text and language, machine learning, causal inference,\noptimization, and more. We will summarize what we learned to help you\napply graph analytics to your data.\n\nOnce you start using NetworkX you will soon realize that the pure-Python\nimplementation starts becoming a roadblock to scalable graph analytics.\nThis takes us to the second part of the talk...\n\nPart II\n~~~~~~~\n\nWhat should you do when your graph data becomes too large or NetworkX\nbecomes too slow? Simple: use an accelerated NetworkX backend!\n\nNetworkX 3.0 added the ability to dispatch to other implementations.\nThis means you can use other highly tuned libraries from NetworkX to\nachieve up to 100 to 10_000+ times speedup! As \"the API for graphs\",\nNetworkX now makes it easy to accelerate your graph workflows on CPUs\nwith GraphBLAS and NVIDIA GPUs with nx-cugraph. Other backends are\nwelcome, and we plan to support distributed graphs soon for extreme\nscalability \ud83d\ude80\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/122/"
+        }
+    ],
+    "speakers": [
+        "Mridul Seth",
+        "Erik Welch"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/hZX-0gjtdc0/hqdefault.jpg",
+    "title": "NetworkX is Fast Now: Graph Analytics Unleashed",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=hZX-0gjtdc0"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Binary extensions underlie much of the modern Python ecosystem,\nproviding performance and access to a wealth of existing code. Packaging\nfor these libraries is rapidly changing from thousands of lines of\ndistutils and setuptools based hackery to build systems designed for\nbinaries like scikit-build-core, meson-python, and maturin. NumPy, for\nexample, went from around 13K to 2K lines of building related code by\nmoving to Meson in NumPy 1.26.\n\nThese build systems provide a much more integrated experience than was\npreviously possible for compiled extensions. For example, CMake or Ninja\nare only required if the system doesn\u2019t already provide an appropriate\ncopy, which allows building with an external ninja/cmake on systems\nwithout binary wheels on PyPI like Pyodide, BSD, and Android. Modern\neditable installs are supported. Support for advanced features like ABI3\nwheels or wheels that don\u2019t call CPython is usually just a single\nconfiguration option.\n\nWe will look at how easy it is now to set up a binary extension using\nCMake, Meson, or Maturin (Rust only). It can be done with only three\nfiles each containing only a handful of lines of code. Unlike the\nprevious solutions, this covers cross-compilation,multithreaded builds,\nmodern C++ standards, and other features that would each require custom\ncode in a classic setup.py. Combined with cibuildwheel for building\nwheels and good support from modern binding tools like pybind11 and\nnanobind, the barrier for entry to reliable compiled extensions has\ndropped dramatically.\n\nWe will also look at the challenges and solutions from some larger\nconversions to modern build systems, like NumPy\u2019s and RAPIDS.ai.\n\nAfter this talk, you will know how to easily create compiled extensions\nto solve problems you encounter, and how to move existing projects to\nthese modern build systems.\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/112/"
+        }
+    ],
+    "speakers": [
+        "Henry Fredrick Schreiner III"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/t7o-XbJbKWE/hqdefault.jpg",
+    "title": "Modern binary build systems",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=t7o-XbJbKWE"
+        }
+    ]
+}

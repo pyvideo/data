@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Did you know that Python 3.12 will include one of the world's smallest\njust-in-time (JIT) compilers? Also, you will be surprised to learn it is\nnot what you probably think it is.\n\nPython 3.12 will include support for the Linux ``perf`` profiler. The\nLinux ``perf`` profiler is a very powerful tool that allows you to\nprofile and obtain information about the performance of your\napplication. ``perf`` also has a very vibrant ecosystem of tools that\nhelp with the analysis of the data that it produces.\n\nIn this talk, we will talk about how this exciting feature was\nimplemented, how the support provided by the ``perf`` profiler differs\nfrom other performance-oriented profilers for Python, and how it can be\nused effectively, including how to activate it dynamically to enable\nproduction profiling. We will also cover some of the requirements that\nare needed to obtain the best results, as well as some of the\nlimitations of the implementation and how those can affect your metrics.\n\nBeing able to understand where our Python applications are expending\ntheir time is crucial to being able to improve the performance\ncharacteristics of our applications. Several tools already exist to help\nwith this task, but they all have their own limitations, especially when\nnative code written in C, C++, Rust, etc. is involved. Being able to\ngather and cross-correlate performance information with other\nperformance-related markers, such as branch mispredictions, cache\nmisses, context switches, and other events, can be key in understanding\nsome of the most challenging profiling puzzles.\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/69/"
+        }
+    ],
+    "speakers": [
+        "Pablo Galindo Salgado"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Ek6NgKTijvM/hqdefault.jpg",
+    "title": "Profiling at the speed of light",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Ek6NgKTijvM"
+        }
+    ]
+}

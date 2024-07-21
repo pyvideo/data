@@ -1,0 +1,20 @@
+{
+    "copyright_text": "CC BY",
+    "description": "One of the biggest changes in Python 3.12 was PEP 695, which introduced\nnew syntax for generic classes, functions, and type aliases. This was a\ncomplicated change, involving a new soft keyword, many new grammar\nrules, and a few new bytecode instructions. Unexpectedly, the one aspect\nthat led to the most complexity was the way the new syntax interacts\nwith class scopes. Class scopes in Python are weird.\n\nThis talk will outline what motivated PEP 695, how the implementation\nworks, and how it may be improved in the future. It will describe how\nthe new syntax provides a more intuitive way to express generics, and\nalso explore in depth how class scopes work and how we designed the new\nsyntax to work in harmony with existing scoping rules. Finally, we'll\ntalk about ways the syntax may change in the future.\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/45/"
+        }
+    ],
+    "speakers": [
+        "Jelle Zijlstra"
+    ],
+    "title": "PEP 695, or how typing syntax led to a scoping rabbit hole"
+}

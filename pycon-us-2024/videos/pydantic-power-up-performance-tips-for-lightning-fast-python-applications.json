@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Pydantic is the most widely used data validation library for Python.\nWith the V2 release, the library shifted to using Rust for core\nvalidation logic, which resulted in 5-50x speedups compared to V1.\nThough Pydantic is already quite efficient, there are some little-known\nperformance tips and tricks you can use to ensure optimal performance.\n\nIn this talk, I\u2019ll delve into a spectrum of optimizations, ranging from\none line fixes to larger scale design modifications that can help you\nsqueeze the best performance out of Pydantic. In terms of one line\nfixes, I\u2019ll suggest changes ranging from opinionated JSON loading syntax\nto ``TypeAdapter`` usage tips. The focal point of the talk will be\ntagged (also called discriminated) unions, a Pydantic tool used to\nefficiently validate union types, while also taming related validation\nerrors.\n\nListeners will walk away from this talk with a more nuanced\nunderstanding of performance with Pydantic, an abundance of examples\nthat they can apply to their own code, and insights into upcoming\nperformance enhancing features coming to Pydantic.\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/84/"
+        }
+    ],
+    "speakers": [
+        "Sydney Runkle"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Qvj5e9xtaSE/hqdefault.jpg",
+    "title": "Pydantic Power-up: Performance Tips for Lightning-Fast Python Applications",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Qvj5e9xtaSE"
+        }
+    ]
+}

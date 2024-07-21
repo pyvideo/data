@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Python\u2019s import system is eminently hackable. Often, this is a tool of\nlast resort, but it can be extremely powerful. In this talk, we\u2019ll\ndescribe our ambitious effort to hack ``import pandas`` to accelerate\nlarge parts of it on the GPU using cuDF: a GPU DataFrame library.\n\nWe\u2019ll cover the basics of import hacking and other tricks like Pythonic\nproxy patterns. We\u2019ll show how we use these more dynamic features of\nPython to effectively accelerate any code that uses pandas, including\nthird-party libraries. We\u2019ll also get into the technical and social\nproblems that currently necessitate these sophisticated solutions, and\nshare some thoughts on solving them. It will be a story of successes,\nfailures, wishes and tears, and excursions into exciting parts of Python\nmany developers may not have encountered before!\n\nThis talk is for the Pythonista interested in the import system and how\nto hack it for performance. It is also for developers interested in the\nquestion of speeding up the vast ecosystem built on top of libraries\nlike numpy and pandas without code changes.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/44/"
+        }
+    ],
+    "speakers": [
+        "Bradley Dice"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/UuW8JnegaWA/hqdefault.jpg",
+    "title": "Hacking `import` for speed: how we wrote a GPU accelerator for pandas",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=UuW8JnegaWA"
+        }
+    ]
+}

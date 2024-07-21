@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Given the results it can deliver (and its inherent complexity),\ngeospatial data often takes center stage in projects it's incorporated\ninto. Its star power and intimidating array of fellow-travelers (GDAL,\net al) can make it easy to discount its value in simpler supporting\nroles or behind-the-scenes. Looking beyond the typical analysis and\nvisualization toolchains--and their extreme learning curves--this talk\ndemonstrates some comparatively low-lift patterns for leveraging geodata\nin a web application back end.\n\nWe'll begin by briefly discussing how geospatial data differs from other\ndata types, how it is commonly formatted and made available, and which\naspects (spatial reference identifiers, e.g.) are crucial to maintaining\ndata correctness. Having laid out a few fundamentals we will look at\nPostGIS, an open-source extension to PostgreSQL which enables support\nfor spatial datatypes, functions, and indexes. Finally, we'll look at an\nexample application based on the FastAPI web framework which uses\nfeatures of Pydantic and SQLAlchemy + GeoAlchemy 2 to implement custom\ngeospatial validations for inbound requests.\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/97/"
+        }
+    ],
+    "speakers": [
+        "Lazouich Ford"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/7KKRCgH1p3I/hqdefault.jpg",
+    "title": "Geospatial Validations Using FastAPI and PostGIS",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=7KKRCgH1p3I"
+        }
+    ]
+}

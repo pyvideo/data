@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "The Python ecosystem has historically relied on OpenSSL (and its myriad\nforks) to provide an implementation of X.509 path validation, a\nlittle-known but essential component of every secure HTTPS connection\nmade on the modern Internet. This has brought technical debt, developer\nfrustration (due to OpenSSL's poorly documented implementation quirks),\nand a mottled security history.\n\nThis talk introduces an alternative, developed over the past year: a new\nimplementation of X.509 path validation, written from the ground-up in a\nmemory-safe language with standards conformance as a priority, newly\nintegrated into `PyCA\nCryptography <https://cryptography.io/en/latest/>`__, Python's most\npopular cryptographic library. We'll cover the work's implementation\ndetails, strategies applied for reducing complexity, technical decisions\nand tradeoffs made in its Rust components, as well as the work's impact\non the millions of Python developers that depend on `PyCA\nCryptography <https://cryptography.io/en/latest/>`__ and `PyCA\npyOpenSSL <https://www.pyopenssl.org/en/latest/>`__. Particular\nattention will be dedicated to the work's critical security scope and\naccompanying testing philosophy, including developed strategies for\nreaching perfect test coverage and avoiding vulnerability classes that\nhave historically afflicted X.509 path validation implementations.\n\nThe audience is expected to have an intermediate familiarity with\ngeneral Python development, including a high-level familiarity with\nSSL/TLS and HTTPS (but not X.509 or X.509 path validation). Audience\nmembers will leave the talk with a more complete understanding of the\nmodern Internet's security model, as well as how the Python ecosystem is\nmaturing to accomodate modern cryptographic best practices in networked\nsettings.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/49/"
+        }
+    ],
+    "speakers": [
+        "William Woodruff"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ODRkEAuUD1o/hqdefault.jpg",
+    "title": "Building a Rusty path validation library for PyCA Cryptography",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=ODRkEAuUD1o"
+        }
+    ]
+}

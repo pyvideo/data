@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Debugging is one of the hardest parts of our jobs. Experienced\ndevelopers shrug it off as an inevitability of life, but it's one of the\nbiggest obstacles standing in the way of newcomers. While working as a\nmentor, the pain of this fact became ever so vivid for me. Inspired by\nBret Victor's \"Inventing on Principle\" and Redux, I went on a quest to\nfind out if time-travel debugging was possible.\n\nIn my journey, I created a time-travel debugger for Python: Rewind.\nRewind is a fork of CPython. It works by logging each state change to a\nfile as the Python interpreter runs. Then, another program reads back\nthe log file, recreates all historical states of the program and saves\nthem to a database. A debugger GUI allows the user to step through the\nprogram line by line both forward and backward.\n\nDeveloping software using a time-travel debugger is a uniquely pleasant\nexperience. It removes the anxiety of using a regular step debugger by\nallowing you to \"undo\". It's often more productive to start at the end\nwhere an error occurred, then step in reverse to go towards its cause.\nMoreover, omniscience - knowing all historical states of the program\nbefore hand - allows us to rethink what a debugger user interface can\nbe.\n\nThe talk will be fast paced. In addition to slides, I'll be voicing over\nsome pre-recorded animations / videos in the style of YouTube\ndocumentaries. Demos are pre-recorded so there will be no risk of things\ngoing wrong live.\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/166/"
+        }
+    ],
+    "speakers": [
+        "Toby Ho"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ex9draKAP3c/hqdefault.jpg",
+    "title": "Rewind: Python Time-Travel Debugger",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=ex9draKAP3c"
+        }
+    ]
+}

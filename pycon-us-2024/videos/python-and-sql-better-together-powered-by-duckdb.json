@@ -1,0 +1,28 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Data management systems and data scientists have a troubled\nrelationship: Common systems such as Postgres or Spark are hard to set\nup and maintain, hard to transfer data into and out of, and hard to\nintegrate into Python workflows. In response, data scientists have\ndeveloped their own data wrangling tools including Pandas and Polars.\nThese tools are more natural to use, but are limited in the amount of\ndata they can process and the amount of automatic optimization.\n\nDuckDB is a novel database management system purpose-built to combine\ncutting edge data processing and dataframe-like ease of use. DuckDB\nintegrates deeply with the Python data analytics and engineering\necosystems - its Python client has over 1.5 million downloads each\nmonth. DuckDB can read and write popular Python dataframe libraries:\nPandas, Polars, and Apache Arrow. DuckDB can even query Pandas\ndataframes faster than Pandas itself. Beyond dataframes, reading and\nwriting is supported for Postgres, MySQL, and SQLite databases, and\nacross many file formats (even on cloud object storage).\n\nIn addition to the friendliest SQL dialect in the world, DuckDB provides\noptions for using Pythonic dataframe syntax directly on top of the\ndatabase engine. DuckDB includes a relational API, an experimental\nPySpark-compatible API, and is the default engine for the Ibis portable\ndataframe library.\n\nDuckDB supports complex queries, is MIT licensed, and has no external\ndependencies - it is a single pip install away! It is fast, easy to\ninstall and use, and handles larger than RAM datasets. Since DuckDB runs\nin the same process as the Python interpreter, no socket communication\nhas to occur, making data transfer virtually instantaneous.\n\nIn our talk, we will describe DuckDB, compare it with Python dataframe\nlibraries, and show how to combine DuckDB and dataframes for fast and\neasy data processing.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/130/"
+        }
+    ],
+    "speakers": [
+        "Alex Monahan",
+        "Gabor Szarnyas"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/JoVHITW_WeE/hqdefault.jpg",
+    "title": "Python and SQL: Better Together, Powered by DuckDB",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=JoVHITW_WeE"
+        }
+    ]
+}

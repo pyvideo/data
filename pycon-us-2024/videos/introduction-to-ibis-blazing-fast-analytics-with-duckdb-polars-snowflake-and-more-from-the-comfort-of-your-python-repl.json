@@ -1,0 +1,23 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Tabular data is ubiquitous, and pandas has been the de facto tool in\nPython for analyzing it. However, as data size scales, analysis using\npandas may become untenable. Luckily, modern analytical databases (like\nDuckDB) are able to analyze this same tabular data, but perform\norders-of-magnitude faster than pandas, all while using less memory.\nMany of these systems only provide a SQL interface though; something far\ndifferent from pandas\u2019 dataframe interface, requiring a rewrite of your\nanalysis code.\n\nThis is where Ibis comes in. Ibis provides a common dataframe interface\nto many popular databases and analytics tools (BigQuery, Snowflake,\nSpark, DuckDB, \u2026). This lets users analyze data using the same\nconsistent API, regardless of which backend they\u2019re using, and without\never having to learn SQL (but you can use SQL if you want to!). No more\npains rewriting pandas code to something else when you run into\nperformance issues; write your code once using Ibis and run it on any\nsupported backend.\n\nIn this tutorial we\u2019ll cover:\n\n-  The basic operations of Ibis (``select``, ``filter``, ``group_by``,\n   ``order_by``, ``join``, and ``aggregate``), and how these operations\n   may be composed to form more complicated queries.\n-  How Ibis may be used on a number of different local and remote\n   backend engines to execute the same queries on different systems.\n-  The tradeoffs of different database engines, and recommendations for\n   how to choose the best tool for the job.\n-  How Ibis integrates into the larger Python data ecosystem, including\n   tools like Scikit-Learn, Matplotlib, PyArrow, pandas, Altair, and\n   VegaFusion.\n\nThis is a hands-on tutorial, with numerous examples to get your hands\ndirty. Participants should ideally have some experience using Python and\npandas, but no SQL experience is necessary.\n",
+    "language": "eng",
+    "recorded": "2024-05-15",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/55/"
+        }
+    ],
+    "speakers": [
+        "Gil Forsyth",
+        "Jim Crist-Harif",
+        "Naty Clementi",
+        "Phillip Cloud"
+    ],
+    "title": "Introduction to Ibis: blazing fast analytics with DuckDB, Polars, Snowflake, and more, from the comfort of your Python repl."
+}

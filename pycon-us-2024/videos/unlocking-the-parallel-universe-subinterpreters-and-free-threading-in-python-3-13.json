@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Python 3.12 introduced a new parallel execution model called \"sub\ninterpreters\" that uses a per-interpreter GIL to unlock a new way of\nwriting parallel code that's faster than multiprocessing. Python 3.13\nintroduces another new parallel execution model called \"free-threading\"\n(previously called *no-gil*) that replaces that optionally removes the\nGIL so that threads can truly be parallel. Does free-threading make sub\ninterpreters redundant? We'll answer that question in this talk. We\nunpack what sub interpreters are, how to use them and their limitations.\nWe'll explore free-threading, the optional flag to remove the GIL in\n3.13. Finally we look at a use case for sub interpreters **and**\nfree-threading together, a multi-worker, multi-thread ASGI web server.\nWe benchmark this against traditional web server architecture with\nmultiprocessing and threading. So fasten your seatbelts, fellow\nPythonistas! Let\u2019s ride the comet tail of parallelism, leaving behind\nthe single-threaded past. \ud83d\ude80\u2728\n",
+    "language": "eng",
+    "recorded": "2024-05-19",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/128/"
+        }
+    ],
+    "speakers": [
+        "Anthony Shaw"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/lCjsy7tb420/hqdefault.jpg",
+    "title": "Unlocking the Parallel Universe: Subinterpreters and Free-Threading in Python 3.13",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=lCjsy7tb420"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "`Ruff <https://github.com/astral-sh/ruff>`__ is an extremely fast Python\nlinter and code formatter, written in Rust. With Ruff, projects can\nreplace dozens of static analysis tools with a single dependency, all\nwhile executing 10x, 100x, or even 1000x faster.\n\nOver the past year, Ruff has grown to millions of downloads per month,\nand now powers static analysis for the largest projects in the Python\necosystem, including NumPy, Pandas, PyTorch, LangChain, and more.\n\nThis talk will open with a brief overview of Ruff\u2019s functionality before\ndiving into its internals, with a focus on performance. In particular,\nwe\u2019ll look to answer the question: **what does it take to build a\ndeveloper tool that\u2019s orders of magnitude faster than the\nalternatives?**\n\nOur exploration will be grounded in specific optimizations and design\ndecisions that make Ruff fast. Along the way, we\u2019ll also explore the\nbroader tradeoffs that come with building developer tools for Python, in\nRust.\n\nAlthough Ruff is written in Rust, no Rust knowledge is required.\nInstead, this talk is aimed at those interested in building performant\ndeveloper tools for any domain, in any language.\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/22/"
+        }
+    ],
+    "speakers": [
+        "Charlie Marsh"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/4zeJUz18ZtA/hqdefault.jpg",
+    "title": "Ruff: An Extremely Fast Python Linter and Code Formatter, Written in Rust",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=4zeJUz18ZtA"
+        }
+    ]
+}
