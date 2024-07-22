@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "In today's IDE-land, we've often overheard conversations between\ndevelopers about new features being added to their editor-of-choice and\nhow editor XYZ is better than ABC (vim vs emacs vs VSCode vs IntelliJ,\nwe know the drill). This talk doesn't stoke fire to that debate in any\ndirection (since different things work for different people). But, a\nvery important tool that often powers most of the magical features that\ncome with modern software development is the LSP server. The LSP server\noften keeps chugging in the background, tirelessly providing the user\nwith diagnosis regarding the codes, autocompleting variables, and\nformatting the codebase to maintain prettiness. While various elements\nsuch as parsing, linting, and formatting have long existed, it is the\nLSP server that seamlessly unifies these features in an editor-agnostic\nmanner.\n\nLSP servers are used everywhere, often installed individually by the\nuser even, but there aren't many resources regarding how to actually\nbuild a functional server that can do more than send /\"Hello Editor\nWorld!\"/ messages to the editor. This talk aims to fill in that gap to\nprovide a blueprint of steps that anyone who wants to implement an LSP\nserver in Python can follow. Following this talk will provide a better\nunderstanding of the JSON-RPC protocol used by LSP servers to\ncommunicate with the client, diagnosis that a server can share with the\nuser and pitfalls that one can fall into while implementing their own\nserver. It will end with a live demonstration of a toy-LSP server that\nprovides the basic functionalities to an editor client.\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/29/"
+        }
+    ],
+    "speakers": [
+        "Chahak Mehta"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/jo3IChyh09U/hqdefault.jpg",
+    "title": "LSP Demystified - How to write an LSP server in Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=jo3IChyh09U"
+        }
+    ]
+}

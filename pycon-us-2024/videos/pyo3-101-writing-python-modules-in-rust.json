@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "In recent years, Rust has been getting more and more popular over other\nsimilar programming languages like C and C++ due to its robust compiler\nchecking and ownership rules to make sure memory is safe. Hence there\nare more and more Python libraries that have been written in Rust\nnatively with a Python API interface. One of the tools that have been\ndriving this movement is PyO3, a toolset that proves Rust bindings for\nPython and tools for creating native Python extension modules.\n\nIn this interactive workshop, we will cover the very basics of using\nPyO3. There will be hands-on exercises to go from how to set up the\nproject environment to writing a \"toy\" Python library written in Rust\nusing PyO3. We will cover a lot of expectations of the API provided by\nPyO3 to create Python functions, modules, handling errors and converting\ntypes.\n\nGoal\n----\n\nTo give developers who are not familiar with PyO3 an introduction to\nPyO3 so they can consider building their Python libraries with Rust to\nmake use of Rust's memory-safe property and parallelism ability.\n\nTarget audiences\n----------------\n\nAny developers who are interested in developing Python libraries using\nRust. It will be an advantage if the attendees are comfortable writing\nin Rust. However, attendees are not required to be familiar with Rust as\nall the Rust codes will be provided. Basic knowledge of Python will be\nassumed from the attendees.\n",
+    "language": "eng",
+    "recorded": "2024-05-15",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/113/"
+        }
+    ],
+    "speakers": [
+        "Cheuk Ting Ho"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/3lGkvKVTt5Y/hqdefault.jpg",
+    "title": "PyO3 101 - Writing Python modules in Rust",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=3lGkvKVTt5Y"
+        }
+    ]
+}

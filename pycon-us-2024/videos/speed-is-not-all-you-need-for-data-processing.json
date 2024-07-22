@@ -1,0 +1,28 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Pandas was the dominant local data processing framework for majority of\nthe last decade. Now, there are many other options available like Polars\nand DuckDB. Is it worth switching to them? One of the main reasons\ndevelopers switch is because of the supposed speed. TPCH benchmarks show\nPolars and DuckDB are an order of magnitude faster than Pandas (and\nDask) because of the Rust-based or C++ implementation.\n\nFor large-scale data, we are often told to use pure native Spark\nwhenever possible. Pandas UDFs are often discouraged because they are\ndeemed as a bottleneck. The optimizer works best when it can see the\nentire query plan, but Pandas UDFs are a black box.\n\nBut as practitioners, we have to ask two related questions: 1. Are these\nassumptions true? Is it universally true that Pandas and Pandas UDFs are\nslower? 2. Even if it it slower, is it worth the development overhead to\navoid using Pandas?\n\nIn this talk, we'll show benchmarks across data of various sizes to show\nthat these common assumptions are not always true. In fact, we'll see\nthat Pandas UDFs can actually be faster than native Spark in some cases.\nWith this result in mind, data practitioners should just focus on the\ntools that serve them best rather than adjusting to the tools.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/132/"
+        }
+    ],
+    "speakers": [
+        "Kevin Kho",
+        "Han Wang"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/fXWai2X8D4k/hqdefault.jpg",
+    "title": "Speed is Not All You Need for Data Processing",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=fXWai2X8D4k"
+        }
+    ]
+}

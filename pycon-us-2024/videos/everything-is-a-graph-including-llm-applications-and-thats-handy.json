@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "NLP applications and LLMs have incredible potential to transform the way\nwe live, work, and play. But NLP applications, especially at production\nscale, can be confusing. In this talk, we\u2019ll explore how thinking of NLP\napplications as graphs can reduce confusion and help you build and\ncustomize quickly.\n\nWe will first look into what makes up some of the most common NLP\napplications today, such as retrieval-augmented generation (RAG), and\nhow each step of these applications can be represented as a node in a\ngraph. Then, we will see how we can incorporate branches and loops into\nthese applications.\n\nAs a final step, we\u2019ll see how we can build customized tooling for NLP\napplications in Python.\n\nWe will make use of the pipeline structure of Haystack (an open-source\nLLM framework in Python) as the basis for the examples. We will cover\ntwo working examples that use Haystack\u2019s custom component API (nodes of\nthe graph) within a full pipeline:\n\n-  A private Notion question-answering app\n-  A summarizer for the latest Hacker News posts\n\nKey takeaways:\n\n-  It\u2019s useful to think of NLP applications as directed (multi-)graphs\n-  There are tools for Python developers to build their own tooling that\n   slots into this architecture with the use of open-source frameworks\n   like Haystack.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/52/"
+        }
+    ],
+    "speakers": [
+        "Tuana Celik"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/qsn60ysTqXU/hqdefault.jpg",
+    "title": "Everything is a graph, including LLM Applications (and that\u2019s handy)",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=qsn60ysTqXU"
+        }
+    ]
+}

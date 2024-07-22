@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Over the last couple of years, CPython's compiler was refactored. In\nversion 3.13, we will have access from Python scripts to more of the\ncompilation stages: Instead of the old 4-stage pipeline (source -->\ntokens --> AST --> code object), we will have a more refined pipeline\n(source --> tokens --> AST --> optimized AST --> pseudo bytecode -->\noptimized pseudo bytecode --> bytecode --> code object).\n\nThis talk describes the new compilation pipeline of CPython 3.13 and the\npossibilities that it creates for CPython users, maintainers and\neducators. It presents Codoscope, a new vizualization tool that displays\nCPython's process of translating Python source code into an executable\ncode object.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/3/"
+        }
+    ],
+    "speakers": [
+        "Irit Katriel"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/La_wk7maIpY/hqdefault.jpg",
+    "title": "CPython's Compilation Pipeline",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=La_wk7maIpY"
+        }
+    ]
+}

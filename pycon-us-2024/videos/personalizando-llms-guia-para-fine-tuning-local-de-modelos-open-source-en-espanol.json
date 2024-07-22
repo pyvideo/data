@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "En el mundo actual, los modelos de lenguaje grandes (LLM, en ingl\u00e9s)\nest\u00e1n revolucionando c\u00f3mo interactuamos con la tecnolog\u00eda, permitiendo\ntener conversaciones, organizar datos, redactar textos, y otras\nactividades con m\u00ednimo esfuerzo humano.\n\nEs probable que al usar alg\u00fan LLM hayas recibido respuestas incorrectas\n\u00bfa qu\u00e9 se debe eso? Durante el entrenamiento de estos modelos, suelen\ningerir grandes cantidades de texto sin etiquetar de fuentes como\nlibros, p\u00e1ginas web, foros, los cuales desarrollan un gran entendimiento\nde conocimiento pero carecen de conocimientos espec\u00edficos. Por este\nmotivo ajustar modelos (\u201cFine-Tuning\u201d, en ingl\u00e9s) que han sido\npre-entrenados con este gran corpus de datos es crucial para: (1)\nobtener mejor rendimiento en la calidad de respuestas, y (2) ajustar el\nmodelo a un dominio espec\u00edfico al proporcionar textos espec\u00edficos para\nque puedan especializarse.\n\nEntonces, \u00bfPor qu\u00e9 es necesario entender el \u201cFine-Tuning\u201d en modelos\nlocales? Dentro de los diversos motivos, uno de los m\u00e1s relevantes es la\nprivacidad de datos. Puesto que al hacer el proceso de \u201cFine-Tuning\u201d\nlocalmente se puede ense\u00f1ar al modelo datos que son privados, como datos\npersonales, datos cl\u00ednicos, informaci\u00f3n confidencial de empresas, etc.\n\nEn esta charla, los asistentes aprender\u00e1n paso a paso c\u00f3mo modelos LLM\nOpen Source, como Mixtral-8x22B-v0.1, Mistral-7B (multi lenguaje),\nbloom-7b u otros modelos, son opciones muy interesantes para aprender a\nrealizar \u201cFine-Tuning\u201d y especializar modelo para el dominio espec\u00edfico.\nAdem\u00e1s, se compartir\u00e1 el rol de Python del proceso, la aplicaci\u00f3n de\nm\u00f3dulos externos para tener una implementaci\u00f3n simple, para realizar\n\u201cFine-Tuning\u201d de LLMs.\n\nConocimientos generales de Data Science son recomendables para seguir la\ntem\u00e1tica con facilidad, aunque se explicar\u00e1 de manera simplificada y\nyendo por todos los pasos para entender c\u00f3mo se realiza \u201cFine-Tuning\u201d.\nOutline a\u00f1adido en la secci\u00f3n Notes.\n",
+    "language": "spa",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/99/"
+        }
+    ],
+    "speakers": [
+        "Maria Jose Molina Contreras"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/UY0SkvsEsOw/hqdefault.jpg",
+    "title": "Personalizando LLMs: Gu\u00eda para \u201cFine-Tuning\u201d local de modelos Open Source en Espa\u00f1ol",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=UY0SkvsEsOw"
+        }
+    ]
+}

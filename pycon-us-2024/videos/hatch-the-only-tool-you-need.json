@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": ".. container::\n\n   |Hatch logo|\n\n--------------\n\nTitle\n-----\n\nHatch: The only tool you need\n\nCategory\n--------\n\nPackaging/tooling\n\nDuration\n--------\n\n30 minutes\n\nDescription\n-----------\n\nWhile other language ecosystems have a streamlined workflow that\ninvolves a single tool like Rust's\n`Cargo <https://github.com/rust-lang/cargo>`__ and JavaScript's\n`npm <https://github.com/npm/cli>`__, maintaining Python projects has\nhistorically involved learning and using an ever-growing set of tools:\n\n-  packaging: ``distutils``, ``setuptools``, ``flit``\n-  dependency management: ``pip``, ``pip-tools``, ``poetry``\n-  Python management: ``pyenv``, Homebrew, Windows store\n-  environments: ``virtualenv``, ``tox``, ``nox``\n-  versioning: ``pbr``, ``setuptools_scm``, ``bump2version``,\n   ``versioneer``\n-  builds: ``pip``, ``build``\n-  publishing: ``twine``\n\nThis talk explains how `Hatch <https://github.com/pypa/hatch>`__ can be\nthat unified tool for Python.\n\nAudience\n--------\n\nProgrammers at any level that wish to simplify their development\nexperience.\n\nLevel\n-----\n\nAny\n\nObjectives\n----------\n\nAttendees will learn how to manage the entire lifecycle of a project\nwith Hatch from creation to publishing.\n\nOutline\n-------\n\n#. Intro (3 minutes)\n#. brief history\n#. why rewrite\n#. status/current users\n#. Project setup (2 minutes)\n#. installation\n#. porting setuptools-based projects\n#. creating new projects, with options\n#. Python management (1 minute)\n#. Packaging (6 minutes)\n#. briefly show ``pyproject.toml`` metadata\n#. build targets\n#. metadata hook plugins\n#. file inclusion\n\n   -  defaults\n   -  benefits vs setuptools config\n   -  VCS support\n\n#. dev mode\n#. build hook plugins\n#. Dependencies (2 minutes)\n#. commands\n#. auto-sync\n#. workspaces, monorepos\n#. Environments (8 minutes)\n#. basic options\n#. philosophical difference between ``tox`` & ``nox``\n#. scripts\n#. context formatting\n#. matrices\n#. overrides\n#. environment plugins\n#. Static analysis via Ruff (2 minutes)\n#. Testing via pytest (2 minutes)\n#. Versioning (2 minutes)\n#. source plugins\n#. bumping\n#. Publishing (1 minute)\n#. Future (1 minute)\n\n   -  `extension modules <https://github.com/ofek/extensionlib>`__\n   -  `lock files <https://discuss.python.org/t/17690>`__\n\n.. |Hatch logo| image:: https://raw.githubusercontent.com/pypa/hatch/master/docs/assets/images/logo.svg\n   :width: 500px\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/61/"
+        }
+    ],
+    "speakers": [
+        "Ofek Lev"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/zE-RigeEODM/hqdefault.jpg",
+    "title": "Hatch: The only tool you need",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=zE-RigeEODM"
+        }
+    ]
+}

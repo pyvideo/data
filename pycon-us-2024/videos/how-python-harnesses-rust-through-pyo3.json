@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "The last few years have seen Rust burst onto the scene as a language for\nimplementing much-loved software for the Python ecosystem. The most well\nknown examples of these are ``pydantic``, ``polars``, ``cryptography``,\nand ``ruff``.\n\nThese Rust components are usually built on top of\n`PyO3 <https://pyo3.rs/>`__, a Rust library for binding the two\nlanguages together, and `maturin <https://www.maturin.rs/>`__, a PEP517\nbuild backend for Rust software. There are a growing number of talks,\nblogs, and guides showing how to use these tools.\n\nIn this talk I'll lead you through the details of how a Python function\ncall ends up executing Rust code via PyO3. We'll first spend some time\nintroducing some key ideas as well as the benefits of adding Rust to\nyour Python stack. I'll then break down step-by-step what happens inside\nthe Python interpreter and PyO3's internals as a seemingly simple enough\nPython expression leads to execution of your Rust function.\n\nYou should walk away from this talk with an idea of how Rust/PyO3\nsoftware works under the hood. These same stages of a \"native\" function\ncall are similar for multiple other languages too, including Python\nstandard library \"builtins\", Cython code, and C++/pybind11 software, so\nthis may bring you some useful insight even if Rust is not planned to be\nin your software stack soon.\n\nWhile this talk will get technical, no knowledge of Rust will be\nassumed. An understanding of Python functions and types will be useful,\nas I'll use these to introduce the analogous Rust concepts. Expect to\nsee Rust code (and maybe a little C), but only for illustration - all\ncode will be broken down and stepped through.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/89/"
+        }
+    ],
+    "speakers": [
+        "David Hewitt"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/UkZ_m3Wj2hA/hqdefault.jpg",
+    "title": "How Python Harnesses Rust through PyO3",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=UkZ_m3Wj2hA"
+        }
+    ]
+}

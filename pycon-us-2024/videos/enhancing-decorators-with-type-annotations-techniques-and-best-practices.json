@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Decorators are powerful, magical syntax sugar, offering a convenient way\nto wrap and enhance functions. But sometimes, it's not clear how to use\na defined decorator.\n\nWhat arguments should we pass to a given decorator? What functions does\nit target? Does it change the return type of the wrapped function? Have\nyou ever faced these questions?\n\nIf proper type hints are defined for decorators, static type checkers\nlike mypy and pyright IDEs will point out the errors in usage. Thus,\nguiding you on the right path by catching bugs earlier, reducing\nunnecessary debugging and unexpected runtime behaviour.\n\nThis talk will step you through type definitions utilizing\n``typing.TypeVarTuple``, ``typing.Protocol``, ``typing.ParamSpec``,\n``typing.Concatenate``, ``Type Parameter Syntax``, and more, all of\nwhich are practical to implement and can make your project robust!\n",
+    "language": "eng",
+    "recorded": "2024-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/42/"
+        }
+    ],
+    "speakers": [
+        "Koudai Aono"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/fwA4Df1JJQo/hqdefault.jpg",
+    "title": "Enhancing Decorators with Type Annotations: Techniques and Best Practices",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=fwA4Df1JJQo"
+        }
+    ]
+}

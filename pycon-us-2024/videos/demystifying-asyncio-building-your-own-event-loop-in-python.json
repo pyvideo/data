@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "**AsyncIO** has emerged as a vital tool in Python's ecosystem,\nparticularly in web development, IO-bound tasks, and network\nprogramming. However, its internal mechanics often remain obscure, even\nto seasoned Python developers. This talk aims to demystify AsyncIO by\nguiding you through creating your own event loop in Python, culminating\nin running a FastAPI application with it.\n\nIn this talk, we\u2019ll build an event loop from scratch in Python, capable\nof running an HTTP server through a FastAPI application.\n\n**Plan:**\n\n-  **Introduction to AsyncIO**\n-  **Core Concepts:** Deep dive into Event loop, Futures, Tasks, and\n   coroutines\n-  **Hands-On Building:** Constructing an event loop from scratch\n\n   -  Scheduling callbacks\n   -  Executing tasks and coroutines\n   -  Handling network calls\n\n-  **Practical Application:** Running a FastAPI HTTP server with our\n   loop\n-  **Performance Insights:** Comparing our event loop with the fastest\n   ones\n\nBy the end of this talk, you'll be able to understand the internal\nworkings of AsyncIO and create a basic event loop capable of running a\nFastAPI application.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/100/"
+        }
+    ],
+    "speakers": [
+        "Arthur Pastel"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/heF0Iaxa5k8/hqdefault.jpg",
+    "title": "Demystifying AsyncIO: Building Your Own Event Loop in Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=heF0Iaxa5k8"
+        }
+    ]
+}

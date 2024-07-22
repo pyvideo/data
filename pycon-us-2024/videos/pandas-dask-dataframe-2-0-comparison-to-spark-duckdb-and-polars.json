@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Dask is a library for distributed computing with Python that integrates\ntightly with pandas and other libraries from the PyData stack. It offers\na DataFrame API that wraps pandas and thus offers an easy transition\ninto the big data space.\n\nHistorically, Dask was the easiest choice to use (it\u2019s just pandas) but\nstruggled to achieve robust performance (there were many ways to\naccidentally perform poorly). It was great for experts, but bad for\nnovices. Other tools (Spark, DuckDB, Polars) just did this better.\n\nFortunately, these pain points have been fixed with the following\nfeatures:\n\n-  A new and vastly improved shuffle algorithm\n-  A logical query planning layer to improve performance and usability\n-  A reduced memory footprint through a more efficient data model due to\n   pandas 2.0\n\nWe will look into how these changes work together across pandas, Arrow,\nand Dask to provide a better UX and a more robust and faster system\noverall. Additionally, we will look into a comparison of Dask against\nother tools in the big data space, including Spark, Polars and DuckDB.\n\nWe will use the TPC-H benchmarks to compare these tools. We will look\nahead into what the future will bring for pandas and Dask and how the\nlogical query planning layer can be extended to fit other frameworks\nlike Dask Array and XArray.\n",
+    "language": "eng",
+    "recorded": "2024-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/109/"
+        }
+    ],
+    "speakers": [
+        "Patrick Hoefler"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/bbtK3aCQ3C0/hqdefault.jpg",
+    "title": "Pandas + Dask DataFrame 2.0 - Comparison to Spark, DuckDB and Polars",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=bbtK3aCQ3C0"
+        }
+    ]
+}
