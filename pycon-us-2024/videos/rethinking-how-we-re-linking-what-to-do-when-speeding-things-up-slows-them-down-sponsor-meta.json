@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "The common belief that re-writing Modules as CExtensions will improve\nperformance only works to a point. At Meta, we operate at a massive\nscale with applications that can include over 20,000 shared libraries.\nWhen loading that many files, import performance slows down\nsignificantly. In this session, I will share how we greatly improved\nperformance by statically linking native extensions into the runtime.\nGet ready for a quick overview of linkers and loaders, a brief foray\ninto binary layout, and a deep dive into how Native extensions work in\nPython.\n",
+    "language": "eng",
+    "recorded": "2024-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/152/"
+        }
+    ],
+    "speakers": [
+        "Loren Arthur"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/TsnMD354q6w/hqdefault.jpg",
+    "title": "Rethinking How We're Linking: What to do when speeding things up slows them down (Sponsor: Meta)",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=TsnMD354q6w"
+        }
+    ]
+}
