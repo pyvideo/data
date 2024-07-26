@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "You\u2019re working on a project that needs to aggregate petabytes of data,\nand it doesn\u2019t make sense to manually hard-code thousands of tables,\nDAGs (Directed Acyclic Graphs) and pipelines. How can you transform,\noptimize and scale your data workflow? Developers around the world\n(especially those who love Python) are using Apache Airflow \u2014 a platform\ncreated by the community to programmatically author, schedule and\nmonitor workflows without limiting the scope of your pipelines.\n\nIn this talk, we\u2019ll review use cases, and you\u2019ll learn best practices\nfor how to:\n\n-  use Airflow to transfer data, manage your infrastructure and more;\n-  implement Airflow in practical use cases, including as a:\n\n   -  workflow controller for ETL pipelines loading big data;\n   -  scheduler for a manufacturing process; and/or\n   -  batch process coordinator for any type of enterprise;\n\n-  scale and dynamically generate thousands of DAGs that come from JSON\n   configuration files;\n-  automate the release of both the DAGs and infrastructure updates via\n   a CI/CD pipeline;\n-  run all tasks simultaneously using Airflow.\n\nBoth beginner and intermediate developers will benefit from this talk,\nand it is ideal for developers wanting to learn how to use Airflow for\nmanaging big data. Beginners will learn about dynamic DAG factories, and\nintermediate developers will learn how to scale DAG factories to\nthousands of DAGS \u2014 which is something Airflow can\u2019t do out of the box.\n\nAfter this talk and live demo, people will learn best practices\n(including access to a code repo) that will allow them to scale to\nthousands of DAGs and spend more time having fun with big data.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/68/"
+        }
+    ],
+    "speakers": [
+        "Calvin Hendryx-Parker"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/JJ_nnGkZjBc/maxresdefault.jpg",
+    "title": "Too Big for DAG Factories?",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=JJ_nnGkZjBc"
+        }
+    ]
+}

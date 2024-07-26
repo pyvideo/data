@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Code signing is coming to the Python packaging ecosystem, in the form of\n`Sigstore <https://www.sigstore.dev/>`__: individual package maintainers\nand users will be able to sign for and verify the authenticity of their\nPython packages, respectively, without the historical and technical\nbaggage of PGP.\n\nThis talk will serve two purposes: (1) as a introduction to Sigstore,\nand its security model, to Python developers, and (2) as a technical\noverview of ongoing efforts to integrate Sigstore into Python packaging.\n\nAttendees will be introduced to the cryptographic fundamentals of\ncodesigning, how Sigstore accomplishes codesigning without long-term key\nmaterial (a critical downside to PGP), as well as the guarantees they\ncan derive from strong codesigning in the Python packaging ecosystem.\nThey'll also be introduced to the technical aspects of Sigstore's\nintegration into Python packaging, including a peek behind the scenes at\nthe standardization process and other foundational efforts required to\nintroduce a new codesigning format to one of the world's largest\npackaging ecosystems.\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/19/"
+        }
+    ],
+    "speakers": [
+        "William Woodruff"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/zI5uCad8CfA/maxresdefault.jpg",
+    "title": "Ergonomic codesigning for the Python ecosystem with Sigstore",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=zI5uCad8CfA"
+        }
+    ]
+}

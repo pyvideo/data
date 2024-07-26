@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Last year, Sam Gross, the author of nogil fork on Python 3.9,\ndemonstrates the GIL can be removed. For scientific programs which use\nheavy CPU-bound processes, it could be a huge performance improvement.\nIn this talk, we will see if this is true and compare the nogil version\nto the original.\n\nIn this talk, we will have a look at what is no-gil Python and how it\nmay improve the performance of some scientific calculations. First of\nall, we will touch upon the background knowledge of the Python GIL, what\nis it and why it is needed. On the contrary, why it is stopping\nmulti-threaded CPU processes to take advantage of multi-core machines.\n\nAfter that, we will have a look at no-gil Python, a folk of CPython 3.9\nby Same Gross. How it provides an alternative to using Python with no\nGIL and demonstrates it could be the future of the newer versions of\nPython. With that, we will try out this version of Python in some\npopular yet calculation-heavy algorithms in scientific programming and\ndata sciences e.g. PCA, clustering, categorization and data manipulation\nwith Scikit-learn and Pandas. We will compare the performance of this\nno-gil version with the original standard CPython distribution.\n\nThis talk is for Pythonistas who have intermediate knowledge of Python\nand are interested in using Python for scientific programming or data\nscience. It may shine some light on having a more efficient way of using\nPython in their tasks and interest in trying the no-gil version of\nPython.\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/31/"
+        }
+    ],
+    "speakers": [
+        "Cheuk Ting Ho"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/7ih7LbK6ODo/maxresdefault.jpg",
+    "title": "Trying No GIL on Scientific Programming",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=7ih7LbK6ODo"
+        }
+    ]
+}

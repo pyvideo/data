@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Have you found that your code works beautifully on a few dozen examples,\nbut leaves you wondering how to spend the next couple of hours after you\nstart looping through all of your data? Are you only familiar with\nPython, and wish there was a way to speed things up without subjecting\nyourself to learning C?\n\nIn this talk, you'll see some simple tricks, borrowed from linear\nalgebra, which can give you significant performance gains in your Python\ncode, and how you can implement these in NumPy. We'll start exploring an\ninefficient implementation of an algorithm that relies heavily on loops\nand lists. Throughout the talk, we'll iteratively replace bottlenecks\nwith NumPy vectorized operations.\n\nAt each stage, you'll learn the linear algebra behind why these\noperations are more efficient so that you'll be able to utilize these\nconcepts in your own code. You'll see how straightforward it can be to\nmake your code many times faster, all without losing readability or\nneeding to understand complex coding concepts.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/140/"
+        }
+    ],
+    "speakers": [
+        "Jodie Burchell"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/wISl6LCL8XY/maxresdefault.jpg",
+    "title": "Vectorize all the things! Using linear algebra and NumPy to make your Python code lightning fast.",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=wISl6LCL8XY"
+        }
+    ]
+}

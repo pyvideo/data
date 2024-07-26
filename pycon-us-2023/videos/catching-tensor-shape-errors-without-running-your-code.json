@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "ML developers are often slowed down by errors because of long iteration\ntimes and difficulty in debugging ML code. *Tensor shape mismatches* are\nsome of the most common errors for both new and experienced ML\ndevelopers, occurring when an operation is fed a multi-dimensional array\n(tensor) with the wrong dimensions (shape).\n\nIn this talk, we will show that it is possible to catch Tensor shape\nmismatches without running your code by (a) representing the symbolic\nshape of a tensor (e.g., H x W x B) with explicit type annotations,\ncalled *shape types*, and (b) using a type checker to catch mismatches.\nWe will also show how shape types can help us understand code faster by\nallowing us to see the shape of a tensor variable right in the IDE.\nFinally, we will describe how shape types can be adopted gradually in an\nexisting ML project, talk about support for features such as\nbroadcasting (in NumPy, PyTorch, etc.), and walk through the limitations\nof this new concept of shape types.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/83/"
+        }
+    ],
+    "speakers": [
+        "Pradeep Kumar Srinivasan"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/iPVgG-W7ET8/maxresdefault.jpg",
+    "title": "Catching Tensor Shape Errors without Running Your Code",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=iPVgG-W7ET8"
+        }
+    ]
+}

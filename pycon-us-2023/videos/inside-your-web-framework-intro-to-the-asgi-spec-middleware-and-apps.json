@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "What do FastAPI and Django have in common? They both use ASGI under the\nhood. ASGI, which stands for Asynchronous Server Gateway Interface, is a\nspecification and API for asynchronous, event-driven web applications.\nThe goal of this talk is to peel back the curtain on the internals of\nthis specification and empower you to debug ASGI apps, write custom ASGI\nmiddleware, and simplify application lifecycles and serving.\n\nWe will begin by discussing the basics of the ASGI specification and how\nit works. Then, we will move on to writing a simple ASGI app using pure,\nhand-crafted Python, without any frameworks or libraries. After that, we\nwill cover ASGI middleware, which is a powerful tool that allows us to\nmodify the behavior of our ASGI apps without changing the underlying\ncode. We will show how to write custom middleware and how to use it to\nadd features such as authentication or request body processing. Finally,\nwe will discuss the serving of ASGI applications, focusing on how to use\nUvicorn programmatically and take control of your event loop.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/5/"
+        }
+    ],
+    "speakers": [
+        "Adrian Garcia Badaracco"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/fcfyDvK_A6Q/maxresdefault.jpg",
+    "title": "Inside your web framework: intro to the ASGI spec, middleware and apps",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=fcfyDvK_A6Q"
+        }
+    ]
+}

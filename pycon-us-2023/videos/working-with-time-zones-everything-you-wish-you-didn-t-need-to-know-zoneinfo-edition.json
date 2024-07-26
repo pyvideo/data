@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Time zones are complicated, but they are a fact of engineering life.\nTime zones have `skipped entire\ndays <http://www.bbc.com/news/world-asia-16351377>`__ and repeated\nothers. There are time zones that switch to `DST twice per\nyear <https://www.timeanddate.com/time/zone/morocco/casablanca>`__. But\nnot necessarily every year. In Python it's even possible to create\ndatetimes with non-transitive equality (``a == b``, ``b == c``,\n``a != c``).\n\nIn this talk you'll learn about Python's time zone model and other\nconcepts critical to avoiding datetime troubles. Using the ``zoneinfo``\nmodule introduced in Python 3.9 (`PEP\n615 <https://www.python.org/dev/peps/pep-0615/>`__), this talk covers\nhow to deal with ambiguous and imaginary times, datetime arithmetic\naround a Daylight Savings Time transition, and datetime's new ``fold``\nattribute, introduced in Python 3.6 (`PEP\n495 <https://www.python.org/dev/peps/pep-0495/>`__).\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/51/"
+        }
+    ],
+    "speakers": [
+        "Paul Ganssle"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/rYzgroaK8_Q/maxresdefault.jpg",
+    "title": "Working with Time Zones: Everything You Wish You Didn't Need to Know (zoneinfo edition)",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=rYzgroaK8_Q"
+        }
+    ]
+}

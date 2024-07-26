@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "You will learn about the\n`pluggy <https://pluggy.readthedocs.io/en/stable/index.html>`__ Python\nframework and how it can be used to make your codebase plugin-friendly.\nAs a real-life example, you will also learn about how the 10 year old\nconda codebase has recently gotten new life injected into it via a\nplugin API.\n\nDETAILED ABSTRACT\n\n*What is a plugin?*\n\nA \u201cplugin\u201d is a customization or extra feature that is compatible with\nand discoverable by a particular piece of software. It is not part of\nthe default codebase nor is it necessarily distributed as a default part\nof the software itself.\n\n*What is pluggy and how can it be used?*\n\nThe `pluggy <https://pluggy.readthedocs.io/en/stable/index.html>`__\nPython framework (used by other projects such as\n`pytest <https://docs.pytest.org/en/7.1.x/contents.html>`__,\n`tox <https://tox.wiki/en/latest/>`__, and\n`devpi <https://devpi.net/docs/devpi/devpi/latest/+d/userman/devpi_indices.html>`__)\nis a great tool for incorporating a new plugin system. It provides both\ndevelopers and software users with the ability to extend or modify the\nbehavior of a Python program by enabling function hooking so that you\ncan build pluggable systems with minimal fuss.\n\n*A real world example: Conda*\n\nHow did conda incorporate a new plugin system for new features and\nrefactors? Because of how pluggy works, the conda team\u2019s developers\ncreated plugins simply by defining \u201chooks\u201d and registering the custom\nplugins under the \u201cconda\u201d entry point namespace.\n\n*Conclusion: What other exciting things can be created with plugins?*\n\nFunctionalities such as: - Authentication and authorization - Different\nstorage backends (e.g., S3 buckets, etc.) - Development environment\nintegrations (e.g., different shells) - Programming language support -\nCode editor integrations \u2026and more are all possible to implement via a\nplugin system!\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/66/"
+        }
+    ],
+    "speakers": [
+        "Bianca Henderson"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/OeSv0_HesaU/maxresdefault.jpg",
+    "title": "Plug life into your codebase: Making an established Python codebase pluggable",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=OeSv0_HesaU"
+        }
+    ]
+}

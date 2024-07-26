@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "When you use a SQL database like Postgres, you have to understand the\nsubtleties of isolation levels from \"read committed\" to \"serializable\".\nAnd distributed databases like MongoDB offer a range of consistency\nlevels, from \"eventually consistent\" to \"linearizable\" and many options\nin between. Plus, non-experts usually confuse \"isolation\" with\n\"consistency\"! If we don't understand these concepts we risk losing\ndata, or money, or worse. So what's the bottom line?\n\nIsolation: in a simple world, your database runs on one machine and\nexecutes each request one-at-a-time. In reality, databases execute\nrequests in parallel, leading to weird phenomena called \"anomalies\". To\nsee why anomalies happen, we'll look at Python code that simulates how a\ndatabase executes operations. The various **isolation** levels make\ndifferent tradeoffs between the anomalies they allow, versus the\nparallelism they can achieve.\n\nConsistency: distributed databases keep copies of your data on several\nmachines, but these copies go out of sync. This leads to new anomalies:\nweird phenomena that reveal the out-of-sync data, and make your\napplication feel like it's in a time warp. The various **consistency**\nlevels make tradeoffs between anomalies versus latency. It depends how\nlong you're willing to wait for your data changes to be synced across\nall the machines. Again, we'll look at a Python simulation to understand\nthese anomalies.\n\nYou don't need to know all the names and details of every consistency\nand isolation level. You can refer to this `handy\nchart <https://jepsen.io/consistency>`__. And you don't need to read all\nthe academic papers, but I'll name four or five that are worth your\ntime. Now, make informed decisions about consistency and isolation, and\nuse your database with confidence!\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/26/"
+        }
+    ],
+    "speakers": [
+        "A. Jesse Jiryu Davis"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Y7WMav9fmUo/maxresdefault.jpg",
+    "title": "Consistency and isolation for Python programmers",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Y7WMav9fmUo"
+        }
+    ]
+}

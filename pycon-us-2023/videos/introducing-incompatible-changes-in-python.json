@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "In the Python 2 era, it was decided to migrate at a D-Day: convert all\nyour code base to Python 3. It didn't go as well as expected. We learnt\nlessons from this mistake. Incompatible changes are now introduced\ndifferently in Python.\n\nToday, changes start with a deprecation warning for at least two Python\nreleases before removing old functions. We think about how to write a\nsingle code base working on the old and new Python versions. More and\nmore often, instructions to migrate existing code are provided, or even\nautomated tools. Changes breaking too many projects are reverted when\nthere is not enough time to update enough projects. Code search helps\ndetecting affected projects, notify them, and maybe also propose changes\nto prepare their code.\n\nIn the future, Python is working on a stable ABI to be able to build C\nextensions once and use them on many Python versions. The HPy project is\nan interesting candidate for this goal. More and more projects are being\ntested on the Python version currently under development (Python 3.12)\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/4/"
+        }
+    ],
+    "speakers": [
+        "Victor Stinner"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/NaMWU_mJ8Ic/maxresdefault.jpg",
+    "title": "Introducing incompatible changes in Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=NaMWU_mJ8Ic"
+        }
+    ]
+}

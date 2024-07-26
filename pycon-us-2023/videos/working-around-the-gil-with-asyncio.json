@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "You've heard it many times: the GIL is a problem for using all your CPU\ncores in one program. Among the generally accepted solutions there's\nmultiprocessing, a way to orchestrate a group of worker processes to\nspread CPU load over many cores. This solves the problem for many use\ncases but if you have a lot of data to pass around there and back again,\nit's much less efficient.\n\nIn this short talk we'll go through two examples of data processing with\nPython 3.11 and how asyncio with shared memory helps speed things up. To\ncover all bases, one example will run on macOS, the other on Windows\nSubsystem for Linux. You'll see how the built-in building blocks of\nPython allow to compose scalable systems. Our focus is on the base\nprogramming language. We won't be reimplementing data pipelines or\ncovering any MLops best practices.\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/203/"
+        }
+    ],
+    "speakers": [
+        "\u0141ukasz Langa"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/oVhJAVS3g00/maxresdefault.jpg",
+    "title": "Working Around the GIL with asyncio",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=oVhJAVS3g00"
+        }
+    ]
+}

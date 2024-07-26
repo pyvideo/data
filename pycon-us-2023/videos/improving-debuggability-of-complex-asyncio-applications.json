@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "The key of debugging is observability and reproducibility. Despite a\nseries of the asyncio stdlib improvements for the last few years, it is\nstill challenging to see what\u2019s happening in complex real-world asyncio\napplications. Particularly, when multiple asyncio libraries and your\ncodes are composed together, it is hard to track down silently swallowed\ncancellations and resource-hogging floods of tasks triggered by\ninternals of 3rd-party callbacks. Moreoever, such misbehaviors are often\nobserved only in production environments where the app faces the actual\nworkloads and I/O patterns, making it even harder to reproduce.\n\nIn this talk, I present an improved version of aiomonitor, called\naiomonitor-ng (next generation). The original aiomonitor provides a live\naccess to a running asyncio process using a telnet socket and a basic\nREPL to inspect the list of tasks and their current stacks. After\ngetting several times of assistance in production debugging with it, I\nhave added more features to help tracking the above issues of asyncio\napps running in production: task creation tracker and termination\ntracker. These trackers keeps the stack traces whenever a new task is\ncreated or terminated, and provides a holistic view of chained stack\ntraces when the tasks are nested with arbitrary depths.\n\naiomonitor-ng also demonstrates a rich async TUI (terminal UI) based on\nprompt toolkit and Click, with auto-completion of commands and\narguments, far enhancing the original version\u2019s simple REPL.\n\nWith the improved aiomonitor-ng, I could successfully debug several\nproduction bugs. I hope this talk would help our fellow asyncio\ndevelopers to make more complex yet stable applications at scale.\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/13/"
+        }
+    ],
+    "speakers": [
+        "Joongi Kim"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/_dl_pmzGcF0/maxresdefault.jpg",
+    "title": "Improving debuggability of complex asyncio applications",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=_dl_pmzGcF0"
+        }
+    ]
+}
