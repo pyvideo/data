@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Black, Flake8, isort, and Mypy are useful Python linters but it\u2019s\nchallenging to use them effectively at scale in the case of multiple\ncodebases, in a large codebase, or with many developers. Manually\nmanaging consistent linter versions and configurations across codebases\nrequires endless effort. Linter analysis on large codebases is slow.\nLinters may slow down developers by asking them to fix trivial issues.\nRunning linters in distributed CI jobs makes it hard to understand the\noverall developer experience.\n\nTo handle these scale challenges, we developed a reusable linter\nframework that releases new linter updates automatically, reuses\nconsistent configurations, runs linters on only updated code to speedup\nruntime, collects logs and metrics to provide observability, and builds\nauto fixes for common linter issues. Our linter runs are fast and\nscalable. Every week, they run 10k times on multiple millions of lines\nof code in over 25 codebases, generating 25k suggestions for more than\n200 developers. Its autofixes also save 20 hours of developer time every\nweek.\n\nIn this talk, we\u2019ll walk you through popular Python linters and\nconfiguration recommendations, and we will discuss common issues and\nsolutions when scaling them out. Using linters more effectively will\nmake it much easier for you to apply best practices and more quickly\nwrite better code.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/101/"
+        }
+    ],
+    "speakers": [
+        "Jimmy Lai"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ygZwfVKkpfk/maxresdefault.jpg",
+    "title": "Python Linters at Scale",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=ygZwfVKkpfk"
+        }
+    ]
+}

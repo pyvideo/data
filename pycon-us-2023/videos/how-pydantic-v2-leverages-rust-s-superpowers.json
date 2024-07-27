@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "`Pydantic <https://pydantic-docs.helpmanual.io/>`__ is a data validation\nlibrary for Python that has seen massive adoption over the last few\nyears - it is estimated that Pydantic is now used by about 10% of\nprofessional web developers!\n\nOver the last year I've been working full time to rebuild Pydantic from\nthe ground up, using Rust for virtually all the validation and\nserialization logic. Pydantic V2, with these changes included, has\nrecently been released.\n\nIn this talk I will give a brief introduction to Pydantic and the new\nfeatures in Pydantic V2 before diving into how the use of Rust has\nallowed us to completely change the architecture of Pydantic to make it\neasier to extend and maintain while also improving performance\nsignificantly.\n\nThe majority of the talk will be devoted to using examples from the\npydantic V2 code base to demonstrate the advantages (and disadvantages)\nof writing libraries like Pydantic in Rust. I'll cover the real life\ntrade-offs and design decisions you might face while implementing logic\nin Rust rather than Python.\n\nThis talk should be interesting to any Python developer who's interested\nin combining Python and Rust - no knowledge of Rust or Pydantic is\nrequired. However if you'd like to get some context or learn more about\nthe topics discussed, here are some useful resources:\n\n-  `Pydantic V2\n   Plan <https://pydantic-docs.helpmanual.io/blog/pydantic-v2/>`__ -\n   blog post about the plan for Pydantic V2\n-  `pydantic-core <https://github.com/pydantic/pydantic-core>`__ - the\n   python package that provides Rust logic in pydantic\n-  `PyO3 docs <https://pyo3.rs/>`__ - the amazing library that allows\n   Rust to be embedded in Python\n-  `Build your Python Extensions with Rust! by Paul\n   Ganssle <https://www.youtube.com/watch?v=FolV-xUD3Ko>`__ - good intro\n   to building Python extensions in Rust\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/39/"
+        }
+    ],
+    "speakers": [
+        "Samuel Colvin"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/pWZw7hYoRVU/maxresdefault.jpg",
+    "title": "How Pydantic V2 leverages Rust's Superpowers",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=pWZw7hYoRVU"
+        }
+    ]
+}

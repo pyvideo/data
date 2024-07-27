@@ -1,0 +1,28 @@
+{
+    "copyright_text": "CC BY",
+    "description": "To process our customers' data, Singular's pipeline runs hundreds of\nthousands of daily tasks, each with a different processing time and\nresource requirements. We deal with this scale by using Celery and\nKubernetes as our tasks infrastructure, letting us allocate dedicated\nworkers and queues to each type of task based on its requirements.\nOriginally, this was configured manually.\n\nAs our customer base grew, we noticed that heavier and longer tasks were\ngrabbing all the resources and causing unacceptable queues in our\npipeline. Moreover, some of the heavier tasks required significantly\nmore memory, leading to OOM kills and infrastructure issues.\n\nIf we could classify tasks by their expected duration and memory\nrequirements, we could have segregated tasks in Celery based on these\nproperties and thus minimized interruptions to the rest of the pipeline.\nHowever, the variance in the size and granularity of the fetched data\nmade it impossible to classify if a task was about to take one minute or\none hour.\n\nOur challenge was: how do we categorize these tasks, accurately and\nautomatically? To solve the issue we implemented a machine-learning\nmodel that could predict the expected duration and memory usage of a\ngiven task. Using Celery\u2019s advanced task routing capabilities, we could\nthen dynamically configure different task queues based on the model's\nprediction.\n\nThis raised another challenge - how could we use the classified queues\nin the best way? Configuring workers statically for each queue would be\ninadequate at scale. We utilized Kubernetes\u2019 vertical and horizontal\nautoscaling capabilities to dynamically allocate workers for each\nclassified queue based on its length. This improved our ability to\nrespond to pipeline load automatically, increasing performance and\navailability. Additionally, we were able to deploy shorter-lived workers\non AWS Spot instances, giving us higher performance while lowering cloud\ncosts.\n",
+    "language": "eng",
+    "recorded": "2023-04-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/1/"
+        }
+    ],
+    "speakers": [
+        "Boaz Wiesner",
+        "Keren Meron"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/s6AVuWc6E1w/maxresdefault.jpg",
+    "title": "Supercharging Pipeline Efficiency with ML Performance Prediction",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=s6AVuWc6E1w"
+        }
+    ]
+}

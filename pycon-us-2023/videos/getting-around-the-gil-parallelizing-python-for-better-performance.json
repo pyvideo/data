@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "One of the ever-present banes of a data scientist\u2019s life is the constant\nwait for the data processing code to finish executing. Slow code affects\nalmost every step of a typical data pipeline: data collection, data\npre-processing/parsing, feature engineering, etc. Many times, the\nlengthy execution times force data scientists to work with only a subset\nof data, depriving him/her of the insights and performance improvements\nthat could be obtained with a larger dataset. One of the tools that can\nmitigate this problem and speed up data science pipelines (and CPU-bound\nprograms) is parallelization.\n\nParallelization is a useful way to work around the limitations of the\nGlobal Interpreter Lock (GIL), a key feature of Python that prevents\ncode from fully utilizing multiple processor cores and can impact\nperformance. In this session, we\u2019ll walk through several ways to\nparallelize Python code, depending on the specific needs of your program\nand the type of parallelism you want to achieve.\n",
+    "language": "eng",
+    "recorded": "2023-04-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/147/"
+        }
+    ],
+    "speakers": [
+        "Alireza Farhidzadeh"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/7d2FLFu2zJY/maxresdefault.jpg",
+    "title": "Getting Around the GIL: Parallelizing Python for Better Performance",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=7d2FLFu2zJY"
+        }
+    ]
+}

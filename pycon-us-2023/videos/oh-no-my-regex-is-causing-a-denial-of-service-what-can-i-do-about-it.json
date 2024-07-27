@@ -1,0 +1,28 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Every modern programming language supports regular expressions. Python\nuses a backtracking engine to match developer-defined expressions\nagainst a wide range of input. Under certain circumstances, backtracking\ncan lead to performance issues, and in extreme cases a denial of service\n(ReDoS).\n\nWe will use descriptive examples to demonstrate the core issue, what to\nlook for to detect problematic expressions, as well as how static\nanalysis can help in this context. We will look at techniques to improve\nregular expression performance and defend against malicious inputs.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/60/"
+        }
+    ],
+    "speakers": [
+        "Guillaume Dequenne",
+        "Quazi Nafiul Islam"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/t6DqAVR-pFQ/maxresdefault.jpg",
+    "title": "Oh no! My regex is causing a Denial of Service! What can I do about it?",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=t6DqAVR-pFQ"
+        }
+    ]
+}

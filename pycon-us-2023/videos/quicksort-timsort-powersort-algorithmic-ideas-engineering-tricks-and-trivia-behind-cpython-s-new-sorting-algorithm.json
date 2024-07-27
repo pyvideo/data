@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Writing a sorting function is easy - coding a fast and reliable\nreference implementation less so. In this talk, I tell the story behind\nCPython's `latest\nupdates <https://github.com/python/cpython/issues/78742>`__ of the list\nsort function.\n\n**Aims:** entertain people with twists of history and algorithmic\npuzzles, which tell a lovely story of how a seemingly useless piece of\ntheory lead to the fastest and most elegant solution of a practical\nchallenge.\n\n**Target audience:** geeks believing in the power of solid algorithmic\nthinking; programmers interested in engineering performance-critical\ncode; all Python enthusiast curious about what makes (sorting lists in)\nPython fast.\n\n**Content**: After using Quicksort for a long while, Tim Peters invented\n*Timsort*, a clever Mergesort variant, for the CPython reference\nimplementation of Python. Timsort is both effective in Python and a\npopular export product: it is used in many languages and frameworks,\nnotably OpenJDK, the Android runtime, and the V8 JavaScript engine.\n\nDespite this success, algorithms researchers eventually pinpointed two\nflaws in Timsort's underlying algorithm: The first could lead to a\n`stack overflow in\nCPython <http://www.envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/>`__\n(and Java); although it has meanwhile been fixed, it is curious that 10\nyears of widespread use didn't bring it to surface. The second flaw is\nrelated to *performance*: the order in which detected sorted segments,\nthe \u201cruns\u201d in the input, are merged, can be `50% more\ncostly <https://arxiv.org/abs/1801.04641>`__ than necessary. Based on\nideas from the little known puzzle of optimal alphabetic trees, the\n`Powersort merge policy <https://arxiv.org/abs/1805.04154>`__ finds\nnearly optimal merging orders with negligible overhead, and is now\n(Python 3.11.0) part of the CPython implementation.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/50/"
+        }
+    ],
+    "speakers": [
+        "Sebastian Wild"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/QtG858LRQI0/maxresdefault.jpg",
+    "title": "Quicksort, Timsort, Powersort - Algorithmic ideas, engineering tricks, and trivia behind CPython's new sorting algorithm",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=QtG858LRQI0"
+        }
+    ]
+}

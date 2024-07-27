@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Twenty years ago, in 2003, Python 2.3 was released with\n``csv.reader()``, a function that provided support for parsing CSV\nfiles. The C implementation, proposed in PEP 305, defines a core\ntokenizer that has been a reference for many subsequent projects. Two\ncommonly needed features, however, were not addressed in\n``csv.reader()``: determining type per column, and converting strings to\nthose types (or columns to arrays). Pandas ``read_csv()`` implements\nautomatic type conversion and realization of columns as NumPy arrays\n(delivered in a DataFrame), with performance good enough to be widely\nregarded as a benchmark. Pandas implementation, however, does not\nsupport all NumPy dtypes. While NumPy offers ``loadtxt()`` and\n``genfromtxt()`` for similar purposes, the former (recently\nre-implemented in C) does not implement automatic type discovery, while\nthe latter (implemented in Python) suffers poor performance at scale.\n\nTo support reading delimited files in StaticFrame (a DataFrame library\nbuilt on an immutable data model), I needed something different: the\nfull configuration options of Python's ``csv.reader()``; optional type\ndiscovery for one or more columns; support for all NumPy dtypes; and\nperformance competitive with Pandas ``read_csv()``.\n\nFollowing the twenty-year tradition of extending ``csv.reader()``, I\nimplemented ``delimited_to_arrays()`` as a C extension to meet these\nneeds. Using a family of C functions and structs, Unicode code points\nare collected per column (with optional type discovery), converted to\nC-types, and written into NumPy arrays, all with minimal ``PyObject``\ncreation or reference counting. Incorporated in StaticFrame, performance\ntests across a range of DataFrame shapes and type heterogeneity show\nsignificant performance advantages over Pandas. Independent of usage in\nStaticFrame, ``delimited_to_arrays()`` provides a powerful new resource\nfor converting CSV files to NumPy arrays. This presentation will review\nthe background, architecture, and performance characteristics of this\nnew implementation.\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/8/"
+        }
+    ],
+    "speakers": [
+        "Christopher Ariza"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ppPXPVV4rDc/maxresdefault.jpg",
+    "title": "Building NumPy Arrays from CSV Files, Faster than Pandas",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=ppPXPVV4rDc"
+        }
+    ]
+}

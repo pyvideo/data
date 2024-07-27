@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Queues. The backbone of distributed systems, our old friends that we can\nrely on, and the cause of a lot of grief and on-call worries as they\ninevitably back up, overflow, replay, or duplicate items.\n\nThere is a different (and sometimes better) way to build distributed\nsystems, though - the reconciliation loop, a system where stateless\nprograms talks to a central datastore and try to progress the state in\nsmall, incremental actions.\n\nWe'll take a look at what reconciliation loops are, exactly, how they\ncompare to both queues and other distributed system messaging options,\nand then dive into their active use as part of the Takah\u0113\nActivityPub/Fediverse server - and see the good, the bad, and the\nstrange behaviours that can result.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/106/"
+        }
+    ],
+    "speakers": [
+        "Andrew Godwin"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/MuK6lmsfX1E/maxresdefault.jpg",
+    "title": "Reconciling Everything",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=MuK6lmsfX1E"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Async python is a relatively recent addition to Python\u2019s longstanding\nconcurrency options of processes and threads - and offers a very\ndifferent programming experience. Where processes run independently and\nthreads switch at the whim of the kernel scheduler, async tasks take a\ndifferent tradeoff: managing shared state is as easy as in\nsingle-threaded synchronous Python, but it\u2019s on you to ensure that there\nare enough ``await``, ``async for``, and ``async with`` statements where\ntasks can switch to make steady progress.\n\nIn this talk, we\u2019ll explore the advantages of structured concurrency -\nespecially error handling, timeouts, cancellation, and readable code -\nand both convenient and reliable ways to mitigate the problems of\ncooperative concurrency (when one *uncooperative* slow task can bring\nyour whole program to a halt). I\u2019ll introduce you to static analysis\nwith flake8-trio and explain how to write your own AST-based tools, and\nshow how dynamic analysis can help us catch anything that slips past\nthat quick and convenient check.\n\nWith a system like this in place, you don\u2019t have to be an experienced or\nparanoid software engineer to write beautiful async code - to serve or\nscrape a website, control a bundle of processes, or write a game - it\njust reads like normal Python, and your tools will catch you if you\nfall.\n",
+    "language": "eng",
+    "recorded": "2023-04-21",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/85/"
+        }
+    ],
+    "speakers": [
+        "Zac Hatfield-Dodds"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/FrpUb6OEbcc/maxresdefault.jpg",
+    "title": "Async the Easy Way: scaling structured concurrency with static and dynamic analysis",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=FrpUb6OEbcc"
+        }
+    ]
+}

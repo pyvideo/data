@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "You might be surprised to learn that, besides naming and cache\ninvalidation problems, building a binary wheel for a Python extension is\none of the hardest problems in computer science. Or more precisely,\nbuilding that binary wheel correctly. Lucky for us, a few amazing\ncommunity-led projects hide all that complexity from us, so we can\ninstead focus on shipping and using Python code.\n\nOne of Python's strong suits is its ability to use native C and C++\ncode, which is a big reason why it\u2019s the number one language for date\nscience and machine learning applications. However, distributing native\ncode in Python libraries is far from trivial: subtle issues in the build\nprocess can result in runtime issues that are extremely difficult to\ntrack down.\n\nThis talk will showcase some notable examples of how things can go\nwrong, while also helping users and maintainers recognise these typical\nerror scenarios. We will learn how to avoid these issues and what users\ncan do when they encounter such issues when using a library.\n\nThe audience will learn about the manylinux standard and its role in\nstandardizing Linux platform wheels. We will also take a look at the\ncibuildwheel project, which offers library authors a simple solution to\nautomate the building and distribution of manylinux wheels.\n",
+    "language": "eng",
+    "recorded": "2023-04-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/146/"
+        }
+    ],
+    "speakers": [
+        "Laszlo Kiss Kollar"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/GPgcUvnG7CQ/maxresdefault.jpg",
+    "title": "The wheelhouse of horrors",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=GPgcUvnG7CQ"
+        }
+    ]
+}

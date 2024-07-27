@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "Abstract\n--------\n\nSome refer to the normal distribution as \"God's curve\" because of its\nsupposed presence in nature when enough observations are collected. But\nwhat if I told you that there is a non-normal distribution that looks so\nnormal that even experts can't see the difference? And beyond looks,\nit's a curve that is both prevalent in nature and likely to cause false\nnegatives when testing hypotheses.\n\nIf you use Python for data analysis (e.g., summaries, explanations,\npredictions) this talk will (1) introduce you to surprising results and\n(2) provide you with the tools to overcome limitations with traditional\nhypothesis testing approaches.\n\nOutline\n-------\n\n#. (5 min) This talk will begin with a short background on the normal\n   curve and how it compares visually to a contaminated normal curve.\n   This set's the stage for a *live and interactive* demonstration.\n\n#. (10 min) During the live demo, I'll use simple terms and\n   easy-to-understand code to illustrate the effect of contamination on\n   common statistics (e.g., mean, traditional hypothesis tests).\n   Participants will be able to interact with the code by clicking a\n   link.\n\n#. (10min) I will conclude by introducing Hypothesize: a `peer-reviewed,\n   open-source Python library for robust\n   statistics <https://joss.theoj.org/papers/10.21105/joss.02241>`__\n   based on Wilcox's package in R.\n\nHypothesize is the only Python library dedicated solely to robust\nstatistics\u2014and it is based on decades of curated research on statistics.\nUsing modern resampling techniques and robust measures of central\ntendency, Hypothesize helps researchers minimize the effects of\ncontamination and skew in their populations. These methods *do not\nassume normality* and are important tools for data scientists to have in\ntheir repertoire\u2014they substantially improve power and accuracy when\nmaking predictions and explaining effects.\n",
+    "language": "eng",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/48/"
+        }
+    ],
+    "speakers": [
+        "Allan Campopiano"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/rn51yfkBg7g/maxresdefault.jpg",
+    "title": "It might look normal but this distribution will ruin your stats",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=rn51yfkBg7g"
+        }
+    ]
+}

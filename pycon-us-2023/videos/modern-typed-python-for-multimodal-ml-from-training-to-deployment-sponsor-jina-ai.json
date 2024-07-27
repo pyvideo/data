@@ -1,0 +1,27 @@
+{
+    "copyright_text": "CC BY",
+    "description": "**Typing** is at the center of \u201emodern Python\u201c, and tools (*mypy,\nbeartype*) and libraries (*FastAPI, SQLModel, Pydantic, DocArray*) based\non it are slowly eating the Python world.\n\nThis talks explores the benefits of Python type hints, and shows how\nthey are infiltrating the next big domain: Machine Learning\n\n**Target audience:** Mainly *machine learning practitioners* that care\nabout improving their code quality and making use of the ever evolving\nPython ecosystem. This includes people that focus on *model training* as\nwell as people that focus on *model deployment and serving*. The\nsecondary target audience is anyone that likes to *know more about\nPython type hints* and how they can be helpful in their code base.\n\n**Intended takeaways:** The audience should leave the talk with three\nmain learnings: - Why Python type hints are useful - Why they are\nparticularly useful in the ML domain - How they can leverage libraries\nlike DocArray in practice\n\n**Preliminary outline:** The talk can be seen as two parts:\n\n*Part 1: Typing in Python* - min 0-5: Introduction - min 5-15: Typing\nand type hints in Python: Short history, and why is it useful? - min\n25-25: Tool landscape: Type checkers (mypy, beartype) and other\nlibraries (Pydantic, FastAPI)\n\n*Part 2: Python type hints in ML* - min 25-40: Why is typing useful in\nML? Tensor shapes, multi-modal data, and more - min 40-60: How to get\nthe most out of typing focused tools for ML: jaxtyping and DocArray -\nHow to organize your data using type hints - How to keep track of your\ntensor shapes using type hints - How to bridge the gap between training\nand deployment thanks to typing focused libraries\n",
+    "language": "eng",
+    "recorded": "2023-04-20",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/131/"
+        }
+    ],
+    "speakers": [
+        "Johannes Messner"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/zgqBUTw9v00/maxresdefault.jpg",
+    "title": "Modern, typed Python for (multimodal) ML: From training to deployment (Sponsor: Jina.ai)",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=zgqBUTw9v00"
+        }
+    ]
+}

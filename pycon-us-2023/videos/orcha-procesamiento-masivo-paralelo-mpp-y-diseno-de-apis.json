@@ -1,0 +1,28 @@
+{
+    "copyright_text": "CC BY",
+    "description": "El **CI** es fundamental en el desarrollo de productos hoy en d\u00eda y uno\nde sus pilares b\u00e1sicos es la ejecuci\u00f3n de tests. Sin embargo, a medida\nque el producto madura la cantidad de tests aumenta y con ello el tiempo\nque tardan en completarse. Para tener *feedback* lo antes posible, \u00bfc\u00f3mo\nse maquetan las pruebas de forma eficiente?\n\nEl problema es a\u00fan m\u00e1s acusado cuando se cuenta con multitud de\ndispositivos y versiones en desarrollo. En particular, con dos\nservidores distriuby\u00e9ndose carga de tests, el tiempo total de ejecuci\u00f3n\nalcanzaba las **15 horas** probando \u00fanicamente dos versiones.\n\nEs imperativo contar con una herramienta que permita paralelizar las\npruebas de forma masiva, aprovechando al m\u00e1ximo los recursos\ndisponibles. Adem\u00e1s, es necesario que dicha herramienta sea lo\nsuficientemente flexible como para soportar la infraestructura actual y\npermita expandir el tipo de infraestrucuras de tests.\n\nEn esta charla vamos a explorar el dise\u00f1o de **Orcha** (la herramienta\nde orquestraci\u00f3n), la API para extender su funcionalidad y la necesidad\nde tener un usuario dedicado.\n\nLa charla est\u00e1 orientada a usuarios intermedio-avanzados con\nfamiliaridad con el m\u00f3dulo\n```multiprocessing`` <https://docs.python.org/3/library/multiprocessing.html>`__.\n",
+    "language": "spa",
+    "recorded": "2023-04-22",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2023/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2023/schedule/presentation/23/"
+        }
+    ],
+    "speakers": [
+        "Javier Alonso",
+        "Miguel Robledo"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/amKiB4oBdW0/maxresdefault.jpg",
+    "title": "Orcha \ud83d\udc33: Procesamiento Masivo Paralelo (MPP) y dise\u00f1o de APIs",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=amKiB4oBdW0"
+        }
+    ]
+}
