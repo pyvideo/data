@@ -1,0 +1,22 @@
+{
+    "description": "This talk describes how to use the ``pytest-ndb`` package for debugging\nfailed pytest tests using a notebook.\n\nIn our opinion, developers should often prefer to debug failing tests\nusing a debugger such as pdb. However for certain applications, such as\nthose that occur in data science with large complex data sets or long\nrunning models, this is can be quite difficult. Debugging a failing test\ncan mean having to analyze data, for which there is little support in a\ndebugger and where notebooks truly shine.\n\nTraditionally to debug in a notebook, all of the code from the test,\nincluding fixtures and parametrizations, must be copied. For simple\ntests this might not be an issue, but for a complex test it can be quite\ntime consuming. Instead, you can use ``pytest-ndb``!\n",
+    "language": "eng",
+    "recorded": "2023-12-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2023/"
+        }
+    ],
+    "speakers": [
+        "Richard Shadrach"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/90PuD9hNOyo/maxresdefault.jpg",
+    "title": "Debugging Failing Pytest Tests in a Notebook",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/90PuD9hNOyo"
+        }
+    ]
+}

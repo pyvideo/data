@@ -1,0 +1,22 @@
+{
+    "description": "Async programming can make complex things easy, but at the same time be\nhard to get 100% correct; particularly when it comes to exceptions and\nhandling states outside the \"happy path\". Python has been gaining tools\nto more easily handle the failure cases, notably in 3.11 a new exception\nhandling syntax: ``except*``.\n\nDon't know what this does or how to read it? This talk is for you.\n\nThis talk will briefly discuss asyncio and how async code differs from\nnormal functions, ``TaskGroups`` and when to use them, and finally\n``ExceptionGroups`` and the ``try: except*:`` syntax.\n",
+    "language": "eng",
+    "recorded": "2023-12-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2023/"
+        }
+    ],
+    "speakers": [
+        "Andrew Kubera"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/3PyvWkQsjeM/maxresdefault.jpg",
+    "title": "How Many Times Can One Line Fail? ExceptionGroups & Except*: What They Are and How to Use Them",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/3PyvWkQsjeM"
+        }
+    ]
+}

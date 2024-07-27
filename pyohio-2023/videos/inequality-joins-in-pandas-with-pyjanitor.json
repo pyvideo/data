@@ -1,0 +1,22 @@
+{
+    "description": "Joins in Pandas are equality based. However, there are other scenarios\nthat require joins on inequality or a combination of equi and non-equi\njoins. Examples include a manufacturer wishing to minimise the cost of\nstorage while maximising profits (increasing the inventory of the more\nprofitable product, while decreasing the storage for the less profitable\nproduct), or a tax audit to find out which employers earn more, but pay\nless tax. Usually in Pandas this is executed via a Cartesian join which\ncan be inefficient as well as memory intensive. Another option is via an\nInterval index; however efficient execution depends on non overlapping\nintervals. There is also pandas.merge_asof - however it is limited to\njust first,last or nearest matches.\n\nThis talk shows an efficient way to handle inequality joins in Pandas.\nIt also shows benchmarks that shows significant performance benefits as\nwell as lower memory usage compared to Cartesian joins.\n",
+    "language": "eng",
+    "recorded": "2023-12-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2023/"
+        }
+    ],
+    "speakers": [
+        "Samuel Oranyeli"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/AjdBLOAhgDI/maxresdefault.jpg",
+    "title": "Inequality Joins in Pandas with Pyjanitor",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/AjdBLOAhgDI"
+        }
+    ]
+}
