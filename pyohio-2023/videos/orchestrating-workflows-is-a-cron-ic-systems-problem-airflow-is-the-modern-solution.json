@@ -1,0 +1,22 @@
+{
+    "description": "As a developer, devops specialist, or SRE, you almost certainly have\nrecurring computational jobs running on your systems. cron is the\nsimple, time-tested sysadmin tool for making a Unix host run a task on a\nregular schedule.\n\nHowever, with the ongoing migration to cloud-based microservices and\nAPIs, many computational tasks have a large, complex, and widely\ndistributed graph of upstream dependencies. These dependencies come in\nmany different forms: for example, a file or other resource arrives; a\nservice or API becomes available; a database finishes a maintenance\ntask; the clock strikes midnight.\n\nTeams that try to manage such complex dependencies with cron inevitably\nend up writing brittle, custom code and scripts to ensure that their\njobs execute in the correct order.\n\nThis raises the question: how can a team more effectively define,\nmanage, visualize, and monitor such complex workflows? An increasingly\npopular answer is Apache Airflow, the open-source system for workflow\norchestration.\n\nFrom this talk, you will learn about the use cases for Airflow, walk\nthrough some introductory examples of the Python code that defines\nworkflows, and watch these workflows operating in real-time in the web\nUI.\n",
+    "language": "eng",
+    "recorded": "2023-12-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2023/"
+        }
+    ],
+    "speakers": [
+        "Jack Bennett"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/5wfy1Cofivw/maxresdefault.jpg",
+    "title": "Orchestrating Workflows Is a 'cron-ic' Systems Problem. Airflow Is the Modern Solution.",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/5wfy1Cofivw"
+        }
+    ]
+}
