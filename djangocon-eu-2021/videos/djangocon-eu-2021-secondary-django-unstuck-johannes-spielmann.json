@@ -1,0 +1,28 @@
+{
+  "description": "\n\nThere are some challenges that come up in every Django project. Some of them right at the start: How do I organize my apps? Where do I put the base template, and all the other templates? Should I do internationalization right away?\nOther problems only crop up a little later: how do I manage production settings? How do I make sure permissions are checked correctly? How do I make menus appear correctly?\nSome may appear at any point in time: how do I add content pages? What code goes into models/controllers/views?\n\nIn this workshop, I'm going to tell you how I approach these recurring challenges and what my \"best practices\" in these situations are.\n\nIn this workshop, we are going to look at four challenges that appear in every Django project at some point. We are going to analyse what's happening, what you can do to get un-stuck, and see what other people do.\n\nThis workshop is for beginners and advanced Django users. The issues we discuss appear in many Django projects, so there is something here for every level of Django knowledge.\n\nThese are the four challenges we are going to look at:\n\n    App management and placement (and urlpatterns)\n    Templates: Placement, folders, blocks and inheritance and namespaces\n    When to use Middlewares and context processors and what are they?\n    Should code/logic go into models, views or managers or somewhere else?\n\nFor each of these, we will try out what I do when they happen, and we'll discuss other strategies.\n\nWe will not do a lot of coding in this workshop, but if you want to follow along, make sure you have Django installed and can execute \"django-admin.py\". There is also a set of base templates I am going to use for illustration, which is linked in the files below.\n\nOf course, there are many more problems like these, which is why I made a list of \"suggestions\" or \"best practices\" for these and others.\nHere's what we're working on so far:\n\n    App management and placement (and urlpatterns)\n    Splitting settings: local, dev, testing and production\n    Username vs email address\n    Registration in general\n    Background tasks and long-running processes and Caching\n    Templates: Placement, folders, blocks and inheritance and namespaces\n    Should you do i18n and l10n right away?\n    When and how to start caching (memcached, redis etc.)\n    Should code/logic go into models, views or managers or somewhere else?\n    When to use Middlewares and context processors and what are they?\n    How to secure access: security middlewares or login_required (white vs black list)\n    How to create files and store them in file models\n    What to do about image scaling and thumbnailing (and hosting)?\n    How to serve content: coded pages, flatpages or Wagtail?\n\nYou can find that list on Github at: https://github.com/shezi/django-unstuck (it's a work-in-progress).\nThere is also a Discord community and Telegram chat group surrounding that list, so if you have any kind of problem with a Django project, come join us and we'll find a way to get you unstuck.\n\nWe're building a community around Django best practices and on getting you Unstuck in challenging situations. Join us on Discord at https://discord.gg/bUsu9B6Ek6 or on Telegram at https://t.me/djangoRhein\n\nAbout me: I'm Johannes Spielmann, software developer-for-hire from Germany, and I've been doing Django projects for almost 15 years, ever since I saw Adrian Holovaty's presentation at \"Snakes and Rubies\". I've done projects both small and large, both in commercial and non-commercial settings, and I've seen all of the above things many times.",
+  "duration": 3766,
+  "language": "eng",
+  "recorded": "2021-06-03",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/RW9FVH/index.html"
+    }
+  ],
+  "speakers": [
+    "Johannes Spielmann"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://img.youtube.com/vi/uetyOZeVrOE/0.jpg",
+  "title": "Django Unstuck: Suggestions for common challenges in your projects",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uetyOZeVrOE"
+    }
+  ]
+}

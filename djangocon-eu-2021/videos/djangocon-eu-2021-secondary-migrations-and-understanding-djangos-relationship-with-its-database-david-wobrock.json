@@ -1,0 +1,28 @@
+{
+  "description": "\n\nDo IntegrityError: NOT NULL constraint failed, column cannot be null or OperationalError: no such column ring a bell? Most Django developers experience those either during development, or worse, in production. We'll explore the whys and wherefores of these problems and suggest some solutions in order to improve your experience with Django migrations and make them seamless.\n\nSlides: https://drive.google.com/file/d/13wsg1yYWX0aJrLuA4a-GRnej42GBN1CK/view?usp=sharing\n\nSlides: https://drive.google.com/file/d/13wsg1yYWX0aJrLuA4a-GRnej42GBN1CK/view?usp=sharing\n\nDescription\nMigrations are a very convenient aspect of the Django framework. They allow making changes to your models when needed, and impact the database schema iteratively in a smooth and integrated manner. No need to have a deep knowledge of SQL, be a database expert nor administrator - it just works. Or at least, most of the time.\n\nThe generated migration files reflect the model changes from one version to the next, and Django logically expects these migrations to be applied for the database connections to work.\nThe required synchronicity between code and database schema is the root of some issues one might encounter when using Django. We will dive into these issues during this workshop.\n\nWe will first explore in which cases one can run into these migration problems, and how they are intrinsically linked to this synchronicity. This will be done by creating a Django project and adding toy features to it, like any developer would do during the workday.\nAfter defining the concept of backward incompatible migrations, we will also expose some example operations and why they can turn out dangerous.\nThe workshop will go about suggesting some existing solutions to these problems: we will manually fix such an issues in development, but also explore how to prevent them from happening in a large-scale infrastructure with multiple servers.\nHopefully giving the attendees a better grasp of what is happening under the hood when something seems off with models and migrations.\n\nWorkshop preparation\nGet the toy project up and running => clone and install https://github.com/David-Wobrock/djangocon-europe-2021-migrations-workshop",
+  "duration": 3769,
+  "language": "eng",
+  "recorded": "2021-06-04",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/VHFEDF/index.html"
+    }
+  ],
+  "speakers": [
+    "David Wobrock"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://img.youtube.com/vi/WM3W2fzCBMg/0.jpg",
+  "title": "Migrations and understanding Django's relationship with its database",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WM3W2fzCBMg"
+    }
+  ]
+}
