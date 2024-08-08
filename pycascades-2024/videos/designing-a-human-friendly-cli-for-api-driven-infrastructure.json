@@ -1,0 +1,29 @@
+{
+  "copyright_text": "",
+  "description": "As Bloomberg\u2019s infrastructure grows and evolves, the tools we use to manage it are becoming increasingly important. To streamline infrastructure management, our team set out to design a REST API and constituent CLI (Command Line Interface) that would comprise a single interface for both programmatic and human interaction with our infrastructure. Traditionally, building a CLI that is tightly coupled to an API requires maintaining a separate codebase, which is tedious and error-prone. Instead, we designed a CLI that dynamically generates commands based on the OpenAPI JSON documentation. However, since APIs are designed for computer interaction, we designed our API to include the information needed to implement a human-friendly CLI. Leveraging Python, FastAPI, and numerous other open source projects, we built a stable, extensible tool that greatly improves how we interact with our infrastructure.",
+  "duration": 1392,
+  "language": "eng",
+  "recorded": "2024-04-07",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2024.pycascades.com/program/schedule/"
+    },
+    {
+      "label": "Full playlist",
+      "url": "https://www.youtube.com/playlist?list=PLcNrB7gPa-Ne6QknxKayJaEBsKfkmA72l"
+    }
+  ],
+  "speakers": [
+    "Oliver Rew"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/LZQCLsqxVKI/sddefault.jpg",
+  "title": "Designing a Human-Friendly CLI for API-Driven Infrastructure",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LZQCLsqxVKI"
+    }
+  ]
+}
