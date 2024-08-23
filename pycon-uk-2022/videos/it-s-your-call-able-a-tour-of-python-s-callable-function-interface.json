@@ -1,0 +1,22 @@
+{
+    "description": "A deep dive into python functions and the callable interface. We take a tour into everything that happens on on a \u201cdef\u201d line and when you call the resulting function. We'll also explore how to harness detailed function metadata, and how to hack the decorator pattern.\n\nFunctions are fundamental to python, and are amongst the first features of python that most users learn. We define a function with parameters, and call it arguments to create a callable object, which then returns a value. \n\nHowever, there is more to this callable interface than meets the eye, and there are lots of useful and powerful things we can do with callables in python. You may have come across some of these already: (anonymous) lambda functions, the __call__ magic method, the decorator pattern, the __doc__ property, and modules like functools and inspect which provide detailed about functions and allow us to alter functions at runtime. The now-retired Python 3.6 release added typing __annotations__ to this mix, and opened up a new world of metadata to use alongside your callables.\n\nLots of libraries, particularly web frameworks like Flask, Django, and FastAPI, and testing toolkits like pytest, use this callable interface to implement their API. As developers, understanding these advanced features of python\u2019s callable interface is particularly useful when writing generic, automation focused code, and understanding how such prominent libraries work.\n\nThis talk gives a deep-dive into python functions, and the associated callable interface. We\u2019ll start with a quick tour of the basics, before covering python\u2019s more advanced callable features, and exploring some examples about how, why, and when you may wish to use these features yourself.",
+    "language": "eng",
+    "recorded": "2022-09-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Dom Weldon"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/a63rn66Hu74/hqdefault.jpg",
+    "title": "It's Your Call(able): a tour of Python's callable (function) interface",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=a63rn66Hu74"
+        }
+    ]
+}
