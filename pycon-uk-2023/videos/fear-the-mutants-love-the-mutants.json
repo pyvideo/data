@@ -1,0 +1,22 @@
+{
+    "description": "Developers often use code coverage as a target, which makes it a bad measure of test quality. Mutation testing changes the game and fixes the problem.\n\nCome and learn to use it in your CI/CD process. I promise, you'll never look at penguins the same way again!\n\nCode coverage (the percentage of your code tested by your tests) is a great metric. However, coverage doesn\u2019t tell you how good your tests are at picking up changes to your codebase - if your tests aren\u2019t well-designed, changes can pass your unit tests but break production.\n\nMutation testing is a great (and massively underrated) way to quantify how much you can trust your tests. Mutation tests work by changing your code in subtle ways, then applying your unit tests to these new, \"mutant\" versions of your code. If your tests fail, great! If they pass\u2026 that\u2019s a change that might cause a bug in production.\n\nIn this talk, I\u2019ll show you how to get started with mutation testing and how to integrate it into your CI/CD pipeline. After the session, you\u2019ll be ready to use mutation testing with wild abandon. Soon, catching mutant code will be a routine part of your release engineering process, and you\u2019ll never look at penguins the same way again!",
+    "language": "eng",
+    "recorded": "2023-09-24",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Max Kahan"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/8Gl_Brl4GVI/hqdefault.jpg",
+    "title": "Fear the mutants. Love the mutants.",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=8Gl_Brl4GVI"
+        }
+    ]
+}

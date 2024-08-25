@@ -1,0 +1,22 @@
+{
+    "description": "What actually happens when you import a package? Let's find out, then explore recent packaging developments, including the new tool PDM, comparing it to pip and poetry. We'll also cover some (opinionated) best practices for handling metadata, and building secure, modern applications using third party libraries in python.\n\nPython has a rich ecosystem of open source packages available to assist with almost any conceivable requirement. Installing, using, and updating these packages should be quick, easy, and secure, however, dependency management and python packaging has historically been a source of frustration for developers, particularly with the added complications of virtual environments, and subtle differences between python versions. Furthermore, software supply chain security has attracted particular importance of late as increasing numbers of major vulnerabilities have been discovered requiring fast, sometimes immediate, mitigation.\n\nIn recent years, efforts have been made to improve packaging and dependency management in python, and we have seen the release of a number of developer tools, including poetry, pipenv, and pipx. These work alongside pip and earlier tools such as disutils, setuptools, and easy_install, and offer higher level interfaces for developers to work with. In 2020, a new tool was released called PDM (Python Dependency Manager), and is gaining traction amongst developers in recent months. \n\nThis talk will start by giving an overview of how python imports work, before moving on to cover a brief history of package management in python, and an overview of the current state of play, and the vulnerabilities that we are exposed to by supply chain attacks. We'll then give a brief introduction to PDM, before discussing what practical steps we can take to both improve our developer experiences, and ensure the code we write is modern, secure, and maintainable.\n\nWe'll ask questions including some of the below.\n\n* What actually happens 'under the hood' when we use the import statement?\n* How many different ways can we import a package in python?\n* What does a dependency manager do, and how does it work?\n* What does a supply chain attack look like, and how do we try and stop them happening?\n\nFinally, the speaker will offer an opinionated guide to some of the best python tooling and package management setups available to python developers in 2023.",
+    "language": "eng",
+    "recorded": "2023-09-24",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Dom Weldon"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/TI8gHpI-OHQ/hqdefault.jpg",
+    "title": "Secure, Modern, and Simple Dependency Management with PDM and Friends",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=TI8gHpI-OHQ"
+        }
+    ]
+}
