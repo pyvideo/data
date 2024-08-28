@@ -1,0 +1,22 @@
+{
+    "description": "Let\u2019s take a closer look at generators and why you may not be getting your expected improvements. Sometimes the memory benefit is negated by necessity; sometimes it's by mistake. \"Meta generators\" can solve this problem, allowing a much wider range of safe, fast operations on very large generators.\n\nThrough this talk, I want to highlight the dangers of trying to write very large or theoretically infinite Python generators to lists (obvious), and the ease with which it can be done accidentally (less obvious).\n\nThe talk will start with an example of when one might want to use some very large generators to solve a problem. I will discuss some common operations that we use to combine generators (chain, product, zip, etc.), and then go into detail about why some of these are \"safe\" to use on very large generators (chain, zip), while others are very much not (product).\n\nThe second part of the talk, which will explain our solution to this problem \u2013 \"meta-generators\" \u2013 also doubles as a recommendation for a future language feature.",
+    "language": "eng",
+    "recorded": "2022-09-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Alastair Stanley"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Pk3ijT7O-S0/hqdefault.jpg",
+    "title": "Meta Generators: Playing Safe with Long Sequences",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Pk3ijT7O-S0"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "description": "HPy is a new C API for Python. Unlike the standard one, it isn't tied to CPython implementation details. It is therefore fully compatible with alternate implementations and with any future changes to CPython itself.\n\nThe official Python C API is specific to the current implementation of CPython. It has served us well and forms the basis upon which our entire extension ecosystem rests. \nHowever, it exposes a lot of internal details which makes it hard to implement it for other Python implementations (e.g. PyPy, GraalPython, Jython, IronPython, etc.), and \nprevents major evolutions of CPython itself, such as using a GC instead of refcounting, or removing the GIL.\n\nThis is where HPy comes in. It's a new C API designed from the ground up according to the following goals:\n* running much faster on alternate implementations, and at native speed on CPython\n* making it possible to compile a single binary which runs unmodified on all supported Python implementations and versions\n* being simpler and more manageable than the Python/C API\n* providing an improved debugging experience.\n\nWe'll discuss its current status and show how existing extensions can be gradually ported to it.",
+    "language": "eng",
+    "recorded": "2022-09-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Ronan Lamy"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/R9lmvVfGqdo/hqdefault.jpg",
+    "title": "HPy: a better C API for Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=R9lmvVfGqdo"
+        }
+    ]
+}

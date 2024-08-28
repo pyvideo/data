@@ -1,0 +1,23 @@
+{
+    "description": "OpenSAFELY is a secure, transparent, open-source platform, built in Python, in response to the COVID pandemic.  It provides almost real-time analysis of millions of electronic health records.  We will discuss privacy, security and research goals achieved by a cross-disciplinary team of researchers, epidemiologists and developers working together.\n\nOpenSAFELY is a secure, transparent, open-source software platform for analysis of electronic health records (EHR) data, built in Python.\n\nOpenSAFELY was built as a fast response to the Covid-19 pandemic to provide almost real-time analysis of millions of NHS records related to Covid data such as hospitalisations, deaths, risk factors and vaccinations.\n\nIn this talk, we will tell the story of how OpenSAFELY came to be, the privacy, security and research goals it addresses with software, and how research best practices can be achieved by a cross-disciplinary team of researchers, epidemiologists and software developers working alongside each other.  \n\nWe will describe the particular challenges that face researchers working with potentially identifiable patient data, and how the inherent risks of such data can be mitigated.\n\nA key concept is the idea of pseudonymised data; i.e. data where a patient's immediately identifiable information (name, exact address, date of birth etc) has been obfuscated). While this sort of data has been superficially anonymised, it can be quite easy to re-identify individuals from the information available. For example, a malicious intruder might easily find and read Boris Johnson\u2019s entire health record by searching for a patient who matches information that is openly available on his Wikipedia page: his age, the dates he tested positive and was admitted to hospital for Covid-19, and the fact that he lives in London.  \n\nOpenSAFELY is a range of tools that aims to allow analysis of EHR data while adhering to these principles; it aims to substantially exceed, by design, the current requirements on securing sensitive healthcare data.  OpenSAFELY does not move patient data outside of the secure environments where it already resides: instead, trusted analysts can run large scale computation across pseudonymised patient records in situ, and in near-real-time.\n\nOpenSAFELY contains a range of flexible, pragmatic, but broadly standardised tools that users work with to convert raw patient data into \u201cresearch ready\u201d datasets, and to then execute code across those datasets. We will discuss the architecture of the platform, some of the tools we chose to use, and reasons for the design decisions made.",
+    "language": "eng",
+    "recorded": "2022-09-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Becky Smith",
+        "Simon Davy"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/L55mq5wi3Cc/hqdefault.jpg",
+    "title": "OpenSAFELY: a python powered response to the COVID pandemic",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=L55mq5wi3Cc"
+        }
+    ]
+}

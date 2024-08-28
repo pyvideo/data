@@ -1,0 +1,22 @@
+{
+    "description": "Datasets with potential to predict contaminated water are more than just numbers. They can mean the difference between drawing safe drinking water from a well and drawing unsafe levels of arsenic. This talk compares ways of generating a predictive model and addresses the ethical importance of application over technological ideology.\n\nBetween 1970 and the year 2000, the United Nations Children's Fund (UNICEF) worked with the Bangladesh government to provide safe drinking water to 80% of the population by the year 2000. The strategy was to achieve this goal by installing tubewells within the country. Unfortunately, many of these wells produced water contaminated with harmful arsenic content. \n\nWhen applying machine learning to this problem, the complexities of providing clean drinking water to an entire country highlight the limitations of foundational technological principles. I experienced this when contributing to the project iArsenic, which used data from these wells to predict a well's arsenic content.\n\nUsing iArsenic, individuals can submit data about their own well in Bangladesh and have a prediction generated to classify the safety of this well. Armed with fundamental principles of data science, I came into this project keen to enlighten the geoscience team about the data science sins they had committed. \n\nWhere was the evaluation? \nWhere was the train and test split? \nWhy does it matter if the model is opaque or transparent? \n\nUltimately, the question I was not asking gave the most valuable insight. Do these data science fundamentals matter? Surely, if we have a model that is 51% accurate all the time, it would be beneficial to use this model to tell people whether they should drink from a well or not, because 1% of people would benefit. In reality, these models are over 80% accurate.\n\nSitting in front of a MacBook Pro in a university library doing this data science project, it can look obvious that this model can be used to tell these people what is good for them and to give them the opportunity to make over 80% of the problem disappear in a take it or leave it fashion. So why is this seemingly simple and effective approach never deployed? When considering whether you would trust your health to a model with a 51% accuracy, does it still seem so simple or is the problem being underestimated by a colonial mindset?\n\nThis talk explores the computing culture shocks experienced when different fields collaborate, discussing how the convictions that help people navigate within a field can raise barriers between fields. Perhaps learning to embrace our convictions with flexibility will break barriers instead of building them.",
+    "language": "eng",
+    "recorded": "2023-09-24",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Kane Swartz"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/xNY0FBICi4w/hqdefault.jpg",
+    "title": "Well well. ML is not the answer to everything.",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=xNY0FBICi4w"
+        }
+    ]
+}

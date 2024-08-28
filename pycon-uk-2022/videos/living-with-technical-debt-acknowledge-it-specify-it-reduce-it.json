@@ -1,0 +1,23 @@
+{
+    "description": "Technical debt is the elephant in the room: complex engineering problems meet awkward organizational issues. To make it more tangible, we'll divide it into 3 categories and discuss engineering and business strategies for each:\n\n- Gather info about **vague** issues.\n- Express **antipatterns** as code.\n- Automatically fix **straightforward** issues.\n\n## Summary\n\nIn this talk, we make tech debt more tangible by dividing it into 3 categories and showing strategies for each:\n\n- vague issues\n- antipatterns\n- fixable problems\n\nIn each category, we'll discuss not just the technical complexities, but also the business impact and the organizational challenges. We'll introduce several tools to mitigate the consequences and to eliminate parts of the tech debt.\n\n## Vague Issues: Acknowledge Them\n\n- Make it visible when working with the code.\n- Make it visible when taking business decisions.\n- Acknowledge the business impact: longer development time, higher probability of bugs.\n- Encourage open and constructive discussion.\n- Gather info about this specific issue and recognize general patterns.\n\n## Identify Antipatterns And Express Them As Code\n\n- General vs specific to your codebase: Not an either - or, but rather a continuum.\n- Express antipatterns as code.\n- Find similar issues across the whole code base.\n- Avoid adding even more debt of the same kind.\n\n## Automatically fix straightforward issues\n\n- If the antipattern can be codified, perhaps the fix can be codified as well.\n- Roll out fixes with large-scale changes.\n- Risks of large-scale changes.\n- Avoid re-adding the same kind of debt.",
+    "language": "eng",
+    "recorded": "2022-09-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Reka Horvath",
+        "Tim Gilboy"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Ugyz8aEyBMo/hqdefault.jpg",
+    "title": "Living With Technical Debt: Acknowledge It, Specify It, Reduce It",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Ugyz8aEyBMo"
+        }
+    ]
+}
