@@ -1,0 +1,40 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "EuroPython 2022 - Writing Faster Python 3 - presented by Sebastian Witowski\n\n[The Auditorium on 2022-07-14]\n\n\nDid you know that Python preallocates integers from -5 to 257? Reusing them 1000 times, instead of allocating memory for a bigger integer, can save you a couple milliseconds of code\u2019s execution time. If you want to learn more about this kind of optimizations then, \u2026 well, probably this presentation is not for you :) Instead of going into such small details, I will talk about more \u201csane\u201d ideas for writing faster code.\n\nAfter a brief overview of different levels of optimization and how they work in Python, I will show you simple and fast ways of measuring the execution time of your code and finally, discuss examples of how some code structures could be improved.\n\nYou will see:\n\n* The fastest way of removing duplicates from a list\n* How much faster your code is when you reuse the built-in functions instead of trying to reinvent the wheel\n* What is faster than the \u201cfor loop\u201d\n* If the lookup is faster in a list or a set\n* When it\u2019s better to beg for forgiveness than to ask for permission\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2525,
+  "language": "eng",
+  "recorded": "2020-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2022.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2022",
+    "europython-dublin",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/6P68IBou_cg/maxresdefault.jpg",
+  "title": "Writing Faster Python 3 - presented by Sebastian Witowski",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6P68IBou_cg"
+    }
+  ]
+}
