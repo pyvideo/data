@@ -1,0 +1,43 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Data lake: Design for schema evolution\n[EuroPython 2021 - Talk - 2021-07-29 - Parrot [Data Science]]\n[Online]\n\nBy Prakshi Yadav\n\nDesigning a data lake necessitates well-researched storage, management, scalability, and availability solutions. However, managing schema evolution remains a difficult task. The structure of data differs from one company to the next, making it difficult to generalize a solution to the schema evolution problem.\n\nAt Episource, we faced a similar challenge - our data of interest is the output from our NLP engine. Episource's machine learning and natural language processing platform processes millions of pages of medical documents, with up to 15 ML/DL models working together to produce the results. The result of such a challenging pipeline is a complex nested JSON series. With each major update, our NLP engine evolves, causing the inference data structure to evolve as well. As data grew in size and complexity, storing it and making it searchable became a pressing necessity. We needed a solution that kept schema compatibility, versioning, and data integrity intact. We wanted to make sure data reads and writes were unaffected by the Schema mismatch problem.\n\nAfter several iterations and proofs of concept, we settled on a solution that uses the AVRO format to evolve our data's schema. Avro is a format similar to Parquet but can also accommodate schema evolution. To keep track of changes made to the system, schema versions are saved in a Schema registry. To read the AVRO data stored in S3, our data lake uses Athena, a distributed SQL engine based on Presto. The solution makes use of python libraries to glue various components of this pipeline.\n\nThe following are some of the things that a participant can expect to learn during this talk:\n\n\nIn a data lake, best practices for storage, control, scalability, and availability\nManaging schema evolution in a data lake\nThe ability to use both \"schema-on-write\" and \"schema-on-read\"\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1617,
+  "language": "eng",
+  "recorded": "2020-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2021.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2021",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/G9G493LEP78/maxresdefault.jpg",
+  "title": "Prakshi Yadav - Data lake: Design for schema evolution",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=G9G493LEP78"
+    }
+  ]
+}
