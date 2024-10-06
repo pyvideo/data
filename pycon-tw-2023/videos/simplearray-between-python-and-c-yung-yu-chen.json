@@ -1,0 +1,15 @@
+{
+    "description": "PyCon Taiwan 2023\uff5cTalk \u6f14\u8b1b\uff5cDay 1, R0 13:45\u201314:15\n\n\ud83e\ude84 \u8aaa\u660e Description \ud83e\ude84\nContiguous buffer is what makes code run fast.  With the regular and compact layout, data can go through the memory hierarchy in a quick way to the processor.  Numpy makes use of it to achieve the runtime almost as fast as C.\r\n\r\nHowever, not all algorithms can be easily maintained or designed by using array operations.  A more general ways is to use the contiguous buffer as an interface.  The dynamic typing system of Python makes it easy to use but hard to optimize.  The typed, fixed-shape buffer allows efficient data sharing between the fast code written in C++ and the Python application.  In the end, the system is as easy to use as but much faster than Python.  The runtime is the same as C++.\r\n\r\nIn this talk, I will show how to design a simple array system in C++ and make it available in Python.  It may be made as a general-purpose library, or embedded for ad hoc optimization.\n\n\ud83e\udea7 \u6295\u5f71\u7247 Slides\uff1ahttps://www.slideshare.net/YungYuChen/simplearray-between-python-and-cpdf\n\n\ud83d\ude80 \u8b1b\u8005\u4ecb\u7d39 About Speaker - Yung-Yu Chen \ud83d\ude80\nHPC software developer.\n\n\nFollow \u201cPyCon Taiwan\u201d\n\u2b50\ufe0f Official Website: https://tw.pycon.org\n\u2b50\ufe0f Facebook: https://www.facebook.com/pycontw\n\u2b50\ufe0f Instagram: https://www.instagram.com/pycontw\n\u2b50\ufe0f Twitter: https://twitter.com/PyConTW\n\u2b50\ufe0f LinkedIn: https://www.linkedin.com/company/pycontw\n\u2b50\ufe0f Blogger: https://conf.python.tw/",
+    "speakers": [
+        "Yung-Yu Chen"
+    ],
+    "recorded": "2023-09-02",
+    "title": "SimpleArray between Python and C++\uff5cYung-Yu Chen\uff5cPyCon Taiwan 2023",
+    "thumbnail_url": "https://i.ytimg.com/vi/Uk0gtAZ-lao/hqdefault.jpg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Uk0gtAZ-lao"
+        }
+    ]
+}
