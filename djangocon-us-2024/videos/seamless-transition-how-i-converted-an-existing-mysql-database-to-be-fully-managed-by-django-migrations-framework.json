@@ -1,0 +1,26 @@
+{
+    "description": "In this presentation, I aim to demystify the complexities of database migrations in Django, catering to audiences with basic knowledge of the framework. Through a structured approach, I will delve into three key topics:\n\n- Understanding Django's Migration Process: I will elucidate how Django determines and executes migrations, shedding light on the underlying mechanisms that govern this process.\n- Managing Dependencies in Migration Files: Delving deeper, I'll explore how dependencies within migration files impact the migration process, offering insights into best practices to navigate potential challenges.\n- Practical Steps for Migrating an Existing Database: Leveraging my own experience, I will guide attendees through a step-by-step methodology for migrating an existing database to Django. This will include:\n\n1. Ensuring consistency in the id field type and configuring the DEFAULT_AUTO_FIELD setting accordingly. I'll also address strategies for handling inconsistencies.\n2. Utilizing 'manage.py inspectdb' to generate models and incorporating them into the 'models.py' file.\n3. Transitioning models from 'managed=False' to 'managed=True' to initiate migration tracking.\n4. Handling existing Many-to-Many Relationships seamlessly.\n5. Generating initial migration files with 'manage.py makemigrations' and faking the initial migration with 'manage.py migrate --fake'.\n6. Optionally, creating ForeignKey fields and enforcing backend foreign key relationships.\n7. Addressing the cleanup of orphaned columns in preparation for conversion to Foreign Keys.\n\nThis talk will be structured with slides covering the first two topics, followed by a practical demonstration of the third topic through real-world examples and code snippets.\n\nIt's important to note that while my methodology was successful with a MySQL database, variations may occur with other database languages. In the event of selection, I am committed to collaborating with a mentor to adapt the content for broader applicability.",
+    "language": "eng",
+    "recorded": "2024-09-24",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2024.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2024.djangocon.us/talks/seamless-transition-how-i-converted-an-existing-mysql-database-to-be-fully-managed-by-django-migrations-framework/"
+        }
+    ],
+    "speakers": [
+        "Daniel Ramas"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/-JLmeUC-JGM/maxresdefault.jpg",
+    "title": "Seamless Transition: How I Converted an Existing MySQL Database to be Fully Managed by Django Migrations Framework",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/-JLmeUC-JGM"
+        }
+    ]
+}

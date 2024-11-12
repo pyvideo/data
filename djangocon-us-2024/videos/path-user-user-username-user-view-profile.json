@@ -1,0 +1,26 @@
+{
+    "description": "Since Django-2.0, most people use path converters instead of regexes to describe the different URL patterns, and how these will trigger views. One can use the already builtin path converters, but also define new ones to parse dates, booleans, etc. more effectively. One can not only define a pattern, but also provide methods to convert between Python objects and URL fragments.\n\nThat last feature can be used to automatically fetch model objects if the path contains the value for the primary key of the model object, or another unique field. We thus avoid writing queries to fetch the objects, but can also turn these into lazy objects where we postpone the roundtrip to the database, until the view needs that object, and thus save a roundtrip if the view has a codepath that does not require the object. Some databases also allow to combine multiple queries in one roundtrip, so we can combine all the objects that go to the same database, limiting the roundtrips further.\n\nA problem with path patterns in general is that often they overlap: the same path can trigger multiple patterns. In that case the first one is picked. This issue has already lead to countless hours of debugging since people expect a different view to be triggered. Since path patterns eventually compile to regexes, and one can determine if two regexes (fully) overlap, we can automatically detect if there are paths for which two or more URL patterns are triggered, and in case a pattern is fully covered by patterns above, advise to rearrange the patterns. Probably not very suprisingly we found that Django's admin pages suffer from this issue as well: if we make a model with a `CharField` as primary key, then adding items with \"remove\" or \"history\" as value for the primary key, means certain views can not be used for these objects. We show some ways to mitigate this.",
+    "language": "eng",
+    "recorded": "2024-09-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2024.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2024.djangocon.us/talks/path-user-user-username-user-view-profile/"
+        }
+    ],
+    "speakers": [
+        "Willem Van Onsem"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Tx0vqVyXIyw/maxresdefault.jpg",
+    "title": "path('/user/&lt;user.username:user&gt;/', view_profile)",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/Tx0vqVyXIyw"
+        }
+    ]
+}

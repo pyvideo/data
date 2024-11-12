@@ -1,0 +1,26 @@
+{
+    "description": "Django forms have experienced a significant renaissance within the Django community, after years of being what felt like an afterthought. Recent releases to Django have brought major improvements to built-in form templating and rendering. Instead of writing APIs to support forms rendered by the JS framework of the week, you can now use Django forms to render dynamic, interactive, responsive forms using only the batteries provided by Django, various third-party Django packages, and a handful of small, focused JavaScript utility libraries. And if you're willing to do a little bit of the leg work yourself, you can even get by without those third-party Django packages.\n\nIn recent years, web development has started to see a shift away from complex JavaScript-heavy architectures toward more streamlined, HTML-centric approaches. Technologies like HTMX and Unpoly.js enable SPA-like experiences through server-rendered HTML, pairing nicely with Django\u2019s template language. Similarly, libraries like Alpine.js and Stimulus enhance static HTML with dynamic behaviors inline, eliminating the need for comprehensive frameworks. Additionally, CSS frameworks like Tailwind CSS adopt a utility-first approach, simplifying the creation of  maintainable CSS. \n\nThis shift towards an HTML-centric approach to building web applications is complemented nicely by the recent improvements to Django forms. By leveraging these new capabilities, Django forms can now be used to render forms that are more easily maintainable, more responsive, more accessible, and -- to the end user -- just as interactive as one built using one of the many JS frameworks.\n\nBy the end of this talk, attendees will have a deeper understanding of the power and potential of Django forms, equipped with the knowledge to implement them effectively in their projects.\n\n### Outline\n\n- Introduction to Django forms, including a quick historical overview of where they have come\n- Exploration of a few new Django form features: template-based form rendering and `as_field_group`\n- Styling forms, fields, and errors using modern CSS features, with a focus on Tailwind CSS\n- Dynamic behavior with minimal JavaScript, with a focus on Alpine.js\n- Inline validation using AJAX, with a focus on HTMX\n- Useful third-party Django form packages and why you may not need them anymore\n- Hands-on demonstration of a simple form using all of the above\n\nThis talk will be suitable for anyone who has a basic understanding of Django.",
+    "language": "eng",
+    "recorded": "2024-09-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2024.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2024.djangocon.us/talks/an-opinionated-guide-to-modern-django-forms/"
+        }
+    ],
+    "speakers": [
+        "Josh Thomas"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/mpS9DLTSW88/maxresdefault.jpg",
+    "title": "An Opinionated Guide to Modern Django Forms",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/mpS9DLTSW88"
+        }
+    ]
+}

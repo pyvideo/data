@@ -1,0 +1,26 @@
+{
+    "description": "When you write a Python script that has dependencies, the standard has always been to use a separate file like requirements.txt or pyproject.toml (using Tom\u2019s Obvious, Minimal Language format) for handling the dependencies from external libraries. To share these scripts that are dependent on external libraries or other versions of Python, the process becomes more complex since the receiver has no choice but to create a new virtual environment with all the necessary dependencies. It becomes even more cumbersome in educational settings or among collaborators, where people might have different levels of Python expertise.\n\nWith the introduction of PEP 723, we\u2019ve brought simplicity to our code, as we can now embed dependencies directly in a single file script. In this talk, we will explore this new method that enhances our productivity by making it easier to share, deploy, and work with Python scripts, making working with Django closer to being seamless.",
+    "language": "eng",
+    "recorded": "2024-09-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2024.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2024.djangocon.us/talks/the-magic-of-dependencies-installing-themselves/"
+        }
+    ],
+    "speakers": [
+        "Ilerioluwakiiye Abolade"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/908fpWtYyj0/maxresdefault.jpg",
+    "title": "The Magic of Dependencies Installing Themselves",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/908fpWtYyj0"
+        }
+    ]
+}
