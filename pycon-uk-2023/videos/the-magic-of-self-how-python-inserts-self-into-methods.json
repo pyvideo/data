@@ -1,0 +1,22 @@
+{
+    "description": "Have you ever wondered how `self` works? Whenever you call a method, `self` seems to magically appear as an argument. But behind this dark magic lies a well-defined protocol, the descriptor protocol, that you can implement yourself. Join me and learn how Python inserts `self` into methods!\n\nA phrase that I hear a lot is that \u201cPython is easy to learn but hard to master\u201d. In a way that\u2019s true: Python\u2019s many abstractions allow you to focus on the business logic of your code instead of the lower-level implementation details.\n\nAt the same time, most of Python\u2019s abstractions aren\u2019t *magical*: Its versatile data model allows you to hook into almost every aspect of the language to implement objects that behave just as Python\u2019s built-in objects do. This enables you to create new types of objects that have high-level interfaces of their own.\n\nIn this talk, I want to entice you to explore the wonderful landscape of Python\u2019s data model by diving into an especially magical feature: The automatic insertion of `self` into methods.\n\nWhen you first came across `self` in a method signature, chances are that you learned that inserting the instance into methods is just something Python does for you; that you shouldn\u2019t worry too much about it. I will go one step further and show you that there\u2019s a well-defined protocol behind this magic, the descriptor protocol.\n\nBy the end, not only should you be able to implement descriptors of your own, but you should also be able to recognize that some well-known features of Python, such as properties and classmethods, are implemented using the same descriptor protocol.",
+    "language": "eng",
+    "recorded": "2023-09-24",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Sebastiaan Zeeff"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/hNM91G41m3c/hqdefault.jpg",
+    "title": "The Magic of Self: How Python inserts self into methods",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=hNM91G41m3c"
+        }
+    ]
+}

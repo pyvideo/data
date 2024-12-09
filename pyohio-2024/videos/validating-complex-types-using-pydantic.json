@@ -1,0 +1,26 @@
+{
+    "description": "For some Python Objects it is difficult to understand its contents, even\nif type annotations are used. For example, PyTorch's ``Tensor`` or\nPandas's ``DataFrame`` have many different \"shapes\" to their data\nstructures, but their type annotations are always the same. This can\nmake it very difficult to understand functions that utilize these\nobjects as parameters or return these objects. When reviewing code, it\nis very common to ask these sorts of questions:\n\n-  What is the shape of the ``Tensor`` I need to pass in?\n-  What columns does this ``DataFrame`` need to have?\n\nIn this talk, we will describe how to utilize typing metadata and\nPydantic to not only provide additional context for these data\nstructures, but to validate the input/output of functions as well.\n\n| Links for the talk:\n| - `Notebook <https://github.com/dschelkoph/ds_validator_talk>`__ used\n  in talk; dev container compatible\n| - `ds_validator <https://pypi.org/project/ds_validator/>`__, the\n  package demonstrated in the talk\n",
+    "language": "eng",
+    "recorded": "2024-07-27",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://www.pyohio.org/2024/program/talks/validating-complex-types-using-pydantic"
+        }
+    ],
+    "speakers": [
+        "Daniel Schelkoph"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/RP8U828yOX4/maxresdefault.jpg",
+    "title": "Validating Complex Types Using Pydantic",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=RP8U828yOX4"
+        }
+    ]
+}

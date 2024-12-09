@@ -1,0 +1,22 @@
+{
+    "description": "Learn about Python's memory handling, including:\n- what pointers are, and why it matters\n- what object IDs are, and what they mean\n- how CPython can tell when you're done with an object, and what happens next\n\nNo C knowledge required!\n\nPython is a wonderful thing that takes all the complication of memory management away from us. We don\u2019t have to worry about pre-allocating memory for our objects, or remember to free it once we\u2019re done. So, given that we\u2019re not doing it manually, how do these things happen? Do we have to care? Well, sometimes. Maybe.\n\nIn this talk, we\u2019ll discuss what a pointer is, where they crop up in Python, and what you need to know in order to avoid getting tripped up by them. We\u2019ll also cover the `id` of an object, how it varies between different implementations like IronPython and PyPy, and why `is` is different from `==`. Finally, we\u2019ll talk about garbage collection, what reference counting is, and how CPython knows when it\u2019s time to get rid of unused objects.\n\nWhether you just want to understand what\u2019s going on under the hood without having to dive into the implementation, or you\u2019re on the hunt for some new diabolical things to do with code (self-referential lists are only the beginning!), come along to this talk and learn about the pointers in your Python.\n\nThis talk is aimed at anyone with an interest in how Python handles objects in memory, or who\u2019s ever been confused by side-effects popping up in their code. Absolutely no knowledge of C is required, and Python beginners are extremely welcome.",
+    "language": "eng",
+    "recorded": "2022-09-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Eli Holderness"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ITr3O3sqhVg/hqdefault.jpg",
+    "title": "Pointers? In my Python? It's more likely than you think",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=ITr3O3sqhVg"
+        }
+    ]
+}

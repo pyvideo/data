@@ -1,0 +1,28 @@
+{
+  "description": "\n\nDjango projects are standalone by nature, but with the right tooling and practices you can effectively maintain many interrelated Django services in a single streamlined repo, with minimal boilerplate and copypasta.\n\nModern software systems often involve developing and deploying multiple related services. The microservice architecture is a prominent example of this. These services often share underlying data structures, models, utilities, protocols and other core code.\n\nDjango is an excellent choice for building individual services, and some functionality can be shared between them by reusing apps. But Django projects themselves are standalone by nature, and there is no standard infrastructure for streamlining the management many related services. As a result we're often forced to treat each project as an island, with its own settings and deployment configuration, possibly in its own repo.\n\nIn this workshop we will demonstrate:\n- The challenges of maintaining many interrelated Django projects.\n- The advantages of having multiple Django projects coexist in a single shared repo.\n- The tooling you need to work effectively in a Django monorepo, with a focus on the Pants build system.\n- Specific examples of good practices that allow you to maintain a growing yet streamlined stable of interrelated Django-based microservices with minimal boilerplate and copypasta.\n\nCode along with us, and ask questions along the way!",
+  "duration": 3374,
+  "language": "eng",
+  "recorded": "2021-06-03",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/CTXYZE/index.html"
+    }
+  ],
+  "speakers": [
+    "Benjy Weinberger"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://img.youtube.com/vi/Glillzb_TqQ/0.jpg",
+  "title": "Managing multiple Django services in a single repo",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Glillzb_TqQ&ab_channel=DjangoConEurope"
+    }
+  ]
+}

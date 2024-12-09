@@ -1,0 +1,28 @@
+{
+  "description": "Learn to leverage cloud native tools and launch a scalable Python and Django application into the Cloud with Fargate. We’ll dive in with how to getting up and running fast, but leaving the overhead of managing virtual machines and Kubernetes behind. Create and store the application Docker images in a container repository and without touching the AWS console we can create fully Infrastructure as Code automated deployments via CodePipeline into Fargate containers and S3 buckets. Deliver the React application via CloudFront and S3 for full global scalability. Leave the legacy deployments behind and forge bravely into the new world of Cloud Native applications.\n\n- Intro to Cloud Native deployment — 10%\n   - Hitchhikers Guide to Cloud Native vocabulary\n- Laying the groundwork for going Cloud Native — 10%\n    - Containerizing your app\n    - Preparing your image for production\n- Building the pipeline — 20%\n    - Sketching out your infrastructure\n    - Moving to Terraform\n    - Creating a CI/CD workflow\n- Playing with Building Blocks — 20%\n    - Leveraging AWS Cloud Components for Delivery\n    - Using Environment Variables and keeping Secrets\n- Scaling Considerations, Load Balancers and CDNs — 20%\n    - Many routes behind one URL\n    - Enable effective caching\n    - Keep things on a need to know basis (only pass what you need)\n- Load Testing — 10%\n    - Build test plans with Locust.io (Python powered!)\n    - Testing and debugging load tests with remote PDB\n- Conclusion — 10%\n",
+  "duration": 2409,
+  "language": "eng",
+  "recorded": "2021-06-03",
+  "related_urls": [
+    {
+      "label": "Talk announcement",
+      "url": "https://2021.djangocon.eu/cfp/talk/UBAQPR/index.html"
+    }
+  ],
+  "speakers": [
+    "Calvin Hendryx-Parker"
+  ],
+  "tags": [
+    "Django",
+    "DjangoConEU",
+    "djangoconeu2021"
+  ],
+  "thumbnail_url": "https://img.youtube.com/vi/XdH6urrt0F8/0.jpg",
+  "title": "Deploying a Django Virtual Event Platform Using Containers and Terraform",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XdH6urrt0F8"
+    }
+  ]
+}

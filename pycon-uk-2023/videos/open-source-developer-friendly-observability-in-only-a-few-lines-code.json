@@ -1,0 +1,22 @@
+{
+    "description": "I want a clear picture of how my application is performing in production, but proper observability involves a lot of faff. So let's look at how to add metrics to an application with only a few lines of code and an open-source library called autometrics-py.\n\nMarie Curie said, \u201cNothing in life is to be feared, it is only to be understood.\u201d\n\nFor developers, writing code is a big part of our lives. And if we want to understand how the code we write is actually performing out in the wild, then we need to use techniques and tooling from the world of observability.\n\nThis poses a problem for many of us, including myself: Observability tooling is itself fear-inducing! \n\nYes, I would love to understand how my code is doing after I release it onto the scary internets. (Please. Tell me. I have no idea.)\n\nHowever, the path to an observable codebase is full of easy-to-take wrong turns and very confusing signage. Speaking personally, I needed to get to know the the quirks of a time-series database, determine what to measure (and how to measure it), label my data correctly, and then learn a new query language to generate charts that would help me understand whether or not my app is doing as well as I (really, really) hope it is.\n\nI am a developer. I\u2019ve been creating web applications for a decade. And yet, before working for an observability company, I still relied mostly on carefully placed log statements to debug my production code.\n\nThis is why I started contributing to autometrics-py, which is a small, open source micro-framework that exposes a cute little python decorator to make implementing observability best practices much, much simpler for developers. (To be clear: I am by no measure an expert in observability, but that\u2019s exactly why I\u2019m excited to share what I\u2019ve learned while helping to make it easier for others.)\n\nIn this talk, we\u2019ll cover what makes observability tricky, especially for devs, and how we can do away with this trickiness by making some smarty-pants assumptions about the type of data we are most interested in. We\u2019ll focus on the unique power of getting metrics at the function level (because who doesn\u2019t love functions?!), and emerge with the confidence of Marie Curie when it comes to understanding the health of our codebase in production.",
+    "language": "eng",
+    "recorded": "2023-09-23",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2023.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Brett Beutell"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ayH-vn7BLyk/hqdefault.jpg",
+    "title": "Open-source, developer-friendly observability in only a few lines code",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=ayH-vn7BLyk"
+        }
+    ]
+}

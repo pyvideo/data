@@ -1,0 +1,26 @@
+{
+    "description": "Python's dynamic typing system famously offers flexibility, but this can\nsometimes lead to runtime errors that are hard to detect or predict. In\nmany cases, the programmer knows what type a variable \"should\" be, but\nin earlier language versions the only option to enforce this was by\nwriting custom, run-time type checks. Since Python 3.5, the language has\noffered type hints, which are optional annotations that suggest (but do\nnot require) that a variable has a particular type. Combined with static\ntype checkers like MyPy and run-time data validation frameworks like\nPydantic, type hints offer Python programmers a powerful system to\nimplement static types in a highly standardized way.\n\nThis presentation explores these new standards for static typing in\nPython through the lens of two powerful and versatile libraries: MyPy\nand Pydantic. These tools build upon Python\u2019s type hints to help you\nimprove your code reliability and effectiveness with minimal extra\neffort.\n\nAt the end of this presentation you will be able to:\n\n-  Use type hints, MyPy, and Pydantic to define and enforce static data\n   types in Python.\n-  Identify important use cases where static types provide greater code\n   reliability and quality.\n-  Leverage these tools to increase the resilience of your code against\n   bad data, and deliver more useful and actionable error messages\n   sooner.\n\nMyPy is a type checker that leverages built-in type hints to identify\npossible type errors during a separate static analysis stage. By\nintegrating a MyPy step into your development, testing, and deployment\nprocesses, you can catch type-related errors at the start of the\ndevelopment cycle. This reduces debugging time, improves code quality,\nand often heads off potential production failures long before they\noccur. We will discuss MyPy's key features, how to integrate it into\nexisting projects, and how it works together with Python's built-in\ndynamic typing.\n\nPydantic is a data validation library that leverages Python's type hints\nto check incoming data at run time. Pydantic's data models ensure that\nincoming data conforms to defined schemas. This feature is especially\nuseful in data-intensive applications for guaranteeing data integrity\nand standardizing error reporting. Key application areas include ETL,\nstreaming data, and RESTful APIs (in fact, the popular FastAPI framework\nleans heavily on Pydantic for data validation). We will learn about\nPydantic's applications in data parsing, and in building data models\nthat enhance code resilience and simplify error-checking and logging.\n\nThrough reference to practical examples and best practices, this talk\nwill demonstrate how you can use MyPy and Pydantic to leverage the\nstatic typing capabilities in the core Python language to create more\ncorrect, maintainable, and resilient Python applications.\n",
+    "language": "eng",
+    "recorded": "2024-07-27",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://www.pyohio.org/2024/program/talks/is-python-your-type-of-programming-language"
+        }
+    ],
+    "speakers": [
+        "Jack Bennett"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/DPFnG6CdrJY/maxresdefault.jpg",
+    "title": "Is Python Your TYPE of Programming Language? How to Use Static Typing in Python with Type Hints, MyPy and Pydantic",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=DPFnG6CdrJY"
+        }
+    ]
+}

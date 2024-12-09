@@ -1,0 +1,26 @@
+{
+    "description": "People often spend so much time learning how to build apps in Django\nthat when it comes time for deployment, it feels like a whole new world\nthat they don\u2019t understand. Deployment recipes might help them get their\napp online\u2013but then again they might not, if the steps that worked\nyesterday don\u2019t work today. Even if they do get online, they might not\nunderstand that deployment process anymore than they did before.\n\nInstead of offering another set of steps, I think we can help beginners\nto make sense of deployment by reducing the entire process to four major\nareas of concern and equipping them to think through each of these on\nits own terms:\n\n-  Static Files - why do I have to worry about these now? I thought {%\n   static %} was handling it?\n-  Database - does my sqlite3 file not work in deployment? How do I use\n   my cloud provider\u2019s remote DB?\n-  WSGI Server - how do I run my app in production? Doesn\u2019t manage.py\n   runserver work? I\u2019ve never heard of WSGI, what is it and why does it\n   matter to my Django project?\n-  Web Server (Apache/nginx/PaaS) - What do I need to understand about\n   web servers like Apache or nginx to get my project online? Do I even\n   need to configure a web server if I go with PaaS?\n\nWe\u2019ll also consider:\n\n-  Django\u2019s deployment checklist\n-  django-simple-deploy\n",
+    "language": "eng",
+    "recorded": "2024-07-27",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2024/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://www.pyohio.org/2024/program/talks/what-django-deployment-is-really-about"
+        }
+    ],
+    "speakers": [
+        "James Walters"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/rqHWHQrkAnI/maxresdefault.jpg",
+    "title": "What Django Deployment is Really About",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=rqHWHQrkAnI"
+        }
+    ]
+}

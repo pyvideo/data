@@ -1,0 +1,22 @@
+{
+    "description": "Apache Kafka\u00ae is the de facto standard in the data streaming world for sending\nmessages from multiple producers to multiple consumers, in a fast, reliable\nand scalable manner.\n\nCome and learn the basic concepts and how to use it, by modelling a fish and\nchips shop!\n\nHandling large numbers of events is an increasing challenge in our cloud\ncentric world. For instance, in the IoT (Internet of Things) industry, devices\nare all busy announcing their current state, which we want to\nmanage and report on, and meanwhile we want to send firmware and other updates\n*back* to specific groups of devices.\n\nTraditional messaging solutions don't scale well for this type of problem. We\nwant to guarantee not to lose events, to handle high volumes in a timely\nmanner, and to be able to distribute message reception or production across\nmultiple consumers or producers (compare to sharding for database reads).\n\nAs it turns out, there is a good solution available: Apache Kafka\u00ae - it\nprovides all the capabilities we are looking for.\n\nIn this talk, rather than considering some imaginary IoT scenario, I'm going\nto look at how one might use Kafka to model the events required to run a fish\nand chip shop: ordering (plaice and chips for me, please), food preparation,\naccounting and so on.\n\nI'll demonstrate handling of multiple producers and consumers, automatic routing of\nevents as new consumers are added, persistence, which allows a new consumer to\nstart consuming events from the past, and more.",
+    "language": "eng",
+    "recorded": "2022-09-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2022.pyconuk.org/"
+        }
+    ],
+    "speakers": [
+        "Tibs"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/uFUjnpCJ7xI/hqdefault.jpg",
+    "title": "Fish and Chips and Apache Kafka\u00ae",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=uFUjnpCJ7xI"
+        }
+    ]
+}
