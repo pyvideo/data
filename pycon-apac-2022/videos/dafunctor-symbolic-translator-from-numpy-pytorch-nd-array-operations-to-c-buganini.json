@@ -1,0 +1,15 @@
+{
+    "description": "PyCon Taiwan 2021\uff5c\u4e00\u822c\u6f14\u8b1b Talks\n\n\ud83e\udea7 \u6295\u5f71\u7247 Slides\uff1ahttps://www.slideshare.net/Buganini/dafunctor-250351849\n\n\ud83d\udca1 \u6458\u8981 Abstract \ud83d\udca1\nDAFunctor aims to reduce the increasing gap between science and engineering. ND-Array is a crucial part of modern algorithm design. It reduces the mental burden for designers and bypasses Python's slow loop. However, using lower-level languages like C/C++ is sometimes unavoidable on productization. Some strict development guidelines like MISRA even forbid dynamic memory allocation, making engineering more difficult. Manual translation to C/C++ usually introduces human errors. Other function-to-function auto translators generate lots of boilerplate code and require many intermediate buffers. On the contrary symbolic translation generates only the essential logic. Imperative programming style makes the performance directly depends on the implementation; symbolic translation can also eliminate part of the inefficiency caused by the programmer, thus make benchmarking more normalized. The making of DAFunctor also involves fun low-level hacks on the Python interpreter.\n\n\ud83d\ude80 \u95dc\u65bc\u8b1b\u8005 About Speaker - Buganini \ud83d\ude80\nPythonista since 2008.\n\n#python #pycontw #pycontw2021\n\nFollow \u201cPyCon Taiwan\u201d\n\u2b50\ufe0f Official Website: https://tw.pycon.org\n\u2b50\ufe0f Facebook: https://www.facebook.com/pycontw\n\u2b50\ufe0f Instagram: https://www.instagram.com/pycontw\n\u2b50\ufe0f Twitter: https://twitter.com/PyConTW\n\u2b50\ufe0f LinkedIn: https://www.linkedin.com/company/pycontw\n\u2b50\ufe0f Blogger: https://pycontw.blogspot.com",
+    "speakers": [
+        "Buganini"
+    ],
+    "recorded": "2022-09-03",
+    "title": "DAFunctor: Symbolic translator from NumPy/PyTorch Nd-array Operations to C\uff5cBuganini\uff5cPyCon APAC 2022",
+    "thumbnail_url": "https://i.ytimg.com/vi/aaPkvbZj6WU/hqdefault.jpg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=aaPkvbZj6WU"
+        }
+    ]
+}
