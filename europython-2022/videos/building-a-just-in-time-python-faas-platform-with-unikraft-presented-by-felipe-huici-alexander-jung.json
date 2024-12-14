@@ -1,0 +1,48 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "EuroPython 2022 - Building a Just-in-Time Python FaaS Platform with Unikraft - presented by Felipe Huici, Alexander Jung\n\n[Liffey Hall 1 on 2022-07-13]\n\n\nUnikraft [1] is a unikernel (specialized virtual machine) project. Unikraft is able to target a specific application (e.g., a web server such as NGINX) and transparently build an entire software stack, from the operating system all the way up to systems libraries, that includes only the parts that the application needs and nothing more. Such specialization results in extremely short boot times (a few milliseconds compared to hundreds or thousands for Linux VMs), small image sizes and memory consumption (e.g., a few MBs vs. hundreds of MBs) and a minimal attack surface, to name a few benefits. The short boot times also allow us to bring Unikraft VMs up just-in-time, as a request for a service arrives, and to bring the instance back down (or suspend it) when the request is over, allowing for even greater efficiency.\n\nIn addition, Unikraft images are single address space: in cloud environments strong isolation is provided by the hypervisor, so for single application/single tenant VMs it does not make sense to have a kernel/user-space divide. The end result is higher efficiency in performance, with Unikraft yielding noticeably higher throughout than Linux [2].\n\nRegarding application support, we have put great effort towards making Unikraft as POSIX compatible as possible. Unikraft provides a syscall shim-layer and support for the musl libc, allowing us to run unmodified versions of Python. \n\nIn terms of orchestration, we have integrated Unikraft with major frameworks such as Kubernetes and Prometheus. This, along with extensive debugging facilities should make Unikraft easy to both use and develop for.\n\n[1] https://unikraft.org/\n[2] https://dl.acm.org/doi/10.1145/3447786.3456248 (best paper award)\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1835,
+  "language": "eng",
+  "recorded": "2020-07-11",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2022.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "https://dl.acm.org/doi/10.1145/3447786.3456248",
+      "url": "https://dl.acm.org/doi/10.1145/3447786.3456248"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://unikraft.org/",
+      "url": "https://unikraft.org/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2022",
+    "europython-dublin",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Ch4v-pOyVdg/maxresdefault.jpg",
+  "title": "Building a Just-in-Time Python FaaS Platform with Unikraft presented by Felipe Huici, Alexander Jung",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ch4v-pOyVdg"
+    }
+  ]
+}
