@@ -1,0 +1,25 @@
+{
+    "copyright_text": null,
+    "description": "The most important thing in debugging is observability and reproducibility. Despite the steady improvement of the asyncio standard library, it is still difficult to look inside a complex asyncio application at a production level. Especially when multiple 3rd-party libraries and frameworks that I cannot control are running, it is very difficult to debug resource issues caused by silently swallowed cancellation signals or arbitrarily created callbacks and coroutine tasks inside some external code. Moreover, these problems tend to occur only in production environments with actual workloads, rather than in development environments. \n\nIn this presentation, we present the aiomonitor-ng library, which is an improved version of the previously released aiomonitor library. The existing library helped to look inside the currently running asyncio process based on a simple telnet server and REPL, and it also helped in actual production debugging. However, after using it for more than a year, I realized that there were some features that were lacking, and I personally added various features, including the ability to directly trace the stack chain of task creation, cancellation, and termination. I also added a terminal UI with auto-completion for convenience. \n\nUsing aiomonitor and the improved aiomonitor-ng, I was able to discover and analyze many production issues in practice. I hope you can use this experience to create more stable asyncio applications.\n\nKim Jun-ki\nHe is currently the CTO of Lablup (\"Lablup\"), developing Backend.AI, and has experience in analyzing and implementing backend systems of various sizes. He has contributed to projects such as Textcube, iPuTTY, CPython, DPDK, pyzmq, aiodocker, and aiohttp through open source activities.",
+    "duration": 1208,
+    "language": "kor",
+    "recorded": "2023-08-12",
+    "related_urls": [
+        {
+            "label": "Improving Debuggability of Complex Asyncio Applications",
+            "url": "https://2023.pycon.kr/session"
+        }
+    ],
+    "speakers": [
+        "Kim Jun-ki"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/rSv6ua9VkXA/maxresdefault.jpg",
+    "title": "Improving Debuggability of Complex Asyncio Applications",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=rSv6ua9VkXA"
+        }
+    ]
+}

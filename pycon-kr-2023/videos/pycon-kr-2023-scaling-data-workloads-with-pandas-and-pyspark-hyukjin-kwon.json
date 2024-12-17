@@ -1,0 +1,25 @@
+{
+    "copyright_text": null,
+    "description": "While pandas is widely used for data preprocessing and analysis tasks, it is not designed for large-scale data processing. This leaves data analysts with a dilemma: whether to downsample the data and lose information, or to scale out the data workload using a distributed processing framework. \n\nPySpark is one of the representative distributed processing tools for such cases. However, to use it, data analysts have to learn a new PySpark from scratch. To solve this problem, Apache Spark provides the pandas API. Existing pandas users can simply replace the pandas package with pyspark.pandas to distribute their existing workloads. \n\nAlternatively, you can write your own user-defined functions (UDFs) that are not included in the existing PySpark API. Pandas Function APIs, introduced in Spark 3.0, allow users to apply arbitrary Python native functions to PySpark dataframes and process their inputs and outputs as pandas instances. This allows data analysts to train ML models based on each group of data using the pandas functions they already use.\n\nIn this session, we will cover how to perform distributed processing from the perspectives of the above two pandas users and PySpark users.\n\nHyukjin Kwon\nHe is a Staff Software Engineer at Databricks, a tech lead for the open source PySpark team, and an Apache Spark PMC member and committer. He works on various areas of Apache Spark such as PySpark, Spark SQL, SparkR, and infrastructure, and has made the most commits in Apache Spark. He also leads various projects such as Project Zen, Pandas API on Spark, and Python Spark Connect.",
+    "duration": 1985,
+    "language": "kor",
+    "recorded": "2023-08-12",
+    "related_urls": [
+        {
+            "label": "Scaling your data workloads with pandas and PySpark",
+            "url": "https://2023.pycon.kr/session"
+        }
+    ],
+    "speakers": [
+        "Kwon Hyuk Jin"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Rpsf61z4uNw/maxresdefault.jpg",
+    "title": "Scaling your data workloads with pandas and PySpark",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Rpsf61z4uNw"
+        }
+    ]
+}

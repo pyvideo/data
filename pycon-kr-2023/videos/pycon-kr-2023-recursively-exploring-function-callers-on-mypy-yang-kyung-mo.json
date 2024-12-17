@@ -1,0 +1,25 @@
+{
+    "copyright_text": null,
+    "description": "Do you use mypy for static type checking?\n\nThis session will introduce a case of creating a script that finds function callers by applying mypy.\n\nThe script I will introduce was used while participating in a TF that migrated a legacy Python API server to a new project. I wanted to do QA by distinguishing only cases where the API writes to the DB. However, the project was too large, so there were too many problems to find them all by hand. The script I wrote at that time helped improve work efficiency by eliminating the manual work of finding DB calls.\n\nThe presentation focuses on the process of creating a script, and includes a look at why mypy was used and the internal structure and operation of mypy.\n\nEven those who are already familiar with Python are curious about how mypy works or how the script was developed, and I expect that they will gain new knowledge through this session.\n\nYang Kyung-mo\nA 4th-year developer in charge of backend development for the beauty platform Hwahae, in charge of search and recommendations, and strives to quickly deliver the information you want. Previously, I worked at Buzzvil, an advertising platform company, developing advertising products, and aimed to provide value that satisfies both advertisers and 20 million MAU users. From the beginning of my career, I have used Python as a language to quickly deliver value, and I am refining it with the help of good colleagues. I have been interested in open source and studied it for my own development and to help more people, and thanks to that, I got a great opportunity to present at PyCon.",
+    "duration": 1178,
+    "language": "kor",
+    "recorded": "2023-08-12",
+    "related_urls": [
+        {
+            "label": "Hop on mypy and recursively explore function callers",
+            "url": "https://2023.pycon.kr/session"
+        }
+    ],
+    "speakers": [
+        "Yang Kyung-mo"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/DMm41d8XKIE/maxresdefault.jpg",
+    "title": "Hop on mypy and recursively explore function callers",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=DMm41d8XKIE"
+        }
+    ]
+}
