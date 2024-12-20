@@ -1,6 +1,6 @@
 {
     "copyright_text": null,
-    "description": "All videos in PyCon Korea 2022 have subtitles so that everyone can access the presentations regardless of hearing ability. \nPlease turn on the subtitle view setting. (Language: Korean) \n\nSee more details about the PyCon Korea 2022 program: https://2022.pycon.kr/program/talks",
+    "description": "As the structural complexity of web services increases, RBAC / ReBAC structure is often adopted for easy role and permission management. Our service is no exception. Since the need for many roles and permission management was anticipated, we decided to use ReBAC from an SSDLC-ish perspective from the initial planning stage and defined requirements such as Table-less role assignment, Role explosion, Hierarchical object graph, and Row-level access control. After checking the status of libraries in the existing Django ecosystem, we introduce the direction and implementation we approached each problem to satisfy the requirements defined above, and introduce the journey to create django-entity-rbac, an open-source library that solves them.",
     "duration": 1484,
     "language": "kor",
     "recorded": "2022-10-01",
@@ -11,8 +11,7 @@
         }
     ],
     "speakers": [
-        "Seo Min-kyo",
-        "Kang Jin-oh"
+        "Seo Min-kyo and Kang Jin-oh"
     ],
     "tags": [
         "Web Service"
