@@ -1,0 +1,27 @@
+{
+    "copyright_text": null,
+    "description": "The meaning of super (Duet. Multiple inheritance) session will look into the true meaning of super and introduce several ways to handle multiple inheritance efficiently. Many people explain the super of a Python class as a \"parent class.\" The explanation of the parent class is not wrong, but it is difficult to see it as the true meaning of super. If the meaning of super is the parent class, then in a situation of multiple inheritance of a class, the super of the child class should refer to multiple parents. However, in reality, super does not work that way. To understand the true meaning of super, you must first understand the diamond problem and MRO of multiple inheritance of classes. The diamond problem is a problem that occurs when there are methods with overlapping names in parent classes in multiple inheritance, and it is not known which parent's method to call. And MRO is a solution to the diamond problem presented in Python. MRO solves the problem by linearizing the diamond shape by specifying the execution order of methods of all related classes. In other words, the true meaning of super is the method in the next order determined by MRO. The examples used in the session are sufficient just to understand MRO. However, in real programs, you will encounter classes that are larger and more complex than the examples. If large and complex classes are entangled using multiple inheritance, it is necessary to consider patterns and methods along with MRO to enable efficient use. So, at the end of the session, we will introduce several ways to efficiently use multiple inheritance. Multiple inheritance has many advantages, but it has problems that are large and small to the point that it is not supported at all depending on the programming language. Since Python supports it, it would be good if we could only take advantage of it through efficient use.",
+    "duration": 851,
+    "language": "kor",
+    "recorded": "2022-10-02",
+    "related_urls": [
+        {
+            "label": "Meaning of super (Duet multiple inheritance)",
+            "url": "https://2022.pycon.kr/program/talk-schedule"
+        }
+    ],
+    "speakers": [
+        "Ahn Won-seok"
+    ],
+    "tags": [
+        "Python Core & Fundamental"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Gg99y1o5THM/maxresdefault.jpg",
+    "title": "Meaning of super (Duet multiple inheritance)",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Gg99y1o5THM"
+        }
+    ]
+}

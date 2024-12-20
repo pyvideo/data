@@ -1,0 +1,27 @@
+{
+    "copyright_text": null,
+    "description": "Most web developers manage data persistence using ORMs such as SQLAlchemy and Django ORM rather than writing SQL directly. ORM connects objects and relational databases. Using ORM, developers can perform DML in programming languages ​​without writing SQL. Since data is handled through object-oriented code, code readability is improved and productivity is enhanced. Also, since the database and code base are loosely connected through abstraction, it can flexibly respond to infrastructure changes. In addition, ORM provides additional features such as lazy-loading and caching to reduce unnecessary queries. However, ORM does not have only advantages. The more complex the data being queried, the more inconvenient ORM can be. This is because the limitations of ORM prevent the full functionality of SQL from being utilized. ORMs that are used without properly understanding the operating principles create very inefficient queries. Therefore, it is very important to understand the characteristics of SQL and know the operating principles of ORM so that you can query correctly. Let's learn how to properly use Django ORM by understanding the characteristics of SQL.",
+    "duration": 1562,
+    "language": "kor",
+    "recorded": "2022-10-02",
+    "related_urls": [
+        {
+            "label": "Django ORM that understands and uses SQL",
+            "url": "https://2022.pycon.kr/program/talk-schedule"
+        }
+    ],
+    "speakers": [
+        "Shin Dong-hyun"
+    ],
+    "tags": [
+        "Web Service"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/J3pg-Ivl_MU/maxresdefault.jpg",
+    "title": "Django ORM that understands and uses SQL",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=J3pg-Ivl_MU"
+        }
+    ]
+}

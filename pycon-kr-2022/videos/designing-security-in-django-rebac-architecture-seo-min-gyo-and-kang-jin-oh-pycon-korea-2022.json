@@ -1,0 +1,27 @@
+{
+    "copyright_text": null,
+    "description": "As the structural complexity of web services increases, RBAC / ReBAC structure is often adopted for easy role and permission management. Our service is no exception. Since the need for many roles and permission management was anticipated, we decided to use ReBAC from an SSDLC-ish perspective from the initial planning stage and defined requirements such as Table-less role assignment, Role explosion, Hierarchical object graph, and Row-level access control. After checking the status of libraries in the existing Django ecosystem, we introduce the direction and implementation we approached each problem to satisfy the requirements defined above, and introduce the journey to create django-entity-rbac, an open-source library that solves them.",
+    "duration": 1484,
+    "language": "kor",
+    "recorded": "2022-10-01",
+    "related_urls": [
+        {
+            "label": "Designing a ReBAC architecture for security in Django",
+            "url": "https://2022.pycon.kr/program/talk-schedule"
+        }
+    ],
+    "speakers": [
+        "Seo Min-kyo and Kang Jin-oh"
+    ],
+    "tags": [
+        "Web Service"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/8r2BDK_4SpQ/maxresdefault.jpg",
+    "title": "Designing a ReBAC architecture for security in Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=8r2BDK_4SpQ"
+        }
+    ]
+}
