@@ -1,0 +1,26 @@
+{
+    "description": "## General details\n\n**Level**: All\n**Categories** : Async, Django Channels, Video processing\n\n## Table of Contents\n\n1. **Introduction**\n   - Brief overview of video streaming\n   - Explain me like I'm 5 : How does Video Streaming work?\n\n2. **Video Streaming Protocols**\n   - Understanding HLS (HTTP Live Streaming)\n   - Overview of MPEG-DASH (Dynamic Adaptive Streaming over HTTP)\n   - HLS vs MPEG-DASH: A comparative analysis\n\n3. **Media Processing Approaches**\n   - Defining the model for media processing\n   - Introduction to FFmpeg\n   - Exploring Microservices for Media Processing\n   - Celery Task: An asynchronous processing approach\n   - Async vs Sync model functions : Model Function Approach\n   - Handling media processing on upload\n   - Make the user do all the work Approach\n\n4. **Video Streaming Implementation**\n   - Frontend demonstration with media file logic\n\n5. **Scaling Video Streaming with Django Channels**\n   - Explaining the role of Django Channels\n   - Diagram illustrating how Django Channels facilitates scaling\n   - Code samples demonstrating Django Channels in action\n\n6. **Conclusion**\n   - Summing up key points\n   - Emphasizing the importance of efficient video streaming architectures",
+    "language": "eng",
+    "recorded": "2024-09-25",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2024.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2024.djangocon.us/talks/streaming-video-in-django-demystified/"
+        }
+    ],
+    "speakers": [
+        "Vaarun Sinha"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Uaavp62o9PQ/maxresdefault.jpg",
+    "title": "Streaming Video in Django | Demystified",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/Uaavp62o9PQ"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "description": "Audio/Video conferencing has become standard in many areas for augmenting communications among individuals. Modern browsers facilitate this by including support for Web Real Time Communications (WebRTC).\n\nWebRTC itself is a point-to-point protocol, which means that two browsers using this for a video call are talking directly to each other. But, before that can happen, the those browsers need to know that each other exists and are looking to establish this connection. Then they need to negotiate the parameters for the connection.\n\nThen there are many network-related issues that can affect the ability for those two browsers to connect.  Things like firewalls and Network Address Translation (NAT) can affect how each side \"sees\" the other side, further complicating the situation.\n\nAll these issues have known solutions. The WebRTC APIs have matured to the point where they can be considered reasonably stable and reliable. It has become practical to incorporate these solutions in a Django-based website.\n\nThis session will discuss one implementation of a Django-based website that facilitates a group video conferencing system, using Channels as the signalling mechanism, HTMX for page-content management, and coturn as the NAT transveral and and gateway server.",
+    "language": "eng",
+    "recorded": "2024-09-25",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2024.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2024.djangocon.us/talks/webrtc-with-django-channels-htmx-and-coturn/"
+        }
+    ],
+    "speakers": [
+        "Ken Whitesell"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/8EJzcpw8i8s/maxresdefault.jpg",
+    "title": "WebRTC with Django, Channels, HTMX, and coturn",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/8EJzcpw8i8s"
+        }
+    ]
+}
