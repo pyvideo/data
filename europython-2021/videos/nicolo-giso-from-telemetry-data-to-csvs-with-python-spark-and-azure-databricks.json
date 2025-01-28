@@ -1,0 +1,43 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "From telemetry data to CSVs with Python, Spark and Azure Databricks\n[EuroPython 2021 - Talk - 2021-07-28 - Parrot [Data Science]]\n[Online]\n\nBy Nicol\u00f2 Giso\n\nTenova is an engineering company working alongside client-partners to design and develop innovative technologies and services that improve their business, creating solutions that help metals and mining companies to reduce costs, save energy, limit environmental impact and improve working conditions for their employees.\n\nIn the context of Industry 4.0, Tenova provides each equipment with a field gateway, named Tenova Edge, to collect telemetry data, perform edge analytics with AI models and send data to the Tenova Platform (hosted on Microsoft Azure) for further elaborations.\n\nTo develop analytics solutions, data scientists and process engineers need the data in a manageable format.\n\nFurthermore, continuous retraining of AI models is necessary to guarantee high performances and reliable results.\n\nFor all of these reasons, we needed to implement an ETL solution to transform the raw data in formats ready for analysis and retraining. In particular, the key requirement was to convert the JSON Lines files coming from the field in CSV files ready to be used.\n\nThe CSV files have to satisfy the following conditions:\n- each file contains the data for a device\n- only one file for device per day\n- each file has a midnight row containing for each cell the value recorded at midnight or the last value of the previous day (SPOILER: here it\u2019s where the fun happens!)\n\nFor this purpose, we have implemented a series of Databricks Notebooks, run daily by Azure DataFactory, that leveraging Pyspark and Pandas manipulates the raw JsonLines files in nicely formatted CSVs.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1451,
+  "language": "eng",
+  "recorded": "2020-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2021.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2021",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/kiwSAkAv6Ts/maxresdefault.jpg",
+  "title": "Nicol\u00f2 Giso - From telemetry data to CSVs with Python, Spark and Azure Databricks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kiwSAkAv6Ts"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Documentation-driven development for Python web APIs\n[EuroPython 2021 - Talk - 2021-07-28 - Brian]\n[Online]\n\nBy Jose Haro Peralta\n\nThis presentation shows how we can use documentation-driven development to minimise the risk of API integration failures. APIs are the gateways that connect our web applications to the world. Microservices rely on them to work together, and frontend applications use them to connect to our backend. Despite their importance, API integration failures are a daily occurrence. There\u2019re many reasons for this, but a common factor is the lack of API documentation, or the use of bad API documentation.\nOften, API documentation comes in unstructured formats or in JSON examples, instead of standard formats such as OpenAPI or Schema Definition Language. When we don\u2019t use standards to document our APIs, we give up the whole ecosystem of frameworks and tools built around those standards. Such tools and frameworks are designed to make our lives easier when managing the lifecycle of our APIs.\nIn documentation-driven development, we write the API specification first, and then we implement the API server and the client against the specification. I\u2019ll show how we can use mock servers to test the client while the backend is being developed, and tools like Dredd and schemathesis to validate the backend implementation. I\u2019ll show how we can use these tools in a CI server to validate our code before it\u2019s released. This approach doesn\u2019t eliminate completely the risk of API integration failures, but it helps to minimise it.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1858,
+  "language": "eng",
+  "recorded": "2020-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2021.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2021",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/prGzBqUAXi4/hqdefault.jpg",
+  "title": "Jose Haro Peralta - Documentation-driven development for Python web APIs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=prGzBqUAXi4"
+    }
+  ]
+}
