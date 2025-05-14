@@ -1,0 +1,29 @@
+{
+  "copyright_text": "",
+  "description": "Mike Van Winkle\n\nhttps://pretalx.northbaypython.org/nbpy-2025/talk/ZSMCNT\n\nYou're finally done building your super awesome world-changing python project and now you want to get it out there. Where do you start? DIY? Premium Services? In this talk I will cover 5 different ways to deploy Python and when you should use them. Whether you have a small hobby site that you want to deploy on the cheap, or have a big project you expect to scale, we will discuss all the things you need to consider when deploying Python. I will present a matrix of decision vectors (complexity, reliability, scale, cost, fun) and how each approach stacks up and examples and references of each.\n\nThe approaches included in this talk will be: \n\nSelf-managed (self-hosted) VPS using native ubuntu \u2013  This approach is best suited for hobby sized or small to medium projects where the primary deciding factor is either cost or learning. \n\nSelf-managed VPS hosting with Docker \u2013 This approach is also suitable for small projects but having to install and manage docker containers introduces additional complexity, though that complexity may be useful once you need to scale.\n\nServerless using AWS Lambda \u2013 This approach can be cost effective for small to medium projects, but the complexity may not be worth it for hobby sized projects. \n\nServerless using Kubernetes \u2013 This is a very complex approach but is likely the best way to affordably scale to planet scale. \n\nPremium services like Vercel or Render \u2013  This approach is great for some projects but not for all. I will cover the when and when not to consider using premium services.\n\nSun Apr 27 13:10:00 2025 at Reis River Ranch\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1",
+  "duration": 2050,
+  "language": "eng",
+  "recorded": "2025-04-27",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pretalx.northbaypython.org/nbpy-2025/schedule/"
+    },
+    {
+      "label": "Full playlist",
+      "url": "https://www.youtube.com/playlist?list=PLaeNpBNgqQWui7JJJ4_M_AdlGQi_IpPym"
+    }
+  ],
+  "speakers": [
+    "Mike Van Winkle"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/B5q1Jvr0ois/maxresdefault.jpg",
+  "title": "From Hobby to Planet Scale: 5 Different Ways to Deploy Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=B5q1Jvr0ois"
+    }
+  ]
+}
