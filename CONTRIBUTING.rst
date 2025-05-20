@@ -67,11 +67,9 @@ description                            rST string                             (s
 ----------------------------------     ----------------------------------     ----------------------------------
 speakers                               array of strings
 ----------------------------------     ----------------------------------     ----------------------------------
-thumbnail_url                          string
-----------------------------------     ----------------------------------     ----------------------------------
 title                                  string
 ----------------------------------     ----------------------------------     ----------------------------------
-recorded                               string                                 (YYYY-MM-DD)
+recorded                               string                                 ISO 8601 (2025-05-19T16:55:00-0500)
 ----------------------------------     ----------------------------------     ----------------------------------
 videos                                 array of objects
 ==================================     ==================================     ==================================
@@ -90,6 +88,10 @@ language                               string                                 (`
 quality_notes                          string
 ----------------------------------     ----------------------------------     ----------------------------------
 related_urls                           array of strings
+----------------------------------     ----------------------------------     ----------------------------------
+summary                                array of strings
+----------------------------------     ----------------------------------     ----------------------------------
+thumbnail_url                          string
 ----------------------------------     ----------------------------------     ----------------------------------
 tags                                   array of strings                       (see below)
 ==================================     ==================================     ==================================
@@ -251,7 +253,7 @@ For a full schema of a category JSON object, please see https://github.com/pyvid
 Creating Data From Youtube Channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Create some basic data from a youtube list with `pyvideo_scrape`_ (See it's README)
+* Create some basic data from a youtube list with `pyvideo_scrape`_ (See its README)
 * Find created git branch and directory, and fill in missing data with `pyvideo_lektor`_ (See it's README)
 
 ..  _`pyvideo_scrape`: https://github.com/pyvideo/pyvideo_scrape
