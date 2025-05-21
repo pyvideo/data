@@ -1,22 +1,22 @@
 {
-    "description": "Over the past few years, the Wagtail CMS core team and accessibility subteam have made a [significant commitment to improving Wagtail's accessibility](https://wagtail.org/accessibility/) \u2013\u00a0of the CMS interface itself as well as the websites that it produces. This talk is focused on the latter, showing how you (a developer of a Wagtail-powered site) can set up your models, templates, and workflows in order to make it as easy as possible for your editors to create websites that are as accessible _as possible_. I say \"as possible\" because it's important to recognize that it's _not_ possible for a website to ever be considered 100% accessible, but by putting some care into what we do on the development side, we can prevent some of the most widespread accessibility issues that users may come across.\n\nTopics that will be covered include:\n- How to use Wagtail's [new built-in accessibility checker](https://wagtail.org/blog/introducing-wagtails-new-accessibility-checker/)\n- Custom validation to ensure that a page has a logical heading order\n- Ensuring alt text is used appropriately (Spoiler alert: every image doesn't need alt text!)\n- Usage of `aria-label` attributes to provide essential context to screen readers\n- Providing timely, contextual help to editors as they create their content",
-    "language": "eng",
-    "recorded": "2023-10-18",
-    "related_urls": [
-        {
-            "label": "Conference Website",
-            "url": "https://2023.djangocon.us"
-        }
-    ],
-    "speakers": [
-        "Scott Cranfill"
-    ],
-    "thumbnail_url": "https://i.ytimg.com/vi/qqQBbVIHkCA/maxresdefault.jpg",
-    "title": "Best Practices for Making a Wagtail Site as Accessible as Possible",
-    "videos": [
-        {
-            "type": "youtube",
-            "url": "https://youtu.be/qqQBbVIHkCA"
-        }
-    ]
+  "description": "Over the past few years, the Wagtail CMS core team and accessibility subteam have made a [significant commitment to improving Wagtail's accessibility](https://wagtail.org/accessibility/) \u2013\u00a0of the CMS interface itself as well as the websites that it produces. This talk is focused on the latter, showing how you (a developer of a Wagtail-powered site) can set up your models, templates, and workflows in order to make it as easy as possible for your editors to create websites that are as accessible as possible. I say \"as possible\" because it's important to recognize that it's not possible for a website to ever be considered 100% accessible, but by putting some care into what we do on the development side, we can prevent some of the most widespread accessibility issues that users may come across.\n\nTopics that will be covered include:\n- How to use Wagtail's [new built-in accessibility checker](https://wagtail.org/blog/introducing-wagtails-new-accessibility-checker/)\n- Custom validation to ensure that a page has a logical heading order\n- Ensuring alt text is used appropriately (Spoiler alert: every image doesn't need alt text!)\n- Usage of `aria-label` attributes to provide essential context to screen readers\n- Providing timely, contextual help to editors as they create their content",
+  "language": "eng",
+  "recorded": "2023-10-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.djangocon.us"
+    }
+  ],
+  "speakers": [
+    "Scott Cranfill"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/qqQBbVIHkCA/maxresdefault.jpg",
+  "title": "Best Practices for Making a Wagtail Site as Accessible as Possible",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/qqQBbVIHkCA"
+    }
+  ]
 }
