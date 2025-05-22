@@ -1,5 +1,6 @@
 {
   "description": "Lot of people are trying to port the actor pattern to Python, but this pattern isn't really designed for such languages. On the contrary the Go concurrency model has some attractive points that can be easily ported to Python. This talk will describe the go concurrency model and my own experimentation actually named flower to port it in Python. In this talk you will see how I am using greenlets or generators to handle corountines and optionally use pyuv to manage a non blocking IO poll server.",
+  "language": "eng",
   "recorded": "2013-09-14",
   "speakers": [
     "@benoitc"
