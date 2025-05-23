@@ -1,0 +1,28 @@
+{
+  "title": "Easy Service to Service Communication Using Pydantic Models",
+  "description": "Microservices architecture, while offering flexibility and scalability, introduces significant complexity in communication between services. Each API call involves creating and parsing request and response bodies on both the server and client sides, not to mention additional challenges like validation and maintaining API documentation. This multi-step process adds considerable overhead to both development and integration.\r\n\r\nFastAPI and Pydantic have made substantial improvements in managing these complexities on the server side. However, when using frameworks like Django or Flask, similar efficiencies can be harder to achieve. Despite these server-side advancements, simplifying the client-side experience remains crucial. One key challenge is managing request and response models without duplicating them across services.\r\n\r\nIn this session, we will demonstrate easy generation of OpenAPI documentation for Django or Flask servers using django-ninja and flask-ninja packages.  Additionally we show sharing Pydantic models from the server with clients through Python packages that significantly simplify integration and eliminate code duplication.",
+  "duration": 1254,
+  "language": "eng",
+  "recorded": "2024-11-02",
+  "speakers": [
+    "Michal Korbela"
+  ],
+  "videos": [
+    {
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-24/easy_service_to_service_communication_using_pydantic_models.mp4",
+      "size": 147300505
+    },
+    {
+      "type": "peertube",
+      "url": "https://indymotion.fr/videos/watch/d46a4953-355d-4499-9771-cd4b88466bb8"
+    }
+  ],
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2024/fr/schedule.html"
+    }
+  ],
+  "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/9677eb05-6c2e-4d93-a8ef-165163ef98c9.jpg"
+}

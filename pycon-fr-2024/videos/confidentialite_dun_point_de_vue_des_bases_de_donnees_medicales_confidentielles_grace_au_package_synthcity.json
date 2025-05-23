@@ -1,0 +1,28 @@
+{
+  "title": "Confidentialit\u00e9 d\u2019un point de vue des bases de donn\u00e9es m\u00e9dicales confidentielles gr\u00e2ce au package synthcity",
+  "description": "La confidentialit\u00e9 des bases de donn\u00e9es est une pr\u00e9occupation m\u00e9dicale et r\u00e9glementaire majeure. Dans le cadre de l\u2019analyse des r\u00e9sultats en recherche clinique, les donn\u00e9es ne contiennent plus les identit\u00e9s du patient, mais ces donn\u00e9es restent sensibles car on peut potentiellement r\u00e9identifier les patients. L\u2019id\u00e9e est donc de cr\u00e9er des donn\u00e9es de synth\u00e8se, \u00e0 la fois fid\u00e8les (proches des donn\u00e9es initiales) et anonymes (pour lesquelles les donn\u00e9es de synth\u00e8se ne permettent pas de r\u00e9identifier les patients de la base de donn\u00e9es). Des donn\u00e9es anonymis\u00e9es sont tr\u00e8s peu r\u00e9glement\u00e9es et peuvent \u00eatre c\u00e9d\u00e9es ou \u00e9chang\u00e9es librement. Pour mesurer les indicateurs de fid\u00e9lit\u00e9 et d\u2019anonynimisation, nous utilisons [le package synthcity](https://arxiv.org/abs/2301.07573). Ce package permet de synth\u00e9tiser des donn\u00e9es \u00e0 l\u2019aide d\u2019algorithme tels que CT-GAN (conditional tabular-generative adversarial networks), TVAE (tabular variational auto-encoder). J\u2019ai impl\u00e9ment\u00e9 l\u2019algorithme Avatar, qui synth\u00e9tise des donn\u00e9es avec une finalit\u00e9 de confidentialit\u00e9. J\u2019ai test\u00e9 le package sur des donn\u00e9es tabulaires et de survie, relatives \u00e0 la pharmacologie de la transplantation.",
+  "duration": 1892,
+  "language": "fra",
+  "recorded": "2024-11-03",
+  "speakers": [
+    "Cl\u00e9ment Benoist"
+  ],
+  "videos": [
+    {
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-24/confidentialite_dun_point_de_vue_des_bases_de_donnees_medicales_confidentielles_grace_au_package_synthcity.mp4",
+      "size": 277283918
+    },
+    {
+      "type": "peertube",
+      "url": "https://indymotion.fr/videos/watch/0be947c8-4afc-4efc-855b-cd24cabd4c7d"
+    }
+  ],
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2024/fr/schedule.html"
+    }
+  ],
+  "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/98914491-9d15-4aa3-a022-d8f97fa91daa.jpg"
+}
