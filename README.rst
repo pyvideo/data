@@ -1,7 +1,7 @@
 pyvideo/data
 ===========
 
-*Python related videos and metadata* for https://pyvideo.org
+*Python-related videos and metadata powering [PyVideo](https://pyvideo.org)
 
 .. image:: https://badges.gitter.im/pyvideo/data.svg
    :alt: Join the chat at https://gitter.im/pyvideo/data
