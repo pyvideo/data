@@ -1,0 +1,29 @@
+{
+  "description": "\"An Interpretable and Sample Efficient Deep Kernel for Gaussian Process\n\nYijue Dai (The Chinese University of Hong Kong, Shenzhen)*; Tianjian Zhang (The Chinese University of Hong Kong, Shenzhen); Zhidi Lin (The Chinese University of Hong Kong, Shenzhen); Feng Yin (The Chinese University of Hong Kong, Shenzhen); Sergios Theodoridis (National and Kapodistrian University of Athens); Shuguang Cui (The Chinese University of Hong Kong, Shenzhen )\n\nWe propose a novel Gaussian process kernel that takes advantage of a deep neural network (DNN) structure but retains good interpretability. The resulting kernel is capable of addressing four major issues of the previous works of similar art, i.e., the optimality, explainability, model complexity, and sample efficiency. Our kernel design procedure comprises three steps: (1) Derivation of an optimal kernel with a non-stationary dot product structure that minimizes the prediction/test mean-squared-error (MSE); (2) Decomposition of this optimal kernel as a linear combination of shallow DNN subnetworks with the aid of multi-way feature interaction detection; (3) Updating the hyper-parameters of the subnetworks via an alternating rationale until convergence. The designed kernel does not sacrifice interpretability for optimality. On the contrary, each subnetwork explicitly demonstrates the interaction of a set of features in a transformation function, leading to a solid path toward explainable kernel learning. We test the proposed kernel with both synthesized and real-world data sets, and the proposed kernel is superior to its competitors in terms of prediction performance in most cases. Moreover, it tends to maintain the prediction performance and be robust to data over-fitting issue, when reducing the number of samples. \"",
+  "duration": 510,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Yijue Dai",
+    "Tianjian Zhang",
+    "Zhidi Lin",
+    "Feng Yin",
+    "Sergios Theodoridis",
+    "Shuguang Cui"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/87Y5ABTF10o/sddefault.jpg",
+  "title": "An Interpretable and Sample Efficient Deep Kernel for Gaussian Process",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=87Y5ABTF10o"
+    }
+  ]
+}

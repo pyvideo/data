@@ -1,0 +1,26 @@
+{
+  "description": "TX-Ray: Quantifying and Explaining Model-Knowledge Transfer in (Un-)Supervised NLP\n\nNils Rethmeier (DFKI)*; Vageesh Kumar Saxena (DFKI); Isabelle Augenstein (University of Copenhagen)\n\nWhile state-of-the-art NLP explainability (XAI) methods focus on explaining per-sample decisions in supervised end or probing tasks, this is insufficient to explain and quantify model knowledge transfer during (un-)supervised training. Thus, for TX-Ray, we modify the established computer vision explainability principle of \u2018visualizing preferred inputs of neurons\u2019 to make it usable for both NLP and for transfer analysis. This allows one to analyze, track and quantify how self- or supervised NLP models first build knowledge abstractions in pretraining (1), and\nthen transfer abstractions to a new domain (2), or adapt them during supervised fine\ntuning (3) \u2013 see Fig. 1. TX-Ray expresses neurons as feature preference distributions to quantify fine-grained knowledge transfer or adaptation and guide human analysis. We find that, similar to Lottery Ticket based pruning, TX-Ray based pruning can improve test set generalization and that it can reveal how early stages of self-supervision automatically learn linguistic abstractions like parts-of-speech.",
+  "duration": 451,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Nils Rethmeier",
+    "Vageesh Kumar Saxena",
+    "Isabelle Augenstein"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/iA_QK6KhA5s/sddefault.jpg",
+  "title": "TX-Ray: Quantifying and Explaining Model-Knowledge Transfer in (Un-)Supervised NLP",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iA_QK6KhA5s"
+    }
+  ]
+}

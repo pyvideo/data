@@ -1,0 +1,25 @@
+{
+  "description": "The Hawkes Edge Partition Model for Continuous-time Event-based Temporal Networks\n\nSikun Yang (TU Darmstadt)*; Heinz Koeppl (TU Darmstadt)\n\nWe propose a novel probabilistic framework to model continuously generated interaction events data. Our goal is to infer the \\emph{implicit} community structure underlying the temporal interactions among entities, and also to exploit how the latent structure influence their interaction dynamics. \nTo this end, we model the reciprocating interactions between individuals using mutually-exciting Hawkes processes. The base rate of the Hawkes process for each pair of individuals is built upon the latent representations inferred using the hierarchical gamma process edge partition model (HGaP-EPM). \nIn particular, our model allows the interaction dynamics between each pair of individuals to be modulated by their respective affiliated communities.\nMoreover, our model can flexibly incorporate the auxiliary individuals' attributes, or covariates associated with interaction events. Efficient Gibbs sampling and Expectation-Maximization algorithms are developed to perform inference via P\\'olya-Gamma data augmentation strategy. Experimental results on real-world datasets demonstrate that our model not only achieves competitive performance compared with state-of-the-art methods, but also discovers interpretable latent structure behind the observed temporal interactions.",
+  "duration": 481,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Sikun Yang",
+    "Heinz Koeppl"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rV7W7qHI7r0/sddefault.jpg",
+  "title": "The Hawkes Edge Partition Model for Continuous-time Event-based Temporal Networks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rV7W7qHI7r0"
+    }
+  ]
+}

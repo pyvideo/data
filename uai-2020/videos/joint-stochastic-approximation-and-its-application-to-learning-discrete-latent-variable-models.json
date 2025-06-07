@@ -1,0 +1,25 @@
+{
+  "description": "\"Joint Stochastic Approximation and Its Application to Learning Discrete Latent Variable Models\n\nZhijian Ou (\"\"Department of Electronic Engineering, Tsinghua University\"\")*; Yunfu Song (Tsinghua University)\n\nAlthough with progress in introducing auxiliary amortized inference models, learning discrete latent variable models is still challenging. In this paper, we show that the annoying difficulty of obtaining reliable stochastic gradients for the inference model and the drawback of indirectly optimizing the target log-likelihood can be gracefully addressed in a new method based on stochastic approximation (SA) theory of the Robbins-Monro type. Specifically, we propose to directly maximize the target log-likelihood and simultaneously minimize the inclusive divergence between the posterior and the inference model. The resulting learning algorithm is called joint SA (JSA). To the best of our knowledge, JSA represents the first method that couples an SA version of the EM (expectation-maximization) algorithm (SAEM) with an adaptive MCMC procedure. Experiments on several benchmark generative modeling and structured prediction tasks show that JSA consistently outperforms recent competitive algorithms, with faster convergence, better final likelihoods, and lower variance of gradient estimates.\"",
+  "duration": 504,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Zhijian Ou",
+    "Yunfu Song"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/iBN4FsVdM1w/sddefault.jpg",
+  "title": "Joint Stochastic Approximation and Its Application to Learning Discrete Latent Variable Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iBN4FsVdM1w"
+    }
+  ]
+}

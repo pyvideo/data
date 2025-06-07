@@ -1,0 +1,27 @@
+{
+  "description": "\"Collapsible IDA: Collapsing Parental Sets for Locally Estimating Possible Causal Effects\n\nYue Liu (Peking University); Zhuangyan Fang (Peking University); Yangbo He (Peking University)*; Zhi Geng (Peking University)\n\nIt is clear that some causal effects cannot be identified from observational data when the causal directed acyclic graph is absent. In such cases, IDA is a useful framework which estimates all possible causal effects by adjusting for all possible parental sets. In this paper, we combine the adjustment set selection procedure with the original IDA framework. Our goal is to find a common set that can be subtracted from all possible parental sets without influencing the back-door adjustment. To this end, we first introduce graphical conditions to decide whether a treatment's neighbor or parent in a completed partially directed acyclic graph (CPDAG) can be subtracted and then provide a procedure to construct a subtractable set from those subtractable vertices. We next combine the procedure with the IDA framework and provide a fully local modification of IDA. Experimental results show that, with our modification, both the number of possible parental sets and the size of each possible parental set enumerated by the modified IDA decrease, making it possible to estimate all possible causal effects more efficiently.\"",
+  "duration": 467,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Yue Liu",
+    "Zhuangyan Fang",
+    "Yangbo He",
+    "Zhi Geng"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nkWKTZnxVBg/sddefault.jpg",
+  "title": "Collapsible IDA: Collapsing Parental Sets for Locally Estimating Possible Causal Effects",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nkWKTZnxVBg"
+    }
+  ]
+}

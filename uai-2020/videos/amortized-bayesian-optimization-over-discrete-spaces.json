@@ -1,0 +1,27 @@
+{
+  "description": "\"Amortized Bayesian Optimization over Discrete Spaces\n\nKevin Swersky (Google Brain)*; Yulia Rubanova (University of Toronto); David Dohan (Google); Kevin Murphy (Google)\n\nBayesian optimization is a principled approach for globally optimizing expensive, black-box functions by using a surrogate model of the objective. However, each step of Bayesian optimization involves solving an inner optimization problem, in which we maximize an acquisition function  derived from the surrogate model to decide where to query next. This inner problem can be challenging to solve, particularly in discrete spaces, such as protein sequences or molecular graphs, where gradient-based optimization cannot be used. Our key insight is that we can train a generative model to generate candidates that maximize the acquisition function. This is faster than standard model-free local search methods, since we can amortize the cost of learning the model across multiple rounds of Bayesian optimization. We therefore call this Amortized Bayesian Optimization. On several challenging discrete design problems, we show this method generally outperforms other methods at optimizing the inner acquisition function, resulting in more efficient optimization of the outer black-box objective.\"",
+  "duration": 459,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Kevin Swersky",
+    "Yulia Rubanova", 
+    "David Dohan",
+    "Kevin Murphy"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Cqotq22TdHM/sddefault.jpg",
+  "title": "Amortized Bayesian Optimization over Discrete Spaces",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Cqotq22TdHM"
+    }
+  ]
+}

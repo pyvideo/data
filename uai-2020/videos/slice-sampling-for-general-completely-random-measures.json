@@ -1,0 +1,26 @@
+{
+  "description": "Slice Sampling for General Completely Random Measures\n\nPeiyuan Zhu (The University of British Columbia Department of Statistics)*; Alexandre Bouchard-Cote (University of British Columbia); Trevor Campbell (UBC)\n\nCompletely random measures provide a principled approach to creating flexible unsupervised models, where the number of latent features is infinite and the number of features that influence the data grows  with the size of the  data set.  Due to the infinity the latent features, posterior inference requires either marginalization---resulting in dependence structures that prevent efficient computation via parallelization and conjugacy---or finite  truncation, which arbitrarily limits the flexibility of the model.  In this paper we present a novel Markov chain Monte Carlo algorithm for posterior inference that adaptively sets the truncation level using auxiliary slice variables, enabling efficient, parallelized computation without sacrificing flexibility.  In contrast to past work that achieved this on a model-by-model basis, we provide a general recipe that is applicable to the broad class of completely random measure-based priors.  The efficacy of the proposed algorithm is evaluated on several popular nonparametric models, demonstrating a higher effective sample size per second compared to algorithms using marginalization as well as a higher predictive performance compared to models employing fixed truncations.",
+  "duration": 469,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Peiyuan Zhu",
+    "Alexandre Bouchard-Cote",
+    "Trevor Campbell"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/JgJDpkiG9Sk/sddefault.jpg",
+  "title": "Slice Sampling for General Completely Random Measures",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JgJDpkiG9Sk"
+    }
+  ]
+}

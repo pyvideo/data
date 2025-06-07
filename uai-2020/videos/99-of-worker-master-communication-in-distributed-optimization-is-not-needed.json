@@ -1,0 +1,26 @@
+{
+  "description": "\"99% of Worker-Master Communication in Distributed Optimization Is Not Needed\n\nKonstantin Mishchenko (KAUST)*; Filip Hanzely (KAUST); Peter Richtarik (KAUST)\n\nIn this paper we discuss sparsification of worker-to-server communication in large distributed systems. We improve upon algorithms that fit the following template: a local gradient estimate is computed independently by each worker, then communicated to a master, which subsequently performs averaging. The average is broadcast back to the workers, which use it to perform a gradient-type step to update the local version of the model. We observe that the above template is fundamentally inefficient in that too much data is unnecessarily communicated from the workers to the server, which slows down the overall system. We propose a fix based on a new update-sparsification method we develop in this work, which we suggest be used on top of existing methods. Namely, we develop a new variant of parallel block coordinate descent based on independent sparsification of the local gradient estimates before communication. We demonstrate that with only $m/n$ blocks sent by each of $n$ workers, where $m$ is the total number of parameter blocks, the theoretical iteration complexity of the underlying distributed methods is essentially unaffected. As an illustration, this means that when $n=100$ parallel workers are used, the communication of 99% blocks is redundant, and hence a waste of time. Our theoretical claims are supported through extensive numerical experiments which demonstrate an almost perfect match with our theory on a number of synthetic and real datasets.\"",
+  "duration": 502,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Konstantin Mishchenko",
+    "Filip Hanzely",
+    "Peter Richtarik"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/aL0SXg1wo7o/sddefault.jpg",
+  "title": "99% of Worker-Master Communication in Distributed Optimization Is Not Needed",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aL0SXg1wo7o"
+    }
+  ]
+}

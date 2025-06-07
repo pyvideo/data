@@ -1,0 +1,24 @@
+{
+  "description": "MaskAAE: Latent space optimization for Adversarial Auto-Encoders\n\nArnab Mondal (IIT Delhi)*; Sankalan Pal Chowdhury (IIT Delhi); Aravind Jayendran (Flipkart Internet Private Limited); Himanshu Asnani (TIFR); Parag Singla (IIT Delhi); Prathosh A P (Indian Institute of Technology Delhi)\n\nThe field of neural generative models is dominated by the highly successful Generative Adversarial Networks (GANs) despite their challenges, such as training instability and mode collapse. Auto-Encoders (AE) with regularized latent space provide an alternative framework for generative models, albeit their performance levels have not reached that of GANs. In this work, we hypothesise that the dimensionality of the AE model's latent space has a critical effect on the quality of generated data. Under the assumption that nature generates data by sampling from a ``true`` generative latent space followed by a deterministic  function,  we show that the optimal performance is obtained when the dimensionality of the latent space of the AE-model matches with that of the ``true`` generative latent space. Further, we propose an algorithm called the Mask Adversarial Auto-Encoder (MaskAAE), in which the dimensionality of the latent space of an adversarial auto encoder is brought closer to that of the ``true`` generative latent space, via a procedure to mask the spurious latent dimensions. We demonstrate through experiments on synthetic and several real-world datasets that the proposed formulation yields betterment in the generation quality.",
+  "duration": 473,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/FKkt0EABE3I/sddefault.jpg",
+  "title": "MaskAAE: Latent space optimization for Adversarial Auto-Encoders",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=FKkt0EABE3I"
+    }
+  ]
+}

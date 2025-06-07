@@ -1,0 +1,26 @@
+{
+  "description": "\"Semi-bandit Optimization in the Dispersed Setting\u3147\u3147Travis Dick (University of Pennsylvania)*; Wesley Pegden (Carnegie Mellon University); Maria-Florina Balcan (Carnegie Mellon University)\u3147\u3147The goal of data-driven algorithm design is to obtain high-performing algorithms for specific application domains using machine learning and data. Across many fields in AI, science, and engineering, practitioners will often fix a family of parameterized algorithms and then optimize those parameters to obtain good performance on example instances from the application domain.  In the online setting, we must choose algorithm parameters for each instance as they arrive, and our goal is to be competitive with the best fixed algorithm in hindsight.\n\nThere are two major challenges in online data-driven algorithm design. First, it can be computationally expensive to evaluate the loss functions that map algorithm parameters to performance, which often require the learner to run a combinatorial algorithm to measure its performance. Second, the losses can be extremely volatile and have sharp discontinuities. However, we show that in many applications, evaluating the loss function for one algorithm choice can sometimes reveal the loss for a range of similar algorithms, essentially for free. We develop online optimization algorithms capable of using this kind of extra information by working in the semi-bandit feedback setting. Our algorithms achieve regret bounds that are essentially as good as algorithms under full-information feedback and are significantly more computationally efficient. We apply our semi-bandit results to obtain the first provable guarantees for data-driven algorithm design for linkage-based clustering and we improve the best regret bounds for designing greedy knapsack algorithms.\"",
+  "duration": 484,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Travis Dick",
+    "Wesley Pegden",
+    "Maria-Florina Balcan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/BsyPGag9GIY/sddefault.jpg",
+  "title": "Semi-bandit Optimization in the Dispersed Setting",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BsyPGag9GIY"
+    }
+  ]
+}

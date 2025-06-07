@@ -1,0 +1,26 @@
+{
+  "description": "\"Batch norm with entropic regularization turns deterministic autoencoders into generative models\n\nAmur Ghose (UWaterloo)*; Abdullah Rashwan (University of Waterloo); Pascal Poupart (University of Waterloo)\n\nThe variational autoencoder is a well defined deep generative model that utilizes an encoder-decoder framework where an encoding neural network outputs a non-deterministic code for reconstructing an input. The encoder achieves this by sampling from a distribution for every input, instead of outputting a deterministic code per input. The great advantage of this process is that it allows the use of the network as a generative model for sampling from the data distribution beyond provided samples for training. We show in this work that utilizing batch normalization as a source for non-determinism suffices to turn deterministic autoencoders into generative models on par with variational ones, so long as we add a suitable entropic regularization to the training objective.\"",
+  "duration": 498,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Amur Ghose",
+    "Abdullah Rashwan",
+    "Pascal Poupart"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Rx2knZ8wklA/sddefault.jpg",
+  "title": "Batch norm with entropic regularization turns deterministic autoencoders into generative models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Rx2knZ8wklA"
+    }
+  ]
+}
