@@ -1,0 +1,35 @@
+{
+  "description": "\"Functional Causal Bayesian Optimization\"\nLimor Gultchin, Virginia Aglietti, Alexis Bellot, Silvia Chiappa\n(https://proceedings.mlr.press/v216/gultchin23a.html)\n\nAbstract\nWe propose functional causal Bayesian optimization (fCBO), a method for finding interventions that optimize a target variable in a known causal graph. fCBO extends the CBO family of methods to enable functional interventions, which set a variable to be a deterministic function of other variables in the graph. fCBO models the unknown objectives with Gaussian processes whose inputs are defined in a reproducing kernel Hilbert space, thus allowing to compute distances among vector-valued functions. In turn, this enables to sequentially select functions to explore by maximizing an expected improvement acquisition functional while keeping the typical computational tractability of standard BO settings. We introduce graphical criteria that establish when considering functional interventions allows attaining better target effects, and conditions under which selected interventions are also optimal for conditional target effects. We demonstrate the benefits of the method in a synthetic and in a real-world causal graph.\n\nSlides: https://www.auai.org/uai2023/oral_slides/486-oral-slides.pdf",
+  "duration": 1439,
+  "language": "eng",
+  "recorded": "2023-07-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2023/"
+    },
+    {
+      "label": "https://proceedings.mlr.press/v216/gultchin23a.html",
+      "url": "https://proceedings.mlr.press/v216/gultchin23a.html"
+    },
+    {
+      "label": "https://www.auai.org/uai2023/oral_slides/486-oral-slides.pdf",
+      "url": "https://www.auai.org/uai2023/oral_slides/486-oral-slides.pdf"
+    }
+  ],
+  "speakers": [
+    "Limor Gultchin",
+    "Virginia Aglietti",
+    "Alexis Bellot",
+    "Silvia Chiappa"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZaNoWZ85GGk/maxresdefault.jpg",
+  "title": "Functional Causal Bayesian Optimization",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZaNoWZ85GGk"
+    }
+  ]
+}

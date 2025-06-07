@@ -1,0 +1,33 @@
+{
+  "description": "\"Keep-Alive Caching for the Hawkes Process\"\nSushirdeep Narayana, Ian A. Kash\n(https://proceedings.mlr.press/v216/narayana23a.html)\n\nAbstract\nWe study the design of caching policies in applications such as serverless computing where there is not a fixed size cache to be filled, but rather there is a cost associated with the time an item stays in the cache. We present a model for such caching policies which captures the trade-off between this cost and the cost of cache misses. We characterize optimal caching policies in general and apply this characterization by deriving a closed form for Hawkes processes. Since optimal policies for Hawkes processes depend on the history of arrivals, we also develop history-independent policies which achieve near-optimal average performance. We evaluate the performances of the optimal policy and approximate polices using simulations and a data trace of Azure Functions, Microsoft\u2019s FaaS (Function as a Service) platform for serverless computing.\n\nSlides: https://www.auai.org/uai2023/oral_slides/621-oral-slides.pdf",
+  "duration": 1654,
+  "language": "eng",
+  "recorded": "2023-07-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2023/"
+    },
+    {
+      "label": "https://www.auai.org/uai2023/oral_slides/621-oral-slides.pdf",
+      "url": "https://www.auai.org/uai2023/oral_slides/621-oral-slides.pdf"
+    },
+    {
+      "label": "https://proceedings.mlr.press/v216/narayana23a.html",
+      "url": "https://proceedings.mlr.press/v216/narayana23a.html"
+    }
+  ],
+  "speakers": [
+    "Sushirdeep Narayana",
+    "Ian A. Kash"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/AAjeYMnGViA/maxresdefault.jpg",
+  "title": "Keep-Alive Caching for the Hawkes Process",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=AAjeYMnGViA"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "description": "\"Provably Efficient Adversarial Imitation Learning with Unknown Transitions\"\nTian Xu, Ziniu Li, Yang Yu, Zhi-Quan Luo\n(https://proceedings.mlr.press/v216/xu23c.html)\n\nAbstract\nImitation learning (IL) has proven to be an effective method for learning good policies from expert demonstrations. Adversarial imitation learning (AIL), a subset of IL methods, is particularly promising, but its theoretical foundation in the presence of unknown transitions has yet to be fully developed. This paper explores the theoretical underpinnings of AIL in this context, where the stochastic and uncertain nature of environment transitions presents a challenge. We examine the expert sample complexity and interaction complexity required to recover good policies. To this end, we establish a framework connecting reward-free exploration and AIL, and propose an algorithm, MB-TAIL, that achieves the minimax optimal expert sample complexity and interaction complexity. MB-TAIL is the first algorithm to achieve this level of expert sample complexity in the unknown transition setting and improves upon the interaction complexity of the best-known algorithm, OAL. Additionally, we demonstrate the generalization ability of MB-TAIL by extending it to the function approximation setting.\n\nSlides: https://www.auai.org/uai2023/oral_slides/380-oral-slides.pdf",
+  "duration": 1601,
+  "language": "eng",
+  "recorded": "2023-07-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2023/"
+    },
+    {
+      "label": "https://proceedings.mlr.press/v216/xu23c.html",
+      "url": "https://proceedings.mlr.press/v216/xu23c.html"
+    },
+    {
+      "label": "https://www.auai.org/uai2023/oral_slides/380-oral-slides.pdf",
+      "url": "https://www.auai.org/uai2023/oral_slides/380-oral-slides.pdf"
+    }
+  ],
+  "speakers": [
+    "Tian Xu",
+    "Ziniu Li",
+    "Yang Yu",
+    "Zhi-Quan Luo"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/VpBnTyRE3YY/maxresdefault.jpg",
+  "title": "Provably Efficient Adversarial Imitation Learning with Unknown Transitions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VpBnTyRE3YY"
+    }
+  ]
+}
