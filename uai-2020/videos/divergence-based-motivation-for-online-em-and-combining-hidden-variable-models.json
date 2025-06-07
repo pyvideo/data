@@ -1,0 +1,25 @@
+{
+  "description": "Divergence-Based Motivation for Online EM and Combining Hidden Variable Models\n\nEhsan Amid (UCSC & Google)*; Manfred K. Warmuth (UC Santa Cruz & Google Inc.)\n\nExpectation-Maximization (EM) is a prominent approach for parameter estimation of hidden (aka latent) variable models. Given the full batch of data, EM forms an upper-bound of the negative log-likelihood of the model at each iteration and updates to the minimizer of this upper-bound. We first provide a \"model level\" interpretation of the EM upper-bound as a sum of relative entropy divergences to a set of singleton models induced by the batch of observations. Our alternative motivation unifies the \"observation level\" and the \"model level\"\" view of the EM. As a result, we formulate an online version of the EM algorithm by adding an analogous inertia term which is a relative entropy divergence to the old model. Our motivation is more widely applicable than the previous approaches and leads to simple online updates for mixture of exponential distributions, hidden Markov models, and the first known online update for Kalman filters. Additionally, the finite sample form of the inertia term lets us derive online updates when there is no closed-form solution. Finally, we extend the analysis to the distributed setting where we motivate a systematic way of combining multiple hidden variable models. Experimentally, we validate the results on synthetic as well as real-world datasets.",
+  "duration": 326,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Ehsan Amid",
+    "Manfred K. Warmuth"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/hxzPjC51DB0/sddefault.jpg",
+  "title": "Divergence-Based Motivation for Online EM and Combining Hidden Variable Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hxzPjC51DB0"
+    }
+  ]
+}

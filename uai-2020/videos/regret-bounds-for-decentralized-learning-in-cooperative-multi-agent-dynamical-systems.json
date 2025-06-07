@@ -1,0 +1,26 @@
+{
+  "description": "\"Regret Bounds for Decentralized Learning in Cooperative Multi-Agent Dynamical Systems\n\nSeyed Mohammad Asghari (University of Southern California)*; Yi Ouyang (Preferred Networks); Ashutosh Nayyar (University of Southern California)\n\nRegret analysis is challenging in Multi-Agent Reinforcement Learning (MARL) primarily due to the dynamical environments and the decentralized information among agents. We attempt to solve this challenge in the context of decentralized learning in multi-agent linear-quadratic (LQ) dynamical systems. We begin with a simple setup consisting of two agents and two dynamically decoupled stochastic linear systems, each system controlled by an agent. The systems are coupled through a quadratic cost function. When both systems' dynamics are unknown and there is no communication among the agents, we show that no learning policy can generate sub-linear in $T$ regret, where $T$ is the time horizon. When only one system's dynamics are unknown and there is one-directional communication from the agent controlling the unknown system to the other agent, we propose a MARL algorithm based on the construction of an auxiliary single-agent LQ problem. The auxiliary single-agent problem in the proposed MARL algorithm serves as an implicit coordination mechanism among the two learning agents. This allows the agents to achieve a regret within $O(\\sqrt{T})$ of the regret of the auxiliary single-agent problem. Consequently, using existing results for single-agent LQ regret, our algorithm provides a $\\tilde{O}(\\sqrt{T})$ regret bound. (Here $\\tilde{O}(\\cdot)$ hides constants and logarithmic factors). Our numerical experiments indicate that this bound is matched in practice. From the two-agent problem, we extend our results to multi-agent LQ systems with certain communication patterns which appear in vehicle platoon control.\"",
+  "duration": 469,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Seyed Mohammad Asghari",
+    "Yi Ouyang",
+    "Ashutosh Nayyar"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/M3rqzO8eMtY/sddefault.jpg",
+  "title": "Regret Bounds for Decentralized Learning in Cooperative Multi-Agent Dynamical Systems",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=M3rqzO8eMtY"
+    }
+  ]
+}

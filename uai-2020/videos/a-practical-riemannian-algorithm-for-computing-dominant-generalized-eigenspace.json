@@ -1,0 +1,25 @@
+{
+  "description": "\"A Practical Riemannian Algorithm for Computing Dominant Generalized Eigenspace\n\nZhiqiang Xu (Baidu)*; Ping Li (Baidu Research)\n\nDominant generalized eigenspace computation, concerned with how to find one of the top-k generalized eigenspaces of a pair of real symmetric matrices, is one of the fundamental problems in scientific computing, data analysis, and statistics. In this work, we propose a practical Riemannian algorithm based on the first-order optimization on generalized Stiefel manifolds while efficiently leveraging second-order information. Particularly, we use inexact Riemannian gradients which result from running a fast least-squares solver to approximate matrix multiplications for avoiding costly matrix inversions involved therein. We also conduct a theoretical analysis that is different than existing ones, achieving a unified linear convergence rate regardless of the conventional generalized eigenvalue gap which is the key parameter to the currently dichotomized analysis: gap-dependent or gap-free. The resulting linear rate, albeit not optimal, remains valid in full generality. Despite the simplicity, empirically, our algorithm as a block generalized eigensolver remarkably outperforms existing solvers.\"",
+  "duration": 482,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Zhiqiang Xu",
+    "Ping Li"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/X7brV3vadbM/sddefault.jpg",
+  "title": "A Practical Riemannian Algorithm for Computing Dominant Generalized Eigenspace",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=X7brV3vadbM"
+    }
+  ]
+}

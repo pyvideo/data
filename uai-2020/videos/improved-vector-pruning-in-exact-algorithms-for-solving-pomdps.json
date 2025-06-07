@@ -1,0 +1,25 @@
+{
+  "description": "\"Improved Vector Pruning in Exact Algorithms for Solving POMDPs\n\nEric Hansen (Mississippi State University)*; Thomas Bowman (Mississippi State University)\n\nExact dynamic programming algorithms for solving partially observable Markov decision processes (POMDPs) rely on a subroutine that removes, or \u201cprunes,\u201d dominated vectors from vector sets that represent piecewise-linear and convex value functions. The subroutine solves many linear programs, where the size of the linear programs is proportional to both the number of undominated vectors in the set and their dimension, which severely limits scalability. Recent work improves the performance of this subroutine by limiting the number of constraints in the linear programs it solves by incrementally generating relevant constraints. In this paper, we show how to similarly limit the number of variables. By reducing the size of the linear programs in both ways, we further improve the performance of exact algorithms for POMDPs, especially in solving problems with larger state spaces.\"",
+  "duration": 455,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Eric Hansen",
+    "Thomas Bowman"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/qpkNV6Lwj54/sddefault.jpg",
+  "title": "Improved Vector Pruning in Exact Algorithms for Solving POMDPs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qpkNV6Lwj54"
+    }
+  ]
+}

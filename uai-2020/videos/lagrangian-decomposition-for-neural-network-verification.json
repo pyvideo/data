@@ -1,0 +1,34 @@
+{
+  "description": "\"Lagrangian Decomposition for Neural Network Verification\n\nRudy Bunel (); Alessandro De Palma (University of Oxford)*; Alban Desmaison (University of Oxford); Krishnamurthy Dvijotham (DeepMind); Pushmeet Kohli (DeepMind); Philip Torr (University of Oxford); M. Pawan Kumar (University of Oxford)\n\nA fundamental component of neural network verification is the computation of bounds on the values their outputs can take. Previous methods have either used off-the-shelf solvers, discarding the problem structure, or relaxed the problem even further, making the bounds unnecessarily loose. We propose a novel approach based on Lagrangian Decomposition. Our formulation admits an efficient supergradient ascent algorithm, as well as an improved proximal algorithm. Both the algorithms offer three advantages: (i) they yield bounds that are provably at least as tight as previous dual algorithms relying on Lagrangian relaxations; (ii) they are based on operations analogous to forward/backward pass of neural networks layers and are therefore easily parallelizable, amenable to GPU implementation and able to take advantage of the convolutional structure of problems; and (iii) they allow for anytime stopping while still providing valid bounds. Empirically, we show that we obtain bounds comparable with off-the-shelf solvers in a fraction of their running time, and obtain tighter bounds in the same time as previous dual algorithms. This results in an overall speed-up when employing the bounds for formal verification. Code for our algorithms is available at https://github.com/oval-group/decomposition-plnn-bounds.\"",
+  "duration": 485,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    },
+    {
+      "label": "https://github.com/oval-group/decomposition-plnn-bounds.",
+      "url": "https://github.com/oval-group/decomposition-plnn-bounds."
+    }
+  ],
+  "speakers": [
+    "Rudy Bunel",
+    "Alessandro De Palma",
+    "Alban Desmaison",
+    "Krishnamurthy Dvijotham",
+    "Pushmeet Kohli",
+    "Philip Torr",
+    "M. Pawan Kumar"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/8JaixmFBUO0/sddefault.jpg",
+  "title": "Lagrangian Decomposition for Neural Network Verification",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8JaixmFBUO0"
+    }
+  ]
+}
