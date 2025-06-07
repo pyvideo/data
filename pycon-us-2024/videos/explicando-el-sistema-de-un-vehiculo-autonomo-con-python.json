@@ -1,27 +1,27 @@
 {
-    "copyright_text": "CC BY",
-    "description": "En los \u00faltimos a\u00f1os, hemos visto el crecimiento de compa\u00f1\u00edas enfocadas\nal desarrollo de veh\u00edculos aut\u00f3nomos, como lo son Tesla ,Waymo o\nKiwibots. Al ver estos grandes proyectos podr\u00eda pensarse que la l\u00f3gica\ndetr\u00e1s de un sistema inform\u00e1tico para controlar este tipo de robots es\nmuy complicada. En esta charla vamos a desmitificar un poco el\nfuncionamiento de esta clase de sistemas, aprenderemos sobre algunas\ntendencias en cuanto a frameworks de rob\u00f3tica como ROS, y como es que se\ncomunican los distintos sensores del veh\u00edculo para lograr la conducci\u00f3n\naut\u00f3noma. Todo desde un punto de vista de ingenier\u00eda de software\nenfocada a trabajar con nodos de comunicaci\u00f3n en tiempo real. Y por\nsupuesto, todos los ejemplos escritos en Python.\n\nAudiencia\n~~~~~~~~~\n\n--------------\n\nLa audiencia puede ser cualquier persona entusiasmada en temas de\nrob\u00f3tica o de conducci\u00f3n aut\u00f3noma, no hace falta tener alg\u00fan tipo de\nconocimiento previo en algo en particular, ya que la charla est\u00e1\nenfocada a tocar conceptos te\u00f3ricos y explicarlos.\n\nEsquema\n~~~~~~~\n\n--------------\n\nIntroducci\u00f3n a los veh\u00edculos aut\u00f3nomos (5 minutos)\n\n-  Explicaci\u00f3n breve de los tipos de veh\u00edculos aut\u00f3nomos.\n-  Explicaci\u00f3n sobre el enfoque de la charla y las limitaciones de la\n   misma.\n\nIntroducci\u00f3n a ROS con Python (7 minutos)\n\n-  El framework de rob\u00f3tica ROS y los sistemas en tiempo real.\n-  Los nodos de comunicaci\u00f3n y los tipos de mensajes.\n-  Breve analog\u00eda entre los sistemas de rob\u00f3tica y los servicios en una\n   nube.\n\nC\u00f3mo funcionan los sensores de un veh\u00edculo aut\u00f3nomo, y el control (10\nminutos)\n\n-  Sensor Fusion (C\u00e1maras, LiDAR, Radar, GPS)\n-  Aprendizaje autom\u00e1tico para tomar decisiones\n\nDemo del funcionamiento de un vehiculo autonomo con CARLA Simulator y\nROS2 (10 minutos)\n\n-  Mostrando una aplicaci\u00f3n funcional de un veh\u00edculo aut\u00f3nomo en el\n   simulador CARLA para visualizar el funcionamiento de ROS y su\n   interacci\u00f3n con los sensores del veh\u00edculo.\n\nConclusiones (3 minutos)\n",
-    "language": "spa",
-    "recorded": "2024-05-18",
-    "related_urls": [
-        {
-            "label": "Conference Website",
-            "url": "https://us.pycon.org/2024/"
-        },
-        {
-            "label": "Presentation Webpage",
-            "url": "https://us.pycon.org/2024/schedule/presentation/93/"
-        }
-    ],
-    "speakers": [
-        "Jesus Armando Anaya"
-    ],
-    "thumbnail_url": "https://i.ytimg.com/vi/8kOipdZHkzk/hqdefault.jpg",
-    "title": "Explicando el sistema de un veh\u00edculo aut\u00f3nomo con Python.",
-    "videos": [
-        {
-            "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=8kOipdZHkzk"
-        }
-    ]
+  "copyright_text": "CC BY",
+  "description": "En los \u00faltimos a\u00f1os, hemos visto el crecimiento de compa\u00f1\u00edas enfocadas\nal desarrollo de veh\u00edculos aut\u00f3nomos, como lo son Tesla ,Waymo o\nKiwibots. Al ver estos grandes proyectos podr\u00eda pensarse que la l\u00f3gica\ndetr\u00e1s de un sistema inform\u00e1tico para controlar este tipo de robots es\nmuy complicada. En esta charla vamos a desmitificar un poco el\nfuncionamiento de esta clase de sistemas, aprenderemos sobre algunas\ntendencias en cuanto a frameworks de rob\u00f3tica como ROS, y como es que se\ncomunican los distintos sensores del veh\u00edculo para lograr la conducci\u00f3n\naut\u00f3noma. Todo desde un punto de vista de ingenier\u00eda de software\nenfocada a trabajar con nodos de comunicaci\u00f3n en tiempo real. Y por\nsupuesto, todos los ejemplos escritos en Python.\n\nAudiencia\n\nLa audiencia puede ser cualquier persona entusiasmada en temas de\nrob\u00f3tica o de conducci\u00f3n aut\u00f3noma, no hace falta tener alg\u00fan tipo de\nconocimiento previo en algo en particular, ya que la charla est\u00e1\nenfocada a tocar conceptos te\u00f3ricos y explicarlos.\n\nEsquema\n\nIntroducci\u00f3n a los veh\u00edculos aut\u00f3nomos (5 minutos)\n\n-  Explicaci\u00f3n breve de los tipos de veh\u00edculos aut\u00f3nomos.\n-  Explicaci\u00f3n sobre el enfoque de la charla y las limitaciones de la\n   misma.\n\nIntroducci\u00f3n a ROS con Python (7 minutos)\n\n-  El framework de rob\u00f3tica ROS y los sistemas en tiempo real.\n-  Los nodos de comunicaci\u00f3n y los tipos de mensajes.\n-  Breve analog\u00eda entre los sistemas de rob\u00f3tica y los servicios en una\n   nube.\n\nC\u00f3mo funcionan los sensores de un veh\u00edculo aut\u00f3nomo, y el control (10\nminutos)\n\n-  Sensor Fusion (C\u00e1maras, LiDAR, Radar, GPS)\n-  Aprendizaje autom\u00e1tico para tomar decisiones\n\nDemo del funcionamiento de un vehiculo autonomo con CARLA Simulator y\nROS2 (10 minutos)\n\n-  Mostrando una aplicaci\u00f3n funcional de un veh\u00edculo aut\u00f3nomo en el\n   simulador CARLA para visualizar el funcionamiento de ROS y su\n   interacci\u00f3n con los sensores del veh\u00edculo.\n\nConclusiones (3 minutos)\n",
+  "language": "spa",
+  "recorded": "2024-05-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2024/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2024/schedule/presentation/93/"
+    }
+  ],
+  "speakers": [
+    "Jesus Armando Anaya"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/8kOipdZHkzk/hqdefault.jpg",
+  "title": "Explicando el sistema de un veh\u00edculo aut\u00f3nomo con Python.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8kOipdZHkzk"
+    }
+  ]
 }

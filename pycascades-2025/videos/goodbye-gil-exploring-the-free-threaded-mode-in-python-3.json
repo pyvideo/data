@@ -1,0 +1,29 @@
+{
+  "copyright_text": "",
+  "description": "Python 3.13 was the first Python version released with a free-threaded mode. Even though the default interpreter still uses the GIL, it has provisions that allow us to run a free-threaded version of the interpreter with the GIL disabled.\n\nIn this talk, we\u2019ll set up and run the free-threaded interpreter and benchmark it with the GIL-enabled version for various kinds of tasks. We'll assess the impact on single-threaded vs multithreaded code and test the performance across CPU-bound and I/O-bound tasks, aiming to identify scenarios where free-threaded Python excels.",
+  "duration": 1814,
+  "language": "eng",
+  "recorded": "2025-02-08",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://2025.pycascades.com/program/schedule/"
+    },
+    {
+      "label": "Full playlist",
+      "url": "https://www.youtube.com/playlist?list=PLcNrB7gPa-Ne_JDjziQg95-3XN3KenLiO"
+    }
+  ],
+  "speakers": [
+    "Adarsh Divakaran"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/7NvgI3jDprg/maxresdefault.jpg",
+  "title": "Goodbye GIL: Exploring the Free-threaded mode in Python 3.13",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7NvgI3jDprg"
+    }
+  ]
+}
