@@ -1,0 +1,24 @@
+{
+  "description": "El \"Global Interpreter Lock\" (GIL) de CPython impide que m\u00faltiples hilos ejecuten c\u00f3digo Python en paralelo. El GIL se a\u00f1adi\u00f3 a Python en 1992 junto con el soporte original para hilos con el fin de proteger el acceso al estado compartido del int\u00e9rprete.\n\nPython admite varias formas de habilitar el paralelismo dentro de las restricciones del GIL, pero vienen con limitaciones significativas. Por un momento, imagina que pudieras evitar el tiempo de inicio de los workers de joblib, la inestabilidad multiproceso de los DataLoaders de PyTorch y la sobrecarga de serializar datos para la comunicaci\u00f3n entre procesos.\n\nEmpezando en Python 3.13, en el core team tenemos como objetivo eliminar el GIL de CPython para hacer que los programas Python multihilo sean m\u00e1s eficientes, manteniendo la compatibilidad hacia atr\u00e1s y el rendimiento en un solo hilo.\n\nEsta charla cubrir\u00e1 los cambios en Python para permitir que se ejecute de manera eficiente sin el GIL y lo que estos cambios significan para los programadores de Python y los autores de extensiones.",
+  "duration": 2155,
+  "language": "spa",
+  "recorded": "2024-10-04",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2024.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Sa0GU60mkAQ/maxresdefault.jpg",
+  "title": "Pablo Galindo Salgado - Como estamos eliminando el GIL en CPython",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Sa0GU60mkAQ"
+    }
+  ]
+}

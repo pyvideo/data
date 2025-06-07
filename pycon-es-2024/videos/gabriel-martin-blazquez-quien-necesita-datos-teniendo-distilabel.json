@@ -1,0 +1,36 @@
+{
+  "description": "\u00bfQuieres hacer fine-tuning de un modelo o LLM para un caso de uso espec\u00edfico pero no tienes datos? Entonces distilabel es tu soluci\u00f3n, la biblioteca que hemos estado utilizando en Argilla estos \u00faltimos meses y con la cual hemos generado varios datasets que han sido tendencia en el Hugging Face Hub.\n\ndistilabel es una biblioteca para la generaci\u00f3n de datos de texto (por el momento solo texto) de manera sint\u00e9tica utilizando LLMs creada por Argilla. Los datasets generados con distilabel permiten hacer fine-tuning de otros modelos (model distillation) o incluso de la propia LLM que se utiliz\u00f3 para generar los datos (self-learning).\n\nLa biblioteca permite desarrollar una pipeline compuesta por varios pasos jerarquizados mediante un Directed Acyclic Graph (DAG). Cada paso puede realizar una transformaci\u00f3n o filtrado en los batches de datos que reciben, para despu\u00e9s devolverlo. La pipeline es ejecutada de manera paralela y con un sistema basado en batches: los datos de entrada de la pipeline se dividen en batches que van fluyendo a trav\u00e9s de los pasos.\n\nAdem\u00e1s, la biblioteca cuenta con pasos especiales denominados tareas, que definen la l\u00f3gica para realizar generaci\u00f3n de datos o anotaci\u00f3n de datos utilizando una LLM (integramos casi todos los \"engines\": OpenAI API, vLLM, Hugging Face Inference Endpoints, Hugging Face Transformers, etc).\n\nEn esta charla explicar\u00e9 por que desarrollamos distilabel, como fue su desarrollo y hablar\u00e9 de su interesante arquitectura en Python, que trata de maximizar y paralelizar la ejecuci\u00f3n de la pipeline para que esta sea lo m\u00e1s r\u00e1pida posible. Adem\u00e1s, pondr\u00e9 varios ejemplos de como utilizar distilabel para generar datos para vuestros casos de uso.\n\nGitHub: https://github.com/argilla-io/distilabel\n\n---\nPython Espa\u00f1a: https://es.python.org/\nPython Vigo: https://www.python-vigo.es/\nBlueSky: @es.pycon.org\nTwitter/X: @PyConES",
+  "duration": 2044,
+  "language": "spa",
+  "recorded": "2024-10-04",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2024.es.pycon.org/"
+    },
+    {
+      "label": "https://github.com/argilla-io/distilabel",
+      "url": "https://github.com/argilla-io/distilabel"
+    },
+    {
+      "label": "https://es.python.org/",
+      "url": "https://es.python.org/"
+    },
+    {
+      "label": "https://www.python-vigo.es/",
+      "url": "https://www.python-vigo.es/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/H_3AjB_DUDI/maxresdefault.jpg",
+  "title": "Gabriel Mart\u00edn Bl\u00e1zquez - \u00bfQui\u00e9n necesita datos teniendo distilabel?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=H_3AjB_DUDI"
+    }
+  ]
+}
