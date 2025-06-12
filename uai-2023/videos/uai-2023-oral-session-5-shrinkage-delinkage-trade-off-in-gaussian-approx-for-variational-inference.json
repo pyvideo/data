@@ -1,0 +1,29 @@
+{
+  "description": "\"The Shrinkage-Delinkage Trade-off: An Analysis of Factorized Gaussian Approximations for Variational Inference\"\nCharles Margossian, Lawrence K. Saul\n(https://proceedings.mlr.press/v216/margossian23a.html)\n\nAbstract\nWhen factorized approximations are used for variational inference (VI), they tend to underestimate the uncertainty\u2014as measured in various ways\u2014of the distributions they are meant to approximate. We consider two popular ways to measure the uncertainty deficit of VI: (i) the degree to which it underestimates the componentwise variance, and (ii) the degree to which it underestimates the entropy. To better understand these effects, and the relationship between them, we examine an informative setting where they can be explicitly (and elegantly) analyzed: the approximation of a Gaussian, p, with a dense covariance matrix, by a Gaussian, q, with a diagonal covariance matrix. We prove that q always underestimates both the componentwise variance and the entropy of p, though not necessarily to the same degree. Moreover we demonstrate that the entropy of q is determined by the trade-off of two competing forces: it is decreased by the shrinkage of its componentwise variances (our first measure of uncertainty) but it is increased by the factorized approximation which delinks the nodes in the graphical model of p. We study various manifestations of this trade-off, notably one where, as the dimension of the problem grows, the per-component entropy gap between p and q becomes vanishingly small even though q underestimates every componentwise variance by a constant multiplicative factor. We also use the shrinkage-delinkage trade-off to bound the entropy gap in terms of the problem dimension and the condition number of the correlation matrix of p. Finally we present empirical results on both Gaussian and non-Gaussian targets, the former to validate our analysis and the latter to explore its limitations.",
+  "duration": 1630,
+  "language": "eng",
+  "recorded": "2023-07-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2023/"
+    },
+    {
+      "label": "https://proceedings.mlr.press/v216/margossian23a.html",
+      "url": "https://proceedings.mlr.press/v216/margossian23a.html"
+    }
+  ],
+  "speakers": [
+    "Charles Margossian",
+    "Lawrence K. Saul"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/2q5azatd-Ko/maxresdefault.jpg",
+  "title": "The Shrinkage-Delinkage Trade-off: An Analysis of Factorized Gaussian Approximations for Variational Inference",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2q5azatd-Ko"
+    }
+  ]
+}

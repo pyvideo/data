@@ -1,0 +1,34 @@
+{
+  "description": "\"Local Message Passing on Frustrated Systems\"\nLuca Schmid, Joshua Brenk, Laurent Schmalen\n(https://proceedings.mlr.press/v216/schmid23a.html)\n\nAbstract\nMessage passing on factor graphs is a powerful framework for probabilistic inference, which finds important applications in various scientific domains. The most wide-spread message passing scheme is the sum-product algorithm (SPA) which gives exact results on trees but often fails on graphs with many small cycles. We search for an alternative message passing algorithm that works particularly well on such cyclic graphs. Therefore, we challenge the extrinsic principle of the SPA, which loses its objective on graphs with cycles. We further replace the local SPA message update rule at the factor nodes of the underlying graph with a generic mapping, which is optimized in a data-driven fashion. These modifications lead to a considerable improvement in performance while preserving the simplicity of the SPA. We evaluate our method for two classes of cyclic graphs: the 2x2 fully connected Ising grid and factor graphs for symbol detection on linear communication channels with inter-symbol interference. To enable the method for large graphs as they occur in practical applications, we develop a novel loss function that is inspired by the Bethe approximation from statistical physics and allows for training in an unsupervised fashion.\n\nSlides: https://www.auai.org/uai2023/oral_slides/430-oral-slides.pdf",
+  "duration": 1484,
+  "language": "eng",
+  "recorded": "2023-07-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2023/"
+    },
+    {
+      "label": "https://proceedings.mlr.press/v216/schmid23a.html",
+      "url": "https://proceedings.mlr.press/v216/schmid23a.html"
+    },
+    {
+      "label": "https://www.auai.org/uai2023/oral_slides/430-oral-slides.pdf",
+      "url": "https://www.auai.org/uai2023/oral_slides/430-oral-slides.pdf"
+    }
+  ],
+  "speakers": [
+    "Luca Schmid",
+    "Joshua Brenk",
+    "Laurent Schmalen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DeV_MhpSwHs/maxresdefault.jpg",
+  "title": "Local Message Passing on Frustrated Systems",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DeV_MhpSwHs"
+    }
+  ]
+}
