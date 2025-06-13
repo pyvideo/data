@@ -1,0 +1,65 @@
+{
+  "description": "Ponente: Ángel Luengo y Guillermo Delgado Martínez\nTítulo: Asegurando el tiro: intervalos de confianza para tus modelos de Machine Learning\nAula: Teoría 7 (Domingo)\n---------------------------------------\nResumen:\nComprender cómo funcionan y la ventaja de emplear los intervalos de confianza, intervalos de predicción y predicción por cuartiles a la hora de emplear modelos de ML para soluciones de negocio.\n\nA día de hoy son cada vez más las empresas que se apoyan en modelos y técnicas de Machine Learning y analítica avanzada para tomar sus decisiones de negocio. No hay duda de que los datos son el petróleo de esta nueva era y tomar decisiones basadas en ellos supone una ventaja competitiva considerable. No obstante siguen existiendo escenarios (fluctuación de la bolsa, precio de la energía y commodities ...) cuya gran complejidad hace que sea complicado de modelar hasta con los algoritmos más punteros.\nEn estas situaciones la solución más viable suele pasar por cuantificar la incertidumbre del modelo o asignando unos intervalos de confianza en las predicciones para poder tomar decisiones de negocio más precisas.\nEsta charla plantea, a partir de un caso de uso en Python, entrar en el detalle de los conceptos de intervalo de confianza, intervalo de predicción y predicción basada en cuartiles. Para cada uno de los conceptos explicados se definirán las ventajas y desventajas de su empleo tanto a nivel de interpretabilidad como a nivel de coste computacional, focalizándose en el valor añadido aportado a la solución de negocio planteada.\n\nLibrerías:\n- Xgboost: https://xgboost.readthedocs.io/en/stable/\n- Catboost: https://catboost.ai/\n- Lightgbm: https://lightgbm.readthedocs.io/en/v3.3.2/\n- Ngboost: https://github.com/stanfordmlgroup/ngboost\n- sklearn: https://scikit-learn.org/stable/\n\nDefiniciones y referencias:\n- Ngboost: https://arxiv.org/abs/1910.03225\n- Regresión cuantílica: http://www.econ.uiuc.edu/~roger/research/rq/QRJEP.pdf\n- intervalo de credibilidad: https://en.wikipedia.org/wiki/Credible_interval\n- intervalo de confianza: https://es.wikipedia.org/wiki/Intervalo_de_confianza\n- intervalo de predicción: https://es.wikipedia.org/wiki/Intervalo_de_predicción",
+  "duration": 2271,
+  "language": "spa",
+  "recorded": "2022-09-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2022.es.pycon.org/"
+    },
+    {
+      "label": "https://en.wikipedia.org/wiki/Credible_interval",
+      "url": "https://en.wikipedia.org/wiki/Credible_interval"
+    },
+    {
+      "label": "https://es.wikipedia.org/wiki/Intervalo_de_confianza",
+      "url": "https://es.wikipedia.org/wiki/Intervalo_de_confianza"
+    },
+    {
+      "label": "https://arxiv.org/abs/1910.03225",
+      "url": "https://arxiv.org/abs/1910.03225"
+    },
+    {
+      "label": "https://xgboost.readthedocs.io/en/stable/",
+      "url": "https://xgboost.readthedocs.io/en/stable/"
+    },
+    {
+      "label": "https://github.com/stanfordmlgroup/ngboost",
+      "url": "https://github.com/stanfordmlgroup/ngboost"
+    },
+    {
+      "label": "https://catboost.ai/",
+      "url": "https://catboost.ai/"
+    },
+    {
+      "label": "http://www.econ.uiuc.edu/~roger/research/rq/QRJEP.pdf",
+      "url": "http://www.econ.uiuc.edu/~roger/research/rq/QRJEP.pdf"
+    },
+    {
+      "label": "https://lightgbm.readthedocs.io/en/v3.3.2/",
+      "url": "https://lightgbm.readthedocs.io/en/v3.3.2/"
+    },
+    {
+      "label": "https://es.wikipedia.org/wiki/Intervalo_de_predicción",
+      "url": "https://es.wikipedia.org/wiki/Intervalo_de_predicción"
+    },
+    {
+      "label": "https://scikit-learn.org/stable/",
+      "url": "https://scikit-learn.org/stable/"
+    }
+  ],
+  "speakers": [
+    "Ángel Luengo",
+    "Guillermo Delgado Martínez"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/tuskhDN7VNk/maxresdefault.jpg",
+  "title": "Asegurando el tiro: intervalos de confianza para tus modelos de Machine Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tuskhDN7VNk"
+    }
+  ]
+}
