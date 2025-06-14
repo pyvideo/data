@@ -1,0 +1,36 @@
+{
+  "description": "Ponente\nNombre: Javier Alonso\nTítulo: Cómo ejecutar miles de VM en paralelo y no morir en el intento - Orcha 🐳\nSala: Patos\n——————\nEl CI es fundamental en el desarrollo de productos hoy en día y uno de sus pilares básicos es la ejecución de tests. Sin embargo, a medida que el producto madura la cantidad de tests aumenta y con ello el tiempo que tardan en completarse. Para tener feedback lo antes posible, ¿cómo se maquetan las pruebas de forma eficiente?\n\nEl problema es aún más acusado cuando se cuenta con multitud de dispositivos y versiones en desarrollo. En particular, con dos servidores distribuyéndose carga de tests, el tiempo total de ejecución alcanzaba las 15 horas probando únicamente dos versiones.\n\nEs imperativo contar con una herramienta que permita paralelizar las pruebas de forma masiva, aprovechando al máximo los recursos disponibles. Además, es necesario que dicha herramienta sea lo suficientemente flexible como para soportar la infraestructura actual y permita expandir el tipo de infraestructuras de tests.\n\nEn esta charla vamos a explorar el diseño de Orcha (la herramienta de orquestación), la API para extender su funcionalidad y la necesidad de tener un usuario dedicado.\n\nLa charla está orientada a usuarios intermedio-avanzados con familiaridad con el módulo multiprocessing.\n\n—\nPython España: https://es.python.org/\nPython Canarias: https://pythoncanarias.es/\nTwitter/X: @PyConES\nMastodon: https://fosstodon.org/@pycones",
+  "duration": 1699,
+  "language": "spa",
+  "recorded": "2023-10-06",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.es.pycon.org/"
+    },
+    {
+      "label": "https://fosstodon.org/@pycones",
+      "url": "https://fosstodon.org/@pycones"
+    },
+    {
+      "label": "https://es.python.org/",
+      "url": "https://es.python.org/"
+    },
+    {
+      "label": "https://pythoncanarias.es/",
+      "url": "https://pythoncanarias.es/"
+    }
+  ],
+  "speakers": [
+    "Javier Alonso"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ooPboULiYGU/maxresdefault.jpg",
+  "title": "Cómo ejecutar miles de VM en paralelo y no morir en el intento - Orcha 🐳",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ooPboULiYGU"
+    }
+  ]
+}
