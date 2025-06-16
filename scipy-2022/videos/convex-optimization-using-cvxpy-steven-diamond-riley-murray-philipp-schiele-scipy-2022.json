@@ -1,0 +1,30 @@
+{
+  "description": "In a convex optimization problem, the goal is to find a numerical assignment to a variable that minimizes an objective function, while also satisfying some constraints. The variable might represent parameters in a machine learning model, trades in a financial portfolio, actuations for controllers of a physical system, or tunable parameters for the design of a physical device. In industry, convex optimization problems are solved to land rockets, allocate financial portfolios, fit machine learning models, and control self-driving cars, among other applications. By abstracting away numerical solvers, CVXPY makes it easy to specify and solve convex optimization problems. CVXPY is best understood as a rewriting system for convex optimization problems, with a user-facing front-end and a solver-facing back-end:\n\n* Front-end: CVXPY provides users with a large library of atomic functions, like exp, log, and norm. These atoms can be composed according to a simple rule that guarantees convexity of the composition, forming the grammar of CVXPY. Formulating problems using this rule is known as Disciplined Convex Programming.\n\n* Back-end: When the `solve` method on a problem is called, CVXPY transparently rewrites it into a terse numerical format expected by a solver; it will then call the solver, and return a solution to the user.\n\nThis tutorial will cover the basics of convex optimization with CVXPY, with an emphasis on real-world applications. Attendees will come away with:\n* A thorough understanding of what a convex optimization problem is.\n* The ability to model real-world problems as convex optimization problems, using CVXPY.\n* The ability to use CVXPY Parameters to solve many related convex optimization problems in a short amount of time.\n* An exposure to advanced features included in CVXPY, including quasiconvex programming, log-log convex programming, and differentiating through parametric convex optimization problems.\n\nTarget audience:\n* Computationally-minded scientists and engineers from any field who are interested in learning about a powerful tool for solving mathematically modeled problems.\n\nPrerequisites:\n* Basic understanding of linear algebra and probability.\n* We do _not_ assume any familiarity with convex optimization or mathematical programming.\"\n\nhttps://github.com/cvxgrp/cvx_short_course",
+  "duration": 6915,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2022.scipy.org/"
+    },
+    {
+      "label": "https://github.com/cvxgrp/cvx_short_course",
+      "url": "https://github.com/cvxgrp/cvx_short_course"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/USaishDES9s/maxresdefault.jpg",
+  "title": "Convex optimization using CVXPY- Steven Diamond, Riley Murray, Philipp Schiele | SciPy 2022",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=USaishDES9s"
+    }
+  ]
+}

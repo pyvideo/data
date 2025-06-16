@@ -1,0 +1,30 @@
+{
+  "description": "This tutorial equips participants with the tools and knowledge to tackle difficult optimization problems in practice. It is neither a deep-dive into the theory and math behind numerical optimization nor is it pretending that optimization is simple. During the many hands on exercises, participates work on stylized examples where \"\"something goes wrong\"\". For example, they might get a code snippet where an optimizer converges to the wrong solution or one where the optimization crashes. Their task is to identify the problem and try to find solutions using scipy.optimize, estimagic and jaxopt. This generates practical knowledge and problem solving skills that can be applied to real world problems. Before each exercise, the topics and mechanics of using the relevant functionality of the optimization libraries are introduced. The slides are heavy on code snippets and examples, and can serve as cheat-sheet during the exercise and when solving real world optimization problems at work or in research applications.\n\nThe three libraries have been chosen because they complement each other. scipy.optimize serves as a simple and familiar starting point. estimagic provides a harmonized interface to a large collection of numerical optimizers from nlopt, scipy, pygmo, ipopt, tao and others. Moreover, it comes with powerful features and diagonstic tools for difficult optimization problems. Jaxopt provides differentiable optimizeres that can be vectorized and just in time compiled with JAX, wich makes it good at solving many instances of the same optimization problem in a vectorized way.\n\nThe tutorial does not require previous knowledge of numerical optimization. Participants should be comfortable at defining Python functions, creating numpy arrays and doing simple calculations using Python and numpy. All exercises will be in Jupyter notebooks. Motivation and interest can always substitute for previous knowledge and individual topics can be skipped without losing track of the rest.\n\nhttps://github.com/OpenSourceEconomics/scipy-estimagic",
+  "duration": 7922,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2022.scipy.org/"
+    },
+    {
+      "label": "https://github.com/OpenSourceEconomics/scipy-estimagic",
+      "url": "https://github.com/OpenSourceEconomics/scipy-estimagic"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ftlw0rARrtI/maxresdefault.jpg",
+  "title": "Practical Numerical Optimization (SciPy/Estimagic/Jaxopt) - Janos Gabler, Tim Mensinger | SciPy 2022",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ftlw0rARrtI"
+    }
+  ]
+}

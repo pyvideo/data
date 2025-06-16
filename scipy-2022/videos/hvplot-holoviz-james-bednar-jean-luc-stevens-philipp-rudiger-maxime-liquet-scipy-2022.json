@@ -1,0 +1,30 @@
+{
+  "description": "Python offers many powerful visualization tools, each with their own strengths and advantages, but few people have the time and interest to learn all the different APIs required to use these different tools. Luckily, a de-facto standard API for data plotting has emerged in the Pandas .plot() API, which is now supported by many different plotting packages.\n\nIn this tutorial, you will learn how to use hvPlot, a high-level interactive plotting library that exposes the power of Bokeh, Matplotlib, Plotly, Datashader, and Cartopy using the same .plot API you may already know from using Pandas or Xarray's plotting interface. We'll also show you how to turn nearly any expression you can write with that API into a web app with plots and tables by simply substituting widgets for any parameters you want users to be able to select. Thanks to the HoloViz tools on which hvPlot is built, the resulting apps can easily handle big data (up to billions of rows on an ordinary laptop), remote data (either in Jupyter or in standalone apps), streaming data (using streaming dataframe libraries), geographical data (building on the geoscience software stack), or multidimensional data (using Xarray).\n\nhvPlot's high-level interface should be sufficient for nearly all of the common data-exploration and data-analysis tasks you want to do with Pandas or Xarray, but in keeping with the HoloViz philosophy of \"\"shortcuts rather than dead ends\"\", we'll also show you how and when to drop down to lower-level APIs when you need to, such as when building more complex apps using Panel, doing complex graphical data calculations using Datashader, or integrating plotting and interactivity into your own libraries using Param and HoloViews. With the techniques you learn in the hands-on exercises in this tutorial, you'll get the tools and know-how to effectively explore, analyze and visualize simple or complex, small or large, and static or dynamic data easily, concisely, and reproducibly. We expect participants to have previously used some sort of plotting tool and to be comfortable with Python and at least one array-based library (Numpy, Pandas, Xarray, CuPy, cuDF, Dask, etc.).\n\nhttps://alisterburt.github.io/napari-workshops/Scipy-0722/intro.html",
+  "duration": 11265,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2022.scipy.org/"
+    },
+    {
+      "label": "https://alisterburt.github.io/napari-workshops/Scipy-0722/intro.html",
+      "url": "https://alisterburt.github.io/napari-workshops/Scipy-0722/intro.html"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/bGbt_-WDz3k/maxresdefault.jpg",
+  "title": "hvPlot & HoloViz- James Bednar, Jean-Luc Stevens, Philipp Rudiger, Maxime Liquet | SciPy 2022",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=bGbt_-WDz3k"
+    }
+  ]
+}
