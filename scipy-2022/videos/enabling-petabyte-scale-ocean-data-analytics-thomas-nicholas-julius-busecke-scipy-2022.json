@@ -1,5 +1,5 @@
 {
-  "description": "The largest oceanographic simulations available are petabyte-scale, presenting a huge challenge when computing even relatively simple analysis functions. Furthermore, doing vector calculus with data living on a staggered grid requires specific numerical schemes to guarantee correctness.\n \nXGCM solves both these problems - it applies common vector calculus operations in a grid-aware manner, and now uses the minimum number of dask tasks. This works by applying operations atomically as a \u201cgrid ufunc\u201d, using a protocol which generalises numpy ufuncs to specify the input and output grids for a given computation. Using this approach in conjunction with another package, xhistogram, we computed vorticity-strain histograms in different ocean basins globally.",
+  "description": "The largest oceanographic simulations available are petabyte-scale, presenting a huge challenge when computing even relatively simple analysis functions. Furthermore, doing vector calculus with data living on a staggered grid requires specific numerical schemes to guarantee correctness.\n \nXGCM solves both these problems - it applies common vector calculus operations in a grid-aware manner, and now uses the minimum number of dask tasks. This works by applying operations atomically as a “grid ufunc”, using a protocol which generalises numpy ufuncs to specify the input and output grids for a given computation. Using this approach in conjunction with another package, xhistogram, we computed vorticity-strain histograms in different ocean basins globally.",
   "duration": 1851,
   "language": "eng",
   "recorded": "2022-07-11",
@@ -12,9 +12,7 @@
   "speakers": [
     "TODO"
   ],
-  "tags": [
-    "python"
-  ],
+  "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/ftlgOESINvo/maxresdefault.jpg",
   "title": "Enabling Petabyte-scale Ocean Data Analytics- Thomas Nicholas, Julius Busecke | SciPy 2022",
   "videos": [

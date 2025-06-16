@@ -1,5 +1,5 @@
 {
-  "description": "It's curious that Python is now the leading language for scientific computing, since pure Python code is not fast and slow code \u00d7 big data = long wait times. However, most number-crunching in Python is performed by optimized, precompiled libraries: Python only directs the computation, steering it toward the user's intent. As a consequence, the most basic syntax you might learn in an introductory programming class\u2014`if`, `for`, and `while` loops\u2014is not what you should use when dealing with big data. You should use \"\"vectorized\"\" expressions, like slices, broadcasting, and reducers.\n\nThis tutorial is an introduction to vectorized array programming. Python beginners are welcome\u2014unfamiliar syntax will be minimized and explained as necessary\u2014because the focus is on _techniques_, rather than language or library features. It is a guided tour through problems with loopy and unloopy solutions, using NumPy and Awkward Array for concreteness, but the techniques can be adapted to any array-oriented setting, such as GPU programming (demo included).\n\nhttps://github.com/jpivarski-talks/2022-07-11-scipy-loopy-tutorial",
+  "description": "It's curious that Python is now the leading language for scientific computing, since pure Python code is not fast and slow code × big data = long wait times. However, most number-crunching in Python is performed by optimized, precompiled libraries: Python only directs the computation, steering it toward the user's intent. As a consequence, the most basic syntax you might learn in an introductory programming class—`if`, `for`, and `while` loops—is not what you should use when dealing with big data. You should use \"\"vectorized\"\" expressions, like slices, broadcasting, and reducers.\n\nThis tutorial is an introduction to vectorized array programming. Python beginners are welcome—unfamiliar syntax will be minimized and explained as necessary—because the focus is on _techniques_, rather than language or library features. It is a guided tour through problems with loopy and unloopy solutions, using NumPy and Awkward Array for concreteness, but the techniques can be adapted to any array-oriented setting, such as GPU programming (demo included).\n\nhttps://github.com/jpivarski-talks/2022-07-11-scipy-loopy-tutorial",
   "duration": 9601,
   "language": "eng",
   "recorded": "2022-07-11",
@@ -16,9 +16,7 @@
   "speakers": [
     "TODO"
   ],
-  "tags": [
-    "python"
-  ],
+  "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/Dovyd72eD70/maxresdefault.jpg",
   "title": "Loopy and Unloopy Programming Techniques- Jim Pivarski | SciPy 2022",
   "videos": [
