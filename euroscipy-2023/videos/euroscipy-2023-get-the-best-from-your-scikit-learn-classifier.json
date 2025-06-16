@@ -1,0 +1,32 @@
+{
+  "description": "Proposal link: https://pretalx.com/euroscipy-2023/talk/GYYTCH/\n\nWhen operating a classifier in a production setting (i.e. predictive phase), practitioners are interested in potentially two different outputs: a \"hard\" decision used to leverage a business decision or/and a \"soft\" decision to get a confidence score linked to each potential decision (e.g. usually related to class probabilities).\n\nScikit-learn does not provide any flexibility to go from \"soft\" to \"hard\" predictions: it uses a cut-off point at a confidence score of 0.5 (or 0 when using decision_function) to get class labels. However, optimizing a classifier to get a confidence score close to the true probabilities (i.e. a calibrated classifier) does not guarantee to obtain accurate \"hard\" predictions using this heuristic. Reversely, training a classifier for an optimum \"hard\" prediction accuracy (with the cut-off constraint at 0.5) does not guarantee obtaining a calibrated classifier.\n\nIn this talk, we will present a new scikit-learn meta-estimator allowing us to get the best of the two worlds: a calibrated classifier providing optimum \"hard\" predictions. This meta-estimator will land in a future version of scikit-learn: https://github.com/scikit-learn/scikit-learn/pull/26120.\n\nWe will provide some insights regarding the way to obtain accurate probabilities and predictions and also illustrate how to use in practice this model on different use cases: cost-sensitive problems and imbalanced classification problems.",
+  "duration": 1605,
+  "language": "eng",
+  "recorded": "2023-08-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20241120213156/https://euroscipy.org/2023/"
+    },
+    {
+      "label": "https://github.com/scikit-learn/scikit-learn/pull/26120.",
+      "url": "https://github.com/scikit-learn/scikit-learn/pull/26120."
+    },
+    {
+      "label": "https://pretalx.com/euroscipy-2023/talk/GYYTCH/",
+      "url": "https://pretalx.com/euroscipy-2023/talk/GYYTCH/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/6YnhoCfArQo/maxresdefault.jpg",
+  "title": "EuroSciPy 2023 - Get the best from your scikit-learn classifier",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6YnhoCfArQo"
+    }
+  ]
+}

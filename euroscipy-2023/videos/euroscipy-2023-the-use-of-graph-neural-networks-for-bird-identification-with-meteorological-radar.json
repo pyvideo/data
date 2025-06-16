@@ -1,0 +1,32 @@
+{
+  "description": "Proposal link: https://pretalx.com/euroscipy-2023/talk/P38Y7L/\n\nIn this project we generate tools to identify birds within the spatial extent of a meteorological radar. Using the opportunities created by modern dual-polarization radars we build graph neural networks to identify bird flocks. For this, the original point cloud data is converted to multiple undirected graphs following a set of predefined rules, which are then used as an input in graph convolutional neural network (Kipf and Welling, 2017, https://doi.org/10.48550/arXiv.1609.02907). Each node has a set of features such as range, x, y, z coordinates and several radar specific parameters e.g. differential reflectivity and phase shift which are used to build model and conduct graph-level classification. This tool will alleviate problem of manual identification and labelling which is tedious and time intensive. Going forward we also focus on using the temporal information in the radar data. Repeated radar measurements enable us to track these movements across space and time. This makes it possible for regional movement studies to bridge the methodological gap between fine-scale, individual-based tracking studies and continental-scale monitoring of bird migration. In particular, it enables novel studies of the roles of habitat, topography and environmental stressors on movements that are not feasible with current methodology. Ultimately, we want to apply the methodology to data from continental radar networks to study movement across scales.",
+  "duration": 1200,
+  "language": "eng",
+  "recorded": "2023-08-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20241120213156/https://euroscipy.org/2023/"
+    },
+    {
+      "label": "https://doi.org/10.48550/arXiv.1609.02907",
+      "url": "https://doi.org/10.48550/arXiv.1609.02907"
+    },
+    {
+      "label": "https://pretalx.com/euroscipy-2023/talk/P38Y7L/",
+      "url": "https://pretalx.com/euroscipy-2023/talk/P38Y7L/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OYeoeuozyEo/maxresdefault.jpg",
+  "title": "EuroSciPy 2023 - The use of graph neural networks for bird identification with meteorological radar",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OYeoeuozyEo"
+    }
+  ]
+}
