@@ -1,5 +1,5 @@
 {
-  "description": "This talk introduces dask-image, a python library for distributed image processing. Targeted towards applications involving large array data too big to fit in memory, dask-image is built on top of numpy, scipy, and dask allowing easy scalability and portability from your laptop to the supercomputing cluster. It is of broad interest to a diverse range of scientific fields including astronomy, geosciences, microscopy, and climate sciences. We will provide a general overview of the dask-image library, then discuss mixing and matching with your own custom functions, and present a practical case study of a python image processing pipeline.\n\n\u3053\u306e\u8b1b\u6f14\u3067\u306f\u3001\u5206\u6563\u753b\u50cf\u51e6\u7406\u306e\u305f\u3081\u306e python \u30e9\u30a4\u30d6\u30e9\u30ea\u3067\u3042\u308b dask-image \u3092\u7d39\u4ecb\u3057\u307e\u3059\u3002\u30e1\u30e2\u30ea\u306b\u53ce\u307e\u308a\u304d\u3089\u306a\u3044\u307b\u3069\u5927\u304d\u306a\u914d\u5217\u30c7\u30fc\u30bf\u3092\u6271\u3046\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u3092\u30bf\u30fc\u30b2\u30c3\u30c8\u306b\u3057\u3066\u304a\u308a\u3001dask-image \u306f numpy, scipy, dask \u306e\u4e0a\u306b\u69cb\u7bc9\u3055\u308c\u3066\u3044\u308b\u305f\u3081\u3001\u30e9\u30c3\u30d7\u30c8\u30c3\u30d7\u304b\u3089\u30b9\u30fc\u30d1\u30fc\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30af\u30e9\u30b9\u30bf\u3078\u306e\u62e1\u5f35\u6027\u3068\u79fb\u690d\u6027\u3092\u5bb9\u6613\u306b\u3057\u307e\u3059\u3002\u5929\u6587\u5b66\u3001\u5730\u7403\u79d1\u5b66\u3001\u9855\u5fae\u93e1\u3001\u6c17\u5019\u79d1\u5b66\u306a\u3069\u306e\u591a\u69d8\u306a\u79d1\u5b66\u5206\u91ce\u306b\u5e83\u304f\u95a2\u5fc3\u304c\u3042\u308a\u307e\u3059\u3002dask-image \u30e9\u30a4\u30d6\u30e9\u30ea\u306e\u4e00\u822c\u7684\u306a\u6982\u8981\u3092\u8aac\u660e\u3057\u305f\u5f8c\u3001\u72ec\u81ea\u306e\u30ab\u30b9\u30bf\u30e0\u95a2\u6570\u3068\u306e\u6df7\u5408\u3084\u30de\u30c3\u30c1\u30f3\u30b0\u306b\u3064\u3044\u3066\u8b70\u8ad6\u3057\u3001Python \u753b\u50cf\u51e6\u7406\u30d1\u30a4\u30d7\u30e9\u30a4\u30f3\u306e\u5b9f\u8df5\u7684\u306a\u30b1\u30fc\u30b9\u30b9\u30bf\u30c7\u30a3\u3092\u7d39\u4ecb\u3057\u307e\u3059\u3002",
+  "description": "This talk introduces dask-image, a python library for distributed image processing. Targeted towards applications involving large array data too big to fit in memory, dask-image is built on top of numpy, scipy, and dask allowing easy scalability and portability from your laptop to the supercomputing cluster. It is of broad interest to a diverse range of scientific fields including astronomy, geosciences, microscopy, and climate sciences. We will provide a general overview of the dask-image library, then discuss mixing and matching with your own custom functions, and present a practical case study of a python image processing pipeline.\n\nこの講演では、分散画像処理のための python ライブラリである dask-image を紹介します。メモリに収まりきらないほど大きな配列データを扱うアプリケーションをターゲットにしており、dask-image は numpy, scipy, dask の上に構築されているため、ラップトップからスーパーコンピュータクラスタへの拡張性と移植性を容易にします。天文学、地球科学、顕微鏡、気候科学などの多様な科学分野に広く関心があります。dask-image ライブラリの一般的な概要を説明した後、独自のカスタム関数との混合やマッチングについて議論し、Python 画像処理パイプラインの実践的なケーススタディを紹介します。",
   "duration": 1208,
   "language": "eng",
   "recorded": "2020-10-30",
@@ -12,9 +12,7 @@
   "speakers": [
     "TODO"
   ],
-  "tags": [
-    "python"
-  ],
+  "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi_webp/dP0m2iZX0PU/maxresdefault.webp",
   "title": "Dask Image - Distributed Image Processing For Large Data | Genevieve Buckley | SciPy Japan 2020",
   "videos": [
