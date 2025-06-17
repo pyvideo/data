@@ -1,0 +1,48 @@
+{
+  "description": "Speaker: Rob Zinkov\nTitle: A Tour of Model Checking Techniques\nVideo: https://www.youtube.com/watch?v=vfqPGGCpY6I\n\nEvent description:\nHave you ever written a model in PyMC and aren\u2019t sure if it\u2019s any good? In this talk I will show you the many ways you can evaluate how well your model fits your data using PyMC. Not all these techniques may be applicable for your particular problem, but you will definitely walk away with a few new tricks for being confident in the models you fit.\n\nDiscourse Discussion\nhttps://discourse.pymc.io/t/a-tour-of-model-checking-techniques-by-rob-zinkov/6056\n\n## Timestamps\n00:00 Introduction\n02:12 Model evaluation vs. model selection\n05:31 Example: Predicting radon levels\n07:13 Reading and cleaning the \"Radon Contamination\" dataset\n07:55 Comparing complete pooling, no pooling, and partial pooling radon models\n09:59 Predictive accuracy\n11:05 Splitting in-sample and out-of-sample data and fitting against in-sample data for all 3 models\n12:26 Calculating root mean square error (RMSE) and comparing scores\n15:21 Cross validation\n16:05 Likelihood on held-out data\n16:35 \"Frequentist\" method: held-out likelihood using point estimates\n18:34 \"Bayesian\" method: marginal likelihood using sample smc\n19:40 Bayes factors\n21:16 The drawbacks of using Bayes factors for choosing models\n22:33 Prior and posterior predictive checks for model evaluation\n23:02 Prior predictive checks\n24:03 Posterior predictive checks\n26:39 Information criterions\n27:08 Akaike information criterion (AIC)\n27:53 Bayesian information criterion (BIC)\n28:43 Deviance information criterion (DIC)\n30:25 Watanabe-Akaike or Widely-Available information criterion (WAIC)\n32:19 Leave One Out Cross Validations (LOOCV)\n33:39 Posterior dispersion indices\n35:51 Two-sample tests\n39:06 Relative maximum mean discrepancy (Relative MMD)\n40:17 Kernel Stein Discrepancy (KSD)\n42:20 Example: Predicting crime in Chicago\n44:13 Summary: Flowchart for model evaluation\n45:18 Summary: Flowchart for model selection\n46:02 Closing remarks\n\nSpeaker bio:\nRob Zinkov is a PhD student at University of Oxford. His research covers how to more efficiently specify and train deep generative models as well as how to more effectively discover a good statistical model for your data. Previously, he was a research scientist at Indiana University where he was the lead developer of the Hakaru probabilistic programming language.\n\nSpeaker info:\n-Twitter: https://twitter.com/zaxtax\n-GitHub: https://github.com/zaxtax\n-Website: https://zinkov.com/\n\nPart of PyMCon2020. \nMore details at http://www.pymcon.com  \n\n#bayesian #PyMC #statistics",
+  "duration": 2772,
+  "language": "eng",
+  "recorded": "2020-10-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymc-devs.github.io/pymcon/"
+    },
+    {
+      "label": "http://www.pymcon.com",
+      "url": "http://www.pymcon.com"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/a-tour-of-model-checking-techniques-by-rob-zinkov/6056",
+      "url": "https://discourse.pymc.io/t/a-tour-of-model-checking-techniques-by-rob-zinkov/6056"
+    },
+    {
+      "label": "https://github.com/zaxtax",
+      "url": "https://github.com/zaxtax"
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=vfqPGGCpY6I",
+      "url": "https://www.youtube.com/watch?v=vfqPGGCpY6I"
+    },
+    {
+      "label": "https://twitter.com/zaxtax",
+      "url": "https://twitter.com/zaxtax"
+    },
+    {
+      "label": "https://zinkov.com/",
+      "url": "https://zinkov.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/vfqPGGCpY6I/maxresdefault.webp",
+  "title": "A Tour of Model Checking Techniques (Rob Zinkov)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vfqPGGCpY6I"
+    }
+  ]
+}

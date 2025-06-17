@@ -1,0 +1,60 @@
+{
+  "description": "Speaker: Tim Dodwell, Mikkel Lykkegaard and Grigorios Mingas\n\nTitle: The MLDA multilevel sampler in PyMC\n\nVideo: https://www.youtube.com/watch?v=NvsGyvAElLY\n\nEvent description: \nThis presentation will give you the chance to know more about PyMC\u2019s new multilevel MCMC sampler, MLDA, and help you use it in practice. MLDA exploits multilevel model hierarchies to improve sampling efficiency compared to standard methods, especially when working with high-dimensional problems where gradients are not available. We will present a step-by-step guide on how to use MLDA within PyMC3, go through its various features and also present some advanced use cases, e.g. employing multilevel PDE-based models written in FEniCS and using adaptive error correction to correct model bias between different levels.\n\n\nDiscourse Discussion\nhttps://discourse.pymc.io/t/the-mlda-multilevel-sampler-in-pymc3-by-tim-dodwell-mikkel-lykkegaard-and-grigorios-mingas/5982\n\n\n## Timestamps\n00:00 Introduction\n00:36 A three way plan of attack!\n03:21 Bayesian Uncertainty Quantification - Vanilla MCMC Starts with Bayes' Theorem\n06:13 Delayed Acceptance - Christen & Fox, 2005\n07:39 Multilevel Delayed Acceptance - Adpt 1 - Finite Subchains\n08:33 Multilevel Delayed Acceptance - Adpt 2 - Apply Recursively\n09:50 MLDA in PyMC3\n22:21 Correcting Coarse Models\n23:40 Coarse Model Bias\n25:01 Modelling the Bias\n26:41 Adaptive Error Model\n27:53 Example\n38:43 What we would like from you - Contacts\n\nSpeaker bio:\nProf. Tim Dodwell has a personal chair in Computational Mechanics at the University of Exeter, is the Romberg Visiting at Heidelberg in Scientific Computing and holds a 5 year Turing AI Fellowship at the Alan Turing Institute where he is also an academic lead.\n\n\n-Twitter: https://twitter.com/proftimdodwell\n-Website: https://www.datacentricengineering.co.uk/team.html\n\n\nMikkel Lykkegaard is a PhD student with the Data Centric Engineering Group and Centre for Water Systems (CWS) at University of Exeter. His research is mainly concerned with Uncertainty Quantification (UQ) for computationally intensive forward models.\n\n\n-Website: http://emps.exeter.ac.uk/engineering/staff/ml624\n-LinkedIn: https://uk.linkedin.com/in/mikkelbue\n \nDr. Grigorios Mingas is a Senior Research Data Scientist at The Alan Turing Institute. He received his PhD from Imperial College London, where he co-designed MCMC algorithms and hardware to accelerate Bayesian inference. He has experience in a wide range of projects as a data scientist.\n\n\n-GitHub: https://github.com/gmingas\n-LinkedIn: https://uk.linkedin.com/in/gmingas\n\n\nPart of PyMCon2020. \nMore details at http://www.pymcon.com  \n\n\n#bayesian #PyMC #statistics",
+  "duration": 2396,
+  "language": "eng",
+  "recorded": "2020-10-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymc-devs.github.io/pymcon/"
+    },
+    {
+      "label": "http://www.pymcon.com",
+      "url": "http://www.pymcon.com"
+    },
+    {
+      "label": "https://uk.linkedin.com/in/mikkelbue",
+      "url": "https://uk.linkedin.com/in/mikkelbue"
+    },
+    {
+      "label": "https://uk.linkedin.com/in/gmingas",
+      "url": "https://uk.linkedin.com/in/gmingas"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/the-mlda-multilevel-sampler-in-pymc3-by-tim-dodwell-mikkel-lykkegaard-and-grigorios-mingas/5982",
+      "url": "https://discourse.pymc.io/t/the-mlda-multilevel-sampler-in-pymc3-by-tim-dodwell-mikkel-lykkegaard-and-grigorios-mingas/5982"
+    },
+    {
+      "label": "https://www.datacentricengineering.co.uk/team.html",
+      "url": "https://www.datacentricengineering.co.uk/team.html"
+    },
+    {
+      "label": "http://emps.exeter.ac.uk/engineering/staff/ml624",
+      "url": "http://emps.exeter.ac.uk/engineering/staff/ml624"
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=NvsGyvAElLY",
+      "url": "https://www.youtube.com/watch?v=NvsGyvAElLY"
+    },
+    {
+      "label": "https://github.com/gmingas",
+      "url": "https://github.com/gmingas"
+    },
+    {
+      "label": "https://twitter.com/proftimdodwell",
+      "url": "https://twitter.com/proftimdodwell"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/NvsGyvAElLY/maxresdefault.webp",
+  "title": "The MLDA Multilevel Sampler in PyMC (Tim Dodwell, Mikkel Lykkegaard, and Grigorios Mingas)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NvsGyvAElLY"
+    }
+  ]
+}

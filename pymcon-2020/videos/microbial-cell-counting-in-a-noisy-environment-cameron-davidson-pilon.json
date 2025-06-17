@@ -1,0 +1,44 @@
+{
+  "description": "Speaker: Cameron Davidson-Pilon\n\nTitle: Microbial cell counting in a noisy environment\n\nVideo: https://www.youtube.com/watch?v=Oc6cgRwPEzU\n\n\n\nEvent description:\nIn this LBAM, we\u2019ll introduce the microbiological task of cell counting and understand all the potential sources of error involved. We\u2019ll model each source of error probabilistically, introduce priors, and then discuss inference on the posterior. Finally, we\u2019ll explore how we can extend our model to use in a calibration curve for other instruments. Only basic probability theory is required for this LBAM.\n\n\nDiscourse Discussion\nhttps://discourse.pymc.io/t/microbial-cell-counting-in-a-noisy-environment-by-cameron-davidson-pilon/5977\n\n## Timestamps\n00:00 Welcome by Cameron\n00:29 The problem: How many cells are there in the culture?\n01:34 Counting the numbers of cells - the hemocytometer\n02:08 Dilution to make cell counting feasible\n03:39 Preparing the sample\n05:28 The progression of dilutions\n07:07 Watching the hemocytometer through the microscope\n09:21 The smartphone attached to the microscope\n09:44 Calculating the number of cells\n11:32 A counting process with many uncertainties\n14:25 The bayesian solution\n17:34 Illustration of the process with math annotations\n19:11 Poisson approximation\n19:39 The squares of the hemocytometer\n20:10 Use binomial\n21:30 Look at posterior - large uncertainties\n23:44 Uncertainty is like sand - just moving it around\n24:51 Concluding remarks\n\nSpeaker bio:\nCameron Davidson-Pilon has worked in many areas of applied statistics, from the evolutionary dynamics of genes to modeling of financial prices. His contributions to the community include lifelines, an implementation of survival analysis in Python, lifetimes, and Bayesian Methods for Hackers, an open source book & printed book on Bayesian analysis. Formally Director of Data Science at Shopify, Cameron is now applying data science to food microbiology.\n\n\nSpeaker info:\n-Github: https://github.com/CamDavidsonPilon\n-Twitter: https://twitter.com/cmrn_dp\n \nPart of PyMCon2020. \nMore details at http://www.pymcon.com  \n\n#bayesian #probabilistic #statistics",
+  "duration": 1532,
+  "language": "eng",
+  "recorded": "2020-10-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymc-devs.github.io/pymcon/"
+    },
+    {
+      "label": "https://github.com/CamDavidsonPilon",
+      "url": "https://github.com/CamDavidsonPilon"
+    },
+    {
+      "label": "http://www.pymcon.com",
+      "url": "http://www.pymcon.com"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/microbial-cell-counting-in-a-noisy-environment-by-cameron-davidson-pilon/5977",
+      "url": "https://discourse.pymc.io/t/microbial-cell-counting-in-a-noisy-environment-by-cameron-davidson-pilon/5977"
+    },
+    {
+      "label": "https://twitter.com/cmrn_dp",
+      "url": "https://twitter.com/cmrn_dp"
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=Oc6cgRwPEzU",
+      "url": "https://www.youtube.com/watch?v=Oc6cgRwPEzU"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/Oc6cgRwPEzU/maxresdefault.webp",
+  "title": "Microbial Cell Counting in a Noisy Environment (Cameron Davidson-Pilon)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Oc6cgRwPEzU"
+    }
+  ]
+}
