@@ -1,0 +1,58 @@
+{
+  "description": "Speaker: Chris Fonnesbeck\n\nTitle:  [Keynote] PyMC: Past, Present, and Future\n\n\n\nEvent description:\nTo kick off PyMCon 2020, I will provide some of the back-story of the PyMC project: where we\u2019ve been, where we are, and where we might go.\n\n\nVideo: https://www.youtube.com/watch?v=RXODDVK7B-g\n\n\nDiscourse Discussion\nhttps://discourse.pymc.io/t/the-bayesian-workflow-building-a-covid-19-model-by-thomas-wiecki/6017\n\n\n## Timestamps\n00:00 Welcome notes by Chris\n00:36 PyMC3 background information\n01:40 Probabilistic programming languages\n02:25 Stochastic language \"primitives\"\n04:46 The golden age of probabilistic programming\n05:55 How we got here\n06:23 In the year 2000\n07:06 WinBUGS\n08:24 A WinBUGS model\n09:08 Limitations of WinBUGS\n09:35 Difficult to debug\n10:04 OpenBUGS \n11:01 Component PASCAL\n12:10 The first version of PyMC\n14:00 And then there were three ...\n14:39 PyMC version 2\n16:28 gradient-based Markov chain Monte Carlo\n18:24 refactoring the code base\n19:35 Theano\n20:49 Automatic gradient calculation\n21:15 PyMC3\n22:09 A PyMC3 model\n23:53 PyMC3 automates fitting the model\n24:56 PyMC3 - areas of application\n25:54 PyMC3 to model the reproductive number of COVID-19 cases\n26:43 Sponsored project under NumFOCUS\n27:32 The change to the Theano project\n29:00 A new backend for PyMC\n29:30 Trying TensorFlow\n30:30 TensorFlow Probability\n31:12 TensorFlow 2\n32:30 In-person developer summits\n32:50 The challenge when coming up with TensorFlow\n34:21 Adpoted approach: coroutines\n35:24 TFP-based PyMC4 prototype\n36:28 Multiple chains\n37:28 Distributions as models\n38:06 Obstacles using TensorFlow probabilities\n39:07 The future of PyMC\n39:33 Theano-JAX\n41:21 Autograd + XLA = JAX \n42:19 Theano-PyMC\n42:39 Specify model in PyMC3 ...\n42:57 ... use JAX for the Theano backend\n43:36 ... sample using TensorFlow probability\n44:21 Remarkable performance\n44:59 PyMC Model, Theano Graph, TFP Sampler and JAX Executable\n45:13 \"4.5 frameworks on 25 lines of code\"\n46:11 We need you!\n47:10 Thank you!\n\n\n## Note: help us add timestamps here\nhttps://github.com/pymc-devs/video-timestamps\n\n\nSpeaker bio:\nChris Fonnesback is a Senior Quantitative Analyst in Baseball Operations for the New York Yankees. He is interested in computational statistics, machine learning, Bayesian methods, and applied decision analysis. He hails from Vancouver, Canada and received his Ph.D. from the University of Georgia.\n\n\nSpeaker info:\n-Twitter:  https://twitter.com/fonnesbeck\n-GitHub:  https://github.com/fonnesbeck \n-LinkedIn:  https://www.linkedin.com/in/christopher-fonnesbeck-374a492a/\n\n\nPart of PyMCon2020. \nMore details at http://www.pymcon.com  \n\n\n#bayesian #statistics #PyMC",
+  "duration": 2915,
+  "language": "eng",
+  "recorded": "2020-10-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymc-devs.github.io/pymcon/"
+    },
+    {
+      "label": "http://www.pymcon.com",
+      "url": "http://www.pymcon.com"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/the-bayesian-workflow-building-a-covid-19-model-by-thomas-wiecki/6017",
+      "url": "https://discourse.pymc.io/t/the-bayesian-workflow-building-a-covid-19-model-by-thomas-wiecki/6017"
+    },
+    {
+      "label": "https://www.linkedin.com/in/christopher-fonnesbeck-374a492a/",
+      "url": "https://www.linkedin.com/in/christopher-fonnesbeck-374a492a/"
+    },
+    {
+      "label": "https://github.com/fonnesbeck",
+      "url": "https://github.com/fonnesbeck"
+    },
+    {
+      "label": "https://twitter.com/fonnesbeck",
+      "url": "https://twitter.com/fonnesbeck"
+    },
+    {
+      "label": "https://github.com/pymc-devs/video-timestamps",
+      "url": "https://github.com/pymc-devs/video-timestamps"
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=RXODDVK7B-g",
+      "url": "https://www.youtube.com/watch?v=RXODDVK7B-g"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "bayesian",
+    "open source",
+    "pymc",
+    "python",
+    "statistics"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/RXODDVK7B-g/maxresdefault.webp",
+  "title": "[Keynote] PyMC: Past, Present, and Future (Chris Fonnesbeck)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RXODDVK7B-g"
+    }
+  ]
+}
