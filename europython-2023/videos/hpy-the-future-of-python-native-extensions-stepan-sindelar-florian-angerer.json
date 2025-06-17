@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2023 \u2014 Forum Hall on 2023-07-19]\n\rhttps://ep2023.europython.eu/session/hpy-the-future-of-python-native-extensions\n\nUpdating Python versions often forces us to update native extensions at the\n\rsame time. But what if you need to update Python because of a security issue,\n\rbut cannot (yet) move to a newer version of a dependency? Or you are running a\n\rproprietary binary extension that cannot easily be recompiled?\n\n\rThe HPy project provides a better C extension API for Python. It compiles to\n\rbinaries that work across all versions of CPython, PyPy, GraalPy. HPy makes\n\rporting from the existing C API easy and its design ensures that the binaries\n\rwe produce today stay binary compatible with future Python versions.\n\n\rNumPy is the single largest direct user of the CPython C API we know of. After\n\rover 2 years of work and more than 30k lines of code ported, we can demonstrate\n\rNumPy running its tests and benchmarks with HPy. We will show the same NumPy\n\rbinary run on multiple CPython versions and GraalPy. And we will discuss\n\rperformance characteristics of this port across CPython, GraalPy, and PyPy.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1958,
+  "language": "eng",
+  "recorded": "2023-07-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2023.europython.eu/"
+    },
+    {
+      "label": "https://ep2023.europython.eu/session/hpy-the-future-of-python-native-extensions",
+      "url": "https://ep2023.europython.eu/session/hpy-the-future-of-python-native-extensions"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/naFaIBtpvx4/maxresdefault.jpg",
+  "title": "HPy: The Future of Python Native Extensions \u2014 \u0160t\u011bp\u00e1n \u0160indel\u00e1\u0159, Florian Angerer",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=naFaIBtpvx4"
+    }
+  ]
+}

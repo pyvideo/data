@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2023 \u2014 Terrace 2B on 2023-07-19]\n\rhttps://ep2023.europython.eu/session/python-linters-at-scale\n\nBlack, Flake8, isort, and Mypy are useful Python linters but it\u2019s challenging to use them effectively at scale in the case of multiple codebases, in a large codebase, or with many developers. Linter analysis on large codebases is slow. Linters may slow down developers by asking them to fix trivial issues. Running linters in distributed CI jobs makes it hard to understand the overall developer experience.\n\n\rIn this talk, we'll walk you through solving those scaling problems using a reusable linter framework that releases new linter updates automatically, reuses consistent configurations, runs linters on only updated code to speedup runtime, collects logs and metrics to provide observability, and builds auto fixes for common linter issues. Our linter runs are fast and scalable. Every week, they run 10k times on multiple millions of lines of code in over 25 codebases, generating 25k suggestions for more than 200 developers. Its autofixes also save 20 hours of developer time every week.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1759,
+  "language": "eng",
+  "recorded": "2023-07-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2023.europython.eu/"
+    },
+    {
+      "label": "https://ep2023.europython.eu/session/python-linters-at-scale",
+      "url": "https://ep2023.europython.eu/session/python-linters-at-scale"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/-ihC3frDxss/maxresdefault.jpg",
+  "title": "Python Linters at Scale \u2014 Jimmy Lai",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-ihC3frDxss"
+    }
+  ]
+}

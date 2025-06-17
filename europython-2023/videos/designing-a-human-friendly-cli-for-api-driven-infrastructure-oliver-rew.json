@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2023 \u2014 North Hall on 2023-07-20]\n\rhttps://ep2023.europython.eu/session/designing-a-human-friendly-cli-for-api-driven-infrastructure\n\nAs Bloomberg\u2019s infrastructure grows and evolves, the tools we use to manage it are becoming increasingly important. To streamline infrastructure management, our team set out to design a REST API and constituent CLI (Command Line Interface) that would comprise a single interface for both programmatic and human interaction with our infrastructure. Traditionally, building a CLI that is tightly coupled to an API requires maintaining a separate codebase, which is tedious and error-prone. Instead, we designed a CLI that dynamically generates commands based on the OpenAPI JSON documentation. However, since APIs are designed for computer interaction, we designed our API to include the information needed to implement a human-friendly CLI. Leveraging Python, FastAPI, and numerous other open source projects, we built a stable, extensible tool that greatly improves how we interact with our infrastructure.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1923,
+  "language": "eng",
+  "recorded": "2023-07-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2023.europython.eu/"
+    },
+    {
+      "label": "https://ep2023.europython.eu/session/designing-a-human-friendly-cli-for-api-driven-infrastructure",
+      "url": "https://ep2023.europython.eu/session/designing-a-human-friendly-cli-for-api-driven-infrastructure"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/6LeB5j331bU/maxresdefault.jpg",
+  "title": "Designing a Human-Friendly CLI for API-Driven Infrastructure \u2014 Oliver Rew",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6LeB5j331bU"
+    }
+  ]
+}
