@@ -1,0 +1,32 @@
+{
+  "description": "EuroPython 2022 - Why is it slow? Strategies for solving performance problems - presented by Caleb Hattingh\n\n[Liffey A on 2022-07-15]\n\n\nYou have a performance problem, and you don't know what to do. All you know is that one of your endpoints or applications is too slow; and perhaps it only affects a certain user or customer. How do you figure out why it's slow, and what can you do to catch performance problems before they hurt users in production?\n\nWe'll go through a wide range of strategies for detecting and diagnosing performance problems in typical production workloads. We'll cover both web-based domains as well as backend domains and other analytical applications involving number-crunching and big-data applications.\n\nWe'll step through the following high-level strategies:\n\n- Tracing: through instrumentation of your code, you will get detailed traces of where the time is spent in generating your web server responses.\n- Profiling: we'll look at profiling strategies using both the Python built-in cProfile tool, as well as awesome 3rd party libraries like pyspy, including how to use these with pytest\n- Isolation: how to figure out if performance is affected by CPU, or memory, disk, or network IO limitations.\n- Reasoning: we'll look at common scenarios that result in performance regressions such as the needless execution of sub-queries in rendering web views, or algorithmic analysis and \"\"big-O\"\" notation, or concurrency problems resulting from exhaustion of threads in a pool and asyncio concurrency limitations resulting from overloaded subscription.\n- Prophylaxis: we'll look at how to include benchmarks within your CI pipeline, including with pytest and other technologies to catch performance regressions ahead of time.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1702,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3BnGyoyhSmM/maxresdefault.jpg",
+  "title": "Why is it slow? Strategies for solving performance problems - presented by Caleb Hattingh",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3BnGyoyhSmM"
+    }
+  ]
+}

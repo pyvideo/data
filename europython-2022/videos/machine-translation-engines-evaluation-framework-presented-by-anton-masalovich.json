@@ -1,0 +1,80 @@
+{
+  "description": "EuroPython 2022 - Machine Translation engines evaluation framework - presented by Anton Masalovich & Sahil Manchanda\n\n[Liffey Hall 1 on 2022-07-15]\n\n\nTask of Machine Translation engine evaluation may be very challenging. Quality of Machine Translation varies greatly depending on domain and language pair. Different MT engines may have different interfaces or APIs and different requirements to run. To add to that, even definition of a good translation may be debatable, with any automatic MT quality metric providing only approximation of actual translation quality. That's why having universal evaluation framework for this task is very important. In our work we tried to create such framework.\n\n1) We defined base translation class that unified all file handling, batch creation and result processing. As a result of that, only work needed to support new MT engine was creation of small child class that implemented couple of simple functions. That allows us to easily extend our framework to MT engines and new language pairs.\n\n2) We defined set of test datasets and provided a way to add new datasets to this set. For our evaluation our aim was to create test data that covers both general and healthcare domains EMEA dataset (https://opus.nlpl.eu/EMEA.php), OPUS-100 (https://opus.nlpl.eu/opus-100.php), Paracrawl (https://paracrawl.eu/) and several others. But our data preparations scripts can be easily extended to other domains and datasets as well.\n\n3) We defined a set of quality metrics to evaluate results of MT engines. Metrics that we used included BLEU (https://github.com/mjpost/sacrebleu), BERTScore (https://github.com/Tiiiger/bert_score), ROUGE (https://github.com/pltrdy/rouge), TER and CHRF (both also from sacrebleu implementation).\n\nBeside MT evaluation framework we will present our own evaluation results. For our evaluation we used cloud based engines - Azure Translator (https://azure.microsoft.com/en-us/services/cognitive-services/translator/), Google Translate (https://cloud.google.com/translate/), as well as open-source engines - Marian MT (https://huggingface.co/transformers/model_doc/marian.html), NVIDIA's NeMo (https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/machine_translation.html), Facebook's MBart 50 (https://huggingface.co/facebook/mbart-large-50-one-to-many-mmt), Facebook's M2M100 (https://huggingface.co/facebook/m2m100_418M). For open source engines we tried to use Huggingface's transformer implementation whenever possible. But as we mentioned our framework was designed in a way to be easily extendable to other MT engines and underlying frameworks.\n\nWe also will present evaluation results for NeMo and MarianMT engines that we fine-tuned specifically for healthcare domain. While these particular results may rather specific to our use case, they help to highlight how our framework can be extended to custom MT engines as well.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1938,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "https://cloud.google.com/translate/",
+      "url": "https://cloud.google.com/translate/"
+    },
+    {
+      "label": "https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/machine_translation.html",
+      "url": "https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/machine_translation.html"
+    },
+    {
+      "label": "https://opus.nlpl.eu/opus-100.php",
+      "url": "https://opus.nlpl.eu/opus-100.php"
+    },
+    {
+      "label": "https://paracrawl.eu/",
+      "url": "https://paracrawl.eu/"
+    },
+    {
+      "label": "https://github.com/Tiiiger/bert_score",
+      "url": "https://github.com/Tiiiger/bert_score"
+    },
+    {
+      "label": "https://opus.nlpl.eu/EMEA.php",
+      "url": "https://opus.nlpl.eu/EMEA.php"
+    },
+    {
+      "label": "https://huggingface.co/facebook/mbart-large-50-one-to-many-mmt",
+      "url": "https://huggingface.co/facebook/mbart-large-50-one-to-many-mmt"
+    },
+    {
+      "label": "https://github.com/mjpost/sacrebleu",
+      "url": "https://github.com/mjpost/sacrebleu"
+    },
+    {
+      "label": "https://huggingface.co/transformers/model_doc/marian.html",
+      "url": "https://huggingface.co/transformers/model_doc/marian.html"
+    },
+    {
+      "label": "https://huggingface.co/facebook/m2m100_418M",
+      "url": "https://huggingface.co/facebook/m2m100_418M"
+    },
+    {
+      "label": "https://github.com/pltrdy/rouge",
+      "url": "https://github.com/pltrdy/rouge"
+    },
+    {
+      "label": "https://azure.microsoft.com/en-us/services/cognitive-services/translator/",
+      "url": "https://azure.microsoft.com/en-us/services/cognitive-services/translator/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/j2PmW3l55ls/maxresdefault.jpg",
+  "title": "Machine Translation engines evaluation framework - presented by Anton Masalovich",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=j2PmW3l55ls"
+    }
+  ]
+}

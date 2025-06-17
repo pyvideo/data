@@ -1,0 +1,32 @@
+{
+  "description": "EuroPython 2022 - Code coverage through unit tests running in sub-processes/threads: Locally and automated on GitHub - presented by Saransh Chopra\n\n[Liffey A on 2022-07-13]\n\n\nThe *\u201cCode coverage\u201d* value of a codebase depicts how much of the production/development code is covered by the running unit tests. In the world of open-source, all the maintainers try their best to keep this percentage high, and this process is often automated through tools like `GitHub Actions` and `Codecov`. Hence, code coverage becomes a good metric (not always) to check if a particular codebase is well tested and reliable.\n\nOpen source maintainers often prefer to run these unit tests in sub-processes or threads as it allows them to run in parallel and reduce the `CI` (continuous integration) run time on pull requests. They also make it easier to stop the tests midway if they are taking too much time (probabilistic tests).\n\nIn this talk, we will first try to use `coverage.py` in the default mode on the unit tests running in a sub-process or a thread. After going through the results, we will build a solution to cover the \u201cun-covered\u201d code in the local repository. As a final step, we will also configure a `CI` (continuous integration) pipeline using `GitHub Actions` and `Codecov` to automate this process in our remote repository.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2120,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/OwA8hfLclTg/maxresdefault.jpg",
+  "title": "Code coverage through unit tests running in sub-processes/threads  - presented by Saransh Chopra",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OwA8hfLclTg"
+    }
+  ]
+}

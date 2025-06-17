@@ -1,0 +1,32 @@
+{
+  "description": "EuroPython 2022 - `typing.Protocol`: type hints as Guido intended - presented by Luciano Ramalho\n\n[The Auditorium on 2022-07-15]\n\n\nDuck typing and static typing are not opposites. Go is a successful statically checked language with support for duck typing through interfaces that work like `typing.Protocol` does. A `Protocol` subclass defines an interface that past and future classes can implement without any coupling to the interface: they simply provide the required methods. That's statically checked duck typing: a powerful combination!\n\nIn this talk we'll get back to basics looking at how duck typing is used in Python since the beginning, how `__dunder__` methods leverage that idea to support what we recognize as *Pythonic* code. Then we'll see how `typing.Protocol` fills the gap in the original PEP 484\u2014Type Hints, and finally lets us properly annotate code that leverages the flexibility and loose coupling of duck typing. Finally, we'll look at the experience of the Go community to learn what makes a good Protocol. Spoiler alert: your favorite Python ABC may not be the basis of a useful Protocol!\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2680,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/0_IQoxBFepw/maxresdefault.jpg",
+  "title": "`typing.Protocol`: type hints as Guido intended - presented by Luciano Ramalho",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0_IQoxBFepw"
+    }
+  ]
+}

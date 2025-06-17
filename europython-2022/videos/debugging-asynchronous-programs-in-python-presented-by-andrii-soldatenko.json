@@ -1,0 +1,32 @@
+{
+  "description": "EuroPython 2022 - Debugging asynchronous programs in Python - presented by Andrii Soldatenko\n\n[Liffey A on 2022-07-14]\n\n\nLuckily, when it comes to debugging asynchronous applications in python, we have a couple of options to consider. The writers of the asyncio module have very kindly provided a debug mode, which is quite powerful and can really aid us in our debugging adventures without the overhead of modifying the system's code base too dramatically. In particular, I'll show you what asyncio debug mode means for developers, and how to source tracebacks for unhandled exceptions in futures. Also how to detect accidental blocking for I/O. We discuss how to monitor the asyncio event loop and collect metrics in statsD.\nFinally, we discuss monitor and cli capabilities for asyncio applications based on aiomonitor and aioconsole. Also, we discuss how asynchronous python works in REPL via autoawait based on ipython and how to do it in vanilla python REPL.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1572,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JCbpcOd29eE/maxresdefault.jpg",
+  "title": "Debugging asynchronous programs in Python - presented by Andrii Soldatenko",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JCbpcOd29eE"
+    }
+  ]
+}

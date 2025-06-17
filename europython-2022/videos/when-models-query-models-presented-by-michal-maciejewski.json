@@ -1,0 +1,32 @@
+{
+  "description": "EuroPython 2022 - When Models Query Models - presented by Michal Maciejewski\n\n[Liffey Hall 1 on 2022-07-15]\n\n\nThe design of large-scale engineering systems, including but not limited to aerospace, particle accelerators, nuclear power plants, is carried out by a wide range of numerical models such as CAD files, finite-element models, and machine learning surrogate models to name a few. In order to provide a uniform modelling interface, we encapsulate numerical models in notebooks. A notebook is controlling model creation, execution, and query of results. Numerical solvers are embedded into Docker containers and provide an isolated and reproducible environment exposing a language-agnostic REST API. A model registry enables efficient queries of models. The overall system is represented as a collection of models that exchange data. Then, the design optimization involves execution of a dependency tree of models to study the impact of a parameter change and perform its optimization. In this contribution, we present a model query mechanism allowing notebook models to query one another. The model dependencies are represented with a graph with suitable processing algorithms. In order to ensure that only affected models are executed we derive and cache a model resolution order. The presented modelling framework relies on open source-technologies (packages: pydantic, Fast API, Jupyter, papermill, scrapbook, containers: Docker and Openshift as well as databases: MongoDB and Redis) and the talk will focus on good practices and design decisions encountered in the process.\"\n\nLicence: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1948,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/L7ozwOvkCXA/maxresdefault.jpg",
+  "title": "When Models Query Models - presented by Michal Maciejewski",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=L7ozwOvkCXA"
+    }
+  ]
+}
