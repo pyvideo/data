@@ -1,0 +1,32 @@
+{
+  "description": "EuroPython 2022 - Keynote: Multithreaded Python without the GIL - presented by Sam Gross\n\n[The Auditorium on 2022-07-15]\n\n\nCPython\u2019s \u201cGlobal Interpreter Lock\u201d, or \u201cGIL\u201d, prevents multiple threads from executing Python code in parallel. The GIL was added to Python in 1992 together with the original support for threads in order to protect access to the interpreter\u2019s shared state.\n\nPython supports a number of ways to enable parallelism within the constraints of the GIL, but they come with significant limitations. Imagine if you could avoid the startup time of joblib workers, the multiprocess instability of PyTorch\u2019s DataLoaders, and the overhead of pickling data for inter-process communication.\n\nThe \u201cnogil\u201d project aims to remove the GIL from CPython to make multithreaded Python programs more efficient, while maintaining backward compatibility and single-threaded performance. It exists as a fork, but the eventual goal is to contribute these changes upstream.\n\nThis talk will cover the changes to Python to let it run efficiently without the GIL and what these changes mean for Python programmers and extension authors.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 3206,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/9OOJcTp8dqE/maxresdefault.jpg",
+  "title": "Keynote: Multithreaded Python without the GIL - presented by Sam Gross",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9OOJcTp8dqE"
+    }
+  ]
+}
