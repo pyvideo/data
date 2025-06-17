@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 Terrace 2A on 2024-07-11]\n\n\rCaching for Jupyter Notebooks by Lauris Jullien\n\rhttps://ep2024.europython.eu/session/caching-for-jupyter-notebooks\n\n\rCaching data and calculation results in jupyter notebooks is a great way to speed up development by making expensive cells easier to re-run.\n\n\rData scientists and developers using notebooks on a daily basis, can improve their notebook workflow with low-effort changes in the notebook code, cut the time spent waiting and reduce context switches.\n\n\rThis talk targets developers and data scientist of all experience levels and will cover:\n\n\rWhy caching in notebooks?\n\rSetting up the context in which developers and data scientists use notebooks for exploratory work and how caching is relevant in it.\n\n\rWhat is caching\n\rQuick definition of caching, introducing the different types of persistence (in-memory, on disk, database, object storage \u2026), cache invalidation strategies (parameters, code changes, ttl, \u2026), with some cautionary comments about data security when caching protected data.\n\n\rCaching Techniques \n\rGoing through readily available options from the python standard library, and how to use them in notebooks. Introducing a few off-the-shelves options like ipython % magics, and cachetools.\n\rShowcasing how one would build their own mini-caching framework, that fits for their specific use case, using pandas and spark for the example\n\rExplaining when to stop trying to cache, and keeping the caching framework mini, what are the signs that caching went overboard.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1730,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/caching-for-jupyter-notebooks",
+      "url": "https://ep2024.europython.eu/session/caching-for-jupyter-notebooks"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/I7qaymTPzbU/maxresdefault.jpg",
+  "title": "Caching for Jupyter Notebooks \u2014 Lauris Jullien",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=I7qaymTPzbU"
+    }
+  ]
+}

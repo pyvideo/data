@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2B on 2024-07-11]\n\n\rPython Unplugged: Mining for Hidden 'Batteries by Torsten Zielke\n\rhttps://ep2024.europython.eu/session/python-unplugged-mining-for-hidden-batteries\n\n\rPython prides itself on its 'batteries included' philosophy, but beyond the well-trodden modules lie hidden gems awaiting discovery. This talk ventures into the depths of the Python standard library to unearth lesser-known features from itertools, collections, functools, typing and more.\n\n\rAll of these tools are already built into every standard python installation and no \"(uv) pip install\" is necessary.\n\n\rMany if not all of those are likely already known to old fashioned pythonistas, but for beginners (1-2years) there will be something new to learn, while for intermediate python developers there might be at least a few more gems to discover.\n\n\rBy delving into these underutilized modules, attendees will gain a richer understanding of Python's built-in capabilities and learn how to write more pythonic code.\n\n00:00 Introduction\n05:30 Chapter 1: Fetching data\n05:42 urllib\n06:48 TypedDict\n09:02 Batching\n09:44 islice\n11:10 batched\n11:50 DictWriter\n15:32 Chapter 2: Cleaning data\n17:22 pairwise\n19:16 chain\n22:20 ChainMap\u00b9\n23:36 Multiple Context Managers\n25:54 Doctest\n27:44 yield from\n29:44 misusing return value in generators\n33:03 NamedTuple\u00b2\n33:06 Chapter 3: Processing data\n34:51 defaultdict\n36:28 Counter\n39:55 groupby\n43:10 reduce / tee\n\nCorrections\n22:21 \u00b9itertools.ChainMap is wrong: collections.ChainMap is right\n33:06 \u00b2We also need to yield one more time at the end for the case, where the last books are lost books. Maybe even yield namedtuple(book: Book, lost: bool)\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2775,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/python-unplugged-mining-for-hidden-batteries",
+      "url": "https://ep2024.europython.eu/session/python-unplugged-mining-for-hidden-batteries"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/W5ZOFvGmmbo/maxresdefault.jpg",
+  "title": "Python Unplugged: Mining for Hidden 'Batteries \u2014 Torsten Zielke",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=W5ZOFvGmmbo"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 Forum Hall on 2024-07-10]\n\n\rSPy (Static Python) lang: fast as C, Pythonic as Python by Antonio Cuni\n\rhttps://ep2024.europython.eu/session/spy-static-python-lang-fast-as-c-pythonic-as-python\n\n\rSPy is a brand new statically typed variant of Python which aim to get performance comparable to system languages such as C and C++, while preserving the \"Pythonic feeling\" of the language.\n\n\rThe main idea behind SPy is that \"modern Python\" is actually a subset of Python:\n\n\r  - many of the most dynamic features of the language are considered bad practice and actively discouraged;\n\n\r  - the alway-increasingly adoption of typing leads to codebases which are largerly statically typed.\n\n\rHowever, these rules are not enforced by the language, and there are cases in which \"breaking the rules\" is actually useful and make the code easier/better/faster.\n\n\rFrom the point of view of language implementors, the VM cannot easily take advantage of the \"mostly static\" nature of programs because it has always to be ready for the generic case.\n\n\rSPy tries to reconcile these two sides:\n\n\r  - it uses a static type system which is designed specifically for safety and performance;\n\n\r  - the vast majority of \"dynamic\" feature of Python (like decorators, metaclasses, `__special_methods__`, ...) can be used at zero cost, since they are resolved at compile time by using meta-programming and partial evaluation techniques.\n\n\rThis talk will present in the details the ideas behind SPy and its current status.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2642,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/spy-static-python-lang-fast-as-c-pythonic-as-python",
+      "url": "https://ep2024.europython.eu/session/spy-static-python-lang-fast-as-c-pythonic-as-python"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/jrQy3xGjpsU/maxresdefault.jpg",
+  "title": "SPy (Static Python) lang: fast as C, Pythonic as Python \u2014 Antonio Cuni",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jrQy3xGjpsU"
+    }
+  ]
+}

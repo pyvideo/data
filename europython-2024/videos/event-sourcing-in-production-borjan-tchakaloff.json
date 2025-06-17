@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2A on 2024-07-10]\n\n\rEvent Sourcing in production by Borjan Tchakaloff\n\rhttps://ep2024.europython.eu/session/event-sourcing-in-production\n\n\rEvent Sourcing (ES) is a powerful concept that lets you adapt your business logic without losing data and past states.\n\rWhether your domain understanding changes or new requirements land on your lap, there is a path forward.\n\rJoin us as we talk about some real-world tactics we relied on to manage Event Sourcing in production.\n\rWe will accumulate a handful of patterns throughout the talk that will hopefully help you avoid pitfalls and bottlenecks.\n\n\rOur use cases build on the `eventsourcing` library, a mature and well-rounded Python library that deserves more attention.\n\rWe will tackle the three key aspects of a successful event-sourced application: evolution, projection, and runtime.\n\n\rSoftware does not run in a vacuum, models need to change and evolve to reflect the world they live in.\n\rES records the evolution of how we abstract our domain, how we see things.\n\rEventually these abstractions can become clumsy or simply inappropriate.\n\rWe can deal with that without breaking stride (losing data).\n\n\rES also gives us the ability to revisit our perspective and change how we present the application state \u2014 by creating new projections and replaying the history.\n\rWe will look at how it offers a cheap way to support optimal read-models, which we can can tweak and rebuild in the blink of an eye.\n\n\rFinally, we will present how such a system actually runs in a typical web application.\n\rWhether in the request loop (synchronous), or through eventual consistency (asynchronous).\n\rAs a single process, or distributed for parallel processing.\n\n\r---\n\n\rThis talk assumes some familiarity with _Event Sourcing_ and its friends _Domain Driven Design_ (DDD) and _Command Query Responsibility Seggregation_ (CQRS).\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1809,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/event-sourcing-in-production",
+      "url": "https://ep2024.europython.eu/session/event-sourcing-in-production"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/9sUUpavuQK8/maxresdefault.jpg",
+  "title": "Event Sourcing in production \u2014 Borjan Tchakaloff",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9sUUpavuQK8"
+    }
+  ]
+}
