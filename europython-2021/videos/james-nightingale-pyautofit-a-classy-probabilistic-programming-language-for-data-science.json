@@ -1,0 +1,52 @@
+{
+  "description": "PyAutoFit: A Classy Probabilistic Programming Language For Data Science\n[EuroPython 2021 - Talk - 2021-07-30 - Optiver]\n[Online]\n\nBy James Nightingale\n\nA major trend in data science is the rapid adoption of Bayesian statistics for data analysis and modeling. With modern data-sets growing by orders of magnitude in size, the focus is now on developing methods capable of applying contemporary inference techniques to extremely large datasets. To this aim, I present PyAutoFit (https://github.com/rhayes777/PyAutoFit), an open-source probabilistic programming language for automated Bayesian inference that was recently published in the Journal of Open Source Software (https://joss.theoj.org/papers/10.21105/joss.02550).\n\nI will begin by giving an overview of PyAutoFit\u2019s core features, in particular how it:\n\n\nMakes it simple to compose and fit probabilistic models using a range of Bayesian inference libraries, such as emcee (https://github.com/dfm/emcee) and dynesty (https://github.com/joshspeagle/dynesty).\nHandles the 'heavy lifting' that comes with model-fitting, including model composition &amp; customization, outputting results, model-specific visualization and posterior analysis.\nIs built for big-data analysis, whereby results are output as a sqlite database which can be queried after model-fitting is complete.\n\n\nPyAutoFit was developed by Astronomers seeking to fit large libraries of galaxy images to better understand the nature of dark matter. Using this science-case, I will describe PyAutoFit\u2019s advanced features, such as multi-level models, automated model-fitting pipelines and support for massively parallel computing infrastructures.\n\nThe goal of this talk is to introduce the audience to PyAutoFit so they can adopt it for their use-case. The only prerequisite is a basic understanding of object oriented programming in Python.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1733,
+  "language": "eng",
+  "recorded": "2021-07-26",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://joss.theoj.org/papers/10.21105/joss.02550",
+      "url": "https://joss.theoj.org/papers/10.21105/joss.02550"
+    },
+    {
+      "label": "https://github.com/joshspeagle/dynesty",
+      "url": "https://github.com/joshspeagle/dynesty"
+    },
+    {
+      "label": "https://github.com/dfm/emcee",
+      "url": "https://github.com/dfm/emcee"
+    },
+    {
+      "label": "https://github.com/rhayes777/PyAutoFit",
+      "url": "https://github.com/rhayes777/PyAutoFit"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/fKwZgelUl1M/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-DoACuAiKAgwIABABGBMgMCh_MA8=&rs=AOn4CLCf2Ak4IIVPGjn95EasYwRc5z5Upw",
+  "title": "James Nightingale - PyAutoFit: A Classy Probabilistic Programming Language For Data Science",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fKwZgelUl1M"
+    }
+  ]
+}

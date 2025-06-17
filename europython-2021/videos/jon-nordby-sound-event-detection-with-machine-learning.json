@@ -1,0 +1,36 @@
+{
+  "description": "Sound Event Detection with Machine Learning\n[EuroPython 2021 - Talk - 2021-07-29 - Parrot [Data Science]]\n[Online]\n\nBy Jon Nordby\n\nSound Events (or Audio Events or Acoustic Events) are individual distinct sounds. This could be the pop of roasting popcorn kernels, the cough of a patient, a car that is passing by on a road, or the sound of an alarm in an office building. Sound Event Detection (SED) is the task of detecting such sounds, returning precise times that each kind (class) of sound occurs. It finds uses in music analysis, manufacturing, medicine and noise monitoring.\n\nWe will show how to realize a basic Sound Event Detection system in Python, using fermentation tracking of beer brewing as a fun and practical example. The talk will cover all major parts of such a system, including:\n\n- Collecting and exploring a custom dataset\n- Setting up the supervised learning task from the dataset\n- Extracting spectrogram features from audio waveforms\n- Training a Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN)\n- Running the trained model on an real-time audio stream\n- Processing model output probabilties into discrete events\n- Evaluate the performance of the resulting SED system\n\n\nExample code in Python covering these aspects will be provided.\nLibraries used with be Keras, TensorFlow and scikit-learn for machine learning, and pysoundfile, sounddevice and librosa for audio processing, with some numpy and pandas for general data manipulation.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 2326,
+  "language": "eng",
+  "recorded": "2021-07-26",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/bAWzRHd755g/maxresdefault.jpg",
+  "title": "Jon Nordby - Sound Event Detection with Machine Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=bAWzRHd755g"
+    }
+  ]
+}

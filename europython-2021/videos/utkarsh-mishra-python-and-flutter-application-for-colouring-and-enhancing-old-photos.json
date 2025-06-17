@@ -1,0 +1,36 @@
+{
+  "description": "Python and Flutter application for Colouring and Enhancing Old Photos\n[EuroPython 2021 - Talk - 2021-07-30 - Parrot [Data Science]]\n[Online]\n\nBy Utkarsh Mishra\n\nA photo is an image that represents an external form of a person or a thing from the past. It communicates any past incident or activity to the present or future, reminding them of the melodious memories they have.\n\nIn the 19th century most photographs were monochromatic, so people hand-coloured them, often for purely aesthetic reasons. Photos with colour just looked nicer on the mantle. Contemporary artists still add colour for those reasons. Colourization is a time-consuming, labour-intensive process when done manually. Realistically capturing undertones in the skin is especially difficult. You may have to add subtle layers of pink, orange, yellow, or blue. Experts recommend finding a colour photo featuring similar skin tones to use as a reference.\n\nTo reduce such a manual time-consuming process to a few seconds or a minute, we built a Deep Learning model to colour old black and white images. It uses an autoencoder with skip connections built using TensorFlow backend with Keras to retain details and features from the original image during the conversion. After the coloured image is obtained, a gamma correction filter is being applied to increase the contrast of the image after which an optional operation of super-resolution is performed in accordance with the condition of image size less than 500 pixels. These operations are built into an API which is called using a Flutter Mobile application that takes image input from user from gallery or camera, crop it to get the required section and passed it to the API, which then executes the above processes and the resultant image is passed as output back to the flutter application.\n\nThe results of this work will help guide the computer vision developers to incorporate the feature of colouring old images and photos to multiple domains and to further enhance these models by adding variants to them.\n\nOutline\n- Introduction to Deep Learning and the model architecture [10 minutes]\n- Introduction to API using Flask and Frontend Flutter app [10 minutes]\n- Application Demo [5 minutes]\n- Q&amp;A [5 minutes]\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1691,
+  "language": "eng",
+  "recorded": "2021-07-26",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/J3WURGVoeyM/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-DoACuAiKAgwIABABGBMgNCh_MA8=&rs=AOn4CLCEyKfel4CodOm6ub8HOPRx2vRYkQ",
+  "title": "Utkarsh Mishra - Python and Flutter application for Colouring and Enhancing Old Photos",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=J3WURGVoeyM"
+    }
+  ]
+}
