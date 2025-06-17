@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2A on 2024-07-11]\n\n\rMutation Testing in Python with Cosmic Ray by Austin Bingham\n\rhttps://ep2024.europython.eu/session/mutation-testing-in-python-with-cosmic-ray\n\n\rMutation testing is a technique for systematically mutating source code in order to validate test suites. It operates by making small changes to a program\u2019s source code and then running a test suite; if the test suite ever succeeds on mutated code then a flag is raised. The goal is to check that a system\u2019s test suite is sufficiently powerful to detect a large class of functionality-affecting changes, thereby helping ensure that the system functions as expected. While not in widespread use, mutation testing is a fascinating topic with great potential that has valuable lessons for the broader software development community.\n\n\rIn this talk we\u2019ll look at Cosmic Ray, an open-source mutation testing tool for Python. Mutation testing presents some difficult and fascinating challenges - both conceptually and from an implementation point of view - so we\u2019ll look at how Cosmic Ray addresses (or plans to address) these complexities. While some of these details will necessarily be Python-specific, there are lessons in Cosmic Ray for the development of mutation in any language.\n\n\rMutation testing is still a rather exotic testing technique, but it can produce genuinely useful and surprising results. To show this, we\u2019ll look at a number of cases where Cosmic Ray has helped developers improve their test suites and tighten up their implementations.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2445,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/mutation-testing-in-python-with-cosmic-ray",
+      "url": "https://ep2024.europython.eu/session/mutation-testing-in-python-with-cosmic-ray"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/5VQKTJikiqw/maxresdefault.jpg",
+  "title": "Mutation Testing in Python with Cosmic Ray \u2014 Austin Bingham",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5VQKTJikiqw"
+    }
+  ]
+}

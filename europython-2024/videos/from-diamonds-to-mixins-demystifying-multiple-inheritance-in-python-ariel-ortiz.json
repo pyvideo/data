@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2A on 2024-07-12]\n\n\rFrom Diamonds to Mixins: Demystifying Multiple Inheritance in Python by Ariel Ortiz\n\rhttps://ep2024.europython.eu/session/from-diamonds-to-mixins-demystifying-multiple-inheritance-in-python\n\n\rMost Python programmers are probably aware that Python supports multiple inheritance. However, few are likely to be aware of its implications and inner workings. This talk aims to shed light on this commonly overlooked topic. \n\n\rIn the first part of the talk we will start by reviewing the \u201cdiamond problem,\u201d where a class inherits from two classes that have a common ancestor, and contrast how this issue is handled in Python compared to other object oriented languages. Next, we will discuss the Method Resolution Order (MRO) to see how Python determines the sequence in which classes are considered when searching for a method or attribute. We will also review the use of the `super()` function that allows a subclass to call a method from its superclass in a way that adheres to the MRO.\n\n\rDuring the second part of the talk, we will explore real-world scenarios related to the benefits,  problems, and alternatives of using multiple inheritance in our programs. We will dedicate some time to examining the concept of a _mixin_ and how to implement it effectively in Python. Finally, we will delve into the _Interface Segregation Principle_ and explore collaboration and composition as mechanisms for avoiding the pitfalls of inheritance in general.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1881,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/from-diamonds-to-mixins-demystifying-multiple-inheritance-in-python",
+      "url": "https://ep2024.europython.eu/session/from-diamonds-to-mixins-demystifying-multiple-inheritance-in-python"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/97v2VVQlKSw/maxresdefault.jpg",
+  "title": "From Diamonds to Mixins: Demystifying Multiple Inheritance in Python \u2014 Ariel Ortiz",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=97v2VVQlKSw"
+    }
+  ]
+}

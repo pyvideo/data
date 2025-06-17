@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 Terrace 2B on 2024-07-12]\n\n\rStreamlining Testing in a Large Python Codebase by Jimmy Lai\n\rhttps://ep2024.europython.eu/session/streamlining-testing-in-a-large-python-codebase\n\n\rMaintaining code quality through effective testing becomes increasingly challenging as codebases expand and developer teams grow. In our rapidly expanding codebase, we encountered common obstacles such as increasing test suite execution time, slow test coverage reporting and delayed test startup. By leveraging innovative strategies using open-source tools, we achieved remarkable enhancements in testing efficiency and code quality.\n\rChallenges Faced:\n\r- Test Suite Execution Time: The duration of test suite execution escalated significantly as we added more tests over time, hampering development speed.\n\r- Slow Test Startup: Complex test setup led to prolonged test startup times, impeding developer productivity.\n\r- Test Coverage Reporting Overhead: Coverage tools introduced substantial overhead and impacted test performance.\n\n\rSolutions Implemented:\n\r- Parallel Test Execution: We applied pytest-xdist to distribute tests across multiple runners, significantly reducing test suite execution time and enabling faster development iterations.\n\r- Optimized Test Startup: Pre-installing dependencies in a Docker image and utilizing Kubernetes for auto-scaling continuous integration runners helped expedite test startup times, improving developer efficiency. For local development, we used pytest-hot-reloading to reload tests fast after code editing.\n\r- Efficient Test Coverage Reporting: Customizing the coverage tool to collect data only on updated files of pull requests minimized overhead on test coverage reporting.\n\rAs a result, in the past year, our test case volume increased by 8000, test coverage was elevated to 85%, and Continuous Integration (CI) test duration was maintained under 15 minute\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1868,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/streamlining-testing-in-a-large-python-codebase",
+      "url": "https://ep2024.europython.eu/session/streamlining-testing-in-a-large-python-codebase"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/SkbugLOeyKk/maxresdefault.jpg",
+  "title": "Streamlining Testing in a Large Python Codebase \u2014 Jimmy Lai",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SkbugLOeyKk"
+    }
+  ]
+}

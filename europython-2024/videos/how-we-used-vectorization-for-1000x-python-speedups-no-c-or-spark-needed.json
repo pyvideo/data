@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 Forum Hall on 2024-07-11]\n\n\rHow we used vectorization for 1000x Python speedups (no C or Spark needed!) by Jonathan Hollenbeck, Justine Wezenaar\n\rhttps://ep2024.europython.eu/session/how-we-used-vectorization-for-1000x-python-speedups-no-c-or-spark-needed\n\n\rWant to make all your code faster? With matrices, library knowledge, and a sprinkle of creativity, you can consistently speed up multivariate Python functions by 1000x!\n\n\rModal optimization requires simple axioms - arithmetic, checking a case, calling the right sklearn function, and so on. When that\u2019s not sufficient, three core tricks - converting conditional logic to set theory, stacking vectors into a matrix, and shaping data to match library expectations - cover the vast majority of real world cases (90% of the ~400 functions we vectorized). \n\n\rAt Bloomberg, ESG (Environmental, Social, and Governance) Scores require complex computations on large data sets. Time-series computations are fundamental for Governance - one UDF infers board support for a policy from prior cyclical votes and other time offset inputs. By rewriting the pandas backfill as a series of reductions on a 4-tensor, we reduced the runtime from 45 minutes to 10 milliseconds! Analogously, due to real world complexity, finance UDFs can end up with 100+ if/else branches in one function. With a mix of De Morgan\u2019s laws and sparse matrix representations, we simplified the cases and achieved 1000x+ speedups.\n\n\rWe\u2019ll conclude with a quick overview of cutting-edge tools, and hope you\u2019ll leave with a concrete strategy for vectorizing financial models!\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2440,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/how-we-used-vectorization-for-1000x-python-speedups-no-c-or-spark-needed",
+      "url": "https://ep2024.europython.eu/session/how-we-used-vectorization-for-1000x-python-speedups-no-c-or-spark-needed"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/rlpiJT_-apA/maxresdefault.jpg",
+  "title": "How we used vectorization for 1000x Python speedups (no C or Spark needed!)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rlpiJT_-apA"
+    }
+  ]
+}

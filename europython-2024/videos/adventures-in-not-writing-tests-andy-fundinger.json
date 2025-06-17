@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 North Hall on 2024-07-12]\n\n\rAdventures in not writing tests by Andy Fundinger\n\rhttps://ep2024.europython.eu/session/adventures-in-not-writing-tests\n\n\rSometimes we write code that we don't expect to go to production; they are one-offs or analysis to understand our data. However, a good analysis may be worth repeating, and before we know it, the code that was never supposed to go to production is running every day and driving critical decisions \u2013 it is in production. Once our code is in production, we have to maintain it, and that means we need tests to ensure that changes made to the code while maintaining it do not change other behavior.\n\n\rHypothesis is a Python library for creating inputs that are good for exercising code. Hypothesis tests create many different inputs for a single test case, with a special concentration on inputs that are likely to break your code. If the code was originally written to understand data, then new data we feed it over time could be very different from what was initially expected or planned for. With Hypothesis, we randomize our test outputs and they become just as unknown as our real-world outputs. Our tests then confirm certain properties to prove that the analysis was performed as expected.\n\n\rGhostwriting is a feature of Hypothesis that writes tests based on the type hints in your code. This can not only save time, but also validate our type hints. The savings in time and toil can be significant, but the ghostwritten tests do also need some additions to truly test our code. We'll look at what is needed to both generate proper inputs and check our outputs.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1786,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/adventures-in-not-writing-tests",
+      "url": "https://ep2024.europython.eu/session/adventures-in-not-writing-tests"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/tp8-2qeYCwY/maxresdefault.jpg",
+  "title": "Adventures in not writing tests \u2014 Andy Fundinger",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tp8-2qeYCwY"
+    }
+  ]
+}
