@@ -1,0 +1,24 @@
+{
+  "description": "Maximizing Training Throughput Using Torch.Compile and FSDP - Linsong Chu & Antoni Viros i Martin, IBM Research; Brian Vaughan, IBM\n\ntorch.compile is a graph compilation technique that improves GPU utilization. A key challenge in getting torch.compile to perform well is to minimize (or eliminate) graph breaks, however, this isn't trivial as even the Llama implementation provided by Meta has many graph breaks resulting in reduced training throughput. In this talk we discuss 1. how we addressed these challenges in order to train a model using torch.compile 2. how we combined torch.compile with FSDP and selective activation checkpointing to achieve the maximum throughput for training 3. model quality comparison between models trained with compile and no-compile, and lastly 4. the best setup we have for different model sizes in the Llama family that achieves the maximum throughput and MFU number (e.g. 68% MFU for the 7B model on A100 GPUs!)",
+  "duration": 220,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/_CuLeABf_fM/maxresdefault.webp",
+  "title": "Maximizing Training Throughput Using Torch.Compile and FSDP - L. Chu, A. Viros i Martin, B. Vaughan",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_CuLeABf_fM"
+    }
+  ]
+}

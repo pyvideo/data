@@ -1,0 +1,24 @@
+{
+  "description": "Lightning Talk: Introduction to Torch.Distributed.Pipelining - Howard Huang & Ke Wen, Meta\n\nPipeline parallelism is a technique employed in distributed deep learning that enhances model execution by dividing the model into distinct segments, or \"stages.\" As large language models and other memory-intensive models become more common, pipeline parallelism has grown increasingly important for several key areas: - Executing large-scale training jobs. - Enhancing performance in bandwidth-limited clusters. - Supporting large model inference. In this talk, we will introduce the `torch.distributed.pipelining` package which provides users a seamless way of applying pipeline parallelism. We will demonstrate the following features: - Splitting of model code based on simple specification. - Support for pipeline schedules, including GPipe, 1F1B, Interleaved 1F1B and Looped BFS, and providing the infrastructure for writing customized schedules. - Composability with other PyTorch parallel techniques such as data parallel (DDP, FSDP) or tensor parallel. - Out of the box integration with Hugging Face models for efficient inference.",
+  "duration": 765,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/YieoyQll4_4/maxresdefault.webp",
+  "title": "Lightning Talk: Introduction to Torch.Distributed.Pipelining - Howard Huang & Ke Wen, Meta",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YieoyQll4_4"
+    }
+  ]
+}

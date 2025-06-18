@@ -1,0 +1,24 @@
+{
+  "description": "Lightning Talk: d-Matrix LLM Compression Flow Based on Torch.Fx: Simplifying PTQ/QAT - Zifei Xu & Tristan Webb, d-Matrix Corporation\n\nWe introduce dmx-compressor, d-Matrix's open-source LLM compression toolkit that is modular, robust, efficient, and user-friendly. It utilizes symbolic tracing and fx.Transformer for network compression while keeping the model a first-class citizen in PyTorch for the user, despite prevalent graph dynamism in LLMs. It achieves this by maintaining both the original nn.Module and a just-in-time (JIT) traced and transformed fx.GraphModule representation behind the scenes, in conjunction with an abstraction that cleanly decouples network compression from the original model graph definition. This design allows the FXIR to dynamically adapt to diverse forward call signatures and flow-control arguments throughout quantization-aware training and post-training quantization written in plain PyTorch, yielding a compressed FXIR fully compatible with application-level APIs like the Hugging Face pipeline. We also provide a graph visualizer based on fx.Interpreter for ease of debugging. We believe this project shall empower the community to build efficient LLMs for deployment on custom hardware accelerators and contribute to the PyTorch ecosystem.",
+  "duration": 822,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/cw6dSlmMwj8/maxresdefault.jpg",
+  "title": "Lightning Talk: d-Matrix LLM Compression Flow Based on Torch.Fx: Simplify... Zifei Xu & Tristan Webb",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cw6dSlmMwj8"
+    }
+  ]
+}

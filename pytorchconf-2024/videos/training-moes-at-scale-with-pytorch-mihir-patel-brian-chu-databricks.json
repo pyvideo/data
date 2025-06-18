@@ -1,0 +1,24 @@
+{
+  "description": "Training MoEs at Scale with PyTorch - Mihir Patel & Brian Chu, Databricks\n\nMixture-of-Experts MoE (models) are becoming an increasingly popular architecture choice for large language models (LLMs). In this talk, we describe how to train MoE models with PyTorch. After discussing various performance tradeoffs, we use PyTorch distributed tools like DTensor to build custom parallelism approaches, including expert parallelism via MegaBlocks. We then show how to get near linear scaling to thousands of GPUs, combining PyTorch FSDP and HSDP with our parallelism strategies. We discuss many of the challenges of training at scale, including communication bottlenecks, hardware failures, and networking challenges. We further improve training at scale setups using tools like PyTorch Distributed Checkpointing for rapid saving and loading. We then highlight further optimizations to minimize challenges only present at scale, such as object store failures for large checkpoints.",
+  "duration": 1132,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/f2OxAWRCmPo/maxresdefault.webp",
+  "title": "Training MoEs at Scale with PyTorch - Mihir Patel & Brian Chu, Databricks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=f2OxAWRCmPo"
+    }
+  ]
+}
