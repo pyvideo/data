@@ -1,0 +1,44 @@
+{
+  "description": "Brief Summary\nThe jupyter-fs project is working to create an improved version of the Jupyter filesystem, including support for:\n\nmultiple filebrowsers\nremote resources\nfilesystem-like resources\nThe latest release, which implements all of the above, is available at https://github.com/jpmorganchase/jupyter-fs\n\nOutline\nIn this talk I will introduce the basic concepts of the Jupyter filesystem, the limitations of the current implementation, and explain how jupyter-fs improves the situation. I will also discuss ongoing research into novel filebrowser UIs, which has the goal of making it easier to find and ingest sources of data while writing notebooks.\n\nWhat actually happens when a user right clicks on a file in JupyterLab's builtin filebrowser and selects \"delete\"? I will explain how a browser-based, sandboxed app like JuptyerLab is able to make those kinds of modifications to a user's filesystem. I will go over the high level details of the contents API provided by the Jupyter Notebook Server (http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#/), and examine how the JupyterLab frontend and the Notebook Server backend interact in order to carry out these kinds of file transactions.\n\nFor most of the simple cases (eg a user is working with their own local files on the same machine where the Notebook Server is running), the existing Jupyter filesystem works very well. However, there are a number of basic use cases which are currently poorly supported or completely unsupported, for example:\n\nOpen multiple filebrowsers\nConnect a filebrowser to a remote resource\nConnect a filebrowser to a filesystem-like resource (S3, WebDAV, etc)\nUltimately, the main goal of jupyter-fs as a project is make the Jupyter filesystem flexible and dynamic enough to handle all of the above cases and more, with an emphasis on user experience and making Jupyter in general easier to use. The latest release of jupyter-fs adds support for all of the listed cases above. I will discuss how this was accomplished, and some of the challenges we ran into while making the related extensions.\n----\nJupyterCon brings together data scientists, business analysts, researchers, educators, developers, core Project\u00a0contributors, and tool creators for in-depth training, insightful keynotes, networking, and practical talks exploring\u00a0the Project Jupyter ecosystem.\n\nhttps://jupytercon.com/\u00a0\n\nJupyterCon is possible thanks to the generous support of our sponsors, and the labor of many volunteer organizers.\u00a0\n\nhttps://jupytercon.com/sponsors/\u00a0\nhttps://jupytercon.com/about/#Organizing%20Committee\u00a0(edited)\u00a0\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020",
+  "duration": 738,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#/",
+      "url": "http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#/"
+    },
+    {
+      "label": "https://github.com/jpmorganchase/jupyter-fs",
+      "url": "https://github.com/jpmorganchase/jupyter-fs"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rxTsg6NIV54/sddefault.jpg",
+  "title": "Max Klein - jupyter-fs: the next generation Jupyter filesystem| JupyterCon 2020",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rxTsg6NIV54"
+    }
+  ]
+}

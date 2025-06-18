@@ -1,0 +1,36 @@
+{
+  "description": "Brief Summary\nCytoscape is the de facto standard software for biological network visualization. Cytoscape is mainly used as stand-alone desktop software. On the other hand, it has a REST server function and can be controlled with HTTP requests. In this talk, I will introduce how to use Cytoscape and Jupyter Notebook together as a biological visualization workflow automation system.\n\nOutline\nIntroductions to Cytoscape and biological network visualization\nWhat is Cytoscape?\nCytoscape is a highly customizable network visualization software.\nThe styling feature according to the values assigned to nodes and edges is particularly useful to create figure for research paper.\nBiological network visualization\nIt is a network in which molecules are represented by nodes and interactions between molecules are represented by edges. The nodes and edges have biological quantitative values.\nIn the visualization workflow, various software and data are used to give the quantitative values to the network.\nAn implementation of such a workflow for Cytoscape is called an \u201cApp\u201d.\nCreating a Cytoscape App\nApp has been written in Java mainly for GUI operation.\nMotivations for the automation of the biological network visualization workflow\nWhy automation?\nGUI operation is manual and time consuming.\nCytoscape has REST service and can be controlled with HTTP requests.\nBy using REST service, the workflow can be automated with Python or R instead of Java.\nAutomation of the operation improves the research reproducibility.\nWhy Jupyter Notebook?\nWriting workflows in Jupyter Notebook improves their reproducibility.\nWith Binder or Google Colab, anyone can learn the workflow interactively and check the reproducibility.\nThe workflow system that combines Jupyter Notebook and Cytoscape\nRCy3 and py4cytoscape: REST service wrapper library for compatibility with Python and R packages\nDemonstrations\nCentral thesis\nBiological network visualization workflow can be automated and reproducible with Jupyter Notebook\n\nKey takeaways\nThere's still room to leverage Jupyter Notebook to improve biological workflows.\nYou can use Jupyter Notebook to automate the manual operation of desktop software and it can improve the reproducibility of scientific workflow.\nWhat background knowledge is expected from the attendees\nBasic features of Jupyter Notebook\nBasic features of REST service\n----\nJupyterCon brings together data scientists, business analysts, researchers, educators, developers, core Project\u00a0contributors, and tool creators for in-depth training, insightful keynotes, networking, and practical talks exploring\u00a0the Project Jupyter ecosystem.\n\nhttps://jupytercon.com/\u00a0\n\nJupyterCon is possible thanks to the generous support of our sponsors, and the labor of many volunteer organizers.\u00a0\n\nhttps://jupytercon.com/sponsors/\u00a0\nhttps://jupytercon.com/about/#Organizing%20Committee\u00a0(edited)\u00a0\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020",
+  "duration": 681,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/tip_eLf5m1M/sddefault.jpg",
+  "title": "Kozo Nishida - Automating biological network visualization with Jupyter Notebook | JupyterCon 2020",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tip_eLf5m1M"
+    }
+  ]
+}

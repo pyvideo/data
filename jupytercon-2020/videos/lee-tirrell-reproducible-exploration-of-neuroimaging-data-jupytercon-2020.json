@@ -1,0 +1,36 @@
+{
+  "description": "Brief Summary\nArtificial intelligence (AI) algorithms enhance the ability to quantitatively assess medical imaging data. However, quality control and data reproducibility are essential steps to ensure consistency and high quality results. Jupyter provides a platform to interactively visualize and assess brain MRI data alongside the AI-derived measurements useful for clinical insights in a reproducible manner.\n\nOutline\nOverview\nOur proposal outlines the use of Jupyter as an interactive platform for visualizing and quality checking brain MRI data in a reproducible manner. While this project is focused on neuroimaging, many of the tools and techniques we describe have broad application in other domains. We will show how we manage data and track outputs, interact with the tabular results of neuroimaging processing algorithms, and inspect 3D images, all from the same notebook.\n\nReproducibility is essential for bridging the gap between research labs and real world settings. Complex patterns in medical images are summarized by AI algorithms into a small number of features to derive clinical insights. Reliable and accurate results are necessary to gain trust in automated procedures, as opposed to more laborious manual inspection commonly used in practice. Environments that make it easy for for developers to follow best practices will help create tools that can more rapidly deploy cutting edge technology.\n\nFor reproducible data management, we use Quilt, a platform and Python library built on top of Amazon Web Services' S3 data storage system to create and track versioned datasets. Quilt ensures that results can be correctly matched to the input data and processing stream used to create them, regardless of any changes that happened since they were created.\n\nThe neuroimaging processing software we use is based on the FreeSurfer analysis suite. Results consist of a 3D segmentation image, where the brain is labeled as various anatomical structures, as well as tabular data containing volume measurements of these various brain regions. While this process has been validated, it is still essential to visually assess the quality of results. However, visual assessment becomes tedious with large datasets. To speed up this quality checking process, we use a combination of random sampling and outlier detection to create subsets of data for more intensive quality checking within a Jupyter notebook environment.\n\nData to be inspected is gathered using Quilt, and interactive plots displaying the volumetric measurements of brain structures are created with Altair visualization library. These plots allow us to quickly localize outlier images. Along with other selected images, the brain segmentations from these outliers are viewed using Nilearn plotting tools, overlaid on their input MRI images for comparison. Any images we examined in this way are tracked, and notes about their quality are saved alongside the rest of the data. Once this process is completed, Quilt provides a means to curate and share the results, with rendering of the Jupyter notebook and the same interactive figures created during data exploration.\n\nCode, notebooks, and descriptions of the software packages used in this presentation are available on GitHub. In this repo we also include a link to a Voil\u00e0 dashboard for interactive brain image inspection.\n\nBackground knowledge\nUsers are expected to be comfortable with Python, but there are no other prerequisites besides an interest in medical imaging and reproducible science. The following links provide additional information on the packages we used in this project.\n\nQuilt dataset versioning platform\nFreeSurfer neuroimaging analysis software\nAltair statistical visualization library\nData Visualization course using Altair\nNilearn statistical learning and visualization package for neuroimaging data\n----\nJupyterCon brings together data scientists, business analysts, researchers, educators, developers, core Project\u00a0contributors, and tool creators for in-depth training, insightful keynotes, networking, and practical talks exploring\u00a0the Project Jupyter ecosystem.\n\nhttps://jupytercon.com/\u00a0\n\nJupyterCon is possible thanks to the generous support of our sponsors, and the labor of many volunteer organizers.\u00a0\n\nhttps://jupytercon.com/sponsors/\u00a0\nhttps://jupytercon.com/about/#Organizing%20Committee\u00a0(edited)\u00a0\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020",
+  "duration": 673,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yXycTif7VmY/sddefault.jpg",
+  "title": "Lee Tirrell - Reproducible Exploration of Neuroimaging Data | JupyterCon 2020",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yXycTif7VmY"
+    }
+  ]
+}
