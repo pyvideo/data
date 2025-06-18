@@ -1,0 +1,40 @@
+{
+  "description": "Jupyter notebooks store code, results, and explanations, making them important artifacts in understanding how insights were achieved. However, these notebooks often do not record the full history of how ideas developed or analyses evolved. In many cases, approaches have been refined over time, and cells are repeated, reordered, or removed. This talk will examine both what we can learn from the details stored in .ipynb files and associated artifacts like IPython session histories as well as techniques to better record the evolution of notebooks in the future.\n\nInferring Past Events\nA notebook represents the current state of one's work, but it also maintains information that helps us learn about what happened in the past. Specifically, the execution counts (those bracketed numbers in the left margin of the notebook) not only provide information about the order cells were executed but also can tell us when a result can no longer be seen. IPython session histories store every block of executed code but are not unambiguously connected to the notebook cells and outputs. However, notebooks and histories together provide information about patterns in notebook development including how often authors edit cells or revisit a notebook at a later date. We can infer a probable history based on these patterns, and improve our prediction when the two artifacts are connected.\n\nImproving Future Records\nWhile algorithms to figure out what happened in the past are useful in understanding existing notebooks, we can also simply record all of the steps in a notebook's evolution---a version history. There are a number of solutions in this space, ranging from alternate notebook formats that mesh better with version control systems to tools that automatically store each version of a cell and its outputs. We will discuss the pros and cons of these different approaches in terms of what is recorded and how it is made available. While having the full history can be useful during development, there may be cases where sharing that history is not desired. At the same time, we will discuss opportunities to move beyond documenting history to using that information to improve work in a notebook. For example, knowing how a user has made changes in the past could allow suggestions for updates in the future.",
+  "duration": 1869,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VVGNQnPr1VU/maxresdefault.jpg",
+  "title": "David Koop   Notebook Archaeology: What does an  ipynb file not tell us? | JupyterCon 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VVGNQnPr1VU"
+    }
+  ]
+}

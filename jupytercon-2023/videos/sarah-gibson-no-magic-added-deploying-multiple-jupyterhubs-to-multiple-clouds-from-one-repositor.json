@@ -1,0 +1,40 @@
+{
+  "description": "The International Interactive Computing Collaboration (2i2c) manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs for a range of research and education purposes, spanning not only domains, but the globe. For the sake of optimising our engineering team\u2019s operations, we manage these deployments from a single, open infrastructure repository. This presents a challenging problem since we need to centralise information about a number of independent cloud vendors, and independent JupyterHubs whose user communities are not necessarily related. Given that each hub has an independent user base, this centralisation must not come at the cost of a community being unable to extricate their JupyterHub configuration from 2i2c\u2019s infrastructure and deploy it elsewhere, as detailed by our Right to Replicate.\n\nIn this talk, we will discuss a recent overhaul of 2i2c\u2019s tooling that facilitates the centralisation of information and optimal operation of the engineering team, whilst protecting a community\u2019s Right to Replicate their infrastructure. Critical to protecting the Right to Replicate is a configuration schema for both clusters and JupyterHubs, where these files should live in the repository, and how the contents should be structured. Each individual JupyterHub we deploy is defined by its own individual set of configuration files which enables simple extrication from the repository, and they can be deployed independently with a basic command. There is no added magic in the rest of 2i2c\u2019s specific tooling that would prevent this.\n\nFurther tooling to optimise the deployment and management of these JupyterHubs for 2i2c\u2019s engineering team includes:\n\nA Python \u201cdeployer\u201d module that knows how to read the configuration for a given JupyterHub on a given cluster and can perform an upgrade action\nA function within the deployer module that can extrapolate which JupyterHubs on which cluster require an upgrade from a list of changed files in the repository (e.g. from a Pull Request)\nA GitHub Actions workflow that can deploy to multiple clusters in parallel, deploy production JupyterHubs in parallel, implement Canary deployments using staging JupyterHubs, and intelligently prevent a Canary deployment failure affecting the deployments on an unrelated cluster\nDetails of these efforts were first published in the \u201cTech update: Multiple JupyterHubs, multiple clusters, one repository\u201d blog post.",
+  "duration": 1398,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/b7CCUHYOaK4/maxresdefault.jpg",
+  "title": "Sarah Gibson   No Magic Added   Deploying Multiple JupyterHubs to Multiple Clouds from one Repositor",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=b7CCUHYOaK4"
+    }
+  ]
+}

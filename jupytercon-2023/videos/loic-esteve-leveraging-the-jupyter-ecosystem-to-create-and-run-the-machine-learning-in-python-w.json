@@ -1,0 +1,53 @@
+{
+  "description": "We, a team of scikit-learn core developers and contributors, created the\n\"Machine Learning in Python in scikit-learn\" MOOC (Massive Open Online Course)\nin 2021 with the goal of making it accessible to an audience without a strong\ntechnical background.\n\nSince then, we have run three sessions of the MOOC, with an average of roughly\n10,000 registered participants, and have reused the material for scikit-learn\ncourses in a variety of settings, for example Python conference tutorials,\nremote scikit-learn training and in-person university courses.\n\nIn this talk, we will describe how we leveraged tools within the Jupyter\necosystem to develop the course material and teach it, in particular:\n- JupyterBook and Jupytext to develop the material in a convenient and\ncollaborative fashion\n- JupyterHub to give learners a zero-install live environment during the MOOC\nsession\n- Binder for convenient fall-back for tricky installation issues together with\nits integration into JupyterBook\n\nWe will also share the lessons we learned along the way while developing the\nmaterial, running the MOOC and teaching the material.\n\nWe will conclude with some of our ideas to improve the course, for example:\n- using Jupyterlite in our JupyterBook setup and potentially replace our\nJupyterHub in the longer term. Towards this goal, we already have started\ninvestigating issues we found in Pyodide scipy and scikit-learn packages\n- moving away from classic notebook to Retrolab\n- moving to jupyterlab-myst to better support MyST markdown inside notebooks\nand get rid of our custom scripts to genenerate HTML admonitions\n\nThe content of the course is available under a CC-BY license at\nhttps://inria.github.io/scikit-learn-mooc and the associated repository at:\nhttps://github.com/inria/scikit-learn-mooc. The MOOC is available at:\nhttps://www.fun-mooc.fr/en/courses/machine-learning-python-scikit-learn/.",
+  "duration": 1650,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    },
+    {
+      "label": "https://inria.github.io/scikit-learn-mooc",
+      "url": "https://inria.github.io/scikit-learn-mooc"
+    },
+    {
+      "label": "https://www.fun-mooc.fr/en/courses/machine-learning-python-scikit-learn/.",
+      "url": "https://www.fun-mooc.fr/en/courses/machine-learning-python-scikit-learn/."
+    },
+    {
+      "label": "https://github.com/inria/scikit-learn-mooc.",
+      "url": "https://github.com/inria/scikit-learn-mooc."
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools",
+    "scikit-learn"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3rhMkFpdsLw/maxresdefault.jpg",
+  "title": "Loi\u0308c Este\u0300ve   Leveraging the Jupyter ecosystem to create and run the \"Machine Learning in Python w",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3rhMkFpdsLw"
+    }
+  ]
+}

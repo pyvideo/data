@@ -1,0 +1,44 @@
+{
+  "description": "Using multiple tools from the open-source ecosystem such as JupyterHub, Nbgrader, Python, Flask, and Pandoc, we designed a flexible platform for courses using jupyter notebooks and python to support the student's learning process at Lyon 1 University.\n\nOur platform provides a virtual JupyterHub server for each year from undergraduate to graduate. Each virtual server hosts all the classes of that year. This lets us optimise and customise the servers depending on the use case:\n\nnumerous students (Greater than 1000) for the first undergraduate year, with low memory and CPU needs (discovery of python and notebook in science)\na few students (~30) for the last graduate year, with large memory and CPU needs (modelling, simulation, machine learning in mechanical engineering)\nall the courses remain active all the semester, and are accessible 24 hours a day, 7 days a week by students using only a web-browser.\nOur platform augments the classical Jupyter experience by offering features helping teachers run and manage courses, such as:\n1. simple sharing of documents (notebooks, data, python library..) back and forth between teachers and students\n2. multiple courses on the same JupyterHub server with the ability to set which students see which courses. Also useful to divide a course in groups for practical work\n3. automatic grading of notebooks, python code, ...\n4. simple evaluation of students work (notebooks, reports in markdown or LaTeX...) directly in the web browser without download or file transfers\n5. plagiarism test on the students work\n6. link with TOMUSS, the educational monitoring platform of the Lyon 1 University, to input student lists and output student grades\n\nOur platform is made of three main components: JupyterHub, nbgrader, and a custom web application written in Flask running as JupyterHub services. To implement it, we have followed the Unix philosophy KISS, by using simple components such as bash scripts and python programs. The documentation written in French using Jupyter-book is available here: https://perso.univ-lyon1.fr/marc.buffat/2022/BOOK_VALIDATION.\n\nThis platform has grown as a prototype in the Mechanical Engineering department of the Lyon 1 University. Thanks to the AMI INCLUDE project, it is being refined, redeployed on new servers and will eventually be available to other educational institution around Lyon.\n\nDuring the talk, a live demonstration will illustrate how students and teachers use the platform. Finally, we will share feedback from teachers that have run courses on the platform.",
+  "duration": 1256,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    },
+    {
+      "label": "https://perso.univ-lyon1.fr/marc.buffat/2022/BOOK_VALIDATION.",
+      "url": "https://perso.univ-lyon1.fr/marc.buffat/2022/BOOK_VALIDATION."
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/-fYcxv0FX2s/maxresdefault.jpg",
+  "title": "Thomas Dupriez   Flexible course management and validation system using Jupyterhub with additional s",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-fYcxv0FX2s"
+    }
+  ]
+}

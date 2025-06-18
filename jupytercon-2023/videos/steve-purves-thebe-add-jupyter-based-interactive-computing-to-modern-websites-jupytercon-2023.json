@@ -1,0 +1,40 @@
+{
+  "description": "thebe let's you easily add interactive visualisations, reproducible figures and interactive code editors to any publication on the web -- backed by a kernel from a Jupyter server or an in-browser WASM kernel with thebe-lite.\n\nIt\u2019s a compact and versatile tool that is easy to add to any static HTML page where, by default code blocks are turned into editors and made ready for execution, just by adding a couple of additional script tags. So in contrast to nbconvert or nbviewer, thebe enables the interleaving of Jupyter input cells and output areas with other content (e.g. from myst markdown files) in flexible ways while maintaining the ability to run the underlying notebooks or individual code cells. This enables rich reading experiences that no longer have to be linear in flow or look anything like a notebook.\n\nOver the last year, thebe has seen major upgrades making it more flexible and usable in different web contexts. Whilst keeping the original \u201cdrop it on the page\u201d mode of operation for static websites, it has been refactored to be less opinionated, allow for more control over the UI and provide a simplified API for server, session and notebook management, as well as integrating with jupyterlite for enabling WASM based kernels. These changes also make it much easier to use thebe with modern javascript frameworks like React, Vue and Next.js.\n\nThe project provides:\n\nthebe - the original drop-in library with improved event management and configuration.\nthebe-core library - an out-of-core refactor of server, session/kernel and notebook management code in a typescript API, giving developers full control of UI interaction.\nthebe-lite library - an extension library that enables in-browser computation via jupyterlite & pyodide.\nNow written in typescript and utilises the latest services from JupyterLab and ipywidgets 8.\nIn this presentation, we\u2019ll introduce thebe, its new sub-packages and their capabilities, explaining where each is best applied through example use cases. We\u2019ll then walk-through how to get started using thebe to get computational content from Jupyter notebooks into an interactive website with a custom layout. We\u2019ll also demonstrate how easy it is to enable in-browser computation via jupyterlite/pyodide, discussing current capabilities and future direction.\n\nOur presentation is aimed at attendees who are looking to incorporate Juptyer Notebooks with other materials in new and novel ways - to create compelling scientific communication materials whether in the form of books, blogs or articles, for education or research. The talk will cover how and where thebe can be applied effectively, as well as going into some development basics. Some knowledge of basic web development with HTML, javascript or typescript will be beneficial for walk-through element of the talk as we'll cover some code and configuration, but we aim for the talk to be accessible by anyone interested in putting interactive scientific communication on the web, whether they develop themselves or not.",
+  "duration": 1484,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Ong_yXQ6NFk/maxresdefault.jpg",
+  "title": "Steve Purves   Thebe   add Jupyter based interactive computing to modern websites | JupyterCon 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ong_yXQ6NFk"
+    }
+  ]
+}

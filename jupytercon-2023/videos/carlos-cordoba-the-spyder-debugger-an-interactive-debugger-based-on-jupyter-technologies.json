@@ -1,0 +1,43 @@
+{
+  "description": "One of the main features of scientific programming is its exploratory nature: starting from some input data, the goal is to analyze it in order to understand what it can tell us about the phenomena that generated it. However, the means to do this are often unclear, and the results unforeseen. That is why this type of programming requires tools for rapid, interactive prototyping that allow users to seamlessly switch solutions to tackle the problem at hand. Unfortunately, it is not possible to follow the same approach while debugging, because traditional debuggers are mostly focused on letting users explore the call stack and state of variables, and have limited capabilities to run code.\n\nSpyder, a community developed, open source IDE written in and for Python, aims to bridge the gap in that area. It blends the debugger with the interpreter to allow data exploration at any point during code execution, not just at the end. For that, Spyder's debugger attempts to offer the same functionality as a full IPython interpreter, so that its users can debug their code in the same way they are used to doing the rest of their scientific programming.\n\nIn this talk, I will cover the debugger features available in Spyder 5, as well as those planned for future versions. Specifically, I will present a live demo to showcase the following features (described in depth in this blog post and the Spyder documentation):\n\nHow to start the debugger and set breakpoints.\nHow to better understand the code at a certain frame by writing code snippets in the debugger itself, facilitated by syntax highlighting, code completion, multi-line editing and command history.\nHow to move up and down in the call stack to explore other frames in the same way.\nHow to use Spyder's Variable Explorer to browse the contents of objects.\nHow to generate Matplotlib plots while in the debugger.\nHow to use IPython magics while debugging to profile code using %timeit, explore the filesystem with %cd and %ls, and open files with %edit.\nThanks to these improvements, Spyder transforms debugging from a task that feels foreign to scientific programming, to be almost second nature. By adding breakpoint calls or setting breakpoints in the debugger, users can easily prototype different solutions for their problems at any point during code execution, and not just at end. This also increases programming speed by allowing to constantly check the correctness of code during development.\n\nAt the end of this talk, I hope attendees will learn that they don't need resort to print() or other workarounds to debug their code. Instead, they can rely on the robust debugging methods used by professional developers, supported by the interactivity and workflow they're familiar with in IPython/Jupyter.",
+  "duration": 1857,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#CodeDebugging",
+    "#DataScienceCommunity",
+    "#DataScienceTools",
+    "#DebuggingMadeEasy",
+    "#DebuggingTips",
+    "#InteractiveDebugger",
+    "#JupyterCon2023",
+    "#JupyterConTalk",
+    "#JupyterNotebook",
+    "#JupyterTechnologies",
+    "#PythonCoding",
+    "#PythonDebugging",
+    "#PythonDevelopers",
+    "#SoftwareDevelopment",
+    "#SpyderDebugger",
+    "#SpyderDebugging",
+    "#SpyderIDE",
+    "#TechConference"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/93aabAQtdQM/maxresdefault.webp",
+  "title": "Carlos Cordoba   The Spyder debugger: An interactive debugger based on Jupyter technologies",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=93aabAQtdQM"
+    }
+  ]
+}

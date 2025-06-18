@@ -1,0 +1,40 @@
+{
+  "description": "Building & maintaining the docker image used whenever a user logs into a JupyterHub is one of the most time consuming, hard yet rewarding parts of running a JupyterHub. Done right, it can wow users - \"YOU CAN DO THAT?!\". But if not properly designed, something as simple as adding a new python package can turn into a multi-week ordeal that breaks everything, and makes the maintainer of the image hate computers. A lot of the industry's docker image advice needs to be modified for use when building docker images for use with JupyterHub, as they are meant to have arbitrary code executed in them. General docker advice often does not cover our use cases at all (who else is putting fortran into docker?).\n\nThis talk summarizes lessons learnt in building a wide variety of images for JupyterHubs over the years. It will cover:\n\nBuilding the simplest possible image that can work with a JupyterHub\nBest practices for installing python & most python-related packages inside the image, and why (hint: use mamba)\nWhen to base off a community built docker image (such as rocker, pangeo or jupyter-stacks), and the various tradeoffs associated with it.\nBasic maintenance that must be performed on an image periodically so a simple package install doesn't turn into a 3 week nightmare\nSuggestions for automatic building & testing with CI / CD and mybinder.org\nBest practices for including R in your image\nBest practices for running non-Jupyter frontends (such as RStudio, virtual linux desktop, code-server, etc) in your JupyterHub\nThe audience would be able to walk away with much better knowledge on how to maintain a docker image for use with JupyterHub in a way that keeps both the users and the maintainers of the image happy.",
+  "duration": 1658,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/qgLPpULvBbQ/maxresdefault.jpg",
+  "title": "Yuvi Panda   Best practices for building docker images for use with a JupyterHub | JupyterCon 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qgLPpULvBbQ"
+    }
+  ]
+}
