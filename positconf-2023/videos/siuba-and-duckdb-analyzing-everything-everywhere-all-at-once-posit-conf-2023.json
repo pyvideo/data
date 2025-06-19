@@ -1,0 +1,70 @@
+{
+  "description": "Presented by Michael Chow\r\n\r\nEvery data analysis in Python starts with a big fork in the road: which DataFrame library should I use?\r\n \r\n The DataFrame Decision locks you into different methods, with subtly different behavior:: \r\n- different table methods (e.g. polars `.with_columns()` vs pandas `.assign()`) \r\n- different column methods (e.g. polars `.map_dict()` vs pandas `.map()`)\r\n \r\nIn this talk, I'll discuss how siuba (a dplyr port to python) combines with duckdb (a crazy powerful sql engine) to provide a unified, dplyr-like interface for analyzing a wide range of data sources\u201a whether pandas and polars DataFrames, parquet files in a cloud bucket, or pins on Posit Connect.\r\n \r\nFinally, I'll discuss recent experiments to more tightly integrate siuba and duckdb.\r\n\r\nPresented at Posit Conference, between Sept 19-20 2023,\r\nLearn more at posit.co/conference.\r\n--------------------------\r\nTalk Track: Databases for data science with duckdb and dbt.\r\nSession Code: TALK-1101",
+  "duration": 1169,
+  "language": "eng",
+  "recorded": "2023-09-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230902080800/https://posit.co/conference"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "CRAN",
+    "OSS",
+    "blogdown",
+    "coding",
+    "connect",
+    "data science",
+    "data visualization",
+    "data viz",
+    "data wrangling",
+    "debugging",
+    "dplyr",
+    "forcats",
+    "ggplot",
+    "ggplot2",
+    "github",
+    "gt",
+    "interoperability",
+    "lazy evaluation",
+    "machine learning",
+    "ml",
+    "odbc",
+    "open source",
+    "package manager",
+    "plumber",
+    "posit",
+    "programming education",
+    "purrr",
+    "python",
+    "quarto",
+    "rayshader",
+    "readr",
+    "rmarkdown",
+    "rstats",
+    "rstudio",
+    "serious data science",
+    "shiny",
+    "statistics",
+    "stats",
+    "stringr",
+    "technology",
+    "tibble",
+    "tidy data",
+    "tidymodels",
+    "tidyr",
+    "tidyverse"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/j4B7ui5f5Xo/maxresdefault.webp",
+  "title": "Siuba and duckdb: Analyzing Everything Everywhere All at Once - posit::conf(2023)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=j4B7ui5f5Xo"
+    }
+  ]
+}
