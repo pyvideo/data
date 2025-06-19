@@ -1,0 +1,24 @@
+{
+  "description": "Distributed systems are neat to demo, but hard to use in reality.\n\nThis talk goes through lessons learned running 100,000s of Dask clusters and 1,000,000,000s of Python functions for users in critical production settings across many companies and research groups.\n\nWe'll cover lessons learned like ...\n\nGIL Vigilance is Good\nKubernetes is too heavyweight if all you want is lots of jobs\nARM is underused\nDocker doesn't work well for data science folks\nAvailability-Zones are key for spot/GPU availability\nAdaptive is underused (but hard)\nMost workloads are small\nMost workloads are fast\nMost users don't scale up properly\nMost people overestimate costs\nThese lessons will be motivated by tons of metadata collected and aggregated from real-world workloads.",
+  "duration": 2012,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2024.scipy.org/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-VzaC5-Eh38/maxresdefault.jpg",
+  "title": "Matthew Rocklin - Dask in Production | SciPy 2024",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-VzaC5-Eh38"
+    }
+  ]
+}

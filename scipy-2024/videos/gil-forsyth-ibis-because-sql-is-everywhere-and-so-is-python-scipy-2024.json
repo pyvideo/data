@@ -1,0 +1,24 @@
+{
+  "description": "Tabular data is ubiquitous, and pandas has been the de facto tool in Python for analyzing it. However, as data size scales, analysis using pandas may become untenable. Luckily, modern analytical databases (like DuckDB) are able to analyze this same tabular data, but perform orders-of-magnitude faster than pandas, all while using less memory. Many of these systems only provide a SQL interface though; something far different from pandas\u2019 dataframe interface, requiring a rewrite of your analysis code.\n\nThis talk will lay out the current database / data landscape as it relates to the SciPy stack, and explore how Ibis (an open-source, pure Python, dataframe interface library) can help decouple interfaces from engines, to improve both performance and portability. We'll examine other solutions for interacting with SQL from Python and discuss some of their strengths and weaknesses.",
+  "duration": 1805,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2024.scipy.org/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/cCHME7eXAhk/maxresdefault.jpg",
+  "title": "Gil Forsyth - Ibis: because SQL is everywhere and so is Python | SciPy 2024",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cCHME7eXAhk"
+    }
+  ]
+}
