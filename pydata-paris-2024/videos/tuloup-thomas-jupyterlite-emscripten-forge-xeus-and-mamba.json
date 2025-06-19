@@ -1,0 +1,51 @@
+{
+  "description": "JupyterLite is a JupyterLab distribution that runs entirely in the web browser, backed by in-browser language kernels. With standard JupyterLab, where kernels run in separate processes and communicate with the client by message passing, JupyterLite uses kernels that run entirely in the browser, based on JavaScript and WebAssembly. \n\nThis means JupyterLite deployments can be scaled to millions of users without the need for individual containers for each user session, only static files need to be served, which can be done with a simple web server like GitHub pages.\n\nThis opens up new possibilities for large-scale deployments, eliminating the need for complex cloud computing infrastructure. JupyterLite is versatile and supports a wide range of languages, with the majority of its kernels implemented using Xeus, a C++ library for developing language-specific kernels.\n\nIn conjunction with JupyterLite, we present Emscripten-forge, a conda/mamba based distribution for WebAssembly packages. Conda-forge is a community effort and a GitHub organization which contains repositories of conda recipes and thus provides conda packages for a wide range of software and platforms. However, targeting WebAssembly is not supported by conda-forge. Emscripten-forge addresses this gap by providing conda packages for WebAssembly, making it possible to create custom JupyterLite deployments with tailored conda environments containing the required kernels and packages.\n\nIn this talk, we delve deep into the JupyterLite ecosystem, exploring its integration with Xeus Mamba  and Emscripten-forge. \n\nWe will demonstrate how this can be used to create sophisticated JupyterLite deployments with custom conda environments and give an outlook for future developments like R packages and runtime package resolution.\n\nhttps://jtp.io/pydata-paris-2024-jupyterlite-xeus/files/index.html\nhttps://github.com/jtpio/pydata-paris-2024-jupyterlite-xeus\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1881,
+  "language": "eng",
+  "recorded": "2024-09-25",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/paris2024"
+    },
+    {
+      "label": "https://github.com/jtpio/pydata-paris-2024-jupyterlite-xeus",
+      "url": "https://github.com/jtpio/pydata-paris-2024-jupyterlite-xeus"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://jtp.io/pydata-paris-2024-jupyterlite-xeus/files/index.html",
+      "url": "https://jtp.io/pydata-paris-2024-jupyterlite-xeus/files/index.html"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/BNycVZk8TXc/sddefault.jpg",
+  "title": "Tuloup & Thomas -  JupyterLite, Emscripten-forge, Xeus, and Mamba",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BNycVZk8TXc"
+    }
+  ]
+}
