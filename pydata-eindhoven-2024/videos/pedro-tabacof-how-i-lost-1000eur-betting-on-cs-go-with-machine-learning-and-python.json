@@ -1,0 +1,39 @@
+{
+  "description": "People have been using machine learning for sports betting for decades. Logistic regression applied to horse racing made someone a multi-millionaire in the 80s. While fun, betting is a losing proposition for most. The house always wins, right?\n\nWith a friend, I thought we could beat the house in e-sports by leveraging modern ML tools like LightGBM. E-sports betting is less sophisticated than football or horse racing i.e. the market is less efficient. There is a lot of online data and unknown teams. It was a space ripe for money-making, or so we thought.\n\nFirst, I will explain the theory behind e-sports betting with ML: what is an edge, financial decision-making, the expected value and decision rule for one bet, multiple bets with the Kelly criterion, probability calibration and the winner's curse.\n\nThen, I will explain how we built a web scraper to extract features, developed a probabilistic classifier using LightGBM, defined betting rules using the Kelly criterion, backtested it with a positive ROI, and then lost actual money, with many priceless lessons coming out of it.\n\nThis presentation goes in-depth on how to use ML for e-sports betting and the pitfalls one might fall in. More broadly, I try to connect ML with financial decision-making, which can be applied in other domains too (credit, fraud, marketing), targeting data scientists and ML practitioners who are interested in financial applications.\n\nFinancial decision-making is not just about being right (predictive modelling) but also about acting rightly (betting/trading strategy). To act correctly, one must understand concepts such as an edge, expected value/profits, probability calibration, winner's curse (selection bias), and so on. More importantly, any trading or betting strategy needs to be thoroughly validated with backtests and paper-trades and the risk and profitability quantified. My aim is to cover some of those important foundational topics, while providing pointers for further studies.\n\nThe presentation is divided into two parts:\n\nFoundations of ML applied to betting (15 min)\n* What is your edge?\n* Financial decision-making with ML\n* One bet: Expected profits and decision rule\n* Multiple bets: The Kelly criterion\n* Probability calibration\n* Winner\u2019s curse\nCS:GO betting (10 min)\n* Data scraping\n* Feature engineering\n* TrueSkill (with a side note on inferential vs predictive models)\n* Modelling\n* Evaluation\n* Backtesting\n* Why I lost 1000 euros\nThat is, I will present both the theory and practice, using my own failure as an illustrative example for the lessons shown. The presentation will have two companion blog posts with reproducible Python code.\n\nThis presentation requires mid-level data science knowledge (e.g. how to train a gradient-boosted trees model) but only beginner Python and finance to follow.",
+  "duration": 1947,
+  "language": "eng",
+  "recorded": "2024-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Log7X5Mj_vc/maxresdefault.jpg",
+  "title": "Pedro Tabacof - How I lost 1000\u20ac betting on CS:GO with machine learning and Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Log7X5Mj_vc"
+    }
+  ]
+}
