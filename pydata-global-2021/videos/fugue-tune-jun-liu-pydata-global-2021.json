@@ -1,0 +1,59 @@
+{
+  "description": "Fugue Tune: A Simple Interface for Distributed Hyperparmeter Optimization\nSpeaker: Jun Liu\n\nSummary\nHyperparameter optimization on Spark is commonly memory-bound, where the model training is done on data that doesn\u2019t fit on a single machine. We introduce Fugue-tune, an intuitive interface focusing on compute-bound hyperparameter tuning that scales Hyperopt and Optuna by allowing them to leverage Spark and Dask without code change.\n\nDescription\nHyperparameter tuning is used in model development to search for optimal model parameters. Spark hyperparameter tuning has generally been done on memory-bound problems, where one dataset is split across different machines, and multiple models are trained in a sequential way. In this talk, we\u2019ll explore how to use Apache Spark as an engine for parallelizing compute-bound tuning problems, where hundreds or thousands of smaller models are trained in parallel.\n\nThere are multiple approaches to hyperparameter tuning. Grid search is exploring a finite combination of values, while Bayesian Optimization is building over the last attempts to create a better hyperparameter combination. Approaches like grid search are trivially parallelizable, while Bayesian Optimization has a sequential dependency. But actually, we can combine these two ideas to parallelize a Grid of Bayesian Optimization trials over Spark. This will be done through Fugue-tune, a general interface that abstracts existing machine learning frameworks such as Optuna and Hyperopt, by providing a scalable interface on top of them.\n\nIn this talk, we'll explore how to tune a general ML objective on a hybrid search space at where model search, grid search, random search and Bayesian optimization are combined intuitively using Fugue-Tune's simple interface. Using Greykite as an example, we will demo tuning a forecasting model distributedly and monitoring the best result at realtime.\n\nJun Liu's Bio\nJun Liu is a Data Scientist at Lyft. She leads machine learning projects in the problem field of recommendation and purchasing. Before joining Lyft, Jun received her Ph.D. in July 2020 in Applied Mathematics from Michigan State University.\nLinkedIn: https://www.linkedin.com/in/junliu-ff/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1672,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://www.linkedin.com/in/junliu-ff/",
+      "url": "https://www.linkedin.com/in/junliu-ff/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/MRa0ao4tfWc/maxresdefault.jpg",
+  "title": "Fugue Tune - Jun Liu | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MRa0ao4tfWc"
+    }
+  ]
+}

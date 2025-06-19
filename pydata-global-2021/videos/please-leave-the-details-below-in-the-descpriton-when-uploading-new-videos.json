@@ -1,0 +1,75 @@
+{
+  "description": "Summary\nBlosc2 (https://www.blosc.org) is a high-performance compressor library and format meant for binay data. The core is made in C for speed, with a Python wrapper available. This talk will introduce you to the main features of Blosc2, like (persistent) 64-bit frames, the filter pipeline, SIMD support for ARM and PowerPC, metalayers, plugin capabilities for filters and codecs and more.\n\nDescription\nBlosc2 is the successor of the well known Blosc compressor, and after 5 years in the works, it reached production stage in past June. This talk will serve as a gentle but informative introduction of the library to the general audience.\n\nBlosc2 brings in many new features, but perhaps the most outstanding one is the new frame format. The frame allows to overcome the 31-bit limitation for buffer sizes in the previous Blosc version, but it also provides support for persistence and, most specially, the capability to add metalayers that can complement existing data with different sets of metadata, allowing to easily define different formats on top of Blosc2 for a variety of purposes; I will describe some of those formats later on.\n\nThe talk will start by describing what a frame is, and the kind of advantages that it brings. Then it will follow some other important new features of Blosc2 using, when possible, the official python-blosc2 wrapper. I will finish by showing off different applications that have been implemented on top of Blosc2, as for example, Caterva, a compressed multidimensional array. Another example will be ironArray Community, a thin layer on top of Caterva which adds data types.\n\nFrancesc Alted's Bio\nHaving created projects like Blosc, PyTables or bcolz, I am a long term open source contributor. Also, as a performance enthusiast, I like the freedom to reach high speeds that offer the C language, and combining it with Python so as to produce easy-to-use but powerful tools for the community. I am the BDFL for the Blosc project, an umbrella for different C libraries like C-Blosc, C-Blosc2, Caterva and its Python counterparts, python-blosc, python-blosc2 and python-caterva.\n\nI have worked for more than 30 years on IT and scientific computation, in both universities and companies (like Universitat Jaume I and Continuum Analytics, now Anaconda), but as a freelance for the most part. Lately I am co-founding ironArray SL with my colleague Christian Steiner; in ironArray we are working towards producing libraries that can help overcoming the so called memory wall.\n\nGitHub: https://github.com/FrancescAlted/\nTwitter: https://twitter.com/FrancescAlted/\nLinkedIn: https://www.linkedin.com/in/francesc-alted-74a7481/\nWebsite: https://www.blosc.org/pages/francesc-alted-cv//\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1414,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://www.linkedin.com/in/francesc-alted-74a7481/",
+      "url": "https://www.linkedin.com/in/francesc-alted-74a7481/"
+    },
+    {
+      "label": "https://github.com/FrancescAlted/",
+      "url": "https://github.com/FrancescAlted/"
+    },
+    {
+      "label": "https://twitter.com/FrancescAlted/",
+      "url": "https://twitter.com/FrancescAlted/"
+    },
+    {
+      "label": "https://www.blosc.org/pages/francesc-alted-cv//",
+      "url": "https://www.blosc.org/pages/francesc-alted-cv//"
+    },
+    {
+      "label": "https://www.blosc.org",
+      "url": "https://www.blosc.org"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/k_dPfrqHmxo/maxresdefault.jpg",
+  "title": "Please leave the details below in the descpriton when uploading new videos",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=k_dPfrqHmxo"
+    }
+  ]
+}

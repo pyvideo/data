@@ -1,0 +1,59 @@
+{
+  "description": "Machine Learning in Health: Predicting Pregnancy Complications\nSpeaker: Oliver Rieger\n\nSummary\nThis talk will present PreFree - a machine learning powered decision support and home monitoring tool that helps to prevent severe complications in pregnancy. PreFree aims to assist physicians in deciding whether to send a patient home with monitoring or to hospitalize her. Focus of this talk is the training and application of our ML models based on clinical outcome data from the Charite Berlin.\n\nDescription\nPreFree is a decision support and home monitoring tool, consisting of machine learning models to predict severe complications in pregnancies and mobile applications to monitor vitalsigns of pregnant women staying at home.\n\nWe will go into detail on how we trained our models and how they are put into use. We will talk about the most interesting challenges along the way of training them: Dealing with dirty, small and wide data, generalization, interpretation and putting them into production.\n\nMedical Use Case\n\nWith an incidence of 2% to 5%, preeclampsia is the leading cause of maternal morbidity and mortality worldwide. There is an unmet need to early detect patients at-risk especially for preeclampsia-related severe outcomes.\n\nPreFree aims to do this with machine learning (ML) models that rely on a multitude of inputs, from special bloodmarkers over vital signs to diameters of arterias measured via ultra sound.\n\nWhen women with signs and symptoms of preeclamspia present at a clinic, physicians face a problem: They have to decide based on a very inprecise gold-standard, wether they should hospitalize the women with signs and symptoms of preclampsia or send them home.\n\nOur ML models aim to support the decision of the physician through predicting wether a severe outcome from the field of preclampsia is likely to occur or not.\n\nMachine Learning\n\nOur training data contains ~2500 measurements from ~1600 women with signs and symptoms who presented at the Charit\u00e9 in Berlin from 2010 to 2019. For each woman, all existing measurements and outcome data was manually collected into an excel sheet which ended up having a total of ~250 columns. Therefore some of our first challenges where to identify the most predictive features and clean the data as well as possible. We will go into detail on how we did that and describe our further way to building and validating our models that we now plan to evaluate in clinical trials. We will furthermore talk about our efforts to improve generalization. Finally, we will describe how we are putting them into production.\n\nThis talk will be of informative and light-hearted character, even though knowledge about machine learning methods might be beneficial. Our main goal is to share our experiences on building a machine learning powered tool in health tech.\n\nOliver Rieger's Bio\nStudied math and physics, coded for astrophysical researchers, worked as a data scientist / machine learning engineer in the industry. Freelancing for the last two years, now building a medical product to help prevent serious problems in pregnancies.\nLinkedIn: https://www.linkedin.com/in/oliver-rieger-a1728799/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1613,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/oliver-rieger-a1728799/",
+      "url": "https://www.linkedin.com/in/oliver-rieger-a1728799/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/h3pcKTTDmuY/maxresdefault.jpg",
+  "title": "Machine Learning in Health: Predicting Pregnancy Complications | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=h3pcKTTDmuY"
+    }
+  ]
+}

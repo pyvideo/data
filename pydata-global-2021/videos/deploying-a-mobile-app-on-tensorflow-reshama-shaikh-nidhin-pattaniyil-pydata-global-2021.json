@@ -1,0 +1,107 @@
+{
+  "description": "Deploying a Mobile App on Tensorflow: Lessons Learned\nSpeakers: Reshama Shaikh, Nidhin Pattaniyil\n\nSummary\nAs a data scientist, have you wanted to learn more about how deep learning models are deployed? This talk covers considerations for deploying a model: model size, quantization, framework options, production considerations and optimizations, platform options and performance metrics.\n\nReshama Shaikh's Bio\nReshama is a statistician/data scientist based in New York City. She is the founder of Data Umbrella, a community for underrepresented persons in data science. She is also a Triage Team member of scikit-learn and an organizer for the New York chapter of PyLadies.\nGitHub: https://github.com/reshamas/\nTwitter: https://twitter.com/reshamas/\nLinkedIn: https://www.linkedin.com/in/reshamas/\nWebsite: https://reshamas.github.io/\n\nNidhin Pattaniyil's Bio\nSenior Machine Learning Engineer at Walmart Labs\nGitHub: https://github.com/npatta01/\nTwitter: https://twitter.com/npatta01/\nLinkedIn: https://www.linkedin.com/in/nidhinpattaniyil/\nWebsite: https://npatta01.github.io//\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\nAbstract: https://pydata.org/global2021/schedule/presentation/103/deploying-a-mobile-app-on-tensorflow-lessons-learned/\nWeb App: https://manning-deploy-imagenet.herokuapp.com/\nSource code for web app: https://github.com/reshamas/deploying-web-app\nBlog (Deploying A Deep Learning Model on Mobile Using TensorFlow and React): https://medium.com/p/4b594fe04ab\nCourse: https://www.manning.com/liveproject/deploying-a-deep-learning-model-on-web-and-mobile-applications\nContents:\n00:00 Florian introduces speaker and talk\n00:48 Reshama begins talk\n01:20 Talk Outline\n01:45 About the dataset (Food-101)\n03:19 Baseline performance of architectures\n04:52 Why do model optimization?\n05:30 Quantization\n06:25 Nidhin begins talk\n06:40 Deployment options (Python: Flask, FastAPI; TensorFlow serving)\n08:05 Deploying on the browser: TensorFlow.js\n09:15 TensorFlow.js Conversion\n10:10 TensorFlow.js Conversion (Optimization) (32-bit precision)\n11:19 Sample TensorFlow.js code\n12:01 Deploying on Mobile\n13:23 Mobile Deployment Space (Core ML, TensorFlow Lite, TensorFlow.js React Native)\n14:35 Why we may want to use JavaScript\n15:58 Benefits of Expo + React Native\n17:00 Web / Mobile App Live Demo\n19:35 Mobile app demo\n20:25 Inference timing on web vs mobile app\n22:44 Takeaways\n23:50 More resources: a more detailed step-by-step class\n24:16 Q&A\n\ncc: @npatta01\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1617,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/nidhinpattaniyil/",
+      "url": "https://www.linkedin.com/in/nidhinpattaniyil/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/reshamas/deploying-web-app",
+      "url": "https://github.com/reshamas/deploying-web-app"
+    },
+    {
+      "label": "https://pydata.org/global2021/schedule/presentation/103/deploying-a-mobile-app-on-tensorflow-lessons-learned/",
+      "url": "https://pydata.org/global2021/schedule/presentation/103/deploying-a-mobile-app-on-tensorflow-lessons-learned/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/reshamas/",
+      "url": "https://www.linkedin.com/in/reshamas/"
+    },
+    {
+      "label": "https://twitter.com/npatta01/",
+      "url": "https://twitter.com/npatta01/"
+    },
+    {
+      "label": "https://manning-deploy-imagenet.herokuapp.com/",
+      "url": "https://manning-deploy-imagenet.herokuapp.com/"
+    },
+    {
+      "label": "https://github.com/npatta01/",
+      "url": "https://github.com/npatta01/"
+    },
+    {
+      "label": "https://npatta01.github.io//",
+      "url": "https://npatta01.github.io//"
+    },
+    {
+      "label": "https://twitter.com/reshamas/",
+      "url": "https://twitter.com/reshamas/"
+    },
+    {
+      "label": "https://medium.com/p/4b594fe04ab",
+      "url": "https://medium.com/p/4b594fe04ab"
+    },
+    {
+      "label": "https://reshamas.github.io/",
+      "url": "https://reshamas.github.io/"
+    },
+    {
+      "label": "https://www.manning.com/liveproject/deploying-a-deep-learning-model-on-web-and-mobile-applications",
+      "url": "https://www.manning.com/liveproject/deploying-a-deep-learning-model-on-web-and-mobile-applications"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://github.com/reshamas/",
+      "url": "https://github.com/reshamas/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/tqk2eCsd_Fs/maxresdefault.webp",
+  "title": "Deploying a Mobile App on Tensorflow - Reshama Shaikh, Nidhin Pattaniyil | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tqk2eCsd_Fs"
+    }
+  ]
+}

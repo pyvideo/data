@@ -1,0 +1,63 @@
+{
+  "description": "Components, Workflows, and Cookbooks - Building Medical Grade AI pipelines with Argo Workflows\nSpeaker: Omri Fima\n\nSummary\nIn this talk, I will share the practices and techniques we use to build reusable, production-grade AI pipelines using Argo Workflows. How you can write your workflows to be more reusable, and easier to debug and deploy. And Finally, How we integrated Argo with Jupyter Notebooks for robust and fast ad-hoc experimentation.\n\nDescription\nA Brief introduction to Argo Pipelines, and why we use them at Diagnostic Robotics. a quick introduction on what we do and how creating reusable research pipelines at scale became a challange.\nWhy Argo YAML configurations are great. How Argo helped us build, stable reusable pipelines, and why we found Argo YAML DAG's simplicity was better fitting than Airflow's Python based DAG's\nWhy Argo YAML configurations are a nightmare. The pains we met as our DAG became more complex and more varied, how the limitiations of YAML, as led us to build a Python DSL over it, and enjoy the beauties of both worlds.\nComponents, Workflows, and Cookbooks - the building blocks of a reusable Argo pipeline. I will share the system we built to oragnize and structure our DAG code, to allow us to build reusable and composable pipelines, thus allowing us to adapt with ease to a wide range of experiments,models and flows.\nHow we do CI\\CD for our pipelines. How we use K8S deployment mecahnisms, to build, test and deploy our pipelines with ease.\nRunning pipelines Ad-hoc with jupyter notebooks. Finally, I will share is how we use Argo's API with our internally build library to mix the interactive nature of Jupyter Notebooks with the scale of Argo pipelines to be able to perform ad-hoc experimentation at scale.\n\nOmri Fima's Bio\nOmri is a Data Hacker, Maker, and an avid fan of LEGO. He is a Chief Architect at Diagnostic Robotics, Building AI and predictive analytics models to make healthcare better, cheaper, and more widely available.\nGitHub: https://github.com/thegreymatter/\nLinkedIn: https://www.linkedin.com/in/omri-fima-b4518211/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1607,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/omri-fima-b4518211/",
+      "url": "https://www.linkedin.com/in/omri-fima-b4518211/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://github.com/thegreymatter/",
+      "url": "https://github.com/thegreymatter/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/QZe3o0KnmYE/maxresdefault.webp",
+  "title": "Components, Workflows, and Cookbooks - Omri Fima | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QZe3o0KnmYE"
+    }
+  ]
+}

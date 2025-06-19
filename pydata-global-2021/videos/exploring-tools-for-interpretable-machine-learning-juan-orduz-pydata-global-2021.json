@@ -1,0 +1,83 @@
+{
+  "description": "Exploring Tools for Interpretable Machine Learning\nSpeaker: Juan Orduz\n\nSummary\nIn this talk we want to explore various ways of getting a better understanding on how some families machine learning models generate predictions and how features interact with each other. We do so via a hands-on approach: the task is to predict daily counts of rented bicycles. We present both model specific and model agnostic approaches. https://juanitorduz.github.io/interpretable_ml\n\nDescription\nIn this talk we want to explore various ways of getting a better understanding on how some families machine learning models generate predictions and how features interact with each other. We do so via a hands-on approach: the task is to predict daily counts of rented bicycles as a function of time and other external regressors like temperature and humidity (http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset). For this purpose, after a first EDA phase, we will train two type of models: (1) regularised linear regression and (2) XGBoost regressor.\n\nNext we explore model specific ways to understand the models predictions: (1) For the linear model we explore the beta coefficients and weight effects (2) For the XGBoost regressor we explore metrics like gain and cover.Finally we move to model agnostic methods such as (1) partial dependency (PDP) and individual conditioning expectation (ICE) plots (2) permutation importance and (3) SHAP values.We will describe the pros and cons of each methods. We do not focus on the theory behind but rather use the concrete use case to highlight their strength and limitations.\n\nThis talk is based in the article: https://juanitorduz.github.io/interpretable_ml/ where all code in provide to reproduce the plots and results.\n\nTwo great references on the subject are:\n\nInterpretable Machine Learning, A Guide for Making Black Box Models Explainable by Christoph Molnar\nInterpretable Machine Learning with Python by Serg Mas\u00eds\n\nJuan Orduz's Bio\nMathematician & Data Scientist.\nGitHub: https://github.com/juanitorduz/\nTwitter: https://twitter.com/juanitorduz/\nLinkedIn: https://www.linkedin.com/in/juanitorduz/\nWebsite: https://juanitorduz.github.io//\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1925,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://juanitorduz.github.io/interpretable_ml",
+      "url": "https://juanitorduz.github.io/interpretable_ml"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/juanitorduz/",
+      "url": "https://www.linkedin.com/in/juanitorduz/"
+    },
+    {
+      "label": "https://twitter.com/juanitorduz/",
+      "url": "https://twitter.com/juanitorduz/"
+    },
+    {
+      "label": "https://juanitorduz.github.io//",
+      "url": "https://juanitorduz.github.io//"
+    },
+    {
+      "label": "http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset",
+      "url": "http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset"
+    },
+    {
+      "label": "https://github.com/juanitorduz/",
+      "url": "https://github.com/juanitorduz/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://juanitorduz.github.io/interpretable_ml/",
+      "url": "https://juanitorduz.github.io/interpretable_ml/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mo56J7CvgtQ/maxresdefault.jpg",
+  "title": "Exploring Tools for Interpretable Machine Learning - Juan Orduz | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mo56J7CvgtQ"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "description": "Computer Vision and Xai: Explaining a Single Prediction With Visualisations and Examples\nSpeaker: Sara T\u00e4htinen\n\nSummary\nExplainable AI is a broad field of study that aims to explain the results of an AI system in an easy, human readable way. In this talk I will focus on methods that aim to explain one image prediction at the time. First I will discuss visualisations techniques and then using examples to explain the model's result. I will also show results of my own experiments to support the theory.\n\nDescription\nAssume you have a model that labels images. You show the model a picture of a cat but the model claims that it is a dog. The result is quite surprising and you are left to wonder: why did the model misclassify this image? What made it so confused that it thought that the cat is actually a dog?\n\nThis is just one example what could happen when complex AI models are used in practise. There are many cases where you must be sure the model works correctly but you are not totally sure if you trust the model enough. In these cases some kind of explanations would help us but as the models are complex, it is not easy to understand how the model made the decisions. To tackle this kind of dilemma, the field of explainable AI (shortened as xAI) was created: it aims to explain the results of an AI system in an easy, human readable way.\n\nThere\u2019s a broad range of different xAI methods and I have given a general literature review of these methods in PyData Helsinki in 2021. In this talk I will focus on more specific area of xAI that aims to explain one image prediction at the time. These kind of explanations can be divided into three different categories: visualisations, example cases and alternative choices. I will be using deep learning models and first introduce different kinds of visualisation techniques, discuss their pros and cons and show some example explanations. Then I will focus on example cases that can be used to support the choice made by AI: with image embeddings (example demo from internet: https://rom1504.github.io/image_embeddings/) one can find examples from a training set that the model thinks is similar to our query image. With this technique one can find similar examples of two alternative class predictions and hopefully understand better why the model came into the conclusion it did.\n\nSara T\u00e4htinen's Bio\n--\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1670,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://rom1504.github.io/image_embeddings/",
+      "url": "https://rom1504.github.io/image_embeddings/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/9_WdCtR9dJo/maxresdefault.jpg",
+  "title": "Computer Vision and Xai - Sara T\u00e4htinen | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9_WdCtR9dJo"
+    }
+  ]
+}

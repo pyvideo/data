@@ -1,0 +1,67 @@
+{
+  "description": "AIQC; Deep Learning Experiment Tracking With Multi-dimensional Pre/post-processing.\nSpeaker: Layne Sadler\n\nSummary\nAIQC began as framework for deep learning experiment tracking to accelerate open science, but it turns out tracking is the easy part. In this talk, we'll explore how MLOps is really about data pre/post-processing. E.g. how use a validation split w heterogenous, multi-dimensional data on a sliding window that has been 10xfolded with 4 encoders, and decode predictions 3months later? AIQC does that.\n\nDescription\nAudience\nAIQC was initially designed as a high level API for scientists to make deep learning accessible, but over time it was expanded to meet the needs of expert university practitioners - so everyone should be able to get value from this presentation. The problems we'll discuss are also boiled down to their simplest form.\n\nProblem Space Theory + Solution Demo.\nWe'll explore how to solve the following chronic problems, which are hardcoded into machine learning toolsets, with a live demo of AIQC for preprocessing, experiment tracking, and post-processing:\n\nData Leakage; when aggregate information about test/ holdout data is used to process training samples. Most encoders are not handling each split/ fold individually, so information about the test data \u201cleaks\u201d into the transformation of the training data itself.\n\nEvaluation Bias; when a user makes changes to their topology/ parameters based on how the model performs against the test/ holdout data. Most programs are not using a 3rd validation split, so they are effectively training on their entire dataset when they make adjustments.\n\nPartial Reproducibility; it is common for most experiment trackers to ignore the sample splits/ folds as generic inputs (e.g. X_train, y_train) to the training process. Additionally, although preprocessing can be just as important as hyperparameters (e.g. PowerTransformer vs StandardScaler), most experiment trackers are blind to how the samples were processed.\n\nMultidimensional Data; the standard ML toolset only handles either 1D or 2D data. This can\u2019t be applied to images and sliding time series data.\n\nThese problems are symptoms of the fact that machine learning workflows are emergent oral histories that are scattered in tutorial cookbooks rather than well-defined protocols. On one hand, these obscure processes have become second nature for experienced data scientists. On the other hand, when contrasted with rigorous, scientific quality control (QC) pipelines, it is easy to see how scientists have come to view machine learning as a black box.\n\nLayne Sadler's Bio\nProduct manager by day and hacker by night; Layne weaves together the principles of analytical software and product marketing in order to build products that people actually want to use. Delving deeper into the stack, he eventually found himself writing apps and algorithms alike. While working with pharma and research institutes on national genomic biobank projects, he observed barriers that prevented the adoption of deep learning in scientific research. So he built AIQC to solve those problems.\nGitHub: https://github.com/aiqc/aiqc/\nTwitter: https://twitter.com/LayneSadler/\nLinkedIn: https://www.linkedin.com/in/laynesadler/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1459,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://github.com/aiqc/aiqc/",
+      "url": "https://github.com/aiqc/aiqc/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/laynesadler/",
+      "url": "https://www.linkedin.com/in/laynesadler/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://twitter.com/LayneSadler/",
+      "url": "https://twitter.com/LayneSadler/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/XlQGqYkL8N4/maxresdefault.webp",
+  "title": "AIQC; Deep Learning Experiment | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XlQGqYkL8N4"
+    }
+  ]
+}

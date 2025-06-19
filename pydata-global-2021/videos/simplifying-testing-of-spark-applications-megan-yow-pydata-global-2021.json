@@ -1,0 +1,59 @@
+{
+  "description": "Simplifying Testing of Spark Applications\nSpeaker: Megan Yow\n\nSummary\nUnit tests, and even testing code snippets require, the Spark environment to be spun up. This is cost and resource-intensive. On the other hand, Pandas and Python can't scale to handle big data, but applications are significantly faster to test. Here we introcue Fugue, an abstraction layer that enables us to test code in a Pandas environment before executing it on Spark, accelerating development.\n\nDescription\nData practitioners use distributed computing frameworks such as Apache Spark to work with big data. One of the major pain points of Apache Spark is its testability. In order to run tests on simple code changes, users have to spin up a local PySpark instance, which takes a few minutes. Some users submit jobs to a cluster for test code. Even worse, libraries such as databricks-connect forward all of the local Spark code to be executed on a cluster. This means that simple tests spin up the Spark cluster to run. This leads to very expensive projects, considering both developer time wasted, and unneeded cluster usage.\n\nThe lack of testability also leads to slow development cycles. In the case of machine learning applications, rapid iterations are needed to achieve optimum performance. In this demo, they'll introduce a library called Fugue that serves as an abstraction layer for distributed compute frameworks. Users can write code in native Python or Pandas, and then port it to Spark and Dask during execution time. This allows users to test code much faster, and free from Spark dependencies. When ready to run on a cluster, users just need to specify the engine for execution (Pandas or Spark). Fugue dramatically speeds up development cycles and makes data projects cheaper.\n\nMegan Yow's Bio\nMegan is a Data Scientist at Spotify. Prior to joining Spotify, Megan also worked as a Data Scientist at Sobeys, one of Canada\u2019s largest grocery retailers. She is a contributor for Fugue, an abstraction layer that keeps your code and computation native to python yet easily portable to spark clusters.\nLinkedIn: https://www.linkedin.com/in/meganyow/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1720,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/meganyow/",
+      "url": "https://www.linkedin.com/in/meganyow/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_ieqg_soB3U/maxresdefault.jpg",
+  "title": "Simplifying Testing of Spark Applications - Megan Yow | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_ieqg_soB3U"
+    }
+  ]
+}
