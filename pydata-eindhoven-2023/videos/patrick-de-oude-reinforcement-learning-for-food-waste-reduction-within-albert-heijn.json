@@ -1,0 +1,39 @@
+{
+  "description": "Food waste is a large global problem that has a huge impact on our environment. Currently, about one-third of the world\u2019s food goes to waste. In this talk we focus on an initiative to reduce food waste in a chain of supermarkets. The initiative applies increasing markdowns to products nearing their expiry date. The objective is to minimize food waste without significantly increasing the cost of the markdowns. This involves making a sequence of decisions about what markdown level to set over time while maximizing a cumulative expected future reward based on markdown costs and products destroyed.\n\nIn this talk we show how we tackle this problem with reinforcement learning. We model the problem using a discrete state-space and action set. We learn the policy from historical data using offline Q-learning.\n\nAdditionally, we show how we evaluate new policies using off-policy evaluation techniques and describe the limitations of these evaluation methods.\n\nLastly, we address the experimental setup used to measure the policies\u2019 true performance in production.\n\nAgenda:\n- 0-5 min: Introduction about food waste and dynamic markdown\n- 5-25 min: reinforcement learning\n- Implementation\n- Features & state space\n- Q-learning\n- Off-policy evaluation\n- Experiments\n- 25-30 min: Conclusions and future work\n- 30-35 min: Q&A\n\nTarget audience: anyone interested in the application of reinforcement learning, or technologies for food waste reduction. Familiarity with reinforcement learning will be useful.\n\nMain take-away: practical information around training, evaluating and deploying a simple reinforcement learning mode",
+  "duration": 1917,
+  "language": "eng",
+  "recorded": "2023-11-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20240930133013/http://pydata.org/eindhoven2023"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/eT5Pc2uL6sw/maxresdefault.jpg",
+  "title": "Patrick de Oude - Reinforcement learning for Food Waste Reduction within Albert Heijn",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=eT5Pc2uL6sw"
+    }
+  ]
+}

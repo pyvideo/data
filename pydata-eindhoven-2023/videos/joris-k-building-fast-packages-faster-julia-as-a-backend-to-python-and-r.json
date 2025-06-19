@@ -1,0 +1,39 @@
+{
+  "description": "Using Julia instead of C or Fortran for package internals can have many advantages for Python and R users, since the language acts more similar to the higher level languages. We will discuss how to make this a reality by demonstrating how it was done for diffeqpy and diffeqr, packages in Python and R respectively that interface with Julia's DifferentialEquations.jl from the SciML organization. The way that it was done will be detailed in order to help developers replicate the format for other package types. We will discuss the performance advantages that can be seen from this arrangement, showcasing examples where Julia-based GPU-accelerated differential equation solvers achieve a 20x-100x acceleration over PyTorch and Jax.",
+  "duration": 2044,
+  "language": "eng",
+  "recorded": "2023-11-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20240930133013/http://pydata.org/eindhoven2023"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/JD8H5x8uSpM/maxresdefault.jpg",
+  "title": "Joris K. - Building Fast Packages Faster: Julia as a Backend to Python and R",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=JD8H5x8uSpM"
+    }
+  ]
+}

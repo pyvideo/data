@@ -1,0 +1,39 @@
+{
+  "description": "With the increasing amount of volatile renewable energy sources, it becomes more and more challenging to keep the electrical grid in balance. Probabilistic energy price forecasts can help to create this balance. But how do we obtain well-calibrated forecasts? Conformal prediction is a machine learning framework that can produce prediction regions for any underlying point estimator, assuming only the exchangeability of the data. The advantage is that these prediction intervals have valid coverage in finite samples without distributional assumptions beforehand. Valid coverage means that the prediction intervals align with the distribution of the data set, which is not the case for all methods that give prediction intervals. To guarantee valid coverage, a validation set is used, which will be explaining during the talk.\n\nHowever, a disadvantage of the prediction intervals is that they only weakly adapt to the input space. Where most machine learning predictions are based on a large number of input features, the prediction intervals don\u2019t take into account the local variability of this input space. To create a specific probabilistic forecast with valid coverage, conformal prediction can be used to calibrate probabilistic forecasts. Conformalized quantile regression is a common method for this.\n\nThis talk will explain the basics of probabilistic time series forecasting, multiple probabilistic model techniques, and calibration with conformal prediction. Let\u2019s accelerate the renewable energy transition with calibrated probabilistic forecasts!\n\nAre you a data scientist or machine learning engineer that is or want to start building probabilistic forecasts? This talk is for you.",
+  "duration": 1892,
+  "language": "eng",
+  "recorded": "2023-11-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20240930133013/http://pydata.org/eindhoven2023"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/--WcrDRtrYk/maxresdefault.jpg",
+  "title": "Inge van den Ende-Leveraging conformal prediction for calibrated probabilistic time series forecasts",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=--WcrDRtrYk"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Machines have changed a lot in the last decade and Polars is a query engine that is written from scratch in Rust to benefit from the modern hardware. Effective parallelism, cache efficient data structures and algorithms are ingrained in its design. Thanks to those efforts Polars is among the fastest single node OSS query engines out there. Another goal of polars is rethinking the way DataFrame's should be interacted with. Polars comes with a very declarative and versatile API that enables users to write readable. This talk will focus on how Polars can be used and what you gain from using it idiomatically. Most importantly, this talk introduces Polars Plugins, a novel way to define your UDF's in Rust and register them in the main Python polars' engine. This will grant your specific business logic with - Rust performance (The familiar vectorization in python). - Paralellism (orchestrated by the polars engine) (No GIL Locking!) - Optimizations (The optimizer will use the properties of your UDF to elide work).",
+  "duration": 2961,
+  "language": "eng",
+  "recorded": "2023-11-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20240930133013/http://pydata.org/eindhoven2023"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/jKW-CBV7NUM/maxresdefault.jpg",
+  "title": "Ritchie Vink - Keynote on Polars Plugins",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jKW-CBV7NUM"
+    }
+  ]
+}
