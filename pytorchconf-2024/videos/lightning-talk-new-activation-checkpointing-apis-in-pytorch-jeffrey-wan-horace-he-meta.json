@@ -1,0 +1,24 @@
+{
+  "description": "Lightning Talk: New Activation Checkpointing APIs in PyTorch - Jeffrey Wan & Horace He, Meta\n\nActivation checkpointing is a commonly used technique to reduce memory usage during model training by reducing the number of activations saved for backward. Instead of keeping tensors needed for backward alive until they are used in gradient computation during backward, those tensors are recomputed during the backward pass. This talk will introduce new activation checkpoint APIs that can help achieve a better trade off between memory savings and compute overhead that recomputing introduces.",
+  "duration": 750,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/v3gsrJtGLiA/maxresdefault.webp",
+  "title": "Lightning Talk: New Activation Checkpointing APIs in PyTorch - Jeffrey Wan & Horace He, Meta",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=v3gsrJtGLiA"
+    }
+  ]
+}
