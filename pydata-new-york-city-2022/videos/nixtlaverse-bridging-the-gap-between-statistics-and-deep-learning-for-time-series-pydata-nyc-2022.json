@@ -1,0 +1,43 @@
+{
+  "description": "Time-series modeling \u2013 analysis, and prediction of trends and seasonalities for data collected over time \u2013 is a rapidly growing category of software applications.\n\nBusinesses, ranging from finance to healthcare analytics, collect time-series data daily to predict patterns and build better data-driven product experiences. For example, temperature and humidity prediction is used in manufacturing to prevent defects, streaming metrics predictions help identify music's popular artists, and sales forecasting for thousands of SKUs across different locations is used to optimize inventory costs. As data generation increases, the forecasting necessities have evolved from modeling a few time series to predicting millions. Explainable and scalable forecasting remains a challenging task for strategic decision-making.\n\nDuring the last decades, the forecasting field was dominated by statistical techniques like Auto-Regressive Integrated Moving Average (ARIMA) and Exponential Smoothing (ETS). However, with the explosions in datasets size, neural networks, and machine learning techniques regained their popularity in forecasting and showed to be quite effective, simple, and scalable. Although neural Networks have proven powerful and flexible, they are not easily interpretable, which constitutes a barrier to their wider adoption. Interpretability is critical because it encourages trust and widens the knowledge of the modeled process.\n\nIn this talk, we will explore how we can combine econometrics and statistics with neural network innovations to advance usability, usefulness, and interpretability in forecasting.\n\nWe will deep dive into different SoTA models like the ES-RNN, N-BEATS, N-HiTS, and large-scale benchmarking. We will also introduce the NixtlaVerse: a group of open-source python libraries that facilitate the use of these competition-winning models for data scientists and developers. We wrote Nixtla in PyTorch and NumBa, focusing on usability, speed, and reproducibility.\n\nThe talk is intended as an intermediary introduction to the field. It aims to introduce different theoretical elements and practical tips to help the attendees implement robust and accurate forecasting pipelines with a better understanding of the intricacy of the time series field. Basic knowledge of Python and high school math is expected.\n\nThe talk will be outlined as followed:\n- Introduction to time series\n-- Lightning Fast Statistical Forecating: StatsForecast\n-- AutoARIMA\n-- AutoETS\n-- Large Scale Benchmarking\n- Interpretable Deep learning Forecasting: NeuralForecast\n-- N-BEATSx - univariate point forecasting with exogenous variables\n-- N-HiTS - Long-Horizon Forecasting\n-- ES-RNN - winner of the M4 competition\n- Practical examples and conclusions\n\nBio:\nMax Mergenthaler\nCEO and Co-Founder of Nixtla, a time-series forecasting startup. Previously he was CTO and Co-Founder of Levo (YC S21). Max has worked in the ML industry for the last decade, where he has built and led ML teams. He has co-authored different papers on forecasting algorithms and decision theory. He is a co-maintainer of different open source libraries in the python ecosystem. His passion is the intersection between business and technology.\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1953,
+  "language": "eng",
+  "recorded": "2022-11-09",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/nyc2022/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/iKW-WQO1d1A/maxresdefault.jpg",
+  "title": "NixtlaVerse, bridging the gap between statistics and deep learning for time series | PyData NYC 2022",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iKW-WQO1d1A"
+    }
+  ]
+}
