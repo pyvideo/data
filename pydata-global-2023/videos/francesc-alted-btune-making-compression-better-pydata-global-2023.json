@@ -1,0 +1,55 @@
+{
+  "description": "www.pydata.org\n\nData compression is not a one-codec-fits-all problem. It necessarily involves a trade-off between compression ratio and speed. A higher compression ratio usually results in a slower compression process. Depending on the needs, one may want to prioritize one over the other. The issue is that finding the optimal compression parameters can be a slow process due to the large number of combinations of compression parameters (codec, compression level, filter, split mode, number of threads, etc.), and it may require a significant amount of manual trial and error to find the best combinations.\n\nBtune (https://btune.blosc.org) is a dynamic plugin for Blosc2 that can help finding the optimal combination of compression parameters for datasets compressed with Blosc2 (https://github.com/Blosc/c-blosc2, https://github.com/Blosc/python-blosc2), while significantly speeding up this process.\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 4110,
+  "language": "eng",
+  "recorded": "2023-12-06",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2023/"
+    },
+    {
+      "label": "https://github.com/Blosc/c-blosc2,",
+      "url": "https://github.com/Blosc/c-blosc2,"
+    },
+    {
+      "label": "https://github.com/Blosc/python-blosc2",
+      "url": "https://github.com/Blosc/python-blosc2"
+    },
+    {
+      "label": "https://btune.blosc.org",
+      "url": "https://btune.blosc.org"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/RhqneTlJvEI/maxresdefault.jpg",
+  "title": "Francesc Alted - Btune: Making Compression Better | PyData Global 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RhqneTlJvEI"
+    }
+  ]
+}
