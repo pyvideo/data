@@ -1,0 +1,57 @@
+{
+  "description": "Gordon Inggs\n\nhttps://2018.za.pycon.org/talks/40-parallel-programming-with-pyopencl-for-fun-and-profit/\n\n## Overview\r\nIt's never been easier to use all manner of interesting computing devices such as multicore CPUs, GPUs and FPGAs using [OpenCL](https://www.khronos.org/opencl/), an open heterogeneous computing standard, supported by major hardware vendors: [Intel](https://software.intel.com/en-us/articles/opencl-drivers), [NVIDIA](https://developer.nvidia.com/opencl), [AMD](https://www.amd.com/en-us/solutions/professional/hpc/opencl), [ARM](https://developer.arm.com/graphics/resources/tutorials/opencl-tutorials), etc. And it's never been easier to use OpenCL via the excellent Python bindings, [PyOpenCL](https://documen.tician.de/pyopencl/).\r\n\r\nIn this talk, I will introduce the basics of the OpenCL programming and runtime APIs, using examples run in Jupyter notebooks on a variety of devices. I will also help identify the situations where it makes sense to accelerate portions of a codebase.\r\n\r\n## Audience\r\nThis talk is aimed at anyone who loves the expressiveness of Python, but has bumped into its performance limitations. I assume no background in HPC and/or heterogeneous computing, and will be using simple, yet hopefully relevant examples such as fundamental linear algebra and analysis applications.\r\n\r\nBy the end of the talk, provided it isn't a post-lunch slot, the audience should be ready to identify the hotspots in their code, and start accelerating using the CPUs, GPUs and FPGAs in their laptops and favourite public clouds such as AWS, Azure and GCE.\n\npyconza2018\n\npython",
+  "duration": 2290,
+  "language": "eng",
+  "recorded": "2018-10-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2018.za.pycon.org/"
+    },
+    {
+      "label": "https://documen.tician.de/pyopencl/",
+      "url": "https://documen.tician.de/pyopencl/"
+    },
+    {
+      "label": "https://software.intel.com/en-us/articles/opencl-drivers",
+      "url": "https://software.intel.com/en-us/articles/opencl-drivers"
+    },
+    {
+      "label": "https://www.amd.com/en-us/solutions/professional/hpc/opencl",
+      "url": "https://www.amd.com/en-us/solutions/professional/hpc/opencl"
+    },
+    {
+      "label": "https://developer.arm.com/graphics/resources/tutorials/opencl-tutorials",
+      "url": "https://developer.arm.com/graphics/resources/tutorials/opencl-tutorials"
+    },
+    {
+      "label": "https://2018.za.pycon.org/talks/40-parallel-programming-with-pyopencl-for-fun-and-profit/",
+      "url": "https://2018.za.pycon.org/talks/40-parallel-programming-with-pyopencl-for-fun-and-profit/"
+    },
+    {
+      "label": "https://www.khronos.org/opencl/",
+      "url": "https://www.khronos.org/opencl/"
+    },
+    {
+      "label": "https://developer.nvidia.com/opencl",
+      "url": "https://developer.nvidia.com/opencl"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "GordonInggs",
+    "pyconza",
+    "pyconza2018",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/hqieYt9sXPU/maxresdefault.webp",
+  "title": "Parallel Programming with (Py)OpenCL for Fun and Profit",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hqieYt9sXPU"
+    }
+  ]
+}

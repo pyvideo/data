@@ -1,0 +1,37 @@
+{
+  "description": "Nickolas Grigoriadis\n\nhttps://2018.za.pycon.org/talks/24-developing-good-orms-is-hard/\n\nAs with many people, I was looking for an ORM for `asyncio` Python.\r\n\r\nWhilst `asyncio` is a great framework for I/O bound applications, there isn't any mature, recommendable ORMs for it.  \r\nMany attempts to wrap an existing sync Python ORM (such as peewee or sqlAlchemy) by having them run in a separate thread, and then dealing with synchronising between the event loop and threads got abandoned, due to a myriad of problems, including performance, correctness and blocking.  \r\nOther ORMs were abandoned before they worked, or had so many layers of abstraction that I feared to touch it.\r\n\r\nThen I came across [Tortoise ORM](http://tortoise-orm.readthedocs.io/)  \r\nIt had a simple design. (Inspired by the Django ORM syntax)  \r\nIt actually worked when I tried it out.\r\n\r\nSo I decided to jump in, and help with development.\r\n\r\nIn this talk I'll talk about my experience of being on a development team on an ORM.  \r\nThere is a reason there are so few successful ORM projects out there.\r\n\r\nDeveloping good ORMs are **HARD**\n\npyconza2018\n\npython",
+  "duration": 2556,
+  "language": "eng",
+  "recorded": "2018-10-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2018.za.pycon.org/"
+    },
+    {
+      "label": "https://2018.za.pycon.org/talks/24-developing-good-orms-is-hard/",
+      "url": "https://2018.za.pycon.org/talks/24-developing-good-orms-is-hard/"
+    },
+    {
+      "label": "http://tortoise-orm.readthedocs.io/",
+      "url": "http://tortoise-orm.readthedocs.io/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "NickolasGrigoriadis",
+    "pyconza",
+    "pyconza2018",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/MHPimjGY2As/maxresdefault.webp",
+  "title": "Developing good ORMs is HARD!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MHPimjGY2As"
+    }
+  ]
+}
