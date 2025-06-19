@@ -1,0 +1,42 @@
+{
+  "description": "Xeus, a native implementation of the Jupyter protocol, facilitates the authoring of new kernels, especially for languages for which the interpreter has a C or a C++ API. Kernel authors can focus on the language-specific parts of their work and don\u2019t have to deal with the protocol. The number of flurishing kernels based on xeus these last years has proven it to be a reliable component of the Jupyter ecosystem.\n\nIn this talk, we will talk about the last evolutions of the xeus stack, and how the flexible architecture of xeus made it easy to develop kernels that run entirely in the browser.\n\nWe will first give an overview of the xeus ecosystem and the different kernels based on it. We will then dive into the detail of xeus and its architecture, and how users can author new kernels with the library.\n\nIn the next section, we will discuss the specifity of WASM kernels, and demonstrate how the change in xeus made it easy to generate kernels that run entirely in the browser.\n\nWe will conclude with a roadmap for future developments.\n\nOutline:\n\nOverview of the xeus-based kernels\nDetails of the xeus architecture\nSpecificity of WASM kernels and how we adapted xeus\nWASM kernel generation",
+  "duration": 1639,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#BrowserComputin",
+    "#BrowserIDE",
+    "#CodeExecution",
+    "#ComputationalNotebooks",
+    "#DataScience",
+    "#InteractiveNotebooks",
+    "#JupyterCon2023",
+    "#KernelMagic",
+    "#KernelProgramming",
+    "#OpenSource",
+    "#PythonInBrowser",
+    "#WebAssembly",
+    "#WebBasedKernels",
+    "#WebDevelopment",
+    "#WebNotebooks",
+    "#WebTechnologies",
+    "#XeusKernels"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Qpefh7NeUu4/maxresdefault.jpg",
+  "title": "Johan Mabille, Thorsten Beier   Xeus kernels in the browser | JupyterCon 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Qpefh7NeUu4"
+    }
+  ]
+}

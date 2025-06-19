@@ -1,0 +1,40 @@
+{
+  "description": "In this talk, I'll introduce IPyflow, which is my stab at addressing the issue of statefulness in Jupyter notebooks. IPyflow is a Jupyter kernel designed from the ground up to annotate each symbol appearing in program text with metadata pertaining to how it relates to every other symbol.\n\nThis dependency graph is then leveraged to provide several interesting features, including:\n- execution suggestions, for keeping the notebook state in sync with the code;\n- dynamic backward slicing, to show the minimal code needed to reconstruct each symbol; and\n- dynamic forward slicing, used to enable reactive execution.\n\nFinally, I will also discuss IPyflow's reactive syntax extensions, which allow for opt-in reactivity at the granularity of individual symbols, as well as its interoperability with other libraries and frameworks such as ipywidgets and stickyland. I'll end the talk by showing how IPyflow can be used with the aforementioned projects to build fully reactive and interactive dashboards on top of JupyterLab.",
+  "duration": 1573,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mZZnDlyKk7g/maxresdefault.jpg",
+  "title": "Stephen Macke   IPyflow: Supercharging Jupyter with Dataflow Awareness | JupyterCon 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mZZnDlyKk7g"
+    }
+  ]
+}

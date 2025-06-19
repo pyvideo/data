@@ -1,0 +1,40 @@
+{
+  "description": "JupyterHub is a modular and extensible project, with components, like the proxy, authenticator and spawner, that can be easily replaced with alternate implementations. Testing the functionality of these components against JupyterHub is important and it requires various hub setups that can sometimes become complicated.\n\nEach of these hub components and the hub itself define their own testing infrastructure, building everything from the ground up using the pytest framework. And some of this complex work is either repetitive across JupyterHub sub-projects, or under-specified for some of them. This sparked a need to abstract these common parts into a separate testing framework.\n\nDuring the 3-month Outreachy internship round of 2022, I was tasked with creating a reusable JupyterHub Pytest Plugin. The goal was to provide importable testing utilities to make it easier for contributors to write tests for the various hub components.\n\nThis talk will cover details about:\n* How we identified the reusable hub functionalities across the jupyterhub repository and its components\n* The integration of the Pytest plugin into various JupyterHub sub-projects\n* How the community can use this pytest plugin to test their own implementations of the JupyterHub components\n* The impact of this project on the maintainability and continuity of the JupyterHub project",
+  "duration": 1217,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XsZUjUD_WeE/maxresdefault.jpg",
+  "title": "Sheila Kahwai   Reusable JupyterHub Pytest Plugin | JupyterCon 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XsZUjUD_WeE"
+    }
+  ]
+}

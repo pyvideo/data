@@ -1,0 +1,24 @@
+{
+  "description": "In the past years, real-time collaboration has become a must for any editor, a feature that users expect as core functionality in their daily editor. Sharing and collaborating on the same document with your colleagues or teachers increases productivity by improving the teamwork experience.\n\nThe adoption of real-time collaboration in JupyterLab has been a challenge for many developers over the years. From the very beginning, RTC was in JupyterLab's roadmap. Still, it was only in v3.x that it became a reality, and in v4.0, that it shows its real power. We want to describe the feature in detail with everyone to give extension developers the knowledge to leverage it into their plugins.\n\nThis talk will go through the RTC implementation and describe the role of the packages used.. The various entry points to use and extend real-time collaboration on documents will be highlighted. And it will show the corner cases and the restrictions it enforces.\n\nFinally, we will offer a glimpse into how real-time collaboration works in JupyterCAD and JupyterLite. JupyterCAD is a JupyterLab extension using a non-default document type for 3D geometry modeling that supports the FreeCAD format. JupyterLite is a lightweight serverless version of JupyterLab, which changes the paradigm of collaboration. It adds a new challenge by removing the central authority that's the server, requiring the use of peer-to-peer communication to synchronize clients. The document is leveraging the real-time collaboration API to allow collaborative editing.",
+  "duration": 1588,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/CoZ3Sg--JLk/maxresdefault.jpg",
+  "title": "Carlos Herrero, Trung Le, David Brochart   Real Time Collaboration in Jupyter | JupyterCon 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CoZ3Sg--JLk"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "description": "In this interactive session we showcase our recent work to leverage Jupyter Notebooks and Conda packages to publish and share interactive design experiments and tutorials using open source silicon toolchains.\n\nNotebooks published at https://github.com/chipsalliance/silicon-notebooks demonstrate how run fully open source silicon flows from design to gds using publicly-hosted notebooks without having to install any tool locally.\n\nAdditionally we show how those notebooks can be scaled on a public cloud provider to explore the parameters space of various silicon designs:\n- We deploy an opensource terraform solution https://github.com/GoogleCloudPlatform/rad-lab to provision jupyter notebooks with all the necessary tools pre-installed to model our experiments w/ design and flow parameters.\n- Between each batch of experiments we report estimated performance metrics to a blackbox and hyperparameter optimization service (which has also an opensource implementation https://github.com/google/vizier) allowing it to suggest new parameters for future batches.\n- We observe that the experiments quickly converge toward the best metrics for the given designs.\n- Each of the jobs result in a standalone notebook allowing us to share, aggregate and reproduce every experiments.",
+  "duration": 1639,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    },
+    {
+      "label": "https://github.com/google/vizier",
+      "url": "https://github.com/google/vizier"
+    },
+    {
+      "label": "https://github.com/GoogleCloudPlatform/rad-lab",
+      "url": "https://github.com/GoogleCloudPlatform/rad-lab"
+    },
+    {
+      "label": "https://github.com/chipsalliance/silicon-notebooks",
+      "url": "https://github.com/chipsalliance/silicon-notebooks"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "#AIinAction",
+    "#CodingInJupyter",
+    "#DataAnalysis",
+    "#DataDrivenInsights",
+    "#DataScienceInnovation",
+    "#DataVisualization",
+    "#InteractiveComputing",
+    "#JupyterCommunity",
+    "#JupyterCon2023",
+    "#JupyterLove",
+    "#MachineLearning",
+    "#NotebookWorkflow",
+    "#OpenSourceTools",
+    "#PythonProgramming",
+    "#ResearchTools"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/iBJJ0Dj6lts/maxresdefault.webp",
+  "title": "Johan Euphrosine   Accelerating the Open Source Silicon Ecosystem with Jupyter Notebooks | JupyterCo",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iBJJ0Dj6lts"
+    }
+  ]
+}
