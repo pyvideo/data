@@ -1,0 +1,43 @@
+{
+  "description": "Debugging is hard. Distributed debugging is hell.\n\nDask is a popular library for parallel and distributed computing in Python. Dask is commonly used in data science, actual science, data engineering, and machine learning to distribute workloads onto clusters of many hundreds of workers with ease.\n\nHowever, when things go wrong life can become difficult due to all of the moving parts. These parts include your code, other PyData libraries like NumPy/pandas, the machines you\u2019re running on, the network between them, storage, the cloud, and of course issues with Dask itself. It can be difficult to understand what is going on, especially when things seem slower than they should be or fail unexpectedly. Observability is the key to sanity and success.\n\nIn this talk, we describe the tools Dask offers to help you observe your distributed cluster, analyze performance, and monitor your cluster to react to unexpected changes quickly. We will dive into distributed logging, automated metrics, event-based monitoring, and root-causing problems with diagnostic tooling. Throughout the talk, we will leverage real-world use cases to show how these tools help to identify and solve problems for large-scale users in the wild.\n\nThis talk should be particularly insightful for Dask users, but the approaches to observing distributed systems should be relevant to anyone operating at scale in production.\n\nhttps://github.com/hendrikmakait/pydata-berlin-2023",
+  "duration": 1759,
+  "language": "eng",
+  "recorded": "2023-04-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.pycon.de/"
+    },
+    {
+      "label": "https://github.com/hendrikmakait/pydata-berlin-2023",
+      "url": "https://github.com/hendrikmakait/pydata-berlin-2023"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Qp90ka5ZMqg/maxresdefault.jpg",
+  "title": "Hendrik Makait: Observability for Distributed Computing with Dask",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Qp90ka5ZMqg"
+    }
+  ]
+}

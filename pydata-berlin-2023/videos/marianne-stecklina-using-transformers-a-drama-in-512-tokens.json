@@ -1,0 +1,43 @@
+{
+  "description": "\u201cGot an NLP problem nowadays? Use transformers! Just download a pretrained model from the hub!\u201d - every blog article ever\n\nAs if it\u2019s that easy, because nearly all pretrained models have a very annoying limitation: they can only process short input sequences. Not every NLP practitioner happens to work on tweets, but instead many of us have to deal with longer input sequences. What started as a minor design choice for BERT, got cemented by the research community over the years and now turns out to be my biggest headache: the 512 tokens limit.\n\nIn this talk, we\u2019ll ask a lot of dumb questions and get an equal number of unsatisfying answers:\n\n    How much text actually fits into 512 tokens? Spoiler: not enough to solve my use case, and I bet a lot of your use cases, too.\n\n    I can feed a sequence of any length into an RNN, why do transformers even have a limit? We\u2019ll look into the architecture in more detail to understand that.\n\n    Somebody smart must have thought about this sequence length issue before, or not? Prepare yourself for a rant about benchmarks in NLP research.\n\n    So what can we do to handle longer input sequences? Enjoy my collection of mediocre workarounds.\n\nSlide: https://speakerdeck.com/stecklin",
+  "duration": 1881,
+  "language": "eng",
+  "recorded": "2023-04-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.pycon.de/"
+    },
+    {
+      "label": "https://speakerdeck.com/stecklin",
+      "url": "https://speakerdeck.com/stecklin"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/TigtGzXnwJ8/maxresdefault.jpg",
+  "title": "Marianne Stecklina: Using transformers \u2013 a drama in 512 tokens",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TigtGzXnwJ8"
+    }
+  ]
+}
