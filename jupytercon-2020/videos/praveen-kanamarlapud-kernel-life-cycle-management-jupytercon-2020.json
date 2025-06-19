@@ -1,0 +1,36 @@
+{
+  "description": "Brief Summary\nNotebooks has seen an enthusiastic adaptation over time. With increased adaptation comes new challenges - how to manage different environments for kernels, updating an environment without breaking anything, maintain different versions of kernels for dev and production, share a notebook which will run everywhere. This talk will explain how kernel life cycle management will simplify these challenges\n\nOutline\nJupyter Notebook has seen an enthusiastic adoption among the data science and engineering community, to an extent where it has become a default environment for all the research. Many enterprises use notebooks as a de facto tool for all their data and machine learning development activities, and some of them are even productionalizing the notebooks. Majority of data scientists and engineers at PayPal use notebooks for all development activities. In fact, the entire data and AI/ML platforms are exposed through notebooks.\n\nWith increased usage comes new challenges. As thousands of users use notebooks, there is a need for different environments to be used for different use cases and governance around these environments. Here are some of the challenges we faced \u2022 It has become a management nightmare to support different python versions and packages for different environments \u2022 Sharing a notebook is not simple with different notebooks environments \u2022 Hard to maintain different kernels and versions for different environments like development and production\n\nSo, we implemented a solution named kernel life cycle management to solve some of these challenges. Praveen and Ayushi will explain \u2022 Kernel Life Cycle Management \u2013 how life cycle management was introduced for kernels at PayPal by leveraging Kubernetes and Docker \u2022 Sharing a notebook \u2013 How a shared notebook can be executed for any user \u2022 Making changes to kernel environment without breaking scheduled notebooks in production \u2022 Kernel as a docker image for isolating the environments\n\nBackground knowledge for attendees: \u2022 Basic understanding of notebooks and kernels\n----\nJupyterCon brings together data scientists, business analysts, researchers, educators, developers, core Project\u00a0contributors, and tool creators for in-depth training, insightful keynotes, networking, and practical talks exploring\u00a0the Project Jupyter ecosystem.\n\nhttps://jupytercon.com/\u00a0\n\nJupyterCon is possible thanks to the generous support of our sponsors, and the labor of many volunteer organizers.\u00a0\n\nhttps://jupytercon.com/sponsors/\u00a0\nhttps://jupytercon.com/about/#Organizing%20Committee\u00a0(edited)\u00a0\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020\n\n\ufffc\njupytercon.com\nJupyterCon2020\nJupyterCon 2020",
+  "duration": 1336,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/SzvTh2zJbJo/sddefault.jpg",
+  "title": "Praveen Kanamarlapud - Kernel Life Cycle Management | JupyterCon 2020",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SzvTh2zJbJo"
+    }
+  ]
+}
