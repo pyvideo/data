@@ -1,0 +1,67 @@
+{
+  "description": "Smart meters only measure redelivered energy, but can\u2019t measure how much solar energy was used by the household itselff before that. In this talk we will go in-depth into the process of estimating solar production from the energy that is redelivered to the grid at the smart meter, using PyTorch and Horovod. We will go through the entire process from ideation to production-ready: validating the feasibility of the model, gathering a dataset, exploring different solutions and finally training and validating the model. \nNext to that there are some technical challenges: To deal with the scale of data we used the distributed deep learning framework Horovod for training, and Spark for distributed predictions. We show how we use MlFlow for keeping track of our model iterations and finally, we will walk you through the data-engineering required to get the data presented in our mobile app! \nCome join us to learn the ins and outs of getting a deep learning use case to production at scale!\n\nRik van der Vlist: A Data Scientist with a passion for making things work from beginning to end, I love the challenges that come with maintaining, deploying and automating machine learning pipelines just as much as the modelling part itself. At Eneco we have developed a lot of interesting models for smart energy advice, ranging from estimating the savings of lowering your setpoint by one degree to detecting inefficient washing machines or monitoring solar panels.\n\nCorn\u00e9 Vriends: I am a Data Scientist that works at Eneco, specifically on the Toon\u00ae.\nLinkedIn: https://www.linkedin.com/in/cornevriends/\n\nFenno Vermeij: I am a Data engineer that works for Eneco. My interests include AWS, Azure, Spark and big, big data. I am working hard to learn more about architecture. I am working on Toon, trying to make smart homes better.\nLinkedIn: https://www.linkedin.com/in/fenno-vermeij-3193a831/?originalSubdomain=nl\nGitHub: https://github.com/fennovj/\nWebsite: https://fenno.dev/\n\nPyData Eindhoven 2021\nWebsite: https://pydata.org/eindhoven2021/\nTwitter: https://twitter.com/pydataeindhoven\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 2190,
+  "language": "eng",
+  "recorded": "2021-11-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://twitter.com/pydataeindhoven",
+      "url": "https://twitter.com/pydataeindhoven"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://fenno.dev/",
+      "url": "https://fenno.dev/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/cornevriends/",
+      "url": "https://www.linkedin.com/in/cornevriends/"
+    },
+    {
+      "label": "https://pydata.org/eindhoven2021/",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/fenno-vermeij-3193a831/?originalSubdomain=nl",
+      "url": "https://www.linkedin.com/in/fenno-vermeij-3193a831/?originalSubdomain=nl"
+    },
+    {
+      "label": "https://github.com/fennovj/",
+      "url": "https://github.com/fennovj/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3LbkXCGl1Gk/maxresdefault.jpg",
+  "title": "Estimating solar production w/ distributed deep learning from smart meter data | Eindhoven 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3LbkXCGl1Gk"
+    }
+  ]
+}

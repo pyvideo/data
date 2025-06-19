@@ -1,0 +1,55 @@
+{
+  "description": "As part of our personal finance management functionality, ING categorises transactions in real-time for customers that want to get insight into where they are spending their money. In this talk for anybody who would like to be inspired by a real-life, large-scale data science use case, I\u2019ll elaborate on 1) the tools and constraints within which we are operating, 2) how we bootstrapped the algorithm, so we could go live to customers with acceptable quality, and 3) the Bayesian-inspired functionality that we created to make this categorisation algorithm self-learn from the feedback from those customers.\nThe system, which was developed in-house, is split into a batch part and a real-time part. The batch part was written in PySpark and uses both implicit and explicit feedback from customers to tweak the predicted category for each counterparty. We use Bayesian inference to assess probabilities and bandits to provoke more varied feedback from customers. The real-time part uses the information from the batch part to categorise the transactions as they happen using Apache Flink and PMML.\nIn this talk I hope to inspire you to make the most of the tools you have available, and get your hands dirty with streaming analytics and to convince you that you don\u2019t need deep learning to change the lives of your customers for the better.\n\nTijl Kindt:  a senior data scientist at ING Bank in the Netherlands. After obtaining a Bachelor's degree in Astronomy, and a Master's degree in Media Technology with a thesis on predicting mood in the context of movie recommendations, he joined ING in 2013, where he worked for 3 years on marketing models with SAS. Since then he's been focusing on customer-facing data products that help customers manage their money, such as Kijk Vooruit (Look Ahead) and Inzicht (Insight).\n\nLinkedIn: https://www.linkedin.com/in/tijlk/\n\nPyData Eindhoven 2021\nWebsite: https://pydata.org/eindhoven2021/\nTwitter: https://twitter.com/pydataeindhoven\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 2355,
+  "language": "eng",
+  "recorded": "2021-11-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/pydataeindhoven",
+      "url": "https://twitter.com/pydataeindhoven"
+    },
+    {
+      "label": "https://www.linkedin.com/in/tijlk/",
+      "url": "https://www.linkedin.com/in/tijlk/"
+    },
+    {
+      "label": "https://pydata.org/eindhoven2021/",
+      "url": "https://pydata.org/eindhoven2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/nmHtl2YAMVY/maxresdefault.jpg",
+  "title": "Real-time transaction categorization w/ Bayesian feedback loop - Tijl Kindt | PyData Eindhoven 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nmHtl2YAMVY"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "description": "We have been developing an automated camera solution, in which we use video input, neural networks for player detection, sport-specific decision making and a PTZ-camera to deliver an automated livestreaming application. The complete pipeline has to work in real-time with a maximum delays of 300ms. Within the 300ms we have to fetch the video streams, run several neural networks, apply business rules and control the PTZ. Over the past year, we have had to refactor code, remove complete modules or change python packages due to delay constraints. During the talk we will show the insights we gained during the process. Specifically, we will go into:\n(a) overall architecture of the pipeline.\n(b) system requirements.\n(c) implementing a logging module to better identify the bottlenecks in the applications.\n(d) use high performance queues for communication.\n\n\nJelmer Wilhelm: Background in industrial engineering, data analysis, machine learning and artificial intelligence. Currently working at Whitebox Data Science; a company specialized in custom software and data analysis for logistics companies. Also working at Eyedle; a company specialized in computer vision software.\nGithub: https://github.com/j-wilhelm/ \nLinkedIn: https://www.linkedin.com/in/jelmer-wilhelm//\n\nPyData Eindhoven 2021\nWebsite: https://pydata.org/eindhoven2021/\nTwitter: https://twitter.com/pydataeindhoven\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1803,
+  "language": "eng",
+  "recorded": "2021-11-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://twitter.com/pydataeindhoven",
+      "url": "https://twitter.com/pydataeindhoven"
+    },
+    {
+      "label": "https://www.linkedin.com/in/jelmer-wilhelm//",
+      "url": "https://www.linkedin.com/in/jelmer-wilhelm//"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://github.com/j-wilhelm/",
+      "url": "https://github.com/j-wilhelm/"
+    },
+    {
+      "label": "https://pydata.org/eindhoven2021/",
+      "url": "https://pydata.org/eindhoven2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CCC7mrrFlpQ/maxresdefault.jpg",
+  "title": "When performance matters: running a real-time computer vision pipeline| PyData Eindhoven 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CCC7mrrFlpQ"
+    }
+  ]
+}
