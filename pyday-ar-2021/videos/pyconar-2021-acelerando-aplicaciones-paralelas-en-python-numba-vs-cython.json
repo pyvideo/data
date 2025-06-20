@@ -1,0 +1,33 @@
+{
+  "description": "En la \u00faltima d\u00e9cada, el procesamiento concurrente y paralelo ha tomado mayor relevancia debido a la constante necesidad de disminuir el tiempo de respuesta y al crecimiento vertiginoso de los datos a procesar. Por su parte, Python no ha sido ajeno a esta cuesti\u00f3n, existiendo diferentes alternativas que permiten explotar capacidades de concurrencia y paralelismo. El int\u00e9rprete oficial de Python, conocido como CPython, presenta limitaciones al momento de implementar soluciones paralelas de memoria compartida, es decir, aplicaciones multi-hiladas. En particular, el principal problema es la utilizaci\u00f3n de un componente llamado Global Interpreter Lock (GIL), el cual permite que solo un hilo se ejecute a la vez. Esta caracter\u00edstica afecta fuertemente a las aplicaciones cpu-bound, ya que llevan a que su ejecuci\u00f3n sea pr\u00e1cticamente de forma secuencial. Para solucionar esta limitaci\u00f3n, se suele utilizar procesos en vez de hilos, pero hay que tener en cuenta que el consumo de recursos es mayor y que aumenta el costo de programaci\u00f3n por tener un espacio de direcciones distribuido. Lamentablemente, int\u00e9rpretes alternativos a CPython que est\u00e1n orientados a la optimizaci\u00f3n de los programas, como PyPy y Pyston, tambi\u00e9n presentan el mismo problema. Afortunadamente, existen hoy 2 propuestas de traductores que permiten dar respuesta a esta problem\u00e1tica: Numba y Cython. Si bien ambas optan por desactivar el GIL y dan la posibilidad de paralelizar los algoritmos, tienen filosof\u00edas de desarrollo diferentes: 1. Numba, un compilador Just-In-Time que traduce Python en c\u00f3digo de m\u00e1quina optimizado. El mismo, utiliza una caracter\u00edstica de Python conocida como decoradores para intervenir lo menos posible en el c\u00f3digo del programador. Adem\u00e1s, permite utilizar librer\u00edas como NumPy para manejar la organizaci\u00f3n de la memoria y emplear operaciones vectoriales sobre los datos. Esto \u00faltimo, resulta de sumo inter\u00e9s para disminuir las l\u00edneas de c\u00f3digo y por consiguiente, el esfuerzo de programaci\u00f3n empleado. 2. Cython, un compilador est\u00e1tico que permite transpilar Python a C y luego compilarlo a c\u00f3digo objeto. A partir del uso de librer\u00edas de C como OpenMP, resulta posible desarrollar programas multi-hilados, pero a diferencia de Numba, requiere que el programador tenga conocimientos sobre C para poder optimizar la soluci\u00f3n. Sabiendo esto, al momento de implementar una aplicaci\u00f3n multi-hilada en Python, se debe seleccionar qu\u00e9 traductor utilizar. Esta elecci\u00f3n es fundamental ya que no s\u00f3lo impactar\u00e1 en el rendimiento del programa sino tambi\u00e9n en el tiempo requerido para desarrollo como tambi\u00e9n en el costo de mantenerlo a futuro. En esta charla, se explicar\u00e1n las limitaciones de Python para obtener alto rendimiento en aplicaciones multi-hiladas y se describir\u00e1n las principales caracter\u00edsticas de Cython y Numba, destacando fortalezas y debilidades de cada uno. Adicionalmente, mediante un problema num\u00e9rico sencillo, se mostrar\u00e1 un caso pr\u00e1ctico de c\u00f3mo utilizar ambas herramientas, y se analizar\u00e1 el costo de programaci\u00f3n y el rendimiento de cada una ellas utilizando un procesador Intel Xeon Platinum 8276 de 56 n\u00facleos (2 hilos hw por n\u00facleo) y 256 GB de memoria RAM.\n\nDisertantes: Enzo Rucci y Andr\u00e9s Milla.\nEnzo Rucci: Doctor en Ciencias Inform\u00e1ticas. Profesor e investigador de la Facultad de Inform\u00e1tica en la UNLP. Andr\u00e9s Milla: Docente adscripto del seminario de Python en la UNLP y estudiante de 5\u00ba a\u00f1o de Licenciatura en Inform\u00e1tica en la UNLP.\n\nhttps://eventos.python.org.ar/events/pyconar2021/activity/448/",
+  "duration": 1555,
+  "language": "eng",
+  "recorded": "2021-10-29",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://eventos.python.org.ar/events/pyconar2021/"
+    },
+    {
+      "label": "https://eventos.python.org.ar/events/pyconar2021/activity/448/",
+      "url": "https://eventos.python.org.ar/events/pyconar2021/activity/448/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "pyar",
+    "pycon",
+    "pyconar",
+    "pyconar2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/gzohJYkFsWE/maxresdefault.jpg",
+  "title": "PyConAr 2021 - Acelerando aplicaciones paralelas en Python: Numba vs. Cython",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gzohJYkFsWE"
+    }
+  ]
+}
