@@ -1,0 +1,33 @@
+{
+  "description": "Johan Hartman\n\nhttps://2018.za.pycon.org/talks/21-python-as-a-tool-to-boost-productivity-in-electronic-product-and-system-development/\n\nThe general take away from this talk will be to motivate the use of Python not only as the implementation language to develop your application, but also to use Python to develop your own automation tools that fit your development process. By doing this, you will be able to implement faster, more accurate, have a better tested result and along the way derive many benefits that you won\u2019t foresee when you start. \r\n\r\nAlthough my talk will speak from an embedded engineering point of view and not an IT or web development point of view, I belief the principles applies generally. Over many years and through the life cycle of many products I have evolved a development methodology that uses Python as the language of choice to develop my own tools for code generation (for \u2018C\u2019 and Python), software and firmware test automation, systems compliance testing and hardware manufacturing test automation. \r\n\r\nMy process is that I start a project by defining XML object definitions for all instances of configuration, data or communication objects. From the XML, on the embedded firmware side, I generate \u2018C\u2019 structures, enum\u2019s and prototype function bodies to use in my coding. On the PC or server side, I generate Python data object definitions from the XML. These are imported into Python programs that are written to operate on the object definitions, giving me free reuse of all the interfacing, testing, visualization etc. code that I have developed in the past.\n\npyconza2018\n\npython",
+  "duration": 2573,
+  "language": "eng",
+  "recorded": "2018-10-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2018.za.pycon.org/"
+    },
+    {
+      "label": "https://2018.za.pycon.org/talks/21-python-as-a-tool-to-boost-productivity-in-electronic-product-and-system-development/",
+      "url": "https://2018.za.pycon.org/talks/21-python-as-a-tool-to-boost-productivity-in-electronic-product-and-system-development/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "JohanHartman",
+    "pyconza",
+    "pyconza2018",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/1gawSOnw1dI/maxresdefault.webp",
+  "title": "Python as a tool to boost productivity in (electronic) product and system development.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1gawSOnw1dI"
+    }
+  ]
+}

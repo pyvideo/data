@@ -1,0 +1,33 @@
+{
+  "description": "Jamie Hewland\n\nhttps://2018.za.pycon.org/talks/31-test-your-docker-images-with-python/\n\nAs more and more software is packaged in Docker images, it has become increasingly important that the Dockerfiles and scripts that these images are built from are correct. If Docker images are built and deployed as part of an automated pipeline, it is also important that they continue to work as expected when changes are made upstream.\r\n\r\nStart testing your Docker images without relying on Bash scripts! We\u2019ll cover why we decided to write a testing library and how to use it. We\u2019ll also talk about some of the test fixtures we developed for common infrastructure such as RabbitMQ and PostgreSQL. Finally, we\u2019ll explore some of the limitations and workarounds of creating a test environment of Docker containers.\r\n\r\nSome of the best tools for working with Docker are already written in Python, for example, docker-compose. Bringing together the Python ecosystems around Docker and test frameworks, we created a new Python library called Seaworthy. Seaworthy can be used to verify that a Docker image works as expected in an isolated environment. It provides rich tools for asserting on processes, logs, and HTTP requests.\n\npyconza2018\n\npython",
+  "duration": 2035,
+  "language": "eng",
+  "recorded": "2018-10-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2018.za.pycon.org/"
+    },
+    {
+      "label": "https://2018.za.pycon.org/talks/31-test-your-docker-images-with-python/",
+      "url": "https://2018.za.pycon.org/talks/31-test-your-docker-images-with-python/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "JamieHewland",
+    "pyconza",
+    "pyconza2018",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/NY---NXXHjQ/maxresdefault.webp",
+  "title": "Test your Docker images with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NY---NXXHjQ"
+    }
+  ]
+}

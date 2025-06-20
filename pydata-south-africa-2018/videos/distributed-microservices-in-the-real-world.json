@@ -1,0 +1,33 @@
+{
+  "description": "Imraan Parker\n\nhttps://2018.za.pycon.org/talks/2-distributed-microservices-in-the-real-world/\n\nThis talk is intended for anyone interested in deploying microservices in their environment. It examines what is involved in developing, deploying and maintaining a distributed microservices architecture. Moving from a monolithic architecture to a services oriented architecture has many benefits and tradeoffs that need to be addressed.\r\n\r\nOne has to consider whether to go with an off the shelf solution or build your own. When does it make sense to do the latter? Tasks like monitoring and debugging is more difficult with the added complexity that is inherent with a distributed system.\r\n\r\nThis first part of the talk reviews what needs to be considered when deciding to build applications on a distributed microservices architecture. Topics that will be covered include:\r\n\u2039ul\u203a\r\n    \u2039li\u203aWhy choose a microservices architecture, and when not to?\u2039/li\u203a\r\n    \u2039li\u203aObjectives of a distributed services architecture\u2039/li\u203a\r\n    \u2039ul\u203a\r\n        \u2039li\u203aService presence\u2039/li\u203a\r\n        \u2039li\u203aHeartbeating\u2039/li\u203a\r\n        \u2039li\u203aLogging\u2039/li\u203a\r\n        \u2039li\u203aSecurity\u2039/li\u203a\r\n        \u2039li\u203aReliability\u2039/\u203a\r\n        \u2039li\u203aPerformance and Scalability\u2039/li\u203a\r\n        \u2039li\u203aMonitoring\u2039/li\u203a\r\n        \u2039li\u203aTroubleshooting\u2039/li\u203a\r\n        \u2039li\u203aMessage contracts\u2039/li\u203a\r\n    \u2039/ul\u203a\r\n\u2039/ul\u203a\r\n\r\nThe second part of the talk delves into the micorservices framework built and used by CareerJunction. It is an in house framework written in Python 3 (3.5+) which uses asyncio for nonblocking I/O and ZeroMQ as a concurrency networking library.\r\n\r\nIn simple terms, the framework implements a reliable service-oriented request-reply dialog between a set of client applications, a set of brokers and a set of worker applications. \r\n\r\nThe features of the framework include those discussed in the first part of the talk and will be showcased by coding and deploying a service. Above and beyond that, the following topics will be covered:\r\n\u2039ul\u203a\r\n    \u2039li\u203aConceptual architecture\u2039/li\u203a\r\n    \u2039li\u203aArchitecture goals\u2039/li\u203a\r\n    \u2039li\u203aCoding a service\u2039/li\u203a\r\n        \u2039ul\u203a\r\n            \u2039li\u203aCreating and running a service\u2039/li\u203a\r\n            \u2039li\u203aMessage contract parameters\u2039/li\u203a\r\n            \u2039li\u203aExposing services via HTTP\u2039/li\u203a\r\n            \u2039li\u203aScheduled Jobs\u2039/li\u203a\r\n        \u2039/ul\u203a\r\n\u2039/ul\u203a\r\n\r\nThe last part of the talk examines the lessons learnt over the past few years, what to avoid and the benefits it brought not only to the IT team, but to the business as a whole.\r\nTopics that will be covered include:\r\n\u2039ul\u203a\r\n    \u2039li\u203aIT benefits\u2039/li\u203a\r\n    \u2039li\u203aBusiness benefits\u2039/li\u203a\r\n    \u2039li\u203aWhat to avoid?\u2039/li\u203a\r\n\u2039/ul\u203a\n\npyconza2018\n\npython",
+  "duration": 3460,
+  "language": "eng",
+  "recorded": "2018-10-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2018.za.pycon.org/"
+    },
+    {
+      "label": "https://2018.za.pycon.org/talks/2-distributed-microservices-in-the-real-world/",
+      "url": "https://2018.za.pycon.org/talks/2-distributed-microservices-in-the-real-world/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "ImraanParker",
+    "pyconza",
+    "pyconza2018",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/Lvw3Lp3KrTM/maxresdefault.webp",
+  "title": "Distributed microservices in the real world",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Lvw3Lp3KrTM"
+    }
+  ]
+}
