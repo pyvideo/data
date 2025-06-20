@@ -1,0 +1,55 @@
+{
+  "description": "Optimizing Data-Driven Decisions: Introducing an Aggregation Engine for Efficient Feature Creation\n\nOne of the most common ways of using data to make informed, data-driven decisions, is creating features based on aggregated data. For example, the amount of transactions a client did in their bank account for the past 6 months can be aggregated into a feature that can be later used when making the decision of whether to approve or decline a new transaction request. A naive solution for implementing these aggregative features would be to iterate over large amounts of historical data, on some periodic and on-demand basis, to calculate relevant aggregations. The process that calculates the total transactions in the last 6 months, for example, would need to fetch the entire 6 months of transactions from scratch every time this calculation is performed.\nOur Aggregation Engine was designed to enable a better process, reusing historical aggregative data and preventing unnecessary recalculations of metrics. This engine enables processes to continuously calculate daily metric aggregations and store the values within a dedicated storage. The idea is to use these daily (stored) aggregations to calculate the final aggregation value and dramatically reduce the amount of fetched data required for the calculation as there will be no need to fetch all the historical data. Taking the previous example of a account\u2019s total transactions in the last 6 months, in the new solution we will no longer fetch 180 days of data every time the feature needs to be recalculated; instead, we will fetch only the last 180 daily aggregations (at the most 180 rows from a much shallower table) and sum them up to get the final calculation result.\n\nSpeaker Bio:\nAviv Vromen is an experienced ML and data infrastructure engineer with a strong background in Python. He is currently working at bluevine, where he has played a key role in the company's success in the financial technology sector. Prior to that, Aviv made a contributions as an algorithm developer at Rafael, focusing on complex multi-agent systems.\nIn his conference talk, Aviv aims to share his approach to using aggregated data in order to improve feature calculation.\n\n\nFollow PyData Tel Aviv on:\nhttps://www.meetup.com/PyData-Tel-Aviv/\nhttps://www.linkedin.com/company/pydata-tlv\nhttps://www.facebook.com/PyDataTLV\nhttps://x.com/PyDataTLV\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.",
+  "duration": 1043,
+  "language": "eng",
+  "recorded": "2024-11-04",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/telaviv2024/"
+    },
+    {
+      "label": "https://www.meetup.com/PyData-Tel-Aviv/",
+      "url": "https://www.meetup.com/PyData-Tel-Aviv/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-tlv",
+      "url": "https://www.linkedin.com/company/pydata-tlv"
+    },
+    {
+      "label": "https://x.com/PyDataTLV",
+      "url": "https://x.com/PyDataTLV"
+    },
+    {
+      "label": "https://www.facebook.com/PyDataTLV",
+      "url": "https://www.facebook.com/PyDataTLV"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/DHpFnQrcx_0/maxresdefault.jpg",
+  "title": "Aviv Vromen:  Optimizing Data-Driven Decisions (HE) | PyData Tel Aviv 2024",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=DHpFnQrcx_0"
+    }
+  ]
+}
