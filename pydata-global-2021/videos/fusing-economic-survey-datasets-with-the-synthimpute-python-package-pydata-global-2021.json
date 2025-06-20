@@ -1,0 +1,71 @@
+{
+  "description": "Fusing Economic Survey Datasets With the Synthimpute Python Package\nSpeaker: Max Ghenis\n\nSummary\nEconomists often fuse or impute features between survey datasets to simulate economic policies. I describe common methods such as regression and matching, and show how the synthimpute package's random-forest-based method outperforms these in holdout sets. I also give examples of how PolicyEngine uses synthimpute to research a range of universal basic income policies.\n\nDescription\nWhen economists simulate policy reforms, they turn to representative survey microdata. For example, policy reforms in the United States are often evaluated by simulating the impact on each of the 60,000 households that respond to the Current Population Survey. But the Current Population Survey doesn't include all household information that might be relevant to a policy; for example, it doesn't include wealth or carbon emissions. Simulating wealth taxes or carbon taxes using the Current Population Survey requires imputing wealth from the Survey of Consumer Finances, or carbon emissions from the Consumer Expenditure Survey.\n\nTypical methods for this include regression (sometimes a mix of logistic and linear regression), and statistical matching. However, these methods tend to underestimate the predictive uncertainty, which can lead to too few extreme values. They also don't fully account for interactions in predictors common to each dataset, and they can't be easily adjusted for systematic under- or over-reporting of the predicted quantity in the survey.\n\nI introduce the synthimpute Python package, and its methods for data fusion based on the random forest model. I show that this method outperforms current models for common imputation tasks using quantile loss assessments. I also demonstrate its capabilities to optimize deviations from uniform quantile selection to ensure that imputations sum to administrative targets.\n\nI contextualize the synthimpute technology with examples from PolicyEngine, a tech nonprofit that lets anyone reform the tax and benefit system and see the impact on society and their own household.\n\nMax Ghenis's Bio\nI'm the founder and president of the UBI Center, a think tank that researches universal basic income policies.\n\nPreviously, I worked at Google as a data scientist. I have a B.A. in Operations Research from UC Berkeley and a M.S. in Data, Economics, and Development Policy from MIT.\n\nGitHub: http://github.com/MaxGhenis/\nTwitter: https://twitter.com/MaxGhenis/\nLinkedIn: https://www.linkedin.com/in/MaxGhenis/\nWebsite: http://www.maxghenis.com/home.html\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1575,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "http://www.maxghenis.com/home.html",
+      "url": "http://www.maxghenis.com/home.html"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/MaxGhenis/",
+      "url": "https://www.linkedin.com/in/MaxGhenis/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "http://github.com/MaxGhenis/",
+      "url": "http://github.com/MaxGhenis/"
+    },
+    {
+      "label": "https://twitter.com/MaxGhenis/",
+      "url": "https://twitter.com/MaxGhenis/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/o73I89hYWDE/maxresdefault.jpg",
+  "title": "Fusing Economic Survey Datasets With the Synthimpute Python Package | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=o73I89hYWDE"
+    }
+  ]
+}

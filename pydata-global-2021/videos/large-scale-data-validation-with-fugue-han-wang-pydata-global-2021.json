@@ -1,0 +1,51 @@
+{
+  "description": "Large Scale Data Validation with Fugue\nSpeaker: Han Wang\n\nSummary\nAs data teams scale, data pipelines become increasingly interconnected and often share components. Though efficient for development, upstream changes can cause unintended consequences to downstream datasets. In this talk, we\u2019ll show how data validation solves this and especially focus on how to scale current validation frameworks to handle big data with Spark and Dask.\n\nDescription\nData validation is implementing checks to see if data is coming in (and being processed) as expected. Data teams apply data validation to preserve the integrity of existing data workflows. As data pipelines become interconnected, it becomes very easy for one pipeline\u2019s changes to cause breaking changes to other data applications. In situations like this, data validation serves both as tests for the pipeline, and as a monitoring solution to capture malformed data from flowing through the system. Without these checks, data applications can produce inaccurate results without anyone being alerted.\n\nWhile data validation frameworks are available, it is still hard to bring these solutions to big data. Most frameworks are built for pandas and are challenging to apply with distributed compute frameworks such as Spark and Dask, if at all possible. In this talk, we will cover the basics of data validation, but more importantly, we will also discuss how to apply it on a large dataset.\n\nTo do this, we will use Fugue, an abstraction layer that enables users to port pandas, Python, and SQL code to Spark and Dask. By combining Fugue with existing validation frameworks such as Pandera, we can port pandas-based validation code and apply it distributedly. For large scale data, there is also a unique use case to apply different validations on different partitions of data. This is currently not feasible with any single validation library. In this talk, we will show how validation by partition can be achieved by combining Fugue and validation frameworks such as Pandera.\n\nHan Wang's Bio\nHan Wang is the tech lead of Lyft Machine Learning Platform, focusing on distributed computing solutions. Before joining Lyft, he worked at Microsoft, Hudson River Trading, Amazon and Quantlab. Han is the founder of the Fugue project, aiming at democratizing distributed computing and machine learning.\nGitHub: https://github.com/goodwanghan/\nLinkedIn: https://www.linkedin.com/in/han-wang-97272610/\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1539,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/han-wang-97272610/",
+      "url": "https://www.linkedin.com/in/han-wang-97272610/"
+    },
+    {
+      "label": "https://github.com/goodwanghan/",
+      "url": "https://github.com/goodwanghan/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/fSASmPNW3vc/maxresdefault.jpg",
+  "title": "Large Scale Data Validation with Fugue - Han Wang | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fSASmPNW3vc"
+    }
+  ]
+}

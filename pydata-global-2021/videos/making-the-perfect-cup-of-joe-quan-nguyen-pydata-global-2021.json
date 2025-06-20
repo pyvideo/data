@@ -1,0 +1,71 @@
+{
+  "description": "Making the Perfect Cup of Joe: Active Preference Learning and Optimization Under Uncertainty\nSpeaker: Quan Nguyen\n\nSummary\nModeling user preferences over a feature space and efficiently identifying the highest-valued regions is a common problem in machine learning. This talk discusses a solution to this problem that leverages Bayesian optimization. In doing so, we offer a way to model users\u2019 preferences when data is expensive to obtain and comes in the form of pairwise comparisons.\n\nDescription\n\nOptimizing a user\u2019s valuation of a product is a common problem in machine learning (ML), and an attractive solution to this kind of blackbox optimization problem is Bayesian optimization (BO). BO offers a principled way to quickly identify a user\u2019s highest valuation by designing queries that balance the trade-off between exploration and exploitation. However, a limitation of existing solutions in this framework is that they only work with data on real-valued ratings (e.g., a score of 4 on a 5-point scale asking users to rate a product), and yet in many situations we only have access to information about the user\u2019s preference for a product in one setting over another setting, i.e., pairwise comparison data.\n\nTo learn users\u2019 valuation using these pairwise comparisions, we can leverage a technique called preference learning (PL). This talk presents how BO may be extended to PL, including using a Gaussian Process (GP) for modeling and designing optimization strategies. We will learn how to build an optimization loop of this kind and gain practical skills to do so , such as how to decide which strategy is effective in low- vs. high-dimensional spaces. This talk will benefit ML practitioners who work on human-in-the-loop, A/B testing, product recommendation, and user preference optimization problems. While the talk will cover most background knowledge necessary to implement this optimization technique, the audience should be familiar with common concepts in ML such as training data, predictive models, and multivariate normal distributions.\n\nQuan Nguyen's Bio\nQuan is a Python programmer and machine learning enthusiast. He is interested in solving decision-making problems under uncertainty. Quan has authored several books on Python programming and scientific computing. He is currently pursuing a Ph.D. degree in computer science at Washington University in St. Louis, researching Bayesian methods in machine learning.\nGitHub: https://github.com/KrisNguyen135/\nTwitter: https://twitter.com/the_subtrahend/\nLinkedIn: https://www.linkedin.com/in/quan-m-nguyen/\nWebsite: https://krisnguyen135.github.io//\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1623,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://krisnguyen135.github.io//",
+      "url": "https://krisnguyen135.github.io//"
+    },
+    {
+      "label": "https://www.linkedin.com/in/quan-m-nguyen/",
+      "url": "https://www.linkedin.com/in/quan-m-nguyen/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://twitter.com/the_subtrahend/",
+      "url": "https://twitter.com/the_subtrahend/"
+    },
+    {
+      "label": "https://github.com/KrisNguyen135/",
+      "url": "https://github.com/KrisNguyen135/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WfJsS2KzBNo/maxresdefault.jpg",
+  "title": "Making the Perfect Cup of Joe - Quan Nguyen | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WfJsS2KzBNo"
+    }
+  ]
+}

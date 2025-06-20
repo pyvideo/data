@@ -1,0 +1,79 @@
+{
+  "description": "All You Need Is Zarr.: Parallel Access to Remote Hdf5, Tiff, Grib2 and Others.\nSpeaker: Martin Durant\n\nSummary\nWe introduce ReferenceFileSystem, a virtual implementation for fsspec which views arbitrary byte chunks at specific keys, presenting chunks of HDF5, TIFF, grib2 and others at the appropriate paths conforming to zarr's model. Thus, you can use zarr to load data from potentially thousands of remote data files, selecting only what you need, and with parallelism and concurrency.\n\nDescription\nfsspec's ReferenceFileSystem allows a file system like virtual view onto chunks of bytes stored in arbitrary locations elsewhere, e.g., cloud bucket storage. We can present each byte chunk as a particular path in the filesystem conforming to the zarr hierarchy model, such that the original set of chunks, potentially across many files, appears as a single zarr dataset. This brings the following advantages:\n\nonly zarr (plus the relevant codecs) is required to read the data, but the original data could be locked in HDF5, TIFF or grib2 files (and more to come)\nthe metadata is extracted once, so future opening of the dataset does not need to scan through the target files to find metadata, and so the process is much faster\nyou get a single logical view over potentially thousands of files, but due to zarr's access model, you only load the data you need\nloading can happen chunk-wise and in parallel\nThe details of how to make such reference files is described at https://github.com/fsspec/kerchunk , and the latest result for some 80TB/370k files of water flow modelling can be seen at https://nbviewer.jupyter.org/gist/rsignell-usgs/02da7d9257b4b26d84d053be1af2ceeb . Note that this is using xarray to process the data, but only zarr is needed to load it.\n\nMartin Durant's Bio\nOpen Source contributor and community advocate. Former astrophysicist, data scientist and medical imaging researcher.\n\nHas been involved in - training for python programming courses (intensive on-site and remote, numerical python, visualisation and machine learning) and course development, - consultant work for external client, - proprietary software development (anaconda-cluster, anaconda-enterprise-notebooks, AE5) - conda packaging - design of anaconda-navigator - lead developer of open source projects Intake, fsspec, fastparquet with millions of downloads - core contributor to Dask, zarr, high profile python data processing software.\n\nGitHub: https://github.com/martindurant/\nTwitter: https://twitter.com/martin_durant_/\nLinkedIn: https://www.linkedin.com/in/martin-durant-1a3b6676/\nWebsite: http://martindurant.github.io//\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1700,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://github.com/fsspec/kerchunk",
+      "url": "https://github.com/fsspec/kerchunk"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://nbviewer.jupyter.org/gist/rsignell-usgs/02da7d9257b4b26d84d053be1af2ceeb",
+      "url": "https://nbviewer.jupyter.org/gist/rsignell-usgs/02da7d9257b4b26d84d053be1af2ceeb"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://github.com/martindurant/",
+      "url": "https://github.com/martindurant/"
+    },
+    {
+      "label": "https://twitter.com/martin_durant_/",
+      "url": "https://twitter.com/martin_durant_/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/martin-durant-1a3b6676/",
+      "url": "https://www.linkedin.com/in/martin-durant-1a3b6676/"
+    },
+    {
+      "label": "http://martindurant.github.io//",
+      "url": "http://martindurant.github.io//"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/0bqpxX3Nn_A/maxresdefault.jpg",
+  "title": "All You Need Is Zarr - Martin Durant | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0bqpxX3Nn_A"
+    }
+  ]
+}

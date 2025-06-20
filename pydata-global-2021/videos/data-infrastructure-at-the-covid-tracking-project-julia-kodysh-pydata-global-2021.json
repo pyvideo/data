@@ -1,0 +1,67 @@
+{
+  "description": "Data infrastructure at the COVID Tracking Project\nSpeaker: Julia Kodysh\n\nSummary\nThe COVID Tracking Project started in March 2020 as a volunteer effort to collect and publish crucial data related to the COVID-19 outbreak in the United States. As the organization grew, everything had to scale at once: the number of volunteers, our processes, and our tooling. This talk will go into some of the data problems, technical details and human element behind the project.\n\nDescription\nIntended audience: This talk is for any attendee who is interested in the story of the COVID Tracking Project. It will be a largely technical talk, describing several pieces of the open source data infrastructure we built to support the data collection effort and publish the data. That said, the talk will also go into the human story around how the project evolved.\n\nI\u2019m going to go into these topics: - Why we didn\u2019t fully automate data collection: lack of consistency or standards in data reporting. (But we did build a website screenshot system specific to our data sources, and I'll mention this as well) - The data pipeline that we built to support data collection instead: spreadsheets for data entry, eventual introduction of a PostgreSQL database to house current and historical data, internal Flask API with SQLAlchemy to preserve correctness on reads/writes of structured data, public-facing website and API. I\u2019ll also talk about the evolution of our systems as the project changed over time. - Our database and data model design. - The public APIs we built, and our evolution from \u2026 a public Google sheet (v0?) to a flat CSV API (v1) to structured JSON benefitting from our evolving understanding of our data (v2).\n\nThe COVID Tracking Project became an incredible effort, eventually coming to be cited in over 1000 academic papers and over 7700 news stories. Some data-related takeaways we have learned: - Stay connected to the data. The data is meaningless without context around it. - Think about data storage and representation early. Early decisions will strongly influence how processes and workflow evolve later on. - Be flexible. In a project with many unknowns, the ability to build the plane while flying it was paramount. - Do not automate things too quickly. Get to know the subject matter as much as possible.\n\nJulia Kodysh's Bio\nJulia Kodysh was a lead on the Data Infrastructure team at the COVID Tracking Project, focusing on internal tooling and data processing. In her parallel life, she is a computational scientist at Mount Sinai, working on cutting edge personalized cancer immunotherapy clinical trials. Julia's prior experience includes leading a team as a Data Engineer at Oscar and working as a Senior Software Engineer at Google with a focus on data infrastructure and healthcare-related initiatives. Julia holds a BS and MEng in Computer Science from MIT.\nGitHub: https://github.com/julia326/\nTwitter: https://twitter.com/JuliaKodysh/\nLinkedIn: https://www.linkedin.com/in/julia-kodysh-610528/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1799,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/JuliaKodysh/",
+      "url": "https://twitter.com/JuliaKodysh/"
+    },
+    {
+      "label": "https://github.com/julia326/",
+      "url": "https://github.com/julia326/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/julia-kodysh-610528/",
+      "url": "https://www.linkedin.com/in/julia-kodysh-610528/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/XS91rkTodIw/maxresdefault.webp",
+  "title": "Data infrastructure at the COVID Tracking Project - Julia Kodysh | PyData Global 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XS91rkTodIw"
+    }
+  ]
+}
