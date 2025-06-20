@@ -1,0 +1,59 @@
+{
+  "description": "In this talk we will start with what we do at Eneco and how we operate at scale with our smart thermostat Toon\u00ae. Furthermore, we will discuss how Databricks and Python allow us to serve predictions from our models at scale. The good and the bad of this approach and how maintaining this setup has its own set of obstacles.\nEspecially, we will delve into our specific problem that we encounter with maintaining our models that are in production. Instead of focusing on the more model related aspects (e.g. model drift) we focus on the operational aspect to make sure that the environment is not as old as when the first iteration of the model was made. This ensures that the latest innovations from Databricks (and Spark) flow through to our environment that Data Scientists and Data Engineers rely upon.\nWe will cover several possible solutions to this problem, from considering a portable format, such as ONNX, to complete containerization of each of the models in production using MLFlow Projects. In the end, we will showcase, what in our specific case is to our knowledge the most pragmatic solution. This talk is addressed to anyone who is interested in the more operational aspects of ML at scale.\n\nCorn\u00e9 Vriends: I am a Data Scientist that works at Eneco, specifically on the Toon\u00ae.\n\nLinkedIn: https://www.linkedin.com/in/cornevriends//\n\nPyData Eindhoven 2021\nWebsite: https://pydata.org/eindhoven2021/\nTwitter: https://twitter.com/pydataeindhoven\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n0:00 - Welcome!\n0:09 - Introduction\n1:12 - Problem Statement\n2:38 - Company Introduction\n5:23 - Design Architecture\n7:16 - Machine Learning Flow\n8:56 - Pickling\n13:29 - Solving Pickling Issue\n14:26 - Possible Solutions\n15:50 - 1. Portable Format (ONNX)\n17:56 - 2. Containerize\n19:50 - 3. Periodically Retrain\n22:28 - Key Takeaways\n23:35 - Questions\n\nS/o to https://github.com/yugant10-commits for the video timestamps!\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1951,
+  "language": "eng",
+  "recorded": "2021-11-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://twitter.com/pydataeindhoven",
+      "url": "https://twitter.com/pydataeindhoven"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/cornevriends//",
+      "url": "https://www.linkedin.com/in/cornevriends//"
+    },
+    {
+      "label": "https://pydata.org/eindhoven2021/",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://github.com/yugant10-commits",
+      "url": "https://github.com/yugant10-commits"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/vSKgGHUE7Rw/maxresdefault.jpg",
+  "title": "Dealing with the versioning of production-ready models - Corn\u00e9 Vriends | PyData Eindhoven 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vSKgGHUE7Rw"
+    }
+  ]
+}
