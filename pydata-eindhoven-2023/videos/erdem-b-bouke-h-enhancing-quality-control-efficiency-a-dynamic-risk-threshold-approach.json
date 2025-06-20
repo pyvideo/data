@@ -1,0 +1,39 @@
+{
+  "description": "The challenge we faced was in determining when a supply item is faulty and should be sent for quality control inspection. With a daily influx of around 15,000 supply items and a quality control team capable of inspecting only 200 items due to extensive manual labor requirements. Random checking was not a viable option, and we sought to leverage data science to preemptively identify the most likely faulty items.\n\nWhat makes this project particularly captivating is the delicate balance it strikes between forecasting the expected volume of supply items and predicting the risk scores for each item. This synergy between volume forecasting and risk prediction enabled us to establish a dynamic risk threshold, a pivotal factor in determining whether a supply item should undergo quality control inspection at that moment in time. The dynamic nature of this threshold accommodated the ever-changing landscape of supply volumes, ensuring that it adapted to meet the evolving needs of our organization.\n\nWe will first introduce the problem and business requirements, then explain our solution, and finally show an overview of techniques and frameworks used (Delta Unity Catalog tables, Airflow, PySpark, MLflow model registry, HyperOpt model optimization, Databricks serving endpoint).\n\nThe key takeaways for our audience:\nUnderstand the importance and method of dynamically adjusting risk thresholds in quality control.\nLearn the benefits of using a multi modal approach in supply chain management systems.\n\nExpected background knowledge:\nAttendees should have a basic understanding of predictive modeling and data science concepts. Familiarity with supply chain management or quality control processes is beneficial but not mandatory.\n\nAudience:\nThis talk is designed for data- scientists/engineers, supply chain professionals, quality control teams, and anyone interested in the application of data science in real-world challenges.",
+  "duration": 1730,
+  "language": "eng",
+  "recorded": "2023-11-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20240930133013/http://pydata.org/eindhoven2023"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/QuoZN4kl63I/maxresdefault.jpg",
+  "title": "Erdem B. & Bouke H. - Enhancing Quality Control Efficiency: A Dynamic Risk Threshold Approach",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QuoZN4kl63I"
+    }
+  ]
+}
