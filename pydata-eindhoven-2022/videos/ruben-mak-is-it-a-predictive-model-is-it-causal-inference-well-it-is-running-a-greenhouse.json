@@ -1,0 +1,39 @@
+{
+  "description": "PyData Eindhoven 2022\n\nIn this talk I hope to convince you that models are not either predictive or causal, but both perspectives should be combined to solve real world problems. I will use a concrete example of how we automate irrigation in greenhouses at Source.\n\nThe causal revolution has taught us that there is a world beyond generating predictions. We now known that not all ML models are suitable for causal inference and have alternatives like double machine learning for causal inference.\n\nDuring this talk, I hope to convince you that the difference between predictive and causal models is not as clear cut as you might think. Using a concrete example of how we control irrigation in greenhouses using machine learning, I will give an example of how to break down a problem into model components that are more or less predictive or causal. Moreover, I hope to give you some practical guidelines on how to decide whether a predictive or causal approach is more suitable for the components of your model.\n\nOutline:\n- Causality warm-up\n- Explanation of irrigation in greenhouses\n- Demonstration of the caveat with predictive models\n- Demonstration of why feature selection matters more then framework selection\n- Brief introduction in double machine learning (full explanation is beyond the scope of this presentation)\n- Demonstration of why double machine learning does not solve the feature selection problem\n- Optional: link to Judea Pearl's causal graphs\n- Explanation of how to isolate part of the problem where you can use predictive models\n- Explanation how this components come together in our solution for irrigation control at Source\n- General advice on how to identify whether to use a predictive or causal approach\n- Conclusion",
+  "duration": 2090,
+  "language": "eng",
+  "recorded": "2022-12-02",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2022/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/iq1oCZ4SkyQ/maxresdefault.jpg",
+  "title": "Ruben Mak - Is it a predictive model? Is it causal inference? Well... It is running a greenhouse.",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iq1oCZ4SkyQ"
+    }
+  ]
+}
