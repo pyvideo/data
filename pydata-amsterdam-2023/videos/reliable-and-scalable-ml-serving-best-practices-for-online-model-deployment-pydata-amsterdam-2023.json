@@ -1,0 +1,28 @@
+{
+  "description": "Working on ML serving for couple of years we learned a lot. I would like to share a set of best practices / learnings with the community\n\nAt Adyen we deploy a lot of models for online inference in the payment flow. Working in the MLOps team to streamline this process, I learned a lot about best practices / things to consider before (after) putting a model online. These are small things but they do contribute to a production and reliable setup for online inference. Some examples:\n\nAdding meta data & creating a self contained archive\nSeparating serving sources from training sources\nChoosing the requirements of model\nAdding an example input & output request\nAdding schemas for input and output\nCommon issues when putting models online: memory leaks, concurrency\nWhich server is best? Process based or thread based\nHow different python versions affect inference (execution) time\n\nBio:\nZiad Al Moubayed\nStaff Engineer @ Adyen. I am passionate about high performance distributed systems. Recently I was working on scaling Adyen's Data & ML infrastructure.\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1436,
+  "language": "eng",
+  "recorded": "2023-09-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://amsterdam2023.pydata.org/cfp/schedule/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KVEULeK1zk4/maxresdefault.jpg",
+  "title": "Reliable and Scalable ML Serving: Best Practices for Online Model Deployment | PyData Amsterdam 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KVEULeK1zk4"
+    }
+  ]
+}
