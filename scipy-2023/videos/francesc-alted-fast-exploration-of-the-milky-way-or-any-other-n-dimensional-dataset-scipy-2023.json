@@ -1,0 +1,24 @@
+{
+  "description": "N-dimensional datasets are common in many scientific fields, and quickly accessing subsets of these datasets is critical for an efficient exploration experience. Blosc2 is a compression and format library that recently added support for multidimensional datasets. Compression is crucial in effectively dealing with sparse datasets as the zeroed parts can be almost entirely suppressed, while the non-zero parts can still be stored in smaller sizes than their uncompressed counterparts. Moreover, the new double data partition in Blosc2 reduces the need for decompressing unnecessary data, which allows for top-class slicing speed.",
+  "duration": 1904,
+  "language": "eng",
+  "recorded": "2023-07-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2023.scipy.org/"
+    }
+  ],
+  "speakers": [
+    "Francesc Alted"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0GX5nDqUUZE/maxresdefault.jpg",
+  "title": "Fast Exploration of the Milky Way or any other n dimensional dataset | SciPy 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0GX5nDqUUZE"
+    }
+  ]
+}
