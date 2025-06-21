@@ -1,3 +1,4 @@
+from pathlib import Path
 import argparse
 import json
 import os
@@ -10,7 +11,10 @@ from tools.utils import get_json_files
 
 def check_schemas(data_root, schemas_dir, verbose=False):
     schemas = ('category.json', 'video.json')
-    all_file_paths = get_json_files(data_root)
+    all_file_paths = get_json_files(
+        data_root,
+        exclude=set(Path(schemas_dir).rglob('*.json')),
+    )
 
     error_count = 0
 
