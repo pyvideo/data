@@ -13,6 +13,20 @@
     "title":{
       "description":"Title of event where videos originated",
       "type":"string"
+    },
+    "url":{
+      "description":"Canonical URL to the event website",
+      "type":"string"
+    },
+    "start_date":{
+      "description":"Start date of the event in YYYY-MM-DD format",
+      "type":"string",
+      "format":"date"
+    },
+    "end_date":{
+      "description":"End date of the event in YYYY-MM-DD format",
+      "type":"string",
+      "format":"date"
     }
   },
   "required":[
