@@ -1,0 +1,31 @@
+{
+  "description": "Xarray-datatree [1], is a Python package that supports HDFs (Hierarchical Data Format) with hierarchical group structures by creating a tree-like hierarchical data structure in xarray. When an HDF file is opened with Datatree, a DataTree object is created that contains all of the groups in the file. The tree-like structure allows each group to be accessed once a DataTree object is instantiated. This eliminates the need for a user to go through each group and subgroup to access observational data.\n\nWe will present our use case for Datatree in NASA\u2019s Harmony Level 2 Subsetter (HL2SS). HL2SS provides variable and dimension subsetting for Earth observation data from different NASA data centers. To subset hierarchical datasets without Datatree, HL2SS flattens the entire data structure into a new file by copying all of the grouped and subgrouped variables into the root group. With this new file, a variable or dimension subset is conducted. However, the flattened and subsetted file has to be in the same hierarchical structure of the original file, so it is unflattened, its attributes are copied, and the variables are grouped back to preserve the original group hierarchy. With the open_datatree() function, HL2SS can open datasets containing multiple groups at once and have all of their group hierarchies preserved. This functionality has significant benefits towards optimizing the workflow in HL2SS, since it would eliminate the need to flatten and unflatten grouped datasets.\n\n[1] https://github.com/xarray-contrib/datatree",
+  "duration": 1828,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2024.scipy.org/"
+    },
+    {
+      "label": "https://github.com/xarray-contrib/datatree",
+      "url": "https://github.com/xarray-contrib/datatree"
+    }
+  ],
+  "speakers": [
+    "Eniola Awowale",
+    "Lucas Sterzinger",
+    "Tom Nicholas",
+    "Nick Lenssen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Iwcuy6Smbjs/maxresdefault.jpg",
+  "title": "Simplifying analysis of hierarchical HDF5 and NetCDF4 files with xarray-datatree",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Iwcuy6Smbjs"
+    }
+  ]
+}
