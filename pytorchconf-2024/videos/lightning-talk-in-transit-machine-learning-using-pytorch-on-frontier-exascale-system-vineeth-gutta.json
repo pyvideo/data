@@ -1,0 +1,24 @@
+{
+  "description": "Lightning Talk: In-Transit Machine Learning Using PyTorch on Frontier Exascale System - Vineeth Gutta, University of Delaware\n\nTraditional ML workflows use offline training where the data is stored on disk and is subsequently loaded into accelerator (CPU,GPU, etc) memory during training or inference. We recently devised a novel and scalable in-transit ML workflow for a plasma-physics application (chosen as 1 out of 8 compelling codes in the country) for the world\u2019s fastest supercomputer, Frontier) with an aim to build a high-energy laser particle accelerator. Data generated in distributed HPC systems like Frontier create volumes of data that is infeasible to store on HPC file systems. A mismatch between modern memory hierarchies occurs due to high volume and rate of data generation. Our novel ML workflow utilizes continuous learning where the data is consumed in batches as the simulation produces the data and then discards after each batch is trained. This in-transit workflow integrates particle-in-cell simulations with distributed ML training on PyTorch using DDP allows for an application coupling enabling the model to learn correlations between emitted radiation and particle dynamics within simulation in an unsupervised method. This workflow is demonstrated at scale on Frontier using 400 AMD MI250X GPUs",
+  "duration": 725,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/s4Gh2UX0EyA/maxresdefault.webp",
+  "title": "Lightning Talk: In-Transit Machine Learning Using PyTorch on Frontier Exascale System- Vineeth Gutta",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=s4Gh2UX0EyA"
+    }
+  ]
+}

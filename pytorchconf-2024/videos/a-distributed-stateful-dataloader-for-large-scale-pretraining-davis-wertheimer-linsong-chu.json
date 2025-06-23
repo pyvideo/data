@@ -1,0 +1,24 @@
+{
+  "description": "A Distributed Stateful Dataloader for Large-Scale Pretraining - Davis Wertheimer, IBM & Linsong Chu, IBM Research\n\nLarge-scale model pretraining crucially relies on specialized and dedicated dataloaders that can, for example, partition and stream data asynchronously across multiple processes and physical nodes. In this talk we discuss one of the torch-native dataloaders we built and use at IBM Research for addressing these needs. Intended for use in large-scale model pretraining, particularly in research settings where rapid iteration between datasets may be required, our dataloader is distributed, stateful, checkpointable, composable and rescalable \u2013 while remaining a simple extension of the existing PyTorch dataloading framework. It automatically and invisibly handles data sharding, shuffling, subdataset weighting, checkpoint saving and loading, and custom user-defined preprocessing functions, with minimal overhead and high throughput. We discuss these properties and how we achieved them, such as reducing overhead by implementing a custom LCG random number generator, and demonstrate proof of concept on production-scale training of a 7B parameter Llama model over 4 trillion tokens.",
+  "duration": 1433,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/VtT4rdph4Qs/maxresdefault.webp",
+  "title": "A Distributed Stateful Dataloader for Large-Scale Pretraining - Davis Wertheimer & Linsong Chu",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VtT4rdph4Qs"
+    }
+  ]
+}
