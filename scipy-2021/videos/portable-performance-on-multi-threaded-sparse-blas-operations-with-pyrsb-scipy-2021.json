@@ -1,0 +1,25 @@
+{
+  "description": "The PyRSB package offers portable threaded performance on Sparse BLAS operations. These include multiplication of sparse matrices by vectors or multi-vectors. Their speed is essential in the iterative solutions of sparse linear systems. PyRSB is a Python interface to the LGPLv3-licensed LIBRSB library. LIBRSB uses the Recursive Sparse Blocks (RSB) format, a storage scheme supporting cache efficient multithreaded Sparse BLAS operations. RSB is characterized by a recursive subdivision of matrices and uses a mix of sparse subformats. A user needs not to know that: PyRSB is largely compatible with SciPy's sparse matrix classes, but runs faster than reference scipy.sparse.",
+  "duration": 1589,
+  "language": "eng",
+  "recorded": "2021-07-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2021.scipy.org/"
+    }
+  ],
+  "speakers": [
+    "Michele Martone",
+    "Simone Bacchio"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yHejtO1qNEU/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEsgZShjMA8=&rs=AOn4CLB3k4rmqs1uqFgWI9AFZBdJOwNqQA",
+  "title": "Portable performance on multi threaded Sparse BLAS operations with PyRSB",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yHejtO1qNEU"
+    }
+  ]
+}
