@@ -1,0 +1,43 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Pointers? In my Python? It's more likely than you think\n[EuroPython 2021 - Talk - 2021-07-30 - Optiver]\n[Online]\n\nBy Eli Holderness\n\nEver wondered about the difference between is and ==, or why you might need to use deepcopy? Maybe you\u2019ve been stumped by an interview question about object lifetimes, or overriding the __eq__ method. Or, perhaps, you just really want to see some tuples behaving badly. \n\nJoin me for a tour of some of CPython\u2019s dark memory magic and unintuitive behaviours, where we\u2019ll find out:\n\n\nWhat pointers are and where you\u2019ll see them in your code;\nWhat the id of a Python object is, and why it matters;\nHow CPython can tell when you\u2019re done using an object, and what happens next.\n\n\nPython is a wonderful thing that takes all the complication of memory management away from us. We don\u2019t have to worry about pre-allocating memory for our objects, or remember to free it once we\u2019re done. So, given that we\u2019re not doing it manually, how do these things happen? Do we have to care? Well, sometimes. Maybe.\n\nIn this talk, we\u2019ll discuss what a pointer is, where they crop in in Python, and what you need to know in order to avoid getting tripped up by them. We\u2019ll also cover the id of an object, why it's implemented the way it is, and why 'equal' is different from 'identical'. Finally, we\u2019ll talk about garbage collection, what reference counting is, and how CPython knows when it\u2019s time to get rid of unused objects.\n\nWhether you just want to understand what\u2019s going on under the hood without having to dive into the implementation, or you\u2019re on the hunt for some new diabolical things to do with code (self-referential lists are only the beginning!), come along to this talk and learn about the pointers in your Python.\n\nThis talk is aimed at anyone with an interest in how Python handles objects in memory, or who\u2019s ever been confused by side-effects popping up in their code. Absolutely no knowledge of C is required, and Python beginners are extremely welcome.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1550,
+  "language": "eng",
+  "recorded": "2020-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2021.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2021",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Nu6hy1Vgr90/hqdefault.jpg",
+  "title": "Eli Holderness - Pointers? In my Python? It's more likely than you think",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Nu6hy1Vgr90"
+    }
+  ]
+}
