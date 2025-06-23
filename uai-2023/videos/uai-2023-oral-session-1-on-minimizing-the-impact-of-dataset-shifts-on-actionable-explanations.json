@@ -1,0 +1,35 @@
+{
+  "description": "\"On Minimizing the Impact of Dataset Shifts on Actionable Explanations \"\nAnna P. Meyer, Dan Ley, Suraj Srinivas, Himabindu Lakkaraju\n(https://proceedings.mlr.press/v216/meyer23a.html)\n\nAbstract\nThe Right to Explanation is an important regulatory principle that allows individuals to request actionable explanations for algorithmic decisions. However, several technical challenges arise when providing such actionable explanations in practice. For instance, models are periodically retrained to handle dataset shifts. This process may invalidate some of the previously prescribed explanations, thus rendering them unactionable. But, it is unclear if and when such invalidations occur, and what factors determine explanation stability i.e., if an explanation remains unchanged amidst model retraining due to dataset shifts. In this paper, we address the aforementioned gaps and provide one of the first theoretical and empirical characterizations of the factors influencing explanation stability. To this end, we conduct rigorous theoretical analysis to demonstrate that model curvature, weight decay parameters while training, and the magnitude of the dataset shift are key factors that determine the extent of explanation (in)stability. Extensive experimentation with real-world datasets not only validates our theoretical results, but also demonstrates that the aforementioned factors dramatically impact the stability of explanations produced by various state-of-the-art methods.\n\nSlides: https://www.auai.org/uai2023/oral_slides/517-oral-slides.pdf",
+  "duration": 1537,
+  "language": "eng",
+  "recorded": "2023-07-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2023/"
+    },
+    {
+      "label": "https://proceedings.mlr.press/v216/meyer23a.html",
+      "url": "https://proceedings.mlr.press/v216/meyer23a.html"
+    },
+    {
+      "label": "https://www.auai.org/uai2023/oral_slides/517-oral-slides.pdf",
+      "url": "https://www.auai.org/uai2023/oral_slides/517-oral-slides.pdf"
+    }
+  ],
+  "speakers": [
+    "Anna P. Meyer",
+    "Dan Ley",
+    "Suraj Srinivas",
+    "Himabindu Lakkaraju"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/TTGw8145RD0/maxresdefault.jpg",
+  "title": "On Minimizing the Impact of Dataset Shifts on Actionable Explanations",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TTGw8145RD0"
+    }
+  ]
+}
