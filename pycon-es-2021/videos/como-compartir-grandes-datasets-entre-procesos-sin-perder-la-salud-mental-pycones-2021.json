@@ -1,0 +1,32 @@
+{
+  "description": "Juan Francisco Huete Verdejo nos presenta \"Como compartir grandes Datasets entre procesos sin perder la salud mental\".\n\nResumen:\nCuando hablamos de datasets grandes y procesos que pueden ejecutar de forma paralela quizás no lo sabemos pero tenemos un buen reto por delante. Para compartir estos datasets a un proceso de python, incluso de celery o airflow, generalmente tendremos que pasar por pickle o escribir en csv y esto nos va a consumir mucho tiempo. Tanto que realmente no va a merecer la pena la paralelización de procesos. Pero existen alternativas con distintos enfoques. En esta charla se va a exponer como resolver este problema según la complejidad, viendo tecnologías como redis para datasets pequeños, pyarrow y plasma para datasets un poco más grandes y por último pondremos toda la carne en el asador con Vaex en un file system HDFS utilizando formato parquet.\n\n---\nLa novena edición de la PyConES se celebra como un evento en línea y totalmente gratuito durante los días 2 y 3 de Octubre de 2021.\nWeb: https://2021.es.pycon.org\nAgenda: https://2021.es.pycon.org/#schedule",
+  "duration": 1817,
+  "language": "spa",
+  "recorded": "2021-10-02",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2021.es.pycon.org/"
+    },
+    {
+      "label": "https://2021.es.pycon.org",
+      "url": "https://2021.es.pycon.org"
+    },
+    {
+      "label": "https://2021.es.pycon.org/#schedule",
+      "url": "https://2021.es.pycon.org/#schedule"
+    }
+  ],
+  "speakers": [
+    "Juan Francisco Huete Verdejo"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/VxImociXGy8/maxresdefault.jpg",
+  "title": "Como compartir grandes Datasets entre procesos sin perder la salud mental - PyConES 2021",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VxImociXGy8"
+    }
+  ]
+}
