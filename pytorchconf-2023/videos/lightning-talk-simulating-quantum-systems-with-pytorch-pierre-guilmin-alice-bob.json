@@ -1,0 +1,28 @@
+{
+  "description": "Lightning Talk: Simulating Quantum Systems with PyTorch - Pierre Guilmin, Alice & Bob\n\nIn this talk, I propose to explain why simulating quantum systems is a formidable challenge, and how leveraging modern hardware and software can result in notable performance improvement. PyTorch is ideally suited for this task, first because running solvers on GPUs results in a significant speed-up, and second because numerous tasks related to the calibration and control of quantum systems require the computation of gradients based on the time-evolved quantum state. The emerging research effort to develop quantum computers heavily relies on such tools. The dynamiqs library (https://github.com/dynamiqs/dynamiqs) is a Python library powered by PyTorch, designed to address this challenge. It provides differentiable solvers for the *Schr\u00f6dinger Equation* which governs closed quantum systems, the *Lindblad Master Equation* for open quantum systems and the *Stochastic Master Equation* for continuously measured quantum systems. Gradients can be computed with PyTorch\u2019s automatic differentiation, or using a constant memory cost method. The library is being developed by several PhD students in physics, most of whom have substantial experience in software development.",
+  "duration": 741,
+  "language": "eng",
+  "recorded": "2023-10-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2023/"
+    },
+    {
+      "label": "https://github.com/dynamiqs/dynamiqs",
+      "url": "https://github.com/dynamiqs/dynamiqs"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/4vJdetGDyvE/maxresdefault.jpg",
+  "title": "Lightning Talk: Simulating Quantum Systems with PyTorch - Pierre Guilmin, Alice & Bob",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4vJdetGDyvE"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Keynote: The Promise of PyTorch as a General-Purpose Array-Oriented Computational Backend - Travis Oliphant, Founder & CEO, Quansight\n\nArray-oriented programming is a key paradigm of the SciPy and PyData, or SciPyData, ecosystem. Most operations in science, engineering, and AI/ML are naturally based around N-dimensional array, or tensor, operations. Domain experts can typically write the algorithms they are implementing using high-level tensor primitives. For over 28 years this has been done in Python primarily using NumPy (previously Numeric) as the foundational Nd-array object. As many additional array objects have been built over the past 8 years to support the growing interest in deep-learning, the SciPyData ecosystem has produced the Array API as part of the Data APIs initiative (https://data-apis.org) to assist in meeting the needs of that community. New features in PyTorch have helped PyTorch implement this Array API, which has enabled libraries like SciPy and scikit-learn to add support for PyTorch as the backend. Quansight has worked closely with Meta and other PyTorch sponsors to enable libraries using the Array API to reliably use PyTorch in their general-purpose workflows outside of just deep-learning. This enables the entire scientific community to potentially take advantage of PyTorch investment in run-times on GPUs, TPUs, and other parallel-hardware. The promise of array-oriented computing has always been that by writing at a high-level, the code can be run with optimizations on a variety of hardware. With Data APIs and PyTorch, this promise is becoming a reality.",
+  "duration": 296,
+  "language": "eng",
+  "recorded": "2023-10-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2023/"
+    },
+    {
+      "label": "https://data-apis.org",
+      "url": "https://data-apis.org"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/aFal9-SJjGY/maxresdefault.jpg",
+  "title": "Keynote: The Promise of PyTorch as a General-Purpose Array-Oriented Computational..- Travis Oliphant",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aFal9-SJjGY"
+    }
+  ]
+}

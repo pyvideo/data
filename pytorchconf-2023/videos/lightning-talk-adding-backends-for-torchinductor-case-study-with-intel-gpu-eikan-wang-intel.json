@@ -1,0 +1,28 @@
+{
+  "description": "Lightning Talk: Adding Backends for TorchInductor: Case Study with Intel GPU - Eikan Wang, Intel\n\n- There are two integration levels to add a new backend for the PyTorch compiler - AtenIR/PrimsIR level and Inductor loop IR level. The ATen/Prim level IR integration has been there via the custom backend registration infrastructure (https://pytorch.org/docs/stable/dynamo/custom-backends.html). Yet, the latter offers an option to integrate backend compiler at the lower loop-level IR, which can benefit from the existing compiler infrastructure of the Inductor, such as the loop fusion and memory planning. We developed a dynamic registration mechanism on the Inductor side for a new backend. The mechanism allows a backend to register its codegen for a particular device at runtime. And the new backend just needs to focus on generating optimal code for the device. - Case Study \u2013 Intel GPU Backend for Inductor Take Intel GPU Backend for Inductor as an example to study how to support Intel GPU via the proposed registration mechanism to prove the idea. Intel GPU Backend for Inductor is on top of Triton, as we have enabled Triton to support any new HW backend. In this context, the case study will show the power of \u201cInductor + Triton\u201d to easily support any new accelerator.",
+  "duration": 798,
+  "language": "eng",
+  "recorded": "2023-10-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2023/"
+    },
+    {
+      "label": "https://pytorch.org/docs/stable/dynamo/custom-backends.html",
+      "url": "https://pytorch.org/docs/stable/dynamo/custom-backends.html"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KwSbLAZ-xg4/maxresdefault.jpg",
+  "title": "Lightning Talk: Adding Backends for TorchInductor: Case Study with Intel GPU - Eikan Wang, Intel",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KwSbLAZ-xg4"
+    }
+  ]
+}
