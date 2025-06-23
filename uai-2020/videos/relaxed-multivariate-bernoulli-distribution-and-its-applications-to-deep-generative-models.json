@@ -1,0 +1,25 @@
+{
+  "description": "\"Relaxed Multivariate Bernoulli Distribution and Its Applications to Deep Generative Models\n\nXi Wang (East China Normal University)*; Junming Yin (University of Arizona)\n\nRecent advances in variational auto-encoder (VAE) have demonstrated the possibility of approximating the intractable posterior distribution with a variational distribution parameterized by a neural network. To optimize the variational objective of VAE, the reparameterization trick is commonly applied to obtain a low-variance estimator of the gradient. The main idea of the trick is to express the variational distribution as a differentiable function of parameters and a random variable with a fixed distribution. To extend the reparameterization trick to inference involving discrete latent variables, a common approach is to use a continuous relaxation of the categorical distribution as the approximate posterior. However, when applying continuous relaxation to the multivariate cases, multiple variables are typically assumed to be independent, making it suboptimal in applications where modeling dependency is crucial to the overall performance. In this work, we propose a multivariate generalization of the Relaxed Bernoulli distribution, which can be reparameterized and can capture the correlation between variables via a Gaussian copula.  We demonstrate its effectiveness in two tasks: density estimation with Bernoulli VAE and semi-supervised multi-label classification.\"",
+  "duration": 475,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Xi Wang",
+    "Junming Yin"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/MGMfydCW6ls/sddefault.jpg",
+  "title": "Relaxed Multivariate Bernoulli Distribution and Its Applications to Deep Generative Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MGMfydCW6ls"
+    }
+  ]
+}

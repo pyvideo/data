@@ -1,0 +1,25 @@
+{
+  "description": "\"Randomized Exploration for Non-Stationary Stochastic Linear Bandits\n\nBaekjin Kim (University of Michigan)*; Ambuj Tewari (University of Michigan)\n\nWe investigate two perturbation approaches to overcome conservatism that optimism based algorithms chronically suffer from in practice. The first approach replaces optimism with a simple randomization when using confidence sets. The second one adds random perturbations to its current estimate before maximizing the expected reward. For non-stationary linear bandits, where each action is associated with a $d$-dimensional feature and the unknown parameter is time-varying with total variation $B_T$, we propose two randomized algorithms, Discounted Randomized LinUCB (D-RandLinUCB) and Discounted Linear Thompson Sampling (D-LinTS) via the two perturbation approaches. We highlight the statistical optimality versus computational efficiency trade-off between them in that the former asymptotically achieves the optimal dynamic regret $\\tilde{\\cO}(d ^{2/3}B_T^{1/3} T^{2/3})$, but the latter is oracle-efficient with an extra logarithmic factor in the number of arms compared to minimax-optimal dynamic regret. In a simulation study, both algorithms show the outstanding performance in tackling conservatism issue that Discounted LinUCB struggles with.\"",
+  "duration": 474,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Baekjin Kim",
+    "Ambuj Tewari"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZRymY0oDLIs/sddefault.jpg",
+  "title": "Randomized Exploration for Non-Stationary Stochastic Linear Bandits",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZRymY0oDLIs"
+    }
+  ]
+}

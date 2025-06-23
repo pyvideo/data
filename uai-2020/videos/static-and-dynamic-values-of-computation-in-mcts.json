@@ -1,0 +1,25 @@
+{
+  "description": "Static and Dynamic Values of Computation in MCTS\n\nEren Sezener (DeepMind)*; Peter Dayan (Max Planck Institute for Biological Cybernetics)\n\nMonte-Carlo Tree Search (MCTS) is one of the most-widely used methods\nfor planning, and has powered many recent advances in artificial\nintelligence. In MCTS, one typically performs computations\n(i.e., simulations) to collect statistics about the possible future\nconsequences of actions, and then chooses accordingly. Many\npopular MCTS methods such as UCT and its variants decide which\ncomputations to perform by trading-off exploration and exploitation. In\nthis work, we take a more direct approach, and explicitly quantify the\nvalue of a computation based on its expected impact on the quality of\nthe action eventually chosen. Our approach goes beyond the \\emph{myopic}\nlimitations of existing computation-value-based methods in two senses:\n(I) we are able to account for the impact of non-immediate (ie, future)\ncomputations (II) on non-immediate actions. We show that policies that\ngreedily optimize computation values are optimal under certain\nassumptions and obtain results that are competitive with the\nstate-of-the-art.",
+  "duration": 499,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Eren Sezener",
+    "Peter Dayan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/574NOPac-Bs/sddefault.jpg",
+  "title": "Static and Dynamic Values of Computation in MCTS",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=574NOPac-Bs"
+    }
+  ]
+}

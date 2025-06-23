@@ -1,0 +1,26 @@
+{
+  "description": "Streaming Nonlinear Bayesian Tensor Decomposition\n\nZhimeng Pan (University of Utah)*; Zheng Wang (University of Utah); Shandian Zhe (University of Utah)\n\nDespite the success of the recent nonlinear tensor decomposition models based on Gaussian processes (GPs), they lack an effective way to deal with streaming data, which are important for many applications. Using the standard streaming variational Bayes framework or the recent streaming sparse GP approximations will lead to intractable model evidence lower bounds; although we can use stochastic gradient descent for incremental updates, they are unreliable and often yield poor estimations. To address this problem, we propose Streaming Nonlinear Bayesian Tensor Decomposition (SNBTD) that can conduct high-quality, closed-form and iteration-free updates upon receiving new tensor entries. Specifically, we use random Fourier features to build a sparse spectrum GP decomposition model to dispense with complex kernel/matrix operations and to ease posterior inference. We then extend the assumed-density-filtering framework by approximating all the data likelihoods in a streaming batch with a single factor to perform one-shot updates. We use conditional moment matching and Taylor approximations to fulfill efficient, analytical factor calculation. We show the advantage of our method on four real-world applications.",
+  "duration": 474,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Zhimeng Pan",
+    "Zheng Wang",
+    "Shandian Zhe"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/EmodBzXrqXA/sddefault.jpg",
+  "title": "Streaming Nonlinear Bayesian Tensor Decomposition",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EmodBzXrqXA"
+    }
+  ]
+}
