@@ -1,0 +1,39 @@
+{
+  "description": "Asynchronous programming is a type of parallel programming in which a unit of work is allowed to run separately from the primary application thread. Post execution, it notifies the main thread about the completion or failure of the worker thread. There are numerous benefits to using it, such as improved application performance, enhanced responsiveness, and effective usage of CPU.\n\nAsynchronicity seems to be a big reason why Node.js is so popular for server-side programming. Most of the code we write, especially in heavy IO applications like websites, depends on external resources. This could be anything from a remote database POST API call. As soon as you ask for any of these resources, your code is waiting around for process completion with nothing to do. With asynchronous programming, you allow your code to handle other tasks while waiting for these other resources to respond.\n\nIn this session, we are going to talk about asynchronous programming in Python. Its benefits and multiple ways to implement it.",
+  "duration": 1539,
+  "language": "eng",
+  "recorded": "2023-04-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.pycon.de/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/osGGX3tcwkc/maxresdefault.jpg",
+  "title": "Dishant Sethi: Introduction to Async programming",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=osGGX3tcwkc"
+    }
+  ]
+}
