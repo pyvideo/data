@@ -1,5 +1,5 @@
 {
-  "description": "",
+  "description": "Running an application in the cloud today means both writing the program and figuring out how to deploy it. Deployment requires provisioning virtual machines while considering both cost and the application’s needs. Unfortunately, it’s very difficult to know ahead of time how many resources an application might need and how that will change over time. The promise of serverless execution is to lower the barrier of deployment, so that users can focus on programming logic and deploy applications without having to think about machines (or have their own DevOps team). Meanwhile, the serverless platform promises to optimize both performance and cost through autoscaling. However, the reality today is that it is still very difficult to bring serverless execution to many classes of applications, like data processing or model inference. These applications do not fit into the current General-purpose severless offerings, namely functions-as-a-service. In this Talk, I will discuss the key limitations faced by these applications, and our vision for the Ray project as a truly General-purpose serverless platform.",
   "duration": 1717,
   "language": "eng",
   "recorded": "2021-07-12",
