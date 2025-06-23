@@ -1,0 +1,25 @@
+{
+  "description": "Multitud de problemas relacionados con el comportamiento de sistemas físicos pueden ser descritos mediante sistemas clásicos de ecuaciones diferenciales. Sin embargo, en casos de ecuaciones complejas o incluso en aplicaciones reales, estas ecuaciones no siempre tienen soluciones analíticas simples, y es necesario recurrir a procesos de cálculo aproximado para obtener una solución.\n\nEstos métodos presentan problemas de escalabilidad y largos tiempos de ejecución, por ello, las Redes Neuronales Informadas por la Física o PINNs por sus siglas en inglés (Physics-Informed Neural Networks), presentan una forma novedosa de abordar este tipo de problemas complejos, aprovechando las capacidades de una red neuronal para resolver estas ecuaciones. Mediante condiciones de contorno apropiadas, las soluciones proporcionadas se ajustan al comportamiento real del sistema físico, evitando soluciones que no cumplan los requisitos físicos esperados. Incluso se pueden emplear datos observados para acelerar el proceso de aprendizaje y convergencia a una solución óptima.\n\nEl objetivo de esta charla es proporcionar a los asistentes con los conocimientos básicos sobre PINNs de forma que tengan consciencia de este tipo de soluciones y sean capaces de abordar y plantear problemas de esta índole en el futuro. Los puntos principales que se cubrirán son:\n\nFundamentos de las PINNs: Conocer los principios básicos y las ventajas de las PINNs frente a los métodos numéricos tradicionales basados en la discretización del dominio.\nImplementación Técnica: Ver cómo construir y entrenar PINNs con un modelo simple, con un enfoque en la creación de la red neuronal y el cálculo automático de derivadas (Automatic Differentiation).\nAplicaciones Prácticas: Ejemplos concretos de cómo las PINNs se utilizan para resolver problemas industriales complejos, como en la dinámica de fluidos, la biomedicina, y la ingeniería estructural.\nBeneficios Clave: Entender las ventajas competitivas de las PINNs, como la capacidad de manejar geometrías complejas y reducir la dependencia de grandes conjuntos de datos.\nAl final de la sesión, los participantes estarán equipados con el conocimiento necesario para entender e implementar PINNs en sus propios proyectos, aprovechando su potencial para resolver problemas complejos de manera eficiente y precisa. Esta charla proporcionará una sólida base teórica y ejemplos prácticos que demuestran el valor de las PINNs en aplicaciones reales.\n\nPara aprovechar al máximo esta charla, se recomienda que los asistentes tengan conocimientos básicos de Machine Learning y Python, así como una comprensión general de sistemas físicos para comprender el modelado mediante EDPs.",
+  "duration": 2198,
+  "language": "spa",
+  "recorded": "2024-10-04",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2024.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "Manuel Souto",
+    "Ricardo Fernández"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/1YM4r8zdWdM/maxresdefault.jpg",
+  "title": "¿Cómo enseñarle física a una red neuronal? Intro a las PINNs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1YM4r8zdWdM"
+    }
+  ]
+}
