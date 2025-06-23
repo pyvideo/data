@@ -1,0 +1,30 @@
+{
+  "description": "The Advanced Scientific Data Format (ASDF) is a new format developed for use with the James Webb and Nancy Grace Roman Space Telescopes. It was developed to overcome many of the limitations of the most common astronomical format called FITS. Nevertheless, it has been designed to be a generic format for scientific and engineering data, overcoming many of the limitations of the common scientific formats available currently. It features support for transparent metadata, a flexible and extensible structure of the metadata and data. The data may be represented either in readable or binary form. There is a schema system for ensuring that data files comply with the expected content, both in structure, and permitted values for attributes in the structure. Components of the structure can contain information used by libraries to turn those components into software objects (e.g., instances of Python classes). Extensions can be defined by local usages taking full advantage of the machinery to validate files against the schemas for such extensions. The format can support the serialization of complex mathematical functions, particularly those made out of expressions of simpler functions.\n\nThis tutorial will outline advantages of the format against existing alternatives and briefly outline the details of the format internals, with some illustrative examples of use within the Python library we have developed to use it (the format itself has been designed to be language neutral). This will be followed first by Jupyter notebook-based exercises with existing files to learn how to view the structure, search for content, access data, and modify the content. Next will be lessons and exercises on creating ASDF files from scratch, and how to create new extensions to the format. We will finish by outlining near future improvements.\n\nThe Tutorial is for anyone with needs to store science or engineering data, particularly if they find the existing solutions inadequate. Only knowledge of Python and numpy is required.\n\nhttps://github.com/asdf-format/scipy2022tutorial",
+  "duration": 4555,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2022.scipy.org/"
+    },
+    {
+      "label": "https://github.com/asdf-format/scipy2022tutorial",
+      "url": "https://github.com/asdf-format/scipy2022tutorial"
+    }
+  ],
+  "speakers": [
+    "Perry Greenfield",
+    "William Jamieson",
+    "Nadia Dencheva"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/u23loMy3wrE/maxresdefault.jpg",
+  "title": "Using ASDF in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=u23loMy3wrE"
+    }
+  ]
+}
