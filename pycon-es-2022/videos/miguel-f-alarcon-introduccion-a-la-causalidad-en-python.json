@@ -1,0 +1,40 @@
+{
+  "description": "Ponente: Miguel F Alarcon\nTítulo: Introducción a la causalidad en Python\nAula: Paraninfo (Sábado)\n--------------------------\nResumen:\nTodos sabemos que correlación no es igual a causalidad. La mayoría de modelos de Machine Learning en la actualidad buscan correlaciones de los datos con el objetivo. La causalidad viene como herramienta para identificar los factores que afectan al objetivo y de qué manera lo hacen.\nEl objetivo de esta charla es proporcionar unos conocimientos básicos, así como las herramientas para poder solucionar problemas de inferencia y modelado causal en Python.\n\nEn esta presentación explicaremos de forma práctica los conceptos y técnicas básicas de inferencia causal en python así como la relevancia que estas técnicas tienen para mejorar los procesos basados en machine learning.\n\nLas técnicas de inferencia causal y “causal discovery” nos permiten responder a preguntas para las que las técnicas de analítica predictiva y métodos de clasificación/regresión habituales no tienen respuestas. Básicamente nos permite responder usando datos observacionales a la pregunta de porqué se ha producido un determinado efecto, y como debería haber actuado para que se hubiera producido un efecto distinto.\n\nPor otro lado nos permiten comprender y corregir los efectos que tienen sobre nuestros sistemas predictivos el efecto de sesgos de selección y el efecto de construcción de modelos condicionados o balanceados sobre algún estrato.\n\nLos principios que nos permiten entender estos efectos permiten desarrollar modelos de aprendizaje explicables, permiten corregir sesgos indeseados, y otorga mayor robustez al desplazamiento de dominio (domain shift) en la aplicación de los modelos.\n\nEn esta presentación explicaremos estos conceptos de forma práctica y para ello usaremos las librerías DoWhy y CausalML.\n\nReferencias:\n\n“Concept and Principles of Causality “, Miguel F. Alarcon, https://medium.com/hotel-tech-stories/concept-and-principles-of-causality-d687832d6f5d\n\n“The Book of Why.”. Pearl, Judea, and Dana Mackenzie.Harlow, England: Penguin Books. 2019.\n\n“Elements of Causal Inference, Foundations and Learning Algorithms”, Jonas Peters, Dominik Janzing and Bernhard Schölkopf.\n\n\"A unified survey of treatment effect heterogeneitymodelling and uplift modelling\".W Zhang, J Li, L Liu - ACM Computing Surveys (CSUR), 2021\n\n“Introduction to Causal Inference course”, Brady Neal, https://www.bradyneal.com/causal-inference-course\n\nPaquetes Python:\n\nMicrosoft DoWhy, https://github.com/py-why/dowhy\nUber CausalML: https://github.com/uber/causalml",
+  "duration": 1803,
+  "language": "spa",
+  "recorded": "2022-09-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2022.es.pycon.org/"
+    },
+    {
+      "label": "https://www.bradyneal.com/causal-inference-course",
+      "url": "https://www.bradyneal.com/causal-inference-course"
+    },
+    {
+      "label": "https://medium.com/hotel-tech-stories/concept-and-principles-of-causality-d687832d6f5d",
+      "url": "https://medium.com/hotel-tech-stories/concept-and-principles-of-causality-d687832d6f5d"
+    },
+    {
+      "label": "https://github.com/uber/causalml",
+      "url": "https://github.com/uber/causalml"
+    },
+    {
+      "label": "https://github.com/py-why/dowhy",
+      "url": "https://github.com/py-why/dowhy"
+    }
+  ],
+  "speakers": [
+    "Miguel F Alarcon"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/sSbDW_NzS5s/maxresdefault.jpg",
+  "title": "Introducción a la causalidad en Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sSbDW_NzS5s"
+    }
+  ]
+}
