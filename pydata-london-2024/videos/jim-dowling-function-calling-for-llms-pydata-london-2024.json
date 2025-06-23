@@ -1,0 +1,51 @@
+{
+  "description": "PyData\nWebsite: www.pydata.org\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nRetrieval Augmented Generation (RAG) for large language models (LLMs) enables you include real-time information and information created after the cutoff training time for the LLM. RAG is strongly associated with using the user's prompt (query) to retrieve semantically related data from a vector database, and then augment the user's prompt by adding the returned (hopefully related) data to the user's prompt. This version of RAG suffers from being probabilistic in the data retrieved (sometimes it may not work) and problematic in requiring you to index your existing (normally unstructured) data in a vector database.\n\nThis talk is concerned with extending RAG for LLMs to include the ability to query structured data and API calls using function calling. We will introduce the function calling paradigm for LLMs and describe how LLMs can be fine-tuned to detect when a function needs to be called and then output JSON containing arguments to call the function. We will demonstrate an open-source function calling example for Air Quality prediction that enables users to ask questions such as \"what will air quality be like next week\" or \"will there be any day with bad air quality in the next 10 days\"?\nThis talk will include source code and a demo and all material and software used will be open-source (including the LLM).\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 2082,
+  "language": "eng",
+  "recorded": "2024-06-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/london2024/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/dRcjTe5qgwM/maxresdefault.jpg",
+  "title": "Jim Dowling - Function Calling for LLMs | PyData London 2024",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dRcjTe5qgwM"
+    }
+  ]
+}
