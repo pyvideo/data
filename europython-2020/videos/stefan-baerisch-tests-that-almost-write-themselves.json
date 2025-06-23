@@ -1,6 +1,6 @@
 {
   "copyright_text": "This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n",
-  "description": "\"Tests that (Almost) Write Themselves\nEuroPython 2020 - Talk - 2020-07-24 - Brian\nOnline\n\nBy Stefan Baerisch\n\nWhat do we do when the only test requirements we have are \"\"the new system should have the exact same results as the old system\"\"? Golden Master Testing may help.\nThe idea behind golden master testing, also called characterization testing, is quite simple: We don't write test cases that specify what the expected result is. Instead, we take the output from a prior, working version of a program (the golden master) and compare it to the result of the current version. If there is a difference between the output of the current system and the golden master, we may have found a bug.\n\nIf implemented right, Golden Master testing can be very useful to test legacy systems or data processing programs with complex input and outputs. Golden Master Testing is also a good addition to our regression testing processes.\n\nIn practice, implementing Golden Master testing is not quite that easy.  Just checking if the outputs are equal will often not work: If the output includes times and dates or random elements, a simple comparison will not be enough. Luckily for use, with Python, we have the perfect tool to process all kinds of outputs and only look at the parts of the output that are important for the outcome of the test.\n\nIn this talk, we will look at best practices for Golden Master Testing with Python. We will see techniques to identify and quantify the relevant differences between our golden master and the current output.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n\n    \"",
+  "description": "\"Tests that (Almost) Write Themselves\nEuroPython 2020 - Talk - 2020-07-24 - Brian\nOnline\n\nBy Stefan Baerisch\n\nWhat do we do when the only test requirements we have are \"\"the new system should have the exact same results as the old system\"\"? Golden Master Testing may help.\nThe idea behind golden master testing, also called characterization testing, is quite simple: We don't write test cases that specify what the expected result is. Instead, we take the output from a prior, working version of a program (the golden master) and compare it to the result of the current version. If there is a difference between the output of the current system and the golden master, we may have found a bug.\n\nIf implemented right, Golden Master testing can be very useful to test legacy systems or data processing programs with complex input and outputs. Golden Master Testing is also a good addition to our regression testing processes.\n\nIn practice, implementing Golden Master testing is not quite that easy.  Just checking if the outputs are equal will often not work: If the output includes times and dates or random elements, a simple comparison will not be enough. Luckily for use, with Python, we have the perfect tool to process all kinds of outputs and only look at the parts of the output that are important for the outcome of the test.\n\nIn this talk, we will look at best practices for Golden Master Testing with Python. We will see techniques to identify and quantify the relevant differences between our golden master and the current output.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n\n\"",
   "duration": 2087,
   "language": "eng",
   "recorded": "2020-07-23",
@@ -19,11 +19,11 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Stefan Baerisch"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/CSwm95DLRf4/sddefault.jpg",
-  "title": "Stefan Baerisch - Tests that (Almost) Write Themselves",
+  "title": "Tests that (Almost) Write Themselves",
   "videos": [
     {
       "type": "youtube",
