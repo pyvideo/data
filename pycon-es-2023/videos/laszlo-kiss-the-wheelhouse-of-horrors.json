@@ -1,0 +1,36 @@
+{
+  "description": "Ponente\nNombre: Laszlo Kiss Kollar\nTítulo: The wheelhouse of horrors\nSala: Antequera\n——————\nYou might be surprised to learn that, besides naming and cache invalidation problems, building a binary wheel for a Python extension is one of the hardest problems in computer science. Or more precisely, building that binary wheel correctly. Lucky for us, a few amazing community-led projects hide all that complexity from us, so we can instead focus on shipping and using Python code.\n\nOne of Python's strong suits is its ability to use native C and C++ code, which is a big reason why it’s the number one language for date science and machine learning applications. However, distributing native code in Python libraries is far from trivial: subtle issues in the build process can result in runtime issues that are extremely difficult to track down.\n\nThis talk will showcase some notable examples of how things can go wrong, while also helping users and maintainers recognise these typical error scenarios. We will learn how to avoid these issues and what users can do when they encounter such issues when using a library.\n\nThe audience will learn about the manylinux standard and its role in standardizing Linux platform wheels. We will also take a look at the cibuildwheel project, which offers library authors a simple solution to automate the building and distribution of manylinux wheels.\n\n—\nPython España: https://es.python.org/\nPython Canarias: https://pythoncanarias.es/\nTwitter/X: @PyConES\nMastodon: https://fosstodon.org/@pycones",
+  "duration": 2231,
+  "language": "spa",
+  "recorded": "2023-10-06",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.es.pycon.org/"
+    },
+    {
+      "label": "https://fosstodon.org/@pycones",
+      "url": "https://fosstodon.org/@pycones"
+    },
+    {
+      "label": "https://es.python.org/",
+      "url": "https://es.python.org/"
+    },
+    {
+      "label": "https://pythoncanarias.es/",
+      "url": "https://pythoncanarias.es/"
+    }
+  ],
+  "speakers": [
+    "Laszlo Kiss Kollar"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/dfocsJAcRfo/maxresdefault.jpg",
+  "title": "The wheelhouse of horrors",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dfocsJAcRfo"
+    }
+  ]
+}
