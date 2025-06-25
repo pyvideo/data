@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2023 \u2014 North Hall on 2023-07-19]\n\rhttps://ep2023.europython.eu/session/temporal-python-a-durable-distributed-asyncio-event-loop\n\nThis talk discusses asyncio, an essential tool for asynchronous, non-blocking code in Python, and its limitations, such as non-durability and inability to distribute across multiple machines. Temporal.io, an open-source microservice orchestration platform, is introduced as a robust solution capable of using event sourcing for durability, scalability, and resilience, effectively managing system failures. Temporal based asyncio event loop implementation adds seamless durability to Python code. The complete state of the program, including local variables and await calls, is fully preserved across process and other infra failures. We highlight real-world applications and conclude by emphasizing how Temporal transforms the design and implementation of distributed fault-tolerant systems.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1757,
+  "language": "eng",
+  "recorded": "2023-07-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2023.europython.eu/"
+    },
+    {
+      "label": "https://ep2023.europython.eu/session/temporal-python-a-durable-distributed-asyncio-event-loop",
+      "url": "https://ep2023.europython.eu/session/temporal-python-a-durable-distributed-asyncio-event-loop"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Maxim Fateev"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/jxqPWS_LRzw/maxresdefault.jpg",
+  "title": "Temporal Python - A Durable, Distributed Asyncio Event Loop",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jxqPWS_LRzw"
+    }
+  ]
+}
