@@ -1,0 +1,36 @@
+{
+  "description": "Brief Summary\nWe present \u201cSlicerJupyter\u201d, a 3D Slicer kernel allowing developers to implement image processing and visualization workflows in a notebook. 3D Slicer is C++ desktop app including tools for DICOM interop, GPU accelerated volume viz, non-linear transformations, device interfaces, and other features from core analysis to full-scale specializations such as radiation therapy/neuroimaging/astronomy.\n\nOutline\n3D Slicer (or Slicer for short) is a C++ desktop application that uses Qt, ITK, and VTK libraries for visualization and medical image analysis. 3D Slicer contains a wide range of tools to handle research and clinical workflows such as DICOM interoperability, GPU accelerated volume visualization, non-linear transformations, device interfaces, and many other features ranging from core analysis primitives to full-scale specializations for domains such as radiation therapy, neuroimaging, and even astronomy.\n\nSlicer\u2019s embedded Python interpreter makes all its features accessible with the Python programming language. Slicer has a simple built-in console to run Python commands interactively and can run Python scripts from files, but these are not as convenient as cell-based interactive notebooks, which have become popular among data scientists and researchers in recent years.\n\nIn this talk, we present \u201cSlicerJupyter\u201d, a 3D Slicer kernel allowing developers to implement complete data processing workflows in a notebook, using the powerful medical imaging and bioimaging tools in 3D Slicer. We will describe how Jupyter interactive widgets (sliders, buttons, etc.) can be used to control Slicer, modify data, or adjust processing and visualization parameters.\n\nWe will review the different levels of interactivity:\n\nLevel 1: Standard Jupyter widgets display application specific objects by automatic conversion of application-specific data objects to standard Python objects. For example, Slicer markup fiducial lists are displayed as a nicely formatted table and model nodes are rendered as 3D objects.\n\nLevel 2: Static image widgets display content that the desktop application renders. These widgets can be made interactive by modifying data and rendering parameters using additional standard widgets. This makes rich visualization capabilities \u2014 sophisticated rendering various data types, rendering of very large data sets, etc. directly available in Jupyter.\n\nLevel 3: Dynamic viewer widgets display 2D and 3D views rendered by the desktop application. Mouse and keyboard events are forwarded to the desktop application that allows zooming/rotating views, and to utilize all 3D interactions implemented in the desktop such as placing annotations, making measurements, or segmenting images the same way as if it was done on the desktop appication\u2019s screen. This is implemented in the Slicer Jupyter kernel using ipycanvas and ipyevents packages.\n\nLevel 4: Full desktop graphical user interface integration. Users can see parts of the application window rendered in notebook cells, including standard desktop widgets (sliders, menus, etc.). It is implemented using noVNC and TigerVNC in Slicer Jupyter. This is particularly useful when the application runs on a remote server.",
+  "duration": 1565,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "Jean Christophe"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yU5KYdev9Q0/sddefault.jpg",
+  "title": "SlicerJupyter: a 3D Slicer kernel for interactive publications",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yU5KYdev9Q0"
+    }
+  ]
+}
