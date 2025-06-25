@@ -1,0 +1,45 @@
+{
+  "description": "EuroPython 2022 - Work in Progress: Implementing PEP 458 to Secure PyPI downloads - presented by Kairo de Araujo, Lukas P\u00fchringer\n\n[Liffey B on 2022-07-15]\n\n\nAttacks on software repositories are extremely common and can have a vast impact. A single successful compromise of the content distribution infrastructure can affect millions of users, voluntarily installing the infected packages.\n\nPEP 458 (https://peps.python.org/pep-0458/) was designed to protect PyPI against a variety of possible attacks on PyPIs own content distribution network and PyPI mirrors, while giving administrators a mechanism to recover from a compromise if it happens. In addition, PEP 458 is a fundamental stepping stone for more advanced protection described in PEP 480 (https://peps.python.org/pep-0480/).\n\nBoth PEP 458 and 480 implement a specification called \"\"The Update Framework\"\" (TUF) (http://theupdateframework.io/), which introduces a series of roles, keys and metadata formats that are published along with the packages they protect, and can be verified by a client software such as pip.\n\nOver the past couple of months we have made an effort to integrate the latest version of the Python TUF reference implementation with PyPI/Warehouse; see draft PR (https://github.com/pypa/warehouse/pull/10870).\n\nIn this talk we will give an introduction to PEP 458 and TUF, how it works and what it is good for. We will report from the work-in-progress integration with Warehouse, what challenges we face and how Python developer and user workflows are affected, as well as an expected timeline for the integration. And last but not least, we want to give an outlook of what comes after PEP 458, that is full developer-to-user end-to-end protection of Python packages as described by PEP 480.\n\nWith our talk we also hope to spark interest in software supply chain security and to encourage the community to get involved by reviewing, commenting and contributing to the PEP 458 and PEP 480 integration efforts.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1898,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://theupdateframework.io/",
+      "url": "http://theupdateframework.io/"
+    },
+    {
+      "label": "https://github.com/pypa/warehouse/pull/10870",
+      "url": "https://github.com/pypa/warehouse/pull/10870"
+    },
+    {
+      "label": "https://peps.python.org/pep-0458/",
+      "url": "https://peps.python.org/pep-0458/"
+    },
+    {
+      "label": "https://peps.python.org/pep-0480/",
+      "url": "https://peps.python.org/pep-0480/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Kairo de Araujo",
+    "Lukas Pühringer"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0HgjwKOnMGo/maxresdefault.jpg",
+  "title": "WIP: Implementing PEP 458 to Secure PyPI downloads",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0HgjwKOnMGo"
+    }
+  ]
+}
