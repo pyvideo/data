@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2A on 2024-07-10]\n\n\rEnhancing Decorators with Type Annotations: Techniques and Best Practices by Koudai Aono\n\rhttps://ep2024.europython.eu/session/enhancing-decorators-with-type-annotations-techniques-and-best-practices\n\n\rDecorators are powerful, magical syntax sugar, offering a convenient way to wrap and enhance functions. But sometimes, it's not clear how to use a defined decorator.\n\n\rWhat arguments should we pass to a given decorator? What functions does it target? Does it change the return type of the wrapped function? Have you ever faced these questions?\n\n\rIf proper type hints are defined for decorators, static type checkers like mypy and pyright IDEs will point out the errors in usage. Thus, guiding you on the right path by catching bugs earlier, reducing unnecessary debugging and unexpected runtime behaviour.\n\n\rThis talk will step you through type definitions utilizing `typing.TypeVarTuple`, `typing.Protocol`, `typing.ParamSpec`, `typing.Concatenate`, `Type Parameter Syntax`, and more, all of which are practical to implement and can make your project robust!\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1464,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/enhancing-decorators-with-type-annotations-techniques-and-best-practices",
+      "url": "https://ep2024.europython.eu/session/enhancing-decorators-with-type-annotations-techniques-and-best-practices"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Koudai Aono"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/b3WBkrY9vik/maxresdefault.jpg",
+  "title": "Enhancing Decorators with Type Annotations: Techniques and Best Practices",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=b3WBkrY9vik"
+    }
+  ]
+}
