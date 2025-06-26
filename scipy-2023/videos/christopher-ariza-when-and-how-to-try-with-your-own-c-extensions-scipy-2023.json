@@ -1,0 +1,24 @@
+{
+  "description": "While the NumPy C API lets developers write C that builds or evaluates arrays, just writing C is often not enough to outperform NumPy. NumPy's usage of Single Instruction Multiple Data routines, as well as multi-source compiling, provide optimizations that are impossible to beat with simple C. This presentation offers principles to help determine if an array-processing routine, implemented as a C-extension, might outperform NumPy called from Python. A C-extension implementing a narrow use case of the np.nonzero() routine will be studied as an example.",
+  "duration": 1797,
+  "language": "eng",
+  "recorded": "2023-07-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2023.scipy.org/"
+    }
+  ],
+  "speakers": [
+    "Christopher Ariza"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/i4IqWD1zBuo/maxresdefault.jpg",
+  "title": "When and How to Try with Your Own C-Extensions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=i4IqWD1zBuo"
+    }
+  ]
+}

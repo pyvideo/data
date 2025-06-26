@@ -1,0 +1,28 @@
+{
+  "title": "Django FTL: Resolving Bottlenecks on the Path to High Performance",
+  "description": "Raw Django doesn't take the first places when comparing the performance of Python web frameworks. However, it can be pretty fast if we identify the bottlenecks and find ways to avoid them. Comparing performance and implementation complexity before and after gives us an understanding of which features should be implemented and what can be skipped.\r\n\r\nThe Django framework offers a beautiful collection of diverse tools that are easy to understand, set up, and start working with. However, after some time, appearing disadvantages of the framework's features may increase the complexity of the development process and fatally reduce project performance. While the new version of Django successfully improves the developers effictivity, the task to improving performance requires a good understanding of how Django works.\r\n\r\nIn this talk, I will review the most significant performance-reducing factors in Django and provide examples of how to avoid them.\r\n\r\nOverview of the talk from a 10,000-feet view:\r\n\r\n1. Django vs. other faster frameworks: reviewing architectural differences.\r\n2. Request-Response Flow: Identifying elements that can be easily omitted.\r\n3. Forms and Data validation: Balancing flexibility and performance.\r\n4. The quickest methods for data serialization.\r\n5. Debunking myths about async-await productivity.\r\n6. Fire and Forget: FTL Client-Server Communication.\r\n7. Improving Time to First Byte (TTFB). Less known Responce classes.\r\n8. Reviewing other utilities to expedite our project.\r\n9. Q&A.\r\n\r\nBy comparing performance before and after, every developer attending this talk can decide which advice to implement in their own projects.",
+  "duration": 2718,
+  "language": "eng",
+  "recorded": "2024-11-03",
+  "speakers": [
+    "Maxim Danilov"
+  ],
+  "videos": [
+    {
+      "type": "mp4",
+      "url": "https://dl.afpy.org/pycon-fr-24/django_ftl_resolving_bottlenecks_on_the_path_to_high_performance.mp4",
+      "size": 295017285
+    },
+    {
+      "type": "peertube",
+      "url": "https://indymotion.fr/videos/watch/35c5e99b-7f6b-4b1d-9e90-ec8fdf44111a"
+    }
+  ],
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://www.pycon.fr/2024/fr/schedule.html"
+    }
+  ],
+  "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/5f85ecb4-697f-48b5-b9a7-37e3b2353ba1.jpg"
+}
