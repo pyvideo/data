@@ -1,0 +1,25 @@
+{
+  "description": "Through single-camera tennis match footage, via a YOLO-driven computer vision system, and culminating in actionable insights for strength and conditioning coaches, the Dutch Tennis Federation offers a pathway for creating tennis data and insights. In our presentation, we will delve into technical specifications and algorithms of our system, navigate through the challenges of working with tennis video footage, and elaborate on our approach to actively engage coaches in our co-creation approach. After the presentation, you will have a deeper understanding of the intricate workings behind implementing such system in a competitive tennis environment. All output of the project will be presented on Github.\n\nTennis is seen within the community more as a skill sport than a physical sport. In this way, tennis is an exception compared to other ball sports, in which there is a primary focus on physical data (e.g., distance covered or time in specific speed zones). The primary use of data by now is tactical analysis, scouting your opponent, and finding specific tendencies. Currently, this is done by manually annotating events in game videos for further analysis, which can take up to 5 hours per match. One of the bottlenecks of this process is finding the start of a rally; the effective playing time is actually just 20-30% on clay courts and 10-15% on fast courts. This means that a 5-hour match would have just 30 minutes of playing time that needs to be annotated. Hence, automatically finding the start point of a rally and cutting videos into shorter sequences would tremendously speed up the annotation process and would allow scouting of more players and matches.\n\nIn turn, we had two goals in the project. First, to create a solution to optimize the annotation process by providing videos when the ball is in play. The second goal was to provide tennis coaches and players with physical data and to stimulate the use of this type of data (user buy-in). For both of these goals, we faced specific challenges we needed to overcome. Event recognition has been achieved in other sports as well as in tennis using computer vision approaches, especially video tracking (trajectories and coordinates of the players). In tennis, the Hawk-Eye system is used in big tournaments to provide this information. By using 10 synchronized cameras, the system provides player and ball trajectories that enable event recognition and the extraction of physical variables. However, due to the costs of using this system and the complexity of installing it, using it in less prestigious tournaments or for training monitoring is not an option. To overcome this challenge, we created a one-camera computer vision system that allows for player tracking and simple event recognition.\n\nAs mentioned earlier, the second challenge of this project is the buy-in by coaches, athletes, and the medical team to physical parameters for athlete monitoring and training optimization. To overcome this problem, we opted for an educational and co-creation approach. This entails, in an initial step, a presentation on the usage of physical data in other sports and their benefits. In a second step, we performed semi-structured interviews with potential end-users (coaches, athletes, medical staff, and performance analysts). Based on these interactive interviews, important variables for the end-users were defined. In addition, potential forms of data presentation and visualizations were discussed in order to create a dashboard for the end-users. In doing so, we improved the understanding of the end-users as well as the commitment to the project.\n\nIn this talk, we will provide a summary of the general approach of the conducted interviews and how this resulted in an interactive dashboard for coaches, athletes, and analysts. In addition, we provide an overview of the pipeline of the computer vision approach. While using an \u201coff-the-shelf\u201d YOLO approach, several processing steps are necessary. This includes several technical challenges like player and court recognition as well as data filtering. We will also provide an example of how we enriched our pipeline with audio data to facilitate event recognition. All in all, we hope to provide an exemplary approach on how to conduct a data science project in a sports environment in which the conceptual barriers between product designer and end-user are often hard to overcome.",
+  "duration": 1876,
+  "language": "eng",
+  "recorded": "2024-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2024/"
+    }
+  ],
+  "speakers": [
+    "Max Brouwer",
+    "Matthias Kempe"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-x_r4gRaHcQ/maxresdefault.jpg",
+  "title": "CV at the Dutch Tennis Federation: Utilizing YOLO to create insights for coaches",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-x_r4gRaHcQ"
+    }
+  ]
+}
