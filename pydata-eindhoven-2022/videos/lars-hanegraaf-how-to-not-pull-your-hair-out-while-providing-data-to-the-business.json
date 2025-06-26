@@ -1,0 +1,24 @@
+{
+  "description": "PyData Eindhoven 2022\n\nOther people who use your datasets is nice, but updating the logic behind it could cause breaking dashboards and ML models down the line. In this talk I will explain how to prevent these stressful situations by applying unit testing to your data or preprocessing pipelines in Python.\n\nUnit testing is a testing method that is often used for building software. It helps in building more robust applications, so as a developer you can release with more confidence and less errors in production. But can you use this technique as a data engineer or data scientist for you preprocessing or pipeline code as well?\n\nIt turns out you can! And you can reap the same benefits that software engineers experience, such extra confidence before deployment, in your day-to-day work!\n\nIn this talk I will walk you through the conceptual idea of unit testing for data or preprocessing pipelines and provide an example on how to apply it to a very simple use case that uses Pandas. The example will test some transformations on beer data \ud83d\ude09.\n\nI will walk through a five step process with code examples in Python. That way data scientists and data engineers have practical guidance on how to apply it to their own projects by showing how to:\n- Define what the logic is that you want to test within your project;\n- Refactor your code to separate specific parts in your code;\n- Generate synthetic data for testing purposes;\n- Put your refactored code under tests using Pytest;\n- Set up a CI pipeline in your Git provider in order to test code automatically.",
+  "duration": 1705,
+  "language": "eng",
+  "recorded": "2022-12-02",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2022/"
+    }
+  ],
+  "speakers": [
+    "Lars Hanegraaf"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nH9s0BiHY5g/maxresdefault.jpg",
+  "title": "How to not pull your hair out while providing data to the business",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nH9s0BiHY5g"
+    }
+  ]
+}
