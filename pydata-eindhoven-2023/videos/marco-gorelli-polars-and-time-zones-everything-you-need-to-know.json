@@ -1,0 +1,24 @@
+{
+  "description": "If you work with time series, you will inevitably come across time-zone-related issues, such as daylight saving time or time zone changes. The bad news is that these issues are incredibly difficult to deal with by hand. The good news is that Polars has full support for time zones built-in! By letting Polars handle time zones for you, your time series analysis not only be blazingly fast, but also very rock-solid.\n\nTime zones may seem easy, but there are several subtleties to be aware of:\n- what's the difference between '1d' and '24h'?\n- how do you deal with DST (daylight-savings)?\n- what's the difference between a UTC-offset and a time zone?\n\nNo prior Polars knowledge is expected (though basic familiarity would be helpful).\n\nThe format of the talk will be:\n- 5 minutes: motivation, why should you never ever deal with time zones by hand?\n- 5 minutes: Polars crash course\n- 7.5 minutes: parsing datetimes in Polars (including time-zone-aware ones)\n- 7.5 minutes: time zones in other Polars operations (offsets, resampling, truncation, ...)\n- Q&A\n\nBy the end of the talk, you will have learned how to effectively leverage Polars when performing time series analysis involving time zones.",
+  "duration": 1810,
+  "language": "eng",
+  "recorded": "2023-11-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20240930133013/http://pydata.org/eindhoven2023"
+    }
+  ],
+  "speakers": [
+    "Marco Gorelli"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Qr0PnDox5MM/maxresdefault.jpg",
+  "title": "Polars and time zones: everything you need to know",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Qr0PnDox5MM"
+    }
+  ]
+}
