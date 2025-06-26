@@ -1,0 +1,28 @@
+{
+    "description": "How often do we trust our instincts when optimizing code? In Python, performance frequently defies intuition, leading us to make changes that might slow things down instead of speeding them up. This talk explores surprising truths about Python performance and showcases why measurement tools are essential for finding the real bottlenecks in our code.\n\nConsider this: is it faster to count even numbers in a list using len([x for x in arr if x % 2 == 0]) or sum(1 for x in arr if x % 2 == 0)? While one might seem more Pythonic or efficient at first glance, the performance results might surprise you.\n\nThrough an interactive format, we’ll quiz you on performance scenarios using real-world examples. From counting even numbers to rewriting Python code in Rust, each case study will challenge assumptions about what makes code faster.\n\nPlan:\n\n    Introduction: Why intuition often fails in software performance\n    Interactive performance case studies: Real-world examples that will surprise you\n        Counting even numbers\n        String concatenation\n        Pathfinding optimization\n        etc.\n    Conclusion: How do we become consistent about optimizations?\n\nBy the end, you’ll understand why performance measurements matter and leave with practical insights and tools to improve Python performance systematically.",
+    "duration": 2503,
+    "language": "eng",
+    "recorded": "2025-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/55/"
+        }
+    ],
+    "speakers": [
+        "Arthur Pastel",
+        "Adrien Cacciaguerra"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/TEF6yhdOwEA/hqdefault.jpg",
+    "title": "Intuition vs. Reality: Surprising Truths in Python Performance",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=TEF6yhdOwEA"
+        }
+    ]
+}

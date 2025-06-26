@@ -1,0 +1,28 @@
+{
+    "description": "Have you ever needed to debug a Python application in production without stopping it? While tools like GDB make this straightforward for C/C++, Python developers face unique challenges when attaching debuggers to live processes. This talk introduces PEP 768, a new proposal for Python 3.14 that adds a safe, zero-overhead debugging interface to CPython.\n\nWe'll explore how the current landscape forces debugging tools to use unsafe methods that can crash interpreters and corrupt memory. Then, we'll detail how PEP 768 solves these problems by introducing a cooperative debugging protocol that works with the interpreter rather than against it.\n\nYou'll learn why attaching debuggers to Python processes is uniquely challenging, how PEP 768 enables safe debugging through interpreter cooperation, the technical details of the zero-overhead implementation, real-world applications, including live process attachment for pdb and all about the security considerations and safeguards.\n\nThis talk will be particularly valuable for tool developers, system administrators, and anyone interested in Python internals or debugging techniques. You'll walk away understanding the challenges of live process debugging and how PEP 768 elegantly solves them.",
+    "duration": 1921,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/134/"
+        }
+    ],
+    "speakers": [
+        "Pablo Galindo Salgado",
+        "Ivona Stojanovic"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/1N5BgXdO6SI/hqdefault.jpg",
+    "title": "A new safe external debugger interface for CPython",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=1N5BgXdO6SI"
+        }
+    ]
+}
