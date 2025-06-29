@@ -1,0 +1,27 @@
+{
+    "description": "Despite their reputation, just-in-time compilers are not magic “go faster” machines. Developing and maintaining any sort of optimizing compiler for even a single platform, let alone all of Python’s most popular supported platforms, is an incredibly complicated, expensive task.\n\nHowever, figuring out how to compile Python code down to machine code is just the beginning. Most talks and other resources about JITs offer an interesting introduction to the general approaches used, but gloss over the most interesting technical issues that need to be solved in order to actually \"ship\" these performance gains in practice.\n\nAs one of the engineers working on Microsoft's ambitious \"Faster CPython\" project, I'll introduce some of the challenges that we've encountered over the past year in our quest to make your code faster. Along the way, we'll learn how JITs decide what code to compile, how they compile this code in-process in a safe and secure way, and the debugging and profiling requirements that users have come to expect from native code.",
+    "duration": 1742,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/5/"
+        }
+    ],
+    "speakers": [
+        "Brandt Bucher"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/NE-Oq8I3X_w/hqdefault.jpg",
+    "title": "What they don't tell you about building a JIT compiler for CPython",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=NE-Oq8I3X_w"
+        }
+    ]
+}

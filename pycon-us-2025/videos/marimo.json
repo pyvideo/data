@@ -1,0 +1,27 @@
+{
+    "description": "This talk explores the following question: What would it take to create a new kind of Python notebook that, unlike a REPL, knew the order in which to run cells? What if the notebook could also update automatically or lazily when a variable was updated? And what if we could add UI elements, like sliders and dropdowns, to all this? Would this change how you worked with notebooks?\n\nBut most of all: how would you build such a thing? In this talk, we propose that you would need a kind of \"compiler\" on top of Python.\n\nThis talk focuses on how to create such a notebook by using marimo — an open-source reactive notebook for Python that's executable as scripts and shareable as apps — as a case study. Marimo's key technology is static analysis: marimo \"compiles\" blocks of Python code, or \"cells\", to a directed acyclic graph. This graph models how data flows across cells, and is used as an intermediate representation consumed by a runtime that eliminates hidden state while also powering interactive computing, scripts, and web apps.\n\nBy using notebooks and marimo's internals as a case study, we'll examine a question that is broadly applicable to developer tools in many domains: What does it take to compile Python code to a flexible intermediate representation that preserves the original program's semantics? We'll discuss design decisions and tradeoffs along the way, such as the pros and cons of static analysis versus runtime tracing.",
+    "duration": 2847,
+    "language": "eng",
+    "recorded": "2025-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/18/"
+        }
+    ],
+    "speakers": [
+        "Akshay Agrawal"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/3-3zy5W2SOw/hqdefault.jpg",
+    "title": "Marimo: A Notebook that \"Compiles\" Python for Reproducibility and Reusability",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=3-3zy5W2SOw"
+        }
+    ]
+}

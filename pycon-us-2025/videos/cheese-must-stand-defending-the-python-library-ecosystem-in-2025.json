@@ -1,0 +1,24 @@
+{
+    "description": "Supply chain attacks on Python package infrastructure increased in frequency and sophistication in 2024. As PyPI comes under threat, how can we continue to secure our beloved cheese shop through 2025?\n\n\n\nThe 600k packages in PyPI power sensitive infrastructure in almost every critical industry, and it's no surprise that the Python library ecosystem is a target. In 2024 alone, the Ultralytics token compromise and the NP6 combined typosquatting and DLL sideloading attack show the sophistication of these supply chain attacks.\n\n\n\nIn the first part of this talk (12 minutes), we'll look back at these 2024 attacks and also consider examples such as the \"revival hijack\" attack vector and the 2022 dependency confusion attack on PyTorch. In the second portion (12 minutes), we'll dig into some critical developments in this area that have helped to mitigate recent attacks, such as:\n\n\n\nProvenance transparency logs using Sigstore\n\nProgressive supply chain security levels with SLSA\n\nSoftware Bills of Materials (sbomS)\n\nArtifact scanners such as Grype and Trivy\n\n\n\nWe will also briefly discuss specific insights from developing Chainguard’s Guarded Ecosystems for Python, an ambitious alternative package index that rebuilds included packages from scratch. The final takeaway: while mitigations exist for these threats, they're not equally distributed, and we'll point out low hanging fruit for securing projects and infrastructure (3 minutes).\n\n\n\nThis talk will be an accessible introduction to an intermediate topic (software supply chain security). Expect some cheesy puns and memes as we deal with this muenster problem—all in excellent taste, of course.\n\n\n\nPatrick recently received best speaker at SwampUP 2024. Srishti and Patrick recently teamed up for PyTorch 2024.",
+    "duration": 1712,
+    "language": "eng",
+    "recorded": "2025-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        }
+    ],
+    "speakers": [
+        "Patrick Smyth",
+        "Srishti Hegde"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/5cdC5pVkCvU/hqdefault.jpg",
+    "title": "Cheese Must Stand: Defending the Python Library Ecosystem in 2025",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=5cdC5pVkCvU"
+        }
+    ]
+}

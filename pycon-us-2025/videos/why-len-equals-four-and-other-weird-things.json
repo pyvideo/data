@@ -1,0 +1,28 @@
+{
+    "description": "Strings in Python behave in all sorts of unexpected ways: len('😶‍🌫️') == 4, 'ñ' != 'ñ', 'dlrow olleh'.split()[1] == 'olleh'! How is this possible? And importantly, why should you care?\n\nIn this presentation, we’ll give a brief introduction to text encoding, the different Unicode standards and how Python encodes strings before we dive deep into Unicode oddities. We’ll cover how one code point can represent multiple characters, why converting between upper-case and lower-case characters should be locale-dependent and how emoji’s work. Finally, we will discuss some best practices for handling unicode input in Python.\n\nAfter this talk, you'll have a better understanding of strings in Python, the Unicode character encoding and you’ll be aware of some common pitfalls and how to avoid them.",
+    "duration": 1409,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/27/"
+        }
+    ],
+    "speakers": [
+        "Marie Roald",
+        "Yngve Mardal Moe"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/np-xKVMIKcY/hqdefault.jpg",
+    "title": "Why `len('😶‍🌫️') == 4` and other weird things you should know about strings in Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=np-xKVMIKcY"
+        }
+    ]
+}

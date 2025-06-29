@@ -1,0 +1,27 @@
+{
+    "description": "Load balancers are widespread nowadays because most software systems are web-centric and service oriented. However, they’re extremely complex to build, because they must be very performant and use sophisticated algorithms to route traffic. Until recently, you couldn’t use Python to build one, because even though it would make the code simpler, the GIL prevented multiple threads from executing Python at the same time. Now that you can, what are the practical implications in your day to day work? In this talk, we’re going to live code a load balancer in Python. This will help us understand the pros and cons of using modules such as asyncio, threading and concurrent.futures, and what changes when we remove the GIL from the way. Whether you’re building systems that demand concurrency (such as AI models or DevOps pipelines), or you’re just curious about how tools like gUnicorn or Starlette work under the hood, you’ll come away with practical insights on how to start off the NoGIL era on the right foot.",
+    "duration": 1811,
+    "language": "eng",
+    "recorded": "2025-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/113/"
+        }
+    ],
+    "speakers": [
+        "Alvaro Duran"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/AYSlsCz8gKM/hqdefault.jpg",
+    "title": "Building a NoGIL Load Balancer in 30 minutes",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=AYSlsCz8gKM"
+        }
+    ]
+}

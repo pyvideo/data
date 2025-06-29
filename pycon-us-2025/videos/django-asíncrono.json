@@ -1,0 +1,27 @@
+{
+    "description": "Con la llegada de Django 3.1, el framework dio un gran salto hacia el futuro al integrar soporte para asincronismo. Pero, ¿qué significa esto para quienes desarrollamos aplicaciones web? En esta charla, te voy a enseñar cómo usar las herramientas de asincronismo en Django para construir aplicaciones más rápidas y eficientes.\n\nEmpezaremos con una breve introducción a asyncio, la base del asincronismo en Python. ¿Qué son los event loops? ¿Qué hacen async y await? Si nunca has trabajado con código asíncrono, no te preocupes, aquí lo explicaremos de forma simple.\n\nDespués, entraremos directo en el mundo de Django: * Escribiremos vistas asíncronas (async def) y exploraremos casos prácticos donde el asincronismo realmente marca la diferencia. * Compararemos el rendimiento entre vistas síncronas y asíncronas mediante pruebas reales, mostrando cómo manejar múltiples peticiones a APIs externas de manera eficiente. * Veremos cómo Django adopta la convención de agregar una \"a\" a los métodos asíncronos del ORM (como aget, afirst, alast) para diferenciarlos de sus versiones síncronas. * Discutiremos las limitaciones actuales del ORM de Django (spoiler: sigue siendo síncrono) y cómo manejarlas en proyectos modernos.\n\nPara cerrar, incluiré una demostración práctica y ejemplos de código reales que puedes llevarte a casa.\n\nEsta charla está pensada para desarrolladores de nivel intermedio que quieran llevar sus proyectos Django al siguiente nivel y entender cómo el asincronismo puede transformar la manera en que construimos aplicaciones web.",
+    "duration": 1916,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/36/"
+        }
+    ],
+    "speakers": [
+        "Luis Martinez"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/pfxOrDx8Pwk/hqdefault.jpg",
+    "title": "Django Asíncrono: Desbloqueando el Poder de la Programación Async",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=pfxOrDx8Pwk"
+        }
+    ]
+}

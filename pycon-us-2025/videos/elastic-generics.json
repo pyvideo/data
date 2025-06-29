@@ -1,0 +1,27 @@
+{
+    "description": "Since Python 3.5, generic tuples can be parameterized as either orderings of component types (e.g. tuple[int, str]) or unbound sequences of a single type (e.g. ``tuple[float, ...]``). Yet sometimes we need both: for example, a tuple that starts with an int and a str and follows with zero or more floats might describe a row in a dataset that starts with identifiers and follows with a variable number of observations. While we might want to define a generic Record class that can be elastically parameterized in this manner, doing so was not practical until the introduction of ``TypeVarTuple`` and ``Unpack`` in Python 3.11.\n\nWith ``TypeVarTuple``, a generic ``Record`` class can be made concrete as ``Record[int, str]``, ``Record[int, str, float]``, or even ``Record[int, str, *tuple[float, ...]]``: the same class can be parameterized as requiring two types, three types, or required int and str types followed by zero or more float types (as given with the Unpack notation ``*tuple[float, ...]``).\n\nThis presentation will introduce ``TypeVarTuple`` and ``Unpack``. Starting with annotated tuple types, the flexible, expressive range of mixture between fixed and unbound types will be demonstrated with mypy validation. Next, a variadic generic class, Record, will demonstrate the benefits of such elastic typing.\n\nFinally, a compelling application of ``TypeVarTuple`` will be demonstrated. While DataFrames are widely used, only the StaticFrame library, leveraging ``TypeVarTuple``, offers a comprehensively generic DataFrame. DataFrames have variable numbers of columns, each sometimes a different type; further, while DataFrames might have tens or hundreds of columns, it is common for such datasets to have a fixed number of heterogeneously typed columns followed by a variable number of uniformly typed columns. With ``TypeVarTuple``, this type of flexible DataFrame typing is now possible.",
+    "duration": 1727,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/83/"
+        }
+    ],
+    "speakers": [
+        "Christopher Ariza"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/fmczXlnQ3cs/hqdefault.jpg",
+    "title": "Elastic Generics: Flexible Static Typing with TypeVarTuple and Unpack",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=fmczXlnQ3cs"
+        }
+    ]
+}

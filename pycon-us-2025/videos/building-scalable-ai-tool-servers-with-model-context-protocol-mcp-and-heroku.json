@@ -1,0 +1,28 @@
+{
+    "description": "Large Language Models (LLMs) become vastly more powerful when given the ability to call external tools to gather information and take real-world actions - such as querying APIs, modifying databases, or kicking off workflows. This talk explores how to build and scale these tool servers using Python and the Model Context Protocol (MCP).\n\nMCP is an open-source protocol that provides a standardized request format and response structure for LLMs interacting with external tools, ensuring consistency while allowing flexible execution under the hood. We’ll walk through implementing an MCP-compliant tool server in Python, covering topics like transport types, the connection lifecycle, and best practices.\n\nLLM tool servers must handle increasing traffic efficiently, requiring strategies for load balancing, container orchestration, and cloud deployment. We’ll discuss scaling Python services horizontally using load balancing and container orchestration. This includes practical considerations for deploying on 12-Factor App platforms like Heroku.\n\nThrough live coding, we’ll implement, deploy, and scale an MCP-compliant tool server using Python. We’ll also demonstrate how an LLM can interact with MCP tool servers, enabling you to build powerful, API-driven AI agents.\n\nAttendees will gain hands-on knowledge of building, deploying, and scaling Python-based MCP tool servers and AI agents, made simple with Heroku’s streamlined deployment process.",
+    "duration": 2872,
+    "language": "eng",
+    "recorded": "2025-05-15",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/3/"
+        }
+    ],
+    "speakers": [
+        "Hillary Sanders",
+        "Ken Alger"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/01I4ywanRDc/hqdefault.jpg",
+    "title": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=01I4ywanRDc"
+        }
+    ]
+}

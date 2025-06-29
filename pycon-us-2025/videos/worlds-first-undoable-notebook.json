@@ -1,0 +1,27 @@
+{
+    "description": "Interactive Notebooks (e.g., Jupyter, Colab) are widely used for data science tasks such as data analysis, data visualization, and model training. A fundamental limitation of vanilla notebook frameworks is the inability to undo the effect of cell executions on the session state, e.g., users cannot ‘un-drop’ dataframe columns. In this talk, I will describe our ongoing work on adding automated, lightweight checkpointing in notebook sessions to address this issue.\n\nThis talk should be interesting for an intermediate-level audience who have some experience with using Python-based notebooks and common data science libraries (e.g., Pandas, Matplotlib) and have experienced first-hand the various issues of existing notebook frameworks (e.g., no undos, non-persistent state). This talk will assume prior knowledge of notebook basics and terminology (e.g., cell executions, session state).\n\nAttendees will learn about how incremental checkpointing and versioning techniques commonly utilized in databases can be adapted to work well with interactive notebooks. At a more detailed level, they will learn about the characteristics of typical notebook workloads and how information (e.g., dependencies between variables) required for incremental checkpointing can be profiled from cell executions.",
+    "duration": 1998,
+    "language": "eng",
+    "recorded": "2025-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/92/"
+        }
+    ],
+    "speakers": [
+        "Zhaoheng Li"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/SX9wlj-EG7U/hqdefault.jpg",
+    "title": "World's First Undoable Notebook",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=SX9wlj-EG7U"
+        }
+    ]
+}

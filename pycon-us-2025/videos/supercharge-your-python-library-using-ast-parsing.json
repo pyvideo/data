@@ -1,0 +1,27 @@
+{
+    "description": "The primary goal of developers using the Python/C API is to increase the performance of their Python code. Often, this is done by executing a C function which has been compiled into machine code to bypass the Python interpreter. However, between a user’s Python code and the invocation of the C function, we can squeeze out even more performance. How, you ask?\n\nWe can leverage AST parsing with Python’s standard library “ast” module to modify the syntax of the code. In this talk, we show some tricks to transform the Python AST for optimized runtime performance using the C API. These aren’t just theoretical, either! Each example is taken from CSP, an open-source computation graph library which heavily uses the Python/C API.\n\nThis talk is meant for an advanced audience which has familiarity with the Python “ast” module as well as the Python/C API.",
+    "duration": 1867,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/129/"
+        }
+    ],
+    "speakers": [
+        "Adam Glustein"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/A0vR3l1X-CU/hqdefault.jpg",
+    "title": "Supercharge your Python library using AST parsing",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=A0vR3l1X-CU"
+        }
+    ]
+}

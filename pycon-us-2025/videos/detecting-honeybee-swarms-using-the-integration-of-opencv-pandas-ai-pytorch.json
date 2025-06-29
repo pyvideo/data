@@ -1,0 +1,27 @@
+{
+    "description": "Honeybees will swarm during times of increased pollen and nectar flow, effectively dividing the hive in half. This can result in the complete loss of both halves of the hive for the beekeeper. In this talk, I will show how I used a Raspberry Pi, mounted on a hive and powered by solar panels, to take a still image of a hive entrance every 30 seconds and filtered using OpenCV. Each image was sent off in real-time to Marvin.AI for analysis to obtain a count of the number of bees at the hive entrance. A subsequent refinement has removed the need for AI analysis using an object detection model implemented in PyTorch using large scale datasets from iNaturalist to create a deep learning model which I plan to implement this Spring. The counts were stored in an offsite database and then aggregated into a Pandas dataset and subjected to a rolling window analysis. It was postulated that such an analysis would prove necessary to distinguish between swarming and “bearding” which is when many bees exit the hive and congregate at the entrance during very warm periods to ventilate it. While the bees were “uncooperative” this season and did not swarm, test data show that a beekeeper could be notified of a swarm event within 10 minutes of its occurrence, thus saving both hives. Attendees will learn : (1) The use of “maker” techniques in setting up and integrating solar power, Raspberry Pi systems and cameras as well as effectively running python on the systems and setting up remote access. (2) How to implement the setup and use of PyTorch data object models and how they relate to AI analysis (3) How to use NumPy and Pandas for biological system analysis (4) And maybe a little apiculture!",
+    "duration": 2175,
+    "language": "eng",
+    "recorded": "2025-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/20/"
+        }
+    ],
+    "speakers": [
+        "Michael Dahlberg"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/LseCKvrp6og/hqdefault.jpg",
+    "title": "Detecting Honeybee Swarms Using the Integration of OpenCV, Pandas, AI, & PyTorch",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=LseCKvrp6og"
+        }
+    ]
+}
