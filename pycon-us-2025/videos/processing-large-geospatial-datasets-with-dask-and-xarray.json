@@ -1,0 +1,27 @@
+{
+    "description": "Geospatial datasets are growing in size, often exceeding 100TB and reaching into Petabyte scale. Many of these datasets are publicly available, providing a great resource for analysis, but working with them requires increasingly large computational resources and a diverse set of tools.\n\nWe will start by briefly introducing Dask and Xarray, which form the backbone of the geospatial stack in Python. Using the ERA5 dataset as a case study, we will demonstrate how Xarray can be used to explore large-scale climate data effectively from your local laptop.\n\nBuilding on this foundation, we will delve into recent advancements in Dask Array. Originally designed as a parallel NumPy API, Dask Array was used to handle much larger datasets over the last few years. We’ll explore the latest developments in Dask and Xarray that continue to expand the scalability and capabilities of these tools to catch up with the scale requirements of modern datasets.\n\nThis discussion will highlight improvements in ease of use, scalability, and performance. Additionally, we’ll present the first-ever set of geospatial benchmarks, collected earlier in 2024 from the community. These benchmarks provide a clear illustration of the scale at which Xarray and Dask are required to operate.\n\nFinally, we’ll offer a peak behind the scenes of an ongoing project aimed at building the first ever query optimizer for large scale array computations.",
+    "duration": 1707,
+    "language": "eng",
+    "recorded": "2025-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/86/"
+        }
+    ],
+    "speakers": [
+        "Patrick Hoefler"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/2ZToLEa9lW8/hqdefault.jpg",
+    "title": "Processing Large Geospatial Datasets with Dask & Xarray",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=2ZToLEa9lW8"
+        }
+    ]
+}

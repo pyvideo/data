@@ -1,0 +1,28 @@
+{
+    "description": "Two separate, but related, projects to make CPython faster are currently happening at the same time. The first, funded by Microsoft, aims to improve the single-threaded performance of CPython (PEP 659, PEP 744). The second, funded by Meta, aims to remove the global interpreter lock so multiple threads can make better use of all processor cores (PEP 703). There are technical challenges to achieving both of these goals simultaneously. We will describe how we collaborate to nonetheless make both projects a success. This includes (a) regular and open lines of communication, (b) sharing the same code for benchmarking, (c) leaving space for each of these projects to develop on their own, and (d) allocating time to directly tackle the intersection of the two problems.\n\nThis talk is intended for a general audience. It will cover technical topics related to language runtimes at a high level, and also include people-management topics related to open source communities.",
+    "duration": 1485,
+    "language": "eng",
+    "recorded": "2025-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/75/"
+        }
+    ],
+    "speakers": [
+        "Michael Droettboom",
+        "Dino Viehland"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/-MVih3km4G4/hqdefault.jpg",
+    "title": "Going faster in all directions at once: How two teams are working together to make Python better for all",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=-MVih3km4G4"
+        }
+    ]
+}

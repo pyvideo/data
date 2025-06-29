@@ -1,0 +1,28 @@
+{
+    "description": "Many data and simulation scientists use NumPy for its ease of use and good performance on CPU. This approach works well for single-node tasks, but scaling to handle larger datasets or more resource-intensive computations introduces significant challenges. Not to mention, using GPUs requires another level of complexity. We present the cuPyNumeric library. cuPyNumeric gives developers the same familiar NumPy interface, but seamlessly distributes work across CPUs and GPUs.\n\nA compelling example when scaling is necessary is when scientists at the SLAC National Accelerator Laboratory need to process a large amount of data within a fixed time window, called beam time. The full dataset generated during experiments is too large to be processed on a single CPU. Additionally, the code often must be modified during the beam time to adapt to changing experimental needs. Being able to use NumPy syntax rather than lower level distributed computing libraries makes these changes quick and easy, allowing researchers to focus on conducting more experiments rather than debugging or optimizing code.\n\ncuPyNumeric is designed to be a drop-in replacement to NumPy. Built on top of task-based distributed runtime from Stanford University, it automatically parallelizes NumPy APIs across all available resources, taking care of data distribution, communication, asynchronous and accelerated execution of compute kernels on both GPUs or multi-core CPUs. In addition, cuPyNumeric can be integrated with other popular Python libraries like SciPy, matplotlib, Jax. With cuPyNumeric, SLAC scientists successfully ran their data processing code distributed across multiple nodes and GPUs, processing the full dataset with a 6x speed-up compared to the original single-node implementation.\n\nIn this talk we showcase the productivity and performance of cuPyNumeric library covering some detail on its implementation.",
+    "duration": 1483,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/63/"
+        }
+    ],
+    "speakers": [
+        "Irina Demeshko",
+        "Quynh L. Nguyen"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/GjnFkX2z728/hqdefault.jpg",
+    "title": "Scale Smarter, Not Harder, with cuPyNumeric",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=GjnFkX2z728"
+        }
+    ]
+}

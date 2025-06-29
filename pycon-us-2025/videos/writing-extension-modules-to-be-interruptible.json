@@ -1,0 +1,27 @@
+{
+    "description": "Have you ever told Python to crunch some numbers, realized right after pressing RETURN that you made a mistake setting up the problem, hit control-C to stop it again...and then sat there twiddling your thumbs for a surprisingly long time as nothing seemed to happen?\n\nThe short version of what's going on when this happens is, the Python interpreter is notified of your having hit control-C almost immediately, but it has to wait to throw KeyboardInterrupt until the extension module that's doing the number crunching finishes its calculation and returns control to the interpreter.\n\nIn this talk we will discuss why the interpreter works that way (and why it has to work that way), what extension module authors can do today to make their extensions notice control-C promptly, and how we can all work toward a future where it's easy and natural for extension module authors to write extensions that don't make you wait for them to stop.",
+    "duration": 1895,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/39/"
+        }
+    ],
+    "speakers": [
+        "Zach Weinberg"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/_XnYI2Kcck0/hqdefault.jpg",
+    "title": "Writing Extension Modules To Be Interruptible",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=_XnYI2Kcck0"
+        }
+    ]
+}

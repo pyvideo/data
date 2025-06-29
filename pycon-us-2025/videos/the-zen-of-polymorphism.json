@@ -1,0 +1,27 @@
+{
+    "description": "Python is a multi-paradigm language that embraces both functional programming and object-oriented programming (OOP) approaches to writing code. OOP is especially popular, in large part due to how it enables polymorphism (for example, calling speak() on a Dog object returns \"woof\", while a Cat object's method returns \"meow\".) However, OOP has many downsides that are often not understood until it's too late in the lifecycle of building a program. Fortunately, Python also enables developers to achieve similar behavior to polymorphism while using simple functions and plain data objects instead of classes.\n\nThis talk will detail three different approaches provided by Python to achieve polymorphism behavior in a realistic program. It will compare and contrast their relative strengths and weaknesses. It will show how the most naive approach, which relies on isinstance() checks, leads to severe code duplication. It will show how OOP method polymorphism leads to code being organized along the wrong axis, which hurts understandability, debugging, and maintainability in practice. It will also demonstrate a less commonly known part of the built-in functools library called @singledispatch that strikes a perfect balance between functional and OOP programming styles.\n\nFinally, you'll learn how @singledispatch works under the covers, and how to build or integrate similar functionality into your own programs so you can realize the benefits of polymorphism while avoiding the pitfalls.",
+    "duration": 2561,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/99/"
+        }
+    ],
+    "speakers": [
+        "Brett Slatkin"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/hidy15rK2a4/hqdefault.jpg",
+    "title": "The Zen of Polymorphism: Choosing between isinstance(), methods, and @singledispatch",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=hidy15rK2a4"
+        }
+    ]
+}

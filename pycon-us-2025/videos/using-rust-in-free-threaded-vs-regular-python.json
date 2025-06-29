@@ -1,0 +1,27 @@
+{
+    "description": "Python 3.13's new free-threaded build [https://peps.python.org/pep-0703/] brings the possibility of true parallel execution into Python code for the first time.\n\nThis brings promise of significant performance opportunity, but not without cost. Parallel execution is notorious for being challenging due to the additional complexity. This implies bugs, and the risk is particularly high for the compiled code powering Python - including the CPython interpreter itself (it's written in C). The main risk comes from data races, which can cause unpredictable and potentially dangerous crashes.\n\nThe Rust programming language is designed to prevent data races by construction; if your code runs, it should be data race free (unless you misuse unsafe Rust).\n\nWe'll explore the way that Rust does this, both from the rules of the language, and by the data structures it offers to complement those rules. We'll showcase this with examples of Rust (PyO3) code designed for \"regular\" Python 3.13 and how it changes to become compatible with the free-threaded build.\n\nThis will lead onto ideas which we can carry across languages to influence how we write Python (and maybe C/C++) to be correct in a free-threaded world, before closing with some tantalizing examples of software architectures made possible by free-threaded Python.\n\nNo prior Rust knowledge necessary.\n\nWhat you should hope to take away from this talk: - a basic understanding of how the free-threaded build of Python is different to the regular one, - an appreciation for the complexity of free-threading for compiled code, - how Rust helps you reason about this complexity, and - excitement for the future of free-threaded Python!",
+    "duration": 1296,
+    "language": "eng",
+    "recorded": "2025-05-16",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/110/"
+        }
+    ],
+    "speakers": [
+        "David Hewitt"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/J7phN_M4GLM/hqdefault.jpg",
+    "title": "Using Rust in Free-Threaded vs Regular Python 3.13",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=J7phN_M4GLM"
+        }
+    ]
+}
