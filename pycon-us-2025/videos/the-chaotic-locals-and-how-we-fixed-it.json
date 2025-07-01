@@ -1,0 +1,27 @@
+{
+    "description": "Historically, Python stored local variables in a dict, which was convenient and consistent. Users can use locals() to get the same dict Python is using for the local variables. As Python evolves, local variables were moved to the frame stack to improve performance, which made it invisible from Python code. However, locals() was kept because we still need a way to access some or all of the local variables in a frame.\n\nThis became chaotic when we try to change the local variables through the dict - which is a common requirement for something like a debugger. What could possibly go wrong? Is the update remembered? Could it work with exec()? Will a random read in your code bites you? How can we reliably update the value of a local variable in a debugger?\n\nWell the short answer is - we can't, not until PEP 667.\n\nThis talk will be about how we fixed the chaos in PEP 667 and what's the modern way to deal with local variables in a debugger.",
+    "duration": 1682,
+    "language": "eng",
+    "recorded": "2025-05-17",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/57/"
+        }
+    ],
+    "speakers": [
+        "Tian Gao"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/dGNt88HMUpg/hqdefault.jpg",
+    "title": "The Chaotic locals() and How We Fixed It",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=dGNt88HMUpg"
+        }
+    ]
+}

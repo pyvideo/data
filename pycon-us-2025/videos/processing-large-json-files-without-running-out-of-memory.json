@@ -1,0 +1,27 @@
+{
+    "description": "If you need to process a large JSON file in Python, it’s very easy to run out of memory while loading the data, leading to a super-slow run time or out-of-memory crashes. If you're running in the cloud, you can get a machine with more memory, but that means higher costs. How can you process these large files without running out of memory?\n\nIn this talk you'll learn:\n\nHow to measure memory usage.\nSome of the reasons why loading JSON uses so much memory.\n\nThen, you'll learn some of the solutions to this problem:\n\nUsing a more efficient in-memory representation.\nOnly loading the subset of the data you need.\nStreaming parsing, which can parse arbitrarily-large files with a fixed amount of memory.\nUsing a different file format, like JSON Lines.",
+    "duration": 1814,
+    "language": "eng",
+    "recorded": "2025-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/126/"
+        }
+    ],
+    "speakers": [
+        "Itamar Turner-Trauring"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/th3vsCDhujo/hqdefault.jpg",
+    "title": "Processing large JSON files without running out of memory",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=th3vsCDhujo"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "description": "Using tools like PyArrow, Pandas, or Polars makes it easy to work with dataframes. However, as datasets scale to terabytes, managing tables, evolving schemas, and ensuring consistency across tools becomes increasingly complex. Apache Iceberg™, an open table format, addresses these challenges, and, with PyIceberg, seamlessly integrates with your favorite Python-based tools.\n\nWe will start with an introduction to Iceberg and PyIceberg, focusing on the features PyIceberg brings to the Python ecosystem such as schema evolution and transactional guarantees. We will demonstrate how PyIceberg supports interoperability between Iceberg tables and Python-native dataframes like PyArrow and Pandas, using practical examples of creating, querying, and writing to Iceberg tables.\n\nFrom these practical examples, we will dive deeper to explore how Iceberg tables evolve during these operations. This includes an in-depth look at Iceberg's file structure—metadata files, manifest lists, and manifests—and how PyIceberg leverages this structure to perform transactional table updates and optimize query planning, ensuring reliable performance at scale.\n\nFinally, we will discuss PyIceberg’s advanced features, including schema evolution, hidden partitioning, and time travel, which make table management efficient and flexible.",
+    "duration": 1671,
+    "language": "eng",
+    "recorded": "2025-05-18",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/47/"
+        }
+    ],
+    "speakers": [
+        "Rushan Jiang"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/gUvEwBUKizo/hqdefault.jpg",
+    "title": "Bridging Python and Apache Iceberg: The Power of PyIceberg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=gUvEwBUKizo"
+        }
+    ]
+}
