@@ -1,0 +1,28 @@
+{
+  "description": "Tests can be helpful: they can find bugs in new code, check for regressions in old code, and clarify precisely what the code is meant to do. On the other hand, writing tests is often tedious - and it's rare to think of an error when testing that you forgot when writing the code. Even worse, as scientists we write code *because* we don't yet know the correct answer - so how can we possibly test it?  My favorite answer is to think about the higher-level properties of your system: even without the correct answer on hand, we can check that energy was conserved, reading gives us back the data we just wrote or converted, and so on.\n\nProperty-based testing *encourages and rewards* this style of thinking!  Once you have a property or invariant in mind, it's easy to express that as a test - and then a library like Hypothesis will search for inputs that make your test fail.  Instead of testing specific input-output pairs like `1 + 2 == 3`, you might claim that `a + b == b + a`... and be informed that this is true for integers, but not for floats (not even *finite* floats!). This tutorial is for people comfortable with decorators and with reading, running, and writing Python unit tests.\n\nIt's structured as four blocks, each consisting of a short talk, live-coded demo, and extensive exercises:\n1. Property-Based Testing 101: core concepts and the core of the Hypothesis library\n2. Describe your Data: from numbers, to arrays, to recursive and more complicated things\n3. Common Tests: from \"\"does not crash\"\" to \"\"write+read == noop\"\" to 'metamorphic relations'\n4. Putting it into Practice: use what you've learned to find real bugs in a real project!\n\nhttps://github.com/rsokl/testing-tutorial",
+  "duration": 5123,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2022.scipy.org/"
+    },
+    {
+      "label": "https://github.com/rsokl/testing-tutorial",
+      "url": "https://github.com/rsokl/testing-tutorial"
+    }
+  ],
+  "speakers": [
+    "Zac Hatfield-Dodds"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/za7SPz5APKM/maxresdefault.jpg",
+  "title": "Introduction to Property Based Testing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=za7SPz5APKM"
+    }
+  ]
+}
