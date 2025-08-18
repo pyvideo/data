@@ -1,0 +1,25 @@
+{
+  "description": "Speeding up Python code traditionally involves the use of Just-In-Time (JIT) or Ahead-Of-Time (AOT) compilation. There are tradeoffs to both approaches, however. As part of the Numba project's aim to create a compiler toolkit, the PIXIE project is being developed. It offers a multiple-language consuming, extensible toolchain, that produces AOT compiled binary extension modules. These PIXIE based extension modules contain CPU-specific function dispatch for AOT use and also support something similar to Link-Time-Optimization (LTO) for use in situations such as JIT compilation and/or cross module optimization. PIXIE modules are easy to load and call from Python, and can be inlined into Numba JIT compilation, giving Python developers access to the benefits of both AOT and JIT.",
+  "duration": 1876,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2024.scipy.org/"
+    }
+  ],
+  "speakers": [
+    "Stuart Archibald",
+    "Stanley Seibert"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/THwUfywGGgs/maxresdefault.jpg",
+  "title": "PIXIE: Blending Just-in-time and Ahead-of-time compilation",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=THwUfywGGgs"
+    }
+  ]
+}

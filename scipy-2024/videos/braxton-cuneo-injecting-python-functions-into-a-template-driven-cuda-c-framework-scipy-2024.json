@@ -1,0 +1,32 @@
+{
+  "description": "Non-Python codebases that use metaprogramming present significant challenges to cross-language development. These challenges are further compounded with the inclusion of GPU processing. While common methods of Python/GPU interoperation are covered by popular Python frameworks, these frameworks do not trivialize this use case.\n\nIn this talk, we will discuss the process of integrating a Python code for Monte Carlo particle transport (MCDC) (https://github.com/CEMeNT-PSAAP/MCDC) with a template-based CUDA C++ framework which applies inversion of control (Harmonize) (https://github.com/CEMeNT-PSAAP/harmonize). We will discuss managing the complexity of cross-language dependency injection, relevant implementation strategies, and pitfalls to avoid.",
+  "duration": 1741,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.scipy2024.scipy.org/"
+    },
+    {
+      "label": "https://github.com/CEMeNT-PSAAP/MCDC",
+      "url": "https://github.com/CEMeNT-PSAAP/MCDC"
+    },
+    {
+      "label": "https://github.com/CEMeNT-PSAAP/harmonize",
+      "url": "https://github.com/CEMeNT-PSAAP/harmonize"
+    }
+  ],
+  "speakers": [
+    "Braxton Cuneo"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xGdfDil3QPQ/maxresdefault.jpg",
+  "title": "Injecting Python Functions into a Template-Driven CUDA C++ Framework",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xGdfDil3QPQ"
+    }
+  ]
+}
