@@ -1,0 +1,52 @@
+{
+  "description": "Speaker: Thomas Wiecki\n\nTitle:  The Bayesian Workflow: Building a COVID-19 Model (Part 2)\n\nVideo: https://www.youtube.com/watch?v=_DCkJkMji0U\n\n\n\nEvent description: \nIn this tutorial we will build a COVID-19 model from scratch.\n\n\nDiscourse Discussion\nhttps://discourse.pymc.io/t/the-bayesian-workflow-building-a-covid-19-model-by-thomas-wiecki/6017\n\n\n## Timestamps\n00:00 Intro - Motivation for Generative Models in Bayesian Statistics\n00:50 Agenda \n01:08 Addressing Limitations of previous model using Rt\n01:31 Current Rt model in use from rt.live\n02:38 Delay effects on Rt we should take into account \n03:06 Effects of Tracking lockdowns, mask use and social distancing on Rt\n03:45 The generative model \n04:21 Dataset - US new daily cases \n04:42 Build a generative model using a recursive function for new cases\n06:03 Translate the recursive loop into a pymc object with theano.scan\n07:06 Instantiate model and set parameters \n10:33 Follow the bayesian workflow \n11:25 Time varying reproduction\n12:28 Select prior with time-varying factor (random walk process)\n14:41 Update model with new prior\n16:00 Prior and Posterior predictive results \n17:23 Taking infection delay into account - generation time distribution\n18:00 Modeling of generation time distribution of covid 19 \n19:03 Convolution definition\n20:38 Updating generative process model with a convolution\n21:50 Prior and Posterior predictive results  \n23:18 Compare models \n23:49 The number of infected - onset delay distribution\n24:50 Update model with onset delay effect\n26:26 Prior and Posterior predictive results \n27:28 Adjusting for number of tests performed \n29:35 Results discussion\n30:05 Conclusion / Final remarks\n\n\nSpeaker bio:\n\n\n- Thomas is the founder of PyMC Labs, a Bayesian consulting firm.\n- PyMC author\n- PhD on computational cognitive neuroscience from Brown University\n- Former VP of data science and head of research at Quantopian Inc: building a team of data scientists to build a hedge fund from a pool of 300k crowd researchers.\n- Recognized public speaker: keynotes at the Open Data Science Conference (ODSC) & TACC as well as talks at Strata Hadoop & AI, Newsweek AI conference, and various PyData conferences around the world\n- Runs a data science podcast, blogs about Bayesian statistics, and is an avid Twitter personality.\n- Data scientist to follow of the year 2015, ODSC Open Source award 2018.\n\n\nSpeaker info: \n-Website: https://twiecki.io\n-GitHub: https://github.com/twiecki\n-Twitter: https://twitter.com/twiecki\n-LinkedIn: https://www.linkedin.com/in/thomas-wiecki-46339244/  \n\n\nPart of PyMCon2020. \nMore details at http://www.pymcon.com  \n\n\n#bayesian #statistics #covid19",
+  "duration": 2028,
+  "language": "eng",
+  "recorded": "2020-10-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymc-devs.github.io/pymcon/"
+    },
+    {
+      "label": "https://twitter.com/twiecki",
+      "url": "https://twitter.com/twiecki"
+    },
+    {
+      "label": "http://www.pymcon.com",
+      "url": "http://www.pymcon.com"
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=_DCkJkMji0U",
+      "url": "https://www.youtube.com/watch?v=_DCkJkMji0U"
+    },
+    {
+      "label": "https://github.com/twiecki",
+      "url": "https://github.com/twiecki"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/the-bayesian-workflow-building-a-covid-19-model-by-thomas-wiecki/6017",
+      "url": "https://discourse.pymc.io/t/the-bayesian-workflow-building-a-covid-19-model-by-thomas-wiecki/6017"
+    },
+    {
+      "label": "https://www.linkedin.com/in/thomas-wiecki-46339244/",
+      "url": "https://www.linkedin.com/in/thomas-wiecki-46339244/"
+    },
+    {
+      "label": "https://twiecki.io",
+      "url": "https://twiecki.io"
+    }
+  ],
+  "speakers": [
+    "Thomas Wiecki"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/_DCkJkMji0U/maxresdefault.webp",
+  "title": "The Bayesian Workflow: Building a COVID-19 Model (Part 2)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_DCkJkMji0U"
+    }
+  ]
+}

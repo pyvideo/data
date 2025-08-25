@@ -1,0 +1,54 @@
+{
+  "description": "Speaker: Aki Vehtari\n\nTitle:  [Keynote] These are a few of my favorite inference diagnostics\n\nVideo: https://www.youtube.com/watch?v=HKPm6txxxQM\n\n\n\nEvent description:\nI discuss some old and some more recent inference diagnostics methods for Markov chain Monte Carlo, importance sampling, and variational inference. When the convergence fails, I simply remember my favorite inference diagnostics, and then I don\u2019t feel so bad.\n\n\nDiscourse Discussion\nhttps://discourse.pymc.io/t/keynote-these-are-a-few-of-my-favorite-inference-diagnostics-by-aki-vehtari/6180\n\n\n## Timestamps\n00:00 Introduction by Aki\n00:22 Outline of the talk\n00:48 Run inference many times\n01:27 MCMC warm-up and convergence diagnostics\n03:10 It is good to run several chains\n03:49 Trace plots & convergence\n04:24 Convergence in worm plots\n04:53 Converge vs not converge\n05:10 R-hat for MCMC convergence diagnostics\n06:36 R-hat compares within and total variances - 50 warmup, 50 post warmup iterations\n08:34 Running more - 500 warmup, 500 post warmup iterations\n09:06 5000 warmup, 5000 post warmup iterations\n09:50 Total variance and within chain variance\n10:47 Overview versions of R-hat\n12:42 R-hat versions 1-4\n14:13 R-hat v1-v4 vs v5\n15:10 R-hat v5: Rank normalization and folding\n18:14 Effective sample size and Monte Carlo error\n21:55 Local effective sample size (ESS)\n24:43 Bulk-ESS and Tail-ESS\n26:50 Rank plots\n27:52 Traces vs. Rank plots\n28:22 Uniformity check?\n29:41 ECDF and ECDF difference\n32:20 ECDF difference envelope for multiple chains\n32:42 R* multivariate diagnostic\n34:45 MCMC convergence and accuracy diagnostics\n35:08 Variational inference (VI) convergence diagnostics\n37:31 Convergence diagnostic for VI optimization\n41:24 Split-R-hat\n42:59 VI accuracy diagnostics\n43:46 Importance sampling (IS)\n45:24 Importance function\n47:08 Example: normal approximation at the mode\n51:13 Effective sample size for importance sampling\n53:16 Pareto smoothed importance sampling\n54:08 ESS and MCSE for importance sampling\n54:39 Pareto k-hat diagnostic for VI\n55:36 VI convergence and accuracy diagnostics\n56:04 Stacking for non-mixing Bayesian computations\n57:48 Favorite inference diagnostics\n58:28 References\n58:38 Software references\n\n\n## Note: help us add timestamps here\nhttps://github.com/pymc-devs/video-timestamps\n\n\nSpeaker bio:\nAki is an Associate professor in computational probabilistic modeling at Aalto University, Finland. His numerous research interests are Bayesian probability theory and methodology, especially probabilistic programming, inference methods, model assessment and selection, non-parametric models such as Gaussian processes, dynamic models, and hierarchical models.\nAki is also a co-author of the popular and awarded book \u00ab Bayesian Data Analysis \u00bb, Third Edition, and the brand new \u00ab Regression and other stories \u00bb. He is also a core-developer of the seminal probabilistic programming framework Stan. An enthusiast of open-source software, Aki has been involved in many free software projects such as GPstuff for Gaussian processes and ELFI for likelihood inference.\n\n\nSpeaker info:\n-Twitter: https://twitter.com/avehtari\n-GitHub: https://github.com/avehtari\n-Website: https://users.aalto.fi/~ave/\n\n\nPart of PyMCon2020. \nMore details at http://www.pymcon.com  \n\n\n#bayesian #statistics #probabilistic",
+  "duration": 3534,
+  "language": "eng",
+  "recorded": "2020-10-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymc-devs.github.io/pymcon/"
+    },
+    {
+      "label": "http://www.pymcon.com",
+      "url": "http://www.pymcon.com"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/keynote-these-are-a-few-of-my-favorite-inference-diagnostics-by-aki-vehtari/6180",
+      "url": "https://discourse.pymc.io/t/keynote-these-are-a-few-of-my-favorite-inference-diagnostics-by-aki-vehtari/6180"
+    },
+    {
+      "label": "https://twitter.com/avehtari",
+      "url": "https://twitter.com/avehtari"
+    },
+    {
+      "label": "https://users.aalto.fi/~ave/",
+      "url": "https://users.aalto.fi/~ave/"
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=HKPm6txxxQM",
+      "url": "https://www.youtube.com/watch?v=HKPm6txxxQM"
+    },
+    {
+      "label": "https://github.com/avehtari",
+      "url": "https://github.com/avehtari"
+    },
+    {
+      "label": "https://github.com/pymc-devs/video-timestamps",
+      "url": "https://github.com/pymc-devs/video-timestamps"
+    }
+  ],
+  "speakers": [
+    "Aki Vehtari"
+  ],
+  "tags": [
+    "Keynote"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/HKPm6txxxQM/maxresdefault.webp",
+  "title": "A Few of My Favorite Diagnostics",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HKPm6txxxQM"
+    }
+  ]
+}
