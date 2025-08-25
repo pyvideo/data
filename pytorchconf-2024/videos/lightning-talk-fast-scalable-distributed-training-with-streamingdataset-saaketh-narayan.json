@@ -1,0 +1,24 @@
+{
+  "description": "Lightning Talk: Fast, Scalable Distributed Training with StreamingDataset - Saaketh Narayan, Databricks\n\nStreamingDataset makes training on large datasets from cloud storage as fast, cheap, and scalable as possible. It\u2019s specially designed for multi-node, distributed training for large models \u2014 maximizing correctness guarantees, performance, and ease of use. Key features include elastically deterministic training, instant mid-epoch resumption, effective shuffling, high training throughput, and flexible data mixing, among other features. When training with StreamingDataset, the data shards are written to cloud storage in MDS, our file format that allows for low-latency random access to samples. By being as efficient as possible with shard downloads and shuffling, StreamingDataset minimizes egress costs while ensuring that dataloading never bottlenecks model training. StreamingDataset powers training for LLMs with over 100 billion parameters like DBRX, to advanced diffusion models, to two-tower recommendation models, and more, scaling to training jobs on thousands of GPUs with ease. Join us to learn how StreamingDataset can elevate your distributed model training experience.",
+  "duration": 423,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/C1TpUZjqTfA/maxresdefault.webp",
+  "title": "Lightning Talk: Fast, Scalable Distributed Training with StreamingDataset - Saaketh Narayan",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=C1TpUZjqTfA"
+    }
+  ]
+}
