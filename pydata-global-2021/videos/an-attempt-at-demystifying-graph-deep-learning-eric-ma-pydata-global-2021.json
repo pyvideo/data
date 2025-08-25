@@ -1,0 +1,56 @@
+{
+  "description": "An Attempt at Demystifying Graph Deep Learning\nSpeaker: Eric Ma\n\nSummary\nIn this talk, I will attempt to demystify the core ideas behind graph deep learning with lots of pictures and a minimum number of equations.\n\nDescription\nThis talk will follow a four-part structure. Firstly, we will introduce graphs and how they can be represented as arrays. Then, we will walk through what message passing is, and how it also has a linear algebra interpretation. Thirdly, we will see how we can embed the message passing operation inside a neural network, thus giving us a message passing neural network. We'll also see how other network architectures come up. Finally, we will walk through learning tasks that involve graphs. In bullet point form:\n\nGraphs, networks, and their array representations\nIntroduction to graphs\nHow graphs can be represented as arrays\nMessage passing\nDefinition of the message passing operation\nMessage passing operators beyond the adjacency matrix\nEmbedding message passing in neural networks\nHow MPNNs, graph laplacian networks, and graph attention networks are variations on a theme\nThe link between message passing and convolution\nLearning tasks that involve graphs\nGraph-level learning\nNode label prediction\nEdge presence/absence prediction\nThe goal here is to demystify what goes on behind-the-scenes in graph neural network layers... and by doing so, free you from the confines of black box neural network layer APIs. If you're already experienced with neural networks but have not yet attempted to write a GNN before, this talk should give you enough ideas to implement your own GNN layers. For everyone else, you should walk away feeling a little better informed about guts behind the hype!\n\nEric Ma's Bio\nEric is a Principal Data Scientist at Moderna supporting research data science. Prior to Moderna, he was at the Novartis Institutes for Biomedical Research conducting biomedical data science research with a focus on using Bayesian statistical methods in the service of making medicines for patients. Prior to Novartis, he was an Insight Health Data Fellow in the summer of 2017 and defended his doctoral thesis in the Department of Biological Engineering at MIT in the spring of 2017.\n\nEric is also an open-source software developer and has led the development of pyjanitor, a clean API for cleaning data in Python, and nxviz, a visualization package for NetworkX. In addition, he gives back to the open-source community through code contributions to multiple projects.\n\nHis personal life motto is found in the Gospel of Luke 12:48.\n\nGitHub: https://github.com/ericmjl/\nTwitter: https://twitter.com/ericmjl/\nLinkedIn: https://www.linkedin.com/in/ericmjl/\nWebsite: https://ericmjl.github.io/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1772,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://twitter.com/ericmjl/",
+      "url": "https://twitter.com/ericmjl/"
+    },
+    {
+      "label": "https://ericmjl.github.io/",
+      "url": "https://ericmjl.github.io/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/ericmjl/",
+      "url": "https://www.linkedin.com/in/ericmjl/"
+    },
+    {
+      "label": "https://github.com/ericmjl/",
+      "url": "https://github.com/ericmjl/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Eric Ma"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/cSN-DqPJzY0/maxresdefault.jpg",
+  "title": "An Attempt at Demystifying Graph Deep Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cSN-DqPJzY0"
+    }
+  ]
+}
