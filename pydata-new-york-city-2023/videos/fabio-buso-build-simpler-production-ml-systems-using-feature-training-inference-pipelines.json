@@ -1,0 +1,43 @@
+{
+  "description": "www.pydata.org\n\nThere is a wide array of tools available to simplify the process for data scientists to package their models and deploy them in production, ranging from serverless functions to Docker containers. However, deploying models in production remains a challenge, particularly when it comes to data access.\nReal-time ML systems typically require low-latency access to precomputed features containing history or context data. The code used to create those features should be consistent with the code used to create features using during model training. Similarly, batch ML systems should use the same logic to compute features for training and batch inference.\nThe FTI (Feature, Training, Inference) pipeline architecture is a unified pattern for building batch and real-time ML systems. It enables the independent development and operation of feature pipelines (that transform raw data into features/labels), training pipelines (that take features/labels as input and produce models as output), and inference pipelines (that take model(s) and features as input and produce predictions as output). The pipelines have clear inputs and outputs, and can even be implemented using different technologies (e.g., Spark for feature pipelines, and Python for training and inference pipelines).\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 4298,
+  "language": "eng",
+  "recorded": "2023-11-01",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/nyc2023/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Mna14aTtD8s/maxresdefault.jpg",
+  "title": "Fabio Buso - Build Simpler Production ML Systems using Feature/Training/Inference Pipelines",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Mna14aTtD8s"
+    }
+  ]
+}
