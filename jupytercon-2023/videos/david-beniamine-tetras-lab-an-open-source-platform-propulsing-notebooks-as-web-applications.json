@@ -1,0 +1,32 @@
+{
+  "description": "T\u00e9tras Lab is an open source platform built around Jupyter Lab. Its goal is to provide an easy to deploy infrastructure that allows fruitful interactions between stakeholders, data scientists and developers while working on decision support systems.\n\nThe platform is composed of a Docker stack with the following containers :\n\na Django application to manage users and permissions,\na Jupyter Lab instance to provide an integrated IDE,\na Voil\u00e0 container to allow live kernels when accessing dashboards,\nworker containers for housekeeping tasks, data management, etc.\nas many database containers, of as many flavors as needed.\nThe results of notebooks can be rendered in a polished environement for the stakeholders with the following modalities :\n\nprecomputed notebooks with nbconvert,\nlive notebooks with Voil\u00e0 that can use Dash or Panel technologies,\nand we plan to add the support for pure Dash application deployment for use cases that need a better scalability.\nThe platform is used in production for several clients and in different contexts such as :\n\nmonthly updated dashboards for marketing evaluation based on open data and sales forecast,\nhourly updated Web application using statistical models to triggers warnings about landslide and rockfall risks around mountain roads.\nAlthough it was first developped for our internal needs, we believe that the platform can be of interest for organisations that need an easy to deploy environment, that can deliver production ready solutions, for data science and business intelligence projects.\n\nThe code and resources are publicly available under the GNU AGPLv3 licence : https://gitlab.com/tetras-lab\n\nA public demo illustrating the capabilities of the T\u00e9ras Lab platorm will be deployed for demo and testing during the conference. Meanwhile, a demo of the application for landslide alertness is available : https://sigale.pinea.sage-ingenierie.com/dashboard/public/yrnhmikkticoepshxnmaibnrsslifkxljgbpzltdudlsneeazeanmwnbrtlcjizq.",
+  "duration": 998,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    },
+    {
+      "label": "https://gitlab.com/tetras-lab",
+      "url": "https://gitlab.com/tetras-lab"
+    },
+    {
+      "label": "https://sigale.pinea.sage-ingenierie.com/dashboard/public/yrnhmikkticoepshxnmaibnrsslifkxljgbpzltdudlsneeazeanmwnbrtlcjizq.",
+      "url": "https://sigale.pinea.sage-ingenierie.com/dashboard/public/yrnhmikkticoepshxnmaibnrsslifkxljgbpzltdudlsneeazeanmwnbrtlcjizq."
+    }
+  ],
+  "speakers": [
+    "David Beniamine"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/TMZ7SF9Pef4/maxresdefault.jpg",
+  "title": "Tétras Lab: an open source platform propulsing notebooks as Web applications",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TMZ7SF9Pef4"
+    }
+  ]
+}

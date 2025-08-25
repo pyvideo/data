@@ -1,0 +1,25 @@
+{
+  "description": "The Databricks Notebook, used by thousands of organizations worldwide, recently adopted Jupyter standards and software to power a number of features. We now execute Python code using ipykernel, support ipywidgets (including custom widgets), and have improved compatibility with the Jupyter notebook format. In this talk, we will discuss lessons we learned customizing and integrating Jupyter in our enterprise product, which has some different assumptions from the full Jupyter stack. For example, Databricks sandboxes custom Jupyter widget code with iframes for security, which complicates kernel communication. We encode Databricks-specific visualizations in exported Jupyter notebook files in a way that is compatible with other Jupyter tooling. Also, in Databricks, document state lives on the server, which changes how Jupyter kernel messages are processed.\n\nWe also offer some observations about how to help Jupyter be more flexible in enterprise contexts.\n\nThis talk is for intermediate to advanced developers/administrators wanting to customize or build on Jupyter standards or software to deploy in an enterprise context.",
+  "duration": 1765,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Jason Grout",
+    "Florian Wetschoreck"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vdQqoH6Xbak/maxresdefault.jpg",
+  "title": "Building on Jupyter at Databricks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vdQqoH6Xbak"
+    }
+  ]
+}

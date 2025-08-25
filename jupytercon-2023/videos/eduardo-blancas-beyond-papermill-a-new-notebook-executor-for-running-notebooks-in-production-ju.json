@@ -1,0 +1,24 @@
+{
+  "description": "Papermill has become a widely used tool for executing Jupyter notebooks. Teams use papermill for many production use cases, such as scheduled report generation, model re-training, etc. However, since papermill relies on spinning up a second process with the IPython kernel to execute code, it has several drawbacks when used in production.\n\nThis talk will introduce an alternative notebook executor that powers Ploomber, a popular open-source orchestration framework. This new executor runs notebooks in a single process, allowing us to provide capabilities for production workloads, such as interactive debugging with pdb and notebook profiling (CPU, and memory usage). The executor is integrated into the Ploomber project and can also be used from the command line, like papermill.\n\nSome experience with Jupyter (notebook or lab) and the terminal is required. Experience with papermill is optional.\n\nOutline:\n- [0 - 2 minute] Introduction papermill\n- [2- 6] Papermill's drawbacks\n- [6 - 10] Running notebooks in a single process\n- [10 - 16] Debugging notebook execution with pdb\n- [16 - 22] Profiling notebooks\n- [22 - 26] Orchestrating notebook pipelines in production with Ploomber\n- [26 - 28] Summary and conclusions\n- [28 - 30] Q&A",
+  "duration": 1736,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Eduardo Blancas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/rlEy_JoOye0/maxresdefault.webp",
+  "title": "Beyond Papermill: A New Notebook Executor For Running Notebooks in Production",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rlEy_JoOye0"
+    }
+  ]
+}

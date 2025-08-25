@@ -1,0 +1,28 @@
+{
+  "description": "Becoming a Widget Author\nOver the past 2.5 years, I\u2019ve been building a spreadsheet extension for JupyterLab called Mito. This extension needs to share state between the frontend and the backend, and also have the backend/frontend communicate constantly. As such, we naturally built Mito as a Jupyter Widget.\n\nBeing a widget comes with many benefits, including easy-to-extend templates, automatic shared state, pre-setup comm channels, and a handling of kernel restarts and page refreshes. For the first 2 years of development, widgets were perfect.\n\nLimitations of Widgets\nBut recently, we've hit into some limitations of the widgets framework. Namely, opinionated state management practices, complexity with integrating with other UI libraries, additional Python dependencies, and install rates that leave a bit to be desired.\n\nAs a result of these complexities, we decided to move from being a widget to being a rich output: a javascript frontend that manually establishes comms with the Python kernel, and shares state with it.\n\nI'll share details on how to make this transition away from widgets, and also talk about what it gives you as widget author: reduced dependencies, potentially-easier installation, more manual (but customizable) state management, and more!\n\nTowards a Unified Rich Output\nJupyter contributors are currently exploring (https://github.com/jupyterlab/richoutput-js) a more minimial rich output interface. I\u2019ll close by reflecting on the benefits of this more minimal interface, and why it might be the right way forward for the entire notebook ecosystem :)",
+  "duration": 1580,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    },
+    {
+      "label": "https://github.com/jupyterlab/richoutput-js",
+      "url": "https://github.com/jupyterlab/richoutput-js"
+    }
+  ],
+  "speakers": [
+    "Nate Rush"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/f3Zi9C9eghs/maxresdefault.jpg",
+  "title": "De Regid the Widget: Making Jupyter a Haven for Startups",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=f3Zi9C9eghs"
+    }
+  ]
+}

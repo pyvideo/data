@@ -1,0 +1,24 @@
+{
+  "description": "An underappreciated aspect of Jupyter and IPython experiences in general is their ability to autoreload Python modules during running sessions via the autoreload extension. At Meta, we began leveraging this functionality to power interactive test sessions that allow software engineers to quickly iterate on their projects without waiting for slow restart times.\n\nHowever, the base autoreload algorithm suffers from a number of reliability issues and can easily crash, thereby necessitating a costly restart. In this presentation, we\u2019ll describe references reload, which is our new and improved autoreload algorithm with a number of benefits over the basic autoreload functionality. We\u2019ll show how we use references reload in production to save developers hours of time, and we\u2019ll close with a concrete use case for development on top of Bento server, which is Meta\u2019s internal version of the Jupyter notebook server.",
+  "duration": 1825,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Omer Dunay"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/k04Fpa6tjW0/maxresdefault.jpg",
+  "title": "Autoreload in Production at Meta",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=k04Fpa6tjW0"
+    }
+  ]
+}
