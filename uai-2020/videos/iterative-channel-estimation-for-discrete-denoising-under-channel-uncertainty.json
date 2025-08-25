@@ -1,0 +1,25 @@
+{
+  "description": "\"Iterative Channel Estimation for Discrete Denoising under Channel Uncertainty\n\nHongjoon Ahn (SKKU); Taesup Moon (Sungkyunkwan University)*\n\nWe propose a novel iterative channel estimation (ICE) algorithm that essentially removes the critical known noisy channel assumption for universal discrete denoising problem. Our algorithm is based on Neural DUDE (N-DUDE), a recently proposed neural network-based discrete denoiser, and it estimates the channel transition matrix as well as the neural network parameters in an alternating manner until convergence. While we do not make any probabilistic assumption on the underlying clean data, our ICE resembles Expectation-Maximization (EM) with variational approximation, and it takes advantage of the property that N-DUDE can always induce a marginal posterior distribution of the clean data. We carefully validate the channel estimation quality of ICE, and with extensive experiments on several radically different types of data, we show the ICE equipped neural network-based denoisers can perform \\emph{universally} well regardless of the uncertainties in both the channel and the clean source. Moreover, we show ICE becomes extremely robust to its hyperparameters, and show the denoisers with ICE significantly outperform the strong baseline that can handle the channel uncertainties for denoising, the widely used Baum-Welch (BW) algorithm for hidden Markov models (HMM).\"",
+  "duration": 479,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Hongjoon Ahn",
+    "Taesup Moon"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/qha3DJOJFkc/sddefault.jpg",
+  "title": "Iterative Channel Estimation for Discrete Denoising under Channel Uncertainty",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qha3DJOJFkc"
+    }
+  ]
+}

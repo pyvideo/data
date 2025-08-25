@@ -1,0 +1,27 @@
+{
+  "description": "Stable Policy Optimization via Off-Policy Divergence Regularization\n\nAhmed Touati (MILA)*; Amy Zhang (McGill, FAIR); Joelle Pineau (McGill / Facebook); Pascal Vincent (Facebook FAIR & MILA Universit\u00e9 de Montr\u00e9al)\n\nTrust Region Policy Optimization (TRPO) and Proximal Policy Optimization (PPO) are among the most successful policy gradient approaches in deep reinforcement learning (RL). While these methods achieve state-of-the-art performance across a wide range of challenging tasks, there is room for improvement in the stabilization of the policy learning and how the off-policy data are used. In this paper we revisit the theoretical foundations of these algorithms and propose a new algorithm which stabilizes the policy improvement through a proximity term that constrains the discounted state-action visitation distribution induced by consecutive policies to be close to one another. This proximity term, expressed in terms of the divergence between the visitation distributions, is learned in an off-policy and adversarial manner. We empirically show that our proposed method can have a beneficial effect on stability and improve final performance in benchmark high-dimensional control tasks.",
+  "duration": 510,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Ahmed Touati",
+    "Amy Zhang",
+    "Joelle Pineau",
+    "Pascal Vincent"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-y1Ze1WdF7Q/sddefault.jpg",
+  "title": "Stable Policy Optimization via Off-Policy Divergence Regularization",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-y1Ze1WdF7Q"
+    }
+  ]
+}

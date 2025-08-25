@@ -1,0 +1,28 @@
+{
+  "description": "Model-Augmented Conditional Mutual Information Estimation for Feature Selection\n\nAlan Yang (University of Illinois at Urbana-Champaign)*; AmirEmad Ghassami (UIUC); Maxim Raginsky (University of Illinois); Negar Kiyavash (\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne); Elyse Rosenbaum (University of Illinois at Urbana-Champaign)\n\nMarkov blanket feature selection, while theoretically optimal, is generally challenging to implement. This is due to the shortcomings of existing approaches to conditional independence (CI) testing, which tend to struggle either with the curse of dimensionality or computational complexity. We propose a novel two-step approach which facilitates Markov blanket feature selection in high dimensions. First, neural networks are used to map features to low-dimensional representations. In the second step, CI testing is performed by applying the $k$-NN conditional mutual information estimator to the learned feature maps. The mappings are designed to ensure that mapped samples both preserve information and share similar information about the target variable if and only if they are close in Euclidean distance. We show that these properties boost the performance of the $k$-NN estimator in the second step. The performance of the proposed method is evaluated on both synthetic and real data.\n",
+  "duration": 565,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Alan Yang",
+    "AmirEmad Ghassami",
+    "Maxim Raginsky",
+    "Negar Kiyavash",
+    "Elyse Rosenbaum"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/l4klkV91HkI/sddefault.jpg",
+  "title": "Model-Augmented Conditional Mutual Information Estimation for Feature Selection",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=l4klkV91HkI"
+    }
+  ]
+}

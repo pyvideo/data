@@ -1,0 +1,27 @@
+{
+  "description": "\"Probabilistic Safety for Bayesian Neural Networks\n\nMatthew Wicker (University of Oxford)*; Luca Laurenti (University of Oxford); Andrea Patane (University of Oxford); Marta Kwiatkowska (Oxford University)\n\nWe study probabilistic safety for Bayesian Neural Networks (BNNs) \n under adversarial input perturbations. Given a compact set of input points, $T \\subseteq \\mathbb{R}^m$, we study the probability w.r.t. the BNN posterior that all the points in $T$ are mapped to the same region $S$ in the output space. In particular, this can be used to evaluate the probability that a network sampled from the BNN is vulnerable to adversarial attacks. We rely on relaxation techniques from non-convex optimization to develop a method for computing a lower bound   on probabilistic safety for BNNs, deriving explicit procedures for the case of interval and linear function propagation techniques. We apply our methods to BNNs trained on a regression task, airborne collision avoidance, and MNIST, empirically showing that our approach allows one to certify probabilistic safety of BNNs with millions of parameters.\"",
+  "duration": 469,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Matthew Wicker",
+    "Luca Laurenti",
+    "Andrea Patane",
+    "Marta Kwiatkowska"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/CBB_wmbsL4Q/sddefault.jpg",
+  "title": "Probabilistic Safety for Bayesian Neural Networks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CBB_wmbsL4Q"
+    }
+  ]
+}

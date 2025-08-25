@@ -1,0 +1,26 @@
+{
+  "description": "\"MASSIVE: Tractable and Robust Bayesian Learning of Many-Dimensional Instrumental Variable Models\n\nIoan Gabriel Bucur (Radboud University Nijmegen)*; Tom Claassen (Radboud University Nijmegen); Tom Heskes (Radboud University)\n\nThe recent availability of huge, many-dimensional data sets, like those arising from genome-wide association studies (GWAS), provides many opportunities for strengthening causal inference. One popular approach is to utilize these many-dimensional measurements as instrumental variables (instruments) for improving the causal effect estimate between other pairs of variables. Unfortunately, searching for proper instruments in a many-dimensional set of candidates is a daunting task due to the intractable model space and the fact that we cannot directly test which of these candidates are valid, so most existing search methods either rely on overly stringent modeling assumptions or fail to capture the inherent model uncertainty in the selection process. We show that, as long as at least some of the candidates are (close to) valid, without knowing a priori which ones, they collectively still pose enough restrictions on the target interaction to obtain a reliable causal effect estimate. We propose a general and efficient causal inference algorithm that accounts for model uncertainty by performing Bayesian model averaging over the most promising many-dimensional instrumental variable models, while at the same time employing weaker assumptions regarding the data generating process. We showcase the efficiency, robustness and predictive performance of our algorithm through experimental results on both simulated and real-world data.\"",
+  "duration": 483,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Ioan Gabriel Bucur",
+    "Tom Claassen",
+    "Tom Heskes"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/h7dT2RNlZYA/sddefault.jpg",
+  "title": "MASSIVE: Tractable and Robust Bayesian Learning of Many-Dimensional Instrumental Variable Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=h7dT2RNlZYA"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "description": "\"Discovering contemporaneous and lagged causal relations in autocorrelated nonlinear time series datasets\n\nJakob Runge (German Aerospace Agency)*\n\nThe paper introduces a novel conditional independence (CI) based method for linear and nonlinear, lagged and contemporaneous causal discovery from observational time series in the causally sufficient case. Existing CI-based methods such as the PC algorithm and also common methods from other frameworks suffer from low recall and partially inflated false positives for strong autocorrelation which is an ubiquitous challenge in time series. The novel method, PCMCI$^+$, extends PCMCI [Runge et al., 2019b] to include discovery of contemporaneous links. PCMCI$^+$ improves the reliability of CI tests by optimizing the choice of conditioning sets and even benefits from autocorrelation. The method is order-independent and consistent in the oracle case. A broad range of numerical experiments demonstrates that PCMCI$^+$ has higher adjacency detection power and especially more contemporaneous orientation recall compared to other methods while better controlling false positives. Optimized conditioning sets also lead to much shorter runtimes than the PC algorithm. PCMCI$^+$ can be of considerable use in many real world application scenarios where often time resolutions are too coarse to resolve time delays and strong autocorrelation is present.\"",
+  "duration": 484,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Jakob Runge"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/B6SfuOaBFDs/sddefault.jpg",
+  "title": "Discovering contemporaneous and lagged causal relations in autocorrelated nonlinear time series",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=B6SfuOaBFDs"
+    }
+  ]
+}

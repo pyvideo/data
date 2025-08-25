@@ -1,0 +1,30 @@
+{
+  "description": "\"Permutation-Based Causal Structure Learning with Unknown Intervention Targets\n\nChandler Squires (Massachusetts Institute of Technology)*; Yuhao Wang (University of Cambridge); Caroline Uhler (MIT)\n\nWe consider the problem of estimating causal DAG models from a mix of observational and interventional data, when the intervention targets are partially or completely unknown. This problem is highly relevant for example in genomics, since gene knockout technologies are known to have off-target effects. We characterize the interventional Markov equivalence class of DAGs that can be identified from interventional data with unknown intervention targets. In addition, we propose a provably consistent algorithm for learning the interventional Markov equivalence class from such data. The proposed algorithm greedily searches over the space of permutations to minimize a novel score function. The algorithm is nonparametric, which is particularly important for applications to genomics, where the relationships between variables are often non-linear and the distribution non-Gaussian. We demonstrate the performance of our algorithm on synthetic and biological datasets. Links to an implementation of our algorithm and to a reproducible code base for our experiments can be found at https://uhlerlab.github.io/causaldag/utigsp.\"",
+  "duration": 435,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    },
+    {
+      "label": "https://uhlerlab.github.io/causaldag/utigsp.",
+      "url": "https://uhlerlab.github.io/causaldag/utigsp."
+    }
+  ],
+  "speakers": [
+    "Chandler Squires",
+    "Yuhao Wang", 
+    "Caroline Uhler"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/cIV6MJTRlmk/sddefault.jpg",
+  "title": "Permutation-Based Causal Structure Learning with Unknown Intervention Targets",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cIV6MJTRlmk"
+    }
+  ]
+}

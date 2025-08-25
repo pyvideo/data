@@ -1,0 +1,26 @@
+{
+  "description": "Robust k-means++\n\nAmit Deshpande (Microsoft Research); Praneeth Kacham (Carnegie Mellon University); Rameshwar Pratap (Chennai Mathematical Institute (CMI))*\n\nA good seeding or initialization of cluster centers for the $k$-means method is important from both theoretical and practical standpoints. The k-means objective is inherently non-robust and sensitive to outliers. A popular seeding such as the k-means++ \\cite{AV2007} that is more likely to pick outliers in the worst case may compound this drawback, thereby affecting the quality of clustering on noisy data.\n\nFor any, we show that using a mixture of  and uniform sampling, we can pick  candidate centers with the following guarantee: they contain some k centers that give approximation to the optimal robust $k$-means solution while discarding at most delta  more points than the outliers discarded by the optimal solution. That is, if the optimal solution discards its farthest beta  points as outliers, our solution discards  its points as outliers. The constant factor in our approximation does not  depend on delta.  This is an improvement over previous results for means with outliers based on LP relaxation and rounding cite{Charikar} and local search cite. The sized subset can be found in time. Our emph robust k-means++ is also easily amenable to scalable, faster, parallel implementations of $k$-means++ \\cite{Bahmani}. Our empirical results show a comparison of the above \\emph{robust} variant of $k$-means++ with the usual $k$-means++, uniform random seeding, threshold $k$-means++~\\cite{tkmeanspp} and local search on real world and synthetic data.",
+  "duration": 547,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Amit Deshpande",
+    "Praneeth Kacham",
+    "Rameshwar Pratap"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/VHEWxgHJ5P8/sddefault.jpg",
+  "title": "Robust $k$-means++",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VHEWxgHJ5P8"
+    }
+  ]
+}

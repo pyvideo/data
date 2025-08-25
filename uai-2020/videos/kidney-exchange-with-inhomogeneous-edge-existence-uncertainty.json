@@ -1,0 +1,27 @@
+{
+  "description": "Kidney Exchange with Inhomogeneous Edge Existence Uncertainty\n\nhoda bidkhori (University of Pittsburgh); John Dickerson (University of Maryland)*; Duncan McElfresh (University of Maryland); Ke Ren (University of Pittsburgh)\n\n\nPatients with end-stage renal failure often find kidney donors who are willing to donate a life-saving kidney, but who are medically incompatible with the patients.  \n\nKidney exchanges are organized barter markets that allow such incompatible patient-donor pairs to enter as a single agent---where the patient is endowed with a donor \"item\"---and engage in trade with other similar agents, such that all agents \"give\" a donor organ if and only if they receive an organ in return. In practice, organized trades occur in large cyclic or chain-like structures, with multiple agents participating in the exchange event. Planned trades can fail for a variety of reasons, such as unforeseen logistical challenges, or changes in patient or donor health. These failures cause major inefficiency in fielded exchanges, as if even one individual trade fails in a planned cycle or chain, all or most of the resulting cycle or chain fails}. Ad-hoc, as well as optimization-based methods, have been developed to handle failure uncertainty; nevertheless, the majority of the existing methods use very simplified assumptions about failure uncertainty and/or are not scalable for real-world kidney exchanges.\n\nMotivated by kidney exchange, we study a stochastic cycle and chain packing problem, where we aim to identify structures in a directed graph to maximize the expectation of matched edge weights. All edges are subject to failure, and the failures can have nonidentical probabilities. To the best of our knowledge, the state-of-the-art approaches are only tractable when failure probabilities are identical. We formulate a relevant non-convex optimization problem and propose a tractable mixed-integer linear programming reformulation to solve it. In addition, we propose a model that integrates both risks and the expected utilities of the matching by incorporating conditional value at risk  into the objective function, providing a robust formulation for this problem. Subsequently, we propose a sample-average-approximation (SAA) based approach to solve this problem. We test our approaches on data from the United Network for Organ Sharing (UNOS) and compare against state-of-the-art approaches.  Our model provides better performance with the same running time as a leading deterministic approach (PICEF). Our CVaR extensions with an SAA-based method improves the worst-case performance substantially compared to existing models.",
+  "duration": 577,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "hoda bidkhori",
+    "John Dickerson",
+    "Duncan McElfresh",
+    "Ke Ren"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/awAjzUUjSgM/sddefault.jpg",
+  "title": "Kidney Exchange with Inhomogeneous Edge Existence Uncertainty",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=awAjzUUjSgM"
+    }
+  ]
+}

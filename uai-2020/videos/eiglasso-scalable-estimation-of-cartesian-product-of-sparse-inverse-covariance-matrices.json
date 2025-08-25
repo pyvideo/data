@@ -1,0 +1,25 @@
+{
+  "description": "\"EiGLasso: Scalable Estimation of Cartesian Product of Sparse Inverse Covariance Matrices\n\nJun Ho Yoon (Carnegie Mellon University)*; Seyoung Kim ()\n\nIn this paper, we address the problem of jointly estimating dependencies across samples and dependencies across multiple features, where each set of dependencies is modeled as an inverse covariance matrix. In particular, we study a matrix-variate Gaussian distribution with the Kronecker-sum of sample-wise and feature-wise inverse covariances. While this Kronecker-sum model has been studied as an intuitively more appealing convex alternative to the Kronecker-product of two inverse covariance matrices, the existing methods do not scale to large datasets. We introduce a highly-efficient optimization method for estimating the Kronecker-sum structured inverse covariance matrix from matrix-variate data. In addition, we describe an alternative simpler approach for handling the non-identifiability of parameters than the strategies proposed in previous works. Using simulated and real data, we demonstrate our approach leads to one or two orders-of-magnitude speedup of the previous methods.\"",
+  "duration": 452,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Jun Ho Yoon",
+    "Seyoung Kim"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rteWAfivvpw/sddefault.jpg",
+  "title": "EiGLasso: Scalable Estimation of Cartesian Product of Sparse Inverse Covariance Matrices",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rteWAfivvpw"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "description": "\"A Simple Online Algorithm for Competing with Dynamic Comparators\n\nYu-Jie Zhang (Nanjing University); Peng Zhao (Nanjing University)*; Zhi-Hua  Zhou (Nanjing University)\n\nOnline learning in dynamic environments has recently drawn considerable attention, where dynamic regret is usually employed to compare decisions of online algorithms to dynamic comparators. In previous works, dynamic regret bounds are typically established in terms of regularity of comparators $C_T$ or that of online functions $V_T$. Recently, Jadbabaie et al. [2015] propose an algorithm that can take advantage of both regularities and enjoy an $\\tilde{O}(\\sqrt{1+D_T} + \\min\\{\\sqrt{(1+D_T)C_T}, (1+D_T)^{1/3}V_T^{1/3}T^{1/3}\\})$ dynamic regret, where $D_T$ is an additional quantity to measure the niceness of environments. The regret bound adapts to the smaller regularity of problem environments and is tighter than all existing dynamic regret guarantees. Nevertheless, their algorithm involves non-convex programming at each iteration, and thus requires burdensome computations. In this paper, we design a simple algorithm based on the online ensemble, which provably enjoys the same (even slightly stronger) guarantee as the state-of-the-art rate, yet is much more efficient because our algorithm does not involve any non-convex problem solving. Empirical studies also verify the efficacy and efficiency.\"",
+  "duration": 463,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Yu-Jie Zhang",
+    "Peng Zhao",
+    "Zhi-Hua Zhou"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/RzlgW8UkqbE/sddefault.jpg",
+  "title": "A Simple Online Algorithm for Competing with Dynamic Comparators",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RzlgW8UkqbE"
+    }
+  ]
+}
