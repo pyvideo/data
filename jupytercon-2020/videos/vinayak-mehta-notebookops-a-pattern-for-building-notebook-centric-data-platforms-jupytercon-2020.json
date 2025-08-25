@@ -1,0 +1,36 @@
+{
+  "description": "Brief Summary\nIn 2018, Netflix and PayPal wrote about how they set up powerful data platforms centered around Jupyter notebooks. This talk will look at the open-source components required for building such data platforms, illustrate how they all tie together, and reflect on some learnings from setting up a notebook-centric data platform at one of India's largest online grocery delivery companies.\n\nOutline\nOver the past few years, we've seen large organizations adopt Jupyter at scale to set up their internal DIY (\"do it yourself\") analytics notebook infrastructure. In 2018, Netflix and PayPal wrote about how they set up powerful data platforms centered around Jupyter notebooks to fuel experimentation and innovation at scale. In this talk, we'll look at the components required for building a notebook-centric data platform along with all the open-source tools involved, understand how the components tie together, and reflect on some learnings from setting up such a platform at one of India's largest online grocery delivery companies.\n\nThis talk is aimed at data engineers but it's also relevant to data analysts and data scientists. Basic knowledge of Python, Jupyter notebooks and the Jupyter ecosystem will be useful, but not required. After this talk, the audience will have an understanding of the open-source components that can help them build notebook-centric data platforms.\n\nOutline:\n\nThe enterprise notebook infrastructure trend\nLarge scale adoption of Jupyter inside organizations\nHow Netflix put notebooks at the core of their data platforms in 2018\nExperience building this at Grofers, one of India's largest online grocery services\nTalk briefly about how it was all set up before (a single JupyterLab server, other standalone servers)\nHighlight individual components of a notebook-centric data platform, and then dive into each component\nComponent 1: A multi-user notebook environment\n\"Where do I run my notebook? Help! I need more resources!\"\nJupyterHub: A Multi-user version of JupyterLab designed for large user groups\nThe setup on Kubernetes, each JupyterLab server launches as a Kubernetes pod\nPre-building different environments for different types of users / use-cases, different kernels and packages\nLetting users select the cpu and memory for their environment\nThe setup with a home directory for each user on a network file system for persistence (for example: AWS EFS)\n\"I need some data from a table in some database. How do I get it?\"\nTools that can be built to let users access data from various systems and databases in the organization\nFetching credentials from a database or secret store, maintained by the data platform team (for example: Vault)\nBuilding libraries or magics that let users run queries by just specifying a unique id for the target system\nComponent 2: A notebook scheduling environment\n\"How do I schedule my notebook to send out a report every day?\"\n\"How do I train this model on new data every day?\"\nWhat are Airflow and papermill?\nThe concept of DAGs, Airflow as a notebook scheduler\nAirflow macros as input parameters to papermill\nParameterized notebook execution using the PapermillOperator\nThe setup on Kubernetes with KubernetesExecutor, each notebook launches as a Kubernetes pod\nRunning notebooks in the same environment they were written in, with the same kernels and packages\nRe-using JupyterHub environment information: cpu, memory and docker image selected by the user",
+  "duration": 1353,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "Vinayak Mehta"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/yfXfr_tcZ2g/sddefault.jpg",
+  "title": "NotebookOps: A pattern for building notebook-centric data platforms",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=yfXfr_tcZ2g"
+    }
+  ]
+}
