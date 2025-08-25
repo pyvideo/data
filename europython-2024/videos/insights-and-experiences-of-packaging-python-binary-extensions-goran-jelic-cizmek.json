@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2B on 2024-07-12]\n\n\rInsights and Experiences of Packaging Python Binary Extensions by Goran Jelic-Cizmek\n\rhttps://ep2024.europython.eu/session/insights-and-experiences-of-packaging-python-binary-extensions\n\n\rIn the domain of scientific and high-performance computing (HPC), software packages are primarily written in compiled languages such as C, C++, and Fortran, complemented by end-user APIs implemented in Python. Such packages frequently incorporate CPU-specific code (e.g. SIMD extensions) and utilise GPU-specific programming models, such as OpenMP and CUDA, to achieve enhanced performance. Despite the recent proliferation of build backends for creating pure Python packages, the distribution of Python packages containing binary extensions poses a unique set of challenges and currently lacks a standardised solution. In this talk, I will share insights and experiences gained from building portable and performant Python wheels for a set of computational neuroscience projects, aiming for compatibility and usage across a diverse of compute platforms, from desktop to large compute clusters.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1101,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/insights-and-experiences-of-packaging-python-binary-extensions",
+      "url": "https://ep2024.europython.eu/session/insights-and-experiences-of-packaging-python-binary-extensions"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Goran Jelic-Cizmek"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/buWHiWv5cXY/maxresdefault.jpg",
+  "title": "Insights and Experiences of Packaging Python Binary Extensions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=buWHiWv5cXY"
+    }
+  ]
+}

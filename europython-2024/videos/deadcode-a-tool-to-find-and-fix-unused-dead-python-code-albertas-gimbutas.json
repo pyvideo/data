@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2A on 2024-07-10]\n\n\rDeadcode - a tool to find and fix unused (dead) Python code by Albertas Gimbutas\n\rhttps://ep2024.europython.eu/session/deadcode-a-tool-to-find-and-fix-unused-dead-python-code\n\n\rNo longer needed code creates technical debt if it is not removed from the code base. Unused code has to be maintained, it complicates code base and increases cognitive load. It might even depend on no longer necessary dependencies with vulnerabilities and might increase attack surface. Therefore, removing dead code saves time, money and reduces security risks.\n\n\rRecently, Ruff has became a de facto linter, which provides almost all existing linting rules from other linters. However, it is only capable to detect locally unused Python code, which is only a tiny portion of unused code.\n\n\rVulture is the best known tool for detecting globally unused Python code. However, its configuration is not very flexible and disabling false positives in a larger code base might require a lot of effort.\n\rAlso, unused code detection is sometimes inaccurate, because scopes are not taken into account, when detecting unused code. \n\n\rThis presentation introduces a new Python package called `deadcode`, which tries to move globally unused Python code detection to the next level. First, it provides a large set of options to flexibly disable various types of false positives. Second, deadcode implements more rules for detecting unused code than Vulture. Third, an improved strategy which tracks scopes and namespaces into account is being used to more accurately identify unused code items. Fourth, a --fix option is provided, which allows to automatically remove detected unused code items.\n\n\rIn addition, an idea to prune Python code in order to reduce its size will be consider, which might be relevant when serving Python code in a browser.\n\n\rLets make Python ecosystem even more awesome!\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1569,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/deadcode-a-tool-to-find-and-fix-unused-dead-python-code",
+      "url": "https://ep2024.europython.eu/session/deadcode-a-tool-to-find-and-fix-unused-dead-python-code"
+    }
+  ],
+  "speakers": [
+    "Albertas Gimbutas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/g7Fa33-tNDs/maxresdefault.jpg",
+  "title": "Deadcode - a tool to find and fix unused (dead) Python code",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=g7Fa33-tNDs"
+    }
+  ]
+}
