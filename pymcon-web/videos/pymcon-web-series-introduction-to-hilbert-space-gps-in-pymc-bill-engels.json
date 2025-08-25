@@ -1,0 +1,36 @@
+{
+  "description": "Gaussian processes (GPs) are a versatile tool in the Bayesian modelers toolbox \u2013 in theory. In practice, for all but the smallest data sets, one needs to resort to approximations to actually fit GPs in any reasonable amount of time. There are currently a few GP approximations implemented in PyMC based on inducing points that are fast, but only apply when the likelihood is Gaussian. The Hilbert Space Gaussian Process (HSGP) approximation works well with any likelihood and scales as O(nm + m). In this talk I\u2019ll introduce a PyMC HSGP implementation and show via case studies how it fills a few key gaps in the PyMC GP library: fast GPs as model subcomponents, and fast GPs with non-Gaussian likelihoods. I\u2019ll also cover tips and tricks for applying HSGPs effectively in practice.\n\nFor the full details see the PyMC Discourse:\n\nhttps://discourse.pymc.io/t/pymcon-web-series-03a-introduction-to-hilbert-space-gps-hsgps-in-pymc-mar-15-2023-bill-engels/11533",
+  "duration": 3799,
+  "language": "eng",
+  "recorded": "2023-04-09",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymcon.com/"
+    },
+    {
+      "label": "https://pymcon.com/events/",
+      "url": "https://pymcon.com/events/"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/pymcon-web-series-03a-introduction-to-hilbert-space-gps-hsgps-in-pymc-mar-15-2023-bill-engels/11533",
+      "url": "https://discourse.pymc.io/t/pymcon-web-series-03a-introduction-to-hilbert-space-gps-hsgps-in-pymc-mar-15-2023-bill-engels/11533"
+    },
+    {
+      "label": "Speaker Interview",
+      "url": "https://www.youtube.com/watch?v=QGEBSdt8WkQ"
+    }
+  ],
+  "speakers": [
+    "Bill Engels"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ri5sJAdcYHk/maxresdefault.jpg",
+  "title": "Introduction to Hilbert Space GPs in PyMC",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ri5sJAdcYHk"
+    }
+  ]
+}
