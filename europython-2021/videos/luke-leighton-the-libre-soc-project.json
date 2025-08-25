@@ -1,0 +1,32 @@
+{
+  "description": "The Libre-SOC Project\n[EuroPython 2021 - Talk - 2021-07-30 - Brian]\n[Online]\n\nBy Luke Leighton\n\nThe Libre-SOC Project aims to bring to market a mass-volume System-on-a-Chip suitable for use in smartphones netbooks tablets and chromebooks, which is end-user programmable right to the bedrock. No spying backdoors, no treacherous DRM.\n\nPython and standard Libre Project Management is used throughout:\n* nmigen, a python-based HDL, is a fundamental and critical strategic choice in creating the hardware.\n* An IEEE754 FP hardware library has been developed using nmigen/python, as are hundreds of thousands of unit tests\n* An OpenPOWER ISA simulator is written in python, and is actually a PLY compiler based on the GardenSnake example\n* Several thousand unit tests for the HDL and simulator are written in python\n* coriolis2, the VLSI ASIC layout toolchain, is a mixed c++ python application\n* cocotb, a hardware co-simulation system, is used to verify the HDL is correct, down to the gate level\n* a JTAG \"remote\" system has been written in python which allows the simulated processor to be connected to with openocd.\n* Even the Standard Cell Library being used, called FlexLib, by Chips4Makers, is in python.\n\nTo say that python is critical to the project would be a massive understatement.  This talk will give a brief overview of the above areas and give a glimpse into why python was chosen for each.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 3071,
+  "language": "eng",
+  "recorded": "2021-07-26",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "Luke Leighton"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nAXKXjbFn-g/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-DoACuAiKAgwIABABGGUgZShlMA8=&rs=AOn4CLAYY1s3P5oJNK1EkQpD3QVq_zbDiw",
+  "title": "The Libre-SOC Project",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nAXKXjbFn-g"
+    }
+  ]
+}
