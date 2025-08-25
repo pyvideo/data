@@ -1,0 +1,28 @@
+{
+  "description": "EuroPython 2022 - Taking charge of your race conditions - presented by Borjan Tchakaloff\n\n[Liffey A on 2022-07-13]\n\n\nAnybody working with concurrency (threads, processes, or more abstractly workers) eventually encounters a _race condition_. This kind of hair-pulling problem is a staple in computer science. Sometimes you can offload the problem to a lower layer, usually to the database engine, bundling it with atomic transactions. But there are times when you have to take charge of worst-case concurrency scenarios, when your architecture and constraints do not leave room for implicit concurrency management. Then, you need to carefully craft the paths in and out of the critical section, avoiding deadlocks along the way.\n\nIn this talk, we will focus on how to test your program with a manufactured race condition. If you know it can happen, you'd better cover it in your test suite. We will define a server program called in parallel by multiple clients to illustrate the problem at hand. Then, we will manually set-up a race condition during testing to explore broken behaviour and problematic code.\n\nThe Python standard library offers all the tools we need to cater for race conditions. We hope the tour we will give allows you to exercise your own race conditions more easily. Why, we even think you will have all the cards in hand to counter them!\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2666,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Borjan Tchakaloff"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/95D5Hv9muUs/maxresdefault.jpg",
+  "title": "Taking charge of your race conditions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=95D5Hv9muUs"
+    }
+  ]
+}

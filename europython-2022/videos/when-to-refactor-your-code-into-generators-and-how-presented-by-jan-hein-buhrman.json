@@ -1,0 +1,28 @@
+{
+  "description": "EuroPython 2022 - When to refactor your code into generators and how - presented by Jan-Hein B\u00fchrman\n\n[Liffey A on 2022-07-13]\n\n\nHave you ever found yourself coding variations of a loop construct where fragments of the loop code were exactly the same between the variations? Or, in an attempt to factor out these common parts, you ended up with a loop construct containing a lot of conditional code for varying start, stop, or selection criteria?\n\nYou might have felt that the end result just didn't look right. Because of the duplicated parts in your code, you noticed that the code didn't conform to the DRY (_Don't Repeat Yourself_) principle. Or, after an attempt to combine the variations into a single loop, with consequently a lot of conditional code, your inner voice told you that the resulting code had become too complex and difficult to maintain.\n\nThis talk will show you a way out of this situation. It demonstrates how you can create a *generator function* that implements only the common parts of your loop construct. Subsequently you will learn how you can combine this generator function with distinct hand-crafted functions or building blocks from the standard library `itertools` module or the `more-itertools` package.\n\nAs an example, imagine you'd need to implement some varying functionality based on the Fibonacci sequence. This talk shows you how it would look like before and after you've refactored it into a *pipeline of generators*.\n\nAfter having seen this pattern, you will recognize more quickly when this kind of refactoring helps you to create more maintainable and more Pythonic code.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1655,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Jan-Hein Bührman"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Z8sVGuFkiiU/maxresdefault.jpg",
+  "title": "When to refactor your code into generators and how",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Z8sVGuFkiiU"
+    }
+  ]
+}

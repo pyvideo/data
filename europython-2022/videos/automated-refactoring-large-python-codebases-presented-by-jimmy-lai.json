@@ -1,0 +1,32 @@
+{
+  "description": "EuroPython 2022 - Automated Refactoring Large Python Codebases - presented by Jimmy Lai\n\n[Liffey A on 2022-07-15]\n\n\nLike many companies with multi-million-line Python codebases, Carta has struggled to adopt best practices like Black formatting and type annotation. The extra work needed to do the right thing competes with the almost overwhelming need for new development, and unclear code ownership and lack of insight into the size and scope of type problems add to the burden. We\u2019ve greatly mitigated these problems by building an automated refactoring pipeline that applies Black formatting and backfills missing types via incremental Github pull requests. Our refactor applications use LibCST and MonkeyType to modify the Python syntax tree and use GitPython/PyGithub to create and manage pull requests. It divides changes into small, easily reviewed pull requests and assigns appropriate code owners to review them. After creating and merging more than 3,000 pull requests, we have fully converted our large codebase to Black format and have added type annotations to more than 50,000 functions. In this talk, you\u2019ll learn to use LibCST to build automated refactoring tools that fix general Python code quality issues at scale and how to use GitPython/PyGithub to automate the code review process.\nSlides: https://www.slideshare.net/jimmy_lai/europython-2022-automated-refactoring-large-python-codebases\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1678,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "https://www.slideshare.net/jimmy_lai/europython-2022-automated-refactoring-large-python-codebases",
+      "url": "https://www.slideshare.net/jimmy_lai/europython-2022-automated-refactoring-large-python-codebases"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Jimmy Lai"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ouDnaZxZKkc/maxresdefault.jpg",
+  "title": "Automated Refactoring Large Python Codebases",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ouDnaZxZKkc"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "description": "EuroPython 2022 - CPython bugs & risky features - presented by disconnect3d\n\n[The Auditorium on 2022-07-13]\n\n\nIn this talk we will look into a few bug cases or doubtful features in CPython some of which are still present (and known to bugs.python.org) and may impose a security risk for admins or organizations.\n\nWe will learn why running Python interpreter in random directory can be harmful which is related to interpreter libs loading, a possibility for installed modules to inject code into any Python script execution (even if the installed library is not imported), a socket.inet_aton issue that actually comes from glibc and risks involved with those cases and possible mitigations of those risks.\n\n@EDIT After talk:\n- Watch the talk on https://youtu.be/tRtxCCRdZOs?t=12251\n- Slides are available on https://ujeb.se/pybugs\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2194,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "https://ujeb.se/pybugs",
+      "url": "https://ujeb.se/pybugs"
+    },
+    {
+      "label": "https://youtu.be/tRtxCCRdZOs?t=12251",
+      "url": "https://youtu.be/tRtxCCRdZOs?t=12251"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Łukasz Taczuk"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Vh2N_WTxVQo/maxresdefault.jpg",
+  "title": "CPython bugs & risky features",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Vh2N_WTxVQo"
+    }
+  ]
+}
