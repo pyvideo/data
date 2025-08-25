@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2023 \u2014 Forum Hall on 2023-07-21]\n\rhttps://ep2023.europython.eu/session/the-pythons-stability-promise\n\nMany modules you use and love have a portion of their implementation written in other languages, and for that a Python extension need to be made.\n\rPython offers a C-API that allow people extending the language, and being a nice glue-language, C is also a bridge to many other languages as well.\n\n\rSo if everything is simple, what's the deal with stability?\n\rChanges in the C-API might break the functionality in older versions, so PEP 387 saves the day with a policy for backward compatibility.\n\rStarting from Python 3.2, the Limited API was introduced, which defined a subset of Python's C-API that it's promised that if used, the code can be compiled in one version, and run in many others as well.\n\n\rAlso, having a Stable ABI compatible wheel, allow you to only have one-wheel-per-OS, and not one-wheel-per-python-version, which can simplify your release process.\n\n\rThis talk will introduce the Limited API concept, and provide the necessary information to include it in your project.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1306,
+  "language": "eng",
+  "recorded": "2023-07-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2023.europython.eu/"
+    },
+    {
+      "label": "https://ep2023.europython.eu/session/the-pythons-stability-promise",
+      "url": "https://ep2023.europython.eu/session/the-pythons-stability-promise"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Cristián Maureira-Fredes"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/iiBJF0kM-P8/maxresdefault.jpg",
+  "title": "The Python's stability promise",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=iiBJF0kM-P8"
+    }
+  ]
+}
