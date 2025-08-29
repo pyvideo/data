@@ -30,6 +30,9 @@ help:
 install-deps: .venv
 	$(BIN)/pip install -r $(TESTSDIR)/requirements.txt
 
+test-directory-schemas: install-deps
+	$(PYTHON) -m pathschema $(SCHEMASDIR)/pathschema $(BASEDIR) --errors-only
+
 test-schemas: install-deps
 	$(PYTHON) $(TESTSDIR)/schemas.py -d $(BASEDIR) -s $(SCHEMASDIR) -v $(VERBOSE)
 
@@ -51,6 +54,6 @@ test-languages: install-deps
 test-filename-length: install-deps
 	$(PYTHON) $(TESTSDIR)/filename_length.py -d $(BASEDIR) -v $(VERBOSE)
 
-test: test-schemas test-ids-unique test-slugs-unique test-render-rest test-languages test-filename-length
+test: test-directory-schemas test-schemas test-ids-unique test-slugs-unique test-render-rest test-languages test-filename-length
 
-.PHONY: help test test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape test-languages
+.PHONY: help test test-directory-schemas test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape test-languages
