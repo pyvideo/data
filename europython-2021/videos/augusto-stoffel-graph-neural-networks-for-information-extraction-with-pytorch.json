@@ -1,0 +1,43 @@
+{
+  "copyright_text": "Creative Commons Attribution license (reuse allowed)",
+  "description": "Graph neural networks for information extraction with PyTorch\n[EuroPython 2021 - Talk - 2021-07-30 - Parrot [Data Science]]\n[Online]\n\nBy Augusto Stoffel\n\nIn this talk, I will provide a primer on a class of deep learning models known as graph neural networks (GNNs).  These models generalize the well-known convolutional neural networks (CNNs) ubiquitous in computer vision, and the approach of the talk will emphasize that analogy.  Specifically, after a quick general recap on graphs, we will see how to think of an image as a graph where nodes represent pixels and edges represent the relationship of being a neighbor.  After expressing the formulas for a CNN in terms of this graph, it is not hard to imagine ways to pass from the graph of an image to arbitrary graphs.  This way, one naturally arrives at a basic GNN architecture.  Other recent advances, for instance graph attention networks, can also be surveyed, time permitting.\n\nWe will then survey the existing Python implementations and supporting libraries, with a focus on the PyTorch framework and on the PyTorch Geometric library in particular.\n\nNext, I will turn to applications in the field of NLP, and in particular information extraction.  I will focus on the problem of understanding documents in tabular format.  Unlike regular paragraphs of text, these documents contain more information than just an ordered sequence of words.  We will see how graphs can be used to encode the spatial disposition of words, capturing enough information to allow training deep learning models with good accuracy and generalization capabilities.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1691,
+  "language": "eng",
+  "recorded": "2020-07-26",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://ep2021.europython.eu/schedule/"
+    },
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "conference",
+    "europython",
+    "europython-2021",
+    "europython-online",
+    "python"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/LxCeMJXuFpo/hqdefault.jpg",
+  "title": "Augusto Stoffel - Graph neural networks for information extraction with PyTorch",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LxCeMJXuFpo"
+    }
+  ]
+}
