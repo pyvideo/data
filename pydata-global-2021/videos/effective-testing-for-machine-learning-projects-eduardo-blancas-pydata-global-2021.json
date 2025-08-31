@@ -1,0 +1,56 @@
+{
+  "description": "Effective Testing for Machine Learning Projects\nSpeaker: Eduardo Blancas\n\nSummary\nTesting is an essential practice in software engineering, yet, it remains overlooked by many Machine Learning practitioners. This talk describes a workflow that practitioners can incrementally adopt using open-source tools to deploy models with confidence.\n\nDescription\nAudience\nTalk directed to practitioners who deploy models and are looking for a practical guide to improve their workflow.\n\nTakeaway\nAttendees will get a high-level understanding of how to test Machine Learning code to apply to their projects.\n\nDescription\nThe workflow consists of five maturity levels that practitioners can adopt as they progress.\n\n[0 - 2 minutes] Introduction\n\nThe section introduces concepts such as training pipeline and inference pipeline.\n\n[2 - 6 minutes] Level 1: Smoke testing\n\nSmoke testing is implemented at the beginning of the project. It is the most basic testing because we do not check the actual outputs; we only ensure our code runs.\n\n[6 - 10 minutes] Level 2: Integration and unit testing\n\nWe start to test the output of our code. First, we add integration tests that check the data quality for every task in our pipeline (e.g., check that the data produced by a clean_data function meets specific criteria). Second, we abstract parts of our code into functions that then we unit test using sample inputs.\n\n[10 - 14 minutes] Level 3: Testing variable distributions and inference pipeline\n\nIn the previous level, our integration tests only verified basic data properties. Now, we write tests that check whether the distribution of certain variables has changed. Secondly, we test our inference pipeline to ensure it runs or throws an informative error if the input is incorrect.\n\n[14 - 18 minutes] Level 4: Inference pipeline integration testing\n\nWe now add more complete tests that check the outputs of our inference pipeline. The objective is to ensure that we do not have training-serving skew; this problem arises when the pre-processing at training time does not match the pre-processing at serving time.\n\n[18 - 22 minutes] Level 5: Testing deployment artifact and model quality\n\nThis last maturity level ensures that our testing suite prevents the deployment of low-quality models. We also check that our deployment artifact works and can make predictions.\n\n[22 - 25 minutes] Summary and Conclusions\n\nSummary of each testing level and conclusions.\n\nEduardo Blancas's Bio\nEduardo is interested in developing tools to deliver reliable Machine Learning products. Towards that end, he developed Ploomber, an open-source Python library for reproducible Data Science, first introduced at JupyterCon 2020. He holds an M.S in Data Science from Columbia University, where he took part in Computational Neuroscience research. He started his Data Science career in 2015 at the Center for Data Science and Public Policy at The University of Chicago.\nGitHub: https://github.com/edublancas/\nTwitter: https://twitter.com/edublancas/\nLinkedIn: https://www.linkedin.com/in/edublancas/\nWebsite: https://blancas.io//\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1733,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://github.com/edublancas/",
+      "url": "https://github.com/edublancas/"
+    },
+    {
+      "label": "https://blancas.io//",
+      "url": "https://blancas.io//"
+    },
+    {
+      "label": "https://www.linkedin.com/in/edublancas/",
+      "url": "https://www.linkedin.com/in/edublancas/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://twitter.com/edublancas/",
+      "url": "https://twitter.com/edublancas/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Eduardo Blancas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/Oc5x0qrB0FA/maxresdefault.webp",
+  "title": "Effective Testing for Machine Learning Projects",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Oc5x0qrB0FA"
+    }
+  ]
+}

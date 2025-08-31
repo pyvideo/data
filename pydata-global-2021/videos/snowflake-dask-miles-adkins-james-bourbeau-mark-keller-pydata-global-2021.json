@@ -1,0 +1,54 @@
+{
+  "description": "Snowflake & Dask: How to Scale Workloads Using Distributed Fetch Capabilities\nSpeakers: Miles Adkins, James Bourbeau, Mark Keller\n\nSummary\nWe will cover how Snowflake, a cloud data solution, integrates with Dask, a distributed compute framework, and the PyData ecosystem, to allow data scientists to leverage the data in data warehouses while using the PyData tools they love. This session demonstrates best practices for using Snowflake\u2019s distributed fetch capabilities with Dask.\n\nDescription\nExponential increases in data generated year over year have created the demand for distributed compute engines that are able to handle the scale of data that no longer fits in memory or on a single machine.\n\nWhile data warehouses have been able to adopt a distributed query approach, they are not able to offer free-form distributed operations and analyses, which is crucial to machine learning. Python frameworks and libraries, such as Dask, XGBoost, and PyTorch, offer a way to distribute machine learning.\n\nThis creates a new issue: how do we move all the data from our warehouse to a distributed framework where bandwidth is limited? The answer: native distributed fetch capabilities where each node in a distributed compute engine concurrently reads a portion of the data into memory.\n\nMiles Adkins's Bio\nMiles is a Partner Sales Engineer at Snowflake and leads the technical go-to-market for Snowflake's machine learning and data science partners. Miles has spent the entirety of his career in data science and sales engineering positions and specializes in financial markets and technology industries.\n\nJames Bourbeau's Bio\nGitHub: https://github.com/jrbourbeau/\nTwitter: https://twitter.com/__jrbourbeau__/\nWebsite: https://www.jamesbourbeau.com//\n\nMark Keller's Bio\nMark is a software engineer at Snowflake and leads development in Snowflake\u2019s Python connector and SQLAlchemy library. Mark loves spending time with his dog and consuming a lot of coffee.\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1730,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.jamesbourbeau.com//",
+      "url": "https://www.jamesbourbeau.com//"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/jrbourbeau/",
+      "url": "https://github.com/jrbourbeau/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://twitter.com/__jrbourbeau__/",
+      "url": "https://twitter.com/__jrbourbeau__/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Miles Adkins",
+    "James Bourbeau",
+    "Mark Keller"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/WJ5yamxarfM/maxresdefault.jpg",
+  "title": "Snowflake & Dask: How to Scale Workloads Using Distributed Fetch Capabilities",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WJ5yamxarfM"
+    }
+  ]
+}

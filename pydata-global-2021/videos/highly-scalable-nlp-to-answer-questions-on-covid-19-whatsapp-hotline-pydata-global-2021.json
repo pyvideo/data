@@ -1,0 +1,40 @@
+{
+  "description": "Highly-Scalable NLP to Answer Questions on South Africa\u2019s COVID-19 WhatsApp Hotline\nSpeaker: Adam Chang\n\nSummary\nOver 10 million people use South Africa\u2019s national COVID-19 WhatsApp hotline, but the service lacked support for users who ask free-form questions. This talk centers on how we built a scalable natural language (NLP) solution that enables users to ask their own questions about vaccines. We\u2019ll discuss various choices behind our model, and how we\u2019ve improved its overall performance and efficiency.\n\nDescription\nOver 10 million people use South Africa\u2019s national COVID-19 WhatsApp hotline, but the service previously lacked support for users who ask free-form questions. This talk centers on how we built a scalable natural language processing (NLP) service, so that users can now ask their own questions about COVID-19 vaccines (e.g., \u201cIs the COVID shot safe if I\u2019m having a child?\u201d or \u201cWhich vaccine brand is the best?\u201d).\n\nWhile some background in algorithms and machine learning is helpful, we don\u2019t expect audience members to have experience with NLP. Instead, this talk is geared at practitioners (including less experienced ones) interested in transferring machine learning into specialized settings. We\u2019ll mention some Python libraries like cProfile and scikit-learn, but won\u2019t focus on technical details. Rather, we\u2019ll discuss how real-world context and constraints translate into models and algorithms.\n\nFor example, we\u2019ll discuss how constraints like \u201cAbsolutely no wrong information can be sent\u201d affects model design and implementation, and how diving into the math behind out-of-the-box ML models improved our computational efficiency ten-fold. With this, even non-technical audience members should find this talk engaging and informative (and technical ones will enjoy the problem-solving rounds!).\n\nWe\u2019ll begin by introducing the hotline and implementation context, emphasizing the need for a specialized model given computing and maintenance limitations. Then, we\u2019ll consider the variety of possible natural language models in existence, and why various aspects of our use case merited a specific choice. We want this talk to be as interactive as possible, so audience members will have a chance to advocate for the pros/cons of various models.\n\nNext, we\u2019ll briefly run through our model, and the theory behind why it\u2019d work. We\u2019ll then narrow in on two important improvements we\u2019ve made, in language contextualization and improved computational efficiency. This section will be interactive: audience members will have a chance to \u201cwork on\u201d improvements to our algorithms, after which we\u2019ll explain the actual changes we implemented.\n\nAdam Chang's Bio\nData scientist at IDinsight, an international development organization. Based in Dakar, Senegal.\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1728,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    }
+  ],
+  "speakers": [
+    "Adam Chang"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/EzQ3i3yOZNY/maxresdefault.jpg",
+  "title": "Highly-Scalable NLP to Answer Questions on COVID-19 WhatsApp Hotline",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EzQ3i3yOZNY"
+    }
+  ]
+}
