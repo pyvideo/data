@@ -1,0 +1,51 @@
+{
+  "description": "Many real world business problems are multi-modal in nature and would benefit from using a combination of text, imagery, audio, and numerical data. Recently, there has been a surge in powerful deep learning models that fuse multiple modalities of data, however, fine-tuning, deploying, and versioning these models remains challenging for most companies. This tutorial will discuss some of the latest research in the field and then walk through several real world examples of fine-tuning, deploying, and serving multi-modal deep learning models using open source frameworks like HuggingFace, Kubeflow, and Django.\n\nMany real world business problems involve using multiple modalities of data. For instance, a chatbot aimed at helping someone perform maintenance on a vehicle would likely perform best if it could handle both images of the vehicle and textual questions from the user. Similarly, a model predicting length of stay in the hospital that could leverage numerical data of vitals, imagery (X-Rays, MRIs, scans), and the notes from the doctor would likely perform better than a model with just numerical data.\n\nRecently, in deep learning we have seen the emergence of models that leverage multiple modalities of data such as stable diffusion, DocVQA, VideoLLAMA, and variations of GPT for visual question and answering. We have also seen advances in the multi-modal time series forecasting domain with models like EarthFormer and Crossvivit which utilize imagery to improve forecasts. However, there are still significant challenges to successfully leveraging these (and other) multi-modal architectures when solving real world business problems. It is often difficult to fine-tune these models, manage multi-modal datasets, achieve the throughput to power real world applications, and debug poor performance in production. This tutorial aims to bridge theory and practice: we will first discuss the complexities of designing multi-modal ML systems and then dive into several real-world examples such as building a deep learning system to analyze historical documents (OCR + NLP) and then a Python powered forecast of extreme weather events using both satellite imagery and numerical time series data.\n\nParticipants will leave with a solid understanding of the challenges and opportunities that multi-modal deep learning presents, the current research landscape, and open-source frameworks (such as HuggingFace, Flow Forecast, and PyTorch Geometric Temporal). Participants should have worked with Python before and have an understanding of classes, object oriented programming, and pip. Some knowledge of Docker/Kubernetes is helpful but not required. More detailed instructions for setting up local development environment will be provided on GitHub..\n\nPyData\nWebsite: www.pydata.org\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 4974,
+  "language": "eng",
+  "recorded": "2024-06-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/london2024/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/9Qy0b0prepk/maxresdefault.jpg",
+  "title": "Issac Godfried - Multimodal Deep Learning in the Real World | PyData London 2024",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9Qy0b0prepk"
+    }
+  ]
+}
