@@ -1,0 +1,28 @@
+{
+  "description": "EuroPython 2022 - Jupyter - Under the Hood - presented by Dhanshree Arora\n\n[Liffey Hall 2 on 2022-07-15]\n\n\nJupyter Notebooks at their core are just JSON documents that contain all your code, markdown styles and outputs. Yet when you run a notebook, there's a lot that's happening under the hood - from starting a session with the notebook server, to launching an IPython kernel, and a rich Web UI communicating with the notebook server and the IPython kernel using Jupyter's REST APIs and ZMQ websockets. We will explore the Jupyter ecosystem and see how this system comes together. \n\nThe architecture of all the offerings in the Jupyter Project (such as the classic Jupyter Notebook), the newer JupyterLab IDE, or the scalable multi-user environment - JupyterHub is completely distributed.\nAt their core, there's a front end client like a web browser or a qt console that talks to the Notebook server using its many APIs (like the kernel API) and to the language kernel (in our case IPython) using ZMQ Sockets, allowing the Jupyter architecture to scale easily. \nIn this presentation, we look closely at these REST API calls, and the ZMQ socket traffic using simple tools like the browser's network tab. We will also try to manipulate a notebook using simple code to get a full appreciation of these internals.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2395,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Dhanshree Arora"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/i22DZplhHCY/maxresdefault.jpg",
+  "title": "Jupyter - Under the Hood",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=i22DZplhHCY"
+    }
+  ]
+}
