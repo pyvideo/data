@@ -1,0 +1,33 @@
+{
+  "description": "[EuroPython 2024 \u2014 North Hall on 2024-07-10]\n\n\rFrom Text to Context: How We Introduced a Modern Hybrid Search by Ansgar Gruene, Dharin Shah\n\rhttps://ep2024.europython.eu/session/from-text-to-context-how-we-introduced-a-modern-hybrid-search\n\n\rCustomers only buy the products they are able to find. Improving the search functions on the website is crucial for user-friendliness.\n\n\rIn our talk we present the lessons learnt from improving the search of our global online marketplace, which sells 20 million products per year. We moved from a traditional word-match based approach (BM25) to a modern hybrid solution that combines BM25 with a semantic vector model, an open-source language model that we fine-tuned to our domain.\n\n\rWith numerous references to current literature, we will explain how we designed our new system and solved the multiple challenges we encountered on both the ML and engineering side (data pipeline encoding documents, live service encoding queries, integration with search engine). Our system is based on OpenSearch, the lessons can be applied to other search engines as well.\n\n\rIn particular the presentation will cover:\n\r- Status and Short-Comings of our old Search\n\r- Introduction of Hybrid Search\n\r- Our Machine Learning Solution\n\r- Architecture and Implementation (with special consideration of latency)\n\r- Learnings and Next Steps\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 2773,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/from-text-to-context-how-we-introduced-a-modern-hybrid-search",
+      "url": "https://ep2024.europython.eu/session/from-text-to-context-how-we-introduced-a-modern-hybrid-search"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Ansgar Gruene",
+    "Dharin Shah"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/PkDqN4ssZw4/maxresdefault.jpg",
+  "title": "From Text to Context: How We Introduced a Modern Hybrid Search",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=PkDqN4ssZw4"
+    }
+  ]
+}
