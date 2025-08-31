@@ -1,0 +1,28 @@
+{
+  "description": "Lightning Talk: Accelerated Inference in PyTorch 2.X with Torch-TensorRT - George Stefanakis & Dheeraj Peri, NVIDIA\n\nTorch-TensorRT accelerates the inference of deep learning models in PyTorch targeting NVIDIA GPUs. Torch-TensorRT now leverages Dynamo, the graph capture technology introduced in PyTorch 2.0, to offer a new and more pythonic user experience as well as to upgrade the existing compilation workflow. The new user experience includes Just-In-Time compilation and support for arbitrary Python code (like dynamic control flow, complex I/O, and external libraries) used within your model, while still accelerating performance. A single line of code provides easy and robust acceleration of your model with full flexibility to configure the compilation process without ever leaving PyTorch: torch.compile(model, backend=\u201dtensorrt\u201d) The existing API has also been revamped to use Dynamo export under the hood, providing you with the same Ahead-of-Time whole-graph acceleration with fallback for custom operators and dynamic shape support as in previous versions: torch_tensorrt.compile(model, inputs=example_inputs) We will present descriptions of both paths as well as features coming soon. All of our work is open source and available at https://github.com/pytorch/TensorRT.",
+  "duration": 777,
+  "language": "eng",
+  "recorded": "2023-10-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2023/"
+    },
+    {
+      "label": "https://github.com/pytorch/TensorRT.",
+      "url": "https://github.com/pytorch/TensorRT."
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/eGDMJ3MY4zk/maxresdefault.jpg",
+  "title": "Lightning Talk: Accelerated Inference in PyTorch 2.X with Torch...- George Stefanakis & Dheeraj Peri",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=eGDMJ3MY4zk"
+    }
+  ]
+}
