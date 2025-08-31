@@ -1,0 +1,28 @@
+{
+  "description": "\"On the design of consequential ranking algorithms\n\nBehzad Tabibian (Max Planck Inst. for Intelligent Systems)*; Vicen\u00e7 G\u00f3mez (Universitat Pompeu Fabra); Abir De (IIT Bombay); Bernhard Sch\u00f6lkopf (MPI for Intelligent Systems, T\u00fcbingen); Manuel Gomez Rodriguez (MPI-SWS)\n\nRanking models are typically designed to optimize some measure of immediate utility to the users. As a result, they have been unable to anticipate an increasing number of undesirable long-term consequences of their proposed rankings, from fueling the spread of misinformation and increasing polarization to degrading social discourse. Can we design ranking models that anticipate the consequences of their proposed rankings and are able to avoid the undesirable ones? In this paper, we first introduce a joint representation of rankings and user dynamics using Markov decision processes. Then, we show that this representation greatly simplifies the construction of consequential ranking models that trade off the\nimmediate utility and the long-term welfare. In particular, we can obtain optimal consequential rankings by applying weighted sampling on the rankings provided by models that maximize measures of immediate utility. However, in practice, such a strategy may be inefficient and impractical, specially in high dimensional scenarios. To overcome this, we introduce an efficient gradient-based algorithm to learn parameterized consequential ranking models that effectively approximate optimal ones. We illustrate our methodology using synthetic and real data gathered from Reddit and show that our consequential rankings may mitigate the spread of misinformation and improve the civility of online discussions.\"",
+  "duration": 561,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Behzad Tabibian",
+    "Vicenç Gómez",
+    "Abir De",
+    "Bernhard Schölkopf",
+    "Manuel Gomez Rodriguez"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9gNKrg_kFU4/sddefault.jpg",
+  "title": "On the design of consequential ranking algorithms",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9gNKrg_kFU4"
+    }
+  ]
+}

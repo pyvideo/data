@@ -1,0 +1,26 @@
+{
+  "description": "\"High Dimensional Discrete Integration over the Hypergrid\n\nRaj Kumar Maity (University of Massachusetts Amherst); Arya Mazumdar (University of Massachusetts Amherst)*; Soumyabrata Pal (Umass Amherst)\n\nRecently Ermon et al. (2013) pioneered a way to practically compute approximations to large scale counting or discrete integration problems by using random hashes. The hashes are used to reduce the counting problem into many separate discrete optimization problems. The optimization problems then can be solved by an NP-oracle such as commercial SAT solvers or integer linear programming (ILP) solvers. In particular,  Ermon et al. showed that if the domain of integration is   then it is possible to obtain a solution within  a factor of $16$ of the optimal (16-approximation) by this technique. \n\nIn many crucial counting tasks, such as computation of partition function of ferromagnetic Potts model, the domain of integration is naturally   the hypergrid. The straightforward extension of Ermon et al.'s method allows a  approximation for this problem. For large values of, this is undesirable. In this paper, we show an improved technique to obtain an approximation factor of  to this problem. We are able to achieve this by using an idea of optimization over multiple bins of the hash functions, that can be easily implemented by inequality constraints, or even in unconstrained way. The NP oracle in this setting can be simulated by using an ILP solver as in Ermon et. al. We provide simulation results to support the theoretical guarantees of our algorithms.\"",
+  "duration": 526,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Raj Kumar Maity",
+    "Arya Mazumdar",
+    "Soumyabrata Pal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pSEwhBmY7ZI/sddefault.jpg",
+  "title": "High Dimensional Discrete Integration over the Hypergrid",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pSEwhBmY7ZI"
+    }
+  ]
+}

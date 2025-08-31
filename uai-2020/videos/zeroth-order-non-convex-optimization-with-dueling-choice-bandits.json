@@ -1,0 +1,27 @@
+{
+  "description": "Zeroth Order Non-convex optimization with Dueling-Choice Bandits\n\nYichong Xu (Carnegie Mellon University)*; Aparna Joshi (Carnegie Mellon University); Aarti Singh (Carnegie Mellon University); Artur Dubrawski (CMU)\n\nWe consider a novel setting of zeroth order non-convex optimization, where in addition to querying the function value at a given point, we can also duel two points and get the point with the larger function value. We refer to this setting as optimization with dueling-choice bandits, since both direct queries and duels are available for optimization. We give the COMP-GP-UCB algorithm based on  GP-UCB (Srinivas et al., 2009),, where instead of directly querying the point with the maximum Upper Confidence Bound (UCB), we perform constrained optimization and use comparisons to filter out suboptimal points. COMP-GP-UCB comes with theoretical guarantee of $O(\\frac{\\Phi}{\\sqrt{T}})$ on simple regret where $T$ is the number of direct queries and $\\Phi$ is an improved information gain stemming from a comparison-based constraint set that restricts the space for optimum search. In contrast, in the plain direct query setting, $\\Phi$ depends on the entire domain. We discuss theoretical aspects and show experimental results to demonstrate efficacy of our algorithm.",
+  "duration": 515,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Yichong Xu",
+    "Aparna Joshi",
+    "Aarti Singh",
+    "Artur Dubrawski"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vzfTwop9oq0/sddefault.jpg",
+  "title": "Zeroth Order Non-convex optimization with Dueling-Choice Bandits",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vzfTwop9oq0"
+    }
+  ]
+}

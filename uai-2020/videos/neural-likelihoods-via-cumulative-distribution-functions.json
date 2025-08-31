@@ -1,0 +1,25 @@
+{
+  "description": "\"Neural Likelihoods via Cumulative Distribution Functions\n\nPawel Chilinski (UCL)*; Ricardo Silva (University College London)\n\nWe leverage neural networks as universal approximators of monotonic functions to build a parameterization of conditional cumulative distribution functions (CDFs). By the application of automatic differentiation with respect to response variables and then to parameters of this CDF representation, we are able to build black box CDF and density estimators. A suite of families is introduced as alternative constructions for the multivariate case. At one extreme, the simplest construction is a competitive density estimator against state-of-the-art deep learning methods, although it does not provide an easily computable representation of multivariate CDFs. At the other extreme, we have a flexible construction from which multivariate CDF evaluations and marginalizations can be obtained by a simple forward pass in a deep neural net, but where the computation of the likelihood scales exponentially with dimensionality. Alternatives in between the extremes are discussed. We evaluate the different representations empirically on a variety of tasks involving tail area probabilities, tail dependence and (partial) density estimation.\"",
+  "duration": 487,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Pawel Chilinski",
+    "Ricardo Silva"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/YnrRdmrTpBI/sddefault.jpg",
+  "title": "Neural Likelihoods via Cumulative Distribution Functions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YnrRdmrTpBI"
+    }
+  ]
+}

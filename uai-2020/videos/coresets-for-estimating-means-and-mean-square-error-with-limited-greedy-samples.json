@@ -1,0 +1,26 @@
+{
+  "description": "\"Coresets for Estimating Means and Mean Square Error with Limited Greedy Samples\n\nSaeed Vahidian (University of California San Diego); Baharan Mirzasoleiman (Stanford University); Alexander Cloninger (University of California San Diego)*\n\n  In a number of situations, collecting a function value for every data point may be prohibitively expensive, and random sampling ignores any structure in the underlying data. We introduce a scalable optimization algorithm with no correction steps (in contrast to Frank\u2013Wolfe and its variants), a variant of gradient ascent for coreset selection in graphs, that greedily selects a weighted subset of vertices that are deemed most important to sample. Our algorithm estimates the mean of the function by taking a weighted sum only at these vertices, and we provably bound the estimation error in terms of the location and weights of the selected vertices in the graph. In addition, we consider the case where nodes have different selection costs and provide bounds on the quality of the low-cost selected coresets. We demonstrate the benefits of our algorithm on the semi-supervised node classification of graph convolutional neural network, point clouds and structured graphs, as well as sensor placement where the cost of placing sensors depends on the location of the placement. We also elucidate that the empirical convergence of our proposed method is faster than random selection and various clustering methods while still respecting sensor placement cost. The paper concludes with validation of the developed algorithm on both synthetic and real datasets, demonstrating that it outperforms the current state of the art.\"",
+  "duration": 542,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Saeed Vahidian",
+    "Baharan Mirzasoleiman",
+    "Alexander Cloninger"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/NLhnKuylWs4/sddefault.jpg",
+  "title": "Coresets for Estimating Means and Mean Square Error with Limited Greedy Samples",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NLhnKuylWs4"
+    }
+  ]
+}

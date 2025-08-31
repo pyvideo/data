@@ -1,0 +1,26 @@
+{
+  "description": "\"Mutual Information Based Knowledge Transfer Under State-Action Dimension Mismatch\n\nMichael Wan (University of Illinois at Urbana-Champaign)*; Tanmay Gangwani (University of Illinois, Urbana Champaign); Jian Peng (University of Illinois at Urbana-Champaign)\n\nDeep reinforcement learning (RL) algorithms have achieved great success on a wide variety of sequential decision-making tasks. However, many of these algorithms suffer from high sample complexity when learning from scratch using environmental rewards, due to issues such as credit-assignment and high-variance gradients, among others. Transfer learning, in which knowledge gained on a source task is applied to more efficiently learn a different but related target task, is a promising approach to improve the sample complexity in RL. Prior work has considered using pre-trained teacher policies to enhance the learning of the student policy, albeit with the constraint that the teacher and the student MDPs share the state-space or the action-space. In this paper, we propose a new framework for transfer learning where the teacher and the student can have arbitrarily different state- and action-spaces. To handle this mismatch, we produce embeddings which can systematically extract knowledge from the teacher policy and value networks, and blend it into the student networks. To train the embeddings, we use a task-aligned loss and show that the representations could be enriched further by adding a mutual information loss. Using a set of challenging simulated robotic locomotion tasks involving many-legged centipedes, we demonstrate successful transfer learning in situations when the teacher and student have different state- and action-spaces.\"",
+  "duration": 387,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Michael Wan",
+    "Tanmay Gangwani",
+    "Jian Peng"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XL1NfTVoxZY/sddefault.jpg",
+  "title": "Mutual Information Based Knowledge Transfer Under State-Action Dimension Mismatch",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XL1NfTVoxZY"
+    }
+  ]
+}

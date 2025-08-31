@@ -1,0 +1,25 @@
+{
+  "description": "\"Flexible Approximate Inference via Stratified Normalizing Flows\n\nChris Cundy (Stanford University)*; Stefano  Ermon (Stanford University)\n\nA major obstacle to forming posterior distributions in machine learning is the difficulty of evaluating partition functions. Monte-Carlo approaches are unbiased, but can suffer from high variance. Variational methods are biased, but tend to have lower variance. We develop an approximate inference procedure that allows explicit control of the bias/variance tradeoff, interpolating between the sampling and the variational regime. We use a normalizing flow to map the integrand onto a uniform distribution. We then randomly sample regions from a partition of this uniform distribution and fit simpler, local variational approximations in the image of these regions through the flow. When a partition with only one region is used, we recover standard variational inference, and in the limit of an infinitely fine partition we recover Monte-Carlo sampling. We show experiments validating the effectiveness of our approach.\"",
+  "duration": 452,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Chris Cundy",
+    "Stefano Ermon"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZuBfb_xEWKA/sddefault.jpg",
+  "title": "Flexible Approximate Inference via Stratified Normalizing Flows",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZuBfb_xEWKA"
+    }
+  ]
+}

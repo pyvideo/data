@@ -1,0 +1,26 @@
+{
+  "description": "\"Learning Behaviors with Uncertain Human Feedback\n\nXu He (Nanyang Technological University)*; Haipeng Chen (Dartmouth College); Bo An (Nanyang Technological University)\n\nHuman feedback is widely used to train agents in many domains. However, previous works rarely consider the uncertainty when humans provide feedback, especially in cases that the optimal actions are not obvious to the trainers. For example, the reward of a sub-optimal action can be stochastic and sometimes exceeds that of the optimal action, which is common in games or real-world. Trainers are likely to provide positive feedback to sub-optimal actions, negative feedback to the optimal actions and even do not provide feedback in some confusing situations. Existing works, which utilize the Expectation Maximization (EM) algorithm and treat the feedback model as hidden parameters, do not consider uncertainties in the learning environment and human feedback. To address this challenge, we introduce a novel feedback model that considers the uncertainty of human feedback. However, this incurs intractable calculus in the EM algorithm. To this end, we propose a novel approximate EM algorithm, in which we approximate the expectation step with the Gradient Descent method. Experimental results in both synthetic scenarios and two real-world scenarios with human participants demonstrate the superior performance of our proposed approach.\"",
+  "duration": 462,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Xu He",
+    "Haipeng Chen",
+    "Bo An"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/gfgSw6ZBDK8/sddefault.jpg",
+  "title": "Learning Behaviors with Uncertain Human Feedback",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gfgSw6ZBDK8"
+    }
+  ]
+}
