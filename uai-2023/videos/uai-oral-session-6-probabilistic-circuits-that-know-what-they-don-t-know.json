@@ -1,0 +1,36 @@
+{
+  "description": "\"Probabilistic Circuits That Know What They Don't Know\"\nFabrizio Ventola, Steven Braun, Zhongjie Yu, Martin Mundt, Kristian Kersting\n(https://proceedings.mlr.press/v216/ventola23a.html)\n\nAbstract\nProbabilistic circuits (PCs) are models that allow exact and tractable probabilistic inference. In contrast to neural networks, they are often assumed to be well-calibrated and robust to out-of-distribution (OOD) data. In this paper, we show that PCs are in fact not robust to OOD data, i.e., they don\u2019t know what they don\u2019t know. We then show how this challenge can be overcome by model uncertainty quantification. To this end, we propose tractable dropout inference (TDI), an inference procedure to estimate uncertainty by deriving an analytical solution to Monte Carlo dropout (MCD) through variance propagation. Unlike MCD in neural networks, which comes at the cost of multiple network evaluations, TDI provides tractable sampling-free uncertainty estimates in a single forward pass. TDI improves the robustness of PCs to distribution shift and OOD data, demonstrated through a series of experiments evaluating the classification confidence and uncertainty estimates on real-world data.\n\nSlides: https://www.auai.org/uai2023/oral_slides/HANDOUT_118.pdf",
+  "duration": 1639,
+  "language": "eng",
+  "recorded": "2023-07-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2023/"
+    },
+    {
+      "label": "https://proceedings.mlr.press/v216/ventola23a.html",
+      "url": "https://proceedings.mlr.press/v216/ventola23a.html"
+    },
+    {
+      "label": "https://www.auai.org/uai2023/oral_slides/HANDOUT_118.pdf",
+      "url": "https://www.auai.org/uai2023/oral_slides/HANDOUT_118.pdf"
+    }
+  ],
+  "speakers": [
+    "Fabrizio Ventola",
+    "Steven Braun", 
+    "Zhongjie Yu",
+    "Martin Mundt",
+    "Kristian Kersting"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/B9xiDeYgu7Q/maxresdefault.jpg",
+  "title": "Probabilistic Circuits That Know What They Don't Know",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=B9xiDeYgu7Q"
+    }
+  ]
+}
