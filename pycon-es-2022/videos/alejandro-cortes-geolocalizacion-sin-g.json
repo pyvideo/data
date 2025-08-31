@@ -1,0 +1,24 @@
+{
+  "description": "Ponente: Alejandro Cortés\nTítulo: Geolocalización sin G\nAula: Teoría 6 (Sábado)\n---------------------------------\nResumen:\nLa charla trata de presentar la forma de obtener la geolocalización de un dispositivo sin el empleo de GPS, ya que es posible piratear la señal mediante WarDriving. Pero si somos capaces de detectar las BSSID de los routers WIFI que tenemos cerca, podríamos geolocalizarnos sin el GPS. Está basado en un caso real de pericial informática cuya geolocalización a la hora de realizar la extracción de evidencias fue desplazada, con el claro motivo de invalidar el dictamen pericial y tachar al perito.\n\nMediante un dispositivo compatible con el protocolo NMEA; y conectado a una Raspberry Pi mediante el puerto USB, se obtienen todos los parámetros que recibe el mismo, en texto plano, con emulación serial. Pero si existe un dispositivo de guerra electrónica en las cercanías, esa señal de GPS puede anularse o, lo que es peor, desplazarse a otras coordenadas, lo cual podría invalidar un dictamen pericial empleado en un juicio.\nCasi simultáneamente, se escanean todas las señales wifi que existen en su entorno, almacenando en una base de datos SQLite las coordenadas GPS que se proporcionan además de la BSSIS (Basic Service Set Identifier) de cada router, el cual es una información que el usuario no puede cambiar (a menos, por supuesto, que cambie de router o lo apague).\nSi se dispone de conexión de datos, se podría consultar a cualquiera de las grandes bases de datos existentes sobre si las coordenadas GPS que nos está facilitando el dispositivo son correctas o no. En la charla, se presenta el código y la conexión con Wigle.net, donde existen 800M de registros sobre BSSID, tanto abiertas, como ocultas, con cifrado WPA3,WPA2,WPA, WEB o desconocidas.\nEsto resulta de vital importancia para los coches autónomos y conectados ya que, si la señal GPS no es correcta o está pirateada, podrían resultar ser un problema de seguridad tanto para sus conductores como para el resto de las personas.",
+  "duration": 2058,
+  "language": "spa",
+  "recorded": "2022-09-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2022.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "Alejandro Cortés"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/_uf-emIJB-I/maxresdefault.jpg",
+  "title": "Geolocalización sin G",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_uf-emIJB-I"
+    }
+  ]
+}
