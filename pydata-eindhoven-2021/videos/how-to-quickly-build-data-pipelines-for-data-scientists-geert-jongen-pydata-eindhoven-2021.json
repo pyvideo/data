@@ -1,0 +1,48 @@
+{
+  "description": "Data pipelines usually consist of loading the data, transforming it and writing to some other location. Initially, this does not sound very complicated. The question arises why it is so hard then to do? In this talk we will discuss how to perform these steps in pyspark, and especially what the latest developments are around delta lake, data quality checks and data modeling. What patterns are preferable and why? At the end of this talk data engineers and data scientists should have a view on a pattern that will fit in a lot of general situations and will help them to set up a pipeline more quickly while preventing a lot of issues upfront.\n\nGeert: is a data consultant working at Pipple, with extensive experience in the domain of data engineering, data science and software. Developing data platforms using cloud native technologies is what he enjoys most. Especially the messy process of bringing POCs into production is what he likes to do.\nGitHub: https://github.com/Jongen87/\nTwitter: https://twitter.com/Jongen87/\n\n\nPyData Eindhoven 2021\nWebsite: https://pydata.org/eindhoven2021/\nTwitter: https://twitter.com/pydataeindhoven\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Introduction\n01:58 Data Pipelines\n07:32 Tip 1: Define a Clear Split Between Data Engineering and Data Science\n08:58 Tip 2: For the Data Pipeline Part Use Notebooks in Flows\n10:34 Tip 3: Have a Sit-Down With Your Team and Decide on Standards\n11:14 Tip 4: All Data You Use Needs to Have a Source\n12:36 Tip 5: Prepare for Changes\n13:36 Delta Lake\n16:38 Demo\n26:50 Conclusion\n\nS/o to https://github.com/mraxilus for the video timestamps!\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1846,
+  "language": "eng",
+  "recorded": "2021-11-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://twitter.com/pydataeindhoven",
+      "url": "https://twitter.com/pydataeindhoven"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://github.com/Jongen87/",
+      "url": "https://github.com/Jongen87/"
+    },
+    {
+      "label": "https://twitter.com/Jongen87/",
+      "url": "https://twitter.com/Jongen87/"
+    },
+    {
+      "label": "https://github.com/mraxilus",
+      "url": "https://github.com/mraxilus"
+    },
+    {
+      "label": "https://pydata.org/eindhoven2021/",
+      "url": "https://pydata.org/eindhoven2021/"
+    }
+  ],
+  "speakers": [
+    "Geert Jongen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XMnDCZhm9Go/maxresdefault.jpg",
+  "title": "How to quickly build Data Pipelines for Data Scientists",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XMnDCZhm9Go"
+    }
+  ]
+}
