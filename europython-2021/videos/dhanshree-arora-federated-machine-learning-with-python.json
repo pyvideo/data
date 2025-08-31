@@ -1,0 +1,32 @@
+{
+  "description": "Federated Machine Learning with Python\n[EuroPython 2021 - Talk - 2021-07-28 - Parrot [Data Science]]\n[Online]\n\nBy Dhanshree Arora\n\nImagine a world where all the data generated on your phone and on your wearables never left these devices without compromising your user experience. Or, a world where AI collaboration between data owners and developers did not have to be slowed by bureaucracy and data compliance laws like the GDPR. Federated Machine Learning, originally introduced in 2015, aims to create this world. It is the gift of distributed computing to Artificial Intelligence for training models without compromising data privacy.\n\nFederated Machine Learning is a model training technique in which the data never leaves the source (for example, a data silo, a smartphone, or an IoT device) and a copy of a global model is trained at source while sharing only the learning with the global model.\n\nIn this talk, I will present an introduction to privacy preserving machine learning with a focus on federated ML, and make a case for federated ML beyond just Gboard and into enterprises. The session will aim to demystify the jargon around Federated Machine Learning, specifically terms such as horizontal vs vertical federated ML, cross device/cross silo training, centralized vs decentralized training, and data centric vs model centric federated learning.\n\nI will briefly introduce existing FedML implementations in Python and also demonstrate a live code walk-through for a minimal centralized federated learning system built using python-socketio and confluent kafka.\n\nFinally, I will discuss the challenges faced by enterprises in incorporating federated machine learning. The most notorious difficulty with Federated ML is non-IID data. Other technical difficulties include network latencies affecting training coordination, single point of failure in centralized federated learning systems, computational limitations at source nodes, etc. Additionally, in data centric federated ML, where a data provider allows AI developers to use their data to build models, federated ML poses challenges for early stage EDA and development.\n\nI\u2019m excited to talk about federated ML, which is ripe with opportunities for research and development, and the tech community is finally ready to adopt it.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 2641,
+  "language": "eng",
+  "recorded": "2021-07-26",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "Dhanshree Arora"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fkLgRhcyPSU/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-DoACuAiKAgwIABABGBMgMSh_MA8=&rs=AOn4CLA7lTseVsEuY-Zr_43TK9UEFPWPpg",
+  "title": "Federated Machine Learning with Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fkLgRhcyPSU"
+    }
+  ]
+}
