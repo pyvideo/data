@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2023 \u2014 South Hall 2A on 2023-07-21]\n\rhttps://ep2023.europython.eu/session/what-a-screen-reader-can-teach-you-about-remote-python-debugging\n\nThe NVDA screen reader is a Python application packaged with Py2exe, along with C++ extensions for low-level system access and improved performance. Its functionality can be expanded through addons that are also written in Python, which makes the ability to debug both the core and addon code highly desirable.\n\n\rHowever, debugging code within an embedded or packaged Python environment can be quite challenging, especially if you are a visually impaired programmer trying to debug your own screen reader, since hitting a breakpoint will freeze the tool you rely on for computer access!\n\n\rIn this presentation, I will demonstrate how I addressed this challenge by leveraging Microsoft's debugpy library for remote debugging. I will showcase how this technique can be used to debug Python applications running within an embedded Python environment, regardless of the host language. Additionally, I will explore its applicability in debugging applications running on different operating systems or environments than the one where you prefer to use your debugging IDE.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 3892,
+  "language": "eng",
+  "recorded": "2023-07-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2023.europython.eu/"
+    },
+    {
+      "label": "https://ep2023.europython.eu/session/what-a-screen-reader-can-teach-you-about-remote-python-debugging",
+      "url": "https://ep2023.europython.eu/session/what-a-screen-reader-can-teach-you-about-remote-python-debugging"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Ramón Corominas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fVu_3azaflM/maxresdefault.jpg",
+  "title": "What a screen reader can teach you about remote Python debugging",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fVu_3azaflM"
+    }
+  ]
+}
