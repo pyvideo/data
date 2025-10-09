@@ -1,0 +1,22 @@
+{
+    "description": "In distributed systems, how we handle failure is often more important than how we handle success. This talk challenges the \"never give up\" mentality by demonstrating why intelligent retreat strategies consistently outperform blind persistence when systems are under stress.\r\n\r\nWe'll explore the powerful combination of exponential back-off with jitter for managing retries, and explain why quickly \"giving up\" through strategic load shedding often leads to better overall system health than dogged persistence. We'll show how these complementary approaches can prevent cascading failures, improve user experience during degraded conditions, and help systems recover faster.",
+    "language": "eng",
+    "recorded": "2025-09-27",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.pybeach.org/"
+        }
+    ],
+    "speakers": [
+        "Moshe Zadka"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/xc0AHfZjy_Y/maxresdefault.jpg",
+    "title": "Back off and Give up: The Art of Graceful System Degradation",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=xc0AHfZjy_Y"
+        }
+    ]
+}

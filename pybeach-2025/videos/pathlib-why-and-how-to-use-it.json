@@ -1,0 +1,22 @@
+{
+    "description": "If your Python code works with file paths, you should be using `pathlib`. This standard library module may seem a bit cumbersome at first, but `pathlib`-using code is often more readable the alternative.\r\n\r\nPython's many path-oriented utilities used to expect a string representation for all file paths. That's not the case anymore. Now, every important path-consuming library will accept `pathlib.Path` objects.\r\n\r\nDuring this talk, we'll see why `pathlib.Path` objects make for more maintainable code. We'll visit a number of useful `pathlib` examples and recipes along the way.\r\n\r\nBy the end of this talk, you'll be tempted to convert all your path-handling code to use `pathlib`.",
+    "language": "eng",
+    "recorded": "2025-09-27",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.pybeach.org/"
+        }
+    ],
+    "speakers": [
+        "Trey Hunner"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/7XuyYDde-0A/maxresdefault.jpg",
+    "title": "pathlib: why and how to use it",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=7XuyYDde-0A"
+        }
+    ]
+}
