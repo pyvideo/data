@@ -1,0 +1,26 @@
+{
+    "description": "| Google Drive in recent years has become one of the most abused\n  platforms for threat actors to conduct illegal and malicious activity.\n  Threat actors use Google accounts to launch, store, and log malware,\n  effectively turning Drive into a command and control center. On the\n  side of legal and ethical activity, Google Drive remains a popular\n  platform for security researchers to store these artifacts in\n  summarized write-ups and spreadsheets of malicious and illegal\n  activity observed. Much like an archaeologist looks for artifacts\n  providing clues of the history of civilization, security researchers\n  look for Indicators of Compromise (IOCs), which are clues to what a\n  threat actor has done. Security engineers have worked across decades\n  to build out tooling to analyze hard drives and network resources;\n  however, similar advances to analyze Google Drive resources have\n  remained underdeveloped. Along the same line, tools that aggregate and\n  summarize collections of records on IOCs stored in Google Drive by\n  researchers are also lacking.\n| The GDIOCSpider (Google Drive IOC Spider) provides a tool for both of\n  these use cases. This open-source, configurable, Python tool is\n  capable of crawling through an entire Google Drive, analyzing its file\n  contents, and searching for various defined IOC (Indicators of\n  Compromise) types to extract. This tool outputs a summary of all\n  discovered artifacts across all files, erasing the need for security\n  researchers to manually sift through cloud stores. Supplementing the\n  compromised account use case, the same tool can be used to aggregate\n  IOCs collected in personal or corporate Google Drive accounts in the\n  form of case records gathered by security researchers. This\n  \u2018environment agnostic\u2019 approach is how GDIOCSpider enables security\n  researchers to perform efficient IOC research in Google Drive.\n| GDIOCSpider supports capabilities for both user accounts and service\n  accounts through the Google Drive API. It has allowlist and denylist\n  capabilities for both folders and files to prevent access of files\n  with compliance and security restrictions. For those that are very\n  interested in performing local IOC analysis and extraction,\n  GDIOCSpider contains a build abstract tool \u2018IOCFlagger\u2019 within the\n  context of the source code. IOCFlagger offers a rich IOC parser that\n  is capable of both loose and strict matching for use cases where it is\n  necessary to search within a string, or simply match a string to an\n  IOC type exactly. The full suite of tools under the GDIOCSpider\u2019s\n  umbrella enables the user or team operating it to enter the\n  \u201cGDriveverse\u201d of Google account incident response, and provide\n  meaningful data for case work and research.\n",
+    "language": "eng",
+    "recorded": "2025-07-27",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://www.pyohio.org/2025/program/talks/gdiocspider"
+        }
+    ],
+    "speakers": [
+        "Noah Dunn"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/uiL5fcXXPVQ/maxresdefault.jpg",
+    "title": "GDIOCSpider: Extracting and Identifying IOCs from the GDriveverse",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=uiL5fcXXPVQ"
+        }
+    ]
+}
