@@ -1,0 +1,26 @@
+{
+    "description": "Python \u2013 like many languages \u2013 lets you do things that are completely\ninadvisable. Many of the features that (left unchecked) allow you to do\ninadvisable things were used to achieve things that have since become\nnecessary and defining features of Python.\n\nPython \u2013 unlike many languages \u2013 discovered that leaving these obvious\nand necessary features lying around next to inadvisable things was a bad\nidea, and built guardrails around them.\n\nIn real life, guardrails are structures that make it easier to\nunderstand how to be safe in an area where there is otherwise danger. If\nrespected, guardrails make you safer, but unlike walls or fences,\nguardrails do not block you from danger.\n\nIn Python, features like decorators, context managers, async functions,\nimportlib, and more are all guardrails that let you work with less-safe\nPython machinery from a much safer distance.\n\nIn this talk, we\u2019re going to explore the idea of guardrails as a design\nphilosophy, and use that to explain Python\u2019s attitude to safely working\nwith the language and its internals.\n\nWe\u2019ll explore features of Python that are guardrails around less-safe\nfeatures \u2013 what features they replaced, how those features could be used\nincorrectly, and how the newer features allow you to use Python more\nsafely. As a special treat, you may also get to see how Python lets you\nabuse these features\\*.\n\nWe\u2019ll conclude with a discussion of how you can use Python\u2019s guardrail\nphilosophy in your own code.\n\n--------------\n\n(\\* SKILLED OPERATOR ON CLOSED CIRCUIT; DO NOT ATTEMPT)\n",
+    "language": "eng",
+    "recorded": "2025-07-26",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://www.pyohio.org/2025/"
+        },
+        {
+            "label": "Presentation Webpage",
+            "url": "https://www.pyohio.org/2025/program/talks/guardrails"
+        }
+    ],
+    "speakers": [
+        "Christopher Neugebauer"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ITrSTncNgL8/maxresdefault.jpg",
+    "title": "Guardrails: An Alternative View of Safely Working in Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=ITrSTncNgL8"
+        }
+    ]
+}
