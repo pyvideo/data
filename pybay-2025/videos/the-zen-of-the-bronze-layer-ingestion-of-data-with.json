@@ -1,0 +1,29 @@
+{
+  "copyright_text": "",
+  "description": "In the medallion data architecture, the bronze layer is for staging incoming raw data before further transformation and cleaning. Ideally, tabular CSV data undergoes minimal transformations and is queryable upon ingestion; however, third party data sources can contain unstable schema that make this challenging even using pandas. With native Python data structures and a more flexible data schema, such this messy data can more reliably be ingested for cleaning and monitoring.\n\nFor more information, see https://pybay.org/\n\nFollow us on LinkedIn https://www.linkedin.com/company/pybay",
+  "duration": 1706,
+  "language": "eng",
+  "recorded": "2025-10-18",
+  "related_urls": [
+    {
+      "label": "Conference schedule",
+      "url": "https://pybay.org/speaking/schedule/"
+    },
+    {
+      "label": "Full playlist",
+      "url": "https://www.youtube.com/playlist?list=PL85KuAjbN_gseSuHZTUCgNAHLeKuMDBxI"
+    }
+  ],
+  "speakers": [
+    "Aaron Wiegel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XZXAuTZ47Yo/maxresdefault.jpg",
+  "title": "The Zen of the Bronze Layer: Ingestion of Data with Unstable Schema",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XZXAuTZ47Yo"
+    }
+  ]
+}
