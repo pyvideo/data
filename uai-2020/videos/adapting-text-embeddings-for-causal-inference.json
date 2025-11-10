@@ -1,0 +1,26 @@
+{
+  "description": "\"Adapting Text Embeddings for Causal Inference\n\nVictor Veitch (Columbia University)*; Dhanya Sridhar (Columbia University); David Blei (Columbia University)\n\nDoes adding a theorem to a paper affect its chance of acceptance? Does labeling a post with the author\u2019s gender affect the post popularity? This paper develops a method to estimate such causal effects from observational text data, adjusting for confounding features of the text such as the subject or writing quality. We assume that the text suffices for causal adjustment but that, in practice, it is prohibitively high-dimensional. To address this challenge, we develop causally sufficient embeddings, low- dimensional document representations that preserve sufficient information for causal identification and allow for efficient estimation of causal effects. Causally sufficient embeddings combine two ideas. The first is supervised dimensionality reduction: causal adjustment requires only the aspects of text that are predictive of both the treatment and outcome. The second is efficient language modeling: representations of text are designed to dispose of linguistically irrelevant information, and this information is also causally irrelevant. Our method adapts language models (specifically, word embeddings and topic models) to learn document embeddings that are able to predict both treatment and outcome. We study causally sufficient embeddings with semi-synthetic datasets and find that they improve causal estimation over related embedding methods. We illustrate the methods by answering the two motivating questions---the effect of a theorem on paper acceptance and the effect of a gender label on post popularity. Code and data available at github.com/vveitch/causal-text-embeddings-tf2.\"",
+  "duration": 531,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Victor Veitch",
+    "Dhanya Sridhar",
+    "David Blei"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/n1jVpqjelpE/sddefault.jpg",
+  "title": "Adapting Text Embeddings for Causal Inference",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=n1jVpqjelpE"
+    }
+  ]
+}

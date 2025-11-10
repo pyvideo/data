@@ -1,0 +1,28 @@
+{
+  "description": "\"Dueling Posterior Sampling for Preference-Based Reinforcement Learning\n\nEllen Novoseller (California Institute of Technology)*; Yibing Wei (California Institute of Technology); Yanan Sui (Tsinghua University); Yisong Yue (Caltech); Joel Burdick (Caltech)\n\nIn preference-based reinforcement learning (RL), an agent interacts with the environment while receiving preferences instead of absolute feedback. While there is increasing research activity in preference-based RL, the design of formal frameworks that admit tractable theoretical analysis remains an open challenge. Building upon ideas from preference-based bandit learning and posterior sampling in RL, we present DUELING POSTERIOR SAMPLING (DPS), which employs preference-based posterior sampling to learn both the system dynamics and the underlying utility function that governs the preference feedback. As preference feedback is provided on trajectories rather than individual state-action pairs, we develop a Bayesian approach for the credit assignment problem, translating  preferences to a posterior distribution over state-action reward models. We prove an asymptotic Bayesian no-regret rate for DPS with a Bayesian linear regression credit assignment model. This is the first regret guarantee for preference-based RL to our knowledge. We also discuss possible avenues for extending the proof methodology to  other credit assignment models. Finally, we evaluate the approach empirically, showing competitive performance against existing baselines.\"",
+  "duration": 476,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Ellen Novoseller",
+    "Yibing Wei",
+    "Yanan Sui",
+    "Yisong Yue",
+    "Joel Burdick"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/_3EdlHfOhs4/sddefault.jpg",
+  "title": "Dueling Posterior Sampling for Preference-Based Reinforcement Learning",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_3EdlHfOhs4"
+    }
+  ]
+}

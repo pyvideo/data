@@ -1,0 +1,28 @@
+{
+  "description": "\"Bounding the expected run-time of nonconvex optimization with early stopping\n\nThomas Flynn (Brookhaven National Laboratory)*; Kwangmin Yu (Brookhaven National Laboratory); Abid Malik (Brookhaven National Laboratory); Nicholas D'Imperio (Brookhaven National Laboratory); Shinjae Yoo (Brookhaven National Laboratory)\n\n This work examines the convergence of stochastic gradient-based optimization algorithms that use early stopping based on a validation function. The form of early stopping we consider is that optimization terminates when the norm of the gradient  of a validation function falls below a threshold. We derive conditions that guarantee this stopping rule is well-defined, and provide bounds on the expected number of iterations and gradient evaluations needed to meet this criterion. The guarantee accounts for the distance between the training and validation sets, measured with the Wasserstein distance. We develop the approach in the general setting of a first-order optimization algorithm, with possibly biased update directions subject to a geometric drift condition. We then derive bounds on the expected running time for early stopping variants of several algorithms, including stochastic gradient descent (SGD), decentralized SGD (DSGD), and the stochastic variance reduced gradient (SVRG) algorithm. Finally, we consider the generalization properties of the iterate returned by early stopping.\"",
+  "duration": 492,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Thomas Flynn",
+    "Kwangmin Yu", 
+    "Abid Malik",
+    "Nicholas D'Imperio",
+    "Shinjae Yoo"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xQkTqEyNiSU/sddefault.jpg",
+  "title": "Bounding the expected run-time of nonconvex optimization with early stopping",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xQkTqEyNiSU"
+    }
+  ]
+}

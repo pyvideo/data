@@ -1,0 +1,27 @@
+{
+  "description": "\"Regret Analysis of Bandit Problems with Causal Background Knowledge\n\nYangyi Lu (University of Michigan)*; Amirhossein Meisami (Adobe); Ambuj Tewari (University of Michigan); William Yan (Adobe Systems Incorporated)\n\nWe study how to learn optimal interventions sequentially given causal information represented as a causal graph along with associated conditional distributions. Causal modeling is useful in real world problems like online advertisement where complex causal mechanisms underlie the relationship between interventions and outcomes. We propose two algorithms, causal upper confidence bound (C-UCB) and causal Thompson Sampling (C-TS), that enjoy improved cumulative regret bounds compared with algorithms that do not use causal information. We thus resolve an open problem posed by Lattimore et al. (2016). Further, we extend C-UCB and C-TS to the linear bandit setting and propose causal linear UCB (CL-UCB) and causal linear TS (CL-TS) algorithms. These algorithms enjoy a cumulative regret bound that only scales with the feature dimension. Our experiments show the benefit of using causal information. For example, we observe that even with a few hundreds of iterations, the regret of causal algorithms is less than that of standard algorithms by a factor of three. We also show that under certain causal structures, our algorithms scale better than the standard bandit algorithms as the number of interventions increases.\"",
+  "duration": 451,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Yangyi Lu",
+    "Amirhossein Meisami", 
+    "Ambuj Tewari",
+    "William Yan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/WAakM2K_diE/sddefault.jpg",
+  "title": "Regret Analysis of Bandit Problems with Causal Background Knowledge",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WAakM2K_diE"
+    }
+  ]
+}

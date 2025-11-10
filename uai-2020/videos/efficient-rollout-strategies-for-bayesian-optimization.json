@@ -1,0 +1,28 @@
+{
+  "description": "\"Efficient Rollout Strategies for Bayesian Optimization\n\nEric Lee (Cornell University)*; David Eriksson (Uber AI); David Bindel (Cornell University); Bolong Cheng (SigOpt); Mike Mccourt (SigOpt)\n\nBayesian optimization (BO) is a class of sample-efficient global optimization methods, where a probabilistic model conditioned on previous observations is used to determine future evaluations via the optimization of an acquisition function. \nMost acquisition functions are myopic, meaning that they only consider the impact of the next function evaluation. Non-myopic acquisition functions consider the impact of the next h function evaluations and are typically computed through rollout, in which h steps of BO are simulated. These rollout acquisition functions are defined as h-dimensional integrals, and are expensive to compute and optimize. We show that a combination of quasi-Monte Carlo, common random numbers, and control variates significantly reduce the computational burden of rollout. We then formulate a policy-search based approach that removes the need to optimize the rollout acquisition function. Finally, we discuss the qualitative behavior of rollout policies in the setting of multi-modal objectives and model error.\n\"",
+  "duration": 505,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Eric Lee",
+    "David Eriksson",
+    "David Bindel",
+    "Bolong Cheng",
+    "Mike Mccourt"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xIrS1tAP3o4/sddefault.jpg",
+  "title": "Efficient Rollout Strategies for Bayesian Optimization",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xIrS1tAP3o4"
+    }
+  ]
+}

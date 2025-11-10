@@ -1,0 +1,26 @@
+{
+  "description": "A SUPER* Algorithm to Optimize Paper Bidding in Peer Review\n\nTanner Fiez (University of Washington)*; Nihar Shah (CMU); Lillian  Ratliff (University of Washington)\n\nA number of applications involve  sequential arrival of users, and require showing each user an ordering of items. A prime example is the bidding process in conference peer review where reviewers enter the system sequentially, each reviewer needs to be shown the list of submitted papers, and the reviewer then \"bids\" to review some papers. The order of the papers shown has a significant impact on the bids due to primacy effects. In deciding on the ordering of the list of papers to show, there are two competing goals: (i) obtaining sufficiently many bids for each paper, and (ii) satisfying reviewers by showing them relevant items. In this paper, we develop a framework to study this problem in a principled manner. We present an algorithm called SUPER*, inspired by the A* algorithm, for this goal. Theoretically, we show a local optimality guarantee of our algorithm and prove that popular baselines are considerably suboptimal. Moreover, under a community model for the similarities, we prove that SUPER* is near-optimal whereas the popular baselines are considerably suboptimal. In experiments on real data from ICLR 2018 and synthetic data, we find that SUPER* considerably outperforms baselines deployed in existing systems, consistently reducing the number of papers with fewer than requisite bids by 50-75% or more, and is also robust to various real world complexities. ",
+  "duration": 490,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Tanner Fiez",
+    "Nihar Shah",
+    "Lillian Ratliff"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0gU2D44FGUQ/sddefault.jpg",
+  "title": "A SUPER* Algorithm to Optimize Paper Bidding in Peer Review",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0gU2D44FGUQ"
+    }
+  ]
+}

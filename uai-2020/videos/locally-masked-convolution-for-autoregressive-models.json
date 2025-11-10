@@ -1,0 +1,30 @@
+{
+  "description": "\"Locally Masked Convolution for Autoregressive Models\n\nAjay Jain (UC Berkeley)*; Pieter Abbeel (UC Berkeley); Deepak Pathak (CMU, FAIR)\n\nHigh-dimensional generative models have many applications including image compression, multimedia generation, anomaly detection and data completion. State-of-the-art estimators for natural images are autoregressive, decomposing the joint distribution over pixels into a product of conditionals parameterized by a deep neural network, e.g. a convolutional neural network such as the PixelCNN. However, PixelCNNs only model a single decomposition of the joint, and only a single generation order is efficient. For tasks such as image completion, these models are unable to use much of the observed context. To generate data in arbitrary orders, we introduce LMConv: a simple modification to the standard 2D convolution that allows arbitrary masks to be applied to the weights at each location in the image. Using LMConv, we learn an ensemble of distribution estimators that share parameters but differ in generation order, achieving improved performance on whole-image density estimation (2.89 bpd on unconditional CIFAR10), as well as globally coherent image completions. Code is available at https://ajayjain.github.io/lmconv.\"",
+  "duration": 508,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    },
+    {
+      "label": "https://ajayjain.github.io/lmconv.",
+      "url": "https://ajayjain.github.io/lmconv."
+    }
+  ],
+  "speakers": [
+    "Ajay Jain",
+    "Pieter Abbeel",
+    "Deepak Pathak"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/uGRRv3SExSs/sddefault.jpg",
+  "title": "Locally Masked Convolution for Autoregressive Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uGRRv3SExSs"
+    }
+  ]
+}

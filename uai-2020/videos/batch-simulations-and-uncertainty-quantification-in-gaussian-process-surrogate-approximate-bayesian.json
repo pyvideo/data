@@ -1,0 +1,26 @@
+{
+  "description": "\"Batch simulations and uncertainty quantification in Gaussian process surrogate approximate Bayesian computation\n\nMarko Jarvenpaa (University of Oslo)*; Aki Vehtari (Aalto University); Pekka Marttinen (Aalto University)\n\nThe computational efficiency of approximate Bayesian computation (ABC) has been improved by using surrogate models such as Gaussian processes (GP). In one such promising framework the discrepancy between the simulated and observed data is modelled with a GP which is further used to form a model-based estimator for the intractable posterior. In this article we improve this approach in several ways. We develop batch-sequential Bayesian experimental design strategies to parallellise the expensive simulations. In earlier work only sequential strategies have been used. Current surrogate-based ABC methods also do not fully account the uncertainty due to the limited budget of simulations as they output only a point estimate of the ABC posterior. We propose a numerical method to fully quantify the uncertainty in, for example, ABC posterior moments. We also provide some new analysis on the GP modelling assumptions in the resulting improved framework called Bayesian ABC and discuss its connection to Bayesian quadrature (BQ) and Bayesian optimisation (BO). Experiments with toy and real-world simulation models demonstrate advantages of the proposed techniques. \"",
+  "duration": 499,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Marko Jarvenpaa",
+    "Aki Vehtari",
+    "Pekka Marttinen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/3OU-YRFQer8/sddefault.jpg",
+  "title": "Batch simulations and uncertainty quantification in Gaussian process surrogate approximate Bayesian",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3OU-YRFQer8"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "\"Amortized variance reduction for doubly stochastic objective\n\nAyman Boustati (University of Warwick)*; Sattar Vakili (Prowler.io); James Hensman (PROWLER.io); ST John (PROWLER.io)\n\nApproximate inference in complex probabilistic models such as deep Gaussian processes requires the optimisation of doubly stochastic objective functions. These objectives incorporate randomness both from mini-batch subsampling of the data and from Monte Carlo estimation of expectations. If the gradient variance is high, the stochastic optimisation problem becomes difficult with a slow rate of convergence. Control variates can be used to reduce the variance, but past approaches do not take into account how mini-batch stochasticity affects sampling stochasticity, resulting in sub-optimal variance reduction. We propose a new approach in which we use a recognition network to cheaply approximate the optimal control variate for each mini-batch, with no additional model gradient computations. We illustrate the properties of this proposal and test its performance on logistic regression and deep Gaussian processes.\"",
+  "duration": 301,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Ayman Boustati",
+    "Sattar Vakili",
+    "James Hensman",
+    "ST John"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XPmvmdpAHMM/sddefault.jpg",
+  "title": "Amortized variance reduction for doubly stochastic objective",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XPmvmdpAHMM"
+    }
+  ]
+}

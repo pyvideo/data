@@ -1,0 +1,25 @@
+{
+  "description": "What You See May Not Be What You Get: UCB Bandit Algorithms Robust to \u03b5-Contamination\n\nLaura Niss (University of Michigan)*; Ambuj Tewari (University of Michigan)\n\nMotivated by applications of bandit algorithms in education, we consider a stochastic multi-armed bandit problem with \u03b5-contaminated rewards. We allow an adversary to arbitrarily give unbounded contaminated rewards with full knowledge of the past and future. We impose only the constraint that at any time t the proportion of contaminated rewards for any actions is less than or equal to \u03b5. We derive concentration inequalities for two robust mean estimators for sub-Gaussian distributions in the \u03b5-contamination context. We define the \u03b5-contaminated stochastic bandit problem and use our robust mean estimators to give two variants of a robust Upper Confidence Bound (UCB) algorithm, crUCB. Using regret derived from only the underlying stochastic rewards, both variants of crUCB achieve O(\u221aKTlogT). Our simulations are designed to reflect reasonable settings a teacher would experience when implementing a bandit algorithm. We show that in certain adversarial regimes crUCB not only outperforms algorithms designed for stochastic (UCB1) and adversarial bandits (EXP3) but also those that have \u201cbest of both worlds\u201d guarantees (EXP3++ and Tsallis-Inf) even when our constraint\non the proportion of contaminated rewards is broken.",
+  "duration": 481,
+  "language": "eng",
+  "recorded": "2020-08-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://www.auai.org/uai2020/"
+    }
+  ],
+  "speakers": [
+    "Laura Niss",
+    "Ambuj Tewari"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/I-vbZoSLpUg/sddefault.jpg",
+  "title": "What You See May Not Be What You Get: UCB Bandit Algorithms Robust to \u03b5-Contamination",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=I-vbZoSLpUg"
+    }
+  ]
+}
