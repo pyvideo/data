@@ -1,0 +1,36 @@
+{
+  "description": "[EuroPython 2024 \u2014 Terrace 2A on 2024-07-11]\n\n\rForecasting the future with EarthPT by Mike Smith\n\rhttps://ep2024.europython.eu/session/forecasting-the-future-with-earthpt\n\n\rWe introduce EarthPT -- an open source Earth Observation (EO) pretrained transformer written in Python and PyTorch. EarthPT is a 700 million parameter decoding transformer foundation model trained in an autoregressive self-supervised manner and developed specifically with EO use-cases in mind. \n\n\rEarthPT is trained on time series derived from satellite imagery, and can accurately predict future pixel-level surface reflectances across the 400-2300 nm range well into the future. For example, forecasts of the evolution of the Normalised Difference Vegetation Index (NDVI) have a typical error of approximately 0.05 (over a natural range of -1 - 1) at the pixel level over a five month test set horizon, out-performing simple phase-folded models based on historical averaging. We also demonstrate that embeddings learnt by EarthPT hold semantically meaningful information and could be exploited for downstream tasks such as highly granular, dynamic land use classification, crop yield, and drought prediction. \n\n\rExcitingly, we note that the abundance of EO data provides us with -- in theory -- quadrillions of training tokens. Therefore, if we assume that EarthPT follows neural scaling laws akin to those derived for Large Language Models (LLMs), there is currently no data-imposed limit to scaling EarthPT and other similar \u2018Large Observation Models.\u2019\n\n\rEarthPT is released under the MIT licence here: https://github.com/aspiaspace/EarthPT.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1799,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://github.com/aspiaspace/EarthPT.",
+      "url": "https://github.com/aspiaspace/EarthPT."
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/forecasting-the-future-with-earthpt",
+      "url": "https://ep2024.europython.eu/session/forecasting-the-future-with-earthpt"
+    }
+  ],
+  "speakers": [
+    "Mike Smith"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Y8wb8D7TdwA/maxresdefault.jpg",
+  "title": "Forecasting the future with EarthPT",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Y8wb8D7TdwA"
+    }
+  ]
+}

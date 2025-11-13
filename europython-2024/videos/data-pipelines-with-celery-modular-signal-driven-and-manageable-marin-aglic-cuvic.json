@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 Terrace 2A on 2024-07-10]\n\n\rData pipelines with Celery: modular, signal-driven and manageable by Marin Agli\u0107 \u010cuvi\u0107\n\rhttps://ep2024.europython.eu/session/data-pipelines-with-celery-modular-signal-driven-and-manageable\n\n\rWriting pipelines for processing large datasets has its challenges \u2013 processing data within an acceptable time frame, dealing with unreliable and rate-limited APIs, and unexpected failures that can cause data incompleteness. In this talk we\u2019ll discuss how to design & implement modular, efficient, and manageable workflows with Celery, Redis, and signal-based triggering.\n\n\rWe\u2019ll begin by exploring the motivation behind segmenting pipelines into smaller, more manageable ones. The segmentation simplifies development, enhances fault tolerance, and improves modularity, making it easier to test and debug each component. By leveraging Redis as a data store and Celery\u2019s signals, we introduce self-triggering (or looped) pipelines that efficiently manage data batches within API rate limits and system resource constraints. We will look at an example of how we did things in the past using periodic tasks and how this new approach, instead, simplifies and increases our data throughput and completeness. Additionally, this facilitates triggering pipelines with secondary benefits, such as persisting and reporting results, which allows analysis and insight into the processed data. This can help us tackle inaccuracies and optimise data handling in budget-sensitive environments.\n\n\rThe talk offers the attendees a perspective on designing data pipelines in Celery that they may have not seen before. We will share the techniques for implementing more effective and maintainable data pipelines in their own projects.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1471,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/data-pipelines-with-celery-modular-signal-driven-and-manageable",
+      "url": "https://ep2024.europython.eu/session/data-pipelines-with-celery-modular-signal-driven-and-manageable"
+    }
+  ],
+  "speakers": [
+    "Marin Aglić Čuvić"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/g-3KClG-2xc/maxresdefault.jpg",
+  "title": "Data pipelines with Celery: modular, signal-driven and manageable",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=g-3KClG-2xc"
+    }
+  ]
+}

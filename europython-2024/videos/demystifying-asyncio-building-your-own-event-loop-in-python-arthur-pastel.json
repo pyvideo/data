@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 Forum Hall on 2024-07-10]\n\n\rDemystifying AsyncIO: Building Your Own Event Loop in Python by Arthur Pastel\n\rhttps://ep2024.europython.eu/session/demystifying-asyncio-building-your-own-event-loop-in-python\n\n\r**AsyncIO** has emerged as a vital tool in Python's ecosystem, particularly in web development, IO-bound tasks, and network programming. However, its internal mechanics often remain obscure, even to seasoned Python developers. This talk aims to demystify AsyncIO by guiding you through creating your own event loop in Python, culminating in running a FastAPI application with it.\n\n\rIn this talk, we\u2019ll build an event loop from scratch in Python, capable of running an HTTP server through a FastAPI application.\n\n\r**Plan:**\n\n\r- **Introduction to AsyncIO**\n\r- **Core Concepts:** Deep dive into Event loop, Futures, Tasks, and coroutines\n\r- **Hands-On Building:** Constructing an event loop from scratch\n\r    - Scheduling callbacks\n\r    - Executing tasks and coroutines\n\r    - Handling network calls\n\r- **Practical Application:** Running a FastAPI HTTP server with our loop\n\r- **Performance Insights:** Comparing our event loop with the fastest ones\n\n\rBy the end of this talk, you'll be able to understand the internal workings of AsyncIO and create a basic event loop capable of running a FastAPI application.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1607,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/demystifying-asyncio-building-your-own-event-loop-in-python",
+      "url": "https://ep2024.europython.eu/session/demystifying-asyncio-building-your-own-event-loop-in-python"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Arthur Pastel"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Ww2HBNpu98g/maxresdefault.jpg",
+  "title": "Demystifying AsyncIO: Building Your Own Event Loop in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ww2HBNpu98g"
+    }
+  ]
+}

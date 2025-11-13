@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 Forum Hall on 2024-07-12]\n\n\rPython in Parallel: Sub-Interpreters vs. NoGIL vs. Multiprocessing by Samet Yaslan\n\rhttps://ep2024.europython.eu/session/python-in-parallel-sub-interpreters-vs-nogil-vs-multiprocessing\n\n\rIn the realm of Python development, achieving parallelism and harnessing the full power of modern multi-core processors is challenging. Traditionally constrained by the Global Interpreter Lock (GIL), multi-threading was not useful for true parallelism in Python, hence developers turned into multi-processing. Now this is all changing with upcoming developments. \n\r- A new per-Interpreter GIL in Python 3.12 helps to facilitate true parallelism by opening up sub interpreters to run Python codes at the same time. In addition, it is going to be easier to use these features in Python 3.13 by having support for sub interpreters in the Stdlib.\n\r- An upcoming compile option to disable-gil is opening a path to a world with NoGIL where Python threads can truly run in parallel. Which can potentially become the default in the upcoming years. \n\rMultiprocessing, sub-interpreters and multi-threading without GIL are all different ways of facilitating multi-core parallelism in Python. Each of these approaches offers a unique pathway to parallel execution, but comes with its own set of trade-offs, complexities, and suitability for different types of problems. During this talk we will explore each of these options and asses their pros and cons.\n\n\rWhether you're building CPU-bound high throughput applications, IO-bound services, or simply curious about the future of parallel processing in Python, this talk will help you with the knowledge to make informed decisions and leverage Python's parallel computing capabilities.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1667,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/python-in-parallel-sub-interpreters-vs-nogil-vs-multiprocessing",
+      "url": "https://ep2024.europython.eu/session/python-in-parallel-sub-interpreters-vs-nogil-vs-multiprocessing"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Samet Yaslan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/HdTtJKevxfQ/maxresdefault.jpg",
+  "title": "Python in Parallel: Sub-Interpreters vs. NoGIL vs. Multiprocessing",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HdTtJKevxfQ"
+    }
+  ]
+}

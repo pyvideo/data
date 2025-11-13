@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 Forum Hall on 2024-07-12]\n\n\rCython and the Limited API by David Woods\n\rhttps://ep2024.europython.eu/session/cython-and-the-limited-api\n\n\rCython's Limited API support is finally approaching a usable state. As an example, it is possible to produce a working version of Cython by compiling it in Limited API mode.\n\n\rFor users the main advantage is to be able to reduce the number of wheels/binaries they have to build in order to be compatible across a range of versions of Python. For Cython itself there is also an advantage in future-proofing: being able to produce simpler code that should continue to work even as the Python interpreter evolves and which is more likely to work with alternative Python implementations, as well as hopefully placating the unease some of the core Python developers have at Cython's use of Python internals (in non-limited API mode).\n\n\rThis talk will start off by looking at the subject from the users' perspective:\n\r* Why you might want to use the Limited API (from Cython).\n\r* What kind of projects are likely to benefit from it (as far as it's ever possible to predict how people will use a tool...).\n\r* What you actually need to do to build a Cython module with the Limited API.\n\r* What the limitations and disadvantages are: there are some features that don't work, some features that only work in recent versions of Python, some speed costs, and complete forward-compatibility might not be all you hope it would be.\n\n\rWhen that \"general interest\" section is done, I plan to talk about some of the gory implementation details - what \"creative\" solutions have been employed to work around missing features or things the Limited API was never intended to do.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1744,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/cython-and-the-limited-api",
+      "url": "https://ep2024.europython.eu/session/cython-and-the-limited-api"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "David Woods"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/YRzEfdqnlJk/maxresdefault.jpg",
+  "title": "Cython and the Limited API",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YRzEfdqnlJk"
+    }
+  ]
+}

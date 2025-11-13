@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 Forum Hall on 2024-07-11\n\n\rHow to Build a Python-to-C++ Compiler out of Spare Parts - and Why by Xavier Thompson\n\rhttps://ep2024.europython.eu/session/how-to-build-a-python-to-c-compiler-out-of-spare-parts-and-why\n\n\rA frequent topic about Python is performance: its interpreted nature inhibits optimisations, and the famous GIL limits parallelism (for now!).\n\n\rExisting Python Compilers - Cython, Numba, Codon - focus mainly on compiling small, critical bits of code to achieve linear execution speedups. As for parallelism: parallel for-loops powered by OpenMP.\n\n\rTo parallelize highly concurrent programs with concurrent I/O and concurrent tasks, we need more. A key difference is it requires compiling everything: as soon as the Python interpreter comes into play, the GIL will make parallelism collapse.\n\n\rWe introduce Typon, a Python-to-C++ compiler with powerful concurrency primitives powered by a crazy homemade task scheduler. It can take untyped, idiomatic Python code and output C++ code fully independent of the Python interpreter. It also provides seamless to-and-from Python interoperability, for those cases where you really just need to import numpy.\n\n\rIn this talk we'll recount our journey so far: why we think it's important, how we're making something new out of existing bits, what we've achieved. Along the way we might delve into fun details like type inference, concurrency primitives, and C++ pretending-to-be-Python.\n\n\rYou'll come out of this talk with some cool insights into compiler design, concurrency, and the design of Python.\n\n\rKnowledge of C++ not required. Knowledge of Python language inner workings helpful.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1738,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/how-to-build-a-python-to-c-compiler-out-of-spare-parts-and-why",
+      "url": "https://ep2024.europython.eu/session/how-to-build-a-python-to-c-compiler-out-of-spare-parts-and-why"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Xavier Thompson"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ouJRHDxHaPA/maxresdefault.jpg",
+  "title": "How to Build a Python-to-C++ Compiler out of Spare Parts - and Why",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ouJRHDxHaPA"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2A on 2024-07-10]\n\n\rAggregating data in Django using database views by Mikul\u00e1\u0161 Poul\n\rhttps://ep2024.europython.eu/session/aggregating-data-in-django-using-database-views\n\n\rAggregating information is a common Django task, but using the aggregate method can be a bit cumbersome and in the case of large database tables, pretty slow as well. I will introduce the library django-pgviews-redux, which adds first-class support for database views (with Postgres), making that task much simpler.\n\n\rWith that library, database views are wrapped around models, meaning you get many of the features you rely on with models for free, like querysets and filtering on those, admin, and any other feature which works with models. Defining a view is almost as simple as defining a model, by specifying what fields there are for the model and defining the SQL.\n\n\rThis talk will walk through examples of aggregation in Django, and then show how one could simplify those examples using the library. Finally, we will get to materialized views as well, which stores the aggregation almost like a table in the database, providing big speed improvements on aggregation on large tables.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1786,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/aggregating-data-in-django-using-database-views",
+      "url": "https://ep2024.europython.eu/session/aggregating-data-in-django-using-database-views"
+    }
+  ],
+  "speakers": [
+    "Mikuláš Poul"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nXHYIGCczmE/maxresdefault.jpg",
+  "title": "Aggregating data in Django using database views",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nXHYIGCczmE"
+    }
+  ]
+}

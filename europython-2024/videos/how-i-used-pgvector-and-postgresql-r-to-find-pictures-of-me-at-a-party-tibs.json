@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2024 \u2014 South Hall 2B on 2024-07-12]\n\n\rHow I used pgvector and PostgreSQL\u00ae to find pictures of me at a party by Tibs\n\rhttps://ep2024.europython.eu/session/how-i-used-pgvector-and-postgresql-r-to-find-pictures-of-me-at-a-party\n\n\rNowadays, if you attend an event you're bound to end up with a catalogue of photographs to look at. Formal events are likely to have a professional photographer, and modern smartphones mean that it's easy to make a photographic record of just about any gathering. It can be fun to look through the pictures, to find yourself or your friends and family, but it can also be tedious.\n\n\rAt our company get-together earlier in the year, the photographers did indeed take a lot of pictures. Afterwards the best of them were put up on our internal network - and like many people, I combed through them looking for those in which I appeared (yes, for vanity, but also with some amusement).\n\n\rIn this talk, I'll explain how to automate finding the photographs I'm in (or at least, mostly so). I'll walk through Python code that extracts faces using OpenCV, calculates vector embeddings using imgbeddings and OpenAI, and stores them in PostgreSQL\u00ae using pgvector. Given all of that, I can then make an SQL query to find which pictures I'm in.\n\n\rPython is a good fit for data pipelines like this, as it has good bindings to machine learning packages, and excellent support for talking to PostgreSQL.\n\n\rYou may be wondering why that sequence ends with PostgreSQL (and SQL) rather than something more machine learning specific. I'll talk about that as well, and in particular about how PostgreSQL allows us to cope when the amount of data gets too large to be handled locally, and how useful it is to be able to relate the similarity calculations to other columns in the database - in our case, perhaps including the image metadata.\n\n\n\r---\n\rThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1846,
+  "language": "eng",
+  "recorded": "2024-07-08",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2024.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2024.europython.eu/session/how-i-used-pgvector-and-postgresql-r-to-find-pictures-of-me-at-a-party",
+      "url": "https://ep2024.europython.eu/session/how-i-used-pgvector-and-postgresql-r-to-find-pictures-of-me-at-a-party"
+    }
+  ],
+  "speakers": [
+    "Tony Ibbs"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/qXiprdhk87g/maxresdefault.jpg",
+  "title": "How I used pgvector and PostgreSQL to find pictures of me at a party",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=qXiprdhk87g"
+    }
+  ]
+}
