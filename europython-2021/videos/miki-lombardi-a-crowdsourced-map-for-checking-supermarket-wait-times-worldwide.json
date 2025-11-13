@@ -1,0 +1,32 @@
+{
+  "description": "A crowdsourced map for checking supermarket wait times worldwide\n[EuroPython 2021 - Talk - 2021-07-30 - Ni]\n[Online]\n\nBy Miki Lombardi\n\nIn March 2020 the world is completely blocked and people are lining up to shop or to the pharmacy or to buy basic necessities.\n\nThere have been many initiatives and among these I have created a worldwide map that allows anyone to check the estimated waiting times of supermarkets, pharmacies and places of interest.\n\nIn addition to this, I gave people the opportunity to check waiting times and correct them through a crowdsourcing mechanism.\n\nAll this, to be fast in development and in responding to requests, has exploited Redis with its geospatial indexes.\n\nThe opensource project has obtained more than 2Mln visits in about 3 months of life, until June 2020 when the pandemic slowed down.\n\nIn this talk we will see the architecture and the problems I encountered and solved with Redis, uWSGI, Flask and how I scaled up the project from a Raspberry to 4 VPS dislocated in Europe and America region.\n\nThe main objective of this talk is to introduce problem solving through the various technologies of Python and other tools (such as Redis) and the logical / creative process that I had to go through.\n\nOther objectives are to encourage collaboration and the sharing of ideas or open source projects to allow you to collaborate between different communities and people without fear of making mistakes or showing your code. It is thanks to the open source community that this project has been possible.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1638,
+  "language": "eng",
+  "recorded": "2021-07-26",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "Miki Lombardi"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/CXrUAJoyTbk/maxresdefault.jpg",
+  "title": "A crowdsourced map for checking supermarket wait times worldwide",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CXrUAJoyTbk"
+    }
+  ]
+}

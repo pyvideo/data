@@ -1,0 +1,32 @@
+{
+  "description": "Stop Writing Tests!\n[EuroPython 2021 - Talk - 2021-07-29 - Optiver]\n[Online]\n\nBy Zac Hatfield Dodds\n\nWe often think of manual testing as slower and less effective than automated testing, but most test suites haven't automated that much! Computers can execute all our pre-defined tests very quickly - and this is definitely a good thing, especially for regression tests - but the tricky parts are still done by humans. We select test cases (inputs) and check that the corresponding outputs make sense; we write functions that \"arrange, act, and assert\" for our tests; and we decide - or script via CI systems - which tests to execute and when. So lets explore some next-generation tools that we could use to automate these remaining parts of a testing workflow!\n\nPROPERTY-BASED TESTING helps you to write more powerful tests by automating selection of test cases: instead of listing input-output pairs, you describe the kind of data you want and write a test that passes for all X.... We'll see a live demo, and learn something about the Python builtins in the process!\n\nCODE INTROSPECTION, and a handy templating tool, can help write tests for you. Do you need to know any more than which code to test, and what properties should hold?\n\nADAPTIVE FUZZING tools take CI to its logical conclusion: instead of running a fixed set of tests on each push, they sit on a server and run tests full-time... fine-tuning themselves to find bugs in your project and pulling each new commit as it lands!\n\nBy the end of this talk, you'll know what these three kinds of tools can do - and how to get started with automating the rest of your testing tomorrow.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 1307,
+  "language": "eng",
+  "recorded": "2021-07-26",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "Zac Hatfield Dodds"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/IcvCTHcYoMg/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-DoACuAiKAgwIABABGGUgZShlMA8=&rs=AOn4CLCGk1b63U6WTHvgvmh9HwPOQSQaYA",
+  "title": "Stop Writing Tests!",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IcvCTHcYoMg"
+    }
+  ]
+}

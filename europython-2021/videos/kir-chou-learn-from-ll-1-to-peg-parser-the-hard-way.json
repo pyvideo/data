@@ -1,0 +1,32 @@
+{
+  "description": "Learn from LL(1) to PEG parser the hard way\n[EuroPython 2021 - Talk - 2021-07-29 - Ni]\n[Online]\n\nBy Kir Chou\n\nDetailed description\nIn late 2019, Guido van Rossum wrote a series of articles about PEG parser and gave the talk \"Writing a PEG parser for fun and profit\" in a couple of conferences, such as North Bay Python, mentioned the motivation of his research and prototype of PEG parser. In late 2020, other authors of PEP 617, Pablo Galindo and Lysandros Nikolaou, (created around mid of 2020) were interviewed on Podcast.init to talk about the result of the new PEG parser in CPython.\nAbove contents assume the audience with solid compiler fundamental knowledge, but the fact is most People, including this talk's speaker, are not specialized in compiler. And another fact is most of the compiler class in school around the world only covers traditional top-down and bottom-up parsing techniques, not to mention PEG parser that appeared in the early 2000s.\nFor the above reasons, the speaker will stand on the shoulders of giants and share his hard way after a few months of study. He will talk about the fundamentals of Parser (part of compiler frontend), including CFG, traditional parsing techniques, PEG, Packrat parser, and PEG parser in CPython.\n\nObjective\nIf you have zero compiler background, you can at least learn the frontend compiler knowledge and how it is used in Python. If you have learned fundamental compiler knowledge in university, this talk will make you recall the traditional top-down and bottom-up parser in the class, and additionally add some relatively new ideas that appear in the early 2000s. If you are a compiler master and know the Packrat parsing research done by Bryan Ford, this talk may still provide you a brief idea about the reason why Guido van Rossum picked LL(1) initially, and PEG parser later.\n\nOutline\n- Opening + Self-intro\n- Motivation\n- What is parser in CPython?\n- Parser 101 - CFG\n- Parser 101 - Traditional top-down/bottom-up parser\n- Parser 102 - PEG and PEG parser\n- Parser 102 - Packrat parser\n- CPython\u2019s PEG parser\n- Take Away\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/",
+  "duration": 2481,
+  "language": "eng",
+  "recorded": "2021-07-26",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2021.europython.eu/"
+    },
+    {
+      "label": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "label": "https://ep2021.europython.eu/events/speaker-release-agreement/",
+      "url": "https://ep2021.europython.eu/events/speaker-release-agreement/"
+    }
+  ],
+  "speakers": [
+    "Kir Chou"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rlULA4PthKw/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-DoACuAiKAgwIABABGGUgVShGMA8=&rs=AOn4CLA7f2uMWIquLDGQTS55Eq-NTR3rhA",
+  "title": "Learn from LL(1) to PEG parser the hard way",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rlULA4PthKw"
+    }
+  ]
+}
