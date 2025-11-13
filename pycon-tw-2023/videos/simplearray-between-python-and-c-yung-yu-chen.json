@@ -1,0 +1,15 @@
+{
+    "description": "PyCon Taiwan 2023｜Talk 演講｜Day 1, R0 13:45–14:15\n\n🪄 說明 Description 🪄\nContiguous buffer is what makes code run fast.  With the regular and compact layout, data can go through the memory hierarchy in a quick way to the processor.  Numpy makes use of it to achieve the runtime almost as fast as C.\r\n\r\nHowever, not all algorithms can be easily maintained or designed by using array operations.  A more general ways is to use the contiguous buffer as an interface.  The dynamic typing system of Python makes it easy to use but hard to optimize.  The typed, fixed-shape buffer allows efficient data sharing between the fast code written in C++ and the Python application.  In the end, the system is as easy to use as but much faster than Python.  The runtime is the same as C++.\r\n\r\nIn this talk, I will show how to design a simple array system in C++ and make it available in Python.  It may be made as a general-purpose library, or embedded for ad hoc optimization.\n\n🪧 投影片 Slides：https://www.slideshare.net/YungYuChen/simplearray-between-python-and-cpdf\n\n🚀 講者介紹 About Speaker - Yung-Yu Chen 🚀\nHPC software developer.\n\n\nFollow “PyCon Taiwan”\n⭐️ Official Website: https://tw.pycon.org\n⭐️ Facebook: https://www.facebook.com/pycontw\n⭐️ Instagram: https://www.instagram.com/pycontw\n⭐️ Twitter: https://twitter.com/PyConTW\n⭐️ LinkedIn: https://www.linkedin.com/company/pycontw\n⭐️ Blogger: https://conf.python.tw/",
+    "speakers": [
+        "Yung-Yu Chen"
+    ],
+    "recorded": "2023-09-02",
+    "title": "SimpleArray between Python and C++",
+    "thumbnail_url": "https://i.ytimg.com/vi/Uk0gtAZ-lao/hqdefault.jpg",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=Uk0gtAZ-lao"
+        }
+    ]
+}
