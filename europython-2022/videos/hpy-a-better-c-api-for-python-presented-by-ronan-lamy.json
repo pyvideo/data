@@ -1,0 +1,28 @@
+{
+  "description": "EuroPython 2022 - HPy: a better C API for Python - presented by Ronan Lamy\n\n[Liffey A on 2022-07-13]\n\n\nThe official Python C API is specific to the current implementation of CPython. It has served us well and forms the basis upon which our entire extension ecosystem rests. \nHowever, it exposes a lot of internal details which makes it hard to implement it for other Python implementations (e.g. PyPy, GraalPython, Jython, IronPython, etc.), and \nprevents major evolutions of CPython itself, such as using a GC instead of refcounting, or removing the GIL.\n\nThis is where HPy comes in. It's a new C API designed from the ground up according to the following goals:\n* running much faster on alternate implementations, and at native speed on CPython\n* making it possible to compile a single binary which runs unmodified on all supported Python implementations and versions\n* being simpler and more manageable than the Python/C API\n* providing an improved debugging experience.\n\nWe'll discuss its current status and show how existing extensions can be gradually ported to it.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1778,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Ronan Lamy"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/L8X2d_O5IMo/maxresdefault.jpg",
+  "title": "HPy: a better C API for Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=L8X2d_O5IMo"
+    }
+  ]
+}

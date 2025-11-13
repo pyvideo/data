@@ -1,0 +1,32 @@
+{
+  "description": "EuroPython 2022 - Demystifying Python\u2019s Internals: Diving into CPython by implementing a pipe operator - presented by Sebastiaan Zeeff\n\n[The Auditorium on 2022-07-15]\n\n\nDiving into the CPython source code can feel daunting. Whether you want to start contributing or just want to get a better understanding of Python by exploring its source code, it\u2019s often difficult to know where to start or what you\u2019re missing.\n\nIn my talk, I will show you around the CPython source code by implementing a new operator, a pipe operator. While doing so, I will discuss core parts of the internals, such as Python\u2019s grammar, its syntax trees, and the underlying logic that will perform the operation. By the end, you will have a good idea of the moving parts involved in core language features.\n\nI will also take you through the steps necessary to make it all work. I\u2019ll show you how I obtained a copy of the source code, regenerated the parser and token files, and how I compiled my modified version of CPython. I will also write and run tests to help me implement my changes. This should give you a mental framework that helps you while diving into more comprehensive resources, like the excellent Python Developer\u2019s Guide (https://devguide.python.org/).\n\nMy talk is aimed at everyone who wants to explore CPython\u2019s internals. You don\u2019t have to be an expert in Python, although some affinity with Python helps with understanding the internals. I will also use C to implement some of the operator logic, but knowledge of C is by no means required. In short, if you\u2019re interested in diving into the CPython source code, this talk is for you.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1765,
+  "language": "eng",
+  "recorded": "2022-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2022.europython.eu/"
+    },
+    {
+      "label": "https://devguide.python.org/",
+      "url": "https://devguide.python.org/"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Sebastiaan Zeeff"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/f8nTJp_k7U8/maxresdefault.jpg",
+  "title": "Demystifying Python’s Internals",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=f8nTJp_k7U8"
+    }
+  ]
+}
