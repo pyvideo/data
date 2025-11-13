@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2023 \u2014 Terrace 2A on 2023-07-21]\nhttps://ep2023.europython.eu/session/fish-and-chips-and-apache-kafka\n\nApache Kafka\u00ae is the de facto standard in the data streaming world for sending messages from multiple producers to multiple consumers, in a fast, reliable and scalable manner. Come and learn the basic concepts and how to use it, by modelling a traditional British fish and chips shop!\n[ *CORRECTIONS FROM THE SPEAKER* ]: \nWhen talking about two of the slides in the video, I say *\"topic\"* when I should have said *\"partition\".* Below is the text as it should be - the highlighted words are what I should have said.\nAt 7:14 -  slide  *Multiple partitions, consumer groups:* \nSometimes that's not what you want. Sometimes you want your consumers to share the reading, so here we've got two *partitions,*  one with 1, 2, 3 and one with b, c, d in it.\nThe producers [...] can choose which partition by hand, say I want *partition* one, two, three, or you can say here is a key, choose by the key which *partition* to go to.\nThe consumers at the top right are in the same consumer group, they said \"we want to share consuming the *topic\".* \nEach consumer will get one or more *partitions,*  but they won't both see the same *partitions.*  So one of them is seeing 1, 2, 3 and the other is seeing b, c, d. The bottom consumer is not in a consumer group, it's entirely independent, and like the previous consumers it's just getting all the messages in order.\n\nAt 14:43  -  slide *Three tills:* \nSo now we're going to add three producers and we'll add three *partitions,*  because then we can say each till will send to a separate *partition.*  The food preparer is still reading from all of them so it will get things interleaved nicely.\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1768,
+  "language": "eng",
+  "recorded": "2023-07-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2023.europython.eu/"
+    },
+    {
+      "label": "https://ep2023.europython.eu/session/fish-and-chips-and-apache-kafka",
+      "url": "https://ep2023.europython.eu/session/fish-and-chips-and-apache-kafka"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Tibs"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/T-EF8htxrsc/maxresdefault.jpg",
+  "title": "Fish and chips and Apache Kafka",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=T-EF8htxrsc"
+    }
+  ]
+}

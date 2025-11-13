@@ -1,0 +1,32 @@
+{
+  "description": "[EuroPython 2023 \u2014 Terrace 2A on 2023-07-20]\n\rhttps://ep2023.europython.eu/session/instrumenting-cpython-with-ebpf\n\neBPF is a amazing technology that can run sandboxed programs in a privileged context such as the operating system kernel. But are eBPF programs limited to the operating system kernel? eBPF programs have fast access to resources like memory. These programs can access the memory of running Python applications very faster, allowing you to instrument Python processes with low overhead!\n\n\rIn my presentation, I will show how Python's internal structure supports instrumentation through the use of eBPF. Following that, we'll experiment with eBPF and other modern techniques to instrumenting the Python applications. I'll explain explain why eBPF is more appropriate and efficient technology for instrumentation. By the end of the session, we will have developed an eBPF-based simple tracing tool for instrumenting Python applications.\n\n\rAfter this presentation, you will better understand how eBPF can help you in the instrumentation of Python applications.\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "duration": 1294,
+  "language": "eng",
+  "recorded": "2023-07-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://ep2023.europython.eu/"
+    },
+    {
+      "label": "https://ep2023.europython.eu/session/instrumenting-cpython-with-ebpf",
+      "url": "https://ep2023.europython.eu/session/instrumenting-cpython-with-ebpf"
+    },
+    {
+      "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "speakers": [
+    "Furkan Taha Önder"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/sjSpbRFtKjc/maxresdefault.jpg",
+  "title": "Instrumenting CPython with eBPF",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sjSpbRFtKjc"
+    }
+  ]
+}
