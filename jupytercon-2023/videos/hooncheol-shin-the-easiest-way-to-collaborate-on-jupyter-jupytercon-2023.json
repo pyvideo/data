@@ -1,0 +1,24 @@
+{
+  "description": "Development is not only for individuals, but also for enterprises and organizations where efficient collaboration is of great importance. Most developers share and manage source codes with github. Most files are managed efficiently on github, but Jupyter files - ipynb - are stored as text, making it difficult to identify diffs and resloving conflicts between versions. ipynb files consist of cells with codes, which requires manual amendments to the file text in case of merge conflicts. While Jupyter supports the Jupyter-git extension, which allows either deleting conflicting files or selecting one file over the other, it does not directly solve the conflicts within conflicting files or let users view the diffs easily. Also, there are many cases where users collaborate by sharing ipynb files. However, when opening other users\u2019 files, it is often difficult to understand the flow of their code and the order in which the cells should be executed. Using comments or markdown syntax can alleviate these problems, but sharing detailed levels of changes by text is not the most efficient method.\n\nLink Git\nLink is a JupyterLab extension that allows users to create pipelines on Jupyter by connecting different cells. The user can connect cells in their desired order into a DAG structure to run the code. Link also provides a Link-git extension, which provides git features on Jupyter for ipynb files with pipelines.\n\nGit diff check: Users can visualize the commit history of an ipynb file. The feature shows all changes made at the code level for each commit, and also how the structure of the pipelines changed. When collaborating, users are able to review the history of previous works before moving on to the next stage, and also decide from which commit they wish to begin.\n\nMerge conflict management: Link-git contains a merge driver, which resolves all merge conflicts at cell levels - for both the code and pipeline structure - when a conflict occurs between different users working from their respective local environments. Using this feature, a team of developers can create an overall code framework in the form of a pipeline to facilitate the merge process of pipelines after writing codes at cell levels on their respective local environments.\n\nSharing pipelines and cache\nLink provides features to facilitate code sharing in file formats. Conventionally, Jupyter users often share codes as ipynb files to make modifications on existing codes or to re-use them. However, on Jupyter, code cells are linearly listed and contains code cells that are not well organized, leading to difficulties in reproducing results or to make changes or additions. Link provides the following file export, import features to resolve these complications.\n\nPipeline export, import: Link users can export entire pipelines or component cells as json files. When another Link user imports these json files, they can re-open the pipeline or component cell on Jupyter. As the code includes the DAG structure, users can re-open the ordered pipelines together with the code cells, allowing them to more efficiently understand the flow of the code without any additional textual explanations. Also, users can share only the relevant code cells that are required for execution.\n\nCache export, import: Users can store the cache of each component after executing a whole pipeline, and export the cache as an archived name file(.tar.gz). When another user imports this file, they can use the pipeline results without having to reiterate the pipeline execution. This feature is a time-saving feature for users when they need to repeat certain jobs on their own pipelines, or for different users to reproduce the same code.\n\nFinishing up\nIn short, Link provides a useful framework for easier collaboration with its Link-git feature and the pipeline/cache export and import features.",
+  "duration": 1344,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Hooncheol Shin"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/ecl48qKyREE/maxresdefault.webp",
+  "title": "The easiest way to collaborate on Jupyter",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ecl48qKyREE"
+    }
+  ]
+}
