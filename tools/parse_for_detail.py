@@ -29,7 +29,7 @@ def parse(path):
         try:
             data = json.load(fp)
         except ValueError:
-            logging.error('Json syntax error in file {}'.format(path))
+            logging.error(f'Json syntax error in file {path}')
             raise
 
     source = data.get(SOURCE_KEY, '')

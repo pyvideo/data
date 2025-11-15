@@ -45,7 +45,7 @@ def check_ids_unique(data_root, verbose=False):
     if bad_lang_by_path:
         print('Incorrect languages found:')
         for path, lang in bad_lang_by_path.items():
-            print('{} {}'.format(lang, path))
+            print(f'{lang} {path}')
         sys.exit(1)
 
 
