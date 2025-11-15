@@ -1,0 +1,56 @@
+{
+  "description": "High Performance Python With Numba, Dask, and Rapids For the Absolute Beginner\nSpeaker: Gus Cavanaugh\n\nSummary\nData Scientists often have large datasets and powerful hardware at their disposal. However, the excitement of fast computation in Python slows against a steep learning curve. This talk will build your confidence and intuition around high performance computing with Python. We step through a complete example while also covering the core concepts so you can generalize to your own work.\n\nDescription\nAn example data science pipeline with numpy and pandas\nCommon heuristics for when to accelerate your code\nQuick survey of common approaches\nAn example data processing pipeline with numpy\nHow to accelerate on a single machine with Numba\nBrief introduction to Numba\nQuick comparison to cython\nAccelerating our example pipeline with numba\nHow to distribute on a cluster with Numba and Dask\nBrief introduction to Dask\nQuick comparison to PySpark, Ray\nAccelerating our example pipeline with numba and dask\nHow to accelerate and distribute with Numba, Dask, and Rapids\nBrief introduction to Rapids & GPUs\nQuick comparison to other GPU computing methods\nAccelerating our example pipeline with numba, dask, and rapids\nConclusion\nReview of performance gains\nSummary of when to apply each to your project\nWhere to find hardware and example costs for various pipelines and data volumes\n\nGus Cavanaugh's Bio\nAs a former consultant, I worked on data projects big and small for organizations like Booz Allen Hamilton and IBM GBS. Like many others, I discovered Python as a wonderful swiss army knife and used it on client projects for tasks ranging from wrangling data into spreadsheets, building quick APIs, and processing data over clusters of machines. Four years ago, I left consulting to work on the software vendor side, moving to Anaconda. Today, I work at Coiled, founded by the creator of Dask, Matt Rocklin. My family and I reside in Winston-Salem, NC.\nGitHub: https://github.com/gcav66/\nTwitter: https://twitter.com/GusCavanaugh/\nLinkedIn: https://www.linkedin.com/in/gustafrcavanaugh/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome\n01:15 Faking a Scientific Workload\n02:35 Working with Numba\n05:19 About Gus Cavanaugh\n07:19 About Rapids. Why do we need it?\n12:27 What is Dask?\n15:35 Using Dask\n20:00 Summarizing everything up to now\n23:07 Setting up Rapids\n26:00 Running Numba in Dask\n28:50 Ways to deploy Dask cluster\n29:55 Cost of setting up a Rapids client and Dask cluster\n31:05 Running everything in the local machine: The Afar package\n\nS/o to https://github.com/Retinpkumar for the video timestamps!\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1991,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://twitter.com/GusCavanaugh/",
+      "url": "https://twitter.com/GusCavanaugh/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/gustafrcavanaugh/",
+      "url": "https://www.linkedin.com/in/gustafrcavanaugh/"
+    },
+    {
+      "label": "https://github.com/gcav66/",
+      "url": "https://github.com/gcav66/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://github.com/Retinpkumar",
+      "url": "https://github.com/Retinpkumar"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Gus Cavanaugh"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ewaY9CcjLt0/maxresdefault.jpg",
+  "title": "High Performance Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ewaY9CcjLt0"
+    }
+  ]
+}
