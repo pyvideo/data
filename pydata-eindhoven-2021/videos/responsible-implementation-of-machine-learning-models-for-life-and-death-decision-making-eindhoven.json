@@ -1,0 +1,56 @@
+{
+  "description": "An increasing amount of AI-driven software products is being productionised in hospitals and used by doctors to make critical decisions. To ensure the responsible implementation of ML models, it is vital that models give adequate outputs not only in the curated training environment, but also in the messy world of real-time data.\nThis is especially the case in health care, where hundreds of different vital signs, laboratory values, medications and patient demographics may contribute to ML predictions. Changes in data registration processes, manual data entry errors and large changes in patient population or treatment policies happen regularly and unexpectedly. \nWhat can we do to ensure responsible implementation of ML given these challenges? Pacmed Critical is one of the first examples where AI is used in production in Dutch hospitals. The software supports intensive care doctors, by predicting whether patients can be safely discharged from the ICU. In this talk we present the three-fold way Pacmed Critical ensures responsible predictions in production:\nWhen (not) to predict? How the ML model avoids giving predictions when it should not be trusted, using both business rules and out-of-domain detection\nHow to ensure data validity? How ML monitoring enables automatic continuous monitoring of real-time data problems and data drift \nWhy did that prediction change? How a dashboard which visualises the change of Shapley values during a patients' admission, to interpret and explain the causes of prediction changes for an individual patient.\n\nMichele : is a Senior Data Scientist and Machine Learning Engineer at Pacmed, where he works on developing AI-powered decision support tools for personalized medicine, in particular for Intensive Care Units. His academic background is in Medical Engineering and Robotics, and he has experience working in deep learning research and fin-tech. At Pacmed, he focuses on building scalable and interpretable pipelines to train and implement explainable models in production.\nGithub: https://github.com/michetonu/\nTwitter: https://twitter.com/MicTonu/\nLinkedIn: https://www.linkedin.com/in/micheletonutti//\nWebsite: https://michetonu.github.io/about.html/\n\nPyData Eindhoven 2021\nWebsite: https://pydata.org/eindhoven2021/\nTwitter: https://twitter.com/pydataeindhoven\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 - Welcome!\n00:10 - Introduction\n01:06 - Bridging the implementation gap in healthcare\n02:34 - Agenda\n02:55 - Pacmed Critical and the Intensive Care\n06:44 - Challenges of implementing ML for life-and-death decisions\n07:36 - Data Validity\n14:35 - Interpretability and Auditability\n19:10 - Prediction Validity\n24:24 - What happens when there is a problem in production?\n26:54 - Next steps\n28:42 - Conclusions\n30:06 - Q&A\n\nS/o to https://github.com/michetonu for the video timestamps!\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 2074,
+  "language": "eng",
+  "recorded": "2021-11-12",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://twitter.com/pydataeindhoven",
+      "url": "https://twitter.com/pydataeindhoven"
+    },
+    {
+      "label": "https://github.com/michetonu/",
+      "url": "https://github.com/michetonu/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/micheletonutti//",
+      "url": "https://www.linkedin.com/in/micheletonutti//"
+    },
+    {
+      "label": "https://twitter.com/MicTonu/",
+      "url": "https://twitter.com/MicTonu/"
+    },
+    {
+      "label": "https://michetonu.github.io/about.html/",
+      "url": "https://michetonu.github.io/about.html/"
+    },
+    {
+      "label": "https://pydata.org/eindhoven2021/",
+      "url": "https://pydata.org/eindhoven2021/"
+    },
+    {
+      "label": "https://github.com/michetonu",
+      "url": "https://github.com/michetonu"
+    }
+  ],
+  "speakers": [
+    "Michele Tonutti"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/r63oijinKhI/maxresdefault.jpg",
+  "title": "Responsible implementation of Machine Learning models for life-and-death decision making",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=r63oijinKhI"
+    }
+  ]
+}
