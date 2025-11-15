@@ -1,0 +1,24 @@
+{
+  "description": "PyData Eindhoven 2022\n\nAn ever increasing number of people are discovering mobile grocery shopping as an alternative to brick-and-mortar supermarkets. This talk will cover how we can use machine learning to make these customers' grocery shopping as smooth and frictionless as possible. We do this by applying ML models that rank products in agreement with the customer\u2019s intent: e.g., by detecting personal shopping habits, and by striking a balance between query relevance and margin.\n\nIn online grocery, the wide range of available choices can easily overwhelm a customer. Moreover, failure to find the desired products may lead to customers not converting at all. It\u2019s therefore crucial to optimise ranking, in accordance with the customer\u2019s intent; and to construct sensible algorithms that capture this intended behaviour.\n\nIn this talk, I will provide a holistic view of how we approach ranking in the online grocery context. Depending on an app page\u2019s intended functionality, we might aim to make rebuying as frictionless as possible, while elsewhere we personalise search query relevance while not losing sight of margin. More concretely, I will discuss how we have set up ranking in an explainable and interpretable way that allows for a balance between relevance, profit and any other business-based concerns there might be. In addition, I will briefly discuss three algorithms that we have developed and implemented, and how these are combined to optimise the customer experience:\n- prediction of rebuying probabilities through detecting personal shopping habits\n- construction of unbiased search term-article relevances through structural position bias corrections\n- personalisation of search results while taking profitability into account\n\nThis talk will provide the application-minded Data Scientist with an inside view into the deliberations that inform our ranking algorithms and setup.",
+  "duration": 1832,
+  "language": "eng",
+  "recorded": "2022-12-02",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2022/"
+    }
+  ],
+  "speakers": [
+    "Bas Vlaming"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/J7qfN8hl4rs/maxresdefault.jpg",
+  "title": "Everything in its Right Place: Optimising Ranking in Online Grocery",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=J7qfN8hl4rs"
+    }
+  ]
+}
