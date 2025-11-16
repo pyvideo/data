@@ -15,7 +15,7 @@ def reserialize(file_):
         try:
             data = json.load(fp)
         except ValueError:
-            logging.error('Json syntax error in file {}'.format(file_))
+            logging.error(f'Json syntax error in file {file_}')
             raise
 
     with open(file_, 'w') as fp:

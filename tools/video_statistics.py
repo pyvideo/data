@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# coding: utf-8
 """Read only program that prints statistics (in markdown) of all json files
 in the repository:
 - Fields
@@ -31,7 +30,7 @@ def get_types(file_name):
         try:
             data = json.load(f_stream)
         except ValueError:
-            print('Json syntax error in file {}'.format(file_name))
+            print(f'Json syntax error in file {file_name}')
             raise
     return {(key, type(data[key]).__name__, is_void(data[key]))
             for key in data}
@@ -46,7 +45,7 @@ def markdown_statistics(file_names):
     for field, class_, void in sorted(total, key=str):
         result.append("|{}|{}|{}|{}|".format(field, class_, void, total[(
             field, class_, void)]))
-    logging.debug('result: {}'.format(result))
+    logging.debug(f'result: {result}')
     return '\n'.join(result)
 
 

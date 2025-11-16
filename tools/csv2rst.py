@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# coding: utf-8
 """
 Prints a table of contents for a lightning talks description field.
 
@@ -42,10 +41,9 @@ def csv_description_to_rst(filename, url):
             hiperlink_underscore = ''
         else:
             hiperlink_underscore = '_'
-        return ("   * - {}{}\n"
-                "     - {}\n"
-                "     - {}\n").format(time, hiperlink_underscore,
-                                      speaker.strip(), title.strip())
+        return (f"   * - {time}{hiperlink_underscore}\n"
+                f"     - {speaker.strip()}\n"
+                f"     - {title.strip()}\n")
 
     head = (".. list-table:: Lightning Talks\n"
             "   :widths: 10 30 60\n"
@@ -117,7 +115,7 @@ def main():
     if args.new_csv:
         if os.path.exists(csv_path):
             raise Exception(
-                'Error creating new file. File exists: {}'.format(csv_path))
+                f'Error creating new file. File exists: {csv_path}')
         else:
             create_sample_csv(csv_path)
     description = csv_description_to_rst(csv_path, video_url)

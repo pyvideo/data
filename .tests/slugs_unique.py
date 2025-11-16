@@ -40,7 +40,7 @@ def check_slugs_unique(data_root, verbose=False):
     if paths_by_combo:
         print('Duplicate slug combinations found:')
         for combo, paths in paths_by_combo.items():
-            print('Combination {}'.format(combo))
+            print(f'Combination {combo}')
             for path in paths:
                 print('\t', path)
         sys.exit(1)
