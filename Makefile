@@ -25,7 +25,7 @@ help:
 	@echo '                                                                   '
 
 .venv:
-	python3 -m venv $(VENV)
+	python3 -m venv $(VENV) --upgrade-deps
 
 install-deps: .venv
 	$(BIN)/pip install -r $(TESTSDIR)/requirements.txt
@@ -54,6 +54,9 @@ test-languages: install-deps
 test-filename-length: install-deps
 	$(PYTHON) $(TESTSDIR)/filename_length.py -d $(BASEDIR) -v $(VERBOSE)
 
-test: test-directory-schemas test-schemas test-ids-unique test-slugs-unique test-render-rest test-languages test-filename-length
+test-speaker-names: install-deps
+	$(PYTHON) $(TESTSDIR)/speaker_names.py -d $(BASEDIR) -v $(VERBOSE)
 
-.PHONY: help test test-directory-schemas test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape test-languages
+test: test-directory-schemas test-schemas test-ids-unique test-slugs-unique test-render-rest test-languages test-filename-length test-speaker-names
+
+.PHONY: help test test-directory-schemas test-schemas test-ids-unique test-slugs-unique test-render-rest test-shape test-languages test-speaker-names
