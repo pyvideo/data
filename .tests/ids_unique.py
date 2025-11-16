@@ -25,7 +25,7 @@ def check_ids_unique(data_root, verbose=False):
     if paths_by_id:
         print('Duplicate IDs found:')
         for id_, paths in paths_by_id.items():
-            print('ID {}'.format(id_))
+            print(f'ID {id_}')
             for path in paths:
                 print('\t', path)
         sys.exit(1)

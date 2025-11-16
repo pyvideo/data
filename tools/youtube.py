@@ -129,7 +129,7 @@ def fetch_list(api_key, play_list_id):
     next_page_token = response_dict.get('nextPageToken')
 
     total_results = response_dict.get('pageInfo', {}).get('totalResults')
-    print('Found {} results. Gathering them now .'.format(total_results), end='')
+    print(f'Found {total_results} results. Gathering them now .', end='')
 
     items = response_dict.get('items', [])
     while next_page_token:
@@ -166,7 +166,7 @@ def fetch_list(api_key, play_list_id):
     print('Done parsing results. Writing files to disk ', end='')
 
     # make category dir
-    category = 'category-{}'.format(time.time())
+    category = f'category-{time.time()}'
     os.makedirs(os.path.join(category, 'videos'))
 
     with open(os.path.join(category, 'category.json') , 'w') as fp:
@@ -179,7 +179,7 @@ def fetch_list(api_key, play_list_id):
         file_name = os.path.join(category, 'videos', file_name)
         # add some randomness to the name if a file already exists with that name
         if os.path.exists(file_name + '.json'):
-            file_name += '-{}.json'.format(str(uuid.uuid1())[:6])
+            file_name += f'-{str(uuid.uuid1())[:6]}.json'
         else:
             file_name += '.json'
 

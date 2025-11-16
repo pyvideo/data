@@ -28,7 +28,7 @@ def check_schemas(data_root, schemas_dir, verbose=False):
                 try:
                     blob = json.load(fp)
                 except json.decoder.JSONDecodeError as e:
-                    print('\nError JSON-decoding {}'.format(file_path),
+                    print(f'\nError JSON-decoding {file_path}',
                         flush=True)
                     if verbose:
                         print(e, flush=True)

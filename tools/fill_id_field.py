@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# coding: utf-8
 """Fill id field in json video files
 If a video file is found without id then it gets a id = max(id) + 1"""
 
@@ -21,10 +20,10 @@ def get_json_data(file_name):
         try:
             data = json.load(f_stream)
         except ValueError:
-            print('Json syntax error in file {}'.format(file_name))
+            print(f'Json syntax error in file {file_name}')
             raise
     if 'file_name' in data:
-        print('"File_name" is not a proper field in {}'.format(file_name))
+        print(f'"File_name" is not a proper field in {file_name}')
         raise ValueError
     data['file_name'] = file_name
     return data
@@ -61,9 +60,9 @@ def main():
                                  if 'id' in video.keys())
     most_common, times_duplicate = all_id.most_common(1)[0]
     if times_duplicate > 1:
-        raise ValueError('Duplicate id: {}'.format(most_common))
+        raise ValueError(f'Duplicate id: {most_common}')
     max_id = max(all_id)
-    logging.debug('Max id: {}'.format(max_id))
+    logging.debug(f'Max id: {max_id}')
 
     # Update files
     video_without_id = [video for video in tb_video

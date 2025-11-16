@@ -2,7 +2,6 @@ from pathlib import Path
 import re
 
 from jinja2.utils import markupsafe
-import six
 
 
 def get_json_files(root, exclude=None):
@@ -31,15 +30,10 @@ def slugify(value, substitutions=()):
     # value must be unicode per se
     import unicodedata
     from unidecode import unidecode
-    # unidecode returns str in Py2 and 3, so in Py2 we have to make
-    # it unicode again
     value = unidecode(value)
-    if isinstance(value, six.binary_type):
-        value = value.decode('ascii')
-    # still unicode
     value = unicodedata.normalize('NFKD', value).lower()
 
-    # backward compatible covert from 2-tuples to 3-tuples
+    # backward compatible convert from 2-tuples to 3-tuples
     new_subs = []
     for tpl in substitutions:
         try:
