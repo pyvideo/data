@@ -1,5 +1,5 @@
 {
-  "description": "Cost Effectively Deploy Thousands of Fine Tuned Gen AI Models Like Llama Using TorchServe on AWS - Saurabh Trikande, Amazon Web Services (AWS); Li Ning, Amazon\n\nAs Generative AI adoption accelerates across industry, organizations want to deliver hyper-personalized experiences to end users. For building such experiences, thousands of models are being developed by fine-tuning pre-trained large models. To meet their stringent latency and throughput goals, organizations use GPU instances to deploy such models. However, inference costs can add up quickly if deploying thousands of models and provisioning dedicated hardware for each. TorchServe offers feature likes open platform, deferred distribution initialization, model sharing and heterogeneous deployment that make it easy for users to deploy fine tuned large models and save cost. Learn how organization can use these features in conjunction with fine tuning techniques like PEFT (Parameter Efficient Fine Tuning) and use Amazon SageMaker Multi-Model Endpoint (MME) to deploy multiple GenAI models on the same GPU, share GPU instances across thousands of GenAI models, and dynamically load/unload models based on incoming traffic. All of which helps you significantly reduce the cost. Finally we showcase example code for deploying multiple Llama based models which are fine tuned using PEFT on MME.",
+  "description": "As Generative AI adoption accelerates across industry, organizations want to deliver hyper-personalized experiences to end users. For building such experiences, thousands of models are being developed by fine-tuning pre-trained large models. To meet their stringent latency and throughput goals, organizations use GPU instances to deploy such models. However, inference costs can add up quickly if deploying thousands of models and provisioning dedicated hardware for each. TorchServe offers feature likes open platform, deferred distribution initialization, model sharing and heterogeneous deployment that make it easy for users to deploy fine tuned large models and save cost. Learn how organization can use these features in conjunction with fine tuning techniques like PEFT (Parameter Efficient Fine Tuning) and use Amazon SageMaker Multi-Model Endpoint (MME) to deploy multiple GenAI models on the same GPU, share GPU instances across thousands of GenAI models, and dynamically load/unload models based on incoming traffic. All of which helps you significantly reduce the cost. Finally we showcase example code for deploying multiple Llama based models which are fine tuned using PEFT on MME.",
   "duration": 1260,
   "language": "eng",
   "recorded": "2023-10-16",
@@ -10,11 +10,12 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Saurabh Trikande",
+    "Li Ning"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/bOHlPg13K3U/maxresdefault.jpg",
-  "title": "Cost Effectively Deploy Thousands of Fine Tuned Gen AI Models Like... - Saurabh Trikande, Li Ning",
+  "title": "Cost Effectively Deploy Thousands of Fine Tuned Gen AI Models Like Llama Using TorchServe on AWS",
   "videos": [
     {
       "type": "youtube",

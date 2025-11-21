@@ -1,5 +1,5 @@
 {
-  "description": "Lightning Talk: Lessons from Using Pytorch 2.0 Compile in IBM's Watsonx.AI Inference - Antoni Viros i Martin, IBM Research\n\nIn this talk we will cover lessons learned about PT 2.0 compile after using it in IBM\u2019s Watsonx.AI stack with NVIDIA GPUs and custom IBM accelerators as the main inference acceleration solution. Specifically, we will cover the results of our latency and throughput experiments with a range of LLM models, ranging from encoder-only, encoder-decoder, and decoder-only transformer models. We will talk about performance comparisons with other approaches in the field as well as our collaboration with the core PyTorch team to fix some of the bugs we have encountered when using features such as dynamic shapes and CUDA graph trees. We will also comment on how we have been using the torch.compile() API to compile and run models on IBM\u2019s AIU accelerator and why we have made that choice. Finally, we will also cover the interaction of parallel approaches such as Tensor Parallel for bigger models combined with Compile for inference workloads.",
+  "description": "In this talk we will cover lessons learned about PT 2.0 compile after using it in IBM’s Watsonx.AI stack with NVIDIA GPUs and custom IBM accelerators as the main inference acceleration solution. Specifically, we will cover the results of our latency and throughput experiments with a range of LLM models, ranging from encoder-only, encoder-decoder, and decoder-only transformer models. We will talk about performance comparisons with other approaches in the field as well as our collaboration with the core PyTorch team to fix some of the bugs we have encountered when using features such as dynamic shapes and CUDA graph trees. We will also comment on how we have been using the torch.compile() API to compile and run models on IBM’s AIU accelerator and why we have made that choice. Finally, we will also cover the interaction of parallel approaches such as Tensor Parallel for bigger models combined with Compile for inference workloads.",
   "duration": 659,
   "language": "eng",
   "recorded": "2023-10-16",
@@ -10,11 +10,11 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Antoni Martin"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/iXSfUw7VfNw/maxresdefault.jpg",
-  "title": "Lightning Talk: Lessons from Using Pytorch 2.0 Compile in IBM's Watsonx.AI Inference - Antoni Martin",
+  "title": "Lightning Talk: Lessons from Using Pytorch 2.0 Compile in IBM's Watsonx.AI Inference",
   "videos": [
     {
       "type": "youtube",

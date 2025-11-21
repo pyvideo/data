@@ -1,5 +1,5 @@
 {
-  "description": "Lightning Talk: Accelerating LLM Training on Cerebras Wafer-Scale Cluster - Mark Browning; Natalia Vassilieva; Behzad Abghari & Emad Barsoum, Cerebras\n\nLarge Language Model (LLM) have taken the world by storm; however, a few handfuls of companies can train such foundational models. On this talk, we will discuss the integration of Cerebras Wafer-Scale Clusters with PyTorch 2.0 LTC backend and the technical challenges to enable training such large model efficiently and seamlessly in order to act as a single accelerator regardless of the number of systems used. Another crucial piece of such integration is our collaboration with the open-source community on Torch-MLIR which help benefit the PyTorch community at large especially in canonicalizing multiple PyTorch backend to a unified ATen MLIR dialect, which enable multiple hardware backend integration with multiple lowering frontend (i.e. TorchScript, LTC, TorchDynamo...etc). Furthermore, we present our architecture for representing weight sparsity with both static and dynamic model pruning. A few convenient PyTorch utilities enable practitioners to take advantage of our sparsity-first hardware to decrease training time and enable efficient model deployment.",
+  "description": "Large Language Model (LLM) have taken the world by storm; however, a few handfuls of companies can train such foundational models. On this talk, we will discuss the integration of Cerebras Wafer-Scale Clusters with PyTorch 2.0 LTC backend and the technical challenges to enable training such large model efficiently and seamlessly in order to act as a single accelerator regardless of the number of systems used. Another crucial piece of such integration is our collaboration with the open-source community on Torch-MLIR which help benefit the PyTorch community at large especially in canonicalizing multiple PyTorch backend to a unified ATen MLIR dialect, which enable multiple hardware backend integration with multiple lowering frontend (i.e. TorchScript, LTC, TorchDynamo...etc). Furthermore, we present our architecture for representing weight sparsity with both static and dynamic model pruning. A few convenient PyTorch utilities enable practitioners to take advantage of our sparsity-first hardware to decrease training time and enable efficient model deployment.",
   "duration": 624,
   "language": "eng",
   "recorded": "2023-10-16",
@@ -10,11 +10,12 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Mark; Natalia; Behzad",
+    "Emad"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/lnbJnXhnBXQ/maxresdefault.jpg",
-  "title": "Lightning Talk: Accelerating LLM Training on Cerebras Wafer-Scale... - Mark; Natalia; Behzad & Emad",
+  "title": "Lightning Talk: Accelerating LLM Training on Cerebras Wafer-Scale...",
   "videos": [
     {
       "type": "youtube",

@@ -1,5 +1,5 @@
 {
-  "description": "Distributed Checkpoint - Iris Zhang & Chien-Chin Huang, Meta\n\nThis talk will present checkpoint features for distributed training. Distributed checkpoint support saving and loading from multiple ranks in parallel. It handles load-time resharding which enables saving in one cluster topolgy and loading to another. It also supports saving in one parallelism and loading into another. It is currently adopted by IBM, Mosaic, and XLA for FSDP checkpoint, and it is also being used for Shampoo OSS release checkpointing support. We will talk about distributed checkpoint support today and what is coming up next.",
+  "description": "This talk will present checkpoint features for distributed training. Distributed checkpoint support saving and loading from multiple ranks in parallel. It handles load-time resharding which enables saving in one cluster topolgy and loading to another. It also supports saving in one parallelism and loading into another. It is currently adopted by IBM, Mosaic, and XLA for FSDP checkpoint, and it is also being used for Shampoo OSS release checkpointing support. We will talk about distributed checkpoint support today and what is coming up next.",
   "duration": 910,
   "language": "eng",
   "recorded": "2023-10-16",
@@ -10,11 +10,12 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Iris Zhang",
+    "Chien-Chin Huang"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi_webp/ldBmHNva_Fw/maxresdefault.webp",
-  "title": "Distributed Checkpoint - Iris Zhang & Chien-Chin Huang, Meta",
+  "title": "Distributed Checkpoint",
   "videos": [
     {
       "type": "youtube",

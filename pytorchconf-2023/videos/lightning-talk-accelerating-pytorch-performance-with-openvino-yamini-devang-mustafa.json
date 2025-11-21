@@ -1,5 +1,5 @@
 {
-  "description": "Lightning Talk: Accelerating PyTorch Performance with OpenVINO - Yamini Nimmagadda, Devang Aggarwal & Mustafa Cavus, Intel\n\nIntel\u00ae Distribution of OpenVINO\u2122 Toolkit optimizes performance and efficiency of deep learning inference across diverse and heterogeneous hardware like CPUs, Intel integrated and discrete GPUs, and VPUs, with a simplified \u201cwrite once, deploy everywhere\u201d approach. In this session, we will show the benefits of optimizing PyTorch models with OpenVINO. Converting PyTorch models to ONNX and subsequently loading them into the OpenVINO runtime for optimized inference has been adopted by developers for a while. More recently, we have developed a PyTorch frontend that enables direct consumption of PyTorch models with OpenVINO, without needing the conversion to ONNX. Additionally, with the advent of PyTorch 2.0, we have pushed the boundaries further by seamlessly incorporating OpenVINO as a TorchDynamo backend with torch.compile to simplify the development process further while inferencing with PyTorch APIs. During our presentation, we will demonstrate the practical implementation of each of these techniques by providing example usage of the relevant APIs. We will also highlight the accelerated performance of state-of-the-art PyTorch models using OpenVINO across a range of Intel devices.",
+  "description": "Intel® Distribution of OpenVINO™ Toolkit optimizes performance and efficiency of deep learning inference across diverse and heterogeneous hardware like CPUs, Intel integrated and discrete GPUs, and VPUs, with a simplified “write once, deploy everywhere” approach. In this session, we will show the benefits of optimizing PyTorch models with OpenVINO. Converting PyTorch models to ONNX and subsequently loading them into the OpenVINO runtime for optimized inference has been adopted by developers for a while. More recently, we have developed a PyTorch frontend that enables direct consumption of PyTorch models with OpenVINO, without needing the conversion to ONNX. Additionally, with the advent of PyTorch 2.0, we have pushed the boundaries further by seamlessly incorporating OpenVINO as a TorchDynamo backend with torch.compile to simplify the development process further while inferencing with PyTorch APIs. During our presentation, we will demonstrate the practical implementation of each of these techniques by providing example usage of the relevant APIs. We will also highlight the accelerated performance of state-of-the-art PyTorch models using OpenVINO across a range of Intel devices.",
   "duration": 632,
   "language": "eng",
   "recorded": "2023-10-16",
@@ -10,11 +10,13 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Yamini",
+    "Devang",
+    "Mustafa"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/jOIieKe3MQ8/maxresdefault.jpg",
-  "title": "Lightning Talk: Accelerating PyTorch Performance with OpenVINO - Yamini, Devang & Mustafa",
+  "title": "Lightning Talk: Accelerating PyTorch Performance with OpenVINO",
   "videos": [
     {
       "type": "youtube",

@@ -1,5 +1,5 @@
 {
-  "description": "Lightning Talk: Building Intermediate Logging for PyTorch - Kunal Bhalla, Meta\n\nOne of the best ways to understand what's going on with your model is to actually look at all the numbers flowing through it. In this talk I'll walk through implementing an API to capture all values as they flow through a PyTorch model: Module arguments, parameters, buffers, return values -- as well as gradients -- in a way that Just Works even if you're using TorchScript, torch.compile, transforming the model with Torch Fx, distributing it with torch.package or just pickling it and passing it around. We'll end up talking about several Python and PyTorch internals along the way. Having all the numbers available opens up a lot of opportunities to understand and debug your model as well, and I'll also talk through some case studies, though I'm far from a domain expert there.",
+  "description": "One of the best ways to understand what's going on with your model is to actually look at all the numbers flowing through it. In this talk I'll walk through implementing an API to capture all values as they flow through a PyTorch model: Module arguments, parameters, buffers, return values -- as well as gradients -- in a way that Just Works even if you're using TorchScript, torch.compile, transforming the model with Torch Fx, distributing it with torch.package or just pickling it and passing it around. We'll end up talking about several Python and PyTorch internals along the way. Having all the numbers available opens up a lot of opportunities to understand and debug your model as well, and I'll also talk through some case studies, though I'm far from a domain expert there.",
   "duration": 690,
   "language": "eng",
   "recorded": "2023-10-16",
@@ -10,11 +10,11 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Kunal Bhalla"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/dNOJz85Uhlw/maxresdefault.jpg",
-  "title": "Lightning Talk: Building Intermediate Logging for PyTorch - Kunal Bhalla, Meta",
+  "title": "Lightning Talk: Building Intermediate Logging for PyTorch",
   "videos": [
     {
       "type": "youtube",

@@ -1,5 +1,5 @@
 {
-  "description": "Lightning Talk: Simulating Quantum Systems with PyTorch - Pierre Guilmin, Alice & Bob\n\nIn this talk, I propose to explain why simulating quantum systems is a formidable challenge, and how leveraging modern hardware and software can result in notable performance improvement. PyTorch is ideally suited for this task, first because running solvers on GPUs results in a significant speed-up, and second because numerous tasks related to the calibration and control of quantum systems require the computation of gradients based on the time-evolved quantum state. The emerging research effort to develop quantum computers heavily relies on such tools. The dynamiqs library (https://github.com/dynamiqs/dynamiqs) is a Python library powered by PyTorch, designed to address this challenge. It provides differentiable solvers for the *Schr\u00f6dinger Equation* which governs closed quantum systems, the *Lindblad Master Equation* for open quantum systems and the *Stochastic Master Equation* for continuously measured quantum systems. Gradients can be computed with PyTorch\u2019s automatic differentiation, or using a constant memory cost method. The library is being developed by several PhD students in physics, most of whom have substantial experience in software development.",
+  "description": "In this talk, I propose to explain why simulating quantum systems is a formidable challenge, and how leveraging modern hardware and software can result in notable performance improvement. PyTorch is ideally suited for this task, first because running solvers on GPUs results in a significant speed-up, and second because numerous tasks related to the calibration and control of quantum systems require the computation of gradients based on the time-evolved quantum state. The emerging research effort to develop quantum computers heavily relies on such tools. The dynamiqs library (https://github.com/dynamiqs/dynamiqs) is a Python library powered by PyTorch, designed to address this challenge. It provides differentiable solvers for the *Schrödinger Equation* which governs closed quantum systems, the *Lindblad Master Equation* for open quantum systems and the *Stochastic Master Equation* for continuously measured quantum systems. Gradients can be computed with PyTorch’s automatic differentiation, or using a constant memory cost method. The library is being developed by several PhD students in physics, most of whom have substantial experience in software development.",
   "duration": 741,
   "language": "eng",
   "recorded": "2023-10-16",
@@ -14,11 +14,13 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Pierre Guilmin",
+    "Alice",
+    "Bob"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/4vJdetGDyvE/maxresdefault.jpg",
-  "title": "Lightning Talk: Simulating Quantum Systems with PyTorch - Pierre Guilmin, Alice & Bob",
+  "title": "Lightning Talk: Simulating Quantum Systems with PyTorch",
   "videos": [
     {
       "type": "youtube",

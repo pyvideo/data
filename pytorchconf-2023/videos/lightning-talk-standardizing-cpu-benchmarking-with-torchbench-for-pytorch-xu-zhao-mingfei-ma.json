@@ -1,5 +1,5 @@
 {
-  "description": "Lightning Talk: Standardizing CPU Benchmarking with TorchBench for PyTorch Community - Xu Zhao, Meta & Mingfei Ma, Intel\n\nTorchBench is a community-driven open-source benchmark for PyTorch that covers a wide range of popular and critical models. However, the default setup of TorchBench does not cover all CPU-specific features of Pytorch, and its benchmarking methodology is not optimized for CPU devices. This makes it difficult to use TorchBench to benchmark new CPU features such as FX INT8, AMP and so on, as well as CPU-specific scenarios such as core binding. We worked closely with the PyTorch community to enable benchmarking for major CPU optimizations and features. And we leveraged the userbenchmark design to improve and standardize the benchmarking methodology for CPU, aligning it with common CPU benchmarking practices. We also increased model coverage by adding new models and fixing bugs, including GNN models and some fixes for serval models on CPU devices. With these improvements, TorchBench can be used to track regressions, prove the performance benefits of new optimizations, and easily replicate results on CPU devices. We will continue to improve TorchBench in line with the PyTorch roadmap, making it a valuable tool for improving PyTorch quality and showcasing PyTorch performance on CPU.",
+  "description": "TorchBench is a community-driven open-source benchmark for PyTorch that covers a wide range of popular and critical models. However, the default setup of TorchBench does not cover all CPU-specific features of Pytorch, and its benchmarking methodology is not optimized for CPU devices. This makes it difficult to use TorchBench to benchmark new CPU features such as FX INT8, AMP and so on, as well as CPU-specific scenarios such as core binding. We worked closely with the PyTorch community to enable benchmarking for major CPU optimizations and features. And we leveraged the userbenchmark design to improve and standardize the benchmarking methodology for CPU, aligning it with common CPU benchmarking practices. We also increased model coverage by adding new models and fixing bugs, including GNN models and some fixes for serval models on CPU devices. With these improvements, TorchBench can be used to track regressions, prove the performance benefits of new optimizations, and easily replicate results on CPU devices. We will continue to improve TorchBench in line with the PyTorch roadmap, making it a valuable tool for improving PyTorch quality and showcasing PyTorch performance on CPU.",
   "duration": 498,
   "language": "eng",
   "recorded": "2023-10-16",
@@ -10,11 +10,12 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Xu Zhao",
+    "Mingfei Ma"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/HD-Y95I_RFA/maxresdefault.jpg",
-  "title": "Lightning Talk: Standardizing CPU Benchmarking with TorchBench for PyTorch... - Xu Zhao & Mingfei Ma",
+  "title": "Lightning Talk: Standardizing CPU Benchmarking with TorchBench for PyTorch...",
   "videos": [
     {
       "type": "youtube",
