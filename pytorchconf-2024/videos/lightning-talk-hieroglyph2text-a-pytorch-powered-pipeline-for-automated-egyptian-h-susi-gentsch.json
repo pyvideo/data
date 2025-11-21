@@ -1,5 +1,5 @@
 {
-  "description": "Lightning Talk: HieroGlyph2Text: A PyTorch-Powered Pipeline for Automated Egyptian Hieroglyph Translation from Image - Susi Gentsch, University of Bonn\n\nHieroGlyph2Text is an innovative PyTorch-powered pipeline that automates the detection, classification, and attempts translation of Egyptian hieroglyphs from large image inputs. It addresses the challenge of decoding and translating ancient hieroglyphic inscriptions, traditionally a time-consuming and specialized task. This pipeline leverages PyTorch to create custom models: 1. Object Detection: YOLOv8 accurately detects individual hieroglyphs within images. 2. Image Classification: A custom ResNet model built using PyTorch achieves state-of-the-art accuracy in assigning Gardiner Codes to hieroglyphs. 3. Translation: The classified Gardiner Codes outputs from the ResNet model are integrated with Llama3, a large language model (LLM), using Retrieval-Augmented Generation (RAG) and a custom dataset based upon Gardiner Codes and their respective description and ideogram. Key highlights include accurate hieroglyph detection and state-of-the-art classification performance through an optimized ResNet model. This pipeline lays the groundwork for collaboration with subject matter experts to refine the translation process and democratize access to ancient Egyptian hieroglyphic knowledge.",
+  "description": "HieroGlyph2Text is an innovative PyTorch-powered pipeline that automates the detection, classification, and attempts translation of Egyptian hieroglyphs from large image inputs. It addresses the challenge of decoding and translating ancient hieroglyphic inscriptions, traditionally a time-consuming and specialized task. This pipeline leverages PyTorch to create custom models: 1. Object Detection: YOLOv8 accurately detects individual hieroglyphs within images. 2. Image Classification: A custom ResNet model built using PyTorch achieves state-of-the-art accuracy in assigning Gardiner Codes to hieroglyphs. 3. Translation: The classified Gardiner Codes outputs from the ResNet model are integrated with Llama3, a large language model (LLM), using Retrieval-Augmented Generation (RAG) and a custom dataset based upon Gardiner Codes and their respective description and ideogram. Key highlights include accurate hieroglyph detection and state-of-the-art classification performance through an optimized ResNet model. This pipeline lays the groundwork for collaboration with subject matter experts to refine the translation process and democratize access to ancient Egyptian hieroglyphic knowledge.",
   "duration": 564,
   "language": "eng",
   "recorded": "2024-09-18",
@@ -10,11 +10,11 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Susi Gentsch"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi_webp/eDjHKOb9Tn4/maxresdefault.webp",
-  "title": "Lightning Talk: HieroGlyph2Text: A PyTorch-Powered Pipeline for Automated Egyptian H... Susi Gentsch",
+  "title": "HieroGlyph2Text: A PyTorch-Powered Pipeline for Automated Egyptian Hieroglyph Translation from Image",
   "videos": [
     {
       "type": "youtube",

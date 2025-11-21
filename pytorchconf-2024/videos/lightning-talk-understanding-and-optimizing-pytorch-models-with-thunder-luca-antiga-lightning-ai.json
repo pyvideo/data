@@ -1,5 +1,5 @@
 {
-  "description": "Lightning Talk: Understanding and Optimizing PyTorch Models with Thunder - Luca Antiga, Lightning AI\n\nA hallmark feature of PyTorch is the natural expression of computation. This enables practitioners to implement AI models with ease. However, it prompts the question how to optimize the workload for a given hardware setup because those optimizations clutter our code and are tricky to combine. Lightning Thunder provides a Python-to-Python compiler to scale and optimize PyTorch programs that focuses on usability, understandability, and extensibility. A key tool in delivering on these goals is the composability of transformations: without changing the user code, we can stack quantization, distributing the computation across multiple GPUs, dispatching to optimized kernels, offloading, and other pluggable optimizations. Lightning Thunder flourishes in the PyTorch ecosystem: with PyTorch eager and with executors like torch.compile and nvFuser. It also dispatches to libraries like cuDNN, TransformerEngine, Apex, OpenAI Triton. The ability to apply multiple optimizations just-in-time leads to significant compounded speed-ups over unoptimized code out of the box. Luca will discuss the design of Thunder and demonstrate applications on training and inference for large language and multimodal models.",
+  "description": "A hallmark feature of PyTorch is the natural expression of computation. This enables practitioners to implement AI models with ease. However, it prompts the question how to optimize the workload for a given hardware setup because those optimizations clutter our code and are tricky to combine. Lightning Thunder provides a Python-to-Python compiler to scale and optimize PyTorch programs that focuses on usability, understandability, and extensibility. A key tool in delivering on these goals is the composability of transformations: without changing the user code, we can stack quantization, distributing the computation across multiple GPUs, dispatching to optimized kernels, offloading, and other pluggable optimizations. Lightning Thunder flourishes in the PyTorch ecosystem: with PyTorch eager and with executors like torch.compile and nvFuser. It also dispatches to libraries like cuDNN, TransformerEngine, Apex, OpenAI Triton. The ability to apply multiple optimizations just-in-time leads to significant compounded speed-ups over unoptimized code out of the box. Luca will discuss the design of Thunder and demonstrate applications on training and inference for large language and multimodal models.",
   "duration": 837,
   "language": "eng",
   "recorded": "2024-09-18",
@@ -10,11 +10,11 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Luca Antiga"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi_webp/5dQ423cFfLc/maxresdefault.webp",
-  "title": "Lightning Talk: Understanding and Optimizing PyTorch Models with Thunder - Luca Antiga, Lightning AI",
+  "title": "Understanding and Optimizing PyTorch Models with Thunder",
   "videos": [
     {
       "type": "youtube",
