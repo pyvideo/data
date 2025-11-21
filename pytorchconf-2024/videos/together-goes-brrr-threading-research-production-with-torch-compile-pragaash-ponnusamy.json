@@ -1,5 +1,5 @@
 {
-  "description": "Together Goes Brrr: Threading Research & Production with Torch Compile - Pragaash Ponnusamy, together.ai\n\nThe deployment of large language models for inference at scale is inherently complex, often requiring intricate optimizations across compute-bound and memory-bound regimes. This talk explores how PyTorch's torch.compile has revolutionized the optimization landscape for LLM serving at Together AI. Through its sophisticated Dynamo tracer and Inductor backend, torch.compile has transformed the approach to critical performance bottlenecks in both prefill and decode phases of inference. We examine how automatic vertical fusion, epilogue optimization, and adaptive kernel generation across batch sizes for GEMV and GEMM workloads, addressing key efficiency concerns, from CUDA graph captures and optimized all-reduce strategies to custom kernel registrations. The presentation highlights Together AI's journey in leveraging torch.compile to streamline the transition from research to production, significantly simplifying the deployment process for even custom architectures. By automating many performance-critical optimizations, torch.compile has not only enhanced inference efficiency but also democratized high-performance LLM deployment. We'll conclude by sharing key lessons learned and best practices gleaned from Together AI's experience in deploying torch.compile to production, serving billions of user queries and navigating the complexities of large-scale LLM inference.",
+  "description": "The deployment of large language models for inference at scale is inherently complex, often requiring intricate optimizations across compute-bound and memory-bound regimes. This talk explores how PyTorch's torch.compile has revolutionized the optimization landscape for LLM serving at Together AI. Through its sophisticated Dynamo tracer and Inductor backend, torch.compile has transformed the approach to critical performance bottlenecks in both prefill and decode phases of inference. We examine how automatic vertical fusion, epilogue optimization, and adaptive kernel generation across batch sizes for GEMV and GEMM workloads, addressing key efficiency concerns, from CUDA graph captures and optimized all-reduce strategies to custom kernel registrations. The presentation highlights Together AI's journey in leveraging torch.compile to streamline the transition from research to production, significantly simplifying the deployment process for even custom architectures. By automating many performance-critical optimizations, torch.compile has not only enhanced inference efficiency but also democratized high-performance LLM deployment. We'll conclude by sharing key lessons learned and best practices gleaned from Together AI's experience in deploying torch.compile to production, serving billions of user queries and navigating the complexities of large-scale LLM inference.",
   "duration": 566,
   "language": "eng",
   "recorded": "2024-09-18",
@@ -10,11 +10,11 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Pragaash Ponnusamy"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi_webp/zn0Pm2Pv3O0/maxresdefault.webp",
-  "title": "Together Goes Brrr: Threading Research & Production with Torch Compile - Pragaash Ponnusamy",
+  "title": "Together Goes Brrr: Threading Research & Production with Torch Compile",
   "videos": [
     {
       "type": "youtube",

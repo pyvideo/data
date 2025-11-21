@@ -1,5 +1,5 @@
 {
-  "description": "Sponsored Session: NeMo-Aligner: A Scalable Toolkit for Model Alignment - Gerald Shen & Jimmy Zhang, NVIDIA\n\nAligning AI models with human values and preferences is essential for making them safe and helpful. However, building an efficient and scalable toolkit for alignment can be challenging, especially when applied to state of the art foundation models with billions or trillions of parameters. NeMo-Aligner is an open-source, optimized and scalable toolkit that implements alignment algorithms such as Reinforcement Learning from Human Feedback (RLHF), Direct Preference Optimization (DPO), SteerLM and Self-Play Fine Tuning (SPIN). This talk will introduce NeMo-Aligner and show the steps we took to design and optimize the toolkit around various alignment algorithms. In particular, we discuss the RLHF implementation where we observe close to 7x speedup and excellent scaling performance by adding TRT-LLM integration, carefully orchestrating communication and utilizing fast training kernels. We\u2019re able to align state-of-the-art open source models with NeMo-Aligner and hope our framework can enable the community to performantly customize, fine-tune and align foundational models at any scale.",
+  "description": "Aligning AI models with human values and preferences is essential for making them safe and helpful. However, building an efficient and scalable toolkit for alignment can be challenging, especially when applied to state of the art foundation models with billions or trillions of parameters. NeMo-Aligner is an open-source, optimized and scalable toolkit that implements alignment algorithms such as Reinforcement Learning from Human Feedback (RLHF), Direct Preference Optimization (DPO), SteerLM and Self-Play Fine Tuning (SPIN). This talk will introduce NeMo-Aligner and show the steps we took to design and optimize the toolkit around various alignment algorithms. In particular, we discuss the RLHF implementation where we observe close to 7x speedup and excellent scaling performance by adding TRT-LLM integration, carefully orchestrating communication and utilizing fast training kernels. We\u2019re able to align state-of-the-art open source models with NeMo-Aligner and hope our framework can enable the community to performantly customize, fine-tune and align foundational models at any scale.",
   "duration": 1275,
   "language": "eng",
   "recorded": "2024-09-18",
@@ -10,11 +10,12 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Gerald Shen",
+    "Jimmy Zhang"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi_webp/rROnWTNF-_A/maxresdefault.webp",
-  "title": "Sponsored Session: NeMo-Aligner: A Scalable Toolkit for Model Alignment - Gerald Shen & Jimmy Zhang",
+  "title": "NeMo-Aligner: A Scalable Toolkit for Model Alignment",
   "videos": [
     {
       "type": "youtube",

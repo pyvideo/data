@@ -1,5 +1,5 @@
 {
-  "description": "Torch.Compile for Autograd, DDP and FSDP - Will Feng , Chien-Chin Huang & Simon Fan, Meta\n\nIn this talk, we will present the latest advancements in torch.compile for distributed training via DDP and FSDP. We will first introduce Compiled Autograd, a torch.compile mode to fully capture the backpropagation step, including the communication collective operators used in distributed. We will then cover the improvements this new approach brought to Compiled DDP/FSDP, notably by removing DDP/FSDP graph breaks which brings the potential of improving compute/communication overlap.",
+  "description": "In this talk, we will present the latest advancements in torch.compile for distributed training via DDP and FSDP. We will first introduce Compiled Autograd, a torch.compile mode to fully capture the backpropagation step, including the communication collective operators used in distributed. We will then cover the improvements this new approach brought to Compiled DDP/FSDP, notably by removing DDP/FSDP graph breaks which brings the potential of improving compute/communication overlap.",
   "duration": 1343,
   "language": "eng",
   "recorded": "2024-09-18",
@@ -10,11 +10,13 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Will Feng",
+    "Chien-Chin Huang",
+    "Simon Fan"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi_webp/1XuibaVRewc/maxresdefault.webp",
-  "title": "Torch.Compile for Autograd, DDP and FSDP - Will Feng , Chien-Chin Huang & Simon Fan, Meta",
+  "title": "Torch.Compile for Autograd, DDP and FSDP",
   "videos": [
     {
       "type": "youtube",

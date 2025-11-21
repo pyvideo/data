@@ -1,5 +1,5 @@
 {
-  "description": "Pushing the Performance Envelope: An Optimization Study for 3D Generative Modelling with PyTorch - Suvaditya Mukherjee & Shireen Chand, University of Southern California\n\nThis work explores performance optimization strategies for training 3D generative models using PyTorch. We focus on training Variational Autoencoders (VAEs) on the ShapeNet dataset, a popular benchmark for this task. Our objective is to achieve high-fidelity reconstructions while minimizing the computational footprint and training time. We focus on: 1) Large-scale 3D dataset loading strategies using PyTorch & Google Cloud Storage Buckets 2) Implementation details and insights for 3D VAEs using PyTorch 2.x 3) Training using Automatic Mixed-precision regimes 4) Optimized training using torch.compile and different quantization techniques (as supported) - Dynamic Quantization - Static Quantization - Static Quantization-aware Training 5) Comparative Benchmark over several experiments performed with a focus on execution time and memory footprint Through this comprehensive study, we present a comparative analysis of the performance gains achieved by our optimized models. Our findings present empirical insights into the trade-offs between model accuracy, computational complexity, and hardware resource utilization.",
+  "description": "This work explores performance optimization strategies for training 3D generative models using PyTorch. We focus on training Variational Autoencoders (VAEs) on the ShapeNet dataset, a popular benchmark for this task. Our objective is to achieve high-fidelity reconstructions while minimizing the computational footprint and training time. We focus on: 1) Large-scale 3D dataset loading strategies using PyTorch & Google Cloud Storage Buckets 2) Implementation details and insights for 3D VAEs using PyTorch 2.x 3) Training using Automatic Mixed-precision regimes 4) Optimized training using torch.compile and different quantization techniques (as supported) - Dynamic Quantization - Static Quantization - Static Quantization-aware Training 5) Comparative Benchmark over several experiments performed with a focus on execution time and memory footprint Through this comprehensive study, we present a comparative analysis of the performance gains achieved by our optimized models. Our findings present empirical insights into the trade-offs between model accuracy, computational complexity, and hardware resource utilization.",
   "duration": 1153,
   "language": "eng",
   "recorded": "2024-09-18",
@@ -10,11 +10,12 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Suvaditya Mukherjee",
+    "Shireen Chand"
   ],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi_webp/Xm9Bex3LE_8/maxresdefault.webp",
-  "title": "Pushing the Performance Envelope: An Optimization Study for 3... Suvaditya Mukherjee & Shireen Chand",
+  "title": "Pushing the Performance Envelope: An Optimization Study for 3D Generative Modelling with PyTorch",
   "videos": [
     {
       "type": "youtube",
