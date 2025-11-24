@@ -1,0 +1,28 @@
+{
+  "description": "LLMs are known to be compute heavy and consume lots of resources (almost all resources on phones), including memory and power. A natural thought is to leverage the AI hardware accelerators, for example, Apple Neural Engine (ANE) on Apple devices and HTP on Qualcomm SoCs, to make it run fast and efficiently. Only by optimizing the model latency, memory consumption and power usage to a certain level will users be interested in installing the models on their devices. In this session, we\u2019d like to introduce how we leverage these AI accelerators within the PyTorch ecosystem to achieve the state-of-art performance for llama3 on device, via ExecuTorch and the partnership with Apple and Qualcomm. Hardware companies usually have their own AI accelerators. Likely they have different characteristics, one may support a list of different operators than others, and one may only support static shapes (like HTP). However, transformers-based optimization can be generic. We\u2019ll discuss in more detail how we apply the generic optimization as well as the backend specific optimization. The techniques we applied here are not just for LLMs, but can be applied to other transformer-based models.",
+  "duration": 729,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "Chen Lai",
+    "Kimish Patel",
+    "Cemal Bilgin"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/8p8Pntnr3GU/maxresdefault.webp",
+  "title": "LLMs on Edge with AI Accelerators",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=8p8Pntnr3GU"
+    }
+  ]
+}

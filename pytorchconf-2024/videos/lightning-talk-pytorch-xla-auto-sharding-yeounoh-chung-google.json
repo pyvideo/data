@@ -1,0 +1,26 @@
+{
+  "description": "PyTorch/XLA recently launched the new PyTorch/XLA SPMD feature as a first-step to automate ML workloads parallelization using GSPMD. It turns out that the performance largely depends on the quality of sharding hints provided by the user \u2013 and it requires a correct and deep understanding of model architectures and much expertise to come up with optimal sharding hints. To address this problem, we propose to integrate PyTorch/XLA SPMD with XLA's auto sharding service that allows the XLA compiler to shard and optimize the whole model without any user input.",
+  "duration": 461,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "Yeounoh Chung"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/gNfyS9asA7A/maxresdefault.webp",
+  "title": "PyTorch/XLA Auto-Sharding",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gNfyS9asA7A"
+    }
+  ]
+}

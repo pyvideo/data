@@ -1,0 +1,26 @@
+{
+  "description": "Scaled dot product attention provides significant acceleration of the transformer layer through fusion of the multihead attention layer. There are several different algorithms to achieve this but tiled attention through scaled dot product attention via Flash Attention is a very popular approach. In PyTorch on the ROCm platform this is currently achieved through ahead of time compiled (AOT) Triton kernels in a linkable archive. AMD\u2019s work to enable and package these kernels is done through AOTriton, which aims to use Triton\u2019s compiler and GPU kernels for faster development. AOTriton maintains an optimized set of tiling sizes and other parameters to provide optimized, pre-compiled Triton kernels. The differences between JIT and AOT are few but are very important. Despite this, prototyping kernels in Triton is much faster than template-based C++ libraries. In this presentation we will go into detail on the interaction layer between PyTorch and AOTriton, the structure of AOTriton and how to add new triton kernels to AOTriton.",
+  "duration": 692,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "Jeff Daily"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/bhplJt1XAMI/maxresdefault.webp",
+  "title": "AOTriton: Ahead of Time Triton Kernel Libraries on ROCm",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=bhplJt1XAMI"
+    }
+  ]
+}

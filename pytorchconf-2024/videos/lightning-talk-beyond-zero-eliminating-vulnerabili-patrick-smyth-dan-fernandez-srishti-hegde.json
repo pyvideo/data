@@ -1,0 +1,28 @@
+{
+  "description": "Container images are increasingly the future of production applications at scale, providing reproducibility, robustness, and transparency. As PyTorch images get deployed to production, however, security becomes a major concern. PyTorch has a large attack surface, and building secure PyTorch images can be a challenge. Currently, the official PyTorch runtime container image has 30 CVEs (known vulnerabilities) rated critical and 256 CVE rated high. Improving this situation could secure many deployments that incorporate PyTorch for cloud-based inference or training. In this fast-paced session, we'll take a deep dive on the official PyTorch image from a vulnerability mitigation perspective, looking hard at included packages, executables, and active CVE. We'll identify low-hanging fruit for increasing security, including stripping bloat and building fresh. We'll also talk about the next level of security practiced in Chainguard's PyTorch image builds, such as including SBOMs and going distroless. Finally, we'll consider emerging tools and approaches for analyzing AI artifacts such as models and how these systems can benefit PyTorch in production.",
+  "duration": 736,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "Patrick Smyth",
+    "Dan Fernandez",
+    "Srishti Hegde"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/1klynk1dxYA/maxresdefault.webp",
+  "title": "Beyond Zero: Eliminating Vulnerabilities in PyTorch Container Images",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=1klynk1dxYA"
+    }
+  ]
+}

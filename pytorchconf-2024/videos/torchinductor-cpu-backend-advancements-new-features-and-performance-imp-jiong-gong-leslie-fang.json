@@ -1,0 +1,25 @@
+{
+  "description": "This presentation provides an update on the latest advancements in the TorchInductor CPU backend since the last conference to bring best-in-class CPU performance for broad DL workloads. We will discuss new features and performance enhancements, including: \u2022 Max-autotune support with codegen for GEMMs, boosting performance for GEMM-related operations \u2022 Enhanced vectorized codegen support, now covering all data types beyond floating points with flexible vector factors, and optimized loop scheduling \u2022 Comprehensive quantization support, including weight-only-quantization (WoQ), and optimizations for dynamic quantization and quantization-aware training \u2022 Improved Attention support, featuring attention masks and optimizating SoftMax via flash attention v2 etc. \u2022 AOTInductor support, enabling high-performance inference with frozen weights \u2022 Native Windows support, with improved vectorization capabilities These advancements, combined with ongoing optimizations, have resulted in significant performance improvements since PyTorch 2.1, demonstrated through extensive benchmarks and large language models (LLMs).",
+  "duration": 1312,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "Jiong Gong",
+    "Leslie Fang"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/VwmOgzXtxYw/maxresdefault.webp",
+  "title": "TorchInductor CPU Backend Advancements: New Features and Performance Improvements",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VwmOgzXtxYw"
+    }
+  ]
+}

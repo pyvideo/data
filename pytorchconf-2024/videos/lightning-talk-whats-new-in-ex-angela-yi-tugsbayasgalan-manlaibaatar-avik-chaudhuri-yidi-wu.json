@@ -1,0 +1,29 @@
+{
+  "description": "This talk discusses updates we've made to torch.export this past year: (a) Non-strict mode, an alternative tracing mode which in practice covers more programs than TorchDynamo without compromising important soundness guarantees (b) Better dynamic shapes specifications through generating suggested fixes and runtime assertions (c) Control flow operators such as cond, map, and associative scan (d) A shift in the export generated IR, which will enable both training and inference (e) An unflattener, which will reconstruct the eager module structure from the flattened exported graph",
+  "duration": 814,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "Angela Yi",
+    "Tugsbayasgalan Manlaibaatar",
+    "Avik Chaudhuri",
+    "Yidi Wu"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/ap1TOf7p0iA/maxresdefault.webp",
+  "title": "What\u2019s New in Export?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ap1TOf7p0iA"
+    }
+  ]
+}

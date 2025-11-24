@@ -1,0 +1,26 @@
+{
+  "description": "In the last 2 years we've optimized performance of PyTorch on Arm processors. The optimizations have included changes to ATen, C10, MKLDNN operators, GEMM backend, and Torch inductor. In many cases instead of writing our own kernel we integrated the Arm compute library, used fastmath kernels with format types like bf16, implemented operator caching, selected optimal backend based on the input context etc. Through these optimizations we improved performance by over 2x. In this presentation first we will talk about how we went across this process, what those optimizations are, performance numbers for AWS Graviton3 processors for around 75 models, and CI/CD workflow details. Next, we will walk through a sample PyTorch application showing basic usage, how to tune runtime and the resulting speed up. At the end of the presentation attendees will learn about PyTorch performance optimizations on Arm processors, how to use them, and the areas where they can collaborate to further improve PyTorch for aarch64 CPUs.",
+  "duration": 790,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "Sunita Nadampalli"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/_9xohmSa2G8/maxresdefault.webp",
+  "title": "Optimized PyTorch Inference on aarch64 Linux CPUs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_9xohmSa2G8"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Understanding how to effectively size a production grade LLM deployment requires understanding of the model(s), the compute hardware, quantization and parallelization methods, KV Cache budgets, input and output token length predictions, model adapter management and much more. - Why LLM inference is different to standard deep learning inference - Current and future NVIDIA GPU overview - which GPU(s) for which models and why - Understanding the importance of building inference engines - Deep recap on the attention mechanism along with different types of popular attention mechanisms used in production - Deep dive on KV Cache and managing KV Cache budgets - Parallelism (reducing latency) - mainly tensor parallelism, but data, sequence, pipeline, and expert parallelism will be highlighted - Quantization methods on weights, activations, and KV Cache to reduce engine sizes for more effective GPU utilization - Increasing throughput with inflight batching and other techniques - Detailed performance analysis of LLM deployments looking at Time to first token, inter-token latencies, llm deployment characterizations, and more that can help reduce deployment costs",
+  "duration": 2054,
+  "language": "eng",
+  "recorded": "2024-09-18",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2024/"
+    }
+  ],
+  "speakers": [
+    "Mark Moyou"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/z2M8gKGYws4/maxresdefault.webp",
+  "title": "Understanding the LLM Inference Workload",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=z2M8gKGYws4"
+    }
+  ]
+}
