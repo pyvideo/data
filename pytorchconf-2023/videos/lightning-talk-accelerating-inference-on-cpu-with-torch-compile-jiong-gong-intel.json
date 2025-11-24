@@ -1,0 +1,26 @@
+{
+  "description": "For the torch.compile CPU backend, we have optimized the static shapes of the float32 path and achieved good performance speedups on popular models. Starting with PyTorch 2.0, we have further enhanced this feature by addressing several issues and optimizing the bfloat16 precision path. The dynamic shape path is also supported, which allows users to get good performance on dynamic shape models, such as GPTJ and Llama, as well as using low precision bfloat16 data type to further improve performance on the 4th generation of Intel Xeon Scalable Processors (Sapphire Rapids) using Advanced Matrix Extensions (AMX) instruction set extension and lower memory footprint. In this topic, we will introduce the key optimization technologies used in the CPU inference path of torch.compile, such as GEMM fusions, vectorization of low precision bfloat16 path, and constant folding with freezing path. We will also discuss how to solve issues that arose when supporting the path of the dynamic shape. Currently, the dynamic shape and bfloat16 paths can work well as static shape path. The geometric mean speedup of the bfloat16 path can range from 1.4x to 2.3x compared to eager mode on Sapphire Rapids.",
+  "duration": 702,
+  "language": "eng",
+  "recorded": "2023-10-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2023/"
+    }
+  ],
+  "speakers": [
+    "Jiong Gong"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/eN5fqBNrjOo/maxresdefault.jpg",
+  "title": "Lightning Talk: Accelerating Inference on CPU with Torch.Compile",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=eN5fqBNrjOo"
+    }
+  ]
+}

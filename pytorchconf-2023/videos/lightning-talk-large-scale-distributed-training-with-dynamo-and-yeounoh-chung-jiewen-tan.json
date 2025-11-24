@@ -1,0 +1,27 @@
+{
+  "description": "In this talk we cover PyTorch/XLA distributed API in relation with Torch.Dynamo. Specifically, we discuss the new PyTorch/XLA SPMD API for automatic parallelization and our latest LLaMA2 training results. PyTorch/XLA SPMD makes it simple for PyTorch developers to distribute their ML workloads (e.g., training & inference with Dynamo) with easy-to-use API, and uses XLA GSPMD, high-performance automatic parallelization system. Under the hood, it transforms the user single-device program into a partitioned one. We will share how we enabled advanced 2D sharding strategies for LLaMA2 using PyTorch/XLA SPMD.",
+  "duration": 836,
+  "language": "eng",
+  "recorded": "2023-10-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2023/"
+    }
+  ],
+  "speakers": [
+    "Yeounoh Chung",
+    "Jiewen Tan"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/tWH2MAHzVVc/maxresdefault.jpg",
+  "title": "Lightning Talk: Large-Scale Distributed Training with Dynamo and Triton",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tWH2MAHzVVc"
+    }
+  ]
+}

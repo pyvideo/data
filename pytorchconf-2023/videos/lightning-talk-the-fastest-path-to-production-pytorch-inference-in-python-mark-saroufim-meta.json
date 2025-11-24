@@ -1,0 +1,26 @@
+{
+  "description": "Historically for inference, users have had to rewrite their models to be jit scriptable which required model rewrites and familiarity with C++ services. This is frustrating especially when the vast majority of real world pytorch users actually deploy python in production. When torch.compile was introduced, it encouraged a UX of gradual model rewrites to optimize models but users would get value even without any. A C++ based option still represents a steep difficulty jump and torch.compile still suffers from long compile times which make it unsuited for server side inference where cold start times are critical. In this talk we introduce the options users have for the quickest possible path to production including new APIs to cache compilation artifacts across devices so users can compile models once for both training and inference and python bindings for AOT Inductor. We'll also end with some real world case studies inspired by users who faced the above problems within the context of torchserve. By which point we hope you'll be fully convinced that it's possible deploy python in production and retain performance.",
+  "duration": 814,
+  "language": "eng",
+  "recorded": "2023-10-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2023/"
+    }
+  ],
+  "speakers": [
+    "Mark Saroufim"
+  ],
+  "tags": [
+    "Lightning Talk"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/HkyWFIbs4JY/maxresdefault.jpg",
+  "title": "Lightning Talk: The Fastest Path to Production: PyTorch Inference in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HkyWFIbs4JY"
+    }
+  ]
+}

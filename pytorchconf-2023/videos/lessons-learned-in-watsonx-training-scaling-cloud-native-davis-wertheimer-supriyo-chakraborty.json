@@ -1,0 +1,25 @@
+{
+  "description": "In this talk we will cover lessons learned along our almost year-and-a-half journey scaling up the WatsonX.AI stack for foundation model pretraining. Starting from 100M parameters on bare metal, we scaled PyTorch training to 20B parameters on cloud-based multi-node systems. We'll discuss the challenges encountered along the way, as well as the solutions we employed. This includes working with the PyTorch team to field test Fully-Sharded and Hybrid-Shard Data Parallel update protocols (FSDP/HSDP), as well as handling the associated communication vs computation bottlenecks, which are not always straightforward. We'll also review our collaboration on cloud-native distributed checkpointing, and development of a stateful and scalable distributed dataloader, allowing us to restart unstable jobs mid-epoch without revisiting stale data. And finally, we'll cover ongoing and upcoming challenges, like maintaining job stability and tensor parallelism integration.",
+  "duration": 1258,
+  "language": "eng",
+  "recorded": "2023-10-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pytorch.org/event/pytorch-conference-2023/"
+    }
+  ],
+  "speakers": [
+    "Davis Wertheimer",
+    "Supriyo Chakraborty"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/kOVjqLgOCmM/maxresdefault.webp",
+  "title": "Lessons Learned in WatsonX Training: Scaling Cloud-Native PyTorch FSDP to 20B Parameters",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kOVjqLgOCmM"
+    }
+  ]
+}
