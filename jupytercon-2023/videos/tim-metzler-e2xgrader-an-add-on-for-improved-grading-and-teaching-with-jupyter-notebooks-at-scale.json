@@ -1,0 +1,24 @@
+{
+  "description": "We are using Jupyter Notebooks with nbgrader for teaching several university courses in the area of STEM. Courses range from small size to large size (up to 300 participants per semester). We cover topic areas from mathematics and statistics to AI and robotics.\n\nThis includes assignments during the semester as well as exams. Nbgrader provides basic tools for creating, grading, and exchanging assignments. We developed e2xgrader, an nbgrader add-on, to address the needs of three types of users: (i) students, (ii) graders, and (iii) teachers.\n\nStudents, especially in undergraduate STEM courses, come with varying levels of knowledge in programming and how to use Jupyter Notebooks. The freedom provided by Jupyter Notebooks has led to several problems in grading and teaching. Using JupyterHub eliminates issues with setting up local environments and ensures fairness by providing a standardized computing environment. However, students may still accidentally delete or alter nbgrader cells or notebooks. In interpreted languages, students may import libraries in a later cell and then use it in an earlier cell, causing further problems.\n\nTo address these issues, we have implemented measures to restrict the notebook and provide clear instructions for students. We provide a visual indicator in the form of a cell toolbar to help students know where to write solutions. During exams, we replace the standard view with a simple toolbar that includes a save and submit button and links to provided resources. Students can view their submission in HTML, and are given a restricted Python kernel with preloaded libraries and disabled terminal commands and magics. This kernel is fully configurable.\n\nTo support the transfer of paper grading processes to electronic systems, we added the ability for graders to annotate student submissions by drawing on them and display them in feedback.\n\nWe also implemented a new grading view that allows graders to view submissions horizontally (e.g. looking at one exercise for all students).\n\nAfter partially grading a notebook, graders may realize that the automatic test cases need improvement. To address this, we added the option to autograde only specific cells. After updating a test case, the grader can run the autograding process again for the changed cells, and only the relevant grades will be updated. Graders can also export grades in CSV format for use in other university systems. This provides greater control and ease of use in the grading process.\n\nTeachers need tools that make it easier to create assignments. To address this, we created a tool that organizes simple exercises into pools by topic. Teachers can choose from a variety of preset question types and create their own, and can use templates to quickly assemble assignments from the pools. We also added version control to the pools and exercises to make the process more transparent. This provides greater efficiency and flexibility in assignment creation.\n\nTeachers need specific cell types for different courses. For example, in a software engineering class, they may want students to create diagrams, while in a mathematics class they may want to give students the ability to solve exercises on paper and upload an image of the solution. To support these needs, we added multiple and single choice cells, a fully integrated diagram editor cell based on diagrams.net, and a cell for uploading files and taking pictures from a webcam.\n\nFinally, teachers wanted greater standardization and ease of use in authoring test cases. For this, we provide the assignmenttest package which can assign partial grades and provides an easy way to author test cases for variables, functions and classes in Python.\n\nSumming up, the Jupyter ecosystem provides the needed to flexibility to enhance the effectivity of learning, teaching and grading for students, staff and professors, with e2xgrader.",
+  "duration": 1635,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Tim Metzler"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/fc3Tvr_jm3w/maxresdefault.webp",
+  "title": "e2xgrader: An Add on for Improved Grading and Teaching with Jupyter Notebooks at Scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fc3Tvr_jm3w"
+    }
+  ]
+}

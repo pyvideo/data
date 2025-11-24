@@ -1,0 +1,24 @@
+{
+  "description": "IPywidgets is the go-to library for building interactive interfaces in the Jupyter notebook. What may start as an experiment with a few sliders and buttons, may evolve into a company-wide data app that needs to be production-ready quality.\n\nThe biggest issue we see for applications is managing the complexity of the code.\nIn the JavaScript world, React is considered a library that helps conquer that problem. The main reasons for this are its declarative nature and its ability to define encapsulated components that can be composed to form larger components of applications.\nReacton is a pure Python implementation of the React library, that enables the same style of programming as React, but in Python using the ipywidgets libraries.\nOn top of that, Reacton adds type information, allowing type checkers such as mypy to find bugs before they occur in production.\n\nThe next problem is how to run your ipywidget application outside the Jupyter notebook or Jupyter Lab environment.\nVoil\u00e0 is the goto library for running notebooks as standalone web applications and has support for ipywidgets. However, each request requires a new kernel, which requires starting a new process. This requires a lot of resources, and different processes also make it hard to share memory between different users/requests.\nSolara allows you to write ipywidget-based applications, using a server that is running \u201cvirtual kernels\u201d in a single process, saving resources, and leading to faster page loads.\nOn top of that, Solara will come with many Reacton-based components, and support for multiple pages, making it the perfect framework for writing production-ready data apps.",
+  "duration": 1722,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Maarten Breddels"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/VfPZv5qH9FE/maxresdefault.jpg",
+  "title": "IPywidgets: From an experiment in the Notebook to Production ready data app",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VfPZv5qH9FE"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "description": "In Jupyter IPython notebooks, variable declarations are global, so a variable defined in one cell can be referenced, mutated, or redefined in any other cell. Each reference or mutation leads to a cell dependency where one cell should be executed before the other because these dependencies can span the entire notebook and understanding which cells need to be re-executed after a change can be challenging. \u201cRun all\u201d strategies rely on top-down ordering that can be broken by modifying or inserting cells and may also cause needless execution of cells that do not require updates. A reactive kernel can automatically update the necessary cells when cell dependencies are captured and non-circular (e.g., in dataflow notebooks). However, there may still be cases (e.g., long-running computations) where that solution is problematic. In this talk, we present two interactive visualization techniques, the minimap, and cell dependency graph, that let users examine and navigate cell dependencies and show how this helps them understand, organize, and execute notebook cells.\n\nMinimap\nOne approach is to create a map of cells in the notebook linked according to their dependencies; a \u201cminimap\u201d reduces each cell to a point labeled by a truncated line of code and mirrors the top-down cell ordering in the notebook. Edges connect these points to show dependencies between cells, but most edges are hidden until a cell is selected. When a cell is selected, cells that are upstream or downstream of it shift left or right, respectively, to show dependencies, and immediate dependencies are connected with lines. These interactions allow users to easily understand the impact of changing cells and resolve misunderstandings about dependencies. For example, when given a notebook with a cell that loads in data, we can quickly know all the cells that this data depends on in our notebook and which cells must be re-run as a result of our changes. Observable, a Javascript notebook environment, introduced this style of minimap and inspired our approach. In an Observable notebook, however, there is at most one output per cell. In a Jupyter IPython environment, a single cell may generate many outputs, making the visualization more challenging. Having a minimap allows for faster understanding and navigation based on this information without the screen clutter of a traditional graph and can easily be viewed while casually creating a notebook. This additional knowledge and understanding can prevent tricky situations leading to notebook irreproducibility as users now know which cells directly impact others and can make better decisions about when to re-execute.\n\nCell Dependency Graph\nHowever, users may be more familiar with standard node-link graph diagrams, where cells are nodes with variables nested within them, and dependencies are links. This structure allows the topology of the notebook to be more easily understood from the graph as links are not hidden like in the minimap. This topological information helps prevent users from the misunderstanding that cells they have placed out of order in the notebook may have to be re-run before reaching their previous results. This practice allows for exporting partial notebooks that may be shared with colleagues. Microsoft\u2019s Gather provides one way to export portions of notebooks to share with others. However, we provide a way to view and understand what is being exported by selecting and highlighting inside the graph. Using graphs in the notebook encourages interaction in new ways from structural points of view and allows users more control over the notebook via graphs. The linking of notebook and graph interactivity promotes better practices in notebooks by preventing unwanted behavior and provides a step forward in better understanding.",
+  "duration": 1569,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Colin Brown"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fQMlF5v_WLU/maxresdefault.jpg",
+  "title": "Understanding and Visualizing Dependencies between Notebook Cells",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fQMlF5v_WLU"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Jupyter notebooks have quickly become a staple for exploratory data analysis for python-savvy social science researchers. But, to this day, it remains hard to bridge computational practices such as building graphs from social network data using python code and visual network analysis, typically done using desktop applications such as Gephi or Pajek. The intention of this talk is therefore to present, through a series of social sciences-related use-cases, a novel Jupyter widget named \"ipysigma\" whose goal is to enable notebook users to visually and interactively explore networks. \"ipysigma\", developed using the graphology JavaScript library and the sigma.js WebGL renderer, makes it very simple to tweak any of the graph's visual variables, such as node size, edge color etc., so that one may understand it better. It supports seamlessly both networkx and igraph graph instances and is also able, using another satellite library named \"pelote\", to convert pandas dataframes to relevant graphs. We will also demonstrate how ipysigma is able to render synchronized & interactive \"small multiples\" of a same network so that one can easily compare different features, such as community partitions and adhoc categories. Finally, we should have time to discuss the design issues we faced and the path that led us, at SciencesPo m\u00e9dialab, to build this new tool and the reasons why we finally chose to make a Jupyter widget instead of a dedicated web app.",
+  "duration": 1671,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Guillaume Plique"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/dyXaNEGGwLQ/maxresdefault.jpg",
+  "title": "Visual Network Analysis from the comfort of your Jupyter notebook",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dyXaNEGGwLQ"
+    }
+  ]
+}

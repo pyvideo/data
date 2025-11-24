@@ -1,0 +1,24 @@
+{
+  "description": "Have you ever wondered how to make a complex web application accessible to disabled users? There are many pieces to this puzzle, which include things like using semantic HTML, consulting disabled users, and testing your app before releasing it. In this talk, we will look at testing, specifically how you can use existing tech to increase the portion of testing that can be automated, while keeping in mind that you will always at some point need to test with disabled users.\n\nWhen it comes to accessibility testing, one of the challenges\u2014and opportunities\u2014in working with JupyterLab is that well known existing solutions are geared towards low-interaction web pages rather than highly interactive web apps. The better part of my work for over a year has been working with designers and developers in open source to develop an accessibility testing solution capable of dealing with the complexity of JupyterLab.\n\nIn this talk, I am going to do a deep dive of this testing solution as well as the challenges faced and lessons learned. I will show-and-tell a testing system combined with a documentation system, inspired in part by the work of the W3C Accessibility Conformance Testing (ACT) group. Most importantly, I will demonstrate how two tools, Playwright and GitHub Actions, can be combined to create a powerful CI/CD system for automated accessibility testing. It's not magic. You still have to write the tests yourself. But it's a powerful combination that you can learn by coming to this talk. You can then adopt and adapt this system to many other complex web apps when you need to get serious about making them accessible to disabled users.\n\nIntended audience\nAnyone curious about automated UI testing and accessibility! Some familiarity with web accessibility will be useful\u2014for example, knowing what WCAG and Pa11y are; if an attendee doesn't already know these terms, attending any other accessibility talk before this one should give all of the accessibility background needed for this talk. Knowledge of Playwright and GitHub Actions is not necessary, but a little bit of JavaScript web programming experience, as well as a nominal understanding of CI/CD, will make following some parts of the talk easier.\n\nTalk outline\nIntroduction (5 minutes)\n- Introduction to accessibility testing in the context of JupyterLab\n- Tools of the trade for accessibility testing\n- Intro to testing and reporting: automated versus manual, auditing versus regression prevention, etc.\nChallenges faced (5 minutes)\n- The limitations of axe-core, pa11y and the like for JupyterLab\n- Lessons learned so you do not have to\nA proposed framework for automated accessibility testing (5 minutes)\n- Use axe-core, but also use Playwright to write more powerful and specific tests\n- Focus on regression testing\n- Mapping tests to WCAG guidelines\nCall to action (5 minutes)\n- How to make fixes and keep them fixed!\n- How to use the system to accompany an accessibility fix with a regression test\nQuestions and answers (10 minutes)\nTakeaways\nAt the end of this talk, attendees will:\n\nKnow how to write accessibility regression tests for JupyterLab, where to add them, and how to get help if needed.\nHave an example of an automated accessibility testing system that they can pattern off of to bring an accessibility testing practice to other web apps.\nHave a better understanding of the current state of the art for automated UI testing in the browser and how to apply it to automated accessibility testing.",
+  "duration": 1563,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    }
+  ],
+  "speakers": [
+    "Gabriel Fouasnon"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/ca_BUDIcOOI/maxresdefault.webp",
+  "title": "WAAAT! Accessibility Testing JupyterLab",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ca_BUDIcOOI"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Slides: https://gist.github.com/fonsp/b004319fbe728a5fc661ce8ac89c1ac4\n\nPluto.jl is a new, open source notebook programming environment for Julia, written in Julia and JavaScript. Our mission is to make Julia more accessible and fun! \ud83c\udf88\n\nIn this talk, we would like to introduce Pluto.jl to the JupyterCon audience, and we will talk specifically about our approach to reproducibility and reactivity. While Pluto.jl is not directly connected to the Jupyter ecosystem, we think that our position (Julia-only, beginners-first) has led to new discoveries and solutions that are exciting to discuss!\n\nReproducibility 1 \u2013 Package Management\nWe see package management as one of the major hurdles for beginner programmers. It can be intimidating to set up an environment to start programming, but it is especially difficult to set it up in a reproducible way. We want to flip this paradigm: a simple, reproducible environment should be the default, and more advanced users can set up an environment themselves. As a whole, 'scientific computing' has an awful onboarding process, and we scare away so many creative and wonderful people before they are able to contribute. Let's fix that!\n\nOne of our goals is to make notebooks reproducible by default. Each notebook file (or HTML export) contains the Manifest.toml file that can be used to exactly recreate the package environment. When you open a Pluto notebook file, the embedded package information is used to automatically recreate the package environment that was used to write it.\n\nA second big feature is automatic package management: instead of a terminal interface, packages are automatically installed and removed as they are used in code. We show package GUI inline in code, and we relay installation progress to the user visually. As a user, it feels like you can simply import any package you want (we even autocomplete all registered package names!), and Pluto takes care of installation and reproducibility.\n\nReproducibility 2 \u2013 Reactivity\nPluto notebooks are reactive, which means that \u2013 just like a spreadsheet \u2013 your notebook forms a computational graph, and cells re-run automatically when one of their dependencies changes. We also have a \"managed scope\": we delete variables from scope when the definition disappears.\n\nReactivity makes Pluto fun and interactive, but it also avoids effects from old code lingering around until a restart. Reactivity and managed scope mean that the notebook is always in its correct state, the same state you would get if you would restart the notebook. At any instant, the notebook state is completely defined by the code you see.\n\nReproducibility 3 \u2013 Binder\nPluto can be installed as a JupyterLab extension, which means that we also run on Binder, the free cloud compute service. We went one step further, and integrated the Binder startup directly into our notebook UI. Inspired by the Thebe project, this allows users to launch a Binder session directly from the website where they are reading a notebook!\n\nEvery HTML export file has the original code, and an embedded project environment. But as part of our Binder integration, each HTML file also contains a reference to a version-pinned Binder image, meaning that the exports from Pluto can be re-run in exactly the same environment years into the future.\n\nLessons and discussion\nPluto is deeply integrated with Julia's package manager, metaprogramming and runtime, something that we were able to freely explore by limiting ourselves to a single language. Originally inspired by Jupyter, which supports more languages and use cases each year, our experiment is to see what happens when we really narrow down our scope: we focus on one language and one audience (Julia newcomers and educators).\n\nWe hope to offer an interesting new take on existing topics in the Jupyter ecosystem, and we really look forward to hear what you think!",
+  "duration": 1751,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    },
+    {
+      "label": "https://gist.github.com/fonsp/b004319fbe728a5fc661ce8ac89c1ac4",
+      "url": "https://gist.github.com/fonsp/b004319fbe728a5fc661ce8ac89c1ac4"
+    }
+  ],
+  "speakers": [
+    "Fons Van Der Plas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Rg3r3gG4nQo/maxresdefault.jpg",
+  "title": "Pluto jl - reactive and reproducible notebooks for Julia",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Rg3r3gG4nQo"
+    }
+  ]
+}

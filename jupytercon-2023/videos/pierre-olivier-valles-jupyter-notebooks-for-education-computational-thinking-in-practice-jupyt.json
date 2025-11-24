@@ -1,0 +1,28 @@
+{
+  "description": "Introduction\nIn 2018, the Ecole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL, Switzerland), embarked on a major curriculum reform to introduce computational thinking across its science and engineering programs.\nThanks to their multi-representational nature combining interactive code (\"computational\") and rich text (\"thinking\"), Jupyter notebooks have been identified as a key enabling technology for this project.\nThe Center for Digital Education of EPFL has therefore created, in September 2019, a centralized service to support teachers in the development and use of Jupyter notebooks for their classes and Massive Open Online Courses (MOOCs).\nThis service consists of a technical infrastructure in the form of a centralized JupyterLab platform, a technical support component and pedagogical support component.\nIn this talk, we will present how we have developed this service and share our experience both in terms of challenges encountered and solutions implemented.\nWe hope to provide useful insights to teachers and institutions interested in deploying Jupyter notebooks for education at scale.\n\nCentralized JupyterLab platform\nThe centralized JupyterLab platform has proved to play a pivotal role in the transformation of our teachers\u2019 practices.\nBy making it easy for anyone to use and produce notebooks directly in their browser without any installation, it has simplified drastically the class logistics and has attracted more and more users over the years.\nSince 2019, more than 9600 unique users have used our centralized JupyterLab platform, and 3500 users are active all year round.\nDuring the autumn semester 2022-2023, we have had an average of 350 daily users on the platform.\nDealing with user surges at the beginning of classes and with increasing numbers of concurrent users, and managing shared resources while allowing non-trivial types of use (e.g. machine learning) are typical examples of challenges we have faced.\n\nTechnical support\nBeyond answering requests from teachers, an important role of our technical support has been to adapt the service to the pedagogical needs associated with teaching computational thinking in a science and engineering context.\n\nBecause the practice of computational thinking takes various forms in various fields, our technical support has evaluated and installed a range of different types of software stacks and libraries.\nFor instance, we have installed specific kernels for simulations in computational chemistry or for polyglot notebooks in image processing (the Script of Script kernel). Our computational neuroscience MOOCs use a separate instance of JupyterLab with a specific software stack and a LTI front-end (Learning Tools Interoperability) to accommodate users that are external to our institution.\n\nUsing notebooks for educational purposes also involves operations that are specific to education such as managing assignments.\nMost institutions use learning management systems such as moodle for these tasks, but these don\u2019t necessarily interface with JupyterLab beyond file upload/download. We have developed a moodle plugin that interfaces with a JupyterHub installation, making the whole notebook assignment workflow easier from the assignment creation to the transmission of notebook-based feedback to students.\n\nPedagogical support\nBecause the range of possible pedagogical patterns for Jupyter notebooks is wide (see \u201cTeaching and Learning with Jupyter\u201d), a first challenge for us has been to help teachers choose ways to use notebooks that are likely to help students develop the targeted knowledge and skills.\nUsing results from research in different domains of learning sciences, we have experimented and developed best practices for teachers to optimize the design of their notebooks in five scenarios: virtual demonstrations, interactive textbooks, exercise worksheets, labs and projects, and graded assignments.\nThis work has resulted in the development of several training workshops for teachers as well as a complete website including teacher interviews: https://go.epfl.ch/notebooks.\nOf course, developing notebooks for a course requires a significant investment in time and resources for teachers. We accompany them with both funding and advice for developing their projects.\nFinally, to foster networking and exchanges, we invite teachers to share how they use notebooks in their classes or MOOCs in bi-annual community events.\nWe will present examples of notebooks from the 27 git repositories we have documented so far.",
+  "duration": 1734,
+  "language": "eng",
+  "recorded": "2023-05-10",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230531110007/https://www.jupytercon.com/"
+    },
+    {
+      "label": "https://go.epfl.ch/notebooks.",
+      "url": "https://go.epfl.ch/notebooks."
+    }
+  ],
+  "speakers": [
+    "Pierre Olivier Vallès"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UdxslgelNzU/maxresdefault.jpg",
+  "title": "Jupyter notebooks for education: Computational thinking in practice",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=UdxslgelNzU"
+    }
+  ]
+}
