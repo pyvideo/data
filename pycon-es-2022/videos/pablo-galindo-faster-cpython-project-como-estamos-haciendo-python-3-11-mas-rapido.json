@@ -1,0 +1,24 @@
+{
+  "description": "Ponente: Pablo Galindo\nTítulo: Faster CPython project: Cómo estamos haciendo Python 3.11 más rápido\nAula: Paraninfo (Domingo)\n-----------------------\nResumen:\nPython 3.11 es entre un 10 % y un 60 % más rápido que Python 3.10, según la aplicación. Hemos logrado esto de una manera totalmente genérica al hacer que el intérprete se adapte al programa que se está ejecutando y al optimizar las estructuras de datos clave.\n\nEn esta charla explicaré qué cambios hemos realizado y cómo mejoran el rendimiento.\n\nEl proyecto \"Faster CPython\" tiene como objetivo acelerar Python, específicamente CPython, en gran medida en las próximas versiones. La primera versión donde se podrán comprobar los beneficios de esta colaboración es Python 3.11.\n\nPython 3.11 incluye los siguientes cambios importantes:\n\nIntérprete especializado adaptativo (PEP 659).\n\"Stack frames\" asignados consecutivamente en memoria.\nExcepciones de coste cero.\nArquitectura más óptima de objetos.\nDiccionarios de objetos creados oportunisticamente.\nDescribiré cada uno de estos, describiendo cómo cada uno ayuda a acelerar Python y cómo interactúan entre sí.\n\nTerminaré la charla con algunas direcciones posibles para Python 3.12.",
+  "duration": 2430,
+  "language": "spa",
+  "recorded": "2022-09-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2022.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "Pablo Galindo"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/94jLt3CX5Dc/maxresdefault.jpg",
+  "title": "Faster CPython project: Cómo estamos haciendo Python 3.11 más rápido",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=94jLt3CX5Dc"
+    }
+  ]
+}

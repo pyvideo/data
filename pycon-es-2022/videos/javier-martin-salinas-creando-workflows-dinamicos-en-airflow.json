@@ -1,0 +1,24 @@
+{
+  "description": "Ponente: Javier Martín Salinas\nTítulo: Creando workflows dinámicos en Airflow\nAula: Teoría 6 (Sábado)\n---------------------------------------\nResumen:\nEn esta charla vamos a ver algunos elementos en Airflow que te permitirán crear workflows dinámicos que se adapten a los resultados particulares de cada ejecución. Posiblemente no es algo que vayas a usar habitualmente en tu día a día pero no está de más conocerlos.\n\nMi experiencia con Airflow es que los workflows suelen ser más o menos estáticos. Algunas partes pueden ejecutarse o no en función de los parámetros de entrada pero es menos habitual que cambien en función de los resultados intermedios.\nSin embargo, investigando un poco podemos encontrar algunos elementos que nos permitirán implementar workflows que se adapten a los resultados y ejecuten o no ciertas tareas a medida que se vayan ejecutando.\nEn esta charla vamos a hablar de Trigger rules, branch operators, XComs, contexts y sessions y cómo podemos combinarlos para volvernos locos y complicar nuestros workflows tanto como queramos : )",
+  "duration": 2003,
+  "language": "spa",
+  "recorded": "2022-09-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2022.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "Javier Martín Salinas"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/HQsRu_SfUGg/maxresdefault.jpg",
+  "title": "Creando workflows dinámicos en Airflow",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HQsRu_SfUGg"
+    }
+  ]
+}
