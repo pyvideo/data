@@ -1,7 +1,7 @@
 {
-  "description": "Cuando hablamos del workflow completo de un sistema de Machine Learning en producci\u00f3n solemos pasar por alto una etapa que es cr\u00edtica para el suceso del sistema, el etiquetado de datos. En ambientes acad\u00e9micos o de aprendizaje, todos los datos de entrenamiento se encuentran evaluados y las etiquetas son consideradas 100% correctas, con lo cual generalmente no se realiza un an\u00e1lisis m\u00e1s profundo de las mismas. Sin embargo, en sistemas productivos online, rara vez se nos presenta dicho escenario, puede ser que al inicio de un proyecto directamente no contemos con los valores target, que solo contemos con una fracci\u00f3n de los mismos o incluso que los valores asignados no siempre sean correctos. Por otra parte, en la otra punta del pipeline con el monitoreo de modelo, se nos presenta un problema muy emparentado como lo es el feedback incompleto, o sea, que muchas veces no tendremos visibilidad de errores cometidos por el modelo, los cuales muchas veces se perpet\u00faan al reintroducirlos como datos de reentrenamiento. Todos estos escenarios, nos llevan a buscar metodolog\u00edas para evaluar la confianza de los labels, de multiplicar el impacto de los m\u00e1s confiables y excluir o corregir aquellos los que generen ruido. En esta charla deseo mostrar c\u00f3mo se atacaron estas problem\u00e1ticas dentro de la iniciativa de moderaci\u00f3n de art\u00edculos prohibidos en el marketplace de MercadoLibre, y las lecciones aprendidas.\n\nDisertante: Ramiro Caro\nCientifico de datos e Ingeniero Electronico, egresado de la Universidad Nacional de Cordoba. Mas de 10 a\u00f1os trabajando en proyectos enfocados en datos en industrias como ecommerce, petroleo/gas, o distribucion de energia electrica. Actualmente me desempe\u00f1o como Data Scientist en Mercado Libre en el area de deteccion de articulos prohibidos.\n\nhttps://eventos.python.org.ar/events/pyconar2021/activity/460/",
+  "description": "Cuando hablamos del workflow completo de un sistema de Machine Learning en producción solemos pasar por alto una etapa que es crítica para el suceso del sistema, el etiquetado de datos. En ambientes académicos o de aprendizaje, todos los datos de entrenamiento se encuentran evaluados y las etiquetas son consideradas 100% correctas, con lo cual generalmente no se realiza un análisis más profundo de las mismas. Sin embargo, en sistemas productivos online, rara vez se nos presenta dicho escenario. Esta charla muestra cómo se atacaron estas problemáticas dentro de la iniciativa de moderación de artículos prohibidos en el marketplace de MercadoLibre, y las lecciones aprendidas.",
   "duration": 1475,
-  "language": "eng",
+  "language": "spa",
   "recorded": "2021-10-29",
   "related_urls": [
     {
@@ -14,7 +14,7 @@
     }
   ],
   "speakers": [
-    "TODO"
+    "Ramiro Caro"
   ],
   "tags": [
     "pyar",
@@ -23,7 +23,7 @@
     "pyconar2021"
   ],
   "thumbnail_url": "https://i.ytimg.com/vi/LeG-hgZZ0hM/maxresdefault.jpg",
-  "title": "PyConAr 2021 - \u00bfQue hacer cuando no podemos confiar en los labels? Una implementacion practica",
+  "title": "¿Que hacer cuando no podemos confiar en los labels? Una implementacion practica",
   "videos": [
     {
       "type": "youtube",
