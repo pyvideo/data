@@ -1,0 +1,28 @@
+{
+  "description": "www.pydata.org\n\nHow can we make smart decisions when optimizing a black-box function?\nExpensive black-box optimization refers to situations where we need to maximize/minimize some input\u2013output process, but we cannot look inside and see how the output is determined by the input.\nMaking the problem more challenging is the cost of evaluating the function in terms of money, time, or other safety-critical conditions, limiting the size of the data set we can collect.\nBlack-box optimization can be found in many tasks such as hyperparameter tuning in machine learning, product recommendation, process optimization in physics, or scientific and drug discovery.\n\nBayesian optimization (BayesOpt) sets out to solve this black-box optimization problem by combining probabilistic machine learning (ML) and decision theory.\nThis technique gives us a way to intelligently design queries to the function to be optimized while balancing between exploration (looking at regions without observed data) and exploitation (zeroing in on good-performance regions).\nWhile BayesOpt has proven effective at many real-world black-box optimization tasks, many ML practitioners still shy away from it, believing that they need a highly technical background to understand and use BayesOpt.\n\nThis talk aims to dispel that message and offers a friendly introduction to BayesOpt, including its fundamentals, how to get it running in Python, and common practices.\nData scientists and ML practitioners who are interested in hyperparameter tuning, A/B testing, or more generally experimentation and decision making will benefit from this talk.\nWhile most background knowledge necessary to follow the talk will be covered, the audience should be familiar with common concepts in ML such as training data, predictive models, multivariate normal distributions, etc.\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1692,
+  "language": "eng",
+  "recorded": "2022-12-01",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2022/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Quan Nguyen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ImXOdgEgaTM/maxresdefault.jpg",
+  "title": "Bayesian Optimization - Fundamentals, Implementation, and Practice",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ImXOdgEgaTM"
+    }
+  ]
+}
