@@ -1,0 +1,52 @@
+{
+  "description": "Using a Pythonic Compass to Link the Physics Community to the Chemistry Community\nSpeaker: Suliman Sharif\n\nSummary\nTo understand a collection of atom types, organic and medicinal chemists adopted the IUPAC nomenclature to categorize functional groups. In this study a lexical dictionary bridge between IUPAC and CGenFF atom types is presented using SMILES/SMARTS common functional group patterns as the mid-level language translators implemented in Python.\n\nDescription\nA central component of any successful force field is the small molecules used to define the initial atom type engine. The CHARMM General Force Field (CGenFF) was created based on a selection criteria that consists of a wide range heterocycles and simple functional groups.\n\nMore recently a study, Rings in Drugs, was published and highlighted that each year 28% of new therapeutics contain a new novel ring system (2). So this percentage could be significantly higher if we included non-ring functional groups. This presents a problem: in a nearly infinite chemical space how do we select the most important functional groups to conduct time-consuming force field parameterization that maximizes our representation of molecules most likely to be considered in drug design?\n\nCGenFF is unique in its ability to quantify the quality of the assigned charges and bonded parameters of a compound based on compounds in the FF and it\u2019s decision tree. This penalty score allows for the distribution of well vs. poorly predicted compounds to be determined. Using the penalty values clusters in the charge probability distribution were identified and denoted \u201cNo\u201d, \u201cLow\u201d, \u201cMid\u201d, \u201cHigh\u201d. To visualize this classification scheme, we applied the sunburst to a variety of existing chemical databases that was of interest to us\n\nTo visualize what atoms and associated atom types had the highest penalties, thereby requiring parameter optimization,we correlated the atom language using a series of key value dictionaries to something readable by medicinal chemists, IUPAC.\n\nSuliman Sharif's Bio\nI am this odd blend of engineer/scientist/entreprenuer. Through education and research I have been part of many chemistry labs from natural products to inorganic metal frameworks to medicinal chemistry. As a result of my research in chemistry I picked up scientific programming which led into my trade as a software engineer.\n\nIn my recent position at Lab7 Systems I have adopted both the role of a scientist and a software engineer learning how to integrate experiment workflows into our application and also develop software adequate to meet the needs of the customers. My most recent academic research has been in the University of Maryland School of Pharmacy. Where I work on machine representation of organic compounds and hig hthroughput data management and visual intepretation.\n\nI am also writing communication dictionaries between science groups.\n\nMy life science entrepreneurship comes from myself wanting to grow the Biotech scene here in Austin and also the scientific software community online.\n\nMy recent venture into Hackathon spawned up LifeSciHack 2019 | www.lifescihack.com An effort to help teach and innovate new projects combining software engineering and life science.\n\nI am an advocate for public policy in the life sciences and open source scientific software. I have recently signed the Science Code Manifesto and shaping my own personal projects for easy-to-use and well tested scientific code.\n\nGitHub: https://github.com/Sulstice/\nTwitter: https://twitter.com/SulimanSharif6/\nLinkedIn: https://www.linkedin.com/in/sulimansharif/\nWebsite: sulstice.github.io\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1531,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://twitter.com/SulimanSharif6/",
+      "url": "https://twitter.com/SulimanSharif6/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/sulimansharif/",
+      "url": "https://www.linkedin.com/in/sulimansharif/"
+    },
+    {
+      "label": "https://github.com/Sulstice/",
+      "url": "https://github.com/Sulstice/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Suliman Sharif"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/jUhPXtdQSec/maxresdefault.jpg",
+  "title": "Using a Pythonic Compass to Link the Physics Community to the Chemistry Community",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jUhPXtdQSec"
+    }
+  ]
+}

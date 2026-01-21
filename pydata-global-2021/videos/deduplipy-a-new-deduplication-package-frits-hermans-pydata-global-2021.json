@@ -1,0 +1,52 @@
+{
+  "description": "Deduplipy: a New Deduplication Package\nSpeaker: Frits Hermans\n\nSummary\nDeduplication or entity resolution is the task to identify which records belong to the same real world entity. DedupliPy is a new Python package that enables the user to quickly train a deduplication model with a minimum of data labelling. In this talk I explain how the algorithm works and I show in a live demo how you can start using DedupliPy today.\n\nDescription\nWhich of the following names belong to the same company: \u2018AirBnB, \u2018Airbus\u2019, \u2018AirBnb UK Ltd\u2019 and \u2018Airbus Ltd\u2019? For humans this is an easy question but coding it brings a lot of challenges. Comparing all names with each other blows up the number of comparisons quadratically. When do two company names belong to the same company? Note how \u2018AirBnB\u2019 and \u2018Airbus\u2019 only differ by two letters and \u2018Airbus\u2019 and \u2018Airbus Ltd\u2019 by three letters. So the former pair is more similar but not a match whereas the other pair is a match. This shows that it is not so simple to distinguish if a pair is a match or not.\n\nThe new Python package DedupliPy (www.deduplipy.com) implements a smart deduplication algorithm. The user provides only a small number of labelled record pairs during an active learning session. DedupliPy deals with the quadratic scaling problem in an efficient way. The package works out-of-the-box and allows advanced users to configure the algorithm to their needs.\n\nThis talk is for any data scientist who works with less-than-perfect text records like databases containing names or transactions. At the end of the talk you will be able to deduplicate your data with only a few lines of code using DedupliPy. Moreover, you will understand the challenges of deduplication and how the package deals with them.\n\nFrits Hermans's Bio\nFrits Hermans is a data scientist who lives and works in Amsterdam. He has a master's degree in physics and had various modeling positions in the financial industry. Lately he focuses on money laundering detection models.\nGitHub: https://github.com/fritshermans/\nLinkedIn: https://www.linkedin.com/in/frits-hermans-data-scientist//\nWebsite: https://www.deduplipy.com/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1808,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.deduplipy.com/",
+      "url": "https://www.deduplipy.com/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/frits-hermans-data-scientist//",
+      "url": "https://www.linkedin.com/in/frits-hermans-data-scientist//"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://github.com/fritshermans/",
+      "url": "https://github.com/fritshermans/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Frits Hermans"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/SB1piCt6Vs0/maxresdefault.jpg",
+  "title": "Deduplipy: a New Deduplication Package",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SB1piCt6Vs0"
+    }
+  ]
+}

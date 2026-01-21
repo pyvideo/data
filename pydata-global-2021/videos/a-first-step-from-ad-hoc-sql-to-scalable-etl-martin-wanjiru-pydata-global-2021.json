@@ -1,0 +1,52 @@
+{
+  "description": "A First Step From Ad-hoc Sql to Scalable ETL\nSpeaker: Martin Wanjiru\n\nSummary\nSoftware engineers design tables to capture transactions, which are not ideal for querying. On the other hand, Data Scientists and Analysts require limitless view of business data, which is only achievable using long and complex SQL queries. This creates the need to have a separate analytics database with a multidimensional database structure. This talk discusses a solution for this problem.\n\nDescription\n\u201cHey team, I have these two dashboards on the number of sales and they don\u2019t agree. Why is this the case, and which is correct? Can this be fixed before my 10 am meeting with investors?\u201d or \u201cI want to create a data science model to categorize our customers based on their repayment trends and their adherence to their PTP (promise to pay) plans, so that the operations team can put more effort on the customers less likely to pay on time and less on the promising ones - where can I get this data?\u201d, these are the kind of reporting problems we faced on a daily. We lacked a single source of truth. Most of our SQL business logic was spread across our tools, from 400+ lines of complex SQL queries creating materialized views on the production database (something the Engineering team did not take kindly) to other queries living in our BI Tools (redash and Tableau). If the business logic slightly changed, It was very difficult to update all our queries. Furthermore, debugging was painful! All these challenges prompted us to have a separate database for analytics. We opted for an ELT process. We got a tool to replicate data from the production database to the data warehouse. We then started using DBT to do SQL transformation. DBT does most of the work for us - it determines the execution order of the models (SQL statements) and created objects in our warehouse. It also allows us to test our models, to ensure that the defined business logic is not violated. These models live in a version control, making it easy to track changes we do. We also have a CI/CD tool that we use to run the models hourly. This set up has improved the way we report.The time spent to gather and clean data to be consumed by our data science models has also significantly reduced.\n\nMartin Wanjiru's Bio\nI am a data enthusiast, currently working as a Data Analyst at Apollo Agriculture. My day to day work involves doing ELT processes in our data warehouse, transforming and modeling data using DBT, and making dashboards in our BI tools (redash and Tableau)\nGitHub: https://github.com/NdiranguMartin/\nLinkedIn: https://www.linkedin.com/in/martin-wanjiru-98414111a/\nWebsite: https://ndirangumartin.netlify.app//\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1434,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://github.com/NdiranguMartin/",
+      "url": "https://github.com/NdiranguMartin/"
+    },
+    {
+      "label": "https://ndirangumartin.netlify.app//",
+      "url": "https://ndirangumartin.netlify.app//"
+    },
+    {
+      "label": "https://www.linkedin.com/in/martin-wanjiru-98414111a/",
+      "url": "https://www.linkedin.com/in/martin-wanjiru-98414111a/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Martin Wanjiru"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/EPiSBzVnz_E/maxresdefault.jpg",
+  "title": "A First Step From Ad-hoc Sql to Scalable ETL",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EPiSBzVnz_E"
+    }
+  ]
+}

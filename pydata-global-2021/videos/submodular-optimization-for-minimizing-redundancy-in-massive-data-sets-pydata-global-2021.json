@@ -1,0 +1,52 @@
+{
+  "description": "Submodular Optimization for Minimizing Redundancy in Massive Data Sets\nSpeaker: Jacob Schreiber\n\nSummary\nAs data sets grow in size they generally grow in usefulness, but they also frequently grow in redundancy. Submodular optimization is a theoretically-grounded set of approaches for minimizing redundancy while preserving the information within data sets. In this talk, I will describe submodular optimization at a high level and introduce Apricot, a Python package that implements these methods.\n\nDescription\nThe amount of data produced is dramatically increasing every year. While this increase in data has led to an explosion of sophisticated machine learning models, a notable downside is one needs a corresponding increase in compute power to handle the data. Unfortunately, because the availability of data is outpacing the availability of hardware, many data scientists are left with the difficult task of handling huge data sets with only modest resources.\n\nSubmodular optimization is a solution to this massive data problem. This approach is commonly considered to be the discrete analog of convex optimization and formalizes.the selection of representative subsets from massive data sets explicitly as an optimization problem. Empirically, these subsets have numerous advantages over the original data sets, including being easier to compute on while still maintaining the diversity of the original data set.\n\nApricot is a Python package that implements submodular optimization. Internally, the package is organized in a similar manner to deep learning libraries, with submodular function objects that are analogous to layers/model objects and optimizers optimizer objects that implement various strategies for optimizing submodular functions. The API follows that of a scikit-learn transformer, with pairs of submodular functions and optimizers being wrapped in a selector object that can be dropped into existing scikit-learn pipelines if desired.\n\nThis tutorial will focus on the practical usage of submodular optimization for summarizing large data sets with several examples to highlight key points. It will likely be most useful for those that have had experience training machine learning models, but no theoretical knowledge in either machine learning or submodular optimization will be needed.\n\nJacob Schreiber's Bio\nJacob Schreiber is a post-doctoral researcher at Stanford University where he develops machine learning-based tools to tackle problems in genomics. He is also the developer of a cornucopia of open source tools in Python, including pomegranate, which implements flexible probabilistic modeling, and apricot, which implements submodular optimization for data subset selection. Previously, he was a core developer for scikit-learn.\nGitHub: https://github.com/jmschrei/\nTwitter: https://twitter.com/jmschreiber91/\nWebsite: https://jmschrei.github.io//\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1563,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://jmschrei.github.io//",
+      "url": "https://jmschrei.github.io//"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://twitter.com/jmschreiber91/",
+      "url": "https://twitter.com/jmschreiber91/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://github.com/jmschrei/",
+      "url": "https://github.com/jmschrei/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Jacob Schreiber"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/vJ3ErkmUpLU/maxresdefault.jpg",
+  "title": "Submodular Optimization for Minimizing Redundancy in Massive Data Sets",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vJ3ErkmUpLU"
+    }
+  ]
+}

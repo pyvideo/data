@@ -1,0 +1,52 @@
+{
+  "description": "5 Reasons Parquet Files Are Better Than CSV for Data Analyses\nSpeaker: Matthew Powers\n\nSummary\nParquet files are well supported by most languages / libraries, are easier to work with, and typically more performant than CSV files. This talk summarizes the main benefits of Parquet files and shows how they\u2019re faster with benchmarking analyses. You\u2019ll also learn how to convert CSV files to Parquet.\n\nDescription\n5 reasons Parquet files are better than CSV:\n\nschema - examine how the schema is embedded in the file metadata leveraging PyArrow\nfile sizes - compare file sizes when identical data is written to CSV and Parquet\ncolumnar file format - examine performance benefits from leveraging column pruning to skip data\npredicate pushdown filtering - understand how to query row group metadata with PyArrow and how to skip entire row groups based on column metadata\nimmutable - why immutable file formats are better\nHow to convert CSV files to Parquet with Pandas, Dask, and PySpark. Will show how to convert a single file or multiple files in parallel.\n\nWhen to use CSV files and when to avoid them.\n\nMatthew Powers's Bio\nPowers is a tech evangelist at Coiled.\n\nHe used Spark / PySpark for 6 years and is now help devs understand when Dask is a better fit.\n\nHe's written two books, has a popular blog, and regularly contributes to open source codebases.\n\nIn a past life, he passed all three CFA exams and worked in finance.\n\nGitHub: https://github.com/MrPowers/\nTwitter: https://twitter.com/_mrpowers_/\nWebsite: https://mungingdata.com/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1769,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/MrPowers/",
+      "url": "https://github.com/MrPowers/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://mungingdata.com/",
+      "url": "https://mungingdata.com/"
+    },
+    {
+      "label": "https://twitter.com/_mrpowers_/",
+      "url": "https://twitter.com/_mrpowers_/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Matthew Powers"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/9LYYOdIwQXg/maxresdefault.webp",
+  "title": "5 Reasons Parquet Files Are Better Than CSV for Data Analyses",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9LYYOdIwQXg"
+    }
+  ]
+}

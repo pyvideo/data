@@ -1,0 +1,48 @@
+{
+  "description": "Hydra-Zen: Configurable, Reproducible, and Scalable Computing With Hydra\nSpeaker: Ryan Soklaski\n\nSummary\nThis talk encourages researchers in STEM fields to design their code-based projects to be configurable, reproducible, and scalable. We introduce hydra-zen, an open-source library that extends Hydra to simplify and standardize the design process. hydra-zen can be used to configure and orchestrate complex applications, like machine learning experiments, without creating a glut of boilerplate code.\n\nDescription\nThis talk is for Pythonistas in STEM fields who write code to run experiments, simulations, and analyses. These applications often have many configurable components (settings, hyperparameters, etc.), and their results need to be recorded with the associated configuration that produced those results. We present a simple and standardized way to configure such projects, leveraging two open-source Python libraries: Hydra and hydra-zen.\n\n(minutes 0-5) We encourage researchers to design their code-based projects to be configurable, reproducible, and scalable. We argue that this will not only benefit their productivity, but that it will also have a significant impact on the \"shelf life\" of their project.\n\n(minutes 5-10) Designing one's project to be configurable, reproducible, and scalable, without assistive libraries, is a time-consuming process that produces large amounts of boilerplate code. We highlight the steep design challenges and pitfalls that obstruct this process.\n\n(minutes 10-20) We introduce the audience to Hydra and hydra-zen. Hydra is a framework for configuring and orchestrating applications, and hydra-zen provides powerful tools for dynamically and automatically generating configurations for your code. Together, these libraries can be used to elegantly configure, run, and organize results for complex applications, like machine learning experiments.\n\n(minutes 20-25) We demonstrate the various bells and whistles of Hydra and hydra-zen. These include:\n\nGenerating rich configurations for your code \"on the fly\".\nChecking your configurations using runtime validation.\nLeveraging hydra_zen.typing for enriched, static context about your project's configurations.\nAuto-generating a commandline interface from your application's configuration.\nLaunching multiple runs of your application (in parallel!).\nPerforming sweeps over configurations (e.g. hyperparameter searches).\n(minutes 25-30) Q&A\n\nRyan Soklaski's Bio\nRyan Soklaski works at MIT Lincoln Laboratory, where he does machine learning research and software development. He is a core developer of hydra-zen, a dev on the Hypothesis testing library, and is the creator of the educational website Python Like You Mean It. Ryan is also the lead instructor of the CogWorks course at the MIT Beaver Works Summer Institute\n\nGitHub: https://github.com/rsokl/\nTwitter: https://twitter.com/rsokl/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1449,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://github.com/rsokl/",
+      "url": "https://github.com/rsokl/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://twitter.com/rsokl/",
+      "url": "https://twitter.com/rsokl/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Ryan Soklaski"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/3gk9CvMOdzE/maxresdefault.jpg",
+  "title": "Hydra-Zen: Configurable, Reproducible, and Scalable Computing With Hydra",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3gk9CvMOdzE"
+    }
+  ]
+}

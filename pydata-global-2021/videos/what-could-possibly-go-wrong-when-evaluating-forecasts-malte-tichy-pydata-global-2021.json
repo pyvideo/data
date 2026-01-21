@@ -1,0 +1,40 @@
+{
+  "description": "What Could Possibly Go Wrong When Evaluating Forecasts?\nSpeaker: Malte Tichy\n\nSummary\nLoss functions like absolute error are often used to evaluate predictions for countable quantities. These loss functions suffer, however, from pitfalls with hazardous consequences, like choosing a worse model over a better one. This talk equips you with the tools to assess forecast quality. We drill into what values loss functions can achieve, and how to identify and fix biased evaluations.\n\nDescription\nThis talk will enable you with the mathematical tools and the probabilistic mindset to critically assess predictive models for countable, integer-valued quantities, like the number of sold units, or number of clicks. This will help you, as a data scientist, to evaluate models, to set model quality metrics into a meaningful context, to communicate about model quality to stakeholders and to manage expectations.\n\nIn our examples, we will use open-source tooling included in scipy.stats and many similar packages to explore how good a prediction for countable events can be, in principle, and what are the consequences for evaluation metrics. We will encounter some (actually quite entertaining) paradoxes on the way, and learn how to avoid or resolve these, so they don\u2019t hinder your model evaluation.\n\nIf you are interested in the math behind model evaluations and you have worked with regression models before, then this talk is for you. No in-depth knowledge of statistics is required, only the willingness and openness to think conceptually and deeply about what a prediction is supposed to actually mean. You will be astonished about what can possibly go wrong, understand why that can happen, and learn how to avoid these obstacles.\n\nTakeaways: - There is no shortcut between simple metrics and model quality, and there are pitfalls on the path of model evaluation: it\u2019s easy to come to wrong conclusions, but there are guardrails that you can follow. - Predictive technology has limits \u2013 just like every technology. We need to be aware of these limits, evaluate them, and benchmark our technology against realistic limits. - By following some guideline questions, you can make sure the evaluation you do really reflects the business value of your prediction.\n\nMalte Tichy's Bio\nAfter pursuing his PhD and postdoc research in theoretical quantum physics, Malte joined Blue Yonder as a Data Scientist in 2015. Since then, he has led numerous external and internal projects, which all involved programming python, evaluating predictions and communicating the achieved results.\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1840,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    }
+  ],
+  "speakers": [
+    "Malte Tichy"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/t5WSVlg8LfA/maxresdefault.jpg",
+  "title": "What Could Possibly Go Wrong When Evaluating Forecasts?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=t5WSVlg8LfA"
+    }
+  ]
+}

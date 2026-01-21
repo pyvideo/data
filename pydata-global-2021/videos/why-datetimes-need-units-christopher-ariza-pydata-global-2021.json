@@ -1,0 +1,48 @@
+{
+  "description": "Why Datetimes Need Units: Avoiding a Y2262 Problem & Harnessing the Power of NumPy's datetime64\nSpeakers: Christopher Ariza\n\nSummary\nThis talk will introduce the NumPy datetime64 datatype, describing its features and performance in comparison to Python's date and datetime objects. Practical examples of working with, and converting between, these types will be provided. The usage of datetime64 with time series data in Pandas and StaticFrame will be compared, illustrating the value of using units with datetime64.\n\nDescription\nNumPy supports a datetime array datatype called datetime64. Unlike Python's standard library types (datetime and date), datetime64 supports an extensive range of time units, from year to attosecond. This specification of unit permits unambiguous resolution specification, more narrow typing of time information, and taking full advantage of time ranges that fit within the underlying representation (a 64-bit signed integer).\n\nThis talk will introduce datetime64 arrays and describe their features and performance in comparison to Python's date and datetime types. Practical examples of working with, and converting between, these formats will be provided. As date and time information is particularly useful for labeled time-series data, the usage of datetime64 in Pandas and StaticFrame indices will be examined. Pandas exclusive and coercive use of only a single unit (nanosecond) will be shown to lead to a \"Y2262\" problem and offer other disadvantages compared to StaticFrame's full support for datetime64 units.\n\nThe audience for this talk is anyone working with NumPy datetime64 or Pandas DatetimeIndex or Timestamp types, or those wanting to better understand the limitations of Python's date and datetime objects, particularly when used in NumPy arrays. Basic familiarity with these types is helpful but not required. This will be an informative presentation with concise code examples and practical tips for working with these types. Audience members will come away with a firm understanding of the limits and opportunities of these types, relevant for anyone working with time series data.\n\nChristopher Ariza's Bio\nChristopher Ariza is Partner and Chief Technical Officer at Research Affiliates, a global leader in investment strategies and research. With over 20 years of software engineering experience, Chris has developed tools in a variety of domains, most notably algorithmic music composition and computer-aided musicology. Prior to joining Research Affiliates, he was a visiting assistant professor of music at MIT, assistant editor of the Computer Music Journal, and an assistant professor of recording arts and music technology at Towson University. He has a BA in music with honors from Harvard University and an MA and PhD in music theory and composition from New York University.\nGitHub: https://github.com/flexatone/\nTwitter: https://twitter.com/flexatone/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1449,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://twitter.com/flexatone/",
+      "url": "https://twitter.com/flexatone/"
+    },
+    {
+      "label": "https://github.com/flexatone/",
+      "url": "https://github.com/flexatone/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Christopher Ariza"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/jdnr7sgxCQI/maxresdefault.jpg",
+  "title": "Why Datetimes Need Units: Avoiding a Y2262 Problem & Harnessing the Power of NumPy's datetime64",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=jdnr7sgxCQI"
+    }
+  ]
+}

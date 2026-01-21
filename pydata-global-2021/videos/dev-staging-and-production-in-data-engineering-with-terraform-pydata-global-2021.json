@@ -1,0 +1,56 @@
+{
+  "description": "Dev, Staging, and Production in Data Engineering with Terraform\nSpeaker: Sarah Krasnik\n\nSummary\nEarly on, software engineers are taught: develop locally, test in staging, deploy to production. What does this mean for analytics? In this talk, we\u2019ll walk through how data engineering teams should leverage a multi-environment development workflow built using Terraform. The proposed architecture will allow for thorough data quality testing resulting in reliable production-grade data products.\n\nDescription\nDevelopment Environments in Software Engineering\nI'll start with some background on software engineering workflows. Although the dev/staging/production setup might be common knowledge for software engineers, it's not something data engineers have been exposed to as often. The complexity of fully fledged applications creates a need for thorough testing. Without it, software products cannot be QAed thoroughly. With the rising complexity of data products, the same level of QA is required to sustain reliable data pipelines.\n\nHow and Why to Test Data Pipelines\nAt a truly data driven organization, the output of analytics teams is mission critical. Just like deploying a bug-ridden consumer facing application, a decision made on incorrect data can have significant dollar consequences. Without a code and data testing framework, there's no way to ensure data quality.\n\nI advocate for developing locally, running on staging with end-to-end tests, and deploying to production with confidence. If the staging environment is configured in the same way as production, any errors will be caught before they make their way into data products exposed to end users. I will walk through how a testing framework can be configured to work in multiple environments.\n\nInfrastructure as Code: Terraform\nSetting up one data platform is hard enough, let alone hosting two (staging, production) and accomodating three (staging, production, plus local development). Terraform allows engineers to specify infrastructure as code, inherently making the data platform configuration easily repeatable. This talk will include a detailed outline of deploying a data platform with Terraform, accompanied by an example repository. The outcome will be an easily tranferrable, coded, tested, and therefore understood data platform with multiple environments.\n\nLearning Goals\nWhy data engineers should embrace a multi-environment deployment like software engineers do\nWhat \"multi-environment\" means in the data world and how it enables data quality\nLeveraging infrastructure as code to implement a scalable data platform\n\nSarah Krasnik's Bio\nData engineer at Perpay, Johns Hopkins BA / Northwestern MS graduate, data blogger and advisor with a passion for modern data stacks. In her day job builds and scales analytics infrastructure to support making data-driven decision\nGitHub: https://github.com/sarahmk125/\nTwitter: https://twitter.com/sarahmk125/\nLinkedIn: https://www.linkedin.com/in/sarah-krasnik/\nWebsite: https://beacons.ai/sarahkrasnik/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1675,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://beacons.ai/sarahkrasnik/",
+      "url": "https://beacons.ai/sarahkrasnik/"
+    },
+    {
+      "label": "https://twitter.com/sarahmk125/",
+      "url": "https://twitter.com/sarahmk125/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/sarah-krasnik/",
+      "url": "https://www.linkedin.com/in/sarah-krasnik/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://github.com/sarahmk125/",
+      "url": "https://github.com/sarahmk125/"
+    }
+  ],
+  "speakers": [
+    "Sarah Krasnik"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/L32T_ruZvFo/maxresdefault.jpg",
+  "title": "Dev, Staging, and Production in Data Engineering with Terraform",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=L32T_ruZvFo"
+    }
+  ]
+}
