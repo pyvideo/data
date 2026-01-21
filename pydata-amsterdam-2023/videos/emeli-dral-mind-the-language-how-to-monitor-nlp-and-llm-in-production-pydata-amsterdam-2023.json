@@ -1,0 +1,28 @@
+{
+  "description": "How can you evaluate your production models when the data is not structured and you have no labels? To start, by tracking patterns and changes in the input data and model outputs. In this talk, I will give an overview of the possible approaches to monitor NLP and LLM models: from embedding drift detection to using regular expressions.\n\nOnce LLMs or NLP models are in production, you want to ensure they work as intended. But how can you observe their behavior in the wild and detect when something goes wrong?\n\nFirst, you often lack true labels. To add to this, the data is unstructured - how exactly can you track a pile of texts?\n\nMonitoring the patterns in the input data and model outputs is often the first line of defense. In the talk, I will review possible approaches to monitoring drift and data quality issues in text data and explain their pros and cons.\n\nI will cover:\n- Statistical embedding drift detection\n- Tracking interpretable text descriptors like text length and sentiment\n- Using regular expressions to validate outputs\n- Explaining drift through model-based drift detection\n- Detecting changes in multi-modal data\n\nI will also introduce open-source tools, models, and visualization techniques one can use to monitor LLM and NLP models.\n\nThis talk will benefit data scientists and machine learning engineers who work with NLP and LLM in production.\n\nBio:\nEmeli Dral\nEmeli Dral is a Co-founder and CTO at Evidently AI, a startup developing open-source tools to evaluate, test, and monitor the performance of machine learning models.\n\nEarlier, she co-founded an industrial AI startup and served as the Chief Data Scientist at Yandex Data Factory. She led over 50 applied ML projects for various industries - from banking to manufacturing. Emeli is a data science lecturer at GSOM SpBU and Harbour.Space University. She is a co-author of the Machine Learning and Data Analysis curriculum at Coursera with over 100,000 students.\n\n\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1519,
+  "language": "eng",
+  "recorded": "2023-09-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://amsterdam2023.pydata.org/cfp/schedule/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Emeli Dral"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/aLwDCU8KZB0/maxresdefault.jpg",
+  "title": "Mind the language: how to monitor NLP and LLM in production",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aLwDCU8KZB0"
+    }
+  ]
+}
