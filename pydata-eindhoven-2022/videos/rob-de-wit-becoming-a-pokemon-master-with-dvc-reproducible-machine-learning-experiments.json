@@ -1,0 +1,24 @@
+{
+  "description": "PyData Eindhoven 2022\n\nIn machine learning projects we need to experiment in order to find and maintain the best-performing model. While we can do initial prototyping in a Notebook, eventually we need to move towards more structured experiment tracking to facilitate reproducibility of our experiments.\n\nThe open-source DVC library aims to tackle this problem through a Git-based approach to versioning data and artifacts. In this talk we will explore how DVC works, how we can apply it to conduct ML experiments, and how we can use it to become a great Pok\u00e9mon trainer.\n\nEvery data scientist has at one point kept track of their experiments on paper, sticky notes, or in a spreadsheet. But how can we guarantee reproducibility for potentially thousands of experiments over numerous years? Can we figure out which version of a model ran in production six months ago, and what data went into its training?\n\nThe talk is aimed at data scientists and explores best practices for ML projects using a light-hearted topic. Some general knowledge of how ML works is expected, but not necessary to understand the talk. The key concept is reproducibility: how can we track and version not just code, but entire experiments?\n\nDVC is a potential solution for this. The philosophy behind it can be summarized as \"Git for data and models\". I will discuss its concepts and show how it works in practice for a classifier of Pok\u00e9mon sprites.\n\nThe main takeaway will be the importance of reproducibility and a demo on how to achieve this.",
+  "duration": 1860,
+  "language": "eng",
+  "recorded": "2022-12-02",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2022/"
+    }
+  ],
+  "speakers": [
+    "Rob de Wit"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/eH758kaFxF4/maxresdefault.jpg",
+  "title": "Becoming a Pokémon Master with DVC: reproducible machine learning experiments",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=eH758kaFxF4"
+    }
+  ]
+}
