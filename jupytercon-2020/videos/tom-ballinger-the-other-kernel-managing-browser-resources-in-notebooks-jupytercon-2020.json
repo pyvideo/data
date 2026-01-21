@@ -1,0 +1,36 @@
+{
+  "description": "Brief Summary\nWhen we write notebooks viewed in a web browser, we're all web developers! Like we track the memory usage and execution time of code run by the kernel, tracking browser resources can help us make decisions about much data to ship to the browser. We'll talk about widgets, latency, bandwidth, and maintaining a constant framerate in animated visualizations in notebooks.\n\nOutline\nAs Jupyter users, we pay attention to how long each cell of our notebook takes to run and how much memory and disk space our notebooks use. These are constraints of the kernel, the (often Python) program running our code on our local machine or on a remote server like MyBinder.\n\nThere's another kernel we should think about: as users of notebooks with browser-based frontends, we are all frontend web developers. The resource constraints of browsers affect the experience of viewers of the notebook. If you write notebooks that have lots of dynamic behavior, that use Jupyter Widgets to run code client-side, and that embed web content like YouTube videos in your notebook, it helps to track these resources to keep your animations running smoothly, interactive controls having their effects quickly, and notebooks instantly responsive to user interaction like scrolling.\n\n\nThis comes up when printing a large data frame or deciding whether to render a plot as an image or send the data to the browser and plot it there (like Altair does). And how many data points can you reasonably expect to render in a notebook? When the bottleneck isn't data processing on the kernel side, it's probably browser memory and CPU usage. Colin Eberhardt reports that when using D3 (a library that underlies Altair), he finds that to render animated points at 30fps he can use ~1000 with SVG, 10000 with Canvas, and a million with WebGL. A Python visualization library might give you a choice like this, but you might need to write this yourself.\n\nWe'll cover how to write client-side JavaScript in a notebook, enough about how Jupyter widgets work to make predictions about their latency and memory usage, and optimizations for writing your own widgets. Know how to restart the \"browser kernel?\" It's just reloading the page! We'll look at how can you write interactive notebooks that work even after they've been exported to HTML. We'll learn just enough about the browser to diagnose common issues like crashing tabs and notebooks that seem to freeze.\n\nThe biggest takeaway will be the following: think ahead of time about which facets of your data should be how interactive. For example, perhaps toggling between demographics on a map of voter turnout ought to be near-instant, while it's fine if loading a map of another region takes a second or two. For the best viewer experience, look for a solution (or write one!) which allows all demographic data to resident in browser memory, but queries data for different regions from the kernel. Try to avoid loading more than 100MB of data into the browser for a cell, and certainly avoid maintaining multiple copies of that data in the notebook if you do.\n\nAs we author notebooks we make decisions about how to shuttle data between the browser and the kernel that impact viewers. Especially if your notebooks are viewed and interacted with by a wide audience it's worth ensuring widgets respond quickly and your notebooks don't freeze.",
+  "duration": 1427,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "Tom Ballinger"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pmcY8g1ewYc/sddefault.jpg",
+  "title": "The other kernel: managing browser resources in notebooks",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pmcY8g1ewYc"
+    }
+  ]
+}
