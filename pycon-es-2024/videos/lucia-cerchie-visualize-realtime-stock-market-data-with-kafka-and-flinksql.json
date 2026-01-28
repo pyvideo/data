@@ -1,0 +1,24 @@
+{
+  "description": "Let’s say you want to create a realtime visualization of a Kafka data stream. Maybe you want to process it with FlinkSQL before visualizing it.\n\nYour keyboard clatters, “mkdir data_viz_with_kafka_and_flinksql”. You cd in, activate your virtual environment, crack your knuckles, and… the complexities hit. How to create open connections to your data stream? Feed the data into a frontend component? What happens when multithreading rears its ugly head? Your feelings of bravado slowly dissipate… Don’t worry, I’ve got you covered!\n\nIn this session, we’ll cover how to take a stream of data in Kafka and visualize it with Streamlit. It’s sourced from the Alpaca API, before being sent to Kafka and processed with FlinkSQL for surfacing the Streamlit component. We’ll go through the ins and outs of creating Kafka producers and consumers in python, processing realtime data via windowing using FlinkSQL in Confluent Cloud, and visualizing that data clearly for an audience using a component built with Streamlit.\n\nBy the end of the talk, attendees will be confident in creating live data visualizations using Kafka, FlinkSQL, and Streamlit and be equipped to take their realtime use cases to the next level.",
+  "duration": 1726,
+  "language": "eng",
+  "recorded": "2024-10-04",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2024.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "Lucia Cerchie"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/c-FUd_MYgSc/maxresdefault.jpg",
+  "title": "Visualize Realtime Stock Market Data with Kafka and FlinkSQL",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=c-FUd_MYgSc"
+    }
+  ]
+}
