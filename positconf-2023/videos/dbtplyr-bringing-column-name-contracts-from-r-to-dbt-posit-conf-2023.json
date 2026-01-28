@@ -1,0 +1,32 @@
+{
+  "description": "starts_with(language): Translating select helpers to dbt. Translating syntax between languages transports concepts across communities. We see a case study of adapting a column-naming workflow from dplyr to dbt's data engineering toolkit.\r\n\r\ndplyr's select helpers exemplify how the tidyverse uses opinionated design to push users into the pit of success. The ability to efficiently operate on names incentivizes good naming patterns and creates efficiency in data wrangling and validation.\r\n\r\nHowever, in a polyglot world, users may find they must leave the pit when comparable syntactic sugar is not accessible in other languages like Python and SQL. \r\n\r\nIn this talk, I will explain how dplyr's select helpers inspired my approach to 'column name contracts,' how good naming systems can help supercharge data management with packages like {dplyr} and {pointblank}, and my experience building the {dbtplyr} to port this functionality to dbt for building complex SQL-based data pipelines.\r\n\r\nMaterials: \r\n- https://github.com/emilyriederer/dbtplyr\r\n- https://emilyriederer.com",
+  "duration": 1087,
+  "language": "eng",
+  "recorded": "2023-09-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230902080800/https://posit.co/conference"
+    },
+    {
+      "label": "https://emilyriederer.com\r",
+      "url": "https://emilyriederer.com\r"
+    },
+    {
+      "label": "https://github.com/emilyriederer/dbtplyr\r",
+      "url": "https://github.com/emilyriederer/dbtplyr\r"
+    }
+  ],
+  "speakers": [
+    "Emily Riederer"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/tbylZHG-ahE/maxresdefault.webp",
+  "title": "dbtplyr: Bringing Column-Name Contracts from R to dbt",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tbylZHG-ahE"
+    }
+  ]
+}

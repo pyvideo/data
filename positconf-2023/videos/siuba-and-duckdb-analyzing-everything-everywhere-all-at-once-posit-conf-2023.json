@@ -1,0 +1,24 @@
+{
+  "description": "Every data analysis in Python starts with a big fork in the road: which DataFrame library should I use?\r\n\r\nThe DataFrame Decision locks you into different methods, with subtly different behavior:: \r\n- different table methods (e.g. polars `.with_columns()` vs pandas `.assign()`) \r\n- different column methods (e.g. polars `.map_dict()` vs pandas `.map()`)\r\n\r\nIn this talk, I'll discuss how siuba (a dplyr port to python) combines with duckdb (a crazy powerful sql engine) to provide a unified, dplyr-like interface for analyzing a wide range of data sources‚ whether pandas and polars DataFrames, parquet files in a cloud bucket, or pins on Posit Connect.\r\n\r\nFinally, I'll discuss recent experiments to more tightly integrate siuba and duckdb.",
+  "duration": 1169,
+  "language": "eng",
+  "recorded": "2023-09-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20230902080800/https://posit.co/conference"
+    }
+  ],
+  "speakers": [
+    "Michael Chow"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/j4B7ui5f5Xo/maxresdefault.webp",
+  "title": "Siuba and duckdb: Analyzing Everything Everywhere All at Once",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=j4B7ui5f5Xo"
+    }
+  ]
+}
