@@ -1,0 +1,27 @@
+{
+  "description": "Image retrieval is the process of searching for images in a large database that are similar to one or more query images. A classical approach is to transform the database images and the query images into embeddings via a feature extractor (e.g., a CNN or a ViT), so that they can be compared via a distance metric. Self-supervised learning (SSL) can be used to train a feature extractor without the need for expensive and time-consuming labeled training data. We will use DINO's SSL method to build a feature extractor and Milvus, an open-source vector database built for evolutionary similarity search, to index image representation vectors for efficient retrieval. We will compare the SSL approach with supervised and pre-trained feature extractors.",
+  "duration": 2682,
+  "language": "eng",
+  "recorded": "2023-04-17",
+  "related_urls": [
+    {
+      "label": "Talk Page",
+      "url": "https://2023.pycon.de/program/TCWCVV/"
+    }
+  ],
+  "speakers": [
+    "Antoine Toubhans",
+    "Noé Achache"
+  ],
+  "tags": [
+    "Self-Supervised Learning"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/n5ccoC9di7U/maxresdefault.jpg",
+  "title": "Advanced Visual Search Engine with Self-Supervised Learning (SSL)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=n5ccoC9di7U"
+    }
+  ]
+}

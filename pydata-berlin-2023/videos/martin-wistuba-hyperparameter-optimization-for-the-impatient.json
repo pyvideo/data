@@ -1,0 +1,28 @@
+{
+  "description": "In the last years, Hyperparameter Optimization (HPO) became a fundamental step in the training of Machine Learning (ML) models and in the creation of automatic ML pipelines.\nUnfortunately, while HPO improves the predictive performance of the final model, it comes with a significant cost both in terms of computational resources and waiting time.\nThis leads many practitioners to try to lower the cost of HPO by employing unreliable heuristics.\n\nIn this talk we will provide simple and practical algorithms for users that want to train models\nwith almost-optimal predictive performance, while incurring in a significantly lower cost and waiting time. The presented algorithms are agnostic to the application and the model being trained so they can be useful in a wide range of scenarios.\n\nWe provide results from an extensive experimental activity on public benchmarks, including comparisons with well-known techniques like Bayesian Optimization (BO), ASHA, Successive Halving. We will describe in which scenarios the biggest gains are observed (up to 30x) and provide examples for how to use these algorithms in a real-world environment.\n\nAll the code used for this talk is available on [GitHub](https://github.com/awslabs/syne-tune).",
+  "duration": 2734,
+  "language": "eng",
+  "recorded": "2023-04-17",
+  "related_urls": [
+    {
+      "label": "Talk Page",
+      "url": "https://2023.pycon.de/program/DECAHT/"
+    },
+    {
+      "label": "Repository",
+      "url": "https://github.com/awslabs/syne-tune"
+    }
+  ],
+  "speakers": [
+    "Martin Wistuba"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/onX6fXzp9Yk/maxresdefault.jpg",
+  "title": "Hyperparameter optimization for the impatient",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=onX6fXzp9Yk"
+    }
+  ]
+}

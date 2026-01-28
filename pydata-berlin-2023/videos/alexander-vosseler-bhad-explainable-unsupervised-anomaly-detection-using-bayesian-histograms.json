@@ -1,0 +1,30 @@
+{
+  "description": "The detection of outliers or anomalous data patterns is one of the most prominent machine learning use cases in industrial applications. I present a Bayesian histogram anomaly detector (BHAD), where the number of bins is treated as an additional unknown model parameter with an assigned prior distribution. BHAD scales linearly with the sample size and enables a straightforward explanation of individual scores, which makes it very suitable for industrial applications when model interpretability is crucial. I study the predictive performance of the proposed BHAD algorithm with various SoA anomaly detection approaches using simulated data and also using popular benchmark datasets for outlier detection. The reported results indicate that BHAD has very competitive predictive accuracy\ncompared to other more complex and computationally more expensive algorithms, while being explainable and fast.\n\nhttps://pypi.org/project/bhad/",
+  "duration": 1648,
+  "language": "eng",
+  "recorded": "2023-04-17",
+  "related_urls": [
+    {
+      "label": "Talk Page",
+      "url": "https://2023.pycon.de/program/HNKMMP/"
+    },
+    {
+      "label": "Python Library",
+      "url": "https://pypi.org/project/bhad/"
+    }
+  ],
+  "speakers": [
+    "Alexander Vosseler"
+  ],
+  "tags": [
+    "Bayesian"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/_8zfgPTD-d8/maxresdefault.jpg",
+  "title": "BHAD - Explainable unsupervised anomaly detection using Bayesian histograms",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_8zfgPTD-d8"
+    }
+  ]
+}

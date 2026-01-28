@@ -1,0 +1,26 @@
+{
+  "description": "Over the past decade, developers, researchers, and the community have successfully built tens of thousands of data applications using Spark. Since then, use cases and requirements of data applications have evolved: Today, every application, from web services that run in application servers, interactive environments such as notebooks and IDEs, to phones and edge devices such as smart home devices, want to leverage the power of data.\n\nHowever, Spark's driver architecture is monolithic, running client applications on top of a scheduler, optimizer and analyzer. This architecture makes it hard to address these new requirements: there is no built-in capability to remotely connect to a Spark cluster from languages other than SQL.\n\nSpark Connect introduces a decoupled client-server architecture for Apache Spark that allows remote connectivity to Spark clusters using the DataFrame API and unresolved logical plans as the protocol. The separation between client and server allows Spark and its open ecosystem to be leveraged from everywhere. It can be embedded in modern data applications, in IDEs, Notebooks and programming languages.\n\nThis talk highlights how simple it is to connect to Spark using Spark Connect from any data applications or IDEs. We will do a deep dive into the architecture of Spark Connect and give an outlook of how the community can participate in the extension of Spark Connect for new programming languages and frameworks - to bring the power of Spark everywhere.",
+  "duration": 1619,
+  "language": "eng",
+  "recorded": "2023-04-17",
+  "related_urls": [
+    {
+      "label": "Talk Page",
+      "url": "https://2023.pycon.de/program/UNA9AN/"
+    }
+  ],
+  "speakers": [
+    "Martin Grund"
+  ],
+  "tags": [
+    "Spark"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/PzgPcvFDD4I/maxresdefault.jpg",
+  "title": "Use Spark from anywhere - A Spark client in Python powered by Spark Connect",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=PzgPcvFDD4I"
+    }
+  ]
+}

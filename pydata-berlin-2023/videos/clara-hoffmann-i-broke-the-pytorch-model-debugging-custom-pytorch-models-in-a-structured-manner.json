@@ -1,0 +1,24 @@
+{
+  "description": "When building PyTorch models for custom applications from scratch there's usually one problem: The model does not learn anything. In a complex project, it can be tricky to identify the cause: Is it the data? A bug in the model? Choosing the wrong loss function at 3 am after an 8-hour coding session?\n\nIn this talk, we will build a toolbox to find the culprits in a structured manner. We will focus on simple ways to ensure a training loop is correct, generate synthetic training data to determine whether we have a model bug or problematic real-world data, and leverage pytest to safely refactor PyTorch models.\n\nAfter this talk, visitors will be well equipped to take the right steps when a model is not learning, quickly identify the underlying reasons, and prevent bugs in the future.",
+  "duration": 2311,
+  "language": "eng",
+  "recorded": "2023-04-17",
+  "related_urls": [
+    {
+      "label": "Talk Page",
+      "url": "https://2023.pycon.de/program/GXAKV8/"
+    }
+  ],
+  "speakers": [
+    "Clara Hoffmann"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/BDEBF62iZx0/maxresdefault.jpg",
+  "title": "I broke the PyTorch model - Debugging custom PyTorch models in a structured manner",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BDEBF62iZx0"
+    }
+  ]
+}
