@@ -1,0 +1,28 @@
+{
+    "title": "Who Does Python Trust, and Why?",
+    "description": "We all know how important it is to make sure that you see the \"secure\" padlock icon when paying for something online. It's simple, easy to understand, and automatic. \r\n\r\nIs your code the same? How would you start to make sure it is? Let\u2019s dive into those questions in this talk.\r\n\r\nFirst off, the basics: security is based on trust, but trust must be verified. This is especially true in the design of \"zero-trust\" networks. Knowing who your code trusts, and how you verify that trust, is therefore essential. \r\n\r\nThis talk will briefly go through some of the basics, such public/private key cryptography, DNS, and x509 certificate signing, before examining some of the wider implementation and regulation of PKI (Public Key Infrastructure) online. We'll look at how python interfaces with this, along with some history, and look towards the future of important integrations like certifi and truststore.\r\n\r\nWe'll then look at the problems of Supply Chain Attacks and ask how much you should trust your dependencies, before looking at some of the other basic services your code relies on like DNS. \r\n\r\nWe\u2019ll then see how you can leverage these trust mechanisms to your advantage to make your code as secure as possible, especially when working in your own cloud environment. \r\n\r\nHopefully, this talk will give you a headstart or a refresh on the knowledge required to have genuinely constructive paranoia when coding. \r\n\r\nFailing that, at the very least, I promise to make you the go-to expert on how your company's VPN and proxy cause headaches in python and how to fix them securely, rather than giving up and setting a \"trusted-host\". Hopefully you\u2019ll come away having learned a new swear word that you\u2019ll never type again:  `pip config set global.verify_ssl false`.",
+    "duration": 1603,
+    "language": "eng",
+    "recorded": "2025-11-02",
+    "speakers": [
+        "Dom Weldon"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "url": "https://dl.afpy.org/pycon-fr-25/who_does_python_trust_and_why.mp4",
+            "size": 222494237
+        },
+        {
+            "type": "peertube",
+            "url": "https://indymotion.fr/videos/watch/991eba2d-0da3-45fc-a29f-30eb35187882"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://www.pycon.fr/2025/en/schedule.html"
+        }
+    ],
+    "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/e4994758-d74e-4c12-b5a3-d7dca9c31031.jpg"
+}
