@@ -1,0 +1,29 @@
+{
+    "title": "Cartographier les dommages caus\u00e9s aux b\u00e2timents avec Python et le satellite Sentinel-1",
+    "description": "En tant qu'organisation active dans la r\u00e9duction de la violence arm\u00e9e, la r\u00e9duction des risques de catastrophe et les situations d'urgence, Handicap International (HI) intervient dans de multiples contextes o\u00f9 les dommages caus\u00e9s aux b\u00e2timents sont tr\u00e8s fr\u00e9quents. L'\u00e9valuation de ces dommages est une information essentielle pour hi\u00e9rarchiser les zones d\u2019intervention et les activit\u00e9s \u00e0 mettre en \u0153uvre. Lorsque de vastes zones sont touch\u00e9es par des al\u00e9as d\u2019origine naturelle ou des conflits arm\u00e9s, l'imagerie satellite fournit des donn\u00e9es pr\u00e9cieuses pour mener \u00e0 bien ces \u00e9valuations. \r\n\r\nLes images radar du satellite Sentinel-1, coupl\u00e9es \u00e0 une analyse statistique r\u00e9alis\u00e9e avec Python, permettent d\u2019\u00e9valuer les dommages caus\u00e9s aux b\u00e2timents sans recourir \u00e0 des images \u00e0 tr\u00e8s haute r\u00e9solution ou \u00e0 des mod\u00e8les avanc\u00e9s d\u2019intelligence artificielle. Ce test statistique consiste \u00e0 calculer une *t-value* par pixel \u00e0 partir d\u2019images avant et apr\u00e8s la survenue des dommages, puis \u00e0 la moyenner sur les emprises de b\u00e2timent afin de caract\u00e9riser la pr\u00e9sence de dommages \u00e0 partir d\u2019une valeur seuil de cette *t-value* moyenne. \r\n\r\nNous pr\u00e9senterons comment la mise \u00e0 disposition en open-source du code du [Pixel-Wise T-Test](https://arxiv.org/abs/2405.06323) par Ollie Ballinger a permis \u00e0 HI de tester cet algorithme et de l\u2019adapter \u00e0 ses enjeux de priorisation des activit\u00e9s.",
+    "duration": 1887,
+    "language": "fra",
+    "recorded": "2025-11-02",
+    "speakers": [
+        "Fr\u00e9d\u00e9ric Lamy",
+        "Pierre-Henri Dubois"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "url": "https://dl.afpy.org/pycon-fr-25/cartographier_les_dommages_causes_aux_batiments_avec_python_et_le_satellite_sentinel_1.mp4",
+            "size": 298128089
+        },
+        {
+            "type": "peertube",
+            "url": "https://indymotion.fr/videos/watch/12feec47-6270-4ad1-b88d-582416392ea7"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://www.pycon.fr/2025/fr/schedule.html"
+        }
+    ],
+    "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/a31a31b8-ac0d-43c3-9277-566fb4cd8206.jpg"
+}

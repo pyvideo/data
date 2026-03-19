@@ -1,0 +1,28 @@
+{
+    "title": "Universal Python Extensions: Performance, Compatibility, Sustainability, and Less CO\u2082",
+    "description": "Python's long-term relevance for numerical computing faces a long-term threat, not from\r\nexternal competition alone, but from fundamental architectural decisions that prevent the\r\nentire ecosystem from achieving better performance. While PyPy and GraalPy can make pure\r\nPython code 4x faster than CPython, they face an existential crisis: the moment you\r\nimport NumPy or any package with C extensions, that performance advantage disappears\r\ncompletely.\r\n\r\nThis isn't just a technical curiosity. It's putting alternative Python implementations in\r\ngenuine danger of end-of-life status.\r\n\r\n#### The Hard Truth about Python's Performance Future\r\n\r\n**The compatibility trap:** Python's C extension system creates an insurmountable barrier\r\nbetween implementations. Popular packages like NumPy, Pandas, and scikit-learn are locked\r\ninto CPython-specific APIs, making faster interpreters effectively unusable for\r\nreal-world numerical work. Worse, the current C API also constrains CPython itself,\r\npreventing future performance improvements that would break existing extensions.\r\n\r\n**HPy: promise and reality:** The HPy project aimed to solve this with a universal C API,\r\nshowing impressive preliminary results with extensions that work across CPython, PyPy,\r\nand GraalPy. However, the project has stalled without sufficient corporate and community\r\nsupport, a critical opportunity slipping away.\r\n\r\n**The limited API alternative:** CPython's limited C API offers another path, but with\r\nsignificant constraints and unclear long-term viability for the ecosystem's needs.\r\n\r\n#### What this Talk Proposes\r\n\r\nRather than accepting this situation, we need coordinated community action. This talk\r\nargues for:\r\n\r\n- **Community recognition:** The Python community must acknowledge these performance\r\n  limitations as a serious long-term challenge, not just a nice-to-have improvement.\r\n\r\n- **Official support:** A PEP process to formalize the need for universal C API/ABI\r\n  solutions compatible with JIT Python compilers, with a dedicated working group to study\r\n  possible solutions and coordinate actions across different ecosystem actors.\r\n\r\n#### Why We Need to Act Now\r\n\r\nThe stakes extend far beyond technical performance. Enabling more efficient Python\r\ninterpreters would have two transformative effects:\r\n\r\n- **More Python:** More performance-sensitive code could be written in pure Python with\r\n  object-oriented patterns and small objects, rather than requiring native extensions,\r\n  simplifying development and deployment.\r\n- **Environmental impact:** Given Python's massive global usage, significant performance\r\n  improvements would translate to measurable CO2 emission reductions across millions of\r\n  applications worldwide.\r\n\r\nWithout community mobilization, we risk losing both alternative Python implementations\r\nand Python's competitive position in performance-critical domains. The technical\r\nfoundations exist but need coordinated effort to become reality.\r\n\r\n#### Target Audience\r\n\r\nThis talk is for Python developers who care about the ecosystem's long-term health.\r\nWhether you're a package maintainer or concerned user, you'll understand the stakes and\r\nlearn how to contribute to solutions.\r\n\r\nCome prepared to discuss hard truths about Python's future and leave with concrete\r\nactions for community engagement.",
+    "duration": 2901,
+    "language": "eng",
+    "recorded": "2025-11-02",
+    "speakers": [
+        "Pierre Augier"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "url": "https://dl.afpy.org/pycon-fr-25/universal_python_extensions_performance_compatibility_sustainability_and_less_co2.mp4",
+            "size": 296793665
+        },
+        {
+            "type": "peertube",
+            "url": "https://indymotion.fr/videos/watch/e064f283-3b3f-4ba2-939f-f7903fdc3fb1"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://www.pycon.fr/2025/en/schedule.html"
+        }
+    ],
+    "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/c7a8d5a3-34cd-46cc-96b4-1080825e733e.jpg"
+}

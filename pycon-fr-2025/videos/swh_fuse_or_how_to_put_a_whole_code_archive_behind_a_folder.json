@@ -1,0 +1,28 @@
+{
+    "title": "swh-fuse, or how to put a whole code archive behind a folder",
+    "description": "Since 2015 [Software Heritage](https://www.softwareheritage.org/) is archiving all source code available on the Internet, and has collected more than 25 billion files over 400 million repositories. You can mount all this content transparently after a `pip install swh-fuse`.\r\n\r\nIn this talk we'll show how to implement such virtual filesystem, thanks to Python bindings to `libfuse`. swh-fuse aims to unlock a massively parallel access to the archive, so we'll also discuss how to enable a few thousand mounts at the same time on HPC clusters. We'll encounter a `ProcessPoolExecutor`, pluggable back-ends abstracted by `typing.Procotol`, a Python module implemented in Rust, and worry about free-threading.",
+    "duration": 1579,
+    "language": "eng",
+    "recorded": "2025-11-02",
+    "speakers": [
+        "Martin Kirchgessner"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "url": "https://dl.afpy.org/pycon-fr-25/swh_fuse_or_how_to_put_a_whole_code_archive_behind_a_folder.mp4",
+            "size": 206843416
+        },
+        {
+            "type": "peertube",
+            "url": "https://indymotion.fr/videos/watch/e536605e-0635-432d-8d84-431870fb05d9"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://www.pycon.fr/2025/en/schedule.html"
+        }
+    ],
+    "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/e6321e90-9d7f-4bb5-81fe-f98d8e3fb006.jpg"
+}

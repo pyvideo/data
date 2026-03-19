@@ -1,0 +1,28 @@
+{
+    "title": "Comment g\u00e9rer un changelog facilement quand on est plusieurs\u202f?",
+    "description": "G\u00e9rer un *changelog* **utile** pour les utilisateurs\u00b7trices d'une application/biblioth\u00e8que n\u2019est pas facile.\r\n\r\nLes messages de commit sont \u00e0 destination des d\u00e9veloppeurs\u00b7euses et peuvent difficilement \u00eatre utilis\u00e9s comme *changelog* coh\u00e9rent pour une version. Mettre \u00e0 jour un fichier unique `CHANGELOG.md` semble une solution simple\u2026 sauf quand on commence \u00e0 travailler \u00e0 plusieurs, avec des branches, *rebases*, *merges* et autres conflits possibles.\r\n\r\nJe propose d\u2019expliquer une solution que j\u2019ai mise en place dans un outil en Python (**ezchlog** `[easy changelog]`) qui permet de r\u00e9soudre cette probl\u00e9matique en utilisant de petits fichiers `changelog` qui se fusionneront dans le fichier g\u00e9n\u00e9ral quand on le veut (lors d\u2019une version par exemple).\r\n\r\nL\u2019outil est en Python 3.9+, typ\u00e9, test\u00e9 avec une couverture de +90% et enti\u00e8rement configurable.\r\n\r\nP.S.\u202f: J\u2019ai \u00e9galement d\u00e9velopp\u00e9 le m\u00eame outil en Rust et je peux bri\u00e8vement parler des diff\u00e9rences de d\u00e9veloppement si \u00e7a int\u00e9resse du monde.",
+    "duration": 1493,
+    "language": "fra",
+    "recorded": "2025-11-01",
+    "speakers": [
+        "Cyrille Pontvieux"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "url": "https://dl.afpy.org/pycon-fr-25/comment_gerer_un_changelog_facilement_quand_on_est_plusieurs.mp4",
+            "size": 201370883
+        },
+        {
+            "type": "peertube",
+            "url": "https://indymotion.fr/videos/watch/ae4f7d3e-4c40-4530-9138-6765d18b074e"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://www.pycon.fr/2025/fr/schedule.html"
+        }
+    ],
+    "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/0894f78d-252b-4a52-9f4c-d3907dfdb503.jpg"
+}

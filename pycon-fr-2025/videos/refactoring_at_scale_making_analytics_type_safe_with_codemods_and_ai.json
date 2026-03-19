@@ -1,0 +1,28 @@
+{
+    "title": "Refactoring at Scale: Making Analytics Type-Safe with Codemods and AI",
+    "description": "This talk presents a large-scale refactoring effort of Sentry\u2019s backend analytics system, transforming a fragile, stringly typed event tracking API into a type-safe, maintainable solution. The original system lacked static validation, relied on manual event registration, and frequently caused subtle runtime bugs due to mismatched attributes and missing imports.\r\n\r\nThe team introduced a new approach using Python\u2019s dataclasses, a custom @eventclass decorator, and a stricter analytics.record API, enabling full mypy support and simplifying inheritance. However, migrating hundreds of event classes, call sites, and heavily mocked tests posed significant challenges.\r\n\r\nInitially, AI coding assistants like Copilot and Cursor were expected to automate the migration. In practice, they produced unreliable and inconsistent results. Instead, the team leveraged codemods built with libcst, with AI assisting in generating the migration tooling rather than performing the refactor directly. The migration was then split into smaller, team-owned pull requests to ensure reviewability.\r\n\r\nAttendees will gain insights into:\r\n\r\n- Designing type-safe replacements for legacy, stringly typed APIs\r\n- Building reliable Python codemods with libcst\r\n- Strategies for breaking down and managing large-scale migrations\r\n- Where AI can - and cannot - help in real-world refactoring efforts\r\n\r\nThis session provides practical lessons for anyone facing the daunting task of modernizing legacy Python systems.",
+    "duration": 1628,
+    "language": "eng",
+    "recorded": "2025-11-02",
+    "speakers": [
+        "Fabian Schindler"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "url": "https://dl.afpy.org/pycon-fr-25/refactoring_at_scale_making_analytics_type_safe_with_codemods_and_ai.mp4",
+            "size": 215471182
+        },
+        {
+            "type": "peertube",
+            "url": "https://indymotion.fr/videos/watch/b8239f20-9bf9-4899-91b0-6ffc2e65c941"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://www.pycon.fr/2025/en/schedule.html"
+        }
+    ],
+    "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/338a56f2-a03a-4377-bc14-7a7deea13bd9.jpg"
+}

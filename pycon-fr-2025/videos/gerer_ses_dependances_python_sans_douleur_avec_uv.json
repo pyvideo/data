@@ -1,0 +1,28 @@
+{
+    "title": "G\u00e9rer ses d\u00e9pendances Python sans douleur avec uv",
+    "description": "*Comment j\u2019ai nettoy\u00e9 mes projets Python avec uv.*\r\n\r\nJe g\u00e9rais mes d\u00e9pendances avec venv, puis avec pipenv. Quand on a commenc\u00e9 \u00e0 parler de uv, j'ai pens\u00e9 \u00ab\u202foh non, encore un nouvel outil qu'il va falloir apprivoiser\u202f\u00bb.\r\n\r\nEt puis via un tuto, j\u2019ai d\u00e9couvert uv, un gestionnaire d\u2019environnement et de d\u00e9pendances cod\u00e9 en Rust, rapide, simple, et diablement efficace. Et je me suis dit qu'il fallait que j'en parle.\r\n\r\nDans ce talk, je vous propose un **retour d'exp\u00e9rience concret**\u202f: comment je suis pass\u00e9e \u00e0 une gestion propre et reproductible de mes projets. On parlera de `uv init`, `uv add`, `uv sync`, de nettoyage avec `pipdeptree`, et m\u00eame de comment int\u00e9grer `uv run` dans des t\u00e2ches Cron.\r\n\r\nCe que vous apprendrez :\r\n\r\n- Pourquoi uv surpasse les outils traditionnels (pip, venv, pip freeze, etc.)\r\n- Comment fonctionne uv et pourquoi il est aussi rapide\r\n- Comment migrer un projet existant proprement\r\n- Comment organiser vos d\u00e9pendances avec des groupes (dev, test, doc, etc.)\r\n- Comment uv peut simplifier vos workflows (m\u00eame en prod ou en CI)\r\n\r\nUn talk **pratique**, **orient\u00e9 solution**, pour les d\u00e9veloppeur\u00b7ses Python qui veulent passer \u00e0 un outil moderne sans se noyer dans les d\u00e9tails techniques de Rust.\r\n\r\n*Pas besoin d\u2019avoir d\u00e9j\u00e0 utilis\u00e9 uv pour suivre ce talk.*",
+    "duration": 1616,
+    "language": "fra",
+    "recorded": "2025-11-01",
+    "speakers": [
+        "Ana\u00efs Gatard"
+    ],
+    "videos": [
+        {
+            "type": "mp4",
+            "url": "https://dl.afpy.org/pycon-fr-25/gerer_ses_dependances_python_sans_douleur_avec_uv.mp4",
+            "size": 216485986
+        },
+        {
+            "type": "peertube",
+            "url": "https://indymotion.fr/videos/watch/b900fe08-0152-4d61-82c3-3ab19e6ccd02"
+        }
+    ],
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://www.pycon.fr/2025/fr/schedule.html"
+        }
+    ],
+    "thumbnail_url": "https://indymotion.fr/lazy-static/thumbnails/e01a7527-7e62-4980-b74c-83f321c373ef.jpg"
+}
