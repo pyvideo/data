@@ -1,0 +1,26 @@
+{
+    "description": "We\u2019ve all been in a situation where test coverage was lacking. And unless you\u2019ve been *very* lucky, we\u2019ve all seen a situation where that lack of coverage led to bugs sneaking into production. With the complex backend and full-stack systems of today, it is unrealistic to expect any programmer to know exactly how a code change will affect all parts of the project. And we don\u2019t have to! That\u2019s why we have testing. And unit tests are the most accessible form of testing throughout the entire development process \u2014 it\u2019s accessible right there in your terminal with a simple \u201cpytest\u201d or \u201cmake tests\u201d. Unit tests are the first line of defense against bugs and breaks \u2014 let\u2019s ensure you have a strong, reliable Alexander the Great of unit test suites and not a temperamental, vulnerable Achilles Heel!\n\nThis talk is divided into two parts.\n\nPart One: Unit Testing Why, What and How \u2014 These topics will be called back to in Part Two when we talk about Django specific unit testing features.\n\n1. Why is Unit Testing important?\n2. An abbreviated analysis of Testing Behavior vs Testing Implementation\n3. How to Mock? When to Mock? Why to Mock?\n4. setUp/Class and tearDown/Class\n\nPart Two: Write Tests WITH Django not AGAINST Django\n\n1. Save Space! Use a Model Factory \u2014 DjangoModelFactory and how to simply extend for your needs.\n2. @override_settings() and other decorators to keep your unittests happy across environments\n3. Django Specific Assertions \u2014 such as assertContains on querysets, assertFormFails, etc.\n4. Do you *reeeeeally* want to call your serializers? When to mock serializers and other Django automations when the format doesn\u2019t matter nearly as much as the function. Do you really want your test to break when a new model field is added?\n5. SetUpTestData to automate the busy work of testing ORM\n6. Extending TestCase and building the Base Test Case of your dreams\n7. Utilize manage.py test\u2019s parameters to invoke tests in a way that serves *your* needs.\n\nWriting Code is better when your testing is better. Do yourself a favor and send your unit test skills to bootcamp!",
+    "language": "eng",
+    "recorded": "2025-09-08",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/easy-breezy-beautiful-django-unit-tests/"
+        }
+    ],
+    "speakers": [
+        "Colleen Dunlap"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/RAFB0J2AbGw/maxresdefault.jpg",
+    "title": "Easy, Breezy, Beautiful... Django Unit Tests",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=RAFB0J2AbGw"
+        }
+    ]
+}

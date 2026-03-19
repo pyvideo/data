@@ -1,0 +1,26 @@
+{
+    "description": "Deployment has been a sticking point for many Django developers as long as the framework has existed. With the 1.0 release of `django-simple-deploy`, that should no longer be the case. This release signifies a stable API, and most importantly a stable platform for building plugins.\n\nIf you haven't seen `django-simple-deploy` in action, it lets you deploy a project in three steps. Assuming you have the target platform's CLI installed, here's what that looks like:\n\n```\n$ pip install django-simple-deploy[<platform_name>]\n# Add django_simple_deploy to INSTALLED_APPS.\n$ python manage.py deploy --automate-all\n```\n\nThis currently works for Platform.sh, Fly.io, and Heroku. If you want a bit more control, you can separate out the configuration and deployment steps.\n\nThe plugin ecosystem\n---\n\nThe core `django-simple-deploy` library only does a little work. It inspects your system and your project, and then hands off to an external plugin (such as `dsd-platformsh`) to take care of platform-specific configuration and deployment work. It should be possible to write a plugin for just about any hosting platform that can be configured to support Django.\n\nEach PAAS provider needs its own plugin. However, a single plugin, `dsd-vps`, can be used to deploy to *any* VPS host: Digital Ocean, Linode, Hetzner, and many more.\n\nThis talk will discuss the following:\n\n- Why does the Django community need a deployment library?\n- What kinds of deployments can `django-simple-deploy` handle today?\n- What is the full range of use cases and benefits of this tool?\n- How can you contribute to the plugin ecosystem?\n\nJust about everyone in the community is affected by Django's deployment story. If you'd like Django to have a much simpler initial deployment story, this talk is for you.",
+    "language": "eng",
+    "recorded": "2025-09-10",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/automating-initial-deployments-with-django-simple-deploy/"
+        }
+    ],
+    "speakers": [
+        "Eric Matthes"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/GpHxaxnMAi4/maxresdefault.jpg",
+    "title": "Automating initial deployments with django-simple-deploy",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=GpHxaxnMAi4"
+        }
+    ]
+}

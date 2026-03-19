@@ -1,0 +1,26 @@
+{
+    "description": "Django\u2019s migration framework is a powerful tool for evolving your database schema, but with great power comes great responsibility. In production systems, the wrong migration at the wrong time can introduce serious performance issues or even temporary outages.\n\nThis talk demystifies what actually happens during makemigrations, migrate, and sqlmigrate, explains how Django interacts with the database engine, and highlights the locking behavior that can impact availability. Through real-world examples, we\u2019ll explore schema changes that are especially risky\u2014such as adding columns with defaults or modifying indexes\u2014and how to spot them in advance using Django\u2019s tools and external linters like Squawk.\n\nAttendees will leave with a practical toolkit of strategies for minimizing risk, including safe migration patterns, multi-step deployment techniques, and tips for planning changes during low-traffic windows. Whether you're running a high-traffic SaaS product or a growing internal tool, you'll walk away ready to make database changes with confidence.",
+    "language": "eng",
+    "recorded": "2025-09-08",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/peaceful-django-migrations/"
+        }
+    ],
+    "speakers": [
+        "Efe Öge"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/5QbLbL7QSec/maxresdefault.jpg",
+    "title": "Peaceful Django Migrations",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=5QbLbL7QSec"
+        }
+    ]
+}

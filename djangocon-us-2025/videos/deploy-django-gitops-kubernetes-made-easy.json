@@ -1,0 +1,26 @@
+{
+    "description": "This talk will show attendees how to streamline the day two operations of delivering and maintaining Python applications in production environments. It emphasizes GitOps principles, repeatable CI/CD workflows, and cloud-agnostic deployment using Kubernetes and Argo CD.\n\nDeploying code shouldn\u2019t be stressful. But too often, the journey from local dev to production is fragile, manual, and hard to debug. This talk is about building peace of mind into your pipeline \u2014 with GitOps, Kubernetes, and open source tools like Argo CD that make continuous delivery predictable, repeatable, and scalable from the very first release to the 50th.\n\nWe\u2019ll tackle the realities of \u201cday two\u201d DevOps \u2014 what happens after the first deploy. From managing rollbacks and coordinating releases to enforcing consistency across dev, staging, and production, you\u2019ll learn how to bring stability and scalability to your delivery pipeline.\n\nIn a live demo, we\u2019ll deploy a full stack Django app from GitHub to production using Argo CD and GitHub Actions \u2014 with observability, rollback strategies, and environment parity built in from the start.\n\n**You\u2019ll learn how to:**\n\n- Set up a GitOps-based CI/CD pipeline that works across all environments\n- Automate rollouts, rollbacks, and version control of infrastructure\n- Understand why Kubernetes is a future-proof platform for Django teams\n- Gain confidence in releasing updates safely, consistently, and at scale\n- Leverage open source tools to eliminate manual deployment headaches\n\nWhether you're writing the code or leading the team, you'll leave with a clear, practical blueprint for shipping faster \u2014 and with fewer surprises.",
+    "language": "eng",
+    "recorded": "2025-09-08",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/deploy-djang-gitops-kubernetes-made-easy/"
+        }
+    ],
+    "speakers": [
+        "Calvin Hendryx-Parker"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/tX0PxR0cnaE/maxresdefault.jpg",
+    "title": "Deploy Django: GitOps & Kubernetes Made Easy",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=tX0PxR0cnaE"
+        }
+    ]
+}
