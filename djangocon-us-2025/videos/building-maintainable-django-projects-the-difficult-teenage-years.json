@@ -1,0 +1,26 @@
+{
+    "description": "Rather than focusing on a single theme this talk touches on a range of real-world engineering problems and patterns, all centred around the challenges that arise in a mature codebase. Topics include:\n\n**1. Cross-Framework Harmony with Custom Events and `json_script`**\n\nStill stuck halfway through migrating to your new JavaScript framework 5 years later? (Just me?) I'll demonstrate a pattern which uses custom DOM events to keep things loosely coupled and how `json_script` can transmit structured data when you can't go all in on APIs.\n\n**2. Customising DRF for more consistent APIs and Observability**\n\nThe Django REST Framework is powerful, but building standard patterns around it makes it even better. I\u2019ll show how custom serializer fields and base viewsets can make data access consistent and enable things like automatic event tracking and monitoring endpoints.\n\n**3. Taming Long-Running Queries with Postgres Statement Timeouts**\n\nLong-running queries can kill user experience. By setting a `statement_timeout` in Postgres and pairing it with custom middleware and a database backend, we turn slow queries into graceful 503 responses that we can handle in the front-end.\n\n**4. Fine-Grained Permissions with Decorators and Feature Flags**\n\nWe'll look at how we can define flexible access rules per view or endpoint and how feature flags can provide gated access to beta features for specific user segments and internal use.\n\n**5. Better Logs with Middleware and Request Tracing**\n\nWe'll explore middleware patterns for injecting a shared `request_id` into logs, techniques for surfacing Django view names in nginx logs, and how to connect database monitoring to specific HTTP requests for a full trace through the stack.\n\nWhether you\u2019re wrangling a large project or trying to avoid turning your fresh greenfield into a mess, these tips aim to make your Django stack more predictable, observable, and maintainable.",
+    "language": "eng",
+    "recorded": "2025-09-09",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/building-maintainable-django-projects-the-difficult-teenage-years/"
+        }
+    ],
+    "speakers": [
+        "Alex Henman"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/J30ltoatmYo/maxresdefault.jpg",
+    "title": "Building maintainable Django projects: the difficult teenage years",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=J30ltoatmYo"
+        }
+    ]
+}

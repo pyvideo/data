@@ -1,0 +1,26 @@
+{
+    "description": "Have you avoided heavyweight JavaScript frameworks because they're overwhelming, complicated, or difficult to integrate? \n\nHas your current JavaScript solution devolved into an unmaintainable, unscalable, and untestable mess? \n\nNeed to bring real interactivity to your Django app but reluctant to commit to a full API-driven SPA? \n\nThis talk is for you.\n\nIn this 45-minute deep dive, you\u2019ll learn how to bring modern frontend power to your Django app without giving up the simplicity of Django Templates. Starting with a simple Django-only dice-rolling app, I'll show you how to incrementally build and integrate interactive Web Components that bring the application to life.\n\nYou\u2019ll see how Vue 3.5, the Vite build tool, and Web Components make it fast and easy to add full-featured, maintainable interactivity to your template-driven Django apps.\n\nBy the end of the talk, you'll understand how to:\n\n * Create a new Vue project and configure the Vite build tool\n * Create Vue Single File Components (SFCs) and compile them into native Web Components\n * Use Web Components directly in Django Templates by custom tag name\n * Manage and persist JavaScript state across page loads with Pinia\n * Debug and inspect Web Components and state live in-page\n * Style your components using existing site styles and scoped component styles\n * Pass data from Django to Web Components via properties and injection\n * Include rendered template content and media in Web Components using slots\n * Break interactive content out of their containers and place them anywhere using Teleport\n * Send data from Web Components to Django views via AJAX or POST requests\n * Dynamically render Django responses inside Web Components\n * Deploy your application using your existing static files setup",
+    "language": "eng",
+    "recorded": "2025-09-08",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/unleash-your-django-frontend-integrate-web-components-into-django-templates-with-vue/"
+        }
+    ],
+    "speakers": [
+        "Mike Hoolehan"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/PlK67x44u9o/maxresdefault.jpg",
+    "title": "Level Up Your Django Frontend: Integrate Web Components into Django Templates with Vue",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=PlK67x44u9o"
+        }
+    ]
+}

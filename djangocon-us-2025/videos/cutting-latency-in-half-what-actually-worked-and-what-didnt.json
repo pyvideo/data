@@ -1,0 +1,26 @@
+{
+    "description": "Join me as we dig into real-world Django performance challenges - from quick wins to stubborn bottlenecks that took multiple strategies to fix. Along the way, we\u2019ll explore how we identified what really needed improving - and what was a red herring. We\u2019ll walk through the code that caused the slowdowns, and examine the performance data to learn what actually made a difference.\n\nWe\u2019ll start with the often-overlooked topic of profiling, examining scenarios where our personal experience of the site didn\u2019t match what the performance metrics were telling us. We\u2019ll explore common mistakes in how performance is measured and why different goals require different metrics. Finally, we\u2019ll compare the strengths and weaknesses of various profiling tools available - so you can better understand where your real opportunities for improvement lie.\n\nFrom there, we\u2019ll learn what it means for querysets to be lazy, what an N+1 issue is, and the tools Django (and other third-party packages) provide to solve them. We\u2019ll explore why pagination can be slow, look at caching strategies to speed up your site, database indexes to speed up your queries, and examine common Django-specific bottlenecks - seeing in each case the difference these changes made in real life, not just in theory.\n\nWe\u2019ll also look at a few situations where the biggest improvements didn\u2019t come from deep ORM knowledge or database nuances, but from much simpler changes - and reflect on the lessons those experiences taught us.\n\nMaybe performance has always felt like a bit of a mystery to you, or maybe you\u2019re just curious how adding caching actually slowed our site down. Whether you\u2019re a beginner or a seasoned developer, this talk will equip you with practical tools, proven techniques, and guiding principles to make your Django apps faster and more efficient.",
+    "language": "eng",
+    "recorded": "2025-09-09",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/cutting-latency-in-half-what-actually-worked-and-what-didnt/"
+        }
+    ],
+    "speakers": [
+        "Timothy Mccurrach"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/jxk1BRTJsAY/maxresdefault.jpg",
+    "title": "Cutting latency in half: What actually worked\u2014and what didn\u2019t",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=jxk1BRTJsAY"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "description": "Traditional search in Django apps, typically powered by **queryset filters or keyword search, often fails to capture user intent**. It matches exact words but misses meaning. Vector search solves this by representing the \"meaning\" of data (text, images, audio, video, etc) as high-dimensional vectors generated with ML models, enabling more relevant, personalized, and faster results. \n\nIn this talk, you'll learn:\n- When traditional search with Postgres or Elasticsearch falls short\n- What vectors are, how vector search works, and when vector databases help\n- How to **integrate vector databases into your Django models** using django-semantic-search\n- A **demo of \"More products like this\" feature with vectors in a Django e-commerce app**\n- Brief understanding of **use cases beyond text search**: multi-modal search, recommendations, content discovery, clustering, anomaly detection, and retrieval-augmented generation (RAG)\n- The **trade-offs and limitations of vector search** \u2014 when it helps and when it doesn't\n\n### Who Should Attend\nThis session is for **intermediate Django developers** familiar with models, views, and basic querying. Vector search is becoming a high demand skill so everyone is welcome. But if you've built search features with filters or keyword search and are curious about taking them to the next level with vectors, this talk is definitely for you! \n\n### Prerequisites\n- Familiarity with Django ORM and basic database concepts\n- Exposure to search implementation using Postgres or Elasticsearch is helpful but not required\n- **Basic understanding of machine learning is helpful but not required**",
+    "language": "eng",
+    "recorded": "2025-09-09",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/beyond-filters-modern-search-and-more-with-vectors-in-django/"
+        }
+    ],
+    "speakers": [
+        "Kumar Shivendu"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/GvEkCBvvA_g/maxresdefault.jpg",
+    "title": "Beyond Filters: Modern Search (and more) with Vectors in Django",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=GvEkCBvvA_g"
+        }
+    ]
+}

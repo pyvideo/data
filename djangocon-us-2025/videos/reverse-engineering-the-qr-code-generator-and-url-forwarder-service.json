@@ -1,0 +1,26 @@
+{
+    "description": "Sharing urls using QR code is a common use case nowadays.\n\nYou might have seen restaurants sharing links to their menu or loyalty programs using QR code. A conference speaker might have lots of links to share during their talk, and it's not always practical to share long links in their presentation slides. Using QR code would help, but QR code creation is a mysterious process.\n\nThere are various websites and services that lets you generate QR codes. However, these services sometimes aren't free, or they might serve ads on the website. What's even worse, sometimes these services would mask your url with a their own url shortener or domain. Users will hesitate to scan your QR code if it is not clear where it's taking them to.\n\nLet's reverse engineer those services and see how we can build our own using Python and Django.\n\nYou can easily generate QR codes in Python using the `qrcode` Python library. It even lets you customize your QR code by adding colors and logo.\n\nAs you generate more QR codes yourself, you might find it tedious having to do it as a Python script. Wouldn't it be nice if you could do it in the browser?\n\nWhat if you need to change your URL after sharing the original QR code? For example, what if you've printed our the QR code in your promotional posters, and flyers? It's not always cost-efficient to re-print and re-distribute your materials just because you have a new URL. Therefore, you might have a need for a URL forwarder service.\n\nTake your Django knowledge to the next level by building a web service for QR code generation and url forwarder/shorterner.",
+    "language": "eng",
+    "recorded": "2025-09-09",
+    "related_urls": [
+        {
+            "label": "Conference Website",
+            "url": "https://2025.djangocon.us"
+        },
+        {
+            "label": "Talk Webpage",
+            "url": "https://2025.djangocon.us/talks/reverse-engineering-the-qr-code-generator-and-url-forwarder-service/"
+        }
+    ],
+    "speakers": [
+        "Mariatta"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/7knxXLg4enA/maxresdefault.jpg",
+    "title": "Reverse engineering the QR code generator and URL forwarder service",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=7knxXLg4enA"
+        }
+    ]
+}
