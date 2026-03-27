@@ -1,0 +1,56 @@
+{
+  "description": "Turning Pandas DataFrames to Semantic Knowledge Graph\nSpeaker: Cheuk Ting Ho\n\nSummary\nStoring data in tables has its limitations. Usually joining and aggregations are required to represent more complicated datasets and extract desirable data. Storing data in a semantic graph may be the solution and I am showing you how to programmatically switching from pandas to the knowledge graph.\n\nDescription\nRemember how many times you look up \u201chow to do this in pandas\u201d? Though it is the most popular data handling library in Python, it is quite complicated due to the rigidness of storing data in tabular formats. This is most obvious when the data stored is imported from a JSON file and end up having multiple layers of objects. At this point, you wished for a data structure that let you store data with objects and subclasses, just like in object-orientated programs. The answer? Semantic knowledge graphs.\n\nIn this talk, Cheuk will first introduce what is semantic knowledge graphs. It\u2019s building block: triples, and how all data can be described will them - with objects and properties. Cheuk will assume no prior knowledge and will explain via examples and visualization with the TerminusDB model builder - a graphical interface that allows you to build schemas for semantic knowledge graphs.\n\nIn the next part, Cheuk will show how to construct a schema based on a pandas DataFrame. With the Python client of TemrinusDB, schema can be built programmatically follow by importing the data in the DataFrame. In this part, basic Python knowledge is assumed. In this part, Cheuk will show the internals of pandas, dissecting it and reconstruct a knowledge graph schema. Cheuk will also show the code that transforms the data and insert them in the prepared graph.\n\nFinally, Cheuk will visualize the graph in a customized interactive graph visualization in Jupyter notebook.\n\nThis talk is for data scientist and engineers who works with data and using pandas a lot. They may need a new tool and new skills to expand their repertoire of data handling and Semantic Knowledge Graph would be a high value one.\n\nCheuk Ting Ho's Bio\nAfter spending 5 years doing computational research in Physics, Cheuk has transferred her analytical and logical skills in natural science and built a career in data science. Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, now Cheuk is the Developer Relations Lead at TerminusDB - an open-source graph database. Cheuk maintains its Python client and engages with its user community daily.\n\nBesides her work, Cheuk enjoys talking about Python in personal streaming platform and MidMeetPy podcast. Cheuk has also been a guest speaker at Universities and various conferences. On top of speaking at conferences, Cheuk also participates as organizers. Conferences that Cheuk has organized include EuroPython(which she is a board member of), PyData Global and Pyjamas Conf. Believing in gender equality, Cheuk constantly organizes workshops and mentored sprints to support Tech Diversity and Inclusion. In 2021, Cheuk has become a Python Software Foundation fellow.\n\nGitHub: https://github.com/Cheukting/\nTwitter: https://twitter.com/chuekting_ho/\nLinkedIn: https://www.linkedin.com/in/cheukting-ho/\nWebsite: https://cheuk.dev/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1592,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/cheukting-ho/",
+      "url": "https://www.linkedin.com/in/cheukting-ho/"
+    },
+    {
+      "label": "https://cheuk.dev/",
+      "url": "https://cheuk.dev/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://twitter.com/chuekting_ho/",
+      "url": "https://twitter.com/chuekting_ho/"
+    },
+    {
+      "label": "https://github.com/Cheukting/",
+      "url": "https://github.com/Cheukting/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Cheuk Ting Ho"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OJx-lQHH-JY/maxresdefault.jpg",
+  "title": "Turning Pandas DataFrames to Semantic Knowledge Graph",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OJx-lQHH-JY"
+    }
+  ]
+}
