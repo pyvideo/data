@@ -1,0 +1,24 @@
+{
+  "description": "PyData Eindhoven 2022\n\nWhen A/B testing is not possible but we are still interested in drawing causal conclusions from our data, we need to resort to quasi-experimental approaches. This is the landscape that Just Eat Takeaway.com is navigating in, where we often have experimental data about a specific city, and are interested in knowing what the effects would be on another city. When we drop the requirement of causality and are merely interested in generating likely scenarios, we can use the power of predictive modelling to our advantage. From predicting likely future scenarios, to generating synthetic order data on a minute-to-minute basis, all is possible using the right statistical tools. Even in the absence of pure experimental data, we are still able to model likely futures. This talk is relevant for data scientists that are interested in the intersection of statistics and predictive modelling, and some basic knowledge about these topics will be assumed. The first half of the presentation (0-15) will talk about quasi-experimental models, the second half (15-30) will talk about scenario and data generation.\n\nWithin Just Eat Takeaway.com we are often interested in knowing the causal effect of a certain treatment, such as a price change or a marketing campaign, on the predicted order volume. However, in the absence of a pure A/B test, we need to be smart. The first half of the presentation (0-15 minutes) will delve deeper into the problem of causal modelling for quasi-experiments. In particular, we will go over some statistical models that are able to estimate the counterfactuals. A counterfactual can be seen as a what-if: What would have happened if we did (or did not) deploy a certain treatment? Some techniques that are used within Just Eat Takeaway.com to solve this problem are difference in difference and synthetic control. We will delve a little deeper into these techniques and show the audience how they can be used to answer our question.\n\nThe second half of the presentation (15-30) will be concerned with scenario generation. If we drop the requirement of causality, and are merely interested in generating scenarios that are historically correlated with our treatment, we can use advanced predictive models to generate several futures for multiple values of our treatment. For example, we could predict several futures of order volume by considering several price changes over time. I will briefly mention a recent promising model that is able to deal with such multivariate time series called the Temporal Fusion Transformer. I will end the presentation with models for synthetic data generation, called Gaussian copulas, that are able to generate realistic order data on a minute to minute basis given the possible futures that we predict. This data can be used to predict how many couriers we would need in a city to successfully fulfil the demand and to estimate what possible hiccups there could be.\n\nThe takeaway of the talk is that even in the absence of pure experimental data, we are still able to model likely futures and to act upon this.",
+  "duration": 1939,
+  "language": "eng",
+  "recorded": "2022-12-02",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2022/"
+    }
+  ],
+  "speakers": [
+    "Max Knobbout"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/48iCZP0rYl4/maxresdefault.jpg",
+  "title": "Causal inference and scenario generation within Just Eat Takeaway.com",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=48iCZP0rYl4"
+    }
+  ]
+}
