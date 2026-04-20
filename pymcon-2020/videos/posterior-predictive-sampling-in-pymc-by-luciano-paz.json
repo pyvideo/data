@@ -1,0 +1,52 @@
+{
+  "description": "Speaker: Luciano Paz\n\nTitle: Posterior Predictive Sampling in PyMC\n\nVideo: https://www.youtube.com/watch?v=IhTfuO8wSDA\n\n\n\nEvent description:\nPyMC is great for inferring parameter values in a model given some observations, but sometimes we also want to generate random samples from the model as predictions given what we already inferred from the observed data. This kind of sampling is called posterior predictive sampling, and it can be very hard. The typical problems that show up are related to shape mismatches in hierarchical models, latent categorical values that aren\u2019t correctly re-sampled or changing the shape of the data between the training and test phases. In this presentation I\u2019ll talk about how posterior predictive sampling is implemented in PyMC, show some typical situations where it fails, and how to make it work.\n\n\nDiscourse Discussion\nhttps://discourse.pymc.io/t/posterior-predictive-sampling-in-pymc3-by-luciano-paz/6028\n\n\n## Timestamps\n00:00 Start of event\n00:22 Background on PyMC3 common workflow and posterior predictive distribution\n02:56 What is this presentation about?\n03:19 Simple model without posterior predictive problems\n04:27 Create train and test data\n05:12 Translate the math into PyMC3\n06:52 Visualize and plot the model and predictions\n08:20 Make predictions on the new data\n09:29 Shape problems \n12:46 A simple extension of linear regression\n17:26 View the results of the extension\n17:50 Error on the test data\n19:15 What happens if we try to marginalize label out of the model?\n21:38 Shape problem with the test data\n22:55 Solution, a functional approach \n27:50 Factory functions aren\u2019t a silver bullet\n28:12 Manually trim the inferred posterior\n29:22 Challenges with sampling \n32:10 How can PyMC help?\n32:45 Conclusion\n\n\n## Note: help us add timestamps here\nhttps://github.com/pymc-devs/video-timestamps\n\n\nSpeaker bio:\nLuciano got into Bayesian stats during his PhD in cognitive neuroscience. During his postdoc he got more involved with machine learning, and discovered PyMC. He became a core contributor of PyMC, learnt a lot in the process and made up his mind to pursue a career outside of academia. He is now a machine learning engineer at Innova SpA in Italy.\n\n\nSpeaker info: \n-GitHub:  https://github.com/lucianopaz\n-Website: https://lucianopaz.github.io/\n-LinkedIn: https://it.linkedin.com/in/luciano-paz-4139b5123\n\n\nPart of PyMCon2020. \nMore details at http://www.pymcon.com  \n\n\n#bayesian #PyMC #sampling",
+  "duration": 1971,
+  "language": "eng",
+  "recorded": "2020-10-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymc-devs.github.io/pymcon/"
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=IhTfuO8wSDA",
+      "url": "https://www.youtube.com/watch?v=IhTfuO8wSDA"
+    },
+    {
+      "label": "http://www.pymcon.com",
+      "url": "http://www.pymcon.com"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/posterior-predictive-sampling-in-pymc3-by-luciano-paz/6028",
+      "url": "https://discourse.pymc.io/t/posterior-predictive-sampling-in-pymc3-by-luciano-paz/6028"
+    },
+    {
+      "label": "https://github.com/pymc-devs/video-timestamps",
+      "url": "https://github.com/pymc-devs/video-timestamps"
+    },
+    {
+      "label": "https://lucianopaz.github.io/",
+      "url": "https://lucianopaz.github.io/"
+    },
+    {
+      "label": "https://it.linkedin.com/in/luciano-paz-4139b5123",
+      "url": "https://it.linkedin.com/in/luciano-paz-4139b5123"
+    },
+    {
+      "label": "https://github.com/lucianopaz",
+      "url": "https://github.com/lucianopaz"
+    }
+  ],
+  "speakers": [
+    "Luciano Paz"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/IhTfuO8wSDA/maxresdefault.webp",
+  "title": "Posterior Predictive Sampling in PyMC",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IhTfuO8wSDA"
+    }
+  ]
+}
