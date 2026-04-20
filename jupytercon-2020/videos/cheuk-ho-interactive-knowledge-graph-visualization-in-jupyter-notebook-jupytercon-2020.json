@@ -1,0 +1,36 @@
+{
+  "description": "Brief Summary\nNeed a nice knowledge graph visualization? Graphviz is not interactive and is difficult to customize. D3 is interactive but I don\u2019t wanna write JavaScript. Having a Python library that makes interactive graph visualization in Jupyter notebook is like a dream and we will show you how it came true.\n\nOutline\nIn the first part of the talk, we will talk a bit about how to render JavaScript in Jupyter notebook. We may use Jupyter Notebook every day but we do not know that is can render JavaScript as well as Python. Hopefully in this part, we will give you enough information to know how JavaScript can be injected and rendered in Jupyter Notebook. We will show it with an example of rendering a D3 graph.\n\nThe second part of the talk will be the fun part, we will wrap the JavaScript in a Python modile that can control the D3 graph with Python script. So we have to design an API to let users make changes using Python objects and methods, then translate it into effective JavaScript and got rendered like what we did before. We will show you how we make it work with our graph database Python client.\n\nThis talk will assume you have some basic understanding in Python, Jupyter Notebook and D3. Recommended to people who had some experience in programming, preferably in Python and JavaScript.",
+  "duration": 725,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "Cheuk Ho"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fclLpp9U8aw/sddefault.jpg",
+  "title": "Interactive Knowledge Graph Visualization in Jupyter Notebook",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fclLpp9U8aw"
+    }
+  ]
+}
