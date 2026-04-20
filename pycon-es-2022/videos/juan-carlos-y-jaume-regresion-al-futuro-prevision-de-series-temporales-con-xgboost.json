@@ -1,0 +1,25 @@
+{
+  "description": "Ponente: Juan Carlos Gonzalez-Avella y Jaume Perelló Perelló\nTítulo: Regresión al Futuro: Previsión de Series Temporales con XGBoost\nAula: Teoría 6 (Sábado)\n-----------------------------------\nResumen:\nCuando hablamos de modelado de series de tiempo, generalmente nos referimos a técnicas basadas en modelos autorregresivos tales como ARIMA, VARMA entre otros, o tal vez la implementación de redes neuronales recurrentes. Estos modelos de análisis de series temporales requieren un alto grado de especialización y en muchas ocasiones no son de fácil implementación. Sin embargo, con la evolución de las técnicas basados en ML han emergido nuevos y más eficientes modelos para el análisis de series temporales. Entre ellos podemos destacar el uso de XGBoost y que se puede considerar como un enfoque avanzado del análisis de series temporales. XGBoost es una implementación eficiente de aumento de gradiente para problemas de clasificación y regresión. Es rápido y eficiente, tiene un buen desempeño, si no el mejor, en una amplia gama de tareas de modelado predictivo. El XGBoost también se puede utilizar para la previsión de series temporales, aunque requiere que el conjunto de datos de la serie temporal se transforme primero en un problema de aprendizaje supervisado. También requiere el uso de una técnica especializada para evaluar el modelo, ya que evaluar el modelo usando la validación cruzada k-fold daría como salidas resultados optimistamente sesgados.\n\nEn la contribución oral exploraremos las claves necesarias de cómo desarrollar un modelo XGBoost para la previsión de series temporales. Describiremos cómo usar los conjuntos de datos de series temporales y transformarlos en datos para aprendizaje supervisado mediante una representación de ventana deslizante así de cómo ajustar, evaluar y hacer predicciones con un modelo para la previsión de series temporales. Mostraremos un caso de éxito y como se ha implementado en una aplicación web.",
+  "duration": 1852,
+  "language": "spa",
+  "recorded": "2022-09-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2022.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "Juan Carlos Gonzalez-Avella",
+    "Jaume Perelló Perelló"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/QZoAaauw6fo/maxresdefault.jpg",
+  "title": "Regresión al Futuro: Previsión de Series Temporales con XGBoost",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=QZoAaauw6fo"
+    }
+  ]
+}
