@@ -1,0 +1,28 @@
+{
+  "description": "Doing geoscience is hard. It’s even harder if you have to figure out how to handle large amounts of data!\n\nXarray is an open-source Python library designed to simplify the handling of labeled multi-dimensional arrays, like raster geospatial data, making it a favorite among geoscientists. It allows these scientists to easily express their computations, and is backed by Dask, a Python library for parallel and distributed computing, to scale computations to entire clusters of machines.\n\nPeople love using Xarray on Dask for geospatial workloads, but only up to about the terabyte scale. At this point, the stack can struggle, requiring expertise to work well and frustrating users and developers alike.\n\nTo address this and enable the Dask ❤️ Xarray stack to scale to hundreds of terabytes, we have recently designed a suite of large-scale geospatial benchmarks. With the help of these benchmarks, we are able to understand what limits performance within Dask and Xarray, and to address these issues.\nIn this talk, we will explore how Dask integrates with libraries like Xarray and Zarr to scale geospatial workloads and other multi-dimensional array computations.\n\nWe will also dive deeper into some of the bottlenecks in the Dask ❤️ Xarray stack that our benchmarks revealed, as well as some of the recent improvements we have made in these areas. With the help of our benchmark suite, we then assess the impact of these changes.\n\nJoin us to discover how Dask helps you scale geoscience workloads from your laptop to the cloud.\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "duration": 1771,
+  "language": "eng",
+  "recorded": "2024-12-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2024"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Hendrik Makait"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/KJxJRx7KQtc/maxresdefault.jpg",
+  "title": "Dask ❤ Xarray: Geoscience at Massive Scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KJxJRx7KQtc"
+    }
+  ]
+}
