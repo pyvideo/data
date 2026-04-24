@@ -1,0 +1,40 @@
+{
+  "description": "Ponente\nNombre: Simone Giacomelli\nTítulo: Python all the way down: Seamless Server and in-Browser web programming with wwwpy, Pyodide and WASM.\nSala: Antequera\n——————\nSlides for this talk: http://tiny.cc/wwwpy-pycones23\n\nIn this talk, we'll venture into a new frontier of web development by introducing an innovative method that seamlessly integrates server-side and in-browser programming. This transformative approach leverages the flexibility and power of Python and is made possible by Pyodide, a Python distribution operating on WebAssembly, and wwwpy, a pioneering library (authored by the speaker) that seamlessly integrates Python server-side operations with Pyodide.\n\nThe disconnect between server-side and client-side programming is a prevalent challenge in web development: diverse languages and data structures in play at each end reduce the seamless communication and code reusability.\n\nThe solution lies in Python's versatility, bridging this gap through Pyodide and wwwpy. By utilizing Python on both server and client (browser), a myriad of benefits is brought forth:\n\nThe reuse of Python knowledge for client-side code which leverages the developer’s existing Python expertise and past experiences.\nThe lower impedance between server and client is made possible by employing identical data structures (datetime, integer, float, list, set, dict, etc.) on both ends.\nThe transparent interaction between client and server through secure RPC (Remote Procedure Call).\nThe intrinsic development efficiency of sharing code between the two programming environments.\nThe possibility to perform DOM manipulation and Web API usage directly with Python.\nThe empowering capability to directly access and use JavaScript/TypeScript libraries from within Python, harmoniously blending diverse coding ecosystems and extending Python's functionality.\nIn this context, Pyodide enables Python code execution directly within browsers and Node.js environments, effectively harnessing Python's potential to redefine the web development paradigm, and wwwpy provides a transparent way to invoke server functions from the browser and a Widget class to interact effortlessly with HTML5 elements.\n\nAn additional highlight is Pyodide's support for a variety of packages, including pure Python wheels from PyPI, and pure Python and binary wasm32/emscripten wheels, featuring more than 150 packages such as numpy, scikit-learn, matplotlib, scipy, beautifulsoup4, and networkx.\n\nThis talk will fundamentally change the way you perceive web development by introducing an integrated approach, reducing friction between server and client-side and elevating code reuse to new heights.\n\nJoin us to explore the future of web programming, where Python reigns, from the server to the browser. Your web development journey will never be the same again!\n\n—\nPython España: https://es.python.org/\nPython Canarias: https://pythoncanarias.es/\nTwitter/X: @PyConES\nMastodon: https://fosstodon.org/@pycones",
+  "duration": 2390,
+  "language": "spa",
+  "recorded": "2023-10-06",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.es.pycon.org/"
+    },
+    {
+      "label": "https://fosstodon.org/@pycones",
+      "url": "https://fosstodon.org/@pycones"
+    },
+    {
+      "label": "https://pythoncanarias.es/",
+      "url": "https://pythoncanarias.es/"
+    },
+    {
+      "label": "https://es.python.org/",
+      "url": "https://es.python.org/"
+    },
+    {
+      "label": "http://tiny.cc/wwwpy-pycones23",
+      "url": "http://tiny.cc/wwwpy-pycones23"
+    }
+  ],
+  "speakers": [
+    "Simone Giacomelli"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/zGYVIbeUWUg/maxresdefault.webp",
+  "title": "Python all the way down: Seamless Server and in-Browser web programming with wwwpy, Pyodide and WASM",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zGYVIbeUWUg"
+    }
+  ]
+}
