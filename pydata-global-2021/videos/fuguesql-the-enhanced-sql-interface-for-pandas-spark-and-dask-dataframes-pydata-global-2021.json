@@ -1,0 +1,40 @@
+{
+  "description": "FugueSQL - The Enhanced SQL Interface for Pandas, Spark, and Dask DataFrames\nSpeaker: Chengxuan Wang\n\nSummary\nSQL users working with Pandas, Spark, and Dask DataFrames quickly realize SQL is a second-class interface, invoked between predominantly Python code. We will introduce FugueSQL, an enhanced SQL interface that allows SQL lovers to express end-to-end workflows predominantly in SQL. With a Jupyter notebook extension, SQL commands used for interactive handling of in-memory datasets.\n\nDescription\nTo cater users coming from a SQL background, Pandas, Spark, and Dask have SQL interfaces (some unofficial) that allow SQL lovers to manipulate DataFrames in their language of choice. Still, these SQL interfaces are often insufficient for being used for end to end workflows. Having such an interface would allow SQL users to seamlessly transition between working on databases, to working on flat files. There would remove the need to learn specific frameworks to work with data in-memory.\n\nIn this talk we'll introduce FugueSQL, a language that allows SQL-lovers to use their preferred tool in expressing end-to-end computation workflows. FugueSQL has additional keywords such as LOAD and SAVE that support ETL operations on flat files such as parquet and csv. Because SQL as an interface is agnostic to frameworks, FugueSQL also allows scaling from Pandas to Spark or Dask without any code change.\n\nTo elevate FugueSQL as a first class interface for working with data, enhancements such as variable assignment, jinja templating, and Python interoperability have been added. Python functions can be invoked inside predominantly SQL code. FugueSQL also is meant to take advantage of the Spark and Dask engines to handle big data. Thus, it has support for distributed compute-relevant operations such as PARTITION, PERSIST and BROADCAST. In this talk, we will show the functionality of FugueSQL for end-to-end Extract, Transform, Load (ETL) pipelines with the Spark and Dask engines.\n\nChengxuan Wang's Bio\nI am currently a software engineer in stealth startup that intersecting manufacturing, real estate and food, connecting the digital and physical worlds with software. Previously, I was in cruise and lyft to build scalable and traceable machine learning platform that automates data preprocessing, model training and deployment.\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1729,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    }
+  ],
+  "speakers": [
+    "Chengxuan Wang"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OBpnGYjNBBI/maxresdefault.jpg",
+  "title": "FugueSQL - The Enhanced SQL Interface for Pandas, Spark, and Dask DataFrames",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OBpnGYjNBBI"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "description": "Computations as Assets - a New Approach to Reproducibility and Transparency\nSpeakers: Anders Berkeman, Carl Drougge, Sofia H\u00f6rberg\n\nSummary\nThe ExAx open source project from eBay provides reproducibility, transparency, and fast parallel processing in Python.\n\nThis talk will show how reproducibility by design actually leads to a simpler and faster development process.\n\nTo make our examples more interesting, we will use relatively large datasets such as those from NYC Taxi and Backblaze.\n\nDescription\nHave you ever been struggling to keep order in an increasing set of temporary data files, holding intermediate results corresponding to different steps and versions of the processing?\n\nHave you ever been in a situation where you have tried playing with parameters and small code changes to see how it affects the program's performance, and then cannot remember exactly which setting that performed the best?\n\nHave you ever re-run your complete processing pipeline just to \"make sure\" that the graph you are looking at actually comes from the data and source code you thought it did?\n\nThe ExAx project is designed to avoid problems like these. It treats computations as assets, tagging computed results with links to input data and source code, and stores them permanently on disk in a way that can be easily looked up and retrieved later. In addition, ExAx provides a simple way to parallel process large datasets in Python on a single computer.\n\nExAx is open source from eBay. It runs on anything from laptops to rack servers, it can be used in a production environment with multiple users, and it can easily handle datasets with tens of billions of rows.\n\nAnders Berkeman's Bio\nAnders Berkeman has been working with data science and data processing architectures for the last ten years. He is a Master Researcher at Ericsson Research, and a frequent teacher in machine learning, and data science at Ericsson. He holds a Ph.D. in Applied Electronics.\n\nHis previous positions include Data Science Architect at eBay, Chief Architect at Expertmaker (acquired by eBay), Chip designer at ARM, and Telecommunication algorithm developer at Cambridge Silicon Radio.\n\nDr. Berkeman initiated the ExAx project in 2012, and he has been actively involved in the project since then.\n\nGitHub: https://github.com/berkeman/\nLinkedIn: https://www.linkedin.com/in/andersberkeman/\nWebsite: https://expertmakeraccelerator.org/\n\nCarl Drougge's Bio\nCarl Drougge is a senior software developer with a wide experience, including high level Python programming as well as design of efficient low level libraries in C or assembler. He is a Researcher at Ericsson Research.\n\nHis previous positions include Software Engineer at eBay and software guru at Expertmaker (acquired by eBay).\n\nCarl Drougge is the maintainer of the Acclerator project, which he has been involved in since the start.\n\nGitHub: https://github.com/drougge/\n\nSofia H\u00f6rberg's Bio\nLinkedIn: https://www.linkedin.com/in/sofia-h%C3%B6rberg-95364076/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1603,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://www.linkedin.com/in/sofia-h%C3%B6rberg-95364076/",
+      "url": "https://www.linkedin.com/in/sofia-h%C3%B6rberg-95364076/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://www.linkedin.com/in/andersberkeman/",
+      "url": "https://www.linkedin.com/in/andersberkeman/"
+    },
+    {
+      "label": "https://expertmakeraccelerator.org/",
+      "url": "https://expertmakeraccelerator.org/"
+    },
+    {
+      "label": "https://github.com/berkeman/",
+      "url": "https://github.com/berkeman/"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://github.com/drougge/",
+      "url": "https://github.com/drougge/"
+    }
+  ],
+  "speakers": [
+    "Anders Berkeman",
+    "Carl Drougge",
+    "Sofia Hörberg"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/J4zvLJn3ya8/maxresdefault.webp",
+  "title": "Computations as Assets - a New Approach to Reproducibility and Transparency",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=J4zvLJn3ya8"
+    }
+  ]
+}

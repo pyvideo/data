@@ -1,0 +1,48 @@
+{
+  "description": "Data Processing at Scale: Some Attention for Attenuation Bias\nSpeaker: Ruben Mak\n\nSummary\nThe outcomes of our models are not always what we intent to get. In my opinion, we should pay more attention to attenuation bias (also referred to as measurement error bias). I will describe how to identify potential biases and how this is traditionally solved with orthogonal regression. I will then show the novel solution we use at our company to account for attenuation bias in geo experiments.\n\nDescription\nThe outcomes of our models are not always what we intent to get. In my opinion, we should pay more attention to attenuation bias (also referred to as measurement error bias or regression dilution). When there is noise in the independent variables (i.e. features) the parameters of your model will be biased towards 0. You might think this is only an issue when doing inference, but from a machine learning perspective you might suffer the exact same problems depending on how the predictions are being used.\n\nI will explain orthogonal regression, which is traditionally used to solve attenuation bias. I will use this example to explain why you can only solve correct for attenuation bias when having at least some information about the noise in your independent variables.\n\nThe second part will be about how we handle attenuation bias in geo experiments at our company. I will first introduce geo experiments for causal inference and explain why there is potential attenuation bias. We will then dive into the code to show how we can account for this attenuation.To my knowledge, our method is not used outside of our company. Resources like Google's white paper do refer to orthogonal regression, but do not mention the simple but powerful solution we propose.\n\nAs a bonus, I would like to explain how this relates to imputation for missing variables. I would then like to argue why you should be careful in following Andrew Gelman in applying random regression imputation because of attenuation bias.\n\nRuben Mak's Bio\nCo-founder of PyData Eindhoven and presented a couple of times at PyData Amsterdam. Fan of Bayesian statistics, causal inference and differential privacy. Working with my amazing colleagues on cutting-edge technologies, defining the future of the advertising ecosystem.\nGitHub: https://github.com/rubenmak/\nLinkedIn: https://www.linkedin.com/in/rubenmak/?originalSubdomain=nl\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 6527,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://www.linkedin.com/in/rubenmak/?originalSubdomain=nl",
+      "url": "https://www.linkedin.com/in/rubenmak/?originalSubdomain=nl"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://github.com/rubenmak/",
+      "url": "https://github.com/rubenmak/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Ruben Mak"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ns6tEiGNMhQ/maxresdefault.jpg",
+  "title": "Data Processing at Scale",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ns6tEiGNMhQ"
+    }
+  ]
+}

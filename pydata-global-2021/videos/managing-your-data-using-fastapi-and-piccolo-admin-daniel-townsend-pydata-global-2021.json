@@ -1,0 +1,64 @@
+{
+  "description": "Managing your data using FastAPI and Piccolo Admin\nSpeaker: Daniel Townsend\n\nSummary\nMaking your data easy to consume, whether via an API or an admin interface, is very important. This talk will introduce Piccolo ORM, which is a library which helps you create a REST API with Swagger documentation in record time, along with a modern admin GUI which will delight your users. It is built on top of Postgres, and a modern async database adapter, to deliver impressive performance.\n\nDescription\nIntroduction to FastAPI and Piccolo ORM\n\nFastAPI is a popular async web framework, which makes building a REST API with Swagger docs very easy.\n\nPiccolo is an async ORM and query builder, primarily for PostgreSQL, which works well with FastAPI. It has lots of 'batteries included' - such as the admin interface.\n\nA brief overview of both tools will be given.\n\nDoes async matter\n\nA quick overview of async in Python, and why it's a useful tool to have in your tool belt.\n\nWhy PostgreSQL?\n\nPiccolo primarily supports PostgreSQL. A quick overview of the reasons for this will be given.\n\nCreating a REST API and admin GUI in 5 minutes\n\nWith FastAPI and Piccolo you can create API's very efficiently. The demo will use Piccolo to scaffold an entire web application in just a few minutes, which exposes your data in an API, and via a nice admin interface.\n\nA brief tour of the admin GUI, and its powerful filtering abilities\n\nThe Piccolo admin has powerful filtering capabilities, which will be demoed briefly. Coupled with the CSV export abilities, makes it a great tool for users consuming your data.\n\nSome other advantages of Piccolo ORM (such as the playground)\n\nPiccolo ships with a tool called the playground. It consists of a pre-populated database, and iPython shell, which provides a low friction way of learning Piccolo's query syntax, and about databases in general. The benefits of these sorts of tools will be briefly discussed, along with some examples of the more innovative query syntax that Piccolo provides.\n\nSLIDES\n\nThe slides are now available to download: https://github.com/piccolo-orm/pymdb/raw/master/pydata_global_presentation.pdf\n\nThe code used in the demo is also available: https://github.com/piccolo-orm/pymdb/\n\nDaniel Townsend's Bio\nDan is a full stack developer and tech lead, with a love for Python, and creating nice UI. He is based in the UK, and started his career after picking up a secondhand book on HTML, which sparked a lifelong interest in building digital products. He's often found tinkering with web sockets, Postgres, and asyncio.\nGitHub: https://github.com/dantownsend/\nTwitter: https://twitter.com/danieltownsend/\nLinkedIn: https://www.linkedin.com/in/danieltownsenduk/\nWebsite: https://dantownsend.co.uk/\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1661,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://github.com/dantownsend/",
+      "url": "https://github.com/dantownsend/"
+    },
+    {
+      "label": "https://github.com/piccolo-orm/pymdb/",
+      "url": "https://github.com/piccolo-orm/pymdb/"
+    },
+    {
+      "label": "https://dantownsend.co.uk/",
+      "url": "https://dantownsend.co.uk/"
+    },
+    {
+      "label": "https://twitter.com/danieltownsend/",
+      "url": "https://twitter.com/danieltownsend/"
+    },
+    {
+      "label": "https://www.linkedin.com/in/danieltownsenduk/",
+      "url": "https://www.linkedin.com/in/danieltownsenduk/"
+    },
+    {
+      "label": "https://github.com/piccolo-orm/pymdb/raw/master/pydata_global_presentation.pdf",
+      "url": "https://github.com/piccolo-orm/pymdb/raw/master/pydata_global_presentation.pdf"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Daniel Townsend"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/aRmrXf_zOfQ/maxresdefault.jpg",
+  "title": "Managing your data using FastAPI and Piccolo Admin",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aRmrXf_zOfQ"
+    }
+  ]
+}

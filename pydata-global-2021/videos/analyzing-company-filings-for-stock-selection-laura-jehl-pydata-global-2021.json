@@ -1,0 +1,40 @@
+{
+  "description": "Analyzing Company Filings for Stock Selection \u2013 A Practical Report\nSpeaker: Laura Jehl\n\nSummary\nThis talk will present our work on gathering and analyzing 10K and 10Q filings using NLP techniques. These publicly available quarterly and annual reports contain valuable information for stock holders on the performance of listed companies. We explore how information can be extracted automatically from the full-text and deployed in a quantitative stock selection model.\n\nDescription\nThis talk will present our work on gathering and analyzing 10K and 10Q filings using NLP techniques. These publicly available quarterly and annual reports contain valuable information for stock holders on the performance of listed companies. We explore how information can be extracted automatically from the full-text and deployed in a quantitative stock selection model. While the NLP methods presented are not novel, we highlight lessons learned from processing the data and transfering academic results into a real-world application.\n\nOn the technical side, the talk will (1) sketch our Python pipeline for data set construction and daily updating; (2) describe the methods for analyzing content within reports and relations between reports. On the analytical side, we present experimental results and discuss challenges which arise when determining the usefulness of these methods in the context of a financial model.\n\nWe will see that - Analyzing this data set requires large-scale resources, and keeping information up-to-date can be tricky. - Simple bag-of-words based methods for document similarity, readability and sentiment can easily be implemented.Evaluations in a model context show promise, but putting them into practice poses additional challenges. - Promising research on measuring competitiveness using network analysis is hard to replicate when evaluated with more business-related metrics.\n\nThe talk will be application-focused. It should be of interest to developers and researchers looking into financial NLP, and anyone interested in the company filings data set.\n\nLaura Jehl's Bio\nCurrently working as a researcher (Team Forecasts) at Quoniam Asset Management GmbH.\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1663,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    }
+  ],
+  "speakers": [
+    "Laura Jehl"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/nvr6pqvWdNc/maxresdefault.jpg",
+  "title": "Analyzing Company Filings for Stock Selection",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nvr6pqvWdNc"
+    }
+  ]
+}

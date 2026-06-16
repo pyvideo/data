@@ -1,0 +1,45 @@
+{
+  "description": "Towards Collaborative Reproducibility: Pinning Repository of Binary Distributions\nSpeakers: Nguy\u1ec5n Gia Phong, Huy Ngo\n\nSummary\nInstead of pinning individual requirements or packaging up the entire environment in a container, how about archiving a repository snapshot of all dependencies? This talk will explore the characteristics of this approach, as well as what have been done with the InterPlanetary Wheels to realize them.\n\nDescription\nIPWHL is a fresh take on Python dependency management. It aims to be a downstream wheel supplier (in a similar fashion to GNU/Linux distributions), whilst taking advantage of a content-addressing peer-to-peer network to provide a reproducible, easy-to-mirror source of packages.\n\nWhile communicating the ideas around IPWHL, I will also discuss and compare it with common packaging and archival practices, highlighting the gap between upstream developers and the users of their libraries, in the following order:\n\nUpstream and downstream development: why do we need both?\nPyPI is a package index, not a user-facing repository!\nContainers are not as useful as you (might) think.\nIs IPWHL one-size-fits-all? No, but\u2026\nHow to use IPWHL and how can one help?\nAfter the presentation, an attendee shall know the advantages (and shortcomings) of IPWHL and how to get started. Prior knowledge on Python packaging and IPFS can be helpful, but not required to understand the content of the talk.\n\nNguy\u1ec5n Gia Phong's Bio\nOn the Internet, I am more commonly known as McSinyx, a Vietnamese free software enthusiast. My areas of interest surround programming languages, concurrency, reproducibility and decentralization.\nWebsite: https://cnx.srht.site/\n\nHuy Ngo's Bio\n--\n\nPyData Global 2021\nWebsite: https://pydata.org/global2021/\nLinkedIn: https://www.linkedin.com/company/pydata-global\nTwitter: https://twitter.com/PyData\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 831,
+  "language": "eng",
+  "recorded": "2021-10-28",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2021/"
+    },
+    {
+      "label": "https://www.linkedin.com/company/pydata-global",
+      "url": "https://www.linkedin.com/company/pydata-global"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://cnx.srht.site/",
+      "url": "https://cnx.srht.site/"
+    },
+    {
+      "label": "https://twitter.com/PyData",
+      "url": "https://twitter.com/PyData"
+    },
+    {
+      "label": "https://pydata.org/global2021/",
+      "url": "https://pydata.org/global2021/"
+    }
+  ],
+  "speakers": [
+    "Nguyễn Gia Phong",
+    "Huy Ngo"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/51FAin5RyHY/maxresdefault.jpg",
+  "title": "Towards Collaborative Reproducibility: Pinning Repository of Binary Distributions",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=51FAin5RyHY"
+    }
+  ]
+}
