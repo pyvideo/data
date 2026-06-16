@@ -1,0 +1,40 @@
+{
+  "description": "Brief Summary\nWe are developing a modern open-source Fortran compiler called LFortran (https://lfortran.org/). This compiler can compile Fortran source code to binaries as well as enable the interactive execution of code in environments like Jupyter. This will allow exploratory work (much like Python, MATLAB or Julia) which is currently not feasible with Fortran.\n\nOutline\nAbstract\nWe are developing a modern open-source Fortran compiler called LFortran (https://lfortran.org/). This front-end compiler will enable the interactive execution of code in environments like Jupyter. This will allow exploratory work (much like Python, MATLAB or Julia) which is currently not feasible. The interactivity of our compiler does not impede compilation of binaries with the goal to run user's code on modern architectures such as multi-core CPUs and GPUs, which is an essential requirement for wider Fortran adoption that current Fortran compilers do not address well. A Live demo of the compiler with a Jupyter notebook will be shown. The compiler itself is written in C++ for robustness and speed with optional Python wrappers to improve inter-operability. It parses Fortran code to an Abstract Syntax Tree (AST) and transforms it to an Abstract Semantic Representation (ASR). LFortran has several backends that transform the ASR to machine code via LLVM, or to C++, or to provide automatic Python wrappers. More backends are planned. The compiler has been designed to be modular so that data can be extracted/inserted between the different stages, which is an important feature that would support an ecosystem of tools that otherwise would be hard with a monolithic compiler.",
+  "duration": 1572,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://lfortran.org/",
+      "url": "https://lfortran.org/"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "Ondřej Čertík"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-MKZjeRozPI/sddefault.jpg",
+  "title": "LFortran",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=-MKZjeRozPI"
+    }
+  ]
+}

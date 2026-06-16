@@ -1,0 +1,36 @@
+{
+  "description": "Brief Summary\nIf you've ever looked at a git diff of a Jupyter notebook, I don't need to restate the problem. For those unfamiliar: Notebooks are rich documents. Source control is built for text documents. We're a data science team that works with Jupyter notebooks and Github every day. This talk covers how we use open source tools, processes, and conventions to have a delightful experience with notebooks.\n\nOutline\nIf you've ever looked at a git diff of a Jupyter notebook, I don't need to restate the problem. For those unfamiliar: Notebooks are rich documents. Source control is built for text. Messy notebook diffs stop teams from using source control for notebooks and, more importantly, from code-reviewing each other's work.\n\nWe're a data science team that works with Jupyter notebooks and Github. Every day our team has many people working on projects together. We all use the same data, we all like to work in notebooks, we all like to use source control, and we code review everything that goes into our projects. This talk covers how we use open source tools, processes, and conventions to have a delightful experience with notebooks.\n\nWe start with a consistent project template that makes it easy to know where notebooks should live within our codebases. In our case, we use the Cookiecutter Data Science template, which we are the maintainers of. We will also introduce in this talk some learned best practices around naming and organizing multiple notebooks. In this template notebooks are isolated from other code, and because of that we can easily configure another tool we recently open sourced, nbautoexport, to automatically save the exported .py version of a notebook whenever the notebook is saved.\n\nWith these configured, when we do pull requests in GitHub, we can open the newly executed notebook side-by-side with the diff of the code. We can comment directly on the changed code in the way that makes code reviews effective and still see what happened in the notebook. We will walk through this process step-by-step to demonstrate how other teams can easily use the same workflow.\n\nFinally, we will discuss some extensions of this work\u2014such as executing notebooks using continuous integration\u2014that can help make teams using notebooks in source control even more effective.\n\nOverall, you just need to know about Jupyter notebooks to learn something from this talk, and we expect attendees to come away with tools and processes they can bring to their own work (alone or on teams) that will make their notebook experience even more delightful!",
+  "duration": 1817,
+  "language": "eng",
+  "recorded": "2020-10-05",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://web.archive.org/web/20201030085456/https://jupytercon.github.io/jupytercon2020-website/"
+    },
+    {
+      "label": "https://jupytercon.com/about/#Organizing%20Committee\u00a0",
+      "url": "https://jupytercon.com/about/#Organizing%20Committee\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/sponsors/\u00a0",
+      "url": "https://jupytercon.com/sponsors/\u00a0"
+    },
+    {
+      "label": "https://jupytercon.com/\u00a0",
+      "url": "https://jupytercon.com/\u00a0"
+    }
+  ],
+  "speakers": [
+    "Peter Bull"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/sQQJNjYdaUA/sddefault.jpg",
+  "title": "The Grail: A Github Process for Jupyter Notebooks that Just Works",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sQQJNjYdaUA"
+    }
+  ]
+}
