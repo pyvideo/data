@@ -1,0 +1,40 @@
+{
+  "description": "In this talk, we discuss how we can use the python package PySTAN to estimate the Lifetime Value (LTV) of the users that can be acquired from a marketing campaign, and use this estimate to find the optimal bidding strategy when the LTV estimate itself has uncertainty. Throughout the presentation, we highlight the benefits from using Bayesian modeling to estimate LTV, and the potential pitfalls when forecasting LTV. By the end of the presentation, attendees will have a solid understanding of how to use PySTAN to estimate LTV, optimize their marketing campaign bidding strategies, and implement the best Bayesian modelling solution. All of the contents and numbers in this presentation can be found in the shared GIT\n\nWe describe how to use the PySTAN to forecast the LTV of the marketing campaigns. PySTAN is a Python interface to STAN, which is a package for Bayesian inference capable of high-performance statistical computation. PySTAN\u2019s computation speed is essential in a marketing context, where we need to predict the LTV of multiple marketing campaigns over a long period, while still estimating the LTV distribution. We demonstrate how to implement a PySTAN model to predict a time-series using the Lifetime Value data from Kaggle [2], which contains approximately 200 days, in less than 2 minutes.\nWe then compare how we can achieve the exact same model with PyMC, another well-known probabilistic modelling library, and in which situations and conditions PySTAN outperforms PyMC.\n\nWith the LTV accurately predicted for the Lifetime Value data, we explain the steps to optimize the bid of marketing campaigns under uncertainty about the accuracy of our predictions. We show how different levels of uncertainty of our LTV predictions can change the optimal bidding strategy and answer questions such as \u201cHow much should we underbid when we are unsure of our LTV?\u201d.\nBy the end of the presentation, attendees will be able to implement PySTAN or PyMC to estimate LTV, know which of these two libraries is most appropriate for their needs, and apply this knowledge to find the best bidding strategy for their marketing campaigns.\n\nIn this presentation, we will thus cover the following topics:\n\nIntroduction to digital advertisement\n- Modelling advertisement for digital products\n- How to find the optimal bid for your marketing campaign\n- The role that uncertainty on the estimated LTV plays in your marketing strategy\n\nForecasting LTV with PySTAN\n- What is PySTAN\n- How to use PySTAN to estimate the LTV of your marketing campaigns\n- How to achieve the same model through PyMC\n- Comparison between PySTAN and PyMC\n\nReferences\n- The Duopoly is over because everything is an ad network[ [https://mobiledevmemo.com/the-duopoly-is-over-because-everything-is-an-ad-network/]\n- Lifetime Value data from Kaggle: https://www.kaggle.com/datasets/baetulo/lifetime-value?select=train.csv\n- Why Uncertainty Matters when forecasting Lifetime Value: https://raphaeltamaki.github.io/raphaeltamaki/posts/Forecasting%20Customer%20Lifetime%20Value%20-%20Why%20Uncertainty%20Matters/\n\nBio:\nRaphael de Brito Tamaki\nData Science Lead in the Marketing Science @Meta, where I use causal inference techniques to extract insights to help advertisers increase their marketing performance. Prior to joining Meta, I worked at Wildlife Studios - a mobile game studio with over 2B total downloads - where I was the Tech Lead for the Lifetime Value (LTV) prediction team, and implemented and maintained LTV models in production for over 10 games\n\n\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1721,
+  "language": "eng",
+  "recorded": "2023-09-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://amsterdam2023.pydata.org/cfp/schedule/"
+    },
+    {
+      "label": "https://www.kaggle.com/datasets/baetulo/lifetime-value?select=train.csv",
+      "url": "https://www.kaggle.com/datasets/baetulo/lifetime-value?select=train.csv"
+    },
+    {
+      "label": "https://raphaeltamaki.github.io/raphaeltamaki/posts/Forecasting%20Customer%20Lifetime%20Value%20-%20Why%20Uncertainty%20Matters/",
+      "url": "https://raphaeltamaki.github.io/raphaeltamaki/posts/Forecasting%20Customer%20Lifetime%20Value%20-%20Why%20Uncertainty%20Matters/"
+    },
+    {
+      "label": "https://mobiledevmemo.com/the-duopoly-is-over-because-everything-is-an-ad-network/",
+      "url": "https://mobiledevmemo.com/the-duopoly-is-over-because-everything-is-an-ad-network/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Raphael de Brito Tamaki"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/hcQST0RnN_o/maxresdefault.jpg",
+  "title": "Forecasting Customer Lifetime Value (CLTV) for Marketing Campaigns under Uncertainty with PySTAN",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=hcQST0RnN_o"
+    }
+  ]
+}

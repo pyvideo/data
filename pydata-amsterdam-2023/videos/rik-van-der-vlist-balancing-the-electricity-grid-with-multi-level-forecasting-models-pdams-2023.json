@@ -1,0 +1,28 @@
+{
+  "description": "Join us as we explore the complexities of balancing the electricity grid amidst the rise of renewable energy sources. We\u2019ll discover the challenges in forecasting electricity consumption from diverse industrial resources and the modelling techniques employed by Sympower to achieve accurate forecasts. Gain insights into the trade-offs involved in aggregating data at different hierarchical levels in time series forecasting.\n\nThe shift to renewable energy sources presents a major challenge for the electricity grid: solar and wind facilities are constantly varying in power output, making it harder to keep the supply and demand in balance. This creates a need for demand response: strategic activation or deactivation of large industrial resources to balance the electricity grid. Reliable demand response requires an accurate forecast of industrial electricity consumption, to get a clear understanding of which resources can be controlled at what time.\n\nIn this talk we will discuss the challenges faced when forecasting electricity consumption from industrial resources from different kinds of industries such as furnaces, greenhouses or paper mills. We\u2019ll discuss the different modelling approaches for predicting time series including regression, forecasting and deep learning, and we will discuss the suitability of each in different scenarios. Using the forecasting of electricity consumption of industrial resources as an example, we show how we make our forecasts at Sympower to help balance the electricity grid.\n\nFinally we will discuss a trade-off in forecasting: Trends and seasonality often only emerge at aggregate levels, making forecasting at the aggregate level easier. On the other hand, business often requires precision-level insights. Aggregate data is inherently less noisy since the errors tend to cancel out, but also might fail to capture lower-level details. We will discuss the considerations to make when forecasting at different aggregated levels in time or across groups, and what you could do to forecast consistently across different aggregate levels..\n\nKEY TAKEAWAYS\n- Gain insights into selecting the most suitable modelling technique for your forecasting need\n- Understand the challenges posed by the evolving electricity grid and the significance of demand response\n- Explore the trade-offs involved in aggregating data at different hierarchical or temporal levels in time series forecasting\n\nBio:\nRik van der Vlist\nRik is a machine learning engineer with a strong foundation in electrical engineering and a specialization in leveraging electricity data for smart use cases. With previous experience at Eneco, he has focused on delivering automated home energy insights to large group of customers. Currently, Rik is dedicated to constructing a scalable forecasting model for a sustainable electricity grid, combining his passion for data science and sustainable solutions. He thrives on creating value and generating insights from raw data, demonstrating his proficiency in building robust and scalable data pipelines using Spark and Python.\n\n\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1472,
+  "language": "eng",
+  "recorded": "2023-09-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://amsterdam2023.pydata.org/cfp/schedule/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Rik van der Vlist"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/30x-TYxZ6QY/maxresdefault.jpg",
+  "title": "Balancing the electricity grid with multi-level forecasting models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=30x-TYxZ6QY"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "description": "In this talk, we will explore the Bayesian Bradley Terry model implemented in PyMC. We will focus on its application for ranking tennis players, demonstrating how this probabilistic approach can provide an accurate and robust rankings, arguably better than the ATP ranking itself and the Elo rating system.\n\nBy leveraging the power of Bayesian statistics, we can incorporate prior knowledge, handle uncertainty, and make better inferences about player abilities. Join us to learn how to implement the Bayesian Bradley Terry model in PyMC and discover its advantages for ranking tennis players.\n\nThe Bradley Terry model is a powerful model to predict the outcome of a paired comparison, as a by-product we will be able to rank players based on their hidden (latent) ability scores. Traditionally, rankings have been based on simple win-loss records, which may not capture the true abilities of players due to variations in competition quality and sample size. By adopting a Bayesian framework, we can overcome these limitations and obtain more reliable rankings.\n\nIn this talk, we will introduce the Bayesian Bradley Terry model and its underlying principles. We will explore how to encode the model in Python using the PyMC library. We will walk through the step-by-step implementation, highlighting key considerations and practical tips.\n\nTo illustrate the model's effectiveness, we will showcase its application to ranking tennis players, and compare it with both the official ATP ranking and the ELO ranking system. Tennis provides an ideal domain for this analysis, as it involves head-to-head matches between players, allowing us to directly compare their abilities. By applying the Bayesian Bradley Terry model to historical tennis match data, we can generate rankings that better reflect players' true skills, accounting for factors such as opponent strength and match surface.\n\nThroughout the talk, we will emphasize a hands-on approach, providing code examples and demonstrations. Attendees will gain a solid understanding of the model, learn how to implement it using PyMC, a practical application, possible extensions and maybe a few PyMC tricks along the way.\n\nOutline\nWhat's wrong with current tennis ranking.\nIntroduction to the Bayesian Bradley Terry model.\nImplementation of the model in PyMC.\nApplication to ranking tennis players by latent ability score.\nComparison with ATP ranking and ELO rating system.\nPossible extensions and other applications.\n\nBio:\nFrancesco Bruzzesi\nData scientist at HelloFresh with a background in pure mathematics.\nOpen source enthusiast and ML practitioner.\n\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1513,
+  "language": "eng",
+  "recorded": "2023-09-14",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://amsterdam2023.pydata.org/cfp/schedule/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Francesco Bruzzesi"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/z79fClXBOnM/maxresdefault.jpg",
+  "title": "Bayesian ranking for tennis players in PyMC",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=z79fClXBOnM"
+    }
+  ]
+}
