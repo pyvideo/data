@@ -1,0 +1,28 @@
+{
+  "description": "GraphRAG is a popular way to use KGs to ground AI apps. Most GraphRAG tutorials use LLMs to build graph automatically from unstructured data. However, what if you're working on use cases such as investigative journalism and sanctions compliance -- \"catching bad guys\" -- where transparency for decisions and evidence are required?\n\nThis talk explores how to leverage open data, open models, and open source to build investigative graphs which are accountable, exploring otherwise hidden relations in the data that indicate fraud or corruption. This illustrates techniques used in production use cases for anti-money laundering (AML), ultimate beneficial owner (UBO), rapid movement of funds (RMF), and other areas of sanctions compliance in general.\n\nThis approach uses Python open source libraries, e.g., the KùzuDB graph database and LanceDB vector database. For each NLP task we use state-of-the-art open models (mostly not LLMs) emphasizing how to tune for a domain context: named entity recognition, relation extraction, textgraph, entity linking, as well as entity resolution to merge structured data and produce a semantic overlay that organizes the graph.\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "duration": 1750,
+  "language": "eng",
+  "recorded": "2024-12-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2024"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Paco Nathan"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Nrsh6LzUk6A/maxresdefault.jpg",
+  "title": "Catching Bad Guys using open data and open models for graphs",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Nrsh6LzUk6A"
+    }
+  ]
+}

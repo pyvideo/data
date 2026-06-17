@@ -1,0 +1,28 @@
+{
+  "description": "Unlike stylized machine learning examples in textbooks and lectures, data are often not readily available to be used to train models and gain insight in real-world applications; instead, practitioners are required to collect those data themselves.\nHowever, data annotation can be expensive (in terms of time, money, or some safety-critical conditions), thus limiting the amount of data we can possibly obtain.\n(Examples include eliciting an online shopper's preference with ads at the risk of being intrusive, or conducting an expensive survey to understand the market of a given product.)\nFurther, not all data are created equal: some are more informative than others.\nFor example, a data point that is similar to one already in our training set is unlikely to give us new information; conversely, a point that is different from the data we have thus far could yield novel insight.\nThese considerations motivate a way for us to identify the most informative data points to label and gain knowledge in a way that makes use of our labeling budget as effectively as possible.\nBayesian experimental design (BED) formalizes this framework, leveraging the tools from Bayesian statistics and machine learning to answer the question: which data point is the most valuable that should be labeled to improve our knowledge?\n\nThis talk serves as a friendly introduction to BED including its motivation as discussed above, how it works, and how to implement it in Python.\nDuring our discussions, we will show that interestingly, binary search, a popular algorithm in computer science, is a special case of BED.\nData scientists and ML practitioners who are interested in decision-making under uncertainty and probabilistic ML will benefit from this talk.\nWhile most background knowledge necessary to follow the talk will be covered, the audience should be familiar with common concepts in ML such as training data, predictive models, and common probability distributions (normal, uniform, etc.)\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "duration": 1878,
+  "language": "eng",
+  "recorded": "2024-12-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2024"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Quan Nguyen"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/zssnoI2JvTo/maxresdefault.jpg",
+  "title": "Cost-effective data annotation with Bayesian experimental design",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zssnoI2JvTo"
+    }
+  ]
+}

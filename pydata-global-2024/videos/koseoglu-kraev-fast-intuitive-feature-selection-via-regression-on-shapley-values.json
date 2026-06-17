@@ -1,0 +1,29 @@
+{
+  "description": "Feature selection is an essential process in machine learning, especially when dealing with high-dimensional datasets. It helps reduce the complexity of machine learning models, improve performance, mitigate overfitting, and decrease computation time. This talk will present a novel open source feature selection framework, shap-select.\nShap-select is noteworthy because of its simplicity - it requires only one fit of the model for which one does feature selection, and yet performs comparably to much heavier methods. It conducts a linear or logistic regression of the target on the Shapley values of the features, on the validation set, and uses the signs and significance levels of the regression coefficients to implement an efficient heuristic for feature selection in tabular regression and classification tasks.\nWe compare this to several other methods, showing that shap-select combines interpretability, computational efficiency, and performance, offering a robust solution for feature selection, especially for real-world cases where model fitting is computationally expensive.\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.",
+  "duration": 1625,
+  "language": "eng",
+  "recorded": "2024-12-03",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2024"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Baran Köseoğlu",
+    "Egor Kraev"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pmqvyrIyB_8/maxresdefault.jpg",
+  "title": "Fast, intuitive feature selection via regression on Shapley values",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pmqvyrIyB_8"
+    }
+  ]
+}
