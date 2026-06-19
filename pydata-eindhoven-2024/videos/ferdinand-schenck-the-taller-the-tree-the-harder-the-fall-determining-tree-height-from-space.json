@@ -1,0 +1,24 @@
+{
+  "description": "A case study of how we use Deep Learning based photogrammetry to calculate the height of trees from very high resolution satellite imagery. We show the substantial improvement achieved by switching from classical photogrammetric techniques to a deep learning based model (implemented in PyTorch), and the challenges we had to overcome to make this solution work.\n\nThe risk that a tree poses to line infrastructure (such as power lines) is determined by several factors, chief among them the height of the particular tree. The increasing availability of very high resolution satellite imagery makes it possible to use photogrammetric techniques to extract height information from a set of stereo satellite images. By using satellite imagery we can achieve a scale not possible by manual measurement.\nWe found that classical techniques perform poorly on vegetation, and were handily outperformed by deep learning based techniques implemented in PyTorch. This improvement was not trivial to achieve however, as creating labelled data in sufficient quantity was quite challenging. By increasing the quality of our height predictions we were able to more accurately calculate risk for our customers.",
+  "duration": 1818,
+  "language": "eng",
+  "recorded": "2024-07-11",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2024/"
+    }
+  ],
+  "speakers": [
+    "Ferdinand Schenck"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/7GU95sic2Y4/maxresdefault.jpg",
+  "title": "🌳 The taller the tree, the harder the fall. Determining tree height from space using Deep Lerning and very high resolution satelite imagery",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=7GU95sic2Y4"
+    }
+  ]
+}
