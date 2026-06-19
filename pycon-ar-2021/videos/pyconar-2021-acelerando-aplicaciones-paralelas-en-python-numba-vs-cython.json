@@ -1,0 +1,34 @@
+{
+  "description": "En la última década, el procesamiento concurrente y paralelo ha tomado mayor relevancia debido a la constante necesidad de disminuir el tiempo de respuesta y al crecimiento vertiginoso de los datos a procesar. Por su parte, Python no ha sido ajeno a esta cuestión, existiendo diferentes alternativas que permiten explotar capacidades de concurrencia y paralelismo. El intérprete oficial de Python, conocido como CPython, presenta limitaciones al momento de implementar soluciones paralelas de memoria compartida, es decir, aplicaciones multi-hiladas. En particular, el principal problema es la utilización de un componente llamado Global Interpreter Lock (GIL), el cual permite que solo un hilo se ejecute a la vez. Esta característica afecta fuertemente a las aplicaciones cpu-bound, ya que llevan a que su ejecución sea prácticamente de forma secuencial. Para solucionar esta limitación, se suele utilizar procesos en vez de hilos, pero hay que tener en cuenta que el consumo de recursos es mayor y que aumenta el costo de programación por tener un espacio de direcciones distribuido. Afortunadamente, intérpretes alternativos a CPython que están orientados a la optimización de los programas, como PyPy y Pyston, también presentan el mismo problema. Afortunadamente, existen hoy 2 propuestas de traductores que permiten dar respuesta a esta problemática: Numba y Cython.",
+  "duration": 1555,
+  "language": "spa",
+  "recorded": "2021-10-29",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://eventos.python.org.ar/events/pyconar2021/"
+    },
+    {
+      "label": "https://eventos.python.org.ar/events/pyconar2021/activity/448/",
+      "url": "https://eventos.python.org.ar/events/pyconar2021/activity/448/"
+    }
+  ],
+  "speakers": [
+    "Enzo Rucci",
+    "Andrés Milla"
+  ],
+  "tags": [
+    "pyar",
+    "pycon",
+    "pyconar",
+    "pyconar2021"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/gzohJYkFsWE/maxresdefault.jpg",
+  "title": "Acelerando aplicaciones paralelas en Python: Numba vs. Cython",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gzohJYkFsWE"
+    }
+  ]
+}
