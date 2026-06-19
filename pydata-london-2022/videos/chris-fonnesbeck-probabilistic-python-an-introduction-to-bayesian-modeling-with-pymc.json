@@ -1,0 +1,39 @@
+{
+  "description": "Chris Fonnesbeck presents:\n\nProbabilistic Python: An Introduction to Bayesian Modeling with PyMC\n\nBayesian statistical methods offer a powerful set of tools to tackle a wide variety of data science problems. In addition, the Bayesian approach generates results that are easy to interpret and automatically account for uncertainty in quantities that we wish to estimate and predict. Historically, computational challenges have been a barrier, particularly to new users, but there now exists a mature set of probabilistic programming tools that are both capable and easy to learn. We will use the newest release of PyMC (version 4) in this tutorial, but the concepts and approaches that will be taught are portable to any probabilistic programming framework.\n\nThis tutorial is intended for practicing and aspiring data scientists and analysts looking to learn how to apply Bayesian statistics and probabilistic programming to their work. It will provide learners with a high-level understanding of Bayesian statistical methods and their potential for use in a variety of applications. They will also gain hands-on experience with applying these methods using PyMC, specifically including the specification, fitting and checking of models applied to a couple of real-world datasets.\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n0:08 Introduction\n1:19 Probabilistic programming\n1:53 Stochastic language \u201dprimitives\u201d\n3:06 Bayesian inference\n3:27 What is Bayes?\n3:57 Inverse probability\n4:39 Why Bayes\n5:13 The Bayes formula\n4:21 Stochastic programs\n6:51 Prior distribution\n8:12 Likelihood function\n8:29 Normal distribution\n8:53 Binomial distribution\n9:14 Poisson distribution\n9:32 Infer values for latent variables\n9:54 Posterior distribution\n9:47 Probabilistic programming abstracts the inference procedure\n10:56 Bayes by hand\n12:18 Conjugacy\n16:43 Probabilistic programming in Python\n17:24 PyMC and its features\n19:15 Question: Among the different probabilistic programming libraries, is there a difference in what they have to offer?\n20:39 Question: How can one know which likelihood distribution to choose?\n21:35 Question: Is there a methodology used to specify the likelihood distribution?\n22:30 Example: Building models in PyMC\n27:31 Stochastic and deterministic variables\n37:11 Observed Random Variables\n41:00 Question: To what extent are the features of PyMC supported if compiled in different backends?\n41:47 Markov Chain Monte Carlo and Bayesian approximation\n43:04 Markov chains\n44:19 Reversible Markov chains\n45:06 Metropolis sampling\n48:00 Hamiltonian Monte Carlo\n49:10 Hamiltonian dynamics\n50:49 No U-turn Sampler (NUTS)\n52:11 Question: How do you know the number of leap frog steps to take?\n52:55 Example: Markov Chain Monte Carlo in PyMC\n1:13:30 Divergences and how to deal with them\n1:15:08 Bayesian Fraction of Missing Information\n1:16:25 Potential Scale Reduction\n1:17:57 Goodness of fit\n1:22:40 Intuitive Bayes course\n1:23:09 Question: Do bookmakers use PyMC or Bayesian methods?\n1:23:53 Question: How does it work if you have different samplers for different variables?\n1:25:09 Question: What route should one take in case of data with many discrete variables and many possible values?\n1:25:39 Question: Is there a natural way to use PyMC over a cluster of CPUs?",
+  "duration": 5194,
+  "language": "eng",
+  "recorded": "2022-06-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/london2022/"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/911d4A1U0BE/maxresdefault.jpg",
+  "title": "Chris Fonnesbeck - Probabilistic Python: An Introduction to Bayesian Modeling with PyMC",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=911d4A1U0BE"
+    }
+  ]
+}
