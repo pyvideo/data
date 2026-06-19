@@ -1,0 +1,43 @@
+{
+  "description": "www.pydata.org\n\nIn this tutorial, we will review some of the most parts of the Python programming language we don't use every day\u2026 but should! Using the motivating example of a portfolio construction backtester, we will build the rough outline of a library that allows users to design strategies to be automatically executed and evaluated for constructing a portfolio.\nWe will design this tool such that:\n- it has moderate performance for low-frequency strategies (e.g., no intraday trading, no real-time, more mutual fund than hedge fund)\n- it supports high generality in strategy construction\n- it supports \u201cforeign\u201d data (i.e., it minimizes assumptions about pandas.Series or pandas.DataFrame representing market information or trades)\n- it is reasonably easy for a pandas user to construct a strategy without knowing too many esoteric details of Python or pandas (except, of course, the rules of index alignment)\nAlong the way, we will look to answer the following questions:\n- what are generators, generator coroutines, and decorators, and where do they they actually show up in analytical code?\n- why are generators and generator coroutines so well-suited to the design of simulators, backtesters, model training, &c.?\n- how do we write libraries that accept and return pandas.Series that do not lose generality?\n- why is pandas often considered a \u201ctail-end\u201d analytical tool, and how might we solve the problem of writing libraries that may grow a pandas.Series?\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 4903,
+  "language": "eng",
+  "recorded": "2023-11-01",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/nyc2023/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/pGGjS6CkDeE/maxresdefault.jpg",
+  "title": "James Powell - Simple Simulators with pandas and Generator Coroutines | PyData NYC 2023",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pGGjS6CkDeE"
+    }
+  ]
+}
