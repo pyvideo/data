@@ -1,0 +1,53 @@
+{
+  "description": "Speakers: Michael Osthege and Laura Helleckes\n\nTitle: calibr8: Going beyond linear ranges with non-linear calibration curves and multilevel modeling\n\nVideo: https://www.youtube.com/watch?v=14Ca--VJKxI\n\n\n\nEvent description:\nYou just coded up a beautiful model and dummy prediction looks great. Now comes the data, but wait: the units don\u2019t match! And to make matters worse, the correlation between model variable and measurement readout is non-linear and heteroscedastic! Sounds familiar? non-linear calibration to the rescue! With calibr8, we present a statistical framework and corresponding open source Python package that solves non-linear calibration and likelihood functions for modeling. From a laboratory automation and systems biology perspective, the advantage of non-linear calibration with calibr8 is two-fold: For lab scientists doing (high-throughput) experiments, calibr8 facilitates more intuitive uncertainty quantification and makes every-day data analysis more robust, automatable and Bayesian. From a modeling perspective, non-linear error models are essential components of realistic Bayesian process models, and are key to accurately describe the nastiest step of the data-generating process. In this talk, we will take you step-by-step through the data-generating process of an automated bioassay and demonstrate how its non-linearities are modeled with calibr8. We will show how calibr8 can make your life easier - and of course more Bayesian - even if you don\u2019t always go all the way to a process model. Finally, we will show how non-linear error models and multi-level modeling with PyMC enable you to get more information out of heterogeneous regression analyses. Join us for the talk and discussion to learn about building Bayesian models for bioassays and dive into the fascinatingly frightening world of non-linear measurement errors!\n\n\nDiscourse Discussion\nhttps://discourse.pymc.io/t/calibr8-going-beyond-linear-ranges-with-non-linear-calibration-curves-and-multilevel-modeling-by-michael-osthege-laura-helleckes/6025\n\n\n## Timestamps\n00:00 Introduction\n00:41 Biotechnology\n01:43 Example\n03:26 Process Model\n06:03 Multilevel Modeling\n07:26 Error Models\n09:10 Error Model Implementation\n12:45 Application Example\n15:17 Code\n18:39 Summary\n\nSpeaker info: \nA biotechnologist by training, Laura transitioned to Data Science in the past years and is now a Bayesian enthusiast.\nIn her Master\u2019s thesis, she actually collected the data Michael was using for his fancy Bayesian models. During her wet lab experience, Laura gained valuable knowledge on microorganisms and biological processes that she is now applying to implement mechanistic process models. Her experimental work also gave her the motivation to focus on lab automation for bioprocess development in her PhD at Forschungszentrum J\u00fclich\n\n\n-Twitter: https://twitter.com/laurahelleckes\n-Github: https://github.com/lhelleckes\n\n\nMichael Osthege is a biotech Bayesian by choice. He likes to work with robots, bacteria and models as much as he loves to work in enthusiastic teams. As a PhD student in laboratory automation for bioprocess development at Forschungszentrum J\u00fclich, he writes software to make robots generate his data. Since he unit-tests his code, he always blames the robots if the data doesn\u2019t agree with his Bayesian models.\n\n\n-Twitter: https://twitter.com/theCake\n-GitHub: https://github.com/michaelosthege\n\n\nPart of PyMCon2020. \nMore details at http://www.pymcon.com  \n\n\n#bayesian #statistics #python",
+  "duration": 1290,
+  "language": "eng",
+  "recorded": "2020-10-31",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pymc-devs.github.io/pymcon/"
+    },
+    {
+      "label": "http://www.pymcon.com",
+      "url": "http://www.pymcon.com"
+    },
+    {
+      "label": "https://twitter.com/theCake",
+      "url": "https://twitter.com/theCake"
+    },
+    {
+      "label": "https://twitter.com/laurahelleckes",
+      "url": "https://twitter.com/laurahelleckes"
+    },
+    {
+      "label": "https://github.com/michaelosthege",
+      "url": "https://github.com/michaelosthege"
+    },
+    {
+      "label": "https://discourse.pymc.io/t/calibr8-going-beyond-linear-ranges-with-non-linear-calibration-curves-and-multilevel-modeling-by-michael-osthege-laura-helleckes/6025",
+      "url": "https://discourse.pymc.io/t/calibr8-going-beyond-linear-ranges-with-non-linear-calibration-curves-and-multilevel-modeling-by-michael-osthege-laura-helleckes/6025"
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=14Ca--VJKxI",
+      "url": "https://www.youtube.com/watch?v=14Ca--VJKxI"
+    },
+    {
+      "label": "https://github.com/lhelleckes",
+      "url": "https://github.com/lhelleckes"
+    }
+  ],
+  "speakers": [
+    "Michael Osthege",
+    "Laura Helleckes"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/14Ca--VJKxI/maxresdefault.webp",
+  "title": "Calibr8: Going Beyond Linear Ranges With Non-Linear Calibration Curves and Multilevel Modeling",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=14Ca--VJKxI"
+    }
+  ]
+}
