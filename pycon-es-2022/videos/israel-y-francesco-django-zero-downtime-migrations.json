@@ -1,0 +1,25 @@
+{
+  "description": "Ponente: Israel Saeta Pérez y Francesco Venneri\nTítulo: Django Zero Downtime Migrations\nAula: Teoría 7 (Sábado)\n----------------------------------------\nResumen:\nBuilding an application with Django is fairly easy at the beginning because the framework provides stable solutions for many of the issues that every engineer deals with. But when things start to get bigger and complex, we can’t ignore what happens behind the scenes. We often need to “tweak” the standard behavior to comply with our exigencies.\n\nHow do we perform changes on a database with Django? We use what is known in the framework as “migrations”. We will see the basics of what they are, how they work and focus on their risks: they can be painful, lock tables and generate failed requests and downtime for the end users.\n\nWe will then show the solution we have adopted in TravelPerk to perform migrations in the safest way possible without impacting the availability of our systems. An approach we call “Zero Downtime Migrations”.",
+  "duration": 1856,
+  "language": "spa",
+  "recorded": "2022-09-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2022.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "Israel Saeta Pérez",
+    "Francesco Venneri"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/9QfZvlSTiSg/maxresdefault.jpg",
+  "title": "Django Zero Downtime Migrations",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9QfZvlSTiSg"
+    }
+  ]
+}

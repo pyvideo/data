@@ -1,0 +1,24 @@
+{
+  "description": "Ponente: Manuel Calzado Vidal\nTítulo: Feature Flags. Stay in Control\nAula: Teoría 7 (Sábado)\n--------------------------------------\nResumen:\nThis talk aims to teach from scratch the concept of Feature Flags. How we have used it intuitively in those settings files, keeping boolean variables, how frameworks like Django manage in a more advanced way, for example permission levels and how finally, there are very powerful ways to deploy without activating any logic, do A/B deployment, incremental, ... deactivate features if you have any problem, with a click, without changing code or deploy...\n\nWe live in a world of continuous delivery, with constant monitoring, logging...\nFeature flags are variables that are used within logical conditions. Imagine storing the rules that define the value of those feature flags outside your system, in a place where you can enable, limit or completely disable the use of a part of your application, from outside your own code.\n\n- Deploy the logic on a Friday... but enable it on Monday, giving incremental access to your users.\n- Block payments from a country or from a payment platform.\n- Change which class implements an interface as you need...\n\nFeature flags vs Blue / Green\nFeature flags vs Configuration management",
+  "duration": 1901,
+  "language": "spa",
+  "recorded": "2022-09-30",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2022.es.pycon.org/"
+    }
+  ],
+  "speakers": [
+    "Manuel Calzado Vidal"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/zoV-L2rgWdk/maxresdefault.jpg",
+  "title": "Feature Flags. Stay in Control",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zoV-L2rgWdk"
+    }
+  ]
+}
