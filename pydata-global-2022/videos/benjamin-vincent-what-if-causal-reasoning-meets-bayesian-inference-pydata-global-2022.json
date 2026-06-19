@@ -1,0 +1,24 @@
+{
+  "description": "www.pydata.org\n\nWe learn about the world from data, drawing on a broad array of statistical and inferential tools. The problem is that causal reasoning is needed to answer many of our questions, but few data scientists have this in their skill set. This talk will give a high-level introduction to aspects of causal reasoning and how it is complemented by Bayesian inference. A worked example will be given of how to answer what-if questions.\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Introduction to talk\n00:31 Package announcement\n00:33 Speaker introduction\n01:13 Causal inference is trending\n01:22 Google Trends on Causal inference\n01:51 Is it convincing enough? \n02:41 Bayesian model on the trends using PyMC\n03:45 Hype Cycle for emerging tech by Gartner\n04:10 Difference between Statistical relationships and Causal relationships\n06:55 Observational study on causal relationship between Tea and Death\n09:00 Confounding variables in our study\n09:33 Randomized control trial (RCT)\n10:25 Can you model confounding variables and not randomize?\n12:17 Randomization is very effective\n12:35 Randomized control trials can be problematic\n14:56 Quasi-Experimentation by Charles S. Reichardt\n16:08 CausalPy package\n16:44 What does CausalPy do?\n16:50 Example: What was the causal impact of Brexit?\n19:00 Normalized GDP\n19:55 What do we not have on this graph?\n21:18 Fitting the model\n22:32 Synthetic control method in CausalPy\n23:28 Visualizing the output\n26:03 Other features of CausalPy\n26:10 Interrupted time series\n26:52 Regression discontinuity\n27:49 Difference in differences\n28:04 Did my advertising budget cause more sales?\n29:41 Summary\n30:54 Q/A Any suggested resource to properly design RCT?\n31:56 Q/A Why didn't you use a diff-diff model?\n32:51 Q/A Training a ML model to predict pre-treatment GDP of UK\n34:07 Q/A How is CausalPy related to CausalImpact\n35:07 Q/A Interrupted time series and regression discontinuity",
+  "duration": 2164,
+  "language": "eng",
+  "recorded": "2022-12-01",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2022/"
+    }
+  ],
+  "speakers": [
+    "Benjamin Vincent"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/gV6wzTk3o1U/maxresdefault.webp",
+  "title": "What-if - Causal reasoning meets Bayesian Inference",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gV6wzTk3o1U"
+    }
+  ]
+}
