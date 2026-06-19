@@ -1,0 +1,36 @@
+{
+  "description": "Ponente\nNombre: Pablo Galindo Salgado\nTítulo: Profiling a la velocidad de la luz\nSala: Bollullo\n——————\n¿Sabías que Python 3.12 incluirá uno de los compiladores \"just-in-time\" (JIT) más pequeños del mundo? Además, te sorprenderá saber que no sirve para lo que probablemente estás pensando.\n\nPoder comprender dónde nuestras aplicaciones de Python están gastando su tiempo es crucial para poder mejorar las características de rendimiento de nuestras aplicaciones. Ya existen varias herramientas para ayudar con esta tarea, pero todas tienen sus propias limitaciones, especialmente cuando está involucrado código nativo escrito en C, C++, Rust, etc. Poder recopilar y correlacionar información de rendimiento con otros marcadores relacionados con el rendimiento, como branch predictions, fallos de caché, cambios de contexto y otros eventos, tener un buen profiler que soporte obtener estos datos puede ser clave para comprender algunas de las situaciones más desafiantes.\n\nPara ayudar con esto, Python 3.12 incluirá soporte para el profiler \"perf\" de Linux. El profiler perf de Linux es una herramienta muy potente que te permite obtener información sobre el rendimiento de aplicaciones. \"perf\" también cuenta con un ecosistema muy activo de herramientas que ayudan con el análisis de los datos que produce.\n\nEn esta charla, hablaremos sobre cómo se implementó soporte para esta nueva funcionalidad en Python 3.12, cómo difiere el soporte para \"perf\" de otros profilers orientados al rendimiento para Python, y cómo se puede utilizar de manera efectiva, incluida la activación dinámica para habilitar el profiling en producción. También cubriremos algunos de los requisitos necesarios para obtener los mejores resultados, así como algunas de las limitaciones de la implementación y cómo pueden afectar a nuestras métricas.\n\n—\nPython España: https://es.python.org/\nPython Canarias: https://pythoncanarias.es/\nTwitter/X: @PyConES\nMastodon: https://fosstodon.org/@pycones",
+  "duration": 1855,
+  "language": "spa",
+  "recorded": "2023-10-06",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.es.pycon.org/"
+    },
+    {
+      "label": "https://fosstodon.org/@pycones",
+      "url": "https://fosstodon.org/@pycones"
+    },
+    {
+      "label": "https://es.python.org/",
+      "url": "https://es.python.org/"
+    },
+    {
+      "label": "https://pythoncanarias.es/",
+      "url": "https://pythoncanarias.es/"
+    }
+  ],
+  "speakers": [
+    "Pablo Galindo Salgado"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi_webp/YJWQ0hHfajs/maxresdefault.webp",
+  "title": "Pablo Galindo - Profiling a la velocidad de la luz",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YJWQ0hHfajs"
+    }
+  ]
+}

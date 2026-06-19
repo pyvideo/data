@@ -1,0 +1,36 @@
+{
+  "description": "Ponente\nNombre: Adrian Herrmann\nTítulo: Asynchronous programming with asyncio and Qt\nSala: Antequera\n——————\nPython is a powerful language with a vast ecosystem of libraries for all imaginable use cases, yet developing GUI applications is perhaps a less widespread one. Writing first-class GUI applications in Python is certainly possible, and if you've ever tried to write one and researched GUI frameworks, chances are you've come across PySide, the bridge between Python and the popular C++ based GUI framework Qt. Qt for Python combines the best of both worlds, but the world of Python is more than just a language, and users expect wide interoperability within the ecosystem. Python developers deserve a first-class experience combining a powerful GUI framework with all their favorite and trusted Python libraries.\n\nWhen it comes to asynchronous programming, asyncio is a household name. It is an established library for Python applications with concurrency and asynchronous I/O, and the de facto standard that multiple other asynchronous frameworks build upon. Like Qt, it is based on an event loop, and it offers an extensive API to implement a custom event loop that applications using asyncio can then leverage. Therefore, it is perhaps natural to combine Qt and asyncio and to leverage their respective strengths, but enabling this in Qt for Python posed some unique challenges - some stemming from asyncio, some from Qt.\n\nThis talk explains the principles of event loop-based asynchronous programming and dives into the steps and challenges encountered during the work to enable interoperability of these libraries: Implementing asyncio’s interface for event loops and related classes like Future and Task, based on Qt.\n\n—\nPython España: https://es.python.org/\nPython Canarias: https://pythoncanarias.es/\nTwitter/X: @PyConES\nMastodon: https://fosstodon.org/@pycones",
+  "duration": 2287,
+  "language": "spa",
+  "recorded": "2023-10-06",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://2023.es.pycon.org/"
+    },
+    {
+      "label": "https://fosstodon.org/@pycones",
+      "url": "https://fosstodon.org/@pycones"
+    },
+    {
+      "label": "https://es.python.org/",
+      "url": "https://es.python.org/"
+    },
+    {
+      "label": "https://pythoncanarias.es/",
+      "url": "https://pythoncanarias.es/"
+    }
+  ],
+  "speakers": [
+    "Adrian Herrmann"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XuqdTvisqkQ/maxresdefault.jpg",
+  "title": "Adrian Herrmann - Asynchronous programming with asyncio and Qt",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XuqdTvisqkQ"
+    }
+  ]
+}
