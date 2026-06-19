@@ -1,0 +1,43 @@
+{
+  "description": "When I was assigned to deploy my machine learning (ML) model as a service, I learned Flask and Docker for the first time. After I completed my task, I was curious about how to scale up my application. In this 30-minute talk, I will share the lessons I learned by deploying my ML service on Kubernetes. You will learn about the problems of deploying multiple ML services on Docker in production, how Kubernetes solves those problems, how to create a serverless service on Kubernetes using Knative, and how to set up a model storage for Kubernetes using Mlflow model registry.\n\nThis talk consists of (i) the challenges of building a highly available and scalable system (3 minutes), (ii) a gentle introduction to deploying ML service on Kubernetes (10 min), (iii) the benefits of serverless technology and how to build one with Knative (7 min), (iv) a challenge of building a model storage for Kubernetes and how I used Mlflow model registry to solve it (7 min), (v) how I set up my 3-node Kubernetes cluster and Mlflow model registry for $30/month on Digital Ocean (3 min).\n\nThis talk will help MLOps engineers or data scientists who have basic knowledge of Docker to build a reliable and scalable ML service with open source software in production.\n\nBio:\nKei Nemoto\nKei currently works as a data scientist in the healthcare field. He uses his expertise in data science/software engineering to automate machine learning workflows at scale. He has a Master of Science in Data Science degree from the Graduate Center, City University of New York, where he extensively focused on deep learning for information retrieval. He is passionate about learning new technologies to achieve what was impossible yesterday.\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 2331,
+  "language": "eng",
+  "recorded": "2022-11-09",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/nyc2022/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/S-UwQGvR9BA/maxresdefault.jpg",
+  "title": "Kei Nemoto- Gentle introduction to scaling up ML service with Kubernetes + Mlflow | PyData NYC 2022",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=S-UwQGvR9BA"
+    }
+  ]
+}

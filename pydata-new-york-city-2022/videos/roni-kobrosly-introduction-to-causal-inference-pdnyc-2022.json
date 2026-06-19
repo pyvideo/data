@@ -1,0 +1,43 @@
+{
+  "description": "This tutorial session is intended to give attendees a gentle introduction to applying causal thinking and causal inference to data using python. Causal data analysis is very common in many academic domains (e.g. in social psychology, epidemiology, macroeconomics, public policy research, sociology, and more) as well as in industry (all of the largest Silicon Valley tech companies employ teams of scientists who answer business questions purely with causal inference methods).\n\nThe tutorial will involve a combination of a presentation with open Q&A and group exercises contained in Jupyter notebooks. This session will cover the difference between correlation and causation, the pitfalls of conducting an analysis using observational data, how causal inference can help get around these pitfalls, and two examples of common, modern modeling approaches used to conduct causal inference (g-computation and estimating causal curves). After the tutorial, the attendees should have a good foundational understanding of causality and the ability to confidently explore the topic on their own. Causal inference can be a very theory-heavy topic, making it impenetrable to novices. In this tutorial, I'll aim to take a more practical perspective on causal inference, while still occasionally touching on the theory.\n\nTutorial Outline:\n\nIntroduction (15 min):\n-\"By the end of the tutorial you should be able to...\"\n-Motivating problem: vitamin D and COVID severity\n-How causal inference questions differ from standard machine learning questions\n-Experiments vs causal inference\n\nCausal graphs and the four types of relationships to know (30 min):\n-What is a \"confounder\"\n-What is a \"collider\"\n-What is a \"mediator\"\n-What are \"unrelated predictors\"\n\nHands on exercise 1: G-computation (20 min)\n\nHands on exercise 2: Causal curves (20 min)\n\nClosing thoughts (5 min):\n-Tips for troubleshooting your own analyses\n-Avoid multiple testing!\n-Be humble. It is likely your research or business idea doesn\u2019t work \ud83e\udd37\ud83c\udffb\n\nBio:\nRoni Kobrosly\nI am a former epidemiology researcher who has spent approximately a decade employing causal modeling and inference. The bulk of my academic career was spent conducting data analyses to estimate the population-level effects of harmful environment exposures, when traditional randomized experiments were infeasible or unethical.\n\nSince leaving the academic world, I've been loving my second life in the tech industry as a data scientist, ML engineer, and more recently as the Head of Data Science at a medium-sized health tech company based in Washington DC. I love mentoring junior data folks and explaining the magic of data analysis and modeling to non-technical audience.\n\nI also am a member of the open-source community, being the author and maintainer of the causal-curve python package. This package provides a set of tools for estimating the causal impact of continuous/non-binary treatments (e.g. estimating the causal impact of a neighborhood's income inequality on local crime, or understanding the causal effect of increasing a product's price on conversion rates).\n\n===\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 4306,
+  "language": "eng",
+  "recorded": "2022-11-09",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/nyc2022/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/fjaFOYQTxVQ/maxresdefault.jpg",
+  "title": "Roni Kobrosly: Introduction to Causal Inference | PDNYC 2022",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fjaFOYQTxVQ"
+    }
+  ]
+}
