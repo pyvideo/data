@@ -1,0 +1,55 @@
+{
+  "description": "One of the biggest challenges facing online platforms today and especially those with user-generated content is detecting harmful content and malicious behavior. One of the reasons harmful content detection is so challenging is that it is a multidimensional problem. Items can be in any number of formats (video, text, image, and audio), any language, and violative in any number of ways, from extreme gore and hate to suggestive or ambiguous nudity or bullying, and are uploaded or shared by a myriad of users (some of which are trying to circumvent being banned).\n\nIn order to be able to build algorithms that analyze and detect this harmful activity at scale, we need a data model that can capture the complexities of this online ecosystem. In this talk, we will discuss how ActiveFence models the online content, media, creators, and users that interact with the content with likes, shares, or comments. Modeling the relationships between these items yields a complex connected graph, and in order to calculate a score that accurately reflects the probability of harm, we need to be able to query and access all of the relations of any given item. We will dive into the details of the complex and adversarial online space, the ActiveFence data model, and how we abstract the complexity of querying a graph-like data model using traditional SQL PySpark queries to provide maximum value to our algorithms.\n\nFollow PyData Tel Aviv on:\nhttps://www.meetup.com/PyData-Tel-Aviv/\nhttps://www.linkedin.com/company/17907513\nhttps://www.facebook.com/PyDataTLV\nhttps://twitter.com/PyDataTLV\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.",
+  "duration": 1810,
+  "language": "eng",
+  "recorded": "2022-12-13",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/telaviv2022/"
+    },
+    {
+      "label": "https://www.meetup.com/PyData-Tel-Aviv/",
+      "url": "https://www.meetup.com/PyData-Tel-Aviv/"
+    },
+    {
+      "label": "https://twitter.com/PyDataTLV",
+      "url": "https://twitter.com/PyDataTLV"
+    },
+    {
+      "label": "https://www.linkedin.com/company/17907513",
+      "url": "https://www.linkedin.com/company/17907513"
+    },
+    {
+      "label": "https://www.facebook.com/PyDataTLV",
+      "url": "https://www.facebook.com/PyDataTLV"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/BMVl9LjotJg/maxresdefault.jpg",
+  "title": "Matar Haller & Noam Levy: Constructing & Querying Data Model for Online Harm  | PyData Tel Aviv 2022",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=BMVl9LjotJg"
+    }
+  ]
+}
