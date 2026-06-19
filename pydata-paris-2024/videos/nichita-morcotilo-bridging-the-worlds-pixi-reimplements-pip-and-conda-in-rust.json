@@ -1,0 +1,59 @@
+{
+  "description": "Pixi goes further than existing conda-based package managers in many ways:\n\n* From scratch implemented in Rust and ships as a single binary\n* Integrates a new SAT solver called resolvo\n* Supports lockfiles like `poetry` / `yarn` / `cargo` do\n* Cross-platform task system (simple `bash`-like syntax)\n* Interoperability with PyPI packages by integrating `uv`\n* It's 100% open-source with a permissive licence\n\nWe\u2019re looking forward to take a deep-dive together into what conda and PyPI packages are and how we are seamlessly integrating the two worlds in pixi.\n\nWe will show you how you can easily setup your new project using just one configuration file and always have a reproducible setup in your pocket. Which means that it will always run the same for your contributors, user and CI machine ( no more \"\"but it worked on my machine!\"\" ).\n\nUsing pixi's powerful cross-platform task system you can replace your `Makefile` and a ton of developer documentation with just `pixi run task`!\n\nWe\u2019ll also look at benchmarks and explain more about the difference between the conda and pypi ecosystems.\n\nThis talk is for everyone who ever dealt with [dependency hell](https://prefix.dev/blog/launching_pixi).\n\nMore information about Pixi:\n\nhttps://pixi.sh\nhttps://prefix.dev\nhttps://github.com/prefix-dev/pixi\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1755,
+  "language": "eng",
+  "recorded": "2024-09-25",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/paris2024"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    },
+    {
+      "label": "https://pixi.sh",
+      "url": "https://pixi.sh"
+    },
+    {
+      "label": "https://github.com/prefix-dev/pixi",
+      "url": "https://github.com/prefix-dev/pixi"
+    },
+    {
+      "label": "https://prefix.dev/blog/launching_pixi",
+      "url": "https://prefix.dev/blog/launching_pixi"
+    },
+    {
+      "label": "https://prefix.dev",
+      "url": "https://prefix.dev"
+    }
+  ],
+  "speakers": [
+    "TODO"
+  ],
+  "tags": [
+    "Education",
+    "Julia",
+    "NumFOCUS",
+    "Opensource",
+    "PyData",
+    "Python",
+    "Tutorial",
+    "coding",
+    "how to program",
+    "learn",
+    "learn to code",
+    "python 3",
+    "scientific programming",
+    "software"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/O-up045PgXE/sddefault.jpg",
+  "title": "Nichita Morcotilo - Bridging the worlds: pixi reimplements pip and conda in Rust",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=O-up045PgXE"
+    }
+  ]
+}
