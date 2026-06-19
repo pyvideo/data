@@ -1,0 +1,24 @@
+{
+  "description": "Let's say you've to some unlabelled data and you want to train a classifier. You need annotations before you can model, but because you're time-bound you must stay pragmatic. You only have an afternoon to spend. What would you do?\n\nLet's say you've to some unlabelled data and you want to train a classifier. You need annotations before you can model, but because you're time-bound you must stay pragmatic. You only have an afternoon to spend. What would you do?\n\nIt turns out there are a few techniques that can totally help you with this. You can easily get interesting subset annotated quickly by leveraging:\n\na quick search engine\npre-trained models\nsentence/image embeddings\na trick to generate phrase embeddings\nIn this talk I will explain these techniques for bulk labelling whil I will also highlight some tools to get all of this to work. In particular you'll see:\n\nlunr.py (a lightweight search engine)\nsentimany (a library with pretrained sentiment models)\nembetter (adds pretrained embeddings for scikit-learn)\numap (an amazing dimensionality reduction library)\nspaCy (a great NLP tool)\nsense2vec (phrase embeddings trained on reddit)\nbulk (a user interface for bulk labelling embeddings)\nFor this talk I'll assume you're familiar with scikit-learn and that you've heard of embeddings before.",
+  "duration": 1974,
+  "language": "eng",
+  "recorded": "2022-12-02",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/eindhoven2022/"
+    }
+  ],
+  "speakers": [
+    "Vincent Warmerdam"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Wf80CSqWSiQ/maxresdefault.jpg",
+  "title": "Bulk Labelling Techniques",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Wf80CSqWSiQ"
+    }
+  ]
+}
