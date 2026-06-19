@@ -1,0 +1,29 @@
+{
+  "description": "www.pydata.org\n\nThe Python packaging ecosystem has a massive and diverse user community with various needs. A subset of this user base, data science and scientific computing communities, i.e., PyData communities, have historically relied on the conda package and environment management tools for their workflows. conda has robust solutions for packaging and distributing libraries and managing dependencies in environments, but there are still unsolved challenges for reliably reproducing runtime environments. For instance, compute-intensive R&D activities require certain reproducibility guarantees for collaborative development and ensure production-level tools' stability and integrity. Many teams lack proper documentation and dependable practices for installing and regenerating the same runtime conditions across their software pipelines and systems, leading to product instability and release and production delays.\n\nIn this talk, we will:\n* Share reproducibility best practices for Python-based data science workflows. For this, we will present real-world examples where reproducibility was not a core requirement or consideration of the project but was introduced as an afterthought.\n* Demonstrate a greenfield solution to this problem: conda-store, an open source project that ensures flexible yet reproducible environments with features like version control, role-based access control, and background enforcement of best practices, all the while incorporating a user-friendly user interface.\n\nYou will learn about all the variables that affect runtime conditions (like enumerating project dependencies and technical details about your operating system and hardware). We will also present a checklist of automated tasks that should be part of a reproducible workflow and the different packaging solutions in the PyData ecosystem with a deeper focus on conda-store. We hope to share the perspective of a downstream user of the packaging ecosystem and bring attention to the conversations around runtime-environment reproducibility.\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.\n\n00:00 Welcome!\n00:10 Help us add time stamps or captions to this video! See the description for details.\n\nWant to help add timestamps to our YouTube videos to help with discoverability? Find out more here: https://github.com/numfocus/YouTubeVideoTimestamps",
+  "duration": 1428,
+  "language": "eng",
+  "recorded": "2023-12-06",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://pydata.org/global2023/"
+    },
+    {
+      "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+      "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+    }
+  ],
+  "speakers": [
+    "Pavithra Eswaramoorthy",
+    "Jaime Rodríguez-Guerra"
+  ],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/M1KYaWDtYBI/maxresdefault.jpg",
+  "title": "Ensuring Runtime Reproducibility in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=M1KYaWDtYBI"
+    }
+  ]
+}
