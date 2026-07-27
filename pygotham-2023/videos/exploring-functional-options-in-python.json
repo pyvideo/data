@@ -1,0 +1,18 @@
+{
+    "description": "Documenting lots of arguments *well* is hard. Validating each is even\nharder. Function arguments are not scalable past some point. Configuration\nstructs are heavy, specially if every function expected it's own config\ninstance. Functional APIs solve this problem in their own awkward little way\nwith a bit more code.\n\nThe first time I saw functional options in Golang, I didn't fully understand\nwhy something as simple as configuring options (class or function args)\nlooked so awkward. Then I read about the technique and realized that this\nsolved a problem we have in every language, not just Golang.\n\nSeveral years later, I found the chance to apply it when designing an API in\nPython and noticed no existing implementations! This talk is about adopting\na very interesting API option design from Golang's Rob Pike.",
+    "duration": 809,
+    "language": "eng",
+    "recorded": "2024-03-27",
+    "related_urls": [],
+    "speakers": [
+        "Rami Awar"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/NzYxEF6623o/maxresdefault.jpg",
+    "title": "Exploring Functional Options in Python",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=NzYxEF6623o"
+        }
+    ]
+}
