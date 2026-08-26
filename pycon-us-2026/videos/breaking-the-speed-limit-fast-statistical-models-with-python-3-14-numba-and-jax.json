@@ -1,0 +1,28 @@
+{
+  "description": "Full talk title: \"Breaking the Speed Limit: Fast Statistical Models with Python 3.14, Numba, and JAX\"\n\nData scientists and domain experts often face a dilemma: we understand the models, and we use Python, but we aren't C++ or Rust engineers. We need code that is quick to write, easy to work with, and still fast enough to run on large, real\u2011world datasets. How do we choose the right tool without getting lost in low\u2011level details?\n\nWith the new free\u2011threaded build and experimental JIT in Python 3.14, combined with tools like Numba and JAX, we finally have a realistic way to push back against the \"Python is slow\" stereotype. In this talk, we'll use two concrete workloads to illustrate this modern stack: complex iterative loops (k\u2011means) and massive data parallelism (permutation test). The focus is on computational patterns rather than statistical theory.\n\nWe'll compare plain NumPy, Python 3.14 (with free-threaded or JIT configurations), Numba, and JAX across varying data scales, highlighting the trade-offs in runtime, memory, debuggability, and developer experience. Along the way, we'll also demonstrate how AI coding tools can serve as a copilot, helping to translate clear mathematical code into high-performance kernels without requiring deep compiler expertise.",
+  "duration": 1787,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/128/"
+    }
+  ],
+  "speakers": [
+    "Wenxin Jiang",
+    "Jian Yin"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/ZywVdsNkMwc/hqdefault.jpg",
+  "title": "Breaking the Speed Limit: Fast Statistical Models with Python 3.14, Numba, and JAX",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZywVdsNkMwc"
+    }
+  ]
+}

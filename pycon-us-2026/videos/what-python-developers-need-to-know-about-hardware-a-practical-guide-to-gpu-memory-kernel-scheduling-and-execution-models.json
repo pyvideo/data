@@ -1,0 +1,28 @@
+{
+  "description": "Full talk title: \"What Python Developers Need to Know About Hardware: A Practical Guide to GPU Memory, Kernel Scheduling, and Execution Models\"\n\nPython developers building machine learning models often interact with GPUs \u201cindirectly\u201d through frameworks like PyTorch, TensorFlow, and JAX. Because these frameworks abstract away low-level behavior, it\u2019s easy to assume that GPU execution works like CPU execution\u2014deterministic, sequential, and predictable. In practice, the GPU is running an entirely different execution model, with its own scheduling rules, memory hierarchies, precision trade-offs, and parallelism strategies. These differences can lead to surprising behaviors: sudden slowdowns, unexpected memory spikes, kernel launch bottlenecks, and accuracy drift when switching hardware.\n\nThis talk offers a practical, developer-friendly introduction to the hardware concepts that directly impact Python-based AI workloads. You don\u2019t need background in computer architecture; instead, the session focuses on the small set of hardware ideas that make the biggest difference when building or deploying machine learning models.\n\nWe will walk through how GPU memory is structured, why kernel launches behave differently from Python function calls, how floating-point math on GPUs differs from CPUs, and why the same Python code behaves differently across GPU generations or SDK versions. Along the way, we\u2019ll connect these concepts to real examples in PyTorch and TensorFlow, demonstrating how awareness of hardware behavior can improve performance, stability, and debugging outcomes.\n\nThe aim of this session is not to turn Python developers into hardware experts, but to give them the mental models they need to reason about GPU behavior in a practical, Python-centered way.",
+  "duration": 2016,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/81/"
+    }
+  ],
+  "speakers": [
+    "Santosh Appachu Devanira Poovaiah",
+    "Vyas Ramasubramani"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/P8P4lHzlUMU/hqdefault.jpg",
+  "title": "What Python Developers Need to Know About Hardware: A Practical Guide to GPU Memory, Kernel Scheduling, and Execution Models",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=P8P4lHzlUMU"
+    }
+  ]
+}

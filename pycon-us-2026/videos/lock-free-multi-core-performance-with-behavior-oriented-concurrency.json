@@ -1,0 +1,27 @@
+{
+  "description": "Behavior-Oriented Concurrency (BOC) is a new paradigm for parallel and concurrent programming which is particularly well-suited to Python. In a BOC program, data is shared such that each behavior has unique temporal ownership of the data, removing the need for locks to coordinate access. For Python programmers, this brings a lot of benefits. Behaviors are implemented as decorated functions, and from the programmer's perspective, those functions work like normal. Importantly, the programmer's task shifts from solving concurrent data access problems to organizing data flow through functions. The resulting programs are easier to understand, easier to support, easier to extend, and unlock multi-core performance due to the ability to schedule behaviors to run efficiently across multiple processes.\n\nBOC has been implemented in several languages, including as a foundational aspect of the research language Verona, and now has been implemented in Python. In this talk we will provide a tutorial for Python programmers on BOC programming, introduce our new boc library, and discuss the ways in which adoption of BOC as a paradigm could shape Python's development in the future.",
+  "duration": 1795,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/54/"
+    }
+  ],
+  "speakers": [
+    "Matthew Johnson"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/LytoGIXLYkY/hqdefault.jpg",
+  "title": "Lock Free Multi Core Performance with Behavior Oriented Concurrency",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=LytoGIXLYkY"
+    }
+  ]
+}

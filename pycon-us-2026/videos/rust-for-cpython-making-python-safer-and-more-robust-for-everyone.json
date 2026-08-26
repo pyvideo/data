@@ -1,0 +1,27 @@
+{
+  "description": "You're running a program written in Python and suddenly Segmentation fault (Core dumped) - your program crashed. Wait what? Python isn't supposed to segfault! Today, significant parts of CPython are written in C. C code suffers from memory and thread unsafety, leading to crashes and potentially exploitable security bugs. But how can these issues be eliminated?\n\nThe Rust for CPython project proposes to address these issues by introducing the Rust programming language to CPython and migrating parts of CPython to Rust. We'll discuss how Rust is able to prevent memory and thread unsafety before running any code, and how large projects like Android and Chromium have leveraged Rust to not only reduce unsafety, but also increase developer velocity and confidence in changes. But how do you go from a massive project in C to adding Rust? We'll cover the technical and social aspects of introducing Rust into CPython, such as engaging new contributors and ensuring compatibility with the old code. We'll also discuss future plans for the Rust for CPython project.",
+  "duration": 1889,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/1/"
+    }
+  ],
+  "speakers": [
+    "Emma Smith"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/42kibVnUHYE/hqdefault.jpg",
+  "title": "Rust for CPython: Making Python Safer and More Robust for Everyone",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=42kibVnUHYE"
+    }
+  ]
+}

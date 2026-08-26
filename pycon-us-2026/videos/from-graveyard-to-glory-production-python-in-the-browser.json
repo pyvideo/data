@@ -1,0 +1,27 @@
+{
+  "description": "For a decade, \"Python in the browser\" was a graveyard of transpilers (PyJS), dead plugins (Silverlight), and academic experiments.\n\nBut with WebAssembly and Pyodide, we have finally arrived at a party that used to be JS-only. We can now ship a full Python runtime AND ecosystem to the client. However, moving from a \"Hello World\" demo to a production application that survives the front page of Hacker News is a minefield.\n\nThis talk moves beyond demo hype to dissect the architecture of a real-world SPA that runs complex Python logic in the user's browser, with full JS/TS intercompatibility.\n\nWe start with a brief, honest history of the attempts to bring Python to the web, highlighting why previous attempts failed and why the current approach is working, citing examples from the open-source ecosystem.\n\nThen, we open the hood on a production-grade case study:\n\n- The Build Pipeline: How to correctly leverage CDN and build a robust distribution with wheels from PyPI, package them into versioned, cache-busted bundles, and manage dependencies strictly.\n- The Integration: Keeping the page responsive and SEO optimized with SSR and Web Workers. We show how to orchestrate Svelte and Vite using Comlink for seamless RPC between the JS main thread and the Python worker. Plus, leveraging Pydantic + OpenAPI for TypeScript safety.\n- The \"Real Talk\": The cost of doing business. We discuss the realities of download sizes, memory leaks, and bridging the gap between Python error tracking and browser debugging. Many lessons learned.\n\nAttendees will leave with a proven blueprint for bridging backend power with frontend interactivity, sharing code and bridging Python to new frontiers.",
+  "duration": 1726,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/121/"
+    }
+  ],
+  "speakers": [
+    "Mahmoud Hashemi"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/YLZ6HrZSBrQ/hqdefault.jpg",
+  "title": "From Graveyard to Glory: Production Python in the Browser",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YLZ6HrZSBrQ"
+    }
+  ]
+}

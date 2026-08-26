@@ -1,0 +1,27 @@
+{
+  "description": "Automatic memory management is one of Python\u2019s key features, yet for many developers it stays opaque: objects appear when you create them and vanish when you stop using them, with little visibility into what happens in between.\n\nThis talk pulls back that curtain and explains how CPython actually manages memory\u2014from how objects are allocated and laid out in memory, to how unused objects are reclaimed through reference counting, to why reference counting alone is not enough when objects reference each other in cycles.\n\nWe will cover the cyclic garbage collector: how it discovers unreachable reference cycles, and why it is split across generations to amortize cost. Along the way, we will touch on practical debugging and tuning: interpreting GC behavior and spotting retention and leaks.",
+  "duration": 1593,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/21/"
+    }
+  ],
+  "speakers": [
+    "Puneet Khushwani"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/w9RNuPb0DBQ/hqdefault.jpg",
+  "title": "Demystifying Python\u2019s Generational Garbage Collector",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=w9RNuPb0DBQ"
+    }
+  ]
+}

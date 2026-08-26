@@ -1,0 +1,27 @@
+{
+  "description": "From CLI developers to maintainers of large applications, many Python developers have been bitten by the high overhead of eagerly loading imports. Long start-up times can make it prohibitively costly to run simple commands like --help, and the memory overhead from loading every imported module eagerly can trigger Out-Of-Memory errors in production.\n\nAfter the most discussed PEP thread in the history of discuss.python.org, with hundreds of messages and fierce debate, Python 3.15 finally brings Explicit Lazy Imports to the language. With a simple new keyword, you can now defer module loading until the moment you actually need it. This is one of the most requested performance features in Python's history, and finally it's here.\n\nThis presentation will take you through how we got here and where we're going. We'll look at why existing workarounds never quite worked, and how an earlier proposal (PEP 690) tried to make all imports lazy by default but was rejected. Then PEP 810 emerged with a different approach: explicit, opt-in syntax that the community accepted. You'll also learn about the future tooling that we are baking that will help you adopt this safely in your own projects.\n\nWhether you're a beginner curious about Python's future, someone looking to speed up your CLI tools, or you just want to understand what's happening under the hood, this talk will give you everything you need to start using lazy imports with confidence.",
+  "duration": 1821,
+  "language": "eng",
+  "recorded": "2026-05-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/176/"
+    }
+  ],
+  "speakers": [
+    "Brittany Reynoso"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/6C1dPOeXOfU/hqdefault.jpg",
+  "title": "Lazy imports and the art of interpreter procrastination",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6C1dPOeXOfU"
+    }
+  ]
+}

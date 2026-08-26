@@ -1,0 +1,27 @@
+{
+  "description": "Building a data pipeline is difficult. Building one that satisfies the US Federal Government's strictest security controls (FedRAMP High) while handling Protected Health Information (PHI) is typically a nightmare of encryption management and rigid access controls.\n\nThis talk dissects the architecture of a production serverless pipeline designed for federal life sciences that flips the traditional security model on its head. We move beyond pip install cryptography to explore how Python acts as the dynamic glue between rigorous compliance verification and massive data throughput.\n\nAttendees will learn: \n- The Identity-Per-Transaction Pattern: Why \"rotating keys\" is obsolete. We walk through a Python-based identity broker that instantiates a unique, cryptographically scoped IAM credential for every single file transaction\u2014and destroys it milliseconds later.\n- Streaming De-identification: How to implement a clean room scrubbing layer using Python generators and NLP (Microsoft Presidio) to tokenize PII in-memory before it ever touches your data lake. \n- Audit-Ready Logging: Techniques for structuring Python's logging module to produce immutable, auditor-friendly JSON trails that prove compliance without leaking sensitive data. \n\nJoin us to see how we replaced static service accounts with ephemeral Python logic to solve the \"Non-Human Identity\" crisis in high-stakes environments.",
+  "duration": 1538,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/140/"
+    }
+  ],
+  "speakers": [
+    "Tristan McKinnon"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WOOlzsJx9cg/hqdefault.jpg",
+  "title": "Zero Trust in 200ms: Implementing Identity-Per-Transaction with Python and Serverless",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WOOlzsJx9cg"
+    }
+  ]
+}

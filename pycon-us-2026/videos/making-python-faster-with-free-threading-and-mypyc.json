@@ -1,0 +1,27 @@
+{
+  "description": "It\u2019s common to hear complaints about Python being slow. In this talk, I will show how to make some Python programs dramatically faster by using Python 3.14\u2019s free threading and ahead-of-time compilation to C extensions using mypyc.\n\nFree threading can deliver large speedups for CPU-bound code that can be adapted for parallel execution, while mypyc speeds up workloads that benefit from reduced interpreter overhead and that use strict static typing. If each can give a 10\u00d7 speedup in an ideal use case, do we get a \u201choly grail\u201d 100\u00d7 improvement by combining them?\n\nI\u2019ll walk through several small, readable examples distilled from real-world workloads, measuring and explaining what changes when you apply free threading, mypyc, or both. In practice, relatively few programs are excellent fits for both techniques at once, but when they are, you can see substantial gains. Having both tools available gives you more options for attacking performance problems, while staying entirely in Python (and CPython).\n\nAlong the way, I\u2019ll cover common bottlenecks that limit performance scaling and how to diagnose them, including allocation-heavy code and thread contention driven by reference counting.",
+  "duration": 2030,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/72/"
+    }
+  ],
+  "speakers": [
+    "Jukka Lehtosalo"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Y-ri74ZfGdo/hqdefault.jpg",
+  "title": "Making Python Faster with Free Threading and Mypyc",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Y-ri74ZfGdo"
+    }
+  ]
+}

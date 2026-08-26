@@ -1,0 +1,27 @@
+{
+  "description": "Full title: \"The art of live process manipulation with Python 3.14's zero overhead debugging interface\"\n\nHave you ever needed to debug a live Python process but couldn't restart it? Didn't want to redeploy with debug flags or manage sidecar containers just to debug your application?\n\nIn this talk, I'll show you why sys.remote_exec() is one of the coolest features of Python 3.14! I'll cover the basics of Python's new remote debugging capabilities and demonstrate how sys.remote_exec() can be combined with debugpy (an implementation of the Debug Adapter Protocol) to provide full IDE debugging experiences for live processes. I'll share what I learned building a tool that uses these primitives to attach debuggers to FastAPI applications running in local Kubernetes clusters.\n\nBeyond debugging, we'll explore other use cases for sys.remote_exec() and how you can apply the feature to solve problems in your own work!",
+  "duration": 1480,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/67/"
+    }
+  ],
+  "speakers": [
+    "Savannah Ostrowski"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/CnDFc4azdbU/hqdefault.jpg",
+  "title": "The art of live process manipulation with Python 3.14's zero-overhead debugging interface",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=CnDFc4azdbU"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "AI models are often complex, require a lot of resources to run and many considerations in terms of security, privacy, and performance. An emerging ecosystem of tools is making it possible to use the Browser as a great platform to run Python and consume (either by connecting or directly running) AI models. This opens the door to distributing AI to the edge without provisioning servers, managing GPUs, or handling complex infrastructure.\n\nThis talk shows how to use Python in the browser as a secure, sandboxed runtime for both edge inference or using it in agentic workflows where models are provided via an API. We will walk through an architecture where a Python runtime and models are delivered as assets, with all inference happening in different ways in (or through) the user\u2019s browser. Along the way, we will look at how this fits into the broader AI\u2011in\u2011browser ecosystem: interoperating with existing JavaScript model runners, leveraging WebGPU/WebNN for acceleration, mixing Python\u2011based preprocessing with client\u2011side inference engines or simply a gateway to AI services like OpenAI or Anthropic.\n\nSecurity and privacy are first\u2011class concerns: the browser sandbox limits what code can do, and keping inference and related compute on the client means user data does not need to leave the device. We will also be honest about the trade\u2011offs: bundle sizes, model constraints, performance, and when a hybrid edge/cloud approach makes more sense than going fully client\u2011side. Attendees will leave with concrete patterns, example architectures, and a clear path to experimet with Python\u2011powered AI at the edge, no special infrastructure required.",
+  "duration": 1813,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/126/"
+    }
+  ],
+  "speakers": [
+    "Fabio Pliger"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/xncJoSGWZpg/hqdefault.jpg",
+  "title": "Distributing AI with Python in the Browser: Edge Inference and Flexibility Without Infrastructure",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=xncJoSGWZpg"
+    }
+  ]
+}
