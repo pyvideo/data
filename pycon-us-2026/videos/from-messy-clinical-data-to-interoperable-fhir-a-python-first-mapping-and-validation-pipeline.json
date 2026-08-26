@@ -1,0 +1,27 @@
+{
+  "description": "Full talk title: \"From Messy Clinical Data to Interoperable FHIR: A Python-First Mapping and Validation Pipeline\"\n\nHealthcare data is rarely clean. In practice, it arrives as spreadsheets with inconsistent column names, free-text clinical descriptions, partial fields, and little agreement on structure. At the same time, modern analytics and data sharing increasingly require FHIR-compliant resources.\n\nThis talk presents a Python-first approach to bridging that gap. I\u2019ll describe a production Flask application that allows users to upload CSV or Excel files, map columns to FHIR resources (Patient, Observation, Condition, Procedure, Medication, etc.), resolve terminology using LOINC, SNOMED CT, and RxNorm, and generate valid FHIR bundles without requiring users to understand FHIR itself. The focus is on architecture and design decisions rather than standards theory. We\u2019ll look at how pandas is used for normalization and validation, how fuzzy matching (via RapidFuzz) is applied safely to clinical text, and how FHIR resources are constructed dynamically so that only available data is included. Special attention is paid to handling optional fields, extensions, and partial compliance without corrupting downstream data.\n\nThe system is intentionally database-agnostic and stateless; uploaded files are validated and processed in memory, with no persistent file storage, providing fast, interactive feedback. This keeps the deployment lightweight while reducing security and compliance risk, constraints that significantly shaped the final design. Although the example domain is healthcare, the techniques discussed: schema mediation, fuzzy matching, user-guided validation, and resilient ingestion pipelines, are broadly applicable to any Python system that needs to turn messy, user-supplied data into structured, standardized output.\n\nNo prior FHIR knowledge is required.",
+  "duration": 2014,
+  "language": "eng",
+  "recorded": "2026-05-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/58/"
+    }
+  ],
+  "speakers": [
+    "Lisa Smith"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/AJkdevs4zOY/hqdefault.jpg",
+  "title": "From Messy Clinical Data to Interoperable FHIR: A Python-First Mapping and Validation Pipeline",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=AJkdevs4zOY"
+    }
+  ]
+}

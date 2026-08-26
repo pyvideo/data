@@ -1,0 +1,30 @@
+{
+  "description": "En un mundo lleno de dispositivos conectados, lograr que el hardware \"hable\" con los sistemas modernos sigue siendo sorprendentemente dif\u00edcil. Sensores que entregan bytes crudos por UART, equipos industriales que hablan Modbus, servicios cloud que esperan JSON bien formado y APIs que cambian con frecuencia: la interoperabilidad rara vez es un problema de una sola librer\u00eda, sino de c\u00f3mo dise\u00f1amos la integraci\u00f3n.\n\nEsta charla muestra c\u00f3mo usar Python como capa unificadora entre hardware y sistemas conectados, mediante patrones concretos de interoperabilidad. Veremos c\u00f3mo pasar de se\u00f1ales f\u00edsicas desordenadas a un modelo de datos can\u00f3nico, validado y listo para ser consumido por servicios, dashboards o pipelines de datos.\n\nExploraremos tres ideas clave: - C\u00f3mo dise\u00f1ar un modelo can\u00f3nico en Python que represente lecturas de hardware de forma consistente. - C\u00f3mo construir \"protocol bridges\" que traduzcan entre UART/serial, MQTT o HTTP sin duplicar l\u00f3gica. - C\u00f3mo aplicar validaci\u00f3n y normalizaci\u00f3n cerca del dispositivo (validation at the edge) para detectar datos corruptos, incoherentes o peligrosos antes de que lleguen al sistema central.\n\nAcompa\u00f1aremos estos conceptos con una demo donde Python act\u00faa como intermediario entre un dispositivo f\u00edsico (o simulado) y un servicio conectado, mostrando logs, datos transformados y puntos de extensi\u00f3n.\n\nQuienes asistan saldr\u00e1n con patrones reutilizables, ejemplos claros y criterios para decidir cu\u00e1ndo usar cada enfoque, de modo que puedan integrar hardware en entornos modernos sin caer en soluciones fr\u00e1giles o dif\u00edciles de mantener.",
+  "duration": 1345,
+  "language": "spa",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/137/"
+    }
+  ],
+  "speakers": [
+    "Hugo Leyton"
+  ],
+  "tags": [
+    "charla"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/3ZUxodF3XUM/hqdefault.jpg",
+  "title": "Interoperabilidad de hardware con Python para sistemas conectados",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3ZUxodF3XUM"
+    }
+  ]
+}

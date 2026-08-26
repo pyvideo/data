@@ -1,0 +1,28 @@
+{
+  "description": "Full talk title: \"Asleep at the Wheel: Getting your SBOMs to pay attention to Python Builds\"\n\nBetween competing standards, tools, and compliance-checkboxes, developers are effectively told to \u201cgenerate an SBOM\u201d and move on. Security teams are told to trust this SBOM implicitly. When that SBOM is incomplete or inaccurate, the result is noise that creates a real security risk. Vulnerabilities can go undetected, where teams cannot confidently determine their exposure, and the compliance reviews/tools have to work with incomplete evidence of what actually happened.\n\nIn the Python ecosystem, this problem is common. SBOMs rely solely on scanning environments and trusting declared dependencies. This model breaks often and silently, Python wheels for example include more dependencies than the metadata reveals - bundled libraries, vendored code, and build-time artifacts are often undetected. These missing components cause security teams to miss vulnerable components entirely and approve builds that violate organizational policy.\n\nThis talk introduces SBOMit, an OpenSSF project which closes SBOM blind spots by generating SBOMs from build evidence rather than metadata alone. SBOMit consumes in-toto attestations and breaks the reliance on idealised assumptions and addresses the gaps of traditional SBOM tools. SBOMit asks the important question: \u201cWhat did the build actually do?\u201d. What commands it ran, files it accessed, and network calls it made. This approach lets us use CI attestations and provenance as a further source of truth.\n\nIn this talk, we examine the gaps in today\u2019s SBOM generation approaches and how they affect Python ecosystem. We walk through SBOMit\u2019s architecture and how it provides a workflow to plug into your SBOM generation process. Finally, we\u2019ll demonstrate how evidence-based SBOMs can be turned into enforceable CI policies for example preventing unexpected network access during builds or detecting unexplained files in final artifacts. SBOMit transforms your SBOM from a background actor to an active member of your supply-chain security toolkit.",
+  "duration": 1932,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/116/"
+    }
+  ],
+  "speakers": [
+    "Sanchit Sahay",
+    "Abhishek Reddypalle"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/VYY3HnRtV6U/hqdefault.jpg",
+  "title": "Asleep at the Wheel: Getting your SBOMs to pay attention to Python Builds",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=VYY3HnRtV6U"
+    }
+  ]
+}

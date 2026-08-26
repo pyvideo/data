@@ -1,0 +1,27 @@
+{
+  "description": "Many Python developers adopt Polars expecting immediate speedups, only to be disappointed when their code shows little improvement or even runs slower than pandas. The issue is not Polars, but how it is used. Writing Polars code as if it were pandas, that is, with a pandas accent, leads to confusing code and poor performance. This talk focuses on writing idiomatic Polars code instead of translating pandas patterns line by line, empowering Python developers to work efficiently with large datasets without leaving the Python ecosystem.\n\nWe will show common mistakes made by developers transitioning from pandas to Polars, such as using square bracket notation, overusing eager execution, and relying on intermediate variables. Through code examples, the talk will demonstrate how Polars promotes a different mental model built around expressions, lazy execution, and chained operations.\n\nAttendees will learn best practices for structuring Polars pipelines, writing clear and composable expressions, and leveraging the query optimizer through chained operations. By the end of the session, participants will be able to recognize pandas-accented Polars code and confidently rewrite it in a way that is more readable, performant, and idiomatic. More importantly, they will learn to think in Polars first, writing code that is faster and easier to maintain.\n\nAudience\n\nThis talk is for data scientists, analysts, and engineers familiar with pandas who are beginning to explore Polars. Intermediate Polars users will learn best practices to improve code quality and performance, while beginners will gain insight into how Polars differs conceptually from pandas and why it matters.\n\nTakeaways\n\nHow Polars\u2019 execution model differs from pandas.\nSpot pandas habits that lead to poor Polars code.\nAdopt idiomatic Polars patterns for data transformation and analysis.\nEmbrace chained operations to leverage the query optimizer.",
+  "duration": 1335,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/10/"
+    }
+  ],
+  "speakers": [
+    "Joram Mutenge"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/5-4xTrN-M98/hqdefault.jpg",
+  "title": "Don\u2019t Write Polars Code with a Pandas Accent",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5-4xTrN-M98"
+    }
+  ]
+}

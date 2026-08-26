@@ -1,0 +1,28 @@
+{
+  "description": "Full talk title: \"Tachyon: Python 3.15's sampling profiler is faster than your code\"\n\nIn the core dev team we set out to build the best sampling profiler for any interpreted language and place it in the standard library. Python 3.15 ships the result: Tachyon, a sampling profiler that can sample at the microsecond level. At that speed, your profiler might actually be doing more work than the code it's profiling.\n\nThis talk is the story of how we built it. You'll learn how to read memory from a running process without stopping it, how to make sense of Python's internal structures from the outside, and what tricks are needed to go from \"fast enough\" to \"this speed is almost illegal\". If you've ever wondered what it takes to build a profiler that can attach to a production server, grab data, and leave without the application noticing, this is where you find out.\n\nBut this isn't just a talk about internals. You'll also learn how to use Tachyon to find the slow parts of your code. Flamegraphs, heatmaps, async-aware profiling, GIL contention analysis, bytecode level profiling... By the end you'll know which output format to pick, which profiling mode fits your problem, and how to go from \"my server is slow\" to \"here's the line that's killing us.\"\n\nWhether you're interested in the systems programming that makes this work, or you just want a better way to debug performance problems, this talk has something for you.",
+  "duration": 2055,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/31/"
+    }
+  ],
+  "speakers": [
+    "Pablo Galindo Salgado",
+    "Laszlo Kiss Kollar"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/f1x4X83CDSA/hqdefault.jpg",
+  "title": "Tachyon: Python 3.15's sampling profiler is faster than your code",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=f1x4X83CDSA"
+    }
+  ]
+}

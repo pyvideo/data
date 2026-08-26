@@ -1,0 +1,27 @@
+{
+  "description": "In July 2025, PyPI users received emails directing them to pypj.org\u2014a near-perfect clone transparently proxying requests to pypi.org. Within hours, attackers compromised four accounts and uploaded malicious releases of the popular num2words package.\n\nThis talk dissects the complete attack chain: how attackers harvested email addresses from public package metadata, built a transparent proxy that relayed TOTP codes in real-time, and why traditional 2FA failed while WebAuthn-based authentication stopped the attack cold.\n\nThe session covers the incident response timeline, challenges getting malicious infrastructure taken down (including initial rejection of abuse reports), and defensive measures deployed afterward\u2014including new email verification for TOTP logins from unrecognized devices.\n\nAttendees will learn exactly how modern phishing attacks work against package repositories, the critical difference between \"phishable\" and \"phishing-resistant\" 2FA, and practical steps to protect accounts and packages from the next campaign. The talk also examines the September 2025 follow-up campaign targeting pypi-mirror.org and patterns across these ongoing attacks.",
+  "duration": 1845,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/74/"
+    }
+  ],
+  "speakers": [
+    "Mike Fiedler"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/uXW1qeUS6Yw/hqdefault.jpg",
+  "title": "Anatomy of a Phishing Campaign",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=uXW1qeUS6Yw"
+    }
+  ]
+}

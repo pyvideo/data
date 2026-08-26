@@ -1,0 +1,28 @@
+{
+  "description": "Have you ever tried to add types to an existing Python library or application and hit a wall or wondered why it can be so hard? This talk is for you!\n\nStatic typing is a powerful lever for working with code. It provides verifiable documentation, finds bugs quickly, enables less scary refactors, and unlocks tools like modern IDEs for understanding and navigating code.\n\nBut often we approach turning untyped code into statically typed code as if it\u2019s just a matter of adding annotations. This is rarely the case, and understanding why can help.\n\nPython was conceived as a dynamically typed language, so much of its rich library ecosystem emerged without types. Many powerful patterns that make Python useful are difficult to express statically, for example:\n\nPervasive duck typing\nMetaprogramming and classes with dynamic behavior\nReliance on flow-sensitive type information that type checkers can\u2019t track\nUsing heterogeneous containers in ways the type system can\u2019t model\nWe\u2019ll explore these patterns, why they\u2019re hard to type and might not be worth typing, and offer advice for getting the most out of the type system in the presence of these patterns.\n\nWe\u2019ll also look at how Python\u2019s type system has evolved to support more dynamic use cases, and possible future directions.\n\nWhat attendees will learn :\n- Historical context on Python before static types\n- Common challenges adding types to code whose semantics don\u2019t fit\n- Approaches for dealing with code that\u2019s difficult to statically type\n- Perspective on how the Python type system evolves to handle a wider range of patterns",
+  "duration": 1703,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/15/"
+    }
+  ],
+  "speakers": [
+    "Jia Chen",
+    "Steven Troxler"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/zIUGND4Ubmo/hqdefault.jpg",
+  "title": "Mind the gap! Why static typing requires more than just adding annotations",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=zIUGND4Ubmo"
+    }
+  ]
+}

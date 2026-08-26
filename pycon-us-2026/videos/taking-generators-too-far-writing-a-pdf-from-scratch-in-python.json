@@ -1,0 +1,27 @@
+{
+  "description": "PDFs are everywhere, but the file format itself feels like a black box. What better way to demystify it than to write a PDF writer from scratch?\n\nHere's the twist: we'll use generators all the way down\u2014streaming every byte without ever assembling the full document in memory. At first, this seems like a natural fit. But PDFs fight back: forward references, cross-reference tables, and content lengths that need to be known before the content exists. Each of these challenges forces us to discover a new way to keep things streaming.\n\nThis talk walks through the problem-solving journey step by step. You'll pick up practical techniques\u2014composing generators, managing dependencies in streaming pipelines, and knowing when \"too far\" is actually just far enough\u2014all while building something real. You'll also walk away with a surprising appreciation for what's inside every PDF you've ever opened.",
+  "duration": 1568,
+  "language": "eng",
+  "recorded": "2026-05-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/98/"
+    }
+  ],
+  "speakers": [
+    "Arie Bovenberg"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/WqdUOt0TRP0/hqdefault.jpg",
+  "title": "Taking Generators Too Far: Writing a PDF from Scratch in Python",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WqdUOt0TRP0"
+    }
+  ]
+}

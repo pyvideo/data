@@ -1,0 +1,27 @@
+{
+  "description": "As AI applications and agents move from prototypes to production, Python developers are increasingly tasked with orchestrating large numbers of models, tools and external services. These requirements often push teams toward specialized frameworks or domain-specific languages to manage concurrency and workflows, even though Python\u2019s standard library already provides the core building blocks to solve these problems.\n\nThis talk demonstrates how engineers can leverage Python\u2019s native asyncio library together with container orchestration platforms like Kubernetes to build scalable, production-ready AI workflows. It presents a practical explainer of asyncio, emphasizing the aspects most relevant to today\u2019s AI systems, such as structured concurrency, task coordination, backpressure, timeouts and failure isolation. It demonstrates how asyncio can be a highly effective programming paradigm to coordinate compute and data flow on a Kubernetes backend, giving Python developers the scale they need to build production-grade AI applications and agents.\n\nThrough concrete examples, the session shows how common workflow patterns, including coordinating LLM calls, executing tools in parallel, streaming responses and interacting with rate-limited APIs, can be implemented directly with asyncio and other Python primitives. Rather than relying on declarative pipelines or custom Domain-Specific Language (DSLs), these patterns remain explicit, debuggable and easy to reason about using plain Python.\n\nThe talk also explores how async Python can serve as a client to a scalable container orchestration backend, enabling AI services and agents to scale predictably while preserving readability and operational control. Topics include handling partial failures, retries, and high-throughput workloads without blocking or over-abstracting the developer\u2019s programming paradigm.\n\nBy the end of the session, attendees will understand why asyncio coupled with container orchestrators like Kubernetes are sufficient to build scalable, Pythonic AI workflows and how using the standard library can reduce complexity and improve long-term maintainability.",
+  "duration": 1819,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/167/"
+    }
+  ],
+  "speakers": [
+    "Niels Bantilan"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/YF1Dgp0jZrM/hqdefault.jpg",
+  "title": "Container-enabled Asyncio is All You Need (to Build Pythonic AI Workflows at Scale)",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YF1Dgp0jZrM"
+    }
+  ]
+}

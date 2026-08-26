@@ -1,0 +1,27 @@
+{
+  "description": "Free-threaded Python, the effort to remove the Global Interpreter Lock from CPython, is one of the biggest and most exciting changes to Python in many years. However, It can be hard to follow what that means, what effect it will have on you and your code, and how this isn't yet another Python 2 to 3 migration.\n\nThis overview will explain what free-threading is, why it's a big deal, how it differs from other ways to deal with the GIL, and what the plan is for ensuring a smooth migration. We'll explain the basics of thread safety, data races, and concurrent designs, how those apply to Python code, and how this will and won't change when the GIL is disabled. And yes, we'll show some threads go brrr.\n\nAlthough we'll mention some complex, deeply technical problems, this is not a technical deep dive and any experience level is welcome.",
+  "duration": 1825,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/63/"
+    }
+  ],
+  "speakers": [
+    "Thomas Wouters"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/PZu6LyiZVbM/hqdefault.jpg",
+  "title": "Free threaded Python  past, present and future",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=PZu6LyiZVbM"
+    }
+  ]
+}

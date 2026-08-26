@@ -1,0 +1,27 @@
+{
+  "description": "Modern web abuse rarely looks like a traditional attack. Bots scrape content slowly, spam blends in with real users, and malicious clients often behave just well enough to avoid static rules. Many Python web applications rely on rate limiting, IP blocking, or simple pattern matching, which can miss these kinds of threats or create unnecessary false positives.\n\nThis talk explores a behavior-based approach to securing Python web applications using lightweight AI techniques that run directly inside application middleware. Rather than focusing on heavy models or external security services, the session looks at how Python developers can use signals they already have, request timing, headers, paths, and error patterns, to detect abuse more reliably.\n\nThe ideas in this talk are drawn from building and testing adaptive security middleware across multiple Python web frameworks, including Django, Flask, and FastAPI. Attendees will learn what signals are useful, where AI helps, where it doesn\u2019t, and how to design security systems that fail safely and respect user privacy.",
+  "duration": 1036,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/61/"
+    }
+  ],
+  "speakers": [
+    "Aayush Gauba"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/J3A-LReijws/hqdefault.jpg",
+  "title": "Beyond Rate Limiting Adaptive Security for Python Web Applications",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=J3A-LReijws"
+    }
+  ]
+}

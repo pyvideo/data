@@ -1,0 +1,27 @@
+{
+  "description": "We've been told to \"treat data pipelines like software\" for years. Apply CI/CD. Write unit tests. Use version control. Follow software engineering best practices, and our data pipelines will be reliable.\n\nBut here's the problem: It doesn't work.\n\nWhen I analyzed failure patterns across thousands of production data pipelines, I discovered something surprising: Code changes showed virtually no correlation with pipeline failures. Instead, failures traced to the inputs, like schema drift, late data and upstream systems changing behavior. All the external, unpredictable things data engineers can't control.\n\nData engineers aren't doing software engineering \"wrong\". They're operating under fundamentally different causality: - In application development, code controls input. When something breaks, you trace it to a code change. Testing means predicting outputs for controlled inputs and practices have evolved to manage this reality. - In data engineering, inputs control code. Your code reacts to external systems you don't control. Failures trace to input variance and invalid assumptions, things you can't unit test.\n\nSoftware engineering practices fail in data engineering because the causality is reversed, and no amount of \"doing it better\" will change that.\n\nThis talk presents empirical evidence for this pattern, explains why the conventional wisdom persists. Then it explores what actually works when inputs control your code: Treating time and data state as first-class concerns and designing for graceful degradation when inputs inevitably surprise you.\n\nIf you've ever felt like you're \"doing software engineering wrong\" because your data pipelines still break, this talk will reframe everything.",
+  "duration": 1517,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/94/"
+    }
+  ],
+  "speakers": [
+    "Constance Martineau"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/EFB4fZuWGUc/hqdefault.jpg",
+  "title": "Why Software Engineering Best Practices Fail in Data Engineering",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=EFB4fZuWGUc"
+    }
+  ]
+}

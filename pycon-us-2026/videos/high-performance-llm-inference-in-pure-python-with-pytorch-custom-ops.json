@@ -1,0 +1,27 @@
+{
+  "description": "This talk presents how a modern large language model (LLM) inference engine written entirely in Python can reach performance comparable to C++-based systems such as TensorRT-LLM. Based on experience maintaining SGLang\u2014an open-source pure-Python inference engine, this session explains the design principles behind choosing a Python-first architecture and how it achieves high throughput and low latency in real deployments.\n\nThe core idea is that Python, supported by the evolving PyTorch runtime stack, can serve not only as orchestration code but as the foundation of a performant inference system. Three components make this possible: a multi-process scheduling framework for parallelism, a zero-overhead batch scheduler that hides CPU overhead behind GPU execution, and a set of high-performance PyTorch custom ops implemented directly in Python. Together, they keep GPUs fully utilized while maintaining a clean and flexible Python development experience.\n\nThis talk will cover:\n\nWhy a pure-Python architecture can match C++ inference engines\n\nThe key design principles behind multi-process runtime scheduling\n\nHow zero-overhead batch scheduling improves utilization and reduces latency\n\nThe role of PyTorch custom ops in high-performance serving\n\nInsights and practical lessons learned from scaling a Python LLM engine\n\nAttendees will gain a clear understanding of how Python can power high-performance LLM workloads and how these ideas can be applied to their own systems\u2014without requiring C++ or CUDA expertise.",
+  "duration": 1106,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/120/"
+    }
+  ],
+  "speakers": [
+    "Yineng Zhang"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/XdDiixKHk38/hqdefault.jpg",
+  "title": "High Performance LLM Inference in Pure Python with PyTorch Custom Ops",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=XdDiixKHk38"
+    }
+  ]
+}

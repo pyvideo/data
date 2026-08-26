@@ -1,0 +1,27 @@
+{
+  "description": "Python 3.14 makes it easy to invoke a version of the interpreter without the Global Interpreter Lock (GIL). This makes it especially important to understand the GIL and how it affects your code, otherwise you\u2019ll encounter surprises when attempting to write code without the GIL. This presentation introduces the GIL for Python novices and covers issues you must know to begin understanding the challenges of switching to GIL-free Python. We\u2019ll explore how the GIL maintains reference-counted garbage collection, then look at how Python\u2019s different concurrency strategies solve different kinds of problems. The heart of this talk shows how the GIL incidentally protects you from basic shared-memory concurrency errors, so you understand that removing the GIL will likely reveal those errors when you don\u2019t expect them.",
+  "duration": 2278,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/45/"
+    }
+  ],
+  "speakers": [
+    "Bruce Eckel"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/MC1PQ7ZgUeU/hqdefault.jpg",
+  "title": "Demystifying the GIL",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MC1PQ7ZgUeU"
+    }
+  ]
+}

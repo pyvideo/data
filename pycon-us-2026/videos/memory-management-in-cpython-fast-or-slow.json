@@ -1,0 +1,27 @@
+{
+  "description": "When considering Python performance, memory management often gets less attention than features like free-threading or the JIT compiler. Yet, roughly a third of the runtime of a typical Python program is spent performing memory management. Understanding how CPython allocates, tracks, and frees memory is important for understanding Python performance.\n\nMost Python developers know that CPython uses reference counting to determine when objects can be freed. But that\u2019s only one part of a much more intricate system. Behind the scenes, CPython must also:\n\n- Allocate memory for new objects quickly and efficiently\n- Return freed memory back to the system or to internal allocators for reuse\n- Detect and collect cyclic references, which reference counting alone cannot handle; CPython includes a dedicated cycle detector to ensure these objects are eventually freed\n\nIn this talk, I will:\n\n- Trace the lifetime of a Python object through the lens of memory management\n- Examine the time and space costs associated with each component of memory management\n- Highlight improvements made in recent CPython releases, and discuss future opportunities to further reduce these costs",
+  "duration": 1671,
+  "language": "eng",
+  "recorded": "2026-05-17",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/42/"
+    }
+  ],
+  "speakers": [
+    "Mark Shannon"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Cxv1ujO3izo/hqdefault.jpg",
+  "title": "Memory management in CPython, fast or slow?",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Cxv1ujO3izo"
+    }
+  ]
+}

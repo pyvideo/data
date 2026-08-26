@@ -1,0 +1,27 @@
+{
+  "description": "GitHub Actions is the dominant CI system for Python open source, used for testing and publishing including trusted publishing to PyPI via OIDC. That means the security properties of Actions directly affect the Python supply chain.\n\nBut Actions is a package manager without the security features we expect from package managers: no lockfiles, mutable version tags, implicit transitive dependencies. Prior research shows 97% of workflows use actions from unverified creators. If a workflow can be compromised before the package is signed, downstream protections don't help.\n\nI scanned GitHub Actions workflows across thousands of Python packages on PyPI using zizmor, a static analysis tool for Actions security. I found unpinned third-party actions, overly permissive GITHUB_TOKEN scopes, artifact poisoning risks, and pull request vulnerabilities that could let attackers hijack releases.\n\nThis talk presents findings at ecosystem scale and explores what the Python community can learn from how we've solved similar problems in pip.\n\nWhat we'll cover:\n\nWhy GitHub Actions is a supply chain risk\nWhat's missing compared to pip, npm, and other package managers\nFindings from scanning Python package workflows at scale\nWhat we can learn from pip's security model\nA checklist for hardening Python package release workflows\nHow to integrate zizmor into CI pipelines",
+  "duration": 1820,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/117/"
+    }
+  ],
+  "speakers": [
+    "Andrew Nesbitt"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/vn3YIqdseWI/hqdefault.jpg",
+  "title": "GitHub Actions Security in Python Packages",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vn3YIqdseWI"
+    }
+  ]
+}

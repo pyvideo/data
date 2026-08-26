@@ -1,0 +1,28 @@
+{
+  "description": "Most SBOM tools report what they find in metadata files or what is installed on the system, not what the Python application actually executes. Python's flexible import mechanism allows modules to load dynamically at runtime, so the dependencies an application uses can differ from what metadata files or package managers tell. Runtime SBOM tools are designed to capture components as they load, but they need the system to stay live and observable. In real incidents, systems may crash, become corrupted, or end up completely inaccessible because of malicious dependencies or destructive actions like ransomware. When this happens, memory becomes the only reliable source of what was actually running. This talk introduces the first approach that generates SBOMs directly from the in-memory runtime state of Python applications. This approach traverses the interpreter\u2019s module registries, garbage-collector lists, memory arenas, and heap objects to recover all loaded modules, including ones attackers try to hide, group them into packages, resolve their versions using in-memory attributes, and output a CycloneDX-compliant SBOM. It also constructs dependency relationships and identifies which code paths were exploitable at runtime. Across 51 real-world Python applications (web frameworks, CLI tools, ML platforms, schedulers, and visualization tools), we found significant mismatches between what SBOM tools report and what the memory reveals. In a case study involving the Tornado package, we found that only Streamlit v1.40.1 out of six dependent applications invokes the vulnerable routines, reducing false-positive CVE noise by 80.3%. Through this talk, attendees will learn why we need SBOMs, why existing tools misreport Python dependencies, how Python internals appear in memory, and why recovering the runtime state of a Python application from memory is critical for supply chain security.",
+  "duration": 1932,
+  "language": "eng",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/104/"
+    }
+  ],
+  "speakers": [
+    "Hala Ali",
+    "Andrew Case"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/mgY7zuDYrag/hqdefault.jpg",
+  "title": "Post Incident Runtime SBOM Generation from Python Memory",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mgY7zuDYrag"
+    }
+  ]
+}

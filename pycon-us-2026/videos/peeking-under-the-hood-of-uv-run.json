@@ -1,0 +1,27 @@
+{
+  "description": "uv is a popular new package and project management tool with a focus on speeding up the fundamental operations of packaging. uv's performance improvements are used to power new workflows and user experiences that were previously impossible. A core example of this is uv run, which does a lot of work to ensure your environment is up-to-date before executing your command.\n\nIn this talk, we'll dive into the details of what uv is doing under the hood during the run command. We'll cover the many steps necessary to go from a pyproject.toml to running Python code, including dependency resolution, package installation, and Python interpreter discovery and installation. We'll walk through the design decisions that make these operations fast. We\u2019ll also discuss how modern standards made uv possible, the practical challenges that remain, and new standards that would unlock further improvements.\n\nSome prior knowledge of Python packaging will be helpful, but not necessary. We will focus on implementation details at a high-level, e.g., why the performance of version parsing is important, but we won't be diving into the low-level code, e.g., how uv implements version parsing.",
+  "duration": 2338,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/77/"
+    }
+  ],
+  "speakers": [
+    "Zanie Blue"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/gZiqURP5tbk/hqdefault.jpg",
+  "title": "Peeking under the hood of uv run",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gZiqURP5tbk"
+    }
+  ]
+}

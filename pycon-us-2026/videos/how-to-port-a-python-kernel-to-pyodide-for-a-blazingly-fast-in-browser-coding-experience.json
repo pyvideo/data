@@ -1,0 +1,27 @@
+{
+  "description": "Full talk title: \"How to port a Python kernel to Pyodide for a blazingly fast in-browser coding experience\"\n\nPyodide has proven instrumental in making scientific computing accessible to anyone with an internet connection, by eliminating the need to install and manage Python and making it possible to distribute Python applications on the web, no servers required. Combined with projects such as JupyterLite and marimo, Pyodide makes it easy to share interactive executable notebooks via a url, eliminating the financial and technical burden of deploying backend infrastructure.\n\nThis talk focuses on how to build a large Python codebase that's compatible with both Pyodide and native Python, with minimal code changes. We will examine the kernel implementation of the marimo notebook, an open-source reactive Python notebook, as a case study. marimo's kernel implementation uses a single codebase, with minimal changes, for both the native Python and Pyodide codepaths, despite significant architectural differences in the two runtimes.\n\nThrough this case study, we'll examine a question that is broadly applicable to developers seeking to make their tools widely accessible: How do you adapt an existing Python codebase to work in WebAssembly, without sacrificing maintainability or performance of the original implementation? For example, we'll look at examples on how to get around Pyodide's restrictions on threading and multiprocessing, how to implement interrupts, package management, and more. We will also give an overview of techniques on the frontend to ensure a performant in-browser experience, resulting in a coding editor that starts up far faster than hosted alternatives like Google Colab.\n\nNo prior experience with marimo, Pyodide, or WebAssembly is required. This talk is for anyone interested in making Python tools and applications accessible to anyone with an internet connection, no servers required.",
+  "duration": 1732,
+  "language": "eng",
+  "recorded": "2026-05-15",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/78/"
+    }
+  ],
+  "speakers": [
+    "Myles Scolnick"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/Yt-DhlY7dFM/hqdefault.jpg",
+  "title": "How to port a Python kernel to Pyodide for a blazingly fast in-browser coding experience",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Yt-DhlY7dFM"
+    }
+  ]
+}

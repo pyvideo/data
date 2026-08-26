@@ -1,0 +1,30 @@
+{
+  "description": "Esta charla presentar\u00e1 una visi\u00f3n completa del ecosistema CUDA Python, mostrando c\u00f3mo Python tiene soporte de primera clase para programar GPUs de NVIDIA desde el runtime de bajo nivel hasta DSLs de alto nivel. Iremos m\u00e1s all\u00e1 de simplemente usar PyTorch para entrenar modelos de machine learning y exploraremos las diferentes capas del stack de CUDA entendiendo cu\u00e1ndo usar cada una para sacar el m\u00e1ximo provecho a una GPUs. Ideal para cient\u00edficos, ingenieros de datos, desarrolladores de ML, y cualquier pythonista que quiera aprovechar GPUs sin necesidad de aprender C++.\n\nExploraremos c\u00f3mo migrar c\u00f3digo NumPy a CuPy y c\u00f3mo acelerar bibliotecas de ciencias de datos como Pandas y Polars con RAPIDS para mover cargas de trabajo de CPU a la GPU. Tambi\u00e9n veremos c\u00f3mo escalar c\u00f3digo en NumPy de tu computador personal a un supercomputador. Para quienes buscan control total, exploraremos CUDA Core para programar kernels de GPU directamente desde Python, y CCCL para hacer esta programaci\u00f3n m\u00e1s accesible. Conocer\u00e1s nvmath-python, que te da acceso muchas bibliotecas optimizadas de CUDA-X con compilaci\u00f3n just-in-time y fusi\u00f3n de kernels autom\u00e1tica.\n\nTambi\u00e9n presentaremos un nuevo modelo de programaci\u00f3n: cuTile. Este te permite escribir c\u00f3digo para tensor cores usando sintaxis NumPy familiar, alcanzando rendimiento pico sin complejidad. cuTile abstrae los detalles del hardware especializado (Tensor Cores) y te permite enfocarte en tu algoritmo especificando operaciones sobre bloques de datos (tiles) en lugar de programar elemento por elemento. Es el mayor avance en CUDA desde 2006, haciendo que la programaci\u00f3n de tensor cores sea tan natural como usar NumPy.\n\nVer\u00e1s casos de uso reales y saldr\u00e1s con recursos pr\u00e1cticos para empezar a acelerar tu c\u00f3digo hoy mismo.",
+  "duration": 2119,
+  "language": "spa",
+  "recorded": "2026-05-16",
+  "related_urls": [
+    {
+      "label": "Conference Website",
+      "url": "https://us.pycon.org/2026/"
+    },
+    {
+      "label": "Presentation Webpage",
+      "url": "https://us.pycon.org/2026/schedule/presentation/29/"
+    }
+  ],
+  "speakers": [
+    "Daniel Rodriguez"
+  ],
+  "tags": [
+    "charla"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/NxTzS3uQBO0/hqdefault.jpg",
+  "title": "Python a la velocidad de la luz: Un recorrido completo por el ecosistema de CUDA",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=NxTzS3uQBO0"
+    }
+  ]
+}
